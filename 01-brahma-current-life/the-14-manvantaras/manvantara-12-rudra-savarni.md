@@ -16,7 +16,7 @@
   - *Variant (Viṣṇu Purāṇa 3.2):* names **Devavān** alone as head of the Manu's sons; **Upadeva** and **Devaśreṣṭha** are the Bhāgavata's additions.
 
 ### The Indra — Ṛtadhāma
-- **Ṛtadhāma (Ṛtadhāman)** — the king of the devas who holds the office of [Indra](../../03-deities/01-devas/indra.md) during this manvantara (*ṛtadhāmā ca tatrendraḥ*, BhP 8.13.28; Viṣṇu Purāṇa 3.2). The Indra-ship is an office that rotates each manvantara; Ṛtadhāma occupies it here.
+- **Ṛtadhāma (Ṛtadhāman)** — the king of the devas who holds the office of [Indra](../../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) during this manvantara (*ṛtadhāmā ca tatrendraḥ*, BhP 8.13.28; Viṣṇu Purāṇa 3.2). The Indra-ship is an office that rotates each manvantara; Ṛtadhāma occupies it here.
   - *Variant (spelling):* rendered **Ṛtudhāma / Ṛtadhāman / Ṛtadhāmā** across recensions and translations; all denote the same figure.
 
 ### The Saptarṣis (Seven Sages)
@@ -36,7 +36,7 @@
   - *Note on multi-class schemes:* unlike some manvantaras where the Purāṇas tabulate several ten-membered deva-troops (e.g. the elaborate class-lists of the early future Manus), the canonical verses for the 12th give only "the Haritas and others." Detailed multi-class enumerations (Harita, Rohita, Sumanas, Sukarman, Surāpa, etc.) attached to this Manu in some popular summaries are extrapolations from the neighbouring Sāvarṇi manvantaras rather than verses specific to Rudra-Sāvarṇi. [scholarly]
 
 ### The Viṣṇu Avatāra — Svadhāman (Sudhāman)
-- **Svadhāman (Sudhāman / Svadhāma)** — the partial incarnation (*aṃśa*) of [Viṣṇu](../../03-deities/02-trimurti/vishnu.md) who upholds dharma and the Manu's rule during this age (*svadhāmākhyo harer aṃśaḥ sādhayiṣyati tan-manoḥ*, BhP 8.13.29).
+- **Svadhāman (Sudhāman / Svadhāma)** — the partial incarnation (*aṃśa*) of [Viṣṇu](../../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md) who upholds dharma and the Manu's rule during this age (*svadhāmākhyo harer aṃśaḥ sādhayiṣyati tan-manoḥ*, BhP 8.13.29).
   - **Parentage:** born of the womb of **Sunṛtā**, wife of **Satyasaha** (Satyasahas) — *antaraṃ satyasahasaḥ sunṛtāyāḥ suto vibhuḥ* (BhP 8.13.29). He is thus the son of Satyasaha and Sunṛtā, descending to govern the affairs of Rudra-Sāvarṇi's manvantara.
   - *Variant (name):* **Sudhāman** (Viṣṇu Purāṇa / Wilson) vs **Svadhāman / Svadhāma** (Bhāgavata) — both attested; "Su-dhāman" ("of good abode") and "Sva-dhāman" ("self-abiding / of own abode") are alternative readings of the same avatāra. [disputed]
 

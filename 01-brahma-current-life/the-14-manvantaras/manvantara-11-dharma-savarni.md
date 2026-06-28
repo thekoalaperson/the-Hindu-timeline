@@ -36,7 +36,7 @@ The sources **disagree on the name of Indra** for this manvantara — a genuine 
 
 ## How sparse is the record?
 
-- Beyond the rosters above, **no narrative events, conflicts, or stories are attributed to this manvantara** in the major Puranas — it is part of the *prophetic* (anāgata) future half of the Kalpa, sketched only as a list of office-holders. This is normal for the future manvantaras (8th–14th), which the texts enumerate rather than narrate. Be skeptical of any detailed "story" of Dharma-Sāvarṇi in late or popular retellings; the primary record is the roster. Compare the equally terse [Manvantara 9 — Dakṣa-Sāvarṇi](manvantara-09-daksha-savarni.md), [Manvantara 12 — Sāvarṇa/Rudra-Sāvarṇi](manvantara-12-savarna.md), and the better-attested [Manvantara 8 — Sāvarṇi](manvantara-08-savarni.md), which alone among the future Manus carries developed myth.
+- Beyond the rosters above, **no narrative events, conflicts, or stories are attributed to this manvantara** in the major Puranas — it is part of the *prophetic* (anāgata) future half of the Kalpa, sketched only as a list of office-holders. This is normal for the future manvantaras (8th–14th), which the texts enumerate rather than narrate. Be skeptical of any detailed "story" of Dharma-Sāvarṇi in late or popular retellings; the primary record is the roster. Compare the equally terse [Manvantara 9 — Dakṣa-Sāvarṇi](manvantara-09-daksha-savarni.md), [Manvantara 12 — Sāvarṇa/Rudra-Sāvarṇi](manvantara-12-rudra-savarni.md), and the better-attested [Manvantara 8 — Sāvarṇi](manvantara-08-savarni.md), which alone among the future Manus carries developed myth.
 
 ## Sources
 

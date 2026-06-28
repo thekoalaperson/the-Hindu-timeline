@@ -42,7 +42,7 @@ The Mārkaṇḍeya Purāṇa is unusual in giving the 13th Manu a real narrativ
 
 ## Reconciliation notes
 
-- **The six "Sāvarṇi" Manus (8th–13th):** the Bhāgavata groups Manus 8 through 13 under the surname *Sāvarṇi*, said to share a solar/Savarna lineage — [8 Sāvarṇi](manvantara-08-savarni.md), [9 Dakṣa-Sāvarṇi](manvantara-09-daksa-savarni.md), [10 Brahma-Sāvarṇi](manvantara-10-brahma-savarni.md), [11 Dharma-Sāvarṇi](manvantara-11-dharma-savarni.md), [12 Rudra-Sāvarṇi](manvantara-12-rudra-savarni.md), and **13 Deva-Sāvarṇi**. The 13th is the last to bear the name before the final [14th Bhautya](manvantara-14-indra-savarni.md). [late text]
+- **The six "Sāvarṇi" Manus (8th–13th):** the Bhāgavata groups Manus 8 through 13 under the surname *Sāvarṇi*, said to share a solar/Savarna lineage — [8 Sāvarṇi](manvantara-08-savarni.md), [9 Dakṣa-Sāvarṇi](manvantara-09-daksha-savarni.md), [10 Brahma-Sāvarṇi](manvantara-10-brahma-savarni.md), [11 Dharma-Sāvarṇi](manvantara-11-dharma-savarni.md), [12 Rudra-Sāvarṇi](manvantara-12-rudra-savarni.md), and **13 Deva-Sāvarṇi**. The 13th is the last to bear the name before the final [14th Bhautya](manvantara-14-indra-savarni.md). [late text]
 - **Why the record is sparse:** every detail here is a *future* projection internal to the current Shveta-Varaha Kalpa; the Puranas furnish names, not deeds, for ages yet to come. Treat the entire entry as scriptural prophecy, honestly thin on narrative. [folk]
 
 ## Sources

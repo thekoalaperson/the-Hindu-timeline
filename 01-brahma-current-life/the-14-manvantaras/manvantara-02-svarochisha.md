@@ -2,7 +2,7 @@
 
 > Hierarchy: this Day of Brahmā (Śveta-Vārāha Kalpa) → 2nd of the 14 [Manvantaras](./) → **Svārociṣa Manu** (long past; 5 Manvantaras now separate it from the current 7th, [Vaivasvata](./manvantara-07-vaivasvata/)). Up to the [Manvantaras README](./README.md) · [Brahmā's current life](../../README.md).
 
-A manvantara = 71 mahāyugas + 1 sandhyā ≈ 306,720,000 human years (see [the mahāyuga & 4 yugas](../../02-mahayuga-and-the-four-yugas/)). Each is presided over by its own Manu, a set of seven sages ([Saptarṣi](../../02-deities-and-cosmic-hierarchy/saptarishi.md)), an Indra, a class of gods (deva-gaṇa), and an avatāra of [Viṣṇu](../../03-deities/vishnu.md). For most of this early age the canonical Purāṇas give only bare lists — Manu, Indra, sages, gods, avatāra — and those lists **disagree with one another**. The one place the tradition is rich is the **origin legend of how Svārociṣa Manu came to be born**, preserved at length in the [Mārkaṇḍeya Purāṇa](../../90-literature-corpus/puranas/markandeya-purana.md). That tale is given in full below; everything after it is honestly sparse.
+A manvantara = 71 mahāyugas + 1 sandhyā ≈ 306,720,000 human years (see [the mahāyuga & 4 yugas](../../02-mahayuga-and-the-four-yugas/)). Each is presided over by its own Manu, a set of seven sages ([Saptarṣi](../../02-deities-and-cosmic-hierarchy/saptarishi.md)), an Indra, a class of gods (deva-gaṇa), and an avatāra of [Viṣṇu](../../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md). For most of this early age the canonical Purāṇas give only bare lists — Manu, Indra, sages, gods, avatāra — and those lists **disagree with one another**. The one place the tradition is rich is the **origin legend of how Svārociṣa Manu came to be born**, preserved at length in the [Mārkaṇḍeya Purāṇa](../../90-literature-corpus/puranas/markandeya-purana.md). That tale is given in full below; everything after it is honestly sparse.
 
 ---
 
@@ -21,7 +21,7 @@ The Mārkaṇḍeya Purāṇa (adhyāyas ~58–64, the *Svārociṣa-manvantara-
   - *Variant:* sources differ on which wife confers which vidyā and whether Vibhāvarī and Kalāvatī are two women or two names of one; treat the assignment as fluid. [variant]
 - **Sons of Svarocis** — after some six hundred years of married life Svarocis fathers sons, named in one recension **Vijaya, Merunandana and Prabhāsa**. (Svarocis's descendants; Mārkaṇḍeya Purāṇa.) *These are the sons of Svarocis, not of the Manu — see the variant note under "Sons of the Manu" below.*
 - **The doe and the birth of the Manu** — a female deer (doe) appeals to Svarocis for mercy and asks him to embrace her; when he does she conceives and instantly delivers **Svārociṣa Manu** — "the second in the series" — amid celestial rejoicing and a rain of fragrant flowers. (Birth of the Manu proper; Mārkaṇḍeya Purāṇa.) Thus the Manu who governs the manvantara is, in this tradition, the **son of Svarocis**, with the radiant Svarocis himself the eponym.
-  - *Variant — Svarocis vs. Svārociṣa collapsed:* the Vaiṣṇava Purāṇas ([Viṣṇu](../../90-literature-corpus/puranas/vishnu-purana.md), [Bhāgavata](../../90-literature-corpus/bhagavata-purana-skandha-map.md)) skip the whole romance and simply call the 2nd Manu **Svārociṣa, son of [Agni](../../03-deities/agni.md)** — effectively identifying the radiant father-figure with the Manu and dropping the doe-birth. [variant — Vaiṣṇava genealogy]
+  - *Variant — Svarocis vs. Svārociṣa collapsed:* the Vaiṣṇava Purāṇas ([Viṣṇu](../../90-literature-corpus/puranas/vishnu-purana.md), [Bhāgavata](../../90-literature-corpus/bhagavata-purana-skandha-map.md)) skip the whole romance and simply call the 2nd Manu **Svārociṣa, son of [Agni](../../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)** — effectively identifying the radiant father-figure with the Manu and dropping the doe-birth. [variant — Vaiṣṇava genealogy]
 
 ---
 
@@ -80,7 +80,7 @@ The sage-roster is the chief point of disagreement for this manvantara. The list
 - The genuinely rich material for this manvantara is **narrative** (the Pravara–Svarocis–doe legend in the Mārkaṇḍeya Purāṇa), not the administrative lists. The Vaiṣṇava Purāṇas reverse this emphasis, giving lists and no story.
 - Three live disagreements to keep flagged: (1) Indra **Vipaścit** (Viṣṇu) vs. **Rocana** (Bhāgavata); (2) avatāra **Vibhu** (Bhāgavata) vs. the cross-attributed **Yajña/Ajita** (Viṣṇu, more properly Manvantara 1); (3) the Saptarṣi roster (Lists A–D above).
 - The Manu's parentage is itself a variant: **son of Svarocis/born-of-a-doe** (Mārkaṇḍeya) vs. **son of Agni** (Viṣṇu/Bhāgavata).
-- Cross-links: parent [Manvantaras index](./), previous [Manvantara 1 — Svāyambhuva](./manvantara-01-svayambhuva.md), next [Manvantara 3 — Auttami/Uttama](./manvantara-03-auttami.md), current [Manvantara 7 — Vaivasvata](./manvantara-07-vaivasvata/).
+- Cross-links: parent [Manvantaras index](./), previous [Manvantara 1 — Svāyambhuva](./manvantara-01-svayambhuva.md), next [Manvantara 3 — Auttami/Uttama](manvantara-03-uttama.md), current [Manvantara 7 — Vaivasvata](./manvantara-07-vaivasvata/).
 
 ## Sources
 
