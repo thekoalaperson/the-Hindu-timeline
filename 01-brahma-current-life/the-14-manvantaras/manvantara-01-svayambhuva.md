@@ -1,11 +1,11 @@
 # Manvantara 1 — Svāyambhuva (Past)
 
 > First of the 14 Manvantaras of the current Kalpa (Shveta-Varaha). Ruled by **Svāyambhuva Manu**, the mind-born son of Brahmā. We are now 6 Manvantaras later, in the 7th ([Vaivasvata](manvantara-07-vaivasvata/README.md)). It is the **richest-documented past Manvantara**: most of the early genealogical and "creation" narratives of the Purāṇas (Dhruva, Pṛthu, the Prachetas, Dakṣa's daughters) are set here, at the dawn of the present Kalpa just after the Varāha rescue of the Earth.
-> Parent: [the-14-manvantaras](./README.md) · Up to [01-brahma-current-life](../README.md)
+> Parent: [the-14-manvantaras](./README.md) · Up to [01-brahma-current-life](../../README.md)
 
 ## Cosmic Address
 - **Manvantara 1 of 14** · Manu: **Svāyambhuva** · Indra of the era: **Yajña** · Devas: **Yāmas** (and Tuṣitas, per some texts) · ~306,720,000 yrs (1 Manvantara). See [../../00-time-and-cosmology](../../00-time-and-cosmology) for the clock.
-- This Manvantara opens immediately after the **Varāha avatāra** lifts the submerged Earth at the dawn of the [Shveta-Varaha Kalpa](../README.md) — hence the entire present Kalpa is named for that boar (*Varāha-kalpa*). The Svāyambhuva creation is therefore the "first morning" of Brahmā's current day.
+- This Manvantara opens immediately after the **Varāha avatāra** lifts the submerged Earth at the dawn of the [Shveta-Varaha Kalpa](../../README.md) — hence the entire present Kalpa is named for that boar (*Varāha-kalpa*). The Svāyambhuva creation is therefore the "first morning" of Brahmā's current day.
 
 ## Officers of the Era (the 5 manvantara-constants)
 Each Manvantara is defined by its Manu, its Indra, its class(es) of gods (gaṇa-devatā), its seven sages (saptarṣi), and the Manu's sons (the seed-kings). For Svāyambhuva:

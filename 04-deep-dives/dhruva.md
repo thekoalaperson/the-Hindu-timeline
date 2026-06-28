@@ -1,7 +1,7 @@
 # Dhruva — the Steadfast Pole Star
 
 > Cosmic address: Shveta-Varaha Kalpa → 1st (Svāyambhuva) Manvantara → the dawn of human dynastic prehistory, in the Uttānapāda line of Svāyambhuva Manu. Set at the "first morning" of Brahmā's current day. Cross-link: [Manvantara 1 — Svāyambhuva](../01-brahma-current-life/the-14-manvantaras/manvantara-01-svayambhuva.md).
-> Parent: [04-deep-dives](./README.md) · Up to [01-brahma-current-life](../01-brahma-current-life/README.md)
+> Parent: [04-deep-dives](./README.md) · Up to [01-brahma-current-life](../README.md)
 
 **Dhruva** ("the fixed, immovable, eternal one") is the boy-prince whose extreme tapas wins him a personal vision of Viṣṇu and the **immutable polar seat — Dhruva-loka / Dhruva-pada**, the still point of the turning sky around which all stars, planets and the seven sages (saptarṣi) wheel for an entire Kalpa, untouched even by the dissolution (pralaya). He is the archetypal child-devotee (bāla-bhakta), the model of resolve born of a wound — slighted by a proud stepmother, he turns humiliation into the single most famous penance of a small boy in the Purāṇic corpus. His core story is told in the **Viṣṇu Purāṇa (1.11–12)** and, in its most elaborate form, in the **Bhāgavata Purāṇa (Canto 4, ch. 8–12)**.
 

@@ -1,6 +1,6 @@
 # Manvantara 12 — Rudra-Sāvarṇi (Future)
 
-> Hierarchy: [01-brahma-current-life](../../) → [the-14-manvantaras](../) → **12th Manvantara (Rudra-Sāvarṇi)**. A *future* manvantara within the current Śveta-Varāha Kalpa; the fifth of the future set, two manvantaras still lie ahead after it. Each spans ~306,720,000 human years (71 mahāyugas + 1 sandhyā). Up-link: [the-14-manvantaras README](../README.md).
+> Hierarchy: [01-brahma-current-life](../../) → [the-14-manvantaras](../) → **12th Manvantara (Rudra-Sāvarṇi)**. A *future* manvantara within the current Śveta-Varāha Kalpa; the fifth of the future set, two manvantaras still lie ahead after it. Each spans ~306,720,000 human years (71 mahāyugas + 1 sandhyā). Up-link: [the-14-manvantaras README](../../README.md).
 
 ## Orientation
 - We are presently in the **7th ([Vaivasvata](manvantara-07-vaivasvata/))** manvantara. Rudra-Sāvarṇi is the **12th**, so it lies wholly in the future. Manvantaras 8–14 form the *future* set whose officers are catalogued chiefly in the **Bhāgavata Purāṇa (8.13)** and the **Viṣṇu Purāṇa (3.2)**; they are rosters, not narratives.
@@ -47,7 +47,7 @@
 ## Notes & cautions
 - Spellings vary by recension/translation: Indra **Ṛtadhāma vs Ṛtudhāma**; avatāra **Sudhāman vs Svadhāman**; sage **Tapomūrti** stable but the seventh-sage roster differs (Viṣṇu Purāṇa's *tapas*-heptad vs Bhāgavata's "Tapomūrti, Tapasvī, Agnīdhraka, and others"). Both traditions are catalogued above.
 - As a *future* age, **no narrative events, wars, descents, or sage-stories are attested** in the primary texts — only the officer roster. Any "event" attributed to this manvantara in popular sources is, on present evidence, extrapolation rather than canon. [scholarly]
-- Cross-links: see the sibling future manvantaras [11th Dharma-Sāvarṇi](manvantara-11-dharma-savarni.md) and [13th Deva-Sāvarṇi](manvantara-13-deva-savarni.md), and the full sequence in the [the-14-manvantaras README](../README.md).
+- Cross-links: see the sibling future manvantaras [11th Dharma-Sāvarṇi](manvantara-11-dharma-savarni.md) and [13th Deva-Sāvarṇi](manvantara-13-deva-savarni.md), and the full sequence in the [the-14-manvantaras README](../../README.md).
 
 ## Sources
 - **Bhāgavata Purāṇa (Śrīmad Bhāgavatam) 8.13.27–29** — verses on the twelfth Manu Rudra-Sāvarṇi (sons Devavān & Upadeva, Indra Ṛtadhāma, deva-class Haritas, sages Tapomūrti/Tapasvī/Agnīdhraka, avatāra Svadhāman son of Satyasaha & Sunṛtā).

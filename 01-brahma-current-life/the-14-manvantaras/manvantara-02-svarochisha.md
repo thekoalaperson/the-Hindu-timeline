@@ -1,8 +1,8 @@
 # Manvantara 2 — Svārociṣa (Past)
 
-> Hierarchy: this Day of Brahmā (Śveta-Vārāha Kalpa) → 2nd of the 14 [Manvantaras](./) → **Svārociṣa Manu** (long past; 5 Manvantaras now separate it from the current 7th, [Vaivasvata](./manvantara-07-vaivasvata/)). Up to the [Manvantaras README](./README.md) · [Brahmā's current life](../README.md).
+> Hierarchy: this Day of Brahmā (Śveta-Vārāha Kalpa) → 2nd of the 14 [Manvantaras](./) → **Svārociṣa Manu** (long past; 5 Manvantaras now separate it from the current 7th, [Vaivasvata](./manvantara-07-vaivasvata/)). Up to the [Manvantaras README](./README.md) · [Brahmā's current life](../../README.md).
 
-A manvantara = 71 mahāyugas + 1 sandhyā ≈ 306,720,000 human years (see [the mahāyuga & 4 yugas](../../02-mahayuga-and-the-four-yugas/)). Each is presided over by its own Manu, a set of seven sages ([Saptarṣi](../../05-concepts/saptarishi.md)), an Indra, a class of gods (deva-gaṇa), and an avatāra of [Viṣṇu](../../03-deities/vishnu.md). For most of this early age the canonical Purāṇas give only bare lists — Manu, Indra, sages, gods, avatāra — and those lists **disagree with one another**. The one place the tradition is rich is the **origin legend of how Svārociṣa Manu came to be born**, preserved at length in the [Mārkaṇḍeya Purāṇa](../../01-epics-and-puranas/puranas/markandeya-purana.md). That tale is given in full below; everything after it is honestly sparse.
+A manvantara = 71 mahāyugas + 1 sandhyā ≈ 306,720,000 human years (see [the mahāyuga & 4 yugas](../../02-mahayuga-and-the-four-yugas/)). Each is presided over by its own Manu, a set of seven sages ([Saptarṣi](../../02-deities-and-cosmic-hierarchy/saptarishi.md)), an Indra, a class of gods (deva-gaṇa), and an avatāra of [Viṣṇu](../../03-deities/vishnu.md). For most of this early age the canonical Purāṇas give only bare lists — Manu, Indra, sages, gods, avatāra — and those lists **disagree with one another**. The one place the tradition is rich is the **origin legend of how Svārociṣa Manu came to be born**, preserved at length in the [Mārkaṇḍeya Purāṇa](../../90-literature-corpus/puranas/markandeya-purana.md). That tale is given in full below; everything after it is honestly sparse.
 
 ---
 
@@ -10,7 +10,7 @@ A manvantara = 71 mahāyugas + 1 sandhyā ≈ 306,720,000 human years (see [the 
 
 The Mārkaṇḍeya Purāṇa (adhyāyas ~58–64, the *Svārociṣa-manvantara-varṇana*) frames the 2nd manvantara around a three-generation romance: **Pravara → Svarocis → Svārociṣa Manu**. It is the single most developed Manu-origin story in the Purāṇas and is the source from which Telugu literature later drew (see Allasāni Peddana's classic *Manucaritramu*).
 
-- **Pravara rejects Varūthinī** — **Pravara** (Pravarākhya), a pious married brāhmaṇa, is given by a Siddha a magical paste/root that lets him fly to the Himālayas. Stranded when the paste wears off, he is propositioned by **Varūthinī**, a lovesick apsaras/gandharva-maiden (called daughter of Menakā in one telling). Bound by his vow of one wife, Pravara refuses her and is eventually guided home. (Opening frame; [Mārkaṇḍeya Purāṇa](../../01-epics-and-puranas/puranas/markandeya-purana.md).)
+- **Pravara rejects Varūthinī** — **Pravara** (Pravarākhya), a pious married brāhmaṇa, is given by a Siddha a magical paste/root that lets him fly to the Himālayas. Stranded when the paste wears off, he is propositioned by **Varūthinī**, a lovesick apsaras/gandharva-maiden (called daughter of Menakā in one telling). Bound by his vow of one wife, Pravara refuses her and is eventually guided home. (Opening frame; [Mārkaṇḍeya Purāṇa](../../90-literature-corpus/puranas/markandeya-purana.md).)
 - **The gandharva's deception** — a **gandharva** whom Varūthinī had earlier spurned takes on Pravara's exact form ("Māyā-Pravara") and unites with her. Discovering the trick, Varūthinī curses him; yet because she had conceived while meditating on the *tejas* (radiance) of the true Pravara, her son is born self-luminous and is named **Svarocis** ("self-radiant," sva-rocis). (Conception; Mārkaṇḍeya Purāṇa.) This is the etymological pivot that gives the whole manvantara its name *Svārociṣa*.
   - *Variant — the gandharva's name:* the seducer-gandharva is named **Kali / Kalin** in some recensions and left unnamed in others. [variant]
   - *Variant — Varūthinī's parentage:* "daughter of Menakā" in the Kāmakoṭi/Telugu-influenced retellings; simply an apsaras/gandharvī elsewhere. [variant]
@@ -21,7 +21,7 @@ The Mārkaṇḍeya Purāṇa (adhyāyas ~58–64, the *Svārociṣa-manvantara-
   - *Variant:* sources differ on which wife confers which vidyā and whether Vibhāvarī and Kalāvatī are two women or two names of one; treat the assignment as fluid. [variant]
 - **Sons of Svarocis** — after some six hundred years of married life Svarocis fathers sons, named in one recension **Vijaya, Merunandana and Prabhāsa**. (Svarocis's descendants; Mārkaṇḍeya Purāṇa.) *These are the sons of Svarocis, not of the Manu — see the variant note under "Sons of the Manu" below.*
 - **The doe and the birth of the Manu** — a female deer (doe) appeals to Svarocis for mercy and asks him to embrace her; when he does she conceives and instantly delivers **Svārociṣa Manu** — "the second in the series" — amid celestial rejoicing and a rain of fragrant flowers. (Birth of the Manu proper; Mārkaṇḍeya Purāṇa.) Thus the Manu who governs the manvantara is, in this tradition, the **son of Svarocis**, with the radiant Svarocis himself the eponym.
-  - *Variant — Svarocis vs. Svārociṣa collapsed:* the Vaiṣṇava Purāṇas ([Viṣṇu](../../01-epics-and-puranas/puranas/vishnu-purana.md), [Bhāgavata](../../01-epics-and-puranas/puranas/bhagavata-purana.md)) skip the whole romance and simply call the 2nd Manu **Svārociṣa, son of [Agni](../../03-deities/agni.md)** — effectively identifying the radiant father-figure with the Manu and dropping the doe-birth. [variant — Vaiṣṇava genealogy]
+  - *Variant — Svarocis vs. Svārociṣa collapsed:* the Vaiṣṇava Purāṇas ([Viṣṇu](../../90-literature-corpus/puranas/vishnu-purana.md), [Bhāgavata](../../90-literature-corpus/bhagavata-purana-skandha-map.md)) skip the whole romance and simply call the 2nd Manu **Svārociṣa, son of [Agni](../../03-deities/agni.md)** — effectively identifying the radiant father-figure with the Manu and dropping the doe-birth. [variant — Vaiṣṇava genealogy]
 
 ---
 
@@ -29,7 +29,7 @@ The Mārkaṇḍeya Purāṇa (adhyāyas ~58–64, the *Svārociṣa-manvantara-
 
 - **Svārociṣa Manu** — the 2nd of the 14 Manus; presides over the manvantara that bears his name.
   - *Variant (Mārkaṇḍeya Purāṇa):* son of **Svarocis** (himself son of the deceiving gandharva and Varūthinī), born of a doe — the elaborate legend above. [late/elaborated tradition]
-  - *Variant ([Viṣṇu Purāṇa](../../01-epics-and-puranas/puranas/vishnu-purana.md) 3.1; [Bhāgavata Purāṇa](../../01-epics-and-puranas/puranas/bhagavata-purana.md) 8.1):* son of **Agni** (Svārociṣ = "of/belonging to Svarocis/Agni's brilliance"), with no romance attached. [Vaiṣṇava genealogy]
+  - *Variant ([Viṣṇu Purāṇa](../../90-literature-corpus/puranas/vishnu-purana.md) 3.1; [Bhāgavata Purāṇa](../../90-literature-corpus/bhagavata-purana-skandha-map.md) 8.1):* son of **Agni** (Svārociṣ = "of/belonging to Svarocis/Agni's brilliance"), with no romance attached. [Vaiṣṇava genealogy]
 
 ### Sons of the Manu
 - *Bhāgavata Purāṇa 8.1:* the Manu's sons are headed by **Dyumat, Suṣeṇa and Rociṣmat**.
@@ -40,7 +40,7 @@ The Mārkaṇḍeya Purāṇa (adhyāyas ~58–64, the *Svārociṣa-manvantara-
 
 ## Indra of the 2nd Manvantara
 
-- **Vipaścit** — the ruler of svarga during this age, named consistently across the major lists ([Viṣṇu Purāṇa](../../01-epics-and-puranas/puranas/vishnu-purana.md) 3.1, Wilson: "the mighty Vipaścit"; Dharmawiki).
+- **Vipaścit** — the ruler of svarga during this age, named consistently across the major lists ([Viṣṇu Purāṇa](../../90-literature-corpus/puranas/vishnu-purana.md) 3.1, Wilson: "the mighty Vipaścit"; Dharmawiki).
   - *Variant (Bhāgavata Purāṇa 8.1):* the Indra is called **Rocana** (some translations gloss him as Vipaścit's counterpart or alternate name). [variant — Bhāgavata vs. Viṣṇu]
 
 ---
