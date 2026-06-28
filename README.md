@@ -46,9 +46,15 @@ a Mahāyuga has **four** yugas (Satya, Tretā, Dvāpara, Kali), not five.
 09-artifacts-symbols-and-arts/ ← weapons, objects, vāhanas, the 64 arts, sacred symbols
 90-literature-corpus/         ← the texts that RECORD all of the above, mapped back to events
    90-…/puranas/              ← per-text story-maps for all 18 Mahāpurāṇas + Upapurāṇas
+TIMELINE.md                   ← ⭐ flat chronological index of every event (439), each linked to its file
+AGENTS.md                     ← how to query this corpus (for agents & humans)
 SOURCES.md                    ← light consolidated bibliography
-STRUCTURE.md                  ← skeleton + coverage tracker (what's deep, what's a stub, what's next)
+STRUCTURE.md                  ← skeleton + coverage tracker (every file, deep/stub, what's next)
 ```
+
+> ⭐ **Want the whole story in order?** [**TIMELINE.md**](TIMELINE.md) lists all 439 recorded events sorted
+> on the cosmic clock — Creation → earlier Manvantaras → Satya → Tretā → Dvāpara → Kali → the Future — each
+> linking to its detailed file. It's the single best entry point for "what happened, and when".
 
 ### 00 · [Time & Cosmology](00-time-and-cosmology/README.md) — *how the clock works*
 - [Units of Cyclic Time](00-time-and-cosmology/units-of-time.md) — truti → … → year → yuga; human:divine 360 ratio

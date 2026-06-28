@@ -2,19 +2,20 @@
 
 > The living map of *The Hindu Timeline*: every file, its depth, and what to build next. Regenerated from the actual tree. Back to the [master index](README.md).
 
-**Totals:** 200 files · ~402,632 words · 0 stubs · 0 broken internal links (file & dir verified).
+**Totals:** 201 files · ~420,605 words · 0 stubs · 0 broken internal links (file & dir verified).
 
 **Legend:** 🟩 deep · 🟨 stub/sparse.
 
 ---
 
 
-## Root apparatus  (4 files)
+## Root apparatus  (5 files)
 
-- 🟩 [`AGENTS.md`](AGENTS.md) · 849w
-- [`README.md`](README.md) · 1289w
+- 🟩 [`AGENTS.md`](AGENTS.md) · 888w
+- [`README.md`](README.md) · 1368w
 - 🟩 [`SOURCES.md`](SOURCES.md) · 774w
-- 🟩 [`STRUCTURE.md`](STRUCTURE.md) · 1169w
+- 🟩 [`STRUCTURE.md`](STRUCTURE.md) · 1174w
+- 🟩 [`TIMELINE.md`](TIMELINE.md) · 17850w
 
 ## 00-time-and-cosmology  (10 files)
 

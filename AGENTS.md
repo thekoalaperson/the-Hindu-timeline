@@ -46,6 +46,7 @@ the canonical home; the others summarize and link to it.
 1. Start at **[`README.md`](README.md)** — the master index with the "you are here" address and links to every section.
 2. Open the relevant **section `README.md`** — each ends with an auto-generated **`## 📑 Full Contents`** block that links **every** file in that section (so nothing is hidden).
 3. Or jump straight to **[`STRUCTURE.md`](STRUCTURE.md)** — a flat list of *all* files with word counts and deep/stub flags.
+4. For **"what happened and when"**, use **[`TIMELINE.md`](TIMELINE.md)** — all 439 events sorted on the cosmic clock (Creation → Manvantaras → Satya → Tretā → Dvāpara → Kali → Future), each linked to its detail file.
 
 **Invariant:** every file is reachable from `README.md`, and there are **0 broken internal links**
 (files and directories). If you add a file, append it to its section index (or re-run the indexer) and
