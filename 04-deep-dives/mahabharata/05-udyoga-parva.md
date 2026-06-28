@@ -1,7 +1,7 @@
 # Udyoga Parva — The Book of Effort
 
 > Cosmic address: the fifth book of the [Mahābhārata](../../90-literature-corpus/smriti-itihasa-epics.md), unfolding at the cusp of the [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) of the current Vaivasvata Manvantara; Kṛṣṇa, the 8th [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md), serves as peace-envoy. The Pāṇḍavas and Kauravas are of the [Candravaṃśa / lunar line](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
-> Parent: [Mahābhārata deep-dive index](./README.md) · Part of [04-deep-dives](../README.md). Follows [04 Virāṭa Parva](./04-virata-parva.md); precedes [06 Bhīṣma Parva](./06-bhishma-parva.md) (which opens with the [Bhagavad Gītā](./bhagavad-gita.md)). Primary source: Vyāsa's Mahābhārata, Book 5.
+> Parent: [Mahābhārata deep-dive index](./README.md) · Part of [04-deep-dives](../README.md). Follows [04 Virāṭa Parva](./04-virata-parva.md); precedes [06 Bhīṣma Parva](./06-bhishma-parva.md) (which opens with the [Bhagavad Gītā](../bhagavad-gita.md)). Primary source: Vyāsa's Mahābhārata, Book 5.
 
 The **Udyoga Parva** ("Book of Effort" / "Book of Preparation"; *udyoga* = endeavour, exertion) is the fifth of the eighteen *parvas*. The thirteen-year exile is over; the Pāṇḍavas, revealed at Virāṭa's court, demand back their half-kingdom — and the Kauravas refuse. The book is the great **hinge between peace and war**: it chronicles a chain of failed embassies (Drupada's priest, Sanjaya, finally Kṛṣṇa himself), the famous *nīti* (statecraft) and *adhyātma* (metaphysics) discourses inserted into the negotiation frame (**Vidura-nīti**, **Sanatsujātīya**), the private revelation of **Karṇa's true parentage**, the muster and counting of the armies, and the naming of **Bhīṣma** and **Dhṛṣṭadyumna** as the two supreme commanders. It ends on the eve of the eighteen-day war at Kurukṣetra. (Whole-book summary: Vyāsa, Udyoga Parva; critical edition: S.K. De, BORI.)
 
@@ -47,7 +47,7 @@ The vulgate (Calcutta/Bombay) divides the book into **10 *upaparvas* / ~199 adhy
 ### Sanatsujātīya (Udyoga 41–46)
 
 - **Sanatsujāta on death and the eternal** - Still sleepless, Dhṛtarāṣṭra summons the boy-sage **Sanatsujāta** (one of the Kumāras), who teaches that **death is not annihilation but ignorance/heedlessness (pramāda)**, expounds *Brahman*, true knowledge (*vidyā*) versus ritual, *brahmacarya*, and liberation — a compact Vedāntic dialogue (Udyoga, Sanatsujāta P.).
-  - *Note:* The **Sanatsujātīya** is one of the few Mahābhārata passages on which **Ādi Śaṅkara** wrote a commentary (alongside the [Bhagavad Gītā](./bhagavad-gita.md) and Viṣṇu-sahasranāma), making it a minor Vedānta *prasthāna*; cross-ref [Ātman & Brahman](../../05-concepts-and-dharma/atman-and-brahman.md) and [karma, saṃsāra, mokṣa](../../05-concepts-and-dharma/karma-samsara-moksha.md).
+  - *Note:* The **Sanatsujātīya** is one of the few Mahābhārata passages on which **Ādi Śaṅkara** wrote a commentary (alongside the [Bhagavad Gītā](../bhagavad-gita.md) and Viṣṇu-sahasranāma), making it a minor Vedānta *prasthāna*; cross-ref [Ātman & Brahman](../../05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md) and [karma, saṃsāra, mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
   - *Variant (scholarly):* widely regarded as a later philosophical insertion, like the Gītā, embedded into the war-frame [scholarly] (De, BORI).
 
 ## Yāna-sandhi — the Kaurava War-Council
@@ -68,7 +68,7 @@ The vulgate (Calcutta/Bombay) divides the book into **10 *upaparvas* / ~199 adhy
 - **Kuntī's lament to Kṛṣṇa** - Kṛṣṇa visits Kuntī; she pours out her grief and, recalling her humiliations, urges that **kṣatriya-dharma** (the warrior's duty to fight injustice) be upheld — effectively endorsing war if peace fails (Bhagavad-yāna P.).
 - **Kṛṣṇa's address in the Kaurava court** - Before the full assembly Kṛṣṇa makes an eloquent plea for peace and the five villages; Duryodhana storms out, refusing to yield **"as much land as the point of a needle (sūcyagra) can cover"** (Bhagavad-yāna P.).
 - **The attempted arrest and the Viśvarūpa** - When Duryodhana's faction moves to seize him, Kṛṣṇa laughs and manifests his **Viśvarūpa / cosmic universal form** — gods, worlds, and the Pāṇḍavas blazing from his body — terrifying the court; only the blind Dhṛtarāṣṭra, granted momentary sight, and a few sages behold it. Kṛṣṇa then leaves, the embassy having formally failed (Bhagavad-yāna P.).
-  - *Note:* this Viśvarūpa is distinct from, and prefigures, the more famous theophany in the [Bhagavad Gītā](./bhagavad-gita.md), Chapter 11 (Bhīṣma Parva).
+  - *Note:* this Viśvarūpa is distinct from, and prefigures, the more famous theophany in the [Bhagavad Gītā](../bhagavad-gita.md), Chapter 11 (Bhīṣma Parva).
 
 ### Karṇa's parentage revealed
 
@@ -109,14 +109,14 @@ The vulgate (Calcutta/Bombay) divides the book into **10 *upaparvas* / ~199 adhy
 - **The boon of Śiva and Ambā's self-immolation** - Ambā performs fierce austerities; **Śiva** grants that she will cause Bhīṣma's death in her next birth; she immolates herself, reborn as Drupada's child (Ambopākhyāna P.).
 - **Śikhaṇḍin's sex-change** - Born a daughter (**Śikhaṇḍinī**) but raised as a son, Śikhaṇḍin exchanges sex with the *yakṣa* **Sthūṇākarṇa**, becoming male — the destined instrument before whom Bhīṣma will lay down arms in the [Bhīṣma Parva](./06-bhishma-parva.md) (Ambopākhyāna P.).
   - *Variant (gender):* texts and traditions vary on whether Śikhaṇḍin is permanently male, temporarily so, or remains transgender — a much-discussed passage in modern scholarship on gender in the epic [scholarly].
-- **The book closes on the eve of war** - With commanders named, warriors counted, and every embassy failed, the two armies stand arrayed at Kurukṣetra; the narrative passes to the [Bhīṣma Parva](./06-bhishma-parva.md), where Arjuna's despondency opens the [Bhagavad Gītā](./bhagavad-gita.md) (Udyoga, close).
+- **The book closes on the eve of war** - With commanders named, warriors counted, and every embassy failed, the two armies stand arrayed at Kurukṣetra; the narrative passes to the [Bhīṣma Parva](./06-bhishma-parva.md), where Arjuna's despondency opens the [Bhagavad Gītā](../bhagavad-gita.md) (Udyoga, close).
 
 ## Cross-References
 
 - Prior books: [01 Ādi Parva](./01-adi-parva.md) · [02 Sabhā Parva](./02-sabha-parva.md) · [03 Vana Parva](./03-vana-parva.md) · [04 Virāṭa Parva](./04-virata-parva.md)
-- Next: [06 Bhīṣma Parva](./06-bhishma-parva.md) and the [Bhagavad Gītā](./bhagavad-gita.md)
+- Next: [06 Bhīṣma Parva](./06-bhishma-parva.md) and the [Bhagavad Gītā](../bhagavad-gita.md)
 - Krishna as avatāra: [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md)
-- Doctrine touched here: [Ātman & Brahman](../../05-concepts-and-dharma/atman-and-brahman.md) · [karma, saṃsāra, mokṣa](../../05-concepts-and-dharma/karma-samsara-moksha.md)
+- Doctrine touched here: [Ātman & Brahman](../../05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md) · [karma, saṃsāra, mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md)
 - Statecraft genre: [Āgamas, Tantras & Dharmaśāstras](../../90-literature-corpus/agamas-tantras-dharmashastras.md)
 - Lunar dynasty: [Sūryavaṃśa & Candravaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md)
 

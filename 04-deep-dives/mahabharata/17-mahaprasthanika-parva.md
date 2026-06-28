@@ -1,7 +1,7 @@
 # Mahāprasthānika Parva — The Book of the Great Journey
 
 > **Where this sits:** Cosmic address → Shveta-Varaha Kalpa › 7th (Vaivasvata) [Manvantara](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) › 28th Mahāyuga › end of [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) sliding into [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
-> Book 17 of 18 in the [Mahābhārata](./README.md). The penultimate parva: the Pāṇḍavas renounce the throne and walk north to die one by one. Follows the Mausala Parva (the destruction of the Yādavas); leads into the final [Svargārohaṇa Parva](./18-svargarohanika-parva.md) (Yudhiṣṭhira in heaven).
+> Book 17 of 18 in the [Mahābhārata](./README.md). The penultimate parva: the Pāṇḍavas renounce the throne and walk north to die one by one. Follows the Mausala Parva (the destruction of the Yādavas); leads into the final [Svargārohaṇa Parva](18-svargarohana-parva.md) (Yudhiṣṭhira in heaven).
 
 The shortest book of the epic — **3 adhyāyas (chapters), no upa-parvas, ~106 ślokas (Critical Edition)** — yet doctrinally one of the densest. It dramatizes *prāyopaveśa / mahāprasthāna* (the sanctioned "great departure," walking unto death as a final renunciation) and stages the epic's last and starkest test of dharma: Yudhiṣṭhira and a dog. It is set precisely on the hinge between the ages — 36 years after Kurukṣetra, after Kṛṣṇa's departure has already triggered the onset of [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) (3102 BCE by tradition).
 
@@ -52,7 +52,7 @@ As they cross the high snow and the slopes of Meru, the travelers fall one by on
 
 - **Indra's chariot descends** - Indra (Śakra) arrives in his celestial chariot amid thunder, offering to carry Yudhiṣṭhira to Svarga directly (Mbh 3).
 - **"Not without my brothers and Draupadī"** - Yudhiṣṭhira first refuses, unwilling to enter heaven while his brothers and wife lie dead. Indra reassures him: they have already attained heaven, having shed their bodies; Yudhiṣṭhira alone is granted entry **in the flesh** (Mbh 3).
-  - *Cross-link:* This sets up the [Svargārohaṇa Parva](./18-svargarohanika-parva.md), where Yudhiṣṭhira finds his kin — and a final illusory test of heaven and hell.
+  - *Cross-link:* This sets up the [Svargārohaṇa Parva](18-svargarohana-parva.md), where Yudhiṣṭhira finds his kin — and a final illusory test of heaven and hell.
 - **"Not without my dog"** - Indra forbids the dog to board the chariot, declaring dogs have no place in heaven (and that dogs defile the sacrificial offerings). Yudhiṣṭhira refuses to abandon the faithful animal that has shared his entire journey (Mbh 3).
 - **The argument over loyalty** - Indra challenges the logic: he abandoned his fallen brothers and Draupadī, yet clings to a beast. Yudhiṣṭhira answers that there is **neither friendship nor enmity with the dead** — he left them only because they had died, not from disloyalty — but the **living, devoted** creature cannot be cast off; to forsake one who has sought his protection (a *bhakta* / *śaraṇāgata*) would be among the gravest sins, equal to (or worse than) killing a brāhmaṇa (Mbh 3).
 - **The dog reveals himself as Dharma** - The dog transforms into **Dharma (Yama Dharmarāja), Yudhiṣṭhira's own divine father**, who praises him: he has passed the test of compassion and fidelity, just as he once passed the Yakṣa-praśna (the questions at the lake, Vana Parva) and the test in the cattle-pen (Virāṭa Parva). This is the third such trial by Dharma (Mbh 3).
@@ -64,15 +64,15 @@ As they cross the high snow and the slopes of Meru, the travelers fall one by on
 
 ## Themes and Doctrine
 
-- **Mahāprasthāna / prāyopaveśa** - The sanctioned renunciant's death-walk: dharmaśāstra recognizes the "great departure" (and fasting/walking unto death) as a legitimate end for one whose worldly duties are complete. See [karma, saṃsāra & mokṣa](../../05-concepts-and-dharma/karma-samsara-moksha.md) and [āśrama / varṇa](../../05-concepts-and-dharma/ashrama-and-varna.md) for the renunciation framework.
-- **Karma made visible** - Each fall externalizes an inner fault; the parva is a compact catechism on how subtle vices (partiality, pride, vanity, boastfulness, gluttony) bind even the near-perfect. Cf. [purushārthas](../../05-concepts-and-dharma/purusharthas.md).
+- **Mahāprasthāna / prāyopaveśa** - The sanctioned renunciant's death-walk: dharmaśāstra recognizes the "great departure" (and fasting/walking unto death) as a legitimate end for one whose worldly duties are complete. See [karma, saṃsāra & mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) and [āśrama / varṇa](../../05-concepts-and-dharma/varna-ashrama-and-samskaras.md) for the renunciation framework.
+- **Karma made visible** - Each fall externalizes an inner fault; the parva is a compact catechism on how subtle vices (partiality, pride, vanity, boastfulness, gluttony) bind even the near-perfect. Cf. [purushārthas](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
 - **Compassion over reward** - Yudhiṣṭhira chooses fidelity to a "low" creature over heaven itself — dharma above svarga-phala (the fruit of heaven).
 - **Age-hinge** - The book is staged at the very turn into [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md); the [dharma-bull](../../00-time-and-cosmology/yugas-and-mahayuga.md) now stands on one leg, and the last great upholders of dharma exit the world.
 
 ## Related nodes
 
 - Up: [Mahābhārata deep-dive index](./README.md)
-- Sequel: [Svargārohaṇa Parva (Book 18)](./18-svargarohanika-parva.md)
+- Sequel: [Svargārohaṇa Parva (Book 18)](18-svargarohana-parva.md)
 - [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) · [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)
 - [Sūryavaṃśa & Chandravaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) (the Kuru/Lunar line continues through Parīkṣit)
 - [Smṛti — Itihāsa epics](../../90-literature-corpus/smriti-itihasa-epics.md)

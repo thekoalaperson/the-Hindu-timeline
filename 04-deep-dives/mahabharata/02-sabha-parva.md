@@ -37,7 +37,7 @@ The **Sabhā Parva** ("Book of the Assembly Hall") is the **second of the 18 par
 ## 2. Lokapāla-sabhākhyāna — Nārada's catalogue of the divine assemblies
 
 - **Nārada's visit** - The sage **Nārada** arrives, and on seeing the new hall describes by comparison the assembly-halls of the four **Lokapālas** (world-guardians) and of Brahmā, modelling ideal kingship (Sabhā Parva 5–11).
-- **The mirror of good governance** - Nārada catechises Yudhiṣṭhira with the **rāja-dharma praśna**: scores of probing questions on statecraft — fair taxation, irrigation, spies, justice for the weak, treatment of brāhmaṇas, soldiers' pay, fort defence — a compact *nīti-śāstra* embedded in narrative (Sabhā Parva 5). See [Concepts: puruṣārthas & rāja-dharma](../../05-concepts-and-dharma/purusharthas.md).
+- **The mirror of good governance** - Nārada catechises Yudhiṣṭhira with the **rāja-dharma praśna**: scores of probing questions on statecraft — fair taxation, irrigation, spies, justice for the weak, treatment of brāhmaṇas, soldiers' pay, fort defence — a compact *nīti-śāstra* embedded in narrative (Sabhā Parva 5). See [Concepts: puruṣārthas & rāja-dharma](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
 - **The five celestial sabhās** - Nārada describes the courts of **Indra** (Devasabhā), **Yama**, **Varuṇa**, **Kubera** (Vaiśravaṇa), and **Brahmā**, naming the kings, ṛṣis, and beings who attend each (Sabhā Parva 6–11). See [Devas, Asuras & the Lokas](../../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md).
 - **Hariścandra and the Rājasūya seed** - In Yama's sabhā only one human king sits among the gods — **Hariścandra** — because he alone completed the **Rājasūya**. Yudhiṣṭhira learns his father **Pāṇḍu** longs for him to perform that very sacrifice; this plants the ambition (Sabhā Parva 11–12).
 
@@ -128,7 +128,7 @@ The **Sabhā Parva** ("Book of the Assembly Hall") is the **second of the 18 par
 - Builds on the founding of Indraprastha and Draupadī's marriage in the [Ādi Parva](01-adi-parva.md).
 - Kṛṣṇa as divine agent (Sudarśana Cakra, the garment-miracle) — see [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md) and the [Kṛṣṇa-līlā deep-dive](../krishna-lila.md).
 - The Jaya–Vijaya three-births frame (Hiraṇyakaśipu → Rāvaṇa → Śiśupāla) — see [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md).
-- Rāja-dharma / kingship ideal in Nārada's catechism — see [Puruṣārthas & Dharma](../../05-concepts-and-dharma/purusharthas.md).
+- Rāja-dharma / kingship ideal in Nārada's catechism — see [Puruṣārthas & Dharma](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
 - The five celestial sabhās — see [Devas, Asuras & the Lokas](../../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md).
 - Dvāpara-Yuga placement of these events — see [03 — Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
 

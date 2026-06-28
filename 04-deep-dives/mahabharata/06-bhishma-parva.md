@@ -4,7 +4,7 @@
 >
 > Up: [Mahābhārata overview](README.md) · Previous: [05 — Udyoga Parva](05-udyoga-parva.md) · Next: [07 — Droṇa Parva](07-drona-parva.md). Parent corpus: [Smṛti — Itihāsa & Epics](../../90-literature-corpus/smriti-itihasa-epics.md).
 
-The **Bhīṣma Parva** ("Book of Bhīṣma") is the **sixth of the 18 parvas** of the [Mahābhārata](README.md) and the **first of the six war-books** (Bhīṣma → Droṇa → Karṇa → Śalya → Sauptika → Strī). It is the threshold of the great battle: it begins with the cosmic prologue narrated by **Sañjaya** through his divinely granted second sight (*divya-dṛṣṭi*), embeds the entire **[Bhagavad Gītā](gita.md)** as Arjuna freezes at the moment of attack, then runs **the first ten days of the war** under the Kaurava generalissimo **Bhīṣma** — closing with his fall on the **bed of arrows** (*śara-śayyā*), pierced down by Arjuna from behind the screen of **Śikhaṇḍin**. In the Bhandarkar **Critical Edition** it runs to ~**117 adhyāyas** in **4 upaparvas** (~5,380–5,884 ślokas depending on count); the older **Vulgate** numbers ~124 chapters.
+The **Bhīṣma Parva** ("Book of Bhīṣma") is the **sixth of the 18 parvas** of the [Mahābhārata](README.md) and the **first of the six war-books** (Bhīṣma → Droṇa → Karṇa → Śalya → Sauptika → Strī). It is the threshold of the great battle: it begins with the cosmic prologue narrated by **Sañjaya** through his divinely granted second sight (*divya-dṛṣṭi*), embeds the entire **[Bhagavad Gītā](../bhagavad-gita.md)** as Arjuna freezes at the moment of attack, then runs **the first ten days of the war** under the Kaurava generalissimo **Bhīṣma** — closing with his fall on the **bed of arrows** (*śara-śayyā*), pierced down by Arjuna from behind the screen of **Śikhaṇḍin**. In the Bhandarkar **Critical Edition** it runs to ~**117 adhyāyas** in **4 upaparvas** (~5,380–5,884 ślokas depending on count); the older **Vulgate** numbers ~124 chapters.
 
 - *Variant [scholarly]:* the Critical Edition strips a large body of "spurious and corrupted" verses from the Vulgate's ~124 chapters down to ~117; verse totals therefore differ widely between editions (commonly cited ~5,381 vs ~5,884).
 
@@ -46,8 +46,8 @@ The **Bhīṣma Parva** ("Book of Bhīṣma") is the **sixth of the 18 parvas** 
 
 ## 3. The Bhagavad Gītā (Bhīṣma Parva 25–42)
 
-- **The Song of the Lord** - Arjuna's refusal to fight triggers **Kṛṣṇa's 700-verse teaching**, the **[Bhagavad Gītā](gita.md)** — 18 chapters embedded as adhyāyas 25–42 of the Bhīṣma Parva, reported by Sañjaya. Kṛṣṇa resolves Arjuna's paralysis through the imperishable *ātman*, *niṣkāma-karma* (action without attachment to fruit), the yogas of *jñāna*, *karma* and *bhakti*, and the doctrine of *svadharma* — climaxing in the **Viśvarūpa-darśana** (chapter 11), the terrifying universal form (Bhīṣma Parva 25–42).
-  - *See the dedicated deep-dive:* **[Bhagavad Gītā](gita.md)** — chapter-by-chapter, with the variant readings and the 18-chapter / 3-yoga structure.
+- **The Song of the Lord** - Arjuna's refusal to fight triggers **Kṛṣṇa's 700-verse teaching**, the **[Bhagavad Gītā](../bhagavad-gita.md)** — 18 chapters embedded as adhyāyas 25–42 of the Bhīṣma Parva, reported by Sañjaya. Kṛṣṇa resolves Arjuna's paralysis through the imperishable *ātman*, *niṣkāma-karma* (action without attachment to fruit), the yogas of *jñāna*, *karma* and *bhakti*, and the doctrine of *svadharma* — climaxing in the **Viśvarūpa-darśana** (chapter 11), the terrifying universal form (Bhīṣma Parva 25–42).
+  - *See the dedicated deep-dive:* **[Bhagavad Gītā](../bhagavad-gita.md)** — chapter-by-chapter, with the variant readings and the 18-chapter / 3-yoga structure.
 - **Arjuna's resolve restored** - At the end Arjuna declares his delusion gone (*naṣṭo mohaḥ*) and takes up Gāṇḍīva; the war can begin (Gītā 18 / Bhīṣma Parva 42).
 - **Bhīṣma named commander** - On the Kaurava side **Bhīṣma** is consecrated supreme commander (*senāpati*), accepting on condition he will not slay the Pāṇḍavas and will not fight Śikhaṇḍin (whom he regards as born a woman); he vows to fell **10,000 warriors a day** (Udyoga/Bhīṣma Parva juncture).
   - *Variant:* the figure given for Bhīṣma's daily kill-count and the exact terms of his command vary between recensions.
@@ -94,7 +94,7 @@ The **Bhīṣma Parva** ("Book of Bhīṣma") is the **sixth of the 18 parvas** 
 ## Variant traditions & afterlives
 
 - *Variant (regional vernacular epics) [folk tradition]:* the Telugu **Andhra Mahābhāratamu** (Tikkana's war-books), the Tamil **Villipāratam**, Bengali, Malayāḷam and the Indonesian *Bhīṣma-parwa* localize and re-color the ten days; Tikkana in particular is celebrated for his battle narration.
-- *Variant (devotional reframing):* in **Vaiṣṇava bhakti** the parva is read for two supreme moments — Kṛṣṇa as the speaker of the [Gītā](gita.md), and Kṛṣṇa **breaking his own vow** (twice charging Bhīṣma) to protect his devotee, taken as proof that the Lord prizes devotion over his own word. See [Dashāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md) and the [Kṛṣṇa-līlā deep-dive](../krishna-lila.md).
+- *Variant (devotional reframing):* in **Vaiṣṇava bhakti** the parva is read for two supreme moments — Kṛṣṇa as the speaker of the [Gītā](../bhagavad-gita.md), and Kṛṣṇa **breaking his own vow** (twice charging Bhīṣma) to protect his devotee, taken as proof that the Lord prizes devotion over his own word. See [Dashāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md) and the [Kṛṣṇa-līlā deep-dive](../krishna-lila.md).
 - *Variant (Bhīṣma as exemplar):* the dying Bhīṣma becomes, in the **[Śānti](12-shanti-parva.md)** and **[Anuśāsana](13-anushasana-parva.md)** parvas, the mouthpiece for the epic's longest didactic teaching (*rāja-/āpad-/mokṣa-dharma* and the **Viṣṇu Sahasranāma**); the arrow-bed is iconic in temple art and recitation.
 - *Variant (date of the war):* traditional astronomy places the war at the Dvāpara–Kali junction (**3102 BCE** by the Kali-era reckoning; **~3138 BCE** by some eclipse readings) [disputed]; academic dating treats the war-books as composed over centuries BCE–CE [scholarly]. See [Mahābhārata overview — Dating](README.md).
 
@@ -102,20 +102,20 @@ The **Bhīṣma Parva** ("Book of Bhīṣma") is the **sixth of the 18 parvas** 
 
 ## Cross-references
 
-- The embedded **[Bhagavad Gītā](gita.md)** — full chapter-by-chapter deep-dive.
+- The embedded **[Bhagavad Gītā](../bhagavad-gita.md)** — full chapter-by-chapter deep-dive.
 - Follows the failed peace embassy of the **[Udyoga Parva](05-udyoga-parva.md)**; the war's terms and musters were fixed there.
 - Continues into the **[Droṇa Parva](07-drona-parva.md)** (days 11–15) under the new commander Droṇa.
 - Bhīṣma's death-secret turns on **Ambā / Śikhaṇḍin** — see the [Ādi Parva](01-adi-parva.md) (Bhīṣma's vow and the abduction of the Kāśī princesses) and the [lineages](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
 - Bhīṣma's later discourses and his death at *uttarāyaṇa* — see the **[Śānti Parva](12-shanti-parva.md)** and **[Anuśāsana Parva](13-anushasana-parva.md)**.
 - Dharma on **2 legs** in Dvāpara collapsing to 1 in Kali — see [Yugas & Mahāyuga](../../00-time-and-cosmology/yugas-and-mahayuga.md) and [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
-- The dharma of war and *svadharma* taught here — see [Puruṣārthas & Dharma](../../05-concepts-and-dharma/purusharthas.md) and [Karma, Saṃsāra, Mokṣa](../../05-concepts-and-dharma/karma-samsara-moksha.md).
+- The dharma of war and *svadharma* taught here — see [Puruṣārthas & Dharma](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) and [Karma, Saṃsāra, Mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
 
 ## Sources
 
 - **Mahābhārata, Bhīṣma Parva** — primary text (Kisari Mohan Ganguli English translation, Internet Sacred Text Archive: <https://sacred-texts.com/hin/m06/index.htm>).
 - **Mahābhārata, Critical Edition** (Bhandarkar Oriental Research Institute), Bhīṣmaparvan — for the 4-upaparva structure, ~117-adhyāya count, and the Vulgate ~124-chapter / verse-total discrepancy.
 - **Bibek Debroy**, *The Mahabharata* (Penguin), Vol. 5 — Bhīṣma Parva translation, chapter/verse analysis, and the day-by-day battle.
-- *Bhagavad Gītā* (Bhīṣma Parva 25–42) — embedded text; see the [Gītā deep-dive](gita.md).
+- *Bhagavad Gītā* (Bhīṣma Parva 25–42) — embedded text; see the [Gītā deep-dive](../bhagavad-gita.md).
 - Wikipedia, "Bhishma Parva": <https://en.wikipedia.org/wiki/Bhishma_Parva> (sub-parva list, chapter ranges, Gītā placement, day-by-day events, bed of arrows).
 - Wikipedia, "Bhishma": <https://en.wikipedia.org/wiki/Bhishma> (Śikhaṇḍin/Ambā, the vow, icchā-mṛtyu, the fall and the days on the arrow-bed).
 - Wikipedia, "Kurukshetra War": <https://en.wikipedia.org/wiki/Kurukshetra_War> (rules of war, formations, daily summaries).

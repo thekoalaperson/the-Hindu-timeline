@@ -2,7 +2,7 @@
 
 > Cosmic address: within the deity hierarchy of the present cosmos. The Navagraha ("nine seizers") are the planetary deities and cosmic forces who administer the ripening of karma upon embodied beings. They sit below the great gods (see [Trimurti and Tridevi](trimurti-and-tridevi.md)) and overlap with the deva/asura order (see [Devas, Asuras and the Lokas](devas-asuras-and-the-lokas.md)). Parent: [02 — Deities and Cosmic Hierarchy](README.md).
 
-The word **graha** means "seizer / grasper," not merely "planet": the grahas *seize* the embodied soul and deliver to it the fruits of its past deeds at the appointed time. They are simultaneously (a) astronomical bodies, (b) deities with myth-cycles and vahanas, and (c) the operative instruments of the law of karma (see [Karma, Samsara, Moksha](../05-concepts-and-dharma/karma-samsara-moksha.md) when written). Their science is **Jyotisha**, the "eye of the Veda," one of the six Vedangas (see [Upavedas, Vedangas, Darshanas](../90-literature-corpus/upavedas-vedangas-darshanas.md)).
+The word **graha** means "seizer / grasper," not merely "planet": the grahas *seize* the embodied soul and deliver to it the fruits of its past deeds at the appointed time. They are simultaneously (a) astronomical bodies, (b) deities with myth-cycles and vahanas, and (c) the operative instruments of the law of karma (see [Karma, Samsara, Moksha](../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) when written). Their science is **Jyotisha**, the "eye of the Veda," one of the six Vedangas (see [Upavedas, Vedangas, Darshanas](../90-literature-corpus/upavedas-vedangas-darshanas.md)).
 
 ---
 
@@ -86,7 +86,7 @@ The word **graha** means "seizer / grasper," not merely "planet": the grahas *se
 - **Surya-vs-Shani father-son tension** — Surya doubts Shani's parentage and rejects him because of his dark color and lameness; the rift makes the Sun (soul, ego, father) and Saturn (karma, restriction) natural enemies in Jyotisha (Puranic; folk tradition). Shani is also called lame, having injured a leg.
 - **The destroying gaze (drishti)** — Shani's look brings ruin. Variant origins:
   - *Variant (folk):* he turns his gaze from his wife absorbed in devotion; she curses him so that whatever he gazes upon is destroyed — hence his lowered eyes.
-  - *Variant (folk):* invited to baby Ganesha's first-rite, Shani averts his eyes knowing the danger; pressed to look, his glance severs Ganesha's head — leading to the elephant-head substitution (see [Ganesha cycle](ganesha.md) when written).
+  - *Variant (folk):* invited to baby Ganesha's first-rite, Shani averts his eyes knowing the danger; pressed to look, his glance severs Ganesha's head — leading to the elephant-head substitution (see [Ganesha cycle](ganesha-and-kartikeya.md) when written).
 - **Sade Sati and dhaiya** — the **seven-and-a-half-year** transit of Saturn over the Moon (*Sade Sati*) and the 2.5-year *dhaiya* are the most feared karmic periods; intense but purifying. [astrological tradition]
 - **Shani humbles even the gods** — Vikramaditya, Dasharatha (the *Shani-stotra* of Dasharatha), and even Shiva/Vishnu are said to undergo Saturn's tests; the *Shani Mahatmya* recounts his transit through King Vikramaditya's life. [late text]
 - **Hanuman shields from Shani** — folk tradition: Hanuman frees/defeats Shani, who then grants that devotees of Hanuman are spared his worst affliction — basis of Saturday Hanuman worship. [folk tradition]
@@ -109,7 +109,7 @@ The two nodes are the lunar nodes — the points where the Moon's path crosses t
 
 ## Governance of karma-ripening — the grahas as karmic agents
 
-- **Grahas deliver, not decree** — the grahas are the *timing-instruments* of karma already sown; they ripen the seed at its season. They neither create the deed nor its fruit; they administer the schedule (classical Jyotisha doctrine, rooted in [Karma, Samsara, Moksha](../05-concepts-and-dharma/karma-samsara-moksha.md) when written).
+- **Grahas deliver, not decree** — the grahas are the *timing-instruments* of karma already sown; they ripen the seed at its season. They neither create the deed nor its fruit; they administer the schedule (classical Jyotisha doctrine, rooted in [Karma, Samsara, Moksha](../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) when written).
 - **Karakas (significators)** — each graha "signifies" domains: Surya–soul/father, Chandra–mind/mother, Mangala–energy/siblings, Budha–intellect, Guru–wisdom/children, Shukra–love/spouse, Shani–karma/longevity, Rahu–desire, Ketu–liberation.
 - **Natural benefics vs malefics (BPHS)** — *Benefics:* Brihaspati, Shukra, waxing Chandra, well-associated Budha. *Malefics:* Surya, Mangala, Shani, Rahu, Ketu, waning Chandra (Brihat Parashara Hora Shastra).
 - **Functional benefic/malefic** — no graha is universally good: its quality depends on the **sign-lordship relative to the ascendant (lagna)**, so the same graha helps one chart and harms another (BPHS).

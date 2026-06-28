@@ -38,7 +38,12 @@ a Mahāyuga has **four** yugas (Satya, Tretā, Dvāpara, Kali), not five.
 01-brahma-current-life/       ← the chronological spine (the 14 manvantaras → our yugas → events)
 02-deities-and-cosmic-hierarchy/  ← the who's-who (gods, avatars, beings, worlds)
 03-lineages-vamsha/           ← the royal genealogies threading the timeline
+04-deep-dives/                ← dedicated files for the biggest episodes (epics, tales)
+05-concepts-and-dharma/       ← the doctrinal layer (karma, mokṣa, yoga, the darśanas)
+06-sacred-geography/          ← the sacred map (pīṭhas, dhāms, jyotirliṅgas, rivers)
 90-literature-corpus/         ← the texts that RECORD all of the above, mapped back to events
+SOURCES.md                    ← light consolidated bibliography
+STRUCTURE.md                  ← skeleton + coverage tracker (what's deep, what's a stub, what's next)
 ```
 
 ### 00 · [Time & Cosmology](00-time-and-cosmology/README.md) — *how the clock works*
@@ -56,22 +61,37 @@ a Mahāyuga has **four** yugas (Satya, Tretā, Dvāpara, Kali), not five.
   - Future: [8 Sāvarṇi](01-brahma-current-life/the-14-manvantaras/manvantara-08-savarni.md) · [9 Dakṣa-S.](01-brahma-current-life/the-14-manvantaras/manvantara-09-daksha-savarni.md) · [10 Brahma-S.](01-brahma-current-life/the-14-manvantaras/manvantara-10-brahma-savarni.md) · [11 Dharma-S.](01-brahma-current-life/the-14-manvantaras/manvantara-11-dharma-savarni.md) · [12 Rudra-S.](01-brahma-current-life/the-14-manvantaras/manvantara-12-rudra-savarni.md) · [13 Deva-S.](01-brahma-current-life/the-14-manvantaras/manvantara-13-deva-savarni.md) · [14 Indra-S.](01-brahma-current-life/the-14-manvantaras/manvantara-14-indra-savarni.md)
 - **Current Manvantara → [28th Mahāyuga](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) → the four yugas (the heart of the timeline):**
   - 🟡 [Satya (Kṛta) Yuga](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md) — Matsya, Kūrma (Samudra Manthana), Varāha, Narasiṁha, Dhruva
-  - 🟠 [Tretā Yuga](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) — Vāmana, Paraśurāma, **the Rāmāyaṇa**
-  - 🔴 [Dvāpara Yuga](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) — **Kṛṣṇa & the Mahābhārata**
+  - 🟠 [Tretā Yuga](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) — Vāmana, Paraśurāma, **the Rāmāyaṇa** → deep dive: [Rāmāyaṇa, kāṇḍa-by-kāṇḍa](04-deep-dives/ramayana/README.md)
+  - 🔴 [Dvāpara Yuga](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) — **Kṛṣṇa & the Mahābhārata** → deep dives: [Mahābhārata, parva-by-parva](04-deep-dives/mahabharata/README.md) · [Bhagavad Gītā](04-deep-dives/bhagavad-gita.md) · [Kṛṣṇa-līlā](04-deep-dives/krishna-lila.md)
   - ⚫ [Kali Yuga — scriptural](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) (prophecy, Kalki) · [Kali Yuga — documented history](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md)
 
 ### 02 · [Deities & Cosmic Hierarchy](02-deities-and-cosmic-hierarchy/README.md)
-- [Trimūrti & Tridevī](02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md) · [Daśāvatāra (10 avatars, mapped to yugas)](02-deities-and-cosmic-hierarchy/dashavatara.md) · [Devas, Asuras & the 14 Lokas](02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)
+- **Core:** [Trimūrti & Tridevī](02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md) · [Daśāvatāra (10 avatars, mapped to yugas)](02-deities-and-cosmic-hierarchy/dashavatara.md) · [Devas, Asuras & the 14 Lokas](02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)
+- **Śaiva:** [Śiva myth-cycle](02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md) · [Satī, Dakṣa & Pārvatī](02-deities-and-cosmic-hierarchy/sati-daksha-and-parvati.md)
+- **Śākta:** [Devī Māhātmya & the Great Goddess](02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md) · [Daśa Mahāvidyā](02-deities-and-cosmic-hierarchy/dasha-mahavidya.md)
+- **Others:** [Gaṇeśa & Kārtikeya](02-deities-and-cosmic-hierarchy/ganesha-and-kartikeya.md) · [Hanumān](02-deities-and-cosmic-hierarchy/hanuman.md) · [Saptarṣi](02-deities-and-cosmic-hierarchy/saptarishi.md) · [Navagraha](02-deities-and-cosmic-hierarchy/navagraha.md)
 
 ### 03 · [Lineages (Vaṃśa)](03-lineages-vamsha/README.md)
 - [Solar & Lunar Dynasties](03-lineages-vamsha/suryavamsha-and-chandravamsha.md)
 
+### 04 · [Deep Dives — Major Episodes & Tales](04-deep-dives/README.md)
+- **Epics:** [Rāmāyaṇa (7 kāṇḍas)](04-deep-dives/ramayana/README.md) · [Mahābhārata (18 parvas)](04-deep-dives/mahabharata/README.md)
+- **Episodes:** [Bhagavad Gītā](04-deep-dives/bhagavad-gita.md) · [Samudra Manthana](04-deep-dives/samudra-manthana.md) · [Kṛṣṇa-līlā](04-deep-dives/krishna-lila.md) · [Yoga Sūtras](04-deep-dives/yoga-sutras-of-patanjali.md)
+- **Tales (upākhyānas):** Naḷa-Damayantī, Sāvitrī, Śakuntalā, Yayāti, Nachiketa, Gajendra, Ajāmila, Ambarīṣa, Mārkaṇḍeya, Dattātreya, Pṛthu, Ṛṣabha, Viśvāmitra–Vasiṣṭha, the Chiranjīvis — see the [section index](04-deep-dives/README.md)
+
+### 05 · [Concepts & Dharma](05-concepts-and-dharma/README.md)
+- [Puruṣārthas & Karma–Saṃsāra–Mokṣa](05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) · [Ātman, Brahman & the Six Darśanas](05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md) · [Varṇa, Āśrama & Saṃskāras](05-concepts-and-dharma/varna-ashrama-and-samskaras.md) · [Yoga — Paths & Patañjali](05-concepts-and-dharma/yoga-paths-and-patanjali.md)
+
+### 06 · [Sacred Geography](06-sacred-geography/README.md)
+- [51 Śakti Pīṭhas](06-sacred-geography/51-shakti-peethas.md) · [12 Jyotirliṅgas](06-sacred-geography/12-jyotirlingas.md) · [Char Dhām](06-sacred-geography/char-dham-and-chota-char-dham.md) · [Sapta Purī & Sacred Rivers](06-sacred-geography/sapta-puri-and-sacred-cities.md) · [Kumbh Mela](06-sacred-geography/kumbh-mela-and-pilgrimage-cycles.md) · [Meru, Kailāsa & Cosmic Mountains](06-sacred-geography/meru-kailash-and-cosmic-mountains.md)
+
 ### 90 · [The Literature Corpus](90-literature-corpus/README.md) — *the textual record*
-- [Śruti — Vedas & Upanishads](90-literature-corpus/shruti-vedas-and-upanishads.md)
+- [Śruti — Vedas & Upanishads](90-literature-corpus/shruti-vedas-and-upanishads.md) · [Principal Upaniṣads (per-text)](90-literature-corpus/principal-upanishads-detail.md)
 - [Smṛti — Itihāsa (the Epics)](90-literature-corpus/smriti-itihasa-epics.md)
-- [Smṛti — the 18 Purāṇas (+ Upapurāṇas)](90-literature-corpus/smriti-puranas.md)
+- [Smṛti — the 18 Purāṇas (+ Upapurāṇas)](90-literature-corpus/smriti-puranas.md) · [Bhāgavata Purāṇa skandha-map](90-literature-corpus/bhagavata-purana-skandha-map.md)
 - [Upavedas, Vedāṅgas & the Six Darśanas](90-literature-corpus/upavedas-vedangas-darshanas.md)
 - [Āgamas, Tantras & Dharmaśāstras](90-literature-corpus/agamas-tantras-dharmashastras.md)
+- [The Tamil Canon — Sangam, Tirukkuṟaḷ & Bhakti](90-literature-corpus/tamil-canon-sangam-and-bhakti.md)
 
 ---
 
@@ -83,10 +103,13 @@ a Mahāyuga has **four** yugas (Satya, Tretā, Dvāpara, Kali), not five.
 - A `## Sources` section at the foot of every file lists the texts and references used.
 
 ## Status & how this was built
-- **38 content files**, ~53,000 words, built by a 39-agent research workflow (depth-first on the current
-  manvantara and its four yugas; the other 13 manvantaras are concise, expandable stubs).
-- This is a **living first pass**. Stubs are marked `[STUB — expandable]`. Natural next steps: deepen the
-  past/future manvantaras, add per-event dedicated files for the biggest episodes (Samudra Manthana, the
-  full Rāmāyaṇa/Mahābhārata parva-by-parva), and expand the literature corpus into per-text files.
+- **111 files, ~205,000 words**, built across three research-workflow rounds (110 agents total):
+  round 1 laid the cosmological spine + corpus; round 2 deepened the big episodes and audited for gaps;
+  round 3 filled the deferred high-value gaps. All internal cross-links verified (0 broken).
+- The current Manvantara, its four yugas, the two epics (kāṇḍa-/parva-by-parva), the major deity
+  myth-cycles, the doctrinal layer, and sacred geography are **deeply populated**. The other 13
+  manvantaras remain concise, expandable **stubs** (marked `[STUB — expandable]`).
+- See **[STRUCTURE.md](STRUCTURE.md)** for the full skeleton + per-node coverage status + the running
+  list of what to deepen next. This is a **living document**.
 
 *Sources are scriptural (Vedas, Itihāsa, Purāṇas, etc.) and scholarly; cosmic dating is traditional, historical dating is academic and flagged as such.*

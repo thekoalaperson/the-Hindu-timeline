@@ -44,7 +44,7 @@ The most-retold tragedy of the parva.
 - **Abhimanyu's half-knowledge** - **Abhimanyu**, the 16-year-old son of Arjuna and Subhadrā, knows how to *pierce in* but not how to *get out* — he learned only the entry while in the womb (Mbh 7.35).
   - *Variant (popular/folk tradition):* Krishna deliberately stopped narrating the exit-method (interrupting Subhadrā's sleep / her question) so Abhimanyu never heard it — a destiny-device absent from the terse Sanskrit but near-universal in retellings.
 - **The seal-off** - Abhimanyu breaks in; the four following Pāṇḍavas (Bhīma, Yudhiṣṭhira, etc.) try to follow but **Jayadratha**, king of Sindhu, holds the gap shut, trapping Abhimanyu alone (Mbh 7.41).
-- **Jayadratha's boon** - Jayadratha can do this because of a boon from **Śiva**: for one day he can hold off **all the Pāṇḍavas except Arjuna** (Mbh 7; recalled in Pratijñā Parva). See [Śiva myth-cycle](../../02-deities-and-cosmic-hierarchy/shiva-mahadeva.md).
+- **Jayadratha's boon** - Jayadratha can do this because of a boon from **Śiva**: for one day he can hold off **all the Pāṇḍavas except Arjuna** (Mbh 7; recalled in Pratijñā Parva). See [Śiva myth-cycle](../../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md).
 - **Abhimanyu's rampage** - Alone inside, Abhimanyu kills thousands, wounds Duryodhana, slays **Lakṣmaṇa** (Duryodhana's son), and routs major car-warriors (Mbh 7.47–48).
 - **The unfair kill** - On Drona's tacit counsel, **six** warriors attack the lone boy together — Drona, Karṇa, Kṛpa, Aśvatthāmā, Bṛhadbala, Kṛtavarman. Karṇa cuts his bowstring from behind; his horses and charioteer are killed; finally **Duḥśāsana's son** clubs him to death with a mace in a ground duel (Mbh 7.48).
   - *Variant (number of attackers):* most retellings standardize "**seven mahārathis**" ganging up; the Sanskrit lists the assault piecemeal rather than as a fixed "seven."
@@ -100,8 +100,8 @@ The longest sub-parva; one of the epic's set-pieces.
 ## Cross-references
 
 - Up to the era: [Kali Yuga — recorded history & the great war](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)
-- Krishna's role across the war: [Krishna-līlā deep-dive](./krishna-lila.md) · [Dashāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md)
-- The teaching that opened the war: [Bhagavad Gītā](./bhagavad-gita.md)
+- Krishna's role across the war: [Krishna-līlā deep-dive](../krishna-lila.md) · [Dashāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md)
+- The teaching that opened the war: [Bhagavad Gītā](../bhagavad-gita.md)
 - Adjacent books: [Bhīṣma Parva](./06-bhishma-parva.md) → **Droṇa Parva** → [Karṇa Parva](./08-karna-parva.md)
 - Lineages of the actors: [Sūryavaṃśa & Candravaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md)
 

@@ -71,7 +71,7 @@ The Śalya Parva (4 sub-parvas; ~64–65 adhyāyas in the Critical/vulgate editi
 ## Significance & cross-links
 
 - This parva marks the **effective end of the war**: with Duryodhana fallen, organized battle ceases. What follows is the nocturnal revenge-raid ([Sauptika Parva](./10-sauptika-parva.md)).
-- It crystallizes the epic's central moral problem — **dharma achieved through adharmic means** — debated through Balarāma's wrath and Kṛṣṇa's apologetics; a touchstone for [karma and dharma](../../05-concepts-and-dharma/karma-samsara-moksha.md) discussions.
+- It crystallizes the epic's central moral problem — **dharma achieved through adharmic means** — debated through Balarāma's wrath and Kṛṣṇa's apologetics; a touchstone for [karma and dharma](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) discussions.
 - The Saraswatī tīrtha-yātrā embedded here is a primary scriptural source for [sacred river geography](../../06-sacred-geography/README.md).
 - Era: events sit at the Dvāpara–Kali junction; see [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and [Kali Yuga / recorded history](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
 

@@ -107,7 +107,7 @@ The **Karṇa Parva** ("Book of Karṇa") is the **eighth of the 18 parvas** of 
 - Bhīma's blood-vow and Draupadī's loosed hair originate in the dice-game of the **[Sabhā Parva](02-sabha-parva.md)**.
 - Karṇa as a son of **Sūrya** — see the [Sūrya/Candra-vaṃśa lineages](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) and the [deities hierarchy](../../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md).
 - Dharma on **2 legs** in Dvāpara collapsing to 1 in Kali, and the war's many broken rules — see [Yugas & Mahāyuga](../../00-time-and-cosmology/yugas-and-mahayuga.md) and [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
-- The ethics of Kṛṣṇa's counsel to strike a momentarily helpless foe — see [Puruṣārthas & Dharma](../../05-concepts-and-dharma/purusharthas.md) and [Karma, Saṃsāra, Mokṣa](../../05-concepts-and-dharma/karma-samsara-moksha.md).
+- The ethics of Kṛṣṇa's counsel to strike a momentarily helpless foe — see [Puruṣārthas & Dharma](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) and [Karma, Saṃsāra, Mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
 
 ## Sources
 

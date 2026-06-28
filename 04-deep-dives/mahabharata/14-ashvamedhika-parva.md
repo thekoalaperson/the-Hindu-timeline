@@ -23,7 +23,7 @@ The fourteenth book of the Mahābhārata, recounting Yudhiṣṭhira's imperial 
 
 ## The Anugītā — Kṛṣṇa's "sequel" to the Gītā
 
-> Chs. 16–51. Set in Indraprastha/Hastināpura *after* the war, in peace, not on the battlefield. See the original at [Bhagavad Gītā deep-dive](./gita.md) (if present) and the war book [Bhīṣma Parva](./06-bhishma-parva.md).
+> Chs. 16–51. Set in Indraprastha/Hastināpura *after* the war, in peace, not on the battlefield. See the original at [Bhagavad Gītā deep-dive](../bhagavad-gita.md) (if present) and the war book [Bhīṣma Parva](./06-bhishma-parva.md).
 
 - **Arjuna's confession** - Arjuna admits he has **forgotten** the wisdom Kṛṣṇa spoke before the war and asks to hear it again (MBh 14.16).
 - **Kṛṣṇa cannot repeat it verbatim** - Kṛṣṇa says the Gītā was uttered in a heightened **yogic state (yoga-yukta)** and cannot be reproduced word-for-word; instead he relays an **old conversation (purāṇa itihāsa)** carrying the same import — hence "Anu-gītā," the *after/alongside-song* (MBh 14.16).
@@ -31,7 +31,7 @@ The fourteenth book of the Mahābhārata, recounting Yudhiṣṭhira's imperial 
   - **A Siddha and a Brāhmaṇa (descendant of Kāśyapa)** - a perfected sage instructs a brahmin on rebirth, the fruits of action, transmigration of souls, and the path to liberation (MBh 14.16–19).
   - **The Brāhmaṇa and his wife (the "Brahmin's wife" dialogue)** - an allegory of the senses, mind, and the inner sacrifice; the body as the field of an internal yajña; the seven priests, the gates, and the indwelling Self (MBh ~14.20–34).
   - **A teacher (guru) and his pupil** - exposition of the **guṇas** (sattva, rajas, tamas), the **āśramas** (stages of life), tapas, yoga, the elements, and the means of mokṣa (MBh ~14.35–51).
-- **Subject matter** - transmigration, karma and its ripening, the three guṇas, the four āśramas, prāṇa/breath disciplines, and emancipation — echoing the Mukhya Upaniṣads. See [concepts: karma/saṃsāra/mokṣa](../../05-concepts-and-dharma/karma-samsara-moksha.md) and [ātman/brahman](../../05-concepts-and-dharma/atman-and-brahman.md).
+- **Subject matter** - transmigration, karma and its ripening, the three guṇas, the four āśramas, prāṇa/breath disciplines, and emancipation — echoing the Mukhya Upaniṣads. See [concepts: karma/saṃsāra/mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) and [ātman/brahman](../../05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md).
   - *Variant (scholarly):* the Anugītā is held by many academics to be a **medieval addition / "corruption" of the original epic**, doctrinally closer to later Sāṃkhya-Yoga and Upaniṣadic strata than to the Gītā itself [scholarly] [late text].
 
 ## The wandering horse and Arjuna's campaign
@@ -69,8 +69,8 @@ The fourteenth book of the Mahābhārata, recounting Yudhiṣṭhira's imperial 
 ## Connections
 
 - Preceded by [Anuśāsana Parva (13)](./13-anushasana-parva.md); followed by [Āśramavāsika Parva (15)](./15-ashramavasika-parva.md).
-- Philosophical link: the [Bhagavad Gītā](./gita.md) (Bhīṣma Parva) that the Anugītā recapitulates.
-- The horse sacrifice as a sovereignty rite echoes Rāma's Aśvamedha — compare [Rāmāyaṇa Uttara Kāṇḍa](../ramayana/07-uttara-kanda.md).
+- Philosophical link: the [Bhagavad Gītā](../bhagavad-gita.md) (Bhīṣma Parva) that the Anugītā recapitulates.
+- The horse sacrifice as a sovereignty rite echoes Rāma's Aśvamedha — compare [Rāmāyaṇa Uttara Kāṇḍa](../ramayana/7-uttara-kanda.md).
 - Avatāra context: Kṛṣṇa as [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md); his reviving of Parikṣit prefigures the end of the Dvāpara age.
 
 ## Sources

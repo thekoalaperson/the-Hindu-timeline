@@ -1,7 +1,7 @@
 # Gajendra Mokṣa — the Liberation of the Elephant-King
 
 > Cosmic address: a *Manvantara-frame tale* narrated by Śuka to Parīkṣit at the opening of the 8th Canto, set in the present **[7th — Vaivasvata — Manvantara](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md)**. It is one of the great liturgical hymns of [Viṣṇu](../02-deities-and-cosmic-hierarchy/dashavatara.md) and the paradigm of *śaraṇāgati* (total surrender).
-> Up one level: [04-deep-dives](./README.md) · See also: [Concepts: karma / saṃsāra / mokṣa](../05-concepts-and-dharma/karma-samsara-moksha.md) · [Trimūrti and Tridevī](../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md)
+> Up one level: [04-deep-dives](./README.md) · See also: [Concepts: karma / saṃsāra / mokṣa](../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) · [Trimūrti and Tridevī](../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md)
 
 The episode of **Gajendra Mokṣa** ("the liberation of the lord-of-elephants") is told in the **Bhāgavata Purāṇa, Canto 8, Chapters 2–4** (SB 8.2–8.4). It frames a metaphysical lesson — that no created being, however mighty, can save itself; deliverance comes only through unconditional surrender — inside a tale of an elephant seized by a crocodile, a thousand-year struggle, a hymn, and a god who flies to the rescue. It is recited daily across Vaiṣṇava traditions and is one of the most beloved of all Purāṇic *stotras*.
 
@@ -84,7 +84,7 @@ When the crocodile was slain it resumed a celestial form, and Viṣṇu disclose
 
 - **Helplessness as qualification** - Gajendra is the paradigm devotee precisely because he is utterly powerless: his strength, herd, and pride all fail, and only when he abandons self-effort does grace act. This is the scriptural template for **prapatti / śaraṇāgati** in Śrī-Vaiṣṇava and Gauḍīya thought. (*Bhāgavata Purāṇa 8.2.32–8.3.31*; theological tradition.)
 - **The non-sectarian call** - Because Gajendra invokes the Absolute without a sectarian name, the tale is read as teaching that sincere surrender — not correct labeling — draws the divine response (*Bhāgavata Purāṇa 8.3.30–8.3.31*).
-- **Crocodile of saṃsāra** - Allegorically: the elephant is the *jīva* (soul), the lake is *saṃsāra*, the crocodile is the grip of material entanglement / time / death, the herd is unreliable worldly relations, and the lotus offered with the last breath is the soul's surrender. (Standard commentarial allegory; see [karma / saṃsāra / mokṣa](../05-concepts-and-dharma/karma-samsara-moksha.md).)
+- **Crocodile of saṃsāra** - Allegorically: the elephant is the *jīva* (soul), the lake is *saṃsāra*, the crocodile is the grip of material entanglement / time / death, the herd is unreliable worldly relations, and the lotus offered with the last breath is the soul's surrender. (Standard commentarial allegory; see [karma / saṃsāra / mokṣa](../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).)
 
 ---
 

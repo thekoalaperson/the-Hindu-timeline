@@ -104,7 +104,7 @@ The **Virāṭa Parva** ("Book of Virāṭa") is the **fourth of the 18 parvas**
 - Continues from the 12 forest years of the [Vana Parva](03-vana-parva.md), including Ūrvaśī's eunuch-curse that supplies Arjuna's Bṛhannalā disguise.
 - Leads directly into the failed peace embassy of the [Udyoga Parva](05-udyoga-parva.md).
 - Kṛṣṇa, Balarāma and the Yādavas at the Upaplavya wedding — see the [Kṛṣṇa-līlā deep-dive](../krishna-lila.md) and [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md).
-- Draupadī's recurring public humiliation and her dharma — see [Puruṣārthas & Dharma](../../05-concepts-and-dharma/purusharthas.md).
+- Draupadī's recurring public humiliation and her dharma — see [Puruṣārthas & Dharma](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
 - Lineage of Abhimanyu → Parīkṣit (the Kuru/Candra-vaṃśa line) — see [Sūrya-vaṃśa & Candra-vaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
 - Dvāpara-Yuga placement of these events — see [03 — Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
 

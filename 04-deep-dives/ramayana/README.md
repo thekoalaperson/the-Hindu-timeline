@@ -16,13 +16,13 @@ The **Rāmāyaṇa** ("the journey/career of Rāma") is the *ādi-kāvya* — th
 
 ### The 7 Kāṇḍas (deep-dive files)
 
-- **[Bāla Kāṇḍa](bala-kanda.md)** - "Book of Childhood": Rāma's birth via the *putra-kāmeṣṭi* sacrifice, the boy-sages' protection of Viśvāmitra's yajña, the breaking of Śiva's bow, marriage to Sītā.
-- **[Ayodhyā Kāṇḍa](ayodhya-kanda.md)** - "Book of Ayodhyā": Kaikeyī's two boons, Daśaratha's death, Rāma's 14-year exile, Bharata's regency with Rāma's sandals.
-- **[Araṇya Kāṇḍa](aranya-kanda.md)** - "Book of the Forest": Daṇḍaka forest, Śūrpaṇakhā, the golden deer Mārīca, and Rāvaṇa's abduction of Sītā.
-- **[Kiṣkindhā Kāṇḍa](kishkindha-kanda.md)** - "Book of Kiṣkindhā": alliance with Sugrīva, slaying of Vālī, the vānara search for Sītā.
-- **[Sundara Kāṇḍa](sundara-kanda.md)** - "Beautiful Book": Hanumān's leap to Laṅkā, finding Sītā in the Aśoka grove, burning of Laṅkā. (Recited as an auspicious self-contained unit.)
-- **[Yuddha Kāṇḍa](yuddha-kanda.md)** - "Book of War" (a.k.a. Laṅkā Kāṇḍa): bridge to Laṅkā, the great war, slaying of Rāvaṇa, Sītā's *agni-parīkṣā*, coronation (*paṭṭābhiṣeka*).
-- **[Uttara Kāṇḍa](uttara-kanda.md)** - "Final Book": Rāvaṇa's back-story, Sītā's banishment, birth of Lava-Kuśa, Sītā's return to the earth, Rāma's departure. *Widely regarded by scholars as a later addition* [scholarly].
+- **[Bāla Kāṇḍa](1-bala-kanda.md)** - "Book of Childhood": Rāma's birth via the *putra-kāmeṣṭi* sacrifice, the boy-sages' protection of Viśvāmitra's yajña, the breaking of Śiva's bow, marriage to Sītā.
+- **[Ayodhyā Kāṇḍa](2-ayodhya-kanda.md)** - "Book of Ayodhyā": Kaikeyī's two boons, Daśaratha's death, Rāma's 14-year exile, Bharata's regency with Rāma's sandals.
+- **[Araṇya Kāṇḍa](3-aranya-kanda.md)** - "Book of the Forest": Daṇḍaka forest, Śūrpaṇakhā, the golden deer Mārīca, and Rāvaṇa's abduction of Sītā.
+- **[Kiṣkindhā Kāṇḍa](4-kishkindha-kanda.md)** - "Book of Kiṣkindhā": alliance with Sugrīva, slaying of Vālī, the vānara search for Sītā.
+- **[Sundara Kāṇḍa](5-sundara-kanda.md)** - "Beautiful Book": Hanumān's leap to Laṅkā, finding Sītā in the Aśoka grove, burning of Laṅkā. (Recited as an auspicious self-contained unit.)
+- **[Yuddha Kāṇḍa](6-yuddha-kanda.md)** - "Book of War" (a.k.a. Laṅkā Kāṇḍa): bridge to Laṅkā, the great war, slaying of Rāvaṇa, Sītā's *agni-parīkṣā*, coronation (*paṭṭābhiṣeka*).
+- **[Uttara Kāṇḍa](7-uttara-kanda.md)** - "Final Book": Rāvaṇa's back-story, Sītā's banishment, birth of Lava-Kuśa, Sītā's return to the earth, Rāma's departure. *Widely regarded by scholars as a later addition* [scholarly].
 
 > Note: the **Bāla** and **Uttara** kāṇḍas are considered by most academics to be **later interpolations** framing an older core (kāṇḍas 2–6) — it is chiefly in these two that Rāma's full divinity as Viṣṇu is made explicit [scholarly].
 
@@ -49,7 +49,7 @@ The Sanskrit text survives in **thousands of manuscripts** (oldest ~11th c. CE) 
 
 - **Adhyātma Rāmāyaṇa** - Embedded in the *Brahmāṇḍa Purāṇa*, ascribed to Vyāsa; ~4,200 verses, 7 kāṇḍas. Recasts the story as **Advaita-Vedānta allegory**: Rāma is the supreme Brahman, the "real" Sītā is hidden with Agni and only a *māyā-Sītā* (shadow) is abducted. ~14th–15th c. A primary source for Tulsīdās. [late text]
 - **Ānanda Rāmāyaṇa** - Attributed to Vālmīki [pseudepigraphic]; ~15th c. Focuses on Rāma's **later reign and miscellaneous/peripheral legends** (e.g., Rāvaṇa's earlier conquests, ritual lore); popular for vrata stories. [late text]
-- **Yoga Vāsiṣṭha (Vāsiṣṭha Rāmāyaṇa / Mahā-Rāmāyaṇa)** - Attributed to Vālmīki; a vast (~29,000-verse) **philosophical dialogue** in which sage Vasiṣṭha instructs young Rāma in Advaita and the illusory nature of the world — narrative is a frame for [Vedānta](../../05-concepts-and-dharma/atman-and-brahman.md). [late text]
+- **Yoga Vāsiṣṭha (Vāsiṣṭha Rāmāyaṇa / Mahā-Rāmāyaṇa)** - Attributed to Vālmīki; a vast (~29,000-verse) **philosophical dialogue** in which sage Vasiṣṭha instructs young Rāma in Advaita and the illusory nature of the world — narrative is a frame for [Vedānta](../../05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md). [late text]
 - **Agastya Rāmāyaṇa** & **Adbhuta Rāmāyaṇa** - Supplementary Sanskrit traditions; the *Adbhuta* foregrounds a fierce **Śākta/Devī** form of Sītā who slays a thousand-headed Rāvaṇa. [late text] [Shakta variant]
 
 ### Regional Indian retellings

@@ -40,8 +40,8 @@ Dattātreya (*Datta* "the given" + *Ātreya* "son of Atri") is the rare deity in
 
 ## The Avadhūta ideal
 
-- **Definition** - The **avadhūta** is the renunciate who has "shaken off" (ava-dhū) all bonds — caste, āśrama, ritual obligation, social shame, even clothing — living in spontaneous bliss as a jīvanmukta. Dattātreya is the paradigm avadhūta. (Bhāgavata 11.7–9; [see moksha](../05-concepts-and-dharma/karma-samsara-moksha.md))
-- **Avadhūta Gītā** - The terse non-dual (Advaita) poem **Avadhūta Gītā** ("Song of the Free Soul") is traditionally attributed to Dattātreya (as spoken to his disciple Kārtika/Svāmī Kārttikeya). It teaches radical identity of ātman and Brahman and the worthlessness of external observance for the realized. (Avadhūta Gītā; [atman-brahman](../05-concepts-and-dharma/atman-and-brahman.md))
+- **Definition** - The **avadhūta** is the renunciate who has "shaken off" (ava-dhū) all bonds — caste, āśrama, ritual obligation, social shame, even clothing — living in spontaneous bliss as a jīvanmukta. Dattātreya is the paradigm avadhūta. (Bhāgavata 11.7–9; [see moksha](../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md))
+- **Avadhūta Gītā** - The terse non-dual (Advaita) poem **Avadhūta Gītā** ("Song of the Free Soul") is traditionally attributed to Dattātreya (as spoken to his disciple Kārtika/Svāmī Kārttikeya). It teaches radical identity of ātman and Brahman and the worthlessness of external observance for the realized. (Avadhūta Gītā; [atman-brahman](../05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md))
   - *Variant [scholarly]:* The extant Avadhūta Gītā is dated by academics to roughly the 9th–10th c. CE or later — far post-Vedic — and its Dattātreya attribution is devotional rather than historical.
 - **Jīvanmukti without works** - The avadhūta needs no temple, fire, or rule; his very wandering body is the teaching. This anti-ritual, pro-direct-realization stance later flows into Nāth and Sant currents. (scholarly)
 
@@ -101,7 +101,7 @@ Dattātreya (*Datta* "the given" + *Ātreya* "son of Atri") is the rare deity in
 - [Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md) — avatāra theology
 - [Ambarīṣa–Durvāsā](./ambarisha-durvasa.md) — his Śiva-portion brother
 - [Sūrya- & Candra-vaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) — Soma/Candra his brother; Yadu his royal disciple
-- [Karma, Saṃsāra, Mokṣa](../05-concepts-and-dharma/karma-samsara-moksha.md) and [Ātman & Brahman](../05-concepts-and-dharma/atman-and-brahman.md) — the avadhūta doctrine
+- [Karma, Saṃsāra, Mokṣa](../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) and [Ātman & Brahman](../05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md) — the avadhūta doctrine
 - [Kalpa & Pralaya](../00-time-and-cosmology/kalpa-and-pralaya.md) — the spider-guru's cosmogonic lesson
 - [Smṛti: Purāṇas](../90-literature-corpus/smriti-puranas.md) — source corpus
 
