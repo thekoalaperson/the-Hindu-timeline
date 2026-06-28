@@ -9,7 +9,7 @@
 - **Mahābhārata** → [overview & recensions](mahabharata/README.md) · 18 parvas: [1 Ādi](mahabharata/01-adi-parva.md) · [2 Sabhā](mahabharata/02-sabha-parva.md) · [3 Vana](mahabharata/03-vana-parva.md) · [4 Virāṭa](mahabharata/04-virata-parva.md) · [5 Udyoga](mahabharata/05-udyoga-parva.md) · [6 Bhīṣma](mahabharata/06-bhishma-parva.md) · [7 Droṇa](mahabharata/07-drona-parva.md) · [8 Karṇa](mahabharata/08-karna-parva.md) · [9 Śalya](mahabharata/09-shalya-parva.md) · [10 Sauptika](mahabharata/10-sauptika-parva.md) · [11 Strī](mahabharata/11-stri-parva.md) · [12 Śānti](mahabharata/12-shanti-parva.md) · [13 Anuśāsana](mahabharata/13-anushasana-parva.md) · [14 Āśvamedhika](mahabharata/14-ashvamedhika-parva.md) · [15 Āśramavāsika](mahabharata/15-ashramavasika-parva.md) · [16 Mausala](mahabharata/16-mausala-parva.md) · [17 Mahāprasthānika](mahabharata/17-mahaprasthanika-parva.md) · [18 Svargārohaṇa](mahabharata/18-svargarohana-parva.md)
 
 ## Standalone Episodes
-- [The Bhagavad Gītā](bhagavad-gita.md) · [Samudra Manthana (Churning of the Ocean)](samudra-manthana.md) · [Kṛṣṇa-līlā](krishna-lila.md) · [The Yoga Sūtras of Patañjali](yoga-sutras-of-patanjali.md)
+- [The Bhagavad Gītā](bhagavad-gita/README.md) (18-chapter folder hub) · [Samudra Manthana (Churning of the Ocean)](samudra-manthana.md) · [Kṛṣṇa-līlā](krishna-lila.md) · [The Yoga Sūtras of Patañjali](yoga-sutras-of-patanjali.md)
 
 ## Upākhyānas & Exemplary Tales (insets from the epics & Purāṇas)
 - [Naḷa & Damayantī](nala-damayanti.md) · [Sāvitrī & Satyavān](savitri-satyavan.md) · [Śakuntalā & Bharata](shakuntala-bharata.md) · [Yayāti](yayati.md) · [Nachiketa (Kaṭha Upaniṣad)](nachiketa-katha-upanishad.md)

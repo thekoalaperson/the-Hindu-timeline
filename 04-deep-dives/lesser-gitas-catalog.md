@@ -1,0 +1,101 @@
+# The Lesser Gītās of the Mahābhārata — A Catalog
+
+> Where this sits: an **index of the smaller "Gītās"** (didactic song-discourses) embedded throughout the [Mahābhārata](../90-literature-corpus/smriti-itihasa-epics.md) *beyond* the famous [Bhagavad Gītā](./bhagavad-gita.md) and [Anugītā](./anugita.md). Most cluster in the **Mokṣa-dharma** section of the [Śānti Parva](./mahabharata/12-shanti-parva.md) (Book 12); a few sit in the [Vana Parva](./mahabharata/03-vana-parva.md) (Book 3) and [Āśvamedhika Parva](./mahabharata/14-ashvamedhika-parva.md) (Book 14).
+>
+> Parent: [04-deep-dives](./README.md) · Master index: [../README.md](../README.md) · Companions: [Bhagavad Gītā](./bhagavad-gita.md) · [Anugītā](./anugita.md) · [Minor Upākhyānas catalog](./minor-upakhyanas-catalog.md)
+
+A **"Gītā" ("song")** in the epic is a self-contained instructional dialogue, usually named for its *teacher* (Vyādha-, Parāśara-, Vāmadeva-) and sometimes for its *occasion* or its *subject* (Kāma-, Ajagara-). They are not separate books; they are insets within the parvas, mostly reported by **Bhīṣma to Yudhiṣṭhira** on the bed of arrows in the Mokṣa-dharma-parva. Devotional tradition collects "the eighteen Gītās" as a pious anthology (a *gītā-saṅgraha*) alongside the Bhagavad Gītā; popular and online lists expand this to **21**, and the wider Hindu corpus (counting Purāṇic Gītās such as the Uddhava/Haṃsa-, Devī-, Gaṇeśa-, Śiva-, Aṣṭāvakra-, Avadhūta-, Rāma-, Sūta-Gītās) reaches **"more than sixty."** [scholarly] [folk]
+
+## On the differing enumerations (18 / 21 / 60) — read first
+
+- **There is no single canonical roster.** The Mahābhārata never lists its own Gītās; the "X Gītās" tallies are later devotional/encyclopedic constructions. Counts differ because compilers (a) disagree on what counts as a "Gītā" vs. an ordinary upadeśa, (b) mix in Purāṇic Gītās, and (c) split or merge borderline cases. Treat every number below as **traditional, not textual.** [scholarly] [open-ended roster]
+  - *Variant (18):* the most common pious set — the eighteen including the Bhagavad Gītā, Anu-, Brāhmaṇa-, Bodhya-, Vyādha- (Dharma-vyādha), Haṃsa-, Hārīta-, Kāma-, Maṅki-, Parāśara-, Ṛṣabha-, Śampāka-, Śaṅkha-, Vāmadeva-, Vicakhnu-, Vṛtra-, Yājñavalkya-Gītā. (devotional *gītā-saṅgraha* tradition) [folk]
+  - *Variant (21):* popular/online expansions add framing dialogues often counted as "Gītās" — e.g. **Vidura-, Sanatsujāta-, Aṣṭāvakra-, Yudhiṣṭhira (Yakṣa)-, Nahuṣa-, Baka-, Śaunaka-, Piṅgalā-, Pāṇḍava-Gītā**. (thebrightdelights / blog lists) [folk] [disputed]
+  - *Variant ("60+"):* whole-of-Hinduism tallies fold in Purāṇic and later Gītās (Uddhava/Haṃsa from Bhāgavata, Devī-Gītā, Gaṇeśa-Gītā, Śiva-Gītā, Avadhūta-Gītā, Rāma-Gītā, Sūta-Gītā, Brahma-Gītā, Yama-Gītā, etc.). (Back to Your Roots; LinkedIn "60 Gītās"; Kāmakoṭi *Pradhāna Gītā Sañcaya*) [folk]
+- **"Two clocks" reminder** - *In-narrative* every Mahābhārata Gītā is spoken in the closing [Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) of our 28th Mahāyuga, the Śānti-parva discourses falling in the war's immediate aftermath (traditionally just before [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) at 3102 BCE). *Text-critically* the Mokṣa-dharma Gītās are among the epic's **latest accreted layers** (mid-1st-millennium CE Sāṃkhya vocabulary). Keep scriptural time distinct from manuscript dating. [scholarly]
+
+---
+
+## Tier 1 — The "core eighteen" (named teacher-Gītās)
+
+### Vana Parva (Book 3) Gītās
+
+- **Vyādha-gītā (Dharma-vyādha-gītā)** - The "Song of the Righteous Butcher." A proud brāhmaṇa ascetic, **Kauśika**, is humbled — first by a faithful housewife (the *pativratā*), who tells him a dharmic householder outranks a tapas-proud renunciant — then sent to a **Dharma-vyādha** (a meat-seller of Mithilā) who teaches him *svadharma*, *ahiṃsā* within duty, devotion to parents, and that liberation is found in doing one's appointed work honestly, however lowly. The butcher's low birth is a karmic episode, not a verdict on his wisdom. Narrated by **Mārkaṇḍeya to Yudhiṣṭhira**. (MBh. Vana Parva ~3.197–206) → [Vana Parva](./mahabharata/03-vana-parva.md); cf. [Mārkaṇḍeya](./markandeya.md) [the framing sage who relates it].
+  - *Variant (number):* often singled out as the single most-cited "lesser Gītā," prized in Advaita/Rāmakṛṣṇa-Vivekānanda circles as the locus classicus of work-as-worship. [scholarly]
+
+### Āśvamedhika Parva (Book 14) Gītās
+
+- **Brāhmaṇa-gītā** - The "Song of the Brāhmaṇa," the doctrinal core *embedded inside the* [Anugītā](./anugita.md): a sage answers his wife on the worlds attainable and unfolds the **agnihotra-within-the-body** allegory (inner fire Vaiśvānara, seven sense-tongues, five prāṇas) — liberation by inner sacrifice rather than outer rite. Spoken (reported) by **Kṛṣṇa to Arjuna**. (MBh. Āśvamedhika Parva, within Anugītā ~14.20–34) → [Anugītā](./anugita.md); [Āśvamedhika Parva](./mahabharata/14-ashvamedhika-parva.md).
+- **Kāma-gītā** - The "Song of Desire" — a striking inset in which **Kāma (Desire personified) sings of his own indestructibility**: whoever tries to slay desire by force only feeds it (desire reappears in the very act of renouncing); it can be transcended only by knowledge, not suppression. Reported within Kṛṣṇa's instruction. (MBh. Āśvamedhika Parva ~14.13) → [Āśvamedhika Parva](./mahabharata/14-ashvamedhika-parva.md); cf. [Concepts of dharma](../05-concepts-and-dharma/).
+  - *Variant (placement):* some lists locate Kāma-gītā in the Śānti Parva / Mokṣa-dharma; the Āśvamedhika placement (in Kṛṣṇa–Yudhiṣṭhira dialogue) is the better-attested. [disputed]
+
+### Śānti Parva (Book 12) — Mokṣa-dharma & Rāja-dharma Gītās
+
+- **Vṛtra-gītā** - The "Song of Vṛtra." The defeated asura-king **Vṛtra**, taught by his guru **Śukrācārya** (the Uśanas tradition), accepts his destiny and expounds calm renunciation, devotion to **Viṣṇu/Hari**, and the equanimity of one who knows the self is untouched by victory or defeat. A theistic counter-note within the Mokṣa-dharma. (MBh. Śānti Parva, Mokṣa-dharma ~12.279–281) → [Śānti Parva](./mahabharata/12-shanti-parva.md); cf. [Indra–Vṛtra in the bestiary](../08-beings-and-bestiary/).
+- **Parāśara-gītā** - The "Song of Parāśara." Sage **Parāśara** (father of Vyāsa) instructs **King Janaka** of Mithilā on *dharma* across the *varṇas* and *āśramas*, the supremacy of righteous conduct, gradations of good and evil action, and the path to mokṣa through dutiful living. A long *dharma-śāstra*-flavored discourse. (MBh. Śānti Parva, Mokṣa-dharma ~12.290–298) → [Śānti Parva](./mahabharata/12-shanti-parva.md).
+- **Vāmadeva-gītā** - The "Song of Vāmadeva," a **Rāja-dharma** text: sage **Vāmadeva** counsels **King Vasumanā** (of Kosala) on righteous kingship — the king who rules by dharma prospers, the unrighteous king ruins himself and his realm; on punishment, restraint, and the ruler as servant of dharma. (MBh. Śānti Parva, Rāja-dharma ~12.92–93) → [Śānti Parva](./mahabharata/12-shanti-parva.md).
+- **Bodhya-gītā** - The "Song of Bodhya." Sage **Bodhya**, asked by **King Yayāti** who his teachers were, replies that he learned detachment from **nature and animals** — the python (contentment), the maiden's single bangle (solitude avoids the clatter of company), the arrow-maker (one-pointedness), the serpent (homelessness) — a "many gurus" teaching on impermanence and non-attachment. (MBh. Śānti Parva, Mokṣa-dharma ~12.178) → [Śānti Parva](./mahabharata/12-shanti-parva.md); cf. [Yayāti](./yayati.md); structurally parallels the Avadhūta's 24 gurus in the [Bhāgavata](../90-literature-corpus/bhagavata-purana-skandha-map.md).
+- **Maṅki-gītā** - The "Song of Maṅki" (~50 verses). **Maṅki**, who has lost his last two bullocks (his whole livelihood) when they bolt and wreck his plough, awakens to the futility of desire and acquisition: every loss is release; renounce craving and find peace. Narrated by **Bhīṣma**. (MBh. Śānti Parva, Mokṣa-dharma ~12.171) → [Śānti Parva](./mahabharata/12-shanti-parva.md).
+- **Śampāka-gītā (Śaṃpāka / Saṃpāka)** - The "Song of Śampāka." A poor brāhmaṇa **Śampāka** declares that **renunciation alone yields lasting happiness** — the propertyless sleep soundly while the rich are gnawed by anxiety; "nothing is mine" is the highest wealth. Narrated by **Bhīṣma**. (MBh. Śānti Parva, Mokṣa-dharma ~12.176) → [Śānti Parva](./mahabharata/12-shanti-parva.md).
+- **Vicakhnu-gītā (Vicakhnu / Vicakhya)** - The "Song of King Vicakhnu," a discourse against the cruelty of **animal sacrifice**: the king, sickened at the sight of a maimed bull, condemns ritual slaughter and exalts **ahiṃsā** and inner purity over bloody rite. Narrated by **Bhīṣma**. (MBh. Śānti Parva, Mokṣa-dharma ~12.265) → [Śānti Parva](./mahabharata/12-shanti-parva.md).
+- **Hārīta-gītā (Harita)** - The "Song of Hārīta," on the discipline of **saṃnyāsa**: the marks of the true renunciant — equanimity, harmlessness, freedom from possessions and from the dualities of pleasure/pain — as the road to liberation. Narrated by **Bhīṣma**. (MBh. Śānti Parva, Mokṣa-dharma ~12.278) → [Śānti Parva](./mahabharata/12-shanti-parva.md).
+- **Ṛṣabha-gītā** - The "Song of Ṛṣabha," in which the sage **Ṛṣabha** relates an encounter teaching detachment, contentment, and the conquest of hope/expectation (often paired with the figure of **Sumanā** and a parable on the futility of craving). Narrated by **Bhīṣma**. (MBh. Śānti Parva, Mokṣa-dharma ~12.125) → [Śānti Parva](./mahabharata/12-shanti-parva.md); distinguish from the Jain/Bhāgavata **Ṛṣabha-deva** of [rishabha-bharata-jada.md](./rishabha-bharata-jada.md). [disputed — chapter varies by edition]
+- **Śaṅkha-gītā (Śaṅkha-Likhita; also listed "Śāṅga"/"Śaṅga")** - The "Song of Śaṅkha," on **rāja-daṇḍa** and expiation: the brothers **Śaṅkha and Likhita** dramatize that even a king must accept punishment for transgression, and that justice impartially applied (Likhita's hands struck off for theft of fruit, then restored) upholds dharma. Often the "Śaṅga-gītā" of lists. (MBh. Śānti Parva, Rāja-dharma ~12.23) → [Śānti Parva](./mahabharata/12-shanti-parva.md). [disputed — "Śaṅga"/"Śaṅkha" identification uncertain across rosters]
+- **Yājñavalkya-gītā** - The "Song of Yājñavalkya," a major **Sāṃkhya–Yoga** discourse: sage **Yājñavalkya** instructs **King Janaka** (Daivarāti) on the enumeration of *tattvas* (the 24/25 principles), puruṣa and prakṛti, the unmanifest, and liberating knowledge — the epic's fullest formal Sāṃkhya statement after the Anugītā. (MBh. Śānti Parva, Mokṣa-dharma ~12.298–306, "Section CCCXI" area) → [Śānti Parva](./mahabharata/12-shanti-parva.md); cf. [Yoga-sūtras of Patañjali](./yoga-sutras-of-patanjali.md), [principal Upaniṣads](../90-literature-corpus/principal-upanishads-detail.md) [the Bṛhadāraṇyaka Yājñavalkya].
+- **Ajagara-gītā** - The "Song of the Python" (*ajagara* = "the goat-swallower," a python that lies still and eats only what comes to it). An ascetic living the **ajagara-vṛtta** (python-vow of total non-effort and acceptance) counsels **Prahlāda** (the asura-king who came to learn the secret of his serenity) on equanimity in plenty and want alike — taking only what fate brings, neither striving nor grieving. Within the **Bhīṣma–Yudhiṣṭhira** dialogue. (MBh. Śānti Parva, Mokṣa-dharma ~12.179) → [Śānti Parva](./mahabharata/12-shanti-parva.md). [some rosters fold this into the Bodhya/"many-gurus" cluster]
+- **Piṅgalā-gītā** - The "Song of Piṅgalā," the courtesan/dancing-girl of Mithilā who, after a night of futile waiting for a wealthy client, abruptly **sees the futility of worldly desire** and turns to renunciation, finding peace the moment she abandons hope. A celebrated verse on disappointment as the door to detachment. (MBh. Śānti Parva, Mokṣa-dharma ~12.168) → [Śānti Parva](./mahabharata/12-shanti-parva.md); famously retold in the Bhāgavata's Avadhūta-gītā (Skandha 11) as one of the 24 gurus, see [Bhāgavata skandha map](../90-literature-corpus/bhagavata-purana-skandha-map.md). [folk — widely quoted]
+- **Haṃsa-gītā** - The "Song of the Swan." Within the Mokṣa-dharma, **Brahmā in the form of a haṃsa (swan)** answers the **Sādhyas** (a class of demigods) on the highest good: forbearance, truthfulness, control of speech, and self-mastery as the marks of the wise — repaying abuse with patience. Related by **Vyāsa to Yudhiṣṭhira** (~41 verses). (MBh. Śānti Parva, Mokṣa-dharma ~12.288–299, "ch. 299" in some counts) → [Śānti Parva](./mahabharata/12-shanti-parva.md).
+  - *Variant (major — name collision):* the **Haṃsa-gītā is also the common name for the Uddhava-gītā** of the [Bhāgavata Purāṇa](../90-literature-corpus/bhagavata-purana-skandha-map.md) (Skandha 11), Kṛṣṇa's farewell teaching to **Uddhava** — an entirely different, Purāṇic text. Many "Gītā lists" conflate the two; the Mahābhārata Haṃsa-gītā is the swan-Brahmā discourse, *not* the Uddhava farewell. [disputed] [common error]
+
+### Anu-gītā (the bridge to the famous pair)
+
+- **Anu-gītā** - The "After-Song," Kṛṣṇa's postwar restatement of the Gītā's teaching through borrowed *jñāna*/Sāṃkhya narratives (containing the Brāhmaṇa-gītā above). The largest of the "lesser" Gītās and effectively a sequel to the Bhagavad Gītā. (MBh. Āśvamedhika Parva ~14.16–51) → full file: [Anugītā](./anugita.md).
+
+---
+
+## Tier 2 — Often counted in the "21," but better classed as framing dialogues [disputed]
+
+These are great instructional discourses sometimes *called* "Gītās" in popular lists, but are usually named for the speaker without the *-gītā* suffix in the critical text. Listed for completeness; identifications are **traditional, open-ended.**
+
+- **Vidura-gītā (Vidura-nīti)** - **Vidura's** night-long counsel to the blind king **Dhṛtarāṣṭra** on the eve of war: statecraft, ethics, the marks of the wise vs. the fool, and dharma over expediency. (MBh. Udyoga Parva ~5.33–40) → [Udyoga Parva](./mahabharata/05-udyoga-parva.md). [more properly *Vidura-nīti*]
+- **Sanatsujāta-gītā (Sanatsujātīya)** - The sage **Sanatsujāta** teaches **Dhṛtarāṣṭra** that death is born of ignorance (*pramāda*) and conquered by knowledge of Brahman; bundled with the Gītā and Anugītā as the epic's third great philosophical insertion. (MBh. Udyoga Parva ~5.41–46) → [Udyoga Parva](./mahabharata/05-udyoga-parva.md). [scholarly — Telang, *SBE* 8]
+- **Yudhiṣṭhira-gītā (Yakṣa-praśna)** - The **Yakṣa's** riddles answered by **Yudhiṣṭhira** at the lake, climaxing in the revival of his brothers — a catechism on dharma. (MBh. Vana Parva ~3.296–298) → [Vana Parva](./mahabharata/03-vana-parva.md).
+- **Aṣṭāvakra-gītā** - Sometimes attached to the epic's **Aṣṭāvakra** (the eight-bent sage who bests Vandin at Janaka's court, MBh. Vana Parva); but the famous *Aṣṭāvakra Gītā* (Advaita) is an independent **[late text]** dialogue of Aṣṭāvakra and Janaka, *not* in the Mahābhārata. → cf. [Aṣṭāvakra stub](./minor-upakhyanas-catalog.md). [disputed] [common error]
+- **Nahuṣa-gītā** - The fallen Indra-usurper **Nahuṣa** (cursed to serpenthood) debating dharma with **Yudhiṣṭhira**. (MBh. Vana Parva ~3.176–178) → [Nahuṣa](./nahusha.md); [Vana Parva](./mahabharata/03-vana-parva.md).
+- **Baka-gītā** - The long-lived sage **Baka Dālbhya** in dialogue with **Indra** on the vicissitudes of long life and detachment. (MBh. Śānti Parva / Anuśāsana) → [Śānti Parva](./mahabharata/12-shanti-parva.md). [disputed placement]
+- **Śaunaka-gītā** - Sage **Śaunaka's** consolation to **Yudhiṣṭhira** in exile on poverty, grief, and the conquest of attachment. (MBh. Vana Parva ~3.2) → [Vana Parva](./mahabharata/03-vana-parva.md).
+- **Pāṇḍava-gītā (Prapanna-gītā / Gajendra-mokṣa-stuti)** - A devotional anthology of surrender-verses to **Nārāyaṇa** attributed to the Pāṇḍavas and other devotees; a later compilation circulated as the "Pāṇḍava-gītā." [late text] [folk] → cf. [Gajendra-mokṣa](./gajendra-moksha.md).
+- **Uttara-gītā** - A short post-Bhagavad-Gītā Yoga dialogue (Kṛṣṇa–Arjuna) circulated as an appendix/independent text; **not in the critical Mahābhārata**, traditionally tantra-Yoga. [late text] [disputed]
+
+---
+
+## Purāṇic & independent "Gītās" (the path to "60+") — pointers only
+
+Folded into whole-of-Hinduism tallies but **outside** the Mahābhārata; noted so the cross-counts make sense. [folk]
+
+- **Uddhava-gītā / Haṃsa-gītā** — Kṛṣṇa to Uddhava, [Bhāgavata Purāṇa](../90-literature-corpus/bhagavata-purana-skandha-map.md) Skandha 11 (incl. the **Avadhūta's 24 gurus**, which absorb Piṅgalā & Ajagara motifs above).
+- **Devī-gītā** — [Devī-Bhāgavata Purāṇa]; **Gaṇeśa-gītā** — Gaṇeśa Purāṇa; **Śiva-gītā** — Padma Purāṇa; **Rāma-gītā** — Adhyātma Rāmāyaṇa; **Yama-, Sūta-, Brahma-, Avadhūta-, Iśvara-, Vyāsa-, Śruti-, Kapila-Gītās** — various Purāṇas/Āgamas. [late text] → see [Purāṇas corpus](../90-literature-corpus/smriti-puranas.md).
+
+---
+
+## Cross-links
+
+- [Bhagavad Gītā](./bhagavad-gita.md) — the great Gītā all others orbit.
+- [Anugītā](./anugita.md) — the "After-Song" and its embedded Brāhmaṇa-gītā.
+- [Śānti Parva](./mahabharata/12-shanti-parva.md) — the Mokṣa-dharma/Rāja-dharma home of most lesser Gītās.
+- [Vana Parva](./mahabharata/03-vana-parva.md) · [Āśvamedhika Parva](./mahabharata/14-ashvamedhika-parva.md) · [Udyoga Parva](./mahabharata/05-udyoga-parva.md) — the other Gītā locations.
+- [Minor Upākhyānas catalog](./minor-upakhyanas-catalog.md) — the companion index of smaller insets.
+- [Bhāgavata Purāṇa skandha map](../90-literature-corpus/bhagavata-purana-skandha-map.md) — the Uddhava/Haṃsa-gītā and the 24-gurus parallels.
+- [Smṛti: Itihāsa & Epics](../90-literature-corpus/smriti-itihasa-epics.md) — the Mahābhārata frame and its redaction layers.
+
+## Sources
+
+- *The 21 Gitas of Mahabharata (Part 1)* — The Bright Delights: https://thebrightdelights.com/the-21-gitas-of-mahabharata-lesser-known-gitas-part-1/ (the popular "21" roster — speakers and one-line teachings for Vyādha, Vṛtra, Parāśara, Bodhya, Piṅgalā, Maṅki, Śampāka, Vicakhnu, Hārīta, Brāhmaṇa, and the framing dialogues Vidura/Sanatsujāta/Aṣṭāvakra/Yudhiṣṭhira/Nahuṣa/Baka/Śaunaka/Pāṇḍava). [folk]
+- *Different Gitas in Hinduism (Part 1): Gitas from Mahabharata* — Advaitam and Science: https://advaitamandscience.org/articles/different-gitas-in-hinduism-part1-gitas-from-mahabharata/ (parva locations and speakers — Vana/Śānti/Āśvamedha placements for Vyādha, Vṛtra, Brāhmaṇa, Parāśara, Vāmadeva, Bodhya, Śampāka, Piṅgalā, Kāma, Vicakhnu, Hārīta; notes "more than sixty gitas").
+- *Types of Gitas in Hinduism (गीता-संग्रह)* — Back to Your Roots: https://www.backtoyourroots.org/blog/types-of-gitas-in-hinduism (the "60 Gītās" framing; Purāṇic Gītās).
+- *Hamsa Gita in Mahabharata* — Hindu Blog: https://www.hindu-blog.com/2026/02/hamsa-gita-in-mahabharata.html (Śānti Parva ch. 299, Vyāsa to Yudhiṣṭhira, 41 verses, swan-Brahmā teaching; name-collision with Uddhava-gītā).
+- *Manki Gita* — Indian Scriptures (hinduscriptures.in): https://www.hinduscriptures.in/vedic-knowledge/sacred-scriptures/gita/manki-gita (Maṅki & his bullocks, ~50 verses, give-up-desire teaching).
+- *Different Gitas (विविधाः गीताः)* — Dharmawiki: https://dharmawiki.org/index.php/Different_Gitas (enumeration overview; Mokṣa-dharma clustering; differing counts) [retrieved via search].
+- *Shanti Parva [Book 12] summary* — Wisdomlib: https://www.wisdomlib.org/hinduism/book/mahabharata-english-summary/d/doc1346529.html and *Yājñavalkya–Janaka, Section CCCXI* (Sāṃkhya enumeration); *Haṃsa-gītā summary*: https://www.wisdomlib.org/hinduism/essay/samkhya-thoughts-in-the-mahabharata/d/doc1210291.html.
+- K. T. Telang, *The Bhagavadgîtâ with the Sanatsugâtîya and the Anugîtâ*, Sacred Books of the East vol. 8 (1882) — for the Sanatsujāta/Anu/Brāhmaṇa-gītā grouping. [scholarly]
+- *Note on rosters:* all "18/21/60" counts are devotional/encyclopedic, not from the epic itself; chapter numbers vary by recension (Critical Edition vs. Calcutta/Bombay vs. Ganguli). Borderline cases (Śaṅga/Śaṅkha, Kāma-gītā placement, Ṛṣabha chapter, Haṃsa/Uddhava conflation) are flagged [disputed] above. [open-ended roster]
