@@ -1,8 +1,8 @@
 # Hanuman — Vanara Devotee, Chiranjivi, Rudravatara
 
-> Cosmic address: [Deities & Cosmic Hierarchy](./README.md) → individual deity. Hanuman acts in the [Treta Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) (Ramayana) and survives into the [Dvapara](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and [Kali Yugas](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) as one of the immortal [Chiranjivi](#chiranjivi--the-deathless-one).
+> Cosmic address: [Deities & Cosmic Hierarchy](README.md) → individual deity. Hanuman acts in the [Treta Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) (Ramayana) and survives into the [Dvapara](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and [Kali Yugas](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) as one of the immortal [Chiranjivi](#chiranjivi--the-deathless-one).
 
-Hanuman (also Anjaneya, Maruti, Bajrangbali, Pavanaputra) is the foremost vanara (forest-dweller) ally of [Rama](../02-deities-and-cosmic-hierarchy/dashavatara.md), the paradigm of bhakti (devotion), and among the most widely worshipped deities of living Hinduism. He sits at the meeting point of two great traditions: in the Vaishnava framing he is the perfect *devotee* of Vishnu-as-Rama; in the Shaiva framing he is an *avatara of Shiva himself* (the 11th Rudra). This file catalogs both, plus his birth cycle, his Sundara Kanda feats, his Mahabharata role, his iconographic forms, and his bhakti cult.
+Hanuman (also Anjaneya, Maruti, Bajrangbali, Pavanaputra) is the foremost vanara (forest-dweller) ally of [Rama](dashavatara.md), the paradigm of bhakti (devotion), and among the most widely worshipped deities of living Hinduism. He sits at the meeting point of two great traditions: in the Vaishnava framing he is the perfect *devotee* of Vishnu-as-Rama; in the Shaiva framing he is an *avatara of Shiva himself* (the 11th Rudra). This file catalogs both, plus his birth cycle, his Sundara Kanda feats, his Mahabharata role, his iconographic forms, and his bhakti cult.
 
 ---
 
@@ -22,7 +22,7 @@ Hanuman (also Anjaneya, Maruti, Bajrangbali, Pavanaputra) is the foremost vanara
 
 ## The Ramayana Role (Treta Yuga)
 
-For the full narrative arc see the [Treta Yuga file](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md). Hanuman's key acts:
+For the full narrative arc see the [Treta Yuga file](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md). Hanuman's key acts:
 
 - **Minister of Sugriva** - Serving the exiled vanara king Sugriva at Rishyamukha; it is Hanuman who first meets Rama and Lakshmana and brokers the Rama–Sugriva alliance, impressing Rama with his flawless speech. (Valmiki Ramayana, Kishkindha Kanda 3–4)
 - **The search for Sita** - Dispatched south with Angada's party; reaching the ocean's edge, the despairing vanaras learn from Sampati that Sita is in Lanka. Jambavan reminds Hanuman of his forgotten powers, and he resolves to leap the sea. (Valmiki Ramayana, Kishkindha Kanda 63–67)
@@ -59,7 +59,7 @@ The fifth book of the Valmiki Ramayana centers almost entirely on Hanuman; it is
 
 ## The Mahabharata Role (Dvapara Yuga)
 
-As a Chiranjivi, Hanuman lives on into the next age and intersects the [Mahabharata](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
+As a Chiranjivi, Hanuman lives on into the next age and intersects the [Mahabharata](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
 
 - **Brother of Bhima** - Both Hanuman and Bhima are sons of Vayu (Hanuman in Treta via Anjana, Bhima in Dvapara via Kunti), hence half-brothers. (Mahabharata, Vana Parva 146–150)
 - **The tail-lifting humility lesson** - In the Gandhamadana forest, Bhima — proud of his strength — demands an aged "monkey" lying across his path move its tail aside. Bhima cannot budge the tail with either hand or both arms; humbled, he recognizes Hanuman, who teaches him humility and the dharma of the ages. (Mahabharata, Vana Parva 146–150)
@@ -81,7 +81,7 @@ As a Chiranjivi, Hanuman lives on into the next age and intersects the [Mahabhar
 ## Chiranjivi — the Deathless One
 
 - **Immortality boon from Sita / Rama** - Sita (and in tellings Rama) blesses Hanuman to live as long as Rama's story is told on earth; he is to remain through the Kali Yuga. (Ramayana tradition; Ramcharitmanas)
-- **Among the seven (or eight) Chiranjivi** - Hanuman is listed among the immortals — commonly Ashwatthama, Mahabali, Vyasa, Hanuman, Vibhishana, Kripacharya, Parashurama (and sometimes Markandeya/Jambavan). See the broader cosmology in [Devas, Asuras & the Lokas](./devas-asuras-and-the-lokas.md). (Chiranjivi shloka tradition; Puranic)
+- **Among the seven (or eight) Chiranjivi** - Hanuman is listed among the immortals — commonly Ashwatthama, Mahabali, Vyasa, Hanuman, Vibhishana, Kripacharya, Parashurama (and sometimes Markandeya/Jambavan). See the broader cosmology in [Devas, Asuras & the Lokas](devas-asuras-and-the-lokas.md). (Chiranjivi shloka tradition; Puranic)
 - **Present wherever Rama is praised** - Folk belief holds Hanuman silently attends every recitation of the Ramayana / Rama-katha. [folk tradition]
 
 ---
@@ -98,11 +98,11 @@ As a Chiranjivi, Hanuman lives on into the next age and intersects the [Mahabhar
 
 ## Related Nodes
 
-- [Dashavatara](./dashavatara.md) — Rama, whom Hanuman serves
-- [Trimurti & Tridevi](./trimurti-and-tridevi.md) — Shiva, of whom (in Shaiva view) Hanuman is an avatara
-- [Devas, Asuras & the Lokas](./devas-asuras-and-the-lokas.md) — Vayu, Indra, the Chiranjivi, Patala
+- [Dashavatara](dashavatara.md) — Rama, whom Hanuman serves
+- [Trimurti & Tridevi](trimurti-and-tridevi.md) — Shiva, of whom (in Shaiva view) Hanuman is an avatara
+- [Devas, Asuras & the Lokas](devas-asuras-and-the-lokas.md) — Vayu, Indra, the Chiranjivi, Patala
 - [Suryavamsha & Chandravamsha](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) — the solar dynasty of Rama
-- [Treta Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) and [Dvapara Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)
+- [Treta Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) and [Dvapara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)
 
 ---
 

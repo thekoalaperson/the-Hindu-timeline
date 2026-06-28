@@ -1,7 +1,7 @@
 # Śākta & Tantra Lineages
 
-> Detail node under [`07-acharyas-and-sampradayas/`](./README.md) — the **Goddess-centred (Śākta)** and **Tantric** streams of teacher-lineages (*sampradāya / paramparā*), distinct from the Vedānta *ācāryas* catalogued elsewhere in this section: [Ādi Śaṅkara](./adi-shankara.md), [Rāmānuja & Madhva](./ramanuja-and-madhva.md). Up-link: section index [`README.md`](./README.md).
-> Sits in the historical Kali-Yuga; most datable figures fall **c. 6th–18th c. CE** by [scholarly] dating, while the lineages claim Vedic/Purāṇic ṛṣi-origins (Agastya, Dattātreya, Vasiṣṭha). Two-clocks method: [`recorded-history.md`](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md). The pantheon worshipped here — the great Goddess and the **Daśa Mahāvidyā** — is mapped in [`../02-deities-and-cosmic-hierarchy/dasha-mahavidya.md`](../02-deities-and-cosmic-hierarchy/dasha-mahavidya.md), [Devī Māhātmya & the Great Goddess](../02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md), and [Satī, Dakṣa & Pārvatī](../02-deities-and-cosmic-hierarchy/sati-daksha-and-parvati.md).
+> Detail node under [`07-acharyas-and-sampradayas/`](README.md) — the **Goddess-centred (Śākta)** and **Tantric** streams of teacher-lineages (*sampradāya / paramparā*), distinct from the Vedānta *ācāryas* catalogued elsewhere in this section: [Ādi Śaṅkara](adi-shankara.md), [Rāmānuja & Madhva](ramanuja-and-madhva.md). Up-link: section index [`README.md`](README.md).
+> Sits in the historical Kali-Yuga; most datable figures fall **c. 6th–18th c. CE** by [scholarly] dating, while the lineages claim Vedic/Purāṇic ṛṣi-origins (Agastya, Dattātreya, Vasiṣṭha). Two-clocks method: [`recorded-history.md`](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md). The pantheon worshipped here — the great Goddess and the **Daśa Mahāvidyā** — is mapped in [`../02-deities-and-cosmic-hierarchy/dasha-mahavidya.md`](../02-deities-and-cosmic-hierarchy/dasha-mahavidya.md), [Devī Māhātmya & the Great Goddess](../02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md), and [Satī, Dakṣa & Pārvatī](../02-deities-and-cosmic-hierarchy/sati-daksha-and-parvati.md).
 
 ---
 
@@ -26,7 +26,7 @@
 ### Śrīvidyā teachers & commentators
 
 - **Gauḍapāda (Śrīvidyā-attributed) [disputed]** — the *Subhagodaya* and *Śrīvidyāratnasūtra* are ascribed to a "Gauḍapāda"; tradition conflates him with the proto-Advaitin author of the *Māṇḍūkya-Kārikā* (Śaṅkara's *parama-guru*), linking Śrīvidyā to early Advaita. The identification is doubted by scholars. (Source: Wikipedia, *Shri Vidya*) [scholarly]
-- **Ādi Śaṅkara (Śrīvidyā attribution) [disputed]** — the devotional *Saundaryalaharī* ("Waves of Beauty," 100 verses on Tripurasundarī and the Śrī Cakra) and the *pañcāyatana* installation of Devī are traditionally ascribed to [Śaṅkara](./adi-shankara.md), making him a notional Śrīvidyā founder; modern scholarship treats the *Saundaryalaharī* authorship as uncertain/late. (Source: Wikipedia, *Shri Vidya*) [scholarly]
+- **Ādi Śaṅkara (Śrīvidyā attribution) [disputed]** — the devotional *Saundaryalaharī* ("Waves of Beauty," 100 verses on Tripurasundarī and the Śrī Cakra) and the *pañcāyatana* installation of Devī are traditionally ascribed to [Śaṅkara](adi-shankara.md), making him a notional Śrīvidyā founder; modern scholarship treats the *Saundaryalaharī* authorship as uncertain/late. (Source: Wikipedia, *Shri Vidya*) [scholarly]
 - **Lakṣmīdhara (Lakṣmīdhara-deśika)** — c. 16th c. commentator on the *Saundaryalaharī* whose gloss became the classic statement of the **Samaya (Dakṣiṇa/internal)** path, explicitly contrasting it with and disparaging the Kaula. (Source: Wikipedia, *Shri Vidya*)
 - **Bhāskararāya Makhin (Bhāsurānanda-nātha)** — **1690–1785** [scholarly], Maharashtrian Brahmin polymath and the supreme systematizer of Śrīvidyā; author of **40+ works** including the *Saubhāgya-bhāskara* (commentary on the *Lalitā Sahasranāma*), *Varivasyā-rahasya*, *Setubandha* (on the *Nityāṣoḍaśikārṇava*) and the *Guptavatī* (on the *Devī Māhātmya*). Reconciled the diverse vidyās into one coherent philosophy; his **Bhāskararāya-sampradāya** remains an active living lineage. (Source: Wikipedia, *Shri Vidya*; vedadhara.com)
 
@@ -91,8 +91,8 @@
 
 - Pantheon: [Daśa Mahāvidyā](../02-deities-and-cosmic-hierarchy/dasha-mahavidya.md) · [Devī Māhātmya & the Great Goddess](../02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md) · [Satī, Dakṣa & Pārvatī](../02-deities-and-cosmic-hierarchy/sati-daksha-and-parvati.md) · [Śiva myth-cycle](../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md)
 - Geography: [Śakti Pīṭhas & sacred sites](../06-sacred-geography/README.md)
-- Rival/sibling lineages: [Ādi Śaṅkara & Advaita](./adi-shankara.md) (Smārta, claims the *Saundaryalaharī*) · [section index](./README.md)
-- Two-clocks dating: [recorded-history.md](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md)
+- Rival/sibling lineages: [Ādi Śaṅkara & Advaita](adi-shankara.md) (Smārta, claims the *Saundaryalaharī*) · [section index](README.md)
+- Two-clocks dating: [recorded-history.md](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md)
 
 ---
 

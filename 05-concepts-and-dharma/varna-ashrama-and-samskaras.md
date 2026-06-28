@@ -1,6 +1,6 @@
 # Varnashrama-Dharma & the Samskaras (Life-Cycle Rites)
 
-> Cross-cutting doctrine of the Hindu social-religious order. Sits under [05-concepts-and-dharma](./README.md) → part of the dharma (right-order) that structures human life within the [28th Mahayuga's](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) Kali-Yuga society.
+> Cross-cutting doctrine of the Hindu social-religious order. Sits under [05-concepts-and-dharma](README.md) → part of the dharma (right-order) that structures human life within the [28th Mahayuga's](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) Kali-Yuga society.
 >
 > "You are here": this is the framework of *individual human duty* (svadharma) that every recorded person in this timeline lived within — the lineages of [Surya/Chandra-vamsha](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md), the actors of the [Ramayana](../04-deep-dives/) and Mahabharata, all classify under it.
 
@@ -36,7 +36,7 @@ The four *varnas* are mythically derived from the cosmic sacrifice of **Purusha*
 
 ## II. ASHRAMA — the four life-stages
 
-The *ashrama* system divides the ideal (esp. twice-born male) life into four successive stages, each with its own dharma and its own dominant *purushartha* (life-goal); see [purusharthas-and-karma-samsara-moksha.md](./purusharthas-and-karma-samsara-moksha.md). The classical "four ashramas" appear systematized in the Dharmasutras (Apastamba, Gautama, Baudhayana) and Manusmriti ch. 4-6.
+The *ashrama* system divides the ideal (esp. twice-born male) life into four successive stages, each with its own dharma and its own dominant *purushartha* (life-goal); see [purusharthas-and-karma-samsara-moksha.md](purusharthas-and-karma-samsara-moksha.md). The classical "four ashramas" appear systematized in the Dharmasutras (Apastamba, Gautama, Baudhayana) and Manusmriti ch. 4-6.
 
 - **Brahmacharya (student)** - Celibate Vedic studentship under a guru after *upanayana* initiation. Service to the teacher, study of the Vedas, austerity, begging alms. Manu allows a span up to ~9–36 years (until study is complete; 4.1). Goal: knowledge/discipline (foundation for *dharma*).
 - **Grihastha (householder)** - Marriage (vivaha), raising a family, earning livelihood, performing the five daily sacrifices (panchamahayajna), hospitality, and supporting the other three ashramas economically and ritually. Manu praises it as the *foremost* ashrama because it sustains all others (Manu 3.77-78, 6.89). Goals: *artha* and *kama* within *dharma*.
@@ -97,8 +97,8 @@ The *ashrama* system divides the ideal (esp. twice-born male) life into four suc
 
 ## Related nodes
 
-- [purusharthas-and-karma-samsara-moksha.md](./purusharthas-and-karma-samsara-moksha.md) — the four life-goals each ashrama serves; karma that conditions varna-birth.
-- [atman-brahman-and-the-six-darshanas.md](./atman-brahman-and-the-six-darshanas.md) — the moksha that sannyasa pursues.
+- [purusharthas-and-karma-samsara-moksha.md](purusharthas-and-karma-samsara-moksha.md) — the four life-goals each ashrama serves; karma that conditions varna-birth.
+- [atman-brahman-and-the-six-darshanas.md](atman-brahman-and-the-six-darshanas.md) — the moksha that sannyasa pursues.
 - [../00-time-and-cosmology/cosmogony-creation-accounts.md](../00-time-and-cosmology/cosmogony-creation-accounts.md) — the Purusha Sukta sacrifice from which the varnas emerge.
 - [../03-lineages-vamsha/suryavamsha-and-chandravamsha.md](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) — the Kshatriya royal lineages that embody kingly svadharma.
 - [../90-literature-corpus/agamas-tantras-dharmashastras.md](../90-literature-corpus/agamas-tantras-dharmashastras.md) — the Dharmashastra/Grihya Sutra texts that codify these rites.

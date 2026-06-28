@@ -1,6 +1,6 @@
 # The Paths of Yoga & Patanjali's Eight Limbs
 
-> Cross-cutting doctrine within [05-concepts-and-dharma](./) of *The Hindu Timeline*. Yoga as **lived practice and soteriology** — the disciplines a soul actually undertakes to reach *moksha*. For the text-catalog entry on Yoga as one of the six *darshanas* (its place among Samkhya, Nyaya, etc.) see [../90-literature-corpus/upavedas-vedangas-darshanas.md](../90-literature-corpus/upavedas-vedangas-darshanas.md); for the doctrinal goal itself see [purusharthas-and-karma-samsara-moksha.md](./purusharthas-and-karma-samsara-moksha.md) and [atman-brahman-and-the-six-darshanas.md](./atman-brahman-and-the-six-darshanas.md).
+> Cross-cutting doctrine within [05-concepts-and-dharma](./) of *The Hindu Timeline*. Yoga as **lived practice and soteriology** — the disciplines a soul actually undertakes to reach *moksha*. For the text-catalog entry on Yoga as one of the six *darshanas* (its place among Samkhya, Nyaya, etc.) see [../90-literature-corpus/upavedas-vedangas-darshanas.md](../90-literature-corpus/upavedas-vedangas-darshanas.md); for the doctrinal goal itself see [purusharthas-and-karma-samsara-moksha.md](purusharthas-and-karma-samsara-moksha.md) and [atman-brahman-and-the-six-darshanas.md](atman-brahman-and-the-six-darshanas.md).
 
 Yoga (root *yuj*, "to yoke / union") names both an end (liberating disjunction of spirit from matter, or union with the divine) and the full toolkit of disciplines that get there. The word is older than any single system: the [Vedas](../90-literature-corpus/shruti-vedas-and-upanishads.md) use it for "yoking," the *Katha* and *Shvetashvatara Upanishads* give the first technical descriptions of meditative yoga, the [Bhagavad Gita](../04-deep-dives/bhagavad-gita.md) systematises the great *margas* (paths), and Patanjali's *Yoga Sutras* fix the classical eight-limbed scaffold. This file catalogs the principal paths and then walks Patanjali's *ashtanga* limb by limb, recording variant framings across traditions.
 
@@ -81,8 +81,8 @@ The first five are *bahiranga* (external aids); the last three, collectively **s
 
 ## See also
 - [../04-deep-dives/bhagavad-gita.md](../04-deep-dives/bhagavad-gita.md) — the Gita's chapter-by-chapter yogas
-- [./purusharthas-and-karma-samsara-moksha.md](./purusharthas-and-karma-samsara-moksha.md) — moksha as goal; karma & rebirth
-- [./atman-brahman-and-the-six-darshanas.md](./atman-brahman-and-the-six-darshanas.md) — the metaphysics yoga serves
+- [./purusharthas-and-karma-samsara-moksha.md](purusharthas-and-karma-samsara-moksha.md) — moksha as goal; karma & rebirth
+- [./atman-brahman-and-the-six-darshanas.md](atman-brahman-and-the-six-darshanas.md) — the metaphysics yoga serves
 - [../90-literature-corpus/upavedas-vedangas-darshanas.md](../90-literature-corpus/upavedas-vedangas-darshanas.md) — Yoga as one of the six darshanas (text catalog)
 - [../90-literature-corpus/agamas-tantras-dharmashastras.md](../90-literature-corpus/agamas-tantras-dharmashastras.md) — tantric/agamic sources
 

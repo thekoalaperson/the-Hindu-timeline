@@ -1,7 +1,7 @@
 # Bāla Kāṇḍa — Book of Childhood
 
-> Cosmic address: [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) ← but the Rāmāyaṇa itself unfolds in the [Tretā Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) of the current Vaivasvata Manvantara. Rāma is the 7th [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md) of [Viṣṇu](../../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md), of the [Sūryavaṃśa / Ikṣvāku line](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
-> Parent: [Rāmāyaṇa deep-dive index](./README.md) · Part of [04-deep-dives](../README.md). Primary source: Vālmīki [Rāmāyaṇa](../../90-literature-corpus/smriti-itihasa-epics.md).
+> Cosmic address: [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) ← but the Rāmāyaṇa itself unfolds in the [Tretā Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) of the current Vaivasvata Manvantara. Rāma is the 7th [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md) of [Viṣṇu](../../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md), of the [Sūryavaṃśa / Ikṣvāku line](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
+> Parent: [Rāmāyaṇa deep-dive index](README.md) · Part of [04-deep-dives](../README.md). Primary source: Vālmīki [Rāmāyaṇa](../../90-literature-corpus/smriti-itihasa-epics.md).
 
 The **Bāla Kāṇḍa** ("Book of Childhood/Youth") is the first of the seven kāṇḍas of Vālmīki's Rāmāyaṇa (~77 sargas/cantos). It frames the entire epic, narrates Rāma's birth and boyhood, his tutelage under Viśvāmitra, the slaying of his first demons, the redemption of Ahalyā, the breaking of Śiva's bow, the four-fold marriage at Mithilā, and the confrontation with Paraśurāma. Embedded within it are several stand-alone legends Viśvāmitra recounts en route.
 
@@ -103,7 +103,7 @@ As they journey toward Janaka's bow-sacrifice, Viśvāmitra narrates a chain of 
 - **The transfer of power** - Rāma effortlessly strings the Śārṅga and fits an arrow; since a Viṣṇu-arrow cannot be loosed in vain, he asks where to send it. Paraśurāma realizes Rāma is Viṣṇu himself, offers his own accumulated **tapas/heavenly worlds** as the target, and withdraws to Mahendra mountain — his kṣatriya-slaying mission ended, the avatāra-torch passed to Rāma (Vālmīki, Bāla 75–76).
   - *Variant (Rāmcaritmānas):* a long, famous comic-dramatic **Lakṣmaṇa–Paraśurāma war of words** dominates the scene; Rāma stays calm while Lakṣmaṇa mocks the axe-wielder.
   - *Variant (theological):* some traditions read this as one Viṣṇu-portion ceding to a fuller one; others as Paraśurāma (a *cira-jīvī*, immortal) merely yielding temporarily, since he reappears in the Mahābhārata era.
-- **Return to Ayodhyā** - The party reaches Ayodhyā; the brothers settle into married life; Bharata and Śatrughna soon leave with their uncle Yudhājit to Kekaya — setting the stage for the [Ayodhyā Kāṇḍa](./2-ayodhya-kanda.md) (Vālmīki, Bāla 77).
+- **Return to Ayodhyā** - The party reaches Ayodhyā; the brothers settle into married life; Bharata and Śatrughna soon leave with their uncle Yudhājit to Kekaya — setting the stage for the [Ayodhyā Kāṇḍa](2-ayodhya-kanda.md) (Vālmīki, Bāla 77).
 
 ## Sources
 

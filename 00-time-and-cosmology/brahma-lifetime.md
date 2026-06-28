@@ -1,6 +1,6 @@
 # Brahmā's Lifetime (Mahākalpa)
 
-> Where this sits: the outermost measurable shell of the cosmic clock. One [Day of Brahmā](./kalpa-and-pralaya.md) (a Kalpa) is 4.32 billion years; 360 day+night pairs make a Brahmā-year; 100 Brahmā-years make his full lifetime — the **Mahākalpa** (a.k.a. **Parārdha-pair / Para**), **311.04 trillion human years**. This file maps that whole span, where *we* are inside it (51st year, 1st day, [Shveta-Vārāha Kalpa](./kalpa-and-pralaya.md)), and what happens when it ends. Below this node sits the current Kalpa → [the 14 Manvantaras](../01-brahma-current-life/the-14-manvantaras/).
+> Where this sits: the outermost measurable shell of the cosmic clock. One [Day of Brahmā](kalpa-and-pralaya.md) (a Kalpa) is 4.32 billion years; 360 day+night pairs make a Brahmā-year; 100 Brahmā-years make his full lifetime — the **Mahākalpa** (a.k.a. **Parārdha-pair / Para**), **311.04 trillion human years**. This file maps that whole span, where *we* are inside it (51st year, 1st day, [Shveta-Vārāha Kalpa](kalpa-and-pralaya.md)), and what happens when it ends. Below this node sits the current Kalpa → [the 14 Manvantaras](../01-manvantaras/).
 
 ---
 
@@ -11,7 +11,7 @@
 - **Para / Parārdha** — the lifespan splits into two halves of 50 Brahmā-years each; each half is one **Parārdha** (~155.52 trillion years). The two together = **one Para**. (Bhagavata Purana 3.11.34–36; Vishnu Purana 6.3)
   - *Note (terminology):* "Parārdha" literally = "half of a Para" / also a number (10¹⁷). The completed first half is the **Pūrva-Parārdha**; the half now in progress is the **Dvitīya / Uttara-Parārdha**.
 - **Nested counting unit chain** (each level = personal deity's tenure):
-  - 1 **Kalpa** = a Day of Brahmā = 1000 Mahāyugas = 14 Manvantaras + 15 Sandhyas = **4.32 billion yrs** → see [kalpa-and-pralaya.md](./kalpa-and-pralaya.md)
+  - 1 **Kalpa** = a Day of Brahmā = 1000 Mahāyugas = 14 Manvantaras + 15 Sandhyas = **4.32 billion yrs** → see [kalpa-and-pralaya.md](kalpa-and-pralaya.md)
   - 1 **Night of Brahmā** = equal Kalpa of dissolution = 4.32 billion yrs (naimittika pralaya; Brahmā sleeps)
   - 1 **Brahmā-day+night** = 8.64 billion yrs
   - 360 of those = 1 **Brahmā-year** ≈ 3.1104 trillion yrs
@@ -24,7 +24,7 @@
 - **First Parārdha complete:** 50 Brahmā-years (~155.52 trillion yrs) have fully elapsed. Brahmā is now in the **51st year** — the start of his **second/uttara Parārdha**. (Bhagavata Purana 3.11.36; standard reckoning)
 - **First day of the 51st year:** the current Kalpa is the **Shveta-Vārāha Kalpa** ("White Boar," named for Viṣṇu's Varāha avatāra lifting the Earth at this day's dawn). It is the **1st day of Brahmā's 51st year**. (Vishnu Purana 1.4; Bhagavata Purana 3.13)
   - *Variant (Padma Purana et al.):* some lists name the *first* Kalpa of creation the **Brāhma Kalpa**, and place Shveta-Vārāha as the *current* day — the two are reconciled by saying we are early in the second half of his life, not literally his first-ever day. [reconciliation note]
-- **Within this Kalpa:** 6 Manvantaras elapsed; we are in the **7th (Vaivasvata) Manvantara**, **28th Mahāyuga** of its 71, **Kali Yuga**, ~5,127 years in (as of 2026 CE). See [../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/).
+- **Within this Kalpa:** 6 Manvantaras elapsed; we are in the **7th (Vaivasvata) Manvantara**, **28th Mahāyuga** of its 71, **Kali Yuga**, ~5,127 years in (as of 2026 CE). See [../01-manvantaras/manvantara-07-vaivasvata/](../01-manvantaras/manvantara-07-vaivasvata/).
 - **So: roughly half of Brahmā's entire life is over.** He has ~50 more Brahmā-years (~155.52 trillion human yrs) to live.
 
 ---
@@ -34,7 +34,7 @@
 Hindu cosmology nests *four* dissolutions; Brahmā's death corresponds to the third. (Vishnu Purana 6.3–4; Bhagavata Purana 12.4; Bhagavad Gita 8.17–19 for the day/night layer)
 
 - **Nitya Pralaya (constant/perpetual)** — the ceaseless death of individual beings; ordinary mortality, every moment. (Vishnu Purana 6.3; Bhagavata 12.4.35)
-- **Naimittika Pralaya (occasional / "Brāhma")** — at the end of each Day of Brahmā (Kalpa, 4.32 billion yrs). The three lower worlds (bhūr, bhuvar, svar) burn in the **Saṃvartaka fire**, then drown under **Saṃvartaka rain-clouds**; creation is withdrawn into Brahmā as he sleeps through his Night, to be re-emitted at the next dawn. Beings of the higher lokas survive. (Vishnu Purana 6.3; Bhagavata 12.4.6–13; Gita 8.18–19) → detailed in [kalpa-and-pralaya.md](./kalpa-and-pralaya.md)
+- **Naimittika Pralaya (occasional / "Brāhma")** — at the end of each Day of Brahmā (Kalpa, 4.32 billion yrs). The three lower worlds (bhūr, bhuvar, svar) burn in the **Saṃvartaka fire**, then drown under **Saṃvartaka rain-clouds**; creation is withdrawn into Brahmā as he sleeps through his Night, to be re-emitted at the next dawn. Beings of the higher lokas survive. (Vishnu Purana 6.3; Bhagavata 12.4.6–13; Gita 8.18–19) → detailed in [kalpa-and-pralaya.md](kalpa-and-pralaya.md)
 - **Prākṛtika Pralaya (elemental / "Mahā-pralaya")** — at the end of Brahmā's **entire 100-year life**. This is the dissolution treated below in §4. Everything — including Brahmā himself and all lokas up to Satyaloka — collapses back into Prakṛti. (Vishnu Purana 6.4; Bhagavata 12.4.15–22)
 - **Ātyantika Pralaya (absolute / final)** — not cosmic but individual: **mokṣa**, the jīva's permanent liberation from rebirth through true knowledge of Brahman; no return to saṃsāra. (Vishnu Purana 6.3; Bhagavata 12.4.34–36)
   - *Variant emphasis (Vedanta / Bhagavata):* some teachers rank ātyantika as the "highest" pralaya because it alone is irreversible for the liberated soul, whereas the cosmic three always recur.
@@ -109,4 +109,4 @@ Several traditions insist that *this* Brahmā is not unique — there are innume
 - [Time in Hindu Cosmology — HinduWebsite](https://www.hinduwebsite.com/hinduism/h_time.asp)
 - [Life Span of Lord Brahma — ISKCON Hubli](https://www.iskconhubli.org/life-span-of-lord-brahma-in-human-years/)
 
-> Cross-references: [kalpa-and-pralaya.md](./kalpa-and-pralaya.md) · [yugas-and-mahayuga.md](./yugas-and-mahayuga.md) · [../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/)
+> Cross-references: [kalpa-and-pralaya.md](kalpa-and-pralaya.md) · [yugas-and-mahayuga.md](yugas-and-mahayuga.md) · [../01-manvantaras/manvantara-07-vaivasvata/](../01-manvantaras/manvantara-07-vaivasvata/)

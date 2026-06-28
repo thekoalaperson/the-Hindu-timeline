@@ -30,27 +30,27 @@
 
 ## 01 · Chronological Spine
 
-  - 🟩 [`01-brahma-current-life/the-14-manvantaras/README.md`](01-brahma-current-life/the-14-manvantaras/README.md) — 2056w
-  - 🟨 [`01-brahma-current-life/the-14-manvantaras/manvantara-01-svayambhuva.md`](01-brahma-current-life/the-14-manvantaras/manvantara-01-svayambhuva.md) — 399w
-  - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-02-svarochisha.md`](01-brahma-current-life/the-14-manvantaras/manvantara-02-svarochisha.md) — 394w
-  - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-03-uttama.md`](01-brahma-current-life/the-14-manvantaras/manvantara-03-uttama.md) — 408w
-  - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-04-tamasa.md`](01-brahma-current-life/the-14-manvantaras/manvantara-04-tamasa.md) — 439w
-  - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-05-raivata.md`](01-brahma-current-life/the-14-manvantaras/manvantara-05-raivata.md) — 364w
-  - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-06-chakshusha.md`](01-brahma-current-life/the-14-manvantaras/manvantara-06-chakshusha.md) — 379w
-    - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md`](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) — 1363w
-      - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md`](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md) — 2189w
-      - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md`](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) — 2350w
-      - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md`](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) — 3062w
-        - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md`](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) — 1734w
-        - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md`](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md) — 1975w
-      - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md`](01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) — 1208w
-  - 🟨 [`01-brahma-current-life/the-14-manvantaras/manvantara-08-savarni.md`](01-brahma-current-life/the-14-manvantaras/manvantara-08-savarni.md) — 321w
-  - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-09-daksha-savarni.md`](01-brahma-current-life/the-14-manvantaras/manvantara-09-daksha-savarni.md) — 298w
-  - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-10-brahma-savarni.md`](01-brahma-current-life/the-14-manvantaras/manvantara-10-brahma-savarni.md) — 313w
-  - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-11-dharma-savarni.md`](01-brahma-current-life/the-14-manvantaras/manvantara-11-dharma-savarni.md) — 283w
-  - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-12-rudra-savarni.md`](01-brahma-current-life/the-14-manvantaras/manvantara-12-rudra-savarni.md) — 351w
-  - 🟩 [`01-brahma-current-life/the-14-manvantaras/manvantara-13-deva-savarni.md`](01-brahma-current-life/the-14-manvantaras/manvantara-13-deva-savarni.md) — 326w
-  - 🟨 [`01-brahma-current-life/the-14-manvantaras/manvantara-14-indra-savarni.md`](01-brahma-current-life/the-14-manvantaras/manvantara-14-indra-savarni.md) — 408w
+  - 🟩 [`01-manvantaras/README.md`](01-manvantaras/README.md) — 2056w
+  - 🟨 [`01-manvantaras/manvantara-01-svayambhuva.md`](01-manvantaras/manvantara-01-svayambhuva.md) — 399w
+  - 🟩 [`01-manvantaras/manvantara-02-svarochisha.md`](01-manvantaras/manvantara-02-svarochisha.md) — 394w
+  - 🟩 [`01-manvantaras/manvantara-03-uttama.md`](01-manvantaras/manvantara-03-uttama.md) — 408w
+  - 🟩 [`01-manvantaras/manvantara-04-tamasa.md`](01-manvantaras/manvantara-04-tamasa.md) — 439w
+  - 🟩 [`01-manvantaras/manvantara-05-raivata.md`](01-manvantaras/manvantara-05-raivata.md) — 364w
+  - 🟩 [`01-manvantaras/manvantara-06-chakshusha.md`](01-manvantaras/manvantara-06-chakshusha.md) — 379w
+    - 🟩 [`01-manvantaras/manvantara-07-vaivasvata/README.md`](01-manvantaras/manvantara-07-vaivasvata/README.md) — 1363w
+      - 🟩 [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md) — 2189w
+      - 🟩 [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) — 2350w
+      - 🟩 [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) — 3062w
+        - 🟩 [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) — 1734w
+        - 🟩 [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md) — 1975w
+      - 🟩 [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) — 1208w
+  - 🟨 [`01-manvantaras/manvantara-08-savarni.md`](01-manvantaras/manvantara-08-savarni.md) — 321w
+  - 🟩 [`01-manvantaras/manvantara-09-daksha-savarni.md`](01-manvantaras/manvantara-09-daksha-savarni.md) — 298w
+  - 🟩 [`01-manvantaras/manvantara-10-brahma-savarni.md`](01-manvantaras/manvantara-10-brahma-savarni.md) — 313w
+  - 🟩 [`01-manvantaras/manvantara-11-dharma-savarni.md`](01-manvantaras/manvantara-11-dharma-savarni.md) — 283w
+  - 🟩 [`01-manvantaras/manvantara-12-rudra-savarni.md`](01-manvantaras/manvantara-12-rudra-savarni.md) — 351w
+  - 🟩 [`01-manvantaras/manvantara-13-deva-savarni.md`](01-manvantaras/manvantara-13-deva-savarni.md) — 326w
+  - 🟨 [`01-manvantaras/manvantara-14-indra-savarni.md`](01-manvantaras/manvantara-14-indra-savarni.md) — 408w
 
 
 ## 02 · Deities & Cosmic Hierarchy
@@ -162,9 +162,9 @@
 
 ## 🟨 Current stubs (priority expansion candidates)
 
-- [`01-brahma-current-life/the-14-manvantaras/manvantara-01-svayambhuva.md`](01-brahma-current-life/the-14-manvantaras/manvantara-01-svayambhuva.md)
-- [`01-brahma-current-life/the-14-manvantaras/manvantara-08-savarni.md`](01-brahma-current-life/the-14-manvantaras/manvantara-08-savarni.md)
-- [`01-brahma-current-life/the-14-manvantaras/manvantara-14-indra-savarni.md`](01-brahma-current-life/the-14-manvantaras/manvantara-14-indra-savarni.md)
+- [`01-manvantaras/manvantara-01-svayambhuva.md`](01-manvantaras/manvantara-01-svayambhuva.md)
+- [`01-manvantaras/manvantara-08-savarni.md`](01-manvantaras/manvantara-08-savarni.md)
+- [`01-manvantaras/manvantara-14-indra-savarni.md`](01-manvantaras/manvantara-14-indra-savarni.md)
 - [`README.md`](README.md)
 
 ---

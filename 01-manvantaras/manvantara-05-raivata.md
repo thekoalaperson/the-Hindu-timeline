@@ -1,12 +1,12 @@
 # Manvantara 5 — Raivata (Past)
 
-> Hierarchy: Shveta-Varaha Kalpa (current Day of Brahma) → 5th of 14 Manvantaras → presided over by **Raivata Manu**. Long elapsed; follows [Tamasa (4th)](./manvantara-04-tamasa.md), precedes [Chakshusha (6th)](./manvantara-06-chakshusha.md) and the current [Vaivasvata (7th)](./manvantara-07-vaivasvata/). Up: [the 14 Manvantaras README](./README.md). Each Manvantara ≈ 306,720,000 human years (71 Mahayugas + 1 sandhya).
+> Hierarchy: Shveta-Varaha Kalpa (current Day of Brahma) → 5th of 14 Manvantaras → presided over by **Raivata Manu**. Long elapsed; follows [Tamasa (4th)](manvantara-04-tamasa.md), precedes [Chakshusha (6th)](manvantara-06-chakshusha.md) and the current [Vaivasvata (7th)](./manvantara-07-vaivasvata/). Up: [the 14 Manvantaras README](README.md). Each Manvantara ≈ 306,720,000 human years (71 Mahayugas + 1 sandhya).
 
 ## Overview
 
 The Raivata Manvantara is the third and last of the three eras (Tamasa, Raivata, Chakshusha) that the Puranas group as a near-set, often born of the same Priyavrata line. The Puranic record for this era is principally a list — Manu, Indra, deva-classes, Saptarishis, sons, avatar — with one celebrated narrative attached: the **time-dilation tale of Kakudmi/Raivata and his daughter Revati**, which (in the dominant reading) belongs to a *human-dynasty* Raivata rather than to Raivata Manu himself. That ambiguity, and the cross-manvantara anachronism it produces, is the most interesting feature of this era and is flagged below.
 
-- **Raivata Manu** — fifth Manu, presiding sovereign of mankind for this era. Said to be the **brother of the 4th Manu, [Tamasa](./manvantara-04-tamasa.md)**, both reckoned of the Priyavrata line. (chronological placement: 5th manvantara of the present Kalpa, c. 4 manvantaras + ~1.2 billion human years into the Day of Brahma) (*Vishnu Purana* 3.1; *Bhagavata Purana* 8.5)
+- **Raivata Manu** — fifth Manu, presiding sovereign of mankind for this era. Said to be the **brother of the 4th Manu, [Tamasa](manvantara-04-tamasa.md)**, both reckoned of the Priyavrata line. (chronological placement: 5th manvantara of the present Kalpa, c. 4 manvantaras + ~1.2 billion human years into the Day of Brahma) (*Vishnu Purana* 3.1; *Bhagavata Purana* 8.5)
   - *Variant (Bhagavata Purana 5.1.28; Brahmanda Purana):* Raivata is named explicitly as a **son of Priyavrata** and brother of Tamasa. (per wisdomlib *Puranic Encyclopaedia*, "Raivata-manu")
   - *Variant (epithet):* the era and Manu are also called **Raivata** after the name-stem *Revata*; the homonymy with King Kakudmi-Raivata of Kushasthali (see below) is the root of the chronological confusion.
 
@@ -28,7 +28,7 @@ The Raivata Manvantara is the third and last of the three eras (Tamasa, Raivata,
 
 - **Vaikuntha** — Vishnu's manifestation for the Raivata Manvantara. Per the *Bhagavata Purana*, **Lord Vaikuntha was born of his own accord, together with the great gods called Vaikunthas**, and — **at the request of his consort the goddess Rama (Lakshmi)** — he created the supreme realm known as **Vaikuntha** (Vishnu's eternal abode) to please her. (*Bhagavata Purana* 8.5)
   - *Variant (secondary / popular):* some retellings name the mother as a goddess "Vikuntha" rather than identifying her with Lakshmi/Rama; the *Bhagavata* itself ties the boon-request to Rama. (secondary: Wikipedia "Manu") [late/secondary attribution]
-  - *Note:* this is one of only a handful of avatars in the manvantara-cycle (alongside Vaivasvata-era avatars; cf. the avatar lists under [the 14 Manvantaras README](./README.md)) where the Purana actually narrates *why* the form appeared, rather than merely naming it.
+  - *Note:* this is one of only a handful of avatars in the manvantara-cycle (alongside Vaivasvata-era avatars; cf. the avatar lists under [the 14 Manvantaras README](README.md)) where the Purana actually narrates *why* the form appeared, rather than merely naming it.
 
 ## The Revati & Kakudmi Time-Dilation Tale
 
@@ -38,7 +38,7 @@ The single famous narrative connected to the "Raivata" name is the story of **Ki
 - **The wait during the Gandharva song** — they arrive while Brahma is absorbed in a musical performance by the Gandharvas **Hāhā and Hūhū**; Kakudmi waits politely for it to finish. (*Bhagavata Purana* 9.3)
 - **Brahma's revelation of elapsed time** — when Kakudmi names the suitors he had in mind, Brahma laughs and explains that **twenty-seven chaturyugas (mahayugas) have passed on Earth** during the brief wait — roughly **116 million human years** — so the proposed bridegrooms, their sons, and entire dynasties are long dead. (*Bhagavata Purana* 9.3) [scholarly: cited as an early literary instance of time-dilation]
   - *Variant (Vishnu Purana 4.1):* the same episode is told more briefly; the elapsed span is given as a large but loosely specified number of yugas rather than a precise 27 chaturyugas. [variant]
-- **Brahma's counsel — marry Revati to Balarama** — Brahma advises Kakudmi that the worthy husband now living is **Balarama** (Baladeva, elder brother of [Krishna](../../04-deep-dives/krishna-lila.md), an incarnation of Shesha), then ruling at the same Dvaraka that Kushasthali had become. (*Bhagavata Purana* 9.3)
+- **Brahma's counsel — marry Revati to Balarama** — Brahma advises Kakudmi that the worthy husband now living is **Balarama** (Baladeva, elder brother of [Krishna](../04-deep-dives/krishna-lila.md), an incarnation of Shesha), then ruling at the same Dvaraka that Kushasthali had become. (*Bhagavata Purana* 9.3)
 - **The plough that shrank a bride** — Revati, born in an earlier yuga, is far **taller** than people of Balarama's age; Balarama taps her on the shoulder (or head) with the tip of his **plough (hala)**, his signature weapon, reducing her to the stature of his own era so the marriage can proceed. (*Bhagavata Purana* 9.3; *Vishnu Purana* 4.1)
   - *Variant (folk / regional):* some retellings have Balarama press her down to "normal" height by his strength rather than specifically the plough-tip. [folk] [variant]
 

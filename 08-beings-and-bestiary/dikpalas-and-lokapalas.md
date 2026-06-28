@@ -1,8 +1,8 @@
 # The Dikpālas — Guardians of the Directions
 
-> Part of [08 · Beings & Bestiary](./README.md) → the **directional-guardian frame**: the deva-regents who hold the eight (or ten) quarters of space and so fix the cosmic compass.
-> Cosmic address: each presides over one **diś** (direction) from his world on the rim of [Meru](../06-sacred-geography/meru-kailash-and-cosmic-mountains.md); collectively they bound the manifest world that the [bestiary classes](./README.md) inhabit, with their seats invoked in temple [vāstu](../06-sacred-geography/sthala-puranas-major-temples.md) and daily *saṃkalpa*.
-> Several are full [devas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) in their own right; their planetary aspects link to the [Navagraha](../02-deities-and-cosmic-hierarchy/navagraha.md), and Kubera doubles as lord of the [yakṣas](./yakshas-and-guhyakas.md).
+> Part of [08 · Beings & Bestiary](README.md) → the **directional-guardian frame**: the deva-regents who hold the eight (or ten) quarters of space and so fix the cosmic compass.
+> Cosmic address: each presides over one **diś** (direction) from his world on the rim of [Meru](../06-sacred-geography/meru-kailash-and-cosmic-mountains.md); collectively they bound the manifest world that the [bestiary classes](README.md) inhabit, with their seats invoked in temple [vāstu](../06-sacred-geography/sthala-puranas-major-temples.md) and daily *saṃkalpa*.
+> Several are full [devas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) in their own right; their planetary aspects link to the [Navagraha](../02-deities-and-cosmic-hierarchy/navagraha.md), and Kubera doubles as lord of the [yakṣas](yakshas-and-guhyakas.md).
 
 The **Dikpālas** (दिक्पाल, "direction-protectors"; also **Dikpati, Aṣṭa-dikpāla**) — equivalently the **Lokapālas** (लोकपाल, "world-protectors") — are the **deva-regents assigned one to each quarter of space**, who guard the cardinal and intermediate directions and thereby orient the cosmos, the maṇḍala, the temple, and the ritual ground. The system is a **synthesis of two strata**: an older **Vedic Lokapāla** scheme of four/six world-guardians (Indra, Agni, Yama, Varuṇa, Vāyu, Soma) and a later **Tantric–Purāṇic Aṣṭa-dikpāla** scheme of eight, in which the folk/post-Vedic gods **Kubera** and **Īśāna** were added to fill the remaining corners. The closed roster is therefore **eight** (*aṣṭa-dikpāla*); a **ten-fold** (*daśa-dikpāla*) expansion adds **Brahmā** at the zenith (*ūrdhva*) and **Viṣṇu / Ananta** at the nadir (*adho*). Each guardian carries a fixed bundle — **direction, vāhana (mount), āyudha (weapon), śakti (consort), graha (planet), and a world** — and most have a paired **diggaja** (directional world-elephant). Membership is largely fixed, but **several slots carry variants** (Soma/Candra vs. Kubera in the north; Nirṛti's gender; Pṛthivī or Sūrya entering some Vedic lists), all cataloged below. *(Source: Wikipedia "Guardians of the directions"; Mahavidya.ca "The Dikpalas"; Mythlok.)*
 
@@ -32,7 +32,7 @@ The canonical eight, clockwise from East, with their full bundle. *(Source: Maha
 ### East — Indra
 
 - **Indra** (इन्द्र) - **King of the devas** and lord of the **East** (*pūrva*), the senior Lokapāla. Wields the **vajra** (thunderbolt) forged from sage Dadhīci's bones, rides the white elephant **Airāvata**, and reigns over **Svarga / Amarāvatī** (his celestial city) and **Indraloka**. *(Source: Mahavidya.ca; Wikipedia.)*
-  - *Consort:* **Śacī / Indrāṇī** ("the mighty"), counted among the Mātṛkās — see [Mātṛkās & 64 Yoginīs](./matrikas-and-64-yoginis.md).
+  - *Consort:* **Śacī / Indrāṇī** ("the mighty"), counted among the Mātṛkās — see [Mātṛkās & 64 Yoginīs](matrikas-and-64-yoginis.md).
   - *Vedic note:* the **oldest and most prominent** Lokapāla; in the four-fold Vedic scheme Indra holds the East over rain, storm, and war. *(Source: Mahavidya.ca, "older gods of the Vedas".)*
   - *Graha/diggaja:* Sun; elephant **Airāvata** (whose mate is **Abhramu**). Cross-link [Devas & Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md).
 
@@ -47,7 +47,7 @@ The canonical eight, clockwise from East, with their full bundle. *(Source: Maha
 
 - **Yama** (यम) - God of **death and dharma**, lord of the **South** (*dakṣiṇa*) and judge of the dead. Rides a **buffalo (mahiṣa)**, carries the **daṇḍa** (rod of punishment) and **pāśa** (noose of death); rules **Yamaloka / Saṃyamanī** (his city of judgment) in the southern under-region. *(Source: Mahavidya.ca; Wikipedia.)*
   - *Consort:* **Yamī / Yamunā** (his twin sister) in Vedic kinship; **Varāhī** as his Mātṛkā-śakti in Tantric lists. [variant]
-  - *Epithets:* **Dharmarāja, Pitṛpati** (lord of the ancestors), **Antaka, Kāla**. The yakṣa of the [Yakṣa Praśna](./yakshas-and-guhyakas.md) is Yama in disguise.
+  - *Epithets:* **Dharmarāja, Pitṛpati** (lord of the ancestors), **Antaka, Kāla**. The yakṣa of the [Yakṣa Praśna](yakshas-and-guhyakas.md) is Yama in disguise.
   - *Graha/diggaja:* Mars; elephant **Vāmana** (mate **Piṅgalā**).
 
 ### Southwest — Nirṛti
@@ -75,10 +75,10 @@ The canonical eight, clockwise from East, with their full bundle. *(Source: Maha
 
 ### North — Kubera
 
-- **Kubera** (कुबेर) - God of **wealth** and **king of the [yakṣas/guhyakas](./yakshas-and-guhyakas.md)**, lord of the **North** (*uttara*). Rides a **man (Naravāhana)** or a horse, bears the **gadā (mace)** and a **money-pot**; rules **Alakā** on Mount Kailāsa and the northern quarter of treasure. *(Source: Mahavidya.ca; Wikipedia "Kubera".)*
+- **Kubera** (कुबेर) - God of **wealth** and **king of the [yakṣas/guhyakas](yakshas-and-guhyakas.md)**, lord of the **North** (*uttara*). Rides a **man (Naravāhana)** or a horse, bears the **gadā (mace)** and a **money-pot**; rules **Alakā** on Mount Kailāsa and the northern quarter of treasure. *(Source: Mahavidya.ca; Wikipedia "Kubera".)*
   - *Consort:* **Kauberī / Bhadrā / Ṛddhi** ("Prosperity").
   - *Variant (north slot):* in the **older Vedic six-fold list the North (or the lunar quarter) is held by Soma / Candra**, the moon-god; **Kubera is a post-Vedic / folk-cult addition** who displaced or doubles Soma in the North. [variant] *(Source: Mahavidya.ca, "Kubera and Isana are from folk cults"; Wikipedia.)*
-  - *Graha/diggaja:* Mercury; elephant **Sārvabhauma** (mate **Aṅganā**). Full court: [Yakṣas & Kubera's Court](./yakshas-and-guhyakas.md).
+  - *Graha/diggaja:* Mercury; elephant **Sārvabhauma** (mate **Aṅganā**). Full court: [Yakṣas & Kubera's Court](yakshas-and-guhyakas.md).
 
 ### Northeast — Īśāna
 
@@ -95,7 +95,7 @@ The canonical eight, clockwise from East, with their full bundle. *(Source: Maha
 When space is reckoned with the vertical axis, two more guardians complete the **ten directions** (*daśa-diś*). *(Source: Wikipedia "Guardians of the directions"; Mahavidya.ca.)*
 
 - **Brahmā** (ब्रह्मा) - Guardian of the **Zenith** (*ūrdhva*, "up"; sometimes placed between NE and E). The **creator**, four-faced and four-armed, riding the **goose/swan (haṃsa)**; he caps the world-axis above. *(Source: Mahavidya.ca; Wikipedia.)* — see [Trimūrti](../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md).
-- **Viṣṇu / Ananta** (विष्णु / अनन्त) - Guardian of the **Nadir** (*adho*, "down"; sometimes placed between SW and S). The **preserver**, four-armed and dark-blue, holding **conch, discus, mace/lotus**; in the nadir-role often given as **Ananta / Śeṣa**, the world-bearing serpent on whom Viṣṇu reclines — see [Nāgas & Serpents](./nagas-and-serpents.md). *(Source: Mahavidya.ca; Wikipedia.)*
+- **Viṣṇu / Ananta** (विष्णु / अनन्त) - Guardian of the **Nadir** (*adho*, "down"; sometimes placed between SW and S). The **preserver**, four-armed and dark-blue, holding **conch, discus, mace/lotus**; in the nadir-role often given as **Ananta / Śeṣa**, the world-bearing serpent on whom Viṣṇu reclines — see [Nāgas & Serpents](nagas-and-serpents.md). *(Source: Mahavidya.ca; Wikipedia.)*
   - *Variant (nadir-regent):* the down-direction is variously assigned to **Viṣṇu**, to **Ananta/Śeṣa**, or to **Vāsuki/the nāga-kings** as bearers of the lower worlds. [variant]
 
 ---
@@ -132,8 +132,8 @@ The **Aṣṭa-diggaja** ("eight elephants of the quarters") are mythical elepha
 ## Cross-Links
 
 - World-map & devas: [Devas, Asuras & the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) · [Meru–Kailāsa](../06-sacred-geography/meru-kailash-and-cosmic-mountains.md)
-- Individual guardians' deeper nodes: [Kubera & the Yakṣas](./yakshas-and-guhyakas.md) · [Īśāna / Śiva Myth-Cycle](../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md) · [Hanumān (son of Vāyu)](../02-deities-and-cosmic-hierarchy/hanuman.md)
-- Overlays: [Navagraha](../02-deities-and-cosmic-hierarchy/navagraha.md) (planet-direction map) · [Mātṛkās & Yoginīs](./matrikas-and-64-yoginis.md) (Indrāṇī, Vārāhī as śaktis) · [Ananta/Śeṣa · Nāgas](./nagas-and-serpents.md) (nadir-bearer)
+- Individual guardians' deeper nodes: [Kubera & the Yakṣas](yakshas-and-guhyakas.md) · [Īśāna / Śiva Myth-Cycle](../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md) · [Hanumān (son of Vāyu)](../02-deities-and-cosmic-hierarchy/hanuman.md)
+- Overlays: [Navagraha](../02-deities-and-cosmic-hierarchy/navagraha.md) (planet-direction map) · [Mātṛkās & Yoginīs](matrikas-and-64-yoginis.md) (Indrāṇī, Vārāhī as śaktis) · [Ananta/Śeṣa · Nāgas](nagas-and-serpents.md) (nadir-bearer)
 - Ritual/spatial: [Temple architecture & sthala-purāṇas](../06-sacred-geography/sthala-puranas-major-temples.md) (Vāstu maṇḍala)
 
 ---

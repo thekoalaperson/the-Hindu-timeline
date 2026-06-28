@@ -1,6 +1,6 @@
 # Units of Cyclic Time
 
-> Hierarchy location: `00-time-and-cosmology/` — the foundational "how the clock works" node. Everything in [`01-brahma-current-life/`](../01-brahma-current-life/) is measured in the units defined here. This file builds the chain from the smallest measurable instant (truti / paramanu) up to one year, then converts human years into divine and ancestral time, and stops at the threshold of the yuga (see [the yuga cycle](./yugas-and-mahayuga.md)).
+> Hierarchy location: `00-time-and-cosmology/` — the foundational "how the clock works" node. Everything in [`01-manvantaras/`](../01-manvantaras/) is measured in the units defined here. This file builds the chain from the smallest measurable instant (truti / paramanu) up to one year, then converts human years into divine and ancestral time, and stops at the threshold of the yuga (see [the yuga cycle](yugas-and-mahayuga.md)).
 
 The Hindu reckoning of time is **cyclic and nested**: tiny atomic durations aggregate into the human day, human days into the human year, and the human year becomes a single *day* of higher beings (manes, gods), whose years in turn become the cosmic ages. The single most important conversion in the whole system is the **deva ratio: 1 divine year (deva-varsha) = 360 human years** — every yuga, manvantara and kalpa figure descends from it. A second ratio governs the ancestors: **1 month of humans = 1 day of the pitrs (manes)**.
 
@@ -141,7 +141,7 @@ Applying the 360 ratio to the yuga durations (which scripture states in **divine
 - *Variant (Sri Yukteswar, The Holy Science, 1894):* rejects the ×360 multiplication as a later misreading; treats the yuga figures as plain years tied to a 24,000-year precessional cycle (12,000 ascending + 12,000 descending), so the full mahayuga = 24,000 years, not 4.32 million. [non-canonical / modern].
 - *Variant (Aryabhata):* same 3102 BCE Kali epoch, but divides the mahayuga into **four equal quarters** rather than the 4:3:2:1 sandhya scheme.
 
-Everything above one mahayuga (manvantara, kalpa, Brahma's lifespan) continues in [the yuga cycle](./yugas-and-mahayuga.md) and the cosmology overview ([`00-time-and-cosmology/`](./)). For where *we* currently sit (7th Vaivasvata Manvantara, 28th Mahayuga, Kali Yuga), see [`01-brahma-current-life/`](../01-brahma-current-life/).
+Everything above one mahayuga (manvantara, kalpa, Brahma's lifespan) continues in [the yuga cycle](yugas-and-mahayuga.md) and the cosmology overview ([`00-time-and-cosmology/`](./)). For where *we* currently sit (7th Vaivasvata Manvantara, 28th Mahayuga, Kali Yuga), see [`01-manvantaras/`](../01-manvantaras/).
 
 ---
 

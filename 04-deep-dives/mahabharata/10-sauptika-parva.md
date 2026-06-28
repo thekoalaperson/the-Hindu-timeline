@@ -1,10 +1,10 @@
 # Sauptika Parva — The Book of the Night Raid
 
-> Cosmic address: [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) → the Mahābhārata war at the Dvāpara–Kali junction (war traditionally ~3138 BCE; Kali begins 3102 BCE).
-> Parent: [Mahābhārata deep-dives](./README.md) · Previous: [09-Śalya Parva](./09-shalya-parva.md) · Next: [11-Strī Parva](./11-stri-parva.md)
+> Cosmic address: [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) → the Mahābhārata war at the Dvāpara–Kali junction (war traditionally ~3138 BCE; Kali begins 3102 BCE).
+> Parent: [Mahābhārata deep-dives](README.md) · Previous: [09-Śalya Parva](09-shalya-parva.md) · Next: [11-Strī Parva](11-stri-parva.md)
 > The tenth of the eighteen parvas. It covers the **night following Day 18** — the dishonourable nocturnal massacre of the sleeping Pāñcāla army and the Upapāṇḍavas by Aśvatthāman, his Brahmaśiras duel with Arjuna, the assault on Uttarā's womb, and Kṛṣṇa's curse.
 
-The Sauptika ("of the sleepers") Parva is the shortest of the war-books (2 sub-parvas; **18 adhyāyas** in the Pune Critical Edition, ~18 in the vulgate). It turns the heroic war into atrocity: the war is already over and won when the last three Kaurava survivors slaughter the unarmed and sleeping. See the [Suryavaṃśa & Chandravaṃśa lineages](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) for the combatants' descent, the [Droṇa Parva](./07-drona-parva.md) for Aśvatthāman's father's death (the motive), and the [Mahābhārata corpus entry](../../90-literature-corpus/smriti-itihasa-epics.md).
+The Sauptika ("of the sleepers") Parva is the shortest of the war-books (2 sub-parvas; **18 adhyāyas** in the Pune Critical Edition, ~18 in the vulgate). It turns the heroic war into atrocity: the war is already over and won when the last three Kaurava survivors slaughter the unarmed and sleeping. See the [Suryavaṃśa & Chandravaṃśa lineages](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) for the combatants' descent, the [Droṇa Parva](07-drona-parva.md) for Aśvatthāman's father's death (the motive), and the [Mahābhārata corpus entry](../../90-literature-corpus/smriti-itihasa-epics.md).
 
 ## Structure — the two sub-parvas (upa-parvas)
 
@@ -13,7 +13,7 @@ The Sauptika ("of the sleepers") Parva is the shortest of the war-books (2 sub-p
 
 ## The three survivors flee to the forest
 
-- **Only three Kaurava warriors remain** - At the close of [Śalya Parva](./09-shalya-parva.md) Duryodhana lies dying by the lake. The sole surviving Kaurava combatants are **Aśvatthāman** (Droṇa's son), **Kṛpa** (Kṛpācārya) and **Kṛtavarman** (the Yādava chief of the Bhojas) (Mbh X, Sauptika P.).
+- **Only three Kaurava warriors remain** - At the close of [Śalya Parva](09-shalya-parva.md) Duryodhana lies dying by the lake. The sole surviving Kaurava combatants are **Aśvatthāman** (Droṇa's son), **Kṛpa** (Kṛpācārya) and **Kṛtavarman** (the Yādava chief of the Bhojas) (Mbh X, Sauptika P.).
 - **They find the dying Duryodhana** - The three reach the wounded Duryodhana. Aśvatthāman, anguished, vows to destroy the Pāñcālas and Pāṇḍavas; Duryodhana, with his last breath, formally appoints **Aśvatthāman as the final commander-in-chief** of the Kaurava army and consecrates him with water (Mbh X). This makes the night-raid technically a senāpati's act.
 - **The three rest under a banyan** - At nightfall they ride into the forest and lie down under a great nyagrodha (banyan) tree. Kṛpa and Kṛtavarman sleep; Aśvatthāman, consumed by grief and rage, cannot (Mbh X, adhy. 1).
 
@@ -21,7 +21,7 @@ The Sauptika ("of the sleepers") Parva is the shortest of the war-books (2 sub-p
 
 - **The owl slaughters the sleeping crows** - Sleepless, Aśvatthāman watches a great **owl (ulūka)** descend on the banyan, which is roosting-place to thousands of crows, and kill the crows one by one as they sleep, strewing the ground with their bodies (Mbh X, adhy. 1). The image of a single predator destroying defenceless sleepers gives him his plan.
   - *Symbolic note (text-internal):* the omen deliberately inverts kṣatriya dharma — night attack on the sleeping and unarmed is explicitly adharma. Vyāsa frames the whole parva as Aśvatthāman's fall from righteousness, driven by the rakṣasic guṇa of tamas. [scholarly]
-- **The debate with Kṛpa and Kṛtavarman** - Aśvatthāman wakes the two and proposes the night massacre. **Kṛpa argues against it**, urging that they rest, consult Dhṛtarāṣṭra and Gāndhārī, and resume open war by day, warning that an attack on sleepers is sinful and will damn them (Mbh X, adhy. 1–2). Aśvatthāman rejects this, declaring his grief for his father Droṇa — slain by deceit (the "Aśvatthāman is dead" lie) and beheaded while in yoga by **Dhṛṣṭadyumna** — leaves him no peace (see [Droṇa Parva](./07-drona-parva.md)).
+- **The debate with Kṛpa and Kṛtavarman** - Aśvatthāman wakes the two and proposes the night massacre. **Kṛpa argues against it**, urging that they rest, consult Dhṛtarāṣṭra and Gāndhārī, and resume open war by day, warning that an attack on sleepers is sinful and will damn them (Mbh X, adhy. 1–2). Aśvatthāman rejects this, declaring his grief for his father Droṇa — slain by deceit (the "Aśvatthāman is dead" lie) and beheaded while in yoga by **Dhṛṣṭadyumna** — leaves him no peace (see [Droṇa Parva](07-drona-parva.md)).
 - **Kṛpa and Kṛtavarman finally agree** - Persuaded (or unwilling to abandon him), the two consent to accompany him and **guard the camp gate** while he enters (Mbh X, adhy. 2).
 
 ## The gate of the camp — the divine guardian
@@ -38,7 +38,7 @@ The Sauptika ("of the sleepers") Parva is the shortest of the war-books (2 sub-p
   - *Variant (manner):* most retellings (and the Sanskrit) describe killing by hands/feet — a deliberately degrading death; a few popular summaries soften this to a sword-blow. The canonical version is death without a weapon. (Sacred-Texts m10008; Ganguli)
 - **The Upapāṇḍavas (Draupadeyas) slain** - The five sons of **Draupadī by the five Pāṇḍavas** are killed as they sleep / as they wake confused. Their names: **Prativindhya** (by Yudhiṣṭhira), **Sutasoma** (by Bhīma), **Śrutakarma/Śrutakīrti** (by Arjuna), **Śatānīka** (by Nakula), **Śrutasena** (by Sahadeva) (Mbh X, adhy. 8).
   - *Variant (mistaken identity):* in several tellings the boys, roused by the din, are slain having been **mistaken for the Pāṇḍavas** in the dark; the parva stresses that the actual Pāṇḍavas and Kṛṣṇa were **absent from the camp that night** — which is why they survive. [folk tradition / text-internal]
-- **Śikhaṇḍin killed** - **Śikhaṇḍin** (the cause of Bhīṣma's fall — see [Bhīṣma Parva](./06-bhishma-parva.md)) is cut in two by Aśvatthāman's sword (Mbh X, adhy. 8).
+- **Śikhaṇḍin killed** - **Śikhaṇḍin** (the cause of Bhīṣma's fall — see [Bhīṣma Parva](06-bhishma-parva.md)) is cut in two by Aśvatthāman's sword (Mbh X, adhy. 8).
 - **Other Pāñcāla–Sṛñjaya chiefs slain** - **Yudhāmanyu** and **Uttamaujas** (Arjuna's wheel-guards), the surviving sons of **Drupada** and the Pāñcāla princes, the remnants of the **Sṛñjaya, Pāñcāla, Matsya and Kekaya** contingents — all are butchered in their tents (Mbh X, adhy. 8).
 - **Slaughter of the general host** - The camp dissolves into panic; men, elephants and horses are slain indiscriminately in the dark, many trampling each other or struck down half-asleep (Mbh X, adhy. 8).
 - **The gate becomes a killing-ground** - Any who flee the tents are driven back by **Kṛpa and Kṛtavarman** waiting at the three gates; the two also **set fire to the camp in three places**, so that those escaping the blades die in the flames (Mbh X, adhy. 8).
@@ -61,8 +61,8 @@ The Sauptika ("of the sleepers") Parva is the shortest of the war-books (2 sub-p
 - **Vyāsa and Nārada intervene** - The two ṛṣis **Vyāsa and Nārada** step physically between the two blazing weapons and command the warriors to withdraw them, warning that their collision would burn the earth and bring a **twelve-year drought** and the death of all beings (Mbh X, adhy. 14).
 - **Arjuna can withdraw his; Aśvatthāman cannot** - **Arjuna**, being chaste and pure of intent, is able to **recall** his weapon. **Aśvatthāman**, lacking that purity, confesses he **cannot withdraw** the Brahmaśiras; he can only **redirect its target** (Mbh X, adhy. 15).
   - *Detail / motif:* the text makes withdrawal of the Brahmāstra a test of brahmacarya (continence) and inner discipline — Arjuna's ability and Aśvatthāman's inability is a moral verdict on the two men. [scholarly]
-- **Aśvatthāman aims the weapon at the wombs of the Pāṇḍava women** - Out of spite, he directs the weapon **into the wombs of the Pāṇḍava women**, naming especially **Uttarā** (Abhimanyu's widow, see [Droṇa Parva](./07-drona-parva.md)), to extinguish the line altogether (Mbh X, adhy. 15–16).
-- **Kṛṣṇa vows to revive the child** - **Kṛṣṇa** declares that the embryo, though slain in the womb, **shall live** — he names it **Parīkṣit** ("the tested one," for he is born into a near-extinct line and will himself be tested) and vows to revive him; this is the seed of the dynasty that carries the Suryavaṃśa story past the war (Mbh X, adhy. 16). (The actual revival of stillborn Parīkṣit is narrated in the [Āśvamedhika Parva](./14-ashvamedhika-parva.md).)
+- **Aśvatthāman aims the weapon at the wombs of the Pāṇḍava women** - Out of spite, he directs the weapon **into the wombs of the Pāṇḍava women**, naming especially **Uttarā** (Abhimanyu's widow, see [Droṇa Parva](07-drona-parva.md)), to extinguish the line altogether (Mbh X, adhy. 15–16).
+- **Kṛṣṇa vows to revive the child** - **Kṛṣṇa** declares that the embryo, though slain in the womb, **shall live** — he names it **Parīkṣit** ("the tested one," for he is born into a near-extinct line and will himself be tested) and vows to revive him; this is the seed of the dynasty that carries the Suryavaṃśa story past the war (Mbh X, adhy. 16). (The actual revival of stillborn Parīkṣit is narrated in the [Āśvamedhika Parva](14-ashvamedhika-parva.md).)
 
 ## The surrender of the gem and Kṛṣṇa's curse
 
@@ -77,14 +77,14 @@ The Sauptika ("of the sleepers") Parva is the shortest of the war-books (2 sub-p
 ## The eight survivors
 
 - **Who lives** - At the close of Sauptika Parva the war has left, on the victorious side, only **eight** alive who matter to the narrative: the **five Pāṇḍavas**, **Kṛṣṇa**, **Sātyaki**, and **Yuyutsu** (Dhṛtarāṣṭra's son who had defected). Of the Kaurava force the three night-raiders — **Aśvatthāman** (cursed), **Kṛpa** and **Kṛtavarman** — survive (Mbh X).
-  - *Detail:* the parva thus marks the true end of the fighting; what follows ([Strī Parva](./11-stri-parva.md)) is mourning, not battle.
+  - *Detail:* the parva thus marks the true end of the fighting; what follows ([Strī Parva](11-stri-parva.md)) is mourning, not battle.
 
 ## Cross-links
 
-- Motive thread: Droṇa's death by the "Aśvatthāman is dead" stratagem and Dhṛṣṭadyumna's beheading of him — [07-Droṇa Parva](./07-drona-parva.md).
-- The embryo's revival as Parīkṣit — [14-Āśvamedhika Parva](./14-ashvamedhika-parva.md); his line continues the [Chandravaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
+- Motive thread: Droṇa's death by the "Aśvatthāman is dead" stratagem and Dhṛṣṭadyumna's beheading of him — [07-Droṇa Parva](07-drona-parva.md).
+- The embryo's revival as Parīkṣit — [14-Āśvamedhika Parva](14-ashvamedhika-parva.md); his line continues the [Chandravaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
 - Śiva-as-Kāla and the cirañjīvi (deathless ones) theme — see Śiva myth-cycle under [02-deities](../../02-deities-and-cosmic-hierarchy/README.md).
-- Where this sits in cosmic time — [Kali Yuga / recorded history](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
+- Where this sits in cosmic time — [Kali Yuga / recorded history](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
 
 ## Sources
 

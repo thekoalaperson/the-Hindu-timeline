@@ -1,7 +1,7 @@
 # Yuddha (Laṅkā) Kāṇḍa — Book of War
 
-> Cosmic address: [Vaivasvata Manvantara](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) → 28th Mahāyuga → **[Tretā Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)** → the Rāma-avatāra cycle, its climax.
-> Parent: **[Rāmāyaṇa deep-dive](./README.md)** · Previous: [Sundara Kāṇḍa](./5-sundara-kanda.md) · (Next: Uttara Kāṇḍa — the disputed epilogue)
+> Cosmic address: [Vaivasvata Manvantara](../../01-manvantaras/manvantara-07-vaivasvata/README.md) → 28th Mahāyuga → **[Tretā Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)** → the Rāma-avatāra cycle, its climax.
+> Parent: **[Rāmāyaṇa deep-dive](README.md)** · Previous: [Sundara Kāṇḍa](5-sundara-kanda.md) · (Next: Uttara Kāṇḍa — the disputed epilogue)
 > See also: [Daśāvatāra (Rāma)](../../02-deities-and-cosmic-hierarchy/dashavatara.md) · [Sūryavaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) · [Devas, Asuras & the Lokas](../../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) · [Itihāsa-Epics corpus](../../90-literature-corpus/smriti-itihasa-epics.md)
 
 The sixth and longest book of Vālmīki's Rāmāyaṇa, **~128 sargas / ~4,400+ ślokas** (sarga counts vary by recension; the Critical Edition is shorter than the vulgate), called *Yuddha* ("War") or *Laṅkā Kāṇḍa* ("Book of Laṅkā"). It carries the epic from Hanumān's report through the bridging of the ocean, the siege and battles of Laṅkā, the deaths of Kumbhakarṇa, Indrajit, and Rāvaṇa, Sītā's fire-ordeal, the flight north in the Puṣpaka, and Rāma's coronation. In the **Critical Edition this is the last book**; the *Uttara Kāṇḍa* (Sītā's exile, Lava–Kuśa, Rāma's departure) is widely held [scholarly] to be a later addition.

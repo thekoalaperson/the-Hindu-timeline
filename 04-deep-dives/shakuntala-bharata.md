@@ -1,6 +1,6 @@
 # Śakuntalā, Duṣyanta & the Birth of Bharata
 
-> Where this sits: a **Dvāpara-prelude origin tale** of the lunar dynasty, told in the genealogical opening of the Mahābhārata. It explains the **eponym of Bhāratavarṣa** ("land of Bharata," i.e. India) and the **Cakravartin ancestor of the Kuru–Pāṇḍava line** whose war the epic narrates. Belongs to the [Mahābhārata deep-dives](./../04-deep-dives/) and the [Mahābhārata corpus](./mahabharata/), and is foundational to the [Candravaṃśa (lunar lineage)](./../03-lineages-vamsha/suryavamsha-and-chandravamsha.md). The era it sets up culminates in the [28th Mahāyuga, Dvāpara Yuga](./../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
+> Where this sits: a **Dvāpara-prelude origin tale** of the lunar dynasty, told in the genealogical opening of the Mahābhārata. It explains the **eponym of Bhāratavarṣa** ("land of Bharata," i.e. India) and the **Cakravartin ancestor of the Kuru–Pāṇḍava line** whose war the epic narrates. Belongs to the [Mahābhārata deep-dives](./../04-deep-dives/) and the [Mahābhārata corpus](./mahabharata/), and is foundational to the [Candravaṃśa (lunar lineage)](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md). The era it sets up culminates in the [28th Mahāyuga, Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
 > Up: [04-deep-dives](./../04-deep-dives/) · Parent epic: [Mahābhārata](./mahabharata/)
 
 The **Śākuntalopākhyāna** ("Episode of Śakuntalā") is told in the **Ādi Parva, Sambhava (Saṃbhava) sub-parva, adhyāyas ~62/68–69** (chapter numbers vary by recension: Ganguli's translation places it at Sambhava sections 68–74; older numbering 62–69). It is a *vaṃśa* (genealogy) story: the sage Vyāsa's lineage of the **Pauravas** is being recounted, and Bharata is the link who gives the dynasty — and the subcontinent — its name. Roughly a millennium later **Kālidāsa** reworked the same plot into his Sanskrit play **Abhijñānaśākuntalam** ("The Recognition of Śakuntalā by the Token"), adding the curse-and-ring machinery that absolves the king — the single most famous transformation of a Sanskrit story into drama.
@@ -95,10 +95,10 @@ A 7-act Sanskrit play (4th–5th c. CE [scholarly]) that keeps the skeleton — 
 
 ## See also
 
-- [Candravaṃśa / lunar lineage](./../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) — Puru → Duṣyanta → Bharata → Kuru.
+- [Candravaṃśa / lunar lineage](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) — Puru → Duṣyanta → Bharata → Kuru.
 - [Mahābhārata corpus](./mahabharata/) — the epic this genealogy opens.
-- [Smṛti: Itihāsa & epics](./../90-literature-corpus/smriti-itihasa-epics.md) — placement of the Mahābhārata and Kālidāsa's kāvya/nāṭaka.
-- [Nala & Damayantī](./nala-damayanti.md), [Sāvitrī & Satyavān](./savitri-satyavan.md) — other embedded upākhyānas of the epic.
+- [Smṛti: Itihāsa & epics](../90-literature-corpus/smriti-itihasa-epics.md) — placement of the Mahābhārata and Kālidāsa's kāvya/nāṭaka.
+- [Nala & Damayantī](nala-damayanti.md), [Sāvitrī & Satyavān](savitri-satyavan.md) — other embedded upākhyānas of the epic.
 
 ---
 

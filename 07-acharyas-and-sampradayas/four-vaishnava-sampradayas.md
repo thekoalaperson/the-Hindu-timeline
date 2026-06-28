@@ -1,7 +1,7 @@
 # The Four Vaiṣṇava Sampradāyas
 
-> Detail node under [`07-acharyas-and-sampradayas/`](./README.md) — the **cāturvaidya**: the four authorized Vaiṣṇava disciplic lines (*sampradāyas*), each rooted in a founding deity and crystallized into a Vedānta school by a human ācārya in the historical Kali-Yuga. Up-link: section index [`07-…/README.md`](./README.md).
-> Sits in the **first ~1.2% of Kali Yuga** (post-3102 BCE traditional; the deity-origins are timeless / pre-historical, the human ācāryas are 11th–16th c. CE academic). Dating given **[traditional]** (matha-hagiographic) vs **[scholarly]** (epigraphic / text-critical) where they diverge; see the [two-clocks method](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md). For the deep biographies of two founders see [Rāmānuja & Madhva](./ramanuja-and-madhva.md).
+> Detail node under [`07-acharyas-and-sampradayas/`](README.md) — the **cāturvaidya**: the four authorized Vaiṣṇava disciplic lines (*sampradāyas*), each rooted in a founding deity and crystallized into a Vedānta school by a human ācārya in the historical Kali-Yuga. Up-link: section index [`07-…/README.md`](README.md).
+> Sits in the **first ~1.2% of Kali Yuga** (post-3102 BCE traditional; the deity-origins are timeless / pre-historical, the human ācāryas are 11th–16th c. CE academic). Dating given **[traditional]** (matha-hagiographic) vs **[scholarly]** (epigraphic / text-critical) where they diverge; see the [two-clocks method](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md). For the deep biographies of two founders see [Rāmānuja & Madhva](ramanuja-and-madhva.md).
 
 ---
 
@@ -18,27 +18,27 @@ Vaiṣṇava tradition holds that genuine *mantra-dīkṣā* (initiation) is val
   - **Rudra Sampradāya** — founding deity **Śiva/Rudra** → ācārya **Viṣṇusvāmī** (best-known exponent **Vallabha**) → school **Śuddhādvaita** (Puṣṭimārga).
   - **Kumāra / Sanakādi (Nimbārka) Sampradāya** — founding agents the **four Kumāras** → ācārya **Nimbārka** → school **Dvaitādvaita / Bhedābheda**.
 - **Why four** - each line is held to teach the same *bhakti* to Viṣṇu/Kṛṣṇa through a distinct Vedānta lens, so that no school can claim a monopoly on the Absolute; together they bracket the spectrum from near-dualism (Madhva) to near-non-dualism (Vallabha). (Source: Vrajvrindavan.com, *The four Sampradaya*; Poojn.in) [traditional]
-  - *Variant (Smārta/Advaita exclusion):* the scheme is **internal to Vaiṣṇavism** — it deliberately omits Ādi [Śaṅkara's](./adi-shankara.md) Advaita (Smārta), which Vaiṣṇavas classify outside the four authorized Viṣṇu-supremacy lines. (Source: Poojn.in) [traditional]
+  - *Variant (Smārta/Advaita exclusion):* the scheme is **internal to Vaiṣṇavism** — it deliberately omits Ādi [Śaṅkara's](adi-shankara.md) Advaita (Smārta), which Vaiṣṇavas classify outside the four authorized Viṣṇu-supremacy lines. (Source: Poojn.in) [traditional]
 
 ---
 
 ## 1. Śrī Sampradāya — Lakṣmī → Rāmānuja (Viśiṣṭādvaita)
 
-The line tracing supremacy to **Viṣṇu-with-Śrī (Lakṣmī)**, in which the Goddess is the eternal mediatrix (*puruṣakāra*) of grace. Founding paramparā: **Lakṣmī → Viṣvaksena → the Āḻvārs / Nāthamuni → Yāmuna → Rāmānuja.** Full ācārya biography, the navaratna works, and the Teṅkalai/Vaḍakalai split are cataloged in [Rāmānuja & Madhva](./ramanuja-and-madhva.md). (Source: Wikipedia, *Sri Vaishnavism*; Poojn.in)
+The line tracing supremacy to **Viṣṇu-with-Śrī (Lakṣmī)**, in which the Goddess is the eternal mediatrix (*puruṣakāra*) of grace. Founding paramparā: **Lakṣmī → Viṣvaksena → the Āḻvārs / Nāthamuni → Yāmuna → Rāmānuja.** Full ācārya biography, the navaratna works, and the Teṅkalai/Vaḍakalai split are cataloged in [Rāmānuja & Madhva](ramanuja-and-madhva.md). (Source: Wikipedia, *Sri Vaishnavism*; Poojn.in)
 
 - **Founding deity** - **Lakṣmī/Śrī** receives the doctrine from **Nārāyaṇa** and transmits it through **Viṣvaksena** (Viṣṇu's commander-in-chief) down to the Tamil [Āḻvārs](../90-literature-corpus/tamil-canon-sangam-and-bhakti.md). (Source: Wikipedia, *Sri Vaishnavism*) [traditional]
-- **Doctrine — Viśiṣṭādvaita** - "qualified non-dualism": one Brahman eternally *qualified* by souls (*cit*) and matter (*acit*) as its body. Supreme means to mokṣa = **prapatti** (self-surrender). (Source: IEP, *Ramanuja*) — see [full treatment](./ramanuja-and-madhva.md).
-- **Head ācārya** - **Rāmānuja** (trad. **1017–1137**; acad. **c. 1077–1157** [scholarly] [disputed]), appointed by Śrī Devī per the four-sampradāya doctrine. (Source: Wikipedia, *Ramanuja*) — see [Rāmānuja & Madhva](./ramanuja-and-madhva.md).
+- **Doctrine — Viśiṣṭādvaita** - "qualified non-dualism": one Brahman eternally *qualified* by souls (*cit*) and matter (*acit*) as its body. Supreme means to mokṣa = **prapatti** (self-surrender). (Source: IEP, *Ramanuja*) — see [full treatment](ramanuja-and-madhva.md).
+- **Head ācārya** - **Rāmānuja** (trad. **1017–1137**; acad. **c. 1077–1157** [scholarly] [disputed]), appointed by Śrī Devī per the four-sampradāya doctrine. (Source: Wikipedia, *Ramanuja*) — see [Rāmānuja & Madhva](ramanuja-and-madhva.md).
 
 ---
 
 ## 2. Brahma Sampradāya — Brahmā → Madhva (Dvaita / Tattvavāda)
 
-The line tracing supremacy to **Viṣṇu/Kṛṣṇa as the one independent reality** (*svatantra*), all else dependent (*paratantra*). Founding paramparā: **Nārāyaṇa → Brahmā → Nārada → Vyāsa → Madhva.** Full ācārya biography, the Udupi Kṛṣṇa-Maṭha and Aṣṭa-Maṭha, the *Sarvamūla* corpus, the *pañca-bheda* (five eternal differences) and the controversial *tāratamya* / eternal-damnation doctrine are cataloged in [Rāmānuja & Madhva](./ramanuja-and-madhva.md). (Source: Wikipedia, *Madhvacharya*; Poojn.in)
+The line tracing supremacy to **Viṣṇu/Kṛṣṇa as the one independent reality** (*svatantra*), all else dependent (*paratantra*). Founding paramparā: **Nārāyaṇa → Brahmā → Nārada → Vyāsa → Madhva.** Full ācārya biography, the Udupi Kṛṣṇa-Maṭha and Aṣṭa-Maṭha, the *Sarvamūla* corpus, the *pañca-bheda* (five eternal differences) and the controversial *tāratamya* / eternal-damnation doctrine are cataloged in [Rāmānuja & Madhva](ramanuja-and-madhva.md). (Source: Wikipedia, *Madhvacharya*; Poojn.in)
 
 - **Founding deity** - **Brahmā**, who receives the *tattvavāda* from Nārāyaṇa and transmits it via **Nārada** and **Vyāsa**; Madhva is held to be the **third avatāra of Vāyu** (after Hanumān and Bhīma). (Source: Wikipedia, *Madhvacharya*) [traditional]
 - **Doctrine — Dvaita** - uncompromising realist pluralism: God, souls, and matter eternally and really distinct (*pañca-bheda*). (Source: Wikipedia, *Madhvacharya*).
-- **Head ācārya** - **Madhva / Ānandatīrtha / Pūrṇaprajña** (**1238–1317**), founder of the Udupi seat-cluster. (Source: Wikipedia, *Madhvacharya*) — see [Rāmānuja & Madhva](./ramanuja-and-madhva.md).
+- **Head ācārya** - **Madhva / Ānandatīrtha / Pūrṇaprajña** (**1238–1317**), founder of the Udupi seat-cluster. (Source: Wikipedia, *Madhvacharya*) — see [Rāmānuja & Madhva](ramanuja-and-madhva.md).
 
 ### Gauḍīya Vaiṣṇavism within Brahma-Madhva (the **Brahma-Mādhva-Gauḍīya** line)
 
@@ -58,7 +58,7 @@ The line whose founding agent is **Rudra (Śiva)** — the supreme Vaiṣṇava 
   - *Variant (transmission chain):* tradition links Vallabha to Viṣṇusvāmī through **Bilvamaṅgala (Līlāśuka)** as intermediate guru, citing the *Śāṇḍilya Saṃhitā*. (Source: raganugaprembhakti) [traditional] [disputed]
   - *Variant (two branches):* the Rudra line is sometimes split into **(a) the Viṣṇusvāmīs** and **(b) the Vallabhas / Puṣṭimārga**, the latter eclipsing the former. (Source: Wikipedia, *Pushtimarg*)
 - **Vallabha / Vallabhācārya** - **1479–1531 CE**, the great systematizer who revived Śuddhādvaita and founded **Puṣṭimārga** ("the path of grace/nourishment"), Kṛṣṇa-worship as **Śrīnāthjī** (the child-Kṛṣṇa of Govardhana); seat at **Nāthdwārā (Rajasthan)**. Authored *Aṇubhāṣya* (Brahma-Sūtra commentary), *Subodhinī* (on the [Bhāgavata Purāṇa](../90-literature-corpus/bhagavata-purana-skandha-map.md)), and *Ṣoḍaśa-grantha*. (Source: Britannica, *Vallabha*; Wikipedia, *Shuddhadvaita*; bharatpedia, *Vallabha*) [scholarly]
-- **Doctrine — Śuddhādvaita** - "*pure* non-dualism": Brahman (Kṛṣṇa) is non-dual and real, and the world is a **real, unmodified manifestation** of Brahman — not illusory (*māyā*) as in [Śaṅkara's](./adi-shankara.md) "*a*-śuddha" Advaita, which Vallabha holds is corrupted by an unreal māyā. Liberation is by **puṣṭi** (God's spontaneous grace), not works or knowledge. (Source: Wikipedia, *Shuddhadvaita*; bbhatt01.wordpress) [scholarly]
+- **Doctrine — Śuddhādvaita** - "*pure* non-dualism": Brahman (Kṛṣṇa) is non-dual and real, and the world is a **real, unmodified manifestation** of Brahman — not illusory (*māyā*) as in [Śaṅkara's](adi-shankara.md) "*a*-śuddha" Advaita, which Vallabha holds is corrupted by an unreal māyā. Liberation is by **puṣṭi** (God's spontaneous grace), not works or knowledge. (Source: Wikipedia, *Shuddhadvaita*; bbhatt01.wordpress) [scholarly]
 
 ---
 
@@ -86,7 +86,7 @@ The line whose founding agents are the **four Kumāras** (Sanaka, Sananda, Sanā
 
 (Source: Poojn.in; HareKrishnaMandir.org; Wikipedia, *Nimbarka Sampradaya*, *Shuddhadvaita*, *Madhvacharya*, *Sri Vaishnavism*)
 
-- **Later orders mapped onto the four** - the major post-classical Kṛṣṇa-bhakti movements each claim one of the four as parent: **Gauḍīya / ISKCON** → Brahma-Madhva; **Puṣṭimārga (Vallabha)** → Rudra; the **Haridāsī / Rādhāvallabha** and **Nimbārkī** orders of Vraja → Kumāra. The Vārkarī and Ekasaraṇa streams (see [section index](./README.md)) sit largely outside the formal four. (Source: Poojn.in; HareKrishnaMandir.org) [scholarly]
+- **Later orders mapped onto the four** - the major post-classical Kṛṣṇa-bhakti movements each claim one of the four as parent: **Gauḍīya / ISKCON** → Brahma-Madhva; **Puṣṭimārga (Vallabha)** → Rudra; the **Haridāsī / Rādhāvallabha** and **Nimbārkī** orders of Vraja → Kumāra. The Vārkarī and Ekasaraṇa streams (see [section index](README.md)) sit largely outside the formal four. (Source: Poojn.in; HareKrishnaMandir.org) [scholarly]
 
 ---
 

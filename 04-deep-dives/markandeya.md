@@ -81,7 +81,7 @@ The signature episode: Mārkaṇḍeya, alone deathless, experiences the cosmic 
 - Cosmology of what he witnessed: [kalpa-and-pralaya](../00-time-and-cosmology/kalpa-and-pralaya.md) · [brahma-lifetime](../00-time-and-cosmology/brahma-lifetime.md) · [manvantara-system](../00-time-and-cosmology/manvantara-system.md) · [cosmogony-creation-accounts](../00-time-and-cosmology/cosmogony-creation-accounts.md)
 - Deities: [shiva-myth-cycle](../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md) · [dashavatara](../02-deities-and-cosmic-hierarchy/dashavatara.md) · [devi-mahatmya-and-the-great-goddess](../02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md)
 - Fellow deathless devotee: [Hanumān](../02-deities-and-cosmic-hierarchy/hanuman.md)
-- Related deep-dives: [Mahābhārata](./mahabharata/) · [Krishna-līlā](./krishna-lila.md) · [Gajendra-mokṣa](./gajendra-moksha.md) · [Nachiketā](./nachiketa-katha-upanishad.md) (another boy who faced Death) · [Sāvitrī-Satyavān](./savitri-satyavan.md) (defeating Yama)
+- Related deep-dives: [Mahābhārata](./mahabharata/) · [Krishna-līlā](krishna-lila.md) · [Gajendra-mokṣa](gajendra-moksha.md) · [Nachiketā](nachiketa-katha-upanishad.md) (another boy who faced Death) · [Sāvitrī-Satyavān](savitri-satyavan.md) (defeating Yama)
 - Corpus: [smriti-puranas](../90-literature-corpus/smriti-puranas.md) · [smriti-itihasa-epics](../90-literature-corpus/smriti-itihasa-epics.md)
 
 ## Sources

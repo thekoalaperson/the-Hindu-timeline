@@ -1,6 +1,6 @@
 # The Principal Upaniṣads — Per-Text Detail
 
-> Part of [`90-literature-corpus/`](./README.md) — companion to [`shruti-vedas-and-upanishads.md`](./shruti-vedas-and-upanishads.md), which frames the four Vedas, their four strata, and where the Upaniṣads sit on the cosmic clock. This node zooms into the **mukhya** ("principal") Upaniṣads one text at a time: parent Veda, key teaching / mahāvākya, famous passages, and dating with variants.
+> Part of [`90-literature-corpus/`](README.md) — companion to [`shruti-vedas-and-upanishads.md`](shruti-vedas-and-upanishads.md), which frames the four Vedas, their four strata, and where the Upaniṣads sit on the cosmic clock. This node zooms into the **mukhya** ("principal") Upaniṣads one text at a time: parent Veda, key teaching / mahāvākya, famous passages, and dating with variants.
 
 ---
 
@@ -22,7 +22,7 @@
 
 ## 2. Relative Chronology (the scholarly frame)
 
-Indology dates the principal Upaniṣads by language stratum (prose vs. verse, archaic vs. classical Sanskrit), not by the apauruṣeya / "re-heard each Dvāpara" tradition recorded in [`shruti-vedas-and-upanishads.md`](./shruti-vedas-and-upanishads.md). **Patrick Olivelle's** widely used ordering (1996/1998):
+Indology dates the principal Upaniṣads by language stratum (prose vs. verse, archaic vs. classical Sanskrit), not by the apauruṣeya / "re-heard each Dvāpara" tradition recorded in [`shruti-vedas-and-upanishads.md`](shruti-vedas-and-upanishads.md). **Patrick Olivelle's** widely used ordering (1996/1998):
 
 - **Earliest, early prose (c. 7th–6th c. BCE, pre-Buddhist):** **Bṛhadāraṇyaka**, then **Chāndogya** — the two oldest and longest.
 - **Early prose (c. 6th–5th c. BCE, probably pre-Buddhist):** **Taittirīya**, **Aitareya**, **Kauṣītaki**.
@@ -133,11 +133,11 @@ Indology dates the principal Upaniṣads by language stratum (prose vs. verse, a
 
 ## Related Nodes
 
-- [`shruti-vedas-and-upanishads.md`](./shruti-vedas-and-upanishads.md) — the four Vedas, four strata, śākhās, and the apauruṣeya / Vyāsa cosmic frame.
+- [`shruti-vedas-and-upanishads.md`](shruti-vedas-and-upanishads.md) — the four Vedas, four strata, śākhās, and the apauruṣeya / Vyāsa cosmic frame.
 - [`../04-deep-dives/nachiketa-katha-upanishad.md`](../04-deep-dives/nachiketa-katha-upanishad.md) — full deep-dive on the Naciketas–Yama dialogue of the Kaṭha Upaniṣad.
 - [`../04-deep-dives/bhagavad-gita.md`](../04-deep-dives/bhagavad-gita.md) — the Gītā as "Upaniṣad of the Upaniṣads," sharing the Kaṭha's chariot/immortal-Self imagery.
-- [`upavedas-vedangas-darshanas.md`](./upavedas-vedangas-darshanas.md) — the Vedānta darśana that systematizes these texts (and Sāṃkhya/Yoga drawn on by Śvetāśvatara & Maitrī).
-- [`smriti-puranas.md`](./smriti-puranas.md) — later scripture that popularizes Upaniṣadic Brahman/Ātman doctrine.
+- [`upavedas-vedangas-darshanas.md`](upavedas-vedangas-darshanas.md) — the Vedānta darśana that systematizes these texts (and Sāṃkhya/Yoga drawn on by Śvetāśvatara & Maitrī).
+- [`smriti-puranas.md`](smriti-puranas.md) — later scripture that popularizes Upaniṣadic Brahman/Ātman doctrine.
 
 ---
 

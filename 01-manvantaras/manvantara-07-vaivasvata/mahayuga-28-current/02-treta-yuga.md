@@ -1,6 +1,6 @@
 # Tretā Yuga — Events
 
-> Hierarchy: Brahma's current life → Shveta-Varaha Kalpa → 7th (Vaivasvata) Manvantara → **28th Mahāyuga** → **Tretā Yuga** (the 2nd quarter, 1,296,000 human years, dharma on **3 legs**, 75% virtue). Sits between [Satya Yuga](./01-satya-yuga.md) and [Dvāpara Yuga](./03-dvapara-yuga.md). This is the yuga of **Rāma** and the **Rāmāyana** — the spine of the entire age.
+> Hierarchy: Brahma's current life → Shveta-Varaha Kalpa → 7th (Vaivasvata) Manvantara → **28th Mahāyuga** → **Tretā Yuga** (the 2nd quarter, 1,296,000 human years, dharma on **3 legs**, 75% virtue). Sits between [Satya Yuga](01-satya-yuga.md) and [Dvāpara Yuga](03-dvapara-yuga.md). This is the yuga of **Rāma** and the **Rāmāyana** — the spine of the entire age.
 
 Orientation note: Treta sees Vishnu incarnate three times within this Mahāyuga (Vāmana, Paraśurāma, Rāma — avatāras 5, 6, 7 of the Daśāvatāra). It is the great age of the [Sūryavaṃśa / Ikshvāku dynasty](../../../../03-lineages-vamsha/) of Ayodhyā and the apex of ritual sacrifice (yajña), which is itself the dominant dharma-mode of Treta.
 
@@ -16,7 +16,7 @@ Orientation note: Treta sees Vishnu incarnate three times within this Mahāyuga 
   - **Kārtavīrya Arjuna & Kāmadhenu** — the thousand-armed Haihaya king Kārtavīrya Arjuna steals/seizes the wish-cow **Kāmadhenu (Surabhi)** / her calf from Jamadagni's hermitage; Paraśurāma slays him. In revenge Kārtavīrya's sons kill the unarmed Jamadagni. (Mahābhārata; Bhāgavata Purāṇa)
   - **Twenty-one-fold kṣatriya annihilation** — Enraged at his father's murder, Paraśurāma vows to rid the earth of the kṣatriya warrior-class **twenty-one times** (the surviving widows each time bore new offspring, hence the repetition); said to have filled five lakes at **Samanta-pañchaka (Kurukshetra)** with their blood, later offering oblations to his ancestors there. (Mahābhārata, Vana/Shanti Parvan; Bhāgavata Purāṇa 9.16)
   - **Renukā's beheading** — at Jamadagni's command Paraśurāma beheads his own mother (for a momentary lapse of mind), then asks a boon to restore her to life. (Mahābhārata; Bhāgavata Purāṇa)
-  - **Bridge to later yugas** — Paraśurāma is a chiranjīvi (immortal); he appears again in the Rāmāyana (confronting Rāma after the bow-breaking) and in the Mahābhārata (guru to Bhīṣma, Droṇa, Karṇa) — explicitly linking Treta to [Dvāpara](./03-dvapara-yuga.md). (Mahābhārata; Rāmāyana, Bāla Kāṇḍa)
+  - **Bridge to later yugas** — Paraśurāma is a chiranjīvi (immortal); he appears again in the Rāmāyana (confronting Rāma after the bow-breaking) and in the Mahābhārata (guru to Bhīṣma, Droṇa, Karṇa) — explicitly linking Treta to [Dvāpara](03-dvapara-yuga.md). (Mahābhārata; Rāmāyana, Bāla Kāṇḍa)
   - *Variant (regional/folk):* Paraśurāma reclaims **Konkan / Kerala (Paraśurāma-kshetra)** from the sea by hurling his axe, creating the western coast — a land-creation legend not in the core epics. [folk tradition]
 
 - **Rāma (Rāmacandra) — 7th avatāra** — the central event-chain of the entire yuga; see the dedicated section below.
@@ -94,9 +94,9 @@ Orientation note: Treta sees Vishnu incarnate three times within this Mahāyuga 
 ---
 
 ## Yuga-character notes (Treta)
-- **Dharma stands on 3 legs (75%)** — the bull of Dharma (Vṛṣa) has lost one leg since [Satya](./01-satya-yuga.md); virtue still dominant but ritual effort now required to maintain it.
+- **Dharma stands on 3 legs (75%)** — the bull of Dharma (Vṛṣa) has lost one leg since [Satya](01-satya-yuga.md); virtue still dominant but ritual effort now required to maintain it.
 - **Dominant mode = yajña (sacrifice/ritual)** — kings sustain dharma via great sacrifices (Aśvamedha, Rājasūya); the deva-asura tension is overt (Vāmana–Bali). (Vishnu Purāṇa; Bhāgavata Purāṇa)
-- **Transition into Dvāpara** — Paraśurāma's immortality and the cliff-hanger of the Sūryavaṃśa carry the narrative forward; see [Dvāpara Yuga](./03-dvapara-yuga.md) (Kṛṣṇa, Mahābhārata).
+- **Transition into Dvāpara** — Paraśurāma's immortality and the cliff-hanger of the Sūryavaṃśa carry the narrative forward; see [Dvāpara Yuga](03-dvapara-yuga.md) (Kṛṣṇa, Mahābhārata).
 
 ---
 
@@ -119,4 +119,4 @@ Orientation note: Treta sees Vishnu incarnate three times within this Mahāyuga 
 - [The 7 Kandas of Valmiki Ramayana — TemplePurohit](https://www.templepurohit.com/7-kandas-ramayana/)
 - [The Hindu Yuga Cycle & Vishnu's Avatars — RapidLeaks](https://rapidleaks.com/india/hindu-yuga-cycle-yugas-time-duration-vishnu-avatars)
 
-*See also:* [Satya Yuga](./01-satya-yuga.md) · [Dvāpara Yuga](./03-dvapara-yuga.md) · [Kali Yuga](./04-kali-yuga/README.md) · [Lineages / Vaṃśa](../../../../03-lineages-vamsha/) · [Literature Corpus](../../../../90-literature-corpus/)
+*See also:* [Satya Yuga](01-satya-yuga.md) · [Dvāpara Yuga](03-dvapara-yuga.md) · [Kali Yuga](04-kali-yuga/README.md) · [Lineages / Vaṃśa](../../../../03-lineages-vamsha/) · [Literature Corpus](../../../../90-literature-corpus/)

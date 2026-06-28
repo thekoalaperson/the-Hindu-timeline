@@ -1,6 +1,6 @@
 # The Manvantara System & the 14 Manus
 
-> Cosmology spine node. A *manvantara* is the second-largest division of a Kalpa (Day of Brahma): 14 of them, each ruled by a Manu, fill one Kalpa. We are in the **7th — Vaivasvata**. See [units-of-time.md](./units-of-time.md) and [kalpa-and-pralaya.md](./kalpa-and-pralaya.md) for the surrounding clock; for our exact position see [../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/).
+> Cosmology spine node. A *manvantara* is the second-largest division of a Kalpa (Day of Brahma): 14 of them, each ruled by a Manu, fill one Kalpa. We are in the **7th — Vaivasvata**. See [units-of-time.md](units-of-time.md) and [kalpa-and-pralaya.md](kalpa-and-pralaya.md) for the surrounding clock; for our exact position see [../01-manvantaras/manvantara-07-vaivasvata/](../01-manvantaras/manvantara-07-vaivasvata/).
 
 ---
 
@@ -129,7 +129,7 @@ The seven sages rotate by manvantara. (Vishnu Purana 3.1-2; Bhagavata Purana 8.1
 
 - **6 manvantaras elapsed** this Kalpa (Svayambhuva → Chakshusha); we are in the **7th, Vaivasvata**.
 - Within it: **27 Mahayugas complete**, and within the **28th** Mahayuga the Satya, Treta, and Dvapara Yugas are done — we are in **Kali Yuga** (begun 3102 BCE; ≈ 5,127-5,128 years elapsed as of 2026 CE). (FRAMEWORK CONSTANTS §4)
-- **8 manvantaras still to come** (Savarni → Indra-savarni), after which this Kalpa ends and Brahma's night (pralaya) falls. See [kalpa-and-pralaya.md](./kalpa-and-pralaya.md).
+- **8 manvantaras still to come** (Savarni → Indra-savarni), after which this Kalpa ends and Brahma's night (pralaya) falls. See [kalpa-and-pralaya.md](kalpa-and-pralaya.md).
 
 ---
 

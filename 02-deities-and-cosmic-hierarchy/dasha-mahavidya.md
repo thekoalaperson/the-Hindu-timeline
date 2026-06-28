@@ -1,6 +1,6 @@
 # The Ten Mahavidyas — Tantric Wisdom-Goddesses
 
-> Where this sits: a deep-dive cycle within **[Deities & Cosmic Hierarchy](./README.md)**, expanding on the Great Goddess of the **[Devi Mahatmya](./devi-mahatmya-and-the-great-goddess.md)** and the **[Trimurti & Tridevi](./trimurti-and-tridevi.md)**. The Mahavidyas are ten Tantric forms of the one Adi Parashakti, born from **[Sati](./sati-daksha-and-parvati.md)** in the Daksha-yajna crisis. They belong to the post-Puranic Shakta-Tantra stratum (roughly 6th c. CE onward, [scholarly]), not to the Vedic or early-Puranic core.
+> Where this sits: a deep-dive cycle within **[Deities & Cosmic Hierarchy](README.md)**, expanding on the Great Goddess of the **[Devi Mahatmya](devi-mahatmya-and-the-great-goddess.md)** and the **[Trimurti & Tridevi](trimurti-and-tridevi.md)**. The Mahavidyas are ten Tantric forms of the one Adi Parashakti, born from **[Sati](sati-daksha-and-parvati.md)** in the Daksha-yajna crisis. They belong to the post-Puranic Shakta-Tantra stratum (roughly 6th c. CE onward, [scholarly]), not to the Vedic or early-Puranic core.
 
 The **Dasha Mahavidya** ("Ten Great Wisdoms / Wisdom-Goddesses") are a fixed Tantric pantheon of ten goddesses understood as graded manifestations of a single supreme Shakti. They range from the gentle and beautiful (Tripurasundari, Bhuvaneshvari, Kamala) to the terrifying and transgressive (Kali, Chinnamasta, Dhumavati) — the entire spectrum of the Absolute presented as feminine. The standard sequence is: **Kali, Tara, Tripurasundari, Bhuvaneshvari, Bhairavi, Chinnamasta, Dhumavati, Bagalamukhi, Matangi, Kamala**.
 
@@ -8,7 +8,7 @@ The **Dasha Mahavidya** ("Ten Great Wisdoms / Wisdom-Goddesses") are a fixed Tan
 
 ## The Origin Myth — Sati surrounds Shiva
 
-The defining etiology is the **Daksha-yajna** episode (see [Sati, Daksha & Parvati](./sati-daksha-and-parvati.md)), but the Mahavidyas are a distinctly Tantric overlay onto it.
+The defining etiology is the **Daksha-yajna** episode (see [Sati, Daksha & Parvati](sati-daksha-and-parvati.md)), but the Mahavidyas are a distinctly Tantric overlay onto it.
 
 - **The ten forms block Shiva** - Sati wishes to attend her father Daksha's sacrifice, to which Shiva has not been invited. Shiva forbids her. Enraged that he denies her her true status as Mother of the Universe, Sati assumes a terrifying form; when Shiva tries to flee, she multiplies herself into ten goddesses who occupy the ten directions (the four cardinals, four intermediates, zenith and nadir). Whichever way Shiva turns, a fierce form of the Goddess blocks his path. Awed, he recognizes her supremacy and consents (**Mahabhagavata Purana**; **Brihaddharma Purana**).
   - *Variant (Mahabhagavata Purana, Shakta Bengali tradition):* the ten are explicitly the **Mahavidyas**, and the episode is the origin of the set; this Upapurana (c. 10th–11th c. CE, Bengal) is the principal scriptural source for the surrounding-Shiva myth ([late text]).
@@ -41,12 +41,12 @@ Each entry: meaning, iconography, Bhairava/consort, function, and avatar-corresp
 - **Function** - supreme deity of the **Srikula** (Shrividya) stream; the most cultivated and theologically elaborated Mahavidya.
   - **Sri Yantra (Sri Chakra)** - her aniconic form: nine interlocking triangles (4 upward = Shiva, 5 downward = Shakti) generating 43 small triangles in concentric enclosures (avaranas) around a central bindu; worshipped outward (srishti) or inward (samhara) (**Saundaryalahari** attributed to Shankara; **Tripura Upanishad**).
   - **Mantras** - the **Panchadashi** (fifteen-syllable) mantra; with an added bija it becomes the **Shodashi** (sixteen-syllable) secret mantra. In Shrividya lineage the three syllable-clusters (kutas) are personified by Kali, Lalita and Durga — linking the three streams.
-  - **Lalita as warrior** - the Lalita-form's slaying of the demon Bhandasura is told in the **Lalitopakhyana** (Brahmanda Purana); see also [Devi Mahatmya](./devi-mahatmya-and-the-great-goddess.md).
+  - **Lalita as warrior** - the Lalita-form's slaying of the demon Bhandasura is told in the **Lalitopakhyana** (Brahmanda Purana); see also [Devi Mahatmya](devi-mahatmya-and-the-great-goddess.md).
 
 ### 4. Bhuvaneshvari — Mistress of the Spheres / World-Mother
 - **Iconography** - rising-sun golden/red complexion, three eyes, smiling; high breasts (cosmic nourishment); four arms with noose, goad, and abhaya + varada mudras (**Bhuvaneshvari Tantra**; **Prapanchasara Tantra**).
 - **Bhairava/consort** - Tryambaka Shiva. **Avatar correspondence** - Vamana (Todala Tantra).
-- **Function** - the Goddess as space and the manifest cosmos; her body is said to comprise the fourteen lokas (see [Devas, Asuras & the Lokas](./devas-asuras-and-the-lokas.md)). Her bija is **Hrim**, the "Maya-bija," the seed of the phenomenal world. Often grouped under **Kalikula**.
+- **Function** - the Goddess as space and the manifest cosmos; her body is said to comprise the fourteen lokas (see [Devas, Asuras & the Lokas](devas-asuras-and-the-lokas.md)). Her bija is **Hrim**, the "Maya-bija," the seed of the phenomenal world. Often grouped under **Kalikula**.
 
 ### 5. Bhairavi — the Fierce One / Goddess of decay and tapas
 - **Iconography** - blazing-red complexion like a thousand suns, three eyes, garland of skulls/severed heads, breasts smeared with blood; holds rosary (akshamala) and book, with abhaya + varada mudras (**Bhairavi Tantra**).
@@ -103,7 +103,7 @@ Shakta Tantra organizes the ten into two "families," each headed by a supreme go
 - *Variant (some lists substitute):* a few sources replace one member with **Durga**, **Annapurna**, or **Bala** (the child-form of Tripurasundari); occasionally **Mahalakshmi** appears in place of/alongside Kamala.
 - *Variant ordering:* some texts open with Tripurasundari (Srikula priority) rather than Kali (Kalikula priority); the order itself encodes the sectarian "supreme" goddess.
 - **The "Maha-Vidya / Vidya / Siddha-Vidya" sub-grading** - some Tantras rank the ten into tiers (e.g., Kali and Tara as *Mahavidyas* proper, Shodashi and Bhuvaneshvari as *Vidyas*, Bagalamukhi etc. as *Siddha-vidyas*), reflecting graded power/accessibility ([scholarly]).
-- **Dashavatara correspondence (Todala Tantra)** — the ten Mahavidyas mapped to Vishnu's ten avatars (see [Dashavatara](./dashavatara.md)):
+- **Dashavatara correspondence (Todala Tantra)** — the ten Mahavidyas mapped to Vishnu's ten avatars (see [Dashavatara](dashavatara.md)):
   - Kali → **Krishna** · Tara → **Matsya** · Bagalamukhi → **Kurma** · Dhumavati → **Varaha** · Chinnamasta → **Narasimha** · Bhuvaneshvari → **Vamana** · Matangi → **Rama** · Tripurasundari → **Parashurama (Jamadagni)** · Bhairavi → **Balabhadra/Balarama** · Kamala/Mahalakshmi → **Buddha** · (and Durga → **Kalki**).
   - *Variant (Guhyatiguhya Tantra):* gives a different avatar-pairing and inverts the dependency — the Mahavidyas are the **source** from which Vishnu's avatars arise, not their counterparts.
 - **Shared abode** - all ten are said to reside in **Manidvipa**, the Goddess's supreme island-jewel realm (Devi-Bhagavata Purana).
@@ -112,7 +112,7 @@ Shakta Tantra organizes the ten into two "families," each headed by a supreme go
 
 ## Why this matters in the timeline
 
-The Mahavidyas mark a major turning point in **[Shaktism](./devi-mahatmya-and-the-great-goddess.md)**: a post-Puranic (c. 6th–17th c. CE, peaking ~1700, [scholarly]) movement re-imagining the Absolute as a graded feminine pantheon, integrating the older Daksha-yajna / [Sati](./sati-daksha-and-parvati.md) and [Shiva](./shiva-myth-cycle.md) myths with Tantric ritual, mantra-shastra and yantra worship. They thus sit at the meeting point of scripture (Upapuranas), Tantra, and living regional practice (Kamakhya in Assam, Tarapith in Bengal, the Shrividya South Indian lineages).
+The Mahavidyas mark a major turning point in **[Shaktism](devi-mahatmya-and-the-great-goddess.md)**: a post-Puranic (c. 6th–17th c. CE, peaking ~1700, [scholarly]) movement re-imagining the Absolute as a graded feminine pantheon, integrating the older Daksha-yajna / [Sati](sati-daksha-and-parvati.md) and [Shiva](shiva-myth-cycle.md) myths with Tantric ritual, mantra-shastra and yantra worship. They thus sit at the meeting point of scripture (Upapuranas), Tantra, and living regional practice (Kamakhya in Assam, Tarapith in Bengal, the Shrividya South Indian lineages).
 
 ---
 

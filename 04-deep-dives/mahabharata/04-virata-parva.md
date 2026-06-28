@@ -1,6 +1,6 @@
 # Virāṭa Parva — The Book of Virata
 
-> Cosmic address: [Brahma's current life](../../README.md) › [Vaivasvata Manvantara](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) › [28th Mahāyuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) › **[Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)** — the 13th year of the Pāṇḍavas' exile, lived incognito (*ajñāta-vāsa*) at the Matsya court.
+> Cosmic address: [Brahma's current life](../../README.md) › [Vaivasvata Manvantara](../../01-manvantaras/manvantara-07-vaivasvata/README.md) › [28th Mahāyuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) › **[Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)** — the 13th year of the Pāṇḍavas' exile, lived incognito (*ajñāta-vāsa*) at the Matsya court.
 >
 > Up: [Mahābhārata overview](README.md) · Previous: [03 — Vana Parva](03-vana-parva.md) · Next: [05 — Udyoga Parva](05-udyoga-parva.md). Parent corpus: [Smṛti — Itihāsa & Epics](../../90-literature-corpus/smriti-itihasa-epics.md).
 
@@ -106,7 +106,7 @@ The **Virāṭa Parva** ("Book of Virāṭa") is the **fourth of the 18 parvas**
 - Kṛṣṇa, Balarāma and the Yādavas at the Upaplavya wedding — see the [Kṛṣṇa-līlā deep-dive](../krishna-lila.md) and [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md).
 - Draupadī's recurring public humiliation and her dharma — see [Puruṣārthas & Dharma](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
 - Lineage of Abhimanyu → Parīkṣit (the Kuru/Candra-vaṃśa line) — see [Sūrya-vaṃśa & Candra-vaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
-- Dvāpara-Yuga placement of these events — see [03 — Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
+- Dvāpara-Yuga placement of these events — see [03 — Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
 
 ## Sources
 

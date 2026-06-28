@@ -1,9 +1,9 @@
 # Mahāprasthānika Parva — The Book of the Great Journey
 
-> **Where this sits:** Cosmic address → Shveta-Varaha Kalpa › 7th (Vaivasvata) [Manvantara](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) › 28th Mahāyuga › end of [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) sliding into [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
-> Book 17 of 18 in the [Mahābhārata](./README.md). The penultimate parva: the Pāṇḍavas renounce the throne and walk north to die one by one. Follows the Mausala Parva (the destruction of the Yādavas); leads into the final [Svargārohaṇa Parva](18-svargarohana-parva.md) (Yudhiṣṭhira in heaven).
+> **Where this sits:** Cosmic address → Shveta-Varaha Kalpa › 7th (Vaivasvata) [Manvantara](../../01-manvantaras/manvantara-07-vaivasvata/README.md) › 28th Mahāyuga › end of [Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) sliding into [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
+> Book 17 of 18 in the [Mahābhārata](README.md). The penultimate parva: the Pāṇḍavas renounce the throne and walk north to die one by one. Follows the Mausala Parva (the destruction of the Yādavas); leads into the final [Svargārohaṇa Parva](18-svargarohana-parva.md) (Yudhiṣṭhira in heaven).
 
-The shortest book of the epic — **3 adhyāyas (chapters), no upa-parvas, ~106 ślokas (Critical Edition)** — yet doctrinally one of the densest. It dramatizes *prāyopaveśa / mahāprasthāna* (the sanctioned "great departure," walking unto death as a final renunciation) and stages the epic's last and starkest test of dharma: Yudhiṣṭhira and a dog. It is set precisely on the hinge between the ages — 36 years after Kurukṣetra, after Kṛṣṇa's departure has already triggered the onset of [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) (3102 BCE by tradition).
+The shortest book of the epic — **3 adhyāyas (chapters), no upa-parvas, ~106 ślokas (Critical Edition)** — yet doctrinally one of the densest. It dramatizes *prāyopaveśa / mahāprasthāna* (the sanctioned "great departure," walking unto death as a final renunciation) and stages the epic's last and starkest test of dharma: Yudhiṣṭhira and a dog. It is set precisely on the hinge between the ages — 36 years after Kurukṣetra, after Kṛṣṇa's departure has already triggered the onset of [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) (3102 BCE by tradition).
 
 ---
 
@@ -67,13 +67,13 @@ As they cross the high snow and the slopes of Meru, the travelers fall one by on
 - **Mahāprasthāna / prāyopaveśa** - The sanctioned renunciant's death-walk: dharmaśāstra recognizes the "great departure" (and fasting/walking unto death) as a legitimate end for one whose worldly duties are complete. See [karma, saṃsāra & mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) and [āśrama / varṇa](../../05-concepts-and-dharma/varna-ashrama-and-samskaras.md) for the renunciation framework.
 - **Karma made visible** - Each fall externalizes an inner fault; the parva is a compact catechism on how subtle vices (partiality, pride, vanity, boastfulness, gluttony) bind even the near-perfect. Cf. [purushārthas](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
 - **Compassion over reward** - Yudhiṣṭhira chooses fidelity to a "low" creature over heaven itself — dharma above svarga-phala (the fruit of heaven).
-- **Age-hinge** - The book is staged at the very turn into [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md); the [dharma-bull](../../00-time-and-cosmology/yugas-and-mahayuga.md) now stands on one leg, and the last great upholders of dharma exit the world.
+- **Age-hinge** - The book is staged at the very turn into [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md); the [dharma-bull](../../00-time-and-cosmology/yugas-and-mahayuga.md) now stands on one leg, and the last great upholders of dharma exit the world.
 
 ## Related nodes
 
-- Up: [Mahābhārata deep-dive index](./README.md)
+- Up: [Mahābhārata deep-dive index](README.md)
 - Sequel: [Svargārohaṇa Parva (Book 18)](18-svargarohana-parva.md)
-- [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) · [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)
+- [Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) · [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)
 - [Sūryavaṃśa & Chandravaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) (the Kuru/Lunar line continues through Parīkṣit)
 - [Smṛti — Itihāsa epics](../../90-literature-corpus/smriti-itihasa-epics.md)
 

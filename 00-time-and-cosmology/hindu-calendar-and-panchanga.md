@@ -1,6 +1,6 @@
 # The Hindu Calendar & the Pañcāṅga
 
-> Hierarchy location: `00-time-and-cosmology/` — the "civil clock" companion to [`units-of-time.md`](./units-of-time.md). Where Units-of-Time builds the cosmic ladder (truti → kalpa), this file builds the **human-scale, observational calendar**: how a day, a month, a year and an era are actually reckoned, named and used to fix ritual dates. Up-link: [section README](./README.md). The luni-solar machinery here is what every festival, vrata, śrāddha and muhūrta in the later sections silently depends on.
+> Hierarchy location: `00-time-and-cosmology/` — the "civil clock" companion to [`units-of-time.md`](units-of-time.md). Where Units-of-Time builds the cosmic ladder (truti → kalpa), this file builds the **human-scale, observational calendar**: how a day, a month, a year and an era are actually reckoned, named and used to fix ritual dates. Up-link: [section README](README.md). The luni-solar machinery here is what every festival, vrata, śrāddha and muhūrta in the later sections silently depends on.
 
 The Hindu calendar is **luni-solar**: months are tied to the Moon's phases, the year is anchored to the Sun's path, and the two are forcibly reconciled by **intercalation** (adhika-māsa). Its daily expression is the **pañcāṅga** ("five limbs") — a five-fold almanac read each morning to know the lunar day, the weekday, the Moon's star, and two derived luni-solar angles. The system is **regionally plural**: the same date can carry different month-names, era-numbers and month-boundaries (amānta vs pūrṇimānta) across India. This file catalogs the limbs, the months, the seasons, the ayanas, the eras, the 60-year cycle, and the recipe by which festival dates fall out.
 
@@ -86,7 +86,7 @@ A Hindu year carries an **era number (saṃvat)** counting from an epoch. Multip
 
 - **Vikrama Saṃvat (Vikrami era)** — epoch **57/58 BCE**, attributed to the legendary **Vikramāditya of Ujjain** (after victory over the Śakas). Dominant in **North & West India, Nepal** (Nepal's official era). Conversion: **CE + 57 ≈ Vikrama** (in the early-year months). Begins (in most northern usage) on **Caitra Śukla Pratipadā**; the Gujarati Vikrama year begins on **Kārttika Śukla** (Diwali). (Source: [Samvatsara — Wikipedia](https://en.wikipedia.org/wiki/Samvatsara); [GeoTimeDate](https://geotimedate.org/articles/panchang/hindu-year-or-samvatsara).)
 - **Śaka Saṃvat (Śālivāhana Śaka era)** — epoch **78 CE**, traditionally tied to **Gautamīputra Sātakarṇi / Śālivāhana**. Conversion: **CE − 78 ≈ Śaka**. Dominant in the **Deccan & South**; adopted as the **Indian National Calendar (1957)**, whose civil year begins at **Caitra 1 ≈ 22 March** (21 Mar in leap years). (Source: [Samvatsara — Wikipedia](https://en.wikipedia.org/wiki/Samvatsara); [Hindu calendar — Wikipedia](https://en.wikipedia.org/wiki/Hindu_calendar).)
-- **Kali Yuga era (Kali-saṃvat / Kaliyugābda)** — epoch **3102 BCE** (traditionally **17/18 February 3102 BCE**, the death of Kṛṣṇa / onset of Kali Yuga; see [`yugas-and-mahayuga.md`](./yugas-and-mahayuga.md)). Conversion: **CE + 3101 ≈ Kali year**. Used in **pañcāṅgas, horoscopes and astronomical (siddhānta) reckoning** rather than civic life. This is the era that links the everyday calendar back to the cosmic yuga-clock. (Source: [Samvatsara — Wikipedia](https://en.wikipedia.org/wiki/Samvatsara).)
+- **Kali Yuga era (Kali-saṃvat / Kaliyugābda)** — epoch **3102 BCE** (traditionally **17/18 February 3102 BCE**, the death of Kṛṣṇa / onset of Kali Yuga; see [`yugas-and-mahayuga.md`](yugas-and-mahayuga.md)). Conversion: **CE + 3101 ≈ Kali year**. Used in **pañcāṅgas, horoscopes and astronomical (siddhānta) reckoning** rather than civic life. This is the era that links the everyday calendar back to the cosmic yuga-clock. (Source: [Samvatsara — Wikipedia](https://en.wikipedia.org/wiki/Samvatsara).)
 - *Other regional eras [for completeness]:* **Kollam (Malayalam) era** (epoch 825 CE, Kerala); **Bengali San** (epoch 593 CE); **Saptarṣi/Laukika era** (Kashmir); **Gupta era** (319 CE); **Harṣa era** (606 CE) [scholarly]. Roster is **open-ended** — dozens of dynastic/regional eras existed. (Source: [Hindu calendar — Wikipedia](https://en.wikipedia.org/wiki/Hindu_calendar).)
 
 ---
@@ -121,8 +121,8 @@ A festival is fixed not to a Gregorian date but to a **calendrical coordinate** 
 ---
 
 ## See also
-- [`units-of-time.md`](./units-of-time.md) — the cosmic time ladder (truti → kalpa); muhūrta and ahorātra are shared with this file.
-- [`yugas-and-mahayuga.md`](./yugas-and-mahayuga.md) — the Kali Yuga epoch (3102 BCE) that anchors the Kali-saṃvat era used in §5.
+- [`units-of-time.md`](units-of-time.md) — the cosmic time ladder (truti → kalpa); muhūrta and ahorātra are shared with this file.
+- [`yugas-and-mahayuga.md`](yugas-and-mahayuga.md) — the Kali Yuga epoch (3102 BCE) that anchors the Kali-saṃvat era used in §5.
 - [`../02-deities-and-cosmic-hierarchy/`](../02-deities-and-cosmic-hierarchy/) — the Navagraha that rule the seven vāras (§1) and the Jupiter/Saturn cycle behind the 60 saṃvatsaras (§6).
 
 ---

@@ -1,19 +1,19 @@
 # Manvantara 4 — Tāmasa (Past)
 
-> Hierarchy: Brahma's current life → Shveta-Varaha Kalpa → the [14 Manvantaras](./README.md) → **4th Manvantara (Tāmasa, past)**. The 4th of 14 Manu-cycles in this Day of Brahma; long elapsed. Preceded by the [3rd (Uttama)](./manvantara-03-uttama.md), followed by the [5th (Raivata)](./manvantara-05-raivata.md). We are now in the [7th (Vaivasvata)](./manvantara-07-vaivasvata/). Duration ≈ 306,720,000 human years (71 Mahayugas + 1 sandhya).
+> Hierarchy: Brahma's current life → Shveta-Varaha Kalpa → the [14 Manvantaras](README.md) → **4th Manvantara (Tāmasa, past)**. The 4th of 14 Manu-cycles in this Day of Brahma; long elapsed. Preceded by the [3rd (Uttama)](manvantara-03-uttama.md), followed by the [5th (Raivata)](manvantara-05-raivata.md). We are now in the [7th (Vaivasvata)](./manvantara-07-vaivasvata/). Duration ≈ 306,720,000 human years (71 Mahayugas + 1 sandhya).
 
 Each Manvantara is governed by its own Manu, an Indra, a roster of deva-classes (ganas), seven Saptarishis, and a Vishnu manifestation who upholds dharma for the cycle. The Tāmasa cycle is best known as the home of the **Gajendra-mokṣa** episode in most reckonings. As with all the early Manvantaras, the Puranas disagree on the proper names; all notable variants are cataloged below. Honest caveat: the surviving record for Tāmasa is little more than a name-list plus the Gajendra episode — there is no extended narrative cycle attached to this Manu the way Vaivasvata carries the epics.
 
 ## The Presiding Figures
 
-- **Tāmasa Manu** — the 4th Manu, **brother of the 3rd Manu [Uttama](./manvantara-03-uttama.md)** (and so a son of the 2nd Manu [Svārociṣa](./manvantara-02-svarochisha.md) in the Vishnu Purana lineage). Often glossed as "born of/emerged from darkness (*tamas*)" — the Vedic People recension explains the name from a birth during a period of cosmic *andhakāra* (darkness) (Vishnu Purana III.1; Vedic People).
+- **Tāmasa Manu** — the 4th Manu, **brother of the 3rd Manu [Uttama](manvantara-03-uttama.md)** (and so a son of the 2nd Manu [Svārociṣa](manvantara-02-svarochisha.md) in the Vishnu Purana lineage). Often glossed as "born of/emerged from darkness (*tamas*)" — the Vedic People recension explains the name from a birth during a period of cosmic *andhakāra* (darkness) (Vishnu Purana III.1; Vedic People).
   - *Variant (general):* also called **Tāpasa** ("the ascetic"), the two forms used interchangeably across recensions.
   - *Variant (Bhagavata Purana):* by some readings Hari/Vishnu's manifestation of this age is closely bound to the Manu's line, with the avatar **Hari** appearing within the Tāmasa cycle (see Gajendra-mokṣa, below).
 - **Sons of Tāmasa** — ten sons, mighty kings who ruled the earth.
   - *Variant (Vishnu Purana III.1):* heads named **Pṛthu, Khyāti, Nara, Ketu**; also listed as **Nara, Khyāti, Śāntahaya, Jānujaṅgha** "and others."
   - *Variant (Bhagavata Purana 8.1):* **Pṛthu, Khyāti, Nara, Ketu** and others.
   - *Variant (Vedic People recension):* **Nara, Kānta, Śānta, Dānta, Janā, Jaṅgha** "and others."
-  - *(The recurring head-names are Pṛthu, Khyāti, Nara, Ketu; this Pṛthu is a son of the Manu and is not the same figure as the great king [Pṛthu / Pṛthvī](../../04-deep-dives/prithu-prithvi.md) of the Svāyambhuva line.)* [disputed]
+  - *(The recurring head-names are Pṛthu, Khyāti, Nara, Ketu; this Pṛthu is a son of the Manu and is not the same figure as the great king [Pṛthu / Pṛthvī](../04-deep-dives/prithu-prithvi.md) of the Svāyambhuva line.)* [disputed]
 - **Indra of this Manvantara** — the king of the gods for the Tāmasa cycle, who won the post by performing a hundred *yajñas* (the standard "śatakratu" qualification for Indra-hood).
   - *Variant (Vishnu Purana III.1):* **Triśikha** ("three-crested").
   - *Variant (Bhagavata Purana 8.1):* **Śikhi** ("the crested one"), a being of great strength and valor — almost certainly the same name (Triśikha / Śikhi).
@@ -35,7 +35,7 @@ The seven sages of the Tāmasa cycle, led by **Jyotirdhāma**. The rosters diffe
 
 ## Key Episode — Gajendra-mokṣa
 
-- **Gajendra-mokṣa (the liberation of Gajendra)** — the elephant-king Gajendra, seized by the leg by a crocodile (*grāha*) in a forest lake and pulled toward death over a thousand celestial years, finally surrenders all self-effort and calls out to the Supreme; Vishnu mounts Garuda, arrives, severs the crocodile with his Sudarśana cakra, and lifts the elephant from the water — the paradigm story of *prapatti* (total surrender) and unmerited divine grace. (Placed in the Tāmasa Manvantara by the Bhagavata tradition.) (Bhagavata Purana 8.2–8.4.) Full narration: [→ Gajendra-mokṣa deep-dive](../../04-deep-dives/gajendra-moksha.md).
+- **Gajendra-mokṣa (the liberation of Gajendra)** — the elephant-king Gajendra, seized by the leg by a crocodile (*grāha*) in a forest lake and pulled toward death over a thousand celestial years, finally surrenders all self-effort and calls out to the Supreme; Vishnu mounts Garuda, arrives, severs the crocodile with his Sudarśana cakra, and lifts the elephant from the water — the paradigm story of *prapatti* (total surrender) and unmerited divine grace. (Placed in the Tāmasa Manvantara by the Bhagavata tradition.) (Bhagavata Purana 8.2–8.4.) Full narration: [→ Gajendra-mokṣa deep-dive](../04-deep-dives/gajendra-moksha.md).
   - **Manvantara placement variant** — *where* in cosmic time this happens is itself a tradition-bound choice:
     - *Variant (Bhagavata Purana 8, dominant):* set **in the Tāmasa Manvantara**, where Vishnu manifests as the avatar **Hari** — son of the sage **Harimedha** by his wife **Hariṇī** — born expressly to liberate the devotee Gajendra. This is why most timelines, including this one, anchor Gajendra-mokṣa to Tāmasa.
     - *Variant (devotional retellings):* the episode is narrated as a "timeless" parable with no firm Manvantara, the cosmic placement dropped entirely. [folk]
@@ -45,11 +45,11 @@ The seven sages of the Tāmasa cycle, led by **Jyotirdhāma**. The rosters diffe
 
 ## Cross-links
 
-- Parent index: [the 14 Manvantaras](./README.md)
-- Neighbors: [3rd — Uttama](./manvantara-03-uttama.md) · [5th — Raivata](./manvantara-05-raivata.md)
+- Parent index: [the 14 Manvantaras](README.md)
+- Neighbors: [3rd — Uttama](manvantara-03-uttama.md) · [5th — Raivata](manvantara-05-raivata.md)
 - Our present age: [7th — Vaivasvata](./manvantara-07-vaivasvata/)
-- Signature episode: [Gajendra-mokṣa](../../04-deep-dives/gajendra-moksha.md)
-- Name-clash note: King [Pṛthu / Pṛthvī](../../04-deep-dives/prithu-prithvi.md) (a different Pṛthu)
+- Signature episode: [Gajendra-mokṣa](../04-deep-dives/gajendra-moksha.md)
+- Name-clash note: King [Pṛthu / Pṛthvī](../04-deep-dives/prithu-prithvi.md) (a different Pṛthu)
 - Full narrations: [literature corpus](../../90-literature-corpus/)
 
 ## Sources

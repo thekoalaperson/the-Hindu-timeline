@@ -1,7 +1,7 @@
 # Svargārohaṇa Parva — The Book of the Ascent to Heaven
 
-> **Where this sits:** Cosmic address → Shveta-Varaha Kalpa › 7th (Vaivasvata) [Manvantara](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) › 28th Mahāyuga › the very turn from [Dvāpara](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) into [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) (3102 BCE, by tradition).
-> Book 18 of 18 — the **final** parva of the [Mahābhārata](./README.md). Follows the [Mahāprasthānika Parva](./17-mahaprasthanika-parva.md) (the death-walk to Meru). This book closes the epic: Yudhiṣṭhira's last test in heaven and hell, the great reunion, the dissolution of every character back into the deity that begot them, and the epic's own *phala-śruti* (statement of its fruits).
+> **Where this sits:** Cosmic address → Shveta-Varaha Kalpa › 7th (Vaivasvata) [Manvantara](../../01-manvantaras/manvantara-07-vaivasvata/README.md) › 28th Mahāyuga › the very turn from [Dvāpara](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) into [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) (3102 BCE, by tradition).
+> Book 18 of 18 — the **final** parva of the [Mahābhārata](README.md). Follows the [Mahāprasthānika Parva](17-mahaprasthanika-parva.md) (the death-walk to Meru). This book closes the epic: Yudhiṣṭhira's last test in heaven and hell, the great reunion, the dissolution of every character back into the deity that begot them, and the epic's own *phala-śruti* (statement of its fruits).
 
 The **shortest book of the epic** — **5 adhyāyas (chapters), no upa-parvas, ~200 ślokas (Critical Edition; the Vulgate counts 6 chapters)**. Doctrinally it is the keystone of the whole work: it stages dharma's final paradox (the wicked apparently rewarded, the good apparently damned) only to dissolve it as *māyā* (illusion), then unwinds the entire dramatis personae — revealing that the war was a descent (avatāra) of gods, daityas, and gandharvas, and returning each to their celestial source. It ends with the epic praising itself and naming the merit of its own recitation.
 
@@ -42,7 +42,7 @@ The **shortest book of the epic** — **5 adhyāyas (chapters), no upa-parvas, ~
 
 ## IV. The Great Reunion and Dissolution of the Characters (Adhyāyas 4–5)
 
-In his new divine body Yudhiṣṭhira is brought to the true Svarga, where he beholds the heroes restored — and the epic reveals that each was, all along, a portion (aṃśa) of a deity, daitya, or celestial, now returned to source. (This recapitulates the "Aṃśāvataraṇa" — the descent-of-portions catalogue given back in the [Ādi Parva](./01-adi-parva.md).)
+In his new divine body Yudhiṣṭhira is brought to the true Svarga, where he beholds the heroes restored — and the epic reveals that each was, all along, a portion (aṃśa) of a deity, daitya, or celestial, now returned to source. (This recapitulates the "Aṃśāvataraṇa" — the descent-of-portions catalogue given back in the [Ādi Parva](01-adi-parva.md).)
 
 - **Yudhiṣṭhira → Dharma** - The eldest, son of Dharma, takes his seat in the company of the gods; he is the embodiment of Dharma himself (Mbh 18.4–5).
 - **Bhīma → the Maruts / among Vāyu** - The mighty Bhīma, son of Vāyu, is seen in the radiance of the **Maruts (wind-gods)**, beside his father Vāyu (Mbh 18.4).
@@ -82,13 +82,13 @@ In his new divine body Yudhiṣṭhira is brought to the true Svarga, where he b
 - **Māyā and the final test** - The whole apparatus of heaven-and-hell is staged illusion to test Yudhiṣṭhira's loyalty one last time; the deepest dharma is fidelity and compassion under apparent cosmic injustice.
 - **Aṃśāvataraṇa fulfilled** - The reunion is the structural payoff of the Ādi Parva's "descent of portions": the war was the gods' relief of an earth burdened by adharma, and the close returns each portion to source. Cf. [devas, asuras & the lokas](../../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) and the [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md) (Kṛṣṇa as Viṣṇu's avatāra).
 - **The epic as scripture about itself** - The phala-śruti makes recitation itself a meritorious act, framing the Mahābhārata as a "fifth Veda." Cf. [Smṛti — Itihāsa epics](../../90-literature-corpus/smriti-itihasa-epics.md).
-- **Age-hinge** - The book completes the passage into [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md); with the heroes withdrawn to heaven, the [dharma-bull](../../00-time-and-cosmology/yugas-and-mahayuga.md) stands on its single Kali leg.
+- **Age-hinge** - The book completes the passage into [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md); with the heroes withdrawn to heaven, the [dharma-bull](../../00-time-and-cosmology/yugas-and-mahayuga.md) stands on its single Kali leg.
 
 ## Related nodes
 
-- Up: [Mahābhārata deep-dive index](./README.md)
-- Prequel: [Mahāprasthānika Parva (Book 17)](./17-mahaprasthanika-parva.md) · Origin catalogue: [Ādi Parva (Book 1)](./01-adi-parva.md) (the descent-of-portions)
-- [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) · [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)
+- Up: [Mahābhārata deep-dive index](README.md)
+- Prequel: [Mahāprasthānika Parva (Book 17)](17-mahaprasthanika-parva.md) · Origin catalogue: [Ādi Parva (Book 1)](01-adi-parva.md) (the descent-of-portions)
+- [Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) · [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)
 - [Sūryavaṃśa & Chandravaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) (the Lunar Kuru line continues through Parīkṣit)
 - [Devas, asuras & the lokas](../../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) · [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md)
 

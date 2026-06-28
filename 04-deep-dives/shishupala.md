@@ -1,8 +1,8 @@
 # Śiśupāla — the Hundred Offenses
 
 > A standalone deep-dive on the Cedi king slain at Yudhiṣṭhira's Rājasūya — the climax of the *agra-pūjā* dispute and the third-and-final birth of Viṣṇu's cursed gatekeeper.
-> Sits inside the [Mahābhārata Sabhā-parva](mahabharata/02-sabha-parva.md) episode; placed in the **Dvāpara-yuga** (current [Mahāyuga 28](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md)).
-> Up one level: [Deep Dives README](../04-deep-dives/README.md).
+> Sits inside the [Mahābhārata Sabhā-parva](mahabharata/02-sabha-parva.md) episode; placed in the **Dvāpara-yuga** (current [Mahāyuga 28](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md)).
+> Up one level: [Deep Dives README](README.md).
 
 Śiśupāla (Śiśu-pāla, "child-protected") is king of **Cedi**, son of **Damaghoṣa** and **Śrutaśravā** — the latter a sister of **Vasudeva**, making Śiśupāla **Kṛṣṇa's first cousin** (Mahābhārata Sabhā-parva 40). His life is a single arc bent toward one death: he is born monstrous and prophesied to die by his cousin's hand, accumulates a tally of insults that Kṛṣṇa has vowed to suffer, and is beheaded by the Sudarśana the instant the tally overflows. Theologically the whole arc is the payoff of the **Jaya–Vijaya** gatekeeper-curse — Śiśupāla's enmity is itself a perverse path to liberation.
 
@@ -17,7 +17,7 @@
 ## The Jaya–Vijaya curse — Śiśupāla's prior births
 
 - **Third of three demonic births** - Śiśupāla is the **third and final incarnation of Jaya** (one of Viṣṇu's two Vaikuṇṭha gatekeepers, **Jaya and Vijaya**), cursed by the **Sanaka-kumāras** (Brahmā's four child-sages) to three demonic lives ending in death at the Lord's own hand — the curse's mercy being that dying by Viṣṇu shortens the exile (told fullest in *Bhāgavata Purāṇa* 7.1, 10.74). See the [Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md) and the gatekeeper-curse note in [Devas, Asuras & the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md).
-  - Life #1 (Satya-yuga): **Hiraṇyakaśipu / Hiraṇyākṣa** — slain by Narasiṃha & Varāha. See [Satya-yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md).
+  - Life #1 (Satya-yuga): **Hiraṇyakaśipu / Hiraṇyākṣa** — slain by Narasiṃha & Varāha. See [Satya-yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md).
   - Life #2 (Tretā-yuga): **Rāvaṇa / Kumbhakarṇa** — slain by Rāma. See [Rāmāyaṇa](ramayana/README.md).
   - Life #3 (Dvāpara-yuga): **Śiśupāla / Dantavakra** — slain by Kṛṣṇa (Śiśupāla at the Rājasūya; his ally/cousin **Dantavakra**, king of Karūṣa, killed by Kṛṣṇa shortly after).
 - **Dveṣa-bhakti — liberation through hatred** - The Bhāgavata's theological gloss: constant, all-consuming **enmity** toward the Lord fixes the mind on him as surely as love does, so Śiśupāla's lifelong hatred ironically secures his **mokṣa** (merger into Kṛṣṇa) (*Bhāgavata Purāṇa* 7.1, 10.74). [scholarly: this is the locus classicus of the *dveṣa-bhakti* / "antagonistic devotion" doctrine.]
@@ -53,5 +53,5 @@
 - **Mahābhārata, Sabhā-parva** (Book 2), *Arghyāharaṇa* & *Śiśupāla-vadha* sub-parvas, chs. 33–44 (esp. 35–42) — the canonical narrative; via [Sabhā-parva deep-dive](mahabharata/02-sabha-parva.md). Ganguli tr. / BORI Critical Edition.
 - **Bhāgavata Purāṇa** 7.1 (Jaya–Vijaya curse, three-births frame, *dveṣa-bhakti*), 10.52–54 (Rukmiṇī's abduction), 10.74 (death & merger at the Rājasūya), 10.78 (Dantavakra). Cross-ref [Bhāgavata skandha-map](../90-literature-corpus/bhagavata-purana-skandha-map.md).
 - **Māgha, *Śiśupāla-vadha*** (~7th c. CE) — court-epic retelling of the slaying. [late text]
-- Cross-links within this corpus: [Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md), [Devas, Asuras & the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) (Jaya–Vijaya), [Satya-yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md) (birth #1), [Kṛṣṇa-līlā](krishna-lila.md).
+- Cross-links within this corpus: [Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md), [Devas, Asuras & the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) (Jaya–Vijaya), [Satya-yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md) (birth #1), [Kṛṣṇa-līlā](krishna-lila.md).
 - *Reference orientation:* Wikipedia, "Shishupala" (en.wikipedia.org/wiki/Shishupala) — used for cross-checking names (Damaghoṣa, Śrutaśravā, Dhṛṣṭaketu); not a primary source.

@@ -1,7 +1,7 @@
 # Dhruva — the Steadfast Pole Star
 
-> Cosmic address: Shveta-Varaha Kalpa → 1st (Svāyambhuva) Manvantara → the dawn of human dynastic prehistory, in the Uttānapāda line of Svāyambhuva Manu. Set at the "first morning" of Brahmā's current day. Cross-link: [Manvantara 1 — Svāyambhuva](../01-brahma-current-life/the-14-manvantaras/manvantara-01-svayambhuva.md).
-> Parent: [04-deep-dives](./README.md) · Up to [01-brahma-current-life](../README.md)
+> Cosmic address: Shveta-Varaha Kalpa → 1st (Svāyambhuva) Manvantara → the dawn of human dynastic prehistory, in the Uttānapāda line of Svāyambhuva Manu. Set at the "first morning" of Brahmā's current day. Cross-link: [Manvantara 1 — Svāyambhuva](../01-manvantaras/manvantara-01-svayambhuva.md).
+> Parent: [04-deep-dives](README.md) · Up to [01-manvantaras](../README.md)
 
 **Dhruva** ("the fixed, immovable, eternal one") is the boy-prince whose extreme tapas wins him a personal vision of Viṣṇu and the **immutable polar seat — Dhruva-loka / Dhruva-pada**, the still point of the turning sky around which all stars, planets and the seven sages (saptarṣi) wheel for an entire Kalpa, untouched even by the dissolution (pralaya). He is the archetypal child-devotee (bāla-bhakta), the model of resolve born of a wound — slighted by a proud stepmother, he turns humiliation into the single most famous penance of a small boy in the Purāṇic corpus. His core story is told in the **Viṣṇu Purāṇa (1.11–12)** and, in its most elaborate form, in the **Bhāgavata Purāṇa (Canto 4, ch. 8–12)**.
 
@@ -9,7 +9,7 @@
 
 ## The household: Uttānapāda's two queens
 
-- **The line** - Brahmā → Svāyambhuva Manu → **Uttānapāda** (the younger seed-king son of Manu) → Dhruva. Uttānapāda has two queens (Bhāgavata 4.8; Viṣṇu P. 1.11). See [Manvantara 1 — Svāyambhuva](../01-brahma-current-life/the-14-manvantaras/manvantara-01-svayambhuva.md).
+- **The line** - Brahmā → Svāyambhuva Manu → **Uttānapāda** (the younger seed-king son of Manu) → Dhruva. Uttānapāda has two queens (Bhāgavata 4.8; Viṣṇu P. 1.11). See [Manvantara 1 — Svāyambhuva](../01-manvantaras/manvantara-01-svayambhuva.md).
 - **Sunīti, the neglected elder queen** - Dhruva's mother **Sunīti** ("good conduct"), virtuous but out of favour, sidelined by the king (Bhāgavata 4.8).
 - **Suruci, the favoured queen** - The proud, beloved **Suruci** ("good taste/pleasure"), mother of **Uttama**, Dhruva's half-brother and the king's favourite (Bhāgavata 4.8; Viṣṇu P. 1.11).
 - **Dhruva's age** - A small child, traditionally **five years old** at the time of the slight (Viṣṇu P. 1.11; widely repeated in retellings). *(Opens at the dawn of human dynastic time, very early in the Svāyambhuva Manvantara.)*
@@ -64,7 +64,7 @@ The graduated, ever-intensifying austerity is the heart of the legend — a chil
 
 - **Dhruva's sons** - By his queen(s) Dhruva fathers the kings through whom the dynasty continues. Names vary: **Utkala** and **Vatsara** (Bhāgavata), or **Kalpa/Vatsara** by Bhrāmī and **Utkala** by Ilā (per some lists) (Bhāgavata 4.10; Viṣṇu P. 1.13).
   - *Variant:* **Utkala** is said to renounce kingship for asceticism, the throne passing instead to **Vatsara**, continuing the genealogy.
-- **Down to Vena and Pṛthu** - Several generations on, the line reaches **Aṅga** (who weds **Sunīthā**, daughter of Death), the tyrant **Vena**, and the first king **Pṛthu** — see [Pṛthu & the Milking of the Earth](./prithu-prithvi.md) (Viṣṇu P. 1.13; Bhāgavata 4.13).
+- **Down to Vena and Pṛthu** - Several generations on, the line reaches **Aṅga** (who weds **Sunīthā**, daughter of Death), the tyrant **Vena**, and the first king **Pṛthu** — see [Pṛthu & the Milking of the Earth](prithu-prithvi.md) (Viṣṇu P. 1.13; Bhāgavata 4.13).
 
 ## Significance, astronomy & cross-links
 

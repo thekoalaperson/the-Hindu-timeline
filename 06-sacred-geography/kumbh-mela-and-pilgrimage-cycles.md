@@ -82,7 +82,7 @@ The festival's social spine is the **akharas** — militant-ascetic monastic reg
 
 The tradition holds the Kumbh to be **beginningless** (since the Manthana itself). Academic history, by contrast, finds the **river-bathing fairs ancient** but the **"Kumbh" branding, the 12-year cycle, and the four-site amrita myth to be largely 19th-century**. Both layers should be reported.
 
-- **Traditional view** - The Kumbh dates to the cosmic past — the Samudra Manthana of an earlier age (or the present [Vaivasvata Manvantara](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md)) — observed "since time immemorial." (kumbh.gov.in; Puranic-mahatmya tradition) [traditional]
+- **Traditional view** - The Kumbh dates to the cosmic past — the Samudra Manthana of an earlier age (or the present [Vaivasvata Manvantara](../01-manvantaras/manvantara-07-vaivasvata/README.md)) — observed "since time immemorial." (kumbh.gov.in; Puranic-mahatmya tradition) [traditional]
 - **Xuanzang (Hsüan-tsang), 644 CE** - The Chinese pilgrim recorded a great **bathing-and-almsgiving assembly at Prayag** convened by King **Harsha**, often cited as the **earliest historical witness** to the Kumbh. (Wikipedia; Sahapedia)
   - *Variant (Maclean) [scholarly]:* **Kama Maclean** notes Xuanzang's event recurred **every 5 years (not 12)**, featured a **Buddha image**, and may have been a **Buddhist** royal-donation rite — not the Kumbh as later defined. [scholarly]
   - *Variant (Glucklich):* **Ariel Glucklich** counters that Xuanzang, as a Buddhist, simply described **Hindu** practices through his own lens. [scholarly]

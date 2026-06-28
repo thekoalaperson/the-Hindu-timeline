@@ -1,6 +1,6 @@
 # Temple Networks & Pilgrimage Circuits
 
-> Sacred geography of the cosmos: the *structured* temple sets — closed numbered circuits (108, 275, 12, 8, 6, 5…) sung by saint-poets or codified in *sthala-puranas*, each a complete pilgrimage geometry to be walked as a whole. They map the deities of [02-deities](../02-deities-and-cosmic-hierarchy/README.md) onto the *tirtha* layer of [Bharata as punya-bhumi](README.md), most of them crystallised in the present **[Kali Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)** even where their origin myths reach back to creation.
+> Sacred geography of the cosmos: the *structured* temple sets — closed numbered circuits (108, 275, 12, 8, 6, 5…) sung by saint-poets or codified in *sthala-puranas*, each a complete pilgrimage geometry to be walked as a whole. They map the deities of [02-deities](../02-deities-and-cosmic-hierarchy/README.md) onto the *tirtha* layer of [Bharata as punya-bhumi](README.md), most of them crystallised in the present **[Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)** even where their origin myths reach back to creation.
 >
 > Parent: [Sacred Geography](README.md) · Up to: [Master Index](../README.md) · Related: [12 Jyotirlingas](12-jyotirlingas.md) · [51 Shakti Peethas](51-shakti-peethas.md) · [Char Dham](char-dham-and-chota-char-dham.md) · [Sapta Puri](sapta-puri-and-sacred-cities.md)
 

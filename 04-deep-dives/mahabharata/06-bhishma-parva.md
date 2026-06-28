@@ -1,6 +1,6 @@
 # Bhīṣma Parva — The Book of Bhishma
 
-> Cosmic address: [Brahma's current life](../../README.md) › [Vaivasvata Manvantara](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) › [28th Mahāyuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) › **[Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)** — the opening of the 18-day Kurukṣetra War at the very junction of Dvāpara and [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
+> Cosmic address: [Brahma's current life](../../README.md) › [Vaivasvata Manvantara](../../01-manvantaras/manvantara-07-vaivasvata/README.md) › [28th Mahāyuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) › **[Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)** — the opening of the 18-day Kurukṣetra War at the very junction of Dvāpara and [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
 >
 > Up: [Mahābhārata overview](README.md) · Previous: [05 — Udyoga Parva](05-udyoga-parva.md) · Next: [07 — Droṇa Parva](07-drona-parva.md). Parent corpus: [Smṛti — Itihāsa & Epics](../../90-literature-corpus/smriti-itihasa-epics.md).
 
@@ -107,7 +107,7 @@ The **Bhīṣma Parva** ("Book of Bhīṣma") is the **sixth of the 18 parvas** 
 - Continues into the **[Droṇa Parva](07-drona-parva.md)** (days 11–15) under the new commander Droṇa.
 - Bhīṣma's death-secret turns on **Ambā / Śikhaṇḍin** — see the [Ādi Parva](01-adi-parva.md) (Bhīṣma's vow and the abduction of the Kāśī princesses) and the [lineages](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
 - Bhīṣma's later discourses and his death at *uttarāyaṇa* — see the **[Śānti Parva](12-shanti-parva.md)** and **[Anuśāsana Parva](13-anushasana-parva.md)**.
-- Dharma on **2 legs** in Dvāpara collapsing to 1 in Kali — see [Yugas & Mahāyuga](../../00-time-and-cosmology/yugas-and-mahayuga.md) and [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
+- Dharma on **2 legs** in Dvāpara collapsing to 1 in Kali — see [Yugas & Mahāyuga](../../00-time-and-cosmology/yugas-and-mahayuga.md) and [Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
 - The dharma of war and *svadharma* taught here — see [Puruṣārthas & Dharma](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) and [Karma, Saṃsāra, Mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
 
 ## Sources

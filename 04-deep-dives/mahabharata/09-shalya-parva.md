@@ -1,7 +1,7 @@
 # Śalya Parva — The Book of Shalya
 
-> Cosmic address: [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) → the Mahābhārata war at the Dvāpara–Kali junction (war traditionally ~3138 BCE; Kali begins 3102 BCE).
-> Parent: [Mahābhārata deep-dives](./README.md) · Previous: [08-Karṇa Parva](./08-karna-parva.md) · Next: [10-Sauptika Parva](./10-sauptika-parva.md)
+> Cosmic address: [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) → the Mahābhārata war at the Dvāpara–Kali junction (war traditionally ~3138 BCE; Kali begins 3102 BCE).
+> Parent: [Mahābhārata deep-dives](README.md) · Previous: [08-Karṇa Parva](08-karna-parva.md) · Next: [10-Sauptika Parva](10-sauptika-parva.md)
 > The ninth of the eighteen parvas. It covers **Day 18** of Kurukṣetra — the last day of open battle — culminating in the mace-duel that ends Duryodhana and effectively ends the war.
 
 The Śalya Parva (4 sub-parvas; ~64–65 adhyāyas in the Critical/vulgate editions) recites the death of Śalya, the fall of Śakuni, Duryodhana's flight into the lake, and the great gadā-yuddha (mace duel) between Bhīma and Duryodhana. See the [Suryavaṃśa & Chandravaṃśa lineages](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) for the combatants' descent, and the [Mahābhārata corpus entry](../../90-literature-corpus/smriti-itihasa-epics.md).
@@ -15,7 +15,7 @@ The Śalya Parva (4 sub-parvas; ~64–65 adhyāyas in the Critical/vulgate editi
 
 ## Day 18 — Śalya as Commander and his death
 
-- **Śalya made fourth commander-in-chief** - After Karṇa's death (end of [Karṇa Parva](./08-karna-parva.md)), Duryodhana appoints Śalya, king of Madra and maternal uncle of Nakula–Sahadeva, as the fourth and final daytime senāpati of the Kaurava host. He accepts out of kṣatriya duty despite kinship with the Pāṇḍavas (Mbh, Śalya-vadha P.).
+- **Śalya made fourth commander-in-chief** - After Karṇa's death (end of [Karṇa Parva](08-karna-parva.md)), Duryodhana appoints Śalya, king of Madra and maternal uncle of Nakula–Sahadeva, as the fourth and final daytime senāpati of the Kaurava host. He accepts out of kṣatriya duty despite kinship with the Pāṇḍavas (Mbh, Śalya-vadha P.).
 - **Śalya's morning rampage** - Śalya fights with great fury, scattering the Pāṇḍava ranks and wounding Yudhiṣṭhira, Bhīma, Sātyaki and the twins; he is hailed as fighting "like Yama himself" (Mbh IX).
 - **Yudhiṣṭhira's vow to kill Śalya** - Kṛṣṇa had earlier told Yudhiṣṭhira that Śalya was the one fated to fall to him; Yudhiṣṭhira, normally restrained, takes the foremost role (Mbh, Karṇa/Śalya P.). This is among Yudhiṣṭhira's rare personal kills.
 - **Death of Śalya** - At midday Yudhiṣṭhira hurls a great gold-decked **dart/spear (śakti)** consecrated with mantras; it pierces Śalya's chest and he falls dead, "like a banner-staff sacred to Indra let go" (Mbh IX, Śalya-vadha P.).
@@ -27,7 +27,7 @@ The Śalya Parva (4 sub-parvas; ~64–65 adhyāyas in the Critical/vulgate editi
 - **Death of Śakuni** - **Sahadeva** confronts Śakuni Saubala, the dice-master architect of the war. After an arrow-duel Sahadeva severs Śakuni's head (some passages: cleaves his body) — fulfilling Sahadeva's own dice-hall vow (Mbh IX, Śalya-vadha P.).
   - *Detail:* Śakuni's son **Ulūka** is also slain in the same engagement (by Sahadeva). (Wikipedia)
   - *Variant (agent):* the slaying of Śakuni is universally Sahadeva's; this is one of the few vows in the epic whose assigned slayer never wavers across recensions.
-- **Duḥśāsana already dead** - (Slain by Bhīma in the [Karṇa Parva](./08-karna-parva.md), blood-drinking vow.) By the close of Day 18 nearly all hundred Kaurava brothers have perished.
+- **Duḥśāsana already dead** - (Slain by Bhīma in the [Karṇa Parva](08-karna-parva.md), blood-drinking vow.) By the close of Day 18 nearly all hundred Kaurava brothers have perished.
 - **The rout and the surviving four** - Of the eleven akṣauhiṇīs Duryodhana once commanded, after Day 18 only a handful of the Kaurava side survive: **Duryodhana** (soon mortally wounded), **Aśvatthāman**, **Kṛpa** and **Kṛtavarman** (Mbh IX, Hrada-praveśa P.).
   - *Detail:* On the Pāṇḍava side the **seven survivors** are the five Pāṇḍavas plus Kṛṣṇa and Sātyaki (the count of war-survivors is usually given as these plus Yuyutsu = the standard "18 survivors of the war" tally is reached across later events).
 
@@ -66,14 +66,14 @@ The Śalya Parva (4 sub-parvas; ~64–65 adhyāyas in the Critical/vulgate editi
 - **Duryodhana's accusation of treachery** - The mortally wounded Duryodhana reviles Kṛṣṇa, listing the **unfair means** by which the Pāṇḍavas won every major kill: Bhīṣma felled behind Śikhaṇḍin, Droṇa by the lie of "Aśvatthāman is dead," Karṇa shot while lifting his chariot wheel, Bhūriśravas slain while seated in prāya, and now himself by a foul blow (Mbh IX).
   - *Kṛṣṇa's reply:* Kṛṣṇa answers that these warriors could never have been defeated by fair means alone, and that each fall was a consequence of the Kauravas' own greater crimes; he reminds Duryodhana of his cumulative adharma. (Mbh IX)
 - **Heavenly honour for Duryodhana** - As Duryodhana speaks, the gods rain flowers and gandharvas sing — celestial honours for a kṣatriya dying on the field, which shames the Pāṇḍavas momentarily (Mbh IX).
-- **Duryodhana left to die slowly** - The Pāṇḍavas depart; Duryodhana is left mortally wounded but **still alive** at the lake — he survives into the night to appoint **Aśvatthāman** as the last commander, setting up the night massacre of the [Sauptika Parva](./10-sauptika-parva.md) (Mbh IX → X).
+- **Duryodhana left to die slowly** - The Pāṇḍavas depart; Duryodhana is left mortally wounded but **still alive** at the lake — he survives into the night to appoint **Aśvatthāman** as the last commander, setting up the night massacre of the [Sauptika Parva](10-sauptika-parva.md) (Mbh IX → X).
 
 ## Significance & cross-links
 
-- This parva marks the **effective end of the war**: with Duryodhana fallen, organized battle ceases. What follows is the nocturnal revenge-raid ([Sauptika Parva](./10-sauptika-parva.md)).
+- This parva marks the **effective end of the war**: with Duryodhana fallen, organized battle ceases. What follows is the nocturnal revenge-raid ([Sauptika Parva](10-sauptika-parva.md)).
 - It crystallizes the epic's central moral problem — **dharma achieved through adharmic means** — debated through Balarāma's wrath and Kṛṣṇa's apologetics; a touchstone for [karma and dharma](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) discussions.
 - The Saraswatī tīrtha-yātrā embedded here is a primary scriptural source for [sacred river geography](../../06-sacred-geography/README.md).
-- Era: events sit at the Dvāpara–Kali junction; see [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and [Kali Yuga / recorded history](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
+- Era: events sit at the Dvāpara–Kali junction; see [Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and [Kali Yuga / recorded history](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
 
 ## Sources
 

@@ -1,7 +1,7 @@
 # Ādi Śaṅkara & Advaita Vedānta
 
-> Detail node under [`07-acharyas-and-sampradayas/`](./README.md) — the founder-organizer of the **Smārta** stream and **Advaita Vedānta** (radical non-dualism), and the **Daśanāmī** monastic order with its four cardinal *āmnāya pīṭhas*. Up-link: section index [`README.md`](./README.md).
-> Sits in the historical Kali-Yuga; dating is the central dispute — **[traditional]** matha-succession placing him in the 6th–5th c. BCE vs **[scholarly]** epigraphy/text-criticism placing him c. 700 CE. Two-clocks method: [`recorded-history.md`](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md). Compare the rival Vedānta founders catalogued in the [section index](./README.md): Rāmānuja (Viśiṣṭādvaita), Madhva (Dvaita).
+> Detail node under [`07-acharyas-and-sampradayas/`](README.md) — the founder-organizer of the **Smārta** stream and **Advaita Vedānta** (radical non-dualism), and the **Daśanāmī** monastic order with its four cardinal *āmnāya pīṭhas*. Up-link: section index [`README.md`](README.md).
+> Sits in the historical Kali-Yuga; dating is the central dispute — **[traditional]** matha-succession placing him in the 6th–5th c. BCE vs **[scholarly]** epigraphy/text-criticism placing him c. 700 CE. Two-clocks method: [`recorded-history.md`](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md). Compare the rival Vedānta founders catalogued in the [section index](README.md): Rāmānuja (Viśiṣṭādvaita), Madhva (Dvaita).
 
 ---
 
@@ -22,7 +22,7 @@
 
 - **Advaita ("not-two") Vedānta** — the radical non-dualist reading of the *Upaniṣads*, *Brahmasūtra* and *Bhagavad-Gītā* (the *prasthāna-trayī*). Core claim: **Brahman** (pure, attributeless consciousness, *nirguṇa*) is the sole reality; the individual self (*ātman*) is **identical** with it; the plural world is **Māyā** — not unreal but *mithyā* (neither real nor unreal), a superimposition (*adhyāsa*) removed by liberating knowledge (*jñāna*). Encapsulated in the four *mahāvākyas* ("great sayings"). (Source: Britannica, *Brahma-sutra-bhashya*; Wikipedia, *Adi Shankara*)
   - *Two truths [scholarly]:* **vyāvahārika** (conventional/empirical) vs **pāramārthika** (absolute) levels — the world is real at the transactional level, sublated only at realization. Liberation (*mokṣa / jīvanmukti*) is attainable while living.
-  - *Place among the Darśanas:* the dominant Vedānta sub-school; doctrinal context in [Upavedas, Vedāṅgas & the Six Darśanas](../90-literature-corpus/upavedas-vedangas-darshanas.md). Differentiated from the bhakti-Vedāntas of [Rāmānuja and Madhva](./README.md) by its denial of ultimate self–God difference.
+  - *Place among the Darśanas:* the dominant Vedānta sub-school; doctrinal context in [Upavedas, Vedāṅgas & the Six Darśanas](../90-literature-corpus/upavedas-vedangas-darshanas.md). Differentiated from the bhakti-Vedāntas of [Rāmānuja and Madhva](README.md) by its denial of ultimate self–God difference.
 
 ---
 
@@ -46,7 +46,7 @@
   - *Jyotirmaṭha:* **485 BCE**.
   - *Jagannātha Purī:* **484 BCE**.
   - (Source: Wikipedia, *Adi Shankara*; advaita-vedanta.org, "Sankara's Date")
-- *Note:* the gap between traditional (~6th c. BCE) and academic (~8th c. CE) datings is among the largest dating disputes in Indian intellectual history; this repo catalogs both per the two-clocks policy in [`recorded-history.md`](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
+- *Note:* the gap between traditional (~6th c. BCE) and academic (~8th c. CE) datings is among the largest dating disputes in Indian intellectual history; this repo catalogs both per the two-clocks policy in [`recorded-history.md`](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
 
 ---
 
@@ -65,7 +65,7 @@
 
 ## Pañcāyatana Pūjā & the Smārta synthesis
 
-- **Pañcāyatana pūjā** — the Smārta worship of **five deities** (Viṣṇu, Śiva, Devī/Śakti, Sūrya, Gaṇeśa) arranged as equal faces of one **Brahman**, the worshipper placing their *iṣṭa-devatā* at center — an integrative liturgy traditionally credited to Śaṅkara to harmonize sectarian rivalries. A six-deity form (*ṣaṇmata*, adding Skanda/Kumāra) is also named. (Source: Wikipedia, *Panchayatana puja*; section [`README.md`](./README.md))
+- **Pañcāyatana pūjā** — the Smārta worship of **five deities** (Viṣṇu, Śiva, Devī/Śakti, Sūrya, Gaṇeśa) arranged as equal faces of one **Brahman**, the worshipper placing their *iṣṭa-devatā* at center — an integrative liturgy traditionally credited to Śaṅkara to harmonize sectarian rivalries. A six-deity form (*ṣaṇmata*, adding Skanda/Kumāra) is also named. (Source: Wikipedia, *Panchayatana puja*; section [`README.md`](README.md))
   - *Variant — antiquity of the rite [scholarly]:* attribution to Śaṅkara is traditional, but archaeology shows *pañcāyatana* maṇḍalas and temple-plans **predating** him — Gupta-era examples, and a set from the village of **Nand** dated to the **Kuṣāṇa** era (pre-300 CE) — so Śaṅkara at most popularized, not invented, the form. (Source: Wikipedia, *Panchayatana puja*)
 
 ---

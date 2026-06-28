@@ -1,6 +1,6 @@
 # Nahuṣa — the Mortal Who Became Indra
 
-> Where this sits: a Chandravamsha (Lunar dynasty) episode of the deep past, narrated as ancestral cautionary history in the great epics and Purāṇas. Parent: [04-deep-dives](./README.md) · Lineage context: [../03-lineages-vamsha/suryavamsha-and-chandravamsha.md](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) · Cosmic slot: long before the [Kali Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/), in the 7th (Vaivasvata) Manvantara, 28th Mahāyuga; his serpent-redemption falls within the Pāṇḍava exile late in the [Dvāpara Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga/).
+> Where this sits: a Chandravamsha (Lunar dynasty) episode of the deep past, narrated as ancestral cautionary history in the great epics and Purāṇas. Parent: [04-deep-dives](README.md) · Lineage context: [../03-lineages-vamsha/suryavamsha-and-chandravamsha.md](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) · Cosmic slot: long before the [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/), in the 7th (Vaivasvata) Manvantara, 28th Mahāyuga; his serpent-redemption falls within the Pāṇḍava exile late in the [Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga/).
 
 Nahuṣa is the supreme parable of the corruption of power: a virtuous mortal king of such accumulated tapas that the gods, regent-less after Indra fled the sin of slaying Vṛtra, install him on the throne of heaven itself — only for the splendour of Svarga to inflame his pride and lust until he yokes the Saptarṣis to his palanquin, covets Indra's queen Śacī, and kicks the sage Agastya, who curses him to crash to earth as a python (ajagara). For thousands of years he writhes as a serpent until his own great-great-grandson Yudhiṣṭhira frees him by answering his riddles on dharma. His arc — *mortal → Indra → snake → liberated soul* — is told repeatedly and with variation across the Mahābhārata (Vana, Udyoga, Anuśāsana parvas) and the Purāṇas. Principal sources: **Mahābhārata, Vana Parva 176–181** (the Ajagara episode), **Udyoga Parva 11–17** (the rise and fall, narrated by Śalya), **Anuśāsana Parva 99–100**; **Bhāgavata Purāṇa 6.13 & 9.18**, **Vishnu Purāṇa 4.10**, **Devī Bhāgavata**, and the **Padma** and **Vāyu** Purāṇas.
 
@@ -8,9 +8,9 @@ Nahuṣa is the supreme parable of the corruption of power: a virtuous mortal ki
 
 ## I. Lineage & placement — son of Āyu, father of Yayāti
 
-- **Genealogical seat** - Nahuṣa is the sixth king of the Chandravamsha: **Soma → Budha → Purūravas → Āyu → Nahuṣa → [Yayāti](./yayati.md)**. He is grandson of [Purūravas](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) and great-grandson of [Ilā/Ilā-Sudyumna](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md). (Mahābhārata, Ādi Parva; Vishnu Purāṇa 4.10; Bhāgavata 9.18)
+- **Genealogical seat** - Nahuṣa is the sixth king of the Chandravamsha: **Soma → Budha → Purūravas → Āyu → Nahuṣa → [Yayāti](yayati.md)**. He is grandson of [Purūravas](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) and great-grandson of [Ilā/Ilā-Sudyumna](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md). (Mahābhārata, Ādi Parva; Vishnu Purāṇa 4.10; Bhāgavata 9.18)
   - *Variant (mother):* the Vishnu Purāṇa names his mother as **Prabhā**, daughter of the asura **Svarbhānu** (Rāhu); other genealogies leave her unnamed. (Vishnu Purāṇa 4.10)
-- **His six sons** - By his queen **Virajā / Aśokasundarī** (name varies), Nahuṣa fathers six (some lists seven) sons, of whom **[Yayāti](./yayati.md)** succeeds him; the others are commonly given as Yati, Saṃyāti, Āyati, Viyati, and Kṛti. (Bhāgavata 9.18; Vishnu Purāṇa 4.10)
+- **His six sons** - By his queen **Virajā / Aśokasundarī** (name varies), Nahuṣa fathers six (some lists seven) sons, of whom **[Yayāti](yayati.md)** succeeds him; the others are commonly given as Yati, Saṃyāti, Āyati, Viyati, and Kṛti. (Bhāgavata 9.18; Vishnu Purāṇa 4.10)
   - *Variant ([late text]):* the Padma Purāṇa makes his wife **Aśokasundarī**, a daughter created by Pārvatī, weaving Nahuṣa into a Śaiva frame absent from the epic. [late text]
 - **A "second Indra"** - His name is glossed in the epics as one who "binds (nahyati) all creatures" by his power; the Mahābhārata repeatedly calls him an emperor (samrāṭ) whose hundred horse-sacrifices rivalled Indra's own merit — the very surplus of merit that qualifies him for heaven and dooms him by pride. (Udyoga Parva 11–13)
 
@@ -51,9 +51,9 @@ Nahuṣa is the supreme parable of the corruption of power: a virtuous mortal ki
 
 ## V. The Ajagara episode — Bhīma seized, Yudhiṣṭhira's riddles (Vana Parva 176–181)
 
-- **Bhīma in the serpent's coils** - Ages later, during the Pāṇḍavas' forest exile, **[Bhīma](./mahabharata/03-vana-parva.md)** hunting in the Himālaya is seized by an enormous python in a mountain cave; the boon-strengthened serpent drains his might and Bhīma — strongest of men — lies helpless. (Vana Parva 176–177)
+- **Bhīma in the serpent's coils** - Ages later, during the Pāṇḍavas' forest exile, **[Bhīma](mahabharata/03-vana-parva.md)** hunting in the Himālaya is seized by an enormous python in a mountain cave; the boon-strengthened serpent drains his might and Bhīma — strongest of men — lies helpless. (Vana Parva 176–177)
 - **The serpent names itself** - The python reveals he is **Nahuṣa**, the Pāṇḍavas' own ancestor, cursed by Agastya; hunger and the curse compel him to devour whatever falls into his grasp. (Vana Parva 178)
-- **Yudhiṣṭhira arrives** - Tracking Bhīma, **[Yudhiṣṭhira](./mahabharata/03-vana-parva.md)** finds his brother bound and addresses the serpent; Nahuṣa sets the terms: **answer my questions and I release Bhīma; fail, and I eat him.** (Vana Parva 179–180)
+- **Yudhiṣṭhira arrives** - Tracking Bhīma, **[Yudhiṣṭhira](mahabharata/03-vana-parva.md)** finds his brother bound and addresses the serpent; Nahuṣa sets the terms: **answer my questions and I release Bhīma; fail, and I eat him.** (Vana Parva 179–180)
 - **The dharma-catechism** - Nahuṣa and Yudhiṣṭhira debate, among other things:
   - **What defines a brāhmaṇa?** — Yudhiṣṭhira answers that brāhmaṇa-hood rests on **conduct and qualities (truth, charity, forgiveness, virtue), not birth alone**, a celebrated passage on the varṇa question. (Vana Parva 180)
   - **What is the supreme virtue?** — the relative weight of **truth, charity, kind speech, and non-injury (ahiṃsā)**. (Vana Parva 180)
@@ -78,11 +78,11 @@ Nahuṣa is the supreme parable of the corruption of power: a virtuous mortal ki
 
 ## VII. Why this episode matters — pride, power, and the dharma-test
 
-- **The power-corruption parable** - Nahuṣa is the canonical illustration that **even the highest merit cannot survive unchecked power**: tapas wins him heaven, pride loses it. Pairs naturally with his son [Yayāti](./yayati.md)'s kāma-vairāgya parable as the two great Chandravamsha cautionary tales.
+- **The power-corruption parable** - Nahuṣa is the canonical illustration that **even the highest merit cannot survive unchecked power**: tapas wins him heaven, pride loses it. Pairs naturally with his son [Yayāti](yayati.md)'s kāma-vairāgya parable as the two great Chandravamsha cautionary tales.
 - **The varṇa-by-conduct teaching** - Yudhiṣṭhira's reply — that brāhmaṇa-hood is defined by character, not birth — is one of the Mahābhārata's most-cited passages in debates on caste. See [../05-concepts-and-dharma/](../05-concepts-and-dharma/) (varṇāśrama, dharma).
-- **Brahmanical inviolability** - The yoking and kicking of the Saptarṣis, punished by instant ruin, is a foundational statement of the danger of offending brāhmaṇas; it rhymes with [Viśvāmitra & Vasiṣṭha](./vishwamitra-vasishtha.md) and the Agastya curse-cycle.
-- **Genealogical hinge** - As father of [Yayāti](./yayati.md), Nahuṣa stands one generation above the great Chandravamsha bifurcation into the Yādava and Paurava/Kaurava lines — see the full tables in [../03-lineages-vamsha/suryavamsha-and-chandravamsha.md](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
-- **Narrative function in the exile** - The Ajagara episode lets the epic deliver a dharma-discourse mid-exile while reminding the Pāṇḍavas of their own fallible ancestry; it sits within the [Vana Parva](./mahabharata/03-vana-parva.md).
+- **Brahmanical inviolability** - The yoking and kicking of the Saptarṣis, punished by instant ruin, is a foundational statement of the danger of offending brāhmaṇas; it rhymes with [Viśvāmitra & Vasiṣṭha](vishwamitra-vasishtha.md) and the Agastya curse-cycle.
+- **Genealogical hinge** - As father of [Yayāti](yayati.md), Nahuṣa stands one generation above the great Chandravamsha bifurcation into the Yādava and Paurava/Kaurava lines — see the full tables in [../03-lineages-vamsha/suryavamsha-and-chandravamsha.md](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
+- **Narrative function in the exile** - The Ajagara episode lets the epic deliver a dharma-discourse mid-exile while reminding the Pāṇḍavas of their own fallible ancestry; it sits within the [Vana Parva](mahabharata/03-vana-parva.md).
 
 ---
 

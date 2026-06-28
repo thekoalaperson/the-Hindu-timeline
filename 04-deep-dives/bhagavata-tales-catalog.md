@@ -87,7 +87,7 @@ The Bhāgavata's own self-description (the *daśa-lakṣaṇa*, ten themes, 2.10
 - **Gajendra-mokṣa** - the elephant-king seized by a crocodile, saved by Viṣṇu when he surrenders. → **[has file]** [gajendra-moksha.md](gajendra-moksha.md). (Bhāg. 8.2–4).
 - **Samudra-manthana** - the churning of the milk-ocean for amṛta; Kūrma, Mohinī, the 14 ratnas. → **[has file]** [samudra-manthana.md](samudra-manthana.md). (Bhāg. 8.6–9).
 - **Vāmana & Bali** - the dwarf-avatāra's three steps; Bali's surrender. → **[has file]** [vamana / Bali in samudra-manthana neighbourhood]; the Vāmana episode proper is **[index-only — candidate for own file]**. (Bhāg. 8.15–23).
-- **Matsya** - the fish-avatāra rescues Manu and the Vedas at the pralaya. Cross-link: [the 14 Manus](../01-brahma-current-life/the-14-manvantaras/README.md). (Bhāg. 8.24). **[index-only]**
+- **Matsya** - the fish-avatāra rescues Manu and the Vedas at the pralaya. Cross-link: [the 14 Manus](../01-manvantaras/README.md). (Bhāg. 8.24). **[index-only]**
 
 ---
 
@@ -158,7 +158,7 @@ The narrative heart. The overall arc has a **[has file]** in [krishna-lila.md](k
 
 ## Skandha 12 — Kali-yuga, the end of Parīkṣit, & the colophon
 
-- **The course of Kali-yuga & future kings** - the prophetic catalogue of post-Mahābhārata dynasties (Nandas, Mauryas, etc.) and the symptoms of Kali. Cross-link: [yuga-time](../00-time-and-cosmology/README.md), [Kali-yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md). (Bhāg. 12.1–3). **[index-only]**
+- **The course of Kali-yuga & future kings** - the prophetic catalogue of post-Mahābhārata dynasties (Nandas, Mauryas, etc.) and the symptoms of Kali. Cross-link: [yuga-time](../00-time-and-cosmology/README.md), [Kali-yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md). (Bhāg. 12.1–3). **[index-only]**
 - **The four pralayas** - the systematic catalogue of dissolution (nitya, naimittika, prākṛtika, ātyantika). Cross-link: [cosmology / pralaya](../00-time-and-cosmology/README.md). (Bhāg. 12.4). **[index-only]**
 - **Parīkṣit & Takṣaka** - the king's fearless death by the serpent-bite, closing the frame; Janamejaya's snake-sacrifice. Cross-link: [Uttaṅka](uttanka.md), [Āstīka / snake-sacrifice](mahabharata/01-adi-parva.md). (Bhāg. 12.5–6). **[index-only]**
 - **Mārkaṇḍeya** - the deathless sage who beholds the pralaya and the child on the banyan-leaf, and resists Kāmadeva. → **[has file]** [markandeya.md](markandeya.md). (Bhāg. 12.8–10).

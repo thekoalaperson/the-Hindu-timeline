@@ -1,8 +1,8 @@
 # Manvantara 14 — Indra-Sāvarṇi (Bhautya) (Future)
 
-> Where this sits: [01-brahma-current-life](../) → the 14 manvantaras of the current Kalpa (Shveta-Varaha) → the **14th and LAST** Manu-period. It runs after [Manvantara 13 — Deva-Sāvarṇi](manvantara-13-deva-savarni.md), and at its close comes the **Night of Brahma** (naimittika pralaya). All of this is **future / prophetic** relative to us (we are in the 7th, Vaivasvata — see [manvantara-07-vaivasvata](manvantara-07-vaivasvata/)).
+> Where this sits: [01-manvantaras](../) → the 14 manvantaras of the current Kalpa (Shveta-Varaha) → the **14th and LAST** Manu-period. It runs after [Manvantara 13 — Deva-Sāvarṇi](manvantara-13-deva-savarni.md), and at its close comes the **Night of Brahma** (naimittika pralaya). All of this is **future / prophetic** relative to us (we are in the 7th, Vaivasvata — see [manvantara-07-vaivasvata](manvantara-07-vaivasvata/)).
 
-This is the **final movement of Brahma's present Day**. After Bhautya Manu's 71 Mahayugas elapse, the seventh and last "Sāvarṇika-block" Manvantara closes, the present Kalpa ends, and the worlds dissolve into the **Night of Brahma** (≈4.32 billion years) — see [../../00-time-and-cosmology/kalpa-and-pralaya.md](../../00-time-and-cosmology/kalpa-and-pralaya.md). Duration ≈306,720,000 years (71 Mahayugas + 1 sandhya), per the constants in [../../00-time-and-cosmology](../../00-time-and-cosmology/). The record for this Manvantara is genuinely **sparse and almost wholly schematic** in the primary texts — the Puranas give little more than the roster (Manu, Indra, sages, avatar, deva-classes) plus one short birth-story for the Manu; this file flags where nothing more is attested and does not invent narrative.
+This is the **final movement of Brahma's present Day**. After Bhautya Manu's 71 Mahayugas elapse, the seventh and last "Sāvarṇika-block" Manvantara closes, the present Kalpa ends, and the worlds dissolve into the **Night of Brahma** (≈4.32 billion years) — see [../../00-time-and-cosmology/kalpa-and-pralaya.md](../00-time-and-cosmology/kalpa-and-pralaya.md). Duration ≈306,720,000 years (71 Mahayugas + 1 sandhya), per the constants in [../../00-time-and-cosmology](../../00-time-and-cosmology/). The record for this Manvantara is genuinely **sparse and almost wholly schematic** in the primary texts — the Puranas give little more than the roster (Manu, Indra, sages, avatar, deva-classes) plus one short birth-story for the Manu; this file flags where nothing more is attested and does not invent narrative.
 
 ## The presiding Manu
 
@@ -30,7 +30,7 @@ This is the **final movement of Brahma's present Day**. After Bhautya Manu's 71 
 
 - **Bṛhadbhānu** — Vishnu's (Hari's) sustaining descent for the Bhautya Manvantara; born of **Sātrāyaṇa** (father) by **Vitānā** (mother) (*Bhagavata Purana 8.13.35: "Bṛhadbhānu was a manifestation of Hari"*; also in *Vishnu Purana III.2* in outline).
   - *Variant (spelling):* rendered **Bṛhadbhānu / Brihadbhanu / Brhadbhanu**; parents appear as **Satrāyaṇa & Vitānā** (sometimes "Satrayana"/"Vitana"). The texts give only the name and parentage — no deeds of this future avatar are narrated (the avatar-list for the Sāvarṇika/Bhautya periods is purely schematic). [Mark as undetailed in primary texts; do not fabricate.]
-  - See the avatar-cycle context in [../../03-deities/](../../03-deities/) and the Manvantara-avatar pattern across [the-14-manvantaras](./README.md).
+  - See the avatar-cycle context in [../../03-deities/](../../03-deities/) and the Manvantara-avatar pattern across [the-14-manvantaras](README.md).
 
 ## The deva-classes (orders of gods)
 
@@ -41,8 +41,8 @@ This is the **final movement of Brahma's present Day**. After Bhautya Manu's 71 
 ## What happens (and the close of the Kalpa)
 
 - **A schematic reign, sparsely narrated** — beyond the roster above and the short birth-story of the Manu, the primary texts attach **no extended narrative cycle** to the Bhautya Manvantara. It functions as the closing bracket of the Kalpa-list. (Honest gap: the record here is thin by design — these future Manvantaras are enumerated, not storied.)
-- **Close of the 14th Manvantara → end of the Kalpa** — when Bhautya's 71 Mahayugas (+ sandhya) complete, the **fourteenth and last Manu-period ends**, and with it the entire **Day of Brahma (Kalpa)** (*Vishnu Purana; Bhagavata Purana*). See the full Manu sequence in [./README.md](./README.md) and the start of the day at [manvantara-01-svayambhuva.md](manvantara-01-svayambhuva.md).
-- **→ Night of Brahma (naimittika pralaya)** — dissolution follows: the three worlds (Bhūr, Bhuvar, Svar) are burned and flooded, and creation rests for **one Night of Brahma (≈4.32 billion years)** before the next Kalpa dawns and a new cycle of 14 Manus begins (*Vishnu Purana; Bhagavata Purana*). Full account: [../../00-time-and-cosmology/kalpa-and-pralaya.md](../../00-time-and-cosmology/kalpa-and-pralaya.md).
+- **Close of the 14th Manvantara → end of the Kalpa** — when Bhautya's 71 Mahayugas (+ sandhya) complete, the **fourteenth and last Manu-period ends**, and with it the entire **Day of Brahma (Kalpa)** (*Vishnu Purana; Bhagavata Purana*). See the full Manu sequence in [./README.md](README.md) and the start of the day at [manvantara-01-svayambhuva.md](manvantara-01-svayambhuva.md).
+- **→ Night of Brahma (naimittika pralaya)** — dissolution follows: the three worlds (Bhūr, Bhuvar, Svar) are burned and flooded, and creation rests for **one Night of Brahma (≈4.32 billion years)** before the next Kalpa dawns and a new cycle of 14 Manus begins (*Vishnu Purana; Bhagavata Purana*). Full account: [../../00-time-and-cosmology/kalpa-and-pralaya.md](../00-time-and-cosmology/kalpa-and-pralaya.md).
 
 ## Sources
 

@@ -1,6 +1,6 @@
 # Dattātreya — the Triple-Deity Avatar & the 24 Gurus
 
-> **Where this sits:** A deep-dive into one episode-cycle of the cosmic timeline. Dattātreya is born in the present (7th, [Vaivasvata](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md)) Manvantara of the current Kalpa, in the line of Brahmā's mind-born sons. He is counted among the **[avatāras of Viṣṇu](../02-deities-and-cosmic-hierarchy/dashavatara.md)** (in the longer Bhāgavata lists, not the standard ten) and simultaneously claimed by Śaiva/Nāth and Śākta-adjacent streams. ⬆ Parent index: [04-deep-dives](./README.md) · Master index: [README](../README.md)
+> **Where this sits:** A deep-dive into one episode-cycle of the cosmic timeline. Dattātreya is born in the present (7th, [Vaivasvata](../01-manvantaras/manvantara-07-vaivasvata/README.md)) Manvantara of the current Kalpa, in the line of Brahmā's mind-born sons. He is counted among the **[avatāras of Viṣṇu](../02-deities-and-cosmic-hierarchy/dashavatara.md)** (in the longer Bhāgavata lists, not the standard ten) and simultaneously claimed by Śaiva/Nāth and Śākta-adjacent streams. ⬆ Parent index: [04-deep-dives](README.md) · Master index: [README](../README.md)
 
 Dattātreya (*Datta* "the given" + *Ātreya* "son of Atri") is the rare deity in whom **[Brahmā, Viṣṇu, and Śiva](../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md)** are fused into a single body — three heads, six arms — born when the [Trimūrti](../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md), having gone to test the chastity of the sage Atri's wife Anasūyā, were reduced by her power to crying infants and reborn as her son(s). He is the archetypal **avadhūta** (the "shaken-off" liberated wanderer beyond caste, āśrama, and ritual), the patron of yogins, and the teacher of the celebrated **24 gurus drawn from nature** (Bhāgavata 11.7–9).
 
@@ -22,7 +22,7 @@ Dattātreya (*Datta* "the given" + *Ātreya* "son of Atri") is the rare deity in
 - **The goddesses' plea and the boon fulfilled** - Sarasvatī, Lakṣmī, and Pārvatī, finding their husbands missing, come to Anasūyā and beg their return; she restores them. Pleased, the Trimūrti grant that they will be **born as her sons**. (Mārkaṇḍeya Purāṇa)
 
 - **The three (or one) sons** -
-  - *Variant (most common, three sons):* **Candra/Soma** (Brahmā-portion), **Dattātreya** (Viṣṇu-portion), and **Durvāsā** (Śiva-portion) are born. Soma rises as the Moon, Durvāsā departs to wander as the wrathful ascetic ([see Ambarīṣa–Durvāsā](./ambarisha-durvasa.md)), and **Dattātreya remains** as the combined teacher. (Bhāgavata 4.1; Mārkaṇḍeya Purāṇa)
+  - *Variant (most common, three sons):* **Candra/Soma** (Brahmā-portion), **Dattātreya** (Viṣṇu-portion), and **Durvāsā** (Śiva-portion) are born. Soma rises as the Moon, Durvāsā departs to wander as the wrathful ascetic ([see Ambarīṣa–Durvāsā](ambarisha-durvasa.md)), and **Dattātreya remains** as the combined teacher. (Bhāgavata 4.1; Mārkaṇḍeya Purāṇa)
   - *Variant (unified single avatāra):* In Datta-devotional tradition the three deities fuse into **one child, Dattātreya**, possessing **three heads and six arms** — the literal Trimūrti-in-one. (Datta Sampradāya hagiography; iconographic standard)
   - *Variant [late text]:* A telling makes Dattātreya, Durvāsā, and Candra born to an "unwed" mother Anasūyā by direct divine fiat, without Atri's biological fatherhood — emphasizing pure divine descent.
 
@@ -99,7 +99,7 @@ Dattātreya (*Datta* "the given" + *Ātreya* "son of Atri") is the rare deity in
 
 - [Trimūrti & Tridevī](../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md) — the three deities fused in Dattātreya
 - [Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md) — avatāra theology
-- [Ambarīṣa–Durvāsā](./ambarisha-durvasa.md) — his Śiva-portion brother
+- [Ambarīṣa–Durvāsā](ambarisha-durvasa.md) — his Śiva-portion brother
 - [Sūrya- & Candra-vaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) — Soma/Candra his brother; Yadu his royal disciple
 - [Karma, Saṃsāra, Mokṣa](../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) and [Ātman & Brahman](../05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md) — the avadhūta doctrine
 - [Kalpa & Pralaya](../00-time-and-cosmology/kalpa-and-pralaya.md) — the spider-guru's cosmogonic lesson

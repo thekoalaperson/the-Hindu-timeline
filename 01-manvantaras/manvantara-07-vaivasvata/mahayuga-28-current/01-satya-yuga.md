@@ -1,7 +1,7 @@
 # Satya (Kṛta) Yuga — Events
 
 > Hierarchy: Brahma's current life → Śveta-Varāha Kalpa → **7th (Vaivasvata) Manvantara** → **28th Mahāyuga** → **1st quarter: Satya (Kṛta) Yuga**.
-> The golden age of THIS mahāyuga: dharma stands on all four legs (100%), the Bull of Dharma whole. Duration **1,728,000 human years** (4,800 deva-years). First yuga; precedes [Tretā](./02-treta-yuga.md) → [Dvāpara](./03-dvapara-yuga.md) → [Kali](./04-kali-yuga/README.md).
+> The golden age of THIS mahāyuga: dharma stands on all four legs (100%), the Bull of Dharma whole. Duration **1,728,000 human years** (4,800 deva-years). First yuga; precedes [Tretā](02-treta-yuga.md) → [Dvāpara](03-dvapara-yuga.md) → [Kali](04-kali-yuga/README.md).
 
 ---
 
@@ -52,7 +52,7 @@ The signature epic of Satya Yuga; narrated chiefly in the **Bhāgavata** (8.5–
 - **Prahlāda's bhakti.** His son **Prahlāda**, instructed in Viṣṇu-devotion by **Nārada** while still in the womb, becomes a supreme devotee. Hiraṇyakaśipu tries repeatedly to kill him — poison, elephants, weapons, fire — all fail. (Bhāgavata 7.5)
   - **Holikā.** Prahlāda's aunt **Holikā**, boon-proof against fire, sits with him in flames to burn him; she perishes, he survives — origin myth of **Holi**. (Bhāgavata; folk/festival tradition)
 - **Narasiṃha appears.** Challenged "Is your Viṣṇu in this pillar?", Hiraṇyakaśipu smashes it; Viṣṇu bursts out as **Narasiṃha** (man-lion — neither man nor beast), seizes the Asura **at twilight** (neither day nor night), on the **threshold** (neither in nor out), on his **lap/thighs** (neither earth nor sky), and disembowels him with his **claws** (no weapon) — voiding every clause of the boon. (Bhāgavata 7.8)
-- **Aftermath.** Narasiṃha's fury is finally pacified by Prahlāda's prayers; Prahlāda is enthroned as a righteous Asura king and ancestor of **Bali** (later of the Vāmana episode in [Tretā](./02-treta-yuga.md)). (Bhāgavata 7.9–7.10)
+- **Aftermath.** Narasiṃha's fury is finally pacified by Prahlāda's prayers; Prahlāda is enthroned as a righteous Asura king and ancestor of **Bali** (later of the Vāmana episode in [Tretā](02-treta-yuga.md)). (Bhāgavata 7.9–7.10)
   - *Variant (who calms him):* texts variously credit **Prahlāda**, **Lakṣmī**, **Śiva (as Śarabha)** [Śaiva text], or the **Goddess (Pratyaṅgirā / Devī)** [Śākta/Tantric] with subduing Narasiṃha. (Tales of Sanatan; Śarabha tradition) [tradition-dependent]
 
 ---
@@ -73,7 +73,7 @@ The signature epic of Satya Yuga; narrated chiefly in the **Bhāgavata** (8.5–
 ### The founding of the royal lineages
 - **Vaivasvata Manu's children.** Manu (Śraddhādeva) has **ten sons** — Ikṣvāku, Nṛga, Dhṛṣṭa, Śaryāti, Nariṣyanta, Prāṃśu, Nābhāga, Nediṣṭa, Karūṣa, Pṛṣadhra — and the figure **Ilā/Sudyumna** (gender-shifting), from whom the **Lunar dynasty (Candravaṃśa)** springs via Budha. (Viṣṇu Purāṇa 4.1; Bhāgavata 9.1) — see [../../../../03-lineages-vamsha](../../../../03-lineages-vamsha/) (lineages folder).
   - *Variant (Ilā/Sudyumna):* the texts differ on the daughter-becomes-son episode and Śiva/Pārvatī's forest curse; Bhāgavata vs Viṣṇu Purāṇa differ in detail. [variant]
-- **Ikṣvāku founds the Solar dynasty (Sūryavaṃśa).** Eldest son **Ikṣvāku**, granted Āryāvarta/Kosala, is progenitor of the **Sūryavaṃśa**; his line includes Vikukṣi, Māndhātā, Hariścandra, Sagara, Bhagīratha, Raghu, Daśaratha, **Rāma** (latter in [Tretā](./02-treta-yuga.md)). His son **Nimi** founds the Videha (Janaka) line. (Viṣṇu Purāṇa 4.2–4.4; Harivaṃśa; List of Ikṣvāku kings, Wikipedia)
+- **Ikṣvāku founds the Solar dynasty (Sūryavaṃśa).** Eldest son **Ikṣvāku**, granted Āryāvarta/Kosala, is progenitor of the **Sūryavaṃśa**; his line includes Vikukṣi, Māndhātā, Hariścandra, Sagara, Bhagīratha, Raghu, Daśaratha, **Rāma** (latter in [Tretā](02-treta-yuga.md)). His son **Nimi** founds the Videha (Janaka) line. (Viṣṇu Purāṇa 4.2–4.4; Harivaṃśa; List of Ikṣvāku kings, Wikipedia)
   - *Cross-tradition:* Jain tradition makes Ikṣvāku = the first Tīrthaṅkara **Ṛṣabhanātha**'s line; Buddhist tradition descends the Buddha from this dynasty. (Solar dynasty, Wikipedia) [other-tradition]
 
 ### Early sages, mind-born sons & other Satya-Yuga origins

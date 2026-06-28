@@ -106,7 +106,7 @@ The longest and most populous episode; it introduces Kālī, the Mātṛkās, an
 
 - **Future incarnations foretold (ch. 11)** — in the **Nārāyaṇī Stuti** the Devī promises to descend again whenever demons trouble the world, listing future forms: **Raktadantikā, Śatākṣī / Śākambharī** (the "hundred-eyed," who feeds the world with vegetables in a great drought), **Durgā** (slayer of Durgama), **Bhīmā, Bhrāmarī** (the bee-goddess who slays Aruṇa). (*Devī Māhātmya 11; cf. Devī's "Vibhūti" list*)
 - **The Phalaśruti (ch. 12)** — the Goddess proclaims the **merits of reciting the Māhātmya itself**: protection, prosperity, removal of calamity; the text becomes its own self-glorifying mantra. (*Devī Māhātmya 12*)
-- **The frame closes (ch. 13)** — Suratha and Samādhi worship Devī for three years; she grants **Suratha** rebirth as the future **Manu Sāvarṇi** (eighth Manvantara, see [`../01-brahma-current-life/the-14-manvantaras/`](../01-brahma-current-life/the-14-manvantaras/)) and **Samādhi** spiritual liberation. (*Devī Māhātmya 13*)
+- **The frame closes (ch. 13)** — Suratha and Samādhi worship Devī for three years; she grants **Suratha** rebirth as the future **Manu Sāvarṇi** (eighth Manvantara, see [`../01-manvantaras/`](../01-manvantaras/)) and **Samādhi** spiritual liberation. (*Devī Māhātmya 13*)
   - *Note:* tying the merchant-king to the **future Sāvarṇi Manu** anchors this myth into the Manvantara chronology of the wider timeline.
 
 ---
@@ -158,7 +158,7 @@ Recitation is bracketed by auxiliary texts ("aṅgas"), without which a ritual p
 ## 10. Why It Matters in the Timeline
 
 - It is the **scriptural charter of Śāktism** — the variant lens under which the Trimūrti are subordinate instruments of the Devī (catalogued as the "*Variant (Śākta)*" in [`trimurti-and-tridevi.md §1`](trimurti-and-tridevi.md#1-the-core-concept-trimūrti-and-the-three-functions)).
-- Its frame seeds a **future Manu** (Sāvarṇi), tying a stand-alone myth into the [Manvantara chronology](../01-brahma-current-life/the-14-manvantaras/).
+- Its frame seeds a **future Manu** (Sāvarṇi), tying a stand-alone myth into the [Manvantara chronology](../01-manvantaras/).
 - Its goddesses (Durgā, Kālī, Cāmuṇḍā, the Mātṛkās, Śākambharī) become the trunk from which the **Daśa Mahāvidyā** and the Śakti-spectrum branch (see [`trimurti-and-tridevi.md §7`](trimurti-and-tridevi.md#7-the-great-goddess--durgā-kālī-and-the-śakti-spectrum)).
 
 ---
@@ -167,7 +167,7 @@ Recitation is bracketed by auxiliary texts ("aṅgas"), without which a ritual p
 - Parent node & the Śākta primacy debate: [`trimurti-and-tridevi.md`](trimurti-and-tridevi.md)
 - Viṣṇu's cosmic Yoga-nidrā (Madhu-Kaiṭabha setting): [`trimurti-and-tridevi.md §3`](trimurti-and-tridevi.md#3-viṣṇu--the-preserver-pālanahartā)
 - Satī → Śakti Pīṭhas (the other great Devī cycle): [`trimurti-and-tridevi.md §4 & §7`](trimurti-and-tridevi.md#4-śiva--the-destroyer--transformer-saṃhārakartā)
-- The future Sāvarṇi Manvantara: [`../01-brahma-current-life/the-14-manvantaras/`](../01-brahma-current-life/the-14-manvantaras/)
+- The future Sāvarṇi Manvantara: [`../01-manvantaras/`](../01-manvantaras/)
 - Source-text catalog (Purāṇas): [`../90-literature-corpus/smriti-puranas.md`](../90-literature-corpus/smriti-puranas.md)
 
 ## Sources

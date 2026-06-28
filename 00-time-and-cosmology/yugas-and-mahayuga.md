@@ -1,6 +1,6 @@
 # The Four Yugas & the Mahāyuga Cycle
 
-> Where this sits: **00-time-and-cosmology** — the core "clock face" of the timeline. The four yugas (Satya → Treta → Dvapara → Kali) form one **Mahāyuga** (Chaturyuga); **71 Mahāyugas + 1 sandhya = 1 Manvantara**; **1000 Mahāyugas = 1 Kalpa** (a Day of Brahmā). We currently sit in the Kali Yuga of the 28th Mahāyuga of the 7th (Vaivasvata) Manvantara — see [our address](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/).
+> Where this sits: **00-time-and-cosmology** — the core "clock face" of the timeline. The four yugas (Satya → Treta → Dvapara → Kali) form one **Mahāyuga** (Chaturyuga); **71 Mahāyugas + 1 sandhya = 1 Manvantara**; **1000 Mahāyugas = 1 Kalpa** (a Day of Brahmā). We currently sit in the Kali Yuga of the 28th Mahāyuga of the 7th (Vaivasvata) Manvantara — see [our address](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/).
 
 ---
 
@@ -61,7 +61,7 @@
 - **Defining trait:** dharma declines by one quarter; **sacrifice and ritual (yajña)** arise as the means to maintain order; agriculture, kingship and the first wars appear (Vishnu Purana 1.3; Bhagavata Purana 12.3).
 - **Lifespan:** humans live **~10,000 years** (Bhagavata Purana 12.3; Mahabharata).
 - **Means of yuga-dharma:** **yajña / sacrificial ritual** is the prescribed path to liberation (Manusmriti 1.86).
-- **Avatāras placed here:** **Vāmana, Paraśurāma, and Rāma** — most prominently **Rāma**, whose story (the Rāmāyaṇa) is the signature event of Treta (Valmiki Ramayana; Bhagavata Purana 9). See [Treta events](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md).
+- **Avatāras placed here:** **Vāmana, Paraśurāma, and Rāma** — most prominently **Rāma**, whose story (the Rāmāyaṇa) is the signature event of Treta (Valmiki Ramayana; Bhagavata Purana 9). See [Treta events](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md).
   - *Variant:* some Vaishnava lists place **Paraśurāma** spanning the Treta–Dvapara junction (he is a *chiranjivi*, deathless, and meets both Rāma and later figures).
 - **Society:** kingship and the warrior order (Kṣatriya) rise to defend a now-imperfect dharma — the "Kṣatriya age."
 
@@ -74,7 +74,7 @@
 - **Defining trait:** virtue and vice are balanced 50/50; disease, discord and desire appear; the Vedas are divided (by Vyāsa) because human memory and intellect have weakened (Vishnu Purana 1.3; Bhagavata Purana 1.4, 12.3).
 - **Lifespan:** humans live **~1,000 years** (Bhagavata Purana 12.3).
 - **Means of yuga-dharma:** **temple worship / deity-archana (pūjā)** is the prescribed path (Bhagavata Purana 12.3.52; Manusmriti 1.86 frames it as *jñāna*-based for this age in some readings).
-- **Signature events:** the **Mahābhārata** and the life of **Kṛṣṇa** (Kṛṣṇa avatāra) belong to the end of Dvapara; the great war and Kṛṣṇa's departure mark the **Dvapara → Kali transition** (Mahabharata; Bhagavata Purana 1.18, 11.31). See [Dvapara events](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
+- **Signature events:** the **Mahābhārata** and the life of **Kṛṣṇa** (Kṛṣṇa avatāra) belong to the end of Dvapara; the great war and Kṛṣṇa's departure mark the **Dvapara → Kali transition** (Mahabharata; Bhagavata Purana 1.18, 11.31). See [Dvapara events](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
 - **The two legs:** Dayā (compassion) and Satya (truth) remain standing (popular Bhagavata reading).
 - **Society:** trade, agriculture and merchant order (Vaiśya) characterize the age — the "Vaiśya age."
 
@@ -88,7 +88,7 @@
 - **Lifespan:** humans live **~100 years (declining)**; by the *end* of Kali, lifespans shrink toward 20–30 years and human stature diminishes (Bhagavata Purana 12.2; Mahabharata Vana Parva 188–190 — the "Markandeya prophecy").
 - **Means of yuga-dharma:** **nāma-saṅkīrtana / chanting the divine name** — uniquely easy and effective in Kali; "what was attained by meditation, sacrifice, and worship in earlier ages is attained in Kali simply by chanting Hari's names" (Bhagavata Purana 12.3.51–52).
 - **Start epoch:** traditionally **3102 BCE** (17/18 Feb, midnight), aligned with Kṛṣṇa's departure (Surya Siddhanta; Aryabhatiya). **Elapsed as of 2026 CE ≈ 5,127–5,128 years**; **remaining ≈ 426,873 years**.
-- **End / reset:** Kali closes with the **Kalki avatāra**, who destroys adharma and ushers in a new Satya Yuga, restarting the Mahāyuga (Bhagavata Purana 12.2; Kalki Purana; Vishnu Purana 4.24). See [Kali Yuga node](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
+- **End / reset:** Kali closes with the **Kalki avatāra**, who destroys adharma and ushers in a new Satya Yuga, restarting the Mahāyuga (Bhagavata Purana 12.2; Kalki Purana; Vishnu Purana 4.24). See [Kali Yuga node](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
 - **Society:** characterized by the lowest order in the classical scheme (Śūdra age) and by collapse of the varṇa-āśrama system itself (Vishnu Purana 6.1).
   - *Variant (Mahabharata Vana Parva 188, Markandeya's prophecy):* graphic end-of-Kali decline — rulers as plunderers, dharma reduced to mere assertion, then Kalki's restoration.
 
@@ -100,7 +100,7 @@
 - **1 Manvantara = 71 Mahāyugas + 1 sandhyā** (a connecting twilight = one Satya Yuga, 1,728,000 yr) ≈ **306,720,000 years**, ruled by one Manu (Vishnu Purana 1.3; Bhagavata Purana 3.11).
   - So the four yugas cycle **71 times** within each Manu's reign before the manvantara-sandhyā closes it.
 - **1 Kalpa (Day of Brahmā) = 1000 Mahāyugas = 14 Manvantaras + 15 sandhyās = 4,320,000,000 years** (4.32 billion); an equal Night of Brahmā follows (Bhagavata Purana 3.11; Vishnu Purana 1.3).
-- **We are here:** Kali Yuga → of the **28th Mahāyuga** → of the **7th (Vaivasvata) Manvantara** → of the Śveta-Varāha Kalpa → 1st day of Brahmā's 51st year. See [the cosmic clock](./README.md) and [the 14 Manvantaras](../01-brahma-current-life/the-14-manvantaras/).
+- **We are here:** Kali Yuga → of the **28th Mahāyuga** → of the **7th (Vaivasvata) Manvantara** → of the Śveta-Varāha Kalpa → 1st day of Brahmā's 51st year. See [the cosmic clock](README.md) and [the 14 Manvantaras](../01-manvantaras/).
 
 ---
 
@@ -118,9 +118,9 @@
 
 ## Cross-references
 
-- [How the cosmic clock works](./README.md) — units of time and the full hierarchy.
-- [The 14 Manvantaras](../01-brahma-current-life/the-14-manvantaras/) — the layer the Mahāyuga repeats inside.
-- [Current Mahāyuga (28th)](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/) — Satya / Treta / Dvapara / Kali event files.
+- [How the cosmic clock works](README.md) — units of time and the full hierarchy.
+- [The 14 Manvantaras](../01-manvantaras/) — the layer the Mahāyuga repeats inside.
+- [Current Mahāyuga (28th)](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/) — Satya / Treta / Dvapara / Kali event files.
 - [Avatāras & cosmic hierarchy](../02-deities-and-cosmic-hierarchy/) — which descent belongs to which yuga.
 
 ---

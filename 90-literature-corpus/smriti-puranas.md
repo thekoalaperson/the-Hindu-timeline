@@ -1,9 +1,9 @@
 # Smṛti — The Purāṇas
 
 > Hierarchy location: `90-literature-corpus/` — the **recording texts**, mapped back onto the cosmic clock. The Purāṇas are *smṛti* ("that which is remembered," human-authored, in contrast to *śruti* / the Vedas), and they are the single largest narrative source for nearly every event in this timeline: creation (Brahmā's day), the Manvantaras, the Yuga cycle, the avatāra descents, and the royal genealogies (vaṃśa) that carry us into recorded history.
-> See also `../01-brahma-current-life/the-14-manvantaras/` (the Manvantara framework the Purāṇas narrate) and `./` siblings for śruti and Itihāsa.
+> See also `../01-manvantaras/` (the Manvantara framework the Purāṇas narrate) and `./` siblings for śruti and Itihāsa.
 
-The Purāṇas are traditionally **18 Mahāpurāṇas** ("great Purāṇas") plus **18 Upapurāṇas** ("secondary Purāṇas"), conventionally said to total **400,000 ślokas** (verses), all attributed to **Vyāsa** (Kṛṣṇa Dvaipāyana) and recited in the frame-story by the *sūta* (bard) **Ugraśravas / Romaharṣaṇa** to the sages of the **Naimiṣa forest** during this Kali Yuga (see `../01-brahma-current-life/.../mahayuga-28-current/04-kali-yuga/README.md`).
+The Purāṇas are traditionally **18 Mahāpurāṇas** ("great Purāṇas") plus **18 Upapurāṇas** ("secondary Purāṇas"), conventionally said to total **400,000 ślokas** (verses), all attributed to **Vyāsa** (Kṛṣṇa Dvaipāyana) and recited in the frame-story by the *sūta* (bard) **Ugraśravas / Romaharṣaṇa** to the sages of the **Naimiṣa forest** during this Kali Yuga (see `../01-manvantaras/.../mahayuga-28-current/04-kali-yuga/README.md`).
 
 ---
 
@@ -89,7 +89,7 @@ A commonly cited list of 18 (per Kūrma & Garuḍa enumerations):
 ### Upapurāṇa list variants
 - ***Variant:*** Different source-lists swap in **Ādi, Maheśvara, Bhāgavata (Devī), Āditya, Vaiṣṇava, Manu, Auśanasa, Brahmāṇḍa, Varuṇa, Mārīca, Bhārgava, Saura, Pārāśara** in place of items above — no two enumerations (Kūrma vs. Garuḍa vs. Padma vs. Skanda) fully match.
 - ***Variant (Devī-Bhāgavata):*** counted as a **Mahāpurāṇa** by the Vāyu, Matsya, and some Śākta lists; as an **Upapurāṇa** by the Padma, Garuḍa, and Kūrma lists. (See above.)
-- ***Variant (Kalki Purāṇa):*** the **Kalki Purāṇa** (narrating the future Kalki avatāra ending Kali Yuga — see `../01-brahma-current-life/.../mahayuga-28-current/04-kali-yuga/README.md`) is a **late Upapurāṇa** [late text], not in the classical 18.
+- ***Variant (Kalki Purāṇa):*** the **Kalki Purāṇa** (narrating the future Kalki avatāra ending Kali Yuga — see `../01-manvantaras/.../mahayuga-28-current/04-kali-yuga/README.md`) is a **late Upapurāṇa** [late text], not in the classical 18.
 - ***Variant (Sthala / Skanda fragments):*** countless regional **sthala-purāṇas** (temple/site legends) circulate as detached Skanda-Purāṇa khaṇḍas; these are *[folk / regional tradition]*, not canonical Upapurāṇas.
 
 ---

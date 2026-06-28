@@ -1,6 +1,6 @@
 # Yakṣas, Guhyakas & Kubera's Court
 
-> Part of [08 · Beings & Bestiary](./README.md) → the **earth-bound semi-divine roster**: nature-spirits, treasure-guardians, and the retinue of the wealth-god.
+> Part of [08 · Beings & Bestiary](README.md) → the **earth-bound semi-divine roster**: nature-spirits, treasure-guardians, and the retinue of the wealth-god.
 > Cosmic address: residents of *Alakā* (on/near [Meru–Kailāsa](../06-sacred-geography/meru-kailash-and-cosmic-mountains.md)), of forests, lakes, trees and buried hoards across the *Bhūloka*.
 > Their lord Kubera is a [Dikpāla / Lokapāla](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) of the North; the most famous yakṣa-myth is the [Yakṣa Praśna](../04-deep-dives/mahabharata/03-vana-parva.md).
 
@@ -15,7 +15,7 @@ The **yakṣas** (यक्ष; fem. **yakṣiṇī** / **yakṣī**) are a broa
 - **Parentage** - Son of the sage **Viśravas** (son of Pulastya, one of the [Saptarṣi](../02-deities-and-cosmic-hierarchy/saptarishi.md)) and **Ilavidā / Ilibilā** (daughter of sage Bharadvāja) — hence Kubera is **grandson of Prajāpati Pulastya**. *(Source: Purāṇas; Wikipedia "Kubera".)*
   - *Half-brother of Rāvaṇa:* through Viśravas's second wife, the rākṣasī **Kaikasī**, Kubera's half-siblings are **Rāvaṇa, Kumbhakarṇa, Vibhīṣaṇa** and **Śūrpaṇakhā** — so the wealth-god and the demon-king of Laṅkā are kin. *(Source: Rāmāyaṇa Uttara Kāṇḍa.)* — cross-link [Lineages](../03-lineages-vamsha/).
 - **Family** - Wife **Bhadrā / Ṛddhi** ("Prosperity," in some texts a daughter of the asura Mura). Sons **Nalakūbara** and **Maṇigrīva** (the pair cursed by Nārada to become trees, liberated by infant Kṛṣṇa — the *yamalārjuna* episode); the title **Mayurāja** ("king of the man-like beasts/kimpuruṣas") is also given as a son/aspect. Daughter **Mīnākṣī** ("fish-eyed") in some lists. *(Source: Wikipedia "Kubera"; Bhāgavata Purāṇa 10.10 for Nalakūbara/Maṇigrīva.)*
-  - *Note:* Nalakūbara is consort of the apsarā **Rambhā**; his curse on Rāvaṇa (head to burst if he forces a woman) later protects Sītā — see [Apsarās](./apsaras.md).
+  - *Note:* Nalakūbara is consort of the apsarā **Rambhā**; his curse on Rāvaṇa (head to burst if he forces a woman) later protects Sītā — see [Apsarās](apsaras.md).
 
 ### Alakā — the City of Treasure
 
@@ -43,7 +43,7 @@ Kubera's court is thronged by **yakṣas, guhyakas, kiṃpuruṣas, vidyādharas
 - **Harikeśa** (हरिकेश; "tawny-haired") - A yakṣa **devotee of Śiva**. Because he worshipped Śiva while his father Pūrṇabhadra was a devotee of Kubera, he was **banished from home**; Śiva then **adopted him as an attendant (gaṇa)**, set him as a guardian of **Kāśī (Vārāṇasī)** — in some tellings posted at **Maṇikarṇikā** — granting him lordship over disease-spirits and a share of wealth-protection. *(Source: Matsya Purāṇa 18; Śiva Purāṇa; wisdomlib.)*
 - **Pañcika / Pāñcika** - Commander-in-chief of Vaiśravaṇa's (Kubera's) army in the wider yakṣa tradition; consort of the yakṣiṇī **Hārītī** (chiefly Buddhist, but pan-Indian). *(Source: Wikipedia "List of Yakshas".)* [scholarly]
 - **Padma & Śaṅkha** - The two personified nidhi-treasures, attending in human form (see above). *(Source: Purāṇic iconography.)*
-- *Note:* Kubera's retinue overlaps the **kiṃpuruṣas** (man-beasts) and **vidyādharas** (sky-faring sorcerer-spirits), catalogued among the semi-divine classes — see [Beings & Bestiary README](./README.md).
+- *Note:* Kubera's retinue overlaps the **kiṃpuruṣas** (man-beasts) and **vidyādharas** (sky-faring sorcerer-spirits), catalogued among the semi-divine classes — see [Beings & Bestiary README](README.md).
 
 ---
 
@@ -85,7 +85,7 @@ Hindu literature splits the yakṣa-kind by **temperament**: *(Source: Wikipedia
 ## Cross-Links
 
 - Lord & locale: [Devas, Asuras & the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) · [Meru–Kailāsa & Cosmic Mountains](../06-sacred-geography/meru-kailash-and-cosmic-mountains.md)
-- Sister/paired classes: [Apsarās](./apsaras.md) (Rambhā ↔ Nalakūbara) · [Beings & Bestiary README](./README.md) (kiṃpuruṣas, vidyādharas)
+- Sister/paired classes: [Apsarās](apsaras.md) (Rambhā ↔ Nalakūbara) · [Beings & Bestiary README](README.md) (kiṃpuruṣas, vidyādharas)
 - Key episodes: [Yakṣa Praśna · Vana Parva](../04-deep-dives/mahabharata/03-vana-parva.md) · [Śikhaṇḍin & Sthūṇa · Udyoga Parva](../04-deep-dives/mahabharata/05-udyoga-parva.md)
 - Kin-lineage of Kubera & Rāvaṇa: [Lineages / Vaṃśa](../03-lineages-vamsha/)
 

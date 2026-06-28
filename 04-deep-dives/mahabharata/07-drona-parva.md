@@ -1,8 +1,8 @@
 # Droṇa Parva — The Book of Drona
 
-> Cosmic address: [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) ← the Mahābhārata war straddles the Dvāpara–Kali junction (traditional onset of Kali Yuga, 3102 BCE).
-> Parent: [Mahābhārata deep-dives](./README.md) · Part of the [Smṛti Itihāsa epics corpus](../../90-literature-corpus/smriti-itihasa-epics.md).
-> This is the **7th of the 18 parvas** of the Mahābhārata. It covers the **11th through 15th days** of the 18-day Kurukṣetra war, under the second commander of the Kaurava host, the brahmin-warrior **Droṇa**. Following [Bhīṣma Parva](./06-bhishma-parva.md); preceding [Karṇa Parva](./08-karna-parva.md).
+> Cosmic address: [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) ← the Mahābhārata war straddles the Dvāpara–Kali junction (traditional onset of Kali Yuga, 3102 BCE).
+> Parent: [Mahābhārata deep-dives](README.md) · Part of the [Smṛti Itihāsa epics corpus](../../90-literature-corpus/smriti-itihasa-epics.md).
+> This is the **7th of the 18 parvas** of the Mahābhārata. It covers the **11th through 15th days** of the 18-day Kurukṣetra war, under the second commander of the Kaurava host, the brahmin-warrior **Droṇa**. Following [Bhīṣma Parva](06-bhishma-parva.md); preceding [Karṇa Parva](08-karna-parva.md).
 
 The Droṇa Parva is the longest of the war-books and the moral pivot of the epic: it is here that the "agreed rules of righteous war" (*dharma-yuddha*) collapse on both sides — child-killing, the slaying of a disarmed man, deception by the truthful Yudhiṣṭhira, and night-fighting all occur. It traditionally comprises **8 sub-parvas (upa-parvas)** and ~204 chapters (Critical Edition counts vary).
 
@@ -25,7 +25,7 @@ The Droṇa Parva is the longest of the war-books and the moral pivot of the epi
 
 ## 1. Droṇābhiṣeka — Drona made commander (Day 11)
 
-- **Bhīṣma's counsel** - Falling on his arrow-bed (end of [Bhīṣma Parva](./06-bhishma-parva.md)), Bhīṣma names Droṇa as the man fit to lead next; Duryodhana installs the ācārya as commander-in-chief (Mbh 7, Droṇābhiṣeka).
+- **Bhīṣma's counsel** - Falling on his arrow-bed (end of [Bhīṣma Parva](06-bhishma-parva.md)), Bhīṣma names Droṇa as the man fit to lead next; Duryodhana installs the ācārya as commander-in-chief (Mbh 7, Droṇābhiṣeka).
 - **Drona's boon to Duryodhana** - Drona promises to capture Yudhiṣṭhira **alive**, so Duryodhana can win the kingdom by a rigged dice-game rather than war. He warns it can only work if Arjuna is drawn away from the king (Mbh 7.11–16).
 - **Day 11 combat** - Drona repeatedly drives at Yudhiṣṭhira; the Pāṇḍavas screen their king. The capture plan fails because Arjuna keeps returning.
 
@@ -93,16 +93,16 @@ The longest sub-parva; one of the epic's set-pieces.
 - **Aśvatthāmā's fury** - Learning his father was tricked and butchered, **Aśvatthāmā** invokes the **Nārāyaṇāstra**, Viṣṇu's near-omnipotent weapon that intensifies against anyone who resists it (Mbh 7.199–200).
 - **Krishna's counter** - Krishna orders the entire Pāṇḍava army to **drop all weapons, dismount, and stand utterly submissive** — the only defense, since the weapon spares the unresisting. All obey except **Bhīma**, who charges in defiance and is nearly consumed until Arjuna and Krishna physically drag him down and disarm him (Mbh 7.200–201).
 - **The weapon spent** - Denied resistance, the Nārāyaṇāstra dissipates harmlessly; it too is single-use (Mbh 7.201).
-- **Āgneyāstra and stalemate** - Aśvatthāmā then hurls the **Āgneyāstra**; Arjuna neutralizes it with the **Brahmāstra**, and the rivals are restrained from mutual annihilation. The day — and the parva — ends with the Kaurava cause crippled and Aśvatthāmā vowing vengeance, foreshadowing the **night-massacre** of [Sauptika Parva](./10-sauptika-parva.md) (Mbh 7.202–204).
+- **Āgneyāstra and stalemate** - Aśvatthāmā then hurls the **Āgneyāstra**; Arjuna neutralizes it with the **Brahmāstra**, and the rivals are restrained from mutual annihilation. The day — and the parva — ends with the Kaurava cause crippled and Aśvatthāmā vowing vengeance, foreshadowing the **night-massacre** of [Sauptika Parva](10-sauptika-parva.md) (Mbh 7.202–204).
 
 ---
 
 ## Cross-references
 
-- Up to the era: [Kali Yuga — recorded history & the great war](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)
+- Up to the era: [Kali Yuga — recorded history & the great war](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)
 - Krishna's role across the war: [Krishna-līlā deep-dive](../krishna-lila.md) · [Dashāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md)
 - The teaching that opened the war: [Bhagavad Gītā](../bhagavad-gita.md)
-- Adjacent books: [Bhīṣma Parva](./06-bhishma-parva.md) → **Droṇa Parva** → [Karṇa Parva](./08-karna-parva.md)
+- Adjacent books: [Bhīṣma Parva](06-bhishma-parva.md) → **Droṇa Parva** → [Karṇa Parva](08-karna-parva.md)
 - Lineages of the actors: [Sūryavaṃśa & Candravaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md)
 
 ---

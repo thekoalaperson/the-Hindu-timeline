@@ -1,10 +1,10 @@
 # Kṛṣṇa-līlā — The Life & Deeds of Krishna
 
-> Where this sits: the complete earthly career of **Kṛṣṇa**, 8th avatāra of [Viṣṇu](../02-deities-and-cosmic-hierarchy/dashavatara.md), born at the junction of [Dvāpara Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and [Kali Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) of our 28th Mahāyuga. His departure (3102 BCE by tradition) marks the onset of Kali Yuga. He is of the [Chandravamsha](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) (Yadu/Vṛṣṇi line).
+> Where this sits: the complete earthly career of **Kṛṣṇa**, 8th avatāra of [Viṣṇu](../02-deities-and-cosmic-hierarchy/dashavatara.md), born at the junction of [Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) of our 28th Mahāyuga. His departure (3102 BCE by tradition) marks the onset of Kali Yuga. He is of the [Chandravamsha](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) (Yadu/Vṛṣṇi line).
 >
-> Parent: [04-deep-dives](./) · Up to: [Dvāpara Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) · Related: [Bhagavad Gītā](./bhagavad-gita.md) · [Mahābhārata](./mahabharata/) · [Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md)
+> Parent: [04-deep-dives](./) · Up to: [Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) · Related: [Bhagavad Gītā](bhagavad-gita.md) · [Mahābhārata](./mahabharata/) · [Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md)
 
-This file consolidates Krishna's life **beyond the Kurukṣetra war** (for the war and Gītā, see the [Mahābhārata](./mahabharata/) and [Gītā](./bhagavad-gita.md) deep-dives). The principal source is the **Bhāgavata Purāṇa** (Canto X = childhood/Vraja/Mathurā; Canto XI = Dwārakā, Uddhava, departure), supplemented by the **Harivaṃśa** (appendix to the Mahābhārata, the oldest connected Krishna biography), **Viṣṇu Purāṇa Book 5**, Jayadeva's **Gīta-Govinda** (12th c.), the **Garga Saṃhitā**, and the **Brahma-vaivarta Purāṇa**.
+This file consolidates Krishna's life **beyond the Kurukṣetra war** (for the war and Gītā, see the [Mahābhārata](./mahabharata/) and [Gītā](bhagavad-gita.md) deep-dives). The principal source is the **Bhāgavata Purāṇa** (Canto X = childhood/Vraja/Mathurā; Canto XI = Dwārakā, Uddhava, departure), supplemented by the **Harivaṃśa** (appendix to the Mahābhārata, the oldest connected Krishna biography), **Viṣṇu Purāṇa Book 5**, Jayadeva's **Gīta-Govinda** (12th c.), the **Garga Saṃhitā**, and the **Brahma-vaivarta Purāṇa**.
 
 ---
 
@@ -87,7 +87,7 @@ The demon-slayings of infancy — most sent by Kaṃsa — and the pastoral mira
 - **Sudāmā / Kucela** - Krishna's impoverished boyhood Brahmin friend brings a humble gift of flattened rice (pṛthuka); Krishna honors him lavishly and silently grants him wealth — paradigm of devotion and divine reciprocity (Bhāgavata X.80–81). [In South Indian usage the friend is called **Kucela**.]
 - **Reunion at Kurukṣetra (solar eclipse)** - On an eclipse pilgrimage the Vraja folk, gopīs, Nanda, Yaśodā, and the Pāṇḍavas all reunite with Krishna at Samanta-pañcaka (Bhāgavata X.82).
 - **Recovering the dead sons of a Brahmin** - Krishna and Arjuna travel beyond the world to retrieve a Brahmin's lost children from Mahā-Viṣṇu, revealing Krishna's supreme identity to Arjuna (Bhāgavata X.89).
-- **The Kurukṣetra war role** - As Arjuna's charioteer and counselor he speaks the [Bhagavad Gītā](./bhagavad-gita.md) and steers the Pāṇḍava victory without bearing arms (covered fully in the [Mahābhārata](./mahabharata/) deep-dive).
+- **The Kurukṣetra war role** - As Arjuna's charioteer and counselor he speaks the [Bhagavad Gītā](bhagavad-gita.md) and steers the Pāṇḍava victory without bearing arms (covered fully in the [Mahābhārata](./mahabharata/) deep-dive).
 
 ## Final Teachings & Departure (Bhāgavata XI; Mausala Parva)
 
@@ -98,7 +98,7 @@ The demon-slayings of infancy — most sent by Kaṃsa — and the pastoral mira
 - **Death of Krishna** - Resting in the forest, Krishna is shot in the sole of his foot (his one vulnerable spot) by the hunter **Jarā**, who mistakes the foot for a deer; Krishna forgives him and ascends to his abode (Bhāgavata XI.30–31; Mausala Parva 4).
   - *Variant:* Jarā is identified as Vālī reborn — settling the karmic debt of [Rāma](./ramayana/)'s killing of Vālī in a prior avatāra. [Purāṇic gloss]
 - **Submersion of Dwārakā** - As Krishna departs, the sea reclaims Dwārakā; Arjuna evacuates the surviving women and children, who are then raided by bandits en route (Mausala Parva 7–8).
-- **Onset of Kali Yuga** - Krishna's departure (traditionally **3102 BCE**) marks the start of [Kali Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md); the Pāṇḍavas soon undertake their final journey (mahāprasthāna).
+- **Onset of Kali Yuga** - Krishna's departure (traditionally **3102 BCE**) marks the start of [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md); the Pāṇḍavas soon undertake their final journey (mahāprasthāna).
 
 ## Theological Note: Svayam Bhagavān
 

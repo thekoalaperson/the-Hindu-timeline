@@ -1,6 +1,6 @@
 # Ṛṣabhadeva, Bharata & the Deer — Renunciation across Births
 
-> Cosmic address: [Vaivasvata Manvantara](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) → an early-dynasty episode of the [Priyavrata line](../03-lineages-vamsha/README.md), narrated in the [Bhāgavata Purāṇa](../90-literature-corpus/smriti-puranas.md). Parent: [04-deep-dives](./) · See also the rival [Śakuntalā–Bharata](./shakuntala-bharata.md) eponym claim and the [Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md).
+> Cosmic address: [Vaivasvata Manvantara](../01-manvantaras/manvantara-07-vaivasvata/README.md) → an early-dynasty episode of the [Priyavrata line](../03-lineages-vamsha/README.md), narrated in the [Bhāgavata Purāṇa](../90-literature-corpus/smriti-puranas.md). Parent: [04-deep-dives](./) · See also the rival [Śakuntalā–Bharata](shakuntala-bharata.md) eponym claim and the [Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md).
 
 A single soul traced across an emperor, a deer, and a silent sage — the Bhāgavata's most sustained parable on how **attachment at the moment of death determines the next birth**. The narrative arc runs through **Bhāgavata Purāṇa 5.3–5.14**: the avatāra-father Ṛṣabhadeva (5.3–6), his son Emperor Bharata (5.7–8), and the deer→Jaḍa Bharata sequence with the Rahūgaṇa teachings (5.8–14). The same Ṛṣabha is, in **Jain tradition**, the first Tīrthaṅkara (Ādinātha) — both readings are catalogued below.
 
@@ -67,7 +67,7 @@ The Jain tradition independently venerates **Ṛṣabhanātha / Ṛṣabhadeva**
 Hindu tradition transmits **two distinct kings named Bharata**, each credited with giving **Bhārata-varṣa / Bhārata** its name:
 
 - **This strand — Bharata, son of Ṛṣabhadeva** - Asserted by the **Bhāgavata Purāṇa (5.7)** and **Viṣṇu Purāṇa (2.1)**, and emphatically by **Jain tradition** (Ādi-purāṇa): the land is named for Ṛṣabha's eldest son, the first cakravartin. This is the **cosmographic / Purāṇic** derivation (the varṣa-naming of Jambūdvīpa).
-- **The rival strand — Bharata, son of Duṣyanta and Śakuntalā** - Asserted in the **Mahābhārata (Ādi-parva)** and popularized by Kālidāsa's *Abhijñāna-śākuntalam*; this is the **epic/dynastic** derivation, the ancestor of the Kurus and Pāṇḍavas. See [Śakuntalā & Bharata](./shakuntala-bharata.md).
+- **The rival strand — Bharata, son of Duṣyanta and Śakuntalā** - Asserted in the **Mahābhārata (Ādi-parva)** and popularized by Kālidāsa's *Abhijñāna-śākuntalam*; this is the **epic/dynastic** derivation, the ancestor of the Kurus and Pāṇḍavas. See [Śakuntalā & Bharata](shakuntala-bharata.md).
 - *Reconciliation attempts (scholarly):* the two are usually treated as **separate persons in separate epochs** (the Ṛṣabha-Bharata far earlier in the dynasty than the Pauravā Duṣyanta-Bharata); the name "Bharata" recurs, and which one "the country is named for" depends on whether one privileges Purāṇic cosmography or epic genealogy. The Timeline **catalogs both** rather than choosing. [scholarly]
 
 ---

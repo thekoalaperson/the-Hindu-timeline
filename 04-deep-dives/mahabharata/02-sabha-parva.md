@@ -1,6 +1,6 @@
 # Sabhā Parva — The Book of the Assembly Hall
 
-> Cosmic address: [Brahma's current life](../../README.md) › [Vaivasvata Manvantara](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) › [28th Mahāyuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) › **[Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)** — the Pāṇḍavas at their zenith, then their fall through the dice.
+> Cosmic address: [Brahma's current life](../../README.md) › [Vaivasvata Manvantara](../../01-manvantaras/manvantara-07-vaivasvata/README.md) › [28th Mahāyuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) › **[Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)** — the Pāṇḍavas at their zenith, then their fall through the dice.
 >
 > Up: [Mahābhārata overview](README.md) · Previous: [01 — Ādi Parva](01-adi-parva.md) · Next: [03 — Vana Parva](03-vana-parva.md). Parent corpus: [Smṛti — Itihāsa & Epics](../../90-literature-corpus/smriti-itihasa-epics.md).
 
@@ -130,7 +130,7 @@ The **Sabhā Parva** ("Book of the Assembly Hall") is the **second of the 18 par
 - The Jaya–Vijaya three-births frame (Hiraṇyakaśipu → Rāvaṇa → Śiśupāla) — see [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md).
 - Rāja-dharma / kingship ideal in Nārada's catechism — see [Puruṣārthas & Dharma](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
 - The five celestial sabhās — see [Devas, Asuras & the Lokas](../../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md).
-- Dvāpara-Yuga placement of these events — see [03 — Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
+- Dvāpara-Yuga placement of these events — see [03 — Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
 
 ## Sources
 

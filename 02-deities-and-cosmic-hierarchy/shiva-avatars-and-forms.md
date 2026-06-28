@@ -1,6 +1,6 @@
 # Avatars & Forms of Śiva
 
-> Node in [`02-deities-and-cosmic-hierarchy/`](./README.md). A completeness-sweep roster of the **descent-incarnations (avatāra)**, **cosmic forms (mūrti)**, and **iconographic aspects** of Śiva (Rudra / Mahādeva). Unlike Vishnu's [Daśāvatāra](./dashavatara.md), Śiva's "avatars" are not a yuga-keyed salvation sequence but a heterogeneous set of *līlā*-manifestations, *aṃśa* (partial) births, and *āveśa* (empowerment) descents — many embedded in the [Śiva myth-cycle](./shiva-myth-cycle.md) and the [Sati–Daksha–Parvati arc](./sati-daksha-and-parvati.md). This file catalogs the classical **19 avatars** (*Śiva Purāṇa*), the **Aṣṭamūrti** (8 cosmic forms), the **11 Rudras**, the **5 faces (Pañcānana)**, and the great composite aspects (Ardhanārīśvara, Harihara, Naṭarāja, Dakṣiṇāmūrti, Liṅga). Roster is **open-ended**: the *Kūrma Purāṇa* counts 28 *yogeśvara* incarnations and Śaiva Āgamas enumerate 25 *Maheśvara-mūrti* — variants cataloged below.
+> Node in [`02-deities-and-cosmic-hierarchy/`](README.md). A completeness-sweep roster of the **descent-incarnations (avatāra)**, **cosmic forms (mūrti)**, and **iconographic aspects** of Śiva (Rudra / Mahādeva). Unlike Vishnu's [Daśāvatāra](dashavatara.md), Śiva's "avatars" are not a yuga-keyed salvation sequence but a heterogeneous set of *līlā*-manifestations, *aṃśa* (partial) births, and *āveśa* (empowerment) descents — many embedded in the [Śiva myth-cycle](shiva-myth-cycle.md) and the [Sati–Daksha–Parvati arc](sati-daksha-and-parvati.md). This file catalogs the classical **19 avatars** (*Śiva Purāṇa*), the **Aṣṭamūrti** (8 cosmic forms), the **11 Rudras**, the **5 faces (Pañcānana)**, and the great composite aspects (Ardhanārīśvara, Harihara, Naṭarāja, Dakṣiṇāmūrti, Liṅga). Roster is **open-ended**: the *Kūrma Purāṇa* counts 28 *yogeśvara* incarnations and Śaiva Āgamas enumerate 25 *Maheśvara-mūrti* — variants cataloged below.
 
 ---
 
@@ -22,15 +22,15 @@ The canonical fierce/ascetic descent-list. Order varies by edition; identity is 
 
 - **Piplāda (Pippalāda)** - Born to sage Dadhīci's line; abandoned as a child, he cursed **Śani (Saturn)** for the suffering Saturn's gaze causes, winning the boon that Śani would not afflict children under 16. Associated with the *Praśna Upaniṣad*'s teacher of the same name. (*Śiva Purāṇa*)
 - **Nandīśvara (Nandi)** - The bull-faced gaṇa-lord, born to sage Śilāda by Śiva's grace; made chief of Śiva's hosts and the eternal *dvārapāla* (gatekeeper) and *vāhana*. See also [Beings & Bestiary](../08-beings-and-bestiary/README.md). (*Śiva Purāṇa*; *Liṅga Purāṇa*)
-- **Vīrabhadra (Veerabhadra)** - The towering wrathful warrior sprung from a lock of Śiva's matted hair after **Satī's** self-immolation; he destroys **Dakṣa's sacrifice** and beheads Dakṣa. Central to the [Sati–Daksha arc](./sati-daksha-and-parvati.md). (*Śiva Purāṇa*; *Bhāgavata Purāṇa* 4.5)
+- **Vīrabhadra (Veerabhadra)** - The towering wrathful warrior sprung from a lock of Śiva's matted hair after **Satī's** self-immolation; he destroys **Dakṣa's sacrifice** and beheads Dakṣa. Central to the [Sati–Daksha arc](sati-daksha-and-parvati.md). (*Śiva Purāṇa*; *Bhāgavata Purāṇa* 4.5)
 - **Bhairava** - Emanated when Śiva, as Mahākāla, severs **Brahmā's fifth (arrogant) head** with a thumbnail; condemned to wander as **Kāla-Bhairava / Kapālika** bearing the skull (*Brahmahatyā*) until released at Kāśī. Guardian (*kṣetrapāla*) of Vārāṇasī; 8 sub-forms (Aṣṭa-Bhairava). (*Śiva Purāṇa*; *Skanda Purāṇa, Kāśī Khaṇḍa*)
   - *Variant (folk/Tantric):* called **Daṇḍapāṇi** ("staff-bearer"), the judicial executor at Kāśī. [folk]
-- **Śarabha (Sharabha)** - The colossal part-lion, part-bird (eight-legged) form Śiva assumes to **pacify Vishnu's Narasiṃha** when his fury threatens the cosmos; a flashpoint of Śaiva–Vaiṣṇava sectarian rivalry. See [Dashavatara §Narasimha](./dashavatara.md). (*Śiva Purāṇa*; *Śarabha Upaniṣad*)
+- **Śarabha (Sharabha)** - The colossal part-lion, part-bird (eight-legged) form Śiva assumes to **pacify Vishnu's Narasiṃha** when his fury threatens the cosmos; a flashpoint of Śaiva–Vaiṣṇava sectarian rivalry. See [Dashavatara §Narasimha](dashavatara.md). (*Śiva Purāṇa*; *Śarabha Upaniṣad*)
   - *Variant (Vaiṣṇava counter):* the *Vaiṣṇava* texts have Narasiṃha then become **Gaṇḍabheruṇḍa** (two-headed bird) and overpower Śarabha — the inverse polemic. [disputed]
 - **Aśvatthāmā (Ashwatthama)** - Born as an *aṃśa* (partial Rudra-portion) to **Droṇa** and Kṛpī; the immortal, cursed warrior of the *Mahābhārata* who slaughters the Pāṇḍava camp by night. Counted as Rudra's "Vīrya-puruṣa" descent to destroy unrighteous Kshatriyas. See [Lineages](../03-lineages-vamsha/README.md). (*Śiva Purāṇa*; *Mahābhārata*)
 - **Durvāsā (Durvasa)** - Born of **Atri and Anasūyā** as the Rudra-portion (alongside Soma=Brahmā-portion, Dattātreya=Vishnu-portion); the short-tempered sage whose curses drive major plots (Śakuntalā, Kunti's mantra, the *Samudra-manthana* trigger). (*Śiva Purāṇa*; *Bhāgavata Purāṇa*)
 - **Gṛhapati (Grihapati)** - Born to the Brahmin **Viśvānara** and Śucismatī after their devotion; threatened by death-by-lightning at age 12, his worship of Śiva wins him lordship of all directions and the fire-god's domain. (*Śiva Purāṇa*)
-- **Hanumān (Hanuman)** - The vānara hero, conceived when the *vāyu*-borne portion of Śiva is placed in **Añjanā's** womb (the famous "**Rudrāvatāra**"); supreme devotee of Rāma. The fullest womb-born Śiva-descent. Has a dedicated node: [hanuman.md](./hanuman.md). (*Śiva Purāṇa*, Śatarudra Saṃhitā; *Rāmāyaṇa*; *Ānanda Rāmāyaṇa*)
+- **Hanumān (Hanuman)** - The vānara hero, conceived when the *vāyu*-borne portion of Śiva is placed in **Añjanā's** womb (the famous "**Rudrāvatāra**"); supreme devotee of Rāma. The fullest womb-born Śiva-descent. Has a dedicated node: [hanuman.md](hanuman.md). (*Śiva Purāṇa*, Śatarudra Saṃhitā; *Rāmāyaṇa*; *Ānanda Rāmāyaṇa*)
   - *Variant:* many Vaiṣṇava traditions treat Hanuman as a *Vāyu*-avatar (son of the wind-god) **not** a Śiva-avatar — esp. the [Mādhva/Dvaita](../07-acharyas-and-sampradayas/README.md) lineage (Hanuman–Bhīma–Madhva). [disputed]
 - **Vṛṣabha (Vrishabha)** - Bull-form Śiva assumes to descend into Pātāla and slay the degenerate sons born of **Vishnu** (in some tellings) who terrorized the netherworld. (*Śiva Purāṇa*)
 - **Yatinātha (Yatinath)** - Ascetic guest-form who tests the hospitality of the tribal **Āhuka and Āhukā** (Bhīl devotees), rewarding their sacrifice of self for a guest. (*Śiva Purāṇa*)
@@ -40,7 +40,7 @@ The canonical fierce/ascetic descent-list. Order varies by edition; identity is 
 - **Sureśvara (Sureshwara)** - Appears as **Indra** to test the boy-sage **Upamanyu's** unwavering devotion to Śiva, then reveals himself and grants boons. (*Śiva Purāṇa*)
 - **Kirāta / Kirāteśvara** - The **hunter (Kirāta)** form who battles **Arjuna** over a slain boar and, after the duel, grants the **Pāśupatāstra** (the supreme weapon). Basis of Bhāravi's *Kirātārjunīya*. (*Śiva Purāṇa*; *Mahābhārata, Vana Parva*)
 - **Sunaṭanartaka / Naṭeśvara (Sunatnartaka)** - The "graceful dancer" form Śiva takes to appear before **Himavān** and win the hand of **Pārvatī** (as a wandering performer who dances and asks for her). Distinct from cosmic Naṭarāja (below). (*Śiva Purāṇa*)
-- **Brahmacārī (Brahmachari)** - The young celibate-ascetic form who approaches **Pārvatī** during her penance to test her resolve by slandering Śiva — she passes, reaffirming her choice. Key in the [Parvati cycle](./sati-daksha-and-parvati.md). (*Śiva Purāṇa*)
+- **Brahmacārī (Brahmachari)** - The young celibate-ascetic form who approaches **Pārvatī** during her penance to test her resolve by slandering Śiva — she passes, reaffirming her choice. Key in the [Parvati cycle](sati-daksha-and-parvati.md). (*Śiva Purāṇa*)
 - **Yakṣeśvara / Yakṣa (Yaksheshwar)** - The mysterious Yaksha-form who, after the *devas* grow proud of defeating the *asuras*, humbles them by setting a blade of grass none can burn or cut (parallel to the *Kena Upaniṣad*'s Yakṣa). (*Śiva Purāṇa*; cf. *Kena Upaniṣad*)
 
 > *Variant counts of the descent-list:*
@@ -101,11 +101,11 @@ The Śaiva Āgamas enumerate **25 (or 64) Maheśvara-mūrti**, sorted into *saum
 ### Benign / synthesis (saumya)
 - **Liṅga / Liṅgodbhava** - The aniconic pillar of light; the primary form of Śiva-worship. In **Liṅgodbhava**, Śiva manifests as an infinite *jyotirliṅga* (column of fire) whose top (Brahmā as swan) and bottom (Vishnu as boar) neither can find — the myth establishing Śiva's supremacy and grounding the **12 Jyotirliṅgas**. See [Sacred Geography](../06-sacred-geography/README.md). (*Śiva Purāṇa, Vidyeśvara Saṃhitā*)
 - **Ardhanārīśvara** - "The Lord who is half-woman": Śiva fused vertically with **Pārvatī** (right male / left female), embodying *Puruṣa–Prakṛti*, the inseparability of consciousness and energy. (*Śiva Purāṇa*; *Liṅga Purāṇa*)
-- **Harihara (Śaṅkaranārāyaṇa)** - Composite of Śiva (right half) and **Vishnu** (left half), asserting the unity of the two great deities; a reconciliation icon esp. in South India and Cambodia. See [Trimurti & Tridevi](./trimurti-and-tridevi.md). [also tagged sectarian-synthesis]
+- **Harihara (Śaṅkaranārāyaṇa)** - Composite of Śiva (right half) and **Vishnu** (left half), asserting the unity of the two great deities; a reconciliation icon esp. in South India and Cambodia. See [Trimurti & Tridevi](trimurti-and-tridevi.md). [also tagged sectarian-synthesis]
 - **Dakṣiṇāmūrti** - Śiva as the silent **supreme Guru**, seated facing south under a banyan, teaching the four primordial sages by *cin-mudrā* (silence); patron of jñāna, yoga, music, and śāstra. (*Śaiva Āgamas*; Śaṅkara's *Dakṣiṇāmūrti Stotra*)
 - **Naṭarāja** - The **cosmic dancer** performing the *Ānanda-tāṇḍava* in the hall of **Cidambaram**: the *pañcakṛtya* in motion — *ḍamaru* (creation), *agni* (destruction), *abhaya-mudrā* (protection), foot on *Apasmāra* (the demon of ignorance), raised foot (release/grace). The Chola bronze archetype. Distinct from the Sunaṭanartaka avatar (above). (*Chidambaram Māhātmya*; *Koyil Purāṇam*)
   - *Variant:* the fierce counterpart **Tāṇḍava / Ūrdhva-Tāṇḍava** (the violent dance in which Śiva defeats **Kālī** by raising his foot, *ūrdhva*). [Tamil tradition]
-- **Somāskanda** - Śiva enthroned with **Umā (Pārvatī)** and the child **Skanda** — the "holy family" icon. See [Ganesha & Kartikeya](./ganesha-and-kartikeya.md).
+- **Somāskanda** - Śiva enthroned with **Umā (Pārvatī)** and the child **Skanda** — the "holy family" icon. See [Ganesha & Kartikeya](ganesha-and-kartikeya.md).
 - **Candraśekhara** - The benign "moon-crested" standing form, the baseline iconographic Śiva.
 - **Bhikṣāṭana** - The naked, beautiful **mendicant** who wanders begging (penance for severing Brahmā's head), seducing the wives of the Dāruka-vana sages — the origin-myth fusing into the **Pīcāṇḍār / Kaṅkālamūrti** cycle. (*Śaiva Āgamas*; *Sūta Saṃhitā*)
 
@@ -114,7 +114,7 @@ The Śaiva Āgamas enumerate **25 (or 64) Maheśvara-mūrti**, sorted into *saum
 - **Kālāntaka (Kāla-saṃhāra-mūrti)** - Śiva who **conquers Death (Yama)** to save the boy-devotee **Mārkaṇḍeya**, kicking down Yama; root of the **Mṛtyuñjaya** ("conqueror of death") form. (*Skanda Purāṇa*)
 - **Tripurāntaka** - The archer who, with a single arrow from his bow **Pināka**, destroys the three flying cities (**Tripura**) of the asuras — the chariot being the earth, sun-moon wheels, Brahmā charioteer. A supreme cosmic-warrior icon. (*Śiva Purāṇa, Rudra Saṃhitā*; *Mahābhārata, Karṇa Parva*)
 - **Gajāsuravadha / Gajāntaka** - Śiva slaying and dancing within the flayed hide of the **elephant-demon Gaja(suara)**; the "elephant-skin-clad" terror form. (*Kūrma Purāṇa*)
-- **Kāmāntaka (Kāmāri)** - Śiva who **incinerates Kāma** (the god of desire) with his third eye when Kāma disturbs his meditation; sets up the Pārvatī marriage. See [Sati–Daksha–Parvati](./sati-daksha-and-parvati.md). (*Śiva Purāṇa*; Kālidāsa's *Kumārasaṃbhava*)
+- **Kāmāntaka (Kāmāri)** - Śiva who **incinerates Kāma** (the god of desire) with his third eye when Kāma disturbs his meditation; sets up the Pārvatī marriage. See [Sati–Daksha–Parvati](sati-daksha-and-parvati.md). (*Śiva Purāṇa*; Kālidāsa's *Kumārasaṃbhava*)
 - **Kaṅkālamūrti** - Śiva wandering with the *kaṅkāla* (skeleton-staff) of slain **Viṣvaksena**, a penitential beggar-form continuous with Bhikṣāṭana. (*Śaiva Āgamas*)
 - **Andhakāsura-vadha (Andhakāntaka)** - Śiva impaling the blind asura **Andhaka** on his trident, drinking each drop of his blood (which else would breed new demons), finally converting him into the gaṇa **Bhṛṅgi**. (*Matsya/Kūrma/Liṅga Purāṇas*)
 - **Śarabha** - see Avatar list; the anti-Narasiṃha fierce form, also classed among the saṃhāra-mūrti.
@@ -135,10 +135,10 @@ The Śaiva Āgamas enumerate **25 (or 64) Maheśvara-mūrti**, sorted into *saum
 | Pañcānana faces | 5 (+1) | the *pañcakṛtya* acts | §D |
 | Maheśvara aspect-mūrti | 25 / 64 | iconographic synthesis | §E |
 
-- Full narrative of the destroyer-cycle: [shiva-myth-cycle.md](./shiva-myth-cycle.md).
-- Consort-side rosters: [sati-daksha-and-parvati.md](./sati-daksha-and-parvati.md), [devi-mahatmya-and-the-great-goddess.md](./devi-mahatmya-and-the-great-goddess.md), [dasha-mahavidya.md](./dasha-mahavidya.md).
-- Sons: [ganesha-and-kartikeya.md](./ganesha-and-kartikeya.md). Devotee/avatar with own node: [hanuman.md](./hanuman.md).
-- Trimūrti placement: [trimurti-and-tridevi.md](./trimurti-and-tridevi.md).
+- Full narrative of the destroyer-cycle: [shiva-myth-cycle.md](shiva-myth-cycle.md).
+- Consort-side rosters: [sati-daksha-and-parvati.md](sati-daksha-and-parvati.md), [devi-mahatmya-and-the-great-goddess.md](devi-mahatmya-and-the-great-goddess.md), [dasha-mahavidya.md](dasha-mahavidya.md).
+- Sons: [ganesha-and-kartikeya.md](ganesha-and-kartikeya.md). Devotee/avatar with own node: [hanuman.md](hanuman.md).
+- Trimūrti placement: [trimurti-and-tridevi.md](trimurti-and-tridevi.md).
 
 ---
 

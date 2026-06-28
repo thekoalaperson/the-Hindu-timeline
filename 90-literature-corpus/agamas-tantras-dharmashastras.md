@@ -1,6 +1,6 @@
 # Āgamas, Tantras & Dharmaśāstras
 
-> Literature-corpus node. These are post-Vedic, smṛti-class texts that **record and regulate** the events and practices of [Kali Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md). The Āgama/Tantra streams govern temple worship, initiation and esoteric practice; the Dharmaśāstra/Sūtra streams govern law, ritual and social order. By traditional reckoning all crystallise within the present Kali Yuga (post-3102 BCE); academic dating places most c. 600 BCE – 1200 CE. See sibling nodes [../shruti-vedas-and-upanishads.md](./shruti-vedas-and-upanishads.md) and [../smriti-puranas.md](./smriti-puranas.md).
+> Literature-corpus node. These are post-Vedic, smṛti-class texts that **record and regulate** the events and practices of [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md). The Āgama/Tantra streams govern temple worship, initiation and esoteric practice; the Dharmaśāstra/Sūtra streams govern law, ritual and social order. By traditional reckoning all crystallise within the present Kali Yuga (post-3102 BCE); academic dating places most c. 600 BCE – 1200 CE. See sibling nodes [../shruti-vedas-and-upanishads.md](shruti-vedas-and-upanishads.md) and [../smriti-puranas.md](smriti-puranas.md).
 
 ---
 
@@ -8,7 +8,7 @@
 
 - **Śruti vs. smṛti.** Vedas = śruti ("heard," eternal revelation). Everything on this page is **smṛti** ("remembered," authored), the human-transmitted layer that operationalises the Veda for the current age. (Dharmaśāstra Wikipedia; ISKCON Heart of Hinduism)
 - **Āgama vs. Nigama.** Āgama = "that which has come down" — revelation framed as a **dialogue of Śiva/Viṣṇu/Devī** with consort or disciple; Nigama = the Vedic corpus. Tantra/Āgama traditions claim *equal or supplementary* authority to śruti for Kali Yuga, when Vedic sacrifice is held to be impractical. (Agama (Hinduism) Wikipedia; Saivism.net)
-- **The "Kali Yuga argument."** Many of these traditions justify themselves by the doctrine that the elaborate Vedic śrauta path is too demanding for the short-lived, low-dharma humans of [Kali Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md); hence Tantra/Āgama (image-worship, mantra, initiation) is the **yuga-appropriate** path. [late-text rationale]
+- **The "Kali Yuga argument."** Many of these traditions justify themselves by the doctrine that the elaborate Vedic śrauta path is too demanding for the short-lived, low-dharma humans of [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md); hence Tantra/Āgama (image-worship, mantra, initiation) is the **yuga-appropriate** path. [late-text rationale]
 
 ---
 
@@ -32,7 +32,7 @@ Kalpa = the sixth **Vedāṅga** ("limb of the Veda"), the prose **sūtra** manu
 
 Verse reworkings and expansions of the Dharma-sūtra material into comprehensive treatises on **dharma** (duty/law/righteousness): the **varṇāśrama** system, kingship/governance (rājadharma), civil & criminal procedure (vyavahāra), penance (prāyaścitta), inheritance, ritual. (Dharmaśāstra Wikipedia; ISKCON Heart of Hinduism)
 
-- **Manusmṛti / Mānava-Dharmaśāstra ("Laws of Manu")** — the most famous and influential. Attributed to **Manu Svāyambhuva / Vaivasvata Manu** (see [../../02-deities-and-cosmic-hierarchy](../02-deities-and-cosmic-hierarchy/) and the [14 Manus](../01-brahma-current-life/the-14-manvantaras/)), narrated to sages; ~2,690 verses, 12 chapters. Covers creation, the four varṇas, the four āśramas, women's duties, rājadharma, karma/rebirth.
+- **Manusmṛti / Mānava-Dharmaśāstra ("Laws of Manu")** — the most famous and influential. Attributed to **Manu Svāyambhuva / Vaivasvata Manu** (see [../../02-deities-and-cosmic-hierarchy](../02-deities-and-cosmic-hierarchy/) and the [14 Manus](../01-manvantaras/)), narrated to sages; ~2,690 verses, 12 chapters. Covers creation, the four varṇas, the four āśramas, women's duties, rājadharma, karma/rebirth.
   - *Dating (traditional):* a smṛti of the current Manvantara, "Vaivasvata Manu's code."
   - *Dating (academic):* compiled **c. 200 BCE – 200 CE** (Patrick Olivelle: 2nd–3rd c. CE); some popular sources give a wider 300 BCE–600 CE range. (Manusmriti Wikipedia)
   - *Variant (recensions):* multiple textual recensions exist; the **vulgate of commentator Kullūka Bhaṭṭa** (c. 12th–13th c.) became standard, but Olivelle's critical edition shows substantial earlier-layer differences. [disputed text history]

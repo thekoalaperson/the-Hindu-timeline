@@ -1,6 +1,6 @@
 # Cosmogony — Accounts of Creation
 
-> Where this sits: `00-time-and-cosmology/` — the foundational node. Before the cosmic clock starts ticking (yugas, manvantaras, kalpas), the texts ask *how the cosmos arose at all*. Hindu tradition gives not one answer but many, layered chronologically (Vedic → Upanishadic → Puranic) and sectarianly (Vaishnava / Shaiva / Shakta). This file catalogs ALL major accounts as distinct, source-attributed variants. For the resulting time-frame see [the cosmic clock](./README.md) and [the kalpa structure](../01-brahma-current-life/).
+> Where this sits: `00-time-and-cosmology/` — the foundational node. Before the cosmic clock starts ticking (yugas, manvantaras, kalpas), the texts ask *how the cosmos arose at all*. Hindu tradition gives not one answer but many, layered chronologically (Vedic → Upanishadic → Puranic) and sectarianly (Vaishnava / Shaiva / Shakta). This file catalogs ALL major accounts as distinct, source-attributed variants. For the resulting time-frame see [the cosmic clock](README.md) and [the kalpa structure](../01-manvantaras/).
 
 A key conceptual point: most accounts describe **cyclic re-creation** (the cosmos is re-projected each Day of Brahma after dissolution/pralaya), not an absolute one-time origin. The Puranas distinguish:
 - **Sarga** — primary creation: the unfolding of the cosmos out of unmanifest *prakriti* at the start of Brahma's life.
@@ -44,7 +44,7 @@ A key conceptual point: most accounts describe **cyclic re-creation** (the cosmo
   - *Madhu–Kaitabha episode:* two demons born from Vishnu's ear-wax threaten the newborn Brahma / steal the Vedas; Vishnu slays them — framing the order of creation against primordial chaos. (Mahabharata; Devi Mahatmya 1; Bhagavata Purana)
   - *Variant (Brahma's bewilderment):* Brahma, born on the lotus, does not know his own origin; he descends the lotus-stalk seeking its root, fails, performs tapas, and is granted vision of Vishnu — establishing Vishnu's supremacy. (Bhagavata Purana 3.8–9)
   - *Variant (egg on the lotus):* some accounts place the **cosmic egg (Brahmanda)** atop the navel-lotus, with Brahma forming inside it (synthesis of the lotus and egg motifs). (Puranic syncretic versions)
-  - *Cross-note:* the **periodicity** — Brahma emerges to create at the start of each Day of Brahma after Shiva/Vishnu's dissolution — anchors this to [the kalpa cycle](../01-brahma-current-life/).
+  - *Cross-note:* the **periodicity** — Brahma emerges to create at the start of each Day of Brahma after Shiva/Vishnu's dissolution — anchors this to [the kalpa cycle](../01-manvantaras/).
 
 ---
 
@@ -112,14 +112,14 @@ Once the framework exists, **Brahma populates it** (visarga / pratisarga). This 
 - **Birth of Rudra from Brahma's anger.** Enraged at the Kumaras' refusal, Brahma's brow (forehead), darkened with frowns, emits **Rudra** — half male, half female. Brahma bids him divide; the male part becomes **eleven Rudras**, the female the **shaktis/goddesses**. (Vishnu Purana 1.7; Bhagavata Purana 3.12)
   - *Variant:* Rudra is told to create but produces only beings like himself (immortal, fierce); Brahma stops him and assigns creation of mortals to the Prajapatis instead. (Shiva-leaning Puranas) [sectarian inversion of the Shaiva account where Shiva is supreme]
 
-- **Brahma splits into male and female — Svayambhuva Manu and Shatarupa.** Brahma divides his body into two halves: the male becomes **Svayambhuva Manu** (the first Manu), the female **Shatarupa**; their union begins the human/dynastic line. (Vishnu Purana 1.7; Manusmriti 1.32) — links to [Manvantara 01: Svayambhuva](../01-brahma-current-life/the-14-manvantaras/).
+- **Brahma splits into male and female — Svayambhuva Manu and Shatarupa.** Brahma divides his body into two halves: the male becomes **Svayambhuva Manu** (the first Manu), the female **Shatarupa**; their union begins the human/dynastic line. (Vishnu Purana 1.7; Manusmriti 1.32) — links to [Manvantara 01: Svayambhuva](../01-manvantaras/).
   - Their children: sons **Priyavrata** and **Uttanapada**; daughters whose progeny seed further lineages.
 
 - **Daksha and the population of the worlds.** **Daksha Prajapati** (a mind-born son / and reborn son of the Prachetas in a later cycle) fathers numerous daughters who, married to the sages and gods, become the mothers of **devas, asuras, animals, plants, nagas, and all living kinds**. His **daughters married to Kashyapa (Aditi, Diti, Danu, etc.)** generate the Adityas (gods), Daityas, Danavas (demons), and more — the great branching of beings. (Vishnu Purana 1.15, 1.21; Bhagavata Purana 6.6)
   - *Variant:* the number of Daksha's daughters varies — commonly **24** (married to Dharma, the sages, etc.) and/or **60** (assigned to Kashyapa, the moon, etc.). [count variant]
   - *Daksha's two creations:* "creation by will" (mind-born offspring) first; when insufficient, Daksha resorts to **sexual generation (maithuni srishti)** — marking the shift to the present mode of procreation. (Vishnu Purana 1.15)
 
-- **The presiding cosmic functionaries.** Brahma also establishes the **Manus, Indras, Saptarishis, gods, and ancestors** appropriate to each manvantara — the recurring "officers" of cosmic time. (Vishnu Purana 3.1–2; Bhagavata Purana 8) — see [the 14 manvantaras](../01-brahma-current-life/the-14-manvantaras/).
+- **The presiding cosmic functionaries.** Brahma also establishes the **Manus, Indras, Saptarishis, gods, and ancestors** appropriate to each manvantara — the recurring "officers" of cosmic time. (Vishnu Purana 3.1–2; Bhagavata Purana 8) — see [the 14 manvantaras](../01-manvantaras/).
 
 ---
 
@@ -127,7 +127,7 @@ Once the framework exists, **Brahma populates it** (visarga / pratisarga). This 
 
 - **Layered, not contradictory (traditional harmonization):** the Vedic hymns describe the *unmanifest absolute and first impulse*; the Upanishads identify it as Brahman/Atman; the Puranas narrate the *staged material unfolding* and *who governs it*. Each sect (Vaishnava/Shaiva/Shakta) names its supreme deity as the unmanifest source and casts the Trimurti as that deity's functional aspects.
 - **Genuine doctrinal tensions (catalog, don't resolve):** *sat-from-asat* (RV 10.72, Chandogya 3.19) **vs** *sat-only / no-derivation* (Chandogya 6.2, Nasadiya Sukta); **agnostic** origin (Nasadiya) **vs** confident theistic origin (Purusha Sukta, Puranas); sectarian supremacy disputes (Vaishnava lotus-Brahma vs Shaiva Lingodbhava vs Shakta Devi-creates-Trimurti).
-- **The hand-off to the timeline:** every account converges on **Brahma as the operative creator of the current kalpa**, whose Day begins the manvantara/yuga sequence. From here the clock starts — see [Brahma's current life](../01-brahma-current-life/) and [the cosmic time units](./README.md).
+- **The hand-off to the timeline:** every account converges on **Brahma as the operative creator of the current kalpa**, whose Day begins the manvantara/yuga sequence. From here the clock starts — see [Brahma's current life](../01-manvantaras/) and [the cosmic time units](README.md).
 
 ---
 

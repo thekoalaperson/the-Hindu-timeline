@@ -84,7 +84,7 @@ Yama's signal image (KU 1.3.3–9), a template for later yoga psychology:
 - *Variant (Taittirīya Brāhmaṇa 3.11.8):* three boons → climax is the **Nāciketa fire-altar** that defeats *re-death*; the reward is **ritual immortality in heaven**. No chariot, no śreyas/preyas, no ātman doctrine. [scholarly]
 - *Variant (Kaṭha Upaniṣad):* same frame; the fire becomes the **second** boon, and the climactic **third** boon is the **knowledge of the deathless Self**, taught via śreyas/preyas, the chariot simile, OM, and yoga. Ritual conquest of death is reframed as *gnostic* conquest of death. [scholarly]
 - *Father's name variants:* **Vājaśravasa** (KU 1.1.1) / addressed as **Gautama** (KU 1.1.10); identified with **Uddālaka Āruṇi / Auddālaki** in some traditions and Brāhmaṇa lines. [disputed across recensions]
-- *Later citations:* the unborn-Self verses (KU 1.2.18–19) reappear nearly verbatim at **Bhagavad-Gītā 2.19–20**; the inverted-tree (KU 2.6.1) at **Gītā 15.1** — see [./bhagavad-gita.md](./bhagavad-gita.md). The Naciketas tale is also retold in the **Mahābhārata** (Anuśāsana Parva) and alluded to in *Vana Parva*. [late text relative to the Upaniṣad]
+- *Later citations:* the unborn-Self verses (KU 1.2.18–19) reappear nearly verbatim at **Bhagavad-Gītā 2.19–20**; the inverted-tree (KU 2.6.1) at **Gītā 15.1** — see [./bhagavad-gita.md](bhagavad-gita.md). The Naciketas tale is also retold in the **Mahābhārata** (Anuśāsana Parva) and alluded to in *Vana Parva*. [late text relative to the Upaniṣad]
 
 ---
 
@@ -94,7 +94,7 @@ Yama's signal image (KU 1.3.3–9), a template for later yoga psychology:
 - Death, afterlife, rebirth and liberation doctrine: [../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md](../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md)
 - The Self (ātman/brahman) in the darśanas: [../05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md](../05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md)
 - Yoga and sense-restraint: [../05-concepts-and-dharma/yoga-paths-and-patanjali.md](../05-concepts-and-dharma/yoga-paths-and-patanjali.md)
-- Verses re-used in the Gītā: [./bhagavad-gita.md](./bhagavad-gita.md)
+- Verses re-used in the Gītā: [./bhagavad-gita.md](bhagavad-gita.md)
 - Yama among the deities / lokapālas: [../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)
 
 ---

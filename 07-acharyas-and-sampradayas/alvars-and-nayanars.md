@@ -1,7 +1,7 @@
 # The Ālvārs & Nāyaṉārs — Tamil Bhakti Saints
 
 *Tamil Nadu, c. 6th–9th c. CE — the southern origin of the Bhakti movement.*
-*Sits under [07-acharyas-and-sampradayas](./README.md). Literary corpus cross-reference: [../90-literature-corpus/tamil-canon-sangam-and-bhakti.md](../90-literature-corpus/tamil-canon-sangam-and-bhakti.md).*
+*Sits under [07-acharyas-and-sampradayas](README.md). Literary corpus cross-reference: [../90-literature-corpus/tamil-canon-sangam-and-bhakti.md](../90-literature-corpus/tamil-canon-sangam-and-bhakti.md).*
 
 The Ālvārs (Vaishnava, "those immersed in God") and Nāyaṉārs (Shaiva, "hounds/leaders of Śiva") were two parallel waves of Tamil saint-poets who turned ritual Vedic religion into emotional, vernacular, temple-centred devotion (*bhakti*) directed at Viṣṇu and Śiva respectively. Their hymns — the **Nālāyira Divya Prabandham** (Vaishnava) and the **Tirumuṟai** including the **Tēvāram** (Shaiva) — became the "Tamil Veda" and seeded the pan-Indian Bhakti movement of later centuries [scholarly]. **Dating note:** academic consensus places them c. 6th–9th c. CE; traditional Vaishnava chronology pushes the Ālvārs into the Dvāpara/Kali yugas (millennia BCE) [traditional] [disputed].
 

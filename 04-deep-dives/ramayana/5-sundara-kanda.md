@@ -1,7 +1,7 @@
 # Sundara Kāṇḍa — The Beautiful Book
 
-> Cosmic address: [Vaivasvata Manvantara](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) → 28th Mahāyuga → **[Tretā Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)** → the Rāma-avatāra cycle.
-> Parent: **[Rāmāyaṇa deep-dive](./README.md)** · Previous: [Kiṣkindhā Kāṇḍa](./4-kishkindha-kanda.md) · Next: [Yuddha Kāṇḍa](./6-yuddha-kanda.md)
+> Cosmic address: [Vaivasvata Manvantara](../../01-manvantaras/manvantara-07-vaivasvata/README.md) → 28th Mahāyuga → **[Tretā Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)** → the Rāma-avatāra cycle.
+> Parent: **[Rāmāyaṇa deep-dive](README.md)** · Previous: [Kiṣkindhā Kāṇḍa](4-kishkindha-kanda.md) · Next: [Yuddha Kāṇḍa](6-yuddha-kanda.md)
 > See also: [Daśāvatāra (Rāma)](../../02-deities-and-cosmic-hierarchy/dashavatara.md) · [Sūryavaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) · [Itihāsa-Epics corpus](../../90-literature-corpus/smriti-itihasa-epics.md)
 
 The fifth book of Vālmīki's Rāmāyaṇa, **68 sargas / ~2,885 ślokas**, named *Sundara* ("Beautiful") — by tradition because it is the most beautiful book, or because its hero Hanumān is *sundara* (handsome), or after Añjanā's pet-name *Sundara* for her son. It is the **only kāṇḍa in which Rāma is not the principal actor** — its hero is Hanumān — and is the single most independently recited/parayana'd book of the epic, held to confer success and remove obstacles. Narratively it is one continuous arc: the crossing of the ocean, the search of Laṅkā, the finding of Sītā, the burning of the city, and the return.
@@ -57,7 +57,7 @@ The fifth book of Vālmīki's Rāmāyaṇa, **68 sargas / ~2,885 ślokas**, name
 - **Farewell to Sītā** - Hanumān returns to the grove, comforts Sītā, again offers to carry her (again declined), receives her final message and the cūḍāmaṇi, and takes leave (Vālmīki *Sundara* 56–57; ordering varies by recension).
 - **The return leap and report at the seashore** - From Mount Ariṣṭa he leaps back across the ocean and lands among the waiting vānaras (Aṅgada, Jāmbavān et al.), shouting *"dṛṣṭā Sītā!"* — "I have seen Sītā!" (Vālmīki *Sundara* 57).
 - **The Madhuvana (honey-grove) revel** - Overjoyed, the vānaras raid Sugrīva's protected honey-garden **Madhuvana**, drinking honey and fighting off its keeper **Dadhimukha**, Sugrīva's uncle, who complains to the king — Sugrīva rightly reads the riot as proof of success and is pleased (Vālmīki *Sundara* 60–62).
-- **Reporting to Rāma** - The host returns to Kiṣkindhā; Hanumān narrates everything to Rāma — Sītā found, faithful, grieving, in the Aśoka-vana — and presents the **cūḍāmaṇi**. Rāma, overwhelmed, presses it to his heart and weeps, and resolves on the march to Laṅkā, bridging to the [Yuddha Kāṇḍa](./6-yuddha-kanda.md) (Vālmīki *Sundara* 63–68).
+- **Reporting to Rāma** - The host returns to Kiṣkindhā; Hanumān narrates everything to Rāma — Sītā found, faithful, grieving, in the Aśoka-vana — and presents the **cūḍāmaṇi**. Rāma, overwhelmed, presses it to his heart and weeps, and resolves on the march to Laṅkā, bridging to the [Yuddha Kāṇḍa](6-yuddha-kanda.md) (Vālmīki *Sundara* 63–68).
 
 ## VI. Major Variant Traditions
 

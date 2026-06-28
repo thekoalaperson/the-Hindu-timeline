@@ -1,7 +1,7 @@
 # Ādi Parva — The Book of the Beginning
 
-> Cosmic address: the Mahābhārata unfolds at the cusp of the [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and the [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) of the current Vaivasvata Manvantara; Kṛṣṇa is the 8th [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md) of [Viṣṇu](../../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md). The Kurus belong to the [Candravaṃśa / lunar line](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
-> Parent: [Mahābhārata deep-dive index](./README.md) · Part of [04-deep-dives](../README.md). Primary source: Vyāsa's [Mahābhārata](../../90-literature-corpus/smriti-itihasa-epics.md), Book 1.
+> Cosmic address: the Mahābhārata unfolds at the cusp of the [Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and the [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) of the current Vaivasvata Manvantara; Kṛṣṇa is the 8th [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md) of [Viṣṇu](../../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md). The Kurus belong to the [Candravaṃśa / lunar line](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
+> Parent: [Mahābhārata deep-dive index](README.md) · Part of [04-deep-dives](../README.md). Primary source: Vyāsa's [Mahābhārata](../../90-literature-corpus/smriti-itihasa-epics.md), Book 1.
 
 The **Ādi Parva** ("Book of the Beginning") is the first of the eighteen *parvas* of the Mahābhārata — the longest single book, divided traditionally into **19 *upaparvas* (sub-parvas)**, spanning ~236 adhyāyas in the Calcutta/Bombay vulgate. It establishes the frame narration, the cosmic background, the genealogy of the [Kuru house](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md), the births of the Kaurava and Pāṇḍava cousins, their rivalry, the attempt to burn them in the lac house, their forest exile, the winning of Draupadī, and the founding of Indraprastha sealed by the burning of the Khāṇḍava forest. (Whole-book summary: Vyāsa, Ādi Parva; critical edition: V.S. Sukthankar, ed., BORI.)
 
@@ -117,8 +117,8 @@ The book is told in nested frames: **Ugraśravas Sauti** narrates to the ṛṣi
 
 ## Cross-links
 
-- Builds on the [Candravaṃśa lineage](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) and the [Dvāpara-Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) setting.
-- Continues in the **Sabhā Parva** (the dice game) → see the [Mahābhārata index](./README.md).
+- Builds on the [Candravaṃśa lineage](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) and the [Dvāpara-Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) setting.
+- Continues in the **Sabhā Parva** (the dice game) → see the [Mahābhārata index](README.md).
 - Kṛṣṇa as avatāra: [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md).
 - The epic as *itihāsa*: [Smṛti — Itihāsa & Epics](../../90-literature-corpus/smriti-itihasa-epics.md).
 

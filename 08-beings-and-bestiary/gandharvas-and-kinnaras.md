@@ -1,10 +1,10 @@
 # Gandharvas & Kinnaras
 
-> Part of [08 · Beings & Bestiary](./README.md) → the **celestial-musician roster** of the heavenly courts.
+> Part of [08 · Beings & Bestiary](README.md) → the **celestial-musician roster** of the heavenly courts.
 > Cosmic address: residents of *Gandharvaloka* / *Svarga* / the slopes of *Kailāsa* (see [Devas, Asuras & the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)).
-> Paired class: the [Apsarās](./apsaras.md) (their dancer-wives). For marriage by mutual consent (*gandharva vivāha*) cross-link [05 · Concepts & Dharma](../05-concepts-and-dharma/).
+> Paired class: the [Apsarās](apsaras.md) (their dancer-wives). For marriage by mutual consent (*gandharva vivāha*) cross-link [05 · Concepts & Dharma](../05-concepts-and-dharma/).
 
-The **gandharvas** (गन्धर्व) are the male celestial musicians and singers of Hindu cosmology — handsome, fragrant-robed virtuosi who play the heavenly arts at Indra's court, **guard the Soma** (the sacred draught), husband the [apsarās](./apsaras.md), and stand as a liminal class between *devas* and humans. The **kinnaras** (किन्नर, "what-man?") and **kimpuruṣas** (किम्पुरुष, "what-man?") are a parallel hybrid order — half-horse/half-human (India) or half-bird/half-human (later, Southeast-Asian iconography) — who serve as choristers in **Kubera's** court on Kailāsa. Both are large but **finite** classes: the *Atharvaveda* fixes the gandharvas at **6,333**, yet only a finite set of **named** musicians recurs across the Vedas, Mahābhārata, Rāmāyaṇa, Purāṇas and Jain/Buddhist cosmologies. This node catalogs the named roster and every major count/list/etymology variant.
+The **gandharvas** (गन्धर्व) are the male celestial musicians and singers of Hindu cosmology — handsome, fragrant-robed virtuosi who play the heavenly arts at Indra's court, **guard the Soma** (the sacred draught), husband the [apsarās](apsaras.md), and stand as a liminal class between *devas* and humans. The **kinnaras** (किन्नर, "what-man?") and **kimpuruṣas** (किम्पुरुष, "what-man?") are a parallel hybrid order — half-horse/half-human (India) or half-bird/half-human (later, Southeast-Asian iconography) — who serve as choristers in **Kubera's** court on Kailāsa. Both are large but **finite** classes: the *Atharvaveda* fixes the gandharvas at **6,333**, yet only a finite set of **named** musicians recurs across the Vedas, Mahābhārata, Rāmāyaṇa, Purāṇas and Jain/Buddhist cosmologies. This node catalogs the named roster and every major count/list/etymology variant.
 
 ---
 
@@ -22,7 +22,7 @@ The **gandharvas** (गन्धर्व) are the male celestial musicians and 
 
 - **Gandharvaloka / Indraloka** - Gandharvas usually dwell in **Svarga**, serving at Indra's court, but also hold their **own world, Gandharvaloka**. *(Source: Purāṇic cosmology.)*
 - **Soma-guardians** - A core Vedic office: gandharvas **guard the Soma** and play music for the devas in their palaces. *(Source: Ṛgveda; Atharvaveda.)*
-- **Husbands of the apsarās** - The standing pairing: gandharvas (music) + [apsarās](./apsaras.md) (dance) form the heavenly performing arts. *(Source: Purāṇas; Nāṭyaśāstra tradition.)*
+- **Husbands of the apsarās** - The standing pairing: gandharvas (music) + [apsarās](apsaras.md) (dance) form the heavenly performing arts. *(Source: Purāṇas; Nāṭyaśāstra tradition.)*
 - **Gandharva-yāma / -velā** - The pre-dawn watch sacred to gandharvas, when humans should not roam — the temporal trigger of the Arjuna–Aṅgāraparṇa duel (below). *(Source: MBh Ādi Parva.)*
 
 ---
@@ -74,7 +74,7 @@ The **gandharvas** (गन्धर्व) are the male celestial musicians and 
 - **Kinnara** - Half-human hybrid (human + horse), **paradigmatic lover and celestial musician**; like the **yakṣas**, kinnaras are **attendants of Kubera**, dwelling in his paradise on **Kailāsa** and singing in his court. *(Source: classical Sanskrit literature; wisdomlib.)*
   - *Variant (form):* India = half-**horse**/half-man; later Southeast Asia = half-**bird** (the female **kinnarī**, half-bird/half-woman). [late text]
 - **Kimpuruṣa** - Closely identified with (or the same tribe as) the kinnaras; "is-this-a-man?" hybrids, sometimes glossed as **half-man/half-woman** (hermaphrodite) or **lion-/horse-headed**. Frequent the slopes of Kailāsa as musicians. *(Source: Mahābhārata; Bhāgavata & Brahmāṇḍa Purāṇas.)* [disputed — leonine vs. equine head]
-- **Kimpuruṣa, son of Agnīdhra** - The eponymous **king/ancestor** of the kimpuruṣas; son of **Agnīdhra** by the apsarā **Pūrvacitti**, granted the **Kimpuruṣa-varṣa** as his hereditary portion. *(Source: Bhāgavata Purāṇa 5.2.)* — see [Apsarās → Pūrvacitti](./apsaras.md).
+- **Kimpuruṣa, son of Agnīdhra** - The eponymous **king/ancestor** of the kimpuruṣas; son of **Agnīdhra** by the apsarā **Pūrvacitti**, granted the **Kimpuruṣa-varṣa** as his hereditary portion. *(Source: Bhāgavata Purāṇa 5.2.)* — see [Apsarās → Pūrvacitti](apsaras.md).
 - **Kimpuruṣa-varṣa** - One of the **nine varṣas of Jambūdvīpa**, the land lying between the **Hemakūṭa** ranges, named for and peopled by the kimpuruṣas; its presiding worship is of **Rāma & Hanumān** (Bhāgavata). *(Source: Bhāgavata Purāṇa 5; Purāṇic geography.)* — see [06 · Sacred Geography](../06-sacred-geography/).
 - **Kinnaras under Kubera** - Together with yakṣas and guhyakas, kinnaras **guard Kubera's lotus-ponds and treasures** and provide music at Alakā/Kailāsa. *(Source: Purāṇas; Meghadūta imagery.)* — see [Kubera](../02-deities-and-cosmic-hierarchy/).
 - *Variant (Jain):* kinnaras and kimpuruṣas are both **vyantara** (peripatetic) celestials; the kimpuruṣa class has two lords, **Satpuruṣa & Mahāpuruṣa**. *(Source: Jain cosmology, Tiloyapaṇṇatti.)*
@@ -83,7 +83,7 @@ The **gandharvas** (गन्धर्व) are the male celestial musicians and 
 
 ## Relations Summary
 
-- **Gandharva ↔ Apsarā** - canonical husband/wife performing pair. *(Source: Purāṇas.)* — see [Apsarās](./apsaras.md).
+- **Gandharva ↔ Apsarā** - canonical husband/wife performing pair. *(Source: Purāṇas.)* — see [Apsarās](apsaras.md).
 - **Gandharva ↔ Deva** - musicians and Soma-guards of Indra's court. *(Source: Vedas.)*
 - **Kinnara/Kimpuruṣa ↔ Kubera** - choristers and treasure-guards on Kailāsa. *(Source: Purāṇas.)*
 - **Tumburu ↔ Nārada** - the two supreme celestial singers / rivals. *(Source: MBh, Purāṇas.)*

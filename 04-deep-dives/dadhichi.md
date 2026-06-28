@@ -1,7 +1,7 @@
 # Dadhīci — the Sage Who Gave His Bones
 
-> Cosmic address: a primordial *Vedic / Vaivasvata-Manvantara* sage of the present [7th — Vaivasvata — Manvantara](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md). His two great deeds straddle the *deva–asura* cosmic war — the slaying of **Vṛtra** with a vajra forged from his spine — and the deepest stratum of Vedic esotericism — his transmission of the **Madhu-vidyā** to the Aśvins through a horse's head. Oldest stratum is Ṛgvedic (he is *Dadhyañc Ātharvaṇa*); the bone-sacrifice is fully narrated only in the *Mahābhārata* and the *Bhāgavata Purāṇa* (Canto 6).
-> Up one level: [04-deep-dives](./README.md) · See also: [Devas, Asuras & the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) (Vṛtra-slaying, the vajra) · [Cyavana, Sukanyā & the Aśvins](./cyavana-sukanya.md) (the same Aśvins as healers/heads) · [Saptarṣi & sages](../02-deities-and-cosmic-hierarchy/saptarishi.md) (the Atharvan line) · [Sāmudra Manthana](./samudra-manthana.md) (rival deva–asura combat charter)
+> Cosmic address: a primordial *Vedic / Vaivasvata-Manvantara* sage of the present [7th — Vaivasvata — Manvantara](../01-manvantaras/manvantara-07-vaivasvata/README.md). His two great deeds straddle the *deva–asura* cosmic war — the slaying of **Vṛtra** with a vajra forged from his spine — and the deepest stratum of Vedic esotericism — his transmission of the **Madhu-vidyā** to the Aśvins through a horse's head. Oldest stratum is Ṛgvedic (he is *Dadhyañc Ātharvaṇa*); the bone-sacrifice is fully narrated only in the *Mahābhārata* and the *Bhāgavata Purāṇa* (Canto 6).
+> Up one level: [04-deep-dives](README.md) · See also: [Devas, Asuras & the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) (Vṛtra-slaying, the vajra) · [Cyavana, Sukanyā & the Aśvins](cyavana-sukanya.md) (the same Aśvins as healers/heads) · [Saptarṣi & sages](../02-deities-and-cosmic-hierarchy/saptarishi.md) (the Atharvan line) · [Sāmudra Manthana](samudra-manthana.md) (rival deva–asura combat charter)
 
 **Dadhīci** (Vedic **Dadhyañc**, patronymic **Ātharvaṇa**, "son of Atharvan") is the ascetic whose body becomes a weapon. In the Vedic layer he is a horse-headed teacher of secret honey-knowledge; in the epic-Purāṇic layer he is the supreme exemplar of *tyāga* (self-giving) — the rishi who lays down his life so that his **spine** can be hammered into Indra's **vajra** to kill the drought-serpent Vṛtra. The two roles are not separate inventions: the Ṛgveda already fuses them, for it is *with Dadhyañc's (horse-head) bones* that Indra slays his ninety-nine enemies. Dadhīci is thus the single figure in whom the **honey-doctrine**, the **horse-head**, and the **thunderbolt** all meet.
 
@@ -9,7 +9,7 @@
 
 ## Where he sits in the timeline
 
-- **Frame** - A deep-antiquity sage of the present [Vaivasvata Manvantara's](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) Vedic past; his deeds belong to the cyclical, "timeless" register of recurring deva–asura war rather than to a dated dynastic episode. The Vṛtra-combat he enables is the archetypal cosmogonic battle that "happens" at the opening of each cosmic cycle. [scholarly]
+- **Frame** - A deep-antiquity sage of the present [Vaivasvata Manvantara's](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) Vedic past; his deeds belong to the cyclical, "timeless" register of recurring deva–asura war rather than to a dated dynastic episode. The Vṛtra-combat he enables is the archetypal cosmogonic battle that "happens" at the opening of each cosmic cycle. [scholarly]
 - **Textual antiquity** - The **Ṛgveda** (oldest stratum, c. 1500–1200 BCE) already names *Dadhyañc Ātharvaṇa* some nine times — including the explicit line that Indra slew "nine-and-ninety Vṛtras" with Dadhyañc's bones (RV 1.84.13). The horse-head/honey episode is expounded in the **Brāhmaṇa** and **Upaniṣad** layers; the moralized **bone-sacrifice for the vajra** is a later *Mahābhārata*/Purāṇic narrative making explicit what the Veda states allusively. [scholarly]
 - **Geography** - His hermitage is traditionally fixed at **Misrikh / Naimiṣāraṇya** (near Sītāpur/Lucknow, Uttar Pradesh) on the [sacred-geography](../06-sacred-geography/) map; the recovered horse-head is found in the lake **Śaryaṇāvat** near **Kurukṣetra** (Śatapatha Brāhmaṇa 14.1.1).
 
@@ -18,7 +18,7 @@
 ## Birth and identity
 
 - **Son of Atharvan** - In the standard genealogy (followed by the *Bhāgavata Purāṇa*), Dadhīci is the son of the sage **Atharvan** (the eponym of the Atharvaveda) and **Citti** (Śānti) — hence his Vedic patronymic **Ātharvaṇa**. His wife is **Suvarcā**, and their son is **Pippalāda**, founder of the Paippalāda recension of the Atharvaveda (*Bhāgavata Purāṇa* 6.8 context; Purāṇic genealogies).
-  - *Variant (parentage):* some Purāṇic lists make him a descendant or son of **Cyavana/Bhṛgu** (the Bhārgava line), conflating the Atharvan and Bhārgava priestly families; cross-link [Cyavana](./cyavana-sukanya.md). [disputed]
+  - *Variant (parentage):* some Purāṇic lists make him a descendant or son of **Cyavana/Bhṛgu** (the Bhārgava line), conflating the Atharvan and Bhārgava priestly families; cross-link [Cyavana](cyavana-sukanya.md). [disputed]
   - *Variant (wife/son):* his wife is also named **Gabhastinī** or **Lopāmudrā** in some folk retellings, and the son **Pippalāda** is sometimes said to be born after Dadhīci's death, raised to avenge or honour his father. [folk]
 - **A master of tapas with "thunder in his bones"** - The defining trait across all versions is that Dadhīci's body, hardened by extreme austerity (and, in the Veda, by his having drunk/absorbed the essence of the gods' weapons), is **adamantine** — his bones literally contain *vajra*/thunder, which is why no other material can forge the weapon that kills Vṛtra (*Bhāgavata Purāṇa* 6.10; *Devī-Bhāgavata Purāṇa*).
 
@@ -57,7 +57,7 @@ The famous moralized version, where the abstract Vedic note becomes a story of s
 - **Two myths, one sage** - The horse-head/Madhu-vidyā tale (Veda/Upaniṣad) and the spine-vajra sacrifice (epic/Purāṇa) are best read as the **same mythic kernel** elaborated in opposite directions: the Ṛgveda already says Indra kills Vṛtras *with Dadhyañc's bones*, so the Purāṇic "donation of the skeleton" is the narrative unpacking of that single Vedic line (RV 1.84.13). [scholarly]
 - **Dadhīci vs. Dadhyañc** - Later Sanskrit treats **Dadhīci** (the bone-giver) and Vedic **Dadhyañc** (the horse-headed teacher) as one and the same; a few scholars keep them analytically distinct, but the tradition unifies them. [scholarly] [disputed]
 - **Rationalist / metallurgical reading** - A minority scholarly line reads the "bones-into-vajra" and the *aśva-śiras* honey-doctrine as encoded **metallurgy** — *dadhi-añc* glossed as a smelting/ore process, the vajra as a forged metal implement, *madhu* as the refined product. [scholarly] [disputed]
-- **The Aśvins' double role** - The same twin gods who **behead-and-restore** Dadhyañc also **restore Cyavana's youth** and (in other tales) are themselves once **excluded from the soma-cult**; cross-link [Cyavana, Sukanyā & the Aśvins](./cyavana-sukanya.md), where Cyavana forces their admission. The Aśvins are consistently the boundary-crossing physicians who manipulate heads, age, and life. [scholarly]
+- **The Aśvins' double role** - The same twin gods who **behead-and-restore** Dadhyañc also **restore Cyavana's youth** and (in other tales) are themselves once **excluded from the soma-cult**; cross-link [Cyavana, Sukanyā & the Aśvins](cyavana-sukanya.md), where Cyavana forces their admission. The Aśvins are consistently the boundary-crossing physicians who manipulate heads, age, and life. [scholarly]
 - **Conflict with Kṣuva / the Skanda episode** - Some Purāṇic strands (Skanda-cycle folk material) attach a separate quarrel between Dadhīci and a king **Kṣuva** over the supremacy of brahmin vs. kṣatriya, in which Dadhīci is repeatedly killed and revived by **Śukra's** *mṛta-sañjīvanī*; this doublet stresses his invulnerable, oft-restored body — the same motif as the horse-head. [folk] [late text]
 - **Cultural afterlife** - The **Param Vīr Chakra**, India's highest military gallantry award, carries the **vajra** motif explicitly in tribute to Dadhīci's self-sacrifice — the rishi as the prototype of giving one's body for a higher cause. [late text]
 
@@ -66,9 +66,9 @@ The famous moralized version, where the abstract Vedic note becomes a story of s
 ## Cross-links
 
 - [Devas, Asuras & the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) — **Vṛtra**, the **vajra**, Indra, and the Bhāgavata's ennobled Vṛtrāsura.
-- [Cyavana, Sukanyā & the Aśvins](./cyavana-sukanya.md) — the Aśvins as healers/head-changers; the soma-cult admission.
+- [Cyavana, Sukanyā & the Aśvins](cyavana-sukanya.md) — the Aśvins as healers/head-changers; the soma-cult admission.
 - [Saptarṣi & the great sages](../02-deities-and-cosmic-hierarchy/saptarishi.md) — the Atharvan/Bhṛgu priestly lines.
-- [Sāmudra Manthana](./samudra-manthana.md) — companion deva–asura charter myth.
+- [Sāmudra Manthana](samudra-manthana.md) — companion deva–asura charter myth.
 - [Sacred Geography](../06-sacred-geography/) — Naimiṣāraṇya/Misrikh and Kurukṣetra's Śaryaṇāvat.
 
 ---

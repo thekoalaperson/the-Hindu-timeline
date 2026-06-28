@@ -1,6 +1,6 @@
 # The Mahābhārata — Overview & Recensions
 
-> Cosmic address: [Brahma's current life](../../README.md) › [Vaivasvata Manvantara](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) › [28th Mahāyuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) › **[Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)** — the Kurukṣetra War is traditionally placed at the very end of the Dvāpara Yuga; Kṛṣṇa's departure marks the dawn of [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) (3102 BCE).
+> Cosmic address: [Brahma's current life](../../README.md) › [Vaivasvata Manvantara](../../01-manvantaras/manvantara-07-vaivasvata/README.md) › [28th Mahāyuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) › **[Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)** — the Kurukṣetra War is traditionally placed at the very end of the Dvāpara Yuga; Kṛṣṇa's departure marks the dawn of [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) (3102 BCE).
 >
 > This is the overview node for the Mahābhārata deep-dive. Up: [04-deep-dives](../README.md) · Parent epic-corpus: [Smṛti — Itihāsa & Epics](../../90-literature-corpus/smriti-itihasa-epics.md). Sister epic: [Rāmāyaṇa](../ramayana/README.md).
 
@@ -75,7 +75,7 @@ The Mahābhārata survives in **over 1,200 manuscripts** in many scripts, fallin
 
 ## Dating — tradition vs. scholarship
 
-- *Traditional (scriptural):* The Kurukṣetra War falls at the junction of **Dvāpara and Kali Yugas**; Kali begins with Kṛṣṇa's departure, conventionally **3102 BCE** (Āryabhaṭa / Sūrya Siddhānta reckoning). By the [yuga framework](../../00-time-and-cosmology/yugas-and-mahayuga.md) Dharma stands on **2 legs** in Dvāpara, collapsing to 1 in Kali — see [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and [recorded history](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
+- *Traditional (scriptural):* The Kurukṣetra War falls at the junction of **Dvāpara and Kali Yugas**; Kali begins with Kṛṣṇa's departure, conventionally **3102 BCE** (Āryabhaṭa / Sūrya Siddhānta reckoning). By the [yuga framework](../../00-time-and-cosmology/yugas-and-mahayuga.md) Dharma stands on **2 legs** in Dvāpara, collapsing to 1 in Kali — see [Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and [recorded history](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
   - *Variant (traditional astronomical):* other epic-internal eclipse/planetary readings have been used to argue dates such as ~3138 BCE for the war [disputed].
 - *Academic (scholarly):* The text grew over centuries — oldest layers **~400 BCE**, the bulk compiled **c. 3rd century BCE – 3rd/4th century CE**, with the framing and didactic books latest. The constituted archetype is dated by some editors to **c. 300 CE** [scholarly].
 

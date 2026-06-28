@@ -1,7 +1,7 @@
 # Ayodhyā Kāṇḍa — Book of Ayodhya
 
-> Cosmic address: [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) ← but the Rāmāyaṇa itself unfolds in the [Tretā Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) of the current Vaivasvata Manvantara. Rāma is the 7th [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md) of [Viṣṇu](../../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md), of the [Sūryavaṃśa / Ikṣvāku line](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
-> Parent: [Rāmāyaṇa deep-dive index](./README.md) · Part of [04-deep-dives](../README.md) · Follows [Bāla Kāṇḍa](./1-bala-kanda.md). Primary source: Vālmīki [Rāmāyaṇa](../../90-literature-corpus/smriti-itihasa-epics.md).
+> Cosmic address: [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) ← but the Rāmāyaṇa itself unfolds in the [Tretā Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) of the current Vaivasvata Manvantara. Rāma is the 7th [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md) of [Viṣṇu](../../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md), of the [Sūryavaṃśa / Ikṣvāku line](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
+> Parent: [Rāmāyaṇa deep-dive index](README.md) · Part of [04-deep-dives](../README.md) · Follows [Bāla Kāṇḍa](1-bala-kanda.md). Primary source: Vālmīki [Rāmāyaṇa](../../90-literature-corpus/smriti-itihasa-epics.md).
 
 The **Ayodhyā Kāṇḍa** ("Book of Ayodhyā") is the second of the seven kāṇḍas of Vālmīki's Rāmāyaṇa (~119 sargas, ~4,262 ślokas in the Baroda critical edition's count region). It is the great human-drama and *dharma-saṃkaṭa* (dilemma-of-duty) book: in the span of two days the joy of Rāma's announced coronation collapses into his fourteen-year exile, Daśaratha dies of grief, and Bharata, refusing the ill-gotten throne, installs Rāma's sandals as sovereign and rules as regent from Nandigrāma. The kāṇḍa contains no demon-combat — its battlefield is the conscience.
 
@@ -113,7 +113,7 @@ The boons stem from a past war in which Kaikeyī saved Daśaratha's life. The te
 - **Rule from Nandigrāma** - Bharata installs the sandals on the throne, places the royal canopy and chowries over them, and governs from the village of **Nandigrāma** outside Ayodhyā, himself wearing bark and matted hair, eating ascetic fare — sharing Rāma's exile in spirit (Vālmīki, Ayodhyā 115).
 - **Rāma leaves Chitrakūṭa** - Disturbed that Bharata's visit has unsettled the hermitage and that the demons of the region trouble the sages, Rāma resolves to move deeper south; he departs Chitrakūṭa for the hermitage of **Atri and Anasūyā** (Vālmīki, Ayodhyā 116–117).
 - **Anasūyā honors Sītā** - The chaste sage-wife **Anasūyā** instructs Sītā in wifely dharma (*pātivratya*) and gifts her divine unfading garments, ornaments, and cosmetics (Vālmīki, Ayodhyā 117–118).
-- **Toward Daṇḍaka** - The kāṇḍa ends as Rāma, Sītā, and Lakṣmaṇa enter the deep **Daṇḍaka forest**, opening the demon-haunted action of the Āraṇya Kāṇḍa (Vālmīki, Ayodhyā 119). → continues in the [Āraṇya Kāṇḍa](./3-aranya-kanda.md).
+- **Toward Daṇḍaka** - The kāṇḍa ends as Rāma, Sītā, and Lakṣmaṇa enter the deep **Daṇḍaka forest**, opening the demon-haunted action of the Āraṇya Kāṇḍa (Vālmīki, Ayodhyā 119). → continues in the [Āraṇya Kāṇḍa](3-aranya-kanda.md).
 
 ## Major Variants Across Traditions
 

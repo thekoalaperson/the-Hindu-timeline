@@ -1,10 +1,10 @@
 # Śānti Parva — The Book of Peace
 
-> Cosmic address: [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) → the immediate aftermath of the Mahābhārata war at the Dvāpara–Kali junction (war traditionally ~3138 BCE; Kali begins 3102 BCE).
-> Parent: [Mahābhārata deep-dives](./README.md) · Previous: [11-Strī Parva](./11-stri-parva.md) · Next: [13-Anuśāsana Parva](./13-anushasana-parva.md)
+> Cosmic address: [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) → the immediate aftermath of the Mahābhārata war at the Dvāpara–Kali junction (war traditionally ~3138 BCE; Kali begins 3102 BCE).
+> Parent: [Mahābhārata deep-dives](README.md) · Previous: [11-Strī Parva](11-stri-parva.md) · Next: [13-Anuśāsana Parva](13-anushasana-parva.md)
 > The twelfth and **longest** of the eighteen parvas. The war is over; the dying Bhīṣma, stretched on his bed of arrows, becomes the epic's great teacher, instructing the grief-paralysed Yudhiṣṭhira in the whole science of dharma — kingship (rājadharma), conduct in calamity (āpaddharma), and liberation (mokṣadharma).
 
-The Śānti Parva ("Book of Peace") is the encyclopaedic heart of the Mahābhārata's didactic ambition: a vast post-war discourse in which Bhīṣma, awaiting his chosen death at the winter solstice (uttarāyaṇa), pours out the accumulated wisdom of statecraft and salvation. It is by far the largest book of the epic — traditionally **365 adhyāyas (chapters)** in the Northern/vulgate recension; **353 chapters** in the Pune Critical Edition; roughly **14,000+ ślokas** (Ganguli's vulgate runs ~13,700). Together with the [Anuśāsana Parva](./13-anushasana-parva.md) that follows, it forms the colossal "Bhīṣma's teaching" block (the two are sometimes treated as one continuous instruction split by the question of whether one may take up arms in extremity). See [rājadharma & dharma](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md), [karma–saṃsāra–mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md), [ātman/brahman](../../05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md), the [Sūryavaṃśa/Candravaṃśa lineages](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md), [Kṛṣṇa as avatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md), and the [Mahābhārata corpus entry](../../90-literature-corpus/smriti-itihasa-epics.md).
+The Śānti Parva ("Book of Peace") is the encyclopaedic heart of the Mahābhārata's didactic ambition: a vast post-war discourse in which Bhīṣma, awaiting his chosen death at the winter solstice (uttarāyaṇa), pours out the accumulated wisdom of statecraft and salvation. It is by far the largest book of the epic — traditionally **365 adhyāyas (chapters)** in the Northern/vulgate recension; **353 chapters** in the Pune Critical Edition; roughly **14,000+ ślokas** (Ganguli's vulgate runs ~13,700). Together with the [Anuśāsana Parva](13-anushasana-parva.md) that follows, it forms the colossal "Bhīṣma's teaching" block (the two are sometimes treated as one continuous instruction split by the question of whether one may take up arms in extremity). See [rājadharma & dharma](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md), [karma–saṃsāra–mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md), [ātman/brahman](../../05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md), the [Sūryavaṃśa/Candravaṃśa lineages](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md), [Kṛṣṇa as avatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md), and the [Mahābhārata corpus entry](../../90-literature-corpus/smriti-itihasa-epics.md).
 
 ## Structure — the three sub-parvas (upa-parvas)
 
@@ -22,7 +22,7 @@ The body of the parva is the three "anuśāsana" (instruction) sections, framed 
 - **The brothers and Draupadī argue against renunciation** - Arjuna, Bhīma, Nakula, Sahadeva, Draupadī, and Devasthāna in turn refute him, defending the householder's life, kṣatriya duty, the necessity of wealth (artha) and rule, and the merit of a righteous reign over barren asceticism. (Mbh XII.8–22)
   - *Sub-episode:* Arjuna's praise of daṇḍa and wealth; Bhīma's charge that renunciation now is cowardice masquerading as virtue; Draupadī's rebuke invoking the duty of a king.
 - **Vyāsa and the story of the parrot-merchant / consolations** - Vyāsa, Devala, and Nārada console him; Vyāsa argues that the slain went to heaven by kṣatriya-dharma and that expiation, not flight, is the king's path. (Mbh XII.23–36)
-- **The prāyaścitta (expiation) question — the story of Indra and Vṛtra-slaying / the aśvamedha prescribed** - To purge the sin of the war Yudhiṣṭhira is told he must rule and later perform the horse-sacrifice (carried out in the [Āśvamedhika Parva](./14-ashvamedhika-parva.md)). (Mbh XII.36–37)
+- **The prāyaścitta (expiation) question — the story of Indra and Vṛtra-slaying / the aśvamedha prescribed** - To purge the sin of the war Yudhiṣṭhira is told he must rule and later perform the horse-sacrifice (carried out in the [Āśvamedhika Parva](14-ashvamedhika-parva.md)). (Mbh XII.36–37)
 - **Kṛṣṇa directs Yudhiṣṭhira to Bhīṣma** - Kṛṣṇa proclaims Bhīṣma the one repository of all knowledge who will die when he wills it; the Pāṇḍavas and Kṛṣṇa go to the field where Bhīṣma lies on his bed of arrows. (Mbh XII.46–51)
   - *Sub-episode:* **Kṛṣṇa restores Bhīṣma's faculties** - Kṛṣṇa grants Bhīṣma freedom from pain and clarity of mind for the duration of the teaching; Bhīṣma's hymn to Kṛṣṇa (a stuti of Viṣṇu-Nārāyaṇa). (Mbh XII.47, 52–54)
 - **Bhīṣma accepts the role of teacher** - Reluctant at first ("how can a dying man teach?"), Bhīṣma, empowered by Kṛṣṇa, agrees to instruct Yudhiṣṭhira until the sun turns north. The discourse begins. (Mbh XII.54–55)
@@ -86,16 +86,16 @@ The largest block: Bhīṣma turns from the world to the soul, expounding Sāṃ
 
 ### Close of the discourse
 
-- **Bhīṣma completes the teaching** - Having covered rāja-, āpad-, and mokṣa-dharma (and continuing into dāna-dharma in the [Anuśāsana Parva](./13-anushasana-parva.md)), Bhīṣma blesses Yudhiṣṭhira and dismisses the assembly until the sun's northward turn. (Mbh XII.365)
+- **Bhīṣma completes the teaching** - Having covered rāja-, āpad-, and mokṣa-dharma (and continuing into dāna-dharma in the [Anuśāsana Parva](13-anushasana-parva.md)), Bhīṣma blesses Yudhiṣṭhira and dismisses the assembly until the sun's northward turn. (Mbh XII.365)
 - *Note:* the Śānti Parva ends with Bhīṣma still alive on the arrow-bed; his actual death awaits the uttarāyaṇa at the end of the Anuśāsana Parva.
 
 ## Cross-links
 
-- The war whose grief frames this teaching: [Strī Parva](./11-stri-parva.md) and the war books [Bhīṣma](./06-bhishma-parva.md)–[Śalya](./09-shalya-parva.md).
+- The war whose grief frames this teaching: [Strī Parva](11-stri-parva.md) and the war books [Bhīṣma](06-bhishma-parva.md)–[Śalya](09-shalya-parva.md).
 - The doctrines expounded here in systematic form: [purușārthas](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md), [karma–saṃsāra–mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md), [ātman/brahman](../../05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md).
 - Bhīṣma's lineage and the Kuru house: [Sūryavaṃśa & Candravaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
 - Kṛṣṇa, who empowers the dying teacher: [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md).
-- The sacrifice prescribed here as expiation: [Āśvamedhika Parva](./14-ashvamedhika-parva.md).
+- The sacrifice prescribed here as expiation: [Āśvamedhika Parva](14-ashvamedhika-parva.md).
 
 ## Sources
 

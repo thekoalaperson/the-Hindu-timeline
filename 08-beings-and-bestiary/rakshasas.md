@@ -1,6 +1,6 @@
 # Rākṣasas — The Night-Wanderers
 
-> Part of [08 · Beings & Bestiary](./README.md) → the **demon-race roster**: the shape-shifting, night-roaming man-eaters (*niśācara*, *naktaṃcara*) who haunt the forests, devour flesh, defile the *yajña*, and besiege the sages — catalogued **beyond** Rāvaṇa's immediate Laṅkā clan.
+> Part of [08 · Beings & Bestiary](README.md) → the **demon-race roster**: the shape-shifting, night-roaming man-eaters (*niśācara*, *naktaṃcara*) who haunt the forests, devour flesh, defile the *yajña*, and besiege the sages — catalogued **beyond** Rāvaṇa's immediate Laṅkā clan.
 > Cosmic address: foes of the *Bhūloka*, kin of the **Nairṛti** (south-west) quarter; their dynastic seat is **Laṅkā** before they fall to **Rasātala / Pātāla** (see [devas-asuras-and-the-lokas.md](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)).
 > Origin from **Brahmā** (and the line of **Pulastya** of the [Saptarṣi](../02-deities-and-cosmic-hierarchy/saptarishi.md)); their epic theatres are the [Rāmāyaṇa](../04-deep-dives/ramayana/) and the [Mahābhārata](../04-deep-dives/mahabharata/).
 
@@ -10,10 +10,10 @@ The **rākṣasas** (राक्षस; fem. **rākṣasī**) are a class of **
 
 ## Origin — the Birth of the Race
 
-- **Brahmā's hunger & anger (the primal account)** - In the **Uttara Kāṇḍa**, as Brahmā recited the Vedas at the dawn of creation he grew hungry, and beings sprang from his **face/form composed of foulness**: those born of his **hunger (kṣudh)** cried *"rakṣāma!"* ("let us eat!") and became **rākṣasas**; those born of his **thirst/desire to protect** cried *"yakṣāma!"* and became **yakṣas** — see [Yakṣas](./yakshas-and-guhyakas.md). *(Source: Rāmāyaṇa Uttara Kāṇḍa; Viṣṇu Purāṇa 1.5.)*
+- **Brahmā's hunger & anger (the primal account)** - In the **Uttara Kāṇḍa**, as Brahmā recited the Vedas at the dawn of creation he grew hungry, and beings sprang from his **face/form composed of foulness**: those born of his **hunger (kṣudh)** cried *"rakṣāma!"* ("let us eat!") and became **rākṣasas**; those born of his **thirst/desire to protect** cried *"yakṣāma!"* and became **yakṣas** — see [Yakṣas](yakshas-and-guhyakas.md). *(Source: Rāmāyaṇa Uttara Kāṇḍa; Viṣṇu Purāṇa 1.5.)*
   - *Variant (Brahmā's foot):* a parallel tradition has rākṣasas issue **from Brahmā's foot** (the lowest, *tamasic* limb), matching their station at the bottom of the cosmic ladder. *(Source: Wikipedia "Rakshasa"; Britannica.)*
   - *Variant (other parentages):* texts variously descend rākṣasas from **Pulastya**, from **Khasā** (a daughter of Dakṣa, wife of Kaśyapa), or from **Nirṛti & Nirṛta** (the goddess/god of decay) — hence the synonym **Nairṛta**. [disputed] *(Source: Wikipedia "Rakshasa"; New World Encyclopedia.)*
-- **Pulastya line (the dynastic account)** - The *named, royal* rākṣasas descend from the Prajāpati **Pulastya** (a [Saptarṣi](../02-deities-and-cosmic-hierarchy/saptarishi.md), mind-born son of Brahmā) through his son **Viśravas** and Viśravas's rākṣasī wife **Kaikasī** — making **Rāvaṇa** a great-grandson of Brahmā and **half-brother of the wealth-god Kubera** (see [Yakṣas → Kubera](./yakshas-and-guhyakas.md)). *(Source: Rāmāyaṇa Uttara Kāṇḍa; Britannica "Ravana".)*
+- **Pulastya line (the dynastic account)** - The *named, royal* rākṣasas descend from the Prajāpati **Pulastya** (a [Saptarṣi](../02-deities-and-cosmic-hierarchy/saptarishi.md), mind-born son of Brahmā) through his son **Viśravas** and Viśravas's rākṣasī wife **Kaikasī** — making **Rāvaṇa** a great-grandson of Brahmā and **half-brother of the wealth-god Kubera** (see [Yakṣas → Kubera](yakshas-and-guhyakas.md)). *(Source: Rāmāyaṇa Uttara Kāṇḍa; Britannica "Ravana".)*
 
 ---
 

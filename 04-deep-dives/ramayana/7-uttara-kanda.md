@@ -1,7 +1,7 @@
 # Uttara Kāṇḍa — The Final Book
 
-> Cosmic address: [Vaivasvata Manvantara](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) → 28th Mahāyuga → **[Tretā Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)** → the Rāma-avatāra cycle (its closing chapter and aftermath).
-> Parent: **[Rāmāyaṇa deep-dive](./README.md)** · Previous: [Yuddha Kāṇḍa](./6-yuddha-kanda.md) · (last book)
+> Cosmic address: [Vaivasvata Manvantara](../../01-manvantaras/manvantara-07-vaivasvata/README.md) → 28th Mahāyuga → **[Tretā Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)** → the Rāma-avatāra cycle (its closing chapter and aftermath).
+> Parent: **[Rāmāyaṇa deep-dive](README.md)** · Previous: [Yuddha Kāṇḍa](6-yuddha-kanda.md) · (last book)
 > See also: [Daśāvatāra (Rāma)](../../02-deities-and-cosmic-hierarchy/dashavatara.md) · [Sūryavaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) · [Itihāsa-Epics corpus](../../90-literature-corpus/smriti-itihasa-epics.md)
 
 The seventh and last book of Vālmīki's Rāmāyaṇa, **~100 sargas / ~2,690 ślokas** (numbering varies by recension), named *Uttara* ("Latter / Final / Beyond"). It is a double appendix: a long **flashback** filling in the deep prehistory of the rākṣasas, Rāvaṇa, and the vānaras (sargas 1–36), and the **aftermath of the war** — Rāma's reign (Rāma-rājya), the banishment of Sītā, the twins Lava and Kuśa, Sītā's return to the earth, and Rāma's departure to heaven (sargas 37–100). It also recasts the entire epic as a story sung *back to its own hero*.
@@ -22,24 +22,24 @@ The seventh and last book of Vālmīki's Rāmāyaṇa, **~100 sargas / ~2,690 ś
 - **Kubera, lord of the north** - Kubera does austerity for thousands of years; Brahmā makes him a **Loka-pāla** (world-guardian of the north), lord of the yakṣas and of wealth, and gives him the flying chariot **Puṣpaka** and the golden city of **Laṅkā** (originally built by Viśvakarmā for the rākṣasas, vacated after Viṣṇu drove them to the netherworld) (Vālmīki *Uttara* 13–15).
 - **Birth of the brood** - From Kaikasī are born **Rāvaṇa** (the ten-necked), **Kumbhakarṇa** (the gigantic glutton), the gentle **Vibhīṣaṇa**, and the sister **Śūrpaṇakhā** (Vālmīki *Uttara* 9–10).
 - **The great tapas & Brahmā's boon** - Spurred by Kaikasī's envy of Kubera's splendour, the three brothers do extreme penance at Gokarṇa. Rāvaṇa offers his ten heads one by one into the fire over ten thousand years; Brahmā grants him invulnerability to **devas, asuras, gandharvas, yakṣas, rākṣasas and all such beings** — he disdains to ask protection from **men and monkeys**, the loophole that dooms him (Vālmīki *Uttara* 10).
-  - *Variant / cross-link:* this omission is the doctrinal reason Viṣṇu incarnates specifically as a **man** ([Rāma](../../02-deities-and-cosmic-hierarchy/dashavatara.md)) aided by **vānaras** — see the deva-petition frame in [Bāla Kāṇḍa](./1-bala-kanda.md).
+  - *Variant / cross-link:* this omission is the doctrinal reason Viṣṇu incarnates specifically as a **man** ([Rāma](../../02-deities-and-cosmic-hierarchy/dashavatara.md)) aided by **vānaras** — see the deva-petition frame in [Bāla Kāṇḍa](1-bala-kanda.md).
 - **Kumbhakarṇa's slip of the tongue** - Asking for *nirdevatvam* (destruction of the gods), Kumbhakarṇa is made by Sarasvatī (at the devas' plea) to say *nidrā* (sleep) — hence his boon of months-long sleep (Vālmīki *Uttara* 10).
 - **Vibhīṣaṇa's boon** - The righteous brother asks only to remain ever on the path of dharma even in calamity (Vālmīki *Uttara* 10).
 - **Conquest of Laṅkā** - On grandfather Sumālī's urging, Rāvaṇa sends the minister **Prahasta** to demand Laṅkā from Kubera; Viśravas counsels Kubera to yield rather than fight kin. Kubera withdraws to **Mount Kailāsa**, and Rāvaṇa takes Laṅkā and the Puṣpaka chariot by force (Vālmīki *Uttara* 11–15).
 - **Origin of the name "Rāvaṇa"** - Lifting Mount Kailāsa to shake off Śiva (in pride after defeating Kubera), Rāvaṇa is pinned under it by Śiva's toe; he howls (*rava*) for a thousand years until Śiva, pleased, releases him and **names him Rāvaṇa** ("he who makes the worlds scream") and gives him the sword Candrahāsa (Vālmīki *Uttara* 16).
 - **Rāvaṇa's world-conquest (digvijaya)** - He defeats kings, yakṣas, nāgas; abducts and forces women; subjugates Yama himself (Brahmā intervening to save Death), the Loka-pālas, and overruns the three worlds (Vālmīki *Uttara* 18–23).
 - **Vedavatī's curse** - Rāvaṇa molests the chaste ascetic **Vedavatī** (intended bride of Viṣṇu); she immolates herself, vowing to be **reborn as the cause of his death** — i.e. as **Sītā** (Vālmīki *Uttara* 17). Agastya explicitly identifies Sītā as the reborn Vedavatī.
-  - *Variant ("Māyā-Sītā / Chāyā-Sītā"):* in several Purāṇas (Kūrma, Brahmavaivarta, Devī-Bhāgavata) and [Adhyātma Rāmāyaṇa](./README.md), the **real Sītā is hidden in fire** and a shadow-Sītā (sometimes equated with Vedavatī) is abducted — harmonizing this backstory with Sītā's purity. [late text]
+  - *Variant ("Māyā-Sītā / Chāyā-Sītā"):* in several Purāṇas (Kūrma, Brahmavaivarta, Devī-Bhāgavata) and [Adhyātma Rāmāyaṇa](README.md), the **real Sītā is hidden in fire** and a shadow-Sītā (sometimes equated with Vedavatī) is abducted — harmonizing this backstory with Sītā's purity. [late text]
 - **The Anaraṇya curse** - The Ikṣvāku king **Anaraṇya**, defeated and dying, curses Rāvaṇa that a future descendant of his line (Rāma) will kill him (Vālmīki *Uttara* 19).
 - **Nalakūbara's curse** - For violating the apsarā **Rambhā**, Kubera's son **Nalakūbara** curses Rāvaṇa that his head will **split into a hundred pieces** if he ever forces an unwilling woman — explaining why Rāvaṇa cannot touch Sītā in the Aśoka grove (Vālmīki *Uttara* 26).
 - **Defeat by Kārtavīrya Arjuna** - The thousand-armed Haihaya emperor **Kārtavīrya Arjuna** captures and imprisons Rāvaṇa, releasing him only at Pulastya's request (Vālmīki *Uttara* 31–33).
-- **Defeat by Vālī** - The vānara king **Vālī** tucks Rāvaṇa under his arm and circles the four oceans during his prayers; humbled, Rāvaṇa makes a fire-pact of friendship with him (Vālmīki *Uttara* 34) — back-explaining Vālī's might shown in [Kiṣkindhā Kāṇḍa](./4-kishkindha-kanda.md).
+- **Defeat by Vālī** - The vānara king **Vālī** tucks Rāvaṇa under his arm and circles the four oceans during his prayers; humbled, Rāvaṇa makes a fire-pact of friendship with him (Vālmīki *Uttara* 34) — back-explaining Vālī's might shown in [Kiṣkindhā Kāṇḍa](4-kishkindha-kanda.md).
 - **Indrajit conquers Indra** - Rāvaṇa's son **Meghanāda** (named for a birth-cry like thunder) defeats and binds **Indra** himself; Brahmā ransoms Indra and renames the son **Indrajit** ("conqueror of Indra"), granting the secret Nikumbhilā sacrifice that makes him invincible while it is performed (Vālmīki *Uttara* 29–30).
 
 ## III. The vānara & Hanumān backstory (sargas 35–36)
 
 - **Hanumān's birth & boyhood** - Agastya tells of Hanumān as the son of the wind **Vāyu** and the apsarā-turned-vānarī **Añjanā**; as an infant he leaps at the sun mistaking it for fruit; **Indra's vajra** strikes his jaw (hence *Hanu-mān*, "jaw-marked"); the gods, to calm Vāyu, heap boons on the child (Vālmīki *Uttara* 35).
-- **The sages' curse of forgetfulness** - For his childhood mischief, ṛṣis curse Hanumān to **forget his own immense powers** until reminded — the back-story for Jāmbavān's "reminding" in [Sundara Kāṇḍa](./5-sundara-kanda.md) (Vālmīki *Uttara* 36).
+- **The sages' curse of forgetfulness** - For his childhood mischief, ṛṣis curse Hanumān to **forget his own immense powers** until reminded — the back-story for Jāmbavān's "reminding" in [Sundara Kāṇḍa](5-sundara-kanda.md) (Vālmīki *Uttara* 36).
 
 ## IV. The reign of Rāma — Rāma-rājya (sargas 37–42)
 
@@ -67,7 +67,7 @@ The seventh and last book of Vālmīki's Rāmāyaṇa, **~100 sargas / ~2,690 ś
 
 - **The summons & the final oath** - Rāma sends for Sītā and asks her to once more **publicly swear her purity** to satisfy the people (Vālmīki *Uttara* 96).
 - **Bhūmi receives her daughter** - Sītā, declaring "as I have never thought of any but Rāma, may **Mādhavī (Bhūmi-Devī), my mother, receive me**," calls on the earth; a golden throne rises, the goddess of Earth embraces her, and Sītā **descends into the ground forever** — her final, unanswerable proof and her refusal to return (Vālmīki *Uttara* 97).
-  - *Note:* Sītā is the **earth-born** (found in a furrow — see [Bāla/marriage backstory](./1-bala-kanda.md)); her return *to* the earth closes that ring. Rāma's grief and threat to destroy the world are calmed by Brahmā, who promises reunion in heaven.
+  - *Note:* Sītā is the **earth-born** (found in a furrow — see [Bāla/marriage backstory](1-bala-kanda.md)); her return *to* the earth closes that ring. Rāma's grief and threat to destroy the world are calmed by Brahmā, who promises reunion in heaven.
 
 ## VIII. The Śambūka episode (sargas 73–76)
 
@@ -96,10 +96,10 @@ The seventh and last book of Vālmīki's Rāmāyaṇa, **~100 sargas / ~2,690 ś
 
 ## Cross-book & doctrinal links
 
-- The boon-loophole (no protection from men/monkeys) ↔ the avatāra rationale: [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md), [Bāla Kāṇḍa](./1-bala-kanda.md).
+- The boon-loophole (no protection from men/monkeys) ↔ the avatāra rationale: [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md), [Bāla Kāṇḍa](1-bala-kanda.md).
 - Sītā = reborn Vedavatī, and the **Māyā-Sītā** doctrine ↔ Purāṇic harmonizations: [Smṛti — Purāṇas](../../90-literature-corpus/smriti-puranas.md).
-- Tretā-Yuga dharma-on-three-legs framing of Rāma-rājya: [Yugas & Mahāyuga](../../00-time-and-cosmology/yugas-and-mahayuga.md), [Tretā Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md).
-- Ikṣvāku descent (Kuśa → Kuśāvatī, line continuing toward the [Kali-Yuga king-lists](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md)): [Sūryavaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
+- Tretā-Yuga dharma-on-three-legs framing of Rāma-rājya: [Yugas & Mahāyuga](../../00-time-and-cosmology/yugas-and-mahayuga.md), [Tretā Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md).
+- Ikṣvāku descent (Kuśa → Kuśāvatī, line continuing toward the [Kali-Yuga king-lists](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md)): [Sūryavaṃśa](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
 
 ## Sources
 

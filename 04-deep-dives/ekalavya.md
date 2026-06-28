@@ -1,7 +1,7 @@
 # Ekalavya — the Thumb-Guru-Dakṣiṇā
 
 > **Where this sits:** A deep-dive into the most famous self-taught archer of Hindu tradition — the **Niṣāda prince Ekalavya**, who learns archery before a clay idol of [Droṇa](mahabharata/01-adi-parva.md), surpasses [Arjuna](mahabharata/01-adi-parva.md), and surrenders his right thumb as **guru-dakṣiṇā** so the Pāṇḍava prince may keep his primacy. First told in the [Mahābhārata, Ādi Parva](mahabharata/01-adi-parva.md); his later career and death are scattered across the [Sabhā](mahabharata/02-sabha-parva.md), [Udyoga](mahabharata/05-udyoga-parva.md), [Droṇa](mahabharata/07-drona-parva.md) parvas and the **Harivaṃśa**.
-> Parent: [04-deep-dives](./README.md) · Cosmic address: Śveta-Varāha Kalpa › 7th (Vaivasvata) Manvantara › 28th Mahāyuga, **[Dvāpara Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)** — the generation of the Kuru princes' training, roughly a decade before the Kurukṣetra war.
+> Parent: [04-deep-dives](README.md) · Cosmic address: Śveta-Varāha Kalpa › 7th (Vaivasvata) Manvantara › 28th Mahāyuga, **[Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)** — the generation of the Kuru princes' training, roughly a decade before the Kurukṣetra war.
 
 The Ekalavya episode is short in the epic but morally enormous: a **low-born forest prince out-shoots the Kṣatriya elite**, and the brahmin guru [Droṇa](mahabharata/01-adi-parva.md) — bound by a private promise that no pupil would surpass Arjuna — extracts the one fee that disarms a master archer forever. The text frames it as **guru-bhakti** (the boy gives the thumb without hesitation); modern Dalit/Ādivāsī readings frame it as **caste violence** (talent destroyed to protect privilege). Both readings, and the tangled afterlife of the character across later books, are cataloged below.
 
@@ -65,7 +65,7 @@ The Ekalavya episode is short in the epic but morally enormous: a **low-born for
 - Episode source book: [Mahābhārata, Ādi Parva](mahabharata/01-adi-parva.md) · later mentions in [Sabhā](mahabharata/02-sabha-parva.md), [Udyoga](mahabharata/05-udyoga-parva.md), [Droṇa](mahabharata/07-drona-parva.md) parvas.
 - His slayer: [Kṛṣṇa-līlā](krishna-lila.md). · Adversary patron: [Jarāsandha](mahabharata/02-sabha-parva.md).
 - Folk-rebirth counterpart: [Dhṛṣṭadyumna (Ādi Parva)](mahabharata/01-adi-parva.md).
-- Yuga context: [Dvāpara Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
+- Yuga context: [Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
 
 ## Sources
 

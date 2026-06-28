@@ -1,6 +1,6 @@
 # Time & Cosmology — Overview
 
-> Root of the `00-time-and-cosmology/` section — the "how the cosmic clock works" layer that everything else in this repo hangs off. This is the spine: every dated event elsewhere (see `../01-brahma-current-life/`) is ultimately an address within the cycles described here.
+> Root of the `00-time-and-cosmology/` section — the "how the cosmic clock works" layer that everything else in this repo hangs off. This is the spine: every dated event elsewhere (see `../01-manvantaras/`) is ultimately an address within the cycles described here.
 
 Hindu time is **cyclic, not linear.** There is no single creation at t=0 and no final end at t=∞. Instead the cosmos is breathed out and dissolved in nested, repeating wheels — units within units, from the blink of an eye up to the lifespan of Brahma (~311.04 trillion years), after which even Brahma is reborn and the wheel turns again. The same beings, sages and patterns recur across cycles. "Where are we now?" is answered not by a date but by a **cosmic address** (Kalpa → Manvantara → Mahayuga → Yuga). We are in the Kali Yuga of the 28th Mahayuga of the 7th (Vaivasvata) Manvantara of the Shveta-Varaha Kalpa, Brahma's 51st year.
 
@@ -11,7 +11,7 @@ Hindu time is **cyclic, not linear.** There is no single creation at t=0 and no 
 - **Wheel, not line.** Time (*kala*) revolves through endless cycles of creation (*sristi*), sustenance (*sthiti*) and dissolution (*pralaya* / *samhara*); when one cycle ends another begins, with no absolute origin or terminus. Often imaged as a turning wheel. ("Time is cyclical, and the universe undergoes cycles of creation and destruction" — *Vishnu Purana*.)
 - **Trinity drives the cycle.** Brahma creates, Vishnu preserves, Shiva/Rudra dissolves — the three phases of every cycle personified (Puranic consensus; *Vishnu Purana*, *Bhagavata Purana*). See `../02-deities-and-cosmic-hierarchy/`.
 - **Time as a form of God.** *Kala* is itself a divine principle, identified with Vishnu/Krishna ("I am Time, the destroyer of worlds" — *Bhagavad Gita* 11.32) — time is both the measure of the cycle and the agent that ends it.
-- **Descent of dharma.** Within each Mahayuga, dharma (cosmic order) declines yuga by yuga — the bull of Dharma loses a leg each age (4→3→2→1) — then is restored to four legs at the next Satya Yuga. Decline is local and repeating, not a permanent fall. See [Yuga table below](#the-four-yugas-summary) and `../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/`.
+- **Descent of dharma.** Within each Mahayuga, dharma (cosmic order) declines yuga by yuga — the bull of Dharma loses a leg each age (4→3→2→1) — then is restored to four legs at the next Satya Yuga. Decline is local and repeating, not a permanent fall. See [Yuga table below](#the-four-yugas-summary) and `../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/`.
 
 ---
 
@@ -59,7 +59,7 @@ The cycle has explicit rest/destruction phases. The *Bhagavata Purana* and *Vish
 | Dvapara | 864,000 | 2 | Half virtue/half vice; disease, discord begin |
 | Kali (now) | 432,000 | 1 | Dharma on one leg; strife, decay, short lives |
 
-Full per-yuga event files (avatars, kings, sages) live under `../01-brahma-current-life/.../mahayuga-28-current/` → `01-satya-yuga.md`, `02-treta-yuga.md`, `03-dvapara-yuga.md`, `04-kali-yuga/README.md`.
+Full per-yuga event files (avatars, kings, sages) live under `../01-manvantaras/.../mahayuga-28-current/` → `01-satya-yuga.md`, `02-treta-yuga.md`, `03-dvapara-yuga.md`, `04-kali-yuga/README.md`.
 
 ---
 
@@ -70,7 +70,7 @@ Full per-yuga event files (avatars, kings, sages) live under `../01-brahma-curre
 - **Mahayuga:** **28th** of 71
 - **Yuga:** **Kali**, begun 3102 BCE; ~**5,128 yr** elapsed as of 2026 CE; ~426,873 yr remaining
 
-See `../01-brahma-current-life/` for the full drill-down.
+See `../01-manvantaras/` for the full drill-down.
 
 ---
 

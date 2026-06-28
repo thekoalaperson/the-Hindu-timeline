@@ -1,7 +1,7 @@
 # Gajendra Mokṣa — the Liberation of the Elephant-King
 
-> Cosmic address: a *Manvantara-frame tale* narrated by Śuka to Parīkṣit at the opening of the 8th Canto, set in the present **[7th — Vaivasvata — Manvantara](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md)**. It is one of the great liturgical hymns of [Viṣṇu](../02-deities-and-cosmic-hierarchy/dashavatara.md) and the paradigm of *śaraṇāgati* (total surrender).
-> Up one level: [04-deep-dives](./README.md) · See also: [Concepts: karma / saṃsāra / mokṣa](../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) · [Trimūrti and Tridevī](../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md)
+> Cosmic address: a *Manvantara-frame tale* narrated by Śuka to Parīkṣit at the opening of the 8th Canto, set in the present **[7th — Vaivasvata — Manvantara](../01-manvantaras/manvantara-07-vaivasvata/README.md)**. It is one of the great liturgical hymns of [Viṣṇu](../02-deities-and-cosmic-hierarchy/dashavatara.md) and the paradigm of *śaraṇāgati* (total surrender).
+> Up one level: [04-deep-dives](README.md) · See also: [Concepts: karma / saṃsāra / mokṣa](../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) · [Trimūrti and Tridevī](../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md)
 
 The episode of **Gajendra Mokṣa** ("the liberation of the lord-of-elephants") is told in the **Bhāgavata Purāṇa, Canto 8, Chapters 2–4** (SB 8.2–8.4). It frames a metaphysical lesson — that no created being, however mighty, can save itself; deliverance comes only through unconditional surrender — inside a tale of an elephant seized by a crocodile, a thousand-year struggle, a hymn, and a god who flies to the rescue. It is recited daily across Vaiṣṇava traditions and is one of the most beloved of all Purāṇic *stotras*.
 
@@ -10,7 +10,7 @@ The episode of **Gajendra Mokṣa** ("the liberation of the lord-of-elephants") 
 ## Why it sits in the Manvantara frame
 
 - **Narrative placement (SB 8.1–8.4)** - Canto 8 of the Bhāgavata catalogs the fourteen Manus and their Manvantaras. The Gajendra story is inset within this Manvantara survey — Śuka digresses from listing the Manus to recount it, as an illustration of Viṣṇu's protective grace operating across the cosmic ages (*Bhāgavata Purāṇa 8.1–8.4*).
-- **A bridge tale** - It immediately precedes the [Samudra Manthana](./samudra-manthana.md) cycle (SB 8.5 onward), positioning Viṣṇu as the constant rescuer who acts both for an individual devotee (Gajendra) and for the cosmos (the churning, the Kūrma and Vāmana avatāras). (*Bhāgavata Purāṇa, Canto 8*)
+- **A bridge tale** - It immediately precedes the [Samudra Manthana](samudra-manthana.md) cycle (SB 8.5 onward), positioning Viṣṇu as the constant rescuer who acts both for an individual devotee (Gajendra) and for the cosmos (the churning, the Kūrma and Vāmana avatāras). (*Bhāgavata Purāṇa, Canto 8*)
 
 ---
 

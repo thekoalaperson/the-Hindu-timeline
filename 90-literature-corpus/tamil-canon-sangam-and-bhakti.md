@@ -1,6 +1,6 @@
 # The Tamil Canon — Sangam, Tirukkuṟaḷ & Bhakti Corpus
 
-> Literature-corpus node. The **Tamil** stream of the canon — a parallel, partly independent scriptural tradition running alongside the Sanskrit [śruti/smṛti](./README.md) corpus. It begins with secular **Sangam** poetry (heroic-and-love verse, oldest stratum of Tamil), passes through the ethical **Tirukkuṟaḷ** and the **twin epics**, and culminates in the great **bhakti** anthologies — Śaiva **Tirumurai** (the Nāyaṉārs) and Vaiṣṇava **Nālāyira Divya Prabandham** (the Āḻvārs), the devotional fire that reshaped South Indian Hinduism in [Kali Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md). By traditional reckoning all crystallise within the present Kali Yuga (post-3102 BCE); academic dating places the strata c. 300 BCE – 1135 CE. See sibling nodes [shruti-vedas-and-upanishads.md](./shruti-vedas-and-upanishads.md), [agamas-tantras-dharmashastras.md](./agamas-tantras-dharmashastras.md) and the master map [README.md](./README.md).
+> Literature-corpus node. The **Tamil** stream of the canon — a parallel, partly independent scriptural tradition running alongside the Sanskrit [śruti/smṛti](README.md) corpus. It begins with secular **Sangam** poetry (heroic-and-love verse, oldest stratum of Tamil), passes through the ethical **Tirukkuṟaḷ** and the **twin epics**, and culminates in the great **bhakti** anthologies — Śaiva **Tirumurai** (the Nāyaṉārs) and Vaiṣṇava **Nālāyira Divya Prabandham** (the Āḻvārs), the devotional fire that reshaped South Indian Hinduism in [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md). By traditional reckoning all crystallise within the present Kali Yuga (post-3102 BCE); academic dating places the strata c. 300 BCE – 1135 CE. See sibling nodes [shruti-vedas-and-upanishads.md](shruti-vedas-and-upanishads.md), [agamas-tantras-dharmashastras.md](agamas-tantras-dharmashastras.md) and the master map [README.md](README.md).
 
 ---
 
@@ -123,7 +123,7 @@ The **4,000-verse** (*nālāyira* = 4,000) Tamil hymn-corpus to **Viṣṇu/Nār
 - *Variant (dating, [disputed]):* Āḻvār life-dates span **5th–9th c. CE** in modern scholarship; **traditional** Śrī Vaiṣṇava chronology pushes the earliest Āḻvārs into the **Dvāpara/early Kali Yuga** (e.g. Āṇṭāḷ and others placed thousands of years earlier) — a **scriptural** dating sharply at odds with academic dating.
 - *Variant (verse count):* "4,000" is canonical and idealized; surviving recensions vary slightly around the figure, and the exact apportionment among the four thousands differs by tradition/sampradāya (Vaṭakalai vs. Teṉkalai recitation usages).
 
-→ Related: Viṣṇu and the avatāras in [../02-deities-and-cosmic-hierarchy/README.md](../02-deities-and-cosmic-hierarchy/README.md); the [Kali Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) bhakti context.
+→ Related: Viṣṇu and the avatāras in [../02-deities-and-cosmic-hierarchy/README.md](../02-deities-and-cosmic-hierarchy/README.md); the [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) bhakti context.
 
 ---
 

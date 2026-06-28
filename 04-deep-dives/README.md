@@ -1,7 +1,7 @@
 # Deep Dives — Major Episodes & Tales
 
 > Where this sits: dedicated, exhaustive treatments of the biggest individual episodes of the timeline —
-> the ones too large to fit inside a single [yuga file](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md).
+> the ones too large to fit inside a single [yuga file](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md).
 > Each is cross-linked from the yuga or deity node where it occurs. Back to the [master index](../README.md).
 
 ## The Two Epics (kāṇḍa- / parva-by-parva)

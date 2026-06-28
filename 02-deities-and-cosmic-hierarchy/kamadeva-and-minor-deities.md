@@ -85,14 +85,14 @@ These are the **minor-but-indispensable** deities: the god of love who is burnt 
 ### Children of Sūrya
 
 - **By Saṃjñā:**
-  - **Vaivasvata Manu** — the current Manu, progenitor of mankind in the present manvantara (see [the 14 Manvantaras](../01-brahma-current-life/the-14-manvantaras/README.md)).
+  - **Vaivasvata Manu** — the current Manu, progenitor of mankind in the present manvantara (see [the 14 Manvantaras](../01-manvantaras/README.md)).
   - **Yama** — god of death and dharma, first mortal to die and hence king of the dead; lord of the southern direction. (Wikipedia: Yama)
   - **Yamī (Yamunā)** — Yama's twin sister, later the **river-goddess Yamunā** (see below).
   - **Aśvinī-Kumāras (the two Aśvins, Nāsatya & Dasra)** — twin horse-headed physicians of the gods, conceived when Sūrya (as a stallion) reunites with Saṃjñā (as a mare); the **divine doctors** of the Ṛg Veda, parallels to Dhanvantari. (Wikipedia; Ṛg Veda)
   - **Revanta** — chief of the **Guhyakas** (a Yakṣa-class), born from the Sun's residual seed; lord of hunters, depicted on horseback. (*Mārkaṇḍeya Purāṇa*)
 - **By Chāyā:**
   - **Śani (Saturn)** — the slow, karma-dispensing **graha** (see [Navagraha](navagraha.md)); famed for his "evil eye." Father–son tension with Sūrya is a stock myth.
-  - **Sāvarṇi Manu** — the **eighth Manu**, of a future manvantara (see [Manvantaras](../01-brahma-current-life/the-14-manvantaras/README.md)).
+  - **Sāvarṇi Manu** — the **eighth Manu**, of a future manvantara (see [Manvantaras](../01-manvantaras/README.md)).
   - **Tapatī** — a river-goddess; ancestress (through **Kuru**) of the Kuru line of the Mahābhārata.
   - **Viṣṭi (Bhadrā)** — personification of an inauspicious astrological period (*karaṇa*). (Wikipedia; *Mārkaṇḍeya Purāṇa*)
 - **Other solar offspring (varia):** **Sugrīva** and **Karṇa** are sons of Sūrya by other women (Rāmāyaṇa / Mahābhārata); **Aruṇa**, the dawn-charioteer, is Sūrya's brother-in-law's role (son of Vinatā), driver of his seven-horse chariot.

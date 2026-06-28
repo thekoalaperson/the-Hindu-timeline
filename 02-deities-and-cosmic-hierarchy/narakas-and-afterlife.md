@@ -1,6 +1,6 @@
 # The Narakas & the Afterlife
 
-> The post-mortem map of the cosmos. This is a roster node of [`02-deities-and-cosmic-hierarchy/`](./README.md): the hells (Naraka) under Yama's jurisdiction, the soul's journey after death, the ancestral rites that build its subtle body, and the upward path to Svarga and the Pitris. The Narakas sit *below* the seven Patalas of the [14-loka stack](./devas-asuras-and-the-lokas.md) and are distinct from them — Patala is a splendid Naga realm; Naraka is the realm of punishment. The fullest catalogs come from the [Bhagavata Purana, Skandha 5](../90-literature-corpus/bhagavata-purana-skandha-map.md), the [Garuda Purana](../90-literature-corpus/puranas/garuda-purana.md), the [Manu Smriti](../90-literature-corpus/agamas-tantras-dharmashastras.md), and the [Vishnu Purana](../90-literature-corpus/puranas/vishnu-purana.md).
+> The post-mortem map of the cosmos. This is a roster node of [`02-deities-and-cosmic-hierarchy/`](README.md): the hells (Naraka) under Yama's jurisdiction, the soul's journey after death, the ancestral rites that build its subtle body, and the upward path to Svarga and the Pitris. The Narakas sit *below* the seven Patalas of the [14-loka stack](devas-asuras-and-the-lokas.md) and are distinct from them — Patala is a splendid Naga realm; Naraka is the realm of punishment. The fullest catalogs come from the [Bhagavata Purana, Skandha 5](../90-literature-corpus/bhagavata-purana-skandha-map.md), the [Garuda Purana](../90-literature-corpus/puranas/garuda-purana.md), the [Manu Smriti](../90-literature-corpus/agamas-tantras-dharmashastras.md), and the [Vishnu Purana](../90-literature-corpus/puranas/vishnu-purana.md).
 
 ---
 
@@ -96,7 +96,7 @@ The Garuda Purana (Preta-kanda / Pretakalpa) is the locus classicus for the **af
 
 ## 6. Svarga — the Heavens of Merit
 
-- **Svarga / Svarloka** — Indra's heaven on/above Meru, the third of the [upper lokas](./devas-asuras-and-the-lokas.md); reward for meritorious (punya) karma, abode of devas, gandharvas, apsaras. (Vishnu Purana; Bhagavata 5)
+- **Svarga / Svarloka** — Indra's heaven on/above Meru, the third of the [upper lokas](devas-asuras-and-the-lokas.md); reward for meritorious (punya) karma, abode of devas, gandharvas, apsaras. (Vishnu Purana; Bhagavata 5)
 - **Temporary, like Naraka** — residence in Svarga lasts only "until the merit is exhausted," after which the soul **falls back** to rebirth (Bhagavad Gita 9.21 — *kshine punye martya-lokam vishanti*). Neither heaven nor hell is final; both are stations of samsara. (Bhagavad Gita 9.20–21)
 - **Higher heavens** — beyond Svarga lie **Maharloka, Janaloka, Tapoloka, Satyaloka** (Brahmaloka) for sages and yogis; the very highest, **Vaikuntha** (Vishnu) and **Kailasa/Shivaloka** (Shiva) and **Goloka** (Krishna, in Vaishnava texts), are liberation-realms outside the recycled cosmos. (Bhagavata 5; Brahmavaivarta)
 
@@ -126,8 +126,8 @@ The Upanishads (Chandogya 5.10; Brihadaranyaka 6.2; Gita 8.24–26) distinguish 
 
 ## 8. Cross-Links
 
-- The hells sit below the [Patalas in the 14-loka stack](./devas-asuras-and-the-lokas.md#1b-the-7-lower-lokas-patala--adho-loka).
-- Yama as a deity and dharma-lord: see the [Navagraha / Vedic deities](./navagraha.md) and [vedic-deities-and-suktas](../90-literature-corpus/vedic-deities-and-suktas.md) (Rig Veda 10.14, Yama hymn).
+- The hells sit below the [Patalas in the 14-loka stack](devas-asuras-and-the-lokas.md#1b-the-7-lower-lokas-patala--adho-loka).
+- Yama as a deity and dharma-lord: see the [Navagraha / Vedic deities](navagraha.md) and [vedic-deities-and-suktas](../90-literature-corpus/vedic-deities-and-suktas.md) (Rig Veda 10.14, Yama hymn).
 - Source texts: [Garuda Purana](../90-literature-corpus/puranas/garuda-purana.md) · [Vishnu Purana](../90-literature-corpus/puranas/vishnu-purana.md) · [Markandeya Purana](../90-literature-corpus/puranas/markandeya-purana.md) · [Bhagavata Skandha map](../90-literature-corpus/bhagavata-purana-skandha-map.md) · [Dharmashastras](../90-literature-corpus/agamas-tantras-dharmashastras.md) · [Upanishads](../90-literature-corpus/principal-upanishads-detail.md).
 
 ---

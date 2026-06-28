@@ -1,6 +1,6 @@
 # Āśvamedhika Parva — The Book of the Horse Sacrifice
 
-> **Cosmic address:** Dvāpara Yuga → Mahābhārata war's aftermath → 14th of the 18 parvas. Sits in [Kali Yuga's eve], part of the [Mahābhārata deep-dive series](./README.md). Up one level: [04-deep-dives/mahabharata](./README.md). The events here unfold in the [28th Mahāyuga's Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md), shortly before the [Kali Yuga begins (3102 BCE)](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
+> **Cosmic address:** Dvāpara Yuga → Mahābhārata war's aftermath → 14th of the 18 parvas. Sits in [Kali Yuga's eve], part of the [Mahābhārata deep-dive series](README.md). Up one level: [04-deep-dives/mahabharata](README.md). The events here unfold in the [28th Mahāyuga's Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md), shortly before the [Kali Yuga begins (3102 BCE)](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
 
 The fourteenth book of the Mahābhārata, recounting Yudhiṣṭhira's imperial **Aśvamedha** (horse sacrifice) of post-war atonement and sovereignty, the **Anugītā** (Kṛṣṇa's "sequel" to the Bhagavad Gītā), Arjuna's year-long campaign following the wandering horse — including his death at the hands of his own son **Babhruvāhana** and revival — and the celebrated parable of the **golden-headed mongoose** that deflates the whole grand ritual. Traditional (Gītā Press / Calcutta) text: **2 sub-parvas, 96 chapters, ~2,742 verses**; Critical Edition: **92 chapters, 2,741 verses**.
 
@@ -23,7 +23,7 @@ The fourteenth book of the Mahābhārata, recounting Yudhiṣṭhira's imperial 
 
 ## The Anugītā — Kṛṣṇa's "sequel" to the Gītā
 
-> Chs. 16–51. Set in Indraprastha/Hastināpura *after* the war, in peace, not on the battlefield. See the original at [Bhagavad Gītā deep-dive](../bhagavad-gita.md) (if present) and the war book [Bhīṣma Parva](./06-bhishma-parva.md).
+> Chs. 16–51. Set in Indraprastha/Hastināpura *after* the war, in peace, not on the battlefield. See the original at [Bhagavad Gītā deep-dive](../bhagavad-gita.md) (if present) and the war book [Bhīṣma Parva](06-bhishma-parva.md).
 
 - **Arjuna's confession** - Arjuna admits he has **forgotten** the wisdom Kṛṣṇa spoke before the war and asks to hear it again (MBh 14.16).
 - **Kṛṣṇa cannot repeat it verbatim** - Kṛṣṇa says the Gītā was uttered in a heightened **yogic state (yoga-yukta)** and cannot be reproduced word-for-word; instead he relays an **old conversation (purāṇa itihāsa)** carrying the same import — hence "Anu-gītā," the *after/alongside-song* (MBh 14.16).
@@ -47,7 +47,7 @@ The fourteenth book of the Mahābhārata, recounting Yudhiṣṭhira's imperial 
 
 ## Babhruvāhana — Arjuna slain by his own son
 
-- **The son in Maṇipura** - **Babhruvāhana** is Arjuna's son by **Citrāṅgadā**, princess of Maṇipura. Per the marriage pact (made in the [Ādi Parva](./01-adi-parva.md)), the boy stayed in his mother's kingdom as its heir and did not join the Pāṇḍava household (MBh 14.79).
+- **The son in Maṇipura** - **Babhruvāhana** is Arjuna's son by **Citrāṅgadā**, princess of Maṇipura. Per the marriage pact (made in the [Ādi Parva](01-adi-parva.md)), the boy stayed in his mother's kingdom as its heir and did not join the Pāṇḍava household (MBh 14.79).
 - **Arjuna provokes him** - when the horse reaches Maṇipura, Babhruvāhana comes out **peacefully, in homage**, with gifts. Arjuna, bound by kṣatriya code to fight any realm the horse enters, **rebukes him as unmanly** for not offering battle (MBh 14.79–80).
 - **Ulūpī's intervention** - **Ulūpī**, the Nāga princess (Arjuna's other wife, Babhruvāhana's step-mother), rises from the earth and **goads Babhruvāhana to fight his father** (MBh 14.80).
 - **Babhruvāhana kills Arjuna** - in the duel the son's arrows strike Arjuna down dead; grief-stricken, Babhruvāhana resolves to die beside him; **Citrāṅgadā** laments and reproaches Ulūpī (MBh 14.81).
@@ -68,7 +68,7 @@ The fourteenth book of the Mahābhārata, recounting Yudhiṣṭhira's imperial 
 
 ## Connections
 
-- Preceded by [Anuśāsana Parva (13)](./13-anushasana-parva.md); followed by [Āśramavāsika Parva (15)](./15-ashramavasika-parva.md).
+- Preceded by [Anuśāsana Parva (13)](13-anushasana-parva.md); followed by [Āśramavāsika Parva (15)](15-ashramavasika-parva.md).
 - Philosophical link: the [Bhagavad Gītā](../bhagavad-gita.md) (Bhīṣma Parva) that the Anugītā recapitulates.
 - The horse sacrifice as a sovereignty rite echoes Rāma's Aśvamedha — compare [Rāmāyaṇa Uttara Kāṇḍa](../ramayana/7-uttara-kanda.md).
 - Avatāra context: Kṛṣṇa as [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md); his reviving of Parikṣit prefigures the end of the Dvāpara age.

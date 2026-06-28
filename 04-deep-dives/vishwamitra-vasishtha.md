@@ -1,7 +1,7 @@
 # Viśvāmitra & Vasiṣṭha — Kṣatriya to Brahmarṣi
 
 > **Where this sits:** A deep-dive into the longest-running ṛṣi rivalry in Hindu tradition — the kṣatriya king Viśvāmitra's multi-life struggle to win **brahmarṣi** status from the brahmarṣi Vasiṣṭha. Its episodes thread through the [Ṛgveda](../90-literature-corpus/shruti-vedas-and-upanishads.md), the [Mahābhārata](mahabharata/) & [Rāmāyaṇa](ramayana/), the [Aitareya Brāhmaṇa](../90-literature-corpus/shruti-vedas-and-upanishads.md), and the Purāṇas. Both protagonists belong to the **[Sūryavaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md)** orbit (Viśvāmitra a Kuśika kṣatriya; Vasiṣṭha the Ikṣvāku royal purohita).
-> Parent: [04-deep-dives](./) · Cosmic address: Śveta-Varāha Kalpa › 7th (Vaivasvata) Manvantara › 28th Mahāyuga, mostly **[Tretā Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)** (Viśvāmitra survives into Rāma's era), with Ṛgvedic seer-tradition layered atop.
+> Parent: [04-deep-dives](./) · Cosmic address: Śveta-Varāha Kalpa › 7th (Vaivasvata) Manvantara › 28th Mahāyuga, mostly **[Tretā Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)** (Viśvāmitra survives into Rāma's era), with Ṛgvedic seer-tradition layered atop.
 
 The Viśvāmitra–Vasiṣṭha cycle is the paradigmatic Hindu narrative of **earned vs. born status**: whether a kṣatriya can, by tapas alone, vault into brahmin-hood and ultimately into the rank of **brahmarṣi** ("brahman-seer"). The texts disagree sharply on tone — the Ṛgveda treats both as living seer-rivals over the Sudās dynasty; the Aitareya Brāhmaṇa makes Viśvāmitra an adoptive father and ritual founder; the Rāmāyaṇa frames the whole arc as a moral parable of tapas vs. wrath; the Mahābhārata and Purāṇas amplify the cruelty and the mutual destruction. Catalog all below.
 
@@ -129,7 +129,7 @@ This is the **earliest extant** narrative connecting Viśvāmitra to a Hariścan
 
 ## Cross-references
 - Lineages of both sages: [Sūryavaṃśa & Candravaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md)
-- The age of the events: [Tretā Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)
+- The age of the events: [Tretā Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)
 - Textual homes: [Vedas & Upaniṣads](../90-literature-corpus/shruti-vedas-and-upanishads.md) · [Itihāsa epics](../90-literature-corpus/smriti-itihasa-epics.md) · [Purāṇas](../90-literature-corpus/smriti-puranas.md)
 - Companion truth-tale: [Naḷa-Damayantī](nala-damayanti.md) · [Sāvitrī-Satyavān](savitri-satyavan.md)
 

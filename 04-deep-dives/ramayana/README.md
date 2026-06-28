@@ -1,6 +1,6 @@
 # The Rāmāyaṇa — Overview & Recensions
 
-> Cosmic address: [Brahma's current life](../../README.md) › [Vaivasvata Manvantara](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) › [28th Mahāyuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) › **[Tretā Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)** — the events of the Rāmāyaṇa are traditionally set near the close of the Tretā Yuga of the current Mahāyuga.
+> Cosmic address: [Brahma's current life](../../README.md) › [Vaivasvata Manvantara](../../01-manvantaras/manvantara-07-vaivasvata/README.md) › [28th Mahāyuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) › **[Tretā Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)** — the events of the Rāmāyaṇa are traditionally set near the close of the Tretā Yuga of the current Mahāyuga.
 >
 > This is the overview node for the Rāmāyaṇa deep-dive. Up: [04-deep-dives](../README.md) · Parent epic-corpus: [Smṛti — Itihāsa & Epics](../../90-literature-corpus/smriti-itihasa-epics.md).
 
@@ -37,7 +37,7 @@ The Sanskrit text survives in **thousands of manuscripts** (oldest ~11th c. CE) 
 
 ## Dating — tradition vs. scholarship
 
-- *Traditional (scriptural):* set in the **Tretā Yuga** of the current 28th Mahāyuga — i.e., hundreds of thousands to millions of years ago by the [yuga framework](../../00-time-and-cosmology/yugas-and-mahayuga.md); Vālmīki composes it contemporaneously with Rāma. (Dharma stands on **3 legs** in Tretā — see [Tretā Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md).)
+- *Traditional (scriptural):* set in the **Tretā Yuga** of the current 28th Mahāyuga — i.e., hundreds of thousands to millions of years ago by the [yuga framework](../../00-time-and-cosmology/yugas-and-mahayuga.md); Vālmīki composes it contemporaneously with Rāma. (Dharma stands on **3 legs** in Tretā — see [Tretā Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md).)
 - *Astronomical "scientific dating"* [disputed] - planetarium-software readings of verse sky-descriptions place Rāma's birth at **~5114 BCE** (Nilesh Oak, Pushkar Bhatnagar, et al.). Treated as fringe by mainstream philology.
 - *Scholarly (philological):* the oral core composed **c. 750–500 BCE** (R. P. Goldman: archetype "unlikely much earlier than the beginning of the 7th c. BCE"); Brockington's layered model puts the first stage **5th–4th c. BCE**, with the text reaching roughly its present form (including Bāla & Uttara kāṇḍas) by **c. 3rd c. CE**.
 

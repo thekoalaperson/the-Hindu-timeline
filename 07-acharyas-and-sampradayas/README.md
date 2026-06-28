@@ -1,9 +1,9 @@
 # Ācāryas & Sampradāyas — Index
 
 > Section root: `07-acharyas-and-sampradayas/` — the great **teachers (ācāryas)** and the **sectarian lineages / monastic orders (sampradāyas, panthas, mathas)** that carry Sanātana Dharma through the **historical** stretch of the Kali-Yuga. Up-link: repo [`../README.md`](../README.md).
-> Where [`90-literature-corpus/`](../90-literature-corpus/) asks *"which text?"* and [`01-…/recorded-history.md`](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md) asks *"what is datable?"*, this section asks **"who transmitted it, and through which living institution?"**
+> Where [`90-literature-corpus/`](../90-literature-corpus/) asks *"which text?"* and [`01-…/recorded-history.md`](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md) asks *"what is datable?"*, this section asks **"who transmitted it, and through which living institution?"**
 
-This is the human-institutional layer. Nearly everything here sits in the **first ~1.2% of Kali Yuga** (post-3102 BCE traditional / mostly 1st millennium CE onward academically) — the bhakti, Vedānta, and tantric reform movements that reorganized Hindu practice into named lineages with founders, succession-seats (*pīṭhas* / *mathas*), commentarial canons, and initiation chains (*paramparā*). Dating is given **[traditional]** (matha-succession / hagiographic) vs **[scholarly]** (epigraphic / text-critical) where they diverge — see the [two-clocks method](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md). The philosophical scaffolding (the six [Darśanas](../90-literature-corpus/upavedas-vedangas-darshanas.md) and the Vedānta sub-schools) is cataloged in the literature corpus; this section maps those darśanas onto the **orders that embody them**.
+This is the human-institutional layer. Nearly everything here sits in the **first ~1.2% of Kali Yuga** (post-3102 BCE traditional / mostly 1st millennium CE onward academically) — the bhakti, Vedānta, and tantric reform movements that reorganized Hindu practice into named lineages with founders, succession-seats (*pīṭhas* / *mathas*), commentarial canons, and initiation chains (*paramparā*). Dating is given **[traditional]** (matha-succession / hagiographic) vs **[scholarly]** (epigraphic / text-critical) where they diverge — see the [two-clocks method](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md). The philosophical scaffolding (the six [Darśanas](../90-literature-corpus/upavedas-vedangas-darshanas.md) and the Vedānta sub-schools) is cataloged in the literature corpus; this section maps those darśanas onto the **orders that embody them**.
 
 ---
 
@@ -36,7 +36,7 @@ The **Vedānta schools** these orders carry — Advaita, Viśiṣṭādvaita, Dv
 - *Planned:* `shaiva-shakta-lineages.md` — Śaiva Siddhānta, Nāyaṉārs, Kashmir Śaivism, Liṅgāyat, Nāth, and the Śākta / Śrī Vidyā tantric orders.
 - *Planned:* `smarta-and-vedanta-acharyas.md` — Ādi Śaṅkara, the Daśanāmī order, the āmnāya pīṭhas, and the comparative Vedānta-school table.
 
-Until those land, the four-sampradāya frame and the founders above are the working index; cross-check every dated claim against [recorded-history.md](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
+Until those land, the four-sampradāya frame and the founders above are the working index; cross-check every dated claim against [recorded-history.md](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
 
 ---
 

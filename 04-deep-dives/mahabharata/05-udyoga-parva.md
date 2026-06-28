@@ -1,7 +1,7 @@
 # Udyoga Parva — The Book of Effort
 
-> Cosmic address: the fifth book of the [Mahābhārata](../../90-literature-corpus/smriti-itihasa-epics.md), unfolding at the cusp of the [Dvāpara Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) of the current Vaivasvata Manvantara; Kṛṣṇa, the 8th [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md), serves as peace-envoy. The Pāṇḍavas and Kauravas are of the [Candravaṃśa / lunar line](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
-> Parent: [Mahābhārata deep-dive index](./README.md) · Part of [04-deep-dives](../README.md). Follows [04 Virāṭa Parva](./04-virata-parva.md); precedes [06 Bhīṣma Parva](./06-bhishma-parva.md) (which opens with the [Bhagavad Gītā](../bhagavad-gita.md)). Primary source: Vyāsa's Mahābhārata, Book 5.
+> Cosmic address: the fifth book of the [Mahābhārata](../../90-literature-corpus/smriti-itihasa-epics.md), unfolding at the cusp of the [Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) of the current Vaivasvata Manvantara; Kṛṣṇa, the 8th [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md), serves as peace-envoy. The Pāṇḍavas and Kauravas are of the [Candravaṃśa / lunar line](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
+> Parent: [Mahābhārata deep-dive index](README.md) · Part of [04-deep-dives](../README.md). Follows [04 Virāṭa Parva](04-virata-parva.md); precedes [06 Bhīṣma Parva](06-bhishma-parva.md) (which opens with the [Bhagavad Gītā](../bhagavad-gita.md)). Primary source: Vyāsa's Mahābhārata, Book 5.
 
 The **Udyoga Parva** ("Book of Effort" / "Book of Preparation"; *udyoga* = endeavour, exertion) is the fifth of the eighteen *parvas*. The thirteen-year exile is over; the Pāṇḍavas, revealed at Virāṭa's court, demand back their half-kingdom — and the Kauravas refuse. The book is the great **hinge between peace and war**: it chronicles a chain of failed embassies (Drupada's priest, Sanjaya, finally Kṛṣṇa himself), the famous *nīti* (statecraft) and *adhyātma* (metaphysics) discourses inserted into the negotiation frame (**Vidura-nīti**, **Sanatsujātīya**), the private revelation of **Karṇa's true parentage**, the muster and counting of the armies, and the naming of **Bhīṣma** and **Dhṛṣṭadyumna** as the two supreme commanders. It ends on the eve of the eighteen-day war at Kurukṣetra. (Whole-book summary: Vyāsa, Udyoga Parva; critical edition: S.K. De, BORI.)
 
@@ -76,7 +76,7 @@ The vulgate (Calcutta/Bombay) divides the book into **10 *upaparvas* / ~199 adhy
 - **Karṇa's refusal out of loyalty** - Karṇa declines: Duryodhana's friendship raised him from obscurity, and he will not betray it; he foresees defeat ("this is a great sacrifice of arms in which I am an offering") yet chooses honour and gratitude (Bhagavad-yāna P.).
 - **Kuntī's appeal on the Ganges bank** - Kṛṣṇa has Kuntī herself go to Karṇa; she confesses she is his mother and begs him to spare his brothers and rejoin them; **Sūrya** speaks from the sky confirming her words and urging him to heed her (Bhagavad-yāna P., Mbh 5.144–146 / sacred-texts m05146).
 - **Karṇa's vow — "you shall still have five sons"** - Karṇa reproaches Kuntī for abandoning him at birth but grants a boon: he will **not kill the four younger Pāṇḍavas** (Yudhiṣṭhira, Bhīma, Nakula, Sahadeva); only between **him and Arjuna** will it be to the death — so that whatever happens, Kuntī will still have **five living sons**. He asks Kṛṣṇa to keep his birth secret, lest Yudhiṣṭhira hand him the kingdom and he in turn give it to Duryodhana (Bhagavad-yāna P.).
-  - *Variant (timing of Karṇa's curses/handicaps):* the loss of his Sūrya-given armour-and-earrings (*kavaca-kuṇḍala*) to Indra, and the curses of Paraśurāma and the brahmin (chariot-wheel; forgetting weapons) are told in the Vana Parva and recalled here; traditions differ on exact sequence — see [03 Vana Parva](./03-vana-parva.md).
+  - *Variant (timing of Karṇa's curses/handicaps):* the loss of his Sūrya-given armour-and-earrings (*kavaca-kuṇḍala*) to Indra, and the curses of Paraśurāma and the brahmin (chariot-wheel; forgetting weapons) are told in the Vana Parva and recalled here; traditions differ on exact sequence — see [03 Vana Parva](03-vana-parva.md).
   - *Variant (Sarala Mahābhārata, Odia):* regional retellings expand the Kuntī–Karṇa meeting with additional dialogue and a more anguished Karṇa [regional tradition] (Sarala Dāsa, *Sāraḷā Mahābhārata*).
 
 ## Sainya-niryāṇa — Marching to Kurukṣetra & the Commanders
@@ -103,18 +103,18 @@ The vulgate (Calcutta/Bombay) divides the book into **10 *upaparvas* / ~199 adhy
 ## Ambopākhyāna — Why Bhīṣma Will Not Fight Śikhaṇḍin
 
 - **Bhīṣma names his one exception** - Bhīṣma declares he will fight everyone **except Śikhaṇḍin**, whom he will not strike "because she was born a woman," and recounts the long back-story to explain (Udyoga, Ambopākhyāna P.).
-- **The abduction of the three Kāśī princesses** - Long ago Bhīṣma carried off **Ambā, Ambikā, and Ambālikā** from their *svayaṃvara* for his half-brother Vicitravīrya (Ambopākhyāna P.; back-story to [01 Ādi Parva](./01-adi-parva.md)).
+- **The abduction of the three Kāśī princesses** - Long ago Bhīṣma carried off **Ambā, Ambikā, and Ambālikā** from their *svayaṃvara* for his half-brother Vicitravīrya (Ambopākhyāna P.; back-story to [01 Ādi Parva](01-adi-parva.md)).
 - **Ambā's release and rejection** - Ambā, already in love with king **Śālva**, is freed; but Śālva spurns her as another man's prize, and Vicitravīrya cannot take her either — leaving her ruined and vengeful against Bhīṣma (Ambopākhyāna P.).
 - **Ambā's tapas and Paraśurāma's duel** - Ambā seeks champions; her teacher's-teacher **Paraśurāma** fights Bhīṣma in a tremendous, days-long, indecisive duel that the gods halt; Bhīṣma refuses to break his celibacy-vow and wed her (Ambopākhyāna P.).
 - **The boon of Śiva and Ambā's self-immolation** - Ambā performs fierce austerities; **Śiva** grants that she will cause Bhīṣma's death in her next birth; she immolates herself, reborn as Drupada's child (Ambopākhyāna P.).
-- **Śikhaṇḍin's sex-change** - Born a daughter (**Śikhaṇḍinī**) but raised as a son, Śikhaṇḍin exchanges sex with the *yakṣa* **Sthūṇākarṇa**, becoming male — the destined instrument before whom Bhīṣma will lay down arms in the [Bhīṣma Parva](./06-bhishma-parva.md) (Ambopākhyāna P.).
+- **Śikhaṇḍin's sex-change** - Born a daughter (**Śikhaṇḍinī**) but raised as a son, Śikhaṇḍin exchanges sex with the *yakṣa* **Sthūṇākarṇa**, becoming male — the destined instrument before whom Bhīṣma will lay down arms in the [Bhīṣma Parva](06-bhishma-parva.md) (Ambopākhyāna P.).
   - *Variant (gender):* texts and traditions vary on whether Śikhaṇḍin is permanently male, temporarily so, or remains transgender — a much-discussed passage in modern scholarship on gender in the epic [scholarly].
-- **The book closes on the eve of war** - With commanders named, warriors counted, and every embassy failed, the two armies stand arrayed at Kurukṣetra; the narrative passes to the [Bhīṣma Parva](./06-bhishma-parva.md), where Arjuna's despondency opens the [Bhagavad Gītā](../bhagavad-gita.md) (Udyoga, close).
+- **The book closes on the eve of war** - With commanders named, warriors counted, and every embassy failed, the two armies stand arrayed at Kurukṣetra; the narrative passes to the [Bhīṣma Parva](06-bhishma-parva.md), where Arjuna's despondency opens the [Bhagavad Gītā](../bhagavad-gita.md) (Udyoga, close).
 
 ## Cross-References
 
-- Prior books: [01 Ādi Parva](./01-adi-parva.md) · [02 Sabhā Parva](./02-sabha-parva.md) · [03 Vana Parva](./03-vana-parva.md) · [04 Virāṭa Parva](./04-virata-parva.md)
-- Next: [06 Bhīṣma Parva](./06-bhishma-parva.md) and the [Bhagavad Gītā](../bhagavad-gita.md)
+- Prior books: [01 Ādi Parva](01-adi-parva.md) · [02 Sabhā Parva](02-sabha-parva.md) · [03 Vana Parva](03-vana-parva.md) · [04 Virāṭa Parva](04-virata-parva.md)
+- Next: [06 Bhīṣma Parva](06-bhishma-parva.md) and the [Bhagavad Gītā](../bhagavad-gita.md)
 - Krishna as avatāra: [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md)
 - Doctrine touched here: [Ātman & Brahman](../../05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md) · [karma, saṃsāra, mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md)
 - Statecraft genre: [Āgamas, Tantras & Dharmaśāstras](../../90-literature-corpus/agamas-tantras-dharmashastras.md)

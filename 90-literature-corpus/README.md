@@ -1,6 +1,6 @@
 # The Literature Corpus — Overview
 
-> Hierarchy location: `90-literature-corpus/` — the meta-spine of the whole repo. These are the **texts that RECORD** everything mapped under [`01-brahma-current-life/`](../01-brahma-current-life/). Where the yuga/event files ask *"what happened?"*, this branch asks *"which text says so, and when was it written?"* Every event bullet elsewhere should trace back to a source cataloged here.
+> Hierarchy location: `90-literature-corpus/` — the meta-spine of the whole repo. These are the **texts that RECORD** everything mapped under [`01-manvantaras/`](../01-manvantaras/). Where the yuga/event files ask *"what happened?"*, this branch asks *"which text says so, and when was it written?"* Every event bullet elsewhere should trace back to a source cataloged here.
 
 This file is the master map: the **Shruti / Smriti** division, then a walk through each genre (Vedas → Upanishads → Itihasa → Puranas → Upavedas → Vedangas → Darshanas → Agamas → Dharmashastras), with **traditional attribution vs. academic dating** flagged for each, plus how each genre plugs into the cosmic timeline.
 
@@ -62,10 +62,10 @@ SANATANA DHARMA CORPUS
 The **Itihasa** are the two great narrative chronicles. Traditionally treated as eyewitness-grade history of specific yugas.
 
 - **Ramayana** — Rama's exile, Sita's abduction by Ravana, the war in Lanka, return to Ayodhya. Attributed to **Valmiki** (the "adi-kavi," first poet). 7 kandas, ~24,000 verses.
-  - *Timeline:* set in **Treta Yuga**. See [`../01-brahma-current-life/.../mahayuga-28-current/treta/`](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/treta/).
+  - *Timeline:* set in **Treta Yuga**. See [`../01-manvantaras/.../mahayuga-28-current/treta/`](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/treta/).
   - *Traditional:* composed by Valmiki, Rama's contemporary. *Academic:* core **c. 7th–4th c. BCE**, with additions to ~3rd c. CE; books 1 and 7 considered later (Wikipedia "Itihasa").
 - **Mahabharata** — the Kuru succession war between Pandavas and Kauravas at Kurukshetra; contains the **Bhagavad Gita**, the Krishna saga, and vast didactic material. Attributed to **Vyasa**. ~100,000 verses (longest poem in the world); "what is here may be elsewhere; what is not here is nowhere."
-  - *Timeline:* set at the **Dvapara–Kali junction**; Krishna's departure / war aftermath marks the **start of Kali Yuga (3102 BCE)**. See [`../01-brahma-current-life/.../mahayuga-28-current/dvapara/`](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/dvapara/).
+  - *Timeline:* set at the **Dvapara–Kali junction**; Krishna's departure / war aftermath marks the **start of Kali Yuga (3102 BCE)**. See [`../01-manvantaras/.../mahayuga-28-current/dvapara/`](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/dvapara/).
   - *Traditional:* one Vyasa composition, ~3102 BCE. *Academic:* grew **c. 400 BCE – 400 CE** from a shorter "Jaya"/"Bharata" core (Wikipedia "Itihasa"; Epic-Puranic chronology).
 - **Itihasa-Purana as a unit:** tradition often pairs the epics with the Puranas as the "fifth Veda" — the accessible vehicle of dharma for all castes, especially in Kali Yuga. (dharmawiki.org; Vayu Purana)
 
@@ -75,7 +75,7 @@ The **Itihasa** are the two great narrative chronicles. Traditionally treated as
 
 The **primary source for this entire repo's timeline**: creation, dissolution, manvantaras, yugas, avatars, royal genealogies (vamsha), tirthas, and rites. Traditionally attributed to **Vyasa**, narrated by the suta Lomaharshana/Ugrashravas. (vyasaonline.com; dharmawiki.org)
 
-- **Pancha-Lakshana** ("five marks") — a Purana ideally covers: **sarga** (creation), **pratisarga** (re-creation after pralaya), **vamsha** (genealogy of gods/rishis), **manvantara** (the cosmic cycles of the Manus), **vamshanucharita** (dynastic histories of kings). This 5-fold scheme *is* the skeleton of [`01-brahma-current-life/`](../01-brahma-current-life/) and [`03-lineages-vamsha/`](../03-lineages-vamsha/). (dharmawiki.org)
+- **Pancha-Lakshana** ("five marks") — a Purana ideally covers: **sarga** (creation), **pratisarga** (re-creation after pralaya), **vamsha** (genealogy of gods/rishis), **manvantara** (the cosmic cycles of the Manus), **vamshanucharita** (dynastic histories of kings). This 5-fold scheme *is* the skeleton of [`01-manvantaras/`](../01-manvantaras/) and [`03-lineages-vamsha/`](../03-lineages-vamsha/). (dharmawiki.org)
 - **18 Mahapuranas (Ashtadasha Mahapuranas).** Sectarian self-classification into Sattva/Rajas/Tamas (Vishnu / Brahma / Shiva oriented):
   - *Sattvic (Vaishnava):* Vishnu, Bhagavata, Naradiya, Garuda, Padma, Varaha.
   - *Rajasic (Brahma):* Brahma, Brahmanda, Brahma-Vaivarta, Markandeya, Bhavishya, Vamana.
@@ -84,7 +84,7 @@ The **primary source for this entire repo's timeline**: creation, dissolution, m
 - **18 Upapuranas** ("minor" Puranas) + countless **Sthala Puranas** (local/temple) and caste/sect Puranas **[regional/folk tradition]** — catalog these as variant sources wherever they add or differ.
 - **Variant policy hotspot:** Puranas openly disagree (number of avatars, yuga sub-details, which Manu/Indra rules now, sequence of creations). **Always attribute each version to its specific Purana.**
   - *Traditional:* one Vyasa authorship at the Dvapara–Kali junction. *Academic:* "first versions composed **c. 3rd–10th c. CE**," over many hands and centuries, with continuous interpolation (Wikipedia "Puranas"; prekshaa.in "Dating of the Puranas"). The Bhavishya Purana notoriously contains **[late text]** material naming much later figures.
-- **Timeline role:** the load-bearing source for nearly every node under [`01-brahma-current-life/`](../01-brahma-current-life/).
+- **Timeline role:** the load-bearing source for nearly every node under [`01-manvantaras/`](../01-manvantaras/).
 
 ---
 
@@ -147,7 +147,7 @@ The **Shad-Darshana** ("six viewpoints") — astika (Veda-accepting) systems, us
 
 Treatises on **dharma**: law, duty, varna/ashrama, statecraft, expiation. Grew out of the **Dharma Sutras** (part of Kalpa Vedanga). (Britannica "Hinduism — Sutras, shastras, smritis")
 
-- **Manusmriti (Manava Dharmashastra)** — the most famous; attributed to **Manu** (the very Vaivasvata Manu of our 7th Manvantara — see [`../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/`](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/)). *Academic:* **c. 200 BCE – 200 CE**.
+- **Manusmriti (Manava Dharmashastra)** — the most famous; attributed to **Manu** (the very Vaivasvata Manu of our 7th Manvantara — see [`../01-manvantaras/manvantara-07-vaivasvata/`](../01-manvantaras/manvantara-07-vaivasvata/)). *Academic:* **c. 200 BCE – 200 CE**.
 - **Yajnavalkya Smriti**, **Narada Smriti**, **Parashara Smriti** — the last traditionally named the **prescribed code for Kali Yuga** ("Kalau Parasharah smritah"). (Britannica)
 - **Arthashastra** (Kautilya/Chanakya) — statecraft/economics; *academic:* Mauryan-era core, ~4th c. BCE onward.
 - **Timeline role:** Dharmashastras encode the *expected conduct per yuga* — directly tied to the **declining dharma (4→3→2→1 legs of the bull of Dharma)** in [`../00-time-and-cosmology/`](../00-time-and-cosmology/) and the Kali-Yuga files.
@@ -170,7 +170,7 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - `./itihasa/` — Ramayana & Mahabharata, kanda/parva breakdowns, event-to-yuga maps.
 - `./puranas/` — the 18 Maha- + 18 Upa-Puranas, each profiled with its variant cosmology.
 - `./vedangas/`, `./upavedas/`, `./darshanas/`, `./agamas/`, `./dharmashastras/` — genre detail files.
-- *(See parent index for cross-links into [`01-brahma-current-life/`](../01-brahma-current-life/), [`02-deities-and-cosmic-hierarchy/`](../02-deities-and-cosmic-hierarchy/), [`03-lineages-vamsha/`](../03-lineages-vamsha/).)*
+- *(See parent index for cross-links into [`01-manvantaras/`](../01-manvantaras/), [`02-deities-and-cosmic-hierarchy/`](../02-deities-and-cosmic-hierarchy/), [`03-lineages-vamsha/`](../03-lineages-vamsha/).)*
 
 ---
 

@@ -1,6 +1,6 @@
 # The 14 Manvantaras of the Current Kalpa
 
-> Hierarchy location: `01-brahma-current-life/the-14-manvantaras/` — one level below the current Kalpa (Shveta-Varaha, 1st day of Brahma's 51st year). A Kalpa = 14 Manvantaras + 15 sandhya-junctions. We are in the **7th, the Vaivasvata Manvantara**. Six are past, this one is current, seven are future.
+> Hierarchy location: `01-manvantaras/` — one level below the current Kalpa (Shveta-Varaha, 1st day of Brahma's 51st year). A Kalpa = 14 Manvantaras + 15 sandhya-junctions. We are in the **7th, the Vaivasvata Manvantara**. Six are past, this one is current, seven are future.
 > See also: [the cosmic clock](../../00-time-and-cosmology/) · current node → [`manvantara-07-vaivasvata/`](manvantara-07-vaivasvata/)
 
 ---

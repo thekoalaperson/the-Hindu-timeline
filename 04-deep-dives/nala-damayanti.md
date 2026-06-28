@@ -1,6 +1,6 @@
 # Nala & Damayatī — the Dice, the Curse, and Reunion
 
-> Where this sits: a **Dvāpara-era tale-within-a-tale**, narrated to Yudhiṣṭhira during the Pāṇḍavas' forest exile. It belongs to the [Mahābhārata deep-dives](./../04-deep-dives/) and to the [Mahābhārata corpus](./mahabharata/) inside the [28th Mahāyuga, Dvāpara Yuga](./../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md). Its villain is **Kali** — the same age-demon whose epoch we now inhabit ([Kali Yuga](./../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)).
+> Where this sits: a **Dvāpara-era tale-within-a-tale**, narrated to Yudhiṣṭhira during the Pāṇḍavas' forest exile. It belongs to the [Mahābhārata deep-dives](./../04-deep-dives/) and to the [Mahābhārata corpus](./mahabharata/) inside the [28th Mahāyuga, Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md). Its villain is **Kali** — the same age-demon whose epoch we now inhabit ([Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)).
 > Up: [04-deep-dives](./../04-deep-dives/) · Parent epic: [Mahābhārata](./mahabharata/)
 
 The **Nalopākhyāna** ("Episode of Nala") is a self-contained sub-epic embedded in the **Vana Parva (Āraṇyaka / Book of the Forest), sections 50–78 (some recensions 52–79)** of the Mahābhārata — 26–28 chapters, ~1,000+ verses. It is one of the oldest standalone narratives preserved in the epic and is so admired as a model of pure Sanskrit *kāvya* that for centuries it was the first literary text taught to Sanskrit students in Europe.
@@ -84,7 +84,7 @@ The **Nalopākhyāna** ("Episode of Nala") is a self-contained sub-epic embedded
 - **The Vibhītaka tree** - To prove his arithmetic, Ṛtuparṇa **counts the leaves and fruit of a Vibhītaka (bibhitaki) tree at a glance**; astonished Bāhuka verifies it by felling a branch and finds him exact (Mbh Vana Parva 72).
 - **Trade of the two "hearts"** - Marveling, Bāhuka begs Ṛtuparṇa to teach him the **akṣa-hṛdaya** (secret of dice / numbers); in return Nala gives Ṛtuparṇa the **aśva-hṛdaya** (secret of horses/charioteering) (Mbh Vana Parva 72).
 - **Kali expelled** - The instant the dice-secret enters Nala, **Kali is forced out of his body**, vomited forth; the demon, terrified, **begs forgiveness**. Nala curses him but spares his life; Kali takes refuge in the **Vibhītaka tree** (which is thereafter shunned). Nala is freed at last (Mbh Vana Parva 72).
-  - *Note:* this is the demon **Kali (Kaliyuga's personification)** — the same malign power whose age we now inhabit ([Kali Yuga README](./../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)); the tale dramatizes Kali's defeat by dharma, virtue, and self-mastery.
+  - *Note:* this is the demon **Kali (Kaliyuga's personification)** — the same malign power whose age we now inhabit ([Kali Yuga README](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)); the tale dramatizes Kali's defeat by dharma, virtue, and self-mastery.
 
 ## Act X — Recognition and reunion
 
@@ -104,7 +104,7 @@ The **Nalopākhyāna** ("Episode of Nala") is a self-contained sub-epic embedded
 ## Themes & cross-links
 
 - **Mirror of the main epic** - Nala's dice-ruin, exile, and recovery deliberately parallel Yudhiṣṭhira's, offering hope that the [Mahābhārata's](./mahabharata/) own catastrophe can be reversed.
-- **Kali as moral allegory** - The demon **Kali** can possess Nala only through a single ritual lapse and is driven out by knowledge and virtue — a dharma-lesson about the [Kali Yuga](./../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) we live in.
+- **Kali as moral allegory** - The demon **Kali** can possess Nala only through a single ritual lapse and is driven out by knowledge and virtue — a dharma-lesson about the [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) we live in.
 - **Truth (satya) as power** - Damayantī's chastity and Nala's truthfulness repeatedly bend reality (cursing the hunter, the gods' self-revelation, Vāyu's testimony).
 - **Afterlife of the tale** - Reworked across centuries: Śrīharṣa's *Naiṣadhīya-carita* (Sanskrit *mahākāvya*, 12th c.) [late text]; vernacular versions in Telugu, Tamil, Hindi, Bengali, and Kannada; a staple of Kathakali, Yakshagana, and folk theatre [folk tradition].
 

@@ -1,13 +1,13 @@
 # Mausala Parva — The Book of the Clubs
 
 > Cosmic address: Shveta-Varaha Kalpa › 51st year of Brahma › 7th (Vaivasvata) Manvantara › 28th Mahayuga › **end of Dvapara Yuga**, on the cusp of Kali.
-> The 16th of the 18 books (parvas) of the Mahabharata. ↑ Parent: [Mahabharata deep-dives](./README.md) · See also [03-dvapara-yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and [04-kali-yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
+> The 16th of the 18 books (parvas) of the Mahabharata. ↑ Parent: [Mahabharata deep-dives](README.md) · See also [03-dvapara-yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and [04-kali-yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
 
 The shortest and bleakest book of the epic. Thirty-six years after the Kurukshetra war, the victorious Yadava (Vrishni-Andhaka) clan annihilates itself in a drunken brawl using clubs (*musala* / *mausala*) sprung from a sage's curse; Balarama and Krishna depart the earth; Dwarka is swallowed by the sea; the divine descent of [Vishnu's Krishna avatar](../../02-deities-and-cosmic-hierarchy/dashavatara.md) ends. Krishna's departure is traditionally the marker for the **onset of Kali Yuga (3102 BCE)**. The book takes its name from the iron clubs (*musala*). Critical edition: 8 adhyayas / ~273 shlokas; vulgate (Gita Press / Ganguli): 9 chapters; no sub-parvas.
 
 ## The seeds of doom — two curses
 
-- **Gandhari's curse on Krishna** - After Kurukshetra, the bereaved Kuru queen Gandhari, having lost all hundred sons, curses Krishna: because he allowed the slaughter, his own Vrishni-Andhaka kinsmen will perish in fratricidal strife and he himself will die ignobly, alone in the wilderness, 36 years hence (Mausala Parva 1; this curse is first uttered in the [Stri Parva, book 11](./11-stri-parva.md)).
+- **Gandhari's curse on Krishna** - After Kurukshetra, the bereaved Kuru queen Gandhari, having lost all hundred sons, curses Krishna: because he allowed the slaughter, his own Vrishni-Andhaka kinsmen will perish in fratricidal strife and he himself will die ignobly, alone in the wilderness, 36 years hence (Mausala Parva 1; this curse is first uttered in the [Stri Parva, book 11](11-stri-parva.md)).
   - *Variant (Mahabharata, Mausala 1):* Krishna accepts the curse calmly, saying he already knows the Yadavas can be destroyed by none but themselves, and that the curse merely confirms his own will.
 - **The sages' curse on Samba's iron club** - At the holy spot Pindaraka (Pindataraka, near Dwarka/Prabhasa), idle Yadava princes try to mock visiting rishis: they dress Krishna's son **Samba** as a pregnant woman and ask the sages what "she" will bear. The enraged sages curse that Samba will deliver an iron club (*musala*) that will destroy the whole Vrishni and Andhaka race; Krishna alone the curse cannot touch except by his own choosing (Mausala Parva 1).
   - *Variant (Mahabharata):* the offended sages are named as **Vishvamitra, Kanva, and Narada**.
@@ -29,7 +29,7 @@ The shortest and bleakest book of the epic. Thirty-six years after the Kurukshet
 ## The brawl at Prabhasa
 
 - **The drunken festival** - At Prabhasa the Yadava heroes and their women feast and drink *maireya* liquor by the sea (drinking having earlier been banned in Dwarka; here the prohibition lapses) (Mausala Parva 3).
-- **Satyaki insults Kritavarma** - Inflamed by wine, **Satyaki** taunts **Kritavarma** for the night-massacre of the sleeping Pandava camp ([Sauptika Parva, book 10](./10-sauptika-parva.md)) and his role in Bhurishravas's death; he vows no warrior who slew sleeping men deserves to live (Mausala Parva 3).
+- **Satyaki insults Kritavarma** - Inflamed by wine, **Satyaki** taunts **Kritavarma** for the night-massacre of the sleeping Pandava camp ([Sauptika Parva, book 10](10-sauptika-parva.md)) and his role in Bhurishravas's death; he vows no warrior who slew sleeping men deserves to live (Mausala Parva 3).
 - **Pradyumna and the counter-taunt** - Krishna's son **Pradyumna** backs Satyaki; Kritavarma retorts by mocking Satyaki for killing the unarmed, fasting Bhurishravas in battle. The quarrel turns lethal (Mausala Parva 3).
 - **Satyaki beheads Kritavarma** - Satyaki springs up and cuts off Kritavarma's head; the Bhojas and Andhakas turn on Satyaki (Mausala Parva 3).
 - **Krishna's helplessness** - The mob falls on Satyaki and Pradyumna and kills them before Krishna's eyes. Enraged, Krishna himself seizes a handful of eraka grass — which turns to an iron club in his hand — and begins to kill (Mausala Parva 3).
@@ -65,12 +65,12 @@ The shortest and bleakest book of the epic. Thirty-six years after the Kurukshet
 - **The Gandiva fails** - Arjuna draws his great bow **Gandiva** but finds his strength gone; he cannot string it as before, his celestial astras (divine missiles) will not come at his call, and his quivers run empty. He beats the robbers with the bow-end but cannot protect the women (Mausala Parva 8).
 - **The women lost** - Many of the Vrishni-Andhaka widows are carried off by the bandits; others go willingly. Arjuna reaches Kurukshetra with only a remnant and settles the survivors — Krishna's grandson **Vajra** is installed as king at Indraprastha (Mausala Parva 8).
   - *Significance:* the loss of Arjuna's invincibility signals that the divine age has closed; the very weapons that served him "no longer have need of him."
-- **Vyasa's counsel** - The grief-stricken Arjuna goes to the sage **Vyasa**, who explains that all has happened by destiny and the ripening of curses; the Yadavas' time, and Krishna's earthly purpose, were complete. Vyasa tells Arjuna the heroes' age is over and counsels the Pandavas that the time has come to **renounce the kingdom and depart** — directly setting up the [Mahaprasthanika Parva (book 17)](./17-mahaprasthanika-parva.md) (Mausala Parva 8-9).
+- **Vyasa's counsel** - The grief-stricken Arjuna goes to the sage **Vyasa**, who explains that all has happened by destiny and the ripening of curses; the Yadavas' time, and Krishna's earthly purpose, were complete. Vyasa tells Arjuna the heroes' age is over and counsels the Pandavas that the time has come to **renounce the kingdom and depart** — directly setting up the [Mahaprasthanika Parva (book 17)](17-mahaprasthanika-parva.md) (Mausala Parva 8-9).
 
 ## Why it matters in the timeline
 
 - **End of Dvapara / start of Kali** - Krishna's departure is the conventional pivot: tradition fixes **Kali Yuga's onset at 3102 BCE**, dated from the day Krishna left the earth (a few weeks/months before by some reckonings). See [yugas-and-mahayuga](../../00-time-and-cosmology/yugas-and-mahayuga.md).
-- **Dharma's collapse** - The lawlessness, drunkenness and shamelessness portrayed prefigure the moral conditions of Kali Yuga (the dharma-bull now on a single leg). See [04-kali-yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
+- **Dharma's collapse** - The lawlessness, drunkenness and shamelessness portrayed prefigure the moral conditions of Kali Yuga (the dharma-bull now on a single leg). See [04-kali-yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
 - **The avatar's withdrawal** - Marks the close of the [Krishna avatar](../../02-deities-and-cosmic-hierarchy/dashavatara.md) and the [Chandravamsha's](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) Yadava (Vrishni) branch.
 
 ## Sources

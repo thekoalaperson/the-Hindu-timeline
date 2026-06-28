@@ -1,10 +1,10 @@
 # Āśramavāsika Parva — The Book of the Hermitage
 
-> Cosmic address: [Kali Yuga](../../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) → the Dvāpara–Kali junction, Hastināpura and the forests beyond the Gaṅgā, ~15–17 years after the Kurukṣetra war (war traditionally ~3138 BCE; Kali begins 3102 BCE), well into Yudhiṣṭhira's reign.
-> Parent: [Mahābhārata deep-dives](./README.md) · Previous: [14-Aśvamedhika Parva](./14-ashvamedhika-parva.md) · Next: [16-Mausala Parva](./16-mausala-parva.md)
+> Cosmic address: [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) → the Dvāpara–Kali junction, Hastināpura and the forests beyond the Gaṅgā, ~15–17 years after the Kurukṣetra war (war traditionally ~3138 BCE; Kali begins 3102 BCE), well into Yudhiṣṭhira's reign.
+> Parent: [Mahābhārata deep-dives](README.md) · Previous: [14-Aśvamedhika Parva](14-ashvamedhika-parva.md) · Next: [16-Mausala Parva](16-mausala-parva.md)
 > The fifteenth of the eighteen parvas. The elders' renunciation: blind Dhṛtarāṣṭra, Gāndhārī and Kuntī retire to the forest as vānaprasthas, are granted one miraculous night with their war-slain dead by Vyāsa, and at last die together in a forest wildfire; Vidura merges into Yudhiṣṭhira and Sañjaya departs for the Himālaya.
 
-The Āśramavāsika Parva ("dwelling in the hermitage"; ~1,100 ślokas in the Pune Critical Edition, ~39 chapters in the vulgate) is the quiet, elegiac coda to the war-and-instruction books. With the [Aśvamedha](./14-ashvamedhika-parva.md) completed and the dynasty secured, the epic turns to the **fourth āśrama**: the old generation embraces vānaprastha (forest-dwelling) and sannyāsa, settling its karmic and emotional debts before death. It dramatizes the **āśrama-dharma** of timely retirement, the unhealed grief that even peace cannot erase (Bhīma's lingering rancour), and a uniquely tender supernatural reconciliation between the living and the war dead. See [āśrama/varṇa](../../05-concepts-and-dharma/varna-ashrama-and-samskaras.md), [karma–saṃsāra–mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md), [Suryavaṃśa/Candravaṃśa lineages](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md), and the [Mahābhārata corpus entry](../../90-literature-corpus/smriti-itihasa-epics.md).
+The Āśramavāsika Parva ("dwelling in the hermitage"; ~1,100 ślokas in the Pune Critical Edition, ~39 chapters in the vulgate) is the quiet, elegiac coda to the war-and-instruction books. With the [Aśvamedha](14-ashvamedhika-parva.md) completed and the dynasty secured, the epic turns to the **fourth āśrama**: the old generation embraces vānaprastha (forest-dwelling) and sannyāsa, settling its karmic and emotional debts before death. It dramatizes the **āśrama-dharma** of timely retirement, the unhealed grief that even peace cannot erase (Bhīma's lingering rancour), and a uniquely tender supernatural reconciliation between the living and the war dead. See [āśrama/varṇa](../../05-concepts-and-dharma/varna-ashrama-and-samskaras.md), [karma–saṃsāra–mokṣa](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md), [Suryavaṃśa/Candravaṃśa lineages](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md), and the [Mahābhārata corpus entry](../../90-literature-corpus/smriti-itihasa-epics.md).
 
 ## Structure — the sub-parvas (upa-parvas)
 
@@ -31,7 +31,7 @@ The Āśramavāsika Parva ("dwelling in the hermitage"; ~1,100 ślokas in the Pu
 
 - **Vidura's yogic dissolution** - Yudhiṣṭhira, visiting, finds Vidura wasted to a skeleton by tapas, leaning against a tree. As the king approaches, Vidura fixes his gaze on him and, by the power of yoga, casts his life-breaths and being **into Yudhiṣṭhira's body**, then drops dead — the two are merged, for both are portions of Dharma. (Mbh XV, Āśramavāsa)
 - **No cremation** - A disembodied voice (or Vyāsa) forbids the burning of Vidura's corpse: as an incarnation of **Dharma**, his body is not to be consumed by fire. (Mbh XV)
-- **The Māṇḍavya curse explained** - Vyāsa reveals Vidura was the god **Dharma** himself, born of a śūdra woman in the mortal world through the curse of the sage **Aṇī-Māṇḍavya** (whom Dharma had unjustly impaled in a past judgment) — hence Vidura and Yudhiṣṭhira share one divine essence. (Mbh XV; cf. the curse story in [Ādi Parva](./01-adi-parva.md))
+- **The Māṇḍavya curse explained** - Vyāsa reveals Vidura was the god **Dharma** himself, born of a śūdra woman in the mortal world through the curse of the sage **Aṇī-Māṇḍavya** (whom Dharma had unjustly impaled in a past judgment) — hence Vidura and Yudhiṣṭhira share one divine essence. (Mbh XV; cf. the curse story in [Ādi Parva](01-adi-parva.md))
   - *Variant (some retellings):* Vidura's merger happens silently and only Vyāsa's later word identifies him as Dharma; others place the revelation at the moment of death. [disputed]
 
 ### Putradarśana: the night the dead returned
@@ -62,7 +62,7 @@ The Āśramavāsika Parva ("dwelling in the hermitage"; ~1,100 ślokas in the Pu
 
 - **Āśrama-dharma in action** - the parva is the epic's clearest narrative argument for the third and fourth life-stages — vānaprastha and sannyāsa — as the dharmic close of a householder's life. (see [āśrama/varṇa](../../05-concepts-and-dharma/varna-ashrama-and-samskaras.md))
 - **Grief, forgiveness and karma** - Bhīma's inability to forgive versus Kuntī's penitential service frames the human residue of the war; Vidura-as-Dharma and the Māṇḍavya curse tie the action back to the inexorable logic of [karma and rebirth](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
-- **The chosen death** - the elders' fire prefigures the Pāṇḍavas' own final journey (mahāprasthāna) two books later, modelling a voluntary, meditative exit from the body. (cf. [17-Mahāprasthānika Parva](./17-mahaprasthanika-parva.md))
+- **The chosen death** - the elders' fire prefigures the Pāṇḍavas' own final journey (mahāprasthāna) two books later, modelling a voluntary, meditative exit from the body. (cf. [17-Mahāprasthānika Parva](17-mahaprasthanika-parva.md))
 
 ## Sources
 

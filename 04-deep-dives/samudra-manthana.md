@@ -1,6 +1,6 @@
 # Samudra Manthana — The Churning of the Ocean
 
-> Cosmic address: this episode unfolds in the cosmic past of the present **[Vaivasvata Manvantara](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md)** (or, in some accounts, an earlier age), narrated across the Itihasa and Puranas. It is the origin-event of **amrita** (immortality nectar), of **Lakshmi**'s emergence, of **Kurma** (the [Dashavatara](../02-deities-and-cosmic-hierarchy/dashavatara.md) tortoise), and of the eternal **[deva–asura](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)** rivalry.
+> Cosmic address: this episode unfolds in the cosmic past of the present **[Vaivasvata Manvantara](../01-manvantaras/manvantara-07-vaivasvata/README.md)** (or, in some accounts, an earlier age), narrated across the Itihasa and Puranas. It is the origin-event of **amrita** (immortality nectar), of **Lakshmi**'s emergence, of **Kurma** (the [Dashavatara](../02-deities-and-cosmic-hierarchy/dashavatara.md) tortoise), and of the eternal **[deva–asura](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)** rivalry.
 > Parent: [Deep Dives](README.md)
 
 The **Samudra Manthana** ("churning of the ocean") — also *Kshira-Sagara Manthana* (churning of the milk-ocean), *Amrita Manthana* — is one of the most widely depicted episodes in Hindu tradition. The Devas and Asuras jointly churn the cosmic ocean to extract **amrita**, using **Mount Mandara** as the churning-rod and the serpent **Vasuki** as the rope, with **Vishnu** as **Kurma** (tortoise) supporting the mountain. Fourteen (in the most common count) **ratnas** ("jewels/treasures") emerge, culminating in the nectar — which the Devas secure through Vishnu's **Mohini** ruse. The episode appears in the *Mahabharata* (Adi Parva — earliest extant version), *Ramayana* (Bala Kanda), and most Puranas (Bhagavata, Vishnu, Padma, Matsya, Agni, Brahmanda, Vayu, Kurma, Linga, Skanda, Brahma-Vaivarta, Shiva), with significant divergence in cause, sequence, and list of treasures.
@@ -73,7 +73,7 @@ The most-cited enumeration is **14 ratnas**; scriptural lists actually range **9
 - [Dashavatara](../02-deities-and-cosmic-hierarchy/dashavatara.md) — Kurma (2nd) and Mohini avataras
 - [Devas, Asuras and the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) — the rivalry frame
 - [Trimurti and Tridevi](../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md) — Vishnu–Lakshmi, Shiva Nilakantha
-- [Vaivasvata Manvantara](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/README.md) — cosmic timeframe
+- [Vaivasvata Manvantara](../01-manvantaras/manvantara-07-vaivasvata/README.md) — cosmic timeframe
 - [Smriti — Puranas](../90-literature-corpus/smriti-puranas.md) — source-text corpus
 
 ## Sources

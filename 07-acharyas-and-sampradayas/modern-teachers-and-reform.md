@@ -1,7 +1,7 @@
 # Modern Teachers & Reform Movements
 
-> Detail node under [`07-acharyas-and-sampradayas/`](./README.md) — the 19th–20th century gurus, saints and reform societies who re-formed Hinduism under colonial modernity, carried Vedānta and bhakti to the West, and founded the global missions (Ramakrishna Mission, Arya Samaj, ISKCON, BAPS, SRF) that define lived Hinduism today. Up-link: section index [`07-…/README.md`](./README.md).
-> Sits in the **late, fully-documented stretch of Kali Yuga** (post-3102 BCE traditional; c. 1772–1977 CE academic) — where scripture-time gives way entirely to datable, archived history. These figures have **birth/death certificates, photographs and printed works**, so dating here is overwhelmingly **[scholarly]**; see the documented-history sweep and the two-clocks method at [`recorded-history.md`](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
+> Detail node under [`07-acharyas-and-sampradayas/`](README.md) — the 19th–20th century gurus, saints and reform societies who re-formed Hinduism under colonial modernity, carried Vedānta and bhakti to the West, and founded the global missions (Ramakrishna Mission, Arya Samaj, ISKCON, BAPS, SRF) that define lived Hinduism today. Up-link: section index [`07-…/README.md`](README.md).
+> Sits in the **late, fully-documented stretch of Kali Yuga** (post-3102 BCE traditional; c. 1772–1977 CE academic) — where scripture-time gives way entirely to datable, archived history. These figures have **birth/death certificates, photographs and printed works**, so dating here is overwhelmingly **[scholarly]**; see the documented-history sweep and the two-clocks method at [`recorded-history.md`](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
 
 ---
 
@@ -26,7 +26,7 @@ The pivot from reform-as-purge to **reform-as-export**: a universalist Vedānta 
 - **Ramakrishna Paramahamsa** - Bengali mystic and priest of the **Dakshineswar Kālī temple**; **18 Feb 1836 – 16 Aug 1886**. Ecstatic devotee of the Mother Goddess who claimed direct, experiential realization through **multiple paths** (Tantra, Vaiṣṇava bhakti, Advaita, even Islam and Christianity), grounding the doctrine that **all religions lead to the same God**. His monastic disciples formed the first **Math at Baranagore** after his death in 1886. (Source: Wikipedia, *Ramakrishna Mission*; Britannica) [scholarly]
 - **Swami Vivekananda** (Narendranath Datta) - chief disciple of Ramakrishna and the movement's organizer; **12 Jan 1863 – 4 July 1902**. Delivered the celebrated **"Sisters and Brothers of America"** address at the **World's Parliament of Religions, Chicago, September 1893**, introducing Vedānta and Yoga to the West and becoming "the Messenger of Indian wisdom." Founded the **Ramakrishna Mission on 1 May 1897**. (Source: Wikipedia, *Ramakrishna Mission*; Britannica) [scholarly]
 - **Ramakrishna Math & Mission** - the twin monastic order (Math, est. 1886) and philanthropic body (Mission, est. 1897), fusing **renunciation with social service** (*śiva jñāne jīva sevā* — "serve the living being as God"); headquarters at **Belur Math**, Kolkata. (Source: Wikipedia, *Ramakrishna Mission*; Britannica) [scholarly]
-  - *Variant (philosophical label):* scholars classify the Mission's teaching as **"Neo-Vedanta"** — a modern, universalist re-reading of [Ādi Śaṅkara's](./adi-shankara.md) Advaita; some traditionalists dispute that it faithfully represents classical Advaita. (Source: Wikipedia, *Ramakrishna Mission*) [scholarly] [disputed]
+  - *Variant (philosophical label):* scholars classify the Mission's teaching as **"Neo-Vedanta"** — a modern, universalist re-reading of [Ādi Śaṅkara's](adi-shankara.md) Advaita; some traditionalists dispute that it faithfully represents classical Advaita. (Source: Wikipedia, *Ramakrishna Mission*) [scholarly] [disputed]
 
 ## Integral & evolutionary spirituality — Sri Aurobindo
 
@@ -58,7 +58,7 @@ The pivot from reform-as-purge to **reform-as-export**: a universalist Vedānta 
 ## Global Gauḍīya bhakti — Prabhupada & ISKCON
 
 - **A. C. Bhaktivedanta Swami Prabhupada** (Abhay Charan De) - **1 Sept 1896 – 14 Nov 1977**; ācārya of the **Gauḍīya Vaiṣṇava** (Chaitanya) lineage who carried Kṛṣṇa-bhakti worldwide. Arrived in New York in 1965 at age 69 and founded the **International Society for Krishna Consciousness (ISKCON) in July 1966**. Prolific translator of the **Bhagavad Gītā As It Is** and the **Śrīmad Bhāgavatam**; spread congregational **Hare Kṛṣṇa saṅkīrtana** (chanting) across the globe. (Source: Wikipedia / Dharmapedia, *A. C. Bhaktivedanta Swami Prabhupada*) [scholarly]
-  - *Variant (lineage):* ISKCON's roots run through the [Chaitanya / Gauḍīya sampradāya](./nimbarka-vallabha-chaitanya.md) → **Bhaktisiddhanta Sarasvati** (Prabhupada's guru); it presents itself as the modern, English-medium continuation of the medieval Bengali bhakti movement, not a new sect. (Source: Wikipedia, *A. C. Bhaktivedanta Swami Prabhupada*) [scholarly]
+  - *Variant (lineage):* ISKCON's roots run through the [Chaitanya / Gauḍīya sampradāya](nimbarka-vallabha-chaitanya.md) → **Bhaktisiddhanta Sarasvati** (Prabhupada's guru); it presents itself as the modern, English-medium continuation of the medieval Bengali bhakti movement, not a new sect. (Source: Wikipedia, *A. C. Bhaktivedanta Swami Prabhupada*) [scholarly]
 
 ---
 

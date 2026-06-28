@@ -1,6 +1,6 @@
 # Devas, Asuras & the 14 Lokas
 
-> Cosmic geography and its principal beings. This is a core-spine node of `02-deities-and-cosmic-hierarchy/`: the vertical map of worlds (lokas) stacked along Mount Meru, the gods (devas) who hold the upper realms, and the asuras (daityas/danavas) who contest them. Events here recur across every yuga of the [current Vaivasvata Manvantara](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/) — the deva–asura conflict is the engine of cosmic history.
+> Cosmic geography and its principal beings. This is a core-spine node of `02-deities-and-cosmic-hierarchy/`: the vertical map of worlds (lokas) stacked along Mount Meru, the gods (devas) who hold the upper realms, and the asuras (daityas/danavas) who contest them. Events here recur across every yuga of the [current Vaivasvata Manvantara](../01-manvantaras/manvantara-07-vaivasvata/) — the deva–asura conflict is the engine of cosmic history.
 
 ---
 
@@ -89,7 +89,7 @@ The eight **Dikpalas** guard the cardinal/intercardinal directions: **Indra** (E
 - **Bali (Mahabali)** — virtuous, generous Daitya emperor (grandson of Prahlada) who conquered the three worlds. Vishnu incarnates as the dwarf **Vamana**, begs three paces of land, then expands to cosmic size — covering earth and heaven in two strides; for the third Bali offers his own head. Rewarded for his integrity with kingship of **Sutala** and a promise to be a future Indra; returns yearly (festival **Onam** in Kerala). (Bhagavata Purana 8; Vishnu Purana)
 - **Vritra** — the great Danava/serpent-drought demon who held back the cosmic waters; archetypal enemy of **Indra**, slain by Indra's vajra (fashioned from sage Dadhichi's bones) — the foundational deva–asura combat. (Rigveda 1.32; Bhagavata 6 reframes Vritra as the pious devotee Vritrasura). 
   - *Variant (Bhagavata Purana 6):* Vritra is a noble Vishnu-devotee (former gandharva/brahmin Chitraketu cursed), who fights Indra righteously and attains liberation — inverting the Vedic "demon" reading. (Bhagavata 6.9–13)
-- **Ravana** — ten-headed **Rakshasa** king of Lanka, son of sage Vishrava, devotee of Shiva and master of the Vedas; abducts Sita; slain by **Vishnu as Rama**. The central antagonist of the [Treta Yuga / Ramayana](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/treta/). (Ramayana)
+- **Ravana** — ten-headed **Rakshasa** king of Lanka, son of sage Vishrava, devotee of Shiva and master of the Vedas; abducts Sita; slain by **Vishnu as Rama**. The central antagonist of the [Treta Yuga / Ramayana](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/treta/). (Ramayana)
   - *Variant:* Ravana (with brother Kumbhakarna) is identified as a reincarnation of **Jaya/Vijaya**, Vishnu's cursed gatekeepers — also born as Hiranyakashipu/Hiranyaksha and Shishupala/Dantavakra across three lives. (Bhagavata Purana 7)
 - **Mahishasura** — buffalo-demon, boon of invincibility against all males; slain by the goddess **Durga** (Mahishasuramardini) — central to Shakta tradition and Durga Puja/Navaratri. (Devi Mahatmya / Markandeya Purana) [Shakta tradition]
 - **Maya (Mayasura)** — Danava architect-sorcerer, builder of celestial palaces (incl. the Pandavas' Maya Sabha); dwells in Talatala. (Mahabharata; Bhagavata)
@@ -105,7 +105,7 @@ The eight **Dikpalas** guard the cardinal/intercardinal directions: **Indra** (E
 - Variant valuations: Vaishnava texts (Bhagavata) ennoble asura devotees (Prahlada, Bali, Vritra); Shakta texts (Devi Mahatmya) center the Goddess as asura-slayer; Shaiva texts foreground Shiva/Skanda's asura-conflicts (Tarakasura, Tripura).
   - *Variant (Tripurantaka):* Shiva destroys the three flying cities (Tripura) of the asuras Tarakaksha, Vidyunmali, Kamalaksha with a single arrow. (Shiva Purana; Mahabharata) [Shaiva tradition]
 
-See also: [the cosmic time hierarchy](../00-time-and-cosmology/) · [lineages / vamsha](../03-lineages-vamsha/) · [current Kali Yuga node](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/).
+See also: [the cosmic time hierarchy](../00-time-and-cosmology/) · [lineages / vamsha](../03-lineages-vamsha/) · [current Kali Yuga node](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/).
 
 ---
 

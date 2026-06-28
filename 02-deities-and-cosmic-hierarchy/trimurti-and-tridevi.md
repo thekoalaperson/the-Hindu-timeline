@@ -29,7 +29,7 @@
   - *Variant (self-born / Svayambhū):* Brahmā is Svayambhū, self-existent, with no progenitor — emphasized where Brahmā is treated as the first cause. (*Manusmṛti 1.5–1.9*)
 - **The four heads** — Brahmā originally had five heads; the four surviving faces recite the four Vedas and face the four directions, symbolizing total knowledge. (*Purāṇic iconography*)
   - **Loss of the fifth head** — Śiva, as **Bhairava**, severs Brahmā's fifth head for arrogance (the head spoke insolently / lusted after Brahmā's own daughter); the skull sticks to Bhairava's hand → the Kapālika penance. (*Śiva Purāṇa; Skanda Purāṇa*) [Śaiva-primacy myth]
-- **Creation of the Prajāpatis & Manus** — Brahmā emanates the mind-born sons (Sanaka, Sanandana, Sanātana, Sanatkumāra; the Saptarṣi; Marīci, Atri, etc.) and the Manus who govern each Manvantara. (*Manusmṛti; Bhāgavata*) — see [`../01-brahma-current-life/the-14-manvantaras/`](../01-brahma-current-life/the-14-manvantaras/).
+- **Creation of the Prajāpatis & Manus** — Brahmā emanates the mind-born sons (Sanaka, Sanandana, Sanātana, Sanatkumāra; the Saptarṣi; Marīci, Atri, etc.) and the Manus who govern each Manvantara. (*Manusmṛti; Bhāgavata*) — see [`../01-manvantaras/`](../01-manvantaras/).
 - **Incest / Śatarūpā myth** — Brahmā creates the goddess **Śatarūpā (Sarasvatī/Sāvitrī)** and, smitten by her beauty, grows extra heads to keep gazing at her as she circles to avoid him; Śiva curses Brahmā that he will not be worshipped for this. (*Matsya Purāṇa, Skanda Purāṇa, Brahmā Purāṇa*) — a stock explanation for Brahmā's lack of temples.
 - **Curse(s) of non-worship** — multiple etiologies for why Brahmā has almost no temple cult:
   - *Variant 1:* Cursed by Śiva over the fifth-head/incest affair. (*Śiva Purāṇa*)
@@ -110,8 +110,8 @@ The "Pārvatī" slot of the Tridevī expands, in Śākta theology, into the **si
 
 ## Cross-references
 - Cosmic clock & Kalpa/Manvantara framing: [`../00-time-and-cosmology/`](../00-time-and-cosmology/)
-- Brahmā's current life & the 14 Manvantaras: [`../01-brahma-current-life/the-14-manvantaras/`](../01-brahma-current-life/the-14-manvantaras/)
-- Viṣṇu's avatāras dated by yuga: [`../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/`](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/)
+- Brahmā's current life & the 14 Manvantaras: [`../01-manvantaras/`](../01-manvantaras/)
+- Viṣṇu's avatāras dated by yuga: [`../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/`](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/)
 - Lineages descending from these deities: [`../03-lineages-vamsha/`](../03-lineages-vamsha/)
 - Source texts (Purāṇas, epics) catalogued in: [`../90-literature-corpus/`](../90-literature-corpus/)
 

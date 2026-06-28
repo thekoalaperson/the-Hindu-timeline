@@ -1,6 +1,6 @@
 # Apsarās — Celestial Nymphs
 
-> Part of [08 · Beings & Bestiary](./README.md) → the **semi-divine roster** of Indra's heavenly court.
+> Part of [08 · Beings & Bestiary](README.md) → the **semi-divine roster** of Indra's heavenly court.
 > Cosmic address: residents of *Svarga* / Indraloka (see [Devas, Asuras & the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)).
 > Paired class: the [Gandharvas](gandharvas-and-kinnaras.md) (their musician-husbands). For the mortal-tapas tales they trigger, cross-link the [04 · Deep Dives](../04-deep-dives/).
 

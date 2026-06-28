@@ -1,7 +1,7 @@
 # Rāmānuja & Madhva — Viśiṣṭādvaita & Dvaita
 
-> Detail node under [`07-acharyas-and-sampradayas/`](./README.md) — the two great theistic Vedānta ācāryas who broke decisively with [Ādi Śaṅkara's](../90-literature-corpus/upavedas-vedangas-darshanas.md) Advaita and founded the first two of the four canonical Vaiṣṇava [sampradāyas](./README.md). Up-link: section index [`07-…/README.md`](./README.md).
-> Sits in the **first ~1.2% of Kali Yuga** (post-3102 BCE traditional; 11th–14th c. CE academic) — the South-Indian Vaiṣṇava reform that turned Āḻvār / Vāyu bhakti into institutionalized, *paramparā*-transmitted Vedānta. Dating given **[traditional]** (matha-hagiographic) vs **[scholarly]** (epigraphic / text-critical) where they diverge; see the [two-clocks method](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
+> Detail node under [`07-acharyas-and-sampradayas/`](README.md) — the two great theistic Vedānta ācāryas who broke decisively with [Ādi Śaṅkara's](../90-literature-corpus/upavedas-vedangas-darshanas.md) Advaita and founded the first two of the four canonical Vaiṣṇava [sampradāyas](README.md). Up-link: section index [`07-…/README.md`](README.md).
+> Sits in the **first ~1.2% of Kali Yuga** (post-3102 BCE traditional; 11th–14th c. CE academic) — the South-Indian Vaiṣṇava reform that turned Āḻvār / Vāyu bhakti into institutionalized, *paramparā*-transmitted Vedānta. Dating given **[traditional]** (matha-hagiographic) vs **[scholarly]** (epigraphic / text-critical) where they diverge; see the [two-clocks method](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
 
 ---
 
@@ -101,7 +101,7 @@ The **Brahma Sampradāya** centres on **Viṣṇu/Kṛṣṇa** as the one indep
 | Highest means | *jñāna* | *bhakti* + *prapatti* | *bhakti* + grace, *aparokṣa-jñāna* |
 | Mokṣa | identity-merger | God-enjoyment, distinct | God-enjoyment, graded (*taratamya*) |
 
-(See the full school table at [`smarta-and-vedanta-acharyas.md`](./README.md) — planned; and the darśana placement in [Upavedas, Vedāṅgas & the Six Darśanas](../90-literature-corpus/upavedas-vedangas-darshanas.md).)
+(See the full school table at [`smarta-and-vedanta-acharyas.md`](README.md) — planned; and the darśana placement in [Upavedas, Vedāṅgas & the Six Darśanas](../90-literature-corpus/upavedas-vedangas-darshanas.md).)
 
 ---
 

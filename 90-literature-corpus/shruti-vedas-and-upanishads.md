@@ -1,6 +1,6 @@
 # Śruti — Vedas & Upanishads
 
-> Part of `90-literature-corpus/` (the texts that RECORD the cosmic chronology, mapped back to yuga/event). Śruti ("that which is heard") is the highest-authority tier of Hindu scripture — the Vedas and their four strata, culminating in the Upanishads. Traditionally **apauruṣeya** (authorless / not of human origin) and eternal; on the cosmic clock they are "re-heard" and re-compiled by the Vyāsa of each Dvāpara Yuga, the most recent being Kṛṣṇa-Dvaipāyana Vyāsa at the close of the current 28th Mahāyuga's Dvāpara (see `../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md`).
+> Part of `90-literature-corpus/` (the texts that RECORD the cosmic chronology, mapped back to yuga/event). Śruti ("that which is heard") is the highest-authority tier of Hindu scripture — the Vedas and their four strata, culminating in the Upanishads. Traditionally **apauruṣeya** (authorless / not of human origin) and eternal; on the cosmic clock they are "re-heard" and re-compiled by the Vyāsa of each Dvāpara Yuga, the most recent being Kṛṣṇa-Dvaipāyana Vyāsa at the close of the current 28th Mahāyuga's Dvāpara (see `../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md`).
 
 ---
 
@@ -107,7 +107,7 @@ The **Muktikā Upaniṣad** (itself an Atharvaveda minor Upaniṣad) records a d
 ## 7. Cross-References (where these texts record the chronology)
 
 - Creation hymns (Nāsadīya, Puruṣa Sūkta) and the Matsya/flood (Śatapatha Brāhmaṇa) → `../00-time-and-cosmology/` and `../02-deities-and-cosmic-hierarchy/`.
-- Vyāsa's Dvāpara-end compilation → `../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md`.
+- Vyāsa's Dvāpara-end compilation → `../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md`.
 - Smṛti corpus that ranks *below* Śruti (Itihāsa, Purāṇa, Dharmaśāstra) → sibling files in `90-literature-corpus/`.
 - Deities invoked in the Saṃhitās (Indra, Agni, Varuṇa, Rudra → Śiva, Viṣṇu) → `../02-deities-and-cosmic-hierarchy/`.
 

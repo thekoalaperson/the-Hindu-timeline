@@ -7,7 +7,7 @@
 > **Kārtikeya / Skanda / Murugan** (the war-god born to slay Tārakāsura) — each myth as a dense,
 > source-attributed event with full Purāṇic and regional (Tamil) variants. These deeds recur across
 > yugas but cluster in the [Devāsura wars](devas-asuras-and-the-lokas.md) and the dictation of the
-> [Mahābhārata](../04-deep-dives/) in the [Dvāpara Yuga](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
+> [Mahābhārata](../04-deep-dives/) in the [Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
 
 ---
 

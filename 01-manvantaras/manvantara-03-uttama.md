@@ -1,12 +1,12 @@
 # Manvantara 3 — Uttama (Auttama) (Past)
 
-> Hierarchy: Brahma's current life → Shveta-Varaha Kalpa → 3rd of the 14 [Manvantaras](./). Long past; the 6 pre-Vaivasvata manvantaras are sketched only in roll-call lists across the Puranas. We are now in the [7th — Vaivasvata](./manvantara-07-vaivasvata/). See also the prior [2nd — Svarochisha](./manvantara-02-svarochisha.md) and the next [4th — Tamasa](./manvantara-04-tamasa.md). Each manvantara ≈ 306,720,000 human years (71 [Mahayugas](../../00-cosmic-time-hierarchy/) + 1 sandhya).
+> Hierarchy: Brahma's current life → Shveta-Varaha Kalpa → 3rd of the 14 [Manvantaras](./). Long past; the 6 pre-Vaivasvata manvantaras are sketched only in roll-call lists across the Puranas. We are now in the [7th — Vaivasvata](./manvantara-07-vaivasvata/). See also the prior [2nd — Svarochisha](manvantara-02-svarochisha.md) and the next [4th — Tamasa](manvantara-04-tamasa.md). Each manvantara ≈ 306,720,000 human years (71 [Mahayugas](../../00-cosmic-time-hierarchy/) + 1 sandhya).
 
 The standard "cast list" of any manvantara names a Manu, his Indra, the class(es) of devas, the Saptarishis, the Manu's sons, and a Vishnu avatar. The record for the third period is **genuinely sparse**: it has no surviving narrative episodes of its own — only the genealogical roll-call — and the sources diverge sharply on almost every slot except the Manu's name. This page **catalogs all variants** attributed to their source. The defining quirk of this manvantara is that its Saptarishis are explicitly a **rebirth of Vasishtha's seven sons from the first (Svayambhuva) manvantara**, returning as the seers of the third — one of the clearest "reincarnation of sages" statements in the manvantara lists.
 
 ## The Manu
 
-- **Uttama Manu (the 3rd Manu)** — also spelled **Auttama / Auttami**. Presiding Manu of this period; son of **Priyavrata**, and so brother of fellow-Manus Tamasa and Raivata (Bhagavata Purana 5.1.28; 8.1.23; Vishnu Purana 3.1). Linked into the [Svayambhuva](./manvantara-01-svayambhuva.md) royal line through Priyavrata, the eldest son of the first Manu.
+- **Uttama Manu (the 3rd Manu)** — also spelled **Auttama / Auttami**. Presiding Manu of this period; son of **Priyavrata**, and so brother of fellow-Manus Tamasa and Raivata (Bhagavata Purana 5.1.28; 8.1.23; Vishnu Purana 3.1). Linked into the [Svayambhuva](manvantara-01-svayambhuva.md) royal line through Priyavrata, the eldest son of the first Manu.
   - *Variant (parentage):* most Puranas make Uttama a son of Priyavrata; some genealogies and the name-overlap with "Auttama / Auttami" treat him simply as the 3rd in the Manu sequence without spelling out the Priyavrata link [minor variant].
   - *Note on the name:* "Uttama" ("highest/best") recurs across the corpus as both a Manu and, in the Saurapurana's Chakshusha list, as the name of a *sage* in a different manvantara — a homonym to keep distinct [disputed/overlap].
 
@@ -36,7 +36,7 @@ The standard "cast list" of any manvantara names a Manu, his Indra, the class(es
 
 ## The Saptarishis — the seven sons of Vasishtha (reborn)
 
-The seven seers of this manvantara are uniformly said to be the **sons of [Vasishtha](../../05-deities-and-cosmic-beings/)** — and explicitly a **rebirth** of the seven sons Vasishtha had by his wife **Urja (Urjja)** in the first ([Svayambhuva](./manvantara-01-svayambhuva.md)) manvantara, returning as the Rishis of the third period (Vishnu Purana 3.1, Wilson tr.).
+The seven seers of this manvantara are uniformly said to be the **sons of [Vasishtha](../../05-deities-and-cosmic-beings/)** — and explicitly a **rebirth** of the seven sons Vasishtha had by his wife **Urja (Urjja)** in the first ([Svayambhuva](manvantara-01-svayambhuva.md)) manvantara, returning as the Rishis of the third period (Vishnu Purana 3.1, Wilson tr.).
 
 - *Variant (Bhagavata Purana 8.1; vyasaonline):* the seven, **headed by Pramada**, are named **Kaukundihi, Kurundi, Dalaya, Shankha, Pravahita, Mita and Sammita**.
 - *Variant (Vishnu Purana 3.1):* simply "the seven sons of Vasishtha were the seven Rishis," without re-listing individual names — but glossed as the same Urja-born seven reborn.
@@ -52,7 +52,7 @@ The seven seers of this manvantara are uniformly said to be the **sons of [Vasis
 
 ## Honest gaps
 
-- This manvantara has **no independent narrative** — no king-stories, sage-quarrels, or descent-of-rivers tales attach to it, unlike the richly storied [Svarochisha](./manvantara-02-svarochisha.md) and [Vaivasvata](./manvantara-07-vaivasvata/) periods. Everything above is roll-call data.
+- This manvantara has **no independent narrative** — no king-stories, sage-quarrels, or descent-of-rivers tales attach to it, unlike the richly storied [Svarochisha](manvantara-02-svarochisha.md) and [Vaivasvata](./manvantara-07-vaivasvata/) periods. Everything above is roll-call data.
 - The four "slots" most contested — Manu's sons, Indra, deva classes, and saptarishi names — each split into 2–3 irreconcilable lists. No harmonization is attempted here by design (variant-catalog policy).
 
 ## Sources

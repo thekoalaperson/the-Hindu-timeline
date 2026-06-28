@@ -2,7 +2,7 @@
 
 > Where this sits: a cross-cutting reference to the **who's-who** of the timeline — the gods, avatars,
 > beings, and worlds that act across every yuga and manvantara. The chronological events are in
-> [01-brahma-current-life](../01-brahma-current-life/the-14-manvantaras/README.md); this section is the
+> [01-manvantaras](../01-manvantaras/README.md); this section is the
 > dramatis personae behind them.
 
 This is a **cross-cutting axis**, not a chronological one — the same deities recur across all ages.
@@ -16,5 +16,5 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
   worlds, Mount Meru) and its inhabitants (the 33 devas, the Asura/Daitya/Dānava kings).
 
 ## Related
-- Avatars appear within events in the [four yugas](../01-brahma-current-life/the-14-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md).
+- Avatars appear within events in the [four yugas](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md).
 - The texts describing these deities are cataloged in [90-literature-corpus](../90-literature-corpus/README.md).

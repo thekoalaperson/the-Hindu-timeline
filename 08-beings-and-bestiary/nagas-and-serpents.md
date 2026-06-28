@@ -1,6 +1,6 @@
 # Nāgas & the Serpent Races
 
-> Part of [08 · Beings & Bestiary](./README.md) → the **serpent-race roster** — the half-human, half-snake divinities of the netherworld.
+> Part of [08 · Beings & Bestiary](README.md) → the **serpent-race roster** — the half-human, half-snake divinities of the netherworld.
 > Cosmic address: dwellers of **Pātāla / Nāgaloka** and its jewelled capital **Bhogavatī** (see [Devas, Asuras & the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) and [06 · Sacred Geography](../06-sacred-geography/)).
 > Genealogy: children of **Kaśyapa** & **Kadrū**; eternal foes of [Garuḍa](../02-deities-and-cosmic-hierarchy/) (son of Kaśyapa & Vinatā). For the cosmic serpent who upholds Viṣṇu, cross-link [02 · Deities & Cosmic Hierarchy](../02-deities-and-cosmic-hierarchy/).
 

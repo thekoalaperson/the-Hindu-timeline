@@ -1,6 +1,6 @@
 # Kali Yuga — Scriptural Record (Current)
 
-> **Where this sits:** Brahma's current life → Shveta-Varaha Kalpa → 7th (Vaivasvata) Manvantara → 28th Mahayuga → **4th and final yuga: Kali**. We are HERE. This node covers the Kali Yuga purely from the **scriptural / prophetic** angle (Puranas, Mahabharata). For datable events of the historical period, see [recorded-history.md](./recorded-history.md). For the preceding age, see [../03-dvapara-yuga.md](../03-dvapara-yuga.md).
+> **Where this sits:** Brahma's current life → Shveta-Varaha Kalpa → 7th (Vaivasvata) Manvantara → 28th Mahayuga → **4th and final yuga: Kali**. We are HERE. This node covers the Kali Yuga purely from the **scriptural / prophetic** angle (Puranas, Mahabharata). For datable events of the historical period, see [recorded-history.md](recorded-history.md). For the preceding age, see [../03-dvapara-yuga.md](../03-dvapara-yuga.md).
 
 ---
 
@@ -37,7 +37,7 @@ Catalogued chiefly in **Bhagavata Purana 12.2-3**, **Vishnu Purana 6.1**, **Ling
 
 ## 3. The Kali Yuga Kings — Puranic Dynasty Prophecy
 
-Uniquely, the Puranas (Bhagavata 12.1; Vishnu Purana 4.24; Vayu, Matsya, Brahmanda) **prophesy named dynasties** of Magadha to follow the Mahabharata-war Barhadratha line — i.e. the texts foretell what historians treat as recorded history. Cast as future ("will rule") because the Puranas frame themselves as spoken in Dvapara. See [recorded-history.md](./recorded-history.md) for the historical/dated counterpart.
+Uniquely, the Puranas (Bhagavata 12.1; Vishnu Purana 4.24; Vayu, Matsya, Brahmanda) **prophesy named dynasties** of Magadha to follow the Mahabharata-war Barhadratha line — i.e. the texts foretell what historians treat as recorded history. Cast as future ("will rule") because the Puranas frame themselves as spoken in Dvapara. See [recorded-history.md](recorded-history.md) for the historical/dated counterpart.
 
 - **Barhadratha line ends (Bhagavata 12.1.2-3):** the last king **Puranjaya (Ripunjaya)** is assassinated by his minister **Shunaka**, who enthrones his own son.
 - **Pradyota dynasty** — **5 kings, 138 years** (Bhagavata 12.1.3-4): Pradyota, Palaka, Vishakhayupa, Rajaka, Nandivardhana.
