@@ -104,12 +104,14 @@ See `../01-manvantaras/` for the full drill-down.
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 9 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 11 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Brahmā's Lifetime (Mahākalpa)](brahma-lifetime.md)
+- 🟩 [The Brahmāṇḍa & Bhuvana-kośa — the Cosmic Egg and its Sheaths](brahmanda-and-bhuvana-kosha.md)
 - 🟩 [Cosmogony — Accounts of Creation](cosmogony-creation-accounts.md)
 - 🟩 [The Hindu Calendar & the Pañcāṅga](hindu-calendar-and-panchanga.md)
 - 🟩 [Jyotiṣa — The Zodiac & Cosmic Influences](jyotisha-and-the-zodiac.md)
+- 🟩 [The Kālachakra — the Wheel of Time & Time as Deity](kalachakra-wheel-of-time.md)
 - 🟩 [Kalpa, Day/Night of Brahmā & the Dissolutions (Pralaya)](kalpa-and-pralaya.md)
 - 🟩 [The Manvantara System & the 14 Manus](manvantara-system.md)
 - 🟩 [The 27 Nakṣatras](nakshatras.md)

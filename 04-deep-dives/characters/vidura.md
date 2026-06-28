@@ -2,7 +2,7 @@
 
 > Where this sits: a dedicated deep-dive on **Vidura** (Vidura/Kṣattṛ) — half-brother to Dhṛtarāṣṭra and Pāṇḍu, prime minister of the Kuru court, and the mortal incarnation of **Dharma/Yama**, the wisest and most morally unswerving figure of the Mahābhārata.
 > Up to [Epic Characters](./README.md) · [Deep Dives](../README.md) · master [index](../../README.md). Cosmic address: end of the [28th Mahāyuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md), [Dvāpara→Kali](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) cusp (war trad. ~3138 BCE; Kali begins 3102 BCE). Two clocks: the epic narrates *itihāsa*; academic dating of the text differs. [scholarly]
-> Companion to his great discourse, the [Vidura-nīti](../vidura-niti.md) (Udyoga Parva chs. 33–40); cross-linked with [Karṇa](./karna.md) and the [Mahābhārata parva walkthrough](../mahabharata/README.md).
+> Companion to his great discourse, the [Vidura-nīti](../vidura-niti.md) (Udyoga Parva chs. 33–40); cross-linked with [Karṇa](../karna.md) and the [Mahābhārata parva walkthrough](../mahabharata/README.md).
 
 **Vidura** is the quiet moral center of the Mahābhārata: born from the womb of a serving-woman yet wiser than kings, barred by birth from the throne yet the one man whose counsel both sides trust. He is **Dharma himself walking the earth** — Yama, the god of death and justice, compelled into a low birth by a sage's curse. Across the epic he is the impartial witness: he warns the Pāṇḍavas of the lac-house, protests Draupadī's outrage, hosts Kṛṣṇa over Duryodhana's feast, pours out the [Vidura-nīti](../vidura-niti.md) to a sleepless king, and at the end walks into the forest to dissolve, by yoga, back into Yudhiṣṭhira — for they are the same divine essence. (Vyāsa, *Mahābhārata*; Ganguli tr.)
 
@@ -82,7 +82,7 @@
 
 ## See Also
 - [The Vidura-nīti](../vidura-niti.md) — his eight-chapter discourse on statecraft and wisdom.
-- [Karṇa](./karna.md) — the other great "low-born" figure whose birth fixes his fate.
+- [Karṇa](../karna.md) — the other great "low-born" figure whose birth fixes his fate.
 - [Mahābhārata parva walkthrough](../mahabharata/README.md) — Ādi, Sabhā, Udyoga, and Āśramavāsika parvas in narrative order.
 - [Epic Characters index](./README.md) · [Deep Dives](../README.md).
 

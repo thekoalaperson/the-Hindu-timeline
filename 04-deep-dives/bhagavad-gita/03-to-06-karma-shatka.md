@@ -20,7 +20,7 @@ The chapter answers Arjuna's confusion at 3.1–2: if knowledge (*buddhi*) is su
 
 ### Action as yajña (sacrifice) — the cosmic reciprocity
 
-- **Work as sacrifice (3.9)** - All action other than that done **as yajña** (*yajñārthāt karmaṇaḥ*) binds the world; do your work as offering, free of attachment, and you are unbound. The verse universalizes the Vedic ritual of [yajña](../../03-rituals-and-practice/yajna-and-fire-ritual.md) into an inner attitude toward all action. (Gītā 3.9)
+- **Work as sacrifice (3.9)** - All action other than that done **as yajña** (*yajñārthāt karmaṇaḥ*) binds the world; do your work as offering, free of attachment, and you are unbound. The verse universalizes the Vedic ritual of [yajña](../../90-literature-corpus/yajnas-and-vedic-rituals.md) into an inner attitude toward all action. (Gītā 3.9)
 - **The wheel of sacrifice (3.10–16)** - Prajāpati created beings together with *yajña*, saying "by this shall you multiply" (3.10); humans nourish the **devas** by sacrifice, the devas send rain, rain yields food, food sustains beings — a closed loop. One who eats without first feeding this cycle "eats sin" (*sa stenaḥ* — is a thief, 3.12); the one who does not turn the wheel "lives in vain" (3.16). (Gītā 3.10–16)
 - **The self-content sage exempt (3.17–18)** - The one who delights only in the Self (*ātma-rati*) has no duty to perform and no gain or loss in any being — but this is the *exception*, not Arjuna's case. (Gītā 3.17–18)
 
@@ -148,7 +148,7 @@ The most *practical* chapter of the Karma-ṣaṭka — a hands-on **meditation 
 - Whole-text frame, 18-chapter map, *prasthāna-trayī*, and the Viśvarūpa theophany: [The Bhagavad Gītā](../bhagavad-gita.md)
 - Incarnation theology grounded in 4.7–8: [Daśāvatāra](../../02-deities-and-cosmic-hierarchy/dashavatara.md)
 - *abhyāsa* + *vairāgya* and seated meditation parallels (6.11–13, 6.35): [Yoga Sūtras of Patañjali](../yoga-sutras-of-patanjali.md)
-- *Yajña* as the cosmic reciprocity behind 3.9–16: [Yajña and the fire ritual](../../03-rituals-and-practice/yajna-and-fire-ritual.md)
+- *Yajña* as the cosmic reciprocity behind 3.9–16: [Yajña and the fire ritual](../../90-literature-corpus/yajnas-and-vedic-rituals.md)
 - Yuga and cosmic-time backdrop of *yuge yuge* (4.8): [Mahāyuga / four yugas](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md)
 
 ## Sources

@@ -199,7 +199,7 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 31 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 45 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Āgamas, Tantras & Dharmaśāstras](agamas-tantras-dharmashastras.md)
 - 🟩 [The Bhāgavata Purāṇa — Skandha-by-Skandha Map](bhagavata-purana-skandha-map.md)
@@ -212,6 +212,15 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [Upavedas, Vedāngas & the Six Darśanas](upavedas-vedangas-darshanas.md)
 - 🟩 [Vedic Deities & Famous Sūktas](vedic-deities-and-suktas.md)
 - 🟩 [Yajñas & Vedic Rituals](yajnas-and-vedic-rituals.md)
+
+**darshanas/**
+
+- 🟩 [Darśana Root-Texts — Index](darshanas/README.md)
+- 🟩 [Brahma Sutras (Vedanta Sutras) — Per-Text Profile](darshanas/brahma-sutras.md)
+- 🟩 [Pūrva Mīmāṃsā Sūtras of Jaimini — Per-Text Profile](darshanas/mimamsa-sutras.md)
+- 🟩 [Nyāya Sūtras of Gautama — Per-Text Profile](darshanas/nyaya-sutras.md)
+- 🟩 [Sāṃkhya-kārikā of Īśvarakṛṣṇa — Per-Text Profile](darshanas/samkhya-karika.md)
+- 🟩 [Vaiśeṣika Sūtras of Kaṇāda — Per-Text Profile](darshanas/vaisheshika-sutras.md)
 
 **puranas/**
 
@@ -231,10 +240,27 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [Nārada Purāṇa](puranas/narada-purana.md)
 - 🟩 [Padma Purāṇa](puranas/padma-purana.md)
 - 🟩 [Śiva Purāṇa](puranas/shiva-purana.md)
+- 🟩 [Skanda Purāṇa — Khaṇḍa-by-Khaṇḍa Story Map](puranas/skanda-purana-khanda-map.md)
 - 🟩 [Skanda Purāṇa](puranas/skanda-purana.md)
 - 🟩 [The 18 Upapurāṇas — Overview & Per-Text Notes](puranas/upapuranas-overview.md)
 - 🟩 [Vāmana Purāṇa](puranas/vamana-purana.md)
 - 🟩 [Varāha Purāṇa](puranas/varaha-purana.md)
 - 🟩 [Viṣṇu Purāṇa](puranas/vishnu-purana.md)
+
+**upanishads/**
+
+- 🟨 [Upanishads](upanishads/README.md)
+- 🟩 [Bṛhadāraṇyaka Upaniṣad — Dedicated Deep-Dive](upanishads/brihadaranyaka-upanishad.md)
+- 🟩 [Chāndogya Upaniṣad — Dedicated Deep-Dive](upanishads/chandogya-upanishad.md)
+- 🟩 [Māṇḍūkya Upaniṣad & Gauḍapāda Kārikā — Dedicated Deep-Dive](upanishads/mandukya-upanishad.md)
+- 🟩 [Śvetāśvatara Upaniṣad — Dedicated Deep-Dive](upanishads/svetashvatara-upanishad.md)
+
+**vedas/**
+
+- 🟨 [Vedas](vedas/README.md)
+- 🟩 [Atharvaveda — Per-Text Profile (Charms, Healing & Speculation)](vedas/atharvaveda.md)
+- 🟩 [Rigveda — Per-Text Profile (Mandala-by-Mandala)](vedas/rigveda.md)
+- 🟩 [Samaveda — Per-Text Profile (Chant & Melody)](vedas/samaveda.md)
+- 🟩 [Yajurveda — Per-Text Profile (Shukla & Krishna Recensions)](vedas/yajurveda.md)
 
 <!-- AUTOINDEX:END -->

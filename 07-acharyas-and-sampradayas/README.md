@@ -54,16 +54,24 @@ Until those land, the four-sampradāya frame and the founders above are the work
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 9 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 17 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Ādi Śaṅkara & Advaita Vedānta](adi-shankara.md)
 - 🟩 [The Ālvārs & Nāyaṉārs — Tamil Bhakti Saints](alvars-and-nayanars.md)
+- 🟩 [Āṇḍāḷ — the Only Female Ālvār and the Tiruppāvai](andal.md)
 - 🟩 [The Four Vaiṣṇava Sampradāyas](four-vaishnava-sampradayas.md)
+- 🟩 [Kabīr — Nirguṇa Sant and the Kabīr Panth](kabir.md)
+- 🟩 [Liṅgāyat / Vīraśaiva Vachana Saints — Basava, Akka Mahādevi, Allama](lingayat-vachana-poets.md)
+- 🟩 [Mīrābāī — the Rajput Princess-Saint of Krishna](mirabai.md)
 - 🟩 [Modern Teachers & Reform Movements](modern-teachers-and-reform.md)
+- 🟩 [Nammālvār — the Foremost Ālvār and the Tiruvāymoḻi](nammalvar.md)
 - 🟩 [Nimbārka, Vallabha & Chaitanya — Bhakti Vedānta](nimbarka-vallabha-chaitanya.md)
 - 🟩 [The Sant & Bhakti Poets of the North & West](north-bhakti-sants.md)
 - 🟩 [Rāmānuja & Madhva — Viśiṣṭādvaita & Dvaita](ramanuja-and-madhva.md)
+- 🟩 [Sankaradeva & Ekasarana — Assamese Neo-Vaishnavism](sankaradeva-and-assamese-vaishnavism.md)
 - 🟩 [Śaiva Schools & Orders](shaiva-schools.md)
 - 🟩 [Śākta & Tantra Lineages](shakta-and-tantra-lineages.md)
+- 🟩 [The Nālvar — Sambandar, Appar, Sundarar & Māṇikkavācakar](the-nalvar-tamil-shaiva-saints.md)
+- 🟩 [Tukārām — the Abhaṅga Apex of the Vārkarī Tradition](tukaram.md)
 
 <!-- AUTOINDEX:END -->

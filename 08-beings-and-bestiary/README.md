@@ -91,16 +91,22 @@ Until those land, the class-frame above is the working index; cross-check parent
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 12 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 18 files in this section. Regenerate with the indexer.*
 
+- 🟩 [Airāvata, Uccaiḥśravas & the Manthana Treasures (Living Beings)](airavata-and-celestial-animals.md)
 - 🟩 [Apsarās — Celestial Nymphs](apsaras.md)
 - 🟩 [The Asuras — Roster & the Deva-Asura Wars](asura-wars-and-roster.md)
 - 🟩 [The Dikpālas — Guardians of the Directions](dikpalas-and-lokapalas.md)
 - 🟩 [Gandharvas & Kinnaras](gandharvas-and-kinnaras.md)
+- 🟩 [Garuḍa — King of Birds, Mount of Viṣṇu](garuda.md)
+- 🟩 [Kāmadhenu, Surabhi & the Wish-Granting Cows](kamadhenu-and-divine-cattle.md)
 - 🟩 [The Mātṛkās & the 64 Yoginīs](matrikas-and-64-yoginis.md)
 - 🟩 [Nāgas & the Serpent Races](nagas-and-serpents.md)
+- 🟩 [The Pitṛs — Ancestral Orders & Pitṛ-loka](pitrs-and-ancestors.md)
 - 🟩 [Rākṣasas — The Night-Wanderers](rakshasas.md)
 - 🟩 [Ṛṣi Lineages & the Gotra System](rishi-lineages-and-gotras.md)
+- 🟩 [Śeṣa-Ananta — The Cosmic Serpent](shesha-ananta.md)
+- 🟩 [The Maruts — Storm-Gods of the Rudra Host](the-maruts.md)
 - 🟩 [The Prajāpatis & Brahmā's Mind-Born Sons](the-prajapatis.md)
 - 🟩 [The Thirty-Three Devas — Vasus, Ādityas, Rudras](the-thirty-three-devas.md)
 - 🟩 [Vidyādharas, Siddhas & the Spirit Hosts](vidyadharas-siddhas-and-spirits.md)

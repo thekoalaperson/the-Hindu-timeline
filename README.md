@@ -46,13 +46,13 @@ a Mahāyuga has **four** yugas (Satya, Tretā, Dvāpara, Kali), not five.
 09-artifacts-symbols-and-arts/ ← weapons, objects, vāhanas, the 64 arts, sacred symbols
 90-literature-corpus/         ← the texts that RECORD all of the above, mapped back to events
    90-…/puranas/              ← per-text story-maps for all 18 Mahāpurāṇas + Upapurāṇas
-TIMELINE.md                   ← ⭐ flat chronological index of every event (439), each linked to its file
+TIMELINE.md                   ← ⭐ flat chronological index of 439 core events, each linked to its file
 AGENTS.md                     ← how to query this corpus (for agents & humans)
 SOURCES.md                    ← light consolidated bibliography
 STRUCTURE.md                  ← skeleton + coverage tracker (every file, deep/stub, what's next)
 ```
 
-> ⭐ **Want the whole story in order?** [**TIMELINE.md**](TIMELINE.md) lists all 439 recorded events sorted
+> ⭐ **Want the whole story in order?** [**TIMELINE.md**](TIMELINE.md) lists 439 core recorded events sorted
 > on the cosmic clock — Creation → earlier Manvantaras → Satya → Tretā → Dvāpara → Kali → the Future — each
 > linking to its detailed file. It's the single best entry point for "what happened, and when".
 
@@ -123,7 +123,7 @@ STRUCTURE.md                  ← skeleton + coverage tracker (every file, deep/
 - A `## Sources` section at the foot of every file lists the texts and references used.
 
 ## Status & how this was built
-- **199 files, ~400,000 words**, built across a multi-round research campaign (~300 agents total):
+- **334 files, ~715651 words**, built across a multi-round research campaign (~430 agents total):
   cosmological spine + literature corpus → deepened epics/episodes & gap audit → per-Purāṇa story-maps →
   deepened manvantaras & long-tail tales → festivals/ācāryas/regional/Vedic → a wide completeness sweep
   (beings, weapons, celestial systems, deity forms) → an adversarial **accuracy audit (25 verified

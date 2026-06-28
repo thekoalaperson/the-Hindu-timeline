@@ -3,7 +3,7 @@
 > Where this sits: the **Dvāpara-era life** of the preceptor who trained both warring camps and died by deceit on the 15th day of the Kurukṣetra War. Droṇa belongs to the [epic-character deep-dives](README.md) within the [04-deep-dives](../README.md) layer, and to the [28th Mahāyuga, Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md), at the junction with the [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
 > Up: [Characters index](README.md) · Parent epic: [Mahābhārata](../mahabharata/) · His death-book: [07 — Droṇa Parva](../mahabharata/07-drona-parva.md) · master [index](../../README.md)
 
-**Droṇa** (Sanskrit *Droṇa*, "vessel / wooden trough" — for the pot in which he was conceived; hence **Droṇācārya**, "teacher Droṇa") is the brahmin master of arms who, against the grain of his caste, takes up the warrior's craft and becomes **rāja-guru** (royal preceptor) of both the [Pāṇḍavas](../mahabharata/01-adi-parva.md) and the Kauravas. Son of the sage **Bharadvāja**, husband of **Kṛpī**, father of **[Aśvatthāman](../the-chiranjivis.md)**, he is the figure who binds the epic's generations of archers together — and whose private feud with **Drupada** plants the seed (literally, in the fire-altar that yields **Dhṛṣṭadyumna** and **Draupadī**) of his own destruction. His arc is the epic's deepest meditation on the brahmin-who-bears-arms, on partiality (his love for **Arjuna**, his cruelty to **[Ekalavya](ekalavya.md)**), and on how even the most righteous are broken by the war's slide into *adharma*.
+**Droṇa** (Sanskrit *Droṇa*, "vessel / wooden trough" — for the pot in which he was conceived; hence **Droṇācārya**, "teacher Droṇa") is the brahmin master of arms who, against the grain of his caste, takes up the warrior's craft and becomes **rāja-guru** (royal preceptor) of both the [Pāṇḍavas](../mahabharata/01-adi-parva.md) and the Kauravas. Son of the sage **Bharadvāja**, husband of **Kṛpī**, father of **[Aśvatthāman](../the-chiranjivis.md)**, he is the figure who binds the epic's generations of archers together — and whose private feud with **Drupada** plants the seed (literally, in the fire-altar that yields **Dhṛṣṭadyumna** and **Draupadī**) of his own destruction. His arc is the epic's deepest meditation on the brahmin-who-bears-arms, on partiality (his love for **Arjuna**, his cruelty to **[Ekalavya](../ekalavya.md)**), and on how even the most righteous are broken by the war's slide into *adharma*.
 
 ---
 
@@ -12,7 +12,7 @@
 - **Conception in a pot** - The sage **Bharadvāja**, going to the Gaṅgā for ablutions, sees the apsarā **Ghṛtācī**; a wind disrobes her, desire rises, and his seed (*retas*) escapes. He catches it in a wooden trough/pot (*droṇa*), and from it a boy develops — named **Droṇa** for the vessel of his birth (Mbh Ādi Parva ~130). He is thus *ayonija* (not womb-born), like his future in-laws Kṛpa and Kṛpī.
 - **Bharadvāja's line** - Droṇa is born into the Aṅgirasa brahmin descent through Bharadvāja; the lineage links him to the Vedic ṛṣi-tradition, sharpening the irony of his life of weapons (Mbh Ādi Parva).
 - **Boyhood with Drupada** - Reared in Bharadvāja's āśrama, Droṇa is schooled alongside **Drupada**, son of King **Pṛṣata** of Pāñcāla; the two become inseparable friends. In boyish affection Drupada vows that when he is king he will share half his realm with Droṇa (Mbh Ādi Parva ~129).
-- **Inheriting the agneya/agnivesha line of arms** - Bharadvāja passes to Droṇa the *agneyāstra* and the science of weapons received from the sage **Agniveśa** (himself a pupil of [Agastya](agastya.md)); this is Droṇa's first training in *dhanurveda* (Mbh Ādi Parva).
+- **Inheriting the agneya/agnivesha line of arms** - Bharadvāja passes to Droṇa the *agneyāstra* and the science of weapons received from the sage **Agniveśa** (himself a pupil of [Agastya](../agastya.md)); this is Droṇa's first training in *dhanurveda* (Mbh Ādi Parva).
   - *Variant (Mbh Ādi Parva, tellings):* some recensions stress that Agniveśa, not Bharadvāja directly, was Droṇa's archery teacher, the agneyāstra being Agniveśa's special gift.
 
 ## II. The weapons of Paraśurāma (Mbh Ādi Parva)
@@ -41,7 +41,7 @@
 
 - **The rejected pupil** - **Ekalavya**, a **Niṣāda** (forest-tribe) prince, son of Hiraṇyadhanus, asks Droṇa for instruction and is refused — variously for his low birth or for Droṇa's prior vow to keep Arjuna supreme (Mbh Ādi Parva ~132).
 - **Self-taught before the clay image** - Ekalavya makes a **clay statue of Droṇa**, reveres it as guru, and trains alone until he surpasses even Arjuna — demonstrated when his arrows seal a barking dog's mouth without wounding it (Mbh Ādi Parva).
-- **The guru-dakṣiṇā of the thumb** - To preserve Arjuna's primacy, Droṇa claims his fee from a pupil who never formally studied with him: **Ekalavya's right thumb**, which the boy cuts off without hesitation, crippling his archery (Mbh Ādi Parva). → full treatment in the dedicated file: [Ekalavya](ekalavya.md).
+- **The guru-dakṣiṇā of the thumb** - To preserve Arjuna's primacy, Droṇa claims his fee from a pupil who never formally studied with him: **Ekalavya's right thumb**, which the boy cuts off without hesitation, crippling his archery (Mbh Ādi Parva). → full treatment in the dedicated file: [Ekalavya](../ekalavya.md).
   - *Reading [scholarly]:* the episode is the epic's starkest indictment of Droṇa — read variously as caste-protection of kṣatriya monopoly over arms, as a teacher's jealous partiality, or (in apologetic tellings) as cosmic ordering of svadharma. The text itself voices no praise of Droṇa here.
 
 ## VI. The Drupada feud and its harvest (Mbh Ādi Parva)
@@ -94,7 +94,7 @@
 
 ## Cross-links
 
-- [Ekalavya](ekalavya.md) — the rejected pupil and the thumb.
+- [Ekalavya](../ekalavya.md) — the rejected pupil and the thumb.
 - [Karṇa](../karna.md) — fellow Paraśurāma-trained warrior and the next Kaurava commander.
 - [The Cirañjīvīs](../the-chiranjivis.md) — for Aśvatthāman, Droṇa's deathless son.
 - [07 — Droṇa Parva](../mahabharata/07-drona-parva.md) · [10 — Sauptika Parva](../mahabharata/10-sauptika-parva.md) — his command-tenure and his son's revenge.

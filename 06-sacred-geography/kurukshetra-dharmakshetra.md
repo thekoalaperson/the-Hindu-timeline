@@ -17,7 +17,7 @@
 
 ## II. Two clocks — scriptural epoch vs. academic site
 
-- **Scriptural clock** - the war falls at the **junction of Dvāpara and Kali Yugas**; tradition fixes the start of **Kali Yuga to 3102 BCE**, with the war a few decades earlier (commonly 3138 BCE in traditional reckonings). The field is older still — sanctified by Kuru in an earlier age and by Paraśurāma "in the interval between Tretā and Dvāpara." (*Mahābhārata*; Purāṇic yuga-scheme) — see [Yuga System](../00-time-and-cosmology/yuga-cycle.md)
+- **Scriptural clock** - the war falls at the **junction of Dvāpara and Kali Yugas**; tradition fixes the start of **Kali Yuga to 3102 BCE**, with the war a few decades earlier (commonly 3138 BCE in traditional reckonings). The field is older still — sanctified by Kuru in an earlier age and by Paraśurāma "in the interval between Tretā and Dvāpara." (*Mahābhārata*; Purāṇic yuga-scheme) — see [Yuga System](../00-time-and-cosmology/yugas-and-mahayuga.md)
 - **Academic clock** - scholars place the historical kernel of the Bhārata war (if any) in the **Iron Age Painted-Grey-Ware horizon, c. 1000–900 BCE**, and identify modern **Kurukṣetra / Thanesar district, Haryana** — the **Sarasvatī–Dṛṣadvatī** (mod. Ghaggar–Chautang) interfluve — as the geographic locus. [scholarly]
 - **The "two altars" frame** - the *Taittirīya* and *Śatapatha* strata already revere **Kurukṣetra as the gods' sacrificial ground** (*deva-yajana*), independent of the epic war — i.e. it is a **Vedic yajña-bhūmi** first, an epic battlefield second. (Vedic Brāhmaṇa tradition) [scholarly]
 

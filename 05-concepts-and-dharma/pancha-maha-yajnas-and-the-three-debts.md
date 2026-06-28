@@ -1,97 +1,99 @@
 # The Five Great Sacrifices & the Three Debts
 
-> Dharma of the householder (grihastha): the daily ritual economy of obligation. Sits under [05-concepts-and-dharma](README.md) → expands the grihastha-ashrama duty sketched in [varna-ashrama-and-samskaras.md](varna-ashrama-and-samskaras.md). See also [the-three-margas.md](the-three-margas.md) (karma-marga / ritual path) and the master index ([../README.md](../README.md)).
+> Cross-cutting doctrine of the householder's daily religious life. Sits under [05-concepts-and-dharma](README.md) → the *ritual obligations* that bind the [gṛhastha (householder) āśrama](varna-ashrama-and-samskaras.md) and discharge the cosmic accounts a person is born holding. Back to the [master index](../README.md).
 >
-> "You are here": the *rina-traya* (three inborn debts) define **why** a person must act; the *pancha-maha-yajna* (five great daily sacrifices) are **how** the householder repays them and expiates the unavoidable violence of daily life. This is the central liturgy of the second ashrama — the stage in which every recorded actor of this timeline who married and kept a hearth was bound.
+> "You are here": where personal duty (svadharma) meets cosmic exchange. The **three debts (ṛṇa-traya)** state *what one owes* at birth; the **five great sacrifices (pañca-mahā-yajña)** are the *daily payments*. Both presuppose the [yajña/ṛta](rta-and-cosmic-order.md) logic of reciprocal world-maintenance and the [karma–saṃsāra](purusharthas-and-karma-samsara-moksha.md) economy of action. See also [the karma-mārga / ritual path](the-three-margas.md).
+
+The Vedic-Brahmanical householder is not a free agent: he is born **in debt** (ṛṇa) to three classes of beings who made his existence possible, and his life — especially the gṛhastha stage — is structured as the *repayment* of those debts. The five daily sacrifices are the institutional form that repayment took once the householder's home-fire became the ritual center. Two ideas interlock: **why one must give** (the debts) and **how one gives daily** (the five yajñas). A third idea — the **five sūnās** (places of unavoidable household killing) — supplies the *atonement* rationale that later Dharmaśāstra grafts onto the yajñas.
 
 ---
 
-## I. THE THREE DEBTS (Rina-traya / Trayam Rinam)
+## I. THE THREE DEBTS (ṚṆA-TRAYA / TRI-ṚṆA)
 
-The foundational doctrine: a man (specifically a *dvija*, twice-born) is **born already in debt** — existence itself is borrowed. The locus classicus is **Taittiriya Samhita 6.3.10.5**:
+The locus classicus is **Taittirīya Saṃhitā 6.3.10.5**: a Brāhmaṇa, at birth, is born owing three debts — and only by discharging them does he become free (and fit for liberation).
 
-> *jayamano vai brahmanas tribhir rinava jayate — brahmacaryena rishibhyo, yajnena devebhyah, prajaya pitribhyah*
-> "Verily, a Brahmana, the moment he is born, is born with a threefold debt — of studentship (brahmacharya) to the Rishis, of sacrifice (yajna) to the Devas, of progeny (prajā) to the Pitris." (Taittiriya Samhita 6.3.10.5; restated in **Shatapatha Brahmana 1.7.2.1–5**)
+- **The foundational verse** - *"A Brāhmaṇa, the very day he is born, is born a debtor in three debts — of studentship (brahmacarya) to the ṛṣis, of sacrifice (yajña) to the gods, of offspring (prajā) to the fathers."* He is freed when he has studied the Veda, sacrificed, and begotten a son; only then is he "established in his own self," released from debt. (Taittirīya Saṃhitā 6.3.10.5; echoed in Śatapatha Brāhmaṇa 1.7.2.1–6.)
+- **Ṛṣi-ṛṇa (debt to the sages/seers)** - Owed to the ṛṣis who *received and transmitted the Veda*. Repaid by **brahmacarya** — Vedic studentship — and lifelong **svādhyāya** (self-recitation/study) and **tapas** (austerity). The seers gave knowledge; one repays in kind by learning and preserving it. (Taittirīya Saṃhitā 6.3.10.5; Śatapatha Brāhmaṇa 1.7.2.1–6.)
+- **Deva-ṛṇa (debt to the gods)** - Owed to the devas who sustain the cosmos and supply rain, harvest, light, and order. Repaid by **yajña** — sacrifice, oblation into the consecrated fire. The reciprocal logic of [ṛta](rta-and-cosmic-order.md): gods nourish humans, humans nourish gods, the wheel turns (cf. [Bhagavad Gītā](../04-deep-dives/) 3.10–16, the *yajña-cakra*). (Taittirīya Saṃhitā 6.3.10.5; Ṛgveda 8.32.16, 6.61.1 referenced for the debt motif.)
+- **Pitṛ-ṛṇa (debt to the ancestors/fathers)** - Owed to the *pitṛs* who gave one the body and the lineage. Repaid by **begetting a son (prajā / putra)** to continue the line, and by **śrāddha** and **tarpaṇa** (ancestral rites; cf. [pitr-yajña](#iii-pancha-maha-yajna--the-five-great-sacrifices) below). The unbroken male line keeps the ancestors in the higher worlds; failure to produce an heir is the gravest default — hence the soteriological pun *put-tra* ("he who saves from the hell *Put*," Manusmṛti 9.138). (Taittirīya Saṃhitā 6.3.10.5; Śatapatha Brāhmaṇa 1.7.2.1.)
 
-- **Rishi-rina — debt to the sages/seers** - Owed for the gift of the Veda and transmitted knowledge. Repaid by **brahmacharya, svadhyaya (Veda recitation/self-study) and tapas** — i.e. learning, preserving and transmitting sacred lore. Discharged in the **Brahma-yajna** of the daily five (see §III). (Taittiriya Samhita 6.3.10.5; Shatapatha Brahmana 1.7.2.1–5)
-- **Deva-rina — debt to the gods** - Owed for cosmic order, light, rain, the elements that sustain life. Repaid by **yajna** (sacrifice/oblation, esp. the daily Agnihotra and homa); when fire-sacrifice is impossible, by worship, fasting and austerity. Discharged in the **Deva-yajna**. (Taittiriya Samhita 6.3.10.5)
-- **Pitri-rina — debt to the ancestors/fathers** - Owed for the body, lineage and birth itself. Repaid by **prajā — begetting a son** (to continue the line and offer the post-mortem rites) and by **shraddha/tarpana** (ancestral offerings). Discharged in the **Pitri-yajna**. (Taittiriya Samhita 6.3.10.5; Shatapatha Brahmana 1.7.2.1–5)
+### How the debts are discharged — mapped to the āśramas
+- **One debt per stage** - The scheme aligns neatly with the [four āśramas](varna-ashrama-and-samskaras.md): **brahmacarya** (studentship) pays the *ṛṣi* debt; **gṛhastha** (householder) pays the *deva* debt (daily yajña) and *pitṛ* debt (sons + śrāddha). Only when the three are cleared is one ideally free to renounce.
+- **The renunciation precondition [scriptural / disputed]** - Manusmṛti 6.35–37 insists a man may take up *saṃnyāsa* only **after** paying the three debts — having studied the Veda, sacrificed, and begotten sons; "he who seeks liberation without having paid the three debts sinks downward." This is the orthodox-Dharmaśāstra brake on premature renunciation.
+  - *Variant (early/radical renouncer traditions):* The Upaniṣadic and śramaṇa-adjacent streams (and later Advaita) hold that one who has truly awakened may renounce *immediately*, the debts being transcended rather than serially paid — Jābāla Upaniṣad 4 explicitly permits renunciation "the very day one becomes dispassionate," from any stage. [disputed against Manu]
+  - *Variant (Bṛhadāraṇyaka 3.5.1, 4.4.22):* The knower of Brahman, "having risen above the desire for sons, the desire for wealth, and the desire for worlds, leads a mendicant's life" — the three desires correspond to the three debts, and *knowledge* dissolves them. [Upaniṣadic]
 
-**Theological logic:** the debts establish that the human is not an autonomous unit but a node in a web spanning sages (past wisdom), gods (cosmic powers) and ancestors (the line). Only on discharging them — classically marked by completing study, performing sacrifice, and raising a son — is one freed to pursue *moksha* in the later ashramas. See [purusharthas-and-karma-samsara-moksha.md](purusharthas-and-karma-samsara-moksha.md).
-
-### Variants & extensions of the debt-roster
-
-- *Variant — order and naming:* Many texts list the debts as **deva / rishi / pitri**; the Taittiriya verse itself opens with **rishi** (via brahmacharya). The triad is stable; only the sequence varies by source.
-- *Variant — the "fourth debt" (Manushya-rina / Nri-rina):* A debt to **fellow humans/guests**, repaid by hospitality and feeding others; this maps onto the **Manushya-yajna** and is the bridge that grows the three debts into the five sacrifices. [later systematization]
-- *Variant — the "fifth debt" (Bhuta-rina):* A debt to **all living beings/elementals**, repaid by feeding animals and offering *bali*; maps onto the **Bhuta-yajna**. With Manushya-rina this completes a fivefold debt-scheme paralleling the pancha-maha-yajna. [late text / smriti expansion]
-- *Variant — Brahmana-rina (Hindupedia / smriti glossaries):* A debt to **brahmanas** who perform rites on one's behalf, repaid by **dana** (gifts/dakshina) to them. [late]
-- *Variant — Atma-rina (debt to the self/jivatman):* Repaid by **proper care of the body-mind complex** (diet, discipline, sadhana) so the embodied soul may pursue liberation. [late / Vedantic gloss]
-- *Variant — Loka-rina / debt to the world:* Occasionally cited as a debt to society at large, discharged by righteous social conduct. [folk / modern reform reading]
+### Extended rosters of debts [variant counts]
+- **Four debts (adding manuṣya/nṛ)** - Some texts add a **fourth debt to fellow humans (manuṣya-ṛṇa / nṛ-ṛṇa)**, repaid by hospitality and charity — explicitly aligning the debt-list with the *five* yajñas. [late text]
+- **Five debts** - Some modern systematizers list up to five ṛṇas by adding **brāhmaṇa-ṛṇa** (repaid by gifts/dāna to learned Brāhmaṇas) and **ātma-ṛṇa** (debt to one's own self/body, repaid by proper self-care and not neglecting one's spiritual welfare). [late / modern systematization — flagged as open-ended; the canonical Vedic count is three]
+- **Bhūta-ṛṇa (debt to living beings)** - Occasionally counted as a debt to all creatures (repaid by bali/feeding animals), again to round the debts up to match the five yajñas. The Mahābhārata's *ānṛśaṃsya* (non-cruelty, interdependence; Ādiparva 120.17–20) is cited as the ethical kin of this idea. [folk / harmonizing]
 
 ---
 
-## II. WHY FIVE? — The Pancha-suna (Five "Slaughter-Houses" of the Home)
+## II. THE FIVE SŪNĀS (PAÑCA-SŪNĀ) — why daily atonement is needed
 
-The five great sacrifices are framed by smriti not only as repayment of debt but as **expiation** for the inescapable, unintended violence (*himsa*) of running a household. Manu names **five domestic implements** as *suna* ("place of slaughter") because each daily destroys countless minute creatures.
+Before enumerating the five yajñas, Dharmaśāstra supplies their *moral motor*: the householder unavoidably destroys minute life every day through ordinary domestic activity, incurring sin (himsā) that the daily sacrifices expiate.
 
-- **The Pancha-suna** - The five sites of unavoidable household killing: (1) **kandani** — the mortar & pestle / grinding-stone; (2) **peshani** — the grinding mill; (3) **chulli / chulha** — the cooking-hearth (fire); (4) **udakumbha** — the water-pot/jar; (5) **marjani** — the broom/sweeper. (Manusmriti 3.68)
-- **The remedy** - "In order to successively expiate (the offences committed by means) of all these five, the great sages prescribed for householders the daily performance of the five great sacrifices." (Manusmriti 3.69) Thus the pancha-maha-yajna both **discharge the inborn debts** and **cleanse the daily, low-grade sin of mere existence**.
-
----
-
-## III. THE PANCHA-MAHA-YAJNA (Five Great Daily Sacrifices)
-
-Enjoined as **nitya-karma** (obligatory daily duty) of the householder. Locus classicus: **Manusmriti 3.70**, paralleled in the Grihya-sutras (Ashvalayana, Apastamba, Paraskara), the Shatapatha Brahmana (11.5.6.1), and Taittiriya Aranyaka 2.10–11.
-
-> "**Teaching/study** is the sacrifice to Brahman (*brahma-yajna*); the **tarpana** (offering of water & food) is the sacrifice to the manes (*pitri-yajna*); the **burnt oblation** (homa) is offered to the gods (*deva-yajna*); the **bali** offering is given to the Bhutas (*bhuta-yajna*); and the **hospitable reception of guests** is the offering to men (*manushya-yajna*)." (Manusmriti 3.70)
-
-- **1. Brahma-yajna (Veda-yajna / Rishi-yajna) — homage to the seers & sacred knowledge** - Daily **svadhyaya**: recitation, study and teaching of the Veda. Repays the **rishi-rina**. Often performed at dawn facing east; even reciting a portion of the Veda discharges it. Called *Brahma-yajna* (to Brahman/the Veda) or, when the teaching aspect is stressed, *Rishi-yajna*. (Manusmriti 3.70; Taittiriya Aranyaka 2.11; Shatapatha Brahmana 11.5.6.3)
-- **2. Deva-yajna (Devata-yajna) — homage to the gods** - The **homa / Agnihotra**: oblations of ghee, grain and offerings into the consecrated fire for the Devas (Agni, Indra, the elementals). Repays the **deva-rina**. The Vaishvadeva rite (offerings to the "All-Gods" before the household meal) is its characteristic daily form. (Manusmriti 3.70; Shatapatha Brahmana 11.5.6.2)
-- **3. Pitri-yajna — homage to the ancestors** - Daily **tarpana** (libations of water, sometimes with sesame) and the broader cycle of **shraddha** to the departed fathers (pitris). Repays the **pitri-rina**. Connects to the lunar/ancestral realm (Pitri-loka) and the death-rites system. (Manusmriti 3.70)
-- **4. Bhuta-yajna (Bali-karma / Bali-yajna) — homage to all beings/spirits** - The **bali**: portions of cooked food scattered on the ground, on the threshold, and in the open for animals, birds, insects, spirits and the elementals — including the symbolic offerings to door-deities, directions, and outcastes/dogs/crows. Repays the debt to all living beings (**bhuta-rina**). (Manusmriti 3.70, 3.91–92)
-- **5. Manushya-yajna (Nri-yajna / Atithi-yajna) — homage to humans/guests** - **Atithi-seva**: the honoring and feeding of guests, the poor, the wandering ascetic and the stranger ("the guest is a god" — *atithi devo bhava*, Taittiriya Upanishad 1.11). Repays the debt to humankind (**manushya/nri-rina**). The *atithi* (unbidden, unexpected guest) is its highest object. (Manusmriti 3.70; Taittiriya Upanishad 1.11.2)
-
-### Manu's parallel fivefold typology (the five "modes")
-
-Manu also classifies the same five by **ritual mode** rather than recipient (Manusmriti 3.73–74):
-
-- **Ahuta** ("un-offered") - the muttering/recitation of the Veda → **Brahma-yajna**.
-- **Huta** ("offered [in fire]") - the burnt oblation → **Deva-yajna**.
-- **Prahuta** ("offered by scattering") - the *bali* strewn on the ground → **Bhuta-yajna**.
-- **Brahmya-huta / Prashita** ("offered in the Brahmana's mouth") - food given to / honoring brahmana guests → **Manushya-yajna**.
-- **Prashita** ("eaten" — the tarpana oblation to the manes) - → **Pitri-yajna**. *(Sources vary in which term they pin to pitri vs manushya; see variants.)*
-  - *Variant (Manu commentators, e.g. Medhatithi, Kulluka):* the five mode-terms (ahuta/huta/prahuta/brahmya-huta/prashita) are mapped slightly differently across commentaries — chiefly disagreeing on whether *prashita* labels the pitri-offering or the food eaten by guests. [textual/commentarial dispute]
-
-### Order, naming and scope — variants
-
-- *Variant — recipient order:* Manu 3.70 lists **Brahma → Pitri → Deva → Bhuta → Manushya**; many later digests and the popular sequence give **Brahma → Deva → Pitri → Bhuta → Manushya** (mirroring the debt-triad order). Both are attested; the **set of five is invariant**, the order is not.
-- *Variant — Deva-yajna vs Daiva-yajna:* some Grihya-sutras name it *daiva* / *huta*; identical referent.
-- *Variant — Manushya-yajna naming:* called **Nri-yajna**, **Manushya-yajna**, or **Atithi-yajna** depending on text; all denote the guest/human offering.
-- *Variant — Bhuta-yajna scope:* understood narrowly as feeding animals/birds, or broadly as *bali* to all spirits, directions and elementals; smriti digests extend it to symbolic offerings to plants and the homeless. [folk extension]
-- *Variant — gender & adhikara:* classically the *grihastha* (married twice-born man, with his wife as co-sacrificer / *patni*) is the agent; reform and bhakti traditions democratize the yajnas as simple daily acts (study, worship, hospitality, charity) open to all. [modern / reform]
-- *Variant — "internalized" yajna (Upanishadic/Vedantic):* the Upanishads and Gita reinterpret outward sacrifice as inner offering — knowledge-sacrifice (*jnana-yajna*), breath-sacrifice (*prana-agnihotra*), and action dedicated to the divine ([Bhagavad Gita](../04-deep-dives/) 4.24–33). On this reading the five yajnas point beyond ritual to a life of study, devotion, ancestral piety, compassion to beings, and service to humans. [Vedantic / late text]
+- **The five "slaughter-places"** - Manusmṛti 3.68: *"There are five places of slaughter (sūnā) for the householder, by using which he is bound (by sin)"* — namely the **hearth (cullī)**, the **grinding-stone (peṣaṇī)**, the **broom / household sweepings (upaskara / mārjanī)**, the **mortar-and-pestle (kaṇḍanī)**, and the **water-pot (udakumbha)**. Cooking, grinding, sweeping, pounding, and water-handling all crush small creatures. (Manusmṛti 3.68; Medhātithi's commentary.)
+- **The expiation** - Manusmṛti 3.69: to wipe out the sin incurred by these five, the great sages ordained **the five great sacrifices, to be performed daily** by householders. Thus the pañca-mahā-yajña is framed as *prāyaścitta* (atonement) for unavoidable household violence — bolting the ahiṃsā ethic (see [ahimsa-and-hindu-ethics.md](ahimsa-and-hindu-ethics.md)) onto the older debt-discharge rationale.
+  - *Variant (some lists):* The five are given as activities rather than implements — *kaṇḍanī* (pounding), *peṣaṇī* (grinding), *cullī* (hearth-lighting), *udakumbhī* (water-vessel use), *mārjanī* (sweeping). Same five domains, implement-vs-action framing. [textual variant]
 
 ---
 
-## IV. PLACE IN THE RITUAL & DOCTRINAL SYSTEM
+## III. PAÑCA-MAHĀ-YAJÑA — THE FIVE GREAT SACRIFICES
 
-- **Nitya vs naimittika vs kamya** - The pancha-maha-yajna are **nitya** (unconditional daily duty, omission incurs sin but performance brings no special reward) — distinct from **naimittika** (occasion-prompted, e.g. annual shraddha) and **kamya** (desire-driven, e.g. putrakameshti). (Dharmashastra classification; cf. [the-three-margas.md](the-three-margas.md))
-- **Tie to the ashramas** - The three debts are conventionally discharged across the first three ashramas: **brahmacharya** (study → rishi-rina), **grihastha** (sacrifice + son → deva- and pitri-rina), enabling lawful entry into **vanaprastha/sannyasa**. (Manusmriti 6.35–37: one should turn to renunciation only after paying the three debts) See [varna-ashrama-and-samskaras.md](varna-ashrama-and-samskaras.md).
-  - *Variant (Manu 6.35–37 vs renunciate schools):* Manu insists the three debts be paid **before** sannyasa; Advaita/sannyasa traditions (and some Upanishads, e.g. Jabala) allow immediate renunciation for the qualified, treating the debts as fulfilled-or-transcended by knowledge. [disputed within the tradition]
-- **Karma logic** - Performing the five yajnas neutralizes the *pancha-suna* sin and the inborn debt, keeping the householder's karmic ledger clear within samsara. See [purusharthas-and-karma-samsara-moksha.md](purusharthas-and-karma-samsara-moksha.md).
-- **Open roster note:** the supplementary debts (Brahmana-, Atma-, Loka-rina) and the precise mode-term mappings are **not fixed across the corpus** — different smritis, Grihya-sutras and commentaries vary. The three-debt / five-yajna cores are stable and pan-traditional; the extensions are flagged [late]/[folk] above.
+The five daily yajñas are enumerated at **Manusmṛti 3.70**, with names and ritual synonyms; parallels in Taittirīya Āraṇyaka 2.10, Śatapatha Brāhmaṇa 11.5.6.1–3, Gautama Dharmasūtra 5.3, and the Gṛhyasūtras (Āśvalāyana, Pāraskara). They are also called the **mahā-yajñas** to distinguish them from the great *śrauta* fire-sacrifices: these are *daily, domestic (gṛhya), and obligatory (nitya)*, requiring only the householder and his single domestic fire.
+
+- **Manusmṛti 3.70 — the canonical list** - *"Teaching/recitation (adhyāpana) is the brahma-yajña; (offering of) water-and-food is the pitṛ-yajña; the burnt-oblation (homa) is the deva-yajña; the (food-)offering bali is the bhūta-yajña; the honoring of guests (atithi-pūjana) is the nṛ-yajña."* (Manusmṛti 3.70.)
+
+### 1. Brahma-yajña — sacrifice to the seers (Veda)
+- **The offering of study** - Daily **recitation and teaching of the Veda (svādhyāya / adhyāpana)**. It repays the **ṛṣi-debt**; the "oblation" is sacred speech, the Veda kept alive by re-uttering it. Often performed by reciting even a single verse, gāyatrī, or sūkta. (Manusmṛti 3.70, 3.74; Taittirīya Āraṇyaka 2.11–15 — the *svādhyāya-brāhmaṇa* extols it as the highest tapas.)
+- **Ritual synonym** - Called **ahuta** ("un-offered"/non-fire offering) in the five-fold synonym scheme of Manu 3.73, because it uses no fire-oblation. (Manusmṛti 3.73.)
+- **Also termed ṛṣi-yajña** - In many enumerations (Gautama, the Gṛhyasūtras) the same observance is named **ṛṣi-yajña** outright, naming its recipients rather than its medium. [synonym]
+
+### 2. Deva-yajña — sacrifice to the gods (Homa)
+- **The fire-oblation** - The daily **homa**: oblations of clarified butter / cooked food into the consecrated domestic fire, to Agni, Soma, Prajāpati, Indra, Sūrya, etc. It repays the **deva-debt**. In its minimal form it is the twice-daily **agnihotra** (morning/evening milk oblation) or the *aupāsana* home-fire offering. (Manusmṛti 3.70, 3.76 on the fire carrying oblations to the gods; Śatapatha Brāhmaṇa 2.3.1 on agnihotra.)
+- **Ritual synonym** - Called **huta** ("offered into fire") in Manu 3.73 — the paradigm fire-oblation among the five. (Manusmṛti 3.73.)
+
+### 3. Pitṛ-yajña — sacrifice to the ancestors
+- **The offering to the fathers** - Daily **tarpaṇa** (libation of water, often with sesame) and the offering of food/rice to the *pitṛs*; the full periodic form is **śrāddha**. It repays the **pitṛ-debt** (alongside begetting sons). (Manusmṛti 3.70, 3.82–83; Śatapatha Brāhmaṇa 2.4.2 on the ancestral rite.)
+- **Ritual synonym** - Called **prāśita** ("food eaten/given to the fathers") in Manu 3.73 — and, in the Bṛhadāraṇyaka-derived fivefold scheme, the pitṛ-portion. (Manusmṛti 3.73.)
+  - *Variant (Bṛhadāraṇyaka Upaniṣad 1.5.2):* An Upaniṣadic five-fold scheme names the offerings differently — *huta* (oblation), *prahuta* (bali scattered), *brāhmya-huta* (gift to Brahmins), *prāśita*/*āśita* (food offered to fathers/eaten) — an alternate vocabulary for the same five-fold daily duty; see [the Upanishads](../90-literature-corpus/) for context. [Upaniṣadic variant scheme]
+
+### 4. Bhūta-yajña — sacrifice to all beings (Bali)
+- **The offering to creatures** - The **bali**: scattering of food (rice, grain) on the ground, doorstep, and around the home for animals, birds, insects, spirits (bhūtas), and even outcastes and dogs — an offering to *all living beings* and the unseen elemental world. Repays a debt to the wider web of life; the daily enactment of [ahiṃsā](ahimsa-and-hindu-ethics.md) and inclusivity. (Manusmṛti 3.70, 3.87–92 — the *bali-karman* directing offerings to deities, then to bhūtas, then to dogs, crows, and "fallen" persons.)
+- **Ritual synonym** - Called **prahuta** ("offered around/scattered") in Manu 3.73. (Manusmṛti 3.73.)
+  - *Variant (some lists fold in the vaiśvadeva):* The *vaiśvadeva* offering (to the All-Gods) is sometimes counted as part of, or alongside, the bhūta/bali sequence. [textual variant]
+
+### 5. Manuṣya-yajña / Nṛ-yajña — sacrifice to humans (Hospitality)
+- **The offering to guests** - **Atithi-pūjā**: honoring and feeding the **guest (atithi)** — especially the unexpected, the traveler, the mendicant — *before* the householder himself eats. Repays the debt to fellow humans and society. The guest is venerated as a god: *atithi devo bhava* (Taittirīya Upaniṣad 1.11.2). Neglecting a guest is said to transfer one's merit to him and his sin to the host (Manusmṛti 3.100). (Manusmṛti 3.70, 3.99–118 — the elaborate atithi-dharma.)
+- **Also termed atithi-yajña** - The common alternate name, foregrounding the guest. (Gṛhyasūtra tradition.) [synonym]
+
+### The fivefold synonym scheme (Manusmṛti 3.73–74)
+- **Five "offerings"** - Manu 3.73 names the five as **ahuta** (un-offered = japa/svādhyāya = brahma), **huta** (homa = deva), **prahuta** (bali = bhūta), **brāhmya-huta / prāśita** (food to Brahmins/fathers = pitṛ), and the honoring of men (manuṣya). Manu 3.74: one should "ever exert himself" in these five, the unfailing daily duty of the householder. (Manusmṛti 3.73–74.) [Note: the synonym-to-yajña mapping varies slightly across commentators — flagged as a known textual crux.]
+
+---
+
+## IV. SIGNIFICANCE, SCOPE & DISPUTES
+
+- **Nitya-karma, not optional** - The pañca-mahā-yajña is *nitya* (obligatory, daily) karma, distinct from *kāmya* (desire-driven) and *naimittika* (occasional) rites. Omission incurs *pratyavāya* (the sin of non-performance); it brings no special reward, but its neglect brings demerit — the mark of a true obligation. (Dharmaśāstra consensus.)
+- **The "great sacrifices" democratized** - Because they need only a domestic fire, cooked food, water, and a recited verse, the five yajñas brought the *yajña* ideal into every twice-born home daily — a domestication of the grand [śrauta sacrifices](rta-and-cosmic-order.md). The gṛhastha thereby becomes a perpetual sacrificer.
+- **Who is obligated [disputed]** - Strict Dharmaśāstra restricts full performance to the **twice-born (dvija) male householder** with Vedic adhikāra; later and devotional traditions extend the *spirit* (study, charity, feeding beings, hospitality) far more broadly. [disputed by varna scope]
+- **Internalized / jñāna readings** - Vedānta and yoga traditions reinterpret the yajñas as *inner* sacrifices — knowledge-sacrifice (*jñāna-yajña*), breath-sacrifice (*prāṇāyāma* as offering prāṇa into apāna), sense-restraint as oblation — following [Bhagavad Gītā](../04-deep-dives/) 4.24–33, which ranks the *jñāna-yajña* above material offerings. [Vedāntic reinterpretation]
+- **The debt–yajña interlock** - The cleanest summary the tradition gives: the **three debts say why**, the **five yajñas say how (daily)**, and the **five sūnās say what is being atoned**. Three rationales, one householder discipline. (Synthesis of Taittirīya Saṃhitā 6.3.10.5 + Manusmṛti 3.68–74.)
+- **Open-ended roster flag** - The *count* of debts (three / four / five) and the exact *synonym→yajña* mapping (Manu 3.73 vs. Bṛhadāraṇyaka 1.5.2 vs. commentators) are genuinely variable across the corpus; this file catalogs the canonical three-debt / five-yajña core and the attested extensions rather than forcing a single harmonization.
 
 ---
 
 ## Sources
 
-- **Taittiriya Samhita 6.3.10.5** — locus classicus of the three inborn debts (rishi/deva/pitri); *jayamano vai brahmanas tribhir rinava jayate*.
-- **Shatapatha Brahmana 1.7.2.1–5; 11.5.6.1–3** — three debts restated; canonical enumeration of the five great sacrifices.
-- **Taittiriya Aranyaka 2.10–11** — the daily Brahma-yajna (svadhyaya) and the five-fold daily duty.
-- **Taittiriya Upanishad 1.11.2** — *atithi devo bhava* ("be one for whom the guest is god"), basis of Manushya/Atithi-yajna.
-- **Manusmriti 3.68–74** — the pancha-suna (five slaughter-houses), the five great sacrifices (3.70), and the ahuta/huta/prahuta/brahmya-huta/prashita typology (3.73–74); Manu 6.35–37 on discharging the debts before renunciation.
-- **Bhagavad Gita 4.24–33** — the internalized/jnana-yajna reinterpretation of sacrifice.
-- Hindupedia, "Ṛṇatraya ('three debts')" — https://www.hindupedia.com/en/%E1%B9%9A%E1%B9%87atraya_(%E2%80%98three_debts%E2%80%99) — additional debts (Brahmana-rina, Atma-rina) and repayment methods.
-- Dharmawiki, "Panchamahayajnas (पञ्चमहायज्ञाः)" — https://dharmawiki.org/index.php/Panchamahayajnas — pancha-suna implements and yajna-to-suna mapping.
-- The Indian Philosophy Blog, "Three Debts and Five Sacrifices" (2020) — https://indianphilosophyblog.org/2020/09/01/three-debts-and-five-sacrifices/ — scholarly framing of the debt→yajna link.
-- Wisdom Library, *Manusmriti with the commentary of Medhatithi*, verse 3.69ff — https://www.wisdomlib.org/hinduism/book/manusmriti-with-the-commentary-of-medhatithi/d/doc199848.html — commentarial variants on the mode-terms.
+- **Taittirīya Saṃhitā 6.3.10.5** — the three debts (ṛṣi/deva/pitṛ) born with every Brāhmaṇa; their discharge by studentship, sacrifice, and offspring.
+- **Śatapatha Brāhmaṇa 1.7.2.1–6; 2.3.1 (agnihotra); 2.4.2 (pitṛ rite); 11.5.6.1–3 (the five great sacrifices)** — Brāhmaṇa-layer elaboration of debts and daily yajñas.
+- **Bṛhadāraṇyaka Upaniṣad 1.5.2** (fivefold offering scheme: huta/prahuta/brāhmya-huta/prāśita); **3.5.1, 4.4.22** (the three desires/debts dissolved by knowledge).
+- **Manusmṛti 3.68** (five sūnā/slaughter-places), **3.69** (five yajñas ordained as expiation), **3.70** (the canonical enumeration), **3.71**, **3.73–74** (ahuta/huta/prahuta/prāśita synonyms; daily exertion), **3.76, 3.82–92, 3.99–118** (homa, pitṛ, bali, atithi details); **6.35–37** (renounce only after paying the three debts); **9.138** (putra/Put etymology) — with Medhātithi's commentary.
+- **Gautama Dharmasūtra 5.3; Āśvalāyana & Pāraskara Gṛhyasūtras; Taittirīya Āraṇyaka 2.10–15 (svādhyāya-brāhmaṇa)** — the daily five-yajña and Vedic-study (svādhyāya) injunctions.
+- **Bhagavad Gītā 3.10–16 (yajña-cakra); 4.24–33 (jñāna-yajña, internalized sacrifice)**; **Taittirīya Upaniṣad 1.11.2** (*atithi devo bhava*); **Jābāla Upaniṣad 4** (immediate renunciation); **Mahābhārata, Ādiparva 120.17–20** (ānṛśaṃsya).
+- **Ṛgveda 8.32.16; 6.61.1** — early references invoked for the debt motif.
+- Reference encyclopedias consulted for collation: [Hindupedia — Ṛṇatraya](https://www.hindupedia.com/en/%E1%B9%9A%E1%B9%87atraya_(%E2%80%98three_debts%E2%80%99)); [Hindupedia — Pañcamahāyajñas](https://hindupedia.com/en/Pa%C3%B1camah%C4%81yaj%C3%B1as); [Wisdomlib — Pañcamahāyajña](https://www.wisdomlib.org/definition/pancamahayajna); [Wisdomlib — Manusmṛti 3.68 (Medhātithi)](https://www.wisdomlib.org/hinduism/book/manusmriti-with-the-commentary-of-medhatithi/d/doc199847.html).
+
+*Cross-links: [Varṇa, Āśrama & Saṃskāras](varna-ashrama-and-samskaras.md) · [Puruṣārthas & Karma–Saṃsāra–Mokṣa](purusharthas-and-karma-samsara-moksha.md) · [Ṛta & Cosmic Order](rta-and-cosmic-order.md) · [Ahiṃsā & Hindu Ethics](ahimsa-and-hindu-ethics.md) · [The Three Mārgas](the-three-margas.md) · [Literature Corpus](../90-literature-corpus/README.md).*

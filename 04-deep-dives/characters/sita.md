@@ -7,7 +7,7 @@
 - **Sītā / "the furrow"** - the name itself is the Sanskrit word for the furrow (*sītā*) opened by the plough; she is named for the manner of her finding rather than given a personal birth-name, fusing her identity with agrarian fertility and the Earth's bounty (*Vālmīki Rāmāyaṇa, Bāla Kāṇḍa*).
 - **Jānakī** - "daughter of Janaka," the most common epithet, after her adoptive father Janaka, king of Mithilā/Videha (*Vālmīki Rāmāyaṇa*).
 - **Vaidehī / Maithilī** - "she of Videha" / "she of Mithilā," after her kingdom and capital (*Vālmīki Rāmāyaṇa*).
-- **Bhūmijā / Pārthivī / Dharaṇī-sutā** - "Earth-born," "daughter of the Earth (Pṛthivī/Dharaṇī)," naming Bhūmi/Pṛthvī as her true mother — a relation made literal at her death-return (*Vālmīki Rāmāyaṇa, Uttara Kāṇḍa*). See [Pṛthu & Pṛthvī](./prithu-prithvi.md) for the Earth-goddess.
+- **Bhūmijā / Pārthivī / Dharaṇī-sutā** - "Earth-born," "daughter of the Earth (Pṛthivī/Dharaṇī)," naming Bhūmi/Pṛthvī as her true mother — a relation made literal at her death-return (*Vālmīki Rāmāyaṇa, Uttara Kāṇḍa*). See [Pṛthu & Pṛthvī](../prithu-prithvi.md) for the Earth-goddess.
 - **Lakṣmī-aṃśa** - the incarnate portion of Lakṣmī (Śrī), born to be consort to Viṣṇu's Rāma-avatāra; the pairing reproduces the eternal Viṣṇu–Lakṣmī bond on earth (*Vālmīki Rāmāyaṇa*; emphasized in Vaiṣṇava *Adhyātma Rāmāyaṇa* and *Rāmcaritmānas*).
 - **Subject of the Sītā Upaniṣad** - a minor Upaniṣad attached to the *Atharvaveda* exalts Sītā as Prakṛti/Māyā and the primordial Śakti — *mūla-prakṛti* — from whom creation unfolds, well beyond the role of consort. [late text]
 
@@ -22,14 +22,14 @@
 
 ## Swayaṃvara — the breaking of Śiva's bow
 - **The bow-test of Mithilā** - Janaka sets the condition that whoever can string the colossal divine bow of Śiva (Pināka / Hara-dhanu), held in trust by the house of Mithilā, shall win Sītā; no king, deva, or asura had ever even lifted it (*Vālmīki Rāmāyaṇa, Bāla Kāṇḍa*).
-- **Rāma breaks the bow** - escorted by Viśvāmitra, the young Rāma lifts the bow, bends it to string, and snaps it in two with a thunderous report — winning Sītā's hand (*Vālmīki Rāmāyaṇa, Bāla Kāṇḍa*). See [Viśvāmitra & Vasiṣṭha](./vishwamitra-vasishtha.md) for the sage who brings Rāma to Mithilā.
+- **Rāma breaks the bow** - escorted by Viśvāmitra, the young Rāma lifts the bow, bends it to string, and snaps it in two with a thunderous report — winning Sītā's hand (*Vālmīki Rāmāyaṇa, Bāla Kāṇḍa*). See [Viśvāmitra & Vasiṣṭha](../vishwamitra-vasishtha.md) for the sage who brings Rāma to Mithilā.
 - **Quadruple wedding** - Janaka offers Sītā to Rāma and his three sisters/cousins to the three other princes; Daśaratha's four sons wed in one ceremony at Mithilā (*Vālmīki Rāmāyaṇa, Bāla Kāṇḍa*).
 - *Variant (Rāmcaritmānas / popular tradition):* Sītā first sees Rāma in a garden before the swayaṃvara and silently chooses him, praying to Gaurī (Pārvatī) for him as husband; the bow-breaking then fulfils her vow. [late text]
 - *Variant (Adbhuta / Śākta framing):* the swayaṃvara is read as the Goddess electing her own divine counterpart, the bow a symbol of the cosmic order only the Lakṣmī–Viṣṇu pair can wield.
 
 ## Exile — into the Daṇḍaka forest
 - **Insistence on accompanying Rāma** - when Kaikeyī's boon sends Rāma into 14 years of forest exile, Sītā refuses to remain in palace comfort, declaring a wife's place is at her husband's side; her speech on conjugal dharma is one of the Rāmāyaṇa's set-pieces (*Vālmīki Rāmāyaṇa, Ayodhyā Kāṇḍa*).
-- **Forest life with Rāma and Lakṣmaṇa** - the three live as ascetics through the Citrakūṭa and Daṇḍaka wilds, visiting sages' hermitages (Atri & Anasūyā, Agastya, etc.); Anasūyā gifts Sītā celestial garments and unguents (*Vālmīki Rāmāyaṇa, Ayodhyā/Araṇya Kāṇḍa*). See [Agastya](./agastya.md).
+- **Forest life with Rāma and Lakṣmaṇa** - the three live as ascetics through the Citrakūṭa and Daṇḍaka wilds, visiting sages' hermitages (Atri & Anasūyā, Agastya, etc.); Anasūyā gifts Sītā celestial garments and unguents (*Vālmīki Rāmāyaṇa, Ayodhyā/Araṇya Kāṇḍa*). See [Agastya](../agastya.md).
 - **Śūrpaṇakhā and the chain of vengeance** - the rākṣasī Śūrpaṇakhā's advances are rebuffed and she is mutilated by Lakṣmaṇa; her complaint to her brother Rāvaṇa, inflamed by her praise of Sītā's beauty, sets the abduction in motion (*Vālmīki Rāmāyaṇa, Araṇya Kāṇḍa*).
 
 ## Abduction — the golden deer and the Lakṣmaṇa-rekhā

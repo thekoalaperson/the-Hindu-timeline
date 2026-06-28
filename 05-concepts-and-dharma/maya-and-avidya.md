@@ -15,7 +15,7 @@ The term is far older than Advaita and carries different weights across the corp
 - **Māyā as the Lord's creative power** - In the Śvetāśvatara Upaniṣad the personal Lord wields *māyā* as his ground-stuff: "Know prakṛti as māyā, and the great Lord (Maheśvara) as the wielder of māyā (*māyin*)" (Śvetāśvatara Upaniṣad 4.10). Here māyā ≈ prakṛti, the material matrix.
 - **Māyā as the Gītā's veiling power** - Kṛṣṇa: "Veiled by my yoga-māyā, I am not manifest to all" (Bhagavad Gītā 7.25); and the divine māyā "made of the guṇas" is "hard to cross" except by those who take refuge in him (Bhagavad Gītā 7.14).
 - **Māyā as cosmic illusion (classical Advaita)** - The mature technical sense: the beginningless, indescribable power that makes the one Brahman *appear* as the manifold world without any real change in Brahman. This is the sense §3–§8 develop.
-- **Māyā as Devī / Mahāmāyā** - In the Śākta stream the power is *personified* as the Goddess whose deluding power binds and whose grace releases; Viṣṇu's cosmic sleep is induced by Yoganidrā/Mahāmāyā (Devī Māhātmya 1.). See the Goddess theology in [../03-puranic-age/](../03-puranic-age/) for the devotional inversion where māyā is worshipped, not merely negated. [folk/Śākta emphasis]
+- **Māyā as Devī / Mahāmāyā** - In the Śākta stream the power is *personified* as the Goddess whose deluding power binds and whose grace releases; Viṣṇu's cosmic sleep is induced by Yoganidrā/Mahāmāyā (Devī Māhātmya 1.). See the Goddess theology in [../03-puranic-age/](../01-manvantaras/README.md) for the devotional inversion where māyā is worshipped, not merely negated. [folk/Śākta emphasis]
 
 ## 2. *Avidyā* — ignorance, and how it relates to māyā
 

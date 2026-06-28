@@ -27,7 +27,7 @@
 - **The plea to Karṇa** - desperate, the Kaurava leaders (and Duryodhana) beg Karṇa to use his single infallible weapon now, this very night, or the army will be wiped out before dawn (*Mahābhārata, Droṇa Parva*).
 - **The Vāsavī Śakti spent** - Karṇa hurls the **Vāsavī Śakti** — the dart given by Indra (Vāsava) in exchange for Karṇa's inborn *kavaca-kuṇḍala* (golden armor and earrings), usable only once, hoarded by Karṇa for Arjuna alone. It pierces Ghaṭotkaca's chest and kills him (*Mahābhārata, Droṇa Parva, Ghaṭotkaca-vadha Parva*).
 - **The dying weight** - mortally struck, Ghaṭotkaca magnifies his body to colossal size and falls upon the Kaurava ranks, crushing a full **akṣauhiṇī** of troops in death — a final blow even as he dies (*Mahābhārata, Droṇa Parva*).
-- **Kṛṣṇa's joy** - Kṛṣṇa alone rejoices and embraces Arjuna, explaining that with the once-only dart now spent on Ghaṭotkaca, Karṇa can no longer kill Arjuna; the boy's death has bought the Pāṇḍava victory. This is the strategic pivot of the whole drama — the self-sacrifice that disarms Karṇa. (*Mahābhārata, Droṇa Parva*). See the matching account from Karṇa's side in [Karṇa](./karna.md).
+- **Kṛṣṇa's joy** - Kṛṣṇa alone rejoices and embraces Arjuna, explaining that with the once-only dart now spent on Ghaṭotkaca, Karṇa can no longer kill Arjuna; the boy's death has bought the Pāṇḍava victory. This is the strategic pivot of the whole drama — the self-sacrifice that disarms Karṇa. (*Mahābhārata, Droṇa Parva*). See the matching account from Karṇa's side in [Karṇa](../karna.md).
 - **Yudhiṣṭhira's grief** - the eldest Pāṇḍava is shattered, having loved the boy; the lament is part of why the night's loss is dwelt on at length (*Mahābhārata, Droṇa Parva*).
 
 ## Wives and children
@@ -46,11 +46,11 @@
 - **Devotional framing** - in temple and folk retellings Ghaṭotkaca's death is read as the archetype of *ātma-tyāga* (self-offering) — the lesser warrior who knowingly spends himself so the army's true champion survives; this moralizing is post-epic emphasis. [folk]
 
 ## Cross-links
-- [Karṇa](./karna.md) — the dart's owner; the Vāsavī Śakti and the *kavaca-kuṇḍala* bargain seen from his side.
-- [Ekalavya](./ekalavya.md) · [Śiśupāla](./shishupala.md) — fellow standalone Mahābhārata figures.
+- [Karṇa](../karna.md) — the dart's owner; the Vāsavī Śakti and the *kavaca-kuṇḍala* bargain seen from his side.
+- [Ekalavya](../ekalavya.md) · [Śiśupāla](../shishupala.md) — fellow standalone Mahābhārata figures.
 - [Droṇa Parva](../mahabharata/07-drona-parva.md) — the book containing the *Ghaṭotkaca-vadha Parva* and the 14th-night battle.
 - [Ādi Parva](../mahabharata/01-adi-parva.md) — Hiḍimba's death, Bhīma–Hiḍimbā marriage, Ghaṭotkaca's birth.
-- [Mahābhārata — Minor Episodes & Inset Tales](./mahabharata-minor-episodes.md) — for Alāyudha, Alambuṣa, Barbarīka, and related rākṣasa episodes.
+- [Mahābhārata — Minor Episodes & Inset Tales](../mahabharata-minor-episodes.md) — for Alāyudha, Alambuṣa, Barbarīka, and related rākṣasa episodes.
 
 ## Sources
 - Vyāsa, *Mahābhārata* (Critical Edition, BORI, Pune): **Ādi Parva** (Hiḍimba-vadha — birth and naming); **Droṇa Parva**, embedded *Ghaṭotkaca-vadha Parva* (night battle, Alāyudha, the Vāsavī Śakti, death, Kṛṣṇa's joy). Primary baseline. [scholarly]

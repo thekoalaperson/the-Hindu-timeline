@@ -23,23 +23,39 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 16 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 32 files in this section. Regenerate with the indexer.*
 
+- 🟩 [Agni](agni.md)
+- 🟩 [Ayyappa (Hariharaputra)](ayyappa.md)
+- 🟩 [Chandra (Soma)](chandra-soma.md)
 - 🟩 [The Ten Mahavidyas — Tantric Wisdom-Goddesses](dasha-mahavidya.md)
 - 🟩 [Daśāvatāra — The Ten Avatars of Vishnu](dashavatara.md)
 - 🟩 [Devas, Asuras & the 14 Lokas](devas-asuras-and-the-lokas.md)
 - 🟩 [Forms of the Devī & the Navadurgā](devi-forms-and-navadurga.md)
 - 🟩 [Devī Māhātmya / Durgā Saptaśatī — The Goddess's Three Carita](devi-mahatmya-and-the-great-goddess.md)
+- 🟩 [Dhanvantari](dhanvantari.md)
 - 🟩 [Ganesha & Kartikeya — The Sons of Shiva-Parvati](ganesha-and-kartikeya.md)
+- 🟩 [Gaṅgā](ganga.md)
 - 🟩 [Hanuman — Vanara Devotee, Chiranjivi, Rudravatara](hanuman.md)
+- 🟩 [Indra — King of the Devas, Wielder of the Vajra](indra.md)
 - 🟩 [Kāmadeva, Rati & the Minor Deities](kamadeva-and-minor-deities.md)
+- 🟩 [Kubera](kubera.md)
+- 🟩 [Lakṣmī](lakshmi.md)
 - 🟩 [The Narakas & the Afterlife](narakas-and-afterlife.md)
 - 🟩 [The Navagraha — Nine Planetary Deities](navagraha.md)
 - 🟩 [The Saptarishi — The Seven Sages Across the Manvantaras](saptarishi.md)
+- 🟩 [Sarasvatī](saraswati.md)
 - 🟩 [Sati, the Daksha-Yajna & Parvati — The Goddess Reborn](sati-daksha-and-parvati.md)
 - 🟩 [Avatars & Forms of Śiva](shiva-avatars-and-forms.md)
 - 🟩 [The Śiva Myth-Cycle — Cosmic Deeds of Mahādeva](shiva-myth-cycle.md)
+- 🟩 [Sūrya & His Family](surya-and-his-family.md)
+- 🟩 [Bṛhaspati & Śukra — the Two Gurus](the-gurus-brihaspati-and-shukra.md)
 - 🟩 [Trimūrti & Tridevī](trimurti-and-tridevi.md)
+- 🟩 [Varuṇa](varuna.md)
+- 🟩 [Vāyu](vayu.md)
 - 🟩 [Forms of Viṣṇu — Vyūhas, Keśava Forms & Aspects](vishnu-forms-and-vyuhas.md)
+- 🟩 [Viśvakarma & Tvaṣṭṛ](vishvakarma-and-tvashtar.md)
+- 🟩 [Yama](yama.md)
+- 🟩 [Yamunā & the River Goddesses](yamuna-and-river-goddesses.md)
 
 <!-- AUTOINDEX:END -->

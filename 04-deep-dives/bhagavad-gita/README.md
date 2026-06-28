@@ -61,30 +61,30 @@ The **Bhagavad Gītā** ("Song of the Lord") is a ~700-verse philosophical dialo
 
 ### Karma-ṣaṭka — chapters 1–6 (*tvam*: the self, action, discipline)
 
-- **[Ch. 1 — Arjuna-viṣāda Yoga](01-arjuna-vishada.md)** ("Arjuna's Despair") - Survey of armies; the conches; Arjuna's collapse and refusal to fight; the problem posed (*kula-dharma* vs. *svadharma*). (Gītā 1)
+- **[Ch. 1 — Arjuna-viṣāda Yoga](01-arjuna-vishada-yoga.md)** ("Arjuna's Despair") - Survey of armies; the conches; Arjuna's collapse and refusal to fight; the problem posed (*kula-dharma* vs. *svadharma*). (Gītā 1)
 - **[Ch. 2 — Sāṅkhya Yoga](02-sankhya-yoga.md)** ("Yoga of Knowledge") - Seed-chapter: the imperishable *ātman* (2.20); *niṣkāma-karma* (2.47); *yoga = samatva* (2.48) and *karmasu kauśalam* (2.50); the *sthitaprajña* (2.54–72). (Gītā 2)
-- **[Ch. 3 — Karma Yoga](03-karma-yoga.md)** ("Yoga of Action") - Action inescapable; action as *yajña*; *loka-saṅgraha*; *svadharma* over *para-dharma* (3.35). (Gītā 3)
-- **[Ch. 4 — Jñāna-Karma-Sannyāsa Yoga](04-jnana-karma-sannyasa.md)** ("Renunciation of Action in Knowledge") - Eternal doctrine first taught to Vivasvān; the *avatāra* verse (4.7–8); action burned in the fire of knowledge. (Gītā 4)
-- **[Ch. 5 — Karma-Sannyāsa Yoga](05-karma-sannyasa.md)** ("Renunciation of Action") - Renunciation and selfless action reach the same goal; the sage actionless while acting. (Gītā 5)
-- **[Ch. 6 — Dhyāna / Ātma-saṃyama Yoga](06-dhyana-yoga.md)** ("Yoga of Meditation") - Posture, moderation, steadying the restless mind; the *yoga-bhraṣṭa* reborn favorably. (Gītā 6)
+- **[Ch. 3 — Karma Yoga](03-to-06-karma-shatka.md)** ("Yoga of Action") - Action inescapable; action as *yajña*; *loka-saṅgraha*; *svadharma* over *para-dharma* (3.35). (Gītā 3)
+- **[Ch. 4 — Jñāna-Karma-Sannyāsa Yoga](03-to-06-karma-shatka.md)** ("Renunciation of Action in Knowledge") - Eternal doctrine first taught to Vivasvān; the *avatāra* verse (4.7–8); action burned in the fire of knowledge. (Gītā 4)
+- **[Ch. 5 — Karma-Sannyāsa Yoga](03-to-06-karma-shatka.md)** ("Renunciation of Action") - Renunciation and selfless action reach the same goal; the sage actionless while acting. (Gītā 5)
+- **[Ch. 6 — Dhyāna / Ātma-saṃyama Yoga](03-to-06-karma-shatka.md)** ("Yoga of Meditation") - Posture, moderation, steadying the restless mind; the *yoga-bhraṣṭa* reborn favorably. (Gītā 6)
 
 ### Bhakti-ṣaṭka — chapters 7–12 (*tat*: the Lord & devotion)
 
-- **[Ch. 7 — Jñāna-Vijñāna Yoga](07-jnana-vijnana.md)** ("Knowledge & Realization") - Kṛṣṇa's lower (*aparā*) and higher (*parā*) *prakṛti*; four kinds of devotees; *vāsudevaḥ sarvam iti* (7.19). (Gītā 7)
-- **[Ch. 8 — Akṣara-Brahma Yoga](08-akshara-brahma.md)** ("The Imperishable Absolute") - Last thought at death (8.6); *devayāna* vs. *pitṛyāna*; Brahmā's day/night reckoned in yugas (8.17), harmonizing with the [kalpa cosmology](../../00-time-and-cosmology/brahma-lifetime.md). (Gītā 8)
-- **[Ch. 9 — Rāja-Vidyā Rāja-Guhya Yoga](09-raja-vidya.md)** ("Royal Knowledge, Royal Secret") - The Lord pervades all yet is not contained; the lowly-born uplifted by devotion; "a leaf, a flower, a fruit, water" (9.26). (Gītā 9)
-- **[Ch. 10 — Vibhūti Yoga](10-vibhuti-yoga.md)** ("Divine Glories") - "Among Ādityas I am Viṣṇu… of rivers the Ganges… of letters I am 'A'" (10.21–42) — God as the essence of the best of each kind. (Gītā 10)
-- **[Ch. 11 — Viśvarūpa-Darśana Yoga](11-vishvarupa-darshana.md)** ("Vision of the Cosmic Form") - The theophany; the *divya-cakṣus*; "if a thousand suns…" (11.12); *kālo'smi* — "I am Time, destroyer of worlds" (11.32). (Gītā 11)
-- **[Ch. 12 — Bhakti Yoga](12-bhakti-yoga.md)** ("Yoga of Devotion") - Devotion to the personal Lord easier than meditation on the formless; the marks of the beloved *bhakta*. (Gītā 12)
+- **[Ch. 7 — Jñāna-Vijñāna Yoga](07-to-12-bhakti-shatka.md)** ("Knowledge & Realization") - Kṛṣṇa's lower (*aparā*) and higher (*parā*) *prakṛti*; four kinds of devotees; *vāsudevaḥ sarvam iti* (7.19). (Gītā 7)
+- **[Ch. 8 — Akṣara-Brahma Yoga](07-to-12-bhakti-shatka.md)** ("The Imperishable Absolute") - Last thought at death (8.6); *devayāna* vs. *pitṛyāna*; Brahmā's day/night reckoned in yugas (8.17), harmonizing with the [kalpa cosmology](../../00-time-and-cosmology/brahma-lifetime.md). (Gītā 8)
+- **[Ch. 9 — Rāja-Vidyā Rāja-Guhya Yoga](07-to-12-bhakti-shatka.md)** ("Royal Knowledge, Royal Secret") - The Lord pervades all yet is not contained; the lowly-born uplifted by devotion; "a leaf, a flower, a fruit, water" (9.26). (Gītā 9)
+- **[Ch. 10 — Vibhūti Yoga](07-to-12-bhakti-shatka.md)** ("Divine Glories") - "Among Ādityas I am Viṣṇu… of rivers the Ganges… of letters I am 'A'" (10.21–42) — God as the essence of the best of each kind. (Gītā 10)
+- **[Ch. 11 — Viśvarūpa-Darśana Yoga](07-to-12-bhakti-shatka.md)** ("Vision of the Cosmic Form") - The theophany; the *divya-cakṣus*; "if a thousand suns…" (11.12); *kālo'smi* — "I am Time, destroyer of worlds" (11.32). (Gītā 11)
+- **[Ch. 12 — Bhakti Yoga](07-to-12-bhakti-shatka.md)** ("Yoga of Devotion") - Devotion to the personal Lord easier than meditation on the formless; the marks of the beloved *bhakta*. (Gītā 12)
 
 ### Jñāna-ṣaṭka — chapters 13–18 (*asi*: metaphysics & liberation)
 
-- **[Ch. 13 — Kṣetra-Kṣetrajña-Vibhāga Yoga](13-kshetra-kshetrajna.md)** ("The Field & Its Knower") - Body as *kṣetra*, conscious self as *kṣetrajña*; Sāṅkhya *prakṛti*/*puruṣa*. (Gītā 13)
-- **[Ch. 14 — Guṇatraya-Vibhāga Yoga](14-gunatraya-vibhaga.md)** ("The Three Guṇas") - *Sattva*, *rajas*, *tamas* bind the embodied self; the *guṇātīta*. (Gītā 14)
-- **[Ch. 15 — Puruṣottama Yoga](15-purushottama-yoga.md)** ("The Supreme Person") - The inverted cosmic *aśvattha* tree; the three *puruṣas* — perishable, imperishable, and Puruṣottama. (Gītā 15)
-- **[Ch. 16 — Daivāsura-Sampad-Vibhāga Yoga](16-daivasura-sampad.md)** ("Divine & Demonic Natures") - *Daivī* vs. *āsurī* traits; the three gates to hell — lust, anger, greed (16.21). (Gītā 16)
-- **[Ch. 17 — Śraddhā-traya-Vibhāga Yoga](17-shraddha-traya.md)** ("Three Kinds of Faith") - Faith, food, sacrifice, austerity, charity classed by guṇa; *oṃ tat sat*. (Gītā 17)
-- **[Ch. 18 — Mokṣa-Sannyāsa Yoga](18-moksha-sannyasa.md)** ("Liberation through Renunciation") - The longest, synthesizing chapter; *tyāga* vs. *sannyāsa*; the *carama-śloka* "abandon all dharmas and take refuge in Me alone" (18.66); Arjuna's "I will do your word" (18.73). (Gītā 18)
+- **[Ch. 13 — Kṣetra-Kṣetrajña-Vibhāga Yoga](13-to-18-jnana-shatka.md)** ("The Field & Its Knower") - Body as *kṣetra*, conscious self as *kṣetrajña*; Sāṅkhya *prakṛti*/*puruṣa*. (Gītā 13)
+- **[Ch. 14 — Guṇatraya-Vibhāga Yoga](13-to-18-jnana-shatka.md)** ("The Three Guṇas") - *Sattva*, *rajas*, *tamas* bind the embodied self; the *guṇātīta*. (Gītā 14)
+- **[Ch. 15 — Puruṣottama Yoga](13-to-18-jnana-shatka.md)** ("The Supreme Person") - The inverted cosmic *aśvattha* tree; the three *puruṣas* — perishable, imperishable, and Puruṣottama. (Gītā 15)
+- **[Ch. 16 — Daivāsura-Sampad-Vibhāga Yoga](13-to-18-jnana-shatka.md)** ("Divine & Demonic Natures") - *Daivī* vs. *āsurī* traits; the three gates to hell — lust, anger, greed (16.21). (Gītā 16)
+- **[Ch. 17 — Śraddhā-traya-Vibhāga Yoga](13-to-18-jnana-shatka.md)** ("Three Kinds of Faith") - Faith, food, sacrifice, austerity, charity classed by guṇa; *oṃ tat sat*. (Gītā 17)
+- **[Ch. 18 — Mokṣa-Sannyāsa Yoga](13-to-18-jnana-shatka.md)** ("Liberation through Renunciation") - The longest, synthesizing chapter; *tyāga* vs. *sannyāsa*; the *carama-śloka* "abandon all dharmas and take refuge in Me alone" (18.66); Arjuna's "I will do your word" (18.73). (Gītā 18)
 
 ## Cross-school commentary matrix
 
@@ -108,7 +108,7 @@ The Gītā's terse verses support radically different systematic readings; each 
 
 ## The Viśvarūpa (Ch. 11) — quick orientation
 
-- **The cosmic theophany** - Arjuna, granted a *divya-cakṣus*, beholds the **Viśvarūpa** (Universal Form) — infinite faces, arms, bellies; all gods and beings within; "a thousand suns" of splendor (11.12); Kṛṣṇa as **Time** devouring the warriors (11.32, *kālo'smi loka-kṣaya-kṛt*). Full treatment in **[Ch. 11](11-vishvarupa-darshana.md)**. (Gītā 11)
+- **The cosmic theophany** - Arjuna, granted a *divya-cakṣus*, beholds the **Viśvarūpa** (Universal Form) — infinite faces, arms, bellies; all gods and beings within; "a thousand suns" of splendor (11.12); Kṛṣṇa as **Time** devouring the warriors (11.32, *kālo'smi loka-kṣaya-kṛt*). Full treatment in **[Ch. 11](07-to-12-bhakti-shatka.md)**. (Gītā 11)
 
 ## Cross-links
 

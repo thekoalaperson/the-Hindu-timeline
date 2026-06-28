@@ -2,13 +2,13 @@
 
 Breadcrumb: [Characters](./README.md) · [Deep Dives](../README.md) · [Master Index](../../README.md)
 The righteous rākṣasa brother of Rāvaṇa who counsels the return of Sītā, takes refuge with Rāma (śaraṇāgati), reveals Laṅkā's secrets, is crowned king of Laṅkā, and endures as a *cirañjīvī* (immortal). Catalogs variants across Vālmīki, Adhyātma Rāmāyaṇa, Rāmcaritmānas, Kamba, Jain and folk traditions.
-Related: [Rāvaṇa](./ravana.md) · [The Cirañjīvīs](./the-chiranjivis.md) · [Yuddha Kāṇḍa](../ramayana/6-yuddha-kanda.md) · [Uttara Kāṇḍa](../ramayana/7-uttara-kanda.md) · [Variant Rāmāyaṇas](../ramayana/adhyatma-and-variant-ramayanas.md)
+Related: [Rāvaṇa](./ravana.md) · [The Cirañjīvīs](../the-chiranjivis.md) · [Yuddha Kāṇḍa](../ramayana/6-yuddha-kanda.md) · [Uttara Kāṇḍa](../ramayana/7-uttara-kanda.md) · [Variant Rāmāyaṇas](../ramayana/adhyatma-and-variant-ramayanas.md)
 
 ## Identity and Names
 
 - **Vibhīṣaṇa (विभीषण)** - youngest of the three sons of the brahmin sage Viśravas and the rākṣasī Kaikasī (Kaikesī); full brother of Rāvaṇa and Kumbhakarṇa, and brother of the half-rākṣasī Śūrpaṇakhā. Born a rākṣasa by descent but sāttvika in nature. (Vālmīki Rāmāyaṇa, *Uttara Kāṇḍa*).
 - **Lineage** - paternal grandson of the sage Pulastya (a Prajāpati / mind-born son of Brahmā), great-grandson of Brahmā, placing him in the same Paulastya/Pulastya clan as Rāvaṇa and Kubera. (Uttara Kāṇḍa).
-- **Epithets** - "the righteous rākṣasa," "Laṅkeśvara" (lord of Laṅkā, after coronation), counted among the **Sapta/Aṣṭa Cirañjīvī** (seven/eight immortals). (Cirañjīvī Stotram tradition). See [The Cirañjīvīs](./the-chiranjivis.md).
+- **Epithets** - "the righteous rākṣasa," "Laṅkeśvara" (lord of Laṅkā, after coronation), counted among the **Sapta/Aṣṭa Cirañjīvī** (seven/eight immortals). (Cirañjīvī Stotram tradition). See [The Cirañjīvīs](../the-chiranjivis.md).
 
 ## Birth, Tapas, and Boon
 
@@ -57,7 +57,7 @@ Related: [Rāvaṇa](./ravana.md) · [The Cirañjīvīs](./the-chiranjivis.md) �
 
 ## Immortality and the Cirañjīvī Status
 
-- **Cirañjīvī of the Rāma cycle** - by Brahmā's boon (and, in devotional tellings, Rāma's confirming blessing), Vibhīṣaṇa is to live until the end of the present Kali Yuga, charged with guiding people toward truth and dharma. (Cirañjīvī tradition; see [The Cirañjīvīs](./the-chiranjivis.md)).
+- **Cirañjīvī of the Rāma cycle** - by Brahmā's boon (and, in devotional tellings, Rāma's confirming blessing), Vibhīṣaṇa is to live until the end of the present Kali Yuga, charged with guiding people toward truth and dharma. (Cirañjīvī tradition; see [The Cirañjīvīs](../the-chiranjivis.md)).
 - **The Cirañjīvī verse** - he appears in the *Sapta-/Aṣṭa-Cirañjīvī Stotram* alongside Aśvatthāman, Bali, Vyāsa, Hanumān, Vibhīṣaṇa, Kṛpa, and Paraśurāma (and Mārkaṇḍeya in eight-fold lists); daily remembrance is said to confer health and longevity. (Stotra tradition). [variant rosters of 7 vs 8 names]
 
 ## Later Legends and Regional Variants
@@ -73,7 +73,7 @@ Related: [Rāvaṇa](./ravana.md) · [The Cirañjīvīs](./the-chiranjivis.md) �
 ## Cross-References
 
 - [Rāvaṇa](./ravana.md) — the brother he opposes and outlives.
-- [The Cirañjīvīs](./the-chiranjivis.md) — the immortals roster.
+- [The Cirañjīvīs](../the-chiranjivis.md) — the immortals roster.
 - [Yuddha Kāṇḍa](../ramayana/6-yuddha-kanda.md) — śaraṇāgati, war, coronation.
 - [Uttara Kāṇḍa](../ramayana/7-uttara-kanda.md) — birth, lineage, joint tapas.
 - [Variant Rāmāyaṇas](../ramayana/adhyatma-and-variant-ramayanas.md) — Adhyātma/Tulsī/Kamba/Jain frames.

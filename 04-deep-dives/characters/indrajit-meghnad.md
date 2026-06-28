@@ -12,7 +12,7 @@
 
 ## The conquest of Indra — how he won his name
 - **War on Svarga** - Meghanāda accompanied/led Rāvaṇa's assault on Indra's heaven; in the duel of the gods he overpowered the *devas* (*Vālmīki Rāmāyaṇa, Uttara Kāṇḍa*).
-- **Binding and abducting Indra** - he seized Indra himself, bound him, and carried the king of the gods captive to Laṅkā — a feat no other being accomplished — for which the assembled gods hailed him "Indrajit" (*Vālmīki Rāmāyaṇa, Uttara Kāṇḍa*). Compare Indra's other humiliations gathered around figures such as [Nahuṣa](./nahusha.md).
+- **Binding and abducting Indra** - he seized Indra himself, bound him, and carried the king of the gods captive to Laṅkā — a feat no other being accomplished — for which the assembled gods hailed him "Indrajit" (*Vālmīki Rāmāyaṇa, Uttara Kāṇḍa*). Compare Indra's other humiliations gathered around figures such as [Nahuṣa](../nahusha.md).
 - **Brahmā's intervention and the ransom-boon** - Brahmā came to free Indra; Meghanāda released his captive in exchange for boons (*Vālmīki Rāmāyaṇa, Uttara Kāṇḍa*).
   - *Variant (Vālmīki, Uttara Kāṇḍa):* he first sought outright **immortality**; Brahmā refused (immortality being against the order of nature) and instead granted that **whenever he completed a fire-sacrifice to his patron deity before battle, a celestial chariot would rise from the fire, and so long as he fought from it he could not be slain** — the sacrifice being the true secret of his invulnerability.
   - *Variant (Rāmacaritamānasa / popular tradition):* Brahmā warned that **whoever destroyed this sacrifice would be the one able to kill him**, planting the seed of the Nikumbhilā interruption. [late text]
@@ -72,4 +72,4 @@
 - Kṛttivāsī Rāmāyaṇa (Bengali) — Sulocanā/Mahīrāvaṇa material. [folk]
 - *Meghnād Badh Kāvya* (Michael Madhusudan Dutt, 1861) — tragic-hero reframing. [late text]
 - [Indrajit — Wikipedia](https://en.wikipedia.org/wiki/Indrajit); [Sulochana (Ramayana) — Wikipedia](https://en.wikipedia.org/wiki/Sulochana_(Ramayana)); [Indrajit Meghanāda — Universal Teacher](https://universalteacher.com/1/indrajit-meghanada-ramayana/).
-- Cross-links: [Yuddha Kāṇḍa](../ramayana/6-yuddha-kanda.md) · [Uttara Kāṇḍa](../ramayana/7-uttara-kanda.md) · [Adhyātma & variant Rāmāyaṇas](../ramayana/adhyatma-and-variant-ramayanas.md) · [Nahuṣa](./nahusha.md) · [Ghaṭotkaca](./ghatotkacha.md).
+- Cross-links: [Yuddha Kāṇḍa](../ramayana/6-yuddha-kanda.md) · [Uttara Kāṇḍa](../ramayana/7-uttara-kanda.md) · [Adhyātma & variant Rāmāyaṇas](../ramayana/adhyatma-and-variant-ramayanas.md) · [Nahuṣa](../nahusha.md) · [Ghaṭotkaca](./ghatotkacha.md).

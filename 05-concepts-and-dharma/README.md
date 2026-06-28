@@ -16,11 +16,27 @@ These are the conceptual coordinates of Hindu thought, complementing the chronol
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 5 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 21 files in this section. Regenerate with the indexer.*
 
+- 🟩 [Ahiṃsā & Hindu Ethics](ahimsa-and-hindu-ethics.md)
 - 🟩 [Atman, Brahman & the Mahavakyas — Vedanta and the Schools](atman-brahman-and-the-six-darshanas.md)
+- 🟩 [Chakras & Kuṇḍalinī](chakras-and-kundalini.md)
 - 🟩 [Festivals & Vratas — Origins Mapped to Myth](festivals-and-vratas.md)
+- 🟩 [Guru-Śiṣya Paramparā](guru-shishya-parampara.md)
+- 🟩 [Mantra, Japa & Mūrti-Pūjā](mantra-japa-and-murti-puja.md)
+- 🟩 [Māyā & Avidyā](maya-and-avidya.md)
+- 🟩 [The Pañca Kośas](pancha-koshas.md)
+- 🟩 [The Five Great Sacrifices & the Three Debts](pancha-maha-yajnas-and-the-three-debts.md)
+- 🟩 [Prāṇa & the Vital Airs](prana-and-the-vital-airs.md)
 - 🟩 [The Four Aims (Purusharthas) & Karma–Samsara–Moksha](purusharthas-and-karma-samsara-moksha.md)
+- 🟩 [Regional Temple Festivals & Jatras (beyond the pan-Hindu calendar)](regional-temple-festivals.md)
+- 🟩 [Ṛta & Cosmic Order](rta-and-cosmic-order.md)
+- 🟩 [Śrāddha & the Pitṛ Rites](shraddha-and-pitr-rites.md)
+- 🟩 [The Pramāṇas — Means of Knowledge](the-pramanas.md)
+- 🟩 [The 25 Tattvas of Sāṃkhya](the-samkhya-tattvas.md)
+- 🟩 [The Three Guṇas](the-three-gunas.md)
+- 🟩 [The Three Mārgas — Karma, Bhakti, Jñāna](the-three-margas.md)
+- 🟩 [Turīya & the Four States](turiya-and-the-four-states.md)
 - 🟩 [Varnashrama-Dharma & the Samskaras (Life-Cycle Rites)](varna-ashrama-and-samskaras.md)
 - 🟩 [The Paths of Yoga & Patanjali's Eight Limbs](yoga-paths-and-patanjali.md)
 

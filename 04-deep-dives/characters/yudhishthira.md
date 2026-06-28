@@ -3,7 +3,7 @@
 > Where this sits: **Dharmarāja**, eldest Pāṇḍava, son of the god **Dharma/Yama**, central figure of the [Mahābhārata](../mahabharata/) in the [28th Mahāyuga, Dvāpara Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md). His reign closes the Dvāpara and his death marks the threshold of [Kali Yuga](../../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
 > Up: [characters](./) · [04-deep-dives](../) · Master index: [../../README.md](../../README.md)
 
-**Yudhiṣṭhira** ("steady/firm in battle," *yudhi* + *sthira*) is the epic's moral center — the king whose only flaw is a fatal love of gambling and a single half-truth, and whose lifelong subject is the nature of **dharma** itself. Born of the god of righteousness, he is repeatedly tested by that same god in disguise (deer, Yakṣa, dog), and is the only mortal in the epic permitted to ascend to Svarga in his bodily form. Related figures: [Karṇa](./karna.md), [Vidura (Vidura-nīti narrated to Dhṛtarāṣṭra, mirrored in Yudhiṣṭhira's rule)](../vidura-niti.md), and the framing of the [Nala & Damayantī](../nala-damayanti.md) tale told to console him in exile.
+**Yudhiṣṭhira** ("steady/firm in battle," *yudhi* + *sthira*) is the epic's moral center — the king whose only flaw is a fatal love of gambling and a single half-truth, and whose lifelong subject is the nature of **dharma** itself. Born of the god of righteousness, he is repeatedly tested by that same god in disguise (deer, Yakṣa, dog), and is the only mortal in the epic permitted to ascend to Svarga in his bodily form. Related figures: [Karṇa](../karna.md), [Vidura (Vidura-nīti narrated to Dhṛtarāṣṭra, mirrored in Yudhiṣṭhira's rule)](../vidura-niti.md), and the framing of the [Nala & Damayantī](../nala-damayanti.md) tale told to console him in exile.
 
 ---
 
@@ -108,7 +108,7 @@
 
 ## King in victory — and the burden of grief
 
-- **Pyrrhic kingship** - After the slaughter Yudhiṣṭhira is consecrated king of Hāstinapura, but is so wracked with guilt (especially on learning **Karṇa** was his eldest brother) that he nearly renounces the throne; the dying Bhīṣma and Kṛṣṇa persuade him to rule (Mbh Śānti Parva; cf. [Karṇa](./karna.md)).
+- **Pyrrhic kingship** - After the slaughter Yudhiṣṭhira is consecrated king of Hāstinapura, but is so wracked with guilt (especially on learning **Karṇa** was his eldest brother) that he nearly renounces the throne; the dying Bhīṣma and Kṛṣṇa persuade him to rule (Mbh Śānti Parva; cf. [Karṇa](../karna.md)).
 - **The Aśvamedha** - To expiate the war's bloodshed he performs the **horse sacrifice (Aśvamedha)**; the famous half-golden mongoose appears and declares a poor man's gift of barley-flour greater than the whole royal rite — a rebuke to ritual pride placed at the sacrifice's climax (Mbh Aśvamedhika Parva).
 - **A long, melancholy reign** - He rules for many years (traditionally **36 years** after the war, until Kṛṣṇa's departure ends the Dvāpara and ushers in Kali) and shelters the blind Dhṛtarāṣṭra and Gāndhārī until they retire to the forest and die (Mbh).
 
@@ -160,4 +160,4 @@
 - Sadhguru / Isha, ["Mahabharat Ep39: Yudhishthira Answers the Yaksha's Questions"](https://isha.sadhguru.org/en/wisdom/article/mahabharat-ep39-yudhishthira-answers-yakshas-questions).
 - Sarala Mahabharata, ["Yudhishthira's Half-Truth"](https://saralamahabharata.org/2020/10/21/yudhisthiras-half-truth/).
 - The Matheson Trust, ["Yudhishthira and His Dog" — the Book of the Great Journey](https://www.themathesontrust.org/papers/hinduism/Yudhishthira%20and%20His%20Dog.pdf).
-- Internal cross-links: [Karṇa](./karna.md), [Vidura-nīti](../vidura-niti.md), [Nala & Damayantī](../nala-damayanti.md), [Mārkaṇḍeya](../markandeya.md), [Śiśupāla](../shishupala.md), [Mahābhārata corpus](../mahabharata/).
+- Internal cross-links: [Karṇa](../karna.md), [Vidura-nīti](../vidura-niti.md), [Nala & Damayantī](../nala-damayanti.md), [Mārkaṇḍeya](../markandeya.md), [Śiśupāla](../shishupala.md), [Mahābhārata corpus](../mahabharata/).

@@ -45,7 +45,7 @@
 - **Other sons in expanded lists** - **Bhīmāsura, Mūlakāsura, Aśvanikumbha** appear in some later genealogical rosters. [folk] [open-ended roster]
 
 ## Past life and theological frame
-- **The gatekeeper Vijaya** - in the [Bhāgavata Purāṇa](../../90-literature-corpus/README.md) frame, Kumbhakarṇa is the second-birth incarnation of **Vijaya**, one of the two doorkeepers of Vaikuṇṭha; cursed by the Four Kumāras for barring them, Vijaya and his fellow gatekeeper **Jaya** chose three lives as Viṣṇu's enemies (slain by his avatāras) over many lives as devotees. Jaya/Vijaya are Hiraṇyākṣa–Hiraṇyakaśipu (1st), Rāvaṇa–Kumbhakarṇa (2nd), Śiśupāla–Dantavakra (3rd). See [Jaya–Vijaya](./jaya-vijaya.md) for the full curse arc. [late text]
+- **The gatekeeper Vijaya** - in the [Bhāgavata Purāṇa](../../90-literature-corpus/README.md) frame, Kumbhakarṇa is the second-birth incarnation of **Vijaya**, one of the two doorkeepers of Vaikuṇṭha; cursed by the Four Kumāras for barring them, Vijaya and his fellow gatekeeper **Jaya** chose three lives as Viṣṇu's enemies (slain by his avatāras) over many lives as devotees. Jaya/Vijaya are Hiraṇyākṣa–Hiraṇyakaśipu (1st), Rāvaṇa–Kumbhakarṇa (2nd), Śiśupāla–Dantavakra (3rd). See [Jaya–Vijaya](../jaya-vijaya.md) for the full curse arc. [late text]
 - **Devotional reading** - in this frame Kumbhakarṇa's death at Rāma's hand is liberation (*mokṣa*) — the enemy who is secretly a devotee returning to the Lord; folk and Vaiṣṇava retellings stress that he died facing Rāma and was freed. [folk]
 
 ## Regional and modern afterlife
@@ -55,7 +55,7 @@
 
 ## Cross-links
 - [Rāvaṇa](./ravana.md) — eldest brother and king of Laṅkā; shared lineage, the joint penance, the grief over Kumbhakarṇa's fall.
-- [Jaya–Vijaya](./jaya-vijaya.md) — the gatekeeper curse explaining Kumbhakarṇa (as Vijaya) and Rāvaṇa (as Jaya) as one of three antagonist-births.
+- [Jaya–Vijaya](../jaya-vijaya.md) — the gatekeeper curse explaining Kumbhakarṇa (as Vijaya) and Rāvaṇa (as Jaya) as one of three antagonist-births.
 - [Yuddha Kāṇḍa](../ramayana/6-yuddha-kanda.md) — the war book containing the awakening, the vānara slaughter, and the death.
 - [Uttara Kāṇḍa](../ramayana/7-uttara-kanda.md) — birth, parentage, and the penance/boon back-story.
 - [Variant & Regional Rāmāyaṇas](../ramayana/adhyatma-and-variant-ramayanas.md) — for the Kamba, Tulsīdās, and other recensional treatments.

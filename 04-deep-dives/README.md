@@ -20,12 +20,13 @@
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 64 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 109 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Agastya — Sage of the South](agastya.md)
 - 🟩 [Ajāmila — Salvation by the Name](ajamila.md)
 - 🟩 [Ambarīṣa & Durvāsā — the Sudarśana and the Ekādaśī Vow](ambarisha-durvasa.md)
-- 🟩 [The Bhagavad Gītā](bhagavad-gita.md)
+- 🟩 [The Anugītā — Kṛṣṇa's 'Sequel' to the Gītā](anugita.md)
+- 🟨 [The Bhagavad Gītā → moved](bhagavad-gita.md)
 - 🟩 [Bhāgavata Purāṇa — Catalog of Tales](bhagavata-tales-catalog.md)
 - 🟩 [Bhasmāsura & Vṛkāsura — Shiva's Dangerous Boons](bhasmasura-and-vrikasura.md)
 - 🟩 [Cyavana, Sukanyā & the Aśvins](cyavana-sukanya.md)
@@ -35,20 +36,26 @@
 - 🟩 [Ekalavya — the Thumb-Guru-Dakṣiṇā](ekalavya.md)
 - 🟩 [Gajendra Mokṣa — the Liberation of the Elephant-King](gajendra-moksha.md)
 - 🟩 [Hariścandra — the King Who Never Lied](hariscandra.md)
+- 🟩 [The Harivaṃśa — The 'Appendix' (khila) of the Mahābhārata](harivamsha.md)
 - 🟩 [Jaya & Vijaya — the Three-Birth Curse](jaya-vijaya.md)
 - 🟩 [Karṇa — the Tragic Son of the Sun](karna.md)
 - 🟩 [Kṛṣṇa-līlā — The Life & Deeds of Krishna](krishna-lila.md)
+- 🟩 [The Lesser Gītās of the Mahābhārata — A Catalog](lesser-gitas-catalog.md)
 - 🟩 [Mahābhārata — Minor Episodes & Inset Tales](mahabharata-minor-episodes.md)
 - 🟩 [Mārkaṇḍeya — the Deathless Sage & the Cosmic Dissolution Vision](markandeya.md)
 - 🟩 [Catalog of Minor Upākhyānas & Tales](minor-upakhyanas-catalog.md)
+- 🟩 [The Mokṣadharma Dialogues — Sāṃkhya, Yoga & the Teaching-Conversations of the Śānti Parva](mokshadharma-dialogues.md)
 - 🟩 [Naciketas & Yama — the Kaṭha Upaniṣad Dialogue](nachiketa-katha-upanishad.md)
 - 🟩 [Nahuṣa — the Mortal Who Became Indra](nahusha.md)
 - 🟩 [Nala & Damayatī — the Dice, the Curse, and Reunion](nala-damayanti.md)
+- 🟩 [The Nārāyaṇīya — Pāñcarātra Theology of the Śānti Parva](narayaniya.md)
 - 🟩 [Pṛthu — the First King & the Milking of the Earth](prithu-prithvi.md)
 - 🟩 [Purūravas & Urvaśī — the Mortal King & the Apsarā](pururavas-urvashi.md)
+- 🟩 [The Rāmopākhyāna — The Mahābhārata's Miniature Rāmāyaṇa](ramopakhyana.md)
 - 🟩 [Ṛṣabhadeva, Bharata & the Deer — Renunciation across Births](rishabha-bharata-jada.md)
 - 🟩 [Ṛśyaśṛṅga — the Horned Sage](rishyashringa.md)
 - 🟩 [Samudra Manthana — The Churning of the Ocean](samudra-manthana.md)
+- 🟩 [The Sanatsujātīya — On Death, Knowledge & Liberation](sanatsujatiya.md)
 - 🟩 [Sāvitrī & Satyavān — Winning a Husband Back from Death](savitri-satyavan.md)
 - 🟩 [Śakuntalā, Duṣyanta & the Birth of Bharata](shakuntala-bharata.md)
 - 🟩 [Śibi — the King & the Dove](shibi.md)
@@ -57,10 +64,49 @@
 - 🟩 [Sunaḥśepa — the Boy Offered in Sacrifice](sunahshepa.md)
 - 🟩 [The Cirañjīvis — the Eight Immortals across the Yugas](the-chiranjivis.md)
 - 🟩 [Triśaṅku — Heaven in Limbo](trishanku.md)
+- 🟩 [The Uddhava Gītā (Haṃsa Gītā) — Kṛṣṇa's Last Teaching](uddhava-gita.md)
 - 🟩 [Uttaṅka — the Quest for the Earrings](uttanka.md)
+- 🟩 [The Uttara Rāmāyaṇa — Rāma-rājya, Sītā's Banishment, Lava-Kuśa & Śambūka](uttara-ramayana-lava-kusha.md)
+- 🟩 [The Vidura Niti — The Science of Statecraft & Wisdom](vidura-niti.md)
 - 🟩 [Viśvāmitra & Vasiṣṭha — Kṣatriya to Brahmarṣi](vishwamitra-vasishtha.md)
+- 🟩 [The Vyadha Gita — The Righteous Butcher of Mithila](vyadha-gita.md)
+- 🟩 [The Yakṣa Praśna — Yudhiṣṭhira and the Riddles of Dharma](yaksha-prashna.md)
 - 🟩 [Yayāti — the Curse of Old Age & the Exchange of Youth](yayati.md)
 - 🟩 [The Yoga Sūtras of Patañjali](yoga-sutras-of-patanjali.md)
+
+**bhagavad-gita/**
+
+- 🟩 [Gita Ch.1 — Arjuna-Vishada Yoga (The Yoga of Arjuna's Despair)](bhagavad-gita/01-arjuna-vishada-yoga.md)
+- 🟩 [Gita Ch.2 — Sāṅkhya Yoga (The Yoga of Knowledge)](bhagavad-gita/02-sankhya-yoga.md)
+- 🟩 [Gītā Ch.3–6 — The Karma Ṣaṭka in Detail (Karma, Jñāna-Karma-Sannyāsa, Karma-Sannyāsa, Dhyāna)](bhagavad-gita/03-to-06-karma-shatka.md)
+- 🟩 [Gītā Ch.7–12 — The Bhakti Ṣaṭka in Detail (incl. the Viśvarūpa)](bhagavad-gita/07-to-12-bhakti-shatka.md)
+- 🟩 [Gita Ch.13-18 — The Jnana Shatka in Detail (incl. the Charama Shloka)](bhagavad-gita/13-to-18-jnana-shatka.md)
+- 🟩 [The Bhagavad Gītā — Chapter-by-Chapter Deep Dive (folder hub)](bhagavad-gita/README.md)
+
+**characters/**
+
+- 🟩 [Epic Characters — Index](characters/README.md)
+- 🟩 [Abhimanyu](characters/abhimanyu.md)
+- 🟩 [Arjuna](characters/arjuna.md)
+- 🟩 [Aṣṭāvakra](characters/ashtavakra.md)
+- 🟩 [Bhīma](characters/bhima.md)
+- 🟩 [Bhīṣma](characters/bhishma.md)
+- 🟩 [Draupadī](characters/draupadi.md)
+- 🟩 [Droṇa — the Brahmin Weapons-Master of the Kuru Line](characters/drona.md)
+- 🟩 [Duryodhana — the Eldest Kaurava](characters/duryodhana.md)
+- 🟩 [Ghaṭotkaca](characters/ghatotkacha.md)
+- 🟩 [Indrajit (Meghanāda)](characters/indrajit-meghnad.md)
+- 🟩 [Jaṭāyu & Sampāti](characters/jatayu-and-sampati.md)
+- 🟩 [Kaca, Devayānī & Yayāti's Queens](characters/kacha-devayani.md)
+- 🟩 [Kumbhakarṇa](characters/kumbhakarna.md)
+- 🟩 [Kuntī](characters/kunti.md)
+- 🟩 [Lakṣmaṇa](characters/lakshmana.md)
+- 🟩 [Rāvaṇa](characters/ravana.md)
+- 🟩 [Sītā](characters/sita.md)
+- 🟩 [Sugrīva & Vālī](characters/sugriva-and-vali.md)
+- 🟩 [Vibhīṣaṇa](characters/vibhishana.md)
+- 🟩 [Vidura](characters/vidura.md)
+- 🟩 [Yudhiṣṭhira](characters/yudhishthira.md)
 
 **mahabharata/**
 
@@ -94,5 +140,12 @@
 - 🟩 [Yuddha (Laṅkā) Kāṇḍa — Book of War](ramayana/6-yuddha-kanda.md)
 - 🟩 [Uttara Kāṇḍa — The Final Book](ramayana/7-uttara-kanda.md)
 - 🟩 [The Rāmāyaṇa — Overview & Recensions](ramayana/README.md)
+- 🟩 [The Adhyātma Rāmāyaṇa & Variant Rāmāyaṇas — Vedāntic and Regional Retellings](ramayana/adhyatma-and-variant-ramayanas.md)
+- 🟩 [Adhyātma Rāmāyaṇa — the Advaita-Vedānta Rāmāyaṇa](ramayana/recensions/adhyatma-ramayana.md)
+- 🟩 [Jain & Buddhist Ramayanas — Paumacariya and the Dasaratha Jataka](ramayana/recensions/jain-and-buddhist-ramayanas.md)
+- 🟩 [Iramavataram (Kamban) — the Tamil Ramayana](ramayana/recensions/kamban-iramavataram.md)
+- 🟩 [Krittivasi Ramayan — the Bengali Sriram Panchali](ramayana/recensions/krittivasi-ramayan.md)
+- 🟩 [Ramcharitmanas (Tulsidas) — the Awadhi Bhakti Ramayana](ramayana/recensions/ramcharitmanas-tulsidas.md)
+- 🟩 [Southeast Asian Ramayanas — Ramakien, Kakawin, Reamker & beyond](ramayana/recensions/southeast-asian-ramayanas.md)
 
 <!-- AUTOINDEX:END -->
