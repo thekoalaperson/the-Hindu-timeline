@@ -53,7 +53,8 @@ Each manvantara is staffed by a cohort that holds office for its full ~306.7-mil
 - **Manu:** Vaivasvata (Shraddhadeva). (Vishnu Purana)
 - **Indra (king of the gods):** **Purandara**. ["Indra" is a title/office, not a personal name; Purandara holds it this manvantara.] (Vishnu Purana; Manvantara — Wikipedia)
 - **Saptarishi (Seven Sages):** **Kashyapa, Atri, Vasishtha, Vishvamitra, Gautama, Jamadagni, Bharadvaja.** (Vishnu Purana; Brahmanda Purana)
-  - *Variant (lists differ):* some Puranas substitute names — e.g. **Vasishtha, Kashyapa, Atri, Jamadagni, Gautama, Vishvamitra, Bharadvaja** (order/membership shifts), and a few traditions include **Agastya** or others. The seven sages also differ from those of past manvantaras. (Manvantara — Wikipedia; Dharmawiki)
+  - *Variant (ordering differs):* texts list these same seven in different sequences — e.g. **Vasishtha, Kashyapa, Atri, Jamadagni, Gautama, Vishvamitra, Bharadvaja** (a reordering of the identical membership, not a name substitution). (Manvantara — Wikipedia; Dharmawiki)
+  - *Variant (membership differs):* a few older enumerations substitute or add names — e.g. the Jaiminiya Brahmana list opens with **Agastya** (Agastya, Atri, Bharadvaja, Gautama, Jamadagni, Vasishtha, Vishvamitra — Kashyapa absent), and the Gopatha Brahmana adds **Gungu** alongside Agastya. The seven sages also differ from those of past manvantaras. (Saptarshi — Wikipedia; Dharmawiki)
 - **Class of gods (devas):** named variously as the **Adityas, Vasus, and Rudras** (and in some texts the **Sadhyas/Vishvedevas**) for this manvantara. (Vishnu Purana; Bhagavata Purana)
   - *Variant:* Puranic enumerations of the deva-classes per manvantara do not fully agree; counts and group-names vary by text.
 

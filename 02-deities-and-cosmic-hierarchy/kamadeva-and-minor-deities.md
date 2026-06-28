@@ -77,7 +77,7 @@ These are the **minor-but-indispensable** deities: the god of love who is burnt 
 
 ## Sūrya & the solar family
 
-- **Sūrya (Vivasvat / Āditya)** — the **Sun**, soul (*ātman*) of the cosmos, the visible Brahman, and head of the **Solar Dynasty (Sūryavaṃśa)**; the lunar **graha** of the day (see [Navagraha](navagraha.md)). Son of **Aditi** and **Kaśyapa**, reckoned chief of the **twelve Ādityas**. (Wikipedia: Surya)
+- **Sūrya (Vivasvat / Āditya)** — the **Sun**, soul (*ātman*) of the cosmos, the visible Brahman, and head of the **Solar Dynasty (Sūryavaṃśa)**; the solar **graha** of the day (Ravivāra/Sunday) (see [Navagraha](navagraha.md)). Son of **Aditi** and **Kaśyapa**, reckoned chief of the **twelve Ādityas**. (Wikipedia: Surya)
 - **Saṃjñā (Saraṇyū)** — Sūrya's principal wife, daughter of **Viśvakarmā/Tvaṣṭṛ**. Unable to endure his heat, she leaves her **shadow-double Chāyā** in her place and flees as a **mare** to perform tapas. (Ṛg Veda 10.17; *Mārkaṇḍeya* & *Matsya Purāṇa*)
   - *Variant (third wife):* some lists add **Rājñī/Prabhā** as a third consort. (Wikipedia)
 - **Chāyā ("Shadow")** — the surrogate wife; mother of Sūrya's "shadow" offspring, who shows favoritism to her own children and curses **Yama**, triggering the discovery of the substitution. (Grokipedia: Chhaya; *Mārkaṇḍeya Purāṇa*)

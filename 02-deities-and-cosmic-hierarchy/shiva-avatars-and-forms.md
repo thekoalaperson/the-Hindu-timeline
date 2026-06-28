@@ -72,7 +72,7 @@ The canonical fierce/ascetic descent-list. Order varies by edition; identity is 
 
 The eleven Rudra-deities of the Vedic **33-deva** pantheon (12 Ādityas + 11 Rudras + 8 Vasus + 2 Aśvins), later subsumed as forms/sons of Śiva. The list is **highly variable** across texts.
 
-- *Variant (Bhāgavata Purāṇa 3.12):* Brahmā names eleven Rudras — **Manyu, Manu, Mahinasa, Mahān, Śiva, Ṛtadhvaja, Ugraretā, Bhava, Kāla, Vāmadeva, Dhṛtavrata** (born of Rudra and his consort *Satarūpā/*the Rudrāṇīs). [Bhāgavata schema]
+- *Variant (Bhāgavata Purāṇa 3.12):* Brahmā names eleven Rudras — **Manyu, Manu, Mahinasa, Mahān, Śiva, Ṛtadhvaja, Ugraretā, Bhava, Kāla, Vāmadeva, Dhṛtavrata** (born of Rudra and his eleven consorts the *Rudrāṇīs* — Dhī, Dhṛti, Rasalā, Umā, Niyut, Sarpis, Ilā, Ambikā, Irāvatī, Svadhā, Dīkṣā; *Satarūpā belongs to the Svāyambhuva Manu line, not Rudra*). [Bhāgavata schema]
 - *Variant (Viṣṇu / Matsya / Vāyu Purāṇas):* **Aja, Ekapāda (Ekapād), Ahirbudhnya, Tvaṣṭā (Pinākī), Rudra, Hara, Śambhu, Tryambaka, Aparājita, Īśāna, Tribhuvana**. [Puranic schema]
 - *Variant (Mahābhārata / Harivaṃśa):* lists include **Mṛgavyādha, Sarpa, Nirṛti, Ajaikapād, Ahirbudhnya, Pinākī, Dahana, Īśvara, Kapālī, Sthāṇu, Bhaga** (and variants). [epic schema]
 - *Variant (Śaiva ritual):* the **Ekādaśa-Rudra** are worshipped collectively in the *Rudrābhiṣeka*; the *Śatarudriya* (Rudram, *Kṛṣṇa Yajurveda*) addresses Rudra in a hundred-plus epithets, the liturgical root of all the above.

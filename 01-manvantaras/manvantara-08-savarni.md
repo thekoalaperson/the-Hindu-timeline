@@ -3,7 +3,7 @@
 > Where this sits: Brahma's current life → Shveta-Varaha Kalpa → the 14 Manvantaras → the **8th**, the first of the *future* Manus, ruling the age that opens after our own [7th, Vaivasvata](./manvantara-07-vaivasvata/). [Future — not yet begun.]
 > Parent: [the-14-manvantaras](README.md) · Up to the master index: [README](../README.md)
 
-The next Manu after Vaivasvata, and the **pivot of the whole second half of the kalpa**: the next six Manus (9th–14th) all bear the name "Sāvarṇi" and are reckoned as kin or namesakes of this one. His manvantara begins only after the present 28-mahayuga Vaivasvata cycle completes — roughly **426,000+ divine-reckoned years remain** in the current [Kali Yuga](manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) alone, after which the remaining mahayugas of Vaivasvata must run their course. So this age is genuinely remote; the Purāṇas catalog its officers (Manu, Indra, sages, gods, avatar) as a fixed roster rather than as narrated events. Where the record gives *stories* (chiefly the birth-by-Devī's-boon thread) they are noted below; where it gives only *lists*, the lists are catalogued with their variants.
+The next Manu after Vaivasvata, and the **pivot of the whole second half of the kalpa**: the next six Manus (9th–14th) all bear the name "Sāvarṇi" and are reckoned as kin or namesakes of this one. His manvantara begins only after the present 28-mahayuga Vaivasvata cycle completes — roughly **426,000+ human (solar) years remain** in the current [Kali Yuga](manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) alone (Kali Yuga = 432,000 human years = 1,200 divine years; ~1,185 divine years remain), after which the remaining mahayugas of Vaivasvata must run their course. So this age is genuinely remote; the Purāṇas catalog its officers (Manu, Indra, sages, gods, avatar) as a fixed roster rather than as narrated events. Where the record gives *stories* (chiefly the birth-by-Devī's-boon thread) they are noted below; where it gives only *lists*, the lists are catalogued with their variants.
 
 ## The Manu
 
@@ -26,7 +26,7 @@ The seven sages of the Sāvarṇi age are unusually loaded with **chiranjivis** 
 
 ## Gods (Deva Classes)
 
-- **Three classes of gods, twenty in each:** the **Sutapās**, the **Amitābhas**, and the **Mukhyas** (Vishnu Purana 3.2; "twenty each" per the standard Wilson translation).
+- **Three classes of gods, twenty-one in each:** the **Sutapās**, the **Amitābhas**, and the **Mukhyas** (Vishnu Purana 3.2; "twenty-one of each" per the standard Wilson translation — distinct from the Mārkaṇḍeya Purāṇa's "twenty-fold group," a different text).
   - *Variant (Bhagavata Purana 8.13):* the demigods of this age are likewise grouped as **Sutapās, Amitābhas (Vāmas in some readings), and Mukhyas**, each a host of twenty.
   - *Observation [scholarly]:* "Sutapā" doubles as both a deva-class name here and a saptarishi name in the alternate Vishnu Purana list above — a sign the Purāṇic compilers reused a small stock of stereotyped names across the future manvantaras; treat overlaps as textual rather than substantive.
 

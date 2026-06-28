@@ -1,6 +1,6 @@
 # Pṛthu — the First King & the Milking of the Earth
 
-> Cosmic address: Shveta-Varaha Kalpa → 7th (Vaivasvata) Manvantara → early in the present human age, within the [Chandravamsha/early dynastic prehistory](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md). Counted as the **Pṛthu-avatāra** in the Bhāgavata's 22-avatara list ([dashavatara & avatara-lists](../02-deities-and-cosmic-hierarchy/dashavatara.md)).
+> Cosmic address: Shveta-Varaha Kalpa → 7th (Vaivasvata) Manvantara → early in the present human age, within the [primordial Svāyambhuva-Manu / Dhruva line (early dynastic prehistory)](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md). Counted as the **Pṛthu-avatāra** in the Bhāgavata's 22-avatara list ([dashavatara & avatara-lists](../02-deities-and-cosmic-hierarchy/dashavatara.md)).
 > Parent: [04-deep-dives](./) · Up to [README](../README.md)
 
 Pṛthu (Pṛthu Vainya, "Pṛthu son of Vena") is the archetypal **rajan** — the first consecrated king, the inventor of kingship, agriculture, settlement and trade. The Earth is **Pṛthvī**, "she who belongs to Pṛthu," because he subdued and "milked" her into yielding food. He is an aṃśa (partial descent) of Viṣṇu born expressly to rescue the cosmic order from the misrule of his father Vena.

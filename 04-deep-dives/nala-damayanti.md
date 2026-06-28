@@ -61,7 +61,7 @@ The **Nalopākhyāna** ("Episode of Nala") is a self-contained sub-epic embedded
 - **Lament and the python** - Waking abandoned, Damayantī wanders lamenting; a **giant python/serpent** seizes her (Mbh Vana Parva 60–63).
 - **The hunter** - A **hunter (vyādha)** kills the serpent and frees her, then lusts after her; she **curses him dead** by the power of her chastity (Mbh Vana Parva 63).
 - **The merchant caravan** - She joins a trading **caravan**, which is later destroyed in a night stampede of wild elephants near a lake; survivors blame the strange woman and she wanders on (Mbh Vana Parva 64).
-- **Refuge in Chedi** - She reaches the city of **Subāhu, king of Chedi**, disheveled and taken for a madwoman; the queen-mother takes her in as a **sairandhrī (attendant)** named **Bṛhannalā/"Sairandhrī,"** on condition she neither eats leavings nor speaks to men (Mbh Vana Parva 65).
+- **Refuge in Chedi** - She reaches the city of **Subāhu, king of Chedi**, disheveled and taken for a madwoman; the queen-mother takes her in as a **sairandhrī (attendant)**, on condition she neither eats leavings nor speaks to men (Mbh Vana Parva 65).
 - **Recognized by the mole** - The Brahmin **Sudeva**, sent by her father, finds her and recognizes the **lotus-mark between her brows** beneath the grime; the Chedi queen-mother turns out to be Damayantī's **maternal aunt** (both daughters of King Sudāman of Daśārṇa). Subāhu sends her home to Vidarbha in honor (Mbh Vana Parva 65–66).
   - *Variant (regional/folk retellings):* the recognition turns more on Damayantī's faultless conduct and royal bearing than on the birthmark alone [folk tradition].
 

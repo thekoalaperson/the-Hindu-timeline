@@ -24,7 +24,7 @@ A **cosmic mountain** in Hindu thought is rarely a surveyed peak: it is a *cosmo
 
 Encircling Meru like the legs of a stool stand four **maryādā / viṣkambha** peaks, each bearing a colossal totem-tree and a sacred lake:
 
-- **Mandara** — to the **east**, marked by a **mango (kadamba)** tree; later the churning-rod of the [Samudra Manthana](../02-deities-and-cosmic-hierarchy/dashavatara.md). (*Bhāgavata Purāṇa* 5.16.8–11)
+- **Mandara** — to the **east**, marked by a **mango (Devacūta)** tree; later the churning-rod of the [Samudra Manthana](../02-deities-and-cosmic-hierarchy/dashavatara.md). (*Bhāgavata Purāṇa* 5.16.8–11)
 - **Merumandara / Gandhamādana** — to the **south**, bearing a **jambū (rose-apple)** tree whose fruit gives *Jambudvīpa* its name; the falling juice forms the river **Jambū-nadī** and the gold **jāmbūnada**. (*Bhāgavata Purāṇa* 5.16)
 - **Supārśva** — to the **west**, bearing a giant **kadamba**; its flowing sap forms streams of honey. (*Bhāgavata Purāṇa* 5.16)
 - **Kumuda** — to the **north**, bearing a **banyan (vaṭa)** tree. (*Bhāgavata Purāṇa* 5.16)

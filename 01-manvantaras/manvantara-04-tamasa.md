@@ -6,7 +6,7 @@ Each Manvantara is governed by its own Manu, an Indra, a roster of deva-classes 
 
 ## The Presiding Figures
 
-- **Tāmasa Manu** — the 4th Manu, **brother of the 3rd Manu [Uttama](manvantara-03-uttama.md)** (and so a son of the 2nd Manu [Svārociṣa](manvantara-02-svarochisha.md) in the Vishnu Purana lineage). Often glossed as "born of/emerged from darkness (*tamas*)" — the Vedic People recension explains the name from a birth during a period of cosmic *andhakāra* (darkness) (Vishnu Purana III.1; Vedic People).
+- **Tāmasa Manu** — the 4th Manu, **brother of the 3rd Manu [Uttama](manvantara-03-uttama.md) and the 5th Manu [Raivata](manvantara-05-raivata.md)**, all sons of **Priyavrata** (the eldest son of the first Manu [Svāyambhuva](manvantara-01-svayambhuva.md)) — the Vishnu Purana states "Swárochisha, Auttamí, Támasa, and Raivata were all descended from Priyavrata" (Vishnu Purana III.1; Bhagavata Purana 5.1.28). Often glossed as "born of/emerged from darkness (*tamas*)" — the Vedic People recension explains the name from a birth during a period of cosmic *andhakāra* (darkness) (Vishnu Purana III.1; Vedic People).
   - *Variant (general):* also called **Tāpasa** ("the ascetic"), the two forms used interchangeably across recensions.
   - *Variant (Bhagavata Purana):* by some readings Hari/Vishnu's manifestation of this age is closely bound to the Manu's line, with the avatar **Hari** appearing within the Tāmasa cycle (see Gajendra-mokṣa, below).
 - **Sons of Tāmasa** — ten sons, mighty kings who ruled the earth.

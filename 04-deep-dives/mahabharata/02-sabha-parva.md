@@ -39,7 +39,7 @@ The **Sabhā Parva** ("Book of the Assembly Hall") is the **second of the 18 par
 - **Nārada's visit** - The sage **Nārada** arrives, and on seeing the new hall describes by comparison the assembly-halls of the four **Lokapālas** (world-guardians) and of Brahmā, modelling ideal kingship (Sabhā Parva 5–11).
 - **The mirror of good governance** - Nārada catechises Yudhiṣṭhira with the **rāja-dharma praśna**: scores of probing questions on statecraft — fair taxation, irrigation, spies, justice for the weak, treatment of brāhmaṇas, soldiers' pay, fort defence — a compact *nīti-śāstra* embedded in narrative (Sabhā Parva 5). See [Concepts: puruṣārthas & rāja-dharma](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
 - **The five celestial sabhās** - Nārada describes the courts of **Indra** (Devasabhā), **Yama**, **Varuṇa**, **Kubera** (Vaiśravaṇa), and **Brahmā**, naming the kings, ṛṣis, and beings who attend each (Sabhā Parva 6–11). See [Devas, Asuras & the Lokas](../../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md).
-- **Hariścandra and the Rājasūya seed** - In Yama's sabhā only one human king sits among the gods — **Hariścandra** — because he alone completed the **Rājasūya**. Yudhiṣṭhira learns his father **Pāṇḍu** longs for him to perform that very sacrifice; this plants the ambition (Sabhā Parva 11–12).
+- **Hariścandra and the Rājasūya seed** - In Indra's sabhā (Devasabhā) only one human king sits among the gods — **Hariścandra** — because he alone completed the **Rājasūya**. Yudhiṣṭhira learns his father **Pāṇḍu** longs for him to perform that very sacrifice; this plants the ambition (Sabhā Parva 11–12).
 
 ## 3. Rājasūyārambha — the Rājasūya proposed; the Jarāsandha obstacle
 

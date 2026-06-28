@@ -19,7 +19,7 @@ The fourteenth book of the Mahābhārata, recounting Yudhiṣṭhira's imperial 
 ## Parikṣit: stillbirth and revival
 
 - **Aśvatthāman's Brahmāstra and the dead heir** - the foetus of **Uttarā** (Abhimanyu's widow) was struck in the womb by Aśvatthāman's weapon (from the Sauptika Parva); the child **Parikṣit** is born seemingly dead (MBh 14.65–69).
-- **Kṛṣṇa revives Parikṣit** - Kṛṣṇa enters the lying-in chamber and, invoking his own lifelong truth, righteousness, and brahmacarya-of-the-spirit ("If I have never turned from battle, by that truth let this child live"), restores the infant to life — securing the **continuity of the Pāṇḍava (Kuru/Sūryavaṃśa-by-marriage) line** through Parikṣit, future king and father of Janamejaya (MBh 14.68–69). See [lineages](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
+- **Kṛṣṇa revives Parikṣit** - Kṛṣṇa enters the lying-in chamber and, invoking his own lifelong truth, righteousness, and brahmacarya-of-the-spirit ("If I have never turned from battle, by that truth let this child live"), restores the infant to life — securing the **continuity of the Pāṇḍava (Kuru/Chandravaṃśa, the Lunar dynasty) line** through Parikṣit, future king and father of Janamejaya (MBh 14.68–69). See [lineages](../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
 
 ## The Anugītā — Kṛṣṇa's "sequel" to the Gītā
 
