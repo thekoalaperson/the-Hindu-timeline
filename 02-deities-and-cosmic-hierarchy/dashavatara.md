@@ -9,7 +9,7 @@
 - **Avatāra** = "descent" (Skt. *ava-tṝ*, "to cross down"). Vishnu descends into the created order to restore *dharma*, protect the *sādhu* (righteous), and destroy the *duṣkṛt* (evildoers). (*Bhagavad Gita* 4.7–8; *Bhagavata Purana* 1.3)
 - **"Innumerable" descents:** the *Bhagavata Purana* (1.3.26) stresses *avatārā hy asaṅkhyeyāḥ* — "the incarnations of Hari are innumerable, like rivulets from an inexhaustible lake." The fixed lists (10 / 22 / 24) are therefore selections of the *prādhānika* (principal) avatars, not an exhaustive census.
 - **Classification:** later theology (esp. Pāñcarātra / Sri Vaishnava) subdivides descents into *pūrṇa* (full, e.g. Krishna/Rama), *aṃśa* (partial), *āveśa* (empowerment, e.g. Parashurama, Buddha in some readings), and *guṇa/yuga/manvantara/līlā* avatars. [theological systematization, post-Puranic]
-- **Yuga mapping (standard frame):** first 4 in [Satya Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/satya/); next 3 in [Treta Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/treta/); 8th–9th in [Dvapara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/dvapara/); 10th (Kalki) at the close of [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/kali/). The sequence is often read as an evolutionary arc: aquatic → amphibian → mammal → man-beast → dwarf-man → full man — a parallel noted since the 19th c. [modern interpretive gloss]
+- **Yuga mapping (standard frame):** first 4 in [Satya Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md); next 3 in [Treta Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md); 8th–9th in [Dvapara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md); 10th (Kalki) at the close of [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md). The sequence is often read as an evolutionary arc: aquatic → amphibian → mammal → man-beast → dwarf-man → full man — a parallel noted since the 19th c. [modern interpretive gloss]
 
 ---
 
@@ -20,7 +20,7 @@
   - *Variant (Matsya & Bhagavata Puranas):* Matsya additionally slays the demon **Hayagriva** (or "Shankhasura"), who had stolen the Vedas from a sleeping Brahma, and restores the scriptures. The boat is tied to Matsya's horn with the serpent **Vasuki/Shesha** as rope.
   - *Variant (Mahabharata, Vana Parva):* the flood hero is **Manu** explicitly; the fish grows monstrously large, demanding ever-bigger vessels — no Vedas-theft subplot.
   - *Variant (early Brahmana layer):* Matsya is a form of **Prajapati / Brahma**, not yet identified with Vishnu — the Vishnu-attribution is the later Puranic overlay. [text-historical note]
-- *See* [event file in satya/](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/satya/).
+- *See* [event file in satya/](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md).
 
 ### 2. Kurma (कूर्म) — the Tortoise
 - **Samudra Manthana (churning of the ocean of milk).** Devas and asuras churn the cosmic ocean for *amṛta* (nectar of immortality), using Mount Mandara as churning-rod and the serpent Vasuki as rope. The mountain begins to sink; Vishnu becomes a giant tortoise and supports it on his back as a pivot. (*Bhagavata Purana* 8.7–8; *Vishnu Purana* 1.9; *Mahabharata*, Adi Parva)
@@ -56,7 +56,7 @@
 - **The Ramayana.** Prince of Ayodhya (Ikshvaku/Solar dynasty), exiled 14 years; his wife **Sita** is abducted by the rakshasa king **Ravana** of Lanka; allied with **Hanuman** and the vanara army, Rama builds a bridge (Rama Setu) to Lanka, slays Ravana, and recovers Sita. Embodies *dharma* and ideal kingship. (*Valmiki Ramayana*; *Bhagavata Purana* 9.10–11; *Adhyatma Ramayana*; *Ramcharitmanas* — Tulsidas, devotional vernacular)
   - *Variant traditions of the Ramayana:* Jain (Paumacariya — Rama as non-violent, Lakshmana kills Ravana), Buddhist (Dasaratha Jataka), and SE Asian (Ramakien, Reamker) retellings differ on key episodes. [cross-tradition variants]
   - In the **22/24-avatar list**, Rama is counted and **Balarama + Krishna** are *also* counted separately (see below).
-- *See* [Treta event files](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/treta/).
+- *See* [Treta event files](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md).
 
 ---
 
@@ -65,7 +65,7 @@
 ### 8. Krishna (कृष्ण) — the Purna Avatar / Svayam Bhagavan
 - **The Mahabharata & Bhagavad Gita.** Born in the Yadava/Vrishni clan to Devaki & Vasudeva; slays his tyrant uncle **Kamsa**; lifts **Govardhana** hill; the **Rasa-lila** with the gopis of Vrindavan; charioteer and counselor to **Arjuna** at Kurukshetra, where he delivers the **Bhagavad Gita**. His departure (3102 BCE) marks the **start of Kali Yuga**. (*Mahabharata*; *Bhagavata Purana* 10–11; *Harivamsa*; *Vishnu Purana* 5)
   - **Theological status:** in Gaudiya Vaishnavism, Krishna is **Svayam Bhagavan** — not an avatar *of* Vishnu but the very *source* of all avatars (*kṛṣṇas tu bhagavān svayam*, *Bhagavata* 1.3.28). In most other lists he is the 8th avatar.
-  - *See* [Dvapara event files](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/dvapara/).
+  - *See* [Dvapara event files](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
 
 ### 9. Balarama (बलराम) — Krishna's elder brother *(in many Vaishnava lists)*
 - **Avatar of Shesha / the plow-bearer.** Elder brother of Krishna, wielder of plow (*hala*) and mace; regarded as the incarnation of the cosmic serpent **Shesha (Ananta)**. Slays the asuras **Dhenuka** and **Pralamba**; drags the **Yamuna** river with his plow. (*Bhagavata Purana* 10; *Vishnu Purana*)
@@ -89,14 +89,14 @@
   - *Reading A (anti-Vedic / "deluder"):* Vishnu takes ascetic form to **delude the asuras** away from the Vedic path so the devas can defeat them; he leads "those envious of theists" astray. (*Bhagavata Purana* 1.3.24; *Agni Purana*; *Vishnu Purana* 3.17–18, the "Mayamoha" delusion narrative)
   - *Reading B (compassion / ahimsa):* Vishnu incarnates to **stop Vedic animal sacrifice** out of compassion for all beings. (Jayadeva's *Gita Govinda*, Dashavatara-stotra, 12th c. — "nindasi yajña-vidher… sadaya-hṛdaya darśita-paśu-ghātam"). [devotional reinterpretation]
   - *Note:* in the 24-avatar Bhagavata list, **Buddha is the 21st** (a Kali-Yuga descent), not the 9th. Historical inclusion: by the 8th c. CE Buddha appears as an avatar across several Puranas. [historical text-dating]
-  - *See* [Kali Yuga node](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/kali/).
+  - *See* [Kali Yuga node](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
 
 ---
 
 ## KALI YUGA — avatar 10 (future)
 
 ### 10. Kalki (कल्कि) — the Final Destroyer-Restorer
-- **The apocalyptic horseman.** At the close of [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/kali/) (≈ 426,873 years from now, per the 432,000-yr Kali span), Vishnu will be born as **Kalki**, son of **Vishnuyaśas**, in the village of **Shambhala**. Riding the white horse **Devadatta** and wielding a blazing sword, he destroys the wicked, ends the age of vice, and inaugurates the next **Satya Yuga**, restoring dharma to all four legs. (*Bhagavata Purana* 1.3.25, 12.2; *Kalki Purana*; *Vishnu Purana* 4.24; *Agni Purana*)
+- **The apocalyptic horseman.** At the close of [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) (≈ 426,873 years from now, per the 432,000-yr Kali span), Vishnu will be born as **Kalki**, son of **Vishnuyaśas**, in the village of **Shambhala**. Riding the white horse **Devadatta** and wielding a blazing sword, he destroys the wicked, ends the age of vice, and inaugurates the next **Satya Yuga**, restoring dharma to all four legs. (*Bhagavata Purana* 1.3.25, 12.2; *Kalki Purana*; *Vishnu Purana* 4.24; *Agni Purana*)
   - His preceptor is **Parashurama** (the 6th avatar, a chiranjivi); he marries **Padmavati**; defeats the demon **Kali** (personification of the age). (*Kalki Purana*)
   - *Variant timing (Sri Yukteswar school):* in the *Holy Science* (1894) 24,000-yr cycle, Kali Yuga ended ~1700 CE and we are in ascending Dvapara — recasting Kalki's "arrival" entirely. [non-canonical / modern variant; see [framework constants](../00-time-and-cosmology/)]
 
@@ -118,7 +118,7 @@ The same enumeration is commonly extended to **24** by adding **Hamsa** (the swa
 
 ## Cross-links
 - Cosmic-clock & yuga durations: [00-time-and-cosmology](../00-time-and-cosmology/) and the framework constants.
-- Yuga event nodes: [Satya](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/satya/) · [Treta](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/treta/) · [Dvapara](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/dvapara/) · [Kali](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/kali/)
+- Yuga event nodes: [Satya](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md) · [Treta](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) · [Dvapara](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) · [Kali](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)
 - Lineages the avatars descend into: [03-lineages-vamsha](../03-lineages-vamsha/) (Solar dynasty for Rama; Yadava/Vrishni for Krishna).
 - Texts that record these descents: [90-literature-corpus](../90-literature-corpus/).
 

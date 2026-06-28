@@ -56,7 +56,7 @@ mahayuga-28-current/
 └── kali/README.md       ← 04 Kali Yuga (3102 BCE → present → Kalki)
 ```
 
-Read top-to-bottom for the descending arc; each file catalogs that yuga's events, avatāras, lineages and source-attributed variants in depth. For the layer above this one (the whole Manvantara and the 27 prior Mahāyugas), see [../README.md](../README.md). For unit definitions and constants, see [/00-time-and-cosmology/](../../../../00-time-and-cosmology/).
+Read top-to-bottom for the descending arc; each file catalogs that yuga's events, avatāras, lineages and source-attributed variants in depth. For the layer above this one (the whole Manvantara and the 27 prior Mahāyugas), see [../README.md](../README.md). For unit definitions and constants, see [/00-time-and-cosmology/](../../../00-time-and-cosmology/).
 
 ---
 

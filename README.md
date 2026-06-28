@@ -41,7 +41,11 @@ a Mahāyuga has **four** yugas (Satya, Tretā, Dvāpara, Kali), not five.
 04-deep-dives/                ← dedicated files for the biggest episodes (epics, tales)
 05-concepts-and-dharma/       ← the doctrinal layer (karma, mokṣa, yoga, the darśanas)
 06-sacred-geography/          ← the sacred map (pīṭhas, dhāms, jyotirliṅgas, rivers)
+07-acharyas-and-sampradayas/  ← the teachers & sectarian lineages (Śaṅkara, the 4 sampradāyas, …)
+08-beings-and-bestiary/       ← the classes of beings (apsaras, nāgas, asuras, the 33 devas, …)
+09-artifacts-symbols-and-arts/ ← weapons, objects, vāhanas, the 64 arts, sacred symbols
 90-literature-corpus/         ← the texts that RECORD all of the above, mapped back to events
+   90-…/puranas/              ← per-text story-maps for all 18 Mahāpurāṇas + Upapurāṇas
 SOURCES.md                    ← light consolidated bibliography
 STRUCTURE.md                  ← skeleton + coverage tracker (what's deep, what's a stub, what's next)
 ```
@@ -85,13 +89,23 @@ STRUCTURE.md                  ← skeleton + coverage tracker (what's deep, what
 ### 06 · [Sacred Geography](06-sacred-geography/README.md)
 - [51 Śakti Pīṭhas](06-sacred-geography/51-shakti-peethas.md) · [12 Jyotirliṅgas](06-sacred-geography/12-jyotirlingas.md) · [Char Dhām](06-sacred-geography/char-dham-and-chota-char-dham.md) · [Sapta Purī & Sacred Rivers](06-sacred-geography/sapta-puri-and-sacred-cities.md) · [Kumbh Mela](06-sacred-geography/kumbh-mela-and-pilgrimage-cycles.md) · [Meru, Kailāsa & Cosmic Mountains](06-sacred-geography/meru-kailash-and-cosmic-mountains.md)
 
+### 07 · [Ācāryas & Sampradāyas](07-acharyas-and-sampradayas/README.md) — *teachers & lineages*
+- [Ādi Śaṅkara](07-acharyas-and-sampradayas/adi-shankara.md) · [Rāmānuja & Madhva](07-acharyas-and-sampradayas/ramanuja-and-madhva.md) · [Nimbārka/Vallabha/Chaitanya](07-acharyas-and-sampradayas/nimbarka-vallabha-chaitanya.md) · [The 4 Vaiṣṇava Sampradāyas](07-acharyas-and-sampradayas/four-vaishnava-sampradayas.md) · [Śaiva schools](07-acharyas-and-sampradayas/shaiva-schools.md) · [Śākta & Tantra lineages](07-acharyas-and-sampradayas/shakta-and-tantra-lineages.md) · [Āḻvārs & Nāyaṉārs](07-acharyas-and-sampradayas/alvars-and-nayanars.md) · [North bhakti sants](07-acharyas-and-sampradayas/north-bhakti-sants.md) · [Modern teachers & reform](07-acharyas-and-sampradayas/modern-teachers-and-reform.md)
+
+### 08 · [Beings & Bestiary](08-beings-and-bestiary/README.md) — *the classes of beings*
+- [Apsarās](08-beings-and-bestiary/apsaras.md) · [Gandharvas & Kinnaras](08-beings-and-bestiary/gandharvas-and-kinnaras.md) · [Yakṣas](08-beings-and-bestiary/yakshas-and-guhyakas.md) · [Nāgas](08-beings-and-bestiary/nagas-and-serpents.md) · [Rākṣasas](08-beings-and-bestiary/rakshasas.md) · [Asura roster & wars](08-beings-and-bestiary/asura-wars-and-roster.md) · [Mātṛkās & 64 Yoginīs](08-beings-and-bestiary/matrikas-and-64-yoginis.md) · [Vidyādharas & spirits](08-beings-and-bestiary/vidyadharas-siddhas-and-spirits.md) · [Dikpālas](08-beings-and-bestiary/dikpalas-and-lokapalas.md) · [The 33 Devas](08-beings-and-bestiary/the-thirty-three-devas.md) · [The Prajāpatis](08-beings-and-bestiary/the-prajapatis.md) · [Ṛṣi lineages & gotras](08-beings-and-bestiary/rishi-lineages-and-gotras.md)
+
+### 09 · [Artifacts, Symbols & Arts](09-artifacts-symbols-and-arts/README.md)
+- [Divyāstras (weapons)](09-artifacts-symbols-and-arts/divyastras-and-divine-weapons.md) · [Divine objects](09-artifacts-symbols-and-arts/divine-objects-and-treasures.md) · [Vāhanas](09-artifacts-symbols-and-arts/vahanas-and-celestial-vehicles.md) · [The 64 Kalās](09-artifacts-symbols-and-arts/sixty-four-kalas.md) · [Sacred flora & fauna](09-artifacts-symbols-and-arts/sacred-flora-and-fauna.md) · [Sacred symbols](09-artifacts-symbols-and-arts/sacred-symbols-and-emblems.md)
+
 ### 90 · [The Literature Corpus](90-literature-corpus/README.md) — *the textual record*
-- [Śruti — Vedas & Upanishads](90-literature-corpus/shruti-vedas-and-upanishads.md) · [Principal Upaniṣads (per-text)](90-literature-corpus/principal-upanishads-detail.md)
+- [Śruti — Vedas & Upanishads](90-literature-corpus/shruti-vedas-and-upanishads.md) · [Principal Upaniṣads (per-text)](90-literature-corpus/principal-upanishads-detail.md) · [Vedic deities & sūktas](90-literature-corpus/vedic-deities-and-suktas.md)
 - [Smṛti — Itihāsa (the Epics)](90-literature-corpus/smriti-itihasa-epics.md)
-- [Smṛti — the 18 Purāṇas (+ Upapurāṇas)](90-literature-corpus/smriti-puranas.md) · [Bhāgavata Purāṇa skandha-map](90-literature-corpus/bhagavata-purana-skandha-map.md)
-- [Upavedas, Vedāṅgas & the Six Darśanas](90-literature-corpus/upavedas-vedangas-darshanas.md)
-- [Āgamas, Tantras & Dharmaśāstras](90-literature-corpus/agamas-tantras-dharmashastras.md)
-- [The Tamil Canon — Sangam, Tirukkuṟaḷ & Bhakti](90-literature-corpus/tamil-canon-sangam-and-bhakti.md)
+- [Smṛti — the 18 Purāṇas](90-literature-corpus/smriti-puranas.md) → **[per-text story-maps for all 18 + Upapurāṇas](90-literature-corpus/puranas/README.md)** · [Bhāgavata skandha-map](90-literature-corpus/bhagavata-purana-skandha-map.md)
+- [Upavedas, Vedāṅgas & the Six Darśanas](90-literature-corpus/upavedas-vedangas-darshanas.md) · [Āgamas, Tantras & Dharmaśāstras](90-literature-corpus/agamas-tantras-dharmashastras.md)
+- [The Tamil Canon](90-literature-corpus/tamil-canon-sangam-and-bhakti.md) · [Regional & oral epics](90-literature-corpus/regional-and-oral-epics.md) · [Yajñas & Vedic rituals](90-literature-corpus/yajnas-and-vedic-rituals.md)
+
+> 🤖 Every section folder has a complete auto-generated `## 📑 Full Contents` index — see also **[AGENTS.md](AGENTS.md)** for how to query this corpus and **[STRUCTURE.md](STRUCTURE.md)** for the full file map.
 
 ---
 
@@ -103,13 +117,17 @@ STRUCTURE.md                  ← skeleton + coverage tracker (what's deep, what
 - A `## Sources` section at the foot of every file lists the texts and references used.
 
 ## Status & how this was built
-- **111 files, ~205,000 words**, built across three research-workflow rounds (110 agents total):
-  round 1 laid the cosmological spine + corpus; round 2 deepened the big episodes and audited for gaps;
-  round 3 filled the deferred high-value gaps. All internal cross-links verified (0 broken).
+- **199 files, ~400,000 words**, built across a multi-round research campaign (~300 agents total):
+  cosmological spine + literature corpus → deepened epics/episodes & gap audit → per-Purāṇa story-maps →
+  deepened manvantaras & long-tail tales → festivals/ācāryas/regional/Vedic → a wide completeness sweep
+  (beings, weapons, celestial systems, deity forms) → an adversarial **accuracy audit (25 verified
+  corrections)** → structural simplification, full index regeneration & an agent-friendliness pass.
+- **Invariants (verified):** every file is reachable from this index, and **0 broken internal links**
+  (files *and* directories checked). Every section folder carries a complete auto-generated index.
 - The current Manvantara, its four yugas, the two epics (kāṇḍa-/parva-by-parva), the major deity
-  myth-cycles, the doctrinal layer, and sacred geography are **deeply populated**. The other 13
-  manvantaras remain concise, expandable **stubs** (marked `[STUB — expandable]`).
-- See **[STRUCTURE.md](STRUCTURE.md)** for the full skeleton + per-node coverage status + the running
-  list of what to deepen next. This is a **living document**.
+  myth-cycles, the doctrinal layer, sacred geography, the Purāṇa story-maps, and the being/artifact
+  rosters are **deeply populated**. A handful of future-manvantara roll-calls remain concise **stubs**.
+- See **[STRUCTURE.md](STRUCTURE.md)** (full file map + coverage) and **[AGENTS.md](AGENTS.md)** (how to
+  query the corpus). This is a **living document**.
 
 *Sources are scriptural (Vedas, Itihāsa, Purāṇas, etc.) and scholarly; cosmic dating is traditional, historical dating is academic and flagged as such.*

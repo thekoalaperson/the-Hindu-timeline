@@ -32,9 +32,6 @@ The **Vedānta schools** these orders carry — Advaita, Viśiṣṭādvaita, Dv
 
 > Detail nodes for this folder. (Index seeded; deep files added as the section is populated — each will catalog ācāryas/seats/works one bullet apiece per the repo style.)
 
-- *Planned:* `vaishnava-sampradayas.md` — the four canonical lineages + Gauḍīya / Vārkarī / Ekasaraṇa, with ācārya successions and mathas.
-- *Planned:* `shaiva-shakta-lineages.md` — Śaiva Siddhānta, Nāyaṉārs, Kashmir Śaivism, Liṅgāyat, Nāth, and the Śākta / Śrī Vidyā tantric orders.
-- *Planned:* `smarta-and-vedanta-acharyas.md` — Ādi Śaṅkara, the Daśanāmī order, the āmnāya pīṭhas, and the comparative Vedānta-school table.
 
 Until those land, the four-sampradāya frame and the founders above are the working index; cross-check every dated claim against [recorded-history.md](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
 
@@ -52,3 +49,21 @@ Until those land, the four-sampradāya frame and the founders above are the work
 - Wikipedia, "Chaitanya Mahaprabhu" — https://en.wikipedia.org/wiki/Chaitanya_Mahaprabhu
 - Wikipedia, "Varkari" — https://en.wikipedia.org/wiki/Varkari
 - Wikipedia, "Ekasarana Dharma" — https://en.wikipedia.org/wiki/Ekasarana_Dharma
+
+<!-- AUTOINDEX:START (generated — do not edit by hand) -->
+
+## 📑 Full Contents
+
+*Auto-generated index of all 9 files in this section. Regenerate with the indexer.*
+
+- 🟩 [Ādi Śaṅkara & Advaita Vedānta](adi-shankara.md)
+- 🟩 [The Ālvārs & Nāyaṉārs — Tamil Bhakti Saints](alvars-and-nayanars.md)
+- 🟩 [The Four Vaiṣṇava Sampradāyas](four-vaishnava-sampradayas.md)
+- 🟩 [Modern Teachers & Reform Movements](modern-teachers-and-reform.md)
+- 🟩 [Nimbārka, Vallabha & Chaitanya — Bhakti Vedānta](nimbarka-vallabha-chaitanya.md)
+- 🟩 [The Sant & Bhakti Poets of the North & West](north-bhakti-sants.md)
+- 🟩 [Rāmānuja & Madhva — Viśiṣṭādvaita & Dvaita](ramanuja-and-madhva.md)
+- 🟩 [Śaiva Schools & Orders](shaiva-schools.md)
+- 🟩 [Śākta & Tantra Lineages](shakta-and-tantra-lineages.md)
+
+<!-- AUTOINDEX:END -->

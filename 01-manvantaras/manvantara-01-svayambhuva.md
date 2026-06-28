@@ -4,7 +4,7 @@
 > Parent: [the-14-manvantaras](README.md) · Up to [01-manvantaras](../README.md)
 
 ## Cosmic Address
-- **Manvantara 1 of 14** · Manu: **Svāyambhuva** · Indra of the era: **Yajña** · Devas: **Yāmas** (and Tuṣitas, per some texts) · ~306,720,000 yrs (1 Manvantara). See [../../00-time-and-cosmology](../../00-time-and-cosmology) for the clock.
+- **Manvantara 1 of 14** · Manu: **Svāyambhuva** · Indra of the era: **Yajña** · Devas: **Yāmas** (and Tuṣitas, per some texts) · ~306,720,000 yrs (1 Manvantara). See [../../00-time-and-cosmology](../00-time-and-cosmology/) for the clock.
 - This Manvantara opens immediately after the **Varāha avatāra** lifts the submerged Earth at the dawn of the [Shveta-Varaha Kalpa](../README.md) — hence the entire present Kalpa is named for that boar (*Varāha-kalpa*). The Svāyambhuva creation is therefore the "first morning" of Brahmā's current day.
 
 ## Officers of the Era (the 5 manvantara-constants)
@@ -30,7 +30,7 @@ Each Manvantara is defined by its Manu, its Indra, its class(es) of gods (gaṇa
 
 ### B. The two royal lines
 - **Priyavrata's line (the elder son)** — initially a reluctant ascetic, Priyavrata is persuaded by Brahmā to take up kingship; he marries **Kāmyā** (= Barhiṣmatī), daughter of Kardama, and fathers **ten sons + two daughters**; the sons include **Āgnīdhra** and **Medhātithi** among ten "jyotiṣmat" princes (*Viṣṇu P.* 2.1; *Bhāgavata P.* 5.1). *(Mid-Manvantara dynastic founding.)*
-  - **Chariot-furrows of Priyavrata** — driving his chariot around the Earth seven times to make a second sun's worth of daylight, his wheel-ruts carve out the **seven oceans** and demarcate the **seven dvīpas** (continents) of cosmic geography (*Bhāgavata P.* 5.1). See [../../06-sacred-geography](../../06-sacred-geography). This is the Purāṇic origin-myth of the *sapta-dvīpa* world map.
+  - **Chariot-furrows of Priyavrata** — driving his chariot around the Earth seven times to make a second sun's worth of daylight, his wheel-ruts carve out the **seven oceans** and demarcate the **seven dvīpas** (continents) of cosmic geography (*Bhāgavata P.* 5.1). See [../../06-sacred-geography](../06-sacred-geography/). This is the Purāṇic origin-myth of the *sapta-dvīpa* world map.
   - *Continuation [late, set in Vaivasvata]:* the Bhāgavata's famous **Ṛṣabha → Bharata → Jaḍa-Bharata** parable descends from Priyavrata via Āgnīdhra and Nābhi — but the Bhāgavata frames it in the present (Vaivasvata) era, not here. Catalogued at [../../04-deep-dives/rishabha-bharata-jada.md](../04-deep-dives/rishabha-bharata-jada.md) [chronology disputed between texts].
 - **Uttānapāda's line (the younger son)** — from which spring **Dhruva** and, several generations on, **Pṛthu** (below). Uttānapāda has two queens, the favored **Suruci** (mother of **Uttama**) and the neglected **Sunīti** (mother of **Dhruva**) (*Bhāgavata P.* 4.8).
 
@@ -53,7 +53,7 @@ Each Manvantara is defined by its Manu, its Indra, its class(es) of gods (gaṇa
   - **Quarrel with the trees & Marṣiā/Māriṣā** — emerging to find the Earth overgrown with trees, the Prachetas nearly burn the forests; **Soma (the Moon)** mediates and gives them in marriage the tree-born maiden **Māriṣā** (Marṣiā), from whom is born **Dakṣa** — the *re-born* Dakṣa (the "second Dakṣa"), who will carry the prajāpati function into later ages (*Viṣṇu P.* 1.15; *Bhāgavata P.* 4.30). This dovetails the line back into the Dakṣa-cycle of [sati-daksha-and-parvati](../02-deities-and-cosmic-hierarchy/sati-daksha-and-parvati.md).
 
 ## Cross-links
-- Era clock & yuga math → [../../00-time-and-cosmology](../../00-time-and-cosmology)
+- Era clock & yuga math → [../../00-time-and-cosmology](../00-time-and-cosmology/)
 - The Indra/deva-class concept & Viṣṇu-as-Yajña → [../../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)
 - Avatāras born in this era (Yajña, Kapila, Pṛthu) → [../../02-deities-and-cosmic-hierarchy/dashavatara.md](../02-deities-and-cosmic-hierarchy/dashavatara.md)
 - Saptarṣi / prajāpati overlap → [../../02-deities-and-cosmic-hierarchy/saptarishi.md](../02-deities-and-cosmic-hierarchy/saptarishi.md)

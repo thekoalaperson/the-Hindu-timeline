@@ -2,7 +2,7 @@
 
 > Hierarchy: Brahma's current life → Shveta-Varaha Kalpa → 7th (Vaivasvata) Manvantara → **28th Mahāyuga** → **Tretā Yuga** (the 2nd quarter, 1,296,000 human years, dharma on **3 legs**, 75% virtue). Sits between [Satya Yuga](01-satya-yuga.md) and [Dvāpara Yuga](03-dvapara-yuga.md). This is the yuga of **Rāma** and the **Rāmāyana** — the spine of the entire age.
 
-Orientation note: Treta sees Vishnu incarnate three times within this Mahāyuga (Vāmana, Paraśurāma, Rāma — avatāras 5, 6, 7 of the Daśāvatāra). It is the great age of the [Sūryavaṃśa / Ikshvāku dynasty](../../../../03-lineages-vamsha/) of Ayodhyā and the apex of ritual sacrifice (yajña), which is itself the dominant dharma-mode of Treta.
+Orientation note: Treta sees Vishnu incarnate three times within this Mahāyuga (Vāmana, Paraśurāma, Rāma — avatāras 5, 6, 7 of the Daśāvatāra). It is the great age of the [Sūryavaṃśa / Ikshvāku dynasty](../../../03-lineages-vamsha/) of Ayodhyā and the apex of ritual sacrifice (yajña), which is itself the dominant dharma-mode of Treta.
 
 ---
 
@@ -25,7 +25,7 @@ Orientation note: Treta sees Vishnu incarnate three times within this Mahāyuga 
 
 ## RĀMA / THE RĀMĀYANA — full event chain
 
-> Frame text = **Vālmīki Rāmāyana** (7 Kāṇḍas; oldest extant, ~5th–4th c. BCE in core). Major retellings catalogued at the end. Rāma is the prince of **Ayodhyā**, of the [Ikshvāku/Sūryavaṃśa line](../../../../03-lineages-vamsha/).
+> Frame text = **Vālmīki Rāmāyana** (7 Kāṇḍas; oldest extant, ~5th–4th c. BCE in core). Major retellings catalogued at the end. Rāma is the prince of **Ayodhyā**, of the [Ikshvāku/Sūryavaṃśa line](../../../03-lineages-vamsha/).
 
 ### Bāla Kāṇḍa — birth & boyhood
 - **Putra-kāmeṣṭi yajña & divine birth** — King **Daśaratha** of Ayodhyā, childless by his three queens (Kausalyā, Kaikeyī, Sumitrā), performs a son-granting sacrifice (with sage **Ṛṣyaśṛṅga**); pāyasa (sacred porridge) from the fire yields four sons: **Rāma** (Kausalyā), **Bharata** (Kaikeyī), **Lakṣmaṇa & Śatrughna** (Sumitrā). (Vālmīki, Bāla Kāṇḍa)
@@ -119,4 +119,4 @@ Orientation note: Treta sees Vishnu incarnate three times within this Mahāyuga 
 - [The 7 Kandas of Valmiki Ramayana — TemplePurohit](https://www.templepurohit.com/7-kandas-ramayana/)
 - [The Hindu Yuga Cycle & Vishnu's Avatars — RapidLeaks](https://rapidleaks.com/india/hindu-yuga-cycle-yugas-time-duration-vishnu-avatars)
 
-*See also:* [Satya Yuga](01-satya-yuga.md) · [Dvāpara Yuga](03-dvapara-yuga.md) · [Kali Yuga](04-kali-yuga/README.md) · [Lineages / Vaṃśa](../../../../03-lineages-vamsha/) · [Literature Corpus](../../../../90-literature-corpus/)
+*See also:* [Satya Yuga](01-satya-yuga.md) · [Dvāpara Yuga](03-dvapara-yuga.md) · [Kali Yuga](04-kali-yuga/README.md) · [Lineages / Vaṃśa](../../../03-lineages-vamsha/) · [Literature Corpus](../../../90-literature-corpus/)

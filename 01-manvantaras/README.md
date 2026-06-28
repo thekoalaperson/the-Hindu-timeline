@@ -1,14 +1,14 @@
 # The 14 Manvantaras of the Current Kalpa
 
 > Hierarchy location: `01-manvantaras/` — one level below the current Kalpa (Shveta-Varaha, 1st day of Brahma's 51st year). A Kalpa = 14 Manvantaras + 15 sandhya-junctions. We are in the **7th, the Vaivasvata Manvantara**. Six are past, this one is current, seven are future.
-> See also: [the cosmic clock](../../00-time-and-cosmology/) · current node → [`manvantara-07-vaivasvata/`](manvantara-07-vaivasvata/)
+> See also: [the cosmic clock](../00-time-and-cosmology/) · current node → [`manvantara-07-vaivasvata/`](manvantara-07-vaivasvata/)
 
 ---
 
 ## What a Manvantara is
 
 - **Manvantara ("Manu-interval")** — the reign of one **Manu**, the progenitor of humankind for that age, and the administrative epoch he presides over. (Vishnu Purana 3.1–2; Bhagavata Purana 8.1, 8.5, 8.13)
-- **Duration** — 71 Mahayugas + 1 sandhya = **306,720,000 human years** (= 852,000 deva-years). The 15 inter-Manvantara junctions (each = 1 Satya Yuga, 1,728,000 yrs) pad 14 × 306.72M up to the full **4.32-billion-year Kalpa**. (see [FRAMEWORK CONSTANTS](../../00-time-and-cosmology/))
+- **Duration** — 71 Mahayugas + 1 sandhya = **306,720,000 human years** (= 852,000 deva-years). The 15 inter-Manvantara junctions (each = 1 Satya Yuga, 1,728,000 yrs) pad 14 × 306.72M up to the full **4.32-billion-year Kalpa**. (see [FRAMEWORK CONSTANTS](../00-time-and-cosmology/))
 - **What is recreated each Manvantara** — "In each Manvantara, Manu, the seven Rishis, Indra, the gods, and the kings are created afresh." Each epoch therefore has its own **Manu**, its own **Indra** (king of the devas), its own **Saptarishi** (seven sages who transmit the Veda), its own **classes of gods (gana-devatas)**, and a presiding **Manvantara-avatara of Vishnu** who upholds dharma for that age. (Vishnu Purana 3.2)
 - **Manvantara-avatara** — distinct from the more famous Dashavatara; these are the incarnations Vishnu takes once per Manvantara specifically to sustain the Manu's rule. The canonical list of 14 is from **Bhagavata Purana 8.1.** Note: the Vishnu Purana does not enumerate all 14 avataras; that scheme is principally Bhagavata.
 
@@ -149,3 +149,33 @@ Each Manvantara has its own troops of devas. From Vishnu Purana 3.1–2:
 - [14 Manvantara – Manu – Maha Vishnu — Krishnalogy](https://krishnalogy.art.blog/2023/06/18/14-manvantara-manu/)
 - [Saptarishis in each Manvantara — HinduPad](https://hindupad.com/saptarishis/)
 - [The Theory of Manvantara — Modern Rationalist](https://modernrationalist.com/the-theory-of-manvantara/)
+
+<!-- AUTOINDEX:START (generated — do not edit by hand) -->
+
+## 📑 Full Contents
+
+*Auto-generated index of all 17 files in this section. Regenerate with the indexer.*
+
+- 🟩 [Manvantara 1 — Svāyambhuva (Past)](manvantara-01-svayambhuva.md)
+- 🟩 [Manvantara 2 — Svārociṣa (Past)](manvantara-02-svarochisha.md)
+- 🟩 [Manvantara 3 — Uttama (Auttama) (Past)](manvantara-03-uttama.md)
+- 🟩 [Manvantara 4 — Tāmasa (Past)](manvantara-04-tamasa.md)
+- 🟩 [Manvantara 5 — Raivata (Past)](manvantara-05-raivata.md)
+- 🟩 [Manvantara 6 — Cākṣuṣa (Past)](manvantara-06-chakshusha.md)
+- 🟩 [Manvantara 8 — Sāvarṇi (Future)](manvantara-08-savarni.md)
+- 🟩 [Manvantara 9 — Dakṣa-Sāvarṇi (Future)](manvantara-09-daksha-savarni.md)
+- 🟩 [Manvantara 10 — Brahma-Sāvarṇi (Future)](manvantara-10-brahma-savarni.md)
+- 🟩 [Manvantara 11 — Dharma-Sāvarṇi (Future)](manvantara-11-dharma-savarni.md)
+- 🟩 [Manvantara 12 — Rudra-Sāvarṇi (Future)](manvantara-12-rudra-savarni.md)
+- 🟩 [Manvantara 13 — Deva-Sāvarṇi / Raucya (Future)](manvantara-13-deva-savarni.md)
+- 🟩 [Manvantara 14 — Indra-Sāvarṇi (Bhautya) (Future)](manvantara-14-indra-savarni.md)
+
+**manvantara-07-vaivasvata/**
+
+- 🟩 [Manvantara 7 — Vaivasvata Manu (Current)](manvantara-07-vaivasvata/README.md)
+- 🟩 [Satya (Kṛta) Yuga — Events](manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md)
+- 🟩 [Tretā Yuga — Events](manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)
+- 🟩 [Dvāpara Yuga — Events](manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)
+- 🟩 [Kali Yuga — Documented History](manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md)
+
+<!-- AUTOINDEX:END -->

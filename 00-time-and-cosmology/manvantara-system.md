@@ -2,6 +2,11 @@
 
 > Cosmology spine node. A *manvantara* is the second-largest division of a Kalpa (Day of Brahma): 14 of them, each ruled by a Manu, fill one Kalpa. We are in the **7th — Vaivasvata**. See [units-of-time.md](units-of-time.md) and [kalpa-and-pralaya.md](kalpa-and-pralaya.md) for the surrounding clock; for our exact position see [../01-manvantaras/manvantara-07-vaivasvata/](../01-manvantaras/manvantara-07-vaivasvata/).
 
+> **Canonical roster lives elsewhere:** this file is the *conceptual* explainer (what a manvantara is,
+> the duration math, the office-not-person points) plus the Viṣṇu-vs-Bhāgavata variant tables. For the
+> authoritative per-manvantara roster (Manu / Indra / Saptarṣis / avatar / events for all 14), use
+> **[`../01-manvantaras/README.md`](../01-manvantaras/README.md)** — keep new roster detail there to avoid drift.
+
 ---
 
 ## 1. What a Manvantara Is

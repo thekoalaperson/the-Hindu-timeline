@@ -27,7 +27,7 @@ The defining event of this manvantara's opening: Vishnu's **Matsya (Fish) avatar
 - *Variant (Matsya / later Puranas):* The fish is explicitly **Vishnu**; the towing-rope is the cosmic serpent — named **Vasuki** in some texts, **Adi-Shesha/Shesha** in others. Matsya later also slays the demon **Hayagriva** and recovers the stolen Vedas (a strand absent from the Brahmana account).
 - *Variant (king-vs-Manu framing):* Bhagavata/Matsya frame him as **King Satyavrata** at the time of the flood, *becoming* Vaivasvata Manu afterward; the Vedic Shatapatha simply calls him **Manu**. [reconciliation: same individual across the textual layers]
 
-> Cross-link: the Matsya avatar itself is cataloged under [02-deities-and-cosmic-hierarchy](../../../../02-deities-and-cosmic-hierarchy/) / Vishnu's Dashavatara; the flood marks this manvantara's threshold.
+> Cross-link: the Matsya avatar itself is cataloged under [02-deities-and-cosmic-hierarchy](../../02-deities-and-cosmic-hierarchy/) / Vishnu's Dashavatara; the flood marks this manvantara's threshold.
 
 ---
 
@@ -42,7 +42,7 @@ Manu's ten children seed the entire genealogical spine of Hindu kingship. (Bhaga
   - *Variant (count):* Manu is also said to have had **fifty (or other) additional sons who perished quarrelling among themselves**, leaving the ten as the surviving progenitors. (Vaivasvata Manu — Wikipedia)
   - *Variant (Ikshvaku's primacy):* some lists make Ikshvaku arise from Manu's sneeze (*kshava*) rather than the standard birth, a folk etymology of the name. [late/folk gloss]
 
-> See sibling nodes: [03-lineages-vamsha](../../../../03-lineages-vamsha/) for the full Solar and Lunar genealogies.
+> See sibling nodes: [03-lineages-vamsha](../../03-lineages-vamsha/) for the full Solar and Lunar genealogies.
 
 ---
 
@@ -79,7 +79,7 @@ Vishnu manifests across this manvantara's mahayugas; the famous ones fall in the
 - **Mahayugas elapsed:** 27 complete (each Satya→Treta→Dvapara→Kali, 4,320,000 yrs).
 - **Current:** **28th Mahayuga**, **Kali Yuga**; ~5,127–5,128 years elapsed (as of 2026 CE) of Kali's 432,000.
 - **Remaining in manvantara:** rest of this Kali Yuga (~426,873 yrs) + 43 further Mahayugas + the closing sandhya.
-- After Vaivasvata comes the **8th Manu, Savarni** (Manvantara 8). (Vishnu Purana) — see [../manvantara-08-savarni](../manvantara-08-savarni/) if cataloged.
+- After Vaivasvata comes the **8th Manu, Savarni** (Manvantara 8). (Vishnu Purana) — see [../manvantara-08-savarni](../manvantara-08-savarni.md) if cataloged.
 
 ---
 

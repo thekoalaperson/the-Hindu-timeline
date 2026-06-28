@@ -2,7 +2,7 @@
 
 > Hierarchy: 1st Day of Brahma's 51st year (Shveta-Varaha Kalpa) → **10th of 14 Manvantaras**. A *future* age, three Manvantaras after the current [7th, Vaivasvata](manvantara-07-vaivasvata/). The third of the four consecutive "Sāvarṇi" Manus (Sūrya/Sāvarṇa-descended line: [8 Sāvarṇi](manvantara-08-savarni.md) → [9 Dakṣa-sāvarṇi](manvantara-09-daksha-savarni.md) → **10 Brahma-sāvarṇi** → [11 Dharma-sāvarṇi](manvantara-11-dharma-savarni.md)). Up-link: [the 14 Manvantaras README](README.md).
 
-**Duration:** ~306,720,000 human years (71 Mahayugas + 1 sandhyā), like every Manvantara. See [framework constants](../../00-time-and-cosmology/).
+**Duration:** ~306,720,000 human years (71 Mahayugas + 1 sandhyā), like every Manvantara. See [framework constants](../00-time-and-cosmology/).
 
 The Brahma-sāvarṇi Manvantara is an **unmanifest future age**: it has not yet occurred in the present [Shveta-Varaha Kalpa](../). The Puranas catalogue it only as a roster — the Manu, his sons, the Indra, the seven sages (saptarṣis), the classes of gods, and the avatar of Viṣṇu who upholds dharma in that age — without narrative episodes. Accordingly there are **no stories** attached to it, and the record is genuinely sparse; the entries below are the standard list-form of the Purana cosmographies, with variants catalogued where the texts disagree.
 
@@ -32,7 +32,7 @@ The Brahma-sāvarṇi Manvantara is an **unmanifest future age**: it has not yet
 
 - **Viśvaksena** — Viṣṇu manifests as **Viśvaksena** to assist Manu Brahma-sāvarṇi and uphold dharma. He is described as a **friend of Indra Śambhu**, **born from the womb of Viśūcī** (Viśucī) **in the house of a brahmana named Viśvasṛṣṭa (Viśvasraṣṭā / Viśvasrashta)** (Bhagavata Purana VIII.13). (Future age)
   - *Variant (definitional/Purana Index):* **Śrīmūrti** is given as the name of "the manifestation of Hari" for this age, alongside or as an alternate title of Viśvaksena. [Variant title]
-  - *Cross-reference:* "Viśvaksena" is also the standing name of Viṣṇu's chief attendant / commander-in-chief (senāpati) in [Vaishnava deity tradition](../../05-deities/); here it is reused as the avatar-name for this Manvantara, a common pattern of office-names recurring across the future ages.
+  - *Cross-reference:* "Viśvaksena" is also the standing name of Viṣṇu's chief attendant / commander-in-chief (senāpati) in [Vaishnava deity tradition](../02-deities-and-cosmic-hierarchy/); here it is reused as the avatar-name for this Manvantara, a common pattern of office-names recurring across the future ages.
 
 ## Why the record is sparse
 

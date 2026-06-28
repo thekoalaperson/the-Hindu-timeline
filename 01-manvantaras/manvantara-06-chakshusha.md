@@ -1,6 +1,6 @@
 # Manvantara 6 — Cākṣuṣa (Past)
 
-> Hierarchy: Brahma's current life → Śveta-Varāha Kalpa → **6th of the 14 Manvantaras** (the one immediately before ours). Presided over by Cākṣuṣa Manu. See [the current 7th](./manvantara-07-vaivasvata/), the [preceding 5th — Raivata](manvantara-05-raivata.md), and [overview of all 14](../). Per [framework constants](../../../00-time-and-cosmology/), each manvantara ≈ 71 mahāyugas + 1 sandhyā ≈ 306,720,000 years.
+> Hierarchy: Brahma's current life → Śveta-Varāha Kalpa → **6th of the 14 Manvantaras** (the one immediately before ours). Presided over by Cākṣuṣa Manu. See [the current 7th](./manvantara-07-vaivasvata/), the [preceding 5th — Raivata](manvantara-05-raivata.md), and [overview of all 14](../). Per [framework constants](../00-time-and-cosmology/), each manvantara ≈ 71 mahāyugas + 1 sandhyā ≈ 306,720,000 years.
 
 The last completed manvantara before Vaivasvata (ours). The Purāṇas treat it densely because it lies just behind our own horizon: its Manu's lineage feeds directly into the Pṛthu cycle, and its Nara–Nārāyaṇa and Dattātreya births are among the most-cited "before our time" events. As with all manvantaras, the office-holder lists (Indra, sages, deva-classes) vary by recension; all attested variants are cataloged below.
 

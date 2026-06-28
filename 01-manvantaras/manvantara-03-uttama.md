@@ -1,6 +1,6 @@
 # Manvantara 3 — Uttama (Auttama) (Past)
 
-> Hierarchy: Brahma's current life → Shveta-Varaha Kalpa → 3rd of the 14 [Manvantaras](./). Long past; the 6 pre-Vaivasvata manvantaras are sketched only in roll-call lists across the Puranas. We are now in the [7th — Vaivasvata](./manvantara-07-vaivasvata/). See also the prior [2nd — Svarochisha](manvantara-02-svarochisha.md) and the next [4th — Tamasa](manvantara-04-tamasa.md). Each manvantara ≈ 306,720,000 human years (71 [Mahayugas](../../00-cosmic-time-hierarchy/) + 1 sandhya).
+> Hierarchy: Brahma's current life → Shveta-Varaha Kalpa → 3rd of the 14 [Manvantaras](./). Long past; the 6 pre-Vaivasvata manvantaras are sketched only in roll-call lists across the Puranas. We are now in the [7th — Vaivasvata](./manvantara-07-vaivasvata/). See also the prior [2nd — Svarochisha](manvantara-02-svarochisha.md) and the next [4th — Tamasa](manvantara-04-tamasa.md). Each manvantara ≈ 306,720,000 human years (71 [Mahayugas](../00-time-and-cosmology/) + 1 sandhya).
 
 The standard "cast list" of any manvantara names a Manu, his Indra, the class(es) of devas, the Saptarishis, the Manu's sons, and a Vishnu avatar. The record for the third period is **genuinely sparse**: it has no surviving narrative episodes of its own — only the genealogical roll-call — and the sources diverge sharply on almost every slot except the Manu's name. This page **catalogs all variants** attributed to their source. The defining quirk of this manvantara is that its Saptarishis are explicitly a **rebirth of Vasishtha's seven sons from the first (Svayambhuva) manvantara**, returning as the seers of the third — one of the clearest "reincarnation of sages" statements in the manvantara lists.
 
@@ -36,19 +36,19 @@ The standard "cast list" of any manvantara names a Manu, his Indra, the class(es
 
 ## The Saptarishis — the seven sons of Vasishtha (reborn)
 
-The seven seers of this manvantara are uniformly said to be the **sons of [Vasishtha](../../05-deities-and-cosmic-beings/)** — and explicitly a **rebirth** of the seven sons Vasishtha had by his wife **Urja (Urjja)** in the first ([Svayambhuva](manvantara-01-svayambhuva.md)) manvantara, returning as the Rishis of the third period (Vishnu Purana 3.1, Wilson tr.).
+The seven seers of this manvantara are uniformly said to be the **sons of [Vasishtha](../02-deities-and-cosmic-hierarchy/)** — and explicitly a **rebirth** of the seven sons Vasishtha had by his wife **Urja (Urjja)** in the first ([Svayambhuva](manvantara-01-svayambhuva.md)) manvantara, returning as the Rishis of the third period (Vishnu Purana 3.1, Wilson tr.).
 
 - *Variant (Bhagavata Purana 8.1; vyasaonline):* the seven, **headed by Pramada**, are named **Kaukundihi, Kurundi, Dalaya, Shankha, Pravahita, Mita and Sammita**.
 - *Variant (Vishnu Purana 3.1):* simply "the seven sons of Vasishtha were the seven Rishis," without re-listing individual names — but glossed as the same Urja-born seven reborn.
 - *Variant (Matsya Purana, in Wilson's notes):* names the seven Prajapatis / sages of this period as **Havindhra (Havishmant), Sukriti (Sukrita), Murtti, Apas, Jyotir, Aya and Smrita**, also called sons of Vasishtha [late text / parallel list — does not match the Kaukundihi set].
 - *Variant (some lists):* adds or substitutes the "highly energetic sons of **Hiranyagarbha** named **Sutejas**" among the seers of this period [minor/parallel variant].
 
-[Two incompatible name-sets (Kaukundihi-headed-by-Pramada vs. the Matsya Havindhra set), both attributed to "sons of Vasishtha." The shared, stable claim is the *rebirth* motif: these are Vasishtha's Svayambhuva-era sons returning. See [Saptarishi systems](../../05-deities-and-cosmic-beings/) for the cross-manvantara pattern.]
+[Two incompatible name-sets (Kaukundihi-headed-by-Pramada vs. the Matsya Havindhra set), both attributed to "sons of Vasishtha." The shared, stable claim is the *rebirth* motif: these are Vasishtha's Svayambhuva-era sons returning. See [Saptarishi systems](../02-deities-and-cosmic-hierarchy/) for the cross-manvantara pattern.]
 
 ## The Vishnu Avatar — Satyasena
 
-- **Satyasena** — Vishnu's [avatar](../../03-avatars-of-vishnu/) for this manvantara. Born of **Sunrita** (Suniti/Sunritha), wife of **Dharma**; accompanied by a band of gods called the **Satyavratas**. Satyasena destroys the **Yakshas, Rakshasas and the lying / evil spirits (bhutas)** troubling the worlds, fighting alongside Indra **Satyajit** (Bhagavata Purana 8.1.25). This places the avatar firmly in the Satyajit (Bhagavata) stream of the Indra-variant above.
-  - *Note:* the Vishnu/Brahmanda stream that names Sushanti as Indra does not foreground a distinct avatar story here; the Satyasena episode is essentially a Bhagavata contribution to the otherwise bare third-manvantara list. See the full series at [Manvantara-avatars of Vishnu](../../03-avatars-of-vishnu/).
+- **Satyasena** — Vishnu's [avatar](../02-deities-and-cosmic-hierarchy/) for this manvantara. Born of **Sunrita** (Suniti/Sunritha), wife of **Dharma**; accompanied by a band of gods called the **Satyavratas**. Satyasena destroys the **Yakshas, Rakshasas and the lying / evil spirits (bhutas)** troubling the worlds, fighting alongside Indra **Satyajit** (Bhagavata Purana 8.1.25). This places the avatar firmly in the Satyajit (Bhagavata) stream of the Indra-variant above.
+  - *Note:* the Vishnu/Brahmanda stream that names Sushanti as Indra does not foreground a distinct avatar story here; the Satyasena episode is essentially a Bhagavata contribution to the otherwise bare third-manvantara list. See the full series at [Manvantara-avatars of Vishnu](../02-deities-and-cosmic-hierarchy/).
 
 ## Honest gaps
 

@@ -77,7 +77,7 @@ The terminal prophecy, most fully in **Kalki Purana**, with core verses in **Bha
   - **Naimittika (occasional) pralaya** comes only at the end of **Brahma's day** (after all 14 Manvantaras), 1,000 Mahayugas hence.
   - **Prakritika (elemental) pralaya** at the end of Brahma's 100-year life.
   - **Nitya (constant)** and **Atyantika (final liberation)** dissolutions are continuous/individual.
-- **The wheel turns on:** after the next Satya, the yuga cycle repeats — 43 more Mahayugas remain in this Manvantara, then 7 more Manvantaras complete the Kalpa. See [../../../README.md](../../../README.md) for the Manvantara overview and [../../../../../00-time-and-cosmology/](../../../../../00-time-and-cosmology/) for the full clock.
+- **The wheel turns on:** after the next Satya, the yuga cycle repeats — 43 more Mahayugas remain in this Manvantara, then 7 more Manvantaras complete the Kalpa. See [../../../README.md](../../../README.md) for the Manvantara overview and [../../../../../00-time-and-cosmology/](../../../../00-time-and-cosmology/) for the full clock.
 
 ---
 

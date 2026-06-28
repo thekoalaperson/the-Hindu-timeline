@@ -50,7 +50,7 @@ The seven sages of the Tāmasa cycle, led by **Jyotirdhāma**. The rosters diffe
 - Our present age: [7th — Vaivasvata](./manvantara-07-vaivasvata/)
 - Signature episode: [Gajendra-mokṣa](../04-deep-dives/gajendra-moksha.md)
 - Name-clash note: King [Pṛthu / Pṛthvī](../04-deep-dives/prithu-prithvi.md) (a different Pṛthu)
-- Full narrations: [literature corpus](../../90-literature-corpus/)
+- Full narrations: [literature corpus](../90-literature-corpus/)
 
 ## Sources
 

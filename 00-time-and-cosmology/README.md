@@ -99,3 +99,21 @@ See `../01-manvantaras/` for the full drill-down.
 - [Hindu Cosmology Explained: Yugas, Kalpas, Manvantaras — Shivohampath](https://www.shivohampath.com/post/hindu-cosmology-explained-yugas-kalpas-manvantaras-the-cyclical-universe)
 - [Dissolution in the Bhagavata Purana — Wisdomlib](https://www.wisdomlib.org/hinduism/essay/samkhya-elements-in-the-bhagavata-purana/d/doc1502509.html)
 - [The Concept of Pralaya in the Vishnu Purana (PDF) — IJCRT](https://ijcrt.org/papers/IJCRT2011209.pdf)
+
+<!-- AUTOINDEX:START (generated — do not edit by hand) -->
+
+## 📑 Full Contents
+
+*Auto-generated index of all 9 files in this section. Regenerate with the indexer.*
+
+- 🟩 [Brahmā's Lifetime (Mahākalpa)](brahma-lifetime.md)
+- 🟩 [Cosmogony — Accounts of Creation](cosmogony-creation-accounts.md)
+- 🟩 [The Hindu Calendar & the Pañcāṅga](hindu-calendar-and-panchanga.md)
+- 🟩 [Jyotiṣa — The Zodiac & Cosmic Influences](jyotisha-and-the-zodiac.md)
+- 🟩 [Kalpa, Day/Night of Brahmā & the Dissolutions (Pralaya)](kalpa-and-pralaya.md)
+- 🟩 [The Manvantara System & the 14 Manus](manvantara-system.md)
+- 🟩 [The 27 Nakṣatras](nakshatras.md)
+- 🟩 [Units of Cyclic Time](units-of-time.md)
+- 🟩 [The Four Yugas & the Mahāyuga Cycle](yugas-and-mahayuga.md)
+
+<!-- AUTOINDEX:END -->

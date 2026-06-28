@@ -62,10 +62,10 @@ SANATANA DHARMA CORPUS
 The **Itihasa** are the two great narrative chronicles. Traditionally treated as eyewitness-grade history of specific yugas.
 
 - **Ramayana** — Rama's exile, Sita's abduction by Ravana, the war in Lanka, return to Ayodhya. Attributed to **Valmiki** (the "adi-kavi," first poet). 7 kandas, ~24,000 verses.
-  - *Timeline:* set in **Treta Yuga**. See [`../01-manvantaras/.../mahayuga-28-current/treta/`](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/treta/).
+  - *Timeline:* set in **Treta Yuga**. See [`../01-manvantaras/.../mahayuga-28-current/treta/`](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md).
   - *Traditional:* composed by Valmiki, Rama's contemporary. *Academic:* core **c. 7th–4th c. BCE**, with additions to ~3rd c. CE; books 1 and 7 considered later (Wikipedia "Itihasa").
 - **Mahabharata** — the Kuru succession war between Pandavas and Kauravas at Kurukshetra; contains the **Bhagavad Gita**, the Krishna saga, and vast didactic material. Attributed to **Vyasa**. ~100,000 verses (longest poem in the world); "what is here may be elsewhere; what is not here is nowhere."
-  - *Timeline:* set at the **Dvapara–Kali junction**; Krishna's departure / war aftermath marks the **start of Kali Yuga (3102 BCE)**. See [`../01-manvantaras/.../mahayuga-28-current/dvapara/`](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/dvapara/).
+  - *Timeline:* set at the **Dvapara–Kali junction**; Krishna's departure / war aftermath marks the **start of Kali Yuga (3102 BCE)**. See [`../01-manvantaras/.../mahayuga-28-current/dvapara/`](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md).
   - *Traditional:* one Vyasa composition, ~3102 BCE. *Academic:* grew **c. 400 BCE – 400 CE** from a shorter "Jaya"/"Bharata" core (Wikipedia "Itihasa"; Epic-Puranic chronology).
 - **Itihasa-Purana as a unit:** tradition often pairs the epics with the Puranas as the "fifth Veda" — the accessible vehicle of dharma for all castes, especially in Kali Yuga. (dharmawiki.org; Vayu Purana)
 
@@ -194,3 +194,47 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - [Agama (Hinduism) — Wikipedia](https://en.wikipedia.org/wiki/Agama_(Hinduism))
 - [Sacred Texts and Spiritual Pathways: Shaiva, Vaishnava, Shakta Agamas (Koul) — SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5165893)
 - [Hinduism — Sutras, Shastras, Smritis — Britannica](https://www.britannica.com/topic/Hinduism/Sutras-shastras-and-smritis)
+
+<!-- AUTOINDEX:START (generated — do not edit by hand) -->
+
+## 📑 Full Contents
+
+*Auto-generated index of all 31 files in this section. Regenerate with the indexer.*
+
+- 🟩 [Āgamas, Tantras & Dharmaśāstras](agamas-tantras-dharmashastras.md)
+- 🟩 [The Bhāgavata Purāṇa — Skandha-by-Skandha Map](bhagavata-purana-skandha-map.md)
+- 🟩 [The Principal Upaniṣads — Per-Text Detail](principal-upanishads-detail.md)
+- 🟩 [Regional & Oral Epics & Folk Traditions](regional-and-oral-epics.md)
+- 🟩 [Śruti — Vedas & Upanishads](shruti-vedas-and-upanishads.md)
+- 🟩 [Smṛti — Itihāsa (The Epics)](smriti-itihasa-epics.md)
+- 🟩 [Smṛti — The Purāṇas](smriti-puranas.md)
+- 🟩 [The Tamil Canon — Sangam, Tirukkuṟaḷ & Bhakti Corpus](tamil-canon-sangam-and-bhakti.md)
+- 🟩 [Upavedas, Vedāngas & the Six Darśanas](upavedas-vedangas-darshanas.md)
+- 🟩 [Vedic Deities & Famous Sūktas](vedic-deities-and-suktas.md)
+- 🟩 [Yajñas & Vedic Rituals](yajnas-and-vedic-rituals.md)
+
+**puranas/**
+
+- 🟩 [The Purāṇas — Per-Text Story Maps (Index)](puranas/README.md)
+- 🟩 [Agni Purāṇa](puranas/agni-purana.md)
+- 🟩 [Bhaviṣya Purāṇa](puranas/bhavishya-purana.md)
+- 🟩 [Brahma Purāṇa](puranas/brahma-purana.md)
+- 🟩 [Brahmāṇḍa Purāṇa](puranas/brahmanda-purana.md)
+- 🟩 [Brahmavaivarta Purāṇa](puranas/brahmavaivarta-purana.md)
+- 🟩 [Devī Bhāgavata (Upapurāṇa)](puranas/devi-bhagavata-upapurana.md)
+- 🟩 [Gaṇeśa & Mudgala (Upapurāṇas)](puranas/ganesha-and-mudgala-upapuranas.md)
+- 🟩 [Garuḍa Purāṇa](puranas/garuda-purana.md)
+- 🟩 [Kūrma Purāṇa](puranas/kurma-purana.md)
+- 🟩 [Liṅga Purāṇa](puranas/linga-purana.md)
+- 🟩 [Mārkaṇḍeya Purāṇa](puranas/markandeya-purana.md)
+- 🟩 [Matsya Purāṇa](puranas/matsya-purana.md)
+- 🟩 [Nārada Purāṇa](puranas/narada-purana.md)
+- 🟩 [Padma Purāṇa](puranas/padma-purana.md)
+- 🟩 [Śiva Purāṇa](puranas/shiva-purana.md)
+- 🟩 [Skanda Purāṇa](puranas/skanda-purana.md)
+- 🟩 [The 18 Upapurāṇas — Overview & Per-Text Notes](puranas/upapuranas-overview.md)
+- 🟩 [Vāmana Purāṇa](puranas/vamana-purana.md)
+- 🟩 [Varāha Purāṇa](puranas/varaha-purana.md)
+- 🟩 [Viṣṇu Purāṇa](puranas/vishnu-purana.md)
+
+<!-- AUTOINDEX:END -->

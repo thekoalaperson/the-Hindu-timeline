@@ -14,12 +14,6 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 
 ## You are here — sub-files (pilgrimage networks)
 
-- **Char Dham** - The four "abodes": Badrinath, Dwarka, Puri, Rameshwaram (pan-India quadrant); plus the Himalayan *Chota Char Dham*. [to expand]
-- **Dwadasha Jyotirlinga** - The twelve "linga of light" Shiva shrines (Somnath, Kashi Vishwanath, etc.) — see [shiva-myth-cycle](../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md). [to expand]
-- **Shakti Peethas** - Sites where Sati's body-parts fell (51/52/108 variants) — see [sati-daksha-and-parvati](../02-deities-and-cosmic-hierarchy/sati-daksha-and-parvati.md). [to expand]
-- **Sapta Puri** - The seven liberation-granting cities: Ayodhya, Mathura, Haridwar (Maya), Kashi, Kanchi, Avantika (Ujjain), Dwarka. [to expand]
-- **Kumbh Mela** - The rotating river-confluence gathering (Prayagraj, Haridwar, Ujjain, Nashik), tied to [Samudra Manthana](../02-deities-and-cosmic-hierarchy/README.md). [to expand]
-- **Sapta Sindhu / sacred rivers** - Ganga, Yamuna, Sarasvati, and the seven holy rivers as tirthas in themselves. [to expand]
 
 ## Sources
 
@@ -27,3 +21,21 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - Wikipedia — *Tirtha (Hinduism)*; *Skanda Purana*; *Mount Kailash*
 - Encyclopaedia Britannica — *Mount Kailash* (Manasarovar, Meru identification)
 - Scripture: Mahabharata *Tirtha-yatra Parva*; Vishnu Purana (bk. 2); Bhagavata Purana (bk. 5); Padma & Skanda Puranas
+
+<!-- AUTOINDEX:START (generated — do not edit by hand) -->
+
+## 📑 Full Contents
+
+*Auto-generated index of all 9 files in this section. Regenerate with the indexer.*
+
+- 🟩 [The 12 Jyotirlingas of Shiva](12-jyotirlingas.md)
+- 🟩 [The Śakti Pīṭhas (Satī's Fallen Body)](51-shakti-peethas.md)
+- 🟩 [Bhāratavarṣa & Purāṇic Geography](bharatavarsha-and-puranic-geography.md)
+- 🟩 [Char Dhām & Chota Char Dhām](char-dham-and-chota-char-dham.md)
+- 🟩 [Kumbh Mela & Pilgrimage Cycles](kumbh-mela-and-pilgrimage-cycles.md)
+- 🟩 [Mount Meru, Kailāsa & the Cosmic Mountains](meru-kailash-and-cosmic-mountains.md)
+- 🟩 [Sapta Purī, Sacred Cities & Rivers](sapta-puri-and-sacred-cities.md)
+- 🟩 [Sthala-Purāṇas — Major Temple Origin Legends](sthala-puranas-major-temples.md)
+- 🟩 [Temple Networks & Pilgrimage Circuits](temple-networks-and-circuits.md)
+
+<!-- AUTOINDEX:END -->

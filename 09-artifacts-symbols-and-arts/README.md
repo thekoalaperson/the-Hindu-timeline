@@ -55,3 +55,18 @@ Many objects belong to a deity as a fixed **iconographic attribute** — Viṣ�
 - Wikipedia, *Category:Hindu symbols* — https://en.wikipedia.org/wiki/Category:Hindu_symbols
 - Dharmawiki, *64 Kalas (Chatuḥṣaṣṭi Kalāḥ)* — https://dharmawiki.org/index.php/64_Kalas
 - Dolls of India, *Vahanas — the Divine Animal Mounts of Hindu Gods* — https://www.dollsofindia.com/library/hindu_vahanas/
+
+<!-- AUTOINDEX:START (generated — do not edit by hand) -->
+
+## 📑 Full Contents
+
+*Auto-generated index of all 6 files in this section. Regenerate with the indexer.*
+
+- 🟩 [Divine Objects & Treasures](divine-objects-and-treasures.md)
+- 🟩 [Divyāstras — Divine Weapons](divyastras-and-divine-weapons.md)
+- 🟩 [Sacred Flora & Fauna](sacred-flora-and-fauna.md)
+- 🟩 [Sacred Symbols & Emblems](sacred-symbols-and-emblems.md)
+- 🟩 [The Sixty-Four Kalās — Arts & Sciences](sixty-four-kalas.md)
+- 🟩 [Vāhanas & Celestial Vehicles](vahanas-and-celestial-vehicles.md)
+
+<!-- AUTOINDEX:END -->

@@ -1,6 +1,6 @@
 # Smṛti — Itihāsa (The Epics)
 
-> Where this sits: `90-literature-corpus/` — the texts that RECORD events on the cosmic clock. **Itihāsa** ("thus it was") = the two great epics, traditionally Smṛti ("remembered," human-authored) as opposed to Śruti (Veda, "heard"). Both narrate events in the current 28th Mahāyuga: the **Rāmāyaṇa** in [Tretā Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/treta) and the **Mahābhārata** at the [Dvāpara→Kali](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/dvapara) junction (Kṛṣṇa's departure = start of Kali, 3102 BCE).
+> Where this sits: `90-literature-corpus/` — the texts that RECORD events on the cosmic clock. **Itihāsa** ("thus it was") = the two great epics, traditionally Smṛti ("remembered," human-authored) as opposed to Śruti (Veda, "heard"). Both narrate events in the current 28th Mahāyuga: the **Rāmāyaṇa** in [Tretā Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) and the **Mahābhārata** at the [Dvāpara→Kali](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) junction (Kṛṣṇa's departure = start of Kali, 3102 BCE).
 
 The two itihāsas are the cosmos's primary narrative records of the Vaivasvata Manvantara's 28th cycle: avatāra 7 (Rāma) and avatāra 8 (Kṛṣṇa) of Viṣṇu. This node catalogs their STRUCTURE, authorship tradition, and the full spread of regional/sectarian recensions and retellings. For the dharma-decline backdrop see [the four yugas](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current); for avatāra theology see [../02-deities-and-cosmic-hierarchy](../02-deities-and-cosmic-hierarchy).
 
@@ -9,7 +9,7 @@ The two itihāsas are the cosmos's primary narrative records of the Vaivasvata M
 ## I. The Rāmāyaṇa (Vālmīki)
 
 - **Core data:** Sanskrit; ~24,000 ślokas in **7 kāṇḍas** (books), ~500 sargas (chapters). Composed in the anuṣṭubh meter. Attributed to sage **Vālmīki**, the *ādi-kavi* ("first poet"); tradition holds the anuṣṭubh verse itself was born from his grief-cry (*śoka → śloka*) on seeing a hunter kill a krauñca bird. (*Vālmīki Rāmāyaṇa*)
-- **Cosmic placement:** narrates the deeds of **Rāma**, 7th avatāra of Viṣṇu, in [Tretā Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/treta) (dharma on 3 legs). Vālmīki is depicted as a contemporary of Rāma — he shelters Sītā and teaches the epic to Rāma's sons Lava and Kuśa. (*Vālmīki Rāmāyaṇa*, Uttara Kāṇḍa)
+- **Cosmic placement:** narrates the deeds of **Rāma**, 7th avatāra of Viṣṇu, in [Tretā Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) (dharma on 3 legs). Vālmīki is depicted as a contemporary of Rāma — he shelters Sītā and teaches the epic to Rāma's sons Lava and Kuśa. (*Vālmīki Rāmāyaṇa*, Uttara Kāṇḍa)
 - **Academic dating:** core text composed roughly **7th–4th c. BCE**, with the Bāla and Uttara kāṇḍas generally judged later additions; reached present form by ~early centuries CE. (scholarly consensus, e.g. R. Goldman, *The Rāmāyaṇa of Vālmīki*)
 
 ### The 7 Kāṇḍas (events, in narrative order)
@@ -36,7 +36,7 @@ The two itihāsas are the cosmos's primary narrative records of the Vaivasvata M
 - **Authorship tradition:** attributed to **Kṛṣṇa-Dvaipāyana Vyāsa** ("the compiler," also Veda-Vyāsa), who is also a *character* and progenitor in the story (grandfather of the Kuru/Pāṇḍava lines). Tradition says Vyāsa dictated and **Gaṇeśa** wrote it down — on condition Vyāsa never pause, while Gaṇeśa must understand each verse before writing; Vyāsa wove in *kūṭa* (knotty) verses to buy time. (*Mahābhārata*, Ādi Parva)
 - **Three-stage growth (tradition + scholarship):** the text names its own expansion — **Jaya** ("Victory," 8,800 verses) → **Bhārata** (24,000 verses) → **Mahābhārata** (100,000). Academic dating: composed ~**400 BCE–400 CE**, layered over centuries. (V.S. Sukthankar, BORI Prolegomena)
 - **Critical Edition:** **Bhandarkar Oriental Research Institute (BORI), Pune**, 1919–1966 (~47 years), under V.S. Sukthankar et al.; constituted text of ~75,000 verses from collation of **1,259 manuscripts** across all scripts/regions. The standard scholarly reference. (BORI)
-- **Cosmic placement:** the **Kurukṣetra war** and **Kṛṣṇa** (8th avatāra) belong to the close of [Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/dvapara); Kṛṣṇa's departure marks the onset of **[Kali Yuga, 3102 BCE](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/kali)** (see FRAMEWORK CONSTANTS §4). The epic thus straddles the yuga-junction.
+- **Cosmic placement:** the **Kurukṣetra war** and **Kṛṣṇa** (8th avatāra) belong to the close of [Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md); Kṛṣṇa's departure marks the onset of **[Kali Yuga, 3102 BCE](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)** (see FRAMEWORK CONSTANTS §4). The epic thus straddles the yuga-junction.
 
 ### The 18 Parvas (events, in order)
 - **1. Ādi Parva** ("beginning") — *Origins.* Frame narration by Ugraśravas at Naimiṣa forest; Vyāsa's compilation; lineage of Kuru; births of Bhīṣma, Dhṛtarāṣṭra, Pāṇḍu, and the **Pāṇḍavas** & **Kauravas**; the lac-house (Lākṣāgṛha) plot; Draupadī's svayaṃvara and marriage to the five Pāṇḍavas. (*Mahābhārata* 1)
@@ -54,7 +54,7 @@ The two itihāsas are the cosmos's primary narrative records of the Vaivasvata M
 - **13. Anuśāsana Parva** ("instruction") — *Further teaching.* Continued discourse on dharma, gifts, vows; the Viṣṇu Sahasranāma; Bhīṣma's death (departs at the winter solstice). (*Mahābhārata* 13)
 - **14. Aśvamedhika Parva** — *The horse sacrifice.* Yudhiṣṭhira's Aśvamedha to expiate the war; the **Anu-Gītā** (Kṛṣṇa's recap of the Gītā's teaching). (*Mahābhārata* 14)
 - **15. Āśramavāsika Parva** — *Retirement.* Dhṛtarāṣṭra, Gāndhārī, Kuntī retire to the forest and perish in a wildfire. (*Mahābhārata* 15)
-- **16. Mausala Parva** ("of the clubs") — *Fall of the Yādavas.* Gāndhārī's curse ripens: the Yādavas slay each other with iron clubs at Prabhāsa; **Kṛṣṇa is killed** by a hunter (Jarā) — marking the onset of [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/kali); Dvārakā sinks into the sea. (*Mahābhārata* 16)
+- **16. Mausala Parva** ("of the clubs") — *Fall of the Yādavas.* Gāndhārī's curse ripens: the Yādavas slay each other with iron clubs at Prabhāsa; **Kṛṣṇa is killed** by a hunter (Jarā) — marking the onset of [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md); Dvārakā sinks into the sea. (*Mahābhārata* 16)
 - **17. Mahāprasthānika Parva** ("great departure") — *The final journey.* The Pāṇḍavas and Draupadī walk toward Mount Meru/heaven; all fall one by one; only Yudhiṣṭhira and a dog (Dharma in disguise) reach the gate. (*Mahābhārata* 17)
 - **18. Svargārohaṇa Parva** ("ascent to heaven") — *The afterworld.* Yudhiṣṭhira's test in seeing his kin in apparent hell/heaven; final reconciliation; the heroes attain their celestial states. (*Mahābhārata* 18)
 
@@ -111,7 +111,7 @@ The two itihāsas are the cosmos's primary narrative records of the Vaivasvata M
 ---
 
 ## Cross-references
-- Yuga placement: [Tretā Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/treta) (Rāmāyaṇa) · [Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/dvapara) & [Kali Yuga onset](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/kali) (Mahābhārata).
+- Yuga placement: [Tretā Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) (Rāmāyaṇa) · [Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) & [Kali Yuga onset](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) (Mahābhārata).
 - Avatāras of Viṣṇu (Rāma #7, Kṛṣṇa #8): [../02-deities-and-cosmic-hierarchy](../02-deities-and-cosmic-hierarchy).
 - Lineages (Ikṣvāku / Solar of Rāma; Candra / Lunar of the Kurus): [../03-lineages-vamsha](../03-lineages-vamsha).
 

@@ -4,7 +4,7 @@
 
 The 13th of the 14 manvantaras, presided over by Manu **Deva-Sāvarṇi** — known in a parallel scriptural tradition as **Raucya** ("son of Ruci"). Like all post-Vaivasvata manvantaras, the record is **prophetic**: the office-holders are given only as terse lists in the Puranas' rosters of *future* Manus, plus (for the Raucya tradition) a back-story attached to the sage Ruci. There is no narrative event-cycle, no war, no incarnation-deeds — only the cast of the age-to-come. [folk/scriptural future-projection — not historical]
 
-A central caution governs this whole entry: **the two main scriptural streams may be describing the same Manu under two names, or two distinct Manus.** The [Bhāgavata](../../90-sources-and-apparatus/) and Vishnu Puranas call the 13th Manu **Deva-Sāvarṇi** and group him with the five other "Sāvarṇi" Manus (8th–13th). The Mārkaṇḍeya/Harivamsha stream instead calls the 13th Manu **Raucya**, son of the Prajāpati **Ruci**, with an entirely independent biography. Most modern compilers treat the two as aliases of one office; the texts themselves do not reconcile them. [disputed]
+A central caution governs this whole entry: **the two main scriptural streams may be describing the same Manu under two names, or two distinct Manus.** The [Bhāgavata](../90-literature-corpus/) and Vishnu Puranas call the 13th Manu **Deva-Sāvarṇi** and group him with the five other "Sāvarṇi" Manus (8th–13th). The Mārkaṇḍeya/Harivamsha stream instead calls the 13th Manu **Raucya**, son of the Prajāpati **Ruci**, with an entirely independent biography. Most modern compilers treat the two as aliases of one office; the texts themselves do not reconcile them. [disputed]
 
 ## The Manu
 
@@ -27,7 +27,7 @@ The Mārkaṇḍeya Purāṇa is unusual in giving the 13th Manu a real narrativ
 
 ## Office-holders of the 13th Manvantara
 
-- **Indra:** **Divaspati** ("Lord of Heaven") holds the post of Indra for this manvantara (Bhāgavata Purāṇa 8.13.31; Vishnu Purāṇa 3.2). The name is a stock epithet of Indra reused here as the personal name of the cyclic incumbent — a pattern across the future manvantaras, where the *office* of Indra is filled by a new being each age (see [Indra in the cosmic cycle](../../03-deities/) and [the 14 Manvantaras README](README.md) on rotating office-holders).
+- **Indra:** **Divaspati** ("Lord of Heaven") holds the post of Indra for this manvantara (Bhāgavata Purāṇa 8.13.31; Vishnu Purāṇa 3.2). The name is a stock epithet of Indra reused here as the personal name of the cyclic incumbent — a pattern across the future manvantaras, where the *office* of Indra is filled by a new being each age (see [Indra in the cosmic cycle](../02-deities-and-cosmic-hierarchy/) and [the 14 Manvantaras README](README.md) on rotating office-holders).
 - **Saptarishis (Seven Sages):** **Nirmoha, Tattvadarśin, Niṣprakampa, Nirutsuka, Dhṛtimat, Avyaya,** and **Sutapas** (Bhāgavata Purāṇa 8.13.32). The names are markedly abstract — "Free-of-Delusion," "Seer-of-Truth," "Unshaken," "Desireless," "Steadfast," "Imperishable," "Of-Good-Austerity" — reading as personified virtues of the coming age rather than the older mythic ṛṣi-names of the [Vaivasvata saptarishis](manvantara-07-vaivasvata/).
   - *Variant (Nirmoka vs Nirmoha):* several lists, including the Vishnu Purāṇa stream and Sanskrit-dictionary glosses, give **Nirmoka** ("Cast-off-skin / Sloughed") in the place of, or alongside, **Nirmoha**. The two spellings are routinely treated as one sage; the Bhāgavata index records both readings. [disputed]
   - *Variant (membership drift):* because future-Manu saptarishi lists were transmitted as memorized name-strings, individual members vary across the Vishnu, Bhāgavata, Mārkaṇḍeya, and Brahma Puranas. No two manuscript traditions are guaranteed identical for this future age. [scholarly]
@@ -38,7 +38,7 @@ The Mārkaṇḍeya Purāṇa is unusual in giving the 13th Manu a real narrativ
 ## Avatāra of the period
 
 - **Yogeśvara (Yogeshwara)** — "Lord of Yoga," the manvantara-avatāra of Viṣṇu for the 13th age, born of the father **Devahotra** and the mother **Bṛhatī** (Bhāgavata Purāṇa 8.13.32). The Bhāgavata adds that Yogeśvara will, "by His mystic power (yoga), free the worlds from misery." His appearance through **Devahotra** is one of the shared data-points that lets compilers identify the Bhāgavata's Deva-Sāvarṇi with the Mārkaṇḍeya's Raucya.
-  - *Variant (name as office vs personal):* "Yogeśvara" is also a generic title of Kṛṣṇa/Viṣṇu; here it functions as the proper name of the period-specific [manvantara-avatāra](../../03-deities/), one of the recurring "Manvantara avatāras" (each manvantara has its own — cf. Vaivasvata's avatāras). [scholarly]
+  - *Variant (name as office vs personal):* "Yogeśvara" is also a generic title of Kṛṣṇa/Viṣṇu; here it functions as the proper name of the period-specific [manvantara-avatāra](../02-deities-and-cosmic-hierarchy/), one of the recurring "Manvantara avatāras" (each manvantara has its own — cf. Vaivasvata's avatāras). [scholarly]
 
 ## Reconciliation notes
 

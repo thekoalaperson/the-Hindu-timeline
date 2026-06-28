@@ -14,3 +14,13 @@ the individual [yuga event files](../01-manvantaras/manvantara-07-vaivasvata/mah
 
 ## Related
 - The dynasties' deeds are narrated in [Tretā](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) (Rāma) and [Dvāpara](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) (Mahābhārata).
+
+<!-- AUTOINDEX:START (generated — do not edit by hand) -->
+
+## 📑 Full Contents
+
+*Auto-generated index of all 1 files in this section. Regenerate with the indexer.*
+
+- 🟩 [Solar & Lunar Dynasties (Vaṃśa)](suryavamsha-and-chandravamsha.md)
+
+<!-- AUTOINDEX:END -->

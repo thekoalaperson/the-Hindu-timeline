@@ -7,7 +7,7 @@
 
 ## Orientation: two clocks running at once
 
-- **Traditional clock:** Kali Yuga began **3102 BCE** (17/18 Feb, midnight), reckoned from Krishna's departure / the close of the Mahabharata war. As of 2026 CE = **Kali year ~5,127–5,128**; ~426,873 years remain ([see constants](../../../../../00-time-and-cosmology/) ). Almost all of "recorded history" thus sits inside the *first ~1.2%* of Kali Yuga.
+- **Traditional clock:** Kali Yuga began **3102 BCE** (17/18 Feb, midnight), reckoned from Krishna's departure / the close of the Mahabharata war. As of 2026 CE = **Kali year ~5,127–5,128**; ~426,873 years remain ([see constants](../../../../00-time-and-cosmology/) ). Almost all of "recorded history" thus sits inside the *first ~1.2%* of Kali Yuga.
 - **Scholarly clock:** the same span is reconstructed from archaeology, epigraphy, palaeography, and text-criticism, yielding dates that frequently **diverge sharply** from the traditional/matha chronologies. This file flags every major divergence with `[traditional]` vs `[scholarly]`.
 - **Method note:** dates below labelled `[scholarly]` are mainstream academic consensus; `[traditional]` are dates internal to Hindu tradition (Puranic, matha-succession, or hagiographic). Where a date is genuinely open it is marked `[disputed]`.
 
@@ -115,7 +115,7 @@
 
 - **Gandhi** (1869–1948) — *satyagraha*, reinterpretation of Gita/ahimsa, Harijan uplift.
 - **Global gurus & movements** — **Paramahansa Yogananda** (*Autobiography of a Yogi*, 1946; disciple of Yukteswar), **ISKCON** (A. C. Bhaktivedanta Swami Prabhupada, 1966, Gaudiya Vaishnavism worldwide), **Transcendental Meditation** (Maharishi Mahesh Yogi), **Sathya Sai Baba**, **Chinmayananda** (Chinmaya Mission), modern **yoga** as global export.
-- **Sri Yukteswar variant [non-mainstream]** — held Kali Yuga **ended ~1700 CE** and we are now in **ascending Dvapara Yuga** (24,000-yr precessional cycle, *The Holy Science*, 1894). This reframes the entire "we are in Kali" premise; cataloged as a major variant. (see [constants §2/§4](../../../../../00-time-and-cosmology/))
+- **Sri Yukteswar variant [non-mainstream]** — held Kali Yuga **ended ~1700 CE** and we are now in **ascending Dvapara Yuga** (24,000-yr precessional cycle, *The Holy Science*, 1894). This reframes the entire "we are in Kali" premise; cataloged as a major variant. (see [constants §2/§4](../../../../00-time-and-cosmology/))
 - **Late 20th–21st c.** — Hindu nationalism (Hindutva: Savarkar 1923; RSS 1925; VHP 1964), diaspora temple-building, digital Hinduism, ongoing temple/heritage debates (e.g. Ayodhya), and scholarly–traditional dating disputes that remain politically live.
 
 ---

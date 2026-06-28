@@ -1,6 +1,6 @@
 # Manvantara 11 — Dharma-Sāvarṇi (Future)
 
-> Cosmic address: Shveta-Varaha Kalpa → 11th of the 14 Manvantaras (a *future* manvantara; we are currently in the 7th, [Vaivasvata](manvantara-07-vaivasvata/)). One of the cluster of "Sāvarṇi" Manus prophesied for the latter half of this Kalpa (8th–12th). See [the 14-Manvantara index](README.md) and [the cosmic clock](../../00-time-and-cosmology/).
+> Cosmic address: Shveta-Varaha Kalpa → 11th of the 14 Manvantaras (a *future* manvantara; we are currently in the 7th, [Vaivasvata](manvantara-07-vaivasvata/)). One of the cluster of "Sāvarṇi" Manus prophesied for the latter half of this Kalpa (8th–12th). See [the 14-Manvantara index](README.md) and [the cosmic clock](../00-time-and-cosmology/).
 
 - A Manvantara = 71 Mahāyugas + a sandhyā ≈ **306,720,000 human years**. Each installs a fresh Manu, a set of seven Ṛṣis, an Indra, classes of devas, and (in the Bhāgavata scheme) an avatāra of Viṣṇu who upholds dharma through the cycle (Vishnu Purana III.1–2; Bhagavata Purana VIII.13). The Dharma-Sāvarṇi manvantara lies far in the future — after the present Vaivasvata and the intervening Sāvarṇi (8th), Dakṣa-Sāvarṇi (9th), and Brahma-Sāvarṇi / Rudra-Sāvarṇi manvantaras. The Puranic record for it is **brief and formulaic** (essentially a roster), and the two principal sources **disagree on names** — both rosters are catalogued below.
 

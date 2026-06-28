@@ -73,14 +73,6 @@ Several Purāṇic lists gather the in-between classes under **Upadevas** ("less
 
 > Detail nodes for this folder. (Index seeded; deep files added as the section is populated — each will catalog its class's members one bullet apiece with parentage, role, and source per the repo style.)
 
-- *Planned:* `asuras-daityas-danavas.md` — the demon-races: Asura umbrella, Daityas (Diti-line), Dānavas (Danu-line), with the major individuals; cross-linked to the [loka map](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md).
-- *Planned:* `rakshasas-and-night-roamers.md` — Rākṣasas/Rākṣasīs, the Laṅkā host, Brahmarākṣasas; the [Rāmāyaṇa](../04-deep-dives/ramayana/) bestiary.
-- *Planned:* `nagas-and-serpent-folk.md` — Nāgas/Nāginīs, the nāgarājas (Śeṣa, Vāsuki, Takṣaka, Karkoṭaka, Kāliya), Kadrū's brood, the Pātāla serpent-realms.
-- *Planned:* `yakshas-guhyakas.md` — Yakṣas/Yakṣiṇīs and Guhyakas under Kubera; the *yakṣa-praśna*.
-- *Planned:* `celestials-gandharvas-apsaras.md` — Gandharvas, Apsaras (the canonical set), Kinnaras/Kiṃpuruṣas.
-- *Planned:* `celestials-siddhas-vidyadharas.md` — Vidyādharas, Cāraṇas, Siddhas — the sky-going adepts.
-- *Planned:* `bhutas-pretas-and-the-dead.md` — Piśācas, Bhūtas, Pretas, Vetālas, and the folk spirit-classes.
-- *Planned:* `mythic-beasts-and-composites.md` — Garuḍa, Makara, Śarabha, Navagunjara, Airāvata, Kāmadhenu, and the named bestiary.
 
 Until those land, the class-frame above is the working index; cross-check parentage against the [Kaśyapa-progeny](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) lines and the [loka geography](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md).
 
@@ -94,3 +86,24 @@ Until those land, the class-frame above is the working index; cross-check parent
 - VedicFutura, "Classification of Supernatural Beings in Hindu Mythology" — https://www.vedicfutura.com/post/classification-of-supernatural-beings-in-hindu-mythology-1
 - Tarapith Temple blog, "Gandharva, Yaksha, Kinnari, Nag, Bhairava, Pishach, Dakini" — http://tarapithtemple.blogspot.com/2014/10/yaksha-yoginis.html
 - Internal: [`02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md`](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) (loka-scheme & Kaśyapa-progeny, citing Bhāgavata Purāṇa 5 & Mahābhārata Ādi Parva)
+
+<!-- AUTOINDEX:START (generated — do not edit by hand) -->
+
+## 📑 Full Contents
+
+*Auto-generated index of all 12 files in this section. Regenerate with the indexer.*
+
+- 🟩 [Apsarās — Celestial Nymphs](apsaras.md)
+- 🟩 [The Asuras — Roster & the Deva-Asura Wars](asura-wars-and-roster.md)
+- 🟩 [The Dikpālas — Guardians of the Directions](dikpalas-and-lokapalas.md)
+- 🟩 [Gandharvas & Kinnaras](gandharvas-and-kinnaras.md)
+- 🟩 [The Mātṛkās & the 64 Yoginīs](matrikas-and-64-yoginis.md)
+- 🟩 [Nāgas & the Serpent Races](nagas-and-serpents.md)
+- 🟩 [Rākṣasas — The Night-Wanderers](rakshasas.md)
+- 🟩 [Ṛṣi Lineages & the Gotra System](rishi-lineages-and-gotras.md)
+- 🟩 [The Prajāpatis & Brahmā's Mind-Born Sons](the-prajapatis.md)
+- 🟩 [The Thirty-Three Devas — Vasus, Ādityas, Rudras](the-thirty-three-devas.md)
+- 🟩 [Vidyādharas, Siddhas & the Spirit Hosts](vidyadharas-siddhas-and-spirits.md)
+- 🟩 [Yakṣas, Guhyakas & Kubera's Court](yakshas-and-guhyakas.md)
+
+<!-- AUTOINDEX:END -->

@@ -13,7 +13,7 @@ The next Manu after Vaivasvata, and the **pivot of the whole second half of the 
 
 ## Indra of the Age
 
-- **Bali becomes Indra** — the supreme event marking this manvantara. The **dāitya king Bali**, sinless and supremely generous son of **Virochana** (grandson of [Prahlāda](../../04-deep-dives/) ), was pushed down to **Pātāla/Sutala** in our present age by Vishnu's [Vāmana](../02-deities-and-cosmic-hierarchy/dashavatara.md) avatar, who in three strides reclaimed the three worlds Bali had won. As recompense for Bali's unbroken truthfulness and devotion, Vishnu granted that **in the Sāvarṇi manvantara Bali will ascend to the throne of Indra**, king of the devas (Vishnu Purana 3.2; Bhagavata Purana 8.13.15; the boon is given at Bhagavata 8.22–23, the [Vāmana](../../04-deep-dives/) episode). Bali is himself a **chiranjivi** — kept alive across the ages precisely so he may take up Indra-hood when this age dawns.
+- **Bali becomes Indra** — the supreme event marking this manvantara. The **dāitya king Bali**, sinless and supremely generous son of **Virochana** (grandson of [Prahlāda](../04-deep-dives/) ), was pushed down to **Pātāla/Sutala** in our present age by Vishnu's [Vāmana](../02-deities-and-cosmic-hierarchy/dashavatara.md) avatar, who in three strides reclaimed the three worlds Bali had won. As recompense for Bali's unbroken truthfulness and devotion, Vishnu granted that **in the Sāvarṇi manvantara Bali will ascend to the throne of Indra**, king of the devas (Vishnu Purana 3.2; Bhagavata Purana 8.13.15; the boon is given at Bhagavata 8.22–23, the [Vāmana](../04-deep-dives/) episode). Bali is himself a **chiranjivi** — kept alive across the ages precisely so he may take up Indra-hood when this age dawns.
 
 ## Saptarishis (Seven Sages)
 
