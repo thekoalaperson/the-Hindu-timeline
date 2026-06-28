@@ -3,7 +3,7 @@
 > Sits in [`09-artifacts-symbols-and-arts/`](README.md) — the **non-weapon objects of power**: wish-granters (cow, tree, jewel), the named gems and vessels, the conches, and the loot of the churning.
 > Up-link: section index [`README.md`](README.md). Origin-event for most of these: the **[Samudra Manthana](../04-deep-dives/samudra-manthana.md)**.
 
-This file catalogs the *relics and treasures* — objects that are not primarily weapons (those live in [`divine-weapons-astras-and-shastras.md`](divine-weapons-astras-and-shastras.md)) and are not living mounts (those live in [`vahanas-divine-mounts.md`](vahanas-divine-mounts.md)). The spine is the triad of **wish-fulfillers** (*Kāmadhenu* / *Kalpavṛkṣa* / *Cintāmaṇi*), the **named gems** (*Kaustubha*, *Syamantaka*), the **conches**, and the **fourteen ratnas** of the churning. Per repo policy, **every variant name, count, owner-chain and maker is cataloged to source**; several rosters here are explicitly **open-ended** (each Purāṇa adds local relics).
+This file catalogs the *relics and treasures* — objects that are not primarily weapons (those live in [`divine-weapons-astras-and-shastras.md`](divyastras-and-divine-weapons.md)) and are not living mounts (those live in [`vahanas-divine-mounts.md`](vahanas-and-celestial-vehicles.md)). The spine is the triad of **wish-fulfillers** (*Kāmadhenu* / *Kalpavṛkṣa* / *Cintāmaṇi*), the **named gems** (*Kaustubha*, *Syamantaka*), the **conches**, and the **fourteen ratnas** of the churning. Per repo policy, **every variant name, count, owner-chain and maker is cataloged to source**; several rosters here are explicitly **open-ended** (each Purāṇa adds local relics).
 
 ---
 
@@ -96,8 +96,8 @@ The treasures of the **[Samudra Manthana](../04-deep-dives/samudra-manthana.md)*
 ## Related Nodes
 
 - [Samudra Manthana](../04-deep-dives/samudra-manthana.md) — origin-event of the ratnas, amṛta, Kaustubha, Kāmadhenu, Kalpavṛkṣa
-- [Divine Weapons — Astras & Shastras](divine-weapons-astras-and-shastras.md) — Śārṅga, Pāñcajanya-as-attribute, Kavaca-Kuṇḍala-adjacent arms
-- [Vāhanas — Divine Mounts](vahanas-divine-mounts.md) — Airāvata, Uccaiḥśravas, Puṣpaka
+- [Divine Weapons — Astras & Shastras](divyastras-and-divine-weapons.md) — Śārṅga, Pāñcajanya-as-attribute, Kavaca-Kuṇḍala-adjacent arms
+- [Vāhanas — Divine Mounts](vahanas-and-celestial-vehicles.md) — Airāvata, Uccaiḥśravas, Puṣpaka
 - [Viśvāmitra & Vasiṣṭha](../04-deep-dives/vishwamitra-vasishtha.md) — the Nandinī/Kāmadhenu feud
 - [Karṇa](../04-deep-dives/karna.md) — the Kavaca-Kuṇḍala
 - [Bhagavad-gītā](../04-deep-dives/bhagavad-gita.md) — the conch-sounding (1.15–18)

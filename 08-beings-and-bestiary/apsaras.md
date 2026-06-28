@@ -2,7 +2,7 @@
 
 > Part of [08 · Beings & Bestiary](./README.md) → the **semi-divine roster** of Indra's heavenly court.
 > Cosmic address: residents of *Svarga* / Indraloka (see [Devas, Asuras & the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)).
-> Paired class: the [Gandharvas](./gandharvas.md) (their musician-husbands). For the mortal-tapas tales they trigger, cross-link the [04 · Deep Dives](../04-deep-dives/).
+> Paired class: the [Gandharvas](gandharvas-and-kinnaras.md) (their musician-husbands). For the mortal-tapas tales they trigger, cross-link the [04 · Deep Dives](../04-deep-dives/).
 
 The **apsarās** (अप्सरस्, "moving in the waters" — *ap* "water" + *saras* "to move/flow") are the celestial nymphs of Hindu cosmology: shape-shifting, eternally youthful dancers of Indra's court, wives of the Gandharvas, dispensers of *bhoga* (sensual delight) in heaven, escorts of slain heroes to *Svarga*, and — most narratively consequential — the weapons Indra deploys to **break the tapas (austerity) of rishis** whose accumulating spiritual heat threatens the cosmic order. They are an **open-ended class** (texts speak of tens of thousands), but a finite set of **named, famous** apsarās recurs across the Vedas, Mahābhārata, Rāmāyaṇa, Purāṇas and the *Nāṭyaśāstra*. This node catalogs the named roster and all major list/count variants.
 
@@ -77,7 +77,7 @@ Classical texts divide apsarās into two ranks. *(Source: traditional Purāṇic
 
 ## Roles & Functions (cross-cutting)
 
-- **Indra's court (Indraloka/Svarga)** - Principal dancers and entertainers; wives/consorts of the **Gandharvas** (court musicians). Together they perform at divine assemblies. — see [Gandharvas](./gandharvas.md).
+- **Indra's court (Indraloka/Svarga)** - Principal dancers and entertainers; wives/consorts of the **Gandharvas** (court musicians). Together they perform at divine assemblies. — see [Gandharvas](gandharvas-and-kinnaras.md).
 - **Penance-breakers (*tapo-bhanga*)** - Indra's instrument against rishis whose austerity threatens his throne or cosmic balance: **Menakā→Viśvāmitra**, **Pramlocā→Kandu**, **Rambhā→Viśvāmitra**, the daivika nymphs→**Nara-Nārāyaṇa** (whence Urvaśī). Failure often incurs a curse (Rambhā→stone). — see [04 · Deep Dives](../04-deep-dives/).
 - **Escorts of heroes** - They garland and bear slain warriors who die valorously to *Svarga* (a motif invoked across the MBh war books).
 - **Mothers of dynastic lines** - Through unions with kings/sages they seed genealogies (Urvaśī→Lunar line via Purūravas; Pūrvacitti→Āgnīdhra's line; Ghṛtācī/Viśvācī→various). — see [03 · Lineages](../03-lineages-vamsha/).

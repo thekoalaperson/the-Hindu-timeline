@@ -138,7 +138,7 @@ The early-20th-c. *Vaimānika Śāstra* (allegedly channelled c. 1918–1923 by 
 ## Related Nodes
 
 - [Divine Objects & Treasures](divine-objects-and-treasures.md) — Airāvata, Uccaiḥśravas & Puṣpaka as churning-loot / relics
-- [Divine Weapons — Astras & Shastras](divine-weapons-astras-and-shastras.md) — the āyudhapuruṣa (personified-attribute) parallel
+- [Divine Weapons — Astras & Shastras](divyastras-and-divine-weapons.md) — the āyudhapuruṣa (personified-attribute) parallel
 - [Samudra Manthana](../04-deep-dives/samudra-manthana.md) — origin of Airāvata, Uccaiḥśravas
 - [Beings & Bestiary](../08-beings-and-bestiary/) — Garuḍa, Nāgas, Jaṭāyu/Sampāti as classed beings
 - [Deities & Cosmic Hierarchy](../02-deities-and-cosmic-hierarchy/) — the riders and their iconographic attributes
