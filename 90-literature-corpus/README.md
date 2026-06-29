@@ -199,7 +199,7 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 45 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 46 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Āgamas, Tantras & Dharmaśāstras](agamas-tantras-dharmashastras.md)
 - 🟩 [The Bhāgavata Purāṇa — Skandha-by-Skandha Map](bhagavata-purana-skandha-map.md)
@@ -245,6 +245,7 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [The 18 Upapurāṇas — Overview & Per-Text Notes](puranas/upapuranas-overview.md)
 - 🟩 [Vāmana Purāṇa](puranas/vamana-purana.md)
 - 🟩 [Varāha Purāṇa](puranas/varaha-purana.md)
+- 🟩 [Vāyu Purāṇa — Story-Map](puranas/vayu-purana.md)
 - 🟩 [Viṣṇu Purāṇa](puranas/vishnu-purana.md)
 
 **upanishads/**

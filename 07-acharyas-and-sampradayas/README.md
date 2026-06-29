@@ -54,12 +54,13 @@ Until those land, the four-sampradāya frame and the founders above are the work
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 17 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 18 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Ādi Śaṅkara & Advaita Vedānta](adi-shankara.md)
 - 🟩 [The Ālvārs & Nāyaṉārs — Tamil Bhakti Saints](alvars-and-nayanars.md)
 - 🟩 [Āṇḍāḷ — the Only Female Ālvār and the Tiruppāvai](andal.md)
 - 🟩 [The Four Vaiṣṇava Sampradāyas](four-vaishnava-sampradayas.md)
+- 🟩 [The Haridāsa Movement & the Carnatic Trinity](haridasa-and-carnatic-bhakti.md)
 - 🟩 [Kabīr — Nirguṇa Sant and the Kabīr Panth](kabir.md)
 - 🟩 [Liṅgāyat / Vīraśaiva Vachana Saints — Basava, Akka Mahādevi, Allama](lingayat-vachana-poets.md)
 - 🟩 [Mīrābāī — the Rajput Princess-Saint of Krishna](mirabai.md)

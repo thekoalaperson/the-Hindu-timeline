@@ -26,7 +26,7 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 29 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 31 files in this section. Regenerate with the indexer.*
 
 - 🟩 [The 108 Divya Desams — Vishnu Abodes of the Alvars](108-divya-desams.md)
 - 🟩 [The 12 Jyotirlingas of Shiva](12-jyotirlingas.md)
@@ -40,6 +40,7 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - 🟩 [Dvārakā & the Saurāṣṭra Kṛṣṇa Kṣetras](dwarka-bet-dwarka-saurashtra.md)
 - 🟩 [Gayā — the Supreme Pitṛ-Tīrtha (Ancestral Liberation)](gaya-pitru-tirtha.md)
 - 🟩 [Haridwar & Rishikesh — Gaṅgā-dvāra, Gateway to the Char Dhām](haridwar-rishikesh-ganga-dwara.md)
+- 🟩 [Jagannāth Purī — Puruṣottama Kṣetra](jagannath-puri-purushottama-kshetra.md)
 - 🟩 [Kāñcīpuram — the Golden City (Banaras of the South)](kanchipuram-city-of-temples.md)
 - 🟩 [Kāśī / Vārāṇasī — the City of Light (Avimukta Kṣetra)](kashi-varanasi.md)
 - 🟩 [Kumbh Mela & Pilgrimage Cycles](kumbh-mela-and-pilgrimage-cycles.md)
@@ -56,6 +57,7 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - 🟩 [Sapta Purī, Sacred Cities & Rivers](sapta-puri-and-sacred-cities.md)
 - 🟩 [Sthala-Purāṇas — Major Temple Origin Legends](sthala-puranas-major-temples.md)
 - 🟩 [Temple Networks & Pilgrimage Circuits](temple-networks-and-circuits.md)
+- 🟩 [Tirumala–Tirupati — Veṅkaṭeśvara (Bālājī)](tirumala-tirupati-venkateshwara.md)
 - 🟩 [Ujjain / Avantikā — Mahākāla & the Time-Meridian City](ujjain-avantika.md)
 
 <!-- AUTOINDEX:END -->

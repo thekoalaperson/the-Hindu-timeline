@@ -20,7 +20,7 @@
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 109 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 116 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Agastya — Sage of the South](agastya.md)
 - 🟩 [Ajāmila — Salvation by the Name](ajamila.md)
@@ -48,7 +48,9 @@
 - 🟩 [Naciketas & Yama — the Kaṭha Upaniṣad Dialogue](nachiketa-katha-upanishad.md)
 - 🟩 [Nahuṣa — the Mortal Who Became Indra](nahusha.md)
 - 🟩 [Nala & Damayatī — the Dice, the Curse, and Reunion](nala-damayanti.md)
+- 🟩 [Nara–Nārāyaṇa — the Twin Sages of Badarī](nara-narayana.md)
 - 🟩 [The Nārāyaṇīya — Pāñcarātra Theology of the Śānti Parva](narayaniya.md)
+- 🟩 [Prahlāda & Narasiṃha — the Man-Lion's Descent](prahlada-narasimha.md)
 - 🟩 [Pṛthu — the First King & the Milking of the Earth](prithu-prithvi.md)
 - 🟩 [Purūravas & Urvaśī — the Mortal King & the Apsarā](pururavas-urvashi.md)
 - 🟩 [The Rāmopākhyāna — The Mahābhārata's Miniature Rāmāyaṇa](ramopakhyana.md)
@@ -67,9 +69,11 @@
 - 🟩 [The Uddhava Gītā (Haṃsa Gītā) — Kṛṣṇa's Last Teaching](uddhava-gita.md)
 - 🟩 [Uttaṅka — the Quest for the Earrings](uttanka.md)
 - 🟩 [The Uttara Rāmāyaṇa — Rāma-rājya, Sītā's Banishment, Lava-Kuśa & Śambūka](uttara-ramayana-lava-kusha.md)
+- 🟩 [Vāmana, Bali & Trivikrama — the Three Strides](vamana-bali.md)
 - 🟩 [The Vidura Niti — The Science of Statecraft & Wisdom](vidura-niti.md)
 - 🟩 [Viśvāmitra & Vasiṣṭha — Kṣatriya to Brahmarṣi](vishwamitra-vasishtha.md)
 - 🟩 [The Vyadha Gita — The Righteous Butcher of Mithila](vyadha-gita.md)
+- 🟩 [Vyāsa (Kṛṣṇa Dvaipāyana) — Arranger of the Vedas](vyasa.md)
 - 🟩 [The Yakṣa Praśna — Yudhiṣṭhira and the Riddles of Dharma](yaksha-prashna.md)
 - 🟩 [Yayāti — the Curse of Old Age & the Exchange of Youth](yayati.md)
 - 🟩 [The Yoga Sūtras of Patañjali](yoga-sutras-of-patanjali.md)
@@ -87,8 +91,11 @@
 
 - 🟩 [Epic Characters — Index](characters/README.md)
 - 🟩 [Abhimanyu](characters/abhimanyu.md)
+- 🟩 [Ambā → Śikhaṇḍin — the Vow of Vengeance](characters/amba-shikhandi.md)
+- 🟩 [Arāvāṇ / Irāvān (Kūttāṇṭavar) — the One-Night Bridegroom](characters/aravan-iravan.md)
 - 🟩 [Arjuna](characters/arjuna.md)
 - 🟩 [Aṣṭāvakra](characters/ashtavakra.md)
+- 🟩 [Barbarīka / Khāṭū Śyām — the Witness of the War](characters/barbarika-khatu-shyam.md)
 - 🟩 [Bhīma](characters/bhima.md)
 - 🟩 [Bhīṣma](characters/bhishma.md)
 - 🟩 [Draupadī](characters/draupadi.md)

@@ -104,7 +104,7 @@ See `../01-manvantaras/` for the full drill-down.
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 11 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 13 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Brahmā's Lifetime (Mahākalpa)](brahma-lifetime.md)
 - 🟩 [The Brahmāṇḍa & Bhuvana-kośa — the Cosmic Egg and its Sheaths](brahmanda-and-bhuvana-kosha.md)
@@ -115,6 +115,8 @@ See `../01-manvantaras/` for the full drill-down.
 - 🟩 [Kalpa, Day/Night of Brahmā & the Dissolutions (Pralaya)](kalpa-and-pralaya.md)
 - 🟩 [The Manvantara System & the 14 Manus](manvantara-system.md)
 - 🟩 [The 27 Nakṣatras](nakshatras.md)
+- 🟩 [The Śiśumāra-cakra — the Cosmic Dolphin & Dhruva-maṇḍala](shishumara-chakra.md)
+- 🟩 [Siddhāntic Astronomy & Its Astronomers](siddhantic-astronomy-and-astronomers.md)
 - 🟩 [Units of Cyclic Time](units-of-time.md)
 - 🟩 [The Four Yugas & the Mahāyuga Cycle](yugas-and-mahayuga.md)
 

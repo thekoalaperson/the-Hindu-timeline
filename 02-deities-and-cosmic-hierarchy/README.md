@@ -23,7 +23,7 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 32 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 34 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Agni](agni.md)
 - 🟩 [Ayyappa (Hariharaputra)](ayyappa.md)
@@ -39,8 +39,10 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 - 🟩 [Hanuman — Vanara Devotee, Chiranjivi, Rudravatara](hanuman.md)
 - 🟩 [Indra — King of the Devas, Wielder of the Vajra](indra.md)
 - 🟩 [Kāmadeva, Rati & the Minor Deities](kamadeva-and-minor-deities.md)
+- 🟩 [Khaṇḍobā / Mārtāṇḍa Bhairava (Mallāri)](khandoba-martanda-bhairava.md)
 - 🟩 [Kubera](kubera.md)
 - 🟩 [Lakṣmī](lakshmi.md)
+- 🟩 [Lalitā Tripurasundarī & the War on Bhaṇḍāsura](lalita-bhandasura.md)
 - 🟩 [The Narakas & the Afterlife](narakas-and-afterlife.md)
 - 🟩 [The Navagraha — Nine Planetary Deities](navagraha.md)
 - 🟩 [The Saptarishi — The Seven Sages Across the Manvantaras](saptarishi.md)
