@@ -95,7 +95,7 @@ Includes the famed **Nava Tirupathi** (nine temples along the Tamraparni river, 
 - **Tirukkoodal (Koodal Azhagar, Madurai)** — Koodal Azhagar (seated/standing/reclining tri-form) · Madhuravalli.
 - **Tirumaliruncholai (Azhagar Kovil)** — **Kallazhagar / Sundararaja** (standing) · Sundaravalli — the great Madurai hill-shrine; sung by **Periyalvar and Andal**.
 - **Tiru Mohur** — Kalamegha Perumal (standing) · Mohanavalli.
-- **Tirukkoshtiyur** — Uragamellanayan / Sowmya Narayana (reclining) · Tirumamagal — where Ramanuja learned the *charama sloka* secret.
+- **Tirukkoshtiyur** — Uragamellanayan / Sowmya Narayana (reclining) · Tirumamagal — where Ramanuja learned the secret of the *Tirumantra* (Ashtakshara, "Om Namo Narayanaya") from Tirukkoshtiyur Nambi and proclaimed it from the temple tower.
 - **Tirumeyyam** — Satyagiri Natha / Satyamoorthy (reclining) · Uyyavanda Nachiyar.
 - **Tirupullani (Adi Jagannatha)** — Kalyana Jagannathar (reclining) · Padmasani — Ramayana **Sethu** site where Rama did *darbha-sayanam*.
 - **Tiruthangal (near Sivakasi) & Srivilliputhur** — **Srivilliputhur (Vatapatrasayi)**: Vatapatrasayi (reclining on banyan leaf) · **Andal/Goda** & Soodikkodutha Sudarkodi — **birthplace of Andal and Periyalvar**; origin of the *Tiruppavai*. (Thiruthangal: Nindra Narayana Perumal · Senganmal Nachiyar.)
@@ -189,7 +189,7 @@ The "108" is fixed, but *which* temple sits where — and how borderline shrines
 
 Each Divya Desam qualifies by Alvar benediction; the spread is uneven. [Alvars overview](../07-acharyas-and-sampradayas/alvars-and-nayanars.md).
 
-- **Nammalvar (Satakopan)** — sang the most, **~37 Divya Desams** (and the entire grid in essence via the *Tiruvaymozhi*).
+- **Nammalvar (Satakopan)** — sang **~37 Divya Desams** (second only to Tirumangai Alvar, who sang the most; and the entire grid in essence via the *Tiruvaymozhi*).
 - **Tirumangai Alvar** — sang the largest *number of temples* overall (the great temple-pilgrim Alvar; reached ~86 sthalas in tradition), including most of the northern and Chola nodes.
 - **Periyalvar** — ~18 Divya Desams; **Andal (Goda)** — ~11 (Srivilliputhur, Srirangam, Tirumala, Mathura/Gokul, Tirumaliruncholai, etc.).
 - **Kulasekhara Alvar** — ~9 (notably the Kerala and northern Rama/Krishna sthalas, being a Chera king).

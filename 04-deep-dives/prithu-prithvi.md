@@ -33,7 +33,7 @@ The dead body is "churned" (mathana) by the sages — the same ritual-magical te
 
 ## The first coronation — origin of kingship
 
-- **Consecration as rājan** - The sages and devas crown Pṛthu the first formally **anointed king**; the Śatapatha Brāhmaṇa (3.5.4) names him "the first consecrated king" — a Vedic anchor older than the Purāṇic elaboration ([scholarly] on dating).
+- **Consecration as rājan** - The sages and devas crown Pṛthu the first formally **anointed king**; the Śatapatha Brāhmaṇa (5.3.5.4) names him "the first consecrated king" — a Vedic anchor older than the Purāṇic elaboration ([scholarly] on dating).
 - **Birth of the sūta and māgadha** - At the inaugural sacrifice the bardic castes appear to praise him: the **Sūta** (charioteer-bard/genealogist) and the **Māgadha** (panegyrist). Lacking deeds yet to praise, they are told instead to glorify the king's *future* greatness — the etiology of court eulogy (Bhāgavata 4.15; Viṣṇu Purāṇa 1.13).
 - **Royal gifts of the gods** - The devas endow him with divine emblems: the celestial bow **Ājagava**, arrows, armor; Viṣṇu gives the discus, Indra a crown, the seas and mountains bring tribute (Viṣṇu Purāṇa 1.13). He is hailed the first **cakravartin** (Vāyu Purāṇa).
 
@@ -92,7 +92,7 @@ After Pṛthu, every class of being milks the Earth-cow in turn, each with its o
 - **Mahābhārata**, Śānti Parva (Pṛthu as ideal king; Earth named Pṛthvī).
 - **Matsya Purāṇa** (table of the many beings milking the Earth-cow; calves, milkers, vessels, boons).
 - **Padma, Brahma, Brahmāṇḍa, Harivaṃśa, Vāyu Purāṇas** (variant genealogy and milking lists; cakravartin title).
-- **Atharvaveda** (Pṛthu Vainya credited with ploughing/agriculture); **Śatapatha Brāhmaṇa 3.5.4** (first anointed king); **Ṛgveda** (Pṛthī Vainya as ṛṣi).
+- **Atharvaveda** (Pṛthu Vainya credited with ploughing/agriculture); **Śatapatha Brāhmaṇa 5.3.5.4** (first anointed king); **Ṛgveda** (Pṛthī Vainya as ṛṣi).
 - **Manu Smṛti** (Pṛthvī as Pṛthu's wife — variant).
 
 **Web / reference sources consulted**

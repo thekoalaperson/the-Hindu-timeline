@@ -39,7 +39,7 @@
 - **Ravaṇa's grief** - the death of Kumbhakarṇa breaks Rāvaṇa, who laments his brother as his right arm and the last great hope of Laṅkā; the loss marks the turning point toward Rāvaṇa's own end (*Vālmīki Rāmāyaṇa, Yuddha Kāṇḍa, ch. 68*).
 
 ## Family — wife and sons
-- **Wife — Vajrajvālā (Vajrajwala)** - his principal consort, in some genealogies the granddaughter of the daitya kings Bali and Virocana (*Rāmāyaṇa* genealogical tradition / Purāṇic lists). [folk]
+- **Wife — Vajrajvālā (Vajrajwala)** - his principal consort, in some genealogies the daughter of Bali and granddaughter of Virocana (*Rāmāyaṇa* genealogical tradition / Purāṇic lists). [folk]
   - *Variant (later lists):* additional consorts named **Karkaṭī, Tāritamālā, Aśvani** appear in expanded genealogies. [folk]
 - **Sons — Kumbha and Nikumbha** - both warriors who fight and die in the Laṅkā war against Rāma's forces (*Vālmīki Rāmāyaṇa, Yuddha Kāṇḍa*).
 - **Other sons in expanded lists** - **Bhīmāsura, Mūlakāsura, Aśvanikumbha** appear in some later genealogical rosters. [folk] [open-ended roster]

@@ -18,7 +18,7 @@ The *heterodox* Rama traditions — the **Jain** retellings (Vimalasuri's *Pauma
 ## Jain Versions — Text by Text
 
 - **Paumacariya (Vimalasuri)** - the **earliest extant Jain Ramayana** and the fountainhead of the whole tradition; *Paümacariya* = "Deeds of Padma" (Padma = Rama's Jain name). Composed in **Maharashtri Prakrit**, ~10,000 verses in 118 *parvans* (wisdomlib; herenow4u).
-  - *Dating [disputed]:* Vimalasuri's own colophon dates it 530 years after Mahavira's *nirvana* (~3rd c. CE by Jain reckoning); many scholars place the surviving text rather later, **c. 4th–5th c. CE**. Jain tradition vs. academic dating diverge sharply here. [scholarly]
+  - *Dating [disputed]:* Vimalasuri's own colophon dates it 530 years after Mahavira's *nirvana* (~1st c. CE by Jain reckoning, Vira Nirvana Samvat 530 ≈ 3 CE); many scholars place the surviving text rather later, **c. 4th–5th c. CE**. Jain tradition vs. academic dating diverge sharply here. [scholarly]
   - **Sect** - generally associated with the **Shvetambara** tradition (later Digambara works recast its details).
   - **Plot keystones** - Rakshasas/Vanaras are Vidyadharas; Ravana is a pious Jain king and accomplished ascetic with a fatal flaw (lust for Sita); **Lakshmana kills Ravana**; Rama (Padma) renounces and attains *moksha*; Lakshmana and Ravana go to hell; Sita renounces as a nun and ascends to heaven.
   - **Kaikeyi sympathetic** - her boon is re-motivated; the harsh Hindu portrayal is softened.

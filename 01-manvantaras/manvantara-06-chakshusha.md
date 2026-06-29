@@ -41,7 +41,6 @@ The single most variant-heavy item; at least three distinct heptads circulate:
 
 ### Avatāra of Viṣṇu
 - **Ajita** — Viṣṇu manifests as Ajita to uphold dharma in this period (Bhāgavata Purāṇa). Some texts even gloss "Cākṣuṣa's true name" as Ajita, conflating Manu and avatāra. [disputed]
-- *Variant:* the avatāra is named **Vaikuṇṭha** (alternate Bhāgavata frame, born of Vikuṇṭhā). [variant]
 
 ## Events, Stories & Figures of the Cākṣuṣa Age
 

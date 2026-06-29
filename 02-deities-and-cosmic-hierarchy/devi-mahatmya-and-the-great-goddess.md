@@ -29,8 +29,8 @@ The text is consciously tripartite: each **carita** ("deed/exploit") is presided
 | Carita | Chapters | Episode | Presiding form | Guṇa | Ṛṣi (reciter-seer) |
 |--------|----------|---------|----------------|------|---------------------|
 | **Prathama** (first) | 1 | Madhu-Kaiṭabha | **Mahākālī** | tamas | Brahmā |
-| **Madhyama** (middle) | 2–4 | Mahiṣāsura-mardinī | **Mahālakṣmī** | rajas | (Madhyama, sage) |
-| **Uttama** (final) | 5–13 | Śumbha-Niśumbha | **Mahāsarasvatī** | sattva | (Uttama, sage) |
+| **Madhyama** (middle) | 2–4 | Mahiṣāsura-mardinī | **Mahālakṣmī** | rajas | Viṣṇu |
+| **Uttama** (final) | 5–13 | Śumbha-Niśumbha | **Mahāsarasvatī** | sattva | Rudra (Śiva) |
 
 - *Note (counter-intuitive pairing):* the fierce Madhu-Kaiṭabha deed is governed by **Mahākālī** (tamas), the Mahiṣa war by **Mahālakṣmī** (rajas), and the long Śumbha cycle — which produces the bright Ambikā/Kauśikī and the terrible Kālī alike — by **Mahāsarasvatī** (sattva). The names do **not** match the familiar consort-goddesses' usual valence; here they are cosmic principles, not Viṣṇu's/Brahmā's wives. (*Mūrti Rahasya; [Wikipedia](https://en.wikipedia.org/wiki/Devi_Mahatmya)*)
 - *Variant (the unified Devī):* throughout, the text insists all three are **one Devī** under many names — Caṇḍikā, Ambikā, Bhadrakālī, Durgā — taking forms "as occasion demands." (*Devī Māhātmya, refrain*)

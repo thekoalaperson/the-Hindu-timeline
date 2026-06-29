@@ -101,7 +101,7 @@ The **Aṣṭa-Lakṣmī** ("Eight Lakṣmīs") are eight manifestations presidi
 
 ## Kamalā — the Mahāvidyā form
 
-- **Kamalā / Kamalātmikā** - Lakṣmī as the **tenth and final Mahāvidyā** (the gentlest, most "beneficent" of the ten Tantric wisdom-goddesses), the Tantric Lakṣmī. Golden, four-armed, lotus-seated, bathed by four elephants — essentially Gaja-Lakṣmī absorbed into the Śākta-Tantra scheme. Her avatāra-correspondence in the **Todala Tantra** is **Kṛṣṇa / Viṣṇu**. See **[Daśa Mahāvidyā](dasha-mahavidya.md)** for the full set and origin myth [late text].
+- **Kamalā / Kamalātmikā** - Lakṣmī as the **tenth and final Mahāvidyā** (the gentlest, most "beneficent" of the ten Tantric wisdom-goddesses), the Tantric Lakṣmī. Golden, four-armed, lotus-seated, bathed by four elephants — essentially Gaja-Lakṣmī absorbed into the Śākta-Tantra scheme. Her avatāra-correspondence in the **Todala Tantra** is the **Buddha** (Kamalā/Mahālakṣmī → Buddha; it is Kālī, not Kamalā, who maps to Kṛṣṇa). See **[Daśa Mahāvidyā](dasha-mahavidya.md)** for the full set and origin myth [late text].
 
 ---
 

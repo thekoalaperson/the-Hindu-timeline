@@ -44,8 +44,8 @@ Jambudvīpa is partitioned into **nine varṣas** ("regions," each ~9,000 yojana
 Arranged with Ilāvṛta (Meru) at center; three to the north, three to the south, one each east and west, plus Bhārata at the south rim:
 
 - **Ilāvṛta-varṣa** — the central square containing **[Meru](meru-kailash-and-cosmic-mountains.md)**; ruled/peopled by **Śiva (Saṅkarṣaṇa)** worship; women-only land per some verses. *Presiding deity: Saṅkarṣaṇa.*
-- **Bhadrāśva-varṣa** — **east** of Ilāvṛta, beyond Mt. **Mālyavān**. *Presiding deity:* **Hayagrīva** (the horse-headed [avatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md)), worshipped by **Bhadraśravā**.
-- **Ketumāla-varṣa** — **west** of Ilāvṛta, beyond Mt. **Gandhamādana**. *Presiding deity:* **Kāmadeva / Pradyumna** form, with **Lakṣmī** and **Prajāpati's** daughters.
+- **Bhadrāśva-varṣa** — **east** of Ilāvṛta, beyond Mt. **Gandhamādana**. *Presiding deity:* **Hayagrīva** (the horse-headed [avatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md)), worshipped by **Bhadraśravā**.
+- **Ketumāla-varṣa** — **west** of Ilāvṛta, beyond Mt. **Mālyavān**. *Presiding deity:* **Kāmadeva / Pradyumna** form, with **Lakṣmī** and **Prajāpati's** daughters.
 - **Ramyaka-varṣa** — **north**; ruled by **Manu Vaivasvata**. *Presiding deity:* **Matsya** (the fish [avatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md)).
 - **Hiraṇmaya-varṣa** — far **north**. *Presiding deity:* **Kūrma** (the tortoise [avatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md)), worshipped by **Aryamā**/the Pitṛs.
 - **Kuru-varṣa (Uttarakuru)** — **northernmost**, beyond Mt. **Śṛṅgavān**. *Presiding deity:* **Varāha**/**Yajña** (the boar [avatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md)), worshipped by Bhūmi/Earth.
@@ -57,7 +57,7 @@ Arranged with Ilāvṛta (Meru) at center; three to the north, three to the sout
 ### Eight boundary mountains (Bhāgavata 5.16)
 
 - **East–west ranges** (north→south): **Śṛṅgavān**, **Śveta**, **Nīla** (north of Meru); **Niṣadha**, **Hemakūṭa**, **Himālaya** (south of Meru).
-- **North–south flanking ranges**: **Mālyavān** (east) and **Gandhamādana** (west), the "tusks" boxing Ilāvṛta.
+- **North–south flanking ranges**: **Mālyavān** (west) and **Gandhamādana** (east), the "tusks" boxing Ilāvṛta.
 
 ### Viṣṇu Purāṇa scheme (2.2) — same nine, reordered enumeration
 

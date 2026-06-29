@@ -55,7 +55,7 @@ These curses are the gears of his doom; they all converge in the [Karṇa Parva]
 
 - **Indra's beggary** - Knowing Karṇa's invulnerable **kavacha-kuṇḍala** make Arjuna's death certain, **Indra** (Arjuna's divine father) comes **disguised as a Brāhmaṇa** to ask them as alms, exploiting Karṇa's vow that he **never refuses a Brāhmaṇa at his midday Sūrya-worship** (Mbh Vana Parva ~308–310).
 - **Sūrya's warning** - Sūrya warns Karṇa in a dream that the beggar is Indra in disguise and that surrender means death; Karṇa answers that **his fame as the supreme giver (*dānavīra*) outweighs his life** (Mbh Vana Parva ~308).
-- **The flaying gift** - Karṇa **cuts the armor and earrings from his own body** and gives them away, earning the new name **Vaikartana** ("the cut one") and the epithet **Vasuṣeṇa**; the wounds heal but he is now **mortal** (Mbh Vana Parva ~310).
+- **The flaying gift** - Karṇa **cuts the armor and earrings from his own body** and gives them away; the wounds heal but he is now **mortal** (Mbh Vana Parva ~310).
 - **The Śakti in exchange** - Refusing to let so great a giver be cheated, Indra grants in return the **Vasava-śakti** (also *Śakti*/*Ekaghnī*), an infallible dart that **kills one target unfailingly — but only once** (Mbh Vana Parva ~310). Karṇa hoards it for Arjuna — but is forced to spend it on **Ghaṭotkaca** in the [Droṇa Parva](mahabharata/07-drona-parva.md), the night-battle that secretly saves Arjuna's life.
 
 ---
@@ -81,7 +81,7 @@ These curses are the gears of his doom; they all converge in the [Karṇa Parva]
 
 ## VIII. Family — names, wives, and sons
 
-- **Names/epithets** - **Karṇa** (earrings) · **Vasuṣeṇa** (born with wealth/armor) · **Vaikartana** ("the cut," for the flayed armor) · **Rādheya** (son of Rādhā) · **Sūtaputra** (charioteer's son) · **Aṅgarāja / Aṅgādhipa** (King of Aṅga) · **Vṛṣa** (Mbh, various).
+- **Names/epithets** - **Karṇa** (earrings) · **Vasuṣeṇa** (born with wealth/armor) · **Vaikartana** (son of Vikartana, i.e. the Sun-god Sūrya; "the cutting" folk-etymology links it to the flayed armor) · **Rādheya** (son of Rādhā) · **Sūtaputra** (charioteer's son) · **Aṅgarāja / Aṅgādhipa** (King of Aṅga) · **Vṛṣa** (Mbh, various).
 - **Wives [variant]** - The **critical Mahābhārata does not name Karṇa's wife/wives**, calling them only women of the **sūta** community. The widely-known names **Vṛṣālī** and **Supriyā** are **20th-century literary creations** of Shivaji Sawant's Marathi novel ***Mṛtyuñjaya*** (1967); "Vṛṣālī" appears coined to echo "Pāñcālī" [late text/modern].
 - **Sons** - Tradition gives Karṇa several sons — commonly listed as **Vṛṣaseṇa, Vṛṣaketu, Citrasena, Satyasena, Suṣeṇa, Śatruñjaya, Dvipata, Bāṇaseṇa (Banasena), Prasena, and (in some lists) Sudāman** — most of whom die in the war; **Vṛṣaketu** alone survives as the lineage-bearer (Mbh; lists vary by recension).
   - *Variant:* a "**Sudāman**, son of Karṇa, slain at Draupadī's svayaṃvara" appears in some retellings but **not in Vyāsa's core text** [folk/late].

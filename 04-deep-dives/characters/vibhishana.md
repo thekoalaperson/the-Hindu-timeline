@@ -6,7 +6,7 @@ Related: [Rāvaṇa](./ravana.md) · [The Cirañjīvīs](../the-chiranjivis.md) 
 
 ## Identity and Names
 
-- **Vibhīṣaṇa (विभीषण)** - youngest of the three sons of the brahmin sage Viśravas and the rākṣasī Kaikasī (Kaikesī); full brother of Rāvaṇa and Kumbhakarṇa, and brother of the half-rākṣasī Śūrpaṇakhā. Born a rākṣasa by descent but sāttvika in nature. (Vālmīki Rāmāyaṇa, *Uttara Kāṇḍa*).
+- **Vibhīṣaṇa (विभीषण)** - youngest of the three sons of the brahmin sage Viśravas and the rākṣasī Kaikasī (Kaikesī); full brother of Rāvaṇa and Kumbhakarṇa, and of their sister Śūrpaṇakhā (all four children of Viśravas and Kaikasī). Born a rākṣasa by descent but sāttvika in nature. (Vālmīki Rāmāyaṇa, *Uttara Kāṇḍa*).
 - **Lineage** - paternal grandson of the sage Pulastya (a Prajāpati / mind-born son of Brahmā), great-grandson of Brahmā, placing him in the same Paulastya/Pulastya clan as Rāvaṇa and Kubera. (Uttara Kāṇḍa).
 - **Epithets** - "the righteous rākṣasa," "Laṅkeśvara" (lord of Laṅkā, after coronation), counted among the **Sapta/Aṣṭa Cirañjīvī** (seven/eight immortals). (Cirañjīvī Stotram tradition). See [The Cirañjīvīs](../the-chiranjivis.md).
 

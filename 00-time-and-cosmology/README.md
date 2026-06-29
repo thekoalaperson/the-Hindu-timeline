@@ -30,7 +30,7 @@ Hindu time is a single chain running from microseconds to trillions of years. Lo
 ### Cosmic scale
 - **Yuga** — four ages in ratio 4:3:2:1, each with a dawn (*sandhya*) and dusk (*sandhyamsa*): Satya 1,728,000 yr; Treta 1,296,000; Dvapara 864,000; Kali 432,000.
 - **Mahayuga (Chaturyuga)** = all four = **4,320,000 yr** (12,000 deva-years).
-- **Manvantara** = 71 Mahayugas + 1 sandhya ≈ **306,720,000 yr**; ruled by one **Manu**. 14 Manvantaras = 1 Kalpa.
+- **Manvantara** = 71 Mahayugas ≈ **306,720,000 yr**; ruled by one **Manu**. 14 Manvantaras = 1 Kalpa.
 - **Kalpa (Day of Brahma)** = 1000 Mahayugas = **4.32 billion yr**; equal **Night of Brahma** (pralaya) follows.
 - **Brahma's lifespan** = 100 Brahma-years = **311.04 trillion yr**; then *maha-pralaya* and rebirth of Brahma.
 

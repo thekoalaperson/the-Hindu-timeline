@@ -45,7 +45,7 @@ Yama is read on **two clocks**. In the oldest Vedic layer he is not a fearsome j
 ## 4. Lord of the South — the Lokapāla / Dikpāla
 
 - **Guardian of the southern quarter** — Yama is the **Dikpāla/Lokapāla of the South (Dakṣiṇa)**, the direction of death; the dead travel south, the south door of cremation grounds, the feet-to-south rule for the dying all flow from this (Purāṇas; Vāstu/Dharmaśāstra).
-  - The standard eight-Dikpāla scheme: **Indra** (E), **Agni** (SE), **Yama** (S), **Nirṛti/Sūrya** (SW), **Varuṇa** (W), **Vāyu** (NW), **Kubera** (N), **Īśāna/Śiva** (NE). [late text — Purāṇic/Tantric systematization]
+  - The standard eight-Dikpāla scheme: **Indra** (E), **Agni** (SE), **Yama** (S), **Nirṛti** (SW), **Varuṇa** (W), **Vāyu** (NW), **Kubera** (N), **Īśāna/Śiva** (NE). [late text — Purāṇic/Tantric systematization]
 - **Vāhana — the buffalo (Mahiṣa)** — Yama rides a black **water-buffalo**; the buffalo's association with death makes it his characteristic mount (Purāṇas).
   - *Variant:* some iconography and regional cults give him a **horse** or show him on foot; the buffalo is the dominant Puranic form.
 

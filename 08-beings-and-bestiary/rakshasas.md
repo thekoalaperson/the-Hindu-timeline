@@ -72,7 +72,7 @@ In the epic of the Bhāratas the rākṣasas cluster around **Bhīma**, the Pā�
 - **Baka / Bakāsura** (बक) - **Cannibal rākṣasa of Ekacakrā** who extorts a cartload of food *and a human victim* from the townsfolk by turns; **Bhīma** (disguised) eats the food himself and **breaks Baka's back**, freeing the town. *(Source: Mahābhārata Ādi Parva.)*
 - **Kirmīra** (किर्मीर) - **Brother of Baka** (and friend of Hiḍimba), a master of illusion who ambushes the Pāṇḍavas entering the Kāmyaka forest to **avenge his kin**; **killed bare-handed by Bhīma**. *(Source: Mahābhārata Vana/Āraṇyaka Parva.)*
 - **Jaṭāsura** (जटासुर) - A rākṣasa who **infiltrates the Pāṇḍavas disguised as a brahmin**, then abducts Yudhiṣṭhira, Nakula, Sahadeva and Draupadī (seeking their weapons and Draupadī); **slain by Bhīma** on his return. His son **Alambuṣa** later avenges him at Kurukṣetra. *(Source: Mahābhārata Vana Parva; Wikipedia "Jatasura".)*
-- **Alambuṣa** (अलम्बुष) - **Son of Jaṭāsura** (or of Ṛśyaśṛṅga in another line [disputed]); a fearsome **illusion-wielding rākṣasa fighting for the Kauravas** at Kurukṣetra; duels Ghaṭotkaca, Bhīma's grandson Sātyaki, and is finally **killed by Ghaṭotkaca**. *(Source: Mahābhārata Droṇa Parva.)*
+- **Alambuṣa** (अलम्बुष) - **Son of Jaṭāsura** (or of Ṛśyaśṛṅga in another line [disputed]); a fearsome **illusion-wielding rākṣasa fighting for the Kauravas** at Kurukṣetra; duels Ghaṭotkaca and the Yādava hero Sātyaki, and is finally **killed by Ghaṭotkaca**. *(Source: Mahābhārata Droṇa Parva.)*
 - **Mucukunda / Iḍāveṣa & misc.** - Lesser named forest-rākṣasas appear in the Vana Parva and the **Rāmopākhyāna** (the epic's retelling of the Rāmāyaṇa); the roster here is **open-ended**. *(Source: Mahābhārata Vana Parva.)* [open-ended]
 
 ---

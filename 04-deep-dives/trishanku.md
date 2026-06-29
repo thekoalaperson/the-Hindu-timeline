@@ -1,7 +1,7 @@
 # Triśaṅku — Heaven in Limbo
 
 > **Where this sits:** A deep-dive into the Ikṣvāku / [Sūryavaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) king **Satyavrata "Triśaṅku"**, who wished to ascend bodily and alive to Indra's heaven — rejected by his purohita **Vasiṣṭha**, aided by **[Viśvāmitra](vishwamitra-vasishtha.md)**, who in retaliation built a parallel southern heaven (*Triśaṅku-svarga*) and left the king hanging head-downward among new-made stars. The episode is the charter-myth of being stuck between two worlds.
-> Parent: [04-deep-dives](README.md) · Cosmic address: Śveta-Varāha Kalpa › 7th (Vaivasvata) Manvantara › 28th Mahāyuga, **[Tretā Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)** (Triśaṅku is great-grandfather-deep in the Ikṣvāku line above Rāma; his son is Hariścandra).
+> Parent: [04-deep-dives](README.md) · Cosmic address: Śveta-Varāha Kalpa › 7th (Vaivasvata) Manvantara › 28th Mahāyuga, **[Tretā Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)** (Triśaṅku is a remote ancestor of Rāma — roughly thirty generations above him in the Ikṣvāku line; his son is Hariścandra).
 
 The Triśaṅku story is told in two strata that do not fully agree: the **[Vālmīki Rāmāyaṇa, Bāla Kāṇḍa](ramayana/1-bala-kanda.md)** (sargas 57–60), which makes him a *reformed* righteous king destroyed by hubris and saved-yet-suspended by Viśvāmitra; and the **Harivaṃśa** (and Purāṇic strands), which dwell on his early-life *sins* and his charity to Viśvāmitra's starving family during a twelve-year famine. It is also the episode that costs Viśvāmitra accumulated tapas in his own [ascent to brahmarṣi](vishwamitra-vasishtha.md). Catalog all variants below.
 

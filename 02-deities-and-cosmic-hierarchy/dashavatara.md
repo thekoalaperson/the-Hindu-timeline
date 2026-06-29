@@ -88,7 +88,7 @@
 - **The deluder / the compassionate one.** Identified with Gautama Buddha (or a distinct "Buddha"); born in the **Kīkaṭa** (Magadha) country to **Añjana** (per *Bhagavata*). Two opposed readings of his *purpose*:
   - *Reading A (anti-Vedic / "deluder"):* Vishnu takes ascetic form to **delude the asuras** away from the Vedic path so the devas can defeat them; he leads "those envious of theists" astray. (*Bhagavata Purana* 1.3.24; *Agni Purana*; *Vishnu Purana* 3.17–18, the "Mayamoha" delusion narrative)
   - *Reading B (compassion / ahimsa):* Vishnu incarnates to **stop Vedic animal sacrifice** out of compassion for all beings. (Jayadeva's *Gita Govinda*, Dashavatara-stotra, 12th c. — "nindasi yajña-vidher… sadaya-hṛdaya darśita-paśu-ghātam"). [devotional reinterpretation]
-  - *Note:* in the 24-avatar Bhagavata list, **Buddha is the 21st** (a Kali-Yuga descent), not the 9th. Historical inclusion: by the 8th c. CE Buddha appears as an avatar across several Puranas. [historical text-dating]
+  - *Note:* in the 22-avatar Bhagavata list, **Buddha is the 21st** (a Kali-Yuga descent), not the 9th (he becomes the 23rd in the extended 24-avatar list). Historical inclusion: by the 8th c. CE Buddha appears as an avatar across several Puranas. [historical text-dating]
   - *See* [Kali Yuga node](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md).
 
 ---

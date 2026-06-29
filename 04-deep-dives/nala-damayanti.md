@@ -71,7 +71,7 @@ The **Nalopākhyāna** ("Episode of Nala") is a self-contained sub-epic embedded
 - **The protective bite** - Kārkoṭaka **bites Nala**, whose venom does not kill but (a) **torments Kali within him**, beginning the demon's expulsion, and (b) **transforms Nala into a short, ugly man (a dwarf/hunchback)**, hiding his identity (Mbh Vana Parva 66).
 - **The divine garments** - Kārkoṭaka gives Nala **two celestial garments (vastra)** that, when worn, will **restore his true form** whenever he wishes (Mbh Vana Parva 66).
 - **Instructions** - The nāga directs Nala to **Ayodhyā** to serve King **Ṛtuparṇa** under the alias **Bāhuka**, as charioteer and cook — for Ṛtuparṇa holds the **akṣa-hṛdaya** (secret of dice), which Nala must obtain to undo his ruin (Mbh Vana Parva 66).
-- **Bāhuka at Ṛtuparṇa's court** - The disguised Nala becomes a superlative charioteer and cook (his Agni-/Yama-given gifts still work — he summons fire and water effortlessly), serving alongside the grooms Jīvala and Vārṣṇeya (Mbh Vana Parva 67).
+- **Bāhuka at Ṛtuparṇa's court** - The disguised Nala becomes a superlative charioteer and cook (his Agni-/Varuṇa-given gifts still work — he summons fire and water effortlessly), serving alongside the grooms Jīvala and Vārṣṇeya (Mbh Vana Parva 67).
 
 ## Act VIII — The second-svayaṃvara ruse
 

@@ -59,7 +59,7 @@
 
 ## VIII. Commander-in-chief — the Droṇa Parva (Mbh Droṇa Parva)
 
-- **Assuming command (day 11)** - After **Bhīṣma** falls (day 10), Droṇa is made the Kaurava **senāpati** (commander) and holds the post for **five days (days 11–15)**, the longest tenure of the war (Mbh Droṇa Parva 1–). → the parva's full arc: [07 — Droṇa Parva](../mahabharata/07-drona-parva.md).
+- **Assuming command (day 11)** - After **Bhīṣma** falls (day 10), Droṇa is made the Kaurava **senāpati** (commander) and holds the post for **five days (days 11–15)**; Bhīṣma's preceding ten-day command (days 1–10) was actually the longest tenure of the war (Mbh Droṇa Parva 1–). → the parva's full arc: [07 — Droṇa Parva](../mahabharata/07-drona-parva.md).
 - **The vow to capture Yudhiṣṭhira** - Droṇa promises Duryodhana to seize Yudhiṣṭhira alive (to force a new dice-game and end the war on Kaurava terms), but **Arjuna** thwarts every attempt, guarding his brother (Mbh Droṇa Parva).
 - **The Saṃśaptaka decoy** - The **Saṃśaptakas** ("sworn-to-death" Trigarta warriors) lure Arjuna to a far flank so Droṇa can strike at Yudhiṣṭhira — the maneuver that opens the field for the Cakravyūha (Mbh Droṇa Parva).
 

@@ -40,7 +40,7 @@ The most-cited enumeration is **14 ratnas**; scriptural lists actually range **9
 - **6. Parijata / Kalpavriksha** - The celestial wish-granting tree (Parijata flower-tree, never-fading blossoms); placed in Indra's heaven. (*Bhagavata Purana* 8.8 — Parijata; many lists give **Kalpavriksha/Kalpataru**)
 - **7. Apsaras (Rambha et al.)** - Troupes of celestial nymphs/dancers; take residence in Svarga. (*Bhagavata Purana* 8.8; *Mahabharata*)
 - **8. Lakshmi (Sri)** - The goddess of fortune re-emerges radiant from the ocean and, of her own choice, garlands and weds **Vishnu** — restoring sri to the cosmos. (*Bhagavata Purana* 8.8; *Vishnu Purana* 1.9) — see [Trimurti and Tridevi](../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md).
-- **9. Varuni / Sura (Madira)** - The goddess of wine/liquor (lotus-eyed Varuni); accepted by the **Asuras** (in many tellings the Devas refuse her, hence *sura* = Devas as wine-takers in some folk etymologies). (*Bhagavata Purana* 8.8; *Mahabharata*)
+- **9. Varuni / Sura (Madira)** - The goddess of wine/liquor (lotus-eyed Varuni); accepted by the **Devas** (in many tellings the Asuras refuse her, hence *sura* = Devas as wine-takers and *a-sura* = those who declined her, in the traditional etymology). (*Bhagavata Purana* 8.8; *Mahabharata*)
 - **10. Chandra (the Moon)** - The moon arises; **Shiva** takes it upon his head (*Chandrashekhara*). (*Vishnu Purana*; many Puranic lists; in *Bhagavata* the moon is among the celestial emergents)
 - **11–13. Additional emergents (vary by text):** various lists include —
   - **Panchajanya** - Vishnu's conch. (*Vishnu Purana* tradition)

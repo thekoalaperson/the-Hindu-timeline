@@ -67,7 +67,7 @@ The Rāmāyaṇa and Viṣṇu Purāṇa identify the Maruts (in their seven-tro
 - **Saṃvaha / Saṃhava** (संवह) - the wind of the **lunar orbit**. *(Source: Viṣṇu Purāṇa II.)*
 - **Udvaha** (उद्वह) - the wind of the **stars / nakṣatra (galactic) sphere** ("the up-bearer"). *(Source: Viṣṇu Purāṇa II.)*
 - **Vivaha / Vivaha** (विवह) - the wind of the **planetary spheres (grahas)**. *(Source: Viṣṇu Purāṇa II.)*
-- **Parivaha** (परिवह) - the wind of the **Seven-Sages sphere (Saptarṣi / Ursa Major)**; named also **Marīci**, the **chief among purifiers** ("Of purifiers I am the wind," Bhagavad Gītā 10.21 = *pavatām asmi mārutaḥ*). *(Source: Viṣṇu Purāṇa II; Bhagavad Gītā 10.21.)*
+- **Parivaha** (परिवह) - the wind of the **Seven-Sages sphere (Saptarṣi / Ursa Major)**; named also **Marīci**, the **chief among purifiers** ("Of purifiers I am the wind," Bhagavad Gītā 10.31 = *pavatām asmi mārutaḥ*). *(Source: Viṣṇu Purāṇa II; Bhagavad Gītā 10.31.)*
 - **Parāvaha / Varāvaha** (परावह) - the highest wind, of the **polar / Dhruva (north-pole) region**, that turns the whole star-wheel. *(Source: Viṣṇu Purāṇa II.)*
   - *Variant (names of the seven):* spellings and zone-assignments differ slightly across Purāṇas (Vāyu, Liṅga, Matsya) — e.g. **Āvaha, Pravaha, Saṃvaha, Udvaha, Vivaha, Parivaha, Parāvaha** is the common septad; some texts swap *Nivaha* in for one course. [late text] *(Source: Viṣṇu/Vāyu/Matsya Purāṇas.)*
 
@@ -97,6 +97,6 @@ The Rāmāyaṇa and Viṣṇu Purāṇa identify the Maruts (in their seven-tro
 - **Rāmāyaṇa, Bāla-kāṇḍa, sargas 46–47** — Viśvāmitra's narration of the *Marut-utpatti*: Diti's vow, the interrupted purity, Indra entering the womb, the 7×7 split, "mā ruda," and the seven wind-realms. (Vālmīki Rāmāyaṇa; readramayana.com; sanskritdocuments.org.)
 - **Vāmana Purāṇa ch. 71** — the 49 Maruts as sons of Kaśyapa born of Diti (via Purāṇic Encyclopaedia, Vettam Mani; wisdomlib.org).
 - **Viṣṇu Purāṇa, Book II** — the seven *vāyu-skandhas* (Āvaha, Pravaha, Saṃvaha, Udvaha, Vivaha, Parivaha, Parāvaha) and their celestial zones; cf. **Vāyu / Brahmāṇḍa / Matsya Purāṇas** for variant wind-names.
-- **Bhagavad Gītā 10.21** — *pavatām asmi mārutaḥ* ("of purifiers I am the wind"), Parivaha/Marīci.
+- **Bhagavad Gītā 10.31** — *pavatām asmi mārutaḥ* ("of purifiers I am the wind"), Parivaha/Marīci.
 - **Yāska, Nirukta** — etymology of *marut*; **Monier-Williams** s.v. *marut, marutvat, pṛśni*.
 - [Maruts — Wikipedia](https://en.wikipedia.org/wiki/Maruts); [Story of the Maruts — Puranic Encyclopaedia (wisdomlib)](https://www.wisdomlib.org/hinduism/compilation/puranic-encyclopaedia/d/doc241757.html); [The legend of the Seven Maruts — readramayana.com Bāla 47](https://www.readramayana.com/kanda/bala/47); [The Story of Indra and Diti's sons (Ramayana)](https://indiaspiritual.wordpress.com/2020/10/24/the-story-of-indra-and-ditis-sons-the-maruts-as-it-occurs-in-ramayana/).

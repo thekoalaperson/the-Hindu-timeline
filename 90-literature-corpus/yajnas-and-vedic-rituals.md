@@ -39,7 +39,7 @@ The **five debts** every twice-born householder discharges **daily** — the g�
 
 ## II. The Officiants (Ṛtvij) — The Priestly Offices
 
-A full śrauta Soma sacrifice deploys **16 priests (ṣoḍaśa-ṛtvij)**: **4 chief priests**, each with **3 assistants**, plus the **Sadasya** observer. Each chief draws on one Veda. (Wikipedia "Vedic priesthood"; Aitareya Br.)
+A full śrauta Soma sacrifice deploys **16 priests (ṣoḍaśa-ṛtvij)**: **4 chief priests**, each with **3 assistants**, totalling 16; a learned witness (**Sadasya**) is sometimes added as a 17th. Each chief draws on one Veda. (Wikipedia "Vedic priesthood"; Aitareya Br.)
 
 - **Hotṛ** - the **invoker**, reciter of the *śastra* invocations and litanies drawn from the **Ṛgveda**; the presiding speaker. (Ṛgveda priest)
   - *Assistants:* **Maitrāvaruṇa**, **Acchāvāka**, **Grāvastut**.
@@ -49,7 +49,7 @@ A full śrauta Soma sacrifice deploys **16 priests (ṣoḍaśa-ṛtvij)**: **4 
   - *Assistants:* **Prastotṛ**, **Pratihartṛ**, **Subrahmaṇya**.
 - **Brahman** - the **superintendent / silent overseer**, who watches the whole rite, corrects errors with expiatory verses (prāyaścitta), and is associated with the **Atharvaveda**; the "physician of the sacrifice." (Atharvaveda priest)
   - *Assistants:* **Brāhmaṇācchaṃsin**, **Agnīdh** (the fire-kindler), **Potṛ**.
-- **Sadasya** - the 16th, a learned witness seated in the *sadas* (assembly hall) to validate correctness. (Aitareya Br.)
+- **Sadasya** - the 17th, a learned witness seated in the *sadas* (assembly hall) to validate correctness. (Aitareya Br.)
 - **Supporting roles (not among the 16):**
   - **Yajamāna** - the **sacrificer/sponsor** for whom the rite is done and who reaps its fruit (with his wife, the **patnī**, required for many rites). The priests act on his behalf.
   - **Purohita** - the king's/family **chaplain**, often filling the Brahman or Hotṛ seat in royal rites (e.g. Vasiṣṭha, Viśvāmitra, Bṛhaspati as deva-purohita).

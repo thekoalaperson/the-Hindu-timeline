@@ -97,7 +97,7 @@ The defining events of this yuga cluster at its very end: the descent of **Krish
 > 11 akṣauhiṇī (Kaurava) vs 7 (Pandava). Four successive Kaurava commanders: **Bhīṣma → Droṇa → Karṇa → Śalya** (then Duryodhana himself).
 - **Days 1–10 — Bhīṣma commands.** First casualties (Uttara, Śveta); Bhima kills many Kaurava brothers; on **Day 10**, with Śikhaṇḍī (reborn Ambā) shielding Arjuna, **Bhīṣma falls** on a bed of arrows (śara-śayyā), choosing to wait for the winter solstice to die. (Bhishma Parva)
 - **Days 11–15 — Droṇa commands.**
-  - **Day 13 — Abhimanyu's death:** Arjuna's son penetrates the **Chakravyūha** but cannot exit; six maharathis (Drona, Karna, Duryodhana, Duḥśāsana, Kṛpa, Aśvatthāmā, Jayadratha's blocking) corner and kill the unarmed boy. (Drona Parva)
+  - **Day 13 — Abhimanyu's death:** Arjuna's son penetrates the **Chakravyūha** but cannot exit; six maharathis (Drona, Karna, Duryodhana, Duḥśāsana, Kṛpa, Aśvatthāmā) corner and kill the unarmed boy (Jayadratha meanwhile blocks the other Pandavas at the vyūha entrance). (Drona Parva)
   - **Day 14 — Jayadratha's death:** Arjuna vows to kill **Jayadratha** by sunset or self-immolate; Krishna conceals the sun, draws Jayadratha out, then reveals it — Arjuna beheads him. (Drona Parva)
   - **Day 14–15 (night battle) — Ghaṭotkaca's death:** Bhima's rakshasa son rampages by night; **Karṇa** spends his infallible **Śakti** spear (reserved for Arjuna) to kill him — a decisive turn. (Drona Parva)
   - **Day 15 — Droṇa's death:** Krishna's stratagem — Bhima kills an elephant named "Aśvatthāmā" and Yudhishthira ambiguously confirms "Aśvatthāmā is dead (the elephant)"; the grieving Drona lays down arms and is beheaded by **Dhṛṣṭadyumna**. (Drona Parva)

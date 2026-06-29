@@ -8,7 +8,7 @@ Nahuṣa is the supreme parable of the corruption of power: a virtuous mortal ki
 
 ## I. Lineage & placement — son of Āyu, father of Yayāti
 
-- **Genealogical seat** - Nahuṣa is the sixth king of the Chandravamsha: **Soma → Budha → Purūravas → Āyu → Nahuṣa → [Yayāti](yayati.md)**. He is grandson of [Purūravas](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) and great-grandson of [Ilā/Ilā-Sudyumna](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md). (Mahābhārata, Ādi Parva; Vishnu Purāṇa 4.10; Bhāgavata 9.18)
+- **Genealogical seat** - Nahuṣa is the fifth king of the Chandravamsha: **Soma → Budha → Purūravas → Āyu → Nahuṣa → [Yayāti](yayati.md)**. He is grandson of [Purūravas](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) and great-grandson of [Ilā/Ilā-Sudyumna](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md). (Mahābhārata, Ādi Parva; Vishnu Purāṇa 4.10; Bhāgavata 9.18)
   - *Variant (mother):* the Vishnu Purāṇa names his mother as **Prabhā**, daughter of the asura **Svarbhānu** (Rāhu); other genealogies leave her unnamed. (Vishnu Purāṇa 4.10)
 - **His six sons** - By his queen **Virajā / Aśokasundarī** (name varies), Nahuṣa fathers six (some lists seven) sons, of whom **[Yayāti](yayati.md)** succeeds him; the others are commonly given as Yati, Saṃyāti, Āyati, Viyati, and Kṛti. (Bhāgavata 9.18; Vishnu Purāṇa 4.10)
   - *Variant ([late text]):* the Padma Purāṇa makes his wife **Aśokasundarī**, a daughter created by Pārvatī, weaving Nahuṣa into a Śaiva frame absent from the epic. [late text]

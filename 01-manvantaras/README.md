@@ -51,8 +51,8 @@ The seven sages rotate completely each Manvantara. Lists below follow Vishnu Pur
 - **1 · Svayambhuva** — Marichi, Atri, Angiras, Pulastya, Pulaha, Kratu, Vasishtha (the seven mind-born sons of Brahma). (Vishnu Purana 3.1)
 - **2 · Svarochisha** — Urja, Stambha, Prana, Dattoli, Rishabha, Nishchara, Arvarivat. (Vishnu Purana 3.1)
   - *Variant:* Urja, Stambha, Prana, **Vata, Prishava, Niraya, Parivan** (an alternate sage-list circulating in Puranic compilations).
-- **3 · Uttama / Auttami** — Kaukundihi, Kurundi, Dalaya, Shankha, Pravahita, Mita, Sammita. (Vishnu Purana 3.1)
-  - *Variant (Vayu/Brahmanda tradition):* the seven Rishis are given simply as **the seven sons of Vasishtha**.
+- **3 · Uttama / Auttami** — the seven Rishis are given simply as **the seven sons of Vasishtha**. (Vishnu Purana 3.1)
+  - *Variant (Bhagavata Purana 8.1):* the seven, headed by Pramada, are named Kaukundihi, Kurundi, Dalaya, Shankha, Pravahita, Mita, Sammita.
 - **4 · Tamasa** — Jyotirdhama, Prithu, Kavya, Chaitra, Agni, Vanaka, Pivara. (Vishnu Purana 3.1)
 - **5 · Raivata** — Hiranyaroma, Vedashri, Urdhvabahu, Vedabahu, Sudhaman, Parjanya, Mahamuni. (Vishnu Purana 3.1)
 - **6 · Chakshusha** — Sumedhas, Virajas, Havishmat, Uttama, Madhu, Abhinaman, Sahishnu. (Vishnu Purana 3.1)
