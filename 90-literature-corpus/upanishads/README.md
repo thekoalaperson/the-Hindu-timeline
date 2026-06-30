@@ -4,6 +4,7 @@
 
 ## Contents
 
+- [Aitareya Upaniṣad — Dedicated Deep-Dive](aitareya-upanishad.md)
 - [Bṛhadāraṇyaka Upaniṣad — Dedicated Deep-Dive](brihadaranyaka-upanishad.md)
 - [Chāndogya Upaniṣad — Dedicated Deep-Dive](chandogya-upanishad.md)
 - [Gopāla-tāpanīya Upaniṣad — Dedicated Deep-Dive](gopala-tapaniya-upanishad.md)
