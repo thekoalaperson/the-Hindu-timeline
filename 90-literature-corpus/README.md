@@ -199,7 +199,7 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 58 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 68 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Āgamas, Tantras & Dharmaśāstras](agamas-tantras-dharmashastras.md)
 - 🟩 [The Bhāgavata Purāṇa — Skandha-by-Skandha Map](bhagavata-purana-skandha-map.md)
@@ -251,15 +251,24 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 **upanishads/**
 
 - 🟨 [Upanishads](upanishads/README.md)
+- 🟩 [Aitareya Upaniṣad](upanishads/aitareya-upanishad.md)
 - 🟩 [Bṛhadāraṇyaka Upaniṣad — Dedicated Deep-Dive](upanishads/brihadaranyaka-upanishad.md)
 - 🟩 [Chāndogya Upaniṣad — Dedicated Deep-Dive](upanishads/chandogya-upanishad.md)
 - 🟩 [Gopāla-tāpanīya Upaniṣad](upanishads/gopala-tapaniya-upanishad.md)
+- 🟩 [Īśa (Īśāvāsya) Upaniṣad](upanishads/isha-upanishad.md)
 - 🟩 [Kaivalya Upanishad](upanishads/kaivalya-upanishad.md)
+- 🟩 [Kaṭha (Kāṭhaka) Upaniṣad](upanishads/katha-upanishad.md)
+- 🟩 [Kauṣītaki Upaniṣad](upanishads/kaushitaki-upanishad.md)
+- 🟩 [Kena (Talavakāra) Upaniṣad](upanishads/kena-upanishad.md)
 - 🟩 [Mahānārāyaṇa Upaniṣad — Dedicated Deep-Dive](upanishads/mahanarayana-upanishad.md)
+- 🟩 [Maitrāyaṇīya (Maitrī) Upaniṣad](upanishads/maitrayaniya-upanishad.md)
 - 🟩 [Māṇḍūkya Upaniṣad & Gauḍapāda Kārikā — Dedicated Deep-Dive](upanishads/mandukya-upanishad.md)
+- 🟩 [Muṇḍaka Upaniṣad](upanishads/mundaka-upanishad.md)
 - 🟩 [Nṛsiṃha-tāpanīya Upaniṣad (Pūrva & Uttara Tāpinī)](upanishads/nrisimha-tapaniya-upanishad.md)
+- 🟩 [Praśna Upaniṣad](upanishads/prashna-upanishad.md)
 - 🟩 [The Sannyāsa Upaniṣads](upanishads/sannyasa-upanishads-overview.md)
 - 🟩 [Śvetāśvatara Upaniṣad — Dedicated Deep-Dive](upanishads/svetashvatara-upanishad.md)
+- 🟩 [Taittirīya Upaniṣad](upanishads/taittiriya-upanishad.md)
 - 🟩 [The Yoga Upanishads](upanishads/yoga-upanishads-overview.md)
 
 **vedas/**
@@ -268,6 +277,7 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [The Āraṇyakas (the 'Forest Books')](vedas/aranyakas.md)
 - 🟩 [Atharvaveda — Per-Text Profile (Charms, Healing & Speculation)](vedas/atharvaveda.md)
 - 🟩 [Aitareya Brahmana (and Aitareya Aranyaka)](vedas/brahmanas/aitareya-brahmana.md)
+- 🟩 [Kauṣītaki (Śāṅkhāyana) Brāhmaṇa](vedas/brahmanas/kaushitaki-brahmana.md)
 - 🟩 [Panchavimsha (Tandya Maha-) Brahmana and the Samavedic Brahmana corpus](vedas/brahmanas/panchavimsha-brahmana.md)
 - 🟩 [Shatapatha Brahmana](vedas/brahmanas/shatapatha-brahmana.md)
 - 🟩 [Taittiriya Brahmana (and Taittiriya Aranyaka)](vedas/brahmanas/taittiriya-brahmana.md)

@@ -91,7 +91,7 @@ Until those land, the class-frame above is the working index; cross-check parent
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 20 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 21 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Airāvata, Uccaiḥśravas & the Manthana Treasures (Living Beings)](airavata-and-celestial-animals.md)
 - 🟩 [Apsarās — Celestial Nymphs](apsaras.md)
@@ -101,6 +101,7 @@ Until those land, the class-frame above is the working index; cross-check parent
 - 🟩 [Garuḍa — King of Birds, Mount of Viṣṇu](garuda.md)
 - 🟩 [Kāmadhenu, Surabhi & the Wish-Granting Cows](kamadhenu-and-divine-cattle.md)
 - 🟩 [The Mātṛkās & the 64 Yoginīs](matrikas-and-64-yoginis.md)
+- 🟩 [Maya Dānava — The Demon-Architect of the Asuras](maya-danava.md)
 - 🟩 [Mythic Beasts and Composite Creatures](mythic-beasts-and-composites.md)
 - 🟩 [Nāgas & the Serpent Races](nagas-and-serpents.md)
 - 🟩 [Nandi (Nandikeshvara): Shiva's Bull, Gana-Chief, and Gatekeeper](nandi-and-shaiva-mounts.md)

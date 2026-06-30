@@ -16,7 +16,7 @@ These are the conceptual coordinates of Hindu thought, complementing the chronol
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 25 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 26 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Ahiṃsā & Hindu Ethics](ahimsa-and-hindu-ethics.md)
 - 🟩 [Atman, Brahman & the Mahavakyas — Vedanta and the Schools](atman-brahman-and-the-six-darshanas.md)
@@ -34,6 +34,7 @@ These are the conceptual coordinates of Hindu thought, complementing the chronol
 - 🟩 [Regional Temple Festivals & Jatras (beyond the pan-Hindu calendar)](regional-temple-festivals.md)
 - 🟩 [Ṛta & Cosmic Order](rta-and-cosmic-order.md)
 - 🟩 [Śrāddha & the Pitṛ Rites](shraddha-and-pitr-rites.md)
+- 🟩 [Swing & Float Temple Festivals — Dola, Jhulan & Teppotsavam](swing-and-float-temple-festivals.md)
 - 🟩 [The Eighteen Tamil Siddhars (Pathinen Siddhar) & the Siddha Tradition](the-eighteen-tamil-siddhars.md)
 - 🟩 [The Pramāṇas — Means of Knowledge](the-pramanas.md)
 - 🟩 [The 25 Tattvas of Sāṃkhya](the-samkhya-tattvas.md)

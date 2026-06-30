@@ -26,7 +26,7 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 66 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 74 files in this section. Regenerate with the indexer.*
 
 - 🟩 [The 108 Divya Desams — Vishnu Abodes of the Alvars](108-divya-desams.md)
 - 🟩 [The 12 Jyotirlingas of Shiva](12-jyotirlingas.md)
@@ -34,6 +34,7 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - 🟩 [The Śakti Pīṭhas (Satī's Fallen Body)](51-shakti-peethas.md)
 - 🟩 [Ahobilam — The Nava Narasiṃha Kṣetra](ahobilam-nava-narasimha.md)
 - 🟩 [Amarnath — The Ice-Lingam Cave and the Amar Katha](amarnath-ice-lingam-and-amar-katha.md)
+- 🟩 [Aruṇācala / Tiruvaṇṇāmalai — the Fire-Hill that is Śiva](arunachala-tiruvannamalai-fire-hill.md)
 - 🟩 [Aṟupaḍai Vīḍu — the Six War-Camps of Murugan](arupadai-veedu-murugan.md)
 - 🟩 [Aṣṭa Svayam-vyakta Kṣetras — The Eight Self-Manifest Viṣṇu Shrines](ashta-svayamvyakta-vishnu-kshetras.md)
 - 🟩 [Aṣṭavināyaka — the Eight Swayambhū Ganesha Shrines](ashtavinayaka.md)
@@ -44,6 +45,7 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - 🟩 [Bṛhadīśvara Temple, Thanjavur — Rājarājeśvaram](brihadeeswarar-thanjavur.md)
 - 🟩 [Char Dhām & Chota Char Dhām](char-dham-and-chota-char-dham.md)
 - 🟩 [Chitrakoot — Kamadgiri and the Forest-Tirtha of Rāma's Exile](chitrakoot-kamadgiri.md)
+- 🟩 [Daṇḍakāraṇya — the Great Forest of the Araṇya Kāṇḍa](dandakaranya-rama-forest.md)
 - 🟩 [Dvārakā & the Saurāṣṭra Kṛṣṇa Kṣetras](dwarka-bet-dwarka-saurashtra.md)
 - 🟩 [Gaṅgāsāgar — Sāgara-dvīpa & Kapila's Āśrama](gangasagar-sagara-dvipa-kapila-ashram.md)
 - 🟩 [Gayā — the Supreme Pitṛ-Tīrtha (Ancestral Liberation)](gaya-pitru-tirtha.md)
@@ -65,8 +67,10 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - 🟩 [Kurukṣetra — Dharmakṣetra & the Field of the Mahābhārata](kurukshetra-dharmakshetra.md)
 - 🟩 [Aśoka-vāṭikā & the Laṅkā Rāmāyaṇa Trail](lanka-ramayana-trail-ashoka-vatika.md)
 - 🟩 [Lingarāja Temple, Bhubaneswar — Ekāmra Kṣetra](lingaraja-bhubaneswar-ekamra-kshetra.md)
+- 🟩 [Lonar Sarovar — the Crater-Lake of Lavanāsura and the Daityasūdana Temple](lonar-sarovar-daityasudana.md)
 - 🟩 [The Mahābhārata Tīrtha-yatra Parva — Catalogue of Fords](mahabharata-tirtha-yatra-fords.md)
 - 🟩 [Mānasarovara & the Kailāsa Parikramā](manasarovar-kailash-yatra.md)
+- 🟩 [Maṅgalagiri — the Pānakāla Lakṣmī-Narasiṃha Kṣetra](mangalagiri-panakala-narasimha.md)
 - 🟩 [Mathurā–Vṛndāvana & the Braj Maṇḍala (84 Kos)](mathura-vrindavan-braj.md)
 - 🟩 [Melkote / Tirunārāyaṇapuram — Yadugiri Kṣetra](melkote-tirunarayanapuram.md)
 - 🟩 [Mount Meru, Kailāsa & the Cosmic Mountains](meru-kailash-and-cosmic-mountains.md)
@@ -86,13 +90,17 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - 🟩 [Rameswaram and Setu-bandha — The Ramanatha Setu-Kshetra](rameswaram-setu-bandha.md)
 - 🟩 [Sacred Rivers and Their Descent Myths](sacred-rivers-and-descent-myths.md)
 - 🟩 [Sapta Purī, Sacred Cities & Rivers](sapta-puri-and-sacred-cities.md)
+- 🟩 [The Sapta-Sindhu — the Indus and the Vedic Seven Rivers](sapta-sindhu-and-the-indus-rivers.md)
 - 🟩 [Sarayū — The River of Ayodhyā](sarayu-ayodhya-river.md)
+- 🟩 [Sholingur (Tirukkaḍigai) — the Twin-Hill Yoga Narasimha Kṣetra](sholingur-tirukkadigai-yoga-narasimha.md)
 - 🟩 [Siṃhācalam — Varāha-Narasiṃha Svāmī](simhachalam-varaha-narasimha.md)
 - 🟩 [Śṛṅgaverapura — Guha & the Gaṅgā Crossing](sringaverapura-guha-ganga-crossing.md)
 - 🟩 [Śrīraṅgam — Raṅganātha (Bhūloka Vaikuṇṭha)](srirangam-ranganatha.md)
+- 🟩 [Srivilliputhur — the Vaṭapatraśāyī Kṣetra and Birthplace of Āṇḍāḷ](srivilliputhur-vatapatrasayi-andal-kshetra.md)
 - 🟩 [Sthala-Purāṇas — Major Temple Origin Legends](sthala-puranas-major-temples.md)
 - 🟩 [Temple Networks & Pilgrimage Circuits](temple-networks-and-circuits.md)
 - 🟩 [Tirumala–Tirupati — Veṅkaṭeśvara (Bālājī)](tirumala-tirupati-venkateshwara.md)
 - 🟩 [Ujjain / Avantikā — Mahākāla & the Time-Meridian City](ujjain-avantika.md)
+- 🟩 [Vaishno Devi — the Trikuta Cave-Shrine of the Goddess (Katra, Jammu)](vaishno-devi-trikuta-katra.md)
 
 <!-- AUTOINDEX:END -->

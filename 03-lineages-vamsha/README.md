@@ -19,14 +19,17 @@ the individual [yuga event files](../01-manvantaras/manvantara-07-vaivasvata/mah
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 8 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 11 files in this section. Regenerate with the indexer.*
 
+- 🟩 [Anaraṇya — The Ikṣvāku King Whose Curse Dooms Rāvaṇa](anaranya-ravana-curse.md)
 - 🟩 [Gādhi and the Caru-Swap — Birth of the Kuśika and Bhārgava Lines](gadhi-and-the-caru-swap.md)
+- 🟩 [Jahnu — Sage-King and Eponym of Jāhnavī (Gaṅgā)](jahnu.md)
 - 🟩 [Janamejaya and the Sarpa-Satra (Snake Sacrifice)](janamejaya-sarpa-satra.md)
 - 🟩 [Kuru — Eponymous Founder of the Kuru Dynasty](kuru-the-eponym.md)
 - 🟩 [Parīkṣit — First King of Kali and the Śṛṅgī Curse](parikshit.md)
 - 🟩 [The Raghuvaṃśa Kings — Dilīpa, Raghu, Aja](raghuvamsha-kalidasa-kings.md)
 - 🟩 [Saṃvaraṇa & Tapatī — Grafting Solar Blood onto the Kuru Line](samvarana-tapati.md)
+- 🟩 [Śāntanu — King of Hastināpura](shantanu.md)
 - 🟩 [Solar & Lunar Dynasties (Vaṃśa)](suryavamsha-and-chandravamsha.md)
 - 🟩 [Uparichara Vasu — The Sky-Faring Cedi King](uparichara-vasu.md)
 

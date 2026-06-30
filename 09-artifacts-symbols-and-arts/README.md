@@ -60,17 +60,20 @@ Many objects belong to a deity as a fixed **iconographic attribute** — Viṣ�
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 10 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 13 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Divine Objects & Treasures](divine-objects-and-treasures.md)
 - 🟩 [Divyāstras — Divine Weapons](divyastras-and-divine-weapons.md)
+- 🟩 [Mehndi, Alaktaka and the Arts of Ritual Body-Adornment (Maṅgala-śṛṅgāra)](mehndi-and-ritual-body-adornment.md)
 - 🟩 [Mūrti-lakṣaṇa & Iconometry](murti-lakshana-and-iconometry.md)
 - 🟩 [The Nāṭya Śāstra & the Classical Performing Arts](natya-shastra-and-the-classical-arts.md)
 - 🟩 [Rangoli, Kōlam & the Sacred Floor-Art Tradition](rangoli-kolam-floor-art.md)
 - 🟩 [Sacred Flora & Fauna](sacred-flora-and-fauna.md)
 - 🟩 [Sacred Symbols & Emblems](sacred-symbols-and-emblems.md)
+- 🟩 [Saṅgīta: The Classical Music System — Svara, Śruti, Rāga, Tāla and the Melakarta/Thāṭ Frameworks](sangita-classical-music-svara-raga-tala.md)
 - 🟩 [The Sixty-Four Kalās — Arts & Sciences](sixty-four-kalas.md)
 - 🟩 [Temple Architecture — Nāgara, Drāviḍa & Vesara](temple-architecture-nagara-dravida-vesara.md)
+- 🟩 [Temple Iconographic Motifs: Kīrtimukha, Yāḷi/Vyāla, Makara-toraṇa and Guardian Ornament](temple-iconographic-motifs.md)
 - 🟩 [Vāhanas & Celestial Vehicles](vahanas-and-celestial-vehicles.md)
 
 <!-- AUTOINDEX:END -->

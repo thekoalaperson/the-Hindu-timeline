@@ -1,8 +1,8 @@
 # Rāma-Gītā: The Song of Rāma
 
-> *Up to [04-deep-dives](./README.md) · master [index](../README.md). The Vaiṣṇava–Advaita Gītā in which **Rāma instructs Lakṣmaṇa** in pure non-dualism — embedded as the [Adhyātma Rāmāyaṇa](./adhyatma-ramayana.md)'s **Uttara Kāṇḍa, sarga 5** (book 7, ch. 5), counted with the [Śiva-gītā](./shiva-gita.md), [Devī-gītā](./devi-gita.md), and Gaṇeśa-gītā among the first-tier Purāṇic Gītās of the [lesser-Gītās catalog](./lesser-gitas-catalog.md), and modelled self-consciously on the [Bhagavad Gītā](./bhagavad-gita.md).*
+> *Up to [04-deep-dives](./README.md) · master [index](../README.md). The Vaiṣṇava–Advaita Gītā in which **Rāma instructs Lakṣmaṇa** in pure non-dualism — embedded as the [Adhyātma Rāmāyaṇa](ramayana/recensions/adhyatma-ramayana.md)'s **Uttara Kāṇḍa, sarga 5** (book 7, ch. 5), counted with the [Śiva-gītā](./shiva-gita.md), [Devī-gītā](./devi-gita.md), and Gaṇeśa-gītā among the first-tier Purāṇic Gītās of the [lesser-Gītās catalog](./lesser-gitas-catalog.md), and modelled self-consciously on the [Bhagavad Gītā](./bhagavad-gita.md).*
 
-The **Rāma-Gītā** ("the Song of Rāma") is a compact, uncompromising **Advaita-Vedānta** discourse — usually counted as **62 verses** in a single chapter — in which **Rāma**, after his return to Ayodhyā and coronation, answers his brother **Lakṣmaṇa**'s plea for the knowledge that liberates. It inverts the [Śiva-gītā](./shiva-gita.md): there Rāma is the despairing *pupil* in the forest; here Rāma the crowned king is the *teacher*, and Lakṣmaṇa the seeker. It is the flagship Vedāntic set-piece of the [Adhyātma Rāmāyaṇa](./adhyatma-ramayana.md) — the Rāma-story retold as a manual of non-dualism — and, like its Śaiva and Śākta siblings, it circulates **detached from its parent text** as a recited and commented Vedāntic scripture in its own right. [scholarly]
+The **Rāma-Gītā** ("the Song of Rāma") is a compact, uncompromising **Advaita-Vedānta** discourse — usually counted as **62 verses** in a single chapter — in which **Rāma**, after his return to Ayodhyā and coronation, answers his brother **Lakṣmaṇa**'s plea for the knowledge that liberates. It inverts the [Śiva-gītā](./shiva-gita.md): there Rāma is the despairing *pupil* in the forest; here Rāma the crowned king is the *teacher*, and Lakṣmaṇa the seeker. It is the flagship Vedāntic set-piece of the [Adhyātma Rāmāyaṇa](ramayana/recensions/adhyatma-ramayana.md) — the Rāma-story retold as a manual of non-dualism — and, like its Śaiva and Śākta siblings, it circulates **detached from its parent text** as a recited and commented Vedāntic scripture in its own right. [scholarly]
 
 ## The two clocks — scriptural vs. historical
 
@@ -11,7 +11,7 @@ The **Rāma-Gītā** ("the Song of Rāma") is a compact, uncompromising **Advait
 
 ## Textual placement & frame
 
-- **Location** — The Rāma-Gītā occupies the **Uttara Kāṇḍa (book 7), sarga 5** of the [Adhyātma Rāmāyaṇa](./adhyatma-ramayana.md), a single chapter conventionally counted at **62 ślokas**. (Adhyātma Rāmāyaṇa 7.5)
+- **Location** — The Rāma-Gītā occupies the **Uttara Kāṇḍa (book 7), sarga 5** of the [Adhyātma Rāmāyaṇa](ramayana/recensions/adhyatma-ramayana.md), a single chapter conventionally counted at **62 ślokas**. (Adhyātma Rāmāyaṇa 7.5)
   - *Variant (count):* most editions give **62 verses**; a few recensions and translations count **60–64** depending on the inclusion of the framing and concluding ślokas. [disputed — recension]
 - **The narrative occasion** — Rāma is **enthroned at Ayodhyā** after the slaying of Rāvaṇa and the recovery of Sītā. **Lakṣmaṇa**, ever the attendant brother, asks Rāma to teach him the *bhakti* and the *jñāna* by which a man crosses beyond *saṃsāra* — supplying the "despondent-seeker" frame that every Gītā needs. (Adhyātma Rāmāyaṇa 7.5)
 - **Reported frame** — Like the whole Adhyātma Rāmāyaṇa, the dialogue is a nested recitation: **Śiva narrating the secret Rāma-story to Pārvatī**, who reports Rāma's words to Lakṣmaṇa. The Gītā is thus framed as Śiva's own disclosure of Rāma's inner teaching. (Adhyātma Rāmāyaṇa, frame)
@@ -46,7 +46,7 @@ The **Rāma-Gītā** ("the Song of Rāma") is a compact, uncompromising **Advait
 
 ## Cross-links
 
-- [Adhyātma Rāmāyaṇa](./adhyatma-ramayana.md) — the parent text: the Rāma-story retold as Advaita, of which this Gītā is the doctrinal climax.
+- [Adhyātma Rāmāyaṇa](ramayana/recensions/adhyatma-ramayana.md) — the parent text: the Rāma-story retold as Advaita, of which this Gītā is the doctrinal climax.
 - [The lesser Gītās catalog](./lesser-gitas-catalog.md) — where the Rāma-Gītā sits among the Purāṇic first tier and the "60+" Gītās.
 - [Śiva-gītā](./shiva-gita.md) — the paired Gītā with the same protagonist, roles reversed (Rāma as pupil).
 - [Devī-gītā](./devi-gita.md) — the Śākta sibling among the first-tier Purāṇic Gītās.
