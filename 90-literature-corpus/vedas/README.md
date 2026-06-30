@@ -4,6 +4,7 @@
 
 ## Contents
 
+- [The Āraṇyakas (the 'Forest Books')](aranyakas.md)
 - [Atharvaveda — Per-Text Profile (Charms, Healing & Speculation)](atharvaveda.md)
 - [Rigveda — Per-Text Profile (Mandala-by-Mandala)](rigveda.md)
 - [Samaveda — Per-Text Profile (Chant & Melody)](samaveda.md)
