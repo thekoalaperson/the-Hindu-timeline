@@ -43,13 +43,15 @@ Rajasthan's epics are sung by **bhopā** priest-bards (and their **bhopī** wive
 
 ---
 
-## III. North Indian (Hindi belt) — the Alhā cycle
+## III. North Indian (Hindi belt) — the Alhā and Lorik cycles
 
 - **Ālhā-Khaṇḍ (Ālhā–Ūdal)** - the great martial oral epic of **Bundelkhand**, a cycle of ~**52 gāthās** (ballads) recounting the **52 battles / "52 forts" (bāvan gaṛh vijay)** of the brother-heroes **Ālhā and Ūdal**, Banāphar commanders of **King Paramardideva (Parmāl)** of Mahoba, culminating in their resistance to **Pṛthvīrāj Cauhāṇ** of Ajmer (assoc. with the **1182 CE** conflict). Attributed to the court-poet **Jagnik (Jaganika)** of Mahoba; entirely oral, surviving in many recensions differing in language and episode. (Alha-Khand — Wikipedia; *The Lays of Alha*) **[oral tradition]**
   - *Variant (immortality motif, [folk]):* a widespread tradition holds **Ālhā never died** — granted immortality (sometimes by the goddess **Śāradā** of Maihar), he withdraws rather than falls, and is awaited still.
   - *Variant (recension):* Waterfield/Grierson's *The Lays of Alha* (English) vs. the printed **Baṛā Ālhā-Khaṇḍ** (Hindi) vs. countless village versions — number and order of the 52 *laṛāī* (battles) are not fixed.
-- **Lorik–Candā (Lorikāyan; Canainī / Candainī)** - the great **martial-romantic oral epic** of the **Ahīr/Yādav** (and Gond) cattle-herding communities, the love-and-war saga of the cowherd-hero **Lorik** and his beloved **Candā/Mañjarī** — elopement, exile, single combats and cattle-feud — sung across **Uttar Pradesh, Bihar and Chhattisgarh** (as **Lorikāyan** in the Bhojpurī/Awadhī belt, as **Canainī / Candainī** in Chhattisgarhī). Folklorists rank it the **principal pan-North-Indian sibling of the [Ālhā cycle](#iii-north-indian-hindi-belt--the-alhā-cycle)**, the herder-caste counterpart to Bundelkhand's warrior epic. (Lorik-Chanda — Wikipedia; *The Tale of Lorik and Chanda*; *Another Harmony*) **[folk]/[oral tradition]**
+- **Lorik–Candā (Lorikāyan; Canainī / Candainī)** - the great **martial-romantic oral epic** of the **Ahīr/Yādav** (and Gond) cattle-herding communities, the love-and-war saga of the cowherd-hero **Lorik** and his beloved **Candā/Mañjarī** — elopement, exile, single combats and cattle-feud — sung across **Uttar Pradesh, Bihar and Chhattisgarh** (as **Lorikāyan** in the Bhojpurī/Awadhī belt, as **Canainī / Candainī** in Chhattisgarhī). Folklorists rank it the **principal pan-North-Indian sibling of the [Ālhā cycle](#iii-north-indian-hindi-belt--the-alhā-and-lorik-cycles)**, the herder-caste counterpart to Bundelkhand's warrior epic. (Lorik-Chanda — Wikipedia; *The Tale of Lorik and Chanda*; *Another Harmony*) **[folk]/[oral tradition]**
   - *Variant (Gond):* the Gonds carry their own **Lorik (Candainī)** telling, paralleling their re-tellings of pan-Indian epic ([Pandavani](#viii-adivasi--tribal--himalayan-cycles)); the hero's caste, the heroine's name (Candā / Mañjarī) and the war-vs.-romance emphasis shift by region and singer-community.
+- **Bidesiā (Bidesia)** - the foremost **folk-theatre and migration-song tradition of the Bhojpurī belt** (Bihar / Purvāñcal / eastern Uttar Pradesh), created by the early-20th-c. bard-playwright **Bhikhārī Ṭhākur** (1887–1971) — the **"Shakespeare of Bhojpuri"** / **Rāy Bahādur of folk drama**. Its signature dramatic cycle is that of the **bideśī** ("the foreigner/outsider"), the **migrant labourer** who leaves home for distant work (the colonial-era *girmiṭiyā*/plantation and city labour exodus), and the grieving **bidesiyā** — the sorrowful abandoned wife left behind. Performed in the **nāc** (open-air all-night dance-drama) form with male *laṇḍā/nacaniyā* actors playing the women's roles, it is the **sung-performance counterpart to the region's [Lorikāyan](#iii-north-indian-hindi-belt--the-alhā-and-lorik-cycles) and [Ālhā](#iii-north-indian-hindi-belt--the-alhā-and-lorik-cycles)** — the modern, social-reform face of Bhojpurī oral performance. Representative plays: **Bidesiya, Gabar Ghichor, Beṭī-Bechwā (Beti-Bechwa)**, attacking **out-migration's wreckage of families, dowry, daughter-selling and caste injustice**. (Bhikhari Thakur — Wikipedia; *Bidesia* scholarship) **[folk]/[oral tradition]**
+  - *Variant (scope/authorship):* "Bidesiā" names both the **single play *Bidesia*** and, by extension, the **whole Bhikhārī-Ṭhākur dramatic style/genre**; modern scholarship (**Jainendra Kumar Dost**, who revived and re-staged the corpus; **Sangam Pandey**) catalogues the troupe-to-troupe variability of the surviving texts and the boundary between Ṭhākur's own compositions and later accretions.
 
 ---
 
@@ -118,7 +120,7 @@ The connective tissue under all the above: the **village guardian deities** whos
 
 ## Sources
 
-**Performed/oral primary traditions referenced (as transcribed):** Aṇṇaṉmār Katai (udukkai-pāṭṭu); Pābūjī kī Phaḍ & Devnārāyaṇ kī Phaḍ (bhopā/rāvaṇhattā); Ḍholā–Mārū rā Dūhā; Ālhā-Khaṇḍ (attrib. Jagnik); Palnāṭi Vīrula Katha (& Śrīnātha's *Palnāṭi Vīra Caritra*); Male Mādēśvara, Manṭeswāmy, Juñjappa (kaṃsale); Manasā-/Caṇḍī-/Dharma-maṅgal (Vijaya Gupta, Mukundarāma "Kavikaṅkaṇa", et al.); Bonbibī Jahuranama; Pandavani; Pardhān Gond bardic cycles; Jāmbapurāṇa (Cindu/Dakkali bards); Uttarakhand Jāgar gāthās; Gugga-gāthā; Lorikāyan/Candainī; Siri-paddana & Koṭi-Cennaya paddana (Tuḷu).
+**Performed/oral primary traditions referenced (as transcribed):** Aṇṇaṉmār Katai (udukkai-pāṭṭu); Pābūjī kī Phaḍ & Devnārāyaṇ kī Phaḍ (bhopā/rāvaṇhattā); Ḍholā–Mārū rā Dūhā; Ālhā-Khaṇḍ (attrib. Jagnik); Palnāṭi Vīrula Katha (& Śrīnātha's *Palnāṭi Vīra Caritra*); Male Mādēśvara, Manṭeswāmy, Juñjappa (kaṃsale); Manasā-/Caṇḍī-/Dharma-maṅgal (Vijaya Gupta, Mukundarāma "Kavikaṅkaṇa", et al.); Bonbibī Jahuranama; Pandavani; Pardhān Gond bardic cycles; Jāmbapurāṇa (Cindu/Dakkali bards); Uttarakhand Jāgar gāthās; Gugga-gāthā; Lorikāyan/Candainī; Bidesiā & the Bhikhārī-Ṭhākur nāc repertoire (Bidesia, Gabar Ghichor, Beṭī-Bechwā); Siri-paddana & Koṭi-Cennaya paddana (Tuḷu).
 
 **Web / scholarly sources:**
 - [Annanmar Katai — VMIS (Music in Context)](https://vmis.in/arce-categories/music_in_context_innercat/464)
@@ -136,6 +138,8 @@ The connective tissue under all the above: the **village guardian deities** whos
 - [Koti and Chennaya — Wikipedia](https://en.wikipedia.org/wiki/Koti_and_Chennayya)
 - [Goga (deity) / Gogaji — Wikipedia](https://en.wikipedia.org/wiki/Goga_(deity))
 - [Lorik-Chanda (Lorikayan / Chandaini) — Wikipedia](https://en.wikipedia.org/wiki/Lorik)
+- [Bhikhari Thakur (Bidesia, Bhojpuri folk theatre) — Wikipedia](https://en.wikipedia.org/wiki/Bhikhari_Thakur)
+- [Bidesia (folk theatre form) — Wikipedia](https://en.wikipedia.org/wiki/Bidesia)
 - [Jambava Purana — Wikipedia](https://en.wikipedia.org/wiki/Jambava_Purana)
 - [Male Madeshwara: A Kannada Oral Epic — Google Books](https://books.google.com/books/about/Male_Madeshwara.html?id=QegbFpaJc-8C)
 - [Mangal-Kāvya — Wikipedia](https://en.wikipedia.org/wiki/Mangal-K%C4%81vya)

@@ -35,6 +35,13 @@
 - **Pātālpurī temple** - The Akṣayavaṭ stands within/over the underground **Pātālpurī** temple, today inside the **Allahabad Fort** (built by Akbar, 1583, which enclosed the tree); access historically restricted, opened more freely in recent decades.
   - *Variant (folk):* tradition of *vaṭa-pradakṣiṇā* and, in earlier centuries, ritual self-immolation from the tree for instant *mokṣa* — a practice noted by travelers and later suppressed.
 
+## Bharadvāja's āśrama — the exile-route hermitage
+
+- **Bharadvāja-āśrama (भरद्वाजाश्रम)** - The hermitage of the sage **Bharadvāja** at the Prayāga *saṅgama*, the canonical first waypoint on the *vana-yātrā* (forest-exile journey). Crossing the Yamunā from Śṛṅgaverapura, **Rāma, Sītā and Lakṣmaṇa** reach Bharadvāja's *āśrama* at the confluence of Gaṅgā and Yamunā; the sage receives them with honour and, rather than keeping them at his own hermitage (which would draw the curious of Ayodhyā), directs them onward to **Chitrakūṭa** (Citrakūṭa) as the ideal place of exile-dwelling (Vālmīki Rāmāyaṇa, *Ayodhyā-kāṇḍa* sargas ~50–56).
+- **Bharata's return visit & the miraculous feast** - When **Bharata**, refusing the throne, marches with his army to bring Rāma back, his host halts at Bharadvāja's *āśrama*; the sage, by his ascetic power (and, in the telling, the divine architect / *Viśvakarmā* and the *deva*-world summoned to serve), conjures a vast miraculous **feast** (*ātithya*) — palaces, divine food, drink, music and apsaras — entertaining Bharata's whole army before he proceeds to Chitrakūṭa (Vālmīki Rāmāyaṇa, *Ayodhyā-kāṇḍa* sarga ~91).
+- **Living tīrtha — Bharadwaj Ashram, Prayagraj** - The site is venerated today as the **Bharadwaj Ashram** in the Colonelganj area of Prayagraj, a living temple complex (with images of Bharadvāja and a *Bharadveśvara* Śiva *liṅga*) held to be the historical seat of the sage and a stop on the local Rāmāyaṇa-circuit *parikramā*; it anchors the Prayāga *vaṭa* tradition noted above (cross-ref the [Akṣayavaṭ](#the-akṣayavaṭ--the-imperishable-banyan) section).
+- **ASI survey site [historical/archaeological]** - Bharadwaj Ashram, Prayagraj is one of the **five sites** taken up in the Archaeological Survey of India's *"Archaeology of the Rāmāyaṇa Sites"* project (alongside other places associated with the epic itinerary) — an excavation/exploration programme correlating the *Rāmāyaṇa* topography with the material record. *Two-clocks:* tradition treats the *āśrama* as the very hermitage of Bharadvāja in the *Tretā-yuga*; the ASI project is a modern historical-archaeological exercise and does not certify the epic chronology.
+
 ## Prayāga-māhātmya — scriptural praise & the supreme-merit acts
 
 - **Where attested** - The *Prayāga-māhātmya* survives most fully in the **Matsya Purāṇa** (~adhyāyas 103–112), with closely parallel passages in the **Padma Purāṇa** (*Svarga / Uttara khaṇḍa*), the **Kūrma Purāṇa**, and echoes in the **Agni** and **Skanda** Purāṇas and the Mahābhārata *Tīrtha-yātrā parva*.
@@ -72,7 +79,7 @@
 - [Kumbh Mela & Pilgrimage Cycles](kumbh-mela-and-pilgrimage-cycles.md) — the *amṛta*-drop, *jyotiṣa* timing and bathing festival centred on this Sangam.
 - [Sapta Purī & Sacred Cities/Rivers](sapta-puri-and-sacred-cities.md) — Prayāga's place among Gayā/Kāśī for *śrāddha*; Gaṅgā & Yamunā among the seven rivers.
 - [Bhārata-varṣa & Puranic Geography](bharatavarsha-and-puranic-geography.md) — the river-system map and the vanished Sarasvatī.
-- [Suryavaṃśa & Chandravaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) — Bhagīratha's Gaṅgā-descent; Pratiṣṭhāna and the lunar line.
+- [Suryavaṃśa & Chandravaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) — Bhagīratha's Gaṅgā-descent; Pratiṣṭhāna and the lunar line; Rāma's *vana-yātrā* through Bharadvāja's āśrama at the Sangam.
 - [Smṛti / Purāṇas corpus](../90-literature-corpus/smriti-puranas.md) — the Matsya, Padma, Kūrma, Agni Purāṇas that carry the *māhātmya*.
 
 ## Sources
@@ -84,3 +91,5 @@
 - Prayag Pandits — "12 Madhav / Dwadash Madhav Parikrama Guide" (twelve Mādhava roster, Brahmā/Viṣṇu establishment, Veṇī Mādhava as presiding deity). https://prayagpandits.com/12-madhav-dwadash-madhav/
 - Prayag Pandits — Ancestral rituals in Kashi, Gaya & Prayagraj (piṇḍa-dāna / tarpaṇa, Prayāga–Gayā equivalence). https://prayagpandits.com/performing-ancestral-rituals-in-kashi-gaya-and-prayagraj-a-complete-guide/
 - *Prayaga* — definitions and Puranic references, Wisdomlib. https://www.wisdomlib.org/definition/prayaga
+- Vālmīki Rāmāyaṇa, *Ayodhyā-kāṇḍa* (sargas ~50–56 Rāma's reception by Bharadvāja and direction to Chitrakūṭa; sarga ~91 Bharadvāja's miraculous feast for Bharata's army) — via valmikiramayan.net / Wikisource.
+- *Bharadwaj Ashram, Allahabad* / *Archaeology of the Ramayana Sites* — Wikipedia (living tīrtha at Prayagraj; ASI five-site Rāmāyaṇa survey). https://en.wikipedia.org/wiki/Archaeology_of_the_Ramayana_Sites

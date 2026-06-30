@@ -34,8 +34,9 @@
 ## III. The Gaṇḍakī / Śālagrāma & the eastern-Himalayan fords
 
 - **Gaṇḍakī (Śālagrāmī)** — the river yielding the **śālagrāma** ammonite-stones aniconic of Viṣṇu; the parva praises bathing in the **Gaṇḍakī** and at its source, a tīrtha "frequented by the gods." Dedicated file: **[Muktinātha / Gaṇḍakī Śālagrāma-kṣetra](muktinath-gandaki-shalagrama-kshetra.md)**. (*Mbh* Vana Parva 84, 87)
-- **Kokāmukha** — a famed **Varāha (boar) tīrtha** of the eastern Himalaya, where one who dies fasting is said to gain unending worlds; named in both Pulastya's roster and Lomaśa's route as a Viṣṇu-station of great power. (*Mbh* Vana Parva 84, 87) [scholarly]
-  - *Variant (location, Skanda):* later māhātmyas place Kokāmukha variously on the Kauśikī (Kosi) or the upper Gaṇḍakī fan; the epic fixes only its Varāha character. [disputed]
+- **Kokāmukha** — a famed **Varāha (boar) tīrtha** of the eastern Himalaya, named in **both** Pulastya's roster **and** Lomaśa's walked route (*Mbh* Vana Parva 84, 87) as a Viṣṇu-station of singular power. Its defining *phala* is the **death-merit**: one who **dies fasting** (*prāya / anaśana*) at Kokāmukha is said to gain **unending, imperishable worlds** (*akṣayān lokān*) — a *prāyopaveśana*-tīrtha ranked beside Prayāga and Gayā for sanctified death. [scholarly]
+  - *The Varāha theophany.* The ford is a **boar-station** distinct from the Prabhāsa/Sarasvatī Varāha sites: it commemorates **Viṣṇu's Varāha (boar) form**, the place taking its name from the boar's mouth/visage (*koka-mukha*) — a Vaiṣṇava *avatāra*-tīrtha in the eastern hills, not merely a river-bath. The epic fixes only this Varāha character. [scholarly]
+  - *Variant (location).* The epic does **not** pin the site precisely; later māhātmyas (*Skanda*, *Padma*) place Kokāmukha **variously** — on the **Kauśikī (Kosi)** line (linking it to the adjacent Kauśikī / Viśvāmitra-tīrtha below) or on the **upper Gaṇḍakī fan** near the śālagrāma country (linking it to **[Muktinātha / Gaṇḍakī](muktinath-gandaki-shalagrama-kshetra.md)**). [disputed]
 - **Kauśikī / Viśvāmitra-tīrtha** — the river **Kauśikī (Kosi)**, where **Viśvāmitra** won brahminhood; the bank is a tīrtha cancelling sin. (*Mbh* Vana Parva 87)
 
 ---
@@ -55,7 +56,8 @@
 - **Agastya-tīrtha / Kanyā (Kanyākumārī)** — the southern sea-ford of the maiden-goddess at land's end. (*Mbh* Vana Parva 85, 88)
 - **Godāvarī, Veṇṇā, Bhīmarathī** — Deccan river-fords of the southern quarter; the **Godāvarī** praised as a sin-destroying bath. (*Mbh* Vana Parva 85, 88)
 - **Payoṣṇī, Daṇḍaka, Śūrpāraka (Sopārā)** — western-coast tīrthas; **Śūrpāraka** is the **Paraśurāma land-reclamation** ford. (*Mbh* Vana Parva 85, 88, 118)
-- **Piṇḍāraka** — a Saurāṣṭra coastal tīrtha (near Dvārakā) where bathing is said to leave **lotus-marked piṇḍa-stones** in the bather's hand as a sign of merit. (*Mbh* Vana Parva 82, 88) [regional]
+- **Piṇḍāraka** — a **Saurāṣṭra coastal tīrtha near [Dvārakā](dwarka-bet-dwarka-saurashtra.md)**, named in both Pulastya's roster and the four-quarter plan (*Mbh* Vana Parva 82, 88); bathing here is said to leave **lotus-marked piṇḍa-stones** (*piṇḍa* / *padma*-cihna pebbles) in the bather's palm as a token of merit, the sign that gives the ford its name. [regional]
+  - *The musala-curse — scene of the Yādava doom.* Piṇḍāraka carries a second, **load-bearing narrative role**: in the recension placing the episode here, it is the tīrtha where the **ṛṣis (Viśvāmitra, Kaṇva, Nārada), mocked by Yādava youths who disguised **Sāmba** as a pregnant woman, pronounce the curse** that Sāmba shall bear an **iron pestle/club (*musala*)** to annihilate the Vṛṣṇi–Andhaka race. The pestle, ground to powder and cast into the sea, returns as the *eraka* reeds at Prabhāsa — the chain that triggers the **Yādava self-slaughter** and Kṛṣṇa's departure at the **Dvāpara–Kali hinge**. Cross-link: **[Mausala Parva](../04-deep-dives/mahabharata/16-mausala-parva.md)** · **[Prabhāsa / Somnāth](prabhasa-somnath-tirtha.md)**. (*Mbh* **Mausala Parva** 1; *Viṣṇu Purāṇa* 5.37) [scholarly]
 - **Dvāravatī (Dvārakā) & the Sindhu-saṅgama** — Kṛṣṇa's city and the river-sea confluences of Saurāṣṭra, closing the western arc toward Prabhāsa. (*Mbh* Vana Parva 88, 118–120)
 
 ---

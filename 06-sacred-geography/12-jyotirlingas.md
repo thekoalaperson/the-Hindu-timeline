@@ -6,6 +6,17 @@
 
 The *jyotirlinga* (Sanskrit *jyotis* "radiance/light" + *linga* "sign/mark/symbol of Shiva") is a representation of Shiva not as carved icon but as a self-arisen column of fire/light. The **Shiva Purana** (Koti-Rudra Samhita / Shatarudra Samhita) names **64 original jyotirlingas**, of which **12 (dvadasha)** are held supreme. Reciting their names — the *Dvadasha Jyotirlinga Stotra* attributed to Adi Shankara — is said to erase the sins of seven lifetimes.
 
+## The 64 (Chatuḥṣaṣṭi) Jyotirliṅgas — the parent roster
+
+- **The doctrinal frame** — The **Śiva Purāṇa** (Koṭi-Rudra Saṃhitā / Śatarudra Saṃhitā) holds that there were originally **sixty-four** (*chatuḥṣaṣṭi*) *jyotirliṅgas* — self-manifest light-pillars scattered across Bhārata — of which the **twelve** (*dvādaśa*, listed below) are singled out as supreme (*para* / *uttama*) and pan-Indian, the rest remaining regionally venerated (Śiva Purāṇa, Śatarudra Saṃhitā). The 64 thus functions as the *parent set* and the 12 as its distilled, soteriologically supreme subset: visiting/reciting the twelve is held to subsume the merit of the whole sixty-four.
+- **The 64 is a doctrinal number, not a fixed name-list** — Crucially, **no single canonical roster of all sixty-four names survives**. The chapter that announces the figure (Śatarudra Saṃhitā, Ch. 42) proceeds to *name and narrate only the twelve* ("*now listen to the twelve incarnations of the lord in the form of jyotirliṅgas*… *thus I have explained the series of divine Jyotirliṅgas twelve in number*"); the "64" is invoked as a frame rather than enumerated. The number itself is an auspicious/sacral one in the tradition (cf. the **64 [Yoginīs](../02-deities-and-cosmic-hierarchy/)**, 64 *kalās*, 64 *tantras*, 64 *bhairavas*), so the figure carries a numerological completeness-marker as much as a literal census. [scholarly: the full roster is not textually preserved as one stable list]
+- **Function relative to the famous twelve** — In the devotional logic the 64 are the *substrate* of Śiva's terrestrial self-effulgence and the 12 are the *crown*; the *Dvādaśa Jyotirliṅga Stotra* (attrib. Ādi Śaṅkara) canonizes the twelve precisely *because* a recitable, pilgrimable short-list was needed out of an unbounded field of *svayambhu* liṅgas. This is the same 64 → 12 reduction noted under *Cosmic & Yuga Framing* below — a Kali-Yuga-era devotional canonization.
+- **Regional variants in the enumeration** — Because the parent list is open rather than fixed, regional and sectarian traditions populate the remaining ~52 slots differently, drawing on locally supreme Śiva-kṣetras and *upaliṅgas* (subsidiary/derivative liṅgas):
+  - *The Gokarṇa Ātma-liṅga cluster (Karnataka coast):* the **Ātma-liṅga** Rāvaṇa carried from Kailāsa, set down by Gaṇeśa's trick at **Gokarṇa** (Mahābaleśwara), with fragments scattering to **Murḍeśwar, Dhāreśwar, Guṇavante** and **Sajjeśwar/Surathkal** — the *pañca-liṅga* of the Karnataka coast, often folded into the 64. (This Ātma-liṅga episode parallels the Vaidyanāth Rāvaṇa-Atmaliṅga tradition above — the two are independent regional appropriations of the same motif.) [folk / regional]
+  - *Pan-Himalayan and eastern claimants:* **Paśupatinātha** (Kathmandu, Nepal), **Amarnāth** (the ice-liṅga of Kashmir), **Liṅgarāja** (Bhubaneswar, Odisha), and **Tārakeśwar** (West Bengal) appear in various regional reckonings of the sixty-four. [folk / regional]
+  - *The Upaliṅga lists:* some traditions enumerate the non-twelve as *upaliṅgas* — e.g. **Kṛttikeśvara, Tilamandeśvara (Tilakeśvara), Bhūteśvara, Pūreśvara, Siddhanāteśvara, Śṛṅgeśvara, Gopeśvara, Raṅgeśvara, Rāmeśvara, Gaṇeśvara, Śukreśvara, Candraśekhara, Kuṇtinātha, Andhakeśvara** — each paired as the *upaliṅga* of one of the twelve. The pairing and even the names diverge across recensions. [folk / regional; lists not concordant]
+  - *No governmental or pan-sectarian standardization* exists for the sixty-four (unlike the contested-but-bounded twelve); the divergence is intrinsic to the tradition, the 64 serving as an expandable canopy over the stable 12. [scholarly: unresolved]
+
 ## The Origin Myth: The Pillar of Light (Lingodbhava)
 
 - **The supremacy quarrel** - Brahma (creation) and Vishnu (preservation) dispute which of them is the supreme deity / the cause of the cosmos (Shiva Purana, Vidyeshvara Samhita; Linga Purana). The dispute frames the linga's appearance as occurring at/before manifest creation, outside ordinary yuga time — though its *worship* belongs to the cosmic ages.
@@ -69,7 +80,7 @@ The stotra (and most Puranic listings) enumerate the twelve in this traditional 
 
 ## Sources
 
-- **Shiva Purana** — Vidyeshvara Samhita (Lingodbhava), Koti-Rudra Samhita & Shatarudra Samhita (the legends of the twelve)
+- **Shiva Purana** — Vidyeshvara Samhita (Lingodbhava), Koti-Rudra Samhita & Shatarudra Samhita (the legends of the twelve; the 64 → 12 frame, Śatarudra Saṃhitā Ch. 42)
 - **Linga Purana**, **Vayu Purana** — cosmological linga/pillar-of-light accounts
 - **Skanda Purana** — Prabhasa Khanda (Somnath), Kashi Khanda (Vishwanath), Kedara Khanda (Kedarnath); Brahma Purana (Trimbakeshwar/Gautama)
 - **Valmiki Ramayana** (Setubandha / Ramanathaswamy tradition); **Mahabharata** (Pandavas–Kedarnath folk linkage)
@@ -80,3 +91,4 @@ The stotra (and most Puranic listings) enumerate the twelve in this traditional 
 - [Dwadasa Jyothir Linga Stotram — Hindupedia](https://www.hindupedia.com/en/Dwadasa_Jyothir_Linga_Stotram)
 - [Lingodbhava — Grokipedia](https://grokipedia.com/page/Lingodbhava)
 - [Conflicts of Vaidyanath Jyotirlinga — Pune to Pune](https://punetopune.com/conflicts-of-vaidyanath-jyotirlinga/)
+- [The Twelve Jyotirliṅga incarnations (Śatarudra Saṃhitā Ch. 42) — Wisdomlib](https://www.wisdomlib.org/hinduism/book/shiva-purana-english/d/doc226438.html) — text announces 64 but names only the twelve

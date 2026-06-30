@@ -52,6 +52,18 @@ The architecture is text-bound: a temple is "correct" only if measured per the *
 
 ---
 
+## IV. Consecrating the Built Temple — Kumbhābhiṣeka
+
+A finished *prāsāda* is inert stone until it is ritually **vivified**. This is the consecration of the **building itself** — distinct from, though completed by, the *prāṇa-pratiṣṭhā* ("breath-installation") that animates the *mūrti*, covered in [`../05-concepts-and-dharma/mantra-japa-and-murti-puja.md`](../05-concepts-and-dharma/mantra-japa-and-murti-puja.md). The rite is governed by the **kriyāpāda** (ritual-action quarter) of the **Āgamas**, not by the *śilpa/vāstu* manuals of §III, which stop at the measuring and raising of the structure. (Source: Wikipedia, *Kumbhabhishekam*; *Agama (Hinduism)*) [Āgamic]
+
+- **Kumbhābhiṣeka — the grand consecration ("pot-lustration")** — the climactic, multi-day rite that **brings the temple to life**: after a *yāgaśālā* (sacrificial pavilion) is raised and the deity's power invoked into rows of consecrated water-pots (*kalaśa/kumbha*) through fire-oblation (*homa*) and mantra, the charged waters are carried up and **poured over the finial-pots (*kalaśa/stūpī*) crowning the *vimāna* and the *gopuram*s** — the *abhiṣeka* of the *kumbha*s that gives the rite its name. The descent of the sanctified water down the tower transmits the invoked divine energy through the whole structure. (Source: Wikipedia, *Kumbhabhishekam*) [Āgamic]
+  - *Aṣṭabandhana — the "eight-binding":* the ritual cement — a paste compounded of (by tradition) **eight ingredients** (resin, beeswax, limestone-powder, red ochre, *etc.*) — with which the *mūrti* is **fixed to its pedestal (*pīṭha/āvuṭai*)** in the sanctum; its renewal is the structural pretext for the periodic re-consecration. (Source: Wikipedia, *Kumbhabhishekam*; *Murti*) [South Indian]
+  - *Dhvajārohaṇa — the flag-hoisting:* the raising of the temple **banner up the *dhvaja-stambha*** (flagstaff before the sanctum) inaugurates the rite (and, in the same form, opens the great festivals — *brahmotsava*); the dhvaja as emblem cross-refs the flag entry in [`./sacred-symbols-and-emblems.md`](sacred-symbols-and-emblems.md). (Source: Wikipedia, *Kumbhabhishekam*; *Dhvaja*) [Āgamic]
+  - *Mahā-kumbhābhiṣeka — the re-consecration cycle:* the consecration is **not once-for-all**. By Āgamic prescription the temple is **re-consecrated roughly every twelve years** (the cycle coinciding with renewal of the *aṣṭabandhana* and renovation of the fabric), the grand repeat being the **mahā-kumbhābhiṣeka**; a temple whose cycle has lapsed is held to have **lost potency** until renewed. (Source: Wikipedia, *Kumbhabhishekam*) [South Indian · living practice]
+  - *Variant — sectarian manual divergence:* the procedure is **not uniform** — it follows the worshipping community's **Āgama**. **Śaiva** temples consecrate per the *Śaivāgamas* (e.g. *Kāmika*, *Kāraṇa*); **Vaiṣṇava** temples split between the two rival ritual schools — the **Vaikhānasa** (held the older, *Veda*-aligned tradition) and the **Pāñcarātra** — whose *saṃhitā*s prescribe differing *kalaśa*-counts, mantras and sequence. The *śilpa* texts measure the building; the *Āgama* of the lineage consecrates it. (Source: Wikipedia, *Vaikhanasas*; *Pancharatra*; *Shaiva Agamas*) [sectarian variant]
+
+---
+
 ## Sources
 
 - *Hindu temple architecture* — Wikipedia. https://en.wikipedia.org/wiki/Hindu_temple_architecture
@@ -79,3 +91,8 @@ The architecture is text-bound: a temple is "correct" only if measured per the *
 - *Agni Purana* — Wikipedia. https://en.wikipedia.org/wiki/Agni_Purana
 - *Matsya Purana* — Wikipedia. https://en.wikipedia.org/wiki/Matsya_Purana
 - *Indian temple architecture* — Encyclopaedia Britannica. https://www.britannica.com/art/South-Asian-arts
+- *Kumbhabhishekam* — Wikipedia. https://en.wikipedia.org/wiki/Kumbhabhishekam
+- *Agama (Hinduism)* — Wikipedia. https://en.wikipedia.org/wiki/Agama_(Hinduism)
+- *Vaikhanasas* — Wikipedia. https://en.wikipedia.org/wiki/Vaikhanasas
+- *Pancharatra* — Wikipedia. https://en.wikipedia.org/wiki/Pancharatra
+- *Shaiva Agamas* — Wikipedia. https://en.wikipedia.org/wiki/Shaiva_Agamas

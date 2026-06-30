@@ -188,6 +188,36 @@ A competing tradition makes Sarasvatī originally a wife of **Viṣṇu/Nārāya
 - **Śāradā of Kashmir** — the presiding goddess of **Śāradā Pīṭha** (6th–12th c. CE), one of the great
   *Śakti pīṭhas* and a renowned ancient centre of learning; the Kashmiri script is called *Śāradā* after
   her, and Kashmiri Paṇḍits hold her as patroness of letters. (Historical / Śākta)
+- **Śāradāmbā of Śṛṅgerī** — at the southern seat of **Śṛṅgerī** (Śṛṅgagiri, on the **Tuṅgā** river in
+  Karnataka), Sarasvatī is worshipped as the living Devī **Śāradāmbā** ("Mother Śāradā") — not merely as
+  the institution of the Śaṅkarācārya *maṭha*, but as a presiding goddess of *vidyā* with her own temple
+  and daily *pūjā*. (Historical / Śākta; Śṛṅgerī Maṭha tradition)
+  - **Installation legend** — in the *digvijaya* hagiography, **Ādi Śaṅkara**, completing his "conquest of
+    the directions," chooses Śṛṅgerī for the southern **Śāradā Pīṭha** and there installs the goddess of
+    learning, establishing the first of his four cardinal seats (the Veda-seat of the South). The original
+    *mūrti* he consecrates is said to be a **sandalwood (candana) image**; it is later replaced by the
+    standing/seated **gold (or pañcaloha) image** attributed to **Vidyāraṇya** (Mādhava, 14th c., the
+    Śṛṅgerī pontiff and traditional author of the *Madhavīya Śaṅkara-Digvijaya*), who is also credited with
+    rebuilding the temple in stone. (Śṛṅgerī Maṭha tradition; *Madhavīya Śaṅkara-Digvijaya*) [folk]
+  - **The two temples** — the site centres on the **Śāradāmbā temple** (housing the goddess) and the
+    adjacent **Vidyāśaṅkara temple** (a 14th-c. Hoysala–Vijayanagara shrine commemorating the guru
+    Vidyāśaṅkara/Vidyātīrtha), the architectural heart of the Śṛṅgerī complex. (Historical)
+  - **Iconography** — Śāradāmbā is shown as the goddess of *vidyā* in classic Sarasvatī form: seated (in the
+    gold image, enthroned), bearing the **vīṇā**, the **pustaka** (book) and the **akṣamālā** (rosary) — the
+    same emblems catalogued in Part VI, here fixed as the cult-image of the southern lineage. (Iconographic)
+  - **Veda-seat of the southern lineage** — Śāradāmbā is the **presiding deity** of the Śṛṅgerī
+    Śaṅkarācārya lineage (the *Daśanāmī* southern *āmnāya*), whose pontiffs hold the title *Jagadguru* and
+    whose authority descends from Śaṅkara through Sureśvara and the Śṛṅgerī succession; the goddess *is* the
+    *vidyā* the *maṭha* guards, so her worship and the Advaita-Vedānta teaching seat are one institution.
+    (Śṛṅgerī Maṭha tradition) — see [`../07-acharyas-and-sampradayas/adi-shankara.md`](../07-acharyas-and-sampradayas/adi-shankara.md)
+    for the *digvijaya* and four-pīṭha scheme, and [`shiva-myth-cycle.md`](shiva-myth-cycle.md) for
+    **Dakṣiṇāmūrti** (Śiva as the silent south-facing Guru), the Śaiva–Advaita archetype of the *guru* the
+    Śāradā seat embodies.
+  - **Relation to the other Śāradā seats** — within the *dig-vijaya* tradition Śṛṅgerī's Śāradā is held to
+    be of one essence with the **Kashmir Śāradā Pīṭha** (above): the hagiographies link the two by having
+    Śaṅkara himself mount the *Sarvajña-pīṭha* ("seat of omniscience") at the Kashmir Śāradā shrine, so the
+    northern learning-seat of the goddess and his southern installation of her mirror each other as the two
+    poles of the one Śāradā cult of letters. (Śṛṅgerī / Śaṅkara hagiography) [folk] [disputed]
 - **Matangī — the Tantric Sarasvatī** — among the **Daśa Mahāvidyā**, Matangī is "the Tantric Sarasvatī,"
   goddess of speech, music, and inner/forbidden knowledge — the left-hand, *ucchiṣṭa* (impure-offering)
   counterpart to the pure white Sarasvatī. (Tantric; see
@@ -241,6 +271,9 @@ A competing tradition makes Sarasvatī originally a wife of **Viṣṇu/Nārāya
 - **Mahābhārata** (Śalya Parva) — Sthāṇu-tīrtha / river-of-blood (Viśvāmitra & Vasiṣṭha) and the Vaḍava-fire
   myth.
 - **Suvarṇaprabhāsa Sūtra (Golden Light Sutra)** — Buddhist Sarasvatī; basis of Benzaiten.
+- **Madhavīya Śaṅkara-Digvijaya / Śṛṅgerī Maṭha tradition** — Ādi Śaṅkara's installation of Śāradā at
+  Śṛṅgerī on the Tuṅgā, the sandalwood→gold (Vidyāraṇya) image, the Vidyāśaṅkara and Śāradāmbā temples, and
+  the *Sarvajña-pīṭha* at the Kashmir Śāradā shrine.
 - Reference / encyclopaedic: [Saraswati — Wikipedia](https://en.wikipedia.org/wiki/Saraswati);
   [Saraswati — Britannica](https://www.britannica.com/topic/Saraswati);
   [Saraswati — World History Encyclopedia](https://www.worldhistory.org/Sarasvati/);
