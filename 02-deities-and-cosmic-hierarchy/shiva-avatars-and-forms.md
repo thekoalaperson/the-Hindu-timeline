@@ -23,7 +23,7 @@ The canonical fierce/ascetic descent-list. Order varies by edition; identity is 
 - **Piplāda (Pippalāda)** - Born to sage Dadhīci's line; abandoned as a child, he cursed **Śani (Saturn)** for the suffering Saturn's gaze causes, winning the boon that Śani would not afflict children under 16. Associated with the *Praśna Upaniṣad*'s teacher of the same name. (*Śiva Purāṇa*)
 - **Nandīśvara (Nandi)** - The bull-faced gaṇa-lord, born to sage Śilāda by Śiva's grace; made chief of Śiva's hosts and the eternal *dvārapāla* (gatekeeper) and *vāhana*. See also [Beings & Bestiary](../08-beings-and-bestiary/README.md). (*Śiva Purāṇa*; *Liṅga Purāṇa*)
 - **Vīrabhadra (Veerabhadra)** - The towering wrathful warrior sprung from a lock of Śiva's matted hair after **Satī's** self-immolation; he destroys **Dakṣa's sacrifice** and beheads Dakṣa. Central to the [Sati–Daksha arc](sati-daksha-and-parvati.md). (*Śiva Purāṇa*; *Bhāgavata Purāṇa* 4.5)
-- **Bhairava** - Emanated when Śiva, as Mahākāla, severs **Brahmā's fifth (arrogant) head** with a thumbnail; condemned to wander as **Kāla-Bhairava / Kapālika** bearing the skull (*Brahmahatyā*) until released at Kāśī. Guardian (*kṣetrapāla*) of Vārāṇasī; 8 sub-forms (Aṣṭa-Bhairava). (*Śiva Purāṇa*; *Skanda Purāṇa, Kāśī Khaṇḍa*)
+- **Bhairava** - Emanated when Śiva, as Mahākāla, severs **Brahmā's fifth (arrogant) head** with a thumbnail; condemned to wander as **Kāla-Bhairava / Kapālika** bearing the skull (*Brahmahatyā*) until released at Kāśī. Guardian (*kṣetrapāla*) of Vārāṇasī; 8 sub-forms (Aṣṭa-Bhairava) — enumerated in §E below. (*Śiva Purāṇa*; *Skanda Purāṇa, Kāśī Khaṇḍa*)
   - *Variant (folk/Tantric):* called **Daṇḍapāṇi** ("staff-bearer"), the judicial executor at Kāśī. [folk]
 - **Śarabha (Sharabha)** - The colossal part-lion, part-bird (eight-legged) form Śiva assumes to **pacify Vishnu's Narasiṃha** when his fury threatens the cosmos; a flashpoint of Śaiva–Vaiṣṇava sectarian rivalry. See [Dashavatara §Narasimha](dashavatara.md). (*Śiva Purāṇa*; *Śarabha Upaniṣad*)
   - *Variant (Vaiṣṇava counter):* the *Vaiṣṇava* texts have Narasiṃha then become **Gaṇḍabheruṇḍa** (two-headed bird) and overpower Śarabha — the inverse polemic. [disputed]
@@ -121,6 +121,27 @@ The Śaiva Āgamas enumerate **25 (or 64) Maheśvara-mūrti**, sorted into *saum
 - **Vīrabhadra** - see Avatar list; the destroyer of Dakṣa's yajña.
 - **Jalandharavadha** - Śiva slaying the asura **Jalandhara** (born of his own brow-fire) by cutting him with a *cakra* drawn from his toe. (*Śiva Purāṇa, Rudra Saṃhitā, Yuddha Khaṇḍa*)
 
+#### Aṣṭa-Bhairava — the 8 sub-forms of Bhairava
+
+The eight *kṣetrapāla*-Bhairavas emanated from the supreme **Kāla-Bhairava** (see Avatar §A and the fierce-form entry above), each guarding one of the eight directions (*aṣṭa-dik*) and presiding over a city-gate or temple-circuit. In the Śrī Vidyā / Śrī Chakra schema they **pair one-to-one with the eight Mātṛkās** (Brāhmī, Māheśvarī, Kaumārī, Vaiṣṇavī, Vārāhī, Indrāṇī/Aindrī, Cāmuṇḍā, Mahālakṣmī), each Bhairava taking the corresponding Śakti as consort; and each presides over **eight further sub-Bhairavas, yielding the 64 Bhairavas** (*Catuḥṣaṣṭi-Bhairava*) of Tantric ritual. They anchor the Bhairava temple-circuits — the eight guardians of **Kāśī** (Vārāṇasī), the **Ujjain** Mahākāla complex, and (by adjacency/assimilation) the Tamil **Aṣṭa-Vīraṭṭānam** eight-feat shrines. (*Skanda Purāṇa, Kāśī Khaṇḍa*; *Rudrayāmala*; *Śiva Purāṇa*)
+
+| # | Bhairava | Dik (direction) | Śakti / Mātṛkā | Vāhana | Ritual role / domain |
+|---|---|---|---|---|---|
+| 1 | **Asitāṅga** ("black-limbed") | East (*pūrva*) | Brāhmī | haṃsa (swan) | creative/saumya pole; grantor of artistic skill, presides over creation (*sṛṣṭi*) |
+| 2 | **Ruru** ("fierce/hound-like") | South-East (*āgneya*) | Māheśvarī | ṛṣabha (bull) | jñāna-grantor; ripens *prārabdha-karma*, presides over learning |
+| 3 | **Caṇḍa** ("violent") | South (*dakṣiṇa*) | Kaumārī | mayūra (peacock) | destroyer of pride/*ahaṃkāra*; energy and martial valour |
+| 4 | **Krodha** ("wrathful") | South-West (*nairṛti*) | Vaiṣṇavī | garuḍa (eagle) | grantor of fearlessness; presides over preservation (*sthiti*) |
+| 5 | **Unmatta** ("frenzied/intoxicated") | West (*paścima*) | Vārāhī | aśva (horse) | dissolver of negativity; subdues ego and madness |
+| 6 | **Kapāla** ("skull-bearer") | North-West (*vāyavya*) | Indrāṇī (Aindrī) | gaja (elephant) | renders action fruitless (*karma-nivṛtti*); the begging/penitential pole |
+| 7 | **Bhīṣaṇa** ("terrifying") | North (*uttara*) | Cāmuṇḍā | (kapāla / preta) | destroyer of evil spirits and obstacles; protective *kṣetrapāla* |
+| 8 | **Saṃhāra** ("the destroyer") | Upward / North-East (*īśāna*) | Mahālakṣmī | śva (dog) | annihilation/reabsorption (*pralaya*); presides over destruction and grace |
+
+> *Variant directional/vāhana assignments* vary by Āgama and *sthala-purāṇa* (e.g. Saṃhāra is placed in the zenith/north-east in some lists, the dog-vāhana belonging to the supreme Kāla-Bhairava generally). [Tantric — assignments vary by source]
+>
+> *Variant (Vāmana Purāṇa):* gives a **wholly different eight-name list — Vidyārāja, Kālarāja, Vighnarāja, Krodharāja, Mahābhairava, Vighnabhairava** (and further *…-rāja* names) — i.e. a "*-rāja*" octad not matching the standard Asitāṅga-series above. [variant — divergent enumeration]
+>
+> *Note:* the Aṣṭa-Bhairava overlap the Pañcakṛtya scheme (creation→Asitāṅga, destruction→Saṃhāra) and the Mātṛkā-Śakti rosters of [Devī-Māhātmya](devi-mahatmya-and-the-great-goddess.md) — interpenetrating layers, not disjoint sets.
+
 > *Variant rosters:* the *Aṃśumadbhedāgama* and *Kāmikāgama* fix the **25 Maheśvara-mūrti** canon (varying slightly: adding **Vṛṣabhavāhana, Sukhāsana, Umā-Maheśvara, Vaivāhika/Kalyāṇasundara, Naṭarāja, Cakradāna, Viṣāpaharaṇa/Nīlakaṇṭha, etc.**). Tamil Śaiva-siddhānta and the **63 Nāyaṉmār** hymnody add devotional sub-forms. [Āgamic/sectarian — roster open-ended]
 
 ---
@@ -149,6 +170,7 @@ The Śaiva Āgamas enumerate **25 (or 64) Maheśvara-mūrti**, sorted into *saum
 - *Bhāgavata Purāṇa* 3.12 (11 Rudras), 4.5 (Vīrabhadra).
 - *Mahābhārata* (Kirāta/Pāśupatāstra; Aśvatthāmā; epic Rudra-lists); *Śarabha Upaniṣad*; *Pañcabrahma Upaniṣad*; *Kena Upaniṣad* (Yakṣa parallel).
 - Śaiva Āgamas (*Kāmika*, *Aṃśumadbheda*) — 25 Maheśvara-mūrti.
+- *Skanda Purāṇa, Kāśī Khaṇḍa*; *Rudrayāmala Tantra* — the Aṣṭa-Bhairava (directions, Śaktis, vāhanas) and the 64-Bhairava expansion; *Vāmana Purāṇa* — the variant *Vidyārāja/Kālarāja* octad.
 - Wikipedia, ["Astamurti"](https://en.wikipedia.org/wiki/Astamurti) and ["Rudras"](https://en.wikipedia.org/wiki/Rudras) — Aṣṭamūrti names/elements and the variant 11-Rudra lists.
 - Wikipedia, ["Pañcānana"](https://en.wikipedia.org/wiki/Pa%C3%B1c%C4%81nana) and ["Shiva"](https://en.wikipedia.org/wiki/Shiva) — five faces (directions/elements) and the principal aspect-forms.
 - VedicFeed, ["19 Avatars of Lord Shiva"](https://vedicfeed.com/avatars-of-shiva/) — the *Śiva Purāṇa* 19-avatar enumeration.

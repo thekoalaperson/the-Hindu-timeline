@@ -77,7 +77,26 @@
 
 ---
 
-## 4. Cross-references
+## 4. Mendicant & Penitential Forms — the Dāruka-vana etiology
+
+- **Bhikṣāṭana & the Dāruka-vana (pine-forest) myth — how Śiva won his attributes** — Śiva wanders the **Dāruka-vana** (Tāraka pine-forest) as **Bhikṣāṭana**, the supremely beautiful, naked, ash-smeared mendicant carrying a begging-bowl, in order to humble a colony of arrogant **Mīmāṃsaka / atheist (heretical) ṛṣis** who believe ritual action (karma) alone — not Śiva's grace — compels the cosmos. His beauty maddens the sages' wives (and daughters), who abandon their husbands to follow him, while **Viṣṇu as Mohinī** simultaneously deludes the sages themselves — exposing that their boasted self-control was hollow. The enraged ṛṣis perform black sacrifices and hurl their conjured weapons at him one by one, **each of which Śiva subdues and takes as a permanent attribute**: a **tiger** (→ tiger-skin, *vyāghrāmbara*), a **serpent/cobra** (→ the snake garland), the dwarf **Apasmāra/Muyalaka** (→ trampled underfoot as Naṭarāja's ignorance), **fire (agni)** (→ held in the hand), a **ḍamaru** drum, an antelope/deer, and a parasol-axe; finally he dances the **tāṇḍava** upon the dwarf and the sages submit. (*Liṅga Purāṇa; Kūrma Purāṇa; Vāmana Purāṇa; Śiva Purāṇa; Sūta Saṃhitā; Tamil Śaiva sthala-purāṇa*) [the **etiological charter for Śiva's entire core iconography** — tiger-skin, snake, dwarf, fire, drum are all here given a single origin] — the same Apasmāra dwarf and ḍamaru/agni reappear in the Naṭarāja pañcakṛtya at §1, and the naked-beggar form is the same **Bhikṣāṭana / Kapālin** vow incurred in the Bhairava myth at §3.
+  - *Variant (the seduction read as grace):* the wives' "infatuation" is reinterpreted in Śaiva Siddhānta as the soul's irresistible draw to God; the episode humbles the ritualists' pride in karma-mīmāṃsā and proves that **devotion/grace, not mechanical sacrifice, governs liberation**. (*Śaiva Siddhānta exegesis [scholarly]*)
+  - *Variant (Viṣṇu's role):* in tellings where Mohinī is absent, Viṣṇu instead accompanies Śiva or the deluding is done by Śiva alone; the "begging through the forest" is sometimes folded into the **Bhairava expiation** (begging with the kapāla to shed brahmahatyā), the two mendicant myths being frequently merged. (*Purāṇic variation*)
+  - *Iconographic note:* **Bhikṣāṭana-mūrti** (the wandering nude beggar with bowl, attended by a dwarf gaṇa and lovestruck women) is a major South-Indian bronze type, theologically continuous with Naṭarāja. [scholarly]
+
+- **Kaṅkālamūrti — the skeleton-bearer** — the continuous penitential form of the Dāruka-vana/Bhairava wandering: Śiva roams as a begging ascetic bearing the **kaṅkāla** (skeleton / bone-staff) of **Viṣvaksena**, Viṣṇu's gatekeeper-commander, whom Śiva (as Bhairava) slew with his trident when Viṣvaksena barred his entry to Viṣṇu's abode during the brahmahatyā wandering. He carries the skeleton impaled on his triśūla over his shoulder as he begs, expiating the killing — the bone-staff (**kaṅkāla-daṇḍa**) being the form's defining emblem. (*Kāraṇāgama; Śaiva Āgama / śilpa tradition; sthala-purāṇa*) — Kaṅkālamūrti is iconographically the "elder/fierce" twin of the youthful **Bhikṣāṭana**, and continues the skull-bowl penance of **Kāla Bhairava** at §3.
+
+---
+
+## 5. The Sacred Sports — the 64 Līlās / Tiruviḷaiyāḍal
+
+- **The 64 Līlās of Śiva (Tiruviḷaiyāḍal) — the divine sports of Sundareśvara at Madurai** — the Tamil Śaiva counterpart to the northern Purāṇic deed-list: a cycle of **sixty-four (64) sacred sports/games (tiruviḷaiyāḍal)** in which Śiva as **Sundareśvara** ("the beautiful lord," consort of **Mīnākṣī**) repeatedly intervenes in the affairs of the Pāṇḍya capital **Madurai (Maturai)**. The cycle is foundational to **Mīnākṣī-Sundareśvara temple theology**, codified in the **Tiruviḷaiyāḍal Purāṇam** (Perumpaṟṟappuliyūr Nampi, and the canonical version of **Paranjothi Munivar**, c. 17th c.) and the Sanskrit **Hālāsya Māhātmya** (the Madurai sthala-purāṇa). (*Tiruviḷaiyāḍal Purāṇam; Hālāsya Māhātmya / Skanda Purāṇa; Tamil Śaiva tradition*) [Tamil Śaiva deed-cycle — regional counterpart to the all-India Purāṇic roster above] — cross-link the Madurai sthala-purāṇa and the **Mīnākṣī kalyāṇa** in [`../03-lineages-vamsha/suryavamsha-and-chandravamsha.md`](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) (Pāṇḍya context) and the broader sthala-purāṇa corpus in [`../90-literature-corpus/smriti-puranas.md`](../90-literature-corpus/smriti-puranas.md).
+  - *Representative sports (from the 64):* Śiva **carrying earth/sand for the embankment in exchange for a cake of piṭṭu (rice-pudding)** for the old woman Vandi, and taking a blow from the Pāṇḍya king's cane (felt by all beings); the **Tamil poetry-contest with Nakkīrar**, where the poet faults even a verse Śiva himself authored and is scorched by the third eye for his obstinacy; Śiva **selling bangles** to the women of Madurai; the **stone elephant that comes alive and eats sugarcane**; **opening / convening the Tamil Sangam** and validating Tamil; turning **jackals into horses** (and back) for the king; sending the **seven clouds** and the great flood that frames the city. (*Tiruviḷaiyāḍal Purāṇam*)
+  - *Doctrinal note:* the **līlā** framing — that all of Śiva's acts are free, gratuitous "play" rather than necessity — is the Tamil-bhakti key to the cycle; the sports stage Śiva as an intimate, locally-present deity of Madurai rather than the transcendent Absolute of §1. [living tradition / Tamil Śaiva bhakti]
+
+---
+
+## 6. Cross-references
 - Śiva's slot in the Trimūrti, consorts, and the Lingodbhava summary with ketakī/cow variants: [`trimurti-and-tridevi.md`](trimurti-and-tridevi.md)
 - The destruction these deeds embody, on the cosmic clock: [`../00-time-and-cosmology/kalpa-and-pralaya.md`](../00-time-and-cosmology/kalpa-and-pralaya.md), [`../00-time-and-cosmology/units-of-time.md`](../00-time-and-cosmology/units-of-time.md)
 - Devas/asuras and the lokas the demons besiege: [`devas-asuras-and-the-lokas.md`](devas-asuras-and-the-lokas.md)
@@ -87,7 +106,7 @@
 
 ## Sources
 
-**Scriptural / primary:** Ṛgveda 7.59.12 (Tryambaka / Mahā-Mṛtyuñjaya mantra); Mahābhārata (Ādi Parva — ocean-churning; Karṇa Parva — Tripura-dahana chariot); Rāmāyaṇa Bāla Kāṇḍa (Gaṅgāvataraṇa); Bhāgavata Purāṇa (8.7 — Hālāhala); Viṣṇu Purāṇa; Śiva Purāṇa (Vidyeśvara-, Rudra-, Śatarudra-, Yuddha-saṃhitās); Liṅga Purāṇa; Kūrma Purāṇa; Vāyu Purāṇa; Matsya Purāṇa; Skanda Purāṇa; Padma Purāṇa; Mārkaṇḍeya Purāṇa; Devī-Bhāgavata Purāṇa; Kālikā Purāṇa; Kālidāsa, Kumārasaṃbhava; Tirumular, Tirumantiram; Śaṅkara, Dakṣiṇāmūrti Stotra.
+**Scriptural / primary:** Ṛgveda 7.59.12 (Tryambaka / Mahā-Mṛtyuñjaya mantra); Mahābhārata (Ādi Parva — ocean-churning; Karṇa Parva — Tripura-dahana chariot); Rāmāyaṇa Bāla Kāṇḍa (Gaṅgāvataraṇa); Bhāgavata Purāṇa (8.7 — Hālāhala); Viṣṇu Purāṇa; Śiva Purāṇa (Vidyeśvara-, Rudra-, Śatarudra-, Yuddha-saṃhitās); Liṅga Purāṇa; Kūrma Purāṇa; Vāyu Purāṇa; Vāmana Purāṇa; Matsya Purāṇa; Skanda Purāṇa; Padma Purāṇa; Mārkaṇḍeya Purāṇa; Devī-Bhāgavata Purāṇa; Kālikā Purāṇa; Sūta Saṃhitā; Kāraṇāgama (Śaiva Āgama); Hālāsya Māhātmya (Madurai sthala-purāṇa); Tiruviḷaiyāḍal Purāṇam (Paranjothi Munivar; Perumpaṟṟappuliyūr Nampi); Kālidāsa, Kumārasaṃbhava; Tirumular, Tirumantiram; Śaṅkara, Dakṣiṇāmūrti Stotra.
 
 **Web / reference:**
 - [Tripurantaka — Wikipedia](https://en.wikipedia.org/wiki/Tripurantaka)
@@ -103,3 +122,10 @@
 - [Gajasurasamhara — Wikipedia](https://en.wikipedia.org/wiki/Gajasurasamhara)
 - [Andhaka — Wikipedia](https://en.wikipedia.org/wiki/Andhaka)
 - [Jalandhara is slain (Shiva Purana ch. 24) — Wisdom Library](https://www.wisdomlib.org/hinduism/book/shiva-purana-english/d/doc226165.html)
+- [Bhikshatana — Wikipedia](https://en.wikipedia.org/wiki/Bhikshatana)
+- [Kankalamurti — Wikipedia](https://en.wikipedia.org/wiki/Kankalamurti)
+- [Pine Forest (Daruka-vana / Tarakavana) myth — Wikipedia](https://en.wikipedia.org/wiki/Bhikshatana)
+- [Apasmara — Wikipedia](https://en.wikipedia.org/wiki/Apasmara)
+- [Tiruvilaiyadal Puranam — Wikipedia](https://en.wikipedia.org/wiki/Tiruvilaiyadal_Puranam)
+- [Meenakshi Temple (sthala-purana / 64 sports) — Wikipedia](https://en.wikipedia.org/wiki/Meenakshi_Temple)
+- [Nakkeerar — Wikipedia](https://en.wikipedia.org/wiki/Nakkeerar)

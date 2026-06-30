@@ -76,13 +76,17 @@ Beyond Jambudvīpa, the Purāṇic earth is a flat **bhū-maṇḍala** of **sev
 
 ---
 
-## V. Other named mountains: Mandara & Maināka
+## V. Other named mountains: Mandara, Maināka, Mahendragiri & Indrakīla
 
 - **Mandara** — the buttress-peak (above, §I) requisitioned as the **churning-rod of the [Samudra Manthana](../02-deities-and-cosmic-hierarchy/dashavatara.md)** (Churning of the Ocean of Milk): devas and asuras wind the serpent **Vāsuki** around it as the rope; when it begins to sink, **Viṣṇu as Kūrma** (the tortoise, 2nd avatāra) bears it on his back. From the churning rise the fourteen *ratnas* (Lakṣmī, the moon, Airāvata, Ucchaiḥśravas, the *amṛta*, etc.). (*Bhāgavata Purāṇa* 8.6–8; *Mahābhārata*, Ādi-parva; *Viṣṇu Purāṇa* 1.9)
 - **Maināka** — son of **Himavat** (the Himālaya personified) and brother of **Gaṅgā** and **Pārvatī**; the one mountain that **kept its wings**. (*Rāmāyaṇa*; *Brahmāṇḍa Purāṇa*; *Kathāsaritsāgara*)
   - **The winged mountains myth** — in primeval ages mountains **had wings** and flew about, crushing settlements when they landed; **Indra sheared off their wings** with his *vajra* to fix them in place. **Vāyu** (wind-god) spirited away his friend Maināka and hid him **in the ocean**, so Maināka alone retained his wings. (*Brahmāṇḍa Purāṇa*; *Kathāsaritsāgara*)
   - **Maināka & Hanumān** — when **Hanumān** leaps across the ocean to Laṅkā ([Sundara-kāṇḍa](../02-deities-and-cosmic-hierarchy/hanuman.md)), Maināka rises from the sea to offer him rest (a debt repaid to the wind-god, Hanumān's father); Hanumān touches it in courtesy but flies on. (*Rāmāyaṇa*, Sundara-kāṇḍa)
 - **Gandhamādana, Niṣadha, Trikūṭa** — further named peaks: **Gandhamādana** (fragrant mountain near Badari, a tapas-site of the [Saptaṛṣis](../02-deities-and-cosmic-hierarchy/saptarishi.md) and of Hanumān's herb-quest); **Trikūṭa**, the three-peaked golden mountain on which **Laṅkā** is built. (*Mahābhārata*; *Rāmāyaṇa*)
+- **Mahendragiri** — the great peak of the **Mahendra** kula-parvata (the Eastern Ghāts, in the Ganjam district of southern Odisha; cf. §VI), revered less as a range than as the **eternal abode of [Paraśurāma](../02-deities-and-cosmic-hierarchy/dashavatara.md)** (the immortal sixth avatāra, a *cirañjīvī*): after exterminating the kṣatriyas twenty-one times and then **ceding the conquered earth to Kaśyapa / to Rāma Dāśarathi**, Paraśurāma withdrew from worldly action and **retired to Mahendragiri to perform tapas until the end of the age** — making the mountain a living Paraśurāma-tīrtha rather than a mere geographic marker. (*Mahābhārata*, Vana-parva & Śānti-parva; *Rāmāyaṇa*, Bāla-kāṇḍa; *Bhārgava* legends)
+  - **Hanumān's launch-point** — in the *Rāmāyaṇa* it is from the summit of **Mahendra(giri)** that **Hanumān makes his great leap across the ocean to Laṅkā**; he treads the peak down under the force of his spring at the opening of the [Sundara-kāṇḍa](../02-deities-and-cosmic-hierarchy/hanuman.md). (*Rāmāyaṇa*, Kiṣkindhā- & Sundara-kāṇḍa)
+    - *Variant (which Mahendra):* the leap-mountain is sometimes localised to a southern (Malaya-region) Mahendra near the sea rather than the Odishan kula-parvata; the texts conflate **Mahendra the kula-parvata** and **Mahendra the coastal leap-peak**. [disputed]
+- **Indrakīla** — a Himalayan peak (set near the **Gandhamādana** country) where, during the [Pāṇḍavas'](../04-deep-dives/characters/arjuna.md) forest exile, **Arjuna performed severe tapas** to win celestial weapons; there he fought **[Śiva] disguised as a Kirāta** (mountain-hunter) over a slain boar, and on being recognised was granted the **[Pāśupatāstra](../09-artifacts-symbols-and-arts/divyastras-and-divine-weapons.md)** — the episode forming the core of **Bhāravi's** Sanskrit *mahākāvya* the ***Kirātārjunīya***. (*Mahābhārata*, Vana-parva, Kairāta-parva; Bhāravi, *Kirātārjunīya*)
 
 ---
 
@@ -90,7 +94,7 @@ Beyond Jambudvīpa, the Purāṇic earth is a flat **bhū-maṇḍala** of **sev
 
 Within Bhārata-varṣa itself the texts name **seven kula-parvatas** ("clan / principal mountains") — the major ranges that frame the regions of India proper, distinct from the cosmographic varṣa-parvatas:
 
-- **Mahendra** — the Eastern Ghāts (Odisha–Andhra). (*Viṣṇu Purāṇa* 2.3; *Matsya Purāṇa* 114)
+- **Mahendra** — the Eastern Ghāts (Odisha–Andhra); its peak **Mahendragiri** is Paraśurāma's abode and Hanumān's leap-point — see §V above. (*Viṣṇu Purāṇa* 2.3; *Matsya Purāṇa* 114)
 - **Malaya** — the southern Western Ghāts / Kerala (sandalwood country).
 - **Sahya** — the (northern) Western Ghāts (Sahyādri).
 - **Śuktimat (Śuktimān)** — variously placed (eastern/central India).
@@ -127,4 +131,5 @@ See also: [the fourteen lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-a
 - Wisdomlib — *[Saptadvīpa](https://www.wisdomlib.org/definition/saptadvipa)*; *[Kulaparvata](https://www.wisdomlib.org/definition/kulaparvata)*; *[Mount Meru](https://www.wisdomlib.org/concept/mount-meru)*; *Brahma Purāṇa* ch. 16, *[Seven Continents (sapta-dvīpa)](https://www.wisdomlib.org/hinduism/book/brahma-purana-english/d/doc216086.html)*
 - Wisdomlib / Internet Sacred Text Archive — *Viṣṇu Purāṇa* bk. II ch. 2–4, *[Description of Bhārata-varṣa](https://www.wisdomlib.org/hinduism/book/vishnu-purana-wilson/d/doc115962.html)* and *[topographical lists](https://sacred-texts.com/hin/vp/vp061.htm)* (Wilson trans.)
 - Encyclopaedia Britannica — *[Mount Meru (mythology)](https://www.britannica.com/topic/Mount-Meru-mythology)*
+- Wikipedia — *[Mahendragiri (Odisha)](https://en.wikipedia.org/wiki/Mahendragiri_(Odisha))* (Paraśurāma's abode, Hanumān's leap); *[Kirātārjunīya](https://en.wikipedia.org/wiki/Kir%C4%81t%C4%81rjun%C4%ABya)* (Indrakīla, Arjuna's tapas, Pāśupatāstra)
 - Scripture: **Bhāgavata Purāṇa** bk. 5 (chs. 16–26) & bk. 8 (Samudra Manthana); **Viṣṇu Purāṇa** bk. 2; **Matsya Purāṇa** ch. 114; **Mārkaṇḍeya, Brahmāṇḍa & Brahma Purāṇas**; **Mahābhārata** (Bhīṣma- & Ādi-parva); **Vālmīki Rāmāyaṇa** (Sundara- & Uttara-kāṇḍa); **Sūrya-Siddhānta** ch. 12; **Śiva & Liṅga Purāṇas** (Kailāsa)

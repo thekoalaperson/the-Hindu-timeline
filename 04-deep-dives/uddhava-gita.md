@@ -72,6 +72,19 @@ The narrative jewel of the Uddhava Gītā: to teach renunciation, Kṛṣṇa re
 
 ---
 
+## The Bhikṣu-gītā — the Avantī Brāhmaṇa's "Song of the Mendicant" (11.23)
+
+The third of the named Gītās set inside the Uddhava-gītā cluster — alongside the **Piṅgalā** parable (11.8) and the **Haṃsa-avatāra** discourse (11.13) treated above — is the **Bhikṣu-gītā** ("Song of the Mendicant / Renunciate"), also titled the **Song of the Avantī Brāhmaṇa**. Kṛṣṇa recites it in **Bhāgavata Purāṇa 11.23** to drive home the chapter's lesson of **titikṣā (forbearance)**: that the mind alone is the cause of bondage and freedom.
+
+- **The frame** - Uddhava asks how the devotee should bear the abuse and injury inflicted by others. Kṛṣṇa answers not with argument but with an old song — one that an **enlightened mendicant (bhikṣu)** had himself composed after passing through suffering — and so the inset is named the **Bhikṣu-gītā**. (Bhāgavata 11.23.1–10)
+- **The brāhmaṇa of Avantī (Ujjain)** - In **Avantī (Ujjayinī / modern Ujjain)** there lived a rich but **miserly brāhmaṇa**: greedy, cruel to guests and dependents, worshipping neither gods nor ancestors, hoarding wealth he would neither enjoy nor share. In time **fate stripped him of everything** — some wealth lost to relatives, some to thieves, some to the ravages of time, fire, and accident — until he was left utterly destitute. (Bhāgavata 11.23.11–24)
+- **Robbed, then abused by the townsfolk** - Reduced to begging, the once-haughty brāhmaṇa was scorned, mocked, beaten, and tormented by the very townspeople — spat on, urinated upon, bound, robbed of even his alms-bowl and staff, and reviled — yet he bore it all without anger, recognizing his plight as the fruit of his own former conduct. (Bhāgavata 11.23.25–32)
+- **The realization — the mind is the sole cause** - Reflecting, he concludes that **neither other people, nor the body, nor the planets (graha), nor time (kāla), nor fate (daiva/karma) are the agents of his suffering** — these are at most secondary occasions; the **mind alone (manas)** is the true cause of bondage and liberation, generating the modes of pleasure and pain. Mastering the mind, therefore, is the whole of the work; he vows **forbearance (titikṣā)** and equanimity, crosses the "ocean of darkness" of material existence, and attains peace. (Bhāgavata 11.23.42–58)
+- **The teaching distilled** - The song closes on the maxim that **the mind, uncontrolled, is the cause of all sorrow, and controlled, the cause of liberation** — no external agent binds the self; therefore the wise endure injury as the medicine of the soul. Kṛṣṇa offers the Avantī brāhmaṇa as the model of the unshakeable sage. (Bhāgavata 11.23.59–61; cf. the *adhyātma* turn of the [Anugītā](./anugita.md))
+- *Variant (naming)* - The inset is variously titled the **Bhikṣu-gītā**, the **Avantī-brāhmaṇa-gītā**, or simply the "Song of Forbearance"; popular Gītā-rosters that count Purāṇic Gītās sometimes list it among the "more than sixty." See the cross-pointer in [Lesser Gītās catalog](./lesser-gitas-catalog.md#purāṇic--independent-gītās-the-path-to-60--pointers-only). [folk] [open-ended roster]
+
+---
+
 ## Core doctrines & distinctive teachings
 
 - **Bhāgavata-dharma & the supremacy of bhakti** - The whole discourse argues that **loving devotion to the personal Lord** is the easiest, safest, and highest path — surpassing jñāna and vairāgya, which arise in the devotee automatically. (Bhāgavata 11.14, 11.20, 11.29)
@@ -91,7 +104,7 @@ The narrative jewel of the Uddhava Gītā: to teach renunciation, Kṛṣṇa re
 - **The Avadhūta's account of 24 gurus** (11.7–9) — see above; the most famous block.
 - **Piṅgalā's awakening** (11.8) — the courtesan who finds peace by abandoning hope/desire.
 - **The Haṃsa-gītā / Haṃsa-avatāra** (11.13) — Viṣṇu as swan teaches the **Four Kumāras**; the namesake passage.
-- **The Avantī (Ujjain) brāhmaṇa's song of forbearance / Bhikṣu-gītā** (11.23) — the mind as sole cause of suffering.
+- **The Avantī (Ujjain) brāhmaṇa's song of forbearance / Bhikṣu-gītā** (11.23) — the mind as sole cause of suffering; given a full named-inset treatment in [The Bhikṣu-gītā](#the-bhikṣu-gītā--the-avantī-brāhmaṇas-song-of-the-mendicant-1123) above.
 - **The Aila-gītā (Song of Purūravā)** (11.26) — the king's renunciation after Urvaśī; cross-link [Purūravas & Urvaśī](./pururavas-urvashi.md).
 
 ---

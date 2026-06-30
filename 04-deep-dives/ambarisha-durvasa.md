@@ -1,7 +1,7 @@
 # Ambarīṣa & Durvāsā — the Sudarśana and the Ekādaśī Vow
 
 > Cosmic address: a *Manvantara-frame tale* of the present **[7th — Vaivasvata — Manvantara](../01-manvantaras/manvantara-07-vaivasvata/README.md)**, set among the Ikṣvāku kings of the **[Sūryavaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md)** and narrated by Śuka to Parīkṣit in the 9th Canto of the *Bhāgavata Purāṇa* (SB 9.4–9.5). It is the tradition's definitive statement that the **bhakta outranks the curse**, and that even Viṣṇu declares Himself bound by His devotees.
-> Up one level: [04-deep-dives](README.md) · See also: [Gajendra Mokṣa](gajendra-moksha.md) · [Ajāmila](ajamila.md) · [Viṣṇu / Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md) · [karma / saṃsāra / mokṣa](../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md)
+> Up one level: [04-deep-dives](README.md) · See also: [Gajendra Mokṣa](gajendra-moksha.md) · [Ajāmila](ajamila.md) · [Viṣṇu / Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md) · [karma / saṃsāra / mokṣa](../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) · [Dattātreya](dattatreya.md) · [Śiva avatāras & forms](../02-deities-and-cosmic-hierarchy/shiva-avatars-and-forms.md)
 
 The episode of **King Ambarīṣa and the sage Durvāsā** (*Bhāgavata Purāṇa 9.4–9.5*) is the great Vaiṣṇava set-piece on the **supremacy of devotion over both penance and curse**. A perfect king-devotee keeps a year-long Ekādaśī vow; a notoriously irascible brāhmaṇa-sage, contrived into wrath, hurls a fire-demon at him; the **Sudarśana-cakra** (Viṣṇu's discus) annihilates the demon and then hunts the sage across the three worlds. Brahmā and Śiva confess their helplessness; Viṣṇu Himself refuses to intervene, uttering the most-quoted self-description in the bhakti corpus — *"I am subject to My devotees"* (SB 9.4.63). Durvāsā is saved only when the **wronged king prays for his persecutor's life**.
 
@@ -84,6 +84,47 @@ The episode of **King Ambarīṣa and the sage Durvāsā** (*Bhāgavata Purāṇ
 
 ---
 
+## Durvāsā the wrathful sage — the curse-cycle figure in his own right
+
+Though the Ambarīṣa episode is the great *humbling* of Durvāsā, the sage is across the corpus one of mythology's most consequential **curse-engines**: a single flash of his temper repeatedly sets a major narrative in motion. He is an **aṃśa (portion) of Śiva**, born of the Saptarṣi **Atri** and the supremely chaste **Anasūyā** — brother to **Soma/Candra** (the Brahmā-portion) and **Dattātreya** (the Viṣṇu-portion) — making him the irascible, Rudra-natured limb of the Trimūrti-triad born at Atri's hermitage (*Bhāgavata Purāṇa 4.1; Mārkaṇḍeya Purāṇa*). See [Dattātreya & the Anasūyā cycle](dattatreya.md) and [Śiva avatāras & forms](../02-deities-and-cosmic-hierarchy/shiva-avatars-and-forms.md).
+
+- **Birth and nature** - Durvāsā is the **Śiva-aṃśa** son of Atri and Anasūyā; tradition glosses his very name (*dur-vāsas*, "ill-clad" / "hard to dwell with") as marking his ferocious, ungovernable temper, the Rudra-portion expressing itself as wrath. He wanders as a homeless ascetic, testing hosts and dispensing both boons and curses with terrifying suddenness (*Bhāgavata 4.1; Mārkaṇḍeya Purāṇa, Anasūyā cycle*). [scripture] — see [Saptarṣi](../02-deities-and-cosmic-hierarchy/saptarishi.md) on Atri.
+- **A curse-engine across the corpus** - Unlike most sages, whose curses are episodic, Durvāsā's wrath is structurally load-bearing in *several* of the tradition's central stories — the slight, the curse, and the narrative consequence form a recurring template. The four below are the most consequential beyond the Ambarīṣa set-piece.
+
+### Durvāsā's curse on Śakuntalā (Kālidāsa)
+
+- **The slight and the curse** [Kālidāsa's invention] - Lost in daydreams of her absent husband **Duṣyanta**, **Śakuntalā** fails to rise and greet the visiting Durvāsā; enraged at the breach of *atithi*-honor, he curses that **the one she is thinking of will utterly forget her** (*Abhijñānaśākuntalam*, Act 4).
+- **The mitigated curse and the ring** - Her friends plead, and Durvāsā softens the curse: the king's memory will return **the instant he sees the token (the signet ring)** he gave her — the device that drives the drama's entire second half, the lost ring, the fisherman, and the heavenly reunion (*Abhijñānaśākuntalam*, Act 4).
+  - *Source-critical note:* the Durvāsā-curse is **absent from the Mahābhārata's Śakuntalā** (Ādi Parva), where Duṣyanta's "forgetting" is a deliberate public denial; the curse is **Kālidāsa's dramatic invention** to exonerate the king. [scholarly] — see [Śakuntalā & Bharata](shakuntala-bharata.md).
+
+### Durvāsā's boon and the birth of Karṇa (Mahābhārata)
+
+- **The boon to Kuntī** - As a young princess of Kuntibhoja, **Pṛthā/Kuntī** flawlessly serves the irascible Durvāsā for a full year; *pleased rather than angered*, he grants her a **mantra (the Durvāsā-boon / *atharvaśiras*)** by which she may summon any deity and beget a child sharing that god's nature (*Mahābhārata*, Ādi Parva 1.104; Vana Parva ~305).
+- **The unintended son** - Testing the mantra out of girlish curiosity, Kuntī invokes **Sūrya**, who — bound by the boon's own power — begets **Karṇa** in her and restores her virginity; the secret pre-marital birth seeds the entire tragedy of Karṇa's identity and the Kuru war (*Mahābhārata*, Vana Parva ~305–306).
+  - *Note on inversion:* here Durvāsā's intervention is a **boon**, not a curse — yet, characteristically, it sets a catastrophe in motion. [scripture] — see [Karṇa](karna.md) and [Kuntī](characters/kunti.md).
+
+### Durvāsā and Kṛṣṇa's mortal heel (Mausala-frame tradition)
+
+- **The kheer test** - In a widely told tradition, Durvāsā visits Dvārakā and demands **kheer (pāyasa)**, then orders Kṛṣṇa to smear the boiling pudding over his own body; Kṛṣṇa obeys without flinching, but leaves the **soles of his feet** unanointed (out of reverence, not daring to touch the sage's offering to his feet, or simply overlooking them).
+- **The curse / boon of invulnerability with a flaw** - Pleased, Durvāsā grants Kṛṣṇa that **his body will be invulnerable wherever the kheer touched** — leaving only the **unanointed sole/heel** as his single fatal point, foreshadowing his death by the hunter **Jara's** arrow (*Mausala Parva* tradition; later Purāṇic and folk glosses).
+  - *Variant / classification:* this "Achilles-heel" episode is **not in the core Critical-Edition Mausala Parva**, where Kṛṣṇa's death follows from **Gāndhārī's curse** and the **sages' iron-club (*musala*) curse at Pindāraka**; the Durvāsā-kheer explanation is a **popular / later devotional accretion** harmonizing why the raised foot was his weak spot. [folk tradition] — see [Mausala Parva](mahabharata/16-mausala-parva.md).
+
+### Durvāsā's garland and the Samudra-manthana (Bhāgavata / Viṣṇu Purāṇa)
+
+- **The slighted garland** - Durvāsā gifts **Indra** a divine, Śrī-bearing garland; Indra carelessly drapes it on his elephant **Airāvata**, who tramples it. Insulted, the sage curses the **Devas to lose all *śrī*** (fortune, vigor, splendor) — the catastrophe that drives the gods, weakened and defeated by the asuras, to seek Viṣṇu's counsel and undertake the **churning of the ocean** for *amṛta* (*Bhāgavata Purāṇa 8.5; Viṣṇu Purāṇa 1.9*).
+  - *Variant (Viṣṇu Purāṇa 1.9):* the garland is the **Santānaka** flower-garland received from a Vidyādharī; the same trampling and curse follow — this is the *locus classicus* for the **Durvāsā frame** of the churning.
+  - *Variant (Mahābhārata, Ādi Parva, Amṛta-manthana):* the **Durvāsā curse is absent**; the Devas simply resolve to churn for *amṛta* to escape death. [scholarly] — see [Samudra-manthana](samudra-manthana.md).
+
+---
+
+## Durvāsā: theme and pattern
+
+- **The Rudra-portion as narrative catalyst** - Durvāsā's wrath is the mythology's recurring **plot ignition**: his curse or boon repeatedly converts a small social breach (an ungreeted guest, a year's service, a trampled garland) into a world-scale consequence (a forgotten queen, the birth of Karṇa, the fall of the gods, the death of Kṛṣṇa's clan). He is the Śiva-aṃśa precisely as *disruptive force*.
+- **Boon and curse as one instrument** - Strikingly, the *same* irascible sage who curses Śakuntalā and the Devas also *blesses* Kuntī and (in the heel-tradition) Kṛṣṇa — and even those blessings carry a sting. His grace and his wrath are a single, dangerous power.
+- **The one humbling** - Against this pattern, the **Ambarīṣa episode stands as the lone tale where Durvāsā is decisively overmatched** — not by a greater curse, but by a king's pure *bhakti* and the Sudarśana, ending with the curse-wielder clasping his victim's feet.
+
+---
+
 ## Sources
 
 - **Śrīmad Bhāgavata Purāṇa, Canto 9, Chapters 4–5 (SB 9.4–9.5)** — primary scriptural source; lineage of Nābhāga and Ambarīṣa (9.4.13), the sensory-devotion catalog (9.4.18–20), gift of the Sudarśana (9.4.21–22), the Ekādaśī-Dvādaśī vow (9.4.23–28), the *ācamana* ruling (9.4.37–40), the Kṛtyā (9.4.46–48), the pursuit and refusals of Brahmā and Śiva (9.4.56–61), Viṣṇu's *"ahaṃ bhakta-parādhīno"* declaration (9.4.63), and the Sudarśana-stuti and reconciliation (9.5.1–20).
@@ -93,3 +134,12 @@ The episode of **King Ambarīṣa and the sage Durvāsā** (*Bhāgavata Purāṇ
 - ISKCON Bangalore Blog, "Ambarisha Maharaja's prayers to Sudarshana Chakra" (Sudarśana-stuti) — https://www.iskconbangalore.org/blog/ambarisha-maharaja-prayers-sudarshana-chakra/
 - Hindu Blog, "Story of King Ambarish – Durvasa and Sudarshana Chakra of Vishnu" (Kṛtyā / three-worlds pursuit) — https://www.hindu-blog.com/2014/01/story-of-king-ambarisha-durvasa-and.html
 - *Variant note on Indra's instigation and the Ambarīṣa-of-Māndhātṛ disambiguation:* Wikipedia, "Ambarisha" — https://en.wikipedia.org/wiki/Ambarish [folk / scholarly]
+
+### On Durvāsā the curse-cycle figure
+
+- **Śrīmad Bhāgavata Purāṇa 4.1; Mārkaṇḍeya Purāṇa (Anasūyā cycle)** — Durvāsā's birth as the Śiva-aṃśa son of Atri and Anasūyā, brother of Soma and Dattātreya. (See also [Dattātreya](dattatreya.md).)
+- **Kālidāsa, *Abhijñānaśākuntalam*, Act 4** — Durvāsā's curse of forgetting and the mitigating signet-ring clause (Kālidāsa's invention, absent in the Mahābhārata's Śakuntalā). (See [Śakuntalā & Bharata](shakuntala-bharata.md).)
+- **Mahābhārata, Ādi Parva 1.104 & Vana Parva ~305–306** — Durvāsā's mantra-boon to Kuntī and the resulting birth of Karṇa by Sūrya. (See [Karṇa](karna.md).)
+- **Mahābhārata, Mausala Parva (with later Purāṇic/folk glosses)** — the kheer-test tradition explaining Kṛṣṇa's unanointed sole as his single fatal point; the core text attributes his clan's doom to Gāndhārī's and the Pindāraka sages' curses. (See [Mausala Parva](mahabharata/16-mausala-parva.md).)
+- **Śrīmad Bhāgavata Purāṇa 8.5 & Viṣṇu Purāṇa 1.9** — Durvāsā's trampled garland and the curse of lost *śrī* that frames the Samudra-manthana; absent in the Mahābhārata's Amṛta-manthana. (See [Samudra-manthana](samudra-manthana.md).)
+- Wikipedia, "Durvasa" — overview of the curse-cycle episodes (Śakuntalā, Kuntī, Ambarīṣa, the garland of the churning) — https://en.wikipedia.org/wiki/Durvasa [scholarly / folk]

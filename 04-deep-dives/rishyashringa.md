@@ -54,6 +54,19 @@ The same plot — the horned forest-ascetic, born of a doe, seduced out of his c
 
 ---
 
+## Śāntā — the foster-princess and genealogical hinge
+
+Ṛśyaśṛṅga's bride **Śāntā** is, in the dominant tradition, **born a daughter of Daśaratha of Ayodhyā** and **fostered to King Lomapāda of Aṅga**, so that her marriage is the precise narrative joint binding the horned sage to the Ikṣvāku line — and thus to Rāma's birth. She is named only briefly in the version-narratives above (MBh, Vana ~113; Vālmīki, Bāla ~9–11); this section gathers what the texts say of her in her own right.
+
+- **Daśaratha's daughter, Rāma's elder sister** - In the dominant Brahmanical tradition **Śāntā is the daughter of Daśaratha** (born to **Kausalyā**), making her the **elder sister of Rāma, Bharata, Lakṣmaṇa and Śatrughna** — born well before the putrakāmeṣṭi that would later yield her brothers (MBh, Vana ~113; Vālmīki, Bāla ~9–11; Purāṇic genealogies). She thus stands in the **Sūryavaṃśa / Ikṣvāku** line by birth. → [Sūryavaṃśa & Candravaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md). [dominant tradition]
+- **Fostered to the childless Lomapāda** - The **childless Lomapāda (Romapāda)** of Aṅga, a close friend of Daśaratha, is given Śāntā as a **foster / adopted daughter** (in the common telling, by a prior pact between the two kings); she is raised in Aṅga as the Aṅga princess, which is why the version-narratives introduce her simply as **Lomapāda's daughter** when she is wed to Ṛśyaśṛṅga (MBh, Vana ~113; Vālmīki, Bāla). [dominant tradition]
+  - *Variant — the famine-and-marriage backstory:* a widely-told frame holds that Lomapāda, distracted in conversation with Śāntā, **slighted a visiting brāhmaṇa**, whose departure brought on the **drought that withholds Indra's rain** — the very calamity that requires Ṛśyaśṛṅga; the sage is then brought in, the rains return, and **Śāntā is given to him in marriage** in gratitude, fusing her foster-history with the drought-plot. [variant]
+- **Marriage as the hinge to Rāma's birth** - Because Śāntā is **both Lomapāda's (foster-)daughter and Daśaratha's own**, her marriage makes Ṛśyaśṛṅga simultaneously **son-in-law of Aṅga and of Ayodhyā** — the kinship that licenses the sonless Daśaratha to summon him to perform the **putrakāmeṣṭi**. Her wedding is therefore the **narrative hinge** that carries the rain-bringing ascetic from Aṅga to Ayodhyā and so to the begetting of Rāma (Vālmīki, Bāla ~9–11). → [Version II](#version-ii--rāmāyaṇa-bāla-kāṇḍa-sargas-811) above; [Bāla-kāṇḍa](ramayana/1-bala-kanda.md). [dominant tradition]
+- *Variant — Śāntā as seductress:* in some retellings and the folk/temple tradition Śāntā herself is the woman sent to lure Ṛśyaśṛṅga out of the forest, collapsing **bride and seductress into one figure** (see [Version III](#version-iii--padma-purāṇa--other-purāṇic-retellings), "the seducer's identity"). [disputed]
+- *Variant — Śāntā as native Aṅga princess:* a minority of tellings make her **Lomapāda's natural daughter** with no Ayodhyā parentage, severing the Daśaratha-kinship motive and leaving the summons to rest on Ṛśyaśṛṅga's renown alone. [variant — minority]
+
+---
+
 ## Sites & living tradition (folk / regional)
 
 - *Tradition (Śṛṅgeri, Karnataka):* the town **Śṛṅgeri** (Śṛṅga-giri, "horn-hill") in the Western Ghats is named for Ṛśyaśṛṅga, said to have done penance there on the **Tuṅgabhadrā**; the horned **Śiva-liṅga** he is held to have worshipped stands at **Kigga** (~7 km away), and his father Vibhāṇḍaka's liṅga, **Malahānikareśvara**, in Śṛṅgeri itself. [folk]

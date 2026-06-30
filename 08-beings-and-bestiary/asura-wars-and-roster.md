@@ -85,6 +85,8 @@ The three great battles of the **Mārkaṇḍeya Purāṇa's Devī Māhātmya** 
 ## V. Kṛṣṇa's Asura Wars (Dvāpara)
 
 - **Narakāsura (Bhauma)** - Son of **Bhūmi (Earth) & Varāha**; tyrant-king of **Prāgjyotiṣa (Kāmarūpa/Assam)** who **imprisoned 16,000 women** and stole Aditi's earrings; slain by **Kṛṣṇa with Satyabhāmā** (his death by his own mother Earth's incarnation fulfilling a boon) — commemorated as **Naraka Caturdaśī (Diwali)**. **[Dvāpara].** *(Source: Bhāgavata Purāṇa 10.59; Narakāsura — Wikipedia.)* — see [Kṛṣṇa-Līlā](../04-deep-dives/krishna-lila.md).
+- **Mura (Murāsura)** - The **thousand-armed Dānava general** (variously **five- or seven-headed**) who guards the **moat-fortress of Prāgjyotiṣa/Kāmarūpa** with his many sons, encircling Narakāsura's capital with ramparts, water, fire and a net of razor-snares. In a single *Bhāgavata* episode **Kṛṣṇa slays Mura with the Sudarśana chakra** (the discus) **immediately before reaching Narakāsura** — the slaying that yields Viṣṇu/Kṛṣṇa's ubiquitous devotional epithets **Murāri / Murahara / Murabhid** ("foe / destroyer / cleaver of Mura"). **[Dvāpara].** *(Source: Bhāgavata Purāṇa 10.59; Viṣṇu Purāṇa 5.29.)* — see [Kṛṣṇa-Līlā](../04-deep-dives/krishna-lila.md).
+- *Variant (Ekādaśī-māhātmya):* in the *Padma Purāṇa* tradition the personified goddess **Ekādaśī** is born **as the śakti who destroys Mura** — the demon arising from Viṣṇu's body during his cosmic sleep and felled by the maiden-power who emerges to protect the sleeping god, whence the Ekādaśī fast. (A distinct, non-Kṛṣṇa Mura, harmonized by the shared name.) [disputed] *(Source: Padma Purāṇa, Ekādaśī-māhātmya.)*
 - **Bāṇāsura** - See dynasty above; the **Uṣā-Aniruddha** war, Kṛṣṇa vs. Bāṇa (and Śiva/Skanda defending Bāṇa). *(Source: Bhāgavata Purāṇa 10.62–63.)*
 - **Śaṅkhacūḍa** - A Dānava (in some texts a *yakṣa* or **gopa-asura**) who, by a chastity-boon (his wife **Tulsī/Vṛndā**), terrorized the gods; **Kṛṣṇa/Viṣṇu** breaks the vow and **Śiva** beheads him, his conch-jewel passing to Kṛṣṇa. **[Dvāpara, or pre-cosmic per Brahmavaivarta].** *(Source: Brahmavaivarta Purāṇa; Devī Bhāgavata; cf. Tulsī-Vivāha.)*
 - *Variant:* infant-Kṛṣṇa's nursery-asuras — **Pūtanā, Tṛṇāvarta, Bakāsura, Aghāsura, Dhenuka, Pralamba, Keśin, Ariṣṭa** — and the tyrants **Kaṃsa, Cāṇūra-Muṣṭika, Kālayavana, Jarāsandha, Śiśupāla, Dantavakra** form a separate (mostly *rākṣasa*/asura) roster of the Kṛṣṇa-cycle. *(Source: Bhāgavata Purāṇa 10.)* — see [Kṛṣṇa-Līlā](../04-deep-dives/krishna-lila.md), [Śiśupāla](../04-deep-dives/shishupala.md).
@@ -117,6 +119,7 @@ The three great battles of the **Mārkaṇḍeya Purāṇa's Devī Māhātmya** 
 | Śumbha-Niśumbha | asura | — | **Durgā/Kauśikī** | — |
 | Raktabīja | asura general | — | **Kālī** (drinks blood) | — |
 | Narakāsura | asura (Bhūmi's son) | Dvāpara | **Kṛṣṇa** & Satyabhāmā | — |
+| Mura (Murāsura) | Dānava | Dvāpara | **Kṛṣṇa** | Sudarśana chakra |
 | Bāṇāsura | Daitya (Bali's line) | Dvāpara | **Kṛṣṇa** | arms shorn |
 | Śaṅkhacūḍa | Dānava | Dvāpara | **Śiva** (+ Viṣṇu's deceit) | — |
 | Maya | Dānava architect | (multi-yuga) | (not slain) | — |

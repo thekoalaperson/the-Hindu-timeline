@@ -74,6 +74,7 @@ These are great instructional discourses sometimes *called* "Gītās" in popular
 Folded into whole-of-Hinduism tallies but **outside** the Mahābhārata; noted so the cross-counts make sense. [folk]
 
 - **Uddhava-gītā / Haṃsa-gītā** — Kṛṣṇa to Uddhava, [Bhāgavata Purāṇa](../90-literature-corpus/bhagavata-purana-skandha-map.md) Skandha 11 (incl. the **Avadhūta's 24 gurus**, which absorb Piṅgalā & Ajagara motifs above).
+- **Bhikṣu-gītā (Avantī-brāhmaṇa-gītā)** — a named inset *within* the Uddhava-gītā, [Bhāgavata Purāṇa](../90-literature-corpus/bhagavata-purana-skandha-map.md) 11.23: the miserly **brāhmaṇa of Avantī (Ujjain)**, robbed of his wealth and abused by townsfolk, attains equanimity on realizing that **the mind alone — not people, planets, time, fate, or karma — binds and frees the self**; a song of **titikṣā (forbearance)**. Full treatment in [Uddhava-gītā → The Bhikṣu-gītā](./uddhava-gita.md#the-bhikṣu-gītā--the-avantī-brāhmaṇas-song-of-the-mendicant-1123). [folk]
 - **Devī-gītā** — [Devī-Bhāgavata Purāṇa]; **Gaṇeśa-gītā** — Gaṇeśa Purāṇa; **Śiva-gītā** — Padma Purāṇa; **Rāma-gītā** — Adhyātma Rāmāyaṇa; **Yama-, Sūta-, Brahma-, Avadhūta-, Iśvara-, Vyāsa-, Śruti-, Kapila-Gītās** — various Purāṇas/Āgamas. [late text] → see [Purāṇas corpus](../90-literature-corpus/smriti-puranas.md).
 
 ---
