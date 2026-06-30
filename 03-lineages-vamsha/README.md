@@ -19,9 +19,10 @@ the individual [yuga event files](../01-manvantaras/manvantara-07-vaivasvata/mah
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 11 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 12 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Anaraṇya — The Ikṣvāku King Whose Curse Dooms Rāvaṇa](anaranya-ravana-curse.md)
+- 🟩 [Devāpi: The Renounced Prince, Rain-Bringing Purohita, and Immortal Restorer of the Lunar Dynasty](devapi.md)
 - 🟩 [Gādhi and the Caru-Swap — Birth of the Kuśika and Bhārgava Lines](gadhi-and-the-caru-swap.md)
 - 🟩 [Jahnu — Sage-King and Eponym of Jāhnavī (Gaṅgā)](jahnu.md)
 - 🟩 [Janamejaya and the Sarpa-Satra (Snake Sacrifice)](janamejaya-sarpa-satra.md)

@@ -26,7 +26,7 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 78 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 85 files in this section. Regenerate with the indexer.*
 
 - 🟩 [The 108 Divya Desams — Vishnu Abodes of the Alvars](108-divya-desams.md)
 - 🟩 [The 12 Jyotirlingas of Shiva](12-jyotirlingas.md)
@@ -40,6 +40,8 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - 🟩 [Aṣṭavināyaka — the Eight Swayambhū Ganesha Shrines](ashtavinayaka.md)
 - 🟩 [Avatāra Kṣetras — Śrīkūrmam & Śrīmuṣṇam](avatara-kshetras-srikurmam-srimushnam.md)
 - 🟩 [Ayodhyā — Birthplace of Rāma (Sākēta Kṣetra)](ayodhya.md)
+- 🟩 [Badrinath — Badarikāśrama / Naranārāyaṇāśrama](badrinath-badarikashrama-kshetra.md)
+- 🟩 [Banke Bihari — Vrindavan & Nidhivan](banke-bihari-vrindavan-nidhivan.md)
 - 🟩 [Bhāratavarṣa & Purāṇic Geography](bharatavarsha-and-puranic-geography.md)
 - 🟩 [Bindu-sarovar (Siddhpur) — The Lake of Mātṛ-Śrāddha](bindu-sarovar-siddhpur.md)
 - 🟩 [Bṛhadīśvara Temple, Thanjavur — Rājarājeśvaram](brihadeeswarar-thanjavur.md)
@@ -59,6 +61,7 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - 🟩 [Kāmyaka & Dvaita — The Pāṇḍava Exile Forests](kamyaka-dvaita-pandava-exile-forests.md)
 - 🟩 [Kāñcīpuram — the Golden City (Banaras of the South)](kanchipuram-city-of-temples.md)
 - 🟩 [Kāśī / Vārāṇasī — the City of Light (Avimukta Kṣetra)](kashi-varanasi.md)
+- 🟩 [Kedarnath — Kedāra Kṣetra](kedarnath-kedara-kshetra.md)
 - 🟩 [Khāṇḍava-vana & the Khāṇḍava-dāha](khandava-vana-and-the-burning.md)
 - 🟩 [Kishkindha — The Vanara Kingdom at Hampi-Anegundi](kishkindha-hampi-anegundi.md)
 - 🟩 [Kolhapur — Mahālakṣmī / Ambābāī (Karavīra Kṣetra)](kolhapur-mahalakshmi-karavira.md)
@@ -68,12 +71,14 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - 🟩 [Aśoka-vāṭikā & the Laṅkā Rāmāyaṇa Trail](lanka-ramayana-trail-ashoka-vatika.md)
 - 🟩 [Lingarāja Temple, Bhubaneswar — Ekāmra Kṣetra](lingaraja-bhubaneswar-ekamra-kshetra.md)
 - 🟩 [Lonar Sarovar — the Crater-Lake of Lavanāsura and the Daityasūdana Temple](lonar-sarovar-daityasudana.md)
+- 🟩 [Madurai — Meenakshi-Sundareshwara Kshetra](madurai-meenakshi-sundareshwara-kshetra.md)
 - 🟩 [The Mahābhārata Tīrtha-yatra Parva — Catalogue of Fords](mahabharata-tirtha-yatra-fords.md)
 - 🟩 [Mānasarovara & the Kailāsa Parikramā](manasarovar-kailash-yatra.md)
 - 🟩 [Maṅgalagiri — the Pānakāla Lakṣmī-Narasiṃha Kṣetra](mangalagiri-panakala-narasimha.md)
 - 🟩 [Mathurā–Vṛndāvana & the Braj Maṇḍala (84 Kos)](mathura-vrindavan-braj.md)
 - 🟩 [Melkote / Tirunārāyaṇapuram — Yadugiri Kṣetra](melkote-tirunarayanapuram.md)
 - 🟩 [Mount Meru, Kailāsa & the Cosmic Mountains](meru-kailash-and-cosmic-mountains.md)
+- 🟩 [Mount Abu — Arbuda-giri & Achaleshwar](mount-abu-arbuda-achaleshwar.md)
 - 🟩 [Muktinath, the Gaṇḍakī & Śālagrāma Kṣetra](muktinath-gandaki-shalagrama-kshetra.md)
 - 🟩 [Naimiṣāraṇya — The Forest of the Sages & Chakra-tīrtha](naimisharanya-chakra-tirtha.md)
 - 🟩 [The Narmadā Parikramā & Revā-Khaṇḍa Tīrthas](narmada-parikrama.md)
@@ -86,6 +91,7 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - 🟩 [Pañcha Sabhai — the Five Cosmic-Dance Halls of Naṭarāja](pancha-sabhai-nataraja-dance-halls.md)
 - 🟩 [Pancharama Kshetras](pancharama-kshetras-andhra.md)
 - 🟩 [Panchavati — Rāma's Dwelling on the Godāvarī at Nashik](panchavati-nashik-godavari.md)
+- 🟩 [Pashupatinath — the Shiva Kshetra of Nepal](pashupatinath-kathmandu-nepal-kshetra.md)
 - 🟩 [Prabhāsa Tīrtha — The Sarasvatī-Ocean Kṣetra at Somnāth](prabhasa-somnath-tirtha.md)
 - 🟩 [Prayāga / Prayagraj — Tīrtharāja & the Triveṇī Saṅgam](prayagraj-triveni-sangam.md)
 - 🟩 [Puṣkara — the Rare Brahmā Tīrtha & Lake](pushkar-brahma-tirtha.md)
@@ -98,6 +104,7 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - 🟩 [Siṃhācalam — Varāha-Narasiṃha Svāmī](simhachalam-varaha-narasimha.md)
 - 🟩 [Śṛṅgaverapura — Guha & the Gaṅgā Crossing](sringaverapura-guha-ganga-crossing.md)
 - 🟩 [Śrīraṅgam — Raṅganātha (Bhūloka Vaikuṇṭha)](srirangam-ranganatha.md)
+- 🟩 [Srisailam — Śrīśaila, the Dakṣiṇa Kailāsa](srisailam-srisaila-mallikarjuna-bhramaramba.md)
 - 🟩 [Srivilliputhur — the Vaṭapatraśāyī Kṣetra and Birthplace of Āṇḍāḷ](srivilliputhur-vatapatrasayi-andal-kshetra.md)
 - 🟩 [Sthala-Purāṇas — Major Temple Origin Legends](sthala-puranas-major-temples.md)
 - 🟩 [Temple Networks & Pilgrimage Circuits](temple-networks-and-circuits.md)

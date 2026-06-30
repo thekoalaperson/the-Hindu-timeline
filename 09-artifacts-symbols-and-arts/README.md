@@ -60,7 +60,7 @@ Many objects belong to a deity as a fixed **iconographic attribute** — Viṣ�
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 14 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 15 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Pictorial / devotional painting traditions](chitra-kala-painting-traditions.md)
 - 🟩 [Divine Objects & Treasures](divine-objects-and-treasures.md)
@@ -68,6 +68,7 @@ Many objects belong to a deity as a fixed **iconographic attribute** — Viṣ�
 - 🟩 [Mehndi, Alaktaka and the Arts of Ritual Body-Adornment (Maṅgala-śṛṅgāra)](mehndi-and-ritual-body-adornment.md)
 - 🟩 [Mūrti-lakṣaṇa & Iconometry](murti-lakshana-and-iconometry.md)
 - 🟩 [The Nāṭya Śāstra & the Classical Performing Arts](natya-shastra-and-the-classical-arts.md)
+- 🟩 [Pañca-loha and the lost-wax bronze mūrti (the śilpin's sacred metallurgy)](pancha-loha-bronze-casting.md)
 - 🟩 [Rangoli, Kōlam & the Sacred Floor-Art Tradition](rangoli-kolam-floor-art.md)
 - 🟩 [Sacred Flora & Fauna](sacred-flora-and-fauna.md)
 - 🟩 [Sacred Symbols & Emblems](sacred-symbols-and-emblems.md)

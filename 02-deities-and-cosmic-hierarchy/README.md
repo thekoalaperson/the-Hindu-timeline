@@ -23,11 +23,12 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 54 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 56 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Agni](agni.md)
 - 🟩 [Ayyaṉār / Śāstā — the Tamil Village Guardian](ayyanar-sastha.md)
 - 🟩 [Ayyappa (Hariharaputra)](ayyappa.md)
+- 🟩 [Bahuchara Mata — Gujarati Shakta Goddess and Patron of the Hijra Community](bahuchara-mata.md)
 - 🟩 [Bonbibi — the Forest-Goddess of the Sundarbans](bonbibi.md)
 - 🟩 [Chandra (Soma)](chandra-soma.md)
 - 🟩 [Dakṣiṇāmūrti — Śiva as the Silent South-Facing Ādi-Guru](dakshinamurti.md)
@@ -49,6 +50,7 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 - 🟩 [Indra — King of the Devas, Wielder of the Vajra](indra.md)
 - 🟩 [Jhulelal / Uderolal — the Sindhi Water-God](jhulelal.md)
 - 🟩 [Kāmadeva, Rati & the Minor Deities](kamadeva-and-minor-deities.md)
+- 🟩 [Karuppasamy, Madurai Veeran and the Tamil Kāval Guardian Deities](karuppasamy-madurai-veeran-and-tamil-kaval-deities.md)
 - 🟩 [Khaṇḍobā / Mārtāṇḍa Bhairava (Mallāri)](khandoba-martanda-bhairava.md)
 - 🟩 [Khodiyar Mata](khodiyar-mata.md)
 - 🟩 [Kubera](kubera.md)

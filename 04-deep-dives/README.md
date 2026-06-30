@@ -20,7 +20,7 @@
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 227 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 240 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Aditya Hridayam](aditya-hridayam.md)
 - 🟩 [Agastya — Sage of the South](agastya.md)
@@ -41,7 +41,9 @@
 - 🟩 [Bhramara-Gītā — Uddhava's Embassy to the Gopīs](bhramara-gita-uddhava-sandesha.md)
 - 🟩 [Bhṛgu and the Bhṛgu-Test of the Trimūrti](bhrigu.md)
 - 🟩 [Bilvashtaka — the Eight-Verse Hymn for Offering Bilva Leaves to Shiva](bilvashtaka.md)
+- 🟩 [Brahmā-vimohana and the Brahma-stuti — Kṛṣṇa Multiplies Himself into All Vraja](brahma-vimohana.md)
 - 🟩 [Buddha as the Avatar of Vishnu](buddha-avatara.md)
+- 🟩 [Citraketu — The Grieving King, the Deathless Self, and the Curse to Become Vṛtra](citraketu.md)
 - 🟩 [Cyavana, Sukanyā & the Aśvins](cyavana-sukanya.md)
 - 🟩 [Dadhīci — the Sage Who Gave His Bones](dadhichi.md)
 - 🟩 [Two Tales on the Supremacy of Dāna: King Śveta and the Half-Golden Mongoose](dana-upakhyanas-shveta-and-the-mongoose.md)
@@ -56,6 +58,7 @@
 - 🟩 [Gautama and Ahalyā](gautama-ahalya.md)
 - 🟩 [Govardhana-dhāraṇa (the Lifting of Mount Govardhana)](govardhana-dharana.md)
 - 🟩 [Haṃsa Avatāra](hamsa-avatar.md)
+- 🟩 [Haṃsa-Gītā — The Swan-Brahmā's Discourse to the Sādhyas](hamsa-gita.md)
 - 🟩 [Hariścandra — the King Who Never Lied](hariscandra.md)
 - 🟩 [The Harivaṃśa — The 'Appendix' (khila) of the Mahābhārata](harivamsha.md)
 - 🟩 [Hayagrīva](hayagriva.md)
@@ -70,6 +73,7 @@
 - 🟩 [Kapila and the Kapila-gita](kapila-devahuti.md)
 - 🟩 [Karṇa — the Tragic Son of the Sun](karna.md)
 - 🟩 [Kaśyapa](kashyapa.md)
+- 🟩 [Keshi the Horse-Demon and the Keshava-Stuti](keshi-arishta-keshava.md)
 - 🟩 [Krishna's Infancy Lila](krishna-balya-lila.md)
 - 🟩 [Kṛṣṇa-līlā — The Life & Deeds of Krishna](krishna-lila.md)
 - 🟩 [Kurma Avatara: The Cosmic Tortoise (Dvitiya-Avatara)](kurma-avatara.md)
@@ -90,9 +94,11 @@
 - 🟩 [Narakāsura-vadha and the 16,100](narakasura-vadha.md)
 - 🟩 [The Nārāyaṇīya — Pāñcarātra Theology of the Śānti Parva](narayaniya.md)
 - 🟩 [Paraśurāma avatāra](parashurama.md)
+- 🟩 [Pingala-Gita — The Courtesan of Mithilā's Song of Detachment](pingala-gita.md)
 - 🟩 [Prahlāda & Narasiṃha — the Man-Lion's Descent](prahlada-narasimha.md)
 - 🟩 [Pṛśnigarbha — and the Three Births of Viṣṇu in the Vasudeva–Devakī Line](prishnigarbha-three-births.md)
 - 🟩 [Pṛthu — the First King & the Milking of the Earth](prithu-prithvi.md)
+- 🟩 [The Purañjana Allegory — The Soul as King of the City of Nine Gates](puranjana-allegory.md)
 - 🟩 [Purūravas & Urvaśī — the Mortal King & the Apsarā](pururavas-urvashi.md)
 - 🟩 [Raghu — the King Who Gave His Name to the Dynasty](raghu.md)
 - 🟩 [Rāma-Gītā: The Song of Rāma](rama-gita.md)
@@ -106,6 +112,7 @@
 - 🟩 [Ruru and Pramadvarā](ruru-pramadvara.md)
 - 🟩 [Samudra Manthana — The Churning of the Ocean](samudra-manthana.md)
 - 🟩 [The Sanatsujātīya — On Death, Knowledge & Liberation](sanatsujatiya.md)
+- 🟩 [Sāndīpani's School and the Conch Pāñcajanya — Kṛṣṇa's Guru-Dakṣiṇā](sandipani-pancajana.md)
 - 🟩 [Sāvitrī & Satyavān — Winning a Husband Back from Death](savitri-satyavan.md)
 - 🟩 [Śakuntalā, Duṣyanta & the Birth of Bharata](shakuntala-bharata.md)
 - 🟩 [Shankhachuda and Tulasi: The Conch-Demon and the Chastity Deception](shankhachuda-tulasi.md)
@@ -120,6 +127,7 @@
 - 🟩 [The Syamantaka Jewel](syamantaka-jewel.md)
 - 🟩 [Tarakasura and the Birth-War of Kartikeya](tarakasura-vadha.md)
 - 🟩 [The Cirañjīvis — the Eight Immortals across the Yugas](the-chiranjivis.md)
+- 🟩 [The Four Kumāras (Sanaka, Sanandana, Sanātana, Sanatkumāra) — Bhāgavata's First Avatāra](the-four-kumaras.md)
 - 🟩 [The Mind-Born Seers (Marīci, Pulastya, Pulaha, Kratu)](the-mind-born-seers.md)
 - 🟩 [Tripura-dāhana — The Burning of the Three Cities](tripura-dahana.md)
 - 🟩 [Triśaṅku — Heaven in Limbo](trishanku.md)
@@ -128,8 +136,10 @@
 - 🟩 [The Uttara Rāmāyaṇa — Rāma-rājya, Sītā's Banishment, Lava-Kuśa & Śambūka](uttara-ramayana-lava-kusha.md)
 - 🟩 [Vāmana, Bali & Trivikrama — the Three Strides](vamana-bali.md)
 - 🟩 [Varāha — the Boar Avatar and the Slaying of Hiraṇyākṣa](varaha-hiranyaksha.md)
+- 🟩 [Veṇu-Gītā — The Song of Kṛṣṇa's Flute](venu-gita.md)
 - 🟩 [The Vidura Niti — The Science of Statecraft & Wisdom](vidura-niti.md)
 - 🟩 [Viśvāmitra & Vasiṣṭha — Kṣatriya to Brahmarṣi](vishwamitra-vasishtha.md)
+- 🟩 [The Vraja Boyhood Demons — Vatsāsura, Bakāsura, Aghāsura, and Balarāma's Dhenuka and Pralamba](vraja-boyhood-demons.md)
 - 🟩 [The Vyadha Gita — The Righteous Butcher of Mithila](vyadha-gita.md)
 - 🟩 [Vyāsa (Kṛṣṇa Dvaipāyana) — Arranger of the Vedas](vyasa.md)
 - 🟩 [Yajña Avatāra](yajna-avatara.md)
@@ -198,6 +208,7 @@
 - 🟩 [Śakuni — the Master of the Loaded Dice](characters/shakuni.md)
 - 🟩 [Śalya — King of Madra and Last Kaurava Commander](characters/shalya.md)
 - 🟩 [Sītā](characters/sita.md)
+- 🟩 [Subāhu — Tāṭakā's Son, Demon at Viśvāmitra's Sacrifice](characters/subahu.md)
 - 🟩 [Subhadrā — Yādava Princess, Wife of Arjuna](characters/subhadra.md)
 - 🟩 [Sugrīva & Vālī](characters/sugriva-and-vali.md)
 - 🟩 [Sumantra — Sūta-Minister and Charioteer of Daśaratha](characters/sumantra.md)
@@ -206,6 +217,7 @@
 - 🟩 [Trijaṭā — the Compassionate Rākṣasī of the Aśoka-vana](characters/trijata.md)
 - 🟩 [Ulūpī — Nāga Princess and Wife of Arjuna](characters/ulupi.md)
 - 🟩 [Vibhīṣaṇa](characters/vibhishana.md)
+- 🟩 [Vichitravirya and Chitrangada — The Kuru Princes Between Shantanu and the Niyoga Births](characters/vichitravirya-and-chitrangada.md)
 - 🟩 [Vidura](characters/vidura.md)
 - 🟩 [Vikarna](characters/vikarna.md)
 - 🟩 [Virādha](characters/viradha.md)
@@ -267,6 +279,7 @@
 - 🟩 [Soundarya Lahari](stotras/soundarya-lahari.md)
 - 🟩 [Sri Rudram / Satarudriya (Namakam and Chamakam)](stotras/sri-rudram-namakam-chamakam.md)
 - 🟩 [Sri Suktam (Lakshmi Sukta)](stotras/sri-suktam.md)
+- 🟩 [Venkatesha Suprabhatam — The Awakening Hymn of Lord Venkateshvara](stotras/venkatesha-suprabhatam.md)
 - 🟩 [Vishnu Sahasranama: The Thousand Names of Vishnu](stotras/vishnu-sahasranama.md)
 
 <!-- AUTOINDEX:END -->

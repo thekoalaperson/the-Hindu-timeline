@@ -16,13 +16,14 @@ These are the conceptual coordinates of Hindu thought, complementing the chronol
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 27 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 28 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Ahiṃsā & Hindu Ethics](ahimsa-and-hindu-ethics.md)
 - 🟩 [Atman, Brahman & the Mahavakyas — Vedanta and the Schools](atman-brahman-and-the-six-darshanas.md)
 - 🟩 [Āyurveda — The Science of Life, the Tridoṣa & the Caraka/Suśruta Tradition](ayurveda-and-the-science-of-life.md)
 - 🟩 [Chakras & Kuṇḍalinī](chakras-and-kundalini.md)
 - 🟩 [Festivals & Vratas — Origins Mapped to Myth](festivals-and-vratas.md)
+- 🟩 [Garba & Dandiya Rāsa — Gujarat's Navarātri Circle-Dance of the Goddess](garba-and-dandiya-raas.md)
 - 🟩 [Guru-Śiṣya Paramparā](guru-shishya-parampara.md)
 - 🟩 [Mantra, Japa & Mūrti-Pūjā](mantra-japa-and-murti-puja.md)
 - 🟩 [Māyā & Avidyā](maya-and-avidya.md)

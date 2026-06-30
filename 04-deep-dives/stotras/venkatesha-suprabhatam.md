@@ -8,7 +8,7 @@ The **Veṅkaṭeśa Suprabhātam** (वेङ्कटेशसुप्रभ�
 
 ## The two clocks
 
-- **Scriptural / devotional time** — As liturgical utterance the hymn stands outside narrative chronology: it addresses the **eternal Viṣṇu-Śrīnivāsa** dwelling perpetually on the **Veṅkaṭa hill (Śeṣācala)**, and re-enacts each dawn the timeless service of waking the Lord. Its opening verse reaches back to the **[Rāmāyaṇa](../../03-itihasas/ramayana/README.md)** dawn when the sage Viśvāmitra wakes the boy Rāma — a cross-yuga echo folded into the present moment of worship. [scriptural]
+- **Scriptural / devotional time** — As liturgical utterance the hymn stands outside narrative chronology: it addresses the **eternal Viṣṇu-Śrīnivāsa** dwelling perpetually on the **Veṅkaṭa hill (Śeṣācala)**, and re-enacts each dawn the timeless service of waking the Lord. Its opening verse reaches back to the **[Rāmāyaṇa](../README.md)** dawn when the sage Viśvāmitra wakes the boy Rāma — a cross-yuga echo folded into the present moment of worship. [scriptural]
 - **Manuscript / historical time** — The author **Prativādi Bhayaṅkaram Aṇṇaṉ** is a securely **historical** figure of the **15th century CE** (Kali-yuga historical layer), a disciple-lineage ācārya of the **Maṇavāḷa Māmunigaḷ** circle at Kāñcīpuram / the Tirupati country. The composition is thus firmly datable temple literature, not anonymous scripture — keep the timeless dawn-service it stages distinct from its concrete late-medieval authorship. [scholarly]
 
 ---
@@ -37,7 +37,7 @@ The work is not a single hymn but a **fixed sequence of four texts**, always cha
 ## The opening verse — "Kausalyā suprajā Rāma"
 
 - **Waking Rāma, waking Veṅkaṭeśa** — The hymn famously **opens not with Veṅkaṭeśvara's name but with Rāma's**: *kausalyā suprajā rāma pūrvā-sandhyā pravartate / uttiṣṭha nara-śārdūla kartavyaṃ daivam āhnikam* — "**O Rāma, noble son of Kausalyā, the eastern dawn is breaking; arise, O tiger among men, the divine morning rites must be performed.**" (Veṅkaṭeśa Suprabhātam, verse 1) [scholarly]
-- **A borrowed Rāmāyaṇa dawn** — This stanza is drawn from / modeled on the **[Rāmāyaṇa](../../03-itihasas/ramayana/README.md)** scene in the **Bāla-kāṇḍa** where the sage **Viśvāmitra wakes the boy Rāma** at dawn before the morning sacrifice; Aṇṇaṉ transplants that archetypal awakening onto the hill-god, identifying **Veṅkaṭeśvara with Rāma** and casting the daily *sevā* as the same sacred rousing. [scholarly]
+- **A borrowed Rāmāyaṇa dawn** — This stanza is drawn from / modeled on the **[Rāmāyaṇa](../README.md)** scene in the **Bāla-kāṇḍa** where the sage **Viśvāmitra wakes the boy Rāma** at dawn before the morning sacrifice; Aṇṇaṉ transplants that archetypal awakening onto the hill-god, identifying **Veṅkaṭeśvara with Rāma** and casting the daily *sevā* as the same sacred rousing. [scholarly]
 - **Why begin with Rāma** — The choice frames Veṅkaṭeśvara as **Viṣṇu in all his avatāric fullness** — the Lord woken is at once Śrīnivāsa of the hill and Rāma of Ayodhyā — and lends the temple-dawn the authority of *itihāsa* (epic) precedent. Subsequent verses then turn explicitly to **Veṅkaṭeśa, Śrīnivāsa, and Śrī/Padmāvatī**. [scholarly]
 
 ---
