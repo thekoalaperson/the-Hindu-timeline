@@ -104,8 +104,9 @@ See `../01-manvantaras/` for the full drill-down.
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 13 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 14 files in this section. Regenerate with the indexer.*
 
+- 🟩 [Bila-svarga and the Seven Pātālas (The Subterranean Paradises)](bila-svarga-and-the-patalas.md)
 - 🟩 [Brahmā's Lifetime (Mahākalpa)](brahma-lifetime.md)
 - 🟩 [The Brahmāṇḍa & Bhuvana-kośa — the Cosmic Egg and its Sheaths](brahmanda-and-bhuvana-kosha.md)
 - 🟩 [Cosmogony — Accounts of Creation](cosmogony-creation-accounts.md)

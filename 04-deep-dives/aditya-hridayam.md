@@ -1,6 +1,6 @@
 # Aditya Hridayam
 
-> *Up one level: [04-deep-dives](README.md) · The Sun-hymn the sage [Agastya](agastya.md) teaches a war-weary Rāma on the field before the final duel with [Rāvaṇa](ravana.md), embedded at [Yuddha Kāṇḍa 105](ramayana/6-yuddha-kanda.md) and carried out of the epic into daily Saura liturgy.*
+> *Up one level: [04-deep-dives](README.md) · The Sun-hymn the sage [Agastya](agastya.md) teaches a war-weary Rāma on the field before the final duel with [Rāvaṇa](characters/ravana.md), embedded at [Yuddha Kāṇḍa 105](ramayana/6-yuddha-kanda.md) and carried out of the epic into daily Saura liturgy.*
 
 The **Āditya-hṛdaya** ("Heart of the Sun" / "Heart-essence dedicated to the Āditya"), opening *tato yuddha-pariśrāntaṃ samare cintayā sthitam...* and its famous battle-charge *jayasva śatrūn... ādityaṃ paramaṃ japtvā...*, is a short Sūrya-stotra of roughly **thirty-one verses** set in **sarga 105** of the **Yuddha Kāṇḍa** of Vālmīki's *Rāmāyaṇa* (sarga numbering varies by recension; vulgate ~107, Critical Edition ~105). The sage **Agastya**, present among the gods watching the war, approaches the exhausted Rāma on the battlefield and imparts the hymn as a **mantra-cum-tonic** to be recited before re-engaging Rāvaṇa. It is at once a narrative episode of the epic and one of the most widely recited stand-alone **Surya stotras** in living practice. [scholarly]
 
@@ -60,7 +60,7 @@ The **Āditya-hṛdaya** ("Heart of the Sun" / "Heart-essence dedicated to the �
 
 **Related corpus**
 - *Sūrya and his family* node — the Vedic solar deities (Savitṛ, Pūṣan, Vivasvat, Mārtaṇḍa) gathered into the hymn's litany; see [Sūrya and his family](../02-deities-and-cosmic-hierarchy/surya-and-his-family.md).
-- The hymn's giver and its setting: [Agastya](agastya.md) and the [Yuddha (Laṅkā) Kāṇḍa](ramayana/6-yuddha-kanda.md); its target [Rāvaṇa](ravana.md).
+- The hymn's giver and its setting: [Agastya](agastya.md) and the [Yuddha (Laṅkā) Kāṇḍa](ramayana/6-yuddha-kanda.md); its target [Rāvaṇa](characters/ravana.md).
 
 **Note on attribution**
 - Verse numbers follow the common vulgate; the Critical Edition differs in count and some scholars regard the sarga as a Saura interpolation. The "removes disease / grants victory in any struggle" applications are devotional extensions of the text's own phala-śruti, recorded here as living tradition, not as text-critical claims. [disputed]

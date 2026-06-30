@@ -77,8 +77,8 @@
 
 ## VIII. How the catalogue seeds the later tradition
 
-- **Epic → Purāṇa lineage** — the Tīrtha-yatra Parva is the **seed-text** the Padma (*Sṛṣṭi / Uttara-khaṇḍa* tīrtha-sections), Skanda (the *khaṇḍa*-māhātmyas: *Prabhāsa, Kāśī, Reva, Kedāra*), Matsya and Vāyu Purāṇas expand into the standalone ford-gazetteers. The epic gives the **roster and the merit-formula**; the Purāṇas supply the **full legends**. (*Padma* & *Skanda* tīrtha-māhātmyas) [scholarly]
-- **Index function** — for this section, treat the parva as the **master list**: every numbered circuit and named ford in **[Tīrtha Networks & Circuits](temple-networks-and-circuits.md)** and the **[Sapta Purī](sapta-puri-and-sacred-cities.md)** descends from, or is cross-checked against, this catalogue. The major fords carry their own files; the minor *stuti*-fords (§VII) are housed here.
+- **Epic → Purāṇa lineage** — the parva is the **seed-text** the Padma, Skanda (the *Prabhāsa-, Kāśī-, Reva-, Kedāra-khaṇḍa* māhātmyas), Matsya and Vāyu Purāṇas expand into standalone gazetteers: the epic gives the **roster and the merit-formula**, the Purāṇas the **full legends**. (*Padma* & *Skanda* tīrtha-māhātmyas) [scholarly]
+- **Index function** — for this section, treat the parva as the **master list**: every numbered circuit and named ford in **[Tīrtha Networks & Circuits](temple-networks-and-circuits.md)** and the **[Sapta Purī](sapta-puri-and-sacred-cities.md)** is cross-checked against this catalogue. Major fords carry their own files; the minor *stuti*-fords (§VII) are housed here.
 
 ---
 

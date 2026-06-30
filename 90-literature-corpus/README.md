@@ -199,7 +199,7 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 46 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 58 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Āgamas, Tantras & Dharmaśāstras](agamas-tantras-dharmashastras.md)
 - 🟩 [The Bhāgavata Purāṇa — Skandha-by-Skandha Map](bhagavata-purana-skandha-map.md)
@@ -253,13 +253,25 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟨 [Upanishads](upanishads/README.md)
 - 🟩 [Bṛhadāraṇyaka Upaniṣad — Dedicated Deep-Dive](upanishads/brihadaranyaka-upanishad.md)
 - 🟩 [Chāndogya Upaniṣad — Dedicated Deep-Dive](upanishads/chandogya-upanishad.md)
+- 🟩 [Gopāla-tāpanīya Upaniṣad](upanishads/gopala-tapaniya-upanishad.md)
+- 🟩 [Kaivalya Upanishad](upanishads/kaivalya-upanishad.md)
+- 🟩 [Mahānārāyaṇa Upaniṣad — Dedicated Deep-Dive](upanishads/mahanarayana-upanishad.md)
 - 🟩 [Māṇḍūkya Upaniṣad & Gauḍapāda Kārikā — Dedicated Deep-Dive](upanishads/mandukya-upanishad.md)
+- 🟩 [Nṛsiṃha-tāpanīya Upaniṣad (Pūrva & Uttara Tāpinī)](upanishads/nrisimha-tapaniya-upanishad.md)
+- 🟩 [The Sannyāsa Upaniṣads](upanishads/sannyasa-upanishads-overview.md)
 - 🟩 [Śvetāśvatara Upaniṣad — Dedicated Deep-Dive](upanishads/svetashvatara-upanishad.md)
+- 🟩 [The Yoga Upanishads](upanishads/yoga-upanishads-overview.md)
 
 **vedas/**
 
 - 🟨 [Vedas](vedas/README.md)
+- 🟩 [The Āraṇyakas (the 'Forest Books')](vedas/aranyakas.md)
 - 🟩 [Atharvaveda — Per-Text Profile (Charms, Healing & Speculation)](vedas/atharvaveda.md)
+- 🟩 [Aitareya Brahmana (and Aitareya Aranyaka)](vedas/brahmanas/aitareya-brahmana.md)
+- 🟩 [Panchavimsha (Tandya Maha-) Brahmana and the Samavedic Brahmana corpus](vedas/brahmanas/panchavimsha-brahmana.md)
+- 🟩 [Shatapatha Brahmana](vedas/brahmanas/shatapatha-brahmana.md)
+- 🟩 [Taittiriya Brahmana (and Taittiriya Aranyaka)](vedas/brahmanas/taittiriya-brahmana.md)
+- 🟩 [The Pratishakhyas (Veda-specific phonetic treatises)](vedas/pratishakhyas.md)
 - 🟩 [Rigveda — Per-Text Profile (Mandala-by-Mandala)](vedas/rigveda.md)
 - 🟩 [Samaveda — Per-Text Profile (Chant & Melody)](vedas/samaveda.md)
 - 🟩 [Yajurveda — Per-Text Profile (Shukla & Krishna Recensions)](vedas/yajurveda.md)

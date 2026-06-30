@@ -1,6 +1,6 @@
 # Hanuman Chalisa
 
-> *Up one level: [04-deep-dives](../README.md) · Goswami Tulsīdās's forty-verse Awadhī hymn to Hanumān — the most-recited Hanumān text in living Hindu practice — composed as a devotional companion to his [Rāmcaritmānas](../ramcharitmanas-tulsidas.md) and catalogued among the song-discourses of the [Lesser Gītās catalog](../lesser-gitas-catalog.md).*
+> *Up one level: [04-deep-dives](../README.md) · Goswami Tulsīdās's forty-verse Awadhī hymn to Hanumān — the most-recited Hanumān text in living Hindu practice — composed as a devotional companion to his [Rāmcaritmānas](../ramayana/recensions/ramcharitmanas-tulsidas.md) and catalogued among the song-discourses of the [Lesser Gītās catalog](../lesser-gitas-catalog.md).*
 
 The **Hanumān Cālīsā** ("Forty [Verses] to Hanumān," from *cālīs*, "forty"), opening with the maṅgalācaraṇa *śrī guru caraṇa saroja raja...* ("With the dust of my Guru's lotus-feet..."), is a short devotional hymn in the **Awadhī** dialect of Hindi, traditionally ascribed to the poet-saint **Goswami Tulsīdās** (c. 1532–1623 CE). It is, by recitation-count, almost certainly the **single most-recited Hindu devotional text in the world**, chanted daily, on Tuesdays and Saturdays, and in moments of fear across North India and the global Hindu diaspora. Its structure is fixed: **two opening dohās**, **forty caupāīs** (the "forty" that names the poem), and **one closing dohā**, totalling forty-three verses. [scholarly]
 
@@ -10,7 +10,7 @@ The **Hanumān Cālīsā** ("Forty [Verses] to Hanumān," from *cālīs*, "forty
 
 - **Tulsīdās the composer** — Tradition attributes the hymn to **Goswami Tulsīdās**, the sixteenth–seventeenth-century Rāmabhakti poet of Vārāṇasī / Ayodhyā, author of the **Rāmcaritmānas**; the Cālīsā is read as a devotional offshoot of his larger Rāma corpus, written in the same vernacular register accessible to ordinary devotees rather than in Sanskrit. (Tulsīdās tradition) [scholarly]
   - *Variant (legend of composition):* a popular hagiographical tale holds that Tulsīdās composed the Cālīsā while **imprisoned by the Mughal emperor Akbar / Jahāngīr**, and that on its recitation an army of monkeys besieged the court, winning his release; this frame-legend is devotional folklore, not securely documented. [folk] [disputed]
-- **Companion to the Rāmcaritmānas** — The Cālīsā functions as a stand-alone **stuti** (praise-hymn) extracted from and harmonized with the world of the *Mānas*; many of its references (Hanumān as Rāma's messenger, the burning of Laṅkā, the carrying of the mountain) presuppose the Rāmāyaṇa narrative Tulsīdās had already retold. (See [Rāmcaritmānas](../ramcharitmanas-tulsidas.md).) [scholarly]
+- **Companion to the Rāmcaritmānas** — The Cālīsā functions as a stand-alone **stuti** (praise-hymn) extracted from and harmonized with the world of the *Mānas*; many of its references (Hanumān as Rāma's messenger, the burning of Laṅkā, the carrying of the mountain) presuppose the Rāmāyaṇa narrative Tulsīdās had already retold. (See [Rāmcaritmānas](../ramayana/recensions/ramcharitmanas-tulsidas.md).) [scholarly]
 - **Self-naming colophon** — The closing verses embed the author's signature: the line *tulasīdāsa sadā hari cerā* ("Tulsīdās, ever the servant of Hari") names the poet within the text, in the manner of the bhakti *chāp* (poetic signature). (*Hanumān Cālīsā*, cl. cpr.) [scholarly]
 
 ---
@@ -56,5 +56,5 @@ The forty caupāīs move through a deliberate sequence — invocation, Hanumān'
 - **Vālmīki Rāmāyaṇa**, *Sundara-kāṇḍa* and *Yuddha-kāṇḍa* — narrative substratum for the messenger, burning-of-Laṅkā, and Sañjīvanī-mountain feats the Cālīsā rehearses (see [Sundara-kāṇḍa](../ramayana/5-sundara-kanda.md)).
 
 **Tradition / context**
-- Tulsīdās corpus and Rāmabhakti devotional milieu (see [Rāmcaritmānas](../ramcharitmanas-tulsidas.md)).
+- Tulsīdās corpus and Rāmabhakti devotional milieu (see [Rāmcaritmānas](../ramayana/recensions/ramcharitmanas-tulsidas.md)).
 - Living North-Indian recitation practice: Tuesday/Saturday observance, apotropaic and vow-based repetition (folk/regional, oral tradition).

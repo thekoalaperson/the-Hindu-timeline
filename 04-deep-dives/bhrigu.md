@@ -2,7 +2,7 @@
 
 > *Where this sits: a deep-dive into **Bhṛgu** (Bhṛgu Ṛṣi) — mind-born Prajāpati, apical patriarch of the **Bhārgava** fire-priest clan, namesake of the **Bhṛgu Saṃhitā**, and the sage who kicked Viṣṇu's chest to adjudicate Trimūrti supremacy. ⬆ Parent index: [04-deep-dives](README.md) · Master index: [README](../README.md)*
 
-**Bhṛgu** (भृगु, from √*bhrāj* "to blaze/shine" — the "burning one," a fire-seer like his rival **[Aṅgiras](angiras.md)**) is one of the primordial mind-born Prajāpatis and a frequent member of the **Saptarṣi**. He fathers a line that dominates both the asura priesthood and the warrior-brahmin tradition: his son **Śukra/Uśanas** becomes guru of the asuras (see [Kaca & Devayānī](kacha-devayani.md)), his son **[Cyavana](cyavana-sukanya.md)** roots the rejuvenation lore, and his great-grandson-line through Ṛcīka → Jamadagni produces **Paraśurāma** ([Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md)). He is best remembered for the audacious **Bhṛgu-test** — kicking Viṣṇu in the chest to decide which of the Trimūrti is supreme — the act that gives Viṣṇu the **Śrīvatsa** mark and triggers **Lakṣmī's** estrangement. He is a **[creation]**-period figure recurring across manvantaras (the "two clocks": his *name* names a recurring office, distinct from the historical Bhārgava hymn-poets downstream of him).
+**Bhṛgu** (भृगु, from √*bhrāj* "to blaze/shine" — the "burning one," a fire-seer like his rival **[Aṅgiras](angiras.md)**) is one of the primordial mind-born Prajāpatis and a frequent member of the **Saptarṣi**. He fathers a line that dominates both the asura priesthood and the warrior-brahmin tradition: his son **Śukra/Uśanas** becomes guru of the asuras (see [Kaca & Devayānī](characters/kacha-devayani.md)), his son **[Cyavana](cyavana-sukanya.md)** roots the rejuvenation lore, and his great-grandson-line through Ṛcīka → Jamadagni produces **Paraśurāma** ([Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md)). He is best remembered for the audacious **Bhṛgu-test** — kicking Viṣṇu in the chest to decide which of the Trimūrti is supreme — the act that gives Viṣṇu the **Śrīvatsa** mark and triggers **Lakṣmī's** estrangement. He is a **[creation]**-period figure recurring across manvantaras (the "two clocks": his *name* names a recurring office, distinct from the historical Bhārgava hymn-poets downstream of him).
 
 ---
 
@@ -18,7 +18,7 @@
 ## The Bhārgava line
 
 - **Patriarch of the Bhārgavas** — Bhṛgu heads the **Bhārgava** clan, mythologically the **purohitas of the Daityas/Dānavas**, masters of revival-magic and (in tradition) the **Sāmaveda** — a brahmin line that shades into kṣatriya martial fury. (*Mahābhārata*, Ādi Parva; *Anuśāsana Parva*)
-- **Father of Śukra (Uśanas Kāvya)** — Bhṛgu's son **Śukra**, the **Daitya-guru** and planet **Venus**, holds the **Mṛtasañjīvanī vidyā** to revive the slain — the secret at the heart of the [Kaca & Devayānī](kacha-devayani.md) cycle. (*Mahābhārata*, Ādi Parva)
+- **Father of Śukra (Uśanas Kāvya)** — Bhṛgu's son **Śukra**, the **Daitya-guru** and planet **Venus**, holds the **Mṛtasañjīvanī vidyā** to revive the slain — the secret at the heart of the [Kaca & Devayānī](characters/kacha-devayani.md) cycle. (*Mahābhārata*, Ādi Parva)
 - **Father of Cyavana** — by Pulomā; the sage rejuvenated by the **Aśvins** (origin of *cyavanaprāśa*) and husband of **Sukanyā** — the full cycle at [Cyavana, Sukanyā & the Aśvins](cyavana-sukanya.md). (*Mahābhārata*, Vana Parva; *Śatapatha Brāhmaṇa* 4.1.5)
 - **Ancestor of Paraśurāma** — through Cyavana → **Ṛcīka** → **Jamadagni**, the line produces **Paraśurāma**, the axe-wielding 6th avatāra who exterminates the kṣatriyas twenty-one times. (*Mahābhārata*, Vana/Śānti Parva; *Bhāgavata Purāṇa* 9.15–16) — see [Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md).
 - **Aurva and the submarine fire** — the Bhārgava **Aurva** (Cyavana's grandson-line) births the world-burning **Vāḍava/Aurva-agni**, restrained into the ocean-mare's-mouth — the line's recurring motif of priestly wrath turned to fire. (*Mahābhārata*, Ādi Parva)
@@ -66,7 +66,7 @@ The central episode: at a great sacrifice on the **Sarasvatī** banks, the assem
 ## Related nodes
 
 - [Cyavana, Sukanyā & the Aśvins](cyavana-sukanya.md) — Bhṛgu's son by Pulomā
-- [Kaca & Devayānī](kacha-devayani.md) — the Mṛtasañjīvanī cycle of Bhṛgu's son Śukra
+- [Kaca & Devayānī](characters/kacha-devayani.md) — the Mṛtasañjīvanī cycle of Bhṛgu's son Śukra
 - [Aṅgiras](angiras.md) — the rival mind-born fire-priest house
 - [Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md) — Paraśurāma, the Bhārgava avatāra
 - [Saptarṣi](../02-deities-and-cosmic-hierarchy/saptarishi.md) — the rotating office Bhṛgu holds

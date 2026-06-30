@@ -54,24 +54,38 @@ Until those land, the four-sampradāya frame and the founders above are the work
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 18 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 32 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Ādi Śaṅkara & Advaita Vedānta](adi-shankara.md)
 - 🟩 [The Ālvārs & Nāyaṉārs — Tamil Bhakti Saints](alvars-and-nayanars.md)
 - 🟩 [Āṇḍāḷ — the Only Female Ālvār and the Tiruppāvai](andal.md)
+- 🟩 [Avvaiyār — The Tamil Poet-Saint of Wisdom](avvaiyar.md)
+- 🟩 [Bahiṇābāī (Bahiṇā) — The Autobiographical Vārkarī Sant](bahinabai.md)
+- 🟩 [Eknāth (Ekanātha) — The Consolidator of the Vārkarī Tradition](eknath.md)
 - 🟩 [The Four Vaiṣṇava Sampradāyas](four-vaishnava-sampradayas.md)
+- 🟩 [Gārgī Vācaknavī & Maitreyī — The Brahmavādinīs of the Bṛhadāraṇyaka](gargi-and-maitreyi.md)
 - 🟩 [The Haridāsa Movement & the Carnatic Trinity](haridasa-and-carnatic-bhakti.md)
+- 🟩 [Janābāī (Sant Janī) — The Maidservant Poet of Pandharpur](janabai.md)
+- 🟩 [Jñāneśvar (Dnyāneśvar / Jñānadeva) — Founder of the Vārkarī Movement](jnaneshwar.md)
 - 🟩 [Kabīr — Nirguṇa Sant and the Kabīr Panth](kabir.md)
+- 🟩 [Kāraikkāl Ammaiyār (Puṉitavati) — The Pēy-Devotee Nāyaṉār](karaikkal-ammaiyar.md)
+- 🟩 [Lalleśvarī / Lal Ded (Lallā Yogīśvarī) — The Vākhs of Kashmir](lalleshwari-lal-ded.md)
 - 🟩 [Liṅgāyat / Vīraśaiva Vachana Saints — Basava, Akka Mahādevi, Allama](lingayat-vachana-poets.md)
 - 🟩 [Mīrābāī — the Rajput Princess-Saint of Krishna](mirabai.md)
 - 🟩 [Modern Teachers & Reform Movements](modern-teachers-and-reform.md)
+- 🟩 [Nāmdev (Nāmadeva) — The Pan-Indian Kīrtana Sant](namdev.md)
 - 🟩 [Nammālvār — the Foremost Ālvār and the Tiruvāymoḻi](nammalvar.md)
+- 🟩 [The Nāth Sampradāya, the Navnāth & the 84 Mahāsiddhas](nath-sampradaya-and-the-siddhas.md)
 - 🟩 [Nimbārka, Vallabha & Chaitanya — Bhakti Vedānta](nimbarka-vallabha-chaitanya.md)
 - 🟩 [The Sant & Bhakti Poets of the North & West](north-bhakti-sants.md)
 - 🟩 [Rāmānuja & Madhva — Viśiṣṭādvaita & Dvaita](ramanuja-and-madhva.md)
+- 🟩 [Ravidās (Raidās / Guru Ravidāss) — The Camār Nirguṇa Sant](ravidas.md)
+- 🟩 [Samarth Rāmdās — Founder of the Rāmdāsī Sampradāya](samarth-ramdas.md)
 - 🟩 [Sankaradeva & Ekasarana — Assamese Neo-Vaishnavism](sankaradeva-and-assamese-vaishnavism.md)
 - 🟩 [Śaiva Schools & Orders](shaiva-schools.md)
 - 🟩 [Śākta & Tantra Lineages](shakta-and-tantra-lineages.md)
+- 🟩 [Sūrdās — The Blind Master-Poet of Braj](surdas.md)
+- 🟩 [The Tamil Siddhars (Patiṉeṇ Cittar) — The Southern Siddha Tradition](tamil-siddhars.md)
 - 🟩 [The Nālvar — Sambandar, Appar, Sundarar & Māṇikkavācakar](the-nalvar-tamil-shaiva-saints.md)
 - 🟩 [Tukārām — the Abhaṅga Apex of the Vārkarī Tradition](tukaram.md)
 

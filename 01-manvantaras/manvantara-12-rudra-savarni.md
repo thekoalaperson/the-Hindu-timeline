@@ -1,6 +1,6 @@
 # Manvantara 12 — Rudra-Sāvarṇi (Future)
 
-> Hierarchy: [01-manvantaras](../../) → [the-14-manvantaras](../) → **12th Manvantara (Rudra-Sāvarṇi)**. A *future* manvantara within the current Śveta-Varāha Kalpa; the fifth of the future set, two manvantaras still lie ahead after it. Each spans ~306,720,000 human years (71 mahāyugas + 1 sandhyā). Up-link: [the-14-manvantaras README](../README.md).
+> Hierarchy: [the-14-manvantaras](README.md) → **12th Manvantara (Rudra-Sāvarṇi)**. A *future* manvantara within the current Śveta-Varāha Kalpa; the fifth of the future set, two manvantaras still lie ahead after it. Each spans ~306,720,000 human years (71 mahāyugas + 1 sandhyā). Up-link: [the-14-manvantaras README](../README.md).
 
 ## Orientation
 - We are presently in the **7th ([Vaivasvata](manvantara-07-vaivasvata/))** manvantara. Rudra-Sāvarṇi is the **12th**, so it lies wholly in the future. Manvantaras 8–14 form the *future* set whose officers are catalogued chiefly in the **Bhāgavata Purāṇa (8.13)** and the **Viṣṇu Purāṇa (3.2)**; they are rosters, not narratives.

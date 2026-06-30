@@ -78,4 +78,4 @@ The **Śiva-mahimnaḥ stotra** (शिवमहिम्नः स्तोत�
 - The frame-story (invisibility boon, the royal/Citraratha garden, the trampled Śiva-offering, loss and restoration of power, the hymn as atonement) — Puṣpadanta legend in the stotra tradition and Purāṇic retellings. [folk] [regional]
 - Inclusivist *Hari–Hara* verse, Tripura-chariot image, and the apophatic "limits of speech and the Vedas" theme — content of the hymn (vv. 1–7, Tripura verse, signature verses). [scholarly]
 - Living recitation: Mahā-śivarātri / Śrāvaṇa and pūjā use, the hymn as a *kṣamā* (forgiveness) closing prayer; the Jain Mahimna-stotra adaptation as evidence of cross-community prestige. (devotional/oral tradition) [folk] [disputed]
-- Companion within the repo: the fuller treatment at [04-deep-dives/mahimna-stotra.md](../mahimna-stotra.md); doctrinal counterpart [Śiva-Gītā](../shiva-gita.md).
+- Companion within the repo: the fuller treatment at [04-deep-dives/mahimna-stotra.md](shiva-mahimna-stotra.md); doctrinal counterpart [Śiva-Gītā](../shiva-gita.md).

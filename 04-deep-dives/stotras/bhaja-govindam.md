@@ -1,6 +1,6 @@
 # Bhaja Govindam (Mohamudgara)
 
-> *Up one level: [04-deep-dives](../README.md) · Ādi Śaṅkara's short, fierce *vairāgya* (renunciation) hymn — "Worship Govinda, O fool; grammar will not save you at death" — also titled **Moha-mudgara** ("Hammer that Smashes Delusion"); a street-song distillation of his Advaita, sibling to the [Saundarya-laharī](../soundarya-lahari.md) among hymns ascribed to him, catalogued with the [Lesser Gītās](../lesser-gitas-catalog.md), and rooted in the system of the [Brahma-sūtras](../../90-literature-corpus/darshanas/brahma-sutras.md).*
+> *Up one level: [04-deep-dives](../README.md) · Ādi Śaṅkara's short, fierce *vairāgya* (renunciation) hymn — "Worship Govinda, O fool; grammar will not save you at death" — also titled **Moha-mudgara** ("Hammer that Smashes Delusion"); a street-song distillation of his Advaita, sibling to the [Saundarya-laharī](soundarya-lahari.md) among hymns ascribed to him, catalogued with the [Lesser Gītās](../lesser-gitas-catalog.md), and rooted in the system of the [Brahma-sūtras](../../90-literature-corpus/darshanas/brahma-sutras.md).*
 
 The **Bhaja Govindam** (भज गोविन्दम्; also **Bhajagovindam**, **Mohamudgara**, **Dvādaśa-mañjarikā Stotra**) is a brief, melodic Sanskrit devotional poem attributed to **Ādi Śaṅkarācārya**, the great systematizer of **Advaita Vedānta** (see [Ādi Śaṅkara](../../07-acharyas-and-sampradayas/adi-shankara.md) and the broader [Ācāryas & Sampradāyas](../../07-acharyas-and-sampradayas/README.md)). In a handful of singable, hard-hitting verses it compresses the austere non-dualism of Śaṅkara's commentaries on the [Brahma-sūtras](../../90-literature-corpus/darshanas/brahma-sutras.md) and the [Bhagavad Gītā](../bhagavad-gita.md) into a popular **call to renunciation, devotion to Govinda (Viṣṇu/Kṛṣṇa), and the remembrance of death** — warning that grammar, wealth, lust, and worldly ties are worthless at the hour one dies. Its refrain *bhaja govindaṃ bhaja govindaṃ govindaṃ bhaja mūḍha-mate* ("Worship Govinda, worship Govinda, worship Govinda, O deluded mind!") is among the most-recited verses in all Hindu devotional life. [scholarly]
 
@@ -50,14 +50,14 @@ The **Bhaja Govindam** (भज गोविन्दम्; also **Bhajagovindam
 - **A staple of daily and congregational devotion** — Bhaja Govindam is **memorized, sung, and chanted across India** — in homes, temples, and *satsaṅg* gatherings — prized for its simple, urgent message and its singable metre; it is among the first Sanskrit hymns many devotees learn. [folk]
 - **Swāmī Cinmayānanda's exposition** — In the 20th century **Swāmī Cinmayānanda** (founder of the Chinmaya Mission) delivered and published a celebrated discourse-commentary on Bhaja Govindam that made it a centerpiece of modern Vedānta teaching and popularized the disciple-verse tradition. [scholarly]
 - **Musical settings** — The hymn has been set to music repeatedly; the rendition by **M. S. Subbulakshmi** (paired with discourses of the Kāñcī tradition) is among the best-known recordings, fixing the melody in the popular ear. [regional]
-- **One of the most-quoted Advaita devotional poems** — Within the large corpus of **stotras attributed to Śaṅkara** (alongside the *Nirvāṇa-ṣaṭka, Kanakadhārā-stotra,* and the Śākta [Saundarya-laharī](../soundarya-lahari.md)), Bhaja Govindam stands out as the one most often cited to convey Advaita *vairāgya* in a single breath; in the wider devotional anthologies it is grouped with the [Lesser Gītās](../lesser-gitas-catalog.md) and the [Bhagavad Gītā](../bhagavad-gita.md) whose teaching it so often paraphrases. [scholarly]
+- **One of the most-quoted Advaita devotional poems** — Within the large corpus of **stotras attributed to Śaṅkara** (alongside the *Nirvāṇa-ṣaṭka, Kanakadhārā-stotra,* and the Śākta [Saundarya-laharī](soundarya-lahari.md)), Bhaja Govindam stands out as the one most often cited to convey Advaita *vairāgya* in a single breath; in the wider devotional anthologies it is grouped with the [Lesser Gītās](../lesser-gitas-catalog.md) and the [Bhagavad Gītā](../bhagavad-gita.md) whose teaching it so often paraphrases. [scholarly]
 
 ---
 
 ## Cross-links
 
 - [Ādi Śaṅkara](../../07-acharyas-and-sampradayas/adi-shankara.md) · [Ācāryas & Sampradāyas](../../07-acharyas-and-sampradayas/README.md) — the author and his Advaita lineage.
-- [Saundarya-laharī](../soundarya-lahari.md) — the foremost Śākta hymn likewise ascribed to Śaṅkara; devotional counterpart to this *vairāgya* song.
+- [Saundarya-laharī](soundarya-lahari.md) — the foremost Śākta hymn likewise ascribed to Śaṅkara; devotional counterpart to this *vairāgya* song.
 - [Brahma-sūtras](../../90-literature-corpus/darshanas/brahma-sutras.md) — the systematic Vedānta text whose Advaita reading Bhaja Govindam translates into street-song.
 - [Bhagavad Gītā](../bhagavad-gita.md) · [Lesser Gītās catalog](../lesser-gitas-catalog.md) — the song-discourses with which Bhaja Govindam is anthologized and which it distills.
 

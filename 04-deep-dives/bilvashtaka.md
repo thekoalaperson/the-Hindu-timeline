@@ -1,6 +1,6 @@
 # Bilvashtaka — the Eight-Verse Hymn for Offering Bilva Leaves to Shiva
 
-> *Up one level: [04-deep-dives](README.md) · The short liturgical octet recited while laying the trifoliate **bilva** leaf on the liṅga; a ritual companion to the [Śiva Mahimna Stotra](mahimna-stotra.md) and catalogued among the independent devotional song-hymns of the [Lesser Gītās catalog](lesser-gitas-catalog.md).*
+> *Up one level: [04-deep-dives](README.md) · The short liturgical octet recited while laying the trifoliate **bilva** leaf on the liṅga; a ritual companion to the [Śiva Mahimna Stotra](stotras/shiva-mahimna-stotra.md) and catalogued among the independent devotional song-hymns of the [Lesser Gītās catalog](lesser-gitas-catalog.md).*
 
 The **Bilvāṣṭaka** (Bilvāṣṭakam, "the eight [verses] of the bilva"), opening *tridalaṃ triguṇākāraṃ trinetraṃ ca triyāyudham...* ("Three-leafed, of the form of the three guṇas, three-eyed and three-weaponed..."), is a short Śaiva liturgical hymn of **eight verses** (an *aṣṭaka*) recited while offering the **trifoliate bilva (bael, *Aegle marmelos*) leaf** — the *bilva-patra* — to Śiva or the Śiva-liṅga. Unlike the grand praise-poems, it is functionally a **mantra of offering (samarpaṇa)**: each verse hands over the leaf and recites the merit thereby gained, the whole closing with a confession of unworthiness and a plea for forgiveness. It is the standard accompaniment to bilva-offering in daily *śiva-pūjā* and especially on **Mahā-śivarātri** and the fortnightly **Pradoṣa**. [scholarly]
 
@@ -13,7 +13,7 @@ For the bilva tree itself as a sacred plant — its botany, its link to Lakṣm�
 - **The three leaflets as a theological cipher** — The hymn's governing image is that the single bilva leaf is **three leaflets on one stalk**, and each verse re-reads this trinity. The opening verse glosses it at once as *triguṇākāra* (the **three guṇas** — sattva, rajas, tamas), *trinetra* (Śiva's **three eyes**), and *triyāyudha* (the **three-pointed weapon, the triśūla**). (*Bilvāṣṭaka* v. 1)
   - *Variant (Brahmā–Viṣṇu–Maheśa):* a parallel and very common reading — strong in the wider plant-lore — makes the three leaflets the **trimūrti** (Brahmā, Viṣṇu, Śiva). The repo's botanical entry records all three glosses (three guṇas / three eyes-and-triśūla / trimūrti) side by side. (sacred-flora tradition) [folk]
   - *Variant (the three syllables / three times):* devotional commentary also reads the triad as the three *kālas* (past-present-future) or the three sacred utterances, so that offering one leaf is held to encompass all threefold realities at once. [folk]
-- **The leaf as a self-sufficient offering** — The hymn repeatedly stresses that the bilva is *akhaṇḍa* (whole/unbroken) and supremely pleasing to Śiva, so that even a single leaf, rightly offered, suffices where elaborate worship is impossible — the same "devotion over capacity" logic the [Śiva Mahimna Stotra](mahimna-stotra.md) makes its theme. (*Bilvāṣṭaka*, refrain) [scholarly]
+- **The leaf as a self-sufficient offering** — The hymn repeatedly stresses that the bilva is *akhaṇḍa* (whole/unbroken) and supremely pleasing to Śiva, so that even a single leaf, rightly offered, suffices where elaborate worship is impossible — the same "devotion over capacity" logic the [Śiva Mahimna Stotra](stotras/shiva-mahimna-stotra.md) makes its theme. (*Bilvāṣṭaka*, refrain) [scholarly]
 
 ---
 
@@ -24,7 +24,7 @@ For the bilva tree itself as a sacred plant — its botany, its link to Lakṣm�
 - **vv. 2–3 — bilva and the goddess; the merit of leaves** — Verses praise the bilva as a tree **dear to / dwelt in by the goddess (Lakṣmī/Mahālakṣmī)** and tally the **immense merit (puṇya)** of offering its leaves — a single leaf weighed against great sacrifices, the offering said to bring prosperity and to erase accumulated sin. (*Bilvāṣṭaka* vv. 2–3) [folk]
 - **vv. 4–6 — fruit of offering on sacred days and at sacred sites** — The verses enumerate the **vastly multiplied fruit** of offering bilva at *kṣetras* and on holy days, and name the offering as a means to **mokṣa / Śiva-loka**, the leaf's three lobes again invoked as the trinity. (*Bilvāṣṭaka* vv. 4–6) [folk]
 - **vv. 7–8 — the phala-śruti and the prayer for forgiveness** — The closing verses give the **phala-śruti** (one who offers bilva, or recites this aṣṭaka, is freed of sin and attains Śiva) and end on a **kṣamā-prārthanā** — a plea for forgiveness of all faults in the worship, the offering of "one bilva" standing in for whatever the devotee has done wrongly or left undone. (*Bilvāṣṭaka* vv. 7–8) [scholarly]
-  - *Note (forgiveness-formula parallel):* this closing *kṣamā* function — a hymn appended to a pūjā to absolve ritual error (*aparādha*) — is exactly the role tradition assigns the [Śiva Mahimna Stotra](mahimna-stotra.md), itself born of a bilva-trampling offense (the gandharva Puṣpadanta's trodden Śiva-offering). The two hymns sit at the same liturgical seam. [scholarly]
+  - *Note (forgiveness-formula parallel):* this closing *kṣamā* function — a hymn appended to a pūjā to absolve ritual error (*aparādha*) — is exactly the role tradition assigns the [Śiva Mahimna Stotra](stotras/shiva-mahimna-stotra.md), itself born of a bilva-trampling offense (the gandharva Puṣpadanta's trodden Śiva-offering). The two hymns sit at the same liturgical seam. [scholarly]
   - *Variant (verse-count and refrain):* printed texts vary between counting **eight verses plus a phala-śruti** and folding the phala-śruti into the eighth; the refrain *eka-bilvaṃ śivārpaṇam* appears in most but not every verse across recensions. [disputed]
 
 ---
@@ -65,7 +65,7 @@ For the bilva tree itself as a sacred plant — its botany, its link to Lakṣm�
 
 **Within this repository**
 - [sacred-flora-and-fauna](../09-artifacts-symbols-and-arts/sacred-flora-and-fauna.md) — the bilva tree as sacred plant: the trifoliate *bilvapatra*, the three-leaflet glosses (trimūrti / three guṇas / three eyes-triśūla), the Mahā-śivarātri sin-washing claim, and the Lakṣmī-link variant.
-- [Śiva Mahimna Stotra](mahimna-stotra.md) — companion Śaiva hymn used as a closing *kṣamā* (forgiveness) prayer; its frame-legend turns on a **trampled bilva/Śiva-offering**.
+- [Śiva Mahimna Stotra](stotras/shiva-mahimna-stotra.md) — companion Śaiva hymn used as a closing *kṣamā* (forgiveness) prayer; its frame-legend turns on a **trampled bilva/Śiva-offering**.
 - [Lesser Gītās catalog](lesser-gitas-catalog.md) — the wider corpus of independent devotional song-hymns and Gītās into which this offering-aṣṭaka fits.
 - [Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md) — the Vaiṣṇava descents referenced in the trimūrti reading of the leaf's middle lobe.
 

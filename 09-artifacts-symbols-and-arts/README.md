@@ -60,13 +60,17 @@ Many objects belong to a deity as a fixed **iconographic attribute** — Viṣ�
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 6 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 10 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Divine Objects & Treasures](divine-objects-and-treasures.md)
 - 🟩 [Divyāstras — Divine Weapons](divyastras-and-divine-weapons.md)
+- 🟩 [Mūrti-lakṣaṇa & Iconometry](murti-lakshana-and-iconometry.md)
+- 🟩 [The Nāṭya Śāstra & the Classical Performing Arts](natya-shastra-and-the-classical-arts.md)
+- 🟩 [Rangoli, Kōlam & the Sacred Floor-Art Tradition](rangoli-kolam-floor-art.md)
 - 🟩 [Sacred Flora & Fauna](sacred-flora-and-fauna.md)
 - 🟩 [Sacred Symbols & Emblems](sacred-symbols-and-emblems.md)
 - 🟩 [The Sixty-Four Kalās — Arts & Sciences](sixty-four-kalas.md)
+- 🟩 [Temple Architecture — Nāgara, Drāviḍa & Vesara](temple-architecture-nagara-dravida-vesara.md)
 - 🟩 [Vāhanas & Celestial Vehicles](vahanas-and-celestial-vehicles.md)
 
 <!-- AUTOINDEX:END -->
