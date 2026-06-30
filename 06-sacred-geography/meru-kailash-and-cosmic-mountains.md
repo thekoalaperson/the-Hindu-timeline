@@ -90,7 +90,26 @@ Beyond Jambudvīpa, the Purāṇic earth is a flat **bhū-maṇḍala** of **sev
 
 ---
 
-## VI. The Kula-parvatas — the seven spines of Bhārata-varṣa
+## VI. The celestial groves of Meru & Svarga — the divine vanas
+
+Meru is not only stone and river but **garden**: the same slopes that bear the buttress-mountains (§I) carry the **divine pleasure-groves (devodyāna / nandana-vana)** of the gods — the *heavenly* counterparts to the corpus's many earthly forests ([Khāṇḍava](khandava-vana-and-the-burning.md), [Daṇḍakāraṇya](dandakaranya-rama-forest.md), [Kāmyaka/Dvaita](kamyaka-dvaita-pandava-exile-forests.md)). Where the earthly *vana* is a place of exile, danger and tapas, the celestial *vana* is pure *bhoga* — a wish-garden of perpetual spring stocked with [kalpavṛkṣa](../09-artifacts-symbols-and-arts/sacred-flora-and-fauna.md)-class wish-trees and apsaras.
+
+- **Nandanavana (Nandana)** — **[Indra's](../02-deities-and-cosmic-hierarchy/indra.md) paradisical pleasure-grove**, the archetypal heavenly *vana*, attached to his capital **Amarāvatī** on Meru's summit-plateau (§I); a garden of eternal spring where the gods sport with the **[apsarās and gandharvas](../08-beings-and-bestiary/gandharvas-and-kinnaras.md)** and which houses the **[Pārijāta](../09-artifacts-symbols-and-arts/sacred-flora-and-fauna.md)** (night-jasmine / coral-tree, churned from the [Samudra Manthana](../02-deities-and-cosmic-hierarchy/dashavatara.md)) and other *kalpavṛkṣa* wish-trees. It is the stock setting of countless epic/Purāṇic episodes — heroes arriving in Svarga walk in Nandana, and its blossoms and boughs are repeatedly fetched to earth (see the **Pārijāta-haraṇa**, below). (*Mahābhārata*; *Rāmāyaṇa*; Purāṇas)
+  - **Pārijāta-haraṇa** — the most famous "raid" on Nandana: **[Kṛṣṇa](../04-deep-dives/krishna-lila.md)**, to please **Satyabhāmā**, uproots the **Pārijāta** tree from Indra's garden and carries it to Dvārakā, defeating Indra who pursues to recover it. (*Harivaṃśa*; *Viṣṇu Purāṇa* 5.30; *Bhāgavata Purāṇa* 10.59)
+- **The fourfold set of divine groves** — the Purāṇas catalogue **four** great pleasure-gardens on the slopes of **Meru / Mandara**, one for the principal lords, often listed together: (*Bhāgavata Purāṇa* 5.16.13; *Viṣṇu Purāṇa* 2.2; *Mahābhārata*, Sabhā-parva)
+  - **Caitraratha** — the grove of **[Kubera](../02-deities-and-cosmic-hierarchy/kubera.md)** (lord of wealth), named for its keeper the gandharva **Citraratha**; a byword for a paradise-garden.
+  - **Nandana** — the grove of **Indra** (above).
+  - **Vaibhrāja** — the grove associated with **Varuṇa** (or, in some lists, of the gods generally / of Yama's quarter).
+  - **Sarvatobhadra** — the grove of **[Brahmā](../00-time-and-cosmology/brahma-lifetime.md)** (or of Soma), "auspicious on all sides," near Brahmapurī on the summit.
+  - *Variant (membership & ownership):* the assignment of each grove to a particular deity varies by recension, and some texts give the set as the gardens of the four buttress-mountains rather than of the four lords; the **fourfold pattern is stable, the roster is not.** [disputed]
+  - *Variant (Buddhist parallel):* Buddhist cosmology places **four parks of the Trāyastriṃśa heaven** around Indra's (Śakra's) city on Meru's summit — including a **Nandana** grove — a structurally identical, non-identical system. [scholarly]
+- **The four great lakes** — paired with the groves, the Purāṇas set **four lakes** on Meru's plateau (Aruṇoda, Mahābhadra, Asitoda/Sītoda, Mānasa), at which the gods recline; grove and lake together make the standard furniture of the divine garden. (*Bhāgavata Purāṇa* 5.16.12; *Viṣṇu Purāṇa* 2.2)
+
+> Cross-links: [Indra](../02-deities-and-cosmic-hierarchy/indra.md) (whose Nandana this is) · [Kubera](../02-deities-and-cosmic-hierarchy/kubera.md) (Caitraratha) · [sacred flora — kalpavṛkṣa & Pārijāta](../09-artifacts-symbols-and-arts/sacred-flora-and-fauna.md) · earthly forests: [Khāṇḍava-vana](khandava-vana-and-the-burning.md) · [Daṇḍakāraṇya](dandakaranya-rama-forest.md) · [Kāmyaka & Dvaita](kamyaka-dvaita-pandava-exile-forests.md).
+
+---
+
+## VII. The Kula-parvatas — the seven spines of Bhārata-varṣa
 
 Within Bhārata-varṣa itself the texts name **seven kula-parvatas** ("clan / principal mountains") — the major ranges that frame the regions of India proper, distinct from the cosmographic varṣa-parvatas:
 
@@ -108,7 +127,7 @@ Within Bhārata-varṣa itself the texts name **seven kula-parvatas** ("clan / p
 
 ---
 
-## VII. Variant cosmographies — Purāṇic disc vs Siddhāntic globe
+## VIII. Variant cosmographies — Purāṇic disc vs Siddhāntic globe
 
 The single sharpest fault-line in Hindu cosmography is between the **devotional Purāṇic** model and the **mathematical astronomical (siddhāntic)** model. They use the *same vocabulary* (Meru, Jambudvīpa) for *incompatible* geometries.
 
