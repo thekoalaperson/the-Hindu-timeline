@@ -23,7 +23,7 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 52 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 54 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Agni](agni.md)
 - 🟩 [Ayyaṉār / Śāstā — the Tamil Village Guardian](ayyanar-sastha.md)
@@ -50,6 +50,7 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 - 🟩 [Jhulelal / Uderolal — the Sindhi Water-God](jhulelal.md)
 - 🟩 [Kāmadeva, Rati & the Minor Deities](kamadeva-and-minor-deities.md)
 - 🟩 [Khaṇḍobā / Mārtāṇḍa Bhairava (Mallāri)](khandoba-martanda-bhairava.md)
+- 🟩 [Khodiyar Mata](khodiyar-mata.md)
 - 🟩 [Kubera](kubera.md)
 - 🟩 [Lakṣmī](lakshmi.md)
 - 🟩 [Lalitā Tripurasundarī & the War on Bhaṇḍāsura](lalita-bhandasura.md)
@@ -66,6 +67,7 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 - 🟩 [Avatars & Forms of Śiva](shiva-avatars-and-forms.md)
 - 🟩 [The Śiva Myth-Cycle — Cosmic Deeds of Mahādeva](shiva-myth-cycle.md)
 - 🟩 [The 64 Līlās of Śiva — Tiruviḷaiyāḍal, the Sacred Sports of Sundareśvara at Madurai](shiva-tiruvilaiyadal-64-lilas.md)
+- 🟩 [Sudalaimāḍaṉ — the Tamil Cremation-Ground Guardian](sudalaimadan.md)
 - 🟩 [Sūrya & His Family](surya-and-his-family.md)
 - 🟩 [Bṛhaspati & Śukra — the Two Gurus](the-gurus-brihaspati-and-shukra.md)
 - 🟩 [Trimūrti & Tridevī](trimurti-and-tridevi.md)

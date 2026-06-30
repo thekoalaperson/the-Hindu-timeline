@@ -54,7 +54,7 @@ Until those land, the four-sampradāya frame and the founders above are the work
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 37 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 38 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Ādi Śaṅkara & Advaita Vedānta](adi-shankara.md)
 - 🟩 [The Ālvārs & Nāyaṉārs — Tamil Bhakti Saints](alvars-and-nayanars.md)
@@ -85,6 +85,7 @@ Until those land, the four-sampradāya frame and the founders above are the work
 - 🟩 [The Sant & Bhakti Poets of the North & West](north-bhakti-sants.md)
 - 🟩 [Rāmānuja & Madhva — Viśiṣṭādvaita & Dvaita](ramanuja-and-madhva.md)
 - 🟩 [Ravidās (Raidās / Guru Ravidāss) — The Camār Nirguṇa Sant](ravidas.md)
+- 🟩 [The Rigvedic brahmavadinis / women seers](rigvedic-women-seers-brahmavadinis.md)
 - 🟩 [Samarth Rāmdās — Founder of the Rāmdāsī Sampradāya](samarth-ramdas.md)
 - 🟩 [Sankaradeva & Ekasarana — Assamese Neo-Vaishnavism](sankaradeva-and-assamese-vaishnavism.md)
 - 🟩 [Śaiva Schools & Orders](shaiva-schools.md)

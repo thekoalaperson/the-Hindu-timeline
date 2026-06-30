@@ -26,7 +26,7 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 74 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 78 files in this section. Regenerate with the indexer.*
 
 - 🟩 [The 108 Divya Desams — Vishnu Abodes of the Alvars](108-divya-desams.md)
 - 🟩 [The 12 Jyotirlingas of Shiva](12-jyotirlingas.md)
@@ -83,6 +83,8 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - 🟩 [Pañca-sarovara — The Five Sacred Lakes](panch-sarovar-sacred-lakes.md)
 - 🟩 [Pañcha Bhūta Sthalams — the Five-Element Shiva Temples](pancha-bhuta-sthalams.md)
 - 🟩 [Pañcha Kedār & Pañcha Badrī — the Garhwal Twin Circuits](pancha-kedar-pancha-badri.md)
+- 🟩 [Pañcha Sabhai — the Five Cosmic-Dance Halls of Naṭarāja](pancha-sabhai-nataraja-dance-halls.md)
+- 🟩 [Pancharama Kshetras](pancharama-kshetras-andhra.md)
 - 🟩 [Panchavati — Rāma's Dwelling on the Godāvarī at Nashik](panchavati-nashik-godavari.md)
 - 🟩 [Prabhāsa Tīrtha — The Sarasvatī-Ocean Kṣetra at Somnāth](prabhasa-somnath-tirtha.md)
 - 🟩 [Prayāga / Prayagraj — Tīrtharāja & the Triveṇī Saṅgam](prayagraj-triveni-sangam.md)
@@ -100,7 +102,9 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 - 🟩 [Sthala-Purāṇas — Major Temple Origin Legends](sthala-puranas-major-temples.md)
 - 🟩 [Temple Networks & Pilgrimage Circuits](temple-networks-and-circuits.md)
 - 🟩 [Tirumala–Tirupati — Veṅkaṭeśvara (Bālājī)](tirumala-tirupati-venkateshwara.md)
+- 🟩 [Udupi Sri Krishna Matha](udupi-krishna-matha.md)
 - 🟩 [Ujjain / Avantikā — Mahākāla & the Time-Meridian City](ujjain-avantika.md)
 - 🟩 [Vaishno Devi — the Trikuta Cave-Shrine of the Goddess (Katra, Jammu)](vaishno-devi-trikuta-katra.md)
+- 🟩 [Vaitaraṇī tīrtha](vaitarani-jajpur-viraja-kshetra.md)
 
 <!-- AUTOINDEX:END -->

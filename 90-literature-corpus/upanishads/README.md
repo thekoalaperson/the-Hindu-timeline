@@ -15,4 +15,5 @@
 - [Māṇḍūkya Upaniṣad & Gauḍapāda Kārikā — Dedicated Deep-Dive](mandukya-upanishad.md)
 - [Nṛsiṃha-tāpanīya Upaniṣad — Dedicated Deep-Dive](nrisimha-tapaniya-upanishad.md)
 - [Śvetāśvatara Upaniṣad — Dedicated Deep-Dive](svetashvatara-upanishad.md)
+- [Vajrasūcikā Upaniṣad — Dedicated Deep-Dive](vajrasuchika-upanishad.md)
 - [The Yoga Upaniṣads — Overview & Catalog](yoga-upanishads-overview.md)

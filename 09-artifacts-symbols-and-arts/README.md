@@ -60,8 +60,9 @@ Many objects belong to a deity as a fixed **iconographic attribute** — Viṣ�
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 13 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 14 files in this section. Regenerate with the indexer.*
 
+- 🟩 [Pictorial / devotional painting traditions](chitra-kala-painting-traditions.md)
 - 🟩 [Divine Objects & Treasures](divine-objects-and-treasures.md)
 - 🟩 [Divyāstras — Divine Weapons](divyastras-and-divine-weapons.md)
 - 🟩 [Mehndi, Alaktaka and the Arts of Ritual Body-Adornment (Maṅgala-śṛṅgāra)](mehndi-and-ritual-body-adornment.md)

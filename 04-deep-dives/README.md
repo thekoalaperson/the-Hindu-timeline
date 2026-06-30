@@ -20,7 +20,7 @@
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 222 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 227 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Aditya Hridayam](aditya-hridayam.md)
 - 🟩 [Agastya — Sage of the South](agastya.md)
@@ -91,6 +91,7 @@
 - 🟩 [The Nārāyaṇīya — Pāñcarātra Theology of the Śānti Parva](narayaniya.md)
 - 🟩 [Paraśurāma avatāra](parashurama.md)
 - 🟩 [Prahlāda & Narasiṃha — the Man-Lion's Descent](prahlada-narasimha.md)
+- 🟩 [Pṛśnigarbha — and the Three Births of Viṣṇu in the Vasudeva–Devakī Line](prishnigarbha-three-births.md)
 - 🟩 [Pṛthu — the First King & the Milking of the Earth](prithu-prithvi.md)
 - 🟩 [Purūravas & Urvaśī — the Mortal King & the Apsarā](pururavas-urvashi.md)
 - 🟩 [Raghu — the King Who Gave His Name to the Dynasty](raghu.md)
@@ -257,6 +258,10 @@
 - 🟩 [Bhaja Govindam (Mohamudgara)](stotras/bhaja-govindam.md)
 - 🟩 [Hanuman Chalisa](stotras/hanuman-chalisa.md)
 - 🟩 [Kanakadhara Stotram](stotras/kanakadhara-stotram.md)
+- 🟩 [Mahishasura Mardini Stotra](stotras/mahishasura-mardini-stotra.md)
+- 🟩 [Mukunda Mala Stotra](stotras/mukunda-mala.md)
+- 🟩 [Nirvana Shatkam / Atma Shatkam](stotras/nirvana-shatkam.md)
+- 🟩 [Ramaraksha Stotra](stotras/ramaraksha-stotra.md)
 - 🟩 [Shiva Mahimna Stotra](stotras/shiva-mahimna-stotra.md)
 - 🟩 [Shiva Sahasranama: The Thousand Names of Shiva](stotras/shiva-sahasranama.md)
 - 🟩 [Soundarya Lahari](stotras/soundarya-lahari.md)
