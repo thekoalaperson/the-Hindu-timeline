@@ -30,10 +30,7 @@ The **Vedānta schools** these orders carry — Advaita, Viśiṣṭādvaita, Dv
 
 ## Files in this section
 
-> Detail nodes for this folder. (Index seeded; deep files added as the section is populated — each will catalog ācāryas/seats/works one bullet apiece per the repo style.)
-
-
-Until those land, the four-sampradāya frame and the founders above are the working index; cross-check every dated claim against [recorded-history.md](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
+> Detail nodes for this folder — one file per ācārya, saint-cluster, or lineage, each cataloging teachers/seats/works one bullet apiece per the repo style. The complete list is the auto-generated **📑 Full Contents** index below; the streams table above is the doctrinal map onto which those files hang. Cross-check every dated claim against [recorded-history.md](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
 
 ---
 

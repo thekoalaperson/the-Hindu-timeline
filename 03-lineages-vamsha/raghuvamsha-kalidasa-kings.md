@@ -8,18 +8,12 @@ These three kings — **Dilīpa**, his son **Raghu**, and Raghu's son **Aja** (f
 
 ## 1. Dilīpa and the cow Nandinī — the touchstone of guru-sevā
 
-*Raghuvaṃśa* cantos **1–2**. The poem opens not with conquest but with a childless king earning a son by humble service.
+*Raghuvaṃśa* cantos **1–2**. The poem opens not with conquest but with a childless king earning a son by humble service. (The full canonical deep-dive lives at [../04-deep-dives/dilipa-nandini.md](../04-deep-dives/dilipa-nandini.md).)
 
-- **The childless king and his queen.** **Dilīpa**, sovereign of Kosala at Ayodhyā, and his queen **Sudakṣiṇā** are without an heir; the king's whole prosperity is shadowed by the want of a son to continue the Ikṣvāku line. (*Raghuvaṃśa* 1.31–34)
-- **The journey to Vasiṣṭha.** The royal couple go to the hermitage of the dynasty's hereditary purohita **Vasiṣṭha** (see [Vasiṣṭha & Viśvāmitra](../04-deep-dives/vishwamitra-vasishtha.md)) to learn the cause of their childlessness. (*Raghuvaṃśa* 1.35–48)
-- **The curse of the kalpa-tree's cow.** Vasiṣṭha reveals that Dilīpa, once returning from serving Indra, had slighted the celestial wish-cow **Surabhi** (Kāmadhenu) resting beneath the cosmic *pārijāta* / *kalpa* tree; her curse — that he should remain childless until he propitiates her offspring — is the hidden cause. (*Raghuvaṃśa* 1.49–55)
-- **Service to Nandinī.** Vasiṣṭha sets the penance: Dilīpa must devotedly tend Surabhi's daughter **Nandinī**, the sage's own *kāmadhenu* (wish-granting cow), following her by day as she grazes the forest and guarding her, his queen tending her in turn. (*Raghuvaṃśa* 1.56–95; 2.1–9)
-- **The lion-test.** On the twenty-first day a **lion** seizes Nandinī; Dilīpa, rushing to defend her, finds his arm magically frozen to his quiver. The lion declares itself **Śiva's servant** (a creature set to guard the god's pine-grove / the deodar of Mount Himālaya), claiming the cow as its lawful food, and bids the king depart. (*Raghuvaṃśa* 2.26–55)
-- **Offering his own body.** Dilīpa begs the lion to take **his own flesh** instead and spare the cow whose milk sustains the sage's rites and the dynasty's hope; he lays himself down as the substitute victim — the supreme image of *guru-sevā* and selfless dharma. (*Raghuvaṃśa* 2.56–63)
-- **The boon revealed.** The lion vanishes — it was an illusion conjured by **Nandinī herself** to test the king's devotion. Pleased, Nandinī grants him the boon of a son and offers her milk; Dilīpa, ever the servant, will not drink without his guru's leave. (*Raghuvaṃśa* 2.63–74)
+- **The childless king's penance.** **Dilīpa** of Kosala and his queen **Sudakṣiṇā**, sonless because the king once slighted the celestial wish-cow **Surabhi** (Kāmadhenu), are set an expiation by the purohita **Vasiṣṭha** (see [Vasiṣṭha & Viśvāmitra](../04-deep-dives/vishwamitra-vasishtha.md)): to serve Surabhi's daughter **Nandinī**, the sage's own *kāmadhenu*, with total devotion. (*Raghuvaṃśa* 1.31–95)
+- **The lion-test and the body-offering.** On the twenty-first day of the service a **lion** claiming to be Śiva's servant seizes Nandinī; his arm frozen to his quiver, Dilīpa offers **his own flesh** in the cow's place — whereupon the lion dissolves, an illusion conjured by Nandinī herself, and the cow grants the boon of a son. (*Raghuvaṃśa* 2.26–74)
 - **The birth of Raghu.** Sudakṣiṇā conceives and bears **Raghu**, named for the future "swiftness" of his conquests — the son won purely by devotion, with which the *vaṃśa* properly begins. (*Raghuvaṃśa* 3.1–21)
-  - *Variant (which cow):* Kālidāsa makes Nandinī the **daughter of Surabhi/Kāmadhenu** and Vasiṣṭha's own cow; elsewhere "Nandinī" *is* simply an epithet of Kāmadhenu — the catalogue of wish-cows (Surabhi, Kāmadhenu, Nandinī, Śabalā/Sabalā of the [Vasiṣṭha–Viśvāmitra](../04-deep-dives/vishwamitra-vasishtha.md) quarrel) overlaps and is not consistently distinguished across texts. [disputed]
-  - *Variant (which Dilīpa):* the Purāṇas know an earlier **Dilīpa I** (Khaṭvāṅga's line / descendant of Aṃśumān, near Bhagīratha) distinct from this **Dilīpa**, Raghu's father; Kālidāsa's Nandinī-tale belongs to the latter. The king-lists give differing placements. [disputed]
+- The **which-cow** variant (Nandinī as Surabhi's daughter vs. a mere epithet of Kāmadhenu) and the **which-Dilīpa** variant (Dilīpa I of the Bhagīratha line vs. this Dilīpa, Raghu's father) are catalogued with attribution in [Dilīpa & Nandinī](../04-deep-dives/dilipa-nandini.md). [disputed]
 
 ---
 
@@ -42,17 +36,12 @@ These three kings — **Dilīpa**, his son **Raghu**, and Raghu's son **Aja** (f
 
 ## 3. Aja and Indumatī — the svayaṃvara and the elegy
 
-*Raghuvaṃśa* cantos **6–8**. The lyric apex of the poem; almost wholly Kālidāsa's invention atop the Purāṇic name "Aja."
+*Raghuvaṃśa* cantos **6–8**. The lyric apex of the poem; almost wholly Kālidāsa's invention atop the Purāṇic name "Aja." (The full canonical deep-dive lives at [../04-deep-dives/aja-indumati.md](../04-deep-dives/aja-indumati.md).)
 
-- **The svayaṃvara at Vidarbha.** **Indumatī**, sister of King **Bhoja** of Vidarbha, holds a *svayaṃvara*; kings of every land assemble, and Kālidāsa parades them as the maiden, led by her companion **Sunandā**, passes each in turn — a famous catalogue-canto of the realms of India. (*Raghuvaṃśa* 6.1–67)
-- **Aja chosen.** Indumatī passes by every rival suitor and garlands **Aja**, Raghu's son, choosing him at the svayaṃvara. (*Raghuvaṃśa* 6.67–83)
-- **The battle of the spurned suitors.** The rejected kings ambush Aja on his homeward journey; he routs them, partly by a magic **Saṃmohana ("bewildering") missile** taught him by the gandharva **Priyaṃvada**, and brings Indumatī safely to Ayodhyā. (*Raghuvaṃśa* 7.31–71)
-- **Reign and the heir.** Raghu in old age abdicates to Aja and withdraws as a *yogin*; Aja and Indumatī rule, and Indumatī bears **Daśaratha**, the future father of Rāma. (*Raghuvaṃśa* 8.1–29; lineage in [suryavamsha-and-chandravamsha.md](./suryavamsha-and-chandravamsha.md))
-- **Death by a falling garland.** As Indumatī sits with Aja in a pleasure-garden, a **celestial garland** falls from the **vīṇā of the sage Nārada** as he passes overhead through the air; it lights on her breast and she **dies instantly**. (*Raghuvaṃśa* 8.33–38)
-- **Indumatī's true nature.** Nārada then reveals that Indumatī was the **apsarā Harīṇī**, cursed by the sage **Tṛṇabindu** to be born mortal until a heavenly garland should touch her and free her — the falling garland was the appointed term of her exile, not a random accident. (*Raghuvaṃśa* 8.79–82)
-  - *Variant (curse-detail):* names and framing (the sage Tṛṇabindu, the apsarā Harīṇī) are Kālidāsa's; the episode has no Purāṇic counterpart — Aja and Indumatī are bare succession-names in Viṣṇu IV.4 / Bhāgavata IX.9. [late text]
-- **Aja's lament (vilāpa).** Aja's prolonged elegy over the dead Indumatī — refusing comfort, addressing the corpse as though she could still hear — is the celebrated **Aja-vilāpa**, the high-water mark of *karuṇa-rasa* (the pathetic sentiment) in Sanskrit *kāvya*. (*Raghuvaṃśa* 8.43–69; [scholarly])
-- **Aja's death and reunion.** A consoling message from Vasiṣṭha cannot cure his grief; Aja pines, entrusts the kingdom to the grown **Daśaratha**, and after eight years of sorrow ends his life by fasting in the Gaṅgā–Sarayū waters, reunited with Indumatī in heaven. (*Raghuvaṃśa* 8.85–95)
+- **The svayaṃvara and the suitors' battle.** **Indumatī**, sister of King **Bhoja** of Vidarbha, passes by every assembled king and garlands **Aja**, Raghu's son; the rejected suitors' ambush on the homeward road is routed with the **Saṃmohana missile** taught by the gandharva **Priyaṃvada**. (*Raghuvaṃśa* 6.1–83; 7.31–71)
+- **Reign and the heir.** Raghu in old age abdicates to Aja and withdraws as a *yogin*; Indumatī bears **Daśaratha**, the future father of Rāma. (*Raghuvaṃśa* 8.1–29; lineage in [suryavamsha-and-chandravamsha.md](./suryavamsha-and-chandravamsha.md))
+- **The falling garland and the Aja-vilāpa.** A celestial garland slipping from **Nārada's vīṇā** kills Indumatī instantly — she is revealed as the **apsarā Harīṇī**, released from the sage **Tṛṇabindu's** curse; Aja's prolonged elegy over her, the celebrated **Aja-vilāpa**, is the high-water mark of *karuṇa-rasa* in Sanskrit *kāvya*, and after eight years of sorrow he ends his life in the Gaṅgā–Sarayū waters, reunited with her in heaven. (*Raghuvaṃśa* 8.33–95; [scholarly])
+- The curse-frame (Tṛṇabindu, Harīṇī) has **no Purāṇic counterpart** — Aja and Indumatī are bare succession-names in Viṣṇu IV.4 / Bhāgavata IX.9; the framing variants are catalogued in [Aja & Indumatī](../04-deep-dives/aja-indumati.md). [late text]
 
 ---
 

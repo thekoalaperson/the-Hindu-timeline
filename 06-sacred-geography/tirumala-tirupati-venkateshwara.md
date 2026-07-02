@@ -52,7 +52,7 @@ The most popular *sthala-purāṇa* cycle, and the doctrinal basis of the temple
 - **A Divya Deśam** — **Tirumala (Tiruvēṅkaṭam)** is one of the **108 [Divya Deśams](108-divya-desams.md)**, the Viṣṇu-abodes hymned in the **Divya Prabandham**, and among the most-sung of all; the deity is *Tiruvēṅkaṭamuṭaiyāṉ*. (Divya Prabandham)
 - **Sung by the Āḻvārs** — multiple **Āḻvārs** address the hill, **Nammāḻvār** and **Tirumaṅgai** prominent among them; the Tamil saint-poets treat Tiruvēṅkaṭam as the very horizon of *prapatti* (self-surrender), the hill one looks toward to give up the self. (Divya Prabandham) [scholarly]
 - **Rāmānuja's ordering** — Śrīvaiṣṇava tradition credits **[Rāmānuja](../07-acharyas-and-sampradayas/ramanuja-and-madhva.md)** (11th–12th c.) with organising the hill's worship, fixing the Vaiṣṇava emblems and liturgy, and establishing the **Pāñcarātra** ritual order followed at the shrine; the hill of **Rāmānuja-kūṭam** and his presence in the *Bhū-Varāha* and ācārya traditions mark this. (Vaiṣṇava tradition) [traditional]
-- **Annamācārya (Annamayya)** — the 15th-c. Telugu *padakavi* poured out thousands of *saṅkīrtana* on Veṅkaṭeśvara, fixing the deity at the centre of Telugu devotional song; his copper-plate songs survive in the temple. (Telugu Vaiṣṇava tradition) [scholarly]
+- **Annamācārya (Annamayya)** — the 15th-c. Telugu *padakavi* poured out thousands of *saṅkīrtana* on Veṅkaṭeśvara, fixing the deity at the centre of Telugu devotional song; his copper-plate songs survive in the temple. His place in the Telugu **vāggeyakāra** line down to the Carnatic Trinity is set out in [The Haridāsa Movement & the Carnatic Trinity](../07-acharyas-and-sampradayas/haridasa-and-carnatic-bhakti.md). (Telugu Vaiṣṇava tradition) [scholarly]
 
 ---
 

@@ -1,6 +1,6 @@
 # Aditya Hridayam
 
-> *Up one level: [04-deep-dives](README.md) · The Sun-hymn the sage [Agastya](agastya.md) teaches a war-weary Rāma on the field before the final duel with [Rāvaṇa](characters/ravana.md), embedded at [Yuddha Kāṇḍa 105](ramayana/6-yuddha-kanda.md) and carried out of the epic into daily Saura liturgy.*
+> *Up one level: [04-deep-dives](../README.md) · The Sun-hymn the sage [Agastya](../agastya.md) teaches a war-weary Rāma on the field before the final duel with [Rāvaṇa](../characters/ravana.md), embedded at [Yuddha Kāṇḍa 105](../ramayana/6-yuddha-kanda.md) and carried out of the epic into daily Saura liturgy.*
 
 The **Āditya-hṛdaya** ("Heart of the Sun" / "Heart-essence dedicated to the Āditya"), opening *tato yuddha-pariśrāntaṃ samare cintayā sthitam...* and its famous battle-charge *jayasva śatrūn... ādityaṃ paramaṃ japtvā...*, is a short Sūrya-stotra of roughly **thirty-one verses** set in **sarga 105** of the **Yuddha Kāṇḍa** of Vālmīki's *Rāmāyaṇa* (sarga numbering varies by recension; vulgate ~107, Critical Edition ~105). The sage **Agastya**, present among the gods watching the war, approaches the exhausted Rāma on the battlefield and imparts the hymn as a **mantra-cum-tonic** to be recited before re-engaging Rāvaṇa. It is at once a narrative episode of the epic and one of the most widely recited stand-alone **Surya stotras** in living practice. [scholarly]
 
@@ -9,7 +9,7 @@ The **Āditya-hṛdaya** ("Heart of the Sun" / "Heart-essence dedicated to the �
 ## The frame-story: Agastya on the battlefield
 
 - **The exhausted Rāma** — After a punishing day of combat, Rāma stands on the field *yuddha-pariśrānta* ("worn out by the fighting"), sunk in anxious thought (*cintayā sthitam*), facing the still-undefeated **Rāvaṇa** who has returned to the fray for the climactic duel. (*Rāmāyaṇa*, Yuddha Kāṇḍa 105.1)
-- **Agastya the instructor** — The ṛṣi **Agastya**, who has come with the assembled **devas** to witness the war, steps forward and addresses Rāma directly, calling him *mahā-bāho* ("great-armed") and offering a "secret eternal" (*guhyaṃ sanātanam*) by which he may conquer all foes in battle. (Yuddha Kāṇḍa 105.2–3) — this is the same southern sage who earlier hosted Rāma and gave him the bow of Viṣṇu; see [Agastya](agastya.md).
+- **Agastya the instructor** — The ṛṣi **Agastya**, who has come with the assembled **devas** to witness the war, steps forward and addresses Rāma directly, calling him *mahā-bāho* ("great-armed") and offering a "secret eternal" (*guhyaṃ sanātanam*) by which he may conquer all foes in battle. (Yuddha Kāṇḍa 105.2–3) — this is the same southern sage who earlier hosted Rāma and gave him the bow of Viṣṇu; see [Agastya](../agastya.md).
 - **The teaching delivered as upadeśa** — Agastya does not fight; his gift is **knowledge**. He instructs Rāma to worship **Sūrya / Āditya**, the world-lord, and to recite the hymn three times (*triḥ japtvā*) with a purified, attentive mind to gain victory. (Yuddha Kāṇḍa 105.3–4, 26)
 - **Rāma's recitation and the outcome** — Rāma, having sipped water (*ācamya*) and grown composed, gazes at the sun and recites the hymn three times; **renewed and joyful** (*prahṛṣyamāṇaḥ*), he takes up his bow, advances on Rāvaṇa "with all his might," and — with the Sun's encouragement (*tvaryamāṇaḥ*, in some readings the Sun-god himself urging him on) — goes on to slay him. (Yuddha Kāṇḍa 105.27–31)
   - *Variant (placement of the duel):* the hymn sits **immediately before** the final Rāma–Rāvaṇa combat and the use of the **Brahmāstra**; the slaying itself is narrated in the following sargas. The Āditya-hṛdaya is thus the spiritual "loading" of the decisive shot.
@@ -30,7 +30,7 @@ The **Āditya-hṛdaya** ("Heart of the Sun" / "Heart-essence dedicated to the �
 ## Solar / Saura theology
 
 - **Sūrya as the supreme Ātman** — The hymn's identification of the Sun with Brahmā-Viṣṇu-Śiva and with the *ātman* of all beings makes it a charter-text for **Saura** (sun-worship) theology, in which Sūrya is not one deva among many but the **manifest, visible Absolute** — the seeable face of the unseeable Brahman. (Yuddha Kāṇḍa 105.12–18; Saura tradition) [scholarly]
-- **Continuity with the Vedic Sun** — The litany of names (*Savitṛ, Pūṣan, Vivasvat, Mārtaṇḍa, Mitra*) deliberately gathers the **Vedic solar deities** into one figure, reading the Sun as the Ṛgvedic *Sūrya/Savitṛ* of the Gāyatrī and the *cakṣur devānām* ("eye of the gods") tradition; the hymn thus stands downstream of the Vedic Sun-cult and its mantras. See the wider Sun-family treatment in [Sūrya and his family](../02-deities-and-cosmic-hierarchy/surya-and-his-family.md). [scholarly]
+- **Continuity with the Vedic Sun** — The litany of names (*Savitṛ, Pūṣan, Vivasvat, Mārtaṇḍa, Mitra*) deliberately gathers the **Vedic solar deities** into one figure, reading the Sun as the Ṛgvedic *Sūrya/Savitṛ* of the Gāyatrī and the *cakṣur devānām* ("eye of the gods") tradition; the hymn thus stands downstream of the Vedic Sun-cult and its mantras. See the wider Sun-family treatment in [Sūrya and his family](../../02-deities-and-cosmic-hierarchy/surya-and-his-family.md). [scholarly]
 - **Link to the Āditya / Sūrya cult** — The Āditya-hṛdaya is one of the principal scriptural anchors of the historical **Saura sampradāya** (sun-worship), counted alongside the *Sūrya-aṣṭakam*, the **Gāyatrī**, and the *Sūrya-upaniṣad*; in Saura practice the hymn is read as proof that the disc in the sky and the supreme Self are one. (Saura / Smārta tradition) [scholarly]
 - **The Sūryavaṃśa resonance** — That it is **Rāma**, scion of the **Solar dynasty** (Sūryavaṃśa), who receives the Sun-hymn is not incidental: the hymn returns the dynasty's founding god to its greatest descendant at his moment of crisis, a thematic closing of the lineage's circle. [scholarly]
 
@@ -47,7 +47,7 @@ The **Āditya-hṛdaya** ("Heart of the Sun" / "Heart-essence dedicated to the �
 
 ## Cosmic placement — the "two clocks"
 
-- **In-narrative time** — As an episode of the war for Laṅkā, the teaching of the Āditya-hṛdaya sits in the **Tretā Yuga** of the 28th Mahāyuga of the [Vaivasvata Manvantara](../01-manvantaras/manvantara-07-vaivasvata/README.md), on the eve of Rāvaṇa's death — the climax of the Rāma-avatāra. [scholarly]
+- **In-narrative time** — As an episode of the war for Laṅkā, the teaching of the Āditya-hṛdaya sits in the **Tretā Yuga** of the 28th Mahāyuga of the [Vaivasvata Manvantara](../../01-manvantaras/manvantara-07-vaivasvata/README.md), on the eve of Rāvaṇa's death — the climax of the Rāma-avatāra. [scholarly]
 - **Text-critical time** — Whether the sarga is original to Vālmīki or a somewhat later Saura **interpolation** is debated: its self-contained stotra form, its strong sectarian sun-supremacy, and its absence/variation across recensions lead some scholars to treat it as an **added hymn** absorbed into the epic, even while it is fully canonical in the received vulgate. Keep the scriptural setting (Tretā, Agastya to Rāma) distinct from the literary dating. [scholarly] [disputed]
 
 ---
@@ -59,8 +59,8 @@ The **Āditya-hṛdaya** ("Heart of the Sun" / "Heart-essence dedicated to the �
 - Independent **Surya-stotra recitation tradition** — the hymn as a daily/Sunday/Ratha-saptamī Saura prayer, anthologized in stotra-collections with its own dhyāna and phala-śruti.
 
 **Related corpus**
-- *Sūrya and his family* node — the Vedic solar deities (Savitṛ, Pūṣan, Vivasvat, Mārtaṇḍa) gathered into the hymn's litany; see [Sūrya and his family](../02-deities-and-cosmic-hierarchy/surya-and-his-family.md).
-- The hymn's giver and its setting: [Agastya](agastya.md) and the [Yuddha (Laṅkā) Kāṇḍa](ramayana/6-yuddha-kanda.md); its target [Rāvaṇa](characters/ravana.md).
+- *Sūrya and his family* node — the Vedic solar deities (Savitṛ, Pūṣan, Vivasvat, Mārtaṇḍa) gathered into the hymn's litany; see [Sūrya and his family](../../02-deities-and-cosmic-hierarchy/surya-and-his-family.md).
+- The hymn's giver and its setting: [Agastya](../agastya.md) and the [Yuddha (Laṅkā) Kāṇḍa](../ramayana/6-yuddha-kanda.md); its target [Rāvaṇa](../characters/ravana.md).
 
 **Note on attribution**
 - Verse numbers follow the common vulgate; the Critical Edition differs in count and some scholars regard the sarga as a Saura interpolation. The "removes disease / grants victory in any struggle" applications are devotional extensions of the text's own phala-śruti, recorded here as living tradition, not as text-critical claims. [disputed]

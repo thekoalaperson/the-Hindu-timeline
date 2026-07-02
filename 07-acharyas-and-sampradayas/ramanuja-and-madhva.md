@@ -101,7 +101,7 @@ The **Brahma Sampradāya** centres on **Viṣṇu/Kṛṣṇa** as the one indep
 | Highest means | *jñāna* | *bhakti* + *prapatti* | *bhakti* + grace, *aparokṣa-jñāna* |
 | Mokṣa | identity-merger | God-enjoyment, distinct | God-enjoyment, graded (*taratamya*) |
 
-(See the full school table at [`smarta-and-vedanta-acharyas.md`](README.md) — planned; and the darśana placement in [Upavedas, Vedāṅgas & the Six Darśanas](../90-literature-corpus/upavedas-vedangas-darshanas.md).)
+(See the Advaita side in depth at [`adi-shankara.md`](adi-shankara.md), the full streams-at-a-glance table in the [section README](README.md), and the darśana placement in [Upavedas, Vedāṅgas & the Six Darśanas](../90-literature-corpus/upavedas-vedangas-darshanas.md).)
 
 ---
 

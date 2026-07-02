@@ -63,13 +63,14 @@ The emotional summit of the poem, one of the most celebrated **vilāpa (lament)*
 ## 6. Aja's decline and renunciation (Raghuvaṃśa canto 8)
 
 - **The king wastes in grief** — Aja never recovers; he lives on only to discharge his duty of rearing his son **Daśaratha** to fit age and kingship, but his body and will fail under the long sorrow (*Raghuvaṃśa* 8).
-- **He installs Daśaratha and ends his life** — when Daśaratha is grown and able to bear the kingdom, Aja crowns him and, worn by a wasting illness born of grief, **gives up his life by fasting / ritual self-release (anaśana, drowning at a tīrtha in some readings)**, going to rejoin Indumatī (*Raghuvaṃśa* 8). The dynasty passes cleanly to Daśaratha.
+- **He installs Daśaratha and ends his life** — when Daśaratha is grown and able to bear the kingdom, Aja crowns him and, worn by a wasting illness born of grief — **eight years of sorrow** in the poem's reckoning — **gives up his life by fasting / ritual self-release (anaśana, drowning at the Gaṅgā–Sarayū confluence in some readings)**, going to rejoin Indumatī (*Raghuvaṃśa* 8.85–95). The dynasty passes cleanly to Daśaratha.
   - *Variant on the manner of death:* the poem describes a grief-illness and a willed death at a holy confluence; later summaries variously call it fasting-unto-death, yogic release, or self-immersion at a tīrtha. The poetic point — that he dies of love and rejoins her — is constant. [late text]
 - **The bridge to Daśaratha** — with Aja's death the Raghuvaṃśa moves to **Daśaratha** (canto 9), whose sonless grief, the Putrakāmeṣṭi, and the birth of Rāma carry the line into the [Rāmāyaṇa](ramayana/1-bala-kanda.md). Aja and Indumatī are thus the immediate grandparents of [Kausalyā's](characters/kausalya.md) husband Daśaratha — the hinge generation of the Solar dynasty. (*Raghuvaṃśa* 9; cf. *Vālmīki Rāmāyaṇa, Bāla Kāṇḍa*).
 
 ---
 
 ## Cross-references
+- The connected three-king Kālidāsa cycle (Dilīpa — Raghu — Aja) in the lineage section: [The Raghuvaṃśa Kings](../03-lineages-vamsha/raghuvamsha-kalidasa-kings.md)
 - His textual successor and son: [Rāmāyaṇa Bāla Kāṇḍa](ramayana/1-bala-kanda.md) (Daśaratha, the Putrakāmeṣṭi, the birth of Rāma)
 - His grandson's chief queen: [Kausalyā](characters/kausalya.md) — Daśaratha's senior wife, mother of Rāma
 - The dynasty: [Sūryavaṃśa & Candravaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) (Dilīpa → Raghu → Aja → Daśaratha → Rāma)

@@ -1,6 +1,6 @@
 # Ramaraksha Stotra
 
-> *Up one level: [04-deep-dives](../README.md) · The premier protective armour-hymn (**kavaca**) of Rāma, revealed in a dream to the sage **Budha-Kauśika**, recited daily across North India to "fence in" the body limb-by-limb with the name of Rāma; sibling to the battlefield Sun-hymn [Āditya-hṛdaya](../aditya-hridayam.md) and to the [Hanumān Cālīsā](hanuman-chalisa.md), and rooted in the [Vālmīki Rāmāyaṇa](../ramayana/README.md).*
+> *Up one level: [04-deep-dives](../README.md) · The premier protective armour-hymn (**kavaca**) of Rāma, revealed in a dream to the sage **Budha-Kauśika**, recited daily across North India to "fence in" the body limb-by-limb with the name of Rāma; sibling to the battlefield Sun-hymn [Āditya-hṛdaya](aditya-hridayam.md) and to the [Hanumān Cālīsā](hanuman-chalisa.md), and rooted in the [Vālmīki Rāmāyaṇa](../ramayana/README.md).*
 
 The **Rāma-rakṣā Stotra** ("Hymn of Rāma's Protection," from *rakṣā*, "guarding, shield"), opening *caritaṃ raghunāthasya śata-koṭi-pravistaram...* ("The deeds of Raghunātha, spread out in a hundred crores [of verses]...") and culminating in the celebrated benediction *rāmo rāja-maṇiḥ sadā vijayate* ("Rāma, the jewel among kings, is forever victorious"), is a Sanskrit **kavaca-stotra** of roughly **thirty-eight ślokas**. It is structured as a literal **armour**: verse by verse it sets Rāma, the Rāmāyaṇa heroes, and the *rāma-nāma* upon each limb of the reciter, so that the body is wholly enclosed in the name. It is among the most widely recited Rāma hymns in living North-Indian practice, chanted daily, at dawn, before sleep, and as apotropaic protection against fear, illness, and ill fortune. [scholarly]
 
@@ -16,7 +16,7 @@ The **Rāma-rakṣā Stotra** ("Hymn of Rāma's Protection," from *rakṣā*, "g
 
 ## The kavaca: armouring the body limb-by-limb
 
-- **The aṅga-nyāsa structure** — The doctrinal heart is an **aṅga-rakṣā** ("limb-protection"): the reciter invokes Rāma and his retinue to guard each part of the body in sequence, so that no opening is left undefended. This is the classic **kavaca** form shared with the Saura [Āditya-hṛdaya](../aditya-hridayam.md) and other rakṣā-stotras. (*Rāma-rakṣā Stotra*, vv. 4–11) [scholarly]
+- **The aṅga-nyāsa structure** — The doctrinal heart is an **aṅga-rakṣā** ("limb-protection"): the reciter invokes Rāma and his retinue to guard each part of the body in sequence, so that no opening is left undefended. This is the classic **kavaca** form shared with the Saura [Āditya-hṛdaya](aditya-hridayam.md) and other rakṣā-stotras. (*Rāma-rakṣā Stotra*, vv. 4–11) [scholarly]
 - **The limb-litany** — Rāma is set on the **head**; *daśaratha-putra* (Daśaratha's son) on the **brow**; *kausalyeya* (Kausalyā's son) on the **eyes**; *viśvāmitra-priya* (dear to Viśvāmitra) on the **ears**; the **nose, mouth, tongue, throat, shoulders, arms, hands, heart, navel, hips, knees, feet** each receive a different epithet of Rāma — *jāmadagnya-jaya* (victor over Paraśurāma), *bharatāgraja* (Bharata's elder), *jānakī-vallabha* (Sītā's beloved), and so on. The whole body is thereby "named" with Rāma. (*Rāma-rakṣā Stotra*, vv. 4–9) [scholarly]
 - **The enclosing seal** — Having armoured the limbs, the hymn declares that one who wears this *rāma-kavaca* — "fashioned by Budha-Kauśika" — becomes long-lived, happy, progeny-blessed, victorious, and humble, and is freed from every fear. (*Rāma-rakṣā Stotra*, vv. 10–13) [scholarly]
 
@@ -42,7 +42,7 @@ The **Rāma-rakṣā Stotra** ("Hymn of Rāma's Protection," from *rakṣā*, "g
 
 - **Daily and apotropaic use** — The Rāma-rakṣā is recited **daily**, especially at dawn and before sleep, and as a **protective shield** worn (mentally or in amulet form) against fear, disease, enemies, evil spirits, and ill fortune — exactly the kavaca function its verses promise. (living North-Indian practice) [regional]
 - **Phala-śruti promises** — The closing fruit-of-recitation verses pledge that one who recites or wears the hymn gains **long life, health, progeny, victory, fearlessness, and final union with Rāma**; the merit is framed as Śiva-given through the dream-revelation. (*Rāma-rakṣā Stotra*, phala-śruti) [scholarly]
-- **Place in the Rāma corpus** — Within living practice it stands beside the [Hanumān Cālīsā](hanuman-chalisa.md), the battlefield [Āditya-hṛdaya](../aditya-hridayam.md), and the retelling-hymns of the [Rāmcaritmānas](../ramayana/recensions/ramcharitmanas-tulsidas.md) as one of the core daily Rāmabhakti recitations. [regional]
+- **Place in the Rāma corpus** — Within living practice it stands beside the [Hanumān Cālīsā](hanuman-chalisa.md), the battlefield [Āditya-hṛdaya](aditya-hridayam.md), and the retelling-hymns of the [Rāmcaritmānas](../ramayana/recensions/ramcharitmanas-tulsidas.md) as one of the core daily Rāmabhakti recitations. [regional]
 
 ---
 
@@ -63,4 +63,4 @@ The **Rāma-rakṣā Stotra** ("Hymn of Rāma's Protection," from *rakṣā*, "g
 
 **Tradition / context**
 - Living North-Indian Rāmabhakti recitation: daily/dawn/apotropaic use, amulet-wearing, vow-based repetition (folk/regional, oral tradition).
-- Sibling daily hymns of the Rāma corpus: [Hanumān Cālīsā](hanuman-chalisa.md), [Āditya-hṛdaya](../aditya-hridayam.md), [Rāmcaritmānas](../ramayana/recensions/ramcharitmanas-tulsidas.md).
+- Sibling daily hymns of the Rāma corpus: [Hanumān Cālīsā](hanuman-chalisa.md), [Āditya-hṛdaya](aditya-hridayam.md), [Rāmcaritmānas](../ramayana/recensions/ramcharitmanas-tulsidas.md).

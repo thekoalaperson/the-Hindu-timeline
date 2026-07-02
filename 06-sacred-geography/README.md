@@ -2,7 +2,7 @@
 
 > Cosmic address: [The Hindu Timeline](../README.md) → **Sacred Geography**. Where the divine is mapped onto the earth — the pilgrimage layer of the tradition, complementing the time hierarchy in [00-time-and-cosmology](../00-time-and-cosmology/README.md).
 
-This area indexes the **tirtha-kshetra** network: the physical sites where, in Hindu thought, the eternal touches the earthly. It is currently a **stub and is expandable** — child files detail each pilgrimage grouping.
+This area indexes the **tirtha-kshetra** network: the physical sites where, in Hindu thought, the eternal touches the earthly. It is one of the deepest sections of the corpus — **85 child files** detail individual tīrthas, kṣetras, rivers, mountains, and whole pilgrimage circuits, each with its sthala-purāṇa legends and sources.
 
 - **Tirtha (crossing-place)** - A *tīrtha* is a "ford" or junction between worlds that touch and do not touch; literally a river-crossing, extended to any holy site enabling spiritual passage (Rigveda; Mahabharata *Tirtha-yatra parva*; Skanda Purana *Tirtha-mahatmya*).
 - **Kshetra (sacred field)** - A bounded holy precinct/zone (e.g. Kurukshetra, Purushottama-kshetra/Puri, Kashi); each carries a *sthala-purana* / *mahatmya* praising its power (Padma & Skanda Puranas).
@@ -14,6 +14,13 @@ This area indexes the **tirtha-kshetra** network: the physical sites where, in H
 
 ## You are here — sub-files (pilgrimage networks)
 
+Every file in this section is listed in the auto-generated [📑 Full Contents](#-full-contents) index below. Good entry points into the network:
+
+- **Circuits & networks overview** — [Temple Networks & Pilgrimage Circuits](temple-networks-and-circuits.md) and [Kumbh Mela & Pilgrimage Cycles](kumbh-mela-and-pilgrimage-cycles.md) map the system as a whole.
+- **The classic all-India groupings** — [Char Dhām](char-dham-and-chota-char-dham.md), [Sapta Purī & sacred cities](sapta-puri-and-sacred-cities.md), [12 Jyotirlingas](12-jyotirlingas.md), [51 Śakti Pīṭhas](51-shakti-peethas.md), [108 Divya Desams](108-divya-desams.md).
+- **The scriptural catalogue of fords** — [Mahābhārata Tīrtha-yatra Parva](mahabharata-tirtha-yatra-fords.md), the epic's own pilgrim itinerary.
+- **Rivers & cosmic mountains** — [Sacred Rivers and Their Descent Myths](sacred-rivers-and-descent-myths.md); [Mount Meru, Kailāsa & the Cosmic Mountains](meru-kailash-and-cosmic-mountains.md).
+- **Purāṇic map of the world** — [Bhāratavarṣa & Purāṇic Geography](bharatavarsha-and-puranic-geography.md); site-legend layer in [Sthala-Purāṇas — Major Temple Origin Legends](sthala-puranas-major-temples.md).
 
 ## Sources
 

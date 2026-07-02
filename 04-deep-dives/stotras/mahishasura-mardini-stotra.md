@@ -1,6 +1,6 @@
 # Mahishasura Mardini Stotra
 
-> *Up one level: [04-deep-dives](../README.md) · The **Mahiṣāsura-mardinī stotra** ("Hymn to the Slayer of the Buffalo-Demon"), the hammering **Ayi giri-nandini** hymn traditionally ascribed to [Ādi Śaṅkara](../../07-acharyas-and-sampradayas/adi-shankara.md) — the lyric, sung counterpart to the battle of the [Devī Māhātmya](../../02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md), praising [Durgā](../../02-deities-and-cosmic-hierarchy/devi-forms-and-navadurga.md) as she destroys Mahiṣa; a staple of Navarātri sibling to the [Soundarya Laharī](soundarya-lahari.md) and the [Śiva Tāṇḍava Stotra](../shiva-tandava-stotra.md).*
+> *Up one level: [04-deep-dives](../README.md) · The **Mahiṣāsura-mardinī stotra** ("Hymn to the Slayer of the Buffalo-Demon"), the hammering **Ayi giri-nandini** hymn traditionally ascribed to [Ādi Śaṅkara](../../07-acharyas-and-sampradayas/adi-shankara.md) — the lyric, sung counterpart to the battle of the [Devī Māhātmya](../../02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md), praising [Durgā](../../02-deities-and-cosmic-hierarchy/devi-forms-and-navadurga.md) as she destroys Mahiṣa; a staple of Navarātri sibling to the [Soundarya Laharī](soundarya-lahari.md) and the [Śiva Tāṇḍava Stotra](shiva-tandava-stotra.md).*
 
 The **Mahiṣāsura-mardinī stotra** (महिषासुरमर्दिनी स्तोत्रम्), known in living practice by its opening words **"Ayi giri-nandini nandita-medini"** (अयि गिरिनन्दिनि नन्दितमेदिनि), is among the most popular and frequently recited of all Devī hymns. It is a *stuti* of roughly **21–23 verses** addressed to the Goddess as **Mahiṣāsura-mardinī** — "she who crushed the buffalo-demon Mahiṣa" — and functions as the lyric, musical retelling of the central combat narrated in prose-verse by the **Devī Māhātmya** (Durgā Saptaśatī). Where the Māhātmya narrates, this hymn **exults**: it is built almost entirely of vocatives, an unbroken cascade of epithets hurled at the victorious Goddess in a galloping, internally-rhymed meter. It is a fixture of **Navarātri / Durgā Pūjā** recitation and one of the most-set Devī texts in Indian devotional music. [scholarly]
 
@@ -54,7 +54,7 @@ The **Mahiṣāsura-mardinī stotra** (महिषासुरमर्दि�
 - [Forms of the Devī & the Navadurgā](../../02-deities-and-cosmic-hierarchy/devi-forms-and-navadurga.md) — Durgā / Mahiṣāsura-mardinī within the roster of the one Goddess's forms.
 - [Lalitā Tripurasundarī & the War on Bhaṇḍāsura](../../02-deities-and-cosmic-hierarchy/lalita-bhandasura.md) — the parallel Śākta war-myth and its hymnic celebration.
 - [Soundarya Laharī](soundarya-lahari.md) — the other great Devī hymn ascribed to Śaṅkara.
-- [Śiva Tāṇḍava Stotra](../shiva-tandava-stotra.md) — the Śaiva sibling in rhythmic, sound-driven stotra craft.
+- [Śiva Tāṇḍava Stotra](shiva-tandava-stotra.md) — the Śaiva sibling in rhythmic, sound-driven stotra craft.
 - [Ādi Śaṅkara & Advaita Vedānta](../../07-acharyas-and-sampradayas/adi-shankara.md) — the ācārya of the traditional ascription.
 
 ---

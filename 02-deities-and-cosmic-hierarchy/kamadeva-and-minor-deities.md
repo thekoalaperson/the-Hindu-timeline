@@ -2,7 +2,7 @@
 
 > Cosmic address: the second tier of the deity hierarchy — the functional gods who run desire, craft, medicine, the elements, the luminaries, and the sacred rivers beneath the [Trimūrti & Tridevī](trimurti-and-tridevi.md). Many here are children of the same primal couple, **Kaśyapa** and the daughters of Dakṣa (see [Saptarṣi](saptarishi.md) and [Devas, Asuras & the Lokas](devas-asuras-and-the-lokas.md)). Parent: [02 — Deities & Cosmic Hierarchy](README.md).
 
-These are the **minor-but-indispensable** deities: the god of love who is burnt and resurrected, the architect who forges every divine weapon, the physician who carries the *amṛta*, the eight elemental Vasus, the luminaries Soma and Sūrya with the whole solar dynasty, the river-goddesses, the primal earth, and the two cosmic mothers Aditi and Diti from whom devas and asuras descend. Where a roster has competing names or counts, every attested variant is cataloged as a nested bullet.
+These are the **minor-but-indispensable** deities: the god of love who is burnt and resurrected, the architect who forges every divine weapon, the physician who carries the *amṛta*, the eight elemental Vasus, the luminaries Soma and Sūrya with the whole solar dynasty, the river-goddesses, the primal earth, and the two cosmic mothers Aditi and Diti from whom devas and asuras descend. Where a roster has competing names or counts, every attested variant is cataloged as a nested bullet. The architect (Viśvakarmā/Tvaṣṭṛ), the physician (Dhanvantari), the luminaries (Soma, Sūrya) and the river-goddesses (Gaṅgā, Yamunā) have since grown **dedicated deep files** and appear here only as linked thumbnails.
 
 ---
 
@@ -34,19 +34,13 @@ These are the **minor-but-indispensable** deities: the god of love who is burnt 
 
 ## Viśvakarmā & Tvaṣṭṛ — the divine architects
 
-- **Tvaṣṭṛ** — the **Vedic** craftsman-deity, "fashioner," who shapes forms in the womb, forged **Indra's vajra**, and is father of **Viśvarūpa/Triśiras** and of **Vṛtra** (whom Indra slays). An **Āditya** in some lists. The original artisan-god, later largely absorbed into Viśvakarmā. (Wikipedia: Vishvakarma; Ṛg Veda)
-  - *Variant (identity):* (a) Tvaṣṭṛ and Viśvakarmā are distinct (Vedic); (b) Viśvakarmā is an epithet later **identified with** Tvaṣṭṛ (Purāṇic); (c) "Viśvakarman" is originally an abstract epithet ("all-maker") of the supreme creator before becoming a discrete god. (Wikipedia; Britannica)
-- **Viśvakarmā** — divine architect and engineer of the devas; builder of the cities **Laṅkā**, **Dvārakā**, **Indraprastha**, and **Hastināpura**; maker of the gods' chariots, palaces (Sudharmā), and weapons. Father of **Saṃjñā/Saraṇyū** (Sūrya's wife) and of **Nala** the monkey-architect of Rāma's bridge (in some accounts). (Britannica; Wikipedia)
-- **The trimming of the Sun** — to relieve Saṃjñā, who could not bear Sūrya's blaze, Viśvakarmā mounts the Sun on his lathe and shaves off an eighth of his radiance; the shavings are forged into **Viṣṇu's cakra (Sudarśana)**, **Śiva's triśūla**, Kubera's weapons, and Kārttikeya's lance. (*Mārkaṇḍeya Purāṇa*; *Matsya Purāṇa*) — see [Navagraha](navagraha.md).
+- **Viśvakarmā & Tvaṣṭṛ** — the divine architect-engineer of the devas (builder of **Laṅkā**, **Dvārakā** and **Indraprastha**, trimmer of the Sun's blaze on his lathe) and the older Vedic fashioner-god who forged **Indra's vajra**; their partly-merged identities, the trimming-of-the-Sun myth and every roster variant are treated in full in the dedicated file **[Viśvakarma & Tvaṣṭṛ](vishvakarma-and-tvashtar.md)**. (Wikipedia: Vishvakarma; Britannica)
 
 ---
 
 ## Dhanvantari — physician of the gods
 
-- **Dhanvantari** — god of **Āyurveda** and physician of the devas; an **avatāra of Viṣṇu**. He rises from the **Kṣīra-sāgara** (Ocean of Milk) during the **Samudra Manthana**, holding the **pot of amṛta** (elixir), thereby precipitating the deva–asura war over immortality. (Wikipedia; Bhāgavata & Rāmāyaṇa Bāla-kāṇḍa) — see [Daśāvatāra](dashavatara.md) for the churning.
-  - *Variant (avatāra status):* counted among Viṣṇu's avatāras in the 24-fold list of the *Bhāgavata*; elsewhere treated as an independent deity who promulgated medicine. (Wikipedia)
-  - *Variant (royal incarnation):* a later **Dhanvantari** is born in the line of **Kāśirāja** (Divodāsa of Kāśī) and teaches surgery — the *Suśruta Saṃhitā* frames Suśruta as his pupil. (*Suśruta Saṃhitā*; Purāṇic genealogy) [late text]
-- **Iconography** — four-armed, bearing **conch, discus, a leech (or herbs), and the amṛta-kalaśa**. Worshipped on **Dhanteras**, the first day of Dīpāvali.
+- **Dhanvantari** — god of **Āyurveda** and physician of the devas, an **avatāra of Viṣṇu** who rises from the Ocean of Milk during the Samudra Manthana holding the **pot of amṛta** (see [Daśāvatāra](dashavatara.md) for the churning); his full myth-cycle, the later Kāśirāja-line incarnation who teaches Suśruta, and his Dhanteras worship are treated in the dedicated file **[Dhanvantari](dhanvantari.md)**. (Bhāgavata; Wikipedia)
 
 ---
 
@@ -69,44 +63,21 @@ These are the **minor-but-indispensable** deities: the god of love who is burnt 
 
 ## Soma / Candra — the Moon
 
-- **Candra (Soma)** — god of the **Moon**, the *manas* (mind), plants, soma-juice, and the night; also the lunar **graha** (see [Navagraha](navagraha.md)). Son of the sage **Atri** and **Anasūyā** (or born of the Churning of the Ocean). Progenitor of the **Lunar Dynasty (Candravaṃśa)** through his grandson **Purūravas** (see [Lineages](../README.md) when written). (Wikipedia: Chandra)
-- **The 27 Nakṣatra-wives** — Candra weds the **27 (or 28) daughters of Dakṣa**, the lunar mansions; he favors **Rohiṇī**, neglecting the rest. Dakṣa curses him to **waste away** (the consumption-myth, explaining lunar waning); Śiva partially redeems him so he **waxes and wanes** eternally — hence Śiva's epithet **Candraśekhara**, the moon-crowned. (Wikipedia; *Skanda/Padma Purāṇa*)
-- **Abduction of Tārā** — Candra abducts **Tārā**, wife of **Bṛhaspati** (Jupiter, guru of the devas); the **Tārakāmaya war** erupts until Brahmā intervenes. From the union is born **Budha** (Mercury), thus founding the Lunar line. (Wikipedia; *Viṣṇu Purāṇa*)
+- **Candra (Soma)** — god of the **Moon**, the *manas* (mind), plants, soma-juice, and the night; also the lunar **graha** (see [Navagraha](navagraha.md)) and progenitor of the **Lunar Dynasty (Candravaṃśa)** (see [Sūryavaṃśa & Candravaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md)). His 27 nakṣatra-wives and Dakṣa's waning-curse, the abduction of Tārā and the Tārakāmaya war are treated in full in the dedicated file **[Chandra (Soma)](chandra-soma.md)**. (Wikipedia: Chandra)
 
 ---
 
 ## Sūrya & the solar family
 
-- **Sūrya (Vivasvat / Āditya)** — the **Sun**, soul (*ātman*) of the cosmos, the visible Brahman, and head of the **Solar Dynasty (Sūryavaṃśa)**; the solar **graha** of the day (Ravivāra/Sunday) (see [Navagraha](navagraha.md)). Son of **Aditi** and **Kaśyapa**, reckoned chief of the **twelve Ādityas**. (Wikipedia: Surya)
-- **Saṃjñā (Saraṇyū)** — Sūrya's principal wife, daughter of **Viśvakarmā/Tvaṣṭṛ**. Unable to endure his heat, she leaves her **shadow-double Chāyā** in her place and flees as a **mare** to perform tapas. (Ṛg Veda 10.17; *Mārkaṇḍeya* & *Matsya Purāṇa*)
-  - *Variant (third wife):* some lists add **Rājñī/Prabhā** as a third consort. (Wikipedia)
-- **Chāyā ("Shadow")** — the surrogate wife; mother of Sūrya's "shadow" offspring, who shows favoritism to her own children and curses **Yama**, triggering the discovery of the substitution. (Grokipedia: Chhaya; *Mārkaṇḍeya Purāṇa*)
-
-### Children of Sūrya
-
-- **By Saṃjñā:**
-  - **Vaivasvata Manu** — the current Manu, progenitor of mankind in the present manvantara (see [the 14 Manvantaras](../01-manvantaras/README.md)).
-  - **Yama** — god of death and dharma, first mortal to die and hence king of the dead; lord of the southern direction. (Wikipedia: Yama)
-  - **Yamī (Yamunā)** — Yama's twin sister, later the **river-goddess Yamunā** (see below).
-  - **Aśvinī-Kumāras (the two Aśvins, Nāsatya & Dasra)** — twin horse-headed physicians of the gods, conceived when Sūrya (as a stallion) reunites with Saṃjñā (as a mare); the **divine doctors** of the Ṛg Veda, parallels to Dhanvantari. (Wikipedia; Ṛg Veda)
-  - **Revanta** — chief of the **Guhyakas** (a Yakṣa-class), born from the Sun's residual seed; lord of hunters, depicted on horseback. (*Mārkaṇḍeya Purāṇa*)
-- **By Chāyā:**
-  - **Śani (Saturn)** — the slow, karma-dispensing **graha** (see [Navagraha](navagraha.md)); famed for his "evil eye." Father–son tension with Sūrya is a stock myth.
-  - **Sāvarṇi Manu** — the **eighth Manu**, of a future manvantara (see [Manvantaras](../01-manvantaras/README.md)).
-  - **Tapatī** — a river-goddess; ancestress (through **Kuru**) of the Kuru line of the Mahābhārata.
-  - **Viṣṭi (Bhadrā)** — personification of an inauspicious astrological period (*karaṇa*). (Wikipedia; *Mārkaṇḍeya Purāṇa*)
-- **Other solar offspring (varia):** **Sugrīva** and **Karṇa** are sons of Sūrya by other women (Rāmāyaṇa / Mahābhārata); **Aruṇa**, the dawn-charioteer, is Sūrya's brother-in-law's role (son of Vinatā), driver of his seven-horse chariot.
+- **Sūrya (Vivasvat / Āditya)** — the **Sun**, soul (*ātman*) of the cosmos, chief of the **twelve Ādityas**, the solar **graha** (see [Navagraha](navagraha.md)), and head of the **Solar Dynasty (Sūryavaṃśa)** (see [Sūryavaṃśa & Candravaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md)). (Wikipedia: Surya)
+- His whole household — the wives **Saṃjñā** and shadow-double **Chāyā**, and the children **Vaivasvata Manu**, **[Yama](yama.md)**, **Yamī/Yamunā**, the **Aśvins**, **Śani**, **Sāvarṇi Manu**, **Tapatī** and the rest — is treated in full in the dedicated file **[Sūrya & His Family](surya-and-his-family.md)**. (Ṛg Veda; *Mārkaṇḍeya Purāṇa*)
 
 ---
 
 ## Gaṅgā & Yamunā — the river-goddesses
 
-- **Gaṅgā** — goddess of the **Ganges**; daughter of **Himavat** (or born from Viṣṇu's foot / Brahmā's kamaṇḍalu), sister of **Pārvatī**. Iconography: fair woman on a **makara** (crocodile-monster), bearing a water-pot. (Wikipedia: Ganga)
-  - **The descent (Gaṅgāvataraṇa)** — King **Bhagīratha** performs tapas to bring Gaṅgā down to liberate the ashes of the **60,000 sons of Sagara**; Śiva catches her crushing fall in his **matted locks** (hence **Gaṅgādhara**). She follows Bhagīratha's chariot to the sea — hence **Bhāgīrathī**. (*Rāmāyaṇa* Bāla-kāṇḍa; *Mahābhārata*)
-  - **Mother of Bhīṣma** — as wife of King **Śantanu**, Gaṅgā bears and drowns the seven reborn Vasus, the eighth surviving as **Bhīṣma** (see Vasus above). (Mahābhārata)
-  - *Variant (wife of three):* a folk/Purāṇic tale makes Gaṅgā co-wife of **Viṣṇu** alongside Lakṣmī and Sarasvatī, the quarrel sending all three to earth as rivers. [folk]
-- **Yamunā (Yamī / Kālindī)** — goddess of the **Yamunā** river, twin sister of **Yama**; dark-complexioned, standing on a **tortoise (kūrma)**, bearing a pot. Associated with Kṛṣṇa's Vṛndāvana; as **Kālindī** she is one of Kṛṣṇa's eight chief queens. Bathing in her waters wards off the fear of death (her brother Yama's boon). (Wikipedia; Grokipedia: Yamuna)
-- **Triple sisterhood** — Gaṅgā, Yamunā and the (now-hidden) **Sarasvatī** form the sacred-river triad meeting at the **Triveṇī Saṅgam** (Prayāga). Ganga–Yamunā are the canonical pair flanking temple doorways from the Gupta age — Ganga on *makara*, Yamunā on *kūrma*. (Wikipedia; AIIS) — see [Sacred Geography](../06-sacred-geography/README.md) when written.
+- **Gaṅgā** — goddess of the **Ganges**, brought down by **Bhagīratha's** tapas and caught in Śiva's matted locks; as Śantanu's wife she drowns the seven reborn Vasus, the eighth surviving as **Bhīṣma** (see Vasus above). Her full descent-cycle, parentage variants and iconography are treated in the dedicated file **[Gaṅgā](ganga.md)**. (*Rāmāyaṇa* Bāla-kāṇḍa; Mahābhārata)
+- **Yamunā (Yamī / Kālindī)** — goddess of the **Yamunā**, twin sister of **Yama** and (as Kālindī) one of Kṛṣṇa's eight chief queens; she and the wider river-goddess theology — including the **Triveṇī Saṅgam** triad with the hidden Sarasvatī — are treated in the dedicated file **[Yamunā & the River Goddesses](yamuna-and-river-goddesses.md)**; for the sacred rivers as places see [Sacred Geography](../06-sacred-geography/README.md). (Wikipedia; Grokipedia: Yamuna)
 
 ---
 
@@ -126,14 +97,14 @@ These are the **minor-but-indispensable** deities: the god of love who is burnt 
   - **The 33 gods** — Aditi (with Kaśyapa) is mother of the canonical **33 devas = 12 Ādityas + 11 Rudras + 8 Vasus + 2 (Indra & Prajāpati, or the 2 Aśvins)** (see [Devas, Asuras & the Lokas](devas-asuras-and-the-lokas.md)).
 - **Diti** — Aditi's sister, co-wife of **Kaśyapa**; mother of the **Daityas** (a class of asuras), including **Hiraṇyakaśipu** and **Hiraṇyākṣa**. Her sons born of *rajas/passion*, set in eternal rivalry with the Ādityas. (Wikipedia: Daitya)
   - **The Maruts** — when Indra slays Diti's gestating son(s) in the womb (to forestall an Indra-killer), the fragments become the **Maruts**, the storm-gods and Indra's allies — an irony of the deva–asura split. (*Rāmāyaṇa*; *Purāṇas*)
-  - *Variant (other Kaśyapa-wives):* **Danu** mothers the **Dānavas**, **Kadrū** the **Nāgas**, **Vinatā** the birds (Garuḍa, Aruṇa), **Surasā** serpents, etc. — the full Kaśyapa-progeny roster is open-ended and cataloged differently per Purāṇa. (see [Beings & Bestiary](../08-beings-and-bestiary/README.md) when written)
+  - *Variant (other Kaśyapa-wives):* **Danu** mothers the **Dānavas**, **Kadrū** the **Nāgas**, **Vinatā** the birds (Garuḍa, Aruṇa), **Surasā** serpents, etc. — the full Kaśyapa-progeny roster is open-ended and cataloged differently per Purāṇa. (see [Beings & Bestiary](../08-beings-and-bestiary/README.md))
 
 ---
 
 ## Sarasvatī — goddess of speech & the lost river
 
 - **Sarasvatī** — goddess of **knowledge, speech (Vāc), music, and the arts**; consort of **Brahmā** (see [Trimūrti & Tridevī](trimurti-and-tridevi.md)). Originally the mighty **Vedic river-goddess** (Ṛg Veda's "best of mothers, rivers, goddesses"), later interiorized as the goddess of wisdom as the physical river dried/went subterranean. (Wikipedia)
-  - **River → speech** — the transition from the **Sarasvatī river** of the Ṛg Veda to **Vāgdevī** (goddess of speech) of the later Vedas/Purāṇas is one of Hinduism's clearest deity-evolutions. The lost river is held to surface invisibly at **Prayāga** as the third strand of the Triveṇī (see Gaṅgā/Yamunā above). [scholarly]
+  - **River → speech** — the transition from the **Sarasvatī river** of the Ṛg Veda to **Vāgdevī** (goddess of speech) of the later Vedas/Purāṇas is one of Hinduism's clearest deity-evolutions. The lost river is held to surface invisibly at **Prayāga** as the third strand of the Triveṇī (see [Yamunā & the River Goddesses](yamuna-and-river-goddesses.md)). [scholarly]
   - **Iconography** — fair, four-armed, seated on a **white lotus** or **swan/haṃsa** (sometimes peacock), bearing the **vīṇā**, **book (Vedas)**, **akṣamālā**, and water-pot. Worshipped at **Vasant Pañcamī**.
   - *Variant (Gāyatrī/Sāvitrī):* sometimes equated or paired with **Gāyatrī** and **Sāvitrī** as Brahmā's consorts; in Śākta theology she is one face of the supreme **Tridevī** alongside Lakṣmī and Pārvatī (see [Devī Forms & Navadurgā](devi-forms-and-navadurga.md)).
 

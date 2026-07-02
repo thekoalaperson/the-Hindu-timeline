@@ -20,50 +20,50 @@ Several Purāṇic lists gather the in-between classes under **Upadevas** ("less
 
 ---
 
-## The classes catalogued (with the deep file that will hold each)
+## The classes catalogued (with the deep file that holds each)
 
-> Each bullet is a class that gets a one-bullet-per-member roster in its detail file. Counts and parentage variants are flagged where the sources disagree.
+> Each bullet is a class with a one-bullet-per-member roster in its detail file (linked at the end of the bullet). Counts and parentage variants are flagged where the sources disagree.
 
 ### Semi-divine / celestial (Svarga-dwellers)
 
-- **Gandharvas** — male celestial musicians and singers of Indra's court; husbands of the Apsaras; some part-bird or part-horse; skilled healers and keepers of *soma*. Sons of Kaśyapa (or Brahmā / Vāc by text). (Source: Wikipedia, *List of legendary creatures*) → *planned* `celestials-gandharvas-apsaras.md`
-- **Apsaras** — female spirits of clouds and waters, dancers of Svarga, sent to break ascetics' tapas (Menakā, Rambhā, Tilottamā, Urvaśī, Ghṛtācī). Often counted as a fixed set. (Source: Wikipedia, *List of legendary creatures*) → *planned* `celestials-gandharvas-apsaras.md`
-- **Kinnaras / Kiṃpuruṣas** — half-human celestial musicians; commonly half-horse (or half-bird, females *Kinnarī* half-woman/half-bird); paradigmatic lovers. Kiṃpuruṣas sometimes given as lion-headed beings. (Source: Wikipedia, *List of legendary creatures*) → *planned* `celestials-gandharvas-apsaras.md`
-- **Vidyādharas** — "knowledge-holders," sky-going magicians with supernatural powers and flying cities; dwell on Himālayan slopes; frequent in the *Kathāsaritsāgara*. (Source: Wikipedia, *List of legendary creatures*) → *planned* `celestials-siddhas-vidyadharas.md`
-- **Cāraṇas** — celestial bards/wandering panegyrists who travel through the worlds proclaiming praises; paired with Gandharvas in heavenly assemblies. (Source: Wikipedia, *List of legendary creatures*) → *planned* `celestials-siddhas-vidyadharas.md`
-- **Siddhas** — perfected beings dwelling in Bhuvarloka/Maharloka, born pure with innate *siddhis* (mystic powers); 88,000 of them said to fill the upper air. (Source: Bhāgavata Purāṇa 5; see [lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)) → *planned* `celestials-siddhas-vidyadharas.md`
+- **Gandharvas** — male celestial musicians and singers of Indra's court; husbands of the Apsaras; some part-bird or part-horse; skilled healers and keepers of *soma*. Sons of Kaśyapa (or Brahmā / Vāc by text). (Source: Wikipedia, *List of legendary creatures*) → [gandharvas-and-kinnaras.md](gandharvas-and-kinnaras.md)
+- **Apsaras** — female spirits of clouds and waters, dancers of Svarga, sent to break ascetics' tapas (Menakā, Rambhā, Tilottamā, Urvaśī, Ghṛtācī). Often counted as a fixed set. (Source: Wikipedia, *List of legendary creatures*) → [apsaras.md](apsaras.md)
+- **Kinnaras / Kiṃpuruṣas** — half-human celestial musicians; commonly half-horse (or half-bird, females *Kinnarī* half-woman/half-bird); paradigmatic lovers. Kiṃpuruṣas sometimes given as lion-headed beings. (Source: Wikipedia, *List of legendary creatures*) → [gandharvas-and-kinnaras.md](gandharvas-and-kinnaras.md)
+- **Vidyādharas** — "knowledge-holders," sky-going magicians with supernatural powers and flying cities; dwell on Himālayan slopes; frequent in the *Kathāsaritsāgara*. (Source: Wikipedia, *List of legendary creatures*) → [vidyadharas-siddhas-and-spirits.md](vidyadharas-siddhas-and-spirits.md)
+- **Cāraṇas** — celestial bards/wandering panegyrists who travel through the worlds proclaiming praises; paired with Gandharvas in heavenly assemblies. (Source: Wikipedia, *List of legendary creatures*) → [vidyadharas-siddhas-and-spirits.md](vidyadharas-siddhas-and-spirits.md)
+- **Siddhas** — perfected beings dwelling in Bhuvarloka/Maharloka, born pure with innate *siddhis* (mystic powers); 88,000 of them said to fill the upper air. (Source: Bhāgavata Purāṇa 5; see [lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)) → [vidyadharas-siddhas-and-spirits.md](vidyadharas-siddhas-and-spirits.md)
 
 ### Nature-spirits & guardians of wealth
 
-- **Yakṣas (& Yakṣiṇīs)** — broad class of nature-spirits, mostly benevolent, guardians of the earth's hidden treasures and forests; subjects of **Kubera**, lord of wealth. Can turn malevolent (the *yakṣa-praśna* of the Mahābhārata). (Source: Wikipedia, *List of legendary creatures*; Wisdomlib, *Yaksha*) → *planned* `yakshas-guhyakas.md`
-- **Guhyakas** — "hidden ones," attendants of Kubera who guard his buried hoards; closely allied to / overlapping the Yakṣas. (Source: Wikipedia, *List of legendary creatures*) → *planned* `yakshas-guhyakas.md`
+- **Yakṣas (& Yakṣiṇīs)** — broad class of nature-spirits, mostly benevolent, guardians of the earth's hidden treasures and forests; subjects of **Kubera**, lord of wealth. Can turn malevolent (the *yakṣa-praśna* of the Mahābhārata). (Source: Wikipedia, *List of legendary creatures*; Wisdomlib, *Yaksha*) → [yakshas-and-guhyakas.md](yakshas-and-guhyakas.md)
+- **Guhyakas** — "hidden ones," attendants of Kubera who guard his buried hoards; closely allied to / overlapping the Yakṣas. (Source: Wikipedia, *List of legendary creatures*) → [yakshas-and-guhyakas.md](yakshas-and-guhyakas.md)
 
 ### Serpent-folk
 
-- **Nāgas (& Nāginīs)** — semi-divine serpent-beings, part-human/part-cobra, lords of the watery underworld [Pātāla](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md); children of Kaśyapa & **Kadrū**. The great nāgarājas: **Śeṣa/Ananta** (world-bearer, Viṣṇu's couch), **Vāsuki** (manthana-rope, Śiva's neck-coil), **Takṣaka**, **Karkoṭaka**, **Kāliya**. (Source: Wikipedia, *List of legendary creatures*) → *planned* `nagas-and-serpent-folk.md`
+- **Nāgas (& Nāginīs)** — semi-divine serpent-beings, part-human/part-cobra, lords of the watery underworld [Pātāla](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md); children of Kaśyapa & **Kadrū**. The great nāgarājas: **Śeṣa/Ananta** (world-bearer, Viṣṇu's couch), **Vāsuki** (manthana-rope, Śiva's neck-coil), **Takṣaka**, **Karkoṭaka**, **Kāliya**. (Source: Wikipedia, *List of legendary creatures*) → [nagas-and-serpents.md](nagas-and-serpents.md) (Śeṣa's own deep file: [shesha-ananta.md](shesha-ananta.md))
 
 ### Demon-races (the contesting powers)
 
-- **Asuras** — the power-class opposed to the devas; umbrella for Daityas & Dānavas. Not uniformly evil (Prahlāda, Bali, Vibhīṣaṇa). Full loka-context in [devas-asuras-and-the-lokas.md](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md). (Source: Wikipedia, *List of legendary creatures*) → *planned* `asuras-daityas-danavas.md`
-- **Daityas** — Asura clan, children of **Diti** & Kaśyapa; giant-titans jealous of their Āditya half-brothers (Hiraṇyakaśipu, Hiraṇyākṣa, Bali, Prahlāda). (Source: Wikipedia, *List of legendary creatures*) → *planned* `asuras-daityas-danavas.md`
-- **Dānavas** — Asura clan, children of **Danu** & Kaśyapa; giants warring on the gods (Maya the architect, Vṛtra, the Nivātakavacas). (Source: Wikipedia, *List of legendary creatures*) → *planned* `asuras-daityas-danavas.md`
-- **Rākṣasas (& Rākṣasīs)** — shape-shifting night-roaming man-eaters, foes of yajña and sages; the Laṅkā host of the [Rāmāyaṇa](../04-deep-dives/ramayana/) (Rāvaṇa, Kumbhakarṇa, Indrajit, Vibhīṣaṇa, Mārīca, Tāḍakā, Surpaṇakhā). (Source: Wikipedia, *List of legendary creatures*) → *planned* `rakshasas-and-night-roamers.md`
+- **Asuras** — the power-class opposed to the devas; umbrella for Daityas & Dānavas. Not uniformly evil (Prahlāda, Bali, Vibhīṣaṇa). Full loka-context in [devas-asuras-and-the-lokas.md](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md). (Source: Wikipedia, *List of legendary creatures*) → [asura-wars-and-roster.md](asura-wars-and-roster.md)
+- **Daityas** — Asura clan, children of **Diti** & Kaśyapa; giant-titans jealous of their Āditya half-brothers (Hiraṇyakaśipu, Hiraṇyākṣa, Bali, Prahlāda). (Source: Wikipedia, *List of legendary creatures*) → [asura-wars-and-roster.md](asura-wars-and-roster.md)
+- **Dānavas** — Asura clan, children of **Danu** & Kaśyapa; giants warring on the gods (Maya the architect, Vṛtra, the Nivātakavacas). (Source: Wikipedia, *List of legendary creatures*) → [asura-wars-and-roster.md](asura-wars-and-roster.md) (Maya's own deep file: [maya-danava.md](maya-danava.md))
+- **Rākṣasas (& Rākṣasīs)** — shape-shifting night-roaming man-eaters, foes of yajña and sages; the Laṅkā host of the [Rāmāyaṇa](../04-deep-dives/ramayana/) (Rāvaṇa, Kumbhakarṇa, Indrajit, Vibhīṣaṇa, Mārīca, Tāḍakā, Surpaṇakhā). (Source: Wikipedia, *List of legendary creatures*) → [rakshasas.md](rakshasas.md)
 
 ### Lower spirits, ghosts & the unquiet dead
 
-- **Piśācas** — flesh-eating ghoul-demons of cremation grounds, lowest of the malign classes; associated with disease and madness. (Source: Wikipedia, *List of legendary creatures*) → *planned* `bhutas-pretas-and-the-dead.md`
-- **Bhūtas** — ghosts/spirits of the dead (and Śiva's *gaṇa*-host as Bhūteśvara's followers); restless or malevolent revenants. (Source: Wikipedia, *List of legendary creatures*) → *planned* `bhutas-pretas-and-the-dead.md`
-- **Pretas** — the hungry dead in the interval before *pitṛ*-hood; beings of extreme, unappeasable hunger; addressed by śrāddha rites. (Source: Wikipedia, *List of legendary creatures*) → *planned* `bhutas-pretas-and-the-dead.md`
-- **Vetālas** — corpse-animating spirits/vampires hanging in cremation trees (the *Vetāla-pañcaviṃśati* / Vikramāditya cycle); breakers of taboo. (Source: Wikipedia, *List of legendary creatures*) → *planned* `bhutas-pretas-and-the-dead.md`
-- *Open-ended [folk]:* regional spirit-classes — **Ḍākinīs, Yoginīs, Bhairavas, Brahmarākṣasas, Cuḍails, Mohinīs** — proliferate in tantric and folk traditions and resist a fixed canon. (Source: Tarapith Temple blog, *Yaksha Yoginis*) → *planned* `bhutas-pretas-and-the-dead.md`
+- **Piśācas** — flesh-eating ghoul-demons of cremation grounds, lowest of the malign classes; associated with disease and madness. (Source: Wikipedia, *List of legendary creatures*) → [vidyadharas-siddhas-and-spirits.md](vidyadharas-siddhas-and-spirits.md)
+- **Bhūtas** — ghosts/spirits of the dead (and Śiva's *gaṇa*-host as Bhūteśvara's followers); restless or malevolent revenants. (Source: Wikipedia, *List of legendary creatures*) → [vidyadharas-siddhas-and-spirits.md](vidyadharas-siddhas-and-spirits.md)
+- **Pretas** — the hungry dead in the interval before *pitṛ*-hood; beings of extreme, unappeasable hunger; addressed by śrāddha rites. (Source: Wikipedia, *List of legendary creatures*) → [vidyadharas-siddhas-and-spirits.md](vidyadharas-siddhas-and-spirits.md)
+- **Vetālas** — corpse-animating spirits/vampires hanging in cremation trees (the *Vetāla-pañcaviṃśati* / Vikramāditya cycle); breakers of taboo. (Source: Wikipedia, *List of legendary creatures*) → [vidyadharas-siddhas-and-spirits.md](vidyadharas-siddhas-and-spirits.md)
+- *Open-ended [folk]:* regional spirit-classes — **Ḍākinīs, Yoginīs, Bhairavas, Brahmarākṣasas, Cuḍails, Mohinīs** — proliferate in tantric and folk traditions and resist a fixed canon. (Source: Tarapith Temple blog, *Yaksha Yoginis*) → [vidyadharas-siddhas-and-spirits.md](vidyadharas-siddhas-and-spirits.md)
 
 ### Named bestiary — mythic & composite animals
 
-- **Garuḍa / Suparṇa** — the divine eagle-man, Viṣṇu's *vāhana*, enemy of the nāgas; son of Kaśyapa & **Vinatā**. (Source: Wikipedia, *List of legendary creatures*) → *planned* `mythic-beasts-and-composites.md`
-- **Makara** — aquatic crocodile-monster, *vāhana* of Gaṅgā and Varuṇa, emblem of Kāmadeva. (Source: Wikipedia, *List of legendary creatures*) → *planned* `mythic-beasts-and-composites.md`
-- **Śarabha** — eight-legged part-lion/part-bird beast, mightier than lion or elephant; Śiva's form to subdue Narasiṃha. (Source: Wikipedia, *List of legendary creatures*) → *planned* `mythic-beasts-and-composites.md`
-- **Navagunjara** — composite of nine animals, a form of Viṣṇu seen by Arjuna (Oḍiā Mahābhārata tradition). [folk/regional] (Source: Wikipedia, *List of legendary creatures*) → *planned* `mythic-beasts-and-composites.md`
-- **Other named beasts** — **Airāvata** (Indra's white elephant), **Uccaiḥśravas** (the manthana horse), **Kāmadhenu/Surabhi** (wish-cow), **Jāmbavān** (bear-king), **Nandī** (Śiva's bull), **Yāli/Vyāla** (temple leogryph), **Gaṇḍabheruṇḍa** (two-headed eagle). Many emerge from the [Samudra Manthana](../04-deep-dives/samudra-manthana.md). (Source: Wikipedia, *List of legendary creatures*) → *planned* `mythic-beasts-and-composites.md`
+- **Garuḍa / Suparṇa** — the divine eagle-man, Viṣṇu's *vāhana*, enemy of the nāgas; son of Kaśyapa & **Vinatā**. (Source: Wikipedia, *List of legendary creatures*) → [garuda.md](garuda.md)
+- **Makara** — aquatic crocodile-monster, *vāhana* of Gaṅgā and Varuṇa, emblem of Kāmadeva. (Source: Wikipedia, *List of legendary creatures*) → [mythic-beasts-and-composites.md](mythic-beasts-and-composites.md) (canonical home: [temple iconographic motifs](../09-artifacts-symbols-and-arts/temple-iconographic-motifs.md))
+- **Śarabha** — eight-legged part-lion/part-bird beast, mightier than lion or elephant; Śiva's form to subdue Narasiṃha. (Source: Wikipedia, *List of legendary creatures*) → [mythic-beasts-and-composites.md](mythic-beasts-and-composites.md)
+- **Navagunjara** — composite of nine animals, a form of Viṣṇu seen by Arjuna (Oḍiā Mahābhārata tradition). [folk/regional] (Source: Wikipedia, *List of legendary creatures*) → [mythic-beasts-and-composites.md](mythic-beasts-and-composites.md)
+- **Other named beasts** — **Airāvata** (Indra's white elephant), **Uccaiḥśravas** (the manthana horse), **Kāmadhenu/Surabhi** (wish-cow), **Jāmbavān** (bear-king), **Nandī** (Śiva's bull), **Yāli/Vyāla** (temple leogryph), **Gaṇḍabheruṇḍa** (two-headed eagle). Many emerge from the [Samudra Manthana](../04-deep-dives/samudra-manthana.md). (Source: Wikipedia, *List of legendary creatures*) → [airavata-and-celestial-animals.md](airavata-and-celestial-animals.md) (Airāvata, Uccaiḥśravas), [kamadhenu-and-divine-cattle.md](kamadhenu-and-divine-cattle.md) (Kāmadhenu/Surabhi), [nandi-and-shaiva-mounts.md](nandi-and-shaiva-mounts.md) (Nandī), [mythic-beasts-and-composites.md](mythic-beasts-and-composites.md) (Gaṇḍabheruṇḍa; Yāli/Vyāla pointer)
 
 > **Roster is open-ended at the edges.** The semi-divine and folk-spirit classes have no closed Purāṇic enumeration; this section catalogs the canonically named classes and members and flags **[folk]/[late text]/[disputed]** where a class or count is not fixed.
 
@@ -71,10 +71,9 @@ Several Purāṇic lists gather the in-between classes under **Upadevas** ("less
 
 ## Files in this section
 
-> Detail nodes for this folder. (Index seeded; deep files added as the section is populated — each will catalog its class's members one bullet apiece with parentage, role, and source per the repo style.)
+> Detail nodes for this folder — the section is fully populated; every class in the frame above links to the deep file that catalogs its members one bullet apiece with parentage, role, and source per the repo style. The complete file list is in the auto-generated **📑 Full Contents** index below.
 
-
-Until those land, the class-frame above is the working index; cross-check parentage against the [Kaśyapa-progeny](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) lines and the [loka geography](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md).
+Cross-check parentage against the [Kaśyapa-progeny](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) lines and the [loka geography](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md).
 
 ---
 

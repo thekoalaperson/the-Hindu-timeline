@@ -8,7 +8,7 @@
 ## What a Manvantara is
 
 - **Manvantara ("Manu-interval")** — the reign of one **Manu**, the progenitor of humankind for that age, and the administrative epoch he presides over. (Vishnu Purana 3.1–2; Bhagavata Purana 8.1, 8.5, 8.13)
-- **Duration** — 71 Mahayugas + 1 sandhya = **306,720,000 human years** (= 852,000 deva-years). The 15 inter-Manvantara junctions (each = 1 Satya Yuga, 1,728,000 yrs) pad 14 × 306.72M up to the full **4.32-billion-year Kalpa**. (see [FRAMEWORK CONSTANTS](../00-time-and-cosmology/))
+- **Duration** — the manvantara proper = **71 Mahayugas = 306,720,000 human years** (= 852,000 deva-years). The 15 inter-Manvantara sandhya-junctions (each = 1 Satya Yuga, 1,728,000 yrs) are counted **separately**: 14 × 306.72M + 15 × 1.728M = the full **4.32-billion-year Kalpa** (exactly 1,000 Mahayugas). (see [`units-of-time.md`](../00-time-and-cosmology/units-of-time.md) and [`yugas-and-mahayuga.md`](../00-time-and-cosmology/yugas-and-mahayuga.md))
 - **What is recreated each Manvantara** — "In each Manvantara, Manu, the seven Rishis, Indra, the gods, and the kings are created afresh." Each epoch therefore has its own **Manu**, its own **Indra** (king of the devas), its own **Saptarishi** (seven sages who transmit the Veda), its own **classes of gods (gana-devatas)**, and a presiding **Manvantara-avatara of Vishnu** who upholds dharma for that age. (Vishnu Purana 3.2)
 - **Manvantara-avatara** — distinct from the more famous Dashavatara; these are the incarnations Vishnu takes once per Manvantara specifically to sustain the Manu's rule. The canonical list of 14 is from **Bhagavata Purana 8.1.** Note: the Vishnu Purana does not enumerate all 14 avataras; that scheme is principally Bhagavata.
 

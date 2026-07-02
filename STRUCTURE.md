@@ -138,7 +138,7 @@
 ## 04-deep-dives  (246 files)
 
 - [`04-deep-dives/README.md`](04-deep-dives/README.md) · 2306w
-- 🟩 [`04-deep-dives/aditya-hridayam.md`](04-deep-dives/aditya-hridayam.md) · 1438w
+- 🟩 [`04-deep-dives/stotras/aditya-hridayam.md`](04-deep-dives/stotras/aditya-hridayam.md) · 1438w
 - 🟩 [`04-deep-dives/agastya.md`](04-deep-dives/agastya.md) · 2322w
 - 🟩 [`04-deep-dives/aja-indumati.md`](04-deep-dives/aja-indumati.md) · 1555w
 - 🟩 [`04-deep-dives/ajamila.md`](04-deep-dives/ajamila.md) · 2314w
@@ -162,7 +162,7 @@
 - 🟩 [`04-deep-dives/bhasmasura-and-vrikasura.md`](04-deep-dives/bhasmasura-and-vrikasura.md) · 1860w
 - 🟩 [`04-deep-dives/bhramara-gita-uddhava-sandesha.md`](04-deep-dives/bhramara-gita-uddhava-sandesha.md) · 1604w
 - 🟩 [`04-deep-dives/bhrigu.md`](04-deep-dives/bhrigu.md) · 1513w
-- 🟩 [`04-deep-dives/bilvashtaka.md`](04-deep-dives/bilvashtaka.md) · 1623w
+- 🟩 [`04-deep-dives/stotras/bilvashtaka.md`](04-deep-dives/stotras/bilvashtaka.md) · 1623w
 - 🟩 [`04-deep-dives/brahma-vimohana.md`](04-deep-dives/brahma-vimohana.md) · 1886w
 - 🟩 [`04-deep-dives/buddha-avatara.md`](04-deep-dives/buddha-avatara.md) · 1495w
   - [`04-deep-dives/characters/README.md`](04-deep-dives/characters/README.md) · 761w
@@ -174,7 +174,6 @@
   - 🟩 [`04-deep-dives/characters/arjuna.md`](04-deep-dives/characters/arjuna.md) · 2694w
   - 🟩 [`04-deep-dives/characters/ashtavakra.md`](04-deep-dives/characters/ashtavakra.md) · 2209w
   - 🟩 [`04-deep-dives/characters/babhruvahana.md`](04-deep-dives/characters/babhruvahana.md) · 1230w
-  - 🟩 [`04-deep-dives/characters/babruvahana.md`](04-deep-dives/characters/babruvahana.md) · 1357w
   - 🟩 [`04-deep-dives/characters/barbarika-khatu-shyam.md`](04-deep-dives/characters/barbarika-khatu-shyam.md) · 1332w
   - 🟩 [`04-deep-dives/characters/bharata-shatrughna-and-their-wives.md`](04-deep-dives/characters/bharata-shatrughna-and-their-wives.md) · 1763w
   - 🟩 [`04-deep-dives/characters/bhima.md`](04-deep-dives/characters/bhima.md) · 2761w
@@ -342,7 +341,7 @@
 - 🟩 [`04-deep-dives/shibi.md`](04-deep-dives/shibi.md) · 1891w
 - 🟩 [`04-deep-dives/shishupala.md`](04-deep-dives/shishupala.md) · 1249w
 - 🟩 [`04-deep-dives/shiva-gita.md`](04-deep-dives/shiva-gita.md) · 1237w
-- 🟩 [`04-deep-dives/shiva-tandava-stotra.md`](04-deep-dives/shiva-tandava-stotra.md) · 1303w
+- 🟩 [`04-deep-dives/stotras/shiva-tandava-stotra.md`](04-deep-dives/stotras/shiva-tandava-stotra.md) · 1303w
 - 🟩 [`04-deep-dives/shodasarajakiya-sixteen-kings.md`](04-deep-dives/shodasarajakiya-sixteen-kings.md) · 1616w
 - 🟩 [`04-deep-dives/soma-tara-budha.md`](04-deep-dives/soma-tara-budha.md) · 1508w
   - 🟩 [`04-deep-dives/stotras/bhaja-govindam.md`](04-deep-dives/stotras/bhaja-govindam.md) · 1518w

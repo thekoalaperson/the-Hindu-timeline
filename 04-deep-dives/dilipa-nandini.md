@@ -11,6 +11,7 @@
 - **Sudakṣiṇā (सुदक्षिणा)** — Dilīpa's queen, of the **Magadha** royal house; she shares the cow-service and is the mother of Raghu (*Raghuvaṃśa* 1.31–32, 2).
 - **Vasiṣṭha (वसिष्ठ)** — the Saptarṣi and hereditary **purohita of the Ikṣvākus**, keeper of the wish-cow, who diagnoses the king's childlessness and prescribes the penance (*Raghuvaṃśa* 1.59 ff.). See [Viśvāmitra & Vasiṣṭha](vishwamitra-vasishtha.md), where the same sage's wish-cow ignites a different epic feud.
 - **Nandinī (नन्दिनी, "the delightful")** — the wish-cow (*kāmadhenu*) of Vasiṣṭha's hermitage; in the *Raghuvaṃśa* she is the **daughter of Surabhi / Kāmadhenu**, the celestial cow of plenty (*Raghuvaṃśa* 1.81 ff.).
+  - *Variant (which cow) [disputed]:* Kālidāsa makes Nandinī the **daughter of Surabhi/Kāmadhenu** and Vasiṣṭha's own cow; elsewhere "Nandinī" *is* simply an epithet of Kāmadhenu herself — the catalogue of wish-cows (Surabhi, Kāmadhenu, Nandinī, Śabalā/Sabalā of the [Vasiṣṭha–Viśvāmitra](vishwamitra-vasishtha.md) quarrel) overlaps and is not consistently distinguished across texts.
   - *Variant (which Dilīpa) [disputed]:* the Purāṇas distinguish an earlier **Dilīpa I** — descendant of Aṃśumān, in the **Bhagīratha / Gaṅgā-descent** line of the same Sūryavaṃśa — from the **Dilīpa II** who is Raghu's father. Kālidāsa's Nandinī-service tale belongs to **Raghu's father**, not to Bhagīratha's ancestor; the king-lists keep them as separate reigns. See [Sūryavaṃśa & Candravaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md).
   - *Variant (which Nandinī) [disputed]:* "Nandinī" is also the name of the wish-cow whose **theft by the Vasus** triggers Vasiṣṭha's curse and the birth of **[Bhīṣma](characters/bhishma.md)** (Mbh Ādi Parva). The two stories share a cow-name and the sage Vasiṣṭha but are wholly distinct episodes; the timeline does **not** merge them.
 
@@ -65,6 +66,7 @@
 ---
 
 ## Cross-references
+- The connected three-king Kālidāsa cycle (Dilīpa — Raghu — Aja) in the lineage section: [The Raghuvaṃśa Kings](../03-lineages-vamsha/raghuvamsha-kalidasa-kings.md)
 - The son he wins, and the dynasty's eponym: [Raghu](raghu.md)
 - His grandson's romance and lament: [Aja & Indumatī](aja-indumati.md)
 - The sage who prescribes the penance, and his *other* wish-cow feud: [Viśvāmitra & Vasiṣṭha](vishwamitra-vasishtha.md)

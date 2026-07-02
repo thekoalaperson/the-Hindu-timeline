@@ -1,6 +1,6 @@
 # Venkatesha Suprabhatam — The Awakening Hymn of Lord Venkateshvara
 
-> *Up one level: [04-deep-dives](../README.md) · The **Veṅkaṭeśa Suprabhātam** ("the Good-Dawn [hymn] of Veṅkaṭeśa"), the morning awakening-song chanted at dawn to wake **Lord Veṅkaṭeśvara** of [Tirumala-Tirupati] — composed by the Śrī-Vaiṣṇava ācārya **Prativādi Bhayaṅkaram Aṇṇaṉ** (15th c.); flagship of the *suprabhāta* genre, sibling to the name-litany [Viṣṇu Sahasranāma](vishnu-sahasranama.md), the surrender-garland [Mukunda-mālā](mukunda-mala.md), and the dawn-hymn [Āditya-hṛdayam](../aditya-hridayam.md).*
+> *Up one level: [04-deep-dives](../README.md) · The **Veṅkaṭeśa Suprabhātam** ("the Good-Dawn [hymn] of Veṅkaṭeśa"), the morning awakening-song chanted at dawn to wake **Lord Veṅkaṭeśvara** of [Tirumala-Tirupati] — composed by the Śrī-Vaiṣṇava ācārya **Prativādi Bhayaṅkaram Aṇṇaṉ** (15th c.); flagship of the *suprabhāta* genre, sibling to the name-litany [Viṣṇu Sahasranāma](vishnu-sahasranama.md), the surrender-garland [Mukunda-mālā](mukunda-mala.md), and the dawn-hymn [Āditya-hṛdayam](aditya-hridayam.md).*
 
 The **Veṅkaṭeśa Suprabhātam** (वेङ्कटेशसुप्रभातम्, "the Auspicious Dawn of Veṅkaṭeśa") is a four-part Sanskrit devotional sequence sung at **brāhma-muhūrta**, the pre-dawn hour, to ceremonially **awaken** the reclining-and-standing Lord **Veṅkaṭeśvara / Śrīnivāsa** in his hill-shrine at **Tirumala** above Tirupati. Composed by **Prativādi Bhayaṅkaram Aṇṇaṉ** (Aṇṇaṅgarācārya), a 15th-century **Śrī-Vaiṣṇava** ācārya, it is today the **most-recited *suprabhāta* hymn in living Hindu practice** — the daily first sound of temple worship and a fixture of countless households via recorded chant. Its opening line addresses the deity as **Rāma-Veṅkaṭeśa**, fusing the Vaikuṇṭha-on-the-hill god with the dawn-waking of the Ikṣvāku prince. [scholarly]
 
@@ -46,7 +46,7 @@ The work is not a single hymn but a **fixed sequence of four texts**, always cha
 
 - **What a *suprabhāta* is** — A **suprabhātam** ("good dawn") is a sub-genre of **awakening-hymn**: verses sung at first light to rouse a deity (or, by extension, a king or guru) from sleep, opening the ritual day. The form descends from the **Rāmāyaṇa's Viśvāmitra-wakes-Rāma** topos and from temple *sevā*-liturgy. [scholarly]
 - **The model for all others** — The Veṅkaṭeśa Suprabhātam is the **most famous and most-imitated** of the genre; numerous later *suprabhātam* hymns (for other deities and shrines) are composed **on its template**, often reusing the *uttiṣṭha … kausalyā-suprajā* opening pattern. It is the genre's de-facto flagship. [scholarly]
-- **Kin to other dawn-texts** — It is the *bhakti*-liturgical counterpart to the dawn solar hymn **[Āditya-hṛdayam](../aditya-hridayam.md)** (taught to Rāma at the dawn of battle) and to the **Sandhyā-vandana** dawn rites; where those greet the rising sun, the Suprabhātam greets the rising Lord. [scholarly]
+- **Kin to other dawn-texts** — It is the *bhakti*-liturgical counterpart to the dawn solar hymn **[Āditya-hṛdayam](aditya-hridayam.md)** (taught to Rāma at the dawn of battle) and to the **Sandhyā-vandana** dawn rites; where those greet the rising sun, the Suprabhātam greets the rising Lord. [scholarly]
 
 ---
 
@@ -65,7 +65,7 @@ The work is not a single hymn but a **fixed sequence of four texts**, always cha
 - [Viṣṇu Sahasranāma](vishnu-sahasranama.md) — the thousand-name litany of Viṣṇu, sibling daily-recited Vaiṣṇava stotra.
 - [Mukunda-mālā](mukunda-mala.md) — Kulaśekhara's *prapatti* / surrender-garland, sharing the Suprabhātam's *śaraṇāgati* mood.
 - [Kanakadhārā Stotram](kanakadhara-stotram.md) — Śaṅkara's hymn to Śrī/Lakṣmī, a kindred Śrī-centred devotion.
-- [Āditya-hṛdayam](../aditya-hridayam.md) — the dawn solar hymn taught to Rāma, kindred awakening / first-light text.
+- [Āditya-hṛdayam](aditya-hridayam.md) — the dawn solar hymn taught to Rāma, kindred awakening / first-light text.
 
 ---
 

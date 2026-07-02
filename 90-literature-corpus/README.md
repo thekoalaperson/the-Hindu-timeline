@@ -164,13 +164,14 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 
 ---
 
-## Sub-files (to be expanded under this node)
+## Layout of this node (sub-directories & genre files)
 
-- `./shruti/` — Vedas, Brahmanas, Aranyakas, Upanishads in detail.
-- `./itihasa/` — Ramayana & Mahabharata, kanda/parva breakdowns, event-to-yuga maps.
-- `./puranas/` — the 18 Maha- + 18 Upa-Puranas, each profiled with its variant cosmology.
-- `./vedangas/`, `./upavedas/`, `./darshanas/`, `./agamas/`, `./dharmashastras/` — genre detail files.
-- *(See parent index for cross-links into [`01-manvantaras/`](../01-manvantaras/), [`02-deities-and-cosmic-hierarchy/`](../02-deities-and-cosmic-hierarchy/), [`03-lineages-vamsha/`](../03-lineages-vamsha/).)*
+- [`./vedas/`](./vedas/) — per-Veda profiles (Ṛg, Sāma, Yajur, Atharva) plus the Āraṇyakas and Prātiśākhyas, with [`./vedas/brahmanas/`](./vedas/brahmanas/) holding the dedicated Brāhmaṇa profiles.
+- [`./upanishads/`](./upanishads/) — per-Upaniṣad profiles; overviews in [`shruti-vedas-and-upanishads.md`](shruti-vedas-and-upanishads.md) and [`principal-upanishads-detail.md`](principal-upanishads-detail.md).
+- [`./puranas/`](./puranas/) — the 18 Mahā-Purāṇas and the Upa-Purāṇas, each profiled with its variant cosmology.
+- [`./darshanas/`](./darshanas/) — root-text (mūla-sūtra) profiles of the six āstika schools.
+- Flat genre files cover the remaining nodes: **itihāsa** → [`smriti-itihasa-epics.md`](smriti-itihasa-epics.md); **vedāṅgas, upavedas & the darśana survey** → [`upavedas-vedangas-darshanas.md`](upavedas-vedangas-darshanas.md); **āgamas, tantras & dharmaśāstras** → [`agamas-tantras-dharmashastras.md`](agamas-tantras-dharmashastras.md); **smṛti purāṇa survey** → [`smriti-puranas.md`](smriti-puranas.md).
+- *(Every file in this section is linked from the auto-generated **📑 Full Contents** index below; see parent index for cross-links into [`01-manvantaras/`](../01-manvantaras/), [`02-deities-and-cosmic-hierarchy/`](../02-deities-and-cosmic-hierarchy/), [`03-lineages-vamsha/`](../03-lineages-vamsha/).)*
 
 ---
 

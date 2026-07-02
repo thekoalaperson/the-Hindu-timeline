@@ -22,7 +22,7 @@
 
 *Auto-generated index of all 240 files in this section. Regenerate with the indexer.*
 
-- 🟩 [Aditya Hridayam](aditya-hridayam.md)
+- 🟩 [Aditya Hridayam](stotras/aditya-hridayam.md)
 - 🟩 [Agastya — Sage of the South](agastya.md)
 - 🟩 [Aja and Indumatī — the Raghuvaṃśa Love and the Ajavilāpa](aja-indumati.md)
 - 🟩 [Ajāmila — Salvation by the Name](ajamila.md)
@@ -40,7 +40,7 @@
 - 🟩 [Bhasmāsura & Vṛkāsura — Shiva's Dangerous Boons](bhasmasura-and-vrikasura.md)
 - 🟩 [Bhramara-Gītā — Uddhava's Embassy to the Gopīs](bhramara-gita-uddhava-sandesha.md)
 - 🟩 [Bhṛgu and the Bhṛgu-Test of the Trimūrti](bhrigu.md)
-- 🟩 [Bilvashtaka — the Eight-Verse Hymn for Offering Bilva Leaves to Shiva](bilvashtaka.md)
+- 🟩 [Bilvashtaka — the Eight-Verse Hymn for Offering Bilva Leaves to Shiva](stotras/bilvashtaka.md)
 - 🟩 [Brahmā-vimohana and the Brahma-stuti — Kṛṣṇa Multiplies Himself into All Vraja](brahma-vimohana.md)
 - 🟩 [Buddha as the Avatar of Vishnu](buddha-avatara.md)
 - 🟩 [Citraketu — The Grieving King, the Deathless Self, and the Curse to Become Vṛtra](citraketu.md)
@@ -119,7 +119,7 @@
 - 🟩 [Śibi — the King & the Dove](shibi.md)
 - 🟩 [Śiśupāla — the Hundred Offenses](shishupala.md)
 - 🟩 [Śiva-Gītā](shiva-gita.md)
-- 🟩 [Shiva Tandava Stotra](shiva-tandava-stotra.md)
+- 🟩 [Shiva Tandava Stotra](stotras/shiva-tandava-stotra.md)
 - 🟩 [Shodasarajakiya (The Sixteen Kings)](shodasarajakiya-sixteen-kings.md)
 - 🟩 [Soma, Tārā & the Tārakāmaya War](soma-tara-budha.md)
 - 🟩 [Sudāmā (Kucela)](sudama-kuchela.md)
@@ -167,7 +167,6 @@
 - 🟩 [Arjuna](characters/arjuna.md)
 - 🟩 [Aṣṭāvakra](characters/ashtavakra.md)
 - 🟩 [Babhruvāhana — the Son Who Slew Arjuna](characters/babhruvahana.md)
-- 🟩 [Babruvāhana](characters/babruvahana.md)
 - 🟩 [Barbarīka / Khāṭū Śyām — the Witness of the War](characters/barbarika-khatu-shyam.md)
 - 🟩 [Bharata and Shatrughna and Their Brides — Māṇḍavī and Śrutakīrti](characters/bharata-shatrughna-and-their-wives.md)
 - 🟩 [Bhīma](characters/bhima.md)

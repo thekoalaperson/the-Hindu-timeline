@@ -28,6 +28,20 @@ The Haridāsas treat **structured melody (*nāda*)** not as ornament but as a pa
 
 ---
 
+## The Telugu vāggeyakāras — the bridge between the Dāsas and the Trinity
+
+Parallel to (and partly before) the Kannada Dāsa-kūṭa, a Telugu line of **vāggeyakāras** (composer-poets who write both *vāk*, the word, and *geya*, the music) carries temple-bhakti song from the Vijayanagara age down to the Trinity's doorstep — Tyāgarāja himself composed in Telugu and explicitly honoured this lineage. (Source: Telugu Vaiṣṇava tradition; Wikipedia, *Annamacharya*, *Bhadrachala Ramadasu*) [scholarly]
+
+- **Tāḷḷapāka Annamācārya (Annamayya)** — **1408–1503** [scholarly], the "**pada-kavitā pitāmaha**" (grandsire of the Telugu *pada*); Vaiṣṇava temple-poet of **Tirumala** who by tradition composed a *saṅkīrtana* a day to **Veṅkaṭeśvara** — a corpus reckoned at **~32,000 sankirtanas**, of which some **14,000+ survive engraved on copper plates** rediscovered in a sealed Tirumala temple chamber (1922). His songs split into **adhyātma** (philosophical) and **śṛṅgāra** (erotic-devotional, the Lord and Alamelu-maṅgā as divine lovers) registers, and he is credited with first fixing the *pallavi–caraṇa* **pada** form the later kṛti inherits. His son **Peda Tirumalācārya** and grandson **Cinnanna** continued the Tāḷḷapāka workshop. Full temple context: [Tirumala-Tirupati Veṅkaṭeśvara](../06-sacred-geography/tirumala-tirupati-venkateshwara.md). (Source: Wikipedia, *Annamacharya*; TTD, Annamacharya Project) [scholarly]
+  - *Variant (count) [traditional]:* the "32,000 songs" figure is the traditional total; the copper-plate corpus preserves roughly half. [scholarly]
+- **Kṣetrayya (Kṣetrajña)** — fl. **c. mid-17th c.** [scholarly], wandering Telugu *padam*-poet of **Muvva (Movva, Krishna district)**; his slow, erotically-charged **padams** — sung to the *mudrā* **"Muvva Gopāla"** (Kṛṣṇa of Muvva) — voice the *nāyikā* (heroine) longing for the divine lover, and became the core repertoire of the courtesan-danced *sadir*/Bharatanāṭyam abhinaya tradition. Tradition credits him with **4,000+ padams**, of which a few hundred survive. (Source: Wikipedia, *Kshetrayya*) [scholarly]
+  - *Variant (historicity) [disputed]:* some modern scholarship treats "Kṣetrayya" less as one biography than as the **canonized name over a padam-corpus** accreted by many hands; the traditional single-poet life (pilgrimages to Tanjore and Golconda courts) stands in the hagiography. [scholarly] [disputed]
+- **Bhadrācala Rāmadāsu (Kancherla Gopanna)** — **c. 1620–1680** [scholarly], Rāma-bhakta and tahsildar of Palvoncha under the Golconda Qutb Shahi state; he **built the Rāma temple at Bhadrāchalam** on the Godāvarī, by tradition diverting revenue collections to do so, and was **imprisoned ~12 years in Golconda fort**, where he composed anguished, reproachful and surrendering songs to Rāma (the *Dāśarathī śatakam*; kīrtanas like *Ikṣvāku kula tilaka*). (Source: Wikipedia, *Bhadrachala Ramadasu*; Bhadrachalam temple tradition) [scholarly]
+  - *Variant (the release legend) [folk]:* **Rāma and Lakṣmaṇa themselves**, as the youths "Rāmoji and Lakṣmoji," are said to have paid the sultan **Tānīśā (Abul Hasan Qutb Shah)** the six lakh varahas Gopanna owed and secured his release — the coins ("Rāma taṅkās") shown at Bhadrāchalam to this day; the moved sultan endowed the temple, a grant the Nizams' successors maintained. [folk] [regional]
+  - *Homage of the Trinity:* **Tyāgarāja** names Rāmadāsu with reverence in his own kṛtis (e.g. *Kaligiyuṇṭē gadā*, the *Prahlāda Bhakti Vijayam*'s frame of exemplary bhaktas), placing himself consciously in Rāmadāsu's line of Telugu Rāma-song. (Source: Tyāgarāja kṛti tradition; Wikipedia, *Bhadrachala Ramadasu*) [scholarly]
+
+---
+
 ## The Carnatic Trinity (*Saṅgīta Mummūrti*)
 
 Two centuries downstream, the formal grammar Purandara seeded matures into the **kṛti** form at the hands of three near-contemporary composers of the Kāverī delta — all linked to **Tiruvārūr** (Tamil Nadu) and active in the **late 18th–early 19th c.** Their songs make *bhakti* a complete musical-theological vehicle, the apex of devotional song as *mārga*. (Source: biographies of the Carnatic composers) [scholarly]
@@ -36,7 +50,7 @@ Two centuries downstream, the formal grammar Purandara seeded matures into the *
 - **Muttusvāmi Dīkṣitar** — **1775–1835** [scholarly], the *vāggeyakāra* of grand, slow (*vilamba-kāla*) **Sanskrit** kṛtis dense with Śrī-Vidyā / temple iconography; he toured the Navagraha and major temples (the **Navagraha kṛtis**, the **Kamalāmbā Navāvaraṇa** cycle on the Goddess). Trained partly in the Hindustāni-influenced Tanjore court, he absorbed Western band tunes into his **nottu-svara** pieces. Signature *mudrā* **"Guruguha"** (a name of Subrahmaṇya). (Source: biographies of the Carnatic composers) [scholarly]
 - **Śyāma Śāstri** — **1762–1827** [scholarly], eldest of the three; hereditary archaka of the **Baṅgāru Kāmākṣī** (Goddess) shrine, a **Devī-upāsaka** whose comparatively small but exquisite output (the **Navaratnamālikā** on Mīnākṣī of Madurai, intricate *svarajatis* in rare *tāḷas* such as *Sarabhanandana*) is prized for rhythmic subtlety. Signature *mudrā* **"Śyāmakṛṣṇa."** (Source: biographies of the Carnatic composers) [scholarly]
 
-- **Continuity** — the Trinity inherits, via the Tanjore-Maratha court tradition, the **kṛti** architecture (*pallavi–anupallavi–caraṇa*) and the *svara/sāhitya* pedagogy that Purandara Dāsa first systematized; the Haridāsa-to-Trinity line is the long arc by which Dvaita- and Śākta-rooted *bhakti* became the classical art-music of South India. (Source: biographies of the Carnatic composers; Haridāsa-sāhitya) [scholarly]
+- **Continuity** — the Trinity inherits, via the Tanjore-Maratha court tradition, the **kṛti** architecture (*pallavi–anupallavi–caraṇa*) and the *svara/sāhitya* pedagogy that Purandara Dāsa first systematized — with the Telugu *pada* line above (Annamayya's *pallavi–caraṇa* form, Kṣetrayya's padams, Rāmadāsu's Rāma-kīrtana) supplying the language and devotional idiom of Tyāgarāja's own songs; the Haridāsa-and-vāggeyakāra-to-Trinity line is the long arc by which Dvaita-, Veṅkaṭeśvara- and Śākta-rooted *bhakti* became the classical art-music of South India. (Source: biographies of the Carnatic composers; Haridāsa-sāhitya) [scholarly]
 
 ---
 
@@ -52,3 +66,7 @@ Two centuries downstream, the formal grammar Purandara seeded matures into the *
 - Wikipedia, "Kanaka Dasa" — https://en.wikipedia.org/wiki/Kanaka_Dasa
 - Wikipedia, "Trinity of Carnatic music" — https://en.wikipedia.org/wiki/Trinity_of_Carnatic_music
 - Wikipedia, "Tyagaraja" / "Muthuswami Dikshitar" / "Shyama Shastri"
+- Wikipedia, "Annamacharya" — https://en.wikipedia.org/wiki/Annamacharya
+- Wikipedia, "Kshetrayya" — https://en.wikipedia.org/wiki/Kshetrayya
+- Wikipedia, "Bhadrachala Ramadasu" — https://en.wikipedia.org/wiki/Bhadrachala_Ramadasu
+- Tirumala Tirupati Devasthanams, Annamacharya Project (copper-plate saṅkīrtana corpus)

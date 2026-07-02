@@ -11,7 +11,7 @@
 
 - **Citrāṅgada the Kuru prince** (masculine, short final *-a*) — eldest son of Śāntanu and Satyavatī, the subject of this page (*Mahābhārata, Ādi Parva ~101*).
 - **Citrāṅgada the gandharva** — a celestial king of the **gandharvas**, also named Citrāṅgada, who fights and **kills the Kuru prince** in a three-year duel at Kurukṣetra; an entirely separate being who happens to bear the same name (*Mahābhārata, Ādi Parva ~101*). The epic explicitly notes the **identity of names** as the cause of the offended challenge.
-- **Citrāṅgadā the Maṇipura princess** (feminine, long final *-ā*) — daughter of King Citravāhana, warrior-wife of [Arjuna](./chitrangada.md), mother of Babhruvāhana; three generations later and unrelated. Keep her separate — see [Citrāṅgadā of Maṇipura](./chitrangada.md). [scholarly]
+- **Citrāṅgadā the Maṇipura princess** (feminine, long final *-ā*) — daughter of King Citravāhana, warrior-wife of [Arjuna](./arjuna.md), mother of Babhruvāhana; three generations later and unrelated. Keep her separate — see [Citrāṅgadā of Maṇipura](./chitrangada.md). [scholarly]
 
 ---
 

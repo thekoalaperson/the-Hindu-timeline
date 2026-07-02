@@ -1,8 +1,8 @@
 # Ravananugraha (Ravana Lifting Mount Kailasa)
 
-> *Up one level: [04-deep-dives](README.md) · A first-tier standalone Śaiva grace-myth and major iconographic theme — [Rāvaṇa](characters/ravana.md) uproots Kailāsa, is pinned by [Śiva](../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md)'s toe, and wins grace through a thousand-year hymn. Companion-piece to the [Śiva Tāṇḍava Stotra](shiva-tandava-stotra.md); episode of the [Uttara Kāṇḍa](ramayana/7-uttara-kanda.md).*
+> *Up one level: [04-deep-dives](README.md) · A first-tier standalone Śaiva grace-myth and major iconographic theme — [Rāvaṇa](characters/ravana.md) uproots Kailāsa, is pinned by [Śiva](../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md)'s toe, and wins grace through a thousand-year hymn. Companion-piece to the [Śiva Tāṇḍava Stotra](stotras/shiva-tandava-stotra.md); episode of the [Uttara Kāṇḍa](ramayana/7-uttara-kanda.md).*
 
-**Rāvaṇānugraha** ("the grace [*anugraha*] shown to Rāvaṇa") names the celebrated episode in which the ten-headed rākṣasa king of Laṅkā, returning from conquest, attempts to **bodily lift and move Mount Kailāsa** — the abode of Śiva and Pārvatī — only to be **pinned beneath it by the pressure of a single toe**, and then, after a thousand years of song, **released and graced** by the very god he assaulted. It is at once a narrative inset of the *Vālmīki Rāmāyaṇa* (Uttarakāṇḍa 16), the traditional frame-legend of the [Śiva Tāṇḍava Stotra](shiva-tandava-stotra.md), and one of the **canonical forms of Śiva in temple sculpture** (the *Rāvaṇānugraha-mūrti*, e.g. at Ellora). [scholarly]
+**Rāvaṇānugraha** ("the grace [*anugraha*] shown to Rāvaṇa") names the celebrated episode in which the ten-headed rākṣasa king of Laṅkā, returning from conquest, attempts to **bodily lift and move Mount Kailāsa** — the abode of Śiva and Pārvatī — only to be **pinned beneath it by the pressure of a single toe**, and then, after a thousand years of song, **released and graced** by the very god he assaulted. It is at once a narrative inset of the *Vālmīki Rāmāyaṇa* (Uttarakāṇḍa 16), the traditional frame-legend of the [Śiva Tāṇḍava Stotra](stotras/shiva-tandava-stotra.md), and one of the **canonical forms of Śiva in temple sculpture** (the *Rāvaṇānugraha-mūrti*, e.g. at Ellora). [scholarly]
 
 ---
 
@@ -21,7 +21,7 @@
 
 ## The hymn — Śiva Tāṇḍava Stotra
 
-- **The song of release** — The **Śiva Tāṇḍava Stotra**, the thunderous *pañcacāmara*-meter praise of Śiva's cosmic dance (opening *jaṭāṭavī-galaj-jala...*), is **traditionally identified as the very hymn Rāvaṇa sang while pinned**, by which he won grace. (Rāvaṇānugraha legend) — full treatment at [Śiva Tāṇḍava Stotra](shiva-tandava-stotra.md). [folk]
+- **The song of release** — The **Śiva Tāṇḍava Stotra**, the thunderous *pañcacāmara*-meter praise of Śiva's cosmic dance (opening *jaṭāṭavī-galaj-jala...*), is **traditionally identified as the very hymn Rāvaṇa sang while pinned**, by which he won grace. (Rāvaṇānugraha legend) — full treatment at [Śiva Tāṇḍava Stotra](stotras/shiva-tandava-stotra.md). [folk]
   - *Variant (the vīṇā from his own head):* a beloved **Tamil Śaiva** telling holds that, lacking an instrument beneath the mountain, Rāvaṇa **tore off one of his ten heads and strung a vīṇā from it with his own sinews**, playing it to accompany the hymn — the namesake of the bowed **rāvaṇahattha** instrument. (Tamil Śaiva / *Tēvāram*-associated tradition) [regional] [folk]
   - *Variant (Tēvāram allusions):* the **Nāyaṉār** hymns of the *Tēvāram* (Campantar, Appar, Cuntarar) repeatedly hail Śiva as **the lord who crushed the ten-headed demon beneath the mountain and then graced him** — a stock image of grace-after-pride in Tamil Śaivism. (*Tēvāram*) [regional]
 - **Text-critical caveat** — The *Vālmīki* episode has Rāvaṇa "praise" Śiva but does **not** quote the polished classical *stotra*; the ascription of the finished poem to Rāvaṇa is a **devotional frame**, not a manuscript date. Keep the scriptural attribution distinct from the literary dating. [scholarly] [disputed]
@@ -61,7 +61,7 @@ A distinct, **later sthala-purāṇa** narrative often chained to the Kailāsa g
 
 **Primary texts**
 - *Vālmīki Rāmāyaṇa*, **Uttarakāṇḍa 16** — the Puṣpaka halted over Kailāsa, Nandī's warning (and curse), Rāvaṇa's uprooting of the mountain, Śiva's pressing it down by His toe, the crushing of his arms, the roar and the name "Rāvaṇa," the thousand-year praise, and the grant of the sword Candrahāsa. Translation/resources at [Wisdomlib: Rāmāyaṇa of Vālmīki](https://www.wisdomlib.org/hinduism/book/the-ramayana-of-valmiki).
-- *Śiva Tāṇḍava Stotra*, attributed to **Rāvaṇa** — the *pañcacāmara* hymn traditionally identified as his song of praise beneath the mountain (see [Śiva Tāṇḍava Stotra](shiva-tandava-stotra.md)).
+- *Śiva Tāṇḍava Stotra*, attributed to **Rāvaṇa** — the *pañcacāmara* hymn traditionally identified as his song of praise beneath the mountain (see [Śiva Tāṇḍava Stotra](stotras/shiva-tandava-stotra.md)).
 - *Skanda Purāṇa* (Sahyādri-khaṇḍa) / *Gokarṇa-māhātmya* — the Ātma-liṅga boon, the no-grounding condition, Gaṇeśa's cowherd trick, and the rooting of the liṅga as Mahābaleśvara at Gokarṇa.
 - *Tēvāram* (Tamil Śaiva canon of Campantar, Appar, Cuntarar) — recurrent invocations of Śiva who crushed and then graced the ten-headed demon beneath the mountain.
 
