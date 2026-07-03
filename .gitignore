@@ -1,0 +1,6 @@
+# Round-6 workflow scratch (intermediate; not part of the corpus)
+tools/_events/
+tools/_pending_paths.txt
+tools/_existing_paths.txt
+tools/wf_writer_shard*.js
+tools/wf_verify_shard*.js

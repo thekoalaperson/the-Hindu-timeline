@@ -6,6 +6,8 @@ Subcommands:
   indexes     - regenerate the '## 📑 Full Contents' block in each top-level section README
   structure   - regenerate STRUCTURE.md (file tree, word counts, stub flags, totals)
   timeline-check - verify TIMELINE.md event counts (header + per-section)
+  timeline-insert F.json - insert [{period, line}] events, alpha-ish placement, auto-fix counts
+  data        - regenerate the machine-readable layer (data/events.jsonl, data/catalog.json)
 """
 import os, re, sys, unicodedata
 
@@ -163,6 +165,91 @@ def structure():
         fh.write("\n".join(out).rstrip("\n") + "\n\n" + tail)
     print(f"STRUCTURE.md: {len(files)} files, ~{total_words:,} words, {stubs} stubs")
 
+SECTION_OF = lambda p: p.split("/")[0]
+
+EVENT_RE = re.compile(
+    r"^- \*\*(?P<title>.+?)\*\*\s+[—-]\s+(?P<rest>.*)$"
+)
+
+def build_data():
+    """Generate the machine-readable layer: data/events.jsonl and data/catalog.json.
+    Markdown stays canonical; these are regenerated derivatives."""
+    import json as _json
+    os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
+
+    # --- events.jsonl (one JSON object per TIMELINE bullet) ---
+    text = read("TIMELINE.md")
+    period = None
+    sec_re = re.compile(r"^## (.+?)  ·  \d+ events$")
+    events = []
+    for ln in text.splitlines():
+        m = sec_re.match(ln)
+        if m:
+            period = m.group(1)
+            continue
+        if not ln.startswith("- **"):
+            continue
+        em = EVENT_RE.match(ln)
+        if not em:
+            continue
+        title = em.group("title").strip()
+        rest = em.group("rest").strip()
+        actors = []
+        am = re.search(r"_\(actors:\s*(.+?)\)_", rest)
+        if am:
+            actors = [a.strip() for a in re.split(r",\s*", am.group(1)) if a.strip()]
+        detail_file = None
+        dm = re.search(r"\[details\]\(([^)]+)\)", rest)
+        if dm:
+            detail_file = dm.group(1).split("#")[0]
+        source = None
+        sm = re.search(r"—\s*\((?P<s>.+)\)\s*(?:\[[^\]]*\]\s*)*$", rest)
+        if sm:
+            source = sm.group("s").strip()
+        if sm:
+            source = sm.group(1).strip()
+        # description = rest with the actors/details/source scaffolding stripped
+        desc = rest
+        desc = re.sub(r"\s*_\(actors:.+?\)_", "", desc)
+        desc = re.sub(r"\s*→?\s*\[details\]\([^)]+\).*$", "", desc)
+        desc = desc.strip(" —-→")
+        events.append({
+            "title": title,
+            "description": desc,
+            "actors": actors,
+            "period": period,
+            "source": source,
+            "detail_file": detail_file,
+        })
+    with open(os.path.join(ROOT, "data", "events.jsonl"), "w", encoding="utf-8") as fh:
+        for e in events:
+            fh.write(_json.dumps(e, ensure_ascii=False) + "\n")
+
+    # --- catalog.json (file inventory) ---
+    files = [f for f in all_md() if f != "README.md" and os.path.basename(f) != "README.md"]
+    catalog = []
+    for f in all_md():
+        catalog.append({
+            "path": f,
+            "title": h1(f),
+            "section": SECTION_OF(f) if "/" in f else "(root)",
+            "word_count": wc(f),
+            "is_index": os.path.basename(f) == "README.md",
+        })
+    total_words = sum(c["word_count"] for c in catalog)
+    payload = {
+        "files": len(catalog),
+        "content_files": len(files),
+        "total_words": total_words,
+        "events": len(events),
+        "sections": SECTIONS,
+        "catalog": sorted(catalog, key=lambda c: c["path"]),
+    }
+    with open(os.path.join(ROOT, "data", "catalog.json"), "w", encoding="utf-8") as fh:
+        _json.dump(payload, fh, ensure_ascii=False, indent=1)
+        fh.write("\n")
+    print(f"data/events.jsonl: {len(events)} events · data/catalog.json: {len(catalog)} files, ~{total_words:,} words")
+
 def timeline_check(fix=False):
     text = read("TIMELINE.md")
     lines = text.splitlines()
@@ -288,5 +375,7 @@ if __name__ == "__main__":
         sys.exit(timeline_check(fix="--fix" in sys.argv))
     elif cmd == "timeline-insert":
         timeline_insert(sys.argv[2])
+    elif cmd == "data":
+        build_data()
     else:
         print(__doc__)
