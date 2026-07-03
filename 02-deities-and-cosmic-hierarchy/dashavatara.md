@@ -134,7 +134,7 @@ The same enumeration is commonly extended to **24** by adding **Hamsa** (the swa
 - *Matsya Purana*, *Varaha Purana*, *Agni Purana* (ch. 49), *Garuda Purana* (1.86), *Linga Purana* (2.48; Sharabha), *Naradiya Purana*, *Padma Purana*, *Skanda Purana*, *Kalki Purana*
 - *Shatapatha Brahmana* (1.8.1 Matsya; early Kurma/Varaha as Prajapati); *Rig Veda* 1.154 (Vishnu's three strides)
 - *Bhagavad Gita* 4.7–8 (avatāra doctrine)
-- Jayadeva, *Gita Govinda* — Daśāvatāra-stotra (12th c.)
+- Jayadeva, *Gita Govinda* — Daśāvatāra-stotra (12th c.). Profile: [Jayadeva & the Gīta-Govinda](../07-acharyas-and-sampradayas/jayadeva-and-the-gita-govinda.md)
 - Sri Yukteswar, *The Holy Science* (1894) — variant chronology
 
 **Web / reference:**

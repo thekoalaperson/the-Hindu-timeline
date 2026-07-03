@@ -122,7 +122,7 @@ The demon-slayings of infancy — most sent by Kaṃsa — and the pastoral mira
 - *Harivaṃśa* (khila/appendix to the Mahābhārata) — oldest connected Krishna biography (Pūtanā, Govardhana, Kaṃsa, Pārijāta).
 - *Viṣṇu Purāṇa*, Book 5 (Krishna's life; Syamantaka).
 - *Mahābhārata*, **Sabhā Parva** (Jarāsandha, Śiśupāla) and **Mausala Parva** (Yādava fratricide, death of Krishna, fall of Dwārakā).
-- *Gīta-Govinda* of Jayadeva (12th c.) — Rādhā as central heroine.
+- *Gīta-Govinda* of Jayadeva (12th c.) — Rādhā as central heroine. Profile: [Jayadeva & the Gīta-Govinda](../07-acharyas-and-sampradayas/jayadeva-and-the-gita-govinda.md).
 - *Garga Saṃhitā*; *Brahma-vaivarta Purāṇa*; *Padma, Skanda, Brahmāṇḍa, Devī-Bhāgavata Purāṇas* — Rādhā's exaltation. *Gāhā Sattasaī* of Hāla (~1st–2nd c. CE) — earliest "Rādhā" reference.
 
 **Web / reference sources consulted**
