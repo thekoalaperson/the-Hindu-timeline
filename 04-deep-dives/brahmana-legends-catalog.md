@@ -63,7 +63,7 @@ The Śatapatha's [Videgha Māthava](../90-literature-corpus/vedas/brahmanas/shat
 
 - Text-profiles of the source Brāhmaṇas: [Aitareya](../90-literature-corpus/vedas/brahmanas/aitareya-brahmana.md) · [Śatapatha](../90-literature-corpus/vedas/brahmanas/shatapatha-brahmana.md) · [Pañcaviṃśa](../90-literature-corpus/vedas/brahmanas/panchavimsha-brahmana.md) · [Jaiminīya](../90-literature-corpus/vedas/brahmanas/jaiminiya-brahmana.md)
 - Parent Veda and its narrative hymns: [Ṛgveda](../90-literature-corpus/vedas/rigveda.md) · [Ṛgveda saṃvāda & secular hymns](../90-literature-corpus/vedas/rigveda-samvada-and-secular-hymns.md)
-- Kindred Brāhmaṇa-era legends elsewhere in 04: [Cyavana & Sukanyā](cyavana-sukanya.md) · [Dadhīci / Dadhyañc](dadhichi.md) · [Purūravas & Urvaśī](pururavas-urvashi.md) · [Trita Āptya](trita-aptya.md) · [Indra & Namuci](indra-namuci.md)
+- Kindred Brāhmaṇa-era legends elsewhere in 04: [Cyavana & Sukanyā](cyavana-sukanya.md) · [Dadhīci / Dadhyañc](dadhichi.md) · [Purūravas & Urvaśī](pururavas-urvashi.md) · [Trita Āptya](trita-aptya.md) · [Indra & Namuci](indra-namuchi.md)
 - Actors: [Indra](../02-deities-and-cosmic-hierarchy/indra.md) · [Varuṇa](../02-deities-and-cosmic-hierarchy/varuna.md) · [ṛṣi-lineages & gotras](../08-beings-and-bestiary/rishi-lineages-and-gotras.md) · [apsaras & demonesses roster](../08-beings-and-bestiary/apsaras.md)
 
 ## Sources
