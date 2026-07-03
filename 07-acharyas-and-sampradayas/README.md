@@ -51,13 +51,14 @@ The **Vedānta schools** these orders carry — Advaita, Viśiṣṭādvaita, Dv
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 38 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 43 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Ādi Śaṅkara & Advaita Vedānta](adi-shankara.md)
 - 🟩 [The Ālvārs & Nāyaṉārs — Tamil Bhakti Saints](alvars-and-nayanars.md)
 - 🟩 [Āṇḍāḷ — the Only Female Ālvār and the Tiruppāvai](andal.md)
 - 🟩 [Avvaiyār — The Tamil Poet-Saint of Wisdom](avvaiyar.md)
 - 🟩 [Bahiṇābāī (Bahiṇā) — The Autobiographical Vārkarī Sant](bahinabai.md)
+- 🟩 [Balinese Hinduism — Agama Hindu Dharma](balinese-hinduism-agama-hindu-dharma.md)
 - 🟩 [Chokhāmeḷā and the Mahār Vārkarī Household](chokhamela.md)
 - 🟩 [Eknāth (Ekanātha) — The Consolidator of the Vārkarī Tradition](eknath.md)
 - 🟩 [The Four Vaiṣṇava Sampradāyas](four-vaishnava-sampradayas.md)
@@ -65,6 +66,7 @@ The **Vedānta schools** these orders carry — Advaita, Viśiṣṭādvaita, Dv
 - 🟩 [Gorā Kumbhār (Goroba the Potter-Saint)](gora-kumbhar.md)
 - 🟩 [The Haridāsa Movement & the Carnatic Trinity](haridasa-and-carnatic-bhakti.md)
 - 🟩 [Janābāī (Sant Janī) — The Maidservant Poet of Pandharpur](janabai.md)
+- 🟩 [Jayadeva and the Gīta-Govinda — the Lyric That Canonized Rādhā](jayadeva-and-the-gita-govinda.md)
 - 🟩 [Jñāneśvar (Dnyāneśvar / Jñānadeva) — Founder of the Vārkarī Movement](jnaneshwar.md)
 - 🟩 [Kabīr — Nirguṇa Sant and the Kabīr Panth](kabir.md)
 - 🟩 [Kānhopātrā — the Courtesan-Saint of Pandharpur](kanhopatra.md)
@@ -80,6 +82,7 @@ The **Vedānta schools** these orders carry — Advaita, Viśiṣṭādvaita, Dv
 - 🟩 [Nimbārka, Vallabha & Chaitanya — Bhakti Vedānta](nimbarka-vallabha-chaitanya.md)
 - 🟩 [Nivṛttināth, Sopāndev & Muktābāī — the Jñāneśvar Sibling-Saints](nivritti-sopan-muktabai.md)
 - 🟩 [The Sant & Bhakti Poets of the North & West](north-bhakti-sants.md)
+- 🟩 [Rāghavendra Tīrtha & the Post-Madhva Dvaita Line](raghavendra-tirtha-and-the-dvaita-line.md)
 - 🟩 [Rāmānuja & Madhva — Viśiṣṭādvaita & Dvaita](ramanuja-and-madhva.md)
 - 🟩 [Ravidās (Raidās / Guru Ravidāss) — The Camār Nirguṇa Sant](ravidas.md)
 - 🟩 [The Rigvedic brahmavadinis / women seers](rigvedic-women-seers-brahmavadinis.md)
@@ -91,5 +94,7 @@ The **Vedānta schools** these orders carry — Advaita, Viśiṣṭādvaita, Dv
 - 🟩 [The Tamil Siddhars (Patiṉeṇ Cittar) — The Southern Siddha Tradition](tamil-siddhars.md)
 - 🟩 [The Nālvar — Sambandar, Appar, Sundarar & Māṇikkavācakar](the-nalvar-tamil-shaiva-saints.md)
 - 🟩 [Tukārām — the Abhaṅga Apex of the Vārkarī Tradition](tukaram.md)
+- 🟩 [Tulsīdās — the Rāma-bhakta of Vārāṇasī](tulsidas.md)
+- 🟩 [Vedānta Deśika, Piḷḷai Lokācārya & Maṇavāḷa Māmunigaḷ — the Later Śrīvaiṣṇava Ācāryas](vedanta-desika-and-later-srivaishnava-acharyas.md)
 
 <!-- AUTOINDEX:END -->

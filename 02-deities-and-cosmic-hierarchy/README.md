@@ -23,12 +23,13 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 56 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 65 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Agni](agni.md)
 - 🟩 [Ayyaṉār / Śāstā — the Tamil Village Guardian](ayyanar-sastha.md)
 - 🟩 [Ayyappa (Hariharaputra)](ayyappa.md)
 - 🟩 [Bahuchara Mata — Gujarati Shakta Goddess and Patron of the Hijra Community](bahuchara-mata.md)
+- 🟩 [Bhadrakālī & the Kerala Bhagavati Tradition — the Dārika-vadham Cycle](bhadrakali-kerala-bhagavati.md)
 - 🟩 [Bonbibi — the Forest-Goddess of the Sundarbans](bonbibi.md)
 - 🟩 [Chandra (Soma)](chandra-soma.md)
 - 🟩 [Dakṣiṇāmūrti — Śiva as the Silent South-Facing Ādi-Guru](dakshinamurti.md)
@@ -44,6 +45,7 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 - 🟩 [Ganesha & Kartikeya — The Sons of Shiva-Parvati](ganesha-and-kartikeya.md)
 - 🟩 [Gaṅgā](ganga.md)
 - 🟩 [Gangamma of Tirupati — the Fierce Sister-Goddess and Her Jātara](gangamma.md)
+- 🟩 [Ṣaṣṭhī (Shashthi) — Cross-Link Rider for the Bengal Folk-Goddess Cluster](gramadevata-shashthi-cross-links.md)
 - 🟩 [Grāmadevatās — the Village-Deity System and Its Goddesses](gramadevatas-village-deities.md)
 - 🟩 [Gugga / Gogaji — the Serpent-Warrior of Northwest India](gugga-gogaji.md)
 - 🟩 [Hanuman — Vanara Devotee, Chiranjivi, Rudravatara](hanuman.md)
@@ -59,8 +61,12 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 - 🟩 [Manasā — the Serpent-Goddess of Eastern India](manasa.md)
 - 🟩 [Māriyammaṉ — the Tamil Rain-and-Pox Mother](mariamman.md)
 - 🟩 [Muthappan of Parassinikkadavu — the Hunter-God of Theyyam](muthappan.md)
+- 🟩 [Nandā Devī, Golu Devtā and the Uttarakhand Pantheon](nanda-devi-and-uttarakhand-deities.md)
 - 🟩 [The Narakas & the Afterlife](narakas-and-afterlife.md)
 - 🟩 [The Navagraha — Nine Planetary Deities](navagraha.md)
+- 🟩 [Nepal's Living Goddess Traditions — Kumari, Taleju & Machhindranath](nepal-kumari-taleju-machhindranath.md)
+- 🟩 [Rādhā — The Goddess of Braj & Her Theology](radha.md)
+- 🟩 [Ramdev Pir — Rāmdevjī / Rāmāpīr, the Rider-Saint of Runicha](ramdev-pir.md)
 - 🟩 [Reṇukā / Yellammā / Ekvīrā — the Pan-Deccan Mother-Goddess of Saundatti](renuka-yellamma.md)
 - 🟩 [The Saptarishi — The Seven Sages Across the Manvantaras](saptarishi.md)
 - 🟩 [Sarasvatī](saraswati.md)
@@ -71,8 +77,11 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 - 🟩 [The 64 Līlās of Śiva — Tiruviḷaiyāḍal, the Sacred Sports of Sundareśvara at Madurai](shiva-tiruvilaiyadal-64-lilas.md)
 - 🟩 [Sudalaimāḍaṉ — the Tamil Cremation-Ground Guardian](sudalaimadan.md)
 - 🟩 [Sūrya & His Family](surya-and-his-family.md)
+- 🟩 [Tejaji / Veer Teja — the Jat Serpent-Hero of Kharnal, and the Rajasthani Panch Pīrs](tejaji.md)
 - 🟩 [Bṛhaspati & Śukra — the Two Gurus](the-gurus-brihaspati-and-shukra.md)
+- 🟩 [Theyyam Deities & Thoṭṭam Myths of North Malabar](theyyam-deities-and-thottam-myths.md)
 - 🟩 [Trimūrti & Tridevī](trimurti-and-tridevi.md)
+- 🟩 [Tulja Bhavani of Tuljapur](tulja-bhavani.md)
 - 🟩 [Varuṇa](varuna.md)
 - 🟩 [Vāyu](vayu.md)
 - 🟩 [Vindhyavāsinī — the Goddess Who Dwells on the Vindhyas](vindhyavasini.md)

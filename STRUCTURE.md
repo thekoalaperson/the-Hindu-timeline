@@ -2,24 +2,25 @@
 
 > The living map of *The Hindu Timeline*: every file, its depth, and what to build next. Regenerated from the actual tree. Back to the [master index](README.md).
 
-**Totals:** 631 files · ~1,433,583 words · 1 stubs · 0 broken internal links (file & dir verified).
+**Totals:** 732 files · ~1,721,071 words · 2 stubs · 0 broken internal links (file & dir verified).
 
 **Legend:** 🟩 deep · 🟨 stub/sparse.
 
 ---
 
 
-## Root apparatus  (5 files)
+## Root apparatus  (6 files)
 
 - 🟩 [`AGENTS.md`](AGENTS.md) · 888w
-- [`README.md`](README.md) · 1488w
+- 🟩 [`HANDOFF.md`](HANDOFF.md) · 915w
+- [`README.md`](README.md) · 1526w
 - 🟩 [`SOURCES.md`](SOURCES.md) · 774w
-- 🟩 [`STRUCTURE.md`](STRUCTURE.md) · 3168w
-- 🟩 [`TIMELINE.md`](TIMELINE.md) · 244671w
+- 🟩 [`STRUCTURE.md`](STRUCTURE.md) · 3829w
+- 🟩 [`TIMELINE.md`](TIMELINE.md) · 294266w
 
-## 00-time-and-cosmology  (15 files)
+## 00-time-and-cosmology  (16 files)
 
-- [`00-time-and-cosmology/README.md`](00-time-and-cosmology/README.md) · 1293w
+- [`00-time-and-cosmology/README.md`](00-time-and-cosmology/README.md) · 1320w
 - 🟩 [`00-time-and-cosmology/bila-svarga-and-the-patalas.md`](00-time-and-cosmology/bila-svarga-and-the-patalas.md) · 1538w
 - 🟩 [`00-time-and-cosmology/brahma-lifetime.md`](00-time-and-cosmology/brahma-lifetime.md) · 1819w
 - 🟩 [`00-time-and-cosmology/brahmanda-and-bhuvana-kosha.md`](00-time-and-cosmology/brahmanda-and-bhuvana-kosha.md) · 1906w
@@ -27,30 +28,31 @@
 - 🟩 [`00-time-and-cosmology/hindu-calendar-and-panchanga.md`](00-time-and-cosmology/hindu-calendar-and-panchanga.md) · 2943w
 - 🟩 [`00-time-and-cosmology/jyotisha-and-the-zodiac.md`](00-time-and-cosmology/jyotisha-and-the-zodiac.md) · 2725w
 - 🟩 [`00-time-and-cosmology/kalachakra-wheel-of-time.md`](00-time-and-cosmology/kalachakra-wheel-of-time.md) · 2381w
-- 🟩 [`00-time-and-cosmology/kalpa-and-pralaya.md`](00-time-and-cosmology/kalpa-and-pralaya.md) · 1429w
-- 🟩 [`00-time-and-cosmology/manvantara-system.md`](00-time-and-cosmology/manvantara-system.md) · 1973w
+- 🟩 [`00-time-and-cosmology/kalpa-and-pralaya.md`](00-time-and-cosmology/kalpa-and-pralaya.md) · 1439w
+- 🟩 [`00-time-and-cosmology/manvantara-system.md`](00-time-and-cosmology/manvantara-system.md) · 1980w
+- 🟩 [`00-time-and-cosmology/muhurta-and-auspicious-timing.md`](00-time-and-cosmology/muhurta-and-auspicious-timing.md) · 2449w
 - 🟩 [`00-time-and-cosmology/nakshatras.md`](00-time-and-cosmology/nakshatras.md) · 2316w
-- 🟩 [`00-time-and-cosmology/shishumara-chakra.md`](00-time-and-cosmology/shishumara-chakra.md) · 1530w
+- 🟩 [`00-time-and-cosmology/shishumara-chakra.md`](00-time-and-cosmology/shishumara-chakra.md) · 1970w
 - 🟩 [`00-time-and-cosmology/siddhantic-astronomy-and-astronomers.md`](00-time-and-cosmology/siddhantic-astronomy-and-astronomers.md) · 1530w
 - 🟩 [`00-time-and-cosmology/units-of-time.md`](00-time-and-cosmology/units-of-time.md) · 1741w
 - 🟩 [`00-time-and-cosmology/yugas-and-mahayuga.md`](00-time-and-cosmology/yugas-and-mahayuga.md) · 1899w
 
 ## 01-manvantaras  (21 files)
 
-- [`01-manvantaras/README.md`](01-manvantaras/README.md) · 2224w
+- [`01-manvantaras/README.md`](01-manvantaras/README.md) · 2250w
 - 🟩 [`01-manvantaras/manvantara-01-svayambhuva.md`](01-manvantaras/manvantara-01-svayambhuva.md) · 1763w
 - 🟩 [`01-manvantaras/manvantara-02-svarochisha.md`](01-manvantaras/manvantara-02-svarochisha.md) · 1453w
 - 🟩 [`01-manvantaras/manvantara-03-uttama.md`](01-manvantaras/manvantara-03-uttama.md) · 1114w
 - 🟩 [`01-manvantaras/manvantara-04-tamasa.md`](01-manvantaras/manvantara-04-tamasa.md) · 1113w
 - 🟩 [`01-manvantaras/manvantara-05-raivata.md`](01-manvantaras/manvantara-05-raivata.md) · 1458w
 - 🟩 [`01-manvantaras/manvantara-06-chakshusha.md`](01-manvantaras/manvantara-06-chakshusha.md) · 1347w
-  - [`01-manvantaras/manvantara-07-vaivasvata/README.md`](01-manvantaras/manvantara-07-vaivasvata/README.md) · 1410w
+  - [`01-manvantaras/manvantara-07-vaivasvata/README.md`](01-manvantaras/manvantara-07-vaivasvata/README.md) · 1435w
     - 🟩 [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md) · 2189w
     - 🟩 [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md) · 2350w
     - 🟩 [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) · 3070w
-      - [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) · 1734w
-      - 🟩 [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md) · 1975w
-    - [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) · 1208w
+      - [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) · 1745w
+      - 🟩 [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md) · 1965w
+    - [`01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md`](01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md) · 1213w
 - 🟩 [`01-manvantaras/manvantara-08-savarni.md`](01-manvantaras/manvantara-08-savarni.md) · 1314w
 - 🟩 [`01-manvantaras/manvantara-09-daksha-savarni.md`](01-manvantaras/manvantara-09-daksha-savarni.md) · 818w
 - 🟩 [`01-manvantaras/manvantara-10-brahma-savarni.md`](01-manvantaras/manvantara-10-brahma-savarni.md) · 857w
@@ -59,45 +61,51 @@
 - 🟩 [`01-manvantaras/manvantara-13-deva-savarni.md`](01-manvantaras/manvantara-13-deva-savarni.md) · 1385w
 - 🟩 [`01-manvantaras/manvantara-14-indra-savarni.md`](01-manvantaras/manvantara-14-indra-savarni.md) · 1075w
 
-## 02-deities-and-cosmic-hierarchy  (57 files)
+## 02-deities-and-cosmic-hierarchy  (66 files)
 
-- [`02-deities-and-cosmic-hierarchy/README.md`](02-deities-and-cosmic-hierarchy/README.md) · 659w
+- [`02-deities-and-cosmic-hierarchy/README.md`](02-deities-and-cosmic-hierarchy/README.md) · 760w
 - 🟩 [`02-deities-and-cosmic-hierarchy/agni.md`](02-deities-and-cosmic-hierarchy/agni.md) · 2596w
 - 🟩 [`02-deities-and-cosmic-hierarchy/ayyanar-sastha.md`](02-deities-and-cosmic-hierarchy/ayyanar-sastha.md) · 1450w
 - 🟩 [`02-deities-and-cosmic-hierarchy/ayyappa.md`](02-deities-and-cosmic-hierarchy/ayyappa.md) · 2473w
 - 🟩 [`02-deities-and-cosmic-hierarchy/bahuchara-mata.md`](02-deities-and-cosmic-hierarchy/bahuchara-mata.md) · 1925w
+- 🟩 [`02-deities-and-cosmic-hierarchy/bhadrakali-kerala-bhagavati.md`](02-deities-and-cosmic-hierarchy/bhadrakali-kerala-bhagavati.md) · 2178w
 - 🟩 [`02-deities-and-cosmic-hierarchy/bonbibi.md`](02-deities-and-cosmic-hierarchy/bonbibi.md) · 1846w
 - 🟩 [`02-deities-and-cosmic-hierarchy/chandra-soma.md`](02-deities-and-cosmic-hierarchy/chandra-soma.md) · 2117w
 - 🟩 [`02-deities-and-cosmic-hierarchy/dakshinamurti.md`](02-deities-and-cosmic-hierarchy/dakshinamurti.md) · 1638w
 - 🟩 [`02-deities-and-cosmic-hierarchy/dasha-mahavidya.md`](02-deities-and-cosmic-hierarchy/dasha-mahavidya.md) · 2336w
-- 🟩 [`02-deities-and-cosmic-hierarchy/dashavatara.md`](02-deities-and-cosmic-hierarchy/dashavatara.md) · 2282w
+- 🟩 [`02-deities-and-cosmic-hierarchy/dashavatara.md`](02-deities-and-cosmic-hierarchy/dashavatara.md) · 2287w
 - 🟩 [`02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md`](02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) · 2125w
 - 🟩 [`02-deities-and-cosmic-hierarchy/devi-forms-and-navadurga.md`](02-deities-and-cosmic-hierarchy/devi-forms-and-navadurga.md) · 2984w
 - 🟩 [`02-deities-and-cosmic-hierarchy/devi-kanyakumari.md`](02-deities-and-cosmic-hierarchy/devi-kanyakumari.md) · 1407w
 - 🟩 [`02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md`](02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md) · 3040w
-- 🟩 [`02-deities-and-cosmic-hierarchy/devi-meenakshi.md`](02-deities-and-cosmic-hierarchy/devi-meenakshi.md) · 1646w
+- 🟩 [`02-deities-and-cosmic-hierarchy/devi-meenakshi.md`](02-deities-and-cosmic-hierarchy/devi-meenakshi.md) · 1661w
 - 🟩 [`02-deities-and-cosmic-hierarchy/dhanvantari.md`](02-deities-and-cosmic-hierarchy/dhanvantari.md) · 1624w
-- 🟩 [`02-deities-and-cosmic-hierarchy/dharma-thakur.md`](02-deities-and-cosmic-hierarchy/dharma-thakur.md) · 2045w
+- 🟩 [`02-deities-and-cosmic-hierarchy/dharma-thakur.md`](02-deities-and-cosmic-hierarchy/dharma-thakur.md) · 2071w
 - 🟩 [`02-deities-and-cosmic-hierarchy/ganesha-and-kartikeya.md`](02-deities-and-cosmic-hierarchy/ganesha-and-kartikeya.md) · 2251w
 - 🟩 [`02-deities-and-cosmic-hierarchy/ganga.md`](02-deities-and-cosmic-hierarchy/ganga.md) · 2284w
 - 🟩 [`02-deities-and-cosmic-hierarchy/gangamma.md`](02-deities-and-cosmic-hierarchy/gangamma.md) · 1474w
-- 🟩 [`02-deities-and-cosmic-hierarchy/gramadevatas-village-deities.md`](02-deities-and-cosmic-hierarchy/gramadevatas-village-deities.md) · 1680w
+- 🟩 [`02-deities-and-cosmic-hierarchy/gramadevata-shashthi-cross-links.md`](02-deities-and-cosmic-hierarchy/gramadevata-shashthi-cross-links.md) · 1894w
+- 🟩 [`02-deities-and-cosmic-hierarchy/gramadevatas-village-deities.md`](02-deities-and-cosmic-hierarchy/gramadevatas-village-deities.md) · 2114w
 - 🟩 [`02-deities-and-cosmic-hierarchy/gugga-gogaji.md`](02-deities-and-cosmic-hierarchy/gugga-gogaji.md) · 1721w
 - 🟩 [`02-deities-and-cosmic-hierarchy/hanuman.md`](02-deities-and-cosmic-hierarchy/hanuman.md) · 2134w
 - 🟩 [`02-deities-and-cosmic-hierarchy/indra.md`](02-deities-and-cosmic-hierarchy/indra.md) · 2098w
 - 🟩 [`02-deities-and-cosmic-hierarchy/jhulelal.md`](02-deities-and-cosmic-hierarchy/jhulelal.md) · 1845w
-- 🟩 [`02-deities-and-cosmic-hierarchy/kamadeva-and-minor-deities.md`](02-deities-and-cosmic-hierarchy/kamadeva-and-minor-deities.md) · 2696w
+- 🟩 [`02-deities-and-cosmic-hierarchy/kamadeva-and-minor-deities.md`](02-deities-and-cosmic-hierarchy/kamadeva-and-minor-deities.md) · 2045w
 - 🟩 [`02-deities-and-cosmic-hierarchy/karuppasamy-madurai-veeran-and-tamil-kaval-deities.md`](02-deities-and-cosmic-hierarchy/karuppasamy-madurai-veeran-and-tamil-kaval-deities.md) · 1712w
 - 🟩 [`02-deities-and-cosmic-hierarchy/khandoba-martanda-bhairava.md`](02-deities-and-cosmic-hierarchy/khandoba-martanda-bhairava.md) · 1436w
 - 🟩 [`02-deities-and-cosmic-hierarchy/khodiyar-mata.md`](02-deities-and-cosmic-hierarchy/khodiyar-mata.md) · 1722w
-- 🟩 [`02-deities-and-cosmic-hierarchy/kubera.md`](02-deities-and-cosmic-hierarchy/kubera.md) · 2007w
+- 🟩 [`02-deities-and-cosmic-hierarchy/kubera.md`](02-deities-and-cosmic-hierarchy/kubera.md) · 2109w
 - 🟩 [`02-deities-and-cosmic-hierarchy/lakshmi.md`](02-deities-and-cosmic-hierarchy/lakshmi.md) · 2583w
 - 🟩 [`02-deities-and-cosmic-hierarchy/lalita-bhandasura.md`](02-deities-and-cosmic-hierarchy/lalita-bhandasura.md) · 1763w
 - 🟩 [`02-deities-and-cosmic-hierarchy/manasa.md`](02-deities-and-cosmic-hierarchy/manasa.md) · 1984w
 - 🟩 [`02-deities-and-cosmic-hierarchy/mariamman.md`](02-deities-and-cosmic-hierarchy/mariamman.md) · 1532w
 - 🟩 [`02-deities-and-cosmic-hierarchy/muthappan.md`](02-deities-and-cosmic-hierarchy/muthappan.md) · 1458w
+- 🟩 [`02-deities-and-cosmic-hierarchy/nanda-devi-and-uttarakhand-deities.md`](02-deities-and-cosmic-hierarchy/nanda-devi-and-uttarakhand-deities.md) · 2518w
 - 🟩 [`02-deities-and-cosmic-hierarchy/narakas-and-afterlife.md`](02-deities-and-cosmic-hierarchy/narakas-and-afterlife.md) · 2498w
 - 🟩 [`02-deities-and-cosmic-hierarchy/navagraha.md`](02-deities-and-cosmic-hierarchy/navagraha.md) · 3033w
+- 🟩 [`02-deities-and-cosmic-hierarchy/nepal-kumari-taleju-machhindranath.md`](02-deities-and-cosmic-hierarchy/nepal-kumari-taleju-machhindranath.md) · 2628w
+- 🟩 [`02-deities-and-cosmic-hierarchy/radha.md`](02-deities-and-cosmic-hierarchy/radha.md) · 2586w
+- 🟩 [`02-deities-and-cosmic-hierarchy/ramdev-pir.md`](02-deities-and-cosmic-hierarchy/ramdev-pir.md) · 2176w
 - 🟩 [`02-deities-and-cosmic-hierarchy/renuka-yellamma.md`](02-deities-and-cosmic-hierarchy/renuka-yellamma.md) · 1574w
 - 🟩 [`02-deities-and-cosmic-hierarchy/saptarishi.md`](02-deities-and-cosmic-hierarchy/saptarishi.md) · 2238w
 - 🟩 [`02-deities-and-cosmic-hierarchy/saraswati.md`](02-deities-and-cosmic-hierarchy/saraswati.md) · 2948w
@@ -108,8 +116,11 @@
 - 🟩 [`02-deities-and-cosmic-hierarchy/shiva-tiruvilaiyadal-64-lilas.md`](02-deities-and-cosmic-hierarchy/shiva-tiruvilaiyadal-64-lilas.md) · 1860w
 - 🟩 [`02-deities-and-cosmic-hierarchy/sudalaimadan.md`](02-deities-and-cosmic-hierarchy/sudalaimadan.md) · 1418w
 - 🟩 [`02-deities-and-cosmic-hierarchy/surya-and-his-family.md`](02-deities-and-cosmic-hierarchy/surya-and-his-family.md) · 2180w
+- 🟩 [`02-deities-and-cosmic-hierarchy/tejaji.md`](02-deities-and-cosmic-hierarchy/tejaji.md) · 2166w
 - 🟩 [`02-deities-and-cosmic-hierarchy/the-gurus-brihaspati-and-shukra.md`](02-deities-and-cosmic-hierarchy/the-gurus-brihaspati-and-shukra.md) · 2146w
+- 🟩 [`02-deities-and-cosmic-hierarchy/theyyam-deities-and-thottam-myths.md`](02-deities-and-cosmic-hierarchy/theyyam-deities-and-thottam-myths.md) · 2861w
 - 🟩 [`02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md`](02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md) · 2374w
+- 🟩 [`02-deities-and-cosmic-hierarchy/tulja-bhavani.md`](02-deities-and-cosmic-hierarchy/tulja-bhavani.md) · 2451w
 - 🟩 [`02-deities-and-cosmic-hierarchy/varuna.md`](02-deities-and-cosmic-hierarchy/varuna.md) · 1708w
 - 🟩 [`02-deities-and-cosmic-hierarchy/vayu.md`](02-deities-and-cosmic-hierarchy/vayu.md) · 2417w
 - 🟩 [`02-deities-and-cosmic-hierarchy/vindhyavasini.md`](02-deities-and-cosmic-hierarchy/vindhyavasini.md) · 1493w
@@ -119,36 +130,44 @@
 - 🟩 [`02-deities-and-cosmic-hierarchy/yama.md`](02-deities-and-cosmic-hierarchy/yama.md) · 2590w
 - 🟩 [`02-deities-and-cosmic-hierarchy/yamuna-and-river-goddesses.md`](02-deities-and-cosmic-hierarchy/yamuna-and-river-goddesses.md) · 2344w
 
-## 03-lineages-vamsha  (13 files)
+## 03-lineages-vamsha  (20 files)
 
-- [`03-lineages-vamsha/README.md`](03-lineages-vamsha/README.md) · 266w
+- [`03-lineages-vamsha/README.md`](03-lineages-vamsha/README.md) · 716w
 - 🟩 [`03-lineages-vamsha/anaranya-ravana-curse.md`](03-lineages-vamsha/anaranya-ravana-curse.md) · 1289w
 - 🟩 [`03-lineages-vamsha/devapi.md`](03-lineages-vamsha/devapi.md) · 1366w
 - 🟩 [`03-lineages-vamsha/gadhi-and-the-caru-swap.md`](03-lineages-vamsha/gadhi-and-the-caru-swap.md) · 1232w
 - 🟩 [`03-lineages-vamsha/jahnu.md`](03-lineages-vamsha/jahnu.md) · 1277w
-- 🟩 [`03-lineages-vamsha/janamejaya-sarpa-satra.md`](03-lineages-vamsha/janamejaya-sarpa-satra.md) · 1563w
+- 🟩 [`03-lineages-vamsha/janamejaya-sarpa-satra.md`](03-lineages-vamsha/janamejaya-sarpa-satra.md) · 818w
+- 🟩 [`03-lineages-vamsha/jyamagha.md`](03-lineages-vamsha/jyamagha.md) · 1801w
+- 🟩 [`03-lineages-vamsha/kashi-line-divodasa.md`](03-lineages-vamsha/kashi-line-divodasa.md) · 2420w
 - 🟩 [`03-lineages-vamsha/kuru-the-eponym.md`](03-lineages-vamsha/kuru-the-eponym.md) · 1406w
+- 🟩 [`03-lineages-vamsha/kushanabha-daughters-and-brahmadatta.md`](03-lineages-vamsha/kushanabha-daughters-and-brahmadatta.md) · 1963w
 - 🟩 [`03-lineages-vamsha/parikshit.md`](03-lineages-vamsha/parikshit.md) · 1790w
-- 🟩 [`03-lineages-vamsha/raghuvamsha-kalidasa-kings.md`](03-lineages-vamsha/raghuvamsha-kalidasa-kings.md) · 1781w
+- 🟩 [`03-lineages-vamsha/raghuvamsha-kalidasa-kings.md`](03-lineages-vamsha/raghuvamsha-kalidasa-kings.md) · 1364w
+- 🟩 [`03-lineages-vamsha/raji-and-his-sons.md`](03-lineages-vamsha/raji-and-his-sons.md) · 2190w
+- 🟩 [`03-lineages-vamsha/sagara.md`](03-lineages-vamsha/sagara.md) · 2278w
 - 🟩 [`03-lineages-vamsha/samvarana-tapati.md`](03-lineages-vamsha/samvarana-tapati.md) · 1351w
 - 🟩 [`03-lineages-vamsha/shantanu.md`](03-lineages-vamsha/shantanu.md) · 1817w
-- 🟩 [`03-lineages-vamsha/suryavamsha-and-chandravamsha.md`](03-lineages-vamsha/suryavamsha-and-chandravamsha.md) · 2442w
+- 🟩 [`03-lineages-vamsha/suryavamsha-and-chandravamsha.md`](03-lineages-vamsha/suryavamsha-and-chandravamsha.md) · 2448w
 - 🟩 [`03-lineages-vamsha/uparichara-vasu.md`](03-lineages-vamsha/uparichara-vasu.md) · 1442w
+- 🟩 [`03-lineages-vamsha/videha-mithila-line-janaka.md`](03-lineages-vamsha/videha-mithila-line-janaka.md) · 2509w
+- 🟩 [`03-lineages-vamsha/yadava-vamsha.md`](03-lineages-vamsha/yadava-vamsha.md) · 2158w
 
-## 04-deep-dives  (246 files)
+## 04-deep-dives  (296 files)
 
-- [`04-deep-dives/README.md`](04-deep-dives/README.md) · 2306w
-- 🟩 [`04-deep-dives/stotras/aditya-hridayam.md`](04-deep-dives/stotras/aditya-hridayam.md) · 1438w
+- [`04-deep-dives/README.md`](04-deep-dives/README.md) · 2915w
+- 🟩 [`04-deep-dives/acchoda-satyavati-rebirth.md`](04-deep-dives/acchoda-satyavati-rebirth.md) · 1959w
 - 🟩 [`04-deep-dives/agastya.md`](04-deep-dives/agastya.md) · 2322w
-- 🟩 [`04-deep-dives/aja-indumati.md`](04-deep-dives/aja-indumati.md) · 1555w
+- 🟩 [`04-deep-dives/aja-indumati.md`](04-deep-dives/aja-indumati.md) · 1584w
 - 🟩 [`04-deep-dives/ajamila.md`](04-deep-dives/ajamila.md) · 2314w
 - 🟩 [`04-deep-dives/ambarisha-durvasa.md`](04-deep-dives/ambarisha-durvasa.md) · 3197w
 - 🟩 [`04-deep-dives/andhakasura-vadha.md`](04-deep-dives/andhakasura-vadha.md) · 1857w
 - 🟩 [`04-deep-dives/angiras.md`](04-deep-dives/angiras.md) · 1370w
 - 🟩 [`04-deep-dives/anugita.md`](04-deep-dives/anugita.md) · 1679w
-- 🟩 [`04-deep-dives/astika-sarpa-satra.md`](04-deep-dives/astika-sarpa-satra.md) · 1752w
+- 🟩 [`04-deep-dives/astika-sarpa-satra.md`](04-deep-dives/astika-sarpa-satra.md) · 1847w
 - 🟩 [`04-deep-dives/atri-anasuya.md`](04-deep-dives/atri-anasuya.md) · 1438w
 - 🟩 [`04-deep-dives/avadhuta-gita.md`](04-deep-dives/avadhuta-gita.md) · 1493w
+- 🟩 [`04-deep-dives/babhruvahana-and-the-preta.md`](04-deep-dives/babhruvahana-and-the-preta.md) · 2410w
 - 🟩 [`04-deep-dives/banasura-usha-aniruddha.md`](04-deep-dives/banasura-usha-aniruddha.md) · 1653w
 - 🟨 [`04-deep-dives/bhagavad-gita.md`](04-deep-dives/bhagavad-gita.md) · 62w
   - 🟩 [`04-deep-dives/bhagavad-gita/01-arjuna-vishada-yoga.md`](04-deep-dives/bhagavad-gita/01-arjuna-vishada-yoga.md) · 2509w
@@ -157,23 +176,27 @@
   - 🟩 [`04-deep-dives/bhagavad-gita/07-to-12-bhakti-shatka.md`](04-deep-dives/bhagavad-gita/07-to-12-bhakti-shatka.md) · 4659w
   - 🟩 [`04-deep-dives/bhagavad-gita/13-to-18-jnana-shatka.md`](04-deep-dives/bhagavad-gita/13-to-18-jnana-shatka.md) · 3414w
   - [`04-deep-dives/bhagavad-gita/README.md`](04-deep-dives/bhagavad-gita/README.md) · 2479w
+- 🟩 [`04-deep-dives/bhagavata-mahatmya-gokarna-dhundhukari.md`](04-deep-dives/bhagavata-mahatmya-gokarna-dhundhukari.md) · 2606w
 - 🟩 [`04-deep-dives/bhagavata-tales-catalog.md`](04-deep-dives/bhagavata-tales-catalog.md) · 3122w
+- 🟩 [`04-deep-dives/bhakti-sutras-narada-shandilya.md`](04-deep-dives/bhakti-sutras-narada-shandilya.md) · 2670w
 - 🟩 [`04-deep-dives/bharadvaja.md`](04-deep-dives/bharadvaja.md) · 1720w
 - 🟩 [`04-deep-dives/bhasmasura-and-vrikasura.md`](04-deep-dives/bhasmasura-and-vrikasura.md) · 1860w
 - 🟩 [`04-deep-dives/bhramara-gita-uddhava-sandesha.md`](04-deep-dives/bhramara-gita-uddhava-sandesha.md) · 1604w
 - 🟩 [`04-deep-dives/bhrigu.md`](04-deep-dives/bhrigu.md) · 1513w
-- 🟩 [`04-deep-dives/stotras/bilvashtaka.md`](04-deep-dives/stotras/bilvashtaka.md) · 1623w
 - 🟩 [`04-deep-dives/brahma-vimohana.md`](04-deep-dives/brahma-vimohana.md) · 1886w
 - 🟩 [`04-deep-dives/buddha-avatara.md`](04-deep-dives/buddha-avatara.md) · 1495w
-  - [`04-deep-dives/characters/README.md`](04-deep-dives/characters/README.md) · 761w
+- 🟩 [`04-deep-dives/chandimangal-kalketu-and-srimanta.md`](04-deep-dives/chandimangal-kalketu-and-srimanta.md) · 2465w
+  - [`04-deep-dives/characters/README.md`](04-deep-dives/characters/README.md) · 1805w
   - 🟩 [`04-deep-dives/characters/abhimanyu.md`](04-deep-dives/characters/abhimanyu.md) · 1830w
-  - 🟩 [`04-deep-dives/characters/ahalya.md`](04-deep-dives/characters/ahalya.md) · 1643w
+  - 🟩 [`04-deep-dives/characters/ahalya.md`](04-deep-dives/characters/ahalya.md) · 1809w
   - 🟩 [`04-deep-dives/characters/amba-shikhandi.md`](04-deep-dives/characters/amba-shikhandi.md) · 1977w
   - 🟩 [`04-deep-dives/characters/ambika-ambalika.md`](04-deep-dives/characters/ambika-ambalika.md) · 1478w
   - 🟩 [`04-deep-dives/characters/aravan-iravan.md`](04-deep-dives/characters/aravan-iravan.md) · 1225w
   - 🟩 [`04-deep-dives/characters/arjuna.md`](04-deep-dives/characters/arjuna.md) · 2694w
   - 🟩 [`04-deep-dives/characters/ashtavakra.md`](04-deep-dives/characters/ashtavakra.md) · 2209w
-  - 🟩 [`04-deep-dives/characters/babhruvahana.md`](04-deep-dives/characters/babhruvahana.md) · 1230w
+  - 🟩 [`04-deep-dives/characters/ashvatthama.md`](04-deep-dives/characters/ashvatthama.md) · 2470w
+  - 🟩 [`04-deep-dives/characters/babhruvahana.md`](04-deep-dives/characters/babhruvahana.md) · 1382w
+  - 🟩 [`04-deep-dives/characters/balarama.md`](04-deep-dives/characters/balarama.md) · 2223w
   - 🟩 [`04-deep-dives/characters/barbarika-khatu-shyam.md`](04-deep-dives/characters/barbarika-khatu-shyam.md) · 1332w
   - 🟩 [`04-deep-dives/characters/bharata-shatrughna-and-their-wives.md`](04-deep-dives/characters/bharata-shatrughna-and-their-wives.md) · 1763w
   - 🟩 [`04-deep-dives/characters/bhima.md`](04-deep-dives/characters/bhima.md) · 2761w
@@ -181,6 +204,7 @@
   - 🟩 [`04-deep-dives/characters/chitrangada.md`](04-deep-dives/characters/chitrangada.md) · 1605w
   - 🟩 [`04-deep-dives/characters/dasharatha.md`](04-deep-dives/characters/dasharatha.md) · 2143w
   - 🟩 [`04-deep-dives/characters/dhrishtadyumna.md`](04-deep-dives/characters/dhrishtadyumna.md) · 1558w
+  - 🟩 [`04-deep-dives/characters/dhritarashtra.md`](04-deep-dives/characters/dhritarashtra.md) · 2218w
   - 🟩 [`04-deep-dives/characters/draupadi.md`](04-deep-dives/characters/draupadi.md) · 2067w
   - 🟩 [`04-deep-dives/characters/drona.md`](04-deep-dives/characters/drona.md) · 2820w
   - 🟩 [`04-deep-dives/characters/drupada.md`](04-deep-dives/characters/drupada.md) · 1983w
@@ -203,16 +227,22 @@
   - 🟩 [`04-deep-dives/characters/kunti.md`](04-deep-dives/characters/kunti.md) · 1846w
   - 🟩 [`04-deep-dives/characters/lakshmana.md`](04-deep-dives/characters/lakshmana.md) · 2292w
   - 🟩 [`04-deep-dives/characters/madri.md`](04-deep-dives/characters/madri.md) · 1514w
+  - 🟩 [`04-deep-dives/characters/mandodari.md`](04-deep-dives/characters/mandodari.md) · 1868w
   - 🟩 [`04-deep-dives/characters/manthara.md`](04-deep-dives/characters/manthara.md) · 1429w
   - 🟩 [`04-deep-dives/characters/maricha.md`](04-deep-dives/characters/maricha.md) · 1648w
   - 🟩 [`04-deep-dives/characters/mudgala.md`](04-deep-dives/characters/mudgala.md) · 1589w
+  - 🟩 [`04-deep-dives/characters/nakula-sahadeva.md`](04-deep-dives/characters/nakula-sahadeva.md) · 1980w
+  - 🟩 [`04-deep-dives/characters/pandu.md`](04-deep-dives/characters/pandu.md) · 2170w
   - 🟩 [`04-deep-dives/characters/pradyumna.md`](04-deep-dives/characters/pradyumna.md) · 1378w
+  - 🟩 [`04-deep-dives/characters/rama.md`](04-deep-dives/characters/rama.md) · 2232w
   - 🟩 [`04-deep-dives/characters/ravana.md`](04-deep-dives/characters/ravana.md) · 2343w
   - 🟩 [`04-deep-dives/characters/sanjaya.md`](04-deep-dives/characters/sanjaya.md) · 1860w
+  - 🟩 [`04-deep-dives/characters/satyaki.md`](04-deep-dives/characters/satyaki.md) · 2195w
   - 🟩 [`04-deep-dives/characters/satyavati.md`](04-deep-dives/characters/satyavati.md) · 2189w
   - 🟩 [`04-deep-dives/characters/shabari.md`](04-deep-dives/characters/shabari.md) · 1781w
   - 🟩 [`04-deep-dives/characters/shakuni.md`](04-deep-dives/characters/shakuni.md) · 1446w
   - 🟩 [`04-deep-dives/characters/shalya.md`](04-deep-dives/characters/shalya.md) · 1610w
+  - 🟩 [`04-deep-dives/characters/shurpanakha.md`](04-deep-dives/characters/shurpanakha.md) · 2119w
   - 🟩 [`04-deep-dives/characters/sita.md`](04-deep-dives/characters/sita.md) · 2578w
   - 🟩 [`04-deep-dives/characters/subahu.md`](04-deep-dives/characters/subahu.md) · 1461w
   - 🟩 [`04-deep-dives/characters/subhadra.md`](04-deep-dives/characters/subhadra.md) · 1352w
@@ -222,6 +252,8 @@
   - 🟩 [`04-deep-dives/characters/tataka.md`](04-deep-dives/characters/tataka.md) · 1518w
   - 🟩 [`04-deep-dives/characters/trijata.md`](04-deep-dives/characters/trijata.md) · 1329w
   - 🟩 [`04-deep-dives/characters/ulupi.md`](04-deep-dives/characters/ulupi.md) · 1446w
+  - 🟩 [`04-deep-dives/characters/upamanyu.md`](04-deep-dives/characters/upamanyu.md) · 2556w
+  - 🟩 [`04-deep-dives/characters/valmiki-ratnakara-conversion.md`](04-deep-dives/characters/valmiki-ratnakara-conversion.md) · 2605w
   - 🟩 [`04-deep-dives/characters/vibhishana.md`](04-deep-dives/characters/vibhishana.md) · 1756w
   - 🟩 [`04-deep-dives/characters/vichitravirya-and-chitrangada.md`](04-deep-dives/characters/vichitravirya-and-chitrangada.md) · 1746w
   - 🟩 [`04-deep-dives/characters/vidura.md`](04-deep-dives/characters/vidura.md) · 2413w
@@ -230,28 +262,35 @@
   - 🟩 [`04-deep-dives/characters/virata-and-his-children.md`](04-deep-dives/characters/virata-and-his-children.md) · 1732w
   - 🟩 [`04-deep-dives/characters/yudhishthira.md`](04-deep-dives/characters/yudhishthira.md) · 3198w
   - 🟩 [`04-deep-dives/characters/yuyutsu.md`](04-deep-dives/characters/yuyutsu.md) · 1663w
+- 🟩 [`04-deep-dives/chudala-shikhidhvaja.md`](04-deep-dives/chudala-shikhidhvaja.md) · 2567w
 - 🟩 [`04-deep-dives/citraketu.md`](04-deep-dives/citraketu.md) · 2097w
 - 🟩 [`04-deep-dives/cyavana-sukanya.md`](04-deep-dives/cyavana-sukanya.md) · 2552w
 - 🟩 [`04-deep-dives/dadhichi.md`](04-deep-dives/dadhichi.md) · 1976w
+- 🟩 [`04-deep-dives/dambhodbhava-nara-narayana.md`](04-deep-dives/dambhodbhava-nara-narayana.md) · 1836w
 - 🟩 [`04-deep-dives/dana-upakhyanas-shveta-and-the-mongoose.md`](04-deep-dives/dana-upakhyanas-shveta-and-the-mongoose.md) · 1594w
 - 🟩 [`04-deep-dives/dattatreya.md`](04-deep-dives/dattatreya.md) · 2433w
 - 🟩 [`04-deep-dives/devi-gita.md`](04-deep-dives/devi-gita.md) · 1529w
 - 🟩 [`04-deep-dives/dhruva.md`](04-deep-dives/dhruva.md) · 1929w
-- 🟩 [`04-deep-dives/dilipa-nandini.md`](04-deep-dives/dilipa-nandini.md) · 1776w
+- 🟩 [`04-deep-dives/dilipa-nandini.md`](04-deep-dives/dilipa-nandini.md) · 1840w
+- 🟩 [`04-deep-dives/dirghatamas.md`](04-deep-dives/dirghatamas.md) · 2338w
+- 🟩 [`04-deep-dives/ekadashi-mahatmyas-catalog.md`](04-deep-dives/ekadashi-mahatmyas-catalog.md) · 2605w
 - 🟩 [`04-deep-dives/ekalavya.md`](04-deep-dives/ekalavya.md) · 1499w
 - 🟩 [`04-deep-dives/gajendra-moksha.md`](04-deep-dives/gajendra-moksha.md) · 1852w
 - 🟩 [`04-deep-dives/galava-madhavi.md`](04-deep-dives/galava-madhavi.md) · 1438w
 - 🟩 [`04-deep-dives/ganesha-gita.md`](04-deep-dives/ganesha-gita.md) · 1694w
-- 🟩 [`04-deep-dives/gautama-ahalya.md`](04-deep-dives/gautama-ahalya.md) · 1679w
+- 🟩 [`04-deep-dives/gautama-ahalya.md`](04-deep-dives/gautama-ahalya.md) · 782w
+- 🟩 [`04-deep-dives/gautami-mahatmya-tales-catalog.md`](04-deep-dives/gautami-mahatmya-tales-catalog.md) · 2498w
 - 🟩 [`04-deep-dives/govardhana-dharana.md`](04-deep-dives/govardhana-dharana.md) · 1428w
+- 🟩 [`04-deep-dives/gunanidhi-kubera.md`](04-deep-dives/gunanidhi-kubera.md) · 2146w
 - 🟩 [`04-deep-dives/hamsa-avatar.md`](04-deep-dives/hamsa-avatar.md) · 1463w
+- 🟩 [`04-deep-dives/hamsa-dimbhaka.md`](04-deep-dives/hamsa-dimbhaka.md) · 2275w
 - 🟩 [`04-deep-dives/hamsa-gita.md`](04-deep-dives/hamsa-gita.md) · 1535w
 - 🟩 [`04-deep-dives/hariscandra.md`](04-deep-dives/hariscandra.md) · 2437w
 - 🟩 [`04-deep-dives/harivamsha.md`](04-deep-dives/harivamsha.md) · 2350w
 - 🟩 [`04-deep-dives/hayagriva.md`](04-deep-dives/hayagriva.md) · 1518w
 - 🟩 [`04-deep-dives/jalandhara-vrinda.md`](04-deep-dives/jalandhara-vrinda.md) · 1702w
 - 🟩 [`04-deep-dives/jamadagni-parashurama.md`](04-deep-dives/jamadagni-parashurama.md) · 1524w
-- 🟩 [`04-deep-dives/jaratkaru-and-manasa.md`](04-deep-dives/jaratkaru-and-manasa.md) · 2591w
+- 🟩 [`04-deep-dives/jaratkaru-and-manasa.md`](04-deep-dives/jaratkaru-and-manasa.md) · 2608w
 - 🟩 [`04-deep-dives/jaya-vijaya.md`](04-deep-dives/jaya-vijaya.md) · 1485w
 - 🟩 [`04-deep-dives/kaliya-mardana.md`](04-deep-dives/kaliya-mardana.md) · 1368w
 - 🟩 [`04-deep-dives/kalki.md`](04-deep-dives/kalki.md) · 1285w
@@ -262,9 +301,10 @@
 - 🟩 [`04-deep-dives/kashyapa.md`](04-deep-dives/kashyapa.md) · 1606w
 - 🟩 [`04-deep-dives/keshi-arishta-keshava.md`](04-deep-dives/keshi-arishta-keshava.md) · 1431w
 - 🟩 [`04-deep-dives/krishna-balya-lila.md`](04-deep-dives/krishna-balya-lila.md) · 1657w
-- 🟩 [`04-deep-dives/krishna-lila.md`](04-deep-dives/krishna-lila.md) · 2360w
+- 🟩 [`04-deep-dives/krishna-lila.md`](04-deep-dives/krishna-lila.md) · 2863w
 - 🟩 [`04-deep-dives/kurma-avatara.md`](04-deep-dives/kurma-avatara.md) · 1395w
-- 🟩 [`04-deep-dives/lesser-gitas-catalog.md`](04-deep-dives/lesser-gitas-catalog.md) · 2586w
+- 🟩 [`04-deep-dives/lakshmi-purana-shriya-chandaluni.md`](04-deep-dives/lakshmi-purana-shriya-chandaluni.md) · 2210w
+- 🟩 [`04-deep-dives/lesser-gitas-catalog.md`](04-deep-dives/lesser-gitas-catalog.md) · 2727w
 - 🟩 [`04-deep-dives/mahabharata-minor-episodes.md`](04-deep-dives/mahabharata-minor-episodes.md) · 3093w
   - 🟩 [`04-deep-dives/mahabharata/01-adi-parva.md`](04-deep-dives/mahabharata/01-adi-parva.md) · 2760w
   - 🟩 [`04-deep-dives/mahabharata/02-sabha-parva.md`](04-deep-dives/mahabharata/02-sabha-parva.md) · 3025w
@@ -287,26 +327,35 @@
   - [`04-deep-dives/mahabharata/README.md`](04-deep-dives/mahabharata/README.md) · 1835w
 - 🟩 [`04-deep-dives/mandhata.md`](04-deep-dives/mandhata.md) · 1638w
 - 🟩 [`04-deep-dives/markandeya.md`](04-deep-dives/markandeya.md) · 1860w
+- 🟩 [`04-deep-dives/masa-mahatmyas-kartika-magha-vaishakha.md`](04-deep-dives/masa-mahatmyas-kartika-magha-vaishakha.md) · 2243w
 - 🟩 [`04-deep-dives/matsya-pralaya.md`](04-deep-dives/matsya-pralaya.md) · 1923w
-- 🟩 [`04-deep-dives/minor-upakhyanas-catalog.md`](04-deep-dives/minor-upakhyanas-catalog.md) · 1969w
+- 🟩 [`04-deep-dives/minor-upakhyanas-catalog.md`](04-deep-dives/minor-upakhyanas-catalog.md) · 1965w
 - 🟩 [`04-deep-dives/mohini-avatara.md`](04-deep-dives/mohini-avatara.md) · 1561w
 - 🟩 [`04-deep-dives/mokshadharma-dialogues.md`](04-deep-dives/mokshadharma-dialogues.md) · 2044w
 - 🟩 [`04-deep-dives/muchukunda-and-kalayavana.md`](04-deep-dives/muchukunda-and-kalayavana.md) · 1559w
+- 🟩 [`04-deep-dives/muttuppattan-katai.md`](04-deep-dives/muttuppattan-katai.md) · 2146w
 - 🟩 [`04-deep-dives/nachiketa-katha-upanishad.md`](04-deep-dives/nachiketa-katha-upanishad.md) · 1978w
 - 🟩 [`04-deep-dives/nahusha.md`](04-deep-dives/nahusha.md) · 2139w
 - 🟩 [`04-deep-dives/nala-damayanti.md`](04-deep-dives/nala-damayanti.md) · 2338w
 - 🟩 [`04-deep-dives/nara-narayana.md`](04-deep-dives/nara-narayana.md) · 1298w
+- 🟩 [`04-deep-dives/narada-moha-svayamvara.md`](04-deep-dives/narada-moha-svayamvara.md) · 2266w
+- 🟩 [`04-deep-dives/narada-purana-ganga-tales.md`](04-deep-dives/narada-purana-ganga-tales.md) · 2118w
 - 🟩 [`04-deep-dives/narada.md`](04-deep-dives/narada.md) · 1763w
 - 🟩 [`04-deep-dives/narakasura-vadha.md`](04-deep-dives/narakasura-vadha.md) · 1445w
 - 🟩 [`04-deep-dives/narayaniya.md`](04-deep-dives/narayaniya.md) · 1923w
+- 🟩 [`04-deep-dives/nikumbha-bhanumati-shatpura.md`](04-deep-dives/nikumbha-bhanumati-shatpura.md) · 1694w
+- 🟩 [`04-deep-dives/nimi-nava-yogendra-samvada.md`](04-deep-dives/nimi-nava-yogendra-samvada.md) · 2484w
 - 🟩 [`04-deep-dives/parashurama.md`](04-deep-dives/parashurama.md) · 1769w
+- 🟩 [`04-deep-dives/paundraka-the-false-vasudeva.md`](04-deep-dives/paundraka-the-false-vasudeva.md) · 2073w
 - 🟩 [`04-deep-dives/pingala-gita.md`](04-deep-dives/pingala-gita.md) · 1445w
+- 🟩 [`04-deep-dives/pradyumna-prabhavati-vajranabha.md`](04-deep-dives/pradyumna-prabhavati-vajranabha.md) · 2124w
 - 🟩 [`04-deep-dives/prahlada-narasimha.md`](04-deep-dives/prahlada-narasimha.md) · 1827w
 - 🟩 [`04-deep-dives/prishnigarbha-three-births.md`](04-deep-dives/prishnigarbha-three-births.md) · 1453w
 - 🟩 [`04-deep-dives/prithu-prithvi.md`](04-deep-dives/prithu-prithvi.md) · 1726w
+- 🟩 [`04-deep-dives/pundarika-of-pushkara.md`](04-deep-dives/pundarika-of-pushkara.md) · 2161w
 - 🟩 [`04-deep-dives/puranjana-allegory.md`](04-deep-dives/puranjana-allegory.md) · 1852w
 - 🟩 [`04-deep-dives/pururavas-urvashi.md`](04-deep-dives/pururavas-urvashi.md) · 2573w
-- 🟩 [`04-deep-dives/raghu.md`](04-deep-dives/raghu.md) · 1394w
+- 🟩 [`04-deep-dives/raghu.md`](04-deep-dives/raghu.md) · 1400w
 - 🟩 [`04-deep-dives/rama-gita.md`](04-deep-dives/rama-gita.md) · 1536w
   - 🟩 [`04-deep-dives/ramayana/1-bala-kanda.md`](04-deep-dives/ramayana/1-bala-kanda.md) · 2402w
   - 🟩 [`04-deep-dives/ramayana/2-ayodhya-kanda.md`](04-deep-dives/ramayana/2-ayodhya-kanda.md) · 2878w
@@ -325,71 +374,93 @@
     - 🟩 [`04-deep-dives/ramayana/recensions/ramcharitmanas-tulsidas.md`](04-deep-dives/ramayana/recensions/ramcharitmanas-tulsidas.md) · 1504w
     - 🟩 [`04-deep-dives/ramayana/recensions/southeast-asian-ramayanas.md`](04-deep-dives/ramayana/recensions/southeast-asian-ramayanas.md) · 2036w
 - 🟩 [`04-deep-dives/ramopakhyana.md`](04-deep-dives/ramopakhyana.md) · 2598w
-- 🟩 [`04-deep-dives/rasa-lila.md`](04-deep-dives/rasa-lila.md) · 1622w
+- 🟩 [`04-deep-dives/rasa-lila.md`](04-deep-dives/rasa-lila.md) · 1627w
 - 🟩 [`04-deep-dives/ravana-kailasa-ravananugraha.md`](04-deep-dives/ravana-kailasa-ravananugraha.md) · 1479w
 - 🟩 [`04-deep-dives/ribhu-gita.md`](04-deep-dives/ribhu-gita.md) · 1120w
+- 🟩 [`04-deep-dives/ribhu-nidagha-vishnu-purana.md`](04-deep-dives/ribhu-nidagha-vishnu-purana.md) · 1777w
 - 🟩 [`04-deep-dives/rishabha-bharata-jada.md`](04-deep-dives/rishabha-bharata-jada.md) · 1932w
 - 🟩 [`04-deep-dives/rishyashringa.md`](04-deep-dives/rishyashringa.md) · 2379w
 - 🟩 [`04-deep-dives/rukmini-harana.md`](04-deep-dives/rukmini-harana.md) · 1344w
 - 🟩 [`04-deep-dives/ruru-pramadvara.md`](04-deep-dives/ruru-pramadvara.md) · 2000w
+- 🟩 [`04-deep-dives/sage-shveta-and-yama.md`](04-deep-dives/sage-shveta-and-yama.md) · 1961w
 - 🟩 [`04-deep-dives/samudra-manthana.md`](04-deep-dives/samudra-manthana.md) · 1805w
 - 🟩 [`04-deep-dives/sanatsujatiya.md`](04-deep-dives/sanatsujatiya.md) · 2100w
 - 🟩 [`04-deep-dives/sandipani-pancajana.md`](04-deep-dives/sandipani-pancajana.md) · 1570w
+- 🟩 [`04-deep-dives/sati-tests-rama.md`](04-deep-dives/sati-tests-rama.md) · 2373w
+- 🟩 [`04-deep-dives/satyanarayana-vrata-katha.md`](04-deep-dives/satyanarayana-vrata-katha.md) · 2306w
 - 🟩 [`04-deep-dives/savitri-satyavan.md`](04-deep-dives/savitri-satyavan.md) · 1645w
 - 🟩 [`04-deep-dives/shakuntala-bharata.md`](04-deep-dives/shakuntala-bharata.md) · 2145w
+- 🟩 [`04-deep-dives/shalva-saubha-vadha.md`](04-deep-dives/shalva-saubha-vadha.md) · 2134w
 - 🟩 [`04-deep-dives/shankhachuda-tulasi.md`](04-deep-dives/shankhachuda-tulasi.md) · 1852w
+- 🟩 [`04-deep-dives/shatadhanu-shaibya.md`](04-deep-dives/shatadhanu-shaibya.md) · 2326w
 - 🟩 [`04-deep-dives/shibi.md`](04-deep-dives/shibi.md) · 1891w
 - 🟩 [`04-deep-dives/shishupala.md`](04-deep-dives/shishupala.md) · 1249w
 - 🟩 [`04-deep-dives/shiva-gita.md`](04-deep-dives/shiva-gita.md) · 1237w
-- 🟩 [`04-deep-dives/stotras/shiva-tandava-stotra.md`](04-deep-dives/stotras/shiva-tandava-stotra.md) · 1303w
+- 🟩 [`04-deep-dives/shivaratri-hunter-legend.md`](04-deep-dives/shivaratri-hunter-legend.md) · 2182w
 - 🟩 [`04-deep-dives/shodasarajakiya-sixteen-kings.md`](04-deep-dives/shodasarajakiya-sixteen-kings.md) · 1616w
+- 🟩 [`04-deep-dives/shuka-shukadeva.md`](04-deep-dives/shuka-shukadeva.md) · 2393w
+- 🟩 [`04-deep-dives/silappatikaram-kannagi-pattini.md`](04-deep-dives/silappatikaram-kannagi-pattini.md) · 2335w
 - 🟩 [`04-deep-dives/soma-tara-budha.md`](04-deep-dives/soma-tara-budha.md) · 1508w
+  - 🟩 [`04-deep-dives/stotras/aditya-hridayam.md`](04-deep-dives/stotras/aditya-hridayam.md) · 1438w
   - 🟩 [`04-deep-dives/stotras/bhaja-govindam.md`](04-deep-dives/stotras/bhaja-govindam.md) · 1518w
+  - 🟩 [`04-deep-dives/stotras/bilvashtaka.md`](04-deep-dives/stotras/bilvashtaka.md) · 1623w
   - 🟩 [`04-deep-dives/stotras/hanuman-chalisa.md`](04-deep-dives/stotras/hanuman-chalisa.md) · 1311w
   - 🟩 [`04-deep-dives/stotras/kanakadhara-stotram.md`](04-deep-dives/stotras/kanakadhara-stotram.md) · 1383w
+  - 🟩 [`04-deep-dives/stotras/lalita-sahasranama.md`](04-deep-dives/stotras/lalita-sahasranama.md) · 2230w
   - 🟩 [`04-deep-dives/stotras/mahishasura-mardini-stotra.md`](04-deep-dives/stotras/mahishasura-mardini-stotra.md) · 1161w
   - 🟩 [`04-deep-dives/stotras/mukunda-mala.md`](04-deep-dives/stotras/mukunda-mala.md) · 1252w
   - 🟩 [`04-deep-dives/stotras/nirvana-shatkam.md`](04-deep-dives/stotras/nirvana-shatkam.md) · 1520w
+  - 🟩 [`04-deep-dives/stotras/purusha-sukta.md`](04-deep-dives/stotras/purusha-sukta.md) · 2520w
   - 🟩 [`04-deep-dives/stotras/ramaraksha-stotra.md`](04-deep-dives/stotras/ramaraksha-stotra.md) · 1228w
   - 🟩 [`04-deep-dives/stotras/shiva-mahimna-stotra.md`](04-deep-dives/stotras/shiva-mahimna-stotra.md) · 1678w
   - 🟩 [`04-deep-dives/stotras/shiva-sahasranama.md`](04-deep-dives/stotras/shiva-sahasranama.md) · 1434w
+  - 🟩 [`04-deep-dives/stotras/shiva-tandava-stotra.md`](04-deep-dives/stotras/shiva-tandava-stotra.md) · 1303w
   - 🟩 [`04-deep-dives/stotras/soundarya-lahari.md`](04-deep-dives/stotras/soundarya-lahari.md) · 1639w
   - 🟩 [`04-deep-dives/stotras/sri-rudram-namakam-chamakam.md`](04-deep-dives/stotras/sri-rudram-namakam-chamakam.md) · 1687w
   - 🟩 [`04-deep-dives/stotras/sri-suktam.md`](04-deep-dives/stotras/sri-suktam.md) · 1260w
   - 🟩 [`04-deep-dives/stotras/venkatesha-suprabhatam.md`](04-deep-dives/stotras/venkatesha-suprabhatam.md) · 1458w
   - 🟩 [`04-deep-dives/stotras/vishnu-sahasranama.md`](04-deep-dives/stotras/vishnu-sahasranama.md) · 1394w
 - 🟩 [`04-deep-dives/sudama-kuchela.md`](04-deep-dives/sudama-kuchela.md) · 1764w
+- 🟩 [`04-deep-dives/sudarshana-shashikala-navaratri.md`](04-deep-dives/sudarshana-shashikala-navaratri.md) · 2360w
 - 🟩 [`04-deep-dives/sunahshepa.md`](04-deep-dives/sunahshepa.md) · 1853w
 - 🟩 [`04-deep-dives/syamantaka-jewel.md`](04-deep-dives/syamantaka-jewel.md) · 1500w
+- 🟩 [`04-deep-dives/tapoi-khudurukuni-osha.md`](04-deep-dives/tapoi-khudurukuni-osha.md) · 2416w
 - 🟩 [`04-deep-dives/tarakasura-vadha.md`](04-deep-dives/tarakasura-vadha.md) · 1711w
 - 🟩 [`04-deep-dives/the-chiranjivis.md`](04-deep-dives/the-chiranjivis.md) · 1718w
 - 🟩 [`04-deep-dives/the-four-kumaras.md`](04-deep-dives/the-four-kumaras.md) · 1645w
 - 🟩 [`04-deep-dives/the-mind-born-seers.md`](04-deep-dives/the-mind-born-seers.md) · 1258w
 - 🟩 [`04-deep-dives/tripura-dahana.md`](04-deep-dives/tripura-dahana.md) · 1583w
 - 🟩 [`04-deep-dives/trishanku.md`](04-deep-dives/trishanku.md) · 1831w
+- 🟩 [`04-deep-dives/tulasi-ganesha-curse.md`](04-deep-dives/tulasi-ganesha-curse.md) · 1812w
 - 🟩 [`04-deep-dives/uddhava-gita.md`](04-deep-dives/uddhava-gita.md) · 3057w
+- 🟩 [`04-deep-dives/ugna-mahadev-vidyapati.md`](04-deep-dives/ugna-mahadev-vidyapati.md) · 2558w
 - 🟩 [`04-deep-dives/uttanka.md`](04-deep-dives/uttanka.md) · 3247w
 - 🟩 [`04-deep-dives/uttara-ramayana-lava-kusha.md`](04-deep-dives/uttara-ramayana-lava-kusha.md) · 3579w
 - 🟩 [`04-deep-dives/vamana-bali.md`](04-deep-dives/vamana-bali.md) · 1554w
 - 🟩 [`04-deep-dives/varaha-hiranyaksha.md`](04-deep-dives/varaha-hiranyaksha.md) · 1584w
 - 🟩 [`04-deep-dives/venu-gita.md`](04-deep-dives/venu-gita.md) · 1476w
+- 🟩 [`04-deep-dives/vetala-panchavimshati-vikram-and-betal.md`](04-deep-dives/vetala-panchavimshati-vikram-and-betal.md) · 2588w
 - 🟩 [`04-deep-dives/vidura-niti.md`](04-deep-dives/vidura-niti.md) · 2252w
 - 🟩 [`04-deep-dives/vishwamitra-vasishtha.md`](04-deep-dives/vishwamitra-vasishtha.md) · 2667w
 - 🟩 [`04-deep-dives/vraja-boyhood-demons.md`](04-deep-dives/vraja-boyhood-demons.md) · 1683w
+- 🟩 [`04-deep-dives/vrata-kathas-catalog.md`](04-deep-dives/vrata-kathas-catalog.md) · 2595w
 - 🟩 [`04-deep-dives/vyadha-gita.md`](04-deep-dives/vyadha-gita.md) · 2057w
 - 🟩 [`04-deep-dives/vyasa.md`](04-deep-dives/vyasa.md) · 1490w
 - 🟩 [`04-deep-dives/yajna-avatara.md`](04-deep-dives/yajna-avatara.md) · 1636w
 - 🟩 [`04-deep-dives/yaksha-prashna.md`](04-deep-dives/yaksha-prashna.md) · 2525w
 - 🟩 [`04-deep-dives/yayati.md`](04-deep-dives/yayati.md) · 1698w
 - 🟩 [`04-deep-dives/yoga-sutras-of-patanjali.md`](04-deep-dives/yoga-sutras-of-patanjali.md) · 2120w
+- 🟩 [`04-deep-dives/yoga-vasishtha-tales-catalog.md`](04-deep-dives/yoga-vasishtha-tales-catalog.md) · 2520w
 
-## 05-concepts-and-dharma  (29 files)
+## 05-concepts-and-dharma  (35 files)
 
-- [`05-concepts-and-dharma/README.md`](05-concepts-and-dharma/README.md) · 397w
+- [`05-concepts-and-dharma/README.md`](05-concepts-and-dharma/README.md) · 464w
 - 🟩 [`05-concepts-and-dharma/ahimsa-and-hindu-ethics.md`](05-concepts-and-dharma/ahimsa-and-hindu-ethics.md) · 1896w
 - 🟩 [`05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md`](05-concepts-and-dharma/atman-brahman-and-the-six-darshanas.md) · 1914w
 - 🟩 [`05-concepts-and-dharma/ayurveda-and-the-science-of-life.md`](05-concepts-and-dharma/ayurveda-and-the-science-of-life.md) · 1695w
+- 🟩 [`05-concepts-and-dharma/bhakti-rasa-and-the-bhavas.md`](05-concepts-and-dharma/bhakti-rasa-and-the-bhavas.md) · 2406w
 - 🟩 [`05-concepts-and-dharma/chakras-and-kundalini.md`](05-concepts-and-dharma/chakras-and-kundalini.md) · 2105w
+- 🟩 [`05-concepts-and-dharma/durga-puja-bengal.md`](05-concepts-and-dharma/durga-puja-bengal.md) · 2513w
 - 🟩 [`05-concepts-and-dharma/festivals-and-vratas.md`](05-concepts-and-dharma/festivals-and-vratas.md) · 3362w
 - 🟩 [`05-concepts-and-dharma/garba-and-dandiya-raas.md`](05-concepts-and-dharma/garba-and-dandiya-raas.md) · 1570w
 - 🟩 [`05-concepts-and-dharma/guru-shishya-parampara.md`](05-concepts-and-dharma/guru-shishya-parampara.md) · 2869w
@@ -400,28 +471,32 @@
 - 🟩 [`05-concepts-and-dharma/pancha-maha-yajnas-and-the-three-debts.md`](05-concepts-and-dharma/pancha-maha-yajnas-and-the-three-debts.md) · 2276w
 - 🟩 [`05-concepts-and-dharma/prana-and-the-vital-airs.md`](05-concepts-and-dharma/prana-and-the-vital-airs.md) · 2041w
 - 🟩 [`05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md`](05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md) · 1839w
-- 🟩 [`05-concepts-and-dharma/regional-temple-festivals.md`](05-concepts-and-dharma/regional-temple-festivals.md) · 4302w
+- 🟩 [`05-concepts-and-dharma/regional-temple-festivals.md`](05-concepts-and-dharma/regional-temple-festivals.md) · 4713w
 - 🟩 [`05-concepts-and-dharma/rta-and-cosmic-order.md`](05-concepts-and-dharma/rta-and-cosmic-order.md) · 2022w
+- 🟩 [`05-concepts-and-dharma/sannyasa-and-the-renunciate-tradition.md`](05-concepts-and-dharma/sannyasa-and-the-renunciate-tradition.md) · 2628w
+- 🟩 [`05-concepts-and-dharma/sati-jauhar-and-the-immolation-rites.md`](05-concepts-and-dharma/sati-jauhar-and-the-immolation-rites.md) · 2535w
 - 🟩 [`05-concepts-and-dharma/sharad-purnima-kojagari-lakshmi-puja.md`](05-concepts-and-dharma/sharad-purnima-kojagari-lakshmi-puja.md) · 1419w
 - 🟩 [`05-concepts-and-dharma/shraddha-and-pitr-rites.md`](05-concepts-and-dharma/shraddha-and-pitr-rites.md) · 3022w
 - 🟩 [`05-concepts-and-dharma/swing-and-float-temple-festivals.md`](05-concepts-and-dharma/swing-and-float-temple-festivals.md) · 1588w
-- 🟩 [`05-concepts-and-dharma/the-eighteen-tamil-siddhars.md`](05-concepts-and-dharma/the-eighteen-tamil-siddhars.md) · 1708w
+- 🟩 [`05-concepts-and-dharma/tapas-boons-and-curses.md`](05-concepts-and-dharma/tapas-boons-and-curses.md) · 2347w
+- 🟨 [`05-concepts-and-dharma/the-eighteen-tamil-siddhars.md`](05-concepts-and-dharma/the-eighteen-tamil-siddhars.md) · 283w
 - 🟩 [`05-concepts-and-dharma/the-pramanas.md`](05-concepts-and-dharma/the-pramanas.md) · 2096w
 - 🟩 [`05-concepts-and-dharma/the-samkhya-tattvas.md`](05-concepts-and-dharma/the-samkhya-tattvas.md) · 2045w
 - 🟩 [`05-concepts-and-dharma/the-three-gunas.md`](05-concepts-and-dharma/the-three-gunas.md) · 2574w
 - 🟩 [`05-concepts-and-dharma/the-three-margas.md`](05-concepts-and-dharma/the-three-margas.md) · 2296w
+- 🟩 [`05-concepts-and-dharma/tirtha-and-tirtha-yatra.md`](05-concepts-and-dharma/tirtha-and-tirtha-yatra.md) · 2571w
 - 🟩 [`05-concepts-and-dharma/turiya-and-the-four-states.md`](05-concepts-and-dharma/turiya-and-the-four-states.md) · 2037w
 - 🟩 [`05-concepts-and-dharma/varna-ashrama-and-samskaras.md`](05-concepts-and-dharma/varna-ashrama-and-samskaras.md) · 1912w
 - 🟩 [`05-concepts-and-dharma/vastu-shastra-and-the-vastu-purusha-mandala.md`](05-concepts-and-dharma/vastu-shastra-and-the-vastu-purusha-mandala.md) · 1936w
 - 🟩 [`05-concepts-and-dharma/yoga-paths-and-patanjali.md`](05-concepts-and-dharma/yoga-paths-and-patanjali.md) · 1962w
 
-## 06-sacred-geography  (86 files)
+## 06-sacred-geography  (92 files)
 
 - 🟩 [`06-sacred-geography/108-divya-desams.md`](06-sacred-geography/108-divya-desams.md) · 3128w
 - 🟩 [`06-sacred-geography/12-jyotirlingas.md`](06-sacred-geography/12-jyotirlingas.md) · 2364w
 - 🟩 [`06-sacred-geography/275-paadal-petra-sthalams.md`](06-sacred-geography/275-paadal-petra-sthalams.md) · 1687w
 - 🟩 [`06-sacred-geography/51-shakti-peethas.md`](06-sacred-geography/51-shakti-peethas.md) · 2781w
-- [`06-sacred-geography/README.md`](06-sacred-geography/README.md) · 1125w
+- [`06-sacred-geography/README.md`](06-sacred-geography/README.md) · 1319w
 - 🟩 [`06-sacred-geography/ahobilam-nava-narasimha.md`](06-sacred-geography/ahobilam-nava-narasimha.md) · 1378w
 - 🟩 [`06-sacred-geography/amarnath-ice-lingam-and-amar-katha.md`](06-sacred-geography/amarnath-ice-lingam-and-amar-katha.md) · 1571w
 - 🟩 [`06-sacred-geography/arunachala-tiruvannamalai-fire-hill.md`](06-sacred-geography/arunachala-tiruvannamalai-fire-hill.md) · 1367w
@@ -444,12 +519,14 @@
 - 🟩 [`06-sacred-geography/girnar-raivataka-datta-tirtha.md`](06-sacred-geography/girnar-raivataka-datta-tirtha.md) · 1526w
 - 🟩 [`06-sacred-geography/godavari-gautami-dakshina-ganga.md`](06-sacred-geography/godavari-gautami-dakshina-ganga.md) · 1478w
 - 🟩 [`06-sacred-geography/gokarna-mahabaleshwar-atma-linga.md`](06-sacred-geography/gokarna-mahabaleshwar-atma-linga.md) · 1424w
+- 🟩 [`06-sacred-geography/guruvayur-krishna-kshetra.md`](06-sacred-geography/guruvayur-krishna-kshetra.md) · 2590w
 - 🟩 [`06-sacred-geography/haridwar-rishikesh-ganga-dwara.md`](06-sacred-geography/haridwar-rishikesh-ganga-dwara.md) · 2035w
 - 🟩 [`06-sacred-geography/jagannath-puri-purushottama-kshetra.md`](06-sacred-geography/jagannath-puri-purushottama-kshetra.md) · 1339w
 - 🟩 [`06-sacred-geography/janakpur-mithila-sita-janmabhumi.md`](06-sacred-geography/janakpur-mithila-sita-janmabhumi.md) · 1723w
 - 🟩 [`06-sacred-geography/kamakhya-nilachala-kamarupa.md`](06-sacred-geography/kamakhya-nilachala-kamarupa.md) · 1549w
 - 🟩 [`06-sacred-geography/kamyaka-dvaita-pandava-exile-forests.md`](06-sacred-geography/kamyaka-dvaita-pandava-exile-forests.md) · 1864w
 - 🟩 [`06-sacred-geography/kanchipuram-city-of-temples.md`](06-sacred-geography/kanchipuram-city-of-temples.md) · 2588w
+- 🟩 [`06-sacred-geography/kanwar-yatra-and-shravan-shiva-observances.md`](06-sacred-geography/kanwar-yatra-and-shravan-shiva-observances.md) · 2066w
 - 🟩 [`06-sacred-geography/kashi-varanasi.md`](06-sacred-geography/kashi-varanasi.md) · 2150w
 - 🟩 [`06-sacred-geography/kedarnath-kedara-kshetra.md`](06-sacred-geography/kedarnath-kedara-kshetra.md) · 1397w
 - 🟩 [`06-sacred-geography/khandava-vana-and-the-burning.md`](06-sacred-geography/khandava-vana-and-the-burning.md) · 1775w
@@ -459,9 +536,10 @@
 - 🟩 [`06-sacred-geography/kumbh-mela-and-pilgrimage-cycles.md`](06-sacred-geography/kumbh-mela-and-pilgrimage-cycles.md) · 2054w
 - 🟩 [`06-sacred-geography/kurukshetra-dharmakshetra.md`](06-sacred-geography/kurukshetra-dharmakshetra.md) · 3136w
 - 🟩 [`06-sacred-geography/lanka-ramayana-trail-ashoka-vatika.md`](06-sacred-geography/lanka-ramayana-trail-ashoka-vatika.md) · 1356w
+- 🟩 [`06-sacred-geography/lauhitya-brahmaputra-origin.md`](06-sacred-geography/lauhitya-brahmaputra-origin.md) · 1992w
 - 🟩 [`06-sacred-geography/lingaraja-bhubaneswar-ekamra-kshetra.md`](06-sacred-geography/lingaraja-bhubaneswar-ekamra-kshetra.md) · 1185w
 - 🟩 [`06-sacred-geography/lonar-sarovar-daityasudana.md`](06-sacred-geography/lonar-sarovar-daityasudana.md) · 1503w
-- 🟩 [`06-sacred-geography/madurai-meenakshi-sundareshwara-kshetra.md`](06-sacred-geography/madurai-meenakshi-sundareshwara-kshetra.md) · 1536w
+- 🟩 [`06-sacred-geography/madurai-meenakshi-sundareshwara-kshetra.md`](06-sacred-geography/madurai-meenakshi-sundareshwara-kshetra.md) · 1547w
 - 🟩 [`06-sacred-geography/mahabharata-tirtha-yatra-fords.md`](06-sacred-geography/mahabharata-tirtha-yatra-fords.md) · 1740w
 - 🟩 [`06-sacred-geography/manasarovar-kailash-yatra.md`](06-sacred-geography/manasarovar-kailash-yatra.md) · 2196w
 - 🟩 [`06-sacred-geography/mangalagiri-panakala-narasimha.md`](06-sacred-geography/mangalagiri-panakala-narasimha.md) · 1136w
@@ -475,17 +553,20 @@
 - 🟩 [`06-sacred-geography/nathdwara-shrinathji.md`](06-sacred-geography/nathdwara-shrinathji.md) · 1638w
 - 🟩 [`06-sacred-geography/navagraha-temples.md`](06-sacred-geography/navagraha-temples.md) · 2452w
 - 🟩 [`06-sacred-geography/panch-kailash.md`](06-sacred-geography/panch-kailash.md) · 1574w
+- 🟩 [`06-sacred-geography/panch-prayag-alaknanda-confluences.md`](06-sacred-geography/panch-prayag-alaknanda-confluences.md) · 1903w
 - 🟩 [`06-sacred-geography/panch-sarovar-sacred-lakes.md`](06-sacred-geography/panch-sarovar-sacred-lakes.md) · 1565w
 - 🟩 [`06-sacred-geography/pancha-bhuta-sthalams.md`](06-sacred-geography/pancha-bhuta-sthalams.md) · 2333w
 - 🟩 [`06-sacred-geography/pancha-kedar-pancha-badri.md`](06-sacred-geography/pancha-kedar-pancha-badri.md) · 2033w
 - 🟩 [`06-sacred-geography/pancha-sabhai-nataraja-dance-halls.md`](06-sacred-geography/pancha-sabhai-nataraja-dance-halls.md) · 1470w
 - 🟩 [`06-sacred-geography/pancharama-kshetras-andhra.md`](06-sacred-geography/pancharama-kshetras-andhra.md) · 1467w
 - 🟩 [`06-sacred-geography/panchavati-nashik-godavari.md`](06-sacred-geography/panchavati-nashik-godavari.md) · 1625w
+- 🟩 [`06-sacred-geography/pandharpur-vitthala-wari.md`](06-sacred-geography/pandharpur-vitthala-wari.md) · 2142w
 - 🟩 [`06-sacred-geography/pashupatinath-kathmandu-nepal-kshetra.md`](06-sacred-geography/pashupatinath-kathmandu-nepal-kshetra.md) · 1397w
 - 🟩 [`06-sacred-geography/prabhasa-somnath-tirtha.md`](06-sacred-geography/prabhasa-somnath-tirtha.md) · 1481w
 - 🟩 [`06-sacred-geography/prayagraj-triveni-sangam.md`](06-sacred-geography/prayagraj-triveni-sangam.md) · 2150w
 - 🟩 [`06-sacred-geography/pushkar-brahma-tirtha.md`](06-sacred-geography/pushkar-brahma-tirtha.md) · 2063w
 - 🟩 [`06-sacred-geography/rameswaram-setu-bandha.md`](06-sacred-geography/rameswaram-setu-bandha.md) · 1721w
+- 🟩 [`06-sacred-geography/ratnagriva-purushottama-kshetra.md`](06-sacred-geography/ratnagriva-purushottama-kshetra.md) · 1990w
 - 🟩 [`06-sacred-geography/sacred-rivers-and-descent-myths.md`](06-sacred-geography/sacred-rivers-and-descent-myths.md) · 2025w
 - 🟩 [`06-sacred-geography/sapta-puri-and-sacred-cities.md`](06-sacred-geography/sapta-puri-and-sacred-cities.md) · 2212w
 - 🟩 [`06-sacred-geography/sapta-sindhu-and-the-indus-rivers.md`](06-sacred-geography/sapta-sindhu-and-the-indus-rivers.md) · 1838w
@@ -498,27 +579,29 @@
 - 🟩 [`06-sacred-geography/srivilliputhur-vatapatrasayi-andal-kshetra.md`](06-sacred-geography/srivilliputhur-vatapatrasayi-andal-kshetra.md) · 1338w
 - 🟩 [`06-sacred-geography/sthala-puranas-major-temples.md`](06-sacred-geography/sthala-puranas-major-temples.md) · 5085w
 - 🟩 [`06-sacred-geography/temple-networks-and-circuits.md`](06-sacred-geography/temple-networks-and-circuits.md) · 2285w
-- 🟩 [`06-sacred-geography/tirumala-tirupati-venkateshwara.md`](06-sacred-geography/tirumala-tirupati-venkateshwara.md) · 1518w
+- 🟩 [`06-sacred-geography/tirumala-tirupati-venkateshwara.md`](06-sacred-geography/tirumala-tirupati-venkateshwara.md) · 1541w
 - 🟩 [`06-sacred-geography/udupi-krishna-matha.md`](06-sacred-geography/udupi-krishna-matha.md) · 1435w
 - 🟩 [`06-sacred-geography/ujjain-avantika.md`](06-sacred-geography/ujjain-avantika.md) · 2565w
 - 🟩 [`06-sacred-geography/vaishno-devi-trikuta-katra.md`](06-sacred-geography/vaishno-devi-trikuta-katra.md) · 1603w
 - 🟩 [`06-sacred-geography/vaitarani-jajpur-viraja-kshetra.md`](06-sacred-geography/vaitarani-jajpur-viraja-kshetra.md) · 1319w
 
-## 07-acharyas-and-sampradayas  (39 files)
+## 07-acharyas-and-sampradayas  (44 files)
 
-- [`07-acharyas-and-sampradayas/README.md`](07-acharyas-and-sampradayas/README.md) · 1096w
+- [`07-acharyas-and-sampradayas/README.md`](07-acharyas-and-sampradayas/README.md) · 1153w
 - 🟩 [`07-acharyas-and-sampradayas/adi-shankara.md`](07-acharyas-and-sampradayas/adi-shankara.md) · 1641w
 - 🟩 [`07-acharyas-and-sampradayas/alvars-and-nayanars.md`](07-acharyas-and-sampradayas/alvars-and-nayanars.md) · 1445w
 - 🟩 [`07-acharyas-and-sampradayas/andal.md`](07-acharyas-and-sampradayas/andal.md) · 1944w
 - 🟩 [`07-acharyas-and-sampradayas/avvaiyar.md`](07-acharyas-and-sampradayas/avvaiyar.md) · 1392w
 - 🟩 [`07-acharyas-and-sampradayas/bahinabai.md`](07-acharyas-and-sampradayas/bahinabai.md) · 1162w
+- 🟩 [`07-acharyas-and-sampradayas/balinese-hinduism-agama-hindu-dharma.md`](07-acharyas-and-sampradayas/balinese-hinduism-agama-hindu-dharma.md) · 2623w
 - 🟩 [`07-acharyas-and-sampradayas/chokhamela.md`](07-acharyas-and-sampradayas/chokhamela.md) · 1550w
 - 🟩 [`07-acharyas-and-sampradayas/eknath.md`](07-acharyas-and-sampradayas/eknath.md) · 1265w
 - 🟩 [`07-acharyas-and-sampradayas/four-vaishnava-sampradayas.md`](07-acharyas-and-sampradayas/four-vaishnava-sampradayas.md) · 1902w
 - 🟩 [`07-acharyas-and-sampradayas/gargi-and-maitreyi.md`](07-acharyas-and-sampradayas/gargi-and-maitreyi.md) · 1457w
 - 🟩 [`07-acharyas-and-sampradayas/gora-kumbhar.md`](07-acharyas-and-sampradayas/gora-kumbhar.md) · 1226w
-- 🟩 [`07-acharyas-and-sampradayas/haridasa-and-carnatic-bhakti.md`](07-acharyas-and-sampradayas/haridasa-and-carnatic-bhakti.md) · 1073w
+- 🟩 [`07-acharyas-and-sampradayas/haridasa-and-carnatic-bhakti.md`](07-acharyas-and-sampradayas/haridasa-and-carnatic-bhakti.md) · 1606w
 - 🟩 [`07-acharyas-and-sampradayas/janabai.md`](07-acharyas-and-sampradayas/janabai.md) · 1338w
+- 🟩 [`07-acharyas-and-sampradayas/jayadeva-and-the-gita-govinda.md`](07-acharyas-and-sampradayas/jayadeva-and-the-gita-govinda.md) · 2243w
 - 🟩 [`07-acharyas-and-sampradayas/jnaneshwar.md`](07-acharyas-and-sampradayas/jnaneshwar.md) · 1418w
 - 🟩 [`07-acharyas-and-sampradayas/kabir.md`](07-acharyas-and-sampradayas/kabir.md) · 2343w
 - 🟩 [`07-acharyas-and-sampradayas/kanhopatra.md`](07-acharyas-and-sampradayas/kanhopatra.md) · 1414w
@@ -527,14 +610,15 @@
 - 🟩 [`07-acharyas-and-sampradayas/lingayat-vachana-poets.md`](07-acharyas-and-sampradayas/lingayat-vachana-poets.md) · 2475w
 - 🟩 [`07-acharyas-and-sampradayas/mantra-shastra.md`](07-acharyas-and-sampradayas/mantra-shastra.md) · 1889w
 - 🟩 [`07-acharyas-and-sampradayas/mirabai.md`](07-acharyas-and-sampradayas/mirabai.md) · 2236w
-- 🟩 [`07-acharyas-and-sampradayas/modern-teachers-and-reform.md`](07-acharyas-and-sampradayas/modern-teachers-and-reform.md) · 1624w
+- 🟩 [`07-acharyas-and-sampradayas/modern-teachers-and-reform.md`](07-acharyas-and-sampradayas/modern-teachers-and-reform.md) · 2929w
 - 🟩 [`07-acharyas-and-sampradayas/namdev.md`](07-acharyas-and-sampradayas/namdev.md) · 1232w
 - 🟩 [`07-acharyas-and-sampradayas/nammalvar.md`](07-acharyas-and-sampradayas/nammalvar.md) · 1881w
 - 🟩 [`07-acharyas-and-sampradayas/nath-sampradaya-and-the-siddhas.md`](07-acharyas-and-sampradayas/nath-sampradaya-and-the-siddhas.md) · 1405w
 - 🟩 [`07-acharyas-and-sampradayas/nimbarka-vallabha-chaitanya.md`](07-acharyas-and-sampradayas/nimbarka-vallabha-chaitanya.md) · 2212w
 - 🟩 [`07-acharyas-and-sampradayas/nivritti-sopan-muktabai.md`](07-acharyas-and-sampradayas/nivritti-sopan-muktabai.md) · 1312w
 - 🟩 [`07-acharyas-and-sampradayas/north-bhakti-sants.md`](07-acharyas-and-sampradayas/north-bhakti-sants.md) · 2137w
-- 🟩 [`07-acharyas-and-sampradayas/ramanuja-and-madhva.md`](07-acharyas-and-sampradayas/ramanuja-and-madhva.md) · 1934w
+- 🟩 [`07-acharyas-and-sampradayas/raghavendra-tirtha-and-the-dvaita-line.md`](07-acharyas-and-sampradayas/raghavendra-tirtha-and-the-dvaita-line.md) · 2129w
+- 🟩 [`07-acharyas-and-sampradayas/ramanuja-and-madhva.md`](07-acharyas-and-sampradayas/ramanuja-and-madhva.md) · 1941w
 - 🟩 [`07-acharyas-and-sampradayas/ravidas.md`](07-acharyas-and-sampradayas/ravidas.md) · 1937w
 - 🟩 [`07-acharyas-and-sampradayas/rigvedic-women-seers-brahmavadinis.md`](07-acharyas-and-sampradayas/rigvedic-women-seers-brahmavadinis.md) · 1467w
 - 🟩 [`07-acharyas-and-sampradayas/samarth-ramdas.md`](07-acharyas-and-sampradayas/samarth-ramdas.md) · 1440w
@@ -542,23 +626,26 @@
 - 🟩 [`07-acharyas-and-sampradayas/shaiva-schools.md`](07-acharyas-and-sampradayas/shaiva-schools.md) · 2258w
 - 🟩 [`07-acharyas-and-sampradayas/shakta-and-tantra-lineages.md`](07-acharyas-and-sampradayas/shakta-and-tantra-lineages.md) · 2400w
 - 🟩 [`07-acharyas-and-sampradayas/surdas.md`](07-acharyas-and-sampradayas/surdas.md) · 1787w
-- 🟩 [`07-acharyas-and-sampradayas/tamil-siddhars.md`](07-acharyas-and-sampradayas/tamil-siddhars.md) · 1279w
+- 🟩 [`07-acharyas-and-sampradayas/tamil-siddhars.md`](07-acharyas-and-sampradayas/tamil-siddhars.md) · 1873w
 - 🟩 [`07-acharyas-and-sampradayas/the-nalvar-tamil-shaiva-saints.md`](07-acharyas-and-sampradayas/the-nalvar-tamil-shaiva-saints.md) · 2152w
 - 🟩 [`07-acharyas-and-sampradayas/tukaram.md`](07-acharyas-and-sampradayas/tukaram.md) · 1517w
+- 🟩 [`07-acharyas-and-sampradayas/tulsidas.md`](07-acharyas-and-sampradayas/tulsidas.md) · 2577w
+- 🟩 [`07-acharyas-and-sampradayas/vedanta-desika-and-later-srivaishnava-acharyas.md`](07-acharyas-and-sampradayas/vedanta-desika-and-later-srivaishnava-acharyas.md) · 2210w
 
-## 08-beings-and-bestiary  (22 files)
+## 08-beings-and-bestiary  (25 files)
 
-- [`08-beings-and-bestiary/README.md`](08-beings-and-bestiary/README.md) · 1536w
+- [`08-beings-and-bestiary/README.md`](08-beings-and-bestiary/README.md) · 1585w
 - 🟩 [`08-beings-and-bestiary/airavata-and-celestial-animals.md`](08-beings-and-bestiary/airavata-and-celestial-animals.md) · 2039w
 - 🟩 [`08-beings-and-bestiary/apsaras.md`](08-beings-and-bestiary/apsaras.md) · 2357w
 - 🟩 [`08-beings-and-bestiary/asura-wars-and-roster.md`](08-beings-and-bestiary/asura-wars-and-roster.md) · 3248w
+- 🟩 [`08-beings-and-bestiary/bala-asura-navaratna-origin.md`](08-beings-and-bestiary/bala-asura-navaratna-origin.md) · 2293w
 - 🟩 [`08-beings-and-bestiary/dikpalas-and-lokapalas.md`](08-beings-and-bestiary/dikpalas-and-lokapalas.md) · 2184w
 - 🟩 [`08-beings-and-bestiary/gandharvas-and-kinnaras.md`](08-beings-and-bestiary/gandharvas-and-kinnaras.md) · 2616w
 - 🟩 [`08-beings-and-bestiary/garuda.md`](08-beings-and-bestiary/garuda.md) · 1833w
 - 🟩 [`08-beings-and-bestiary/kamadhenu-and-divine-cattle.md`](08-beings-and-bestiary/kamadhenu-and-divine-cattle.md) · 2254w
 - 🟩 [`08-beings-and-bestiary/matrikas-and-64-yoginis.md`](08-beings-and-bestiary/matrikas-and-64-yoginis.md) · 2240w
 - 🟩 [`08-beings-and-bestiary/maya-danava.md`](08-beings-and-bestiary/maya-danava.md) · 1591w
-- 🟩 [`08-beings-and-bestiary/mythic-beasts-and-composites.md`](08-beings-and-bestiary/mythic-beasts-and-composites.md) · 1365w
+- 🟩 [`08-beings-and-bestiary/mythic-beasts-and-composites.md`](08-beings-and-bestiary/mythic-beasts-and-composites.md) · 2368w
 - 🟩 [`08-beings-and-bestiary/nagas-and-serpents.md`](08-beings-and-bestiary/nagas-and-serpents.md) · 2028w
 - 🟩 [`08-beings-and-bestiary/nandi-and-shaiva-mounts.md`](08-beings-and-bestiary/nandi-and-shaiva-mounts.md) · 1596w
 - 🟩 [`08-beings-and-bestiary/pitrs-and-ancestors.md`](08-beings-and-bestiary/pitrs-and-ancestors.md) · 2022w
@@ -568,15 +655,18 @@
 - 🟩 [`08-beings-and-bestiary/the-maruts.md`](08-beings-and-bestiary/the-maruts.md) · 2132w
 - 🟩 [`08-beings-and-bestiary/the-prajapatis.md`](08-beings-and-bestiary/the-prajapatis.md) · 2943w
 - 🟩 [`08-beings-and-bestiary/the-thirty-three-devas.md`](08-beings-and-bestiary/the-thirty-three-devas.md) · 2739w
+- 🟩 [`08-beings-and-bestiary/twelve-devasura-battles.md`](08-beings-and-bestiary/twelve-devasura-battles.md) · 2339w
+- 🟩 [`08-beings-and-bestiary/vanaras-and-rikshas.md`](08-beings-and-bestiary/vanaras-and-rikshas.md) · 2229w
 - 🟩 [`08-beings-and-bestiary/vidyadharas-siddhas-and-spirits.md`](08-beings-and-bestiary/vidyadharas-siddhas-and-spirits.md) · 2401w
 - 🟩 [`08-beings-and-bestiary/yakshas-and-guhyakas.md`](08-beings-and-bestiary/yakshas-and-guhyakas.md) · 1962w
 
-## 09-artifacts-symbols-and-arts  (16 files)
+## 09-artifacts-symbols-and-arts  (17 files)
 
-- [`09-artifacts-symbols-and-arts/README.md`](09-artifacts-symbols-and-arts/README.md) · 1116w
+- [`09-artifacts-symbols-and-arts/README.md`](09-artifacts-symbols-and-arts/README.md) · 1631w
 - 🟩 [`09-artifacts-symbols-and-arts/chitra-kala-painting-traditions.md`](09-artifacts-symbols-and-arts/chitra-kala-painting-traditions.md) · 1470w
+- 🟩 [`09-artifacts-symbols-and-arts/classical-dance-forms-and-ritual-theatre.md`](09-artifacts-symbols-and-arts/classical-dance-forms-and-ritual-theatre.md) · 2334w
 - 🟩 [`09-artifacts-symbols-and-arts/divine-objects-and-treasures.md`](09-artifacts-symbols-and-arts/divine-objects-and-treasures.md) · 2001w
-- 🟩 [`09-artifacts-symbols-and-arts/divyastras-and-divine-weapons.md`](09-artifacts-symbols-and-arts/divyastras-and-divine-weapons.md) · 3427w
+- 🟩 [`09-artifacts-symbols-and-arts/divyastras-and-divine-weapons.md`](09-artifacts-symbols-and-arts/divyastras-and-divine-weapons.md) · 3489w
 - 🟩 [`09-artifacts-symbols-and-arts/mehndi-and-ritual-body-adornment.md`](09-artifacts-symbols-and-arts/mehndi-and-ritual-body-adornment.md) · 1575w
 - 🟩 [`09-artifacts-symbols-and-arts/murti-lakshana-and-iconometry.md`](09-artifacts-symbols-and-arts/murti-lakshana-and-iconometry.md) · 1554w
 - 🟩 [`09-artifacts-symbols-and-arts/natya-shastra-and-the-classical-arts.md`](09-artifacts-symbols-and-arts/natya-shastra-and-the-classical-arts.md) · 1944w
@@ -590,17 +680,25 @@
 - 🟩 [`09-artifacts-symbols-and-arts/temple-iconographic-motifs.md`](09-artifacts-symbols-and-arts/temple-iconographic-motifs.md) · 1470w
 - 🟩 [`09-artifacts-symbols-and-arts/vahanas-and-celestial-vehicles.md`](09-artifacts-symbols-and-arts/vahanas-and-celestial-vehicles.md) · 2738w
 
-## 90-literature-corpus  (82 files)
+## 90-literature-corpus  (94 files)
 
-- [`90-literature-corpus/README.md`](90-literature-corpus/README.md) · 2635w
+- [`90-literature-corpus/README.md`](90-literature-corpus/README.md) · 2819w
 - 🟩 [`90-literature-corpus/agamas-tantras-dharmashastras.md`](90-literature-corpus/agamas-tantras-dharmashastras.md) · 2158w
 - 🟩 [`90-literature-corpus/bhagavata-purana-skandha-map.md`](90-literature-corpus/bhagavata-purana-skandha-map.md) · 2063w
-  - [`90-literature-corpus/darshanas/README.md`](90-literature-corpus/darshanas/README.md) · 579w
+- 🟩 [`90-literature-corpus/brihatkatha-kathasaritsagara-and-vikramaditya-cycle.md`](90-literature-corpus/brihatkatha-kathasaritsagara-and-vikramaditya-cycle.md) · 2418w
+- 🟩 [`90-literature-corpus/classical-kavya-and-sanskrit-drama.md`](90-literature-corpus/classical-kavya-and-sanskrit-drama.md) · 2369w
+  - [`90-literature-corpus/darshanas/README.md`](90-literature-corpus/darshanas/README.md) · 586w
   - 🟩 [`90-literature-corpus/darshanas/brahma-sutras.md`](90-literature-corpus/darshanas/brahma-sutras.md) · 2256w
   - 🟩 [`90-literature-corpus/darshanas/mimamsa-sutras.md`](90-literature-corpus/darshanas/mimamsa-sutras.md) · 3425w
   - 🟩 [`90-literature-corpus/darshanas/nyaya-sutras.md`](90-literature-corpus/darshanas/nyaya-sutras.md) · 2833w
   - 🟩 [`90-literature-corpus/darshanas/samkhya-karika.md`](90-literature-corpus/darshanas/samkhya-karika.md) · 2132w
   - 🟩 [`90-literature-corpus/darshanas/vaisheshika-sutras.md`](90-literature-corpus/darshanas/vaisheshika-sutras.md) · 2218w
+  - 🟩 [`90-literature-corpus/darshanas/vedanta-prakarana-granthas.md`](90-literature-corpus/darshanas/vedanta-prakarana-granthas.md) · 2319w
+- 🟩 [`90-literature-corpus/kashmir-shaiva-texts.md`](90-literature-corpus/kashmir-shaiva-texts.md) · 2135w
+- 🟩 [`90-literature-corpus/maithili-oral-epics-salhesh-dina-bhadri.md`](90-literature-corpus/maithili-oral-epics-salhesh-dina-bhadri.md) · 2093w
+- 🟩 [`90-literature-corpus/odia-literature-sarala-and-panchasakha.md`](90-literature-corpus/odia-literature-sarala-and-panchasakha.md) · 2535w
+- 🟩 [`90-literature-corpus/panchatantra-hitopadesha-and-fable-literature.md`](90-literature-corpus/panchatantra-hitopadesha-and-fable-literature.md) · 2257w
+- 🟩 [`90-literature-corpus/periya-puranam-63-nayanmar-legend-map.md`](90-literature-corpus/periya-puranam-63-nayanmar-legend-map.md) · 2590w
 - 🟩 [`90-literature-corpus/principal-upanishads-detail.md`](90-literature-corpus/principal-upanishads-detail.md) · 2406w
   - [`90-literature-corpus/puranas/README.md`](90-literature-corpus/puranas/README.md) · 756w
   - 🟩 [`90-literature-corpus/puranas/agni-purana.md`](90-literature-corpus/puranas/agni-purana.md) · 1649w
@@ -616,6 +714,8 @@
   - 🟩 [`90-literature-corpus/puranas/markandeya-purana.md`](90-literature-corpus/puranas/markandeya-purana.md) · 2195w
   - 🟩 [`90-literature-corpus/puranas/matsya-purana.md`](90-literature-corpus/puranas/matsya-purana.md) · 1823w
   - 🟩 [`90-literature-corpus/puranas/narada-purana.md`](90-literature-corpus/puranas/narada-purana.md) · 1436w
+  - 🟩 [`90-literature-corpus/puranas/nilamata-purana.md`](90-literature-corpus/puranas/nilamata-purana.md) · 2413w
+  - 🟩 [`90-literature-corpus/puranas/padma-purana-khanda-map.md`](90-literature-corpus/puranas/padma-purana-khanda-map.md) · 1951w
   - 🟩 [`90-literature-corpus/puranas/padma-purana.md`](90-literature-corpus/puranas/padma-purana.md) · 921w
   - 🟩 [`90-literature-corpus/puranas/shiva-purana.md`](90-literature-corpus/puranas/shiva-purana.md) · 2435w
   - 🟩 [`90-literature-corpus/puranas/skanda-purana-khanda-map.md`](90-literature-corpus/puranas/skanda-purana-khanda-map.md) · 2112w
@@ -666,21 +766,24 @@
     - 🟩 [`90-literature-corpus/vedas/brahmanas/jaiminiya-brahmana.md`](90-literature-corpus/vedas/brahmanas/jaiminiya-brahmana.md) · 1348w
     - 🟩 [`90-literature-corpus/vedas/brahmanas/kaushitaki-brahmana.md`](90-literature-corpus/vedas/brahmanas/kaushitaki-brahmana.md) · 1225w
     - 🟩 [`90-literature-corpus/vedas/brahmanas/panchavimsha-brahmana.md`](90-literature-corpus/vedas/brahmanas/panchavimsha-brahmana.md) · 1775w
-    - 🟩 [`90-literature-corpus/vedas/brahmanas/shatapatha-brahmana.md`](90-literature-corpus/vedas/brahmanas/shatapatha-brahmana.md) · 1401w
+    - 🟩 [`90-literature-corpus/vedas/brahmanas/shatapatha-brahmana.md`](90-literature-corpus/vedas/brahmanas/shatapatha-brahmana.md) · 1979w
     - 🟩 [`90-literature-corpus/vedas/brahmanas/taittiriya-brahmana.md`](90-literature-corpus/vedas/brahmanas/taittiriya-brahmana.md) · 1729w
   - 🟩 [`90-literature-corpus/vedas/pratishakhyas.md`](90-literature-corpus/vedas/pratishakhyas.md) · 966w
+  - 🟩 [`90-literature-corpus/vedas/rigveda-samvada-and-secular-hymns.md`](90-literature-corpus/vedas/rigveda-samvada-and-secular-hymns.md) · 2426w
   - 🟩 [`90-literature-corpus/vedas/rigveda.md`](90-literature-corpus/vedas/rigveda.md) · 1674w
   - 🟩 [`90-literature-corpus/vedas/samaveda.md`](90-literature-corpus/vedas/samaveda.md) · 2023w
   - 🟩 [`90-literature-corpus/vedas/yajurveda.md`](90-literature-corpus/vedas/yajurveda.md) · 1867w
 - 🟩 [`90-literature-corpus/vedic-deities-and-suktas.md`](90-literature-corpus/vedic-deities-and-suktas.md) · 2555w
 - 🟩 [`90-literature-corpus/yajnas-and-vedic-rituals.md`](90-literature-corpus/yajnas-and-vedic-rituals.md) · 2310w
+- 🟩 [`90-literature-corpus/yoga-vasishtha.md`](90-literature-corpus/yoga-vasishtha.md) · 2356w
 
 ---
 
 ## Next-step TODO (running)
 
-- Deepen the remaining 🟨 stub files (mostly future-manvantara roll-calls & a few Upapuranas).
-- Per-Purana story-maps exist for all 18 Mahapuranas; the other 17 could get skandha/khanda maps like the Bhagavata.
-- Canonicalize the 14-Manu roster in `01-manvantaras/README.md`; keep `00-time-and-cosmology/manvantara-system.md` as the concept explainer (cross-linked) to avoid drift.
-- Expand the minor-tale catalogs (`04-deep-dives/minor-upakhyanas-catalog.md` etc.) into dedicated files as needed.
-- Re-run the indexer + link checker after any new batch (invariants: every file reachable, 0 broken links).
+- **Round 6 in progress — see [HANDOFF.md](HANDOFF.md)** for full state and instructions.
+- Write the 130 pending files in [tools/round6-pending-items.json](tools/round6-pending-items.json) (priority-ordered), inserting their TIMELINE events per HANDOFF §2-3.
+- Extract TIMELINE events for 02-deities-and-cosmic-hierarchy/theyyam-deities-and-thottam-myths.md.
+- Build the data/ machine-readable layer; split TIMELINE.md into timeline/ per-period files (HANDOFF §4).
+- Verification pass over all round-6 files; final README refresh; delete HANDOFF.md when done.
+- Re-run tools/repo_tools.py (indexes, structure, linkcheck, timeline-check) after every batch (invariants: every file reachable, 0 broken links).

@@ -90,11 +90,12 @@ Cross-check parentage against the [Kaśyapa-progeny](../03-lineages-vamsha/surya
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 21 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 24 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Airāvata, Uccaiḥśravas & the Manthana Treasures (Living Beings)](airavata-and-celestial-animals.md)
 - 🟩 [Apsarās — Celestial Nymphs](apsaras.md)
 - 🟩 [The Asuras — Roster & the Deva-Asura Wars](asura-wars-and-roster.md)
+- 🟩 [Bala (Vala) the Asura — the Self-Sacrificed Demon & the Origin of the Nine Gems](bala-asura-navaratna-origin.md)
 - 🟩 [The Dikpālas — Guardians of the Directions](dikpalas-and-lokapalas.md)
 - 🟩 [Gandharvas & Kinnaras](gandharvas-and-kinnaras.md)
 - 🟩 [Garuḍa — King of Birds, Mount of Viṣṇu](garuda.md)
@@ -111,6 +112,8 @@ Cross-check parentage against the [Kaśyapa-progeny](../03-lineages-vamsha/surya
 - 🟩 [The Maruts — Storm-Gods of the Rudra Host](the-maruts.md)
 - 🟩 [The Prajāpatis & Brahmā's Mind-Born Sons](the-prajapatis.md)
 - 🟩 [The Thirty-Three Devas — Vasus, Ādityas, Rudras](the-thirty-three-devas.md)
+- 🟩 [The Twelve Devāsura Saṅgrāmas — the Matsya War-Roster](twelve-devasura-battles.md)
+- 🟩 [Vānaras, Ṛkṣas & the Epic Animal-Races](vanaras-and-rikshas.md)
 - 🟩 [Vidyādharas, Siddhas & the Spirit Hosts](vidyadharas-siddhas-and-spirits.md)
 - 🟩 [Yakṣas, Guhyakas & Kubera's Court](yakshas-and-guhyakas.md)
 

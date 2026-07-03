@@ -200,10 +200,17 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 77 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 89 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Āgamas, Tantras & Dharmaśāstras](agamas-tantras-dharmashastras.md)
 - 🟩 [The Bhāgavata Purāṇa — Skandha-by-Skandha Map](bhagavata-purana-skandha-map.md)
+- 🟩 [Bṛhatkathā, Kathāsaritsāgara & the Vikramāditya Story Cycle](brihatkatha-kathasaritsagara-and-vikramaditya-cycle.md)
+- 🟩 [Classical Sanskrit Kāvya & Drama — the Court-Poetry Story-Vehicles](classical-kavya-and-sanskrit-drama.md)
+- 🟩 [Kashmir Śaiva Texts — Śiva-Sūtras to Vijñāna Bhairava](kashmir-shaiva-texts.md)
+- 🟩 [Maithili Oral Epics — Rājā Salhesh & the Dinā-Bhadrī Brothers](maithili-oral-epics-salhesh-dina-bhadri.md)
+- 🟩 [Odia Literature — Sāraḷā Mahābhārata, Jagamohana Rāmāyaṇa & the Pañcasakhā](odia-literature-sarala-and-panchasakha.md)
+- 🟩 [Panchatantra, Hitopadeśa & the Nīti-Kathā Fable Corpus](panchatantra-hitopadesha-and-fable-literature.md)
+- 🟩 [The Periya Purāṇam — Legend Map of the 63 Nāyaṉmār (Tirumurai Book 12)](periya-puranam-63-nayanmar-legend-map.md)
 - 🟩 [The Principal Upaniṣads — Per-Text Detail](principal-upanishads-detail.md)
 - 🟩 [Regional & Oral Epics & Folk Traditions](regional-and-oral-epics.md)
 - 🟩 [Śruti — Vedas & Upanishads](shruti-vedas-and-upanishads.md)
@@ -213,6 +220,7 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [Upavedas, Vedāngas & the Six Darśanas](upavedas-vedangas-darshanas.md)
 - 🟩 [Vedic Deities & Famous Sūktas](vedic-deities-and-suktas.md)
 - 🟩 [Yajñas & Vedic Rituals](yajnas-and-vedic-rituals.md)
+- 🟩 [Yoga-Vāsiṣṭha (Mahā-Rāmāyaṇa)](yoga-vasishtha.md)
 
 **darshanas/**
 
@@ -222,6 +230,7 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [Nyāya Sūtras of Gautama — Per-Text Profile](darshanas/nyaya-sutras.md)
 - 🟩 [Sāṃkhya-kārikā of Īśvarakṛṣṇa — Per-Text Profile](darshanas/samkhya-karika.md)
 - 🟩 [Vaiśeṣika Sūtras of Kaṇāda — Per-Text Profile](darshanas/vaisheshika-sutras.md)
+- 🟩 [Vedānta Prakaraṇa Granthas — The Advaita Teaching Manuals](darshanas/vedanta-prakarana-granthas.md)
 
 **puranas/**
 
@@ -239,6 +248,8 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [Mārkaṇḍeya Purāṇa](puranas/markandeya-purana.md)
 - 🟩 [Matsya Purāṇa](puranas/matsya-purana.md)
 - 🟩 [Nārada Purāṇa](puranas/narada-purana.md)
+- 🟩 [Nīlamata Purāṇa — The Charter Text of Kashmiri Hinduism](puranas/nilamata-purana.md)
+- 🟩 [Padma Purāṇa — Khaṇḍa-by-Khaṇḍa Story Map](puranas/padma-purana-khanda-map.md)
 - 🟩 [Padma Purāṇa](puranas/padma-purana.md)
 - 🟩 [Śiva Purāṇa](puranas/shiva-purana.md)
 - 🟩 [Skanda Purāṇa — Khaṇḍa-by-Khaṇḍa Story Map](puranas/skanda-purana-khanda-map.md)
@@ -284,6 +295,14 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟨 [Vedas](vedas/README.md)
 - 🟩 [The Āraṇyakas (the 'Forest Books')](vedas/aranyakas.md)
 - 🟩 [Atharvaveda — Per-Text Profile (Charms, Healing & Speculation)](vedas/atharvaveda.md)
+- 🟩 [The Pratishakhyas (Veda-specific phonetic treatises)](vedas/pratishakhyas.md)
+- 🟩 [Rigveda Samvada & Secular Hymns — the Dialogue and Narrative Genre](vedas/rigveda-samvada-and-secular-hymns.md)
+- 🟩 [Rigveda — Per-Text Profile (Mandala-by-Mandala)](vedas/rigveda.md)
+- 🟩 [Samaveda — Per-Text Profile (Chant & Melody)](vedas/samaveda.md)
+- 🟩 [Yajurveda — Per-Text Profile (Shukla & Krishna Recensions)](vedas/yajurveda.md)
+
+**vedas/brahmanas/**
+
 - 🟩 [Aitareya Brahmana (and Aitareya Aranyaka)](vedas/brahmanas/aitareya-brahmana.md)
 - 🟩 [Gopatha Brāhmaṇa](vedas/brahmanas/gopatha-brahmana.md)
 - 🟩 [Jaiminīya (Talavakāra) Brāhmaṇa](vedas/brahmanas/jaiminiya-brahmana.md)
@@ -291,9 +310,5 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [Panchavimsha (Tandya Maha-) Brahmana and the Samavedic Brahmana corpus](vedas/brahmanas/panchavimsha-brahmana.md)
 - 🟩 [Shatapatha Brahmana](vedas/brahmanas/shatapatha-brahmana.md)
 - 🟩 [Taittiriya Brahmana (and Taittiriya Aranyaka)](vedas/brahmanas/taittiriya-brahmana.md)
-- 🟩 [The Pratishakhyas (Veda-specific phonetic treatises)](vedas/pratishakhyas.md)
-- 🟩 [Rigveda — Per-Text Profile (Mandala-by-Mandala)](vedas/rigveda.md)
-- 🟩 [Samaveda — Per-Text Profile (Chant & Melody)](vedas/samaveda.md)
-- 🟩 [Yajurveda — Per-Text Profile (Shukla & Krishna Recensions)](vedas/yajurveda.md)
 
 <!-- AUTOINDEX:END -->

@@ -33,7 +33,7 @@ Every file in this section is listed in the auto-generated [📑 Full Contents](
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 85 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 91 files in this section. Regenerate with the indexer.*
 
 - 🟩 [The 108 Divya Desams — Vishnu Abodes of the Alvars](108-divya-desams.md)
 - 🟩 [The 12 Jyotirlingas of Shiva](12-jyotirlingas.md)
@@ -61,12 +61,14 @@ Every file in this section is listed in the auto-generated [📑 Full Contents](
 - 🟩 [Girnar — Raivataka / Vastrapatha (Datta-tīrtha)](girnar-raivataka-datta-tirtha.md)
 - 🟩 [Godavari — The Gautami and the Dakshina Ganga](godavari-gautami-dakshina-ganga.md)
 - 🟩 [Gokarṇa Mahābaleśvara & the Ātma-liṅga](gokarna-mahabaleshwar-atma-linga.md)
+- 🟩 [Guruvāyūr — the Bhūloka Vaikuṇṭha Kṛṣṇa-kṣetra](guruvayur-krishna-kshetra.md)
 - 🟩 [Haridwar & Rishikesh — Gaṅgā-dvāra, Gateway to the Char Dhām](haridwar-rishikesh-ganga-dwara.md)
 - 🟩 [Jagannāth Purī — Puruṣottama Kṣetra](jagannath-puri-purushottama-kshetra.md)
 - 🟩 [Janakpur and Mithilā — Sītā's Birthplace](janakpur-mithila-sita-janmabhumi.md)
 - 🟩 [Kāmākhyā — Nīlācala Hill, Kāmarūpa](kamakhya-nilachala-kamarupa.md)
 - 🟩 [Kāmyaka & Dvaita — The Pāṇḍava Exile Forests](kamyaka-dvaita-pandava-exile-forests.md)
 - 🟩 [Kāñcīpuram — the Golden City (Banaras of the South)](kanchipuram-city-of-temples.md)
+- 🟩 [Kanwar Yatra & the Shravan Shiva Observances](kanwar-yatra-and-shravan-shiva-observances.md)
 - 🟩 [Kāśī / Vārāṇasī — the City of Light (Avimukta Kṣetra)](kashi-varanasi.md)
 - 🟩 [Kedarnath — Kedāra Kṣetra](kedarnath-kedara-kshetra.md)
 - 🟩 [Khāṇḍava-vana & the Khāṇḍava-dāha](khandava-vana-and-the-burning.md)
@@ -76,6 +78,7 @@ Every file in this section is listed in the auto-generated [📑 Full Contents](
 - 🟩 [Kumbh Mela & Pilgrimage Cycles](kumbh-mela-and-pilgrimage-cycles.md)
 - 🟩 [Kurukṣetra — Dharmakṣetra & the Field of the Mahābhārata](kurukshetra-dharmakshetra.md)
 - 🟩 [Aśoka-vāṭikā & the Laṅkā Rāmāyaṇa Trail](lanka-ramayana-trail-ashoka-vatika.md)
+- 🟩 [Lauhitya — The Birth of the Brahmaputra](lauhitya-brahmaputra-origin.md)
 - 🟩 [Lingarāja Temple, Bhubaneswar — Ekāmra Kṣetra](lingaraja-bhubaneswar-ekamra-kshetra.md)
 - 🟩 [Lonar Sarovar — the Crater-Lake of Lavanāsura and the Daityasūdana Temple](lonar-sarovar-daityasudana.md)
 - 🟩 [Madurai — Meenakshi-Sundareshwara Kshetra](madurai-meenakshi-sundareshwara-kshetra.md)
@@ -92,17 +95,20 @@ Every file in this section is listed in the auto-generated [📑 Full Contents](
 - 🟩 [Nathdwārā — Śrīnāthajī, Chief Shrine of the Puṣṭimārga](nathdwara-shrinathji.md)
 - 🟩 [The Navagraha Temples — the Nine-Planet Kumbakonam Circuit](navagraha-temples.md)
 - 🟩 [Pañch Kailāsh — The Five Kailāsa Pilgrimage Circuit](panch-kailash.md)
+- 🟩 [Pañch Prayāg — the Five Sacred Confluences of the Alaknandā](panch-prayag-alaknanda-confluences.md)
 - 🟩 [Pañca-sarovara — The Five Sacred Lakes](panch-sarovar-sacred-lakes.md)
 - 🟩 [Pañcha Bhūta Sthalams — the Five-Element Shiva Temples](pancha-bhuta-sthalams.md)
 - 🟩 [Pañcha Kedār & Pañcha Badrī — the Garhwal Twin Circuits](pancha-kedar-pancha-badri.md)
 - 🟩 [Pañcha Sabhai — the Five Cosmic-Dance Halls of Naṭarāja](pancha-sabhai-nataraja-dance-halls.md)
 - 🟩 [Pancharama Kshetras](pancharama-kshetras-andhra.md)
 - 🟩 [Panchavati — Rāma's Dwelling on the Godāvarī at Nashik](panchavati-nashik-godavari.md)
+- 🟩 [Pandharpur — Viṭṭhala Kṣetra & the Wārī Pilgrimage](pandharpur-vitthala-wari.md)
 - 🟩 [Pashupatinath — the Shiva Kshetra of Nepal](pashupatinath-kathmandu-nepal-kshetra.md)
 - 🟩 [Prabhāsa Tīrtha — The Sarasvatī-Ocean Kṣetra at Somnāth](prabhasa-somnath-tirtha.md)
 - 🟩 [Prayāga / Prayagraj — Tīrtharāja & the Triveṇī Saṅgam](prayagraj-triveni-sangam.md)
 - 🟩 [Puṣkara — the Rare Brahmā Tīrtha & Lake](pushkar-brahma-tirtha.md)
 - 🟩 [Rameswaram and Setu-bandha — The Ramanatha Setu-Kshetra](rameswaram-setu-bandha.md)
+- 🟩 [Ratnagrīva's Pilgrimage to Puruṣottama-kṣetra — the Padma's Jagannātha Māhātmya](ratnagriva-purushottama-kshetra.md)
 - 🟩 [Sacred Rivers and Their Descent Myths](sacred-rivers-and-descent-myths.md)
 - 🟩 [Sapta Purī, Sacred Cities & Rivers](sapta-puri-and-sacred-cities.md)
 - 🟩 [The Sapta-Sindhu — the Indus and the Vedic Seven Rivers](sapta-sindhu-and-the-indus-rivers.md)

@@ -42,19 +42,26 @@ Many dynastic king-tales have their canonical home among the deep-dives; this se
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 12 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 19 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Anaraṇya — The Ikṣvāku King Whose Curse Dooms Rāvaṇa](anaranya-ravana-curse.md)
 - 🟩 [Devāpi: The Renounced Prince, Rain-Bringing Purohita, and Immortal Restorer of the Lunar Dynasty](devapi.md)
 - 🟩 [Gādhi and the Caru-Swap — Birth of the Kuśika and Bhārgava Lines](gadhi-and-the-caru-swap.md)
 - 🟩 [Jahnu — Sage-King and Eponym of Jāhnavī (Gaṅgā)](jahnu.md)
 - 🟩 [Janamejaya and the Sarpa-Satra (Snake Sacrifice)](janamejaya-sarpa-satra.md)
+- 🟩 [Jyāmagha — the Henpecked King and the Bride for the Unborn Son](jyamagha.md)
+- 🟩 [The Kāśī Line — Divodāsa, Pratardana, Alarka & Śiva's Exile from Kāśī](kashi-line-divodasa.md)
 - 🟩 [Kuru — Eponymous Founder of the Kuru Dynasty](kuru-the-eponym.md)
+- 🟩 [Kuśanābha's Hundred Daughters, Vāyu's Wrath, and the Birth of Brahmadatta](kushanabha-daughters-and-brahmadatta.md)
 - 🟩 [Parīkṣit — First King of Kali and the Śṛṅgī Curse](parikshit.md)
 - 🟩 [The Raghuvaṃśa Kings — Dilīpa, Raghu, Aja](raghuvamsha-kalidasa-kings.md)
+- 🟩 [Raji and His Sons — The Usurpation of Indra's Throne](raji-and-his-sons.md)
+- 🟩 [Sagara — The Ocean-Namesake Emperor of Ayodhyā](sagara.md)
 - 🟩 [Saṃvaraṇa & Tapatī — Grafting Solar Blood onto the Kuru Line](samvarana-tapati.md)
 - 🟩 [Śāntanu — King of Hastināpura](shantanu.md)
 - 🟩 [Solar & Lunar Dynasties (Vaṃśa)](suryavamsha-and-chandravamsha.md)
 - 🟩 [Uparichara Vasu — The Sky-Faring Cedi King](uparichara-vasu.md)
+- 🟩 [The Videha Line of Mithilā — Nimi to Janaka the Philosopher-King](videha-mithila-line-janaka.md)
+- 🟩 [Yādava Vaṃśa — From Yadu to Kṛṣṇa](yadava-vamsha.md)
 
 <!-- AUTOINDEX:END -->

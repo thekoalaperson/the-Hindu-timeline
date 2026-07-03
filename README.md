@@ -144,5 +144,8 @@ STRUCTURE.md                  ← skeleton + coverage tracker (every file, deep/
   rosters are **deeply populated**. A handful of future-manvantara roll-calls remain concise **stubs**.
 - See **[STRUCTURE.md](STRUCTURE.md)** (full file map + coverage) and **[AGENTS.md](AGENTS.md)** (how to
   query the corpus). This is a **living document**.
+- **Round 6 is in progress:** see **[HANDOFF.md](HANDOFF.md)** for what has landed, the remaining
+  130-item write queue (`tools/round6-pending-items.json`), the maintenance tooling (`tools/repo_tools.py`),
+  and the pending structure work.
 
 *Sources are scriptural (Vedas, Itihāsa, Purāṇas, etc.) and scholarly; cosmic dating is traditional, historical dating is academic and flagged as such.*

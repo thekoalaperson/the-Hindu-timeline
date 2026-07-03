@@ -103,7 +103,7 @@ The section's 14 files fall into four clusters (every file is linked in the [Ful
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 14 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 15 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Bila-svarga and the Seven Pātālas (The Subterranean Paradises)](bila-svarga-and-the-patalas.md)
 - 🟩 [Brahmā's Lifetime (Mahākalpa)](brahma-lifetime.md)
@@ -114,6 +114,7 @@ The section's 14 files fall into four clusters (every file is linked in the [Ful
 - 🟩 [The Kālachakra — the Wheel of Time & Time as Deity](kalachakra-wheel-of-time.md)
 - 🟩 [Kalpa, Day/Night of Brahmā & the Dissolutions (Pralaya)](kalpa-and-pralaya.md)
 - 🟩 [The Manvantara System & the 14 Manus](manvantara-system.md)
+- 🟩 [Muhūrta & the Auspicious / Inauspicious Windows of the Day](muhurta-and-auspicious-timing.md)
 - 🟩 [The 27 Nakṣatras](nakshatras.md)
 - 🟩 [The Śiśumāra-cakra — the Cosmic Dolphin & Dhruva-maṇḍala](shishumara-chakra.md)
 - 🟩 [Siddhāntic Astronomy & Its Astronomers](siddhantic-astronomy-and-astronomers.md)

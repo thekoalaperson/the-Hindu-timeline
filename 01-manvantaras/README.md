@@ -173,9 +173,17 @@ Each Manvantara has its own troops of devas. From Vishnu Purana 3.1–2:
 **manvantara-07-vaivasvata/**
 
 - 🟩 [Manvantara 7 — Vaivasvata Manu (Current)](manvantara-07-vaivasvata/README.md)
+
+**manvantara-07-vaivasvata/mahayuga-28-current/**
+
+- 🟩 [The 28th Mahāyuga (Current)](manvantara-07-vaivasvata/mahayuga-28-current/README.md)
 - 🟩 [Satya (Kṛta) Yuga — Events](manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md)
 - 🟩 [Tretā Yuga — Events](manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)
 - 🟩 [Dvāpara Yuga — Events](manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md)
+
+**manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/**
+
+- 🟩 [Kali Yuga — Scriptural Record (Current)](manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)
 - 🟩 [Kali Yuga — Documented History](manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md)
 
 <!-- AUTOINDEX:END -->

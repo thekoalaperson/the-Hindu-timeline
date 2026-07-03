@@ -75,9 +75,10 @@ Single lines of the 64-kalā roster are raised into full detail files; each keep
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 15 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 16 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Pictorial / devotional painting traditions](chitra-kala-painting-traditions.md)
+- 🟩 [Classical Dance Forms & Ritual Dance-Theatre](classical-dance-forms-and-ritual-theatre.md)
 - 🟩 [Divine Objects & Treasures](divine-objects-and-treasures.md)
 - 🟩 [Divyāstras — Divine Weapons](divyastras-and-divine-weapons.md)
 - 🟩 [Mehndi, Alaktaka and the Arts of Ritual Body-Adornment (Maṅgala-śṛṅgāra)](mehndi-and-ritual-body-adornment.md)

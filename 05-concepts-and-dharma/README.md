@@ -16,12 +16,14 @@ These are the conceptual coordinates of Hindu thought, complementing the chronol
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 28 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 34 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Ahiṃsā & Hindu Ethics](ahimsa-and-hindu-ethics.md)
 - 🟩 [Atman, Brahman & the Mahavakyas — Vedanta and the Schools](atman-brahman-and-the-six-darshanas.md)
 - 🟩 [Āyurveda — The Science of Life, the Tridoṣa & the Caraka/Suśruta Tradition](ayurveda-and-the-science-of-life.md)
+- 🟩 [Bhakti-Rasa & the Bhāvas — Rūpa Gosvāmī's Devotional Aesthetics](bhakti-rasa-and-the-bhavas.md)
 - 🟩 [Chakras & Kuṇḍalinī](chakras-and-kundalini.md)
+- 🟩 [Durgā Pūjā — Bengal's Śāradīyā Goddess Festival & the Āgomoni Tradition](durga-puja-bengal.md)
 - 🟩 [Festivals & Vratas — Origins Mapped to Myth](festivals-and-vratas.md)
 - 🟩 [Garba & Dandiya Rāsa — Gujarat's Navarātri Circle-Dance of the Goddess](garba-and-dandiya-raas.md)
 - 🟩 [Guru-Śiṣya Paramparā](guru-shishya-parampara.md)
@@ -34,14 +36,18 @@ These are the conceptual coordinates of Hindu thought, complementing the chronol
 - 🟩 [The Four Aims (Purusharthas) & Karma–Samsara–Moksha](purusharthas-and-karma-samsara-moksha.md)
 - 🟩 [Regional Temple Festivals & Jatras (beyond the pan-Hindu calendar)](regional-temple-festivals.md)
 - 🟩 [Ṛta & Cosmic Order](rta-and-cosmic-order.md)
+- 🟩 [Sannyāsa & the Renunciate Tradition](sannyasa-and-the-renunciate-tradition.md)
+- 🟩 [Satī, Jauhar & the Immolation Rites — Widow-Burning, Its Debates and Its Cults](sati-jauhar-and-the-immolation-rites.md)
 - 🟩 [Sharad Purnima / Kojagari Lakshmi Puja](sharad-purnima-kojagari-lakshmi-puja.md)
 - 🟩 [Śrāddha & the Pitṛ Rites](shraddha-and-pitr-rites.md)
 - 🟩 [Swing & Float Temple Festivals — Dola, Jhulan & Teppotsavam](swing-and-float-temple-festivals.md)
-- 🟩 [The Eighteen Tamil Siddhars (Pathinen Siddhar) & the Siddha Tradition](the-eighteen-tamil-siddhars.md)
+- 🟩 [Tapas, Vara & Śāpa — Austerity, Boons and Curses](tapas-boons-and-curses.md)
+- 🟨 [The Eighteen Tamil Siddhars (Pathinen Siddhar) & the Siddha Tradition](the-eighteen-tamil-siddhars.md)
 - 🟩 [The Pramāṇas — Means of Knowledge](the-pramanas.md)
 - 🟩 [The 25 Tattvas of Sāṃkhya](the-samkhya-tattvas.md)
 - 🟩 [The Three Guṇas](the-three-gunas.md)
 - 🟩 [The Three Mārgas — Karma, Bhakti, Jñāna](the-three-margas.md)
+- 🟩 [Tīrtha & Tīrtha-Yātrā — the Theology of Pilgrimage](tirtha-and-tirtha-yatra.md)
 - 🟩 [Turīya & the Four States](turiya-and-the-four-states.md)
 - 🟩 [Varnashrama-Dharma & the Samskaras (Life-Cycle Rites)](varna-ashrama-and-samskaras.md)
 - 🟩 [Vastu Shastra — Sacred Architecture & the Vastu-Puruṣa-Maṇḍala](vastu-shastra-and-the-vastu-purusha-mandala.md)
