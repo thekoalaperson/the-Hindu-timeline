@@ -43,8 +43,8 @@ Writer contract (same as the 101 files already landed):
 - Cross-link only files that already exist (verify + compute correct relative path).
 - Do NOT hand-edit indexes/STRUCTURE/TIMELINE — see §3 tooling.
 - For each file also produce 4–15 TIMELINE events (see §3 for insertion): line format
-  `- **Event** — sentence _(actors: A, B)_ → [details](path/from/repo/root.md) — (Source, chapter)`
-  (the details target is the new file's own path from the repo root)
+  `- **Event** — sentence _(actors: A, B)_ → [details](#) — (Source, chapter)`
+  (replace `#` with the new file's own path from the repo root, e.g. `04-deep-dives/my-story.md`)
   with period exactly one of the nine `##` section titles in `TIMELINE.md`.
 
 Also pending from the earlier batches:
