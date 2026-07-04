@@ -8,7 +8,7 @@ The **Madhurāṣṭakam** (मधुराष्टकम्, "the Eight [Verse
 
 ## The two clocks
 
-- **Scriptural / devotional time** — As a bhakti utterance the hymn stands outside narrative chronology: it addresses the eternal Kṛṣṇa and lingers wholly within the **Braj *līlā* of Dvāpara Yuga** — the flute-playing cowherd of Vṛndāvana, the child and youth on the banks of the Yamunā — not as a historical past but as an ever-present object of contemplation. Its "events" are the timeless sweetnesses of the divine play. [scriptural]
+- **Scriptural / devotional time** — As a bhakti utterance the hymn stands outside narrative chronology: it addresses the eternal Kṛṣṇa and lingers wholly within the **Braj *līlā* of Dvāpara Yuga** — the flute-playing cowherd of Vṛndāvana, the child and youth on the banks of the Yamunā — not as a historical past but as an ever-present object of contemplation. Its "events" are the timeless sweetnesses of the divine play.
 - **Manuscript / historical time** — Its author **Vallabhācārya** is a firmly **documented Kali-Yuga historical figure, 1479–1531 CE** [scholarly] (some Puṣṭimārga accounts give birth in 1473 CE [disputed]), a Telugu Brāhmaṇa theologian active across Braj, Gujarat, and the Deccan. The Madhurāṣṭakam thus sits squarely in **recorded history** (early 16th c. CE), even as its subject is the timeless Dvāpara Kṛṣṇa — keep the composition-date distinct from the mythic frame it sings. [scholarly]
 
 ---

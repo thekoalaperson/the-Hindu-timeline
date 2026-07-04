@@ -64,7 +64,7 @@ The epic remembers Rantideva by a **different signature virtue**: not famine-cha
 
 ## The Carmaṇvatī (Chambal) aetiology
 
-- **The river of hides** — From the **heaps of hides (carman) and the blood, fat, and offal** of the thousands of animals slaughtered daily at Rantideva's kitchens, a stream is said to have formed and flowed — named **Carmaṇvatī**, "she who is furnished with hides," the modern **Chambal** of Mālwa and Rājasthān (*Mahābhārata* tradition; cf. *Bhāgavata Purāṇa 9.21*). [scripture] [regional]
+- **The river of hides** — From the **heaps of hides (carman) and the blood, fat, and offal** of the thousands of animals slaughtered daily at Rantideva's kitchens, a stream is said to have formed and flowed — named **Carmaṇvatī**, "she who is furnished with hides," the modern **Chambal** of Mālwa and Rājasthān (*Mahābhārata* tradition). [scripture] [regional]
 - **The etymology** — *carman* = "hide, skin"; *Carmaṇvatī* = "possessing / made of hides." The epic frame ties the river's very name to the by-products of Rantideva's boundless feasts — a rare instance of a major river's origin ascribed to a king's hospitality rather than a divine descent. [scholarly]
   - *Variant (river-origin traditions):* other Purāṇic geographies simply list the **Carmaṇvatī among the rivers rising from the Ṛkṣa / Pāriyātra ranges** with no Rantideva connection; the "river of hides" aetiology is the *Mahābhārata*-linked legend, not a universal one. [scholarly]
 - **The river's reputation** — In some regional lore the Chambal's association with **animal slaughter and blood** underlies its later reputation as an **inauspicious river to bathe in or cross**, and its exclusion from the roll of "holy" waters — folk memory reading the epic aetiology forward. [folk] [regional]
@@ -98,7 +98,7 @@ The epic remembers Rantideva by a **different signature virtue**: not famine-cha
 - **Śrīmad Bhāgavata Purāṇa, Canto 9, Chapter 21, verses 1–18 (SB 9.21.1–18)** — the definitive fourfold-charity narrative: Rantideva son of Saṅkṛti in the Bhārata line (9.21.1–2), his refusal to hoard (9.21.3–4), the 48-day fast and the dawn meal (9.21.5–6), the four guests — brāhmaṇa, śūdra, the man with dogs, the caṇḍāla for water (9.21.7–11), the great compassion verse *na kāmaye 'haṃ gatim īśvarāt parām…* (9.21.12), the departure of hunger and grief (9.21.13), the Trimūrti in disguise and Rantideva's desirelessness (9.21.14–17), and the yogic liberation of his followers (9.21.18).
 - **Mahābhārata, Droṇa Parva ~67 (Ṣoḍaśarājakīya)** — Rantideva among the sixteen great dead kings; the two thousand cattle dressed daily, the "meat in plenty, little broth" hospitality, and the mortality-lesson consoling the bereaved.
 - **Mahābhārata, Śānti Parva ~29** — Bhīṣma's remembrance of Rantideva as an exemplar of dāna and hospitality among the mighty kings who, for all their gifts and sacrifices, died.
-- **Mahābhārata tradition (with the Bhāgavata's 9.21 frame)** — the **Carmaṇvatī (Chambal)** aetiology: the river said to arise from the hides and blood of the animals slaughtered at Rantideva's kitchens (*carman* = "hide").
+- **Mahābhārata tradition** — the **Carmaṇvatī (Chambal)** aetiology: the river said to arise from the hides and blood of the animals slaughtered at Rantideva's kitchens (*carman* = "hide").
 
 ### Web / reference
 - Vedabase / Bhaktivedanta, *Śrīmad-Bhāgavatam* 9.21 (esp. SB 9.21.12) — https://vedabase.io/en/library/sb/9/21/
