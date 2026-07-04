@@ -1,0 +1,1250 @@
+[
+ {
+  "path": "/home/user/the-Hindu-timeline/04-deep-dives/karandhama-avikshit-marutta-dama.md",
+  "severity": "high",
+  "kind": "suspect-citation",
+  "detail": "The climactic slaying of Vapuṣmat and the flesh-and-blood śrāddha — the file's central, most load-bearing scene — is attributed to '(*Mārkaṇḍeya Purāṇa* CXXXVI)' explicitly 'in Pargiter's numbering' (line 66, and Sources line 96 'CXXXIII–CXXXVI ... the slaying of Vapuṣmat with the offering of his flesh and blood'). But Pargiter's translation follows the Calcutta / Bibliotheca Indica recension, which 'ends abruptly in chapter 136, leaving the narrative of Dama halfway' (confirmed on en.wikipedia.org/wiki/Markandeya_Purana). The completed vengeance and blood-libation appear only in the Bombay/Poona recension, concluding in chapter 137. So the blood-śrāddha is NOT in the edition it is cited to. Fix: attribute the climax to the fuller Bombay/Poona recension (ch. 137), and note that Pargiter's text — the very translation linked in the Sources — breaks off before it, rather than pinning it to 'Pargiter CXXXVI'."
+ },
+ {
+  "path": "02-deities-and-cosmic-hierarchy/pottan-theyyam.md",
+  "severity": "high",
+  "kind": "two-clocks",
+  "detail": "Line 43 mislabels the date frames for Śaṅkara: \"the ācārya's traditional floruit (scriptural/hagiographic 788–820 CE; [scholarly] c. 700 CE)\". This presents 788–820 CE as the SCRIPTURAL/HAGIOGRAPHIC clock, but the corpus's own canonical node (07-acharyas-and-sampradayas/adi-shankara.md, line 41) states 788–820 CE is \"an older, now-superseded convention\" of *scholarly* dating — NOT a scriptural/traditional date. The genuine traditional/hagiographic clock per that node (line 4, 43) is the matha/Kāñcī tradition placing Śaṅkara in the 6th–5th c. BCE (born 509 BCE). Thus this file splits two ACADEMIC estimates (788–820 vs c.700 CE) across the two-clock frames and entirely omits the real scriptural/traditional (BCE) frame. Fix: relabel to '[scholarly] c. 700 CE (older superseded convention 788–820 CE)' and, if a scriptural frame is cited, give the traditional matha dating (c. 509 BCE / 6th–5th c. BCE) as adi-shankara.md does — keep the two clocks distinct per §4."
+ },
+ {
+  "path": "02-deities-and-cosmic-hierarchy/vatuka-bhairava-origin.md",
+  "severity": "high",
+  "kind": "suspect-citation",
+  "detail": "The file's central etiology misrepresents the content of its own cited source, Śiva Purāṇa, Kotirudra-saṃhitā ch. 13 (the pointer is correct — that chapter IS titled 'The origin of Vaṭuka' — but the story attributed to it is not what the chapter contains). The file (breadcrumb line 3 'Primary etiology'; §'The Kotirudra etiology' lines 22-24; disambiguation line 35) says Śiva 'brings forth a youthful manifestation of himself... not born of a womb but manifested from Śiva's own being... reckoned a son-form (putra-rūpa)' and that 'Vaṭuka, though called a son, IS Śiva himself in reduced, juvenile shape... not a separate deity.' The actual Kotirudra ch. 13 (Motilal/wisdomlib translation) narrates the FOUR Vaṭukas as the four SONS OF THE BRAHMIN SUDARŚANA and his wife Dukūlā, whom Śiva consecrates/establishes in the four quarters — 'because they had been established by Śiva and Śivā they are known as Vaṭukas.' They are born of a womb, are distinct persons consecrated by Śiva (not emanations of his being), and are four, not one. The file's 'non-dual son-who-is-the-father / emanated-from-Śiva's-own-being' reading is fabricated and directly contradicts the text; the singular 'the boy' framing throughout also conflicts with the text's four directional Vaṭukas (which additionally undercuts line 14's 'standalone youthful emanation'). Fix: rewrite the Kotirudra etiology to the Sudarśana/four-sons-consecrated-in-the-four-quarters story, or explicitly separate the Purāṇic four-Vaṭukas account from the later Tantric single boy-Bhairava persona rather than claiming the Purāṇa as the origin of the latter."
+ },
+ {
+  "path": "03-lineages-vamsha/ekavira-ekavali-haihaya-origin.md",
+  "severity": "high",
+  "kind": "suspect-citation",
+  "detail": "The file repeatedly states, as sourced fact from the Devī-Bhāgavata Purāṇa Book VI, that the foster-father who finds and adopts the mare-born Ekavīra is the childless king ŚATAJIT. §0 bullet 2: 'The DBP (Book VI) keeps the childless king **Śatajit** as the father-of-record...'; §1 final bullet: 'The **childless Yādava king Śatajit**, coming to the river, discovers the abandoned divine child... naming him **Ekavīra**. (*Devī-Bhāgavata Purāṇa* VI)'. This is a misattribution. The actual DBP text (Skandha VI, ch. 19 'On the origin of Haihayas from a mare' and ch. 20 'On the son born of mare by Hari', trans. Vijñānānanda on Wisdomlib) names the childless king as **TURVASU, the son of Yayāti, alias Harivarman** — 'The King Turvasu, the son of Yayāti... became exceedingly gladdened... [and] named the child Ekavīra.' The Studies-in-the-Upapurāṇas summary (the file's own cited source) confirms: 'Ekavira, who was given to Yayati's son Turvasu (alias Harivarman) by Visnu.' Śatajit appears nowhere in the DBP account; he belongs only to the mainstream Viṣṇu/Bhāgavata genealogy (Yadu → Sahasrajit → Śatajit → Haihaya) that the file quotes in §0 bullet 1. The author appears to have silently welded the DBP foundling onto the Viṣṇu-Purāṇa name to make the two genealogies agree. Fix: replace 'Śatajit' with 'Turvasu (son of Yayāti), alias Harivarman' in the DBP-attributed passages, and note that the DBP actually grafts Ekavīra onto Turvasu's line — a DIFFERENT branch from Yadu — which is itself the genealogical seam, not the smooth Śatajit continuity the file asserts."
+ },
+ {
+  "path": "04-deep-dives/adi-baka-bird-war.md",
+  "severity": "high",
+  "kind": "suspect-citation",
+  "detail": "Line 48 presents a direct quotation attributed to Devī-Bhāgavata VI.13: 'for full ten thousand years… out of anger, with their nails and beaks, like two maddened lions.' Verified against the cited source (Vijñānānanda tr., wisdomlib doc57238, the same translation the file cites): the text says only that the birds 'passed many years there' — it gives NO figure of 'ten thousand years' and contains NO 'maddened lions' comparison (it likens them only to blood-smeared Kiṃśuka trees). Both the number and the lion simile inside the quotation marks appear fabricated. Fix: replace the invented quote with the actual 'passed many years' wording, or drop the quotation marks and the specific figure. This error propagates to line 61 ('ten-thousand-year animal war'), line 70 ('duration (ten thousand years)'), and the Sources entry at line 100 ('ten thousand years of combat like two maddened lions') — all must be corrected."
+ },
+ {
+  "path": "04-deep-dives/adi-baka-bird-war.md",
+  "severity": "high",
+  "kind": "suspect-citation",
+  "detail": "Line 49 builds a duration 'variant' by attributing the phrase 'passed many years' to the MĀRKAṆḌEYA Purāṇa ('the Mārkaṇḍeya Purāṇa says only that they \"passed many years\" so locked... the round ten-thousand-year span is the Devī-Bhāgavata's'). This is inverted: the phrase 'passed many years' actually occurs in the DEVĪ-BHĀGAVATA VI.13 (doc57238), while the Mārkaṇḍeya IX text (doc117037) gives no battle-duration phrase at all (its only 'years' reference is Vasiṣṭha's 'twelve years' by the Ganges). So the entire 'ten thousand (Devī-Bhāgavata) vs many years (Mārkaṇḍeya)' contrast is manufactured — in reality the Devī-Bhāgavata is the vague-'many years' text and neither source says 'ten thousand'. Fix: delete the false variant contrast; correctly attribute 'passed many years' to the Devī-Bhāgavata."
+ },
+ {
+  "path": "04-deep-dives/bharata-gandharva-conquest-takshashila.md",
+  "severity": "high",
+  "kind": "suspect-citation",
+  "detail": "§I bullet 'The land and its holders' and the Sources line attribute the Gandharva king's name and troop count to Vālmīki: 'Their king is the Gandharva **Śailūṣa (Shailusha)**, and his host numbers **three crores** (thirty million) — often given as \"the three crore sons of Śailūṣa\" ... (Vālmīki *Uttara* 100).' This is a MISATTRIBUTION. The name Śailūṣa and the 'three crores of sons' figure come from the **Agni Purāṇa, ch. 11** (which summarizes: 'Bharata killed the wicked Gandharva named Śailūṣa and his three crores of sons who lived on the banks of the Sindhu'), NOT from Vālmīki's Uttara-kāṇḍa. In Vālmīki (Shastri translation, the very edition the file cites), Uttara sarga 100 does NOT name the Gandharva king, and sarga 101 says 'three hundred thousand' (three lakh) Gandharvas were slain — not three crore. The Agni Purāṇa is never cited anywhere in the file. Fix: attribute Śailūṣa + the three-crore figure to the Agni Purāṇa (ch. 11) with a distinct citation/tag, and note that Vālmīki's own count is three hundred thousand; do not present these as Vālmīki Uttara 100 material."
+ },
+ {
+  "path": "04-deep-dives/bharata-gandharva-conquest-takshashila.md",
+  "severity": "high",
+  "kind": "factual",
+  "detail": "The 'deliberate two-country framing' is stated as settled Vālmīki fact but is not supported by the text. §III: 'Takṣaśilā... In the **Gandhāra country**' vs 'Puṣkalāvatī... In the (adjacent) **Gandharva country** — the land west of the region seated on Takṣaśilā'; and §VI: 'Vālmīki seats **Takṣaśilā in the Gāndhāra country** and **Puṣkalāvatī in the Gandharva country**; retellings that flatten \"Gandharva\" and \"Gāndhāra\" into one region lose the (probably deliberate) two-country framing.' But the Shastri Vālmīki (Uttara 101) places BOTH cities in one region: 'Bharata established Taksha in Takshashila and Pushkala in Pushkalavata, **in the country of the Gandharvas, in the ravishing region of Gandhara**.' The text treats Gandharva-country and Gāndhāra as the same place. Worse, where a two-word reading does appear in other translations the assignment is the REVERSE of the file's (Takshashila→land of the Gandharvas, Pushkalavati→land of Gāndhāra). So the file invents a distinction, fixes it in one (possibly backwards) direction, and then weaponizes it against 'retellings that flatten' the two. Fix: drop the settled 'two-country framing' claim (or tag it [disputed] and note translations vary and even reverse the assignment); state plainly that Vālmīki places both cities in the single Gandharva/Gāndhāra region."
+ },
+ {
+  "path": "04-deep-dives/icakki-amman-nili-katai.md",
+  "severity": "high",
+  "kind": "suspect-citation",
+  "detail": "The monograph \"Of Death and Birth: Icakkiyamman, a Tamil Goddess, in Ritual and Story\" is repeatedly attributed to \"Perundevi Srinivasan\" (lines 12, 14, 19, 54, 61, and the Sources entry line 90: \"Perundevi Srinivasan, *Of Death and Birth: Icakkiyamman, a Tamil Goddess, in Ritual and Story*\"). This is a misattribution. That book — full title \"Of Death and Birth: Icakkiyamman, a Tamil Goddess, in Ritual and Story with a Film on DVD by the Author\" (Ethno-Indology series, Harrassowitz Verlag, 2009, xvi+501 pp.) — was written by Barbara Schuler, not Perundevi Srinivasan. Perundevi Srinivasan is a real Tamil-goddess scholar (Siena University; her work centers on Mariyamman), but she did not author this title. Fix: change the author to \"Barbara Schuler\" everywhere the title appears, or drop the name and cite the title alone. Since this is the single most-cited scholarly source anchoring the article's Icakki material, the wrong author byline undermines every claim tagged to it."
+ },
+ {
+  "path": "04-deep-dives/jantu-somaka.md",
+  "severity": "high",
+  "kind": "suspect-citation",
+  "detail": "The golden mark's location is misattributed to Ganguli. Line 46 says the reborn Jantu was 'distinguished by the golden mark on his left side'; line 66 doubles down: 'the exact locus of the golden mark (left side) are given in Ganguli'; line 40 says 'golden mark on his side where the fire touched him.' Ganguli's actual text (Vana Parva CXXVII–CXXVIII, sacred-texts m03127/m03128, mirrored on vyasaonline and wisdomlib) reads 'On his back there was that mark of gold' — the mark is on the BACK, not the left side. Fix: change 'left side' to 'back' in all three places, and drop the false 'given in Ganguli' certainty about the side."
+ },
+ {
+  "path": "04-deep-dives/jantu-somaka.md",
+  "severity": "high",
+  "kind": "factual",
+  "detail": "The mother's name 'Kausalyā' is fabricated and falsely attributed to Ganguli. Line 46: 'to his original mother (Kausalyā in Ganguli's text)'; line 66: 'The mother's name (Kausalyā) ... are given in Ganguli.' In Ganguli's translation (and the CE) the mother is never named — she is referred to only collectively ('the mothers'/'those lovely women'). No Kausalyā appears in this episode. Fix: remove the name attribution; state that the mother is unnamed in the text."
+ },
+ {
+  "path": "04-deep-dives/matali-sumukha-naga-bridegroom.md",
+  "severity": "high",
+  "kind": "factual",
+  "detail": "Line 11 says the Mātali tale follows \"Kṛṣṇa's own tale of [Dambhodbhava and the Nara-Nārāyaṇa]\". The Dambhodbhava-upākhyāna is NOT narrated by Kṛṣṇa — it is narrated by Paraśurāma (Rāma Jāmadagnya). This is confirmed by the epic (Udyoga/Bhagavadyāna: Paraśurāma tells Dambhodbhava, Kaṇva tells Mātali, Nārada tells Gālava) and directly contradicted by the corpus's own canonical file 04-deep-dives/dambhodbhava-nara-narayana.md, whose breadcrumb reads 'narrated by Paraśurāma inside the Mahābhārata war-frame' and 'Rāma Jāmadagnya (Paraśurāma) speaks first among them.' Fix: change 'Kṛṣṇa's own tale of Dambhodbhava' to 'Paraśurāma's tale of Dambhodbhava.'"
+ },
+ {
+  "path": "04-deep-dives/shanti-parva-minor-upakhyanas.md",
+  "severity": "high",
+  "kind": "suspect-citation",
+  "detail": "The file states three times that its chapter numbers follow the Ganguli/Calcutta vulgate (line 6: \"Chapter numbers below follow the Ganguli/Calcutta vulgate, which the Critical Edition (BORI) renumbers\"; line 51: \"treat the figures above as vulgate references\"; line 65 Sources: \"Ganguli/Calcutta vulgate numbering: Jāpaka-upākhyāna (XII.189–193), Cirakārin-upākhyāna (XII.258), Kuṇḍadhara-upākhyāna (XII.263)\"). But three of these are actually the BORI Critical-Edition numbers, not the vulgate. Verified against sacred-texts.com (Ganguli): the Cirakārī story is Ganguli Śānti Parva Section CCLXVI = 266 (m12b093.htm), not 258; the Jāpaka reciter-of-Gāyatrī material begins at Section CXCVII = 197 (m12b024.htm), not 189–193; Kuṇḍadhara likewise sits near CCLXX–CCLXXI (~270), not 263. Each cited number is ~8 lower than the true Ganguli figure — i.e. the file has given the Critical-Edition numbering and mislabeled it as the vulgate, exactly inverting its own claim. (The one genuinely-Ganguli figure is Pūjanī §CXXXVII/137, line 66, which is correct.) Fix: either relabel 189–193 / 258 / 263 as BORI Critical-Edition numbers, or replace them with the true Ganguli vulgate numbers (Jāpaka ~197–200, Cirakārī 266, Kuṇḍadhara ~271)."
+ },
+ {
+  "path": "07-acharyas-and-sampradayas/arunagirinathar-tiruppugazh.md",
+  "severity": "high",
+  "kind": "suspect-citation",
+  "detail": "The 'Summā iru' line is attributed to Kandar Anubhūti verse 4 in two places: line 25 ('memorialised in the fourth verse of the Kandar Anubhuti — \"Summā iru, col aṟa\"... (Source: Kandar Anubhuti, v. 4)') and the Sources foot line 78 ('51 verses; esp. v. 4 (\"Summā iru col aṟa…\")'). The verse number is wrong. The line 'summā iru sollaṟa enṟalumē' opens the verse beginning 'semmān magaḷai thirudum thirudan', which is VERSE 12 of the 51, not verse 4 — confirmed by the file's own cited source kaumaram.com (anuboothi51e.html). Fix: change 'v. 4'/'fourth verse' to 'v. 12'/'twelfth verse' in both locations."
+ },
+ {
+  "path": "90-literature-corpus/vadakkan-pattukal-northern-ballads.md",
+  "severity": "high",
+  "kind": "broken-link",
+  "detail": "Line 10 in-page anchor link `[Lokanārkāvu](#the-thacholi-cycle-othenan-of-thacholi-manikkoth)` does not resolve. The target heading (line 33) `## The Thacholi cycle — Othenan of Thacholi Manikkoth` contains an em dash flanked by spaces; GitHub's heading slugger strips the em dash but keeps both spaces as hyphens, generating the anchor `the-thacholi-cycle--othenan-of-thacholi-manikkoth` (DOUBLE hyphen between 'cycle' and 'othenan'). The link uses a single hyphen. Fix: change the target to `#the-thacholi-cycle--othenan-of-thacholi-manikkoth`."
+ },
+ {
+  "path": "/home/user/the-Hindu-timeline/04-deep-dives/karandhama-avikshit-marutta-dama.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "Line 54 and Sources line 97 attribute the 'ṣoḍaśa-rājakīya (\"sixteen kings\" eulogy)' listing Marutta among the sixteen greatest sovereigns to the '**Anuśāsana** Parva'. The classic Śoḍaśarājika passage naming Marutta is the Nārada-to-Sṛñjaya consolation narrative in the **Drona Parva** (Mahābhārata 7.55–71), echoed in the Śānti Parva — not the Anuśāsana Parva. Fix: cite Drona Parva (or Śānti Parva) for the sixteen-kings eulogy; keep Ashvamedhika Parva for the gold and the Saṃvarta episode (those are correct)."
+ },
+ {
+  "path": "/home/user/the-Hindu-timeline/04-deep-dives/karandhama-avikshit-marutta-dama.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "The file twice states the ending as settled, fully-preserved tradition: 'The tradition preserves the whole descent without softening the ending' (line 6) and 'the tradition records the blood-śrāddha exactly, with attribution' (line 76). This overstates certainty: the ending is recension-dependent — the most widely translated recension (Pargiter/Calcutta) actually breaks off (ch.136) before the blood-śrāddha, which survives only in the Bombay/Poona recension (ch.137). Fix: note the recension split rather than presenting the transmitted ending as uniform across the tradition."
+ },
+ {
+  "path": "02-deities-and-cosmic-hierarchy/jyotiba-kedarling-kolhapur.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "Line 36 cites the Raktabīja motif to the wrong sub-cycle of the Devī Māhātmya: \"(*Kedāra Vijaya*; cf. *Devī Māhātmya*, Mahiṣa-vadha cycle)\". Raktabīja is not part of the Mahiṣa-vadha (second caritra, Mahishasura-slaying) episode; he appears in the third caritra, the Śumbha–Niśumbha cycle, where he is slain via Kālī/Cāmuṇḍā drinking his blood. Fix: change \"Mahiṣa-vadha cycle\" to \"Śumbha–Niśumbha cycle\" (or simply drop the sub-cycle label). Note the Sources entry (line 84) attributes the Raktabīja motif to the Devī Māhātmya correctly and without a wrong cycle name, so this is an internal inconsistency as well."
+ },
+ {
+  "path": "02-deities-and-cosmic-hierarchy/vatuka-bhairava-origin.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Line 20 states 'The Kotirudra-saṃhitā... is the fifth saṃhitā of the Śiva Purāṇa.' It is the FOURTH. The seven saṃhitās in order are Vidyeśvara, Rudra, Śatarudra, Koṭirudra, Umā, Kailāsa, Vāyavīya (confirmed Wikipedia/standard editions). Fix: change 'fifth' to 'fourth' (Umā is the fifth)."
+ },
+ {
+  "path": "03-lineages-vamsha/ekavira-ekavali-haihaya-origin.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Following from the foster-father error: §1's phrase 'The **childless Yādava king Śatajit**' mislabels the adopter as a Yādava. In the DBP the adopter is Turvasu, who is Yadu's BROTHER (both sons of Yayāti), not a descendant of Yadu — Turvasu is the eponym of a separate line, not a Yādava. So even the ethnonym is wrong for the DBP's actual figure. Fix along with the name correction: the DBP adopter is a son of Yayāti (Turvasu/Harivarman), not a Yādava."
+ },
+ {
+  "path": "03-lineages-vamsha/ila-sudyumna.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Line 5 (intro) says the Candravaṃśa ancestor \"bears children by the Moon's grandson.\" Budha is the Moon's SON, not grandson — the file itself states this correctly at line 48 (\"Budha (the planet Mercury), son of Soma/Candra by Tārā\") and at line 49 makes Purūravas the Moon's grandson (Soma → Budha → Purūravas). As written, line 5 mislabels Budha and internally contradicts §4. Fix: \"bears children by the Moon's son (Budha)\" — or, if meaning the offspring, \"mothers the Moon's grandson (Purūravas).\""
+ },
+ {
+  "path": "03-lineages-vamsha/nimi-vasishtha-mutual-curse.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "§6 misrepresents the Rāmāyaṇa's own content. The file frames the churning-birth of Mithi as belonging to \"the Purāṇic account\" (VP IV.5; BhP IX.13.13) and then states: \"The Rāmāyaṇa's Uttara-kāṇḍa telling centres on the curse, the pot-rebirth, and the blink; the bare dynastic succession Nimi → Mithi → Janaka is given elsewhere in the epic, in Janaka's own recitation of his lineage ... (Bāla-kāṇḍa sarga 71).\" This is false: Vālmīki Rāmāyaṇa Uttara-kāṇḍa sarga 57 — the very sarga the file repeatedly cites for the blink and pot-birth — itself narrates Mithi's birth from the churned/agitated body (araṇi) and names him \"the King of Videha\" and \"the ancient Janaka,\" the origin of the race of Mithilā (confirmed via the Shastri translation, wisdomlib doc424828). Fix: correct §6 to state that the Uttara-kāṇḍa (sarga 57) also carries the churning-birth of Mithi and the Nimi→Mithi→Janaka succession, and reframe the churning-etymology as a shared Rāmāyaṇa-and-Purāṇic element rather than a Purāṇic-only elaboration given by Vālmīki merely 'elsewhere.'"
+ },
+ {
+  "path": "04-deep-dives/anasuya-halted-sunrise.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "Line 62 files the Bhāgavata under \"The nagna-bhikṣā / chastity-test version\" and cites \"(Bhāgavata 4.1.15–33; … Padma Purāṇa)\" as a source for the naked-alms-and-crying-infants chastity test provoked by Nārada/the three goddesses. The Bhāgavata Purāṇa 4.1.15–33 does NOT contain that episode: it is the plain austerity-boon version — Atri performs tapas on Ṛkṣa mountain, the Trimūrti appear pleased and grant that portions of themselves (Soma, Dattātreya, Durvāsā) will be born as his sons — with no vow-breaking, no nagna demand, and no gods turned into infants. The file even contradicts itself: Sources line 90 correctly describes Bhāgavata 4.1.15–33 as only \"the boon and the births of Soma, Dattātreya, Durvāsā.\" Fix: drop the Bhāgavata from the chastity-test attribution (leaving Padma Purāṇa and the sthala-māhātmyas, which do carry the nagna-bhikṣā/infants form), or explicitly note that the Bhāgavata gives only the austerity-boon variant, not the chastity test."
+ },
+ {
+  "path": "04-deep-dives/ashokasundari-nahusha-hunda.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "The granular per-episode chapter numbers in the second half of the cycle contradict the AITM/Deshpande edition the file itself cites (wisdomlib 'AITM translation portal', listed in Sources). File says the storming and Huṇḍa's death are at 'Padma Purāṇa, Bhūmi-khaṇḍa 117–119' (line 41) and the wedding at 'Bhūmi-khaṇḍa 119–120' (line 42). In that AITM edition, chapter 115 = 'Huṇḍa is Killed in the Battle', chapter 116 = 'Nahuṣa Marries Aśokasundarī', chapter 117 = 'Nahuṣa's Consecration' (https://www.wisdomlib.org/hinduism/book/the-padma-purana/d/doc365209.html). So the file's numbers run ~3 chapters high relative to its own cited edition (Huṇḍa slain 115 not 117–119; wedding 116 not 119–120). The file does hedge 'chapters ~102–121' and 'Chapter boundaries vary by edition', which mitigates this, but the monotonic chapter-by-chapter map (102–103, 103–104, 104–106 … 117–119, 119–120) reads as precise attribution that does not match the source. Fix: align the back-half numbers to the AITM edition (Huṇḍa's death ~115, marriage ~116) or drop the per-episode chapter figures in favor of the hedged range."
+ },
+ {
+  "path": "04-deep-dives/bhagavad-gita/gita-mahatmya-tales.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "Breadcrumb line 3 links the anchor text \"Śiva\" to `../../02-deities-and-cosmic-hierarchy/dashavatara.md`, but that file is explicitly \"Daśāvatāra — The Ten Avatars of Vishnu.\" Śiva is not a Vishnu avatar; this is a semantic mislink (the target exists, so it passes the mechanical link-check, but points at the wrong deity). The later Related-Nodes link of the SAME target for \"Kṛṣṇa & the Daśāvatāra\" is correct. Fix: point the \"Śiva\" anchor at a Śiva file, e.g. `../../02-deities-and-cosmic-hierarchy/shiva-avatars-and-forms.md` or `shiva-myth-cycle.md`."
+ },
+ {
+  "path": "04-deep-dives/bhagavad-gita/gita-mahatmya-tales.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "Line 25 cross-ref links \"[Chāndogya Upaniṣad](../../90-literature-corpus/smriti-itihasa-epics.md) 4.1–3\" — but smriti-itihasa-epics.md is titled \"Smṛti — Itihāsa (The Epics)\" and covers only the Rāmāyaṇa/Mahābhārata; it does not treat the Chāndogya at all (grep finds no mention). The Chāndogya is Śruti (Upaniṣad), the opposite category from the Smṛti/Itihāsa target. This undercuts an otherwise-correct [scholarly] Raikva–Jānaśruti saṃvarga-vidyā citation. Fix: link to `../../90-literature-corpus/shruti-vedas-and-upanishads.md` or `principal-upanishads-detail.md`."
+ },
+ {
+  "path": "04-deep-dives/bhrigus-curse-on-vishnu.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Line 14 asserts a genuinely disputed genealogical point as settled and does so with an internal contradiction. It states Śukra's mother is 'a third, distinct figure (Pauloma/Divyā in some lists)' and then commands: 'Do not identify the beheaded wife with Pulomā (Cyavana's mother)... the texts keep her separate. [disputed]'. But (a) mainstream tradition (Mahābhārata Ādi-parva; Purāṇic Encyclopaedia; wisdomlib) repeatedly makes BOTH Cyavana and Śukra sons of Bhṛgu by Pulomā/Paulomī, so 'the texts keep her separate' overstates certainty — many texts in fact merge them; and (b) the passage names her 'Pauloma' while in the same breath forbidding identification with 'Pulomā' — Pauloma and Pulomā are the same name (patronymic vs. the wife herself), making the directive self-undermining. Fix: soften to a cataloged variant, e.g. '*Variant (genealogy):* some lists make Śukra's mother the same Pulomā who bore Cyavana; others treat her as a distinct wife designated only as Kāvyamātā' rather than issuing a firm 'do not identify / the texts keep her separate' instruction, and drop the confusing 'Pauloma' label from the 'distinct figure' clause. This same overstated separation is echoed at line 92 ('Bhṛgu's other son by Pulomā (the wife *not* to confuse with Kāvyamātā)')."
+ },
+ {
+  "path": "04-deep-dives/characters/angada.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "Line 51: the link text \"[Setu](../../06-sacred-geography/kishkindha-hampi-anegundi.md)\" routes the reader to the Kiṣkindhā/Hampi-Anegundi geography file — the monkey kingdom in Karnataka — but the Setu is the bridge from Rāmeśvaram to Laṅkā, an entirely different place. The target file exists (so the link-check invariant passes), but it is semantically the wrong target. A dedicated file exists: `06-sacred-geography/rameswaram-setu-bandha.md`. Fix: point the [Setu] link to `../../06-sacred-geography/rameswaram-setu-bandha.md`."
+ },
+ {
+  "path": "04-deep-dives/characters/chandesvara-chandikeshvara.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "Line 21: the link `[Devī-Māhātmya](../../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md)` is mis-targeted. The label reads \"Devī-Māhātmya\" but points to the Śiva myth-cycle file. A dedicated file exists in that same directory: `devi-mahatmya-and-the-great-goddess.md`. The link technically resolves, so it is not a dead link, but it sends a reader clicking \"Devī-Māhātmya\" to the wrong page. Fix: repoint to `../../02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md`."
+ },
+ {
+  "path": "04-deep-dives/gautama-curse-on-the-brahmins.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Famine length is misrepresented as a recensional dispute. Line 36 says 'a twelve-year famine in the telling (a fifteen-year span in some recensions)' with tag '[disputed — famine-length varies by recension]', and line 38 says 'throughout the twelve famine-years'; line 82 repeats 'the twelve- (var. fifteen-) year famine'. But the text the file itself cites (Devī-Bhāgavata XII, Vijñānānanda trans. — sacred-texts bk12ch09 / redzambala book-12-ch-9) gives BOTH numbers in the SAME chapter with different referents: 'Indra did not rain on this earth for fifteen years' (the drought), and 'the Muni Gautama fed and nourished for twelve years all the Munis' (the feeding period). So it is not a 12-vs-15 recensional variant of famine length; it is a 15-year drought plus a 12-year feeding in one text, and the file has inverted the source's actual famine figure (15) into a mere 'some recensions' variant. Fix: state the fifteen-year drought and the twelve-year feeding as the text's own two figures, and drop the '[disputed — varies by recension]' tag unless an actual variant recension is cited."
+ },
+ {
+  "path": "04-deep-dives/gautama-curse-on-the-brahmins.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "Chapter locus conflicts with the file's own cited sources. Lines 13, 28, 36, 37, and 38 tag the Nārada-temple frame, Gautama's Gāyatrī-devotion, the famine, the boon of the inexhaustible vessel, and the feeding of the brāhmaṇas each as '(Devī-Bhāgavata XII.8)'. But in both translations the file lists as its sources (Vijñānānanda: sacred-texts /hin/db/bk12ch09.htm and redzambala book-12-chapter-9), this entire narrative — famine, boon, feeding, Nārada entering the Gāyatrī temple, māyā-cow, and curse — sits in Chapter 9. Chapter 8 ('On the appearance of the Highest Śaktī') is the separate Umā-Haimavatī / Kena-Upaniṣad episode (Indra, Agni, Vāyu, and the Light), which contains only the framing question, not the Gautama story. Attributing the narrative elements specifically to 'XII.8' points to a chapter that holds a different tale. Fix: cite these to XII.9 (the Sources line's broad 'chapters 8–9' is fine; the inline '(XII.8)' tags on narrative beats are not)."
+ },
+ {
+  "path": "04-deep-dives/indra-namuchi.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "Line 34 (and Sources line 84) cite \"Taittirīya Brāhmaṇa 1.7.1.6–8\" as \"the charter-text of the [Sautrāmaṇī] rite in the Black-Yajurveda schools\" / \"the Yajurvedic charter of the Sautrāmaṇī,\" and pins P.-E. Dumont's Sautrāmaṇī study to it (line 84). This misplaces the ritual charter: the Sautrāmaṇī in the Taittirīya Brāhmaṇa is at the SECOND kāṇḍa, sixth prapāṭhaka (TB 2.6) — the passage Dumont actually translated in 'The Kaukilī-Sautrāmaṇī in the Taittirīya-Brāhmaṇa' (Proc. Amer. Phil. Soc.). TB 1.7.1.6 is at most a brief Namuci allusion (so cited on Wikipedia's 'Namuchi'), not the Sautrāmaṇī ritual charter. Fix: either correct the ritual-charter citation to TB 2.6 (and cite Dumont's Kaukilī-Sautrāmaṇī there), or drop the 'charter-text of the rite' / 'Yajurvedic charter of the Sautrāmaṇī' characterization from the 1.7.1.6–8 citation. As written the file's own pairing of '1.7.1.6–8' with 'Dumont's studies of the Sautrāmaṇī' is internally inconsistent."
+ },
+ {
+  "path": "04-deep-dives/jantu-somaka.md",
+  "severity": "medium",
+  "kind": "missing-tag",
+  "detail": "The file uses a non-standard reliability tag '[scripture]' roughly a dozen times (lines 14, 20, 29, 40, 46, 47, 51, 54, 56, 64, and in Sources). This tag is not in the sanctioned set — AGENTS.md §4 defines only '[scholarly] [disputed] [late text]/[interpolation] [folk]/[oral tradition]/[regional]', with scriptural attribution carried by the '(Source text)' parenthetical (already present as the '(Vana …)' cites). '[scripture]' is both non-canonical and redundant. Fix: drop the '[scripture]' tags; the '(Vana CXXVII–CXXVIII)' citations already mark these as scriptural."
+ },
+ {
+  "path": "04-deep-dives/kanchi-kaveri-jagannatha-legend.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Line 12 states Puruṣottama Deva 'was the third ruler of the Sūryavaṃśī Gajapati dynasty of Odisha, son of Kapilendra Deva.' He was the SECOND ruler, not the third. Kapilendra Deva founded the dynasty (1st ruler, r. c.1435-1466), Puruṣottama Deva succeeded him (2nd, r. 1467-1497), and Puruṣottama's own son Pratāparudra Deva was the 3rd. This is also internally inconsistent, since the file elsewhere (line 12 and Sources) names Kapilendra as his father and Pratāparudra as his son. Fix: change 'third ruler' to 'second ruler.'"
+ },
+ {
+  "path": "04-deep-dives/kattavarayan-katai.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "Line 61 and Sources line 92 attribute Kāttavarāyaṉ's guardian/retinue role to \"Alf Hiltebeitel, The Cult of Draupadī,\" stating he \"appears as a guardian in the retinue of the fierce goddess and in the Tamil Draupadī cult.\" This looks misattributed. The documented Hiltebeitel-associated scholarship on Kāttavarāyaṉ is the EDITED volume Alf Hiltebeitel (ed.), 'Criminal Gods and Demon Devotees: Essays on the Guardians of Popular Hinduism' (SUNY, 1989), which contains the two foundational Kāttavarāyaṉ essays — David Shulman's 'Outcaste, Guardian, and Trickster: Notes on the Myth of Kāttavarāyaṉ' and Masilamani-Meyer's 'The Changing Face of Kāttavarāyaṉ.' Kāttavarāyaṉ's retinue affiliation in the literature is with the Kāḷi/Māriyammaṉ/Aṅkāḷammaṉ complex, not specifically the Draupadī cult; the Draupadī-cult retinue claim tied to Hiltebeitel's Draupadī monograph is not supported. Fix: cite 'Criminal Gods and Demon Devotees' (Hiltebeitel ed., 1989) and/or Shulman's essay, and soften/relocate the 'Tamil Draupadī cult' claim."
+ },
+ {
+  "path": "04-deep-dives/kattavarayan-katai.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "Sources line 93 external reference '[Kaathavarayan — Wikipedia](https://en.wikipedia.org/wiki/Kaathavarayan)' is dead — that URL returns HTTP 404. No Wikipedia article exists at title 'Kaathavarayan' (that spelling is a 2008 Tamil film title). The deity article is at 'Kathavarayan (deity)' (https://en.wikipedia.org/wiki/Kathavarayan_(deity)) or 'Kathavarayan'. Fix the URL/title. NB: all INTERNAL relative markdown links in the file were verified to resolve (README.md, muttuppattan-katai.md, icakki-amman-nili-katai.md, silappatikaram-kannagi-pattini.md, and the ../02-…/, ../05-…/, ../90-…/ targets all exist); this defect is only the external Wikipedia reference."
+ },
+ {
+  "path": "04-deep-dives/manduka-frog-princess-sushobhana.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "The Ganguli section numbers are off by one and wrongly split. The file repeatedly cites the tale as \"Ganguli Vana CXCII–CXCIII\" — §2 header \"(Vana 3.190; Ganguli CXCII)\", §3 \"(Vana 3.191; Ganguli CXCIII)\", §4 \"(Vana 3.192; Ganguli CXCIII)\", and the Sources block: \"Ganguli (K. M.) translation, Vana Parva, Sections CXCII–CXCIII. Section CXCII: Parikṣit's hunt... Section CXCIII: the Vāmī/Vāmya mares...\". In fact the ENTIRE story — Parikṣit's hunt and the singing maiden, the water-covenant and its breach, the frog-massacre, Āyu's curse, the birth of Śala/Dala/Vala, the Vāmadeva-mares episode, Śala's death by four Rākṣasas, Dala's poisoned arrow killing Senajita, the frozen second arrow, and the queen's boon restoring the steeds — sits within a SINGLE Ganguli section: Vana Parva Section CXCI (191). This is directly confirmed by the file's own cited source, Project Gutenberg #12333 (Ganguli, Vana Parva Part II), where the section is headed 'SECTION CLXLI' (that edition's non-standard roman for 191) and runs continuously from 'There was a king, by name Parikshit... belonging to the race of Ikshvaku' through 'king Dala... gave unto the Muni his Vami steeds'; the next section, CLXLII (192), abruptly changes topic to the longevity of the Rishi Vaka. Fix: cite the whole tale as Ganguli Vana Parva Section CXCI (not CXCII–CXCIII), and drop the fictitious two-section split. The two-Parikṣit/frog-king/Vamadeva narrative content is otherwise faithfully rendered."
+ },
+ {
+  "path": "04-deep-dives/mucukunda-vaishravana-shanti.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "The header (line 5) and Sources (line 66) both assert this is \"Critical Edition adhyāya 12.75\" alongside \"Ganguli's translation, Section LXXIV\". This cross-reference is internally implausible: Ganguli's translation is based on the Calcutta/Bombay vulgate, NOT the Pune Critical Edition, and the CE excised interpolations so its adhyāya numbers generally run LOWER than the corresponding vulgate section numbers. A CE adhyāya (75) landing one HIGHER than the Ganguli section (LXXIV = 74) for the identical episode reads as a manufactured/guessed precision. The story itself is genuine — wisdomlib confirms the Muchukunda–Vaisravana–Vasishtha discourse as Ganguli Section LXXIV, and it falls within the Rajadharma parva (CE adhyāyas 1–130). Fix: verify the true CE adhyāya against the Pune edition, or drop the \"Critical Edition adhyāya 12.75\" precision and keep only the Ganguli Section LXXIV attribution. (verdict: PLAUSIBLE)"
+ },
+ {
+  "path": "04-deep-dives/narada-maya-taladhvaja.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "The awakening/restoration is mis-attributed to Chapter 31. Heading reads 'The awakening — restored to Nārada in a moment (DBP VI.31)' and the Sources note repeats 'the second bath, restoration to Nārada, Viṣṇu smiling... and the declared lesson of Mahāmāyā (ch. 31).' But in the very Swāmī Vijñānānanda / wisdomlib division the file explicitly claims to follow ('Chapter numbers per the standard Swāmī Vijñānānanda / wisdomlib division of Book VI'), the restoration to male form is Chapter 29, whose title is literally 'On Nārada's getting again his male form' and whose text contains the marriage, the sons, the war, the cremation ground, and the bath at Puṃtīrtha that undoes the spell. Chapters 30 ('On the glory of Mahā Māyā') and 31 ('On the glory of Māyā') are the doctrinal aftermath, not the narrative restoration. Fix: relabel the awakening as VI.29 (or drop the false precision), and correct the Sources paragraph."
+ },
+ {
+  "path": "04-deep-dives/narada-maya-taladhvaja.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "The scene chapter-numbers are shifted by one throughout. The heading 'The plunge — Nārada rises as the woman Suśīlā (DBP VI.29)' and the Sources line 'the errand to the lake and the transforming bath into the woman Suśīlā (ch. 29)' place the transformation in ch. 29, but under the cited wisdomlib/Vijñānānanda division Nārada gets the feminine form in Chapter 28 (titled 'On Nārada's getting the feminine form'). Likewise 'The catastrophe — war, and the cremation ground (DBP VI.30–31)' and 'The married life... (DBP VI.29–30)' push the marriage, war, slaughter, and Viṣṇu-as-brahmin consolation into chs. 30–31, but all of that sits inside Chapter 29 in that division. Fix: transformation = ch. 28; married life, war, cremation-ground consolation, and restoration = ch. 29; chs. 30–31 are the 'glory of Māyā' doctrinal chapters. The overall '(Skandha VI, chs. 28–31)' range is defensible, but the per-scene sub-citations are not."
+ },
+ {
+  "path": "04-deep-dives/parijata-harana.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "Line 13: the link **[Narakāsura-vadha](krishna-lila.md)** uses link text naming the Narakāsura-vadha node but targets krishna-lila.md. A dedicated canonical deep-dive file `04-deep-dives/narakasura-vadha.md` exists in the same directory. Per AGENTS.md §5 (prefer the deepest/canonical home), the target should be `narakasura-vadha.md`, not the general Kṛṣṇa-līlā page. The link resolves (krishna-lila.md exists) but points at the wrong node."
+ },
+ {
+  "path": "04-deep-dives/pitrikalpa-seven-brahmins-brahmadatta.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "The recognition-verse rendering (line 59) misplaces the birds relative to the verse it purports to quote. The famous stanza (confirmed at Harivaṃśa 1.24.20: 'sapta vyādhā daśārṇeṣu mṛgāḥ kālañjare girau / cakravākāḥ śaradvīpe haṃsāḥ sarasi mānase') assigns the CAKRAVĀKAS to Śaradvīpa and the SWANS (haṃsas) to Lake Mānasa. The file instead renders 'cakravāka-birds on the Mānasa (Śaradvīpa) lake; swans on the Mānasa water,' collapsing Śaradvīpa into Mānasa and putting the cakravākas on Mānasa — contradicting the very verse quoted. Line 50 compounds this by primary-placing the cakravākas 'on the Mānasa lake (some texts: on Śaradvīpa),' understating that the canonical verse itself locates the cakravākas specifically on Śaradvīpa. Fix: cakravākas → Śaradvīpa; swans → Mānasa lake."
+ },
+ {
+  "path": "04-deep-dives/pitrikalpa-seven-brahmins-brahmadatta.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "The intro breadcrumb (line 3) claims the tale is 'retold in the Matsya, Shiva, Padma and Mārkaṇḍeya Purāṇas,' but no Mārkaṇḍeya Purāṇa retelling is cited anywhere in the body or the ## Sources list (which names Harivaṃśa, Matsya, Shiva, Padma, Yoga-Vāsiṣṭha, Garuḍa, and the Puranic Encyclopaedia — not the Mārkaṇḍeya Purāṇa). This appears to conflate the sage-narrator Mārkaṇḍeya, who expounds the Pitṛ-kalpa within the Harivaṃśa (see the 'The frame — Mārkaṇḍeya on the power of the Pitṛs' section), with the Mārkaṇḍeya Purāṇa as a text. Fix: either add a real Mārkaṇḍeya-Purāṇa citation to Sources or drop 'Mārkaṇḍeya' from the list of retelling Purāṇas."
+ },
+ {
+  "path": "04-deep-dives/pracetas-rudra-gita.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "The ## Sources 'Web / reference' block cites `[Rudra Gita (Bhāgavata Purāṇa 4.24) — Wikipedia](https://en.wikipedia.org/wiki/Rudra_Gita)`, but no such Wikipedia article exists — the URL returns HTTP 404 and a targeted search finds no standalone en.wikipedia.org/wiki/Rudra_Gita page. Fix: remove this line or replace it with a real reference (e.g. the Dharmawiki 'Rudra Gita' entry, or the general en.wikipedia.org/wiki/Bhagavata_Purana article)."
+ },
+ {
+  "path": "04-deep-dives/prahlada-nara-narayana-battle.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "Line 36 dual-attributes the named-astra exchange to the Devī Bhāgavata: 'Prahlāda looses the **Brahmāstra**; Nārāyaṇa answers with the **Māheśvarāstra** (or **Nārāyaṇāstra**)... (Vāmana Purāṇa; Devī Bhāgavata Purāṇa IV.9)'. I fetched Devī Bhāgavata IV.9 (wisdomlib/sacred-texts): it names no Brahmāstra or Māheśvarāstra — its combat is arrows, iron club, and gadā only. The named-astra neutralization is a Vāmana Purāṇa feature. Fix: drop the 'Devī Bhāgavata Purāṇa IV.9' half of the citation on line 36, and remove 'Brahmāstra vs. Māheśvarāstra' from the DBP IV.9 summary in the Sources block (line 75), leaving it attributed to the Vāmana Purāṇa only."
+ },
+ {
+  "path": "04-deep-dives/prajapati-ushas-rudra-piercing.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Line 5 (Academic clock) says the seed-verse 'Ṛgveda 10.61.5–7 belongs to the Ṛgvedic core, [scholarly] c. 1500–1200 BCE.' This is wrong on the internal stratification: Maṇḍala 10 is the LATEST layer of the Rigveda, not the core. Scholarly consensus (Witzel etc.) places the core in the family books (Maṇḍalas 2–7, c. 1400–1200 BCE) and dates Maṇḍala 10 later, c. 1200–1000 BCE. Calling a Book-10 hymn 'the Ṛgvedic core' and back-dating it to 1500 BCE both overstate its antiquity. Fix: label RV 10.61 as belonging to the LATE Ṛgvedic stratum (Maṇḍala 10) and adjust the early bound of the date range downward accordingly."
+ },
+ {
+  "path": "04-deep-dives/pusalar-nayanar-mind-temple.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "The Sources footer cites `[Poosalar Nayanar — Wikipedia](https://en.wikipedia.org/wiki/Poosalar_Nayanar)` (line 85), but that URL returns HTTP 404 — no such article or redirect exists. The actual Wikipedia article on this saint is titled 'Pusalar' at https://en.wikipedia.org/wiki/Pusalar (verified 200). Fix: change the link target to https://en.wikipedia.org/wiki/Pusalar (and optionally the display text to 'Pusalar — Wikipedia'). All other external source links and all 15 internal relative links resolve; the '58th', Rājasiṃha/Narasiṃhavarman II, Kailāsanāthar temple, Tiruniṉṟavūr, and dream-postponement claims all check out against the live article."
+ },
+ {
+  "path": "04-deep-dives/rantideva.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "The Carmaṇvatī 'river of hides' aetiology is cited as \"(*Mahābhārata* tradition; cf. *Bhāgavata Purāṇa 9.21*)\" (line 67) and again in Sources as \"Mahābhārata tradition (with the Bhāgavata's 9.21 frame)\" (line 101). This 'cf. Bhāgavata Purāṇa 9.21' is inapt/misattributed: SB 9.21 contains no Carmaṇvatī / cattle-slaughter / hides-and-blood material — its Rantideva is a fasting ascetic at whose hands no animal is killed, a point the file itself stresses (line 76: 'no animal is killed'). The hides-river origin is exclusively the Mahābhārata (flesh-feasting) frame. Fix: drop the 'cf. Bhāgavata Purāṇa 9.21' cross-reference (and the 'with the Bhāgavata's 9.21 frame' phrase in Sources) and attribute the aetiology to the Mahābhārata alone."
+ },
+ {
+  "path": "04-deep-dives/satyavrata-aim-bija.md",
+  "severity": "medium",
+  "kind": "merged-variant",
+  "detail": "Line 63 states: 'The robber **Ratnākara**, transformed and then moved to grief when a fowler kills one of a pair of *krauñca* birds... see [Bāla Kāṇḍa]. (Rāmāyaṇa I; ...)'. The name 'Ratnākara' and the robber-turned-sage backstory for Vālmīki are NOT in Vālmīki's Rāmāyaṇa — the Bāla Kāṇḍa (sarga 2) has the krauñca/śloka episode but presents Vālmīki as an established sage with no robber past. The Ratnākara backstory is a late/folk accretion (Skanda Purāṇa and later devotional tradition). Presenting it as fact and citing 'Rāmāyaṇa I' for it conflates a late tradition with the epic. Fix: either drop the name 'Ratnākara' or tag it '[late text]'/'[folk]' and do not cite it to the Rāmāyaṇa. The file is otherwise scrupulous with reliability tags, so this untagged claim stands out."
+ },
+ {
+  "path": "04-deep-dives/shanti-parva-minor-upakhyanas.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Line 50 miscounts: \"Two (Jāpaka, Kuṇḍadhara, Ṛṣabha) are mokṣadharma, renunciation-toward-liberation; two (Cirakārī, Pūjanī) are āpaddharma/nīti\" — the first parenthesis names THREE tales but says \"Two.\" Fix: change \"Two\" to \"Three.\""
+ },
+ {
+  "path": "04-deep-dives/shiva-parvati-dice-game.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "In the 'Variant endings' section the link `[Viṣṇu](../02-deities-and-cosmic-hierarchy/sati-daksha-and-parvati.md)` uses the anchor text 'Viṣṇu' but points to the file titled 'Satī, Dakṣa & Pārvatī', which is not a Viṣṇu node. A dedicated canonical Viṣṇu node exists at `../02-deities-and-cosmic-hierarchy/vishnu-forms-and-vyuhas.md`. The target resolves (so no build-time breakage) but the link misdirects the reader and violates the canonical-home rule. Fix: repoint to `vishnu-forms-and-vyuhas.md`."
+ },
+ {
+  "path": "04-deep-dives/suvarnashthivin-srinjaya-narada-parvata.md",
+  "severity": "medium",
+  "kind": "missing-tag",
+  "detail": "The file uses a bracket tag `[scripture]` roughly 20 times (e.g. lines 12, 16, 22, 29, 37, 44, 47, 55–60, 67–68, 75–78) as a reliability marker. `[scripture]` is NOT in the AGENTS.md §4 tag vocabulary — the recognized reliability tags are `[scholarly] [disputed] [late text]/[interpolation] [folk] [oral tradition] [regional]`, and §4 states that scripture is marked by the parenthetical `(Source text)`, not by a bracket tag. The parenthetical citations (e.g. `(*Śānti Parva*, Ganguli XXX)`) already discharge this role, so `[scripture]` is both non-standard and redundant. Fix: delete the `[scripture]` tags (the parenthetical source already marks these as scriptural), reserving bracket tags for the defined interpretive/reliability set."
+ },
+ {
+  "path": "04-deep-dives/tripura-rahasya.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Line 39 states: \"**Hemalekhā** is the foundling daughter of the celestial nymph (apsaras) **Vidyullekhā**\". The character-name is wrong. In the Tripurā Rahasya (Jñāna-khaṇḍa), Hemalekhā's celestial mother is named **Vidyutprabhā** (Vidyut-prabhā) — the damsel who bathed in the river where King Suṣeṇa of Vaṅga fathered the child — as attested in the standard tellings and translations. \"Vidyullekhā\" is not the mother's name (it conflates/garbles it). Fix: change \"Vidyullekhā\" to \"Vidyutprabhā\"."
+ },
+ {
+  "path": "04-deep-dives/udayana-vasavadatta.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "The taranga range for the Udayana saga is stated as \"Tarangas 9–19\" in two places — the breadcrumb (line 3: \"Kathāmukha & Lāvāṇaka, Tarangas 9–19\") and the Sources block (line 89: \"Books II–III span **Tarangas 9–19**\"). This is off by one: in the standard Kathāsaritsāgara division, Book II Kathāmukha = tarangas 9–14 and Book III Lāvāṇaka = tarangas 15–20, with Book IV Naravāhanadattajanana beginning at taranga 21. Fix: change both occurrences of \"9–19\" to \"9–20\"."
+ },
+ {
+  "path": "04-deep-dives/vac-and-the-soma-purchase.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "Section 4, line 50 labels AB 1.27 as 'The technical somakrayaṇa' and attributes to it 'the graded price (gold, the she-goat, cloth, and above all the cow), the bargaining formulae, and the physical handling of the Soma-bundle.' In the actual text (Haug/Keith, Aitareya Brāhmaṇa Book I), khaṇḍa 27 is the Vāc-made-into-a-woman / sold-to-the-Gandharvas MYTH (with the one-year cow as price and its re-buying), located in Chapter 5. The technical purchase — graded price and bargaining formulae — is at AB 1.12–13 (Chapter 3); Haug's own cross-reference reads 'On the buying of the Soma, see 1, 12-13.' Fix: cite AB 1.12–13 for the graded price/bargaining/handling of the bundle, and reserve AB 1.27 for the Vāc-Gandharva myth (which it correctly is)."
+ },
+ {
+  "path": "04-deep-dives/vac-and-the-soma-purchase.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Section 4 heading ('The Aitareya Brāhmaṇa (1.27) — the buying and the beating of the seller') and line 51 ('the ritual ends by reclaiming goods from the seller and driving him off') attribute a beating/driving-off of the Soma-SELLER to AB 1.27. The AB does not describe beating or driving off the seller: at khaṇḍa 12 the seller is merely called 'unfit,' and Haug's note has him 'not admitted to the sacrificial compound'; the 'driving away' in khaṇḍa 27 is of the COW (the price), not the seller. The prominent 'beating of the Soma-seller' is a Śatapatha (SB 3.3.3) / śrauta-sūtra feature, not the Aitareya's. Fix: soften line 51 to the seller's exclusion/unfitness and the driving-away/re-buying of the cow, or move the seller-beating claim to its Śatapatha/śrauta-sūtra locus."
+ },
+ {
+  "path": "04-deep-dives/vipashchit-in-hell.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "§VIII Disambiguation over-claims: \"the only occurrences of the string 'Vipaścit' elsewhere in this corpus are these Indra-name lists.\" This is false on two counts. (a) A distinct fourth sense exists in the corpus: 90-literature-corpus/upanishads/katha-upanishad.md line 53 cites Kaṭha Up. I.2.18 — \"na jāyate mriyate vā vipaścit\" — where 'vipaścit' is the adjective/epithet 'the wise one' applied to the Self (the very etymology the file gives the king). That is not an Indra-name list. (b) The Indra occurrence found is a single manvantara file — 01-manvantaras/manvantara-02-svarochisha.md (Vipaścit = Indra of the Svārociṣa manvantara) — not 'lists' plural. Fix: soften to note the Kaṭha-Upaniṣadic adjectival usage as a fourth sense and drop the absolute 'the only occurrences' phrasing."
+ },
+ {
+  "path": "04-deep-dives/yama-gita.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "The yogic Yama-Gītā is attributed to \"Agni Purāṇa ch. 381\" in four places (breadcrumb, §V header 'The Agni Purāṇa recension (chapter 381)', §VI, and Sources), and §V explicitly places it '381st chapter (part of the Purāṇa's closing yoga–mokṣa section, alongside the Gītā-sāra digest)'. In the standard Dutt/wisdomlib numbering, chapter 381 IS the Gītā-sāra (essence of the Bhagavad Gītā) and the Yama-Gītā (Yama→Naciketas, chariot metaphor, jñāna/yoga) is chapter 382. So the number appears off by one — conflated with the adjacent Gītā-sāra chapter the file itself names. Edition numbering does vary (Wikipedia's Yama article cites 381), so this is not fabricated, but the 'alongside the Gītā-sāra' phrasing exposes the conflation. Fix: verify against a cited edition and change to ch. 382, or add a note that chapter numbering differs by edition (Dutt: Yamagītā = 382, Gītā-sāra = 381)."
+ },
+ {
+  "path": "04-deep-dives/yama-gita.md",
+  "severity": "medium",
+  "kind": "wrong-target-link",
+  "detail": "§V line: 'It deploys the classic **[Kaṭha](../90-literature-corpus/smriti-puranas.md) chariot-metaphor**'. The link text is 'Kaṭha' (the Kaṭha Upaniṣad, which is śruti / an Upaniṣad) but the target is smriti-puranas.md, the Purāṇas (smṛti) overview — a category mismatch. The link resolves so it is not broken, but a reader clicking 'Kaṭha' lands on the Purāṇas file. Correct targets exist: ../90-literature-corpus/upanishads/katha-upanishad.md, or the deep-dive nachiketa-katha-upanishad.md. Fix: repoint to the Kaṭha Upaniṣad file."
+ },
+ {
+  "path": "04-deep-dives/yuddha-khanda-minor-vadhas.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "Line 12 links the word Varāha — Viṣṇu's boar avatar — to Śiva's own forms page: `(as [Varāha](../02-deities-and-cosmic-hierarchy/shiva-avatars-and-forms.md))`. The file resolves, but it is about Śiva's avatars/forms and does not treat Varāha (a grep for varāha/boar there finds only the Liṅgodbhava aside about 'Vishnu as boar'). This is a mis-targeted cross-link: a reader clicking Varāha lands on a Śiva page that does not cover him. Fix: point to a Viṣṇu-avatars / Daśāvatāra file, or drop the link."
+ },
+ {
+  "path": "04-deep-dives/yuddha-khanda-minor-vadhas.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "Line 29 links `[Nārada](../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md)`. The target file exists but a case-insensitive grep for 'nārada/narada' in trimurti-and-tridevi.md returns zero hits — Nārada (a sage, not a member of the Trimūrti/Tridevī) is never mentioned there. Mis-targeted link. Fix: link to a rishis/Nārada node (e.g. under 08-beings-and-bestiary) or remove the link."
+ },
+ {
+  "path": "05-concepts-and-dharma/papa-punya-and-prayaschitta.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "Line 61 catalogs the yati-/śiśu-cāndrāyaṇa variant as '*later Smṛtis add fixed-ration forms — e.g. eating a steady eight mouthfuls daily throughout the month (the ascetic's cāndrāyaṇa). [late text] (Yājñavalkya-smṛti III)*'. This is a misattribution plus a false reliability tag: the eight-mouthfuls ascetic's lunar penance (aṣṭāv aṣṭau ... piṇḍān, eaten at midday, yati-cāndrāyaṇa) is present in Manusmṛti 11.219 itself — the same Adhyāya 11 the file leans on throughout — not a later Smṛti innovation. Fix: remove the '[late text]' tag and the 'later Smṛtis add' framing, and attribute the yati-cāndrāyaṇa (eight mouthfuls) to Manusmṛti 11.219 (it may additionally appear in Yājñavalkya-smṛti III, but it is not a later addition)."
+ },
+ {
+  "path": "06-sacred-geography/goa-shantadurga-mangeshi-kuladevatas.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Section III heading (line 28) reads \"**Mangeśī, Priol (Mardol), Ponda**\". The Śrī Mangeś temple is in Mangeśī village, Priol — Mardol is the seat of a different deity, Mahālasā, which the same file correctly assigns to Mardol at line 45 (\"**Mahālasā** (Verṇā → **Mardol**)\"). The \"(Mardol)\" parenthetical for Mangeśī is a geographic conflation of two adjacent-but-distinct villages/temples and contradicts the file's own line 45. Fix: drop \"(Mardol)\" from the Mangeśī heading (leave \"Priol\") or replace with \"(Mangeśī village)\"."
+ },
+ {
+  "path": "06-sacred-geography/kanipakam-varasiddhi-vinayaka.md",
+  "severity": "medium",
+  "kind": "suspect-tag",
+  "detail": "The Kulottuṅga Cōḻa I foundation is tagged '[scholarly]' and called the 'documented' shrine (§I line 14; §VI line 56), yet the file itself sources it only to 'temple tradition and the district record' (§VI line 56). Per AGENTS §4, '[scholarly]' = 'modern historical-critical view.' A district-gazetteer / temple-tradition attribution of this specific temple to Kulottuṅga is not epigraphically well-established scholarship, so the '[scholarly]' label plus 'documented' overstates the evidentiary status. Fix: downgrade to '[regional]'/tradition or explicitly note the Chola foundation is a traditional/gazetteer claim, not inscriptionally confirmed."
+ },
+ {
+  "path": "06-sacred-geography/kotirudra-minor-linga-legends.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "The file states twice that the Koṭirudra-saṃhitā is the SIXTH book of the Śiva Purāṇa: line 6 — \"The Koṭirudra-saṃhitā ... is the sixth book of the Śiva Purāṇa\" — and the Sources header (line 72) — \"Primary — Śiva Purāṇa, Koṭirudra-saṃhitā (Book VI)\". This is wrong. In the standard seven-saṃhitā arrangement of the Śiva Purāṇa (Vidyeśvara, Rudra, Śatarudra, Koṭirudra, Umā, Kailāsa, Vāyavīya) the Koṭirudra-saṃhitā is the FOURTH saṃhitā; wisdomlib (the file's own cited edition) labels it \"Koṭirudra-Saṃhitā [Section 4]\" / \"[Book 4]\". Fix: change \"sixth book\"→\"fourth book\" and \"Book VI\"→\"Book IV\"."
+ },
+ {
+  "path": "06-sacred-geography/kumbakonam-adi-kumbheshwara-mahamaham.md",
+  "severity": "medium",
+  "kind": "two-clocks",
+  "detail": "Internal numeric inconsistency about the tank's fords. §IV establishes nine rivers with 'nine wells around the tank standing for them' (line 46), but §V line 56 says pilgrims 'process to the twelve river-fords of the tank.' The Mahamaham tank's river-theerthams are traditionally the nava-nadi (nine wells), so 'twelve' contradicts the file's own §IV and the standard nine-well count. Fix: change 'twelve river-fords' to 'nine river-fords' (or explain the twelve if a distinct enumeration is intended)."
+ },
+ {
+  "path": "06-sacred-geography/mahisagara-sangama-kumarika-kshetra.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Line 31 (Variant (setting)): \"the Mahābhārata fixes the five crocodile-tīrthas on the southern ocean (in the Pāṇḍya/Kerala south, before Arjuna proceeds to Maṇipura and Prabhāsa).\" The narrative order is wrong for Maṇipura. In the Ādi Parva Arjuna reaches Maṇipura and marries Chitrāṅgadā FIRST, lives there ~3 years, and only THEN travels south to free the five crocodile-apsarās, afterward proceeding to Prabhāsa/Dvārakā. The crocodile episode is therefore AFTER Maṇipura, not before it. Fix: reword to \"after his Maṇipura marriage and before he proceeds to Prabhāsa,\" or drop Maṇipura from the 'before' clause. (Confirmed via MB Ādi Parva, Arjuna-vanavāsa Parva, section CCXVIII.)"
+ },
+ {
+  "path": "06-sacred-geography/suchindram-sthanumalayan.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Line 32 states the monolithic Hanumān stands \"roughly five-and-a-half metres (about 18 ft).\" The widely documented figure — including the file's own cited source, the Suchindram/Thanumalayan Wikipedia article — is 22 ft (6.7 m). The internal m→ft conversion is self-consistent, but the value contradicts the cited source. Fix: change to \"about 6.7 metres (roughly 22 ft)\" (18 ft is the height sometimes given for the musical-pillar colonnettes, not the Hanumān)."
+ },
+ {
+  "path": "06-sacred-geography/tarapith-tara-vashishtha-bamakhepa.md",
+  "severity": "medium",
+  "kind": "missing-tag",
+  "detail": "The file uses a non-sanctioned reliability tag `[tantra]` six times (lines 15, 19, 26, 27, 28, 31 — e.g. line 19 'she holds sword, scissors ... [tantra]' and line 31 '... left-hand Tantra alongside Kāmākhyā ... [tantra]'). AGENTS.md §4 and the audit spec enumerate the permitted tag set as `[scholarly] [disputed] [late text] [interpolation] [folk] [oral tradition] [regional]`; `[tantra]` is not among them. Fix: replace each `[tantra]` with an approved tag — most of these Tantric-liturgy claims fit `[regional]` or `[disputed]`/`[scholarly]` (e.g. the Vasiṣṭha-Cīnācāra charter bullets are already partly `[disputed]`), or drop the tag where the parenthetical text-citation already covers provenance."
+ },
+ {
+  "path": "06-sacred-geography/ujjain-mahakalavana-kapalamochana.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "Line 61 attributes the Kurukṣetra Kapālamocana story to \"the sage Maṅkaṇaka\" and cites \"*Mahābhārata, Śalya-parva* tīrtha-yātrā\": \"a skull … fell from a tree onto the sage Maṅkaṇaka and was freed by the tīrtha's water.\" This misnames the sage. In the Śalya-parva (Book 9, ~sec. 39) the rākṣasa's head cut off by Rāma falls from the sky onto the thigh of the sage MAHODARA, who is then freed by bathing at the Uśanasa/Kapālamocana tīrtha on the Sarasvatī. Maṅkaṇaka is a DIFFERENT rishi with his own tīrtha in the same Balarāma tīrtha-yātrā and an unrelated story (his cut finger runs with vegetable sap and he dances). Fix: replace \"Maṅkaṇaka\" with \"Mahodara\" for the Śalya-parva skull-fall. Secondary in the same bullet: \"fell from a tree\" contradicts the text's \"coursed through the welkin\" (fell from the sky onto his thigh); and the \"skull … of the demon Rāhu struck by Viṣṇu\" option is not the Śalya-parva version (which is the rākṣasa slain by Rāma) — the Rāhu attribution should carry its own source or a hedge rather than riding on the Śalya-parva citation."
+ },
+ {
+  "path": "06-sacred-geography/vadnagar-hatakeshvara-kshetra.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Line 68 (and Sources, line 88) call the 949 CE Harṣola copper-plates \"Rāṣṭrakūṭa Harṣola plates.\" They are Paramāra plates, issued by Paramāra king Siyaka II (Harṣa) — the earliest known Paramāra epigraph. The Rāṣṭrakūṭas are relevant only because the plates attest Siyaka's subordination as a mahāsāmanta to Rāṣṭrakūṭa overlord Kṛṣṇa III; the grant itself is Paramāra, not Rāṣṭrakūṭa. Fix: relabel as 'Paramāra (Siyaka II) Harṣola plates of 949 CE.' The date and the substance (grant to Nāgara Brahmins 'from Ānandapura') are otherwise correct."
+ },
+ {
+  "path": "06-sacred-geography/vadnagar-hatakeshvara-kshetra.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "Sources (line 85) cites the Nāgara-khaṇḍa translation as 'AITM = Ancient Indian Tradition & Mythology series, vols. 11–12, ed. G. V. Tagare, MLBD.' The volume numbers are wrong: the MLBD/AITM Skanda Purāṇa occupies AITM vols. 49–71 (23 parts), with the Nāgara-khaṇḍa falling in the later parts (roughly AITM vols. 66–69). AITM vols. 11–12 are a different text entirely (not Skanda Purāṇa). Even under internal Skanda-Purāṇa part-numbering, parts 11–12 are earlier khaṇḍas, not Nāgara. Fix: correct the volume numbers or drop the specific vol. figure."
+ },
+ {
+  "path": "06-sacred-geography/yadagirigutta-pancha-narasimha.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "Line 20: the anchor text \"Rāmāyaṇa\" links to `../04-deep-dives/prahlada-narasimha.md` — the Prahlāda–Narasiṃha deep dive, which has nothing to do with the Rāmāyaṇa. The target resolves but is the wrong file. A dedicated Rāmāyaṇa home exists at `../04-deep-dives/ramayana/` (and the sentence is specifically about Ṛṣyaśṛṅga's putra-kāmeṣṭi in the Bāla-kāṇḍa). Fix: repoint the \"Rāmāyaṇa\" link to the Rāmāyaṇa directory/README (or to `../04-deep-dives/rishyashringa.md`), not to prahlada-narasimha.md."
+ },
+ {
+  "path": "06-sacred-geography/yadagirigutta-pancha-narasimha.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "Line 50: the anchor text \"Tretā-Yuga\" links to `../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md` — the Kali-Yuga file, contradicting the anchor. The correct sibling file `02-treta-yuga.md` exists in the same `mahayuga-28-current/` directory. Fix: repoint \"Tretā-Yuga\" to `.../mahayuga-28-current/02-treta-yuga.md`."
+ },
+ {
+  "path": "06-sacred-geography/yadagirigutta-pancha-narasimha.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "Line 16: the anchor text \"Hanumān\" links to `../02-deities-and-cosmic-hierarchy/dashavatara.md` (the ten-avatars page); Hanumān is not one of the Daśāvatāra, and a dedicated `../02-deities-and-cosmic-hierarchy/hanuman.md` exists in that same directory. Fix: repoint the \"Hanumān\" link to hanuman.md."
+ },
+ {
+  "path": "07-acharyas-and-sampradayas/indenture-diaspora-hinduism.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Line 51 dates the Grand Bassin discovery-vision to '1888': 'tradition holds that in **1888** the priest **Paṇḍit Jhummon Giri Gosāgne** ... was granted a vision/dream ... he led the first pilgrimage.' The standard account of this legend places the dream in 1897 and the first pilgrimage (led by Pandit Giri Gossagne of Triolet) in 1898; some sources give 1887/1890s, but none support 1888 as the vision year. The bullet is correctly tagged [folk][oral tradition], but the specific year appears to be an error. Fix: change '1888' to '1897 (first pilgrimage 1898)' or state the dating as uncertain (c. 1890s)."
+ },
+ {
+  "path": "07-acharyas-and-sampradayas/indenture-diaspora-hinduism.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "Line 92 (## Sources) reads 'Stephanie Bilby / Paul Younger, *New Homelands* (2010)', which attributes the book *New Homelands* jointly to Bilby and Younger. *New Homelands: Hindu Communities in Mauritius, Guyana, Trinidad, South Africa, Fiji, and East Africa* (Oxford, 2010) is a single-author work by Paul Younger; Stephanie Bilby is a separate scholar of Guyanese Kali-Mai (cited correctly as a bare name at line 41). The slash makes it read as co-authorship of that title. Fix: separate them, e.g. 'Paul Younger, *New Homelands* (2010); Stephanie Bilby (Kali-Mai fieldwork).'"
+ },
+ {
+  "path": "07-acharyas-and-sampradayas/later-advaita-acharyas.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "Line 30 states the Pañcapādikā is \"a commentary that survives only on the first five *pādas* of the *Brahmasūtra-bhāṣya*.\" This is inaccurate and misattributed to the cited source. The Wikipedia \"Padmapada\" article (the citation given) says \"all that survives of the work is an extended gloss on the first four aphorisms\" — i.e. it survives only on the catuḥsūtrī (the first four *sūtras*), not the first five *pādas*. The phrase 'five pādas' derives from the title's literal meaning (pañca-pādikā), not from what is extant; the file conflates the title-etymology with the surviving scope and inflates it. Fix: change to \"survives only as a gloss on the first four sūtras (the catuḥsūtrī) of the Brahmasūtra-bhāṣya\" (optionally noting that the title 'Pañcapādikā' is variously explained)."
+ },
+ {
+  "path": "07-acharyas-and-sampradayas/nandanar-tirunalaippovar.md",
+  "severity": "medium",
+  "kind": "broken-link",
+  "detail": "The external Wikipedia citation URL `https://en.wikipedia.org/wiki/Nandanar_(Nayanar)` does not exist — the Wikipedia API returns `\"title\":\"Nandanar (Nayanar)\",\"missing\":\"\"` and WebFetch returns HTTP 404. The correct article is titled simply \"Nandanar\" (pageid 7876679, https://en.wikipedia.org/wiki/Nandanar). This dead URL is used 5 times: lines 13, 29, 57, 59, and in Sources line 83 ([Nandanar (Nayanar) — Wikipedia]). Fix: replace all with `https://en.wikipedia.org/wiki/Nandanar` and link text `Nandanar — Wikipedia`. (Internal relative links all resolve fine; this is the external citation.)"
+ },
+ {
+  "path": "08-beings-and-bestiary/panjurli-guliga-tulu-daivas.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "The edited volume is cited three times as \"*Oral Epics of India*\" (line 14 \"(*Oral Epics of India*, 1989...)\", line 56 \"(Claus; *Oral Epics of India*.)\", and Sources line 80 \"*Oral Epics of India* (University of California Press, 1989)\"). The correct title is \"Oral Epics IN India\" (Blackburn, Claus, Flueckiger & Wadley, eds., University of California Press, 1989, ISBN 0520063244). The editors, press, and year are right; only the title preposition is wrong. Fix all three occurrences to \"Oral Epics in India.\""
+ },
+ {
+  "path": "90-literature-corpus/dharma-nibandhas-and-digests.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Section I, Caturvarga-cintāmaṇi bullet (line 23) states the surviving giants are \"the Vrata-khaṇḍa … the Dāna-khaṇḍa, the Parisesha-khaṇḍa … and a Mokṣa-khaṇḍa; the Tīrtha-khaṇḍa is largely lost.\" This is wrong: both the Tīrtha- AND Mokṣa-khaṇḍas are lost/unavailable, while the extant sections are Vrata, Dāna and Pariśeṣa (plus surviving Prāyaścitta material). Confirmed by Kane and Hindupedia (\"the sections dealing with tirtha and moksha are not available now\"). The error is repeated in the Sources list (line 74): \"Vrata-, Dāna-, Parisesha- and Mokṣa-khaṇḍas.\" Fix: drop Mokṣa from the surviving list and state that BOTH Tīrtha- and Mokṣa-khaṇḍas are lost (some scholars think Hemādri never completed them)."
+ },
+ {
+  "path": "90-literature-corpus/hitopadesha.md",
+  "severity": "medium",
+  "kind": "factual",
+  "detail": "Line 64 bolds \"**First Sanskrit book into English** — Charles Wilkins published his translation... (1787)\". This is inaccurate as a lead claim: Wilkins' own translation of the Bhagavad Gītā ('The Bhǎgvǎt-Gēētā, or Dialogues of Krěěshnǎ and Ǎrjǒǒn', London, 1785) preceded the Hitopadeśa (1787) and is the universally recognized first direct English translation of a Sanskrit work. The prose hedges correctly ('among the earliest renderings of any Sanskrit work'), but the bold header overstates. Fix: change the lead to '**Among the first Sanskrit books into English**' or note that Wilkins' 1785 Gītā came first."
+ },
+ {
+  "path": "90-literature-corpus/manusmriti-map.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "In the Adhyāya 7 (Rājadharma) section, the bullet 'Statecraft — the seven limbs and the six measures' attributes the seven constituents of the state to '(Manu 7.54–7.215)': '**seven constituents of the state (saptāṅga:** king, minister, realm, fortress, treasury, army, ally)'. The canonical saptāṅga enumeration is NOT in chapter 7 — it is Manu 9.294–297 (verified: Manu 9.294 lists svāmin, amātya, pura, rāṣṭra, kośa, daṇḍa/bala, suhṛt). Chapter 7 correctly covers the maṇḍala and the ṣāḍguṇya (six measures of foreign policy, ~7.160), but placing the saptāṅga list under Adhyāya 7 with a 7.54–7.215 citation is a wrong-chapter misattribution. Fix: cite the saptāṅga to Manu 9.294–297 (or note it appears in ch. 9), and keep only the ṣāḍguṇya/maṇḍala under the 7.54–7.215 range."
+ },
+ {
+  "path": "90-literature-corpus/shuka-saptati.md",
+  "severity": "medium",
+  "kind": "suspect-citation",
+  "detail": "The scholar credited for the early-9th-century dating is misnamed. Line 19 reads \"Ödön (Edith) Töttössy argued on sociopolitical grounds for an archetype in the early 9th century CE\" and line 89 (Sources) reads \"Edith (Ödön) Töttössy, studies on the Śukasaptati recensions and dating.\" The indologist is Csaba Töttössy (Hungarian, 1931–2011; candidate dissertation 'A Śukasaptati és az ind társadalom'), who placed the common archetype c. 800 CE. Both 'Ödön' and 'Edith' are incorrect first names. Fix: replace with 'Csaba Töttössy' in both places. The underlying dating claim (early-9th-c. archetype, 12th-c. received form, 15th-c. oldest MS) is correct and properly kept on the academic clock — only the name is wrong."
+ },
+ {
+  "path": "/home/user/the-Hindu-timeline/04-deep-dives/karandhama-avikshit-marutta-dama.md",
+  "severity": "low",
+  "kind": "merged-variant",
+  "detail": "The genuinely variant resolution of Avīkṣit's arc is narrated inline as hedged prose — 'in one telling turning to **austerities**' (line 45) and 'One strand adds that ... he even **held back from completing the marriage**' (line 44) — rather than cataloged as nested '- *Variant (Source):*' bullets per AGENTS.md §4. The hedges keep it from being a true false-certainty violation, but the disagreeing strands should be broken out as attributed nested variant bullets to match the house convention."
+ },
+ {
+  "path": "02-deities-and-cosmic-hierarchy/ashvins.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 26/27: 'Atri Saptavadhri (\"Atri of the seven openings\")' — the gloss of *Saptavadhri* as 'seven openings' is not supported. *Vadhri* means 'a fetter/leather-strap' or 'eunuch/emasculated' (Monier-Williams), so the name reads as 'seven-fettered / seven-times-bound' (matching the RV 5.78 imagery of the sage enclosed and praying for release like a child from the womb), not 'seven openings'. Fix the parenthetical gloss to reflect 'bound/fettered' rather than 'openings', or drop the false etymology."
+ },
+ {
+  "path": "02-deities-and-cosmic-hierarchy/kathivanur-veeran.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "Two variant bullets use a non-standard reliability tag `[open-ended]` (line 25: \"*Variant (bride's kin):* ... [folk] [open-ended]\" and line 28: \"*Variant (who forgot / turned back):* ... [folk] [open-ended]\"). `[open-ended]` is not part of the sanctioned tag vocabulary ([scholarly] [disputed] [late text] [folk] [regional] [oral tradition]). Fix: replace with a sanctioned tag such as `[disputed]` (traditions genuinely disagree) or simply drop it, leaving `[folk]`."
+ },
+ {
+  "path": "02-deities-and-cosmic-hierarchy/muchilottu-bhagavathy.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The breadcrumb blockquote (line 3) runs to a full multi-sentence paragraph (identity gloss plus six cross-linked 'Read beside…' related nodes plus a tag row), exceeding AGENTS §4's '1–3 line breadcrumb' guidance. The required elements are all present (up-link to README.md, tags), so this is a stylistic overrun, not a missing-element failure — could be trimmed to the 'where this sits' + one-line identity, moving the related-node list to the existing '## Related Nodes' section."
+ },
+ {
+  "path": "02-deities-and-cosmic-hierarchy/pottan-theyyam.md",
+  "severity": "low",
+  "kind": "merged-variant",
+  "detail": "The breadcrumb (line 3) and H1 (line 1) foreground one variant — 'rebukes Shankaracharya' / 'identified in the thoṭṭam as Śaṅkarācārya' — without the [disputed] tag, whereas line 13 correctly catalogs that other tellings leave the antagonist a generic Nampūtiri Brahmin or unnamed ācārya and tags it [disputed]. Minor because the body properly catalogs the variant and the breadcrumb hedges with 'identified in the thoṭṭam as'; consider adding a brief '(in some tellings)' qualifier to the breadcrumb to avoid stating the disputed identity as the settled frame."
+ },
+ {
+  "path": "02-deities-and-cosmic-hierarchy/prakriti-khanda-goddess-origins.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "§4 (line 43) calls Menā (Mainā) 'wed to Mount Himavat and thereby maternal grandmother-line of Pārvatī and Gaṅgā.' In standard Purāṇic genealogy Menā/Himavat are the direct PARENTS of Pārvatī (and, in the common tradition, of Gaṅgā) — Menā is the mother, not the grandmother. As written the phrase demotes her role by one generation. Fix: make clear Menā is the mother of Pārvatī/Gaṅgā and that it is the Pitṛs (via Svadhā), one generation above Menā, who form the maternal grandparent line."
+ },
+ {
+  "path": "02-deities-and-cosmic-hierarchy/shakambhari-shatakshi-durgamasura.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Line 57 presents the Sanskrit phrase in quotation marks as if a textual quotation: \"she is Durgā because she slew the asura Durgama — 'Durgāṃ Durgama-nāśanāt,' the name is the trophy of this victory.\" This exact phrase is not a canonical verse of Devī-Bhāgavata VII.28 or Devī Māhātmya 11; it is a reconstructed/paraphrastic etymological formula. It is semantically accurate and not pinned to a false verse number, but the quotation marks read as a direct scriptural citation. Fix: drop the quote marks or reword as a paraphrase (e.g. 'the name is derived from durgama-nāśana, the slaying of Durgama') rather than presenting it as a quoted śloka fragment. The verse-level citations flanking it (VII.28; DM 11.49–50) are themselves plausible."
+ },
+ {
+  "path": "03-lineages-vamsha/ila-sudyumna.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Line 31: \"commissions his priest — usually **Vasiṣṭha**, with the Bhārgava **Ṛcīka**/hotṛ officiating\" (cited to *Bhāgavata Purāṇa* IX.1; *Viṣṇu Purāṇa* IV.1). In Bhāgavata 9.1 the officiant is Vasiṣṭha and the erring hotṛ is unnamed; I can find no tradition naming the Bhārgava Ṛcīka as hotṛ of Manu's son-rite. Ṛcīka is the Bhārgava of the Gādhi/Satyavatī caru-swap story — which this file itself cross-links (line 98) — so this looks like a cross-story conflation grafted onto the Bhāgavata/Viṣṇu citation. Fix: drop the specific \"Ṛcīka\" naming or move it to a *Variant* bullet with its own attribution."
+ },
+ {
+  "path": "03-lineages-vamsha/ila-sudyumna.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 49 calls Purūravas \"grandson of the Moon on his father's side and of the Sun (Manu ← Vivasvān) on his mother's,\" presenting the two as symmetric. The Moon side is a true grandson (Soma → Budha → Purūravas), but the Sun side is a great-grandson: Vivasvān/Sūrya → Manu → Ilā → Purūravas (three generations, as the parenthetical chain itself shows). Calling him \"grandson of the Sun\" is one generation short. Fix: \"great-grandson of the Sun\" or reword to \"descendant of the Sun.\""
+ },
+ {
+  "path": "03-lineages-vamsha/markandeya-vaivasvata-king-tales.md",
+  "severity": "low",
+  "kind": "merged-variant",
+  "detail": "Section 0, the '*Name of the progenitor [disputed: spelling]*' bullet lists the branch-head as appearing as 'Diṣṭa, Nediṣṭha, Riṣṭa, Ariṣṭa, and Dhṛṣṭa across recensions.' Diṣṭa/Nediṣṭha/Riṣṭa/Ariṣṭa are one garbled name-cluster, but **Dhṛṣṭa** is conventionally a DISTINCT son of Vaivasvata Manu (ancestor of the Dhārṣṭaka kṣatriyas) in the standard enumeration of Manu's nine/ten sons, not merely a spelling of Diṣṭa. Presenting Dhṛṣṭa flatly as a spelling variant risks conflating two separate sons. Mitigation: the bullet is tagged [disputed] and framed as recensional variance, so it is only borderline. Fix: either drop 'Dhṛṣṭa' from the variant list or add a phrase noting Dhṛṣṭa is elsewhere counted a separate son with whom this name is confused."
+ },
+ {
+  "path": "03-lineages-vamsha/markandeya-vaivasvata-king-tales.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Section 5 'Scriptural clock' places these kings both 'at the dawn of the current manvantara' AND 'in the early Satya (Kṛta) band of the current Mahāyuga' (i.e. the 28th, per the corpus 'you are here'). These are in tension: Manu's own sons at the manvantara's dawn would fall in the FIRST Mahāyuga of the Vaivasvata manvantara, not the 28th. The file itself hedges this ('The Purāṇa does not yuga-stamp each reign; the placement is the standard genealogical inference'), and the tradition does fudge the two framings together, so this is a minor internal-consistency wobble rather than a two-clocks (scriptural vs academic) collapse. Fix: reconcile the two phrasings, e.g. state that the genealogical convention projects the Manu-descendants onto the early Satya of the current 28th Mahāyuga rather than literally the manvantara's opening Mahāyuga."
+ },
+ {
+  "path": "03-lineages-vamsha/nimi-vasishtha-mutual-curse.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The breadcrumb blockquote (line 3) is a single ~130-word dense paragraph rather than the conventional 1–3 line breadcrumb (AGENTS.md §4). It does contain the required up-link (\"Parent: [03 — Lineages (Vaṃśa)](README.md)\") and the master-index link, so it is not disqualifying, but it packs full narrative content (yuga placement, dating, cross-links) that belongs in the body. Consider trimming to a true 1–3 line 'where this sits' pointer."
+ },
+ {
+  "path": "04-deep-dives/adi-baka-bird-war.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "Lines 38, 47, 49 use non-canonical tags '[variant naming]' and '[variant]' that are not in the AGENTS.md §4 reliability-tag set ([scholarly] [disputed] [late text] [interpolation] [folk] [oral tradition] [regional]). The variants are already correctly cataloged via the nested '*Variant (…):*' bullets, so these ad-hoc tags are redundant. Minor: either drop them or map to a sanctioned tag."
+ },
+ {
+  "path": "04-deep-dives/bhagavad-gita/gita-mahatmya-tales.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 12: \"the Gītā ... is spoken at the close of Dvāpara (war traditionally c. 3102 BCE).\" In the traditional reckoning 3102 BCE is the ONSET of Kali Yuga (Kṛṣṇa's departure); the Mahābhārata war / speaking of the Gītā is conventionally placed ~36 years earlier, c. 3138 BCE. The \"c.\" softens it and this stays within the scriptural clock (no two-clocks collapse), but the war date is conflated with the Kali epoch. Fix: either \"war traditionally c. 3138 BCE\" or reword to \"just before Kali began, c. 3102 BCE.\""
+ },
+ {
+  "path": "04-deep-dives/bharata-gandharva-conquest-takshashila.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Consequent to the misattribution above, the annihilation count is internally inconsistent with the file's own cited source. §II and §VI repeatedly say the 'three crore Gandharvas' / 'entire host of three crore' are destroyed, sourced to '(Vālmīki *Uttara* 101)' and the Shastri translation — but Shastri's Uttara 101 states three hundred thousand slain. Either correct the number to match the cited Vālmīki text or explicitly attribute the three-crore figure to the Agni Purāṇa."
+ },
+ {
+  "path": "04-deep-dives/brahmottara-khanda-vrata-tales.md",
+  "severity": "low",
+  "kind": "merged-variant",
+  "detail": "The one genuine textual variant in the file — the husband's name Candrāṅgada vs Citrāṅgada (line 20) — is formatted as '*Note (name):*' rather than the AGENTS §4 canonical nested form '*Variant (Source):*'. It is correctly attributed (Motilal/Tagare vs gap-lists/retellings) and not merged into false certainty, so the spirit of the convention is met; this is only a cosmetic deviation from the prescribed variant-nesting label. No factual defect."
+ },
+ {
+  "path": "04-deep-dives/characters/angada.md",
+  "severity": "low",
+  "kind": "broken-link",
+  "detail": "Line 105: the second Wikipedia citation has link text \"Angada Rayabaram\" but its URL is `https://en.wikipedia.org/wiki/Angada` (a generic Angada disambiguation target, not an \"Angada Rayabaram\" article). Text and target disagree. Fix: either relabel the link to match /wiki/Angada or point it at an actual Aṅgada-Rāyabāram / embassy page; do not present a disambiguation URL as if it were the named article."
+ },
+ {
+  "path": "04-deep-dives/characters/angada.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 40: Suṣeṇa is listed both as leader of the WEST search-party (\"west under Suṣeṇa\") and, in the same sentence, as a member serving UNDER Aṅgada in the SOUTH party (\"with Hanumān, Jāmbavān … Tāra, Suṣeṇa, Nala\"). One figure cannot lead the west and simultaneously march south. In Vālmīki the west party is led by Suṣeṇa (Tārā's father); the same name in the south roster is an internal inconsistency (or an unmarked name-collision). Fix: drop Suṣeṇa from the south-party member list, or annotate that a distinct vānara shares the name."
+ },
+ {
+  "path": "04-deep-dives/characters/chandesvara-chandikeshvara.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "Word count is 2615 (wc -w), which exceeds the ~1,200–2,500 convention band by ~115 words. Marginal overage; trim the Related Nodes / Sources or the more repetitive nirmālya passages to bring it under 2,500. This is the only reason shapeOk is false — H1, breadcrumb blockquote with up-link to the section README, dense sourced bullets, cataloged nested *Variant (…)* bullets, reliability tags, and the `## Sources` foot are all present and correct."
+ },
+ {
+  "path": "04-deep-dives/characters/chandesvara-chandikeshvara.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "Line 21 uses the non-standard tag `[disputed identification]`, which is not in the sanctioned tag set ([scholarly] [disputed] [late text] [folk] [regional] [oral tradition]). Fix: use the canonical `[disputed]` (the sentence already carries `[scholarly]` alongside it)."
+ },
+ {
+  "path": "04-deep-dives/characters/jagannatha-bhakta-legends.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "Line 50 uses a non-sanctioned reliability tag: 'the miracles are undatable \"grace-events.\" [legend]'. The approved tag set (AGENTS §4) is [scholarly] [disputed] [late text]/[interpolation] [folk] [oral tradition] [regional]; '[legend]' is not among them. Fix: replace '[legend]' with an approved tag such as '[oral tradition]' or '[folk]' to keep the tag vocabulary consistent."
+ },
+ {
+  "path": "04-deep-dives/characters/jagannatha-bhakta-legends.md",
+  "severity": "low",
+  "kind": "broken-link",
+  "detail": "The anchor text 'Pañcasakhā' is linked to the Jagannāth Purī geography file on both line 15 and line 51: '[Pañcasakhā](../../06-sacred-geography/jagannath-puri-purushottama-kshetra.md)'. The link resolves, but a dedicated canonical file for the Pañcasakhā exists at '90-literature-corpus/odia-literature-sarala-and-panchasakha.md'. This is a link-text/target mismatch — the term Pañcasakhā points to an unrelated kṣetra file rather than its own home node. Fix: repoint both 'Pañcasakhā' links to '../../90-literature-corpus/odia-literature-sarala-and-panchasakha.md'."
+ },
+ {
+  "path": "04-deep-dives/dasharatha-shani-stotra-legend.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "The tag `[scripture]` is used three times (line 21 on the Mahābhārata portent, line 38 on the stotra names, line 77 in Sources) but is NOT part of the sanctioned reliability-tag vocabulary in AGENTS.md §4, which lists only [scholarly] / [disputed] / [late text] / [interpolation] / [folk] / [oral tradition] / [regional]. The parenthetical `(Source text)` already signals scriptural attribution, making a bracketed `[scripture]` tag both non-standard and redundant. Fix: drop `[scripture]` (the source-in-parens carries the signal) or, where a reliability caveat is genuinely intended, replace with an approved tag."
+ },
+ {
+  "path": "04-deep-dives/dasharatha-shani-stotra-legend.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 48 places the chief Śani-kṣetra Tirunallar in \"Tamil Nadu\": `**Tirunallar** (Tamil Nadu, chief Śani-kṣetra)`. The Tirunallar Dharbaranyeswarar / Saniswaran temple is in Karaikal district, which is part of the Union Territory of Puducherry (though geographically surrounded by Tamil Nadu), not the state of Tamil Nadu. Fix: change to \"Karaikal, Puducherry\" (or \"Karaikal, U.T. of Puducherry\")."
+ },
+ {
+  "path": "04-deep-dives/devaki-six-sons-shadgarbha.md",
+  "severity": "low",
+  "kind": "broken-link",
+  "detail": "Line 69 (Sources): '*Harivaṃśa* (khila of the [Mahābhārata](harivamsha.md))' anchors the word 'Mahābhārata' to harivamsha.md. The target resolves so it is not a broken link, but the anchor is mislabeled: a mahabharata/ directory (with its own node) exists in 04-deep-dives, so a reader clicking 'Mahābhārata' lands on the Harivaṃśa file instead. Fix: either relabel the link text to 'Harivaṃśa' or point 'Mahābhārata' at the mahabharata/ node (e.g. mahabharata/README.md)."
+ },
+ {
+  "path": "04-deep-dives/gopichandra-maynamati-nath-epic.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 12: 'tradition (and much scholarship) locates them roughly in the Pāla-period Bengal of c. 900–1100 CE [scholarly]'. The label 'Pāla-period' is slightly loose: the historical ruler most scholars actually propose behind Māṇikcandra/Gopīcandra is Govindacandra of the Chandra dynasty of Vaṅga/Harikela (early 11th c.) — a regional dynasty contemporary with, but distinct from, the Pālas. The claim is well-hedged ('roughly', 'inconclusively', [scholarly]/[disputed]), so this is a minor imprecision, not a fabrication; consider 'early-medieval Bengal (c. 900–1100 CE)' or naming the Chandra-dynasty candidate to avoid implying the candidate ruler was a Pāla."
+ },
+ {
+  "path": "04-deep-dives/icakki-amman-nili-katai.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "Word count is 2,518, marginally above the stated ~1,200–2,500 target ceiling (18 words over). Trivial; noted for completeness only. All other shape elements (H1, breadcrumb blockquote with up-link to README.md, dense sourced bullets, nested *Variant (Source):* catalog bullets, reliability tags, ## Sources foot) are present and correct."
+ },
+ {
+  "path": "04-deep-dives/indradyumna-akupara-oldest-beings.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Line 19 and the Sources list name the owl \"Prāvārakarṇa\" and gloss it \"mantle-eared\" (prāvāra = mantle/cloak). But the attested name in the very source cited — Mahābhārata Vana Parva §CXCIX (Ganguli §199) and Vettam Mani's Purāṇic Encyclopaedia — is Prāvīrakarṇa (prāvīra = chief/hero, not 'mantle'). The story, section number and cattle-dug-lake detail all check out, but this specific proper name has been altered to a nonstandard spelling and a folk-etymology gloss ('mantle-eared') built on the altered form. Fix: use Prāvīrakarṇa (or catalog the Prāvāra- spelling as a variant) and drop or correct the 'mantle-eared' gloss."
+ },
+ {
+  "path": "04-deep-dives/indradyumna-akupara-oldest-beings.md",
+  "severity": "low",
+  "kind": "spelling-inconsistency",
+  "detail": "The crane's name is spelled inconsistently: line 19 reads 'a **crane named Nāḍījaṅga** dwelling by a lake' (no final 'gh'), while lines 20, 21, 75, and 77 all use 'Nāḍījaṅgha'. The attested form is Nāḍījaṃgha/Nāḍījaṅgha. Fix the line-19 instance to 'Nāḍījaṅgha' so the name is uniform."
+ },
+ {
+  "path": "04-deep-dives/jantu-somaka.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "Editorial glosses are written in the reserved reliability-tag bracket syntax, e.g. '[the inset's signature scene]' (line 35), '[the horror at the center of the tale]' (line 42), '[the ethical core]' (line 53), '[the tale's moral triumph]' (line 55), '[the price/setting …]'. These are authorial commentary, not reliability tags, and reusing the '[...]' form for them muddies the tag convention. Fix: convert them to plain prose or parenthetical asides, reserving '[...]' for the sanctioned reliability tags."
+ },
+ {
+  "path": "04-deep-dives/kalkuda-kallurti.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 15 calls the Kārkaḷa Gommaṭeśvara 'the second-largest of the coast's Bāhubali monoliths, after the c. 57-ft image at Śravaṇabeḷagoḷa (981 CE).' This is internally inconsistent: Śravaṇabeḷagoḷa is NOT a coastal monolith — it stands inland in Hassan district, not in the Tuḷu coastal belt. Restricted to coastal Bāhubalis (Kārkaḷa 42 ft, Vēṇūr ~38 ft, Dharmasthala/modern 39 ft), Kārkaḷa is actually the LARGEST, not second. Fix: either say 'the second-largest of Karnataka's historic Bāhubali monoliths, after Śravaṇabeḷagoḷa' (Śravaṇabeḷagoḷa is not coastal) or 'the largest of the coast's Bāhubali monoliths' and drop the Śravaṇabeḷagoḷa comparison from the coastal frame."
+ },
+ {
+  "path": "04-deep-dives/kalkuda-kallurti.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 57 says the paddana 'conflates two building-events a century and a half apart (Kārkaḷa 1432, Vēṇūr 1604).' 1604 − 1432 = 172 years, i.e. closer to a century and three-quarters than 'a century and a half.' Minor numeric slip in otherwise correct dates; tighten to 'nearly two centuries apart' or '~170 years apart.'"
+ },
+ {
+  "path": "04-deep-dives/kartika-mahatmya-tales.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The H1 title enumerates only four tales (\"King Cola vs Viṣṇudāsa, Dharmadatta–Kalahā, Dhaneśvara, Satyabhāmā's former birth\") but the body carries five full sections — the fifth being \"## The Alakṣmī episode\", which the intro (line 6) explicitly counts among the canonical five. Not a broken-shape defect, but the title undercounts the file's contents; append \"& Alakṣmī\" (or similar) for consistency with the intro's \"these five\" claim."
+ },
+ {
+  "path": "04-deep-dives/kathasaritsagara-famous-tales.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The H1 title enumerates only FOUR set-pieces — \"Upakośā, Devasmitā, Lohajaṅgha, Śaktivega's City of Gold\" — but the file explicitly catalogs FIVE tales (line 11: \"five celebrated set-pieces\"), the fifth being the Kaliṅgasenā / Somaprabhā automata section (line 48). The title should add the fifth tale (e.g. \"…Somaprabhā's automata\") so it matches the file's own scope statement. Not a structural violation (H1, breadcrumb+up-link, dense sourced bullets, cataloged variants, reliability tags, and ## Sources are all present), just an undercount in the title."
+ },
+ {
+  "path": "04-deep-dives/kathasaritsagara-famous-tales.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Line 23 attributes the praise-quote \"one of the best-told stories in the whole work\" to \"the Wikipedia editors and Penzer alike\" and tags it [scholarly]. The Sources foot (line 84) backs this only with the Wikipedia article; the co-attribution to Penzer is unverified and the exact wording is presented as a direct quotation from two sources at once. Either cite the specific Penzer volume/page that uses that phrasing or drop the \"and Penzer\" claim and present it as the Wikipedia characterization only."
+ },
+ {
+  "path": "04-deep-dives/kattavarayan-katai.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Sources line 90 cites 'Eveline Masilamani-Meyer, The Tale of Kāttavarāyaṉ (Harrassowitz, Beiträge zur Südasienforschung, 2004).' The book is real (author, publisher Harrassowitz, and year 2004 are correct), but two details are off: (a) the actual title is 'Kāttavarāyan Katai: The Story of Kāttavarāyan: An Annotated Translation' — 'The Tale of Kāttavarāyaṉ' is a loose paraphrase; (b) the series is 'Beiträge zur Kenntnis südasiatischer Sprachen und Literaturen,' NOT 'Beiträge zur Südasienforschung' (that latter series name is the one wrongly applied here). Fix the title and series name."
+ },
+ {
+  "path": "04-deep-dives/khandikya-keshidhvaja.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Line 55 (and Sources, line 77) attributes the Purāṇa's closing phala-śruti to VI.7: 'with this the Viṣṇu Purāṇa closes and pronounces its phala-śruti. (Viṣṇu Purāṇa VI.7)'. In Wilson's translation the Kesidhwaja yoga dialogue ends in Book VI ch. VII, but the recapitulation, benediction, and phala-śruti that actually CLOSE the Purāṇa are a separate chapter — Book VI ch. VIII ('The greatness of the Vishnu-purana' / Conclusion). The breadcrumb (line 3) correctly scopes the dialogue as 'chapters 5–7', so the closing/phala-śruti claim is off by one chapter. Fix: attribute the closing benediction to Viṣṇu Purāṇa VI.8 (Wilson Book VI, ch. VIII), keeping VI.7 for the yoga exposition and the two kings' liberation."
+ },
+ {
+  "path": "04-deep-dives/khandikya-keshidhvaja.md",
+  "severity": "low",
+  "kind": "two-clocks",
+  "detail": "Line 13 places Rāmānuja's dates in the academic/historical frame with a [scholarly] tag: 'Rāmānuja, [scholarly] c. 1017–1137 CE'. The 1017–1137 span is the traditional 120-year hagiographic lifespan, which modern historians generally regard as implausible (they tend to shift or shorten it). Labeling the hagiographic dating as the '[scholarly]' (historical-critical) clock slightly collapses the two frames. Fix: either drop the [scholarly] tag from these conventional dates or note that 1017–1137 is the traditional lifespan (with historians disputing the 120 years)."
+ },
+ {
+  "path": "04-deep-dives/khatvanga-one-muhurta.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "Line 60 (§VIII \"Reception\") uses the tag `[tradition]`: \"(post-medieval commentarial and bhakti reception) [tradition]\". `[tradition]` is not in the corpus's canonical reliability-tag set (AGENTS.md §4 / criterion 1 permits only [scholarly] [disputed] [late text]/[interpolation] [folk] [oral tradition] [regional]). Fix: replace with an approved tag — e.g. `[scholarly]` for reception scholarship, or drop the bracketed tag and leave the parenthetical source note."
+ },
+ {
+  "path": "04-deep-dives/kshupa-dadhicha-dispute.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "The file uses the tag `[scripture]` five times (lines 37, 46, 48, 54, 55) and `[secondary]` once (line 88). Neither is in the AGENTS.md §4 reliability-tag vocabulary (`[scholarly] [disputed] [late text]/[interpolation] [folk] [oral tradition] [regional]`). Note: `[scripture]` is used ~216 times corpus-wide and `[secondary]` ~3 times, so these appear to be established (if undocumented) corpus conventions rather than errors in this file. No action needed unless the tag vocabulary is being enforced strictly; if so, either add these to AGENTS.md §4 or drop them (the `(Liṅga Purāṇa, …)` parenthetical already carries the scriptural attribution, making `[scripture]` largely redundant)."
+ },
+ {
+  "path": "04-deep-dives/kurukshetra-reunion-gopis.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 52 (the sage-assembly bullet) lists both \"Vyāsa\" and \"Dvaipāyana\" as separate sages arriving at Kurukṣetra: \"**Vyāsa, Nārada, Vasiṣṭha, Cyavana, ... Bṛhaspati, Dvaipāyana** and many more. (Bhāgavata 10.84.2–5)\". These are one and the same person — Kṛṣṇa Dvaipāyana Vyāsa — and the cited Bhāgavata verses (10.84.2–5) name only Dvaipāyana, not a distinct \"Vyāsa.\" Fix: drop one of the two names (keep \"Vyāsa\" or \"Dvaipāyana\", not both), or gloss it as \"Vyāsa (Dvaipāyana)\" so the roster does not double-count a single ṛṣi."
+ },
+ {
+  "path": "04-deep-dives/kuvalayashva-madalasa.md",
+  "severity": "low",
+  "kind": "citation",
+  "detail": "Body section header 'The recovery from the nāga's breast (Canto XXIV)' (line 48) narrates 'The invitation to Pātāla' and the prince's descent into the nāga-realm (line 50). But Pargiter titles Canto XXIII 'Kuvalayāśva's visit to Pātāla' — the descent/visit belongs to XXIII, not XXIV. The file's own Sources (line 82) correctly cite 'Kuvalayāśva's visit to Pātāla — Canto XXIII', so the body canto-tag is mildly inconsistent with the file's own citation. Fix: move the descent/invitation content under the Canto XXIII header, or relabel the visit as XXIII while keeping the illusion-test and recovery in XXIV."
+ },
+ {
+  "path": "04-deep-dives/makaraksha-son-of-khara.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 12 claims Makarākṣa's kinship gives him \"a blood-claim on the war that most of Rāvaṇa's other champions lack.\" This is a shaky overstatement: a large share of Rāvaṇa's champions ARE blood kin — his brother Kumbhakarṇa and his sons Indrajit, Atikāya, Narāntaka, Devāntaka, Triśiras (indeed several are named as Ravana's sons/kin two lines above at line 17). What actually singles Makarākṣa out is the personal father-vengeance motive, not kinship to Rāvaṇa. Fix: reword to \"a personal generational grievance most other champions lack\" rather than framing it as a rare \"blood-claim.\""
+ },
+ {
+  "path": "04-deep-dives/manduka-frog-princess-sushobhana.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Because the Ganguli numbering is verifiably off by one (see above), the Critical Edition range paired with it — 'Critical Edition (Pune) Vana 3.190–192', mapped in the section headers as CE 3.190=§2, 3.191=§3, 3.192=§4 — should be re-verified. The CE may well split this single Calcutta/Ganguli section into 2–3 short adhyāyas, so a 190–192 range is not implausible in itself, but the CE-to-Ganguli pairing printed in every section header is broken (it pairs each CE adhyāya with a wrong Ganguli section number). Confirm the exact CE adhyāya numbers against a Pune concordance before trusting the 3.190–192 span."
+ },
+ {
+  "path": "04-deep-dives/matali-sumukha-naga-bridegroom.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "Lines 52 and 61 use bracketed tags outside the sanctioned reliability vocabulary ([scholarly] [disputed] [late text] [folk] [regional] [oral tradition]): line 52 ends '...textually distinct from, the Udyoga episode. [variant rosters]' and line 61 ends '...do not conflate the rescued Nāga groom with a son of Garuḍa. ... [flag: name-collision]'. Neither '[variant rosters]' nor '[flag: name-collision]' is a standard reliability tag. Fix: drop them or replace the line-52 tag with a real tag (e.g. [folk]) and reword line 61's marker as prose rather than a tag."
+ },
+ {
+  "path": "04-deep-dives/matali-sumukha-naga-bridegroom.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The breadcrumb blockquote (lines 3–5) substantially exceeds the '1–3 line' convention: it is two dense multi-sentence paragraphs plus a full 'Two clocks' paragraph. The required up-link (Parent: [04-deep-dives](README.md)) and two-clocks framing are present and correct, so this is a stylistic over-length rather than a missing element. Consider trimming the first blockquote paragraph to a 1–3 line orientation and moving the expository detail into the body."
+ },
+ {
+  "path": "04-deep-dives/mucukunda-vaishravana-shanti.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "The file uses a non-sanctioned reliability tag `[scripture]` throughout (lines 19, 24, 25, 30, 31, 35, 36, 40, 41, 42, 47, 48). AGENTS.md §4 defines the parenthetical `(Source text)` as the scripture attribution and the bracket tags as reliability qualifiers drawn from the fixed set `[scholarly] [disputed] [late text] [folk] [regional] [oral tradition]`. `[scripture]` is not in that set and is redundant with the `(Śānti Parva 12.75)` citations already present on the same bullets. Fix: drop `[scripture]` (the parenthetical source already marks these as scriptural) or replace with a sanctioned tag where warranted."
+ },
+ {
+  "path": "04-deep-dives/mucukunda-vaishravana-shanti.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The breadcrumb blockquote (line 3) is a single ~150-word paragraph that renders well beyond the \"1–3 line\" breadcrumb convention in AGENTS.md §4. The required up-link is present (\"Parent: [04-deep-dives](README.md)\"), so this is cosmetic, but consider trimming the where-this-sits blockquote to 1–3 lines and moving the cosmic-slot detail into the body."
+ },
+ {
+  "path": "04-deep-dives/nandabhadra-tested-faith.md",
+  "severity": "low",
+  "kind": "two-clocks",
+  "detail": "Line 58 reuses the corpus's reserved technical term \"two clocks\" metaphorically for a different concept — the short-vs-long karmic time view: \"The apparent injustice is an artefact of too short a view of time — the 'two clocks' collapsed into one.\" In this repo \"two clocks\" specifically names the scriptural/cyclic vs academic/historical framing (which the file itself handles correctly and distinctly at line 13). Using the phrase here — especially \"collapsed into one\" — invites misreading as a convention violation. Fix: rephrase to avoid the reserved term, e.g. \"a slice of a ledger seen on too short a timescale.\""
+ },
+ {
+  "path": "04-deep-dives/nandabhadra-tested-faith.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "The file uses several tags outside the canonical AGENTS.md §4 reliability set ([scholarly] [disputed] [late text] [interpolation] [folk] [regional] [oral tradition]): \"[text-critical]\" (lines 29, 41), \"[scripture]\" (lines 58, 74-area), and the freeform \"[scripture presenting the opponent's view]\" (line 39). These are informative and harmless but off-spec; consider mapping them to standard tags (e.g. [disputed] plus prose) for consistency."
+ },
+ {
+  "path": "04-deep-dives/narada-maya-taladhvaja.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The breadcrumb blockquote (lines 3–4) is technically two markdown lines but line 3 is a full ~90-word summary paragraph, functioning as an abstract rather than a 1–3 line 'where this sits' breadcrumb per AGENTS.md §4. All required shape elements are present (H1, up-link 'Parent: [04-deep-dives](./README.md)', dense sourced bullets, cataloged variants, reliability tags, ## Sources), so this is stylistic only. Fix: trim the first breadcrumb line to a locator sentence and let the 'story in one line' paragraph carry the summary."
+ },
+ {
+  "path": "04-deep-dives/padma-pippalada.md",
+  "severity": "low",
+  "kind": "citation",
+  "detail": "Inconsistent khaṇḍa numbering within the same Sources section. Lines 73–74 cite \"Śiva Purāṇa, Rudra-saṃhitā (2), Pārvatī-khaṇḍa\" while the file's own cited wisdomlib link on line 80 reads \"Rudra-saṃhitā (3): Pārvatī-khaṇḍa\". The \"(2)\" is defensible if it numbers Rudra as the 2nd of the seven saṃhitās, but juxtaposed with the link's \"(3)\" (which numbers Pārvatī-khaṇḍa as the 3rd sub-khaṇḍa, after Sṛṣṭi- and Satī-khaṇḍa) it reads as a contradiction about where Pārvatī-khaṇḍa sits. Fix: make the notation consistent, e.g. drop the ambiguous \"(2)\" or write \"Rudra-saṃhitā, Pārvatī-khaṇḍa (3rd khaṇḍa)\" to match the link."
+ },
+ {
+  "path": "04-deep-dives/parijata-harana.md",
+  "severity": "low",
+  "kind": "broken-link",
+  "detail": "Lines 3 and 27 link named beings to a bare section directory rather than their existing node files: [Garuḍa](../08-beings-and-bestiary/) and [Airāvata](../08-beings-and-bestiary/). The bestiary contains specific files `garuda.md` and `airavata-and-celestial-animals.md`. Targets resolve (the directory exists, so not invariant-breaking) but should point to `../08-beings-and-bestiary/garuda.md` and `../08-beings-and-bestiary/airavata-and-celestial-animals.md` so the anchor lands on the actual node."
+ },
+ {
+  "path": "04-deep-dives/pitrikalpa-seven-brahmins-brahmadatta.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 67 names the companions 'Subālaka (Pañcāla) and Puṇḍarīka,' attaching the Pāñcāla patronymic to the wrong minister. Per the tradition and the Puranic Encyclopaedia entry the file itself cites (doc241482), Pāñcāla is the father of PUṆḌARĪKA (propagator of medicine), while SUBĀLAKA is the son of Bābhravya (author of the Kāmaśāstra). Fix: '(Pañcāla)' belongs on Puṇḍarīka, not Subālaka."
+ },
+ {
+  "path": "04-deep-dives/pracetas-rudra-gita.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Section III is titled 'The Rudra-Gītā (BhP 4.24.33–79)' and states the hymn 'span[s] verses 4.24.33–79', yet the same section's final bullet cites 'Instruction to chant it (Bhāgavata Purāṇa 4.24.68–79)' as Śiva's concluding framing and disappearance. Śiva's stotra proper is ~4.24.33–68, with 69–79 being narrative instruction/vanishing, so calling the whole 33–79 'the hymn' is internally loose. Fix: either restrict the hymn's range (e.g. 33–68) or reword so the closing verses are framed as narrative around the hymn rather than part of the song."
+ },
+ {
+  "path": "04-deep-dives/prahlada-nara-narayana-battle.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 22 calls 'Ājagava, the bow of Nara' and glosses Śārṅga as '(later Kṛṣṇa's bow)' but gives no such note for Ājagava. Devī Bhāgavata IV.9 — one of the two sources cited on that bullet — explicitly identifies the pair as 'Śārṅgam and Ājagavam, (Pināka) the bows of Viṣṇu and Śiva respectively', i.e. Ājagava is canonically Śiva's bow (Pināka), merely wielded here by Nara. Consider adding a parenthetical (e.g. 'Ājagava — Śiva's Pināka-bow, here carried by Nara') so the reader isn't left thinking Ājagava is Nara's own signature weapon."
+ },
+ {
+  "path": "04-deep-dives/prahlada-nara-narayana-battle.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "'[Śākta]' is used in reliability-tag bracket position on line 7 ('a [Śākta] retelling') and line 75 (end of the DBP Sources entry), but it is not one of AGENTS.md §4's sanctioned tags ([scholarly] [disputed] [late text] [folk] [regional] [oral tradition]). It reads accurately as a sectarian descriptor, but rendered as a bracketed tag it mimics the reliability-tag vocabulary. Minor: either fold it into prose ('a Śākta retelling') or leave as-is; flagging only for convention consistency."
+ },
+ {
+  "path": "04-deep-dives/prajapati-ushas-rudra-piercing.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The breadcrumb blockquote at line 3 is a single ~10-line paragraph, well beyond the convention's '1–3 line breadcrumb' (AGENTS.md §4). It reads as a full abstract rather than a where-this-sits pointer. The required up-link ([04 · Deep Dives](README.md) → Master Index) is present, so shape passes, but the breadcrumb could be trimmed to 1–3 lines with the cosmological/derivation detail moved into the body (the 'Two clocks' block and opening section already carry most of it)."
+ },
+ {
+  "path": "04-deep-dives/ramas-justice-the-dog-and-the-mendicant.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "The file twice conflates two distinct Rāmāyaṇa recensions as one: line 13 calls the source 'the commonly printed Gorresio/Govindarāja vulgate' and the Sources block (line 80) repeats 'Gorresio / Govindarāja-commentary printed vulgate.' Gaspare Gorresio's edition (1843–67) is the Gauḍīya/Bengal recension, which is precisely NOT the vulgate — the 'vulgate' is the North-Western/Bombay text carrying Govindarāja's (Bhūṣaṇa) commentary, a separate recension. In a paragraph whose whole purpose is textual precision about what is and isn't archetype, presenting Gorresio and Govindarāja as a single 'vulgate' is inaccurate. Fix: drop 'Gorresio' from the vulgate label (attribute the vulgate to the Govindarāja-commentary Bombay recension), or cite Gorresio separately as the distinct Bengal recension."
+ },
+ {
+  "path": "04-deep-dives/satyavrata-aim-bija.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Breadcrumb line 3 says the brahmin 'blurts the *vāg-bīja* \"Aiṃ\" by pure accident — echoing a wounded boar's cry'. The source (DBP III.11, verified via wisdomlib doc57144) has Satyavrata himself cry out 'Ai! Ai!' in compassion for the boar's agony; the boar does not utter the syllable, so 'echoing a wounded boar's cry' misstates the mechanism (his cry is *provoked by*, not an echo of, the boar). The body text (line 42) states it correctly. Fix the breadcrumb to 'a compassionate cry at a wounded boar' or similar."
+ },
+ {
+  "path": "04-deep-dives/shanti-parva-minor-upakhyanas.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Internal contradiction over the Ṛṣabha–Tanu tale's sub-parva. Line 37 calls it \"a compressed nivṛtti teaching set within the Āpaddharma,\" but line 50 groups it with the mokṣadharma tales (\"Two (Jāpaka, Kuṇḍadhara, Ṛṣabha) are mokṣadharma\"). Pick one classification. (Separately, at the cited XII.125–126 the story falls at the Rājadharma/Āpaddharma boundary; the Ganguli location of the Ṛṣabha–Tanu-on-hope dialogue is ~Section CXXVII–CXXVIII = 127–128, so 125–126 is also slightly low.)"
+ },
+ {
+  "path": "04-deep-dives/shiva-parvati-dice-game.md",
+  "severity": "low",
+  "kind": "broken-link",
+  "detail": "In 'The khaṇḍa it closes' bullet, `[Kāma](../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md)` labels the anchor 'Kāma' but targets the Śiva myth-cycle file rather than the dedicated Kāma node `../02-deities-and-cosmic-hierarchy/kamadeva-and-minor-deities.md`. Kāma's burning is narrated in shiva-myth-cycle, so it is defensible, but the canonical Kāmadeva node should be the link target for the word 'Kāma'. Fix: repoint to `kamadeva-and-minor-deities.md`."
+ },
+ {
+  "path": "04-deep-dives/shveta-corpse-king-and-agastya.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "Lines 34 and 35 use a bracket tag `[scripture]` (\"...only the outward-turned gift is spiritually complete. ... [scripture]\" and \"...an aetiology of why dāna cannot be substituted... [scripture]\"). `[scripture]` is NOT one of the sanctioned reliability tags in AGENTS.md §4 (which are [scholarly], [disputed], [late text]/[interpolation], [folk], [regional], [oral tradition]). Per the convention, scriptural attribution belongs in parenthetical `(Source text)` form, not a bracketed reliability tag. Fix: drop `[scripture]` (the claims already carry the doctrine's textual basis) or replace with the parenthetical source citation."
+ },
+ {
+  "path": "04-deep-dives/shveta-corpse-king-and-agastya.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Line 42 states flatly \"The Mahābhārata's **Vana Parva** carries a closely parallel Śveta-upākhyāna\" and Sources line 85 attributes it to \"Mahābhārata, Vana (Āraṇyaka) Parva\". The well-attested self-devouring-dāna-king is the Rāmāyaṇa's Śveta (verified here); I could not confirm a self-eating King Śveta episode actually exists in the Vana Parva — targeted searching surfaced only Śveta-parvata (a tīrtha mountain) and King Śibi's flesh-gift, not a self-eating Śveta. Notably the sibling file (dana-upakhyanas-shveta-and-the-mongoose.md line 22) hedges this same episode as \"cited under varying chapter numbers across recensions,\" i.e. the corpus itself is unsure of its placement, yet this file asserts the Vana Parva attribution with more confidence. Not proven false, but the specific parva attribution should be verified against an actual Vana Parva text locus (chapter/section), which is currently absent."
+ },
+ {
+  "path": "04-deep-dives/shveta-corpse-king-and-agastya.md",
+  "severity": "low",
+  "kind": "disputed-misuse",
+  "detail": "Line 58 tags the disambiguation bullet `[disputed — name-collision]`. Per AGENTS.md §4, `[disputed]` means \"contested even within tradition.\" A shared name across wholly distinct figures (Śvetaketu, Śveta-Varāha Kalpa, Śvetadvīpa, etc.) is a name-collision, not a tradition-internal dispute — nothing here is actually contested. The tag is misapplied; the bullet needs no reliability tag at all (or a plain editorial note)."
+ },
+ {
+  "path": "04-deep-dives/shveta-corpse-king-and-agastya.md",
+  "severity": "low",
+  "kind": "broken-link",
+  "detail": "The disambiguation (line 58) names \"the Tamil Śaiva child-saint **Śveta of Thiruvenkāḍu**\" (a Śiva-bhakta Śveta rescued from Death) as a distinct figure but does not link it, even though the corpus contains a dedicated deep-dive for exactly this figure-type: `sage-shveta-and-yama.md` (\"Sage Śveta Saved from Kāla — the Liṅga Purāṇa's Kālāntaka Variant\"), which sits in the same directory. Not a dead link, but a missed cross-link that the navigation contract (AGENTS §3/§6) would want resolved; fix: link the Thiruvenkāḍu/Śiva-saved Śveta to [Sage Śveta Saved from Kāla](sage-shveta-and-yama.md)."
+ },
+ {
+  "path": "04-deep-dives/simhasana-dvatrimshika-vikramaditya-cycle.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Line 10 states Edgerton \"reconstructed a lost archetype he dated before c. 1305 CE.\" Edgerton dated the original broadly to the 13th–early 14th century; the specific year 1305 is implausibly precise and is not corroborated in available sources (though it falls inside the accepted window and is attributed to Edgerton). Consider softening to \"before c. 1300 CE / the early 14th c.\" or verify the exact figure against Edgerton's HOS 27 introduction."
+ },
+ {
+  "path": "04-deep-dives/siruthondar-nayanar.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Line 54 presents an italic quoted gloss as if it were the content of the cited verse: 'He appears in verse 6 of the Tiruttoṇṭattokai — Sundarar bowing to *\"the servant of the one who fed the Bhairava.\"*' I verified (shaivam.org, Thevaram 7.39) that verse 6 IS the correct verse and does name Ciṟuttoṇṭar — but the actual line only names him by town ('Ceṅkāṭṭaṅkuḍi mēya Ciṟuttoṇṭarkku aḍiyēṉ' = 'servant to Ciṟuttoṇṭar of Sengattankudi'); it contains no reference to feeding the Bhairava. The quoted paraphrase risks implying the 7th–8th-c. verse describes the child-curry legend, which it does not. Fix: drop the quotation marks or reword to make clear it is an editorial gloss, e.g. 'naming Ciṟuttoṇṭar by his town Ceṅkāṭṭaṅkuḍi.'"
+ },
+ {
+  "path": "04-deep-dives/siruthondar-nayanar.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "The Sources note (line 84) attributes 'the identification of the general Paranjōti with the saint Ciṟuttoṇṭar' to 'Pallava epigraphy and standard art-historical dating' (and line 19 cites 'Pallava epigraphy' alongside the general's deeds). Epigraphy/art-history date the Vātāpi campaign (c. 642 CE) but do not establish that the Pallava commander was the Nāyaṉār saint — that equation is a traditional/hagiographic linkage, which the body itself correctly hedges at line 6 ('identified within tradition itself with Paranjōti'). Attributing the identification to 'Pallava epigraphy' slightly overstates its evidentiary basis and is in mild tension with line 6. Fix: attribute the campaign dating to epigraphy but flag the saint↔general identification as traditional, e.g. '[scholarly] for the campaign; the saint=general identification is traditional.'"
+ },
+ {
+  "path": "04-deep-dives/stotras/madhurashtakam.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "Line 11 uses a non-sanctioned reliability tag `[scriptural]` (\"Its 'events' are the timeless sweetnesses of the divine play. [scriptural]\"). The AGENTS.md §4 tag vocabulary is `[scholarly] [disputed] [late text] [interpolation] [folk] [oral tradition] [regional]` — `[scriptural]` is not among them. It reads as a two-clocks frame label rather than a reliability tag; either drop it or replace with the conventional framing (the parallel historical bullet on line 12 correctly uses `[scholarly]`). Minor; content and two-clocks separation are otherwise sound."
+ },
+ {
+  "path": "04-deep-dives/sudarshana-shankhachuda-vyoma.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 12 (two-clocks section) states all three episodes come at a point where \"the horse-demon Keśin is not yet slain,\" then in the same sentence places Vyoma \"at the close of ch. 37 (28–33), the same chapter that opens with Keśin's death.\" This is internally inconsistent for Vyoma: since Vyoma (10.37.28–33) falls after Keśin's slaying (10.37.1ff) in the same chapter, Keśin IS already slain by the time of Vyoma. The blanket \"Keśin is not yet slain\" is true only for the ch. 34 episodes (Sudarśana, Śaṅkhacūḍa). Fix: restrict the clause, e.g. \"...Sudarśana and Śaṅkhacūḍa in ch. 34 (before Keśin is slain); Vyoma at the close of ch. 37, after Keśin's death.\""
+ },
+ {
+  "path": "04-deep-dives/sudarshana-shankhachuda-vyoma.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Lines 74 and 80 render the BhP 10.34 chapter title as \"The Deliverance of Sudarśana and Śaṅkhacūḍa.\" Śaṅkhacūḍa is beheaded/killed in this chapter, not delivered — \"Deliverance of ... Śaṅkhacūḍa\" is semantically wrong (the chapter delivers the vidyādhara Sudarśana but kills the Yakṣa). Standard titles read closer to \"Nanda Saved and Śaṅkhacūḍa Killed.\" Fix: retitle to something like \"The Deliverance of Sudarśana and the Slaying of Śaṅkhacūḍa.\""
+ },
+ {
+  "path": "04-deep-dives/surapadma-samharam-kanda-puranam.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "The H1 title and breadcrumb assert the war as bald narrative fact — H1: \"...the six-day war\"; breadcrumb (line 3): \"then, over six days, breaks the asura at Tiruccentūr.\" But the body itself (line 46) honestly attributes the six-day count NOT to the epic's own narrative but to the festival frame: \"The Tamil epic stages the war over successive days — the frame that underlies the six-day Kanda Ṣaṣṭhī fast\" and tags that whole bullet [folk]. The Yuddha-kāṇḍam does not narrate a fixed six-day war; the 'six days' is the Kanda Ṣaṣṭhī observance mapped back onto the epic. Fix: soften the title/breadcrumb to match the hedged body (e.g. 'the six-day festival war-cycle' or drop the numeral from the breadcrumb's 'over six days'), so the folk/festival framing is not stated as the epic's own settled chronology."
+ },
+ {
+  "path": "04-deep-dives/suvarnashthivin-srinjaya-narada-parvata.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Internal chapter-number inconsistency, not a fabrication. Line 29 gives 'Śānti Parva ~29–31; Ganguli Sections XXIX–XXXI'; the Sources block line 108 gives 'chs. ~29–31 (CE 12.30–31)' — the Critical-Edition parenthetical (12.30–31) drops chapter 29 that the same line's '~29–31' includes. Both are tilde-hedged and the story genuinely spans Ganguli XXIX–XXXI (verified: sacred-texts m12a029–m12a031), so this is a minor internal mismatch rather than a misattribution. Fix: make the CE range read 12.29–31 to match the stated chapter span, or note that Ganguli sections do not map 1:1 to CE adhyāyas."
+ },
+ {
+  "path": "04-deep-dives/unchavritti-brahmin-naga-padmanabha.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "The file uses a bracket tag `[scripture]` on nearly every scriptural bullet (lines 21–23, 31–35, 41–44, 50–52, etc.). `[scripture]` is not one of the sanctioned reliability tags in AGENTS.md §4 (which lists `[scholarly] [disputed] [late text]/[interpolation] [folk] [oral tradition] [regional]`), and it is redundant with the parenthetical `(Mahābhārata, Śānti Parva …)` source marker that already signals scriptural attribution. Not misleading, but off-convention. Fix: drop `[scripture]`, letting the `(Source)` parenthetical carry the attribution, and reserve bracket tags for reliability qualifiers."
+ },
+ {
+  "path": "04-deep-dives/unchavritti-brahmin-naga-padmanabha.md",
+  "severity": "low",
+  "kind": "two-clocks",
+  "detail": "The chapter-numbering reconciliation on line 25 is internally muddled: it assigns the Critical Edition / Poona range as `12.340–353`, then separately labels `XII.353–354` and `XII.353–360` (the project's Śānti-Parva map, restated in Sources line 79 as '(recension numbering)'). The map figures `XII.353–360` exceed the CE's own stated maximum of 353 adhyāyas (per mahabharata/12-shanti-parva.md line 7), so they cannot be Critical-Edition numbers, yet the file offers a competing CE-style figure `12.340–353` — two different 'CE-looking' ranges that are never reconciled. It is flagged `[disputed: chapter numbers vary by edition]`, so this is disclosed rather than a hard error. Fix: state plainly that `XII.353–354/353–360` is the project map's own (vulgate-derived) numbering and is not the Critical Edition's, to avoid two competing CE ranges."
+ },
+ {
+  "path": "04-deep-dives/vac-and-the-soma-purchase.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Section 6 (two clocks), line 70 calls the Śatapatha (Mādhyandina) 'among the latest' yet assigns it the SAME bracket as the Aitareya ('c. 800–600 BCE'): 'the Aitareya Brāhmaṇa c. 800–600 BCE, and the Śatapatha (Mādhyandina) among the latest, c. 800–600 BCE or after.' The two clocks themselves are kept properly distinct (no cyclic/historical collapse); this is only an internal tension within the academic frame — 'among the latest' implies later than the Aitareya. The 'or after' partly covers it, but consider giving the Śatapatha a distinctly later range (e.g. c. 700–600 BCE or later) to match the 'among the latest' claim."
+ },
+ {
+  "path": "04-deep-dives/vipashchit-in-hell.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The breadcrumb blockquote (line 3) is a ~150-word abstract rather than the AGENTS §4 '1–3 line breadcrumb (where this sits)'. It carries the up-link ([Deep Dives](README.md), line 4) so it still satisfies the up-link requirement, but functionally reads as a lede paragraph, not a breadcrumb. Consider trimming line 3 to a locating sentence and moving the abstract into the body."
+ },
+ {
+  "path": "04-deep-dives/vishnu-lotus-eye-sudarshana.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "Line 44 tags the Viśvakarmā solar-forge origin bullet '(Purāṇic; see [Navagraha...]) [scholarly]'. Per AGENTS §4, [scholarly] denotes the modern historical-critical frame as opposed to the traditional/scriptural one; here it is applied to a purely Purāṇic mythic variant, so the tag is arguably mis-registered. Minor and defensible (it may be marking the cataloging observation rather than the myth), but if intended to mark register the variant is scriptural, not scholarly. No other tag or content defect found; all links resolve and the Koṭirudra 34 charter citation is verified genuine on wisdomlib."
+ },
+ {
+  "path": "04-deep-dives/vyushitashva-bhadra.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 46 says the kṣetraja logic 'makes Pāṇḍu and his brothers the sons of Vicitravīrya though begotten by Vyāsa.' This lumps all of Pāṇḍu's brothers under 'sons of Vicitravīrya,' but only Dhṛtarāṣṭra and Pāṇḍu are Vicitravīrya's kṣetraja sons (Vyāsa on the widows Ambikā/Ambālikā). Vidura, though also begotten by Vyāsa, was born on a śūdra maidservant — he is NOT a son of Vicitravīrya's 'field' and is not reckoned his heir. Fix: narrow to 'Dhṛtarāṣṭra and Pāṇḍu the sons of Vicitravīrya' (or note Vidura's separate maternity) rather than 'Pāṇḍu and his brothers.'"
+ },
+ {
+  "path": "04-deep-dives/yama-gita.md",
+  "severity": "low",
+  "kind": "missing-link",
+  "detail": "The file leans heavily on the Yama–Naciketas / Kaṭha Upaniṣad archetype (Genre note line 14, §V lines 46–47, §VI line 55) but never cross-links the existing canonical deep-dive 04-deep-dives/nachiketa-katha-upanishad.md (nor ../90-literature-corpus/upanishads/katha-upanishad.md) — the only Kaṭha link points to the wrong file (see above). Per AGENTS.md §2/§6 canonical-home rule this is a missed 1-hop link. Fix: add nachiketa-katha-upanishad.md to Related Nodes / the Naciketas mentions."
+ },
+ {
+  "path": "04-deep-dives/yama-gita.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The breadcrumb blockquote exceeds the '1–3 line' convention (AGENTS.md §4): the first blockquote line ('Cosmic address: …') is a dense ~5-sentence paragraph running well past three lines before the 'Parent: / Up to' up-link line. Up-links are present and correct, so shape is not failed, but the breadcrumb should be trimmed to 1–3 lines with the detail moved into the body/lead paragraph."
+ },
+ {
+  "path": "05-concepts-and-dharma/anna-naivedya-and-prasada.md",
+  "severity": "low",
+  "kind": "broken-link",
+  "detail": "Two links target the anchor `#vi-mahaprasad-and-the-temple-kitchen` (lines 34 and 84, `../06-sacred-geography/jagannath-puri-purushottama-kshetra.md#vi-mahaprasad-and-the-temple-kitchen`). The actual heading in that file is `## VI. Mahāprasād and the Temple Kitchen`, which GitHub slugifies to `vi-mahāprasād-and-the-temple-kitchen` (diacritics on ā are preserved, not stripped). The ASCII anchor `mahaprasad` will not resolve to the accented slug. The file itself exists, so the page opens, but the in-page jump fails. Fix: change both anchors to `#vi-mahāprasād-and-the-temple-kitchen` (matching the diacritics of the target heading)."
+ },
+ {
+  "path": "05-concepts-and-dharma/papa-punya-and-prayaschitta.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Minor internal tension in the mahāpātaka/upapātaka taxonomy: line 28 lists 'killing a cow' among acts Manu treats as anupātaka-equivalents, while line 43 lists 'govadha (killing a cow)' as a representative upapātaka (Manu 11.60–67). Both reflect real textual overlap in Manu, but as written the same act is placed in two different tiers without a note; consider a one-clause clarification that Manu's classing of govadha is itself variable."
+ },
+ {
+  "path": "06-sacred-geography/ambalappuzha-krishna-palpayasam.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Breadcrumb (line 3) says Ambalappuzha is \"The shrine that also hid the Guruvāyūr idol from Tipu Sultan's 1789 raid.\" This conflates two things that the body (§VI, line 58) correctly separates: it was the *utsava (processional) image* of Guruvāyūrappan that was carried to Ambalappuzha, while the *main mūrti stayed at Guruvāyūr and was concealed there*. The main Guruvāyūr idol was not hidden at Ambalappuzha. Fix: change the breadcrumb to something like \"...that sheltered the Guruvāyūr processional (utsava) idol during Tipu Sultan's 1789 raid\" to match the more precise body text."
+ },
+ {
+  "path": "06-sacred-geography/ashta-virattanam-eight-feat-shrines.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "The Śiva Purāṇa division 'Yuddha-saṃhitā' is cited at line 26 ('Śiva Purāṇa, Rudra-/Yuddha-saṃhitā') and line 37 Gajāsura bullet ('Śiva Purāṇa, Yuddha-saṃhitā'), but no 'Yuddha-saṃhitā' exists in the Śiva Purāṇa — 'Yuddha' is a khaṇḍa within the Rudra-saṃhitā. The file's own Sources block (line 69) names it correctly as 'Yuddha-khaṇḍa' under Rudra-saṃhitā. Fix: change 'Yuddha-saṃhitā' to 'Rudra-saṃhitā, Yuddha-khaṇḍa' in the inline citations for consistency and accuracy."
+ },
+ {
+  "path": "06-sacred-geography/basara-gnana-saraswati-vyasa.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 11 illustrates the v→b softening with \"Marāṭhā/Marathi speech, which regularly softens Sanskrit v- to b- (as in Vāsudeva → Bāsudeb).\" The example \"Bāsudeb\" (with the eastern -b ending) is a Bengali/Assamese-Odia realization, not Marathi — standard Marathi keeps \"Vasudev.\" The v→b shift is characteristic of eastern Indo-Aryan, so the cited example is linguistically mismatched to the language named. This sits inside a [regional][folk] etymology bullet, so it is presented as tradition, but the illustrative example is inaccurate; fix by either using a genuinely western/Deccan b-for-v example or softening the claim (e.g. \"Deccan/local speech's b-for-v tendency\")."
+ },
+ {
+  "path": "06-sacred-geography/dakor-ranchhodrai-bodana.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Line 13 cites '(*Bhāgavata* 10.50–52; Purāṇic chronology)' to support a sentence that includes 'the drowning of his city.' Bhāgavata 10.50–52 narrates the flight from Mathurā and the founding of Dvārakā (Jarāsandha/Kālayavana, the actual 'ranchhoḍ' running-away), NOT the drowning of Dvārakā, which is the Mausala episode in canto 11 (BhP 11.30–31). The verse range correctly supports the Raṇacchoḍa epithet (as scoped accurately in the Sources block, line 73) but is over-broad for 'the drowning.' Fix: either move the drowning claim under 'Purāṇic chronology / BhP 11.30–31' or drop 'drowning' from the clause this verse range anchors."
+ },
+ {
+  "path": "06-sacred-geography/goa-shantadurga-mangeshi-kuladevatas.md",
+  "severity": "low",
+  "kind": "broken-link",
+  "detail": "Line 35 links the text \"*[Vetālapañcaviṁśati](../90-literature-corpus/puranas/skanda-purana-khanda-map.md)*\" to the Skanda Purāṇa khaṇḍa-map file. The link path resolves, but the target is a semantic mismatch: the Vetālapañcaviṁśati / corpse-riddle (Vikramāditya) cycle belongs to the Kathāsaritsāgara / Bṛhatkathā tradition, not the Skanda Purāṇa; grep confirms skanda-purana-khanda-map.md contains no mention of vetāla, Vikramāditya, or the corpse-riddle cycle. Fix: point this to an actual file on the Vetāla-frame/Kathāsaritsāgara if one exists, or remove the hyperlink and leave the title in plain italics."
+ },
+ {
+  "path": "06-sacred-geography/greater-india-sacred-geography.md",
+  "severity": "low",
+  "kind": "broken-link",
+  "detail": "Line 35: the anchor text '[Trimūrti](../02-deities-and-cosmic-hierarchy/dashavatara.md)' mis-targets its canonical node. The link resolves (so it is not a hard broken link), but a dedicated file exists — ../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md — which is the correct canonical home for the Trimūrti. Retarget the Trimūrti link to trimurti-and-tridevi.md; dashavatara.md is about the ten Viṣṇu avatāras, not the Brahmā-Viṣṇu-Śiva triad. (The nearby '[Kūrma](.../dashavatara.md)' link on line 15 is fine — Kūrma is a daśāvatāra.)"
+ },
+ {
+  "path": "06-sacred-geography/kanipakam-varasiddhi-vinayaka.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Internal date inconsistency for the Chola foundation. §I line 14 labels the academic frame '[scholarly] c. 1000–1120 CE,' but the stated reign is 'r. c. 1070–1120 CE' (same line) and §VI line 56 gives '[scholarly] c. late 11th c. CE.' The '1000' lower bound has no basis — Kulottuṅga I's reign begins c. 1070, and 'late 11th c.' contradicts an early-1000s start. Fix: change 'c. 1000–1120 CE' to 'c. 1070–1120 CE' (or 'late 11th c.') for consistency."
+ },
+ {
+  "path": "06-sacred-geography/kashmir-tirthas-nilamata-geography.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Line 17 presents \"Kaśmīrā is Pārvatī; its king a portion of Śiva\" as a direct quote of Rājataraṅgiṇī 1.42 supporting \"the valley itself is the Goddess.\" The actual RT Book-1 verse states that the SOVEREIGNS of Kashmir are portions of Hara and the GIRLS/women of Kashmir are Parvatis — it is about the people, not the land being Pārvatī. The \"its king a portion of Śiva\" half is faithful, but recasting \"the women are Parvatis\" as \"the valley/land is Pārvatī\" is a mild stretch; the land-is-Umā maxim is properly the Nīlamata's (which the bullet also cites). Fix: either soften to a paraphrase (drop the quotation-mark framing on the 'Kaśmīrā is Pārvatī' clause) or attribute the land-is-Goddess maxim to the Nīlamata and quote RT 1.42 as 'the kings are portions of Hara, the women Parvatis.'"
+ },
+ {
+  "path": "06-sacred-geography/kashmir-tirthas-nilamata-geography.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The breadcrumb blockquote (line 3) is a ~130-word full introductory paragraph rather than the AGENTS.md §4 \"1–3 line breadcrumb.\" It duplicates content later restated in the line-7 intro paragraph. A proper up-link line (line 5, Parent: [Sacred Geography](README.md) · Up to: [Master Index](../README.md)) is present, so the shape requirement is met; consider trimming line 3 to 1–2 lines and letting line 7 carry the exposition."
+ },
+ {
+  "path": "06-sacred-geography/kotirudra-minor-linga-legends.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 6 says \"chapters 3–11 plant three sthala-māhātmyas.\" This conflicts with the rest of the file: the three legends are assigned to chs 3–4 (Atrīśvara), 5–7 (Nandikeśvara) and 8–10 (Mahābala) = chs 3–10, and line 50 cites \"(Koṭirudra-saṃhitā 3–10)\", while the Sources list (line 81) marks ch. 11 as \"the moon-crested Paśupatinātha (the samhitā's next liṅga)\" — i.e. a different liṅga, not one of the three. The range should read \"chapters 3–10\", not \"3–11\"."
+ },
+ {
+  "path": "06-sacred-geography/kumbakonam-adi-kumbheshwara-mahamaham.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Internal dating inconsistency for the Tevaram/Nayanar layer. Line 35 dates the Tevaram to '6th–9th c. CE', while line 63 dates the same corpus's effect to '7th–9th c.' The Nayanar poet-saints (Appar, Sambandar, Sundarar) are standardly dated 7th–9th c.; the '6th' is early. Make the two lines consistent (7th–9th c.)."
+ },
+ {
+  "path": "06-sacred-geography/kumbakonam-adi-kumbheshwara-mahamaham.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Overgeneralized astronomy claim in line 28: the Mahamaham and the northern Kumbh are said to be 'both keyed to Jupiter in Siṃha/Leo.' Only the Ujjain and Nashik (Simhastha) Kumbhs are Jupiter-in-Leo; the Haridwar (Jupiter in Aquarius/Sun in Aries) and Prayag Kumbhs are not. The claim is hedged as an analogy and tagged [folk/regional], but as written it implies all four northern sites are Leo-keyed. Fix: qualify to 'the Simhastha (Ujjain/Nashik) Kumbhs' or note that the Jupiter placement varies by northern site."
+ },
+ {
+  "path": "06-sacred-geography/mahisagara-sangama-kumarika-kshetra.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 14 (two clocks): places \"Arjuna's redemption of the apsarās... at the Dvāpara–Kali hinge (trad. 3102 BCE) during his pilgrimage-exile.\" Within the scriptural chronology the 12-year brahmacarya tīrtha-yātrā exile occurs well before the Kurukṣetra war, whereas 3102 BCE traditionally marks Kṛṣṇa's departure / Kali's onset ~36 years AFTER the war. Pinning the pre-war exile to the exact 3102 BCE hinge is internally too late by decades. This does not collapse the two frames (the academic frame is kept separate and correctly labeled), so it is a minor scriptural-frame imprecision, not a two-clocks violation. Suggest \"late Dvāpara, ahead of the war\" rather than the 3102 BCE hinge date."
+ },
+ {
+  "path": "06-sacred-geography/mehandipur-salasar-balaji-hanuman-shrines.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 36 calls both Salasar fairs — 'Chaitra Pūrṇimā and Āśvin (Śarad) Pūrṇimā' — 'the Hanumān-Jayantī seasons.' Chaitra Pūrṇimā is indeed the mainstream (North Indian) Hanumān Jayantī, but Āśvin/Śarad Pūrṇimā is not a standard Hanumān Jayantī reckoning; the well-attested second Hanumān birthday observances fall on other dates (e.g. Vaiśākha in the Tamil tradition, or Kārtika/Narak-Chaturdashi). The underlying fact (two Pūrṇimā melas at Salasar) is correct and the line is tagged [regional], so this is minor, but glossing Āśvin Pūrṇimā as a 'Hanumān-Jayantī season' overstates it. Fix: drop 'the Hanumān-Jayantī seasons' or qualify it (e.g. 'the spring and autumn full-moon fairs, the spring one coinciding with Hanumān Jayantī')."
+ },
+ {
+  "path": "06-sacred-geography/tarapith-tara-vashishtha-bamakhepa.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "The Vasiṣṭha–Mahācīna–Cīnācāra narrative is attributed jointly to *Rudrayāmala Tantra* AND *Brahmayāmala* (lines 26–28, 31, and Sources lines 56–57). The story's well-attested home is the Rudrayāmala (and the Bṛhannīla/Nīla Tantra); the *Brahmayāmala* is a weaker/less-standard locus for this specific Vasiṣṭha episode. The file does hedge this ('variously placed', 'parallel/allied frame', line 30, 57), so this is not a false-certainty failure, but the Brahmayāmala attribution is the softest citation in the file and worth verifying against a primary edition before treating it as equally load-bearing."
+ },
+ {
+  "path": "06-sacred-geography/tiruchirappalli-rockfort-thayumanavar.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "§IV line 46 states the Rāmāyaṇa Triśiras is \"a son of Khara slain by Rāma in the Daṇḍaka forest,\" tagged [scholarly]. In Vālmīki's Araṇya Kāṇḍa, Triśiras is one of the rākṣasa generals/commanders in Khara's 14,000-strong army (alongside Dūṣaṇa), slain by Rāma — but he is not standardly described as Khara's SON; the kinship claim is unsupported. Fix: change to \"a rākṣasa general in Khara's army\" (or simply \"one of Khara's warriors\") rather than \"a son of Khara.\" The distinct-character disambiguation itself is sound."
+ },
+ {
+  "path": "06-sacred-geography/tiruchirappalli-rockfort-thayumanavar.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "§VI line 60 asserts the Rock Fort is \"one of the oldest rock formations on earth ... geologically among the most ancient exposed rock on the planet,\" carrying a [scholarly] tag. This is a popular tourist/guidebook overstatement: Archaean charnockite/granite is genuinely very old (~2.5–3.8 Ga), but it is not among the single oldest exposed rock on Earth (cf. Acasta Gneiss ~4.03 Ga, Nuvvuagittuq belt). The [scholarly] tag lends undue authority to a superlative claim. Fix: soften to \"very ancient Archaean granite/charnockite\" and drop the \"among the most ancient on the planet\" superlative, or move it out of the [scholarly] frame."
+ },
+ {
+  "path": "06-sacred-geography/tiruchirappalli-rockfort-thayumanavar.md",
+  "severity": "low",
+  "kind": "broken-link",
+  "detail": "§VI line 59 links the anchor text **[Rāmāyaṇa](srirangam-ranganatha.md)** to the Śrīraṅgam node. The target file exists (not truly broken), but the anchor word \"Rāmāyaṇa\" pointing at the Srirangam temple page is a semantic mismatch — a reader clicking \"Rāmāyaṇa\" expects a Rāmāyaṇa text/deep-dive node. Fix: either relabel the link (e.g. \"Śrīraṅgam\") or point \"Rāmāyaṇa\" at an actual Rāmāyaṇa file."
+ },
+ {
+  "path": "06-sacred-geography/tiruvarur-thyagaraja-kamalalaya.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The breadcrumb blockquote exceeds the '1-3 line breadcrumb' convention: after the genuine one-line breadcrumb (line 3, 'Parent: [Sacred Geography](README.md) · Up to: [Master Index](../README.md) · Related: ...') the same blockquote absorbs a full ~7-line orientation paragraph (line 5, 'Tiruvārūr (Thiruvarur), Kāverī delta ... documented Chola centuries.'). All required elements (H1, up-link to section README, up-link to master index) are present and correct, so shape is otherwise fine; the fix is to move the line-5 orientation paragraph out of the blockquote into the body (it largely duplicates the opening body paragraph on line 7) so the breadcrumb stays 1-3 lines."
+ },
+ {
+  "path": "06-sacred-geography/tuljapur-tulja-bhavani.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The opening blockquote (lines 3-5) runs ~6 lines of descriptive lede before the navigation line, exceeding the '1-3 line breadcrumb' convention in AGENTS.md §4. The required up-link is present ('Parent: [Sacred Geography](README.md)' on line 5), so this is a borderline stylistic deviation consistent with corpus norm, not a structural failure. No fix required unless tightening to spec is desired (move the lede prose out of the breadcrumb blockquote)."
+ },
+ {
+  "path": "06-sacred-geography/yadagirigutta-pancha-narasimha.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Line 45 / line 75 attribute \"the Narasiṃha legend\" to \"*Vishnu Purāṇa*, bk. 1\". Vishnu Purāṇa Book 1 (chs. 17–20) does carry the Prahlāda–Hiraṇyakaśipu cycle, but its account de-emphasizes the man-lion pillar-slaying (which is the Bhāgavata's signature); labeling VP bk.1 flatly as \"the Narasiṃha legend\" slightly overstates it. Plausible, not fabricated — consider softening to \"the Prahlāda cycle\" to match what VP bk.1 actually contains."
+ },
+ {
+  "path": "07-acharyas-and-sampradayas/arunagirinathar-tiruppugazh.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Line 25 renders the verse as '...when You said that, O Mother, I understood nothing at all.' In the verse the addressee/subject who gives the upadeśa is Murugan (identified as 'the thief who stole the deer's daughter [Valli]'), and 'ammā' functions as an exclamation of wonder ('oh!'), not a vocative addressing a Mother goddess. Translating 'ammā' as 'O Mother' is misleading in a poem addressed to Skanda/Murugan; consider 'oh!' or an interjection gloss."
+ },
+ {
+  "path": "07-acharyas-and-sampradayas/nandanar-tirunalaippovar.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Reading B (line 58) attributes the Dalit/anti-caste critique to \"the Tamil anti-caste intellectual Iyōttee Thass, and later Dalit scholars\" but cites `[Gopalakrishna Bharati — Wikipedia]` as the source. That Wikipedia page does not mention Iyothee Thass or any Dalit critique of the Nandanar story — its only cited criticism is Meenakshisundaram Pillai faulting Bharati 'for deviating from historical facts.' The underlying critique is historically real (Iyothee Thass did critique Brahminized Nandanar retellings), but the cited source does not substantiate the attribution. Fix: cite a source that actually discusses Iyothee Thass / the caste-critique scholarship, or soften to a general attribution."
+ },
+ {
+  "path": "07-acharyas-and-sampradayas/nandanar-tirunalaippovar.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 12 dates Sundarar's *Tiruttoṇḍattokai* as \"the 7th–8th c. roll-call.\" Modern scholarship (and the corpus's own Nandanar Wikipedia source) places Sundarar in the 8th century (some say 9th); the \"7th\" is too early. Recommend \"8th (–9th) c.\" to match the [scholarly] frame the file otherwise uses (c. 6th–9th c. bhakti flowering)."
+ },
+ {
+  "path": "07-acharyas-and-sampradayas/nandanar-tirunalaippovar.md",
+  "severity": "low",
+  "kind": "merged-variant",
+  "detail": "Line 6 and line 20 equate \"Pulaiyar (Paṟaiyar)\" as a single community. Pulaiyar and Paṟaiyar are historically distinct Tamil Dalit communities; Nandanar is traditionally identified as Pulaiya, while the drum/paṟai association (and later retellings) attach the Paṟaiyar identity. Presenting them parenthetically as equivalent flattens a distinction that actually matters in a caste-focused article. Consider a nested variant note rather than silent equation."
+ },
+ {
+  "path": "07-acharyas-and-sampradayas/nandanar-tirunalaippovar.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 59 opens \"the Chola king who is traditionally credited with building/renovating the Chidambaram Naṭarāja hall is remembered in the temple's lore\" — an unnamed, orphaned clause with no connection to Nandanar and no source specificity; it reads as filler/non-sequitur within the \"Naming and worship today\" bullet. Either name the king and tie it to Nandanar's shrine, or cut it."
+ },
+ {
+  "path": "07-acharyas-and-sampradayas/tirumangai-alvar.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "The lede (line 6) states the golden-Buddha legend as flat fact: \"funded the great third enclosure-wall of Srirangam with a golden Buddha carried off from Nāgapaṭṭinam\" — with no reliability tag. The body (line 64) correctly tags the same episode [traditional] [disputed] and line 66 flags it as \"a hagiographic memory, not a documented event.\" Per AGENTS §5 (\"carry the tags through\"), the lede summary should signal the disputed/hagiographic status rather than assert it as settled history. Minor, since it is a summarizing lede whose tagged treatment follows below."
+ },
+ {
+  "path": "08-beings-and-bestiary/panjurli-guliga-tulu-daivas.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Line 29 asserts Panjurli \"is titled **Śiva-Śambhūta** ('sprung from Śiva')\" as if an attested epithet. This looks like a constructed Sanskritization rather than a documented Panjurli title in the paddana/bhuta literature; no source is attached to the epithet specifically. It is tagged [folk], which mitigates, but consider hedging ('sometimes glossed as') or dropping the italicized formal-title framing unless a source uses this term."
+ },
+ {
+  "path": "08-beings-and-bestiary/panjurli-guliga-tulu-daivas.md",
+  "severity": "low",
+  "kind": "merged-variant",
+  "detail": "Line 55 heads the bullet \"**Kordabbu (Koragajja / Kordabbu)**\" and treats Kordabbu and Koragajja as one being. Several Tulu sources treat Kordabbu and Koragajja/Koraga Taniya as distinct (though frequently conflated) daivas of the Koraga stratum. Stating the identity flatly collapses a genuinely disputed point; consider a nested variant note or a hedge rather than an equals-sign identity."
+ },
+ {
+  "path": "08-beings-and-bestiary/panjurli-guliga-tulu-daivas.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 4 and line 13 characterize the cult as \"[scholarly] pre-Vedic\" in substratum. 'Pre-Vedic' (temporally older than the Vedas) is a stronger claim than the usual scholarly 'non-Sanskritic / Dravidian folk substratum.' It is tagged [scholarly] and hedged ('held to reach back'), so this is borderline, but 'pre-Vedic' slightly over-claims a datable antiquity the oral tradition cannot supply."
+ },
+ {
+  "path": "09-artifacts-symbols-and-arts/vadya-sacred-musical-instruments.md",
+  "severity": "low",
+  "kind": "merged-variant",
+  "detail": "Sarasvatī's vīṇā is given two different proper names in adjacent bullets as separate settled facts: line 20 says her vīṇā is 'titled **Kalānidhi** (\"treasury of the arts\")', while line 21 says 'Sarasvatī's own instrument is named **Kacchapī**'. These are presented as two independent assertions with no reconciliation. 'Kacchapī' is the standard tradition; 'Kalānidhi' as a name for her vīṇā is weakly attested. Fix: either reconcile (e.g. note Kalānidhi as a poetic/alternate epithet with '*Variant:*') or drop the Kalānidhi naming so one instrument does not carry two unexplained names."
+ },
+ {
+  "path": "09-artifacts-symbols-and-arts/vadya-sacred-musical-instruments.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 44 states as settled fact that 'the word *tāla* for the **rhythmic cycle itself** derives from this clashing timekeeper' (the tāla cymbals). The etymological link between tāla (rhythm/measure) and tāla (cymbals) is a common but contested derivation, not established fact. Fix: soften to a traditional/folk etymology (e.g. '[folk] etymology links...' or 'is popularly derived from') rather than asserting derivation outright."
+ },
+ {
+  "path": "90-literature-corpus/dhangar-oral-epics-biroba-mhaskoba-dhuloba.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The breadcrumb blockquote (line 3) is a single dense ~10-line paragraph rather than the '1-3 line breadcrumb' the AGENTS.md §4 convention specifies; it functions as an abstract. All required elements are present (up-link 'Parent: [The Literature Corpus](README.md)' on line 5, blockquote formatting), so shape passes, but consider trimming the breadcrumb to 1-3 lines and moving the extended framing into the 'Orientation' section."
+ },
+ {
+  "path": "90-literature-corpus/dharma-nibandhas-and-digests.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Section II, Dāyabhāga bullet (line 45) tags the dating \"[scholarly] c. 1090–1130 CE — roughly contemporary with the Mitākṣarā, not later than it\" and presents \"not later than it\" as settled. Jīmūtavāhana's date is one of the more contested in dharmaśāstra; Kane's early-12th-c. dating is not the consensus and several scholars (e.g. Rocher) place him meaningfully later than Vijñāneśvara. Since the file elsewhere flags a comparable dating dispute with [disputed] (Devaṇṇa-bhaṭṭa, line 22), the categorical \"not later than it\" here reads as false certainty. Fix: add a [disputed] tag or soften to note the dating is contested."
+ },
+ {
+  "path": "90-literature-corpus/katamaraju-katha.md",
+  "severity": "low",
+  "kind": "factual",
+  "detail": "Line 9 states, attributed to Subba Rao/Narayanappa, that the cycle is \"the oldest, longest and finest historical ballad-cycle in Telugu — and, by length, the longest of the two.\" The cited source (Narayanappa 2021) actually says it is \"one of the oldest, longest and best historical ballad-cycles in Telugu\" — a hedged, non-superlative claim. The file upgrades \"one of the... best\" to the definite superlative \"the... finest\" and adds the ranking \"by length, the longest of the two,\" which the source does not assert. Fix: restore the source's hedge, e.g. \"one of the oldest, longest and finest,\" and drop or explicitly tag the unsupported \"longest of the two\" length-ranking as editorial rather than sourced."
+ },
+ {
+  "path": "90-literature-corpus/puranas/vishnudharmottara-purana.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "Line 49 uses a non-canonical tag form: '**[disputed canon-rank]**'. AGENTS.md §4 defines the tag as bare '[disputed]'; the qualifier inside the brackets deviates from the fixed tag vocabulary. Fix: change to '[disputed]' and move 'canon-rank' into the prose (e.g. '... its canon rank is [disputed]'). Note line 10 uses the tag correctly, so this is an inconsistency within the same file."
+ },
+ {
+  "path": "90-literature-corpus/puranas/vishnudharmottara-purana.md",
+  "severity": "low",
+  "kind": "suspect-citation",
+  "detail": "Internal tension over the ṣaḍaṅga attribution. Line 38 carefully and correctly disclaims that the six-limb list is fixed to the Citrasūtra — 'the canonical enumeration is preserved in Yaśodhara's Jayamaṅgalā commentary on the Kāmasūtra ... attributions of the exact six-item list vary, so it is cataloged here at the tradition level, not fixed to a single verse.' But the Sources bullet at line 66 then lists 'the *ṣaḍaṅga*/six-limb theory' among the contents of '*the Citrasūtra*, ... ed./trans. Stella Kramrisch,' which reads as attributing the ṣaḍaṅga to the Citrasūtra — the very thing line 38 disclaims. Fix: in line 66 qualify it as 'Kramrisch's discussion of the ṣaḍaṅga tradition (whose canonical list derives from Yaśodhara, not the Citrasūtra proper)' to keep consistency with the line-38 hedge."
+ },
+ {
+  "path": "90-literature-corpus/shiva-purana-mahatmya-tales.md",
+  "severity": "low",
+  "kind": "missing-tag",
+  "detail": "Line 24, the name-collision note ends with a `[disputed]` tag: \"Same word, wholly unrelated figures. [disputed]\". `[disputed]` per AGENTS.md §4 means \"contested even within tradition.\" Nothing here is contested — it is a homonym disambiguation (this Devarāja vs. Indra's epithet vs. Devarāja Perumāḷ). The tag is misapplied and misleads; remove it (the note needs no reliability tag)."
+ },
+ {
+  "path": "90-literature-corpus/shiva-purana-mahatmya-tales.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The breadcrumb blockquote (line 3) is a single ~140-word paragraph that packs a full summary of the Māhātmya (Sūta/Śaunaka, Naimiṣāraṇya, all three sinners) rather than the intended 1–3 line \"where this sits\" pointer. Up-link to README.md and parent links are present, so it functions, but it overshoots the terse-breadcrumb convention; consider trimming the narrative into the Orientation section and keeping the breadcrumb to the parent/sibling links."
+ },
+ {
+  "path": "90-literature-corpus/swasthani-brata-katha.md",
+  "severity": "low",
+  "kind": "shape",
+  "detail": "The breadcrumb blockquote (line 3) runs to a single very dense paragraph well beyond the '1–3 line breadcrumb' convention in AGENTS.md §4 — it packs the full thesis, month/river frame, story summary, and three cross-links into one block. All required elements (up-link to README.md, orientation) are present, so shape is not broken, but consider trimming it to a 1–3 line orientation and moving the detail into the Orientation section that already follows."
+ }
+]
