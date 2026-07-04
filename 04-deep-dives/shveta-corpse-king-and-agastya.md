@@ -31,8 +31,8 @@ Told inside the Uttara Kāṇḍa's cluster of Agastya-narrations to the newly c
 
 ## The doctrine it charters — tapas without dāna is hollow
 
-- **Anna-dāna as the indispensable charity** — The tale ranks the **gift of food** as the merit whose absence not even Brahmaloka can cover. Austerity purifies the self; charity — especially feeding others — turns merit *outward*, and only the outward-turned gift is spiritually complete. See [Anna, Naivedya & Prasāda](../05-concepts-and-dharma/anna-naivedya-and-prasada.md). [scripture]
-- **Retribution exactly fitted to the fault** — A man who in life fed only himself is given, in death, **only himself to eat**: the punishment is a mirror of the sin, an aetiology of why *dāna* cannot be substituted by ritual or by penance. Compare the karmic exactitude of hell-tours like [Vipaścit in hell](vipashchit-in-hell.md) and the *prāyaścitta* logic of [Pāpa, Puṇya & Prāyaścitta](../05-concepts-and-dharma/papa-punya-and-prayaschitta.md). [scripture]
+- **Anna-dāna as the indispensable charity** — The tale ranks the **gift of food** as the merit whose absence not even Brahmaloka can cover. Austerity purifies the self; charity — especially feeding others — turns merit *outward*, and only the outward-turned gift is spiritually complete. See [Anna, Naivedya & Prasāda](../05-concepts-and-dharma/anna-naivedya-and-prasada.md).
+- **Retribution exactly fitted to the fault** — A man who in life fed only himself is given, in death, **only himself to eat**: the punishment is a mirror of the sin, an aetiology of why *dāna* cannot be substituted by ritual or by penance. Compare the karmic exactitude of hell-tours like [Vipaścit in hell](vipashchit-in-hell.md) and the *prāyaścitta* logic of [Pāpa, Puṇya & Prāyaścitta](../05-concepts-and-dharma/papa-punya-and-prayaschitta.md).
 - **Heaven-with-hunger, not hell** — Notably Śveta is **not damned to Naraka**; his tapas genuinely earned Svarga, and he keeps its apsarās and swan-chariot. The defect surfaces *inside* heaven as an unappeasable hunger — a subtler theology than simple reward/punishment: merit can be **real yet incomplete**, and the gap manifests as a torment carried into bliss itself. [scholarly]
 
 ---
@@ -55,7 +55,7 @@ Told inside the Uttara Kāṇḍa's cluster of Agastya-narrations to the newly c
 
 ## Disambiguation — which Śveta this is
 
-- **Not the several other Śvetas** — This is **Śveta of Vidarbha, son of Sudeva**, of the Rāmāyaṇa. He is *not* the Mahābhārata's Vana-Parva Śveta (a distinct-but-parallel figure; see above), *not* **Śvetaketu** (the Chāndogya/Upaniṣadic student of *tat tvam asi*), *not* the eponym of the **Śveta-Varāha Kalpa** (the current *kalpa*), *not* **Śvetadvīpa** (the White Island of the Nārāyaṇīya), and *not* the Tamil Śaiva child-saint **Śveta of Thiruvenkāḍu**. The name is shared by wholly unrelated figures across the corpus. [disputed — name-collision]
+- **Not the several other Śvetas** — This is **Śveta of Vidarbha, son of Sudeva**, of the Rāmāyaṇa. He is *not* the Mahābhārata's Vana-Parva Śveta (a distinct-but-parallel figure; see above), *not* **Śvetaketu** (the Chāndogya/Upaniṣadic student of *tat tvam asi*), *not* the eponym of the **Śveta-Varāha Kalpa** (the current *kalpa*), *not* **Śvetadvīpa** (the White Island of the Nārāyaṇīya), and *not* the Tamil Śaiva child-saint **Śveta of Thiruvenkāḍu** (see [Sage Śveta Saved from Kāla](sage-shveta-and-yama.md)). The name is shared by wholly unrelated figures across the corpus.
 
 ---
 

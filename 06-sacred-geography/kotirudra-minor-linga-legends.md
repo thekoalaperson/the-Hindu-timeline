@@ -3,7 +3,7 @@
 > **The three sthala-legends that open the Śiva Purāṇa's liṅga-book** — before the *Koṭirudra-saṃhitā* narrates the twelve jyotirliṅgas proper, it establishes the power of the *upaliṅga* / lesser liṅga through three exempla: **Atrīśvara** in the Kāmada forest by Citrakūṭa (an act of drought-penance), **Nandikeśvara** on the **Revā (Narmadā)** (a widow saved posthumously), and **Mahābala** at **Gokarṇa** on the Kanara coast (an outcaste woman's good goal).
 > Parent: [Sacred Geography](README.md) · Up: [Master Index](../README.md) · Related: [12 Jyotirliṅgas](12-jyotirlingas.md) · [Gokarṇa Mahābaleśvara & the Ātma-liṅga](gokarna-mahabaleshwar-atma-linga.md) · [Atri & Anasūyā](../04-deep-dives/atri-anasuya.md)
 
-The **Koṭirudra-saṃhitā** ("collection of the ten-million Rudras") is the sixth book of the **Śiva Purāṇa**, dedicated to the liṅga in all its forms. Its opening chapters (1–2) praise the jyotirliṅgas and their **upaliṅgas** (subsidiary liṅgas) and the śiva-liṅga as such; then, before the great jyotirliṅga catalogue, chapters **3–11** plant three sthala-māhātmyas whose common thesis is that Śiva's grace through the liṅga overrides drought, death, sin, and birth alike. The **two clocks** run apart here: on the *scriptural* clock the Atri–Anasūyā episode belongs to the saptarṣi household of the current **[Vaivasvata Manvantara](../01-manvantaras/manvantara-07-vaivasvata/README.md)** (early in this Mahāyuga), while the Nandikeśvara and Mahābala human-tales are undated Purāṇic exempla; on the *academic* clock the received Śiva Purāṇa, and the Koṭirudra-saṃhitā among its later strata, is dated **[scholarly] c. 10th–14th century CE**.
+The **Koṭirudra-saṃhitā** ("collection of the ten-million Rudras") is the fourth book of the **Śiva Purāṇa**, dedicated to the liṅga in all its forms. Its opening chapters (1–2) praise the jyotirliṅgas and their **upaliṅgas** (subsidiary liṅgas) and the śiva-liṅga as such; then, before the great jyotirliṅga catalogue, chapters **3–10** plant three sthala-māhātmyas whose common thesis is that Śiva's grace through the liṅga overrides drought, death, sin, and birth alike. The **two clocks** run apart here: on the *scriptural* clock the Atri–Anasūyā episode belongs to the saptarṣi household of the current **[Vaivasvata Manvantara](../01-manvantaras/manvantara-07-vaivasvata/README.md)** (early in this Mahāyuga), while the Nandikeśvara and Mahābala human-tales are undated Purāṇic exempla; on the *academic* clock the received Śiva Purāṇa, and the Koṭirudra-saṃhitā among its later strata, is dated **[scholarly] c. 10th–14th century CE**.
 
 ---
 
@@ -69,7 +69,7 @@ The **Koṭirudra-saṃhitā** ("collection of the ten-million Rudras") is the s
 
 ## Sources
 
-- **Primary — Śiva Purāṇa, Koṭirudra-saṃhitā (Book VI):**
+- **Primary — Śiva Purāṇa, Koṭirudra-saṃhitā (Book IV):**
   - ch. 1 — greatness of the jyotirliṅgas and their **upaliṅgas**; ch. 2 — greatness of śiva-liṅgas (framing chapters).
   - **ch. 3** — "The penance of Anasūyā and Atri": the hundred-year drought in the Kāmada forest, Atri's 54-year prāṇāyāma trance, Anasūyā's earthen liṅga and her service adjudged greater than the sage's penance.
   - **ch. 4** — "The greatness of Atrīśvara": Śiva's manifestation from the clay liṅga (4.50), the boon and the couple's request (4.51, 4.54), the naming **Atrīśvara** (4.56), Gaṅgā's arrival and merit-condition (4.9–10, 4.43), her abiding in the kuṇḍa (4.55), the fruits of worship (4.61).

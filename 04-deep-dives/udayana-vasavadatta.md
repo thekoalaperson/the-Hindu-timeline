@@ -1,6 +1,6 @@
 # Udayana and Vāsavadattā — the Vatsa king's romance cycle
 
-> Deep-dive on the **love-saga of Udayana, king of Vatsa** (capital **Kauśāmbī**), and **Vāsavadattā**, daughter of **Caṇḍamahāsena** of Ujjayinī — the proverbial Sanskrit romance so famous that Kālidāsa's cloud finds **"village elders skilled in the tales of Udayana"** at Avanti. Its four hinges: the **capture by the artificial elephant**, the **lute-teaching** behind the curtain, the **elopement from Ujjayinī**, and minister **Yaugandharāyaṇa's fire-ruse and the Padmāvatī marriage**. Canonical text: **Kathāsaritsāgara, Books II–III (Kathāmukha & Lāvāṇaka, Tarangas 9–19)**; parent of Bhāsa's *Svapnavāsavadatta* and Harṣa's *Ratnāvalī*. Up: [Deep-dives index](README.md). Literature-corpus home of the stream: [Bṛhatkathā / Kathāsaritsāgara](../90-literature-corpus/brihatkatha-kathasaritsagara-and-vikramaditya-cycle.md).
+> Deep-dive on the **love-saga of Udayana, king of Vatsa** (capital **Kauśāmbī**), and **Vāsavadattā**, daughter of **Caṇḍamahāsena** of Ujjayinī — the proverbial Sanskrit romance so famous that Kālidāsa's cloud finds **"village elders skilled in the tales of Udayana"** at Avanti. Its four hinges: the **capture by the artificial elephant**, the **lute-teaching** behind the curtain, the **elopement from Ujjayinī**, and minister **Yaugandharāyaṇa's fire-ruse and the Padmāvatī marriage**. Canonical text: **Kathāsaritsāgara, Books II–III (Kathāmukha & Lāvāṇaka, Tarangas 9–20)**; parent of Bhāsa's *Svapnavāsavadatta* and Harṣa's *Ratnāvalī*. Up: [Deep-dives index](README.md). Literature-corpus home of the stream: [Bṛhatkathā / Kathāsaritsāgara](../90-literature-corpus/brihatkatha-kathasaritsagara-and-vikramaditya-cycle.md).
 >
 > **Disambiguation (name-collision):** this **Udayana** is the *legendary/semi-historical Vatsa king* of the mahājanapada age — **not** Udayanācārya the 10th–11th-c. Nyāya logician, and **not** the Ayyappa-cycle bandit "Udayanan." All three share only the name.
 >
@@ -86,7 +86,7 @@
 
 **Primary text**
 - **Somadeva, *Kathāsaritsāgara*, Book II (Kathāmukha-lambhaka)** — Udayana's lineage and twin fame; Caṇḍamahāsena's artificial-elephant capture; the lute-teaching and the deception of ugliness; the elopement on Bhadravatī and the marriage at Kauśāmbī.
-- **Somadeva, *Kathāsaritsāgara*, Book III (Lāvāṇaka-lambhaka)** — the neglected kingdom; Yaugandharāyaṇa's fire-ruse at Lāvāṇaka; Vāsavadattā hidden with Padmāvatī; Udayana's grief and the Magadha marriage; the revelation and reunion. (Books II–III span **Tarangas 9–19**; Book IV, Naravāhanadattajanana, follows with the son's birth.)
+- **Somadeva, *Kathāsaritsāgara*, Book III (Lāvāṇaka-lambhaka)** — the neglected kingdom; Yaugandharāyaṇa's fire-ruse at Lāvāṇaka; Vāsavadattā hidden with Padmāvatī; Udayana's grief and the Magadha marriage; the revelation and reunion. (Books II–III span **Tarangas 9–20**; Book IV, Naravāhanadattajanana, follows with the son's birth.)
 - Standard translation: **C. H. Tawney, *The Ocean of Story* (Kathāsaritsāgara), ed. N. M. Penzer, 10 vols., 1924–28**, Vol. I (Books I–III). The Kashmirian *Bṛhatkathāmañjarī* of Kṣemendra and Budhasvāmin's *Bṛhatkathā-śloka-saṃgraha* (which centres Naravāhanadatta) are the parallel recensions of the lost *Bṛhatkathā*.
 
 **Dramatic progeny (primary literature)**

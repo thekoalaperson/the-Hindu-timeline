@@ -58,8 +58,8 @@ The skull-fall is a **prize claimed by several kṣetras**; the Timeline catalog
 
 - **Avantikā / Ujjain (this node)** — the *Avantya-khaṇḍa's* **Avantikṣetra-māhātmya** brings the release to **Mahākāla-vana**, chartering the city's supremacy. (*Skanda Purāṇa, Avantya-khaṇḍa*, ch. 6)
 - **Kāśī / Vārāṇasī** — the *Kāśī-khaṇḍa* has the skull cling to Bhairava until it **drops at the Kapālamocana tīrtha in Kāśī** (near Manikarṇikā / the ghats), one root of **Kāla-Bhairava the kotwāl of Kāśī**. The Timeline's [Kāśī node](kashi-varanasi.md) records only this variant. (*Skanda Purāṇa, Kāśī-khaṇḍa*)
-- **Kurukṣetra** — the *Vāmana Purāṇa* and Kurukṣetra māhātmyas place a **Kapālamocana tīrtha on the Sarasvatī** at Kurukṣetra, where a **skull** (in the Kurukṣetra telling, of the demon **Rāhu** struck by Viṣṇu, or Śiva's Brahmahatyā-kapāla) fell from a tree onto the sage **Maṅkaṇaka** and was freed by the tīrtha's water. (*Vāmana Purāṇa*; *Mahābhārata, Śalya-parva* tīrtha-yātrā) — see [Kurukṣetra](kurukshetra-dharmakshetra.md)
-  - *Variant (whose skull, Kurukṣetra):* the Kurukṣetra Kapālamocana is variously the skull of a **rākṣasa** slain by **Rāma's** arrow that lodged in a sage, *or* the Brahmā-kapāla; the tradition itself keeps more than one occupant for the same tīrtha-name. [disputed]
+- **Kurukṣetra** — the *Vāmana Purāṇa* and Kurukṣetra māhātmyas place a **Kapālamocana tīrtha on the Sarasvatī** at Kurukṣetra. In the *Mahābhārata, Śalya-parva* tīrtha-yātrā, a **rākṣasa's skull** severed by **Rāma's** arrow coursed through the sky and fastened onto the thigh of the sage **Mahodara**, who was freed of it by bathing at the tīrtha. (*Vāmana Purāṇa*; *Mahābhārata, Śalya-parva* tīrtha-yātrā) — see [Kurukṣetra](kurukshetra-dharmakshetra.md)
+  - *Variant (whose skull, Kurukṣetra):* the Kurukṣetra Kapālamocana is variously the skull of a **rākṣasa** slain by **Rāma's** arrow that lodged in the sage **Mahodara** (*Śalya-parva*), *or* the head of the demon **Rāhu** struck by Viṣṇu, *or* the Brahmā-kapāla; the tradition itself keeps more than one occupant for the same tīrtha-name. [disputed]
 - **Reading the rivalry** — these are **not contradictions to reconcile** but parallel charters: a widely-shared pan-Śaiva myth (Bhairava + Brahmahatyā + the clinging skull) whose *dénouement* each major kṣetra localizes to license its own claim to annul the ultimate sin. The value is that all the claims are preserved and attributed. [scholarly]
 
 ---
@@ -75,7 +75,7 @@ The skull-fall is a **prize claimed by several kṣetras**; the Timeline catalog
 ## Related Nodes
 - [Ujjain / Avantikā — Mahākāla & the Time-Meridian City](ujjain-avantika.md) — the home node (jyotirliṅga, Bhasma-āratī, Kāl Bhairav kotwāl, 84 Mahādev); the Dūṣaṇa/Candrasena origin legend.
 - [Kāśī / Vārāṇasī](kashi-varanasi.md) — the rival Kapālamocana and Kāla-Bhairava the kotwāl of Kāśī.
-- [Kurukṣetra — Dharmakṣetra](kurukshetra-dharmakshetra.md) — the Sarasvatī Kapālamocana tīrtha (Maṅkaṇaka / Rāhu-skull variants).
+- [Kurukṣetra — Dharmakṣetra](kurukshetra-dharmakshetra.md) — the Sarasvatī Kapālamocana tīrtha (Mahodara / Rāhu-skull variants).
 - [Vaṭuka / Kāla-Bhairava — origin](../02-deities-and-cosmic-hierarchy/vatuka-bhairava-origin.md) — the Bhairava form-node and the beheading of Brahmā.
 - [Prajāpati, Uṣas & Rudra's piercing](../04-deep-dives/prajapati-ushas-rudra-piercing.md) — the Vedic prototype (Rudra shoots the incestuous creator).
 - [Pāpa, puṇya & prāyaścitta](../05-concepts-and-dharma/papa-punya-and-prayaschitta.md) — Brahmahatyā among the *mahāpātakas* and the logic of expiation.
@@ -85,7 +85,7 @@ The skull-fall is a **prize claimed by several kṣetras**; the Timeline catalog
 - **Skanda Purāṇa, Avantya-khaṇḍa, Avantikṣetra-māhātmya, chs. 1–7** (esp. chs. 2, 3, 6) — the primary text: the frame at Naimiṣa (ch. 1), the severing of Brahmā's fifth head and birth of Bhairava (ch. 2), the clinging kapāla, the Kāpālika/Mahāvrata penance and pursuing Brahmahatyā (ch. 3), the release of the skull and Kapālamocana-tīrtha at Mahākāla-vana (ch. 6), and the charter of the kṣetra's supremacy (chs. 6–7). [late text]
 - **Skanda Purāṇa, Kāśī-khaṇḍa** — the rival telling in which the skull drops at the **Kapālamocana** of Kāśī; source for the Kāśī variant catalogued here (see [Kāśī node](kashi-varanasi.md)).
 - **Śiva Purāṇa** (Śatarudra-saṃhitā / Vidyeśvara-saṃhitā) — the birth of **Kāla-Bhairava** from Śiva's wrath, the thumbnail severing of Brahmā's fifth head, and the imposed Kapāla-vrata; the pan-Śaiva backbone the Avanti text localizes.
-- **Vāmana Purāṇa** & **Mahābhārata, Śalya-parva** (tīrtha-yātrā of Balarāma) — the **Kurukṣetra Kapālamocana** on the Sarasvatī (Maṅkaṇaka / falling-skull variants).
+- **Vāmana Purāṇa** & **Mahābhārata, Śalya-parva** (tīrtha-yātrā of Balarāma) — the **Kurukṣetra Kapālamocana** on the Sarasvatī (Mahodara / falling-skull variants).
 - Scriptural prototype: the Vedic **Rudra pierces Prajāpati** myth (Aitareya Brāhmaṇa / Maitrāyaṇī tradition) behind the "fifth head / incest" stratum — see [Prajāpati & Rudra's arrow](../04-deep-dives/prajapati-ushas-rudra-piercing.md).
 - Historical context: the **Kāpālika / Mahāvrata** ascetic order (skull-bowl vow) — D.N. Lorenzen, *The Kāpālikas and Kālāmukhas*; the myth as charter for the Mahāvrata penance. [scholarly]
 - Two-clock note: *scripture-clock* — cosmogonic/trans-yuga, Mahākāla-vana *nitya*; *academic-clock* — Avantya-khaṇḍa māhātmya layers **[scholarly] c. 9th–13th c. CE**, Kāśī-khaṇḍa **c. 13th–14th c. CE**, Kāpālika movement attested by **c. 6th–8th c. CE**, Avantī a *mahājanapada* capital from **c. 6th c. BCE**.

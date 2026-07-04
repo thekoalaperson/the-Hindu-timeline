@@ -42,10 +42,10 @@
 
 ## 6. Mithi, and how the Rāmāyaṇa telling meets the Purāṇic
 
-- **The dynasty must continue.** With the king bodiless, the ṛṣis fear **anarchy (arājaka)** in a realm without an heir. In the Purāṇic account they **churn (mathana)** Nimi's preserved body and a son springs forth. (*Viṣṇu Purāṇa* IV.5; *Bhāgavata Purāṇa* IX.13.13)
+- **The dynasty must continue.** With the king bodiless, the ṛṣis fear **anarchy (arājaka)** in a realm without an heir, and **churn** Nimi's preserved body so that a son springs forth. This churning-birth is carried by **both traditions** — the Rāmāyaṇa has the sages agitate the body with the **fire-drill (araṇi)**, the Purāṇas by **churning (mathana)**. (*Vālmīki Rāmāyaṇa*, Uttara-kāṇḍa sarga 57 [Shastri]; *Viṣṇu Purāṇa* IV.5; *Bhāgavata Purāṇa* IX.13.13)
 - **One birth, three names.** The Bhāgavata packs the house's whole nomenclature into a single verse: **Janaka** (from the extraordinary *birth*, *janana*), **Vaideha** (born of the *bodiless* one, *videha*), and **Mithi / Mithila** (born of *churning*, *mathana*) — and the city he raises is **Mithilā**. (*Bhāgavata Purāṇa* IX.13.13; *Viṣṇu Purāṇa* IV.5)
-- **What Vālmīki himself carries.** The Rāmāyaṇa's Uttara-kāṇḍa telling centres on the **curse, the pot-rebirth, and the blink**; the bare dynastic succession **Nimi → Mithi → Janaka** is given elsewhere in the epic, in **Janaka's own recitation of his lineage** to Vasiṣṭha and Daśaratha. (*Vālmīki Rāmāyaṇa*, Bāla-kāṇḍa sarga 71) — full king-roll and the "many-Janakas" problem at the [Videha line of Mithilā](videha-mithila-line-janaka.md).
-  - *Reliability note:* the **churning etymology** of "Mithi" is the Purāṇas' elaboration; treat it as the canonical explanation of the name while keeping the Rāmāyaṇa's contribution — the mutual curse and the nimeṣa boon — as this file's proper subject. [variants cataloged, not merged]
+- **What Vālmīki himself carries.** The Rāmāyaṇa's Uttara-kāṇḍa telling (**sarga 57**) carries not only the **curse, the pot-rebirth, and the blink** but the **churning-birth of Mithi** itself: from Nimi's agitated body a great ascetic being arises who, because he was "born of an inanimate body," is named **Mithi, King of Videha** — the ancient **Janaka** and the origin of the race of **Mithilā**. The succession **Nimi → Mithi → Janaka** is thus Vālmīki's own, not merely Purāṇic; the epic gives it a **second** time in the **Bāla-kāṇḍa** (sarga 71), where **Janaka recites his lineage** to Vasiṣṭha and Daśaratha. (*Vālmīki Rāmāyaṇa*, Uttara-kāṇḍa sarga 57 & Bāla-kāṇḍa sarga 71 [Shastri]) — full king-roll and the "many-Janakas" problem at the [Videha line of Mithilā](videha-mithila-line-janaka.md).
+  - *Reliability note:* the **churning etymology** of "Mithi" is **shared by the Rāmāyaṇa and the Purāṇas** — Vālmīki derives the name from Nimi's body being agitated by the fire-drill, the Purāṇas from *mathana* — not a Purāṇic-only elaboration; this file's proper subject remains the Rāmāyaṇa's distinctive contributions, the mutual curse and the nimeṣa boon. [variants cataloged, not merged]
 
 ## 7. Reading the tale — the two clocks and the sequel king
 
@@ -64,7 +64,7 @@
 
 ## Sources
 **Primary (scriptural):**
-- *Vālmīki Rāmāyaṇa*, **Uttara-kāṇḍa, sargas 55–57** (Hari Prasad Shastri trans.) — the curse of Nimi and Vasiṣṭha, Vasiṣṭha's rebirth from the kumbha of Mitra-Varuṇa at the sight of Urvaśī, Nimi's refusal of the body, and his placement in the eyes of all creatures (the nimeṣa etiology). [late text]
+- *Vālmīki Rāmāyaṇa*, **Uttara-kāṇḍa, sargas 55–57** (Hari Prasad Shastri trans.) — the curse of Nimi and Vasiṣṭha, Vasiṣṭha's rebirth from the kumbha of Mitra-Varuṇa at the sight of Urvaśī, Nimi's refusal of the body, his placement in the eyes of all creatures (the nimeṣa etiology), and the churning-birth of **Mithi** (King of Videha, ancient Janaka) from the agitated body. [late text]
 - *Vālmīki Rāmāyaṇa*, **Bāla-kāṇḍa, sarga 71** — Janaka's recitation of the Videha lineage (Nimi → Mithi → Janaka).
 - *Viṣṇu Purāṇa* **IV.5** — Purāṇic mutual curse, the seed of Mitra-Varuṇa, the blink-boon, and the churning-birth of Janaka.
 - *Bhāgavata Purāṇa* **IX.13** (esp. 13.1–13) — parallel narrative; the three-fold etymology Janaka / Vaideha / Mithi in a single verse; Nimi's discourse on the body as bondage.

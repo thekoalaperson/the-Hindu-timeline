@@ -48,7 +48,7 @@
 ## Mauritius — Gaṅgā Talāo and the Śivarātri pilgrimage
 
 - **The crater-lake** — **Grand Bassin**, a crater lake in the **Savanne** highlands, is the holiest Hindu site of Mauritius, renamed **Gaṅgā Talāo** ("Lake of the Ganges"). (Source: Mauritius Hindu tradition) [regional]
-- **The discovery-dream legend** — tradition holds that in **1888** the priest **Paṇḍit Jhummon Giri Gosāgne (Sanadhoo Giri Gossaye)** was granted a **vision/dream** that the waters of this remote lake were joined to the sacred **Gaṅgā** of India; he led the first pilgrimage, and the lake became a surrogate Ganges for a people cut off from the river by the *kālā pānī*. In **1972** water carried from the Ganga at Hardwar was ceremonially poured into the lake, sealing the identification. (Source: Mauritian oral tradition; temple record) [folk] [oral tradition]
+- **The discovery-dream legend** — tradition holds that in **1897 (first pilgrimage 1898)** the priest **Paṇḍit Jhummon Giri Gosāgne (Sanadhoo Giri Gossaye)** was granted a **vision/dream** that the waters of this remote lake were joined to the sacred **Gaṅgā** of India; he led the first pilgrimage, and the lake became a surrogate Ganges for a people cut off from the river by the *kālā pānī*. In **1972** water carried from the Ganga at Hardwar was ceremonially poured into the lake, sealing the identification. (Source: Mauritian oral tradition; temple record) [folk] [oral tradition]
 - **Mahā Śivarātri kāvaḍī pilgrimage** — on **Mahā Śivarātri** (Phālguna Kṛṣṇa caturdaśī) several hundred thousand pilgrims walk barefoot, many carrying decorated wooden **kanwar/kāvaḍī** arches, from across the island to Gaṅgā Talāo to collect holy water and offer it to **Śiva** — the largest Śivarātri gathering, and one of the largest Hindu assemblies, outside India. (Source: Mauritius Śivarātri observance) [regional] — for the festival's scriptural charter see [shivaratri-hunter-legend.md](../04-deep-dives/shivaratri-hunter-legend.md) and [festivals-and-vratas.md](../05-concepts-and-dharma/festivals-and-vratas.md).
 - **The colossi** — the lakeside now bears the **108-ft Mangal Mahādev** (a standing Śiva modelled on the Sursagar Śiva of Vadodara; unveiled **2007**) and a matching **Durgā/Mā Kālī** statue, monumentalizing the pilgrimage site. (Source: Mauritius, Ganga Talao complex) [regional]
 
@@ -89,7 +89,7 @@
 - [Aapravasi Ghat — Wikipedia / UNESCO](https://en.wikipedia.org/wiki/Aapravasi_Ghat); [Indo-Caribbeans](https://en.wikipedia.org/wiki/Indo-Caribbean_people); [Indo-Fijians](https://en.wikipedia.org/wiki/Indo-Fijians)
 - [Ramleela in Trinidad and Tobago — Wikipedia](https://en.wikipedia.org/wiki/Ramleela_in_Trinidad_and_Tobago); [Jhandi](https://en.wikipedia.org/wiki/Jhandi)
 - [Ganga Talao (Grand Bassin) — Wikipedia](https://en.wikipedia.org/wiki/Ganga_Talao); [Maha Shivaratri in Mauritius]
-- [Kali worship in Guyana / Madrasi religion] — Keith E. McNeal, *Trance and Modernity in the Southern Caribbean* (2011); Stephanie Bilby / Paul Younger, *New Homelands* (2010) [scholarly]
+- [Kali worship in Guyana / Madrasi religion] — Keith E. McNeal, *Trance and Modernity in the Southern Caribbean* (2011); Paul Younger, *New Homelands* (2010); Stephanie Bilby (Kali-Mai fieldwork) [scholarly]
 - John D. Kelly, *A Politics of Virtue: Hinduism, Sexuality, and Countercolonial Discourse in Fiji* (1991) — the Sanātan–Ārya Samāj split. [scholarly]
 - Vijay Mishra, *The Literature of the Indian Diaspora* (2007) — the *Rāmcaritmānas* as the "grand narrative" of girmit culture. [scholarly]
 

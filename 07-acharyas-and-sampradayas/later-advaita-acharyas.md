@@ -27,7 +27,7 @@ The post-Śaṅkara tradition bifurcates into two named lines, after the two sem
 
 ### Vivaraṇa (Padmapāda → Prakāśātman)
 
-- **Padmapādācārya** — direct disciple of Śaṅkara (associated with Purī), author of the **Pañcapādikā**, a commentary that survives only on the first five *pādas* of the *Brahmasūtra-bhāṣya*. (Source: Wikipedia, *Padmapada*; [adi-shankara.md](adi-shankara.md))
+- **Padmapādācārya** — direct disciple of Śaṅkara (associated with Purī), author of the **Pañcapādikā**, a commentary that survives only as a gloss on the first four *sūtras* (the *catuḥsūtrī*) of the *Brahmasūtra-bhāṣya*. (Source: Wikipedia, *Padmapada*; [adi-shankara.md](adi-shankara.md))
 - **Prakāśātman** — [scholarly] c. 10th–13th c. CE (dating uncertain) — wrote the **Pañcapādikā-Vivaraṇa**, the elaboration that *names the school*. (Source: Wikipedia, *Advaita Vedanta*; *Prakāśātman*)
 - **Positions** — avidyā's **locus is Brahman itself** (Brahman is both *āśraya* and *viṣaya* of ignorance); there is **one** ignorance; the jīva is a **reflection (pratibimba-vāda)** of Brahman in avidyā; and **verbal knowledge from the mahāvākya alone directly liberates** — no separate meditative discipline is required. (Source: Wikipedia, *Advaita Vedanta*, "Bhamati and Vivarana"; IEP) [scholarly]
 - **Later carriers** — Vidyāraṇya's **Vivaraṇa-prameya-saṃgraha** digests this school (aligning Vidyāraṇya himself with the Vivaraṇa line).

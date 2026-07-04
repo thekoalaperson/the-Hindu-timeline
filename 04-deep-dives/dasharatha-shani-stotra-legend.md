@@ -18,7 +18,7 @@ The **Daśaratha-Śanaiścara-saṃvāda** — the "dialogue of Daśaratha and S
 ## The omen — Rohiṇī-śakaṭa-bheda and the twelve-year famine
 
 - **The dreaded transit** — Astrologers (in most tellings **Vasiṣṭha** and the court jyotiṣīs) inform Daśaratha that Śani is about to move into position for the **Rohiṇī-śakaṭa-bheda** — Saturn "piercing the cart of Rohiṇī," i.e. transiting between the asterism **Rohiṇī** (Aldebaran, in Vṛṣabha/Taurus) and the little V-of-stars imagined as her *śakaṭa* (cart). (*Nāgara-khaṇḍa, Daśaratha-Śanaiścara-saṃvāda*.)
-- **What it portends** — when a slow, cruel graha breaks the cart of Rohiṇī, the śāstra reckons a **dvādaśa-varṣā anāvṛṣṭi** — a *twelve-year drought* — bringing famine, death, and the collapse of dharma across the earth. The omen is old and pan-textual: the **Mahābhārata (Bhīṣma-parva)** lists the graha "afflicting Rohiṇī" among the terrible portents on the eve of the Kurukṣetra war. [scripture]
+- **What it portends** — when a slow, cruel graha breaks the cart of Rohiṇī, the śāstra reckons a **dvādaśa-varṣā anāvṛṣṭi** — a *twelve-year drought* — bringing famine, death, and the collapse of dharma across the earth. The omen is old and pan-textual: the **Mahābhārata (Bhīṣma-parva)** lists the graha "afflicting Rohiṇī" among the terrible portents on the eve of the Kurukṣetra war.
 - **A king's dharma** — Daśaratha, as a *rājā* bound to protect his people (**prajā-pālana**), refuses to let the famine fall. Rather than propitiate Saturn from below with rites, he resolves to **stop the transit physically**, treating the graha as an invader to be met in battle — the tale's central, startling premise. See [pāpa / puṇya & the fruits of action](../05-concepts-and-dharma/papa-punya-and-prayaschitta.md).
 
 ---
@@ -35,7 +35,7 @@ The **Daśaratha-Śanaiścara-saṃvāda** — the "dialogue of Daśaratha and S
 ## The boon and the stotra
 
 - **The plea for the people** — Daśaratha does not ask wealth or victory; he asks that **Śani never again enter the Rohiṇī-śakaṭa-bheda**, so that the *dvādaśa-varṣā* famine shall never fall on the earth and its beings. Saturn, honoring the king's selflessness, **grants it** — vowing to spare the cart of Rohiṇī henceforth (*Nāgara-khaṇḍa, Daśaratha-Śanaiścara chapters*).
-- **The hymn of praise** — overwhelmed, Daśaratha then **extols Saturn with a stotra** — the **Daśaratha-kṛta Śani-stotra** — invoking him under a cascade of names and forms: the black one (*kṛṣṇa*), the tawny/red-brown (*babhru*, *piṅgala*), the fierce (*raudra*), the ender (*antaka*, *kṛtānta*), the son of the Sun (*saurī*), the slow-mover (*manda*, *śanaiścara*), the corner-standing (*koṇastha*), Yama's brother, the dispenser of the fruits of karma. [scripture]
+- **The hymn of praise** — overwhelmed, Daśaratha then **extols Saturn with a stotra** — the **Daśaratha-kṛta Śani-stotra** — invoking him under a cascade of names and forms: the black one (*kṛṣṇa*), the tawny/red-brown (*babhru*, *piṅgala*), the fierce (*raudra*), the ender (*antaka*, *kṛtānta*), the son of the Sun (*saurī*), the slow-mover (*manda*, *śanaiścara*), the corner-standing (*koṇastha*), Yama's brother, the dispenser of the fruits of karma.
   - *On the "ten names":* the closely related enumeration — **Koṇastha, Piṅgala, Babhru, Kṛṣṇa, Raudra, Antaka, Yama, Saurī, Śanaiścara, Manda** — is traditionally the **Pippalāda** decad of Saturn's names; the Daśaratha hymn overlaps with but is *distinct from* the ten-name Pippalāda verse. The corpus keeps them attributed separately rather than merged. [disputed]
 - **The reciter's boon** — pleased by the hymn, Śani grants the crowning promise: **whoever reads or hears this stotra with devotion — especially on a Saturday or during Saturn's affliction (sāḍe-sātī, aṣṭama-śani, the daśā/antardaśā of Saturn) — shall be released from his cruel effects**, and no *pīḍā* (torment) of Saturn shall touch them. This boon is the reason the hymn is still recited today. (*Nāgara-khaṇḍa, Daśaratha-Śanaiścara-saṃvāda*.)
 - **The descent** — his mission accomplished — the famine averted for his kingdom *and* a shield secured for all future devotees — Daśaratha returns to Ayodhyā and his reign continues toward the *Rāmāyaṇa*'s events (*Nāgara-khaṇḍa*).
@@ -45,7 +45,7 @@ The **Daśaratha-Śanaiścara-saṃvāda** — the "dialogue of Daśaratha and S
 ## The stotra in living practice
 
 - **A pañcāṅga and pūjā staple** — the Daśaratha-kṛta Śani-stotra is printed in Hindu almanacs, Śani-pūjā manuals, and stotra collections across regions, recited especially on **Śanivāra (Saturday)**, on **Śani Jayantī** (Vaiśākha/Jyeṣṭha amāvāsyā, by regional reckoning), and by those undergoing **sāḍe-sātī** (the seven-and-a-half-year Saturn cycle) or **kaṇṭaka-śani**. [regional]
-- **At Śani kṣetras** — it is chanted at the principal Saturn shrines the corpus catalogs — **Tirunallar** (Tamil Nadu, chief Śani-kṣetra), **Śani Śiṅgṇāpur** (Maharashtra, the doorless village) — where black-sesame (*tila*), iron, and oil offerings accompany the recitation. See [Navagraha — Śani shrines](../02-deities-and-cosmic-hierarchy/navagraha.md). [regional]
+- **At Śani kṣetras** — it is chanted at the principal Saturn shrines the corpus catalogs — **Tirunallar** (Karaikal, U.T. of Puducherry, chief Śani-kṣetra), **Śani Śiṅgṇāpur** (Maharashtra, the doorless village) — where black-sesame (*tila*), iron, and oil offerings accompany the recitation. See [Navagraha — Śani shrines](../02-deities-and-cosmic-hierarchy/navagraha.md). [regional]
 - **Companion hymns** — it stands beside the other great "king-humbled-by-Saturn" text, the **Śani-māhātmya / Vikramāditya cycle**, in which even the emperor Vikramāditya endures Saturn's full daśā before Śani relents — the mythic charter that *no one*, however great, escapes the cosmic auditor. See [Vikramāditya-Śani cycle](simhasana-dvatrimshika-vikramaditya-cycle.md). [late text]
 
 ---
@@ -74,7 +74,7 @@ The **Daśaratha-Śanaiścara-saṃvāda** — the "dialogue of Daśaratha and S
 
 ### Primary (scriptural)
 - **Skanda Purāṇa, Nāgara-khaṇḍa — the Daśaratha-Śanaiścara-saṃvāda (Hāṭakeśvara-kṣetra section)** — the narrative of the Rohiṇī-śakaṭa-bheda omen, Daśaratha's chariot-ascent and challenge, Śani's boon, and the Daśaratha-kṛta Śani-stotra with its reciter's-protection promise. Cited here at the khaṇḍa / chapter-group level; the Nāgara-khaṇḍa's internal chapter numbering varies by recension. [late text]
-- **Mahābhārata, Bhīṣma-parva** — the graha "afflicting / piercing Rohiṇī" listed among the war-eve portents; the textual root of the Rohiṇī-śakaṭa-bheda omen. [scripture]
+- **Mahābhārata, Bhīṣma-parva** — the graha "afflicting / piercing Rohiṇī" listed among the war-eve portents; the textual root of the Rohiṇī-śakaṭa-bheda omen.
 - **Daśaratha-kṛta Śani-stotra** — the hymn itself as transmitted in stotra anthologies and almanac appendices (names: Koṇastha, Piṅgala, Babhru, Kṛṣṇa, Raudra, Antaka, Yama, Saurī, Śanaiścara, Manda, etc.); overlaps with, but is distinct from, the **Pippalāda ten-name** verse of Saturn. [disputed]
 
 ### Web / reference

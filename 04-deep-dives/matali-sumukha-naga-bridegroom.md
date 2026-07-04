@@ -8,7 +8,7 @@
 
 ## The narrative frame — why Kaṇva tells this to Duryodhana
 
-- **An embassy parable** — the tale belongs to the cluster of admonitory "old histories" recited to **Duryodhana** in Hastināpura's council after **Kṛṣṇa's** peace-proposal is spurned. It is the rṣi **Kaṇva** who narrates the Mātali-upākhyāna, following Kṛṣṇa's own tale of [Dambhodbhava and the Nara-Nārāyaṇa](dambhodbhava-nara-narayana.md) and preceding Nārada's tale of [Gālava](galava-madhavi.md). (*Udyoga Parva 5.95*)
+- **An embassy parable** — the tale belongs to the cluster of admonitory "old histories" recited to **Duryodhana** in Hastināpura's council after **Kṛṣṇa's** peace-proposal is spurned. It is the rṣi **Kaṇva** who narrates the Mātali-upākhyāna, following Paraśurāma's tale of [Dambhodbhava and the Nara-Nārāyaṇa](dambhodbhava-nara-narayana.md) and preceding Nārada's tale of [Gālava](galava-madhavi.md). (*Udyoga Parva 5.95*)
 - **The lesson intended** — Kaṇva's point is the folly of pride and irreconcilable enmity: if even **Garuḍa**, the mightiest of the sky, was humbled and brought to make peace with a serpent he had sworn to devour, then Duryodhana too should abandon his arrogance and be reconciled with the Pāṇḍavas rather than court ruin. The Nāga-and-bird frame maps onto Kaurava-and-Pāṇḍava rivalry. (*Udyoga Parva 5.95, 5.103*)
 - **A story-within-the-story** — the whole of the Garuḍa material is thus twice-framed: Vyāsa's epic contains Kaṇva's counsel, which contains the account of Mātali's journey. The device lets the epic mount a full descent-cosmography of the underworld without leaving the Kurukṣetra plot.
 
@@ -49,7 +49,7 @@
 - **The great boast** — Garuḍa breaks into a famous vaunt of his own strength — bearer of Viṣṇu across the worlds, able (he claims) to carry the whole earth with its mountains and oceans, and the gods themselves, upon his wings, or even upon a single feather. His self-glorification is the pride the parable exists to puncture. (*Udyoga Parva 5.103*)
 - **Viṣṇu crushes the pride** — **Viṣṇu** answers by asking Garuḍa, if he is so strong, to bear the weight of just **one of Viṣṇu's arms**. Viṣṇu lays a single arm on the bird's shoulder; Garuḍa is **crushed to the ground, near to fainting, his feathers dropping**, unable to sustain even that. His arrogance shattered, he begs Viṣṇu's forgiveness. (*Udyoga Parva 5.103*)
 - **Reconciliation with Sumukha** — humbled, Garuḍa is reconciled: he makes peace with **Sumukha**, and the once-doomed groom becomes not his food but, in effect, his friend. Sumukha weds **Guṇakeśī**, and the enmity of bird and serpent is, in this instance, laid to rest. (*Udyoga Parva 5.103*)
-  - *Cross-note:* the corpus's Garuḍa file records this same event as **"the pact of Sumukha / the bone-mountain,"** with a Bhāgavata/folk variant in which the serpents thereafter send Garuḍa **one snake per day** as tribute to end the indiscriminate slaughter — a resolution parallel to, but textually distinct from, the Udyoga episode. See [Garuḍa](../08-beings-and-bestiary/garuda.md). [variant rosters]
+  - *Cross-note:* the corpus's Garuḍa file records this same event as **"the pact of Sumukha / the bone-mountain,"** with a Bhāgavata/folk variant in which the serpents thereafter send Garuḍa **one snake per day** as tribute to end the indiscriminate slaughter — a resolution parallel to, but textually distinct from, the Udyoga episode. See [Garuḍa](../08-beings-and-bestiary/garuda.md). [folk]
 
 ## The moral within the embassy
 
@@ -58,7 +58,7 @@
 
 ## Disambiguation — three name-collisions to keep straight
 
-- **Sumukha the Nāga ≠ Sumukha the Suparṇa** — the **Sumukha protected here is a serpent of Airāvata's line**; the same name **Sumukha** is also listed among **Garuḍa's own bird-sons** in the open-ended Suparṇa roster. These are two different beings who happen to share a name; do not conflate the rescued Nāga groom with a son of Garuḍa. (*cf. Ādi Parva Suparṇa-roster; Udyoga Parva 5.100–103*) [flag: name-collision]
+- **Sumukha the Nāga ≠ Sumukha the Suparṇa** — the **Sumukha protected here is a serpent of Airāvata's line**; the same name **Sumukha** is also listed among **Garuḍa's own bird-sons** in the open-ended Suparṇa roster. These are two different beings who happen to share a name; do not conflate the rescued Nāga groom with a son of Garuḍa. (*cf. Ādi Parva Suparṇa-roster; Udyoga Parva 5.100–103*)
 - **Mātali here = Mātali of the Rāmāyaṇa** — the charioteer is the same **Mātali** who in the Vālmīki Rāmāyaṇa's [Yuddha Kāṇḍa](ramayana/6-yuddha-kanda.md) brings Indra's chariot down to **Rāma** for the final duel with Rāvaṇa. One figure, two epics. (*Rāmāyaṇa, Yuddha Kāṇḍa; Mahābhārata, Udyoga Parva*)
 - **Guṇakeśī, not Devasenā** — Mātali's daughter **Guṇakeśī** is distinct from **Devasenā** (Skanda's consort, "daughter of Indra/Prajāpati"); the two are sometimes confused in retellings but are unrelated in the epic. [disputed]
 

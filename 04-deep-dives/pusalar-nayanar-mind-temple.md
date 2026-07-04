@@ -82,7 +82,7 @@
 - **Cuntarar (Sundarar), Tiruttoṇṭattokai** (Tēvāram, Tirumuṟai Book 7, 7th–8th c. CE) — the seed roll-call of holy servants from which the 63-Nāyaṉār canon (via Nampiyāṇṭār Nampi and Cēkkiḻār) was fixed, in which Pūcalār is honoured.
 - **Comparative (interior worship):** **Periya Purāṇam, Vāyilār Nāyaṉār Purāṇam** — the paired legend of Mylapore's wholly mental worship (thought-temple, thought-lamps); the two saints are the canon's twin exemplars of *mānasa-pūjā*.
 - **Historical frame [scholarly]** — **Narasiṃhavarman II Rājasiṃha (Pallava)**, r. c. 690–728 CE; the **Kailāsanāthar (Rājasiṃheśvara) temple, Kāñcī**, c. 685–705 CE, the oldest standing structural temple in the city and foundational to the Dravidian style; distinguished from **Narasiṃhavarman I Māmalla** (the Vātāpi conqueror behind the Ciṟuttoṇṭar legend). Pallava epigraphy and standard art-historical dating.
-- [Poosalar Nayanar — Wikipedia](https://en.wikipedia.org/wiki/Poosalar_Nayanar) (the mind-temple legend and the Pallava-king dream).
+- [Pusalar — Wikipedia](https://en.wikipedia.org/wiki/Pusalar) (the mind-temple legend and the Pallava-king dream).
 - [Nayanars — Wikipedia](https://en.wikipedia.org/wiki/Nayanars) (the 63 and the Tiruttoṇṭattokai roll-call).
 - [Periya Puranam — Wikipedia](https://en.wikipedia.org/wiki/Periya_Puranam) (Cēkkiḻār; structure of the Tiruttoṇṭar Purāṇam).
 - [Kailasanathar Temple, Kanchipuram — Wikipedia](https://en.wikipedia.org/wiki/Kailasanathar_Temple,_Kanchipuram) (Rājasiṃha; c. 685–705 CE dating).

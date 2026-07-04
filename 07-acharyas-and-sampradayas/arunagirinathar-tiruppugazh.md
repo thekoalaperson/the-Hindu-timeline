@@ -22,7 +22,7 @@
 
 - **The Vel writes on his tongue** — Murugan **inscribed the seed of song on Aruṇagiri's tongue with the tip of his *Vēl*** (the divine spear), granting him instant, inexhaustible poetic power (*kavitā-śakti*). The tradition holds that the god gave him the **opening words "Muttait taru" (முத்தைத்தரு)** — "grant me the pearl…" — and commanded him to **sing**, whereupon the entire first Tiruppugazh, *"Muttait taru patti tiru nakai…"*, poured out. (Source: Tiruppugazh, opening hymn; hagiographic tradition) [folk]
   - *Note on the incipit [scholarly]:* the received corpus is conventionally headed by the Tiruvaṇṇāmalai song beginning *"Muttait taru"*, addressed to Murugan of the fire-hill — which is why the tradition attaches the god's first-written words to that line specifically.
-- **"Summā iru" — the command to be still** — a second, mystical strand of the same encounter holds that when Aruṇagiri, overwhelmed, tried to speak, Murugan silenced him with **"Summā iru"** ("Be still / remain in silence, beyond words"). This wordless initiation is memorialised in the fourth verse of the **Kandar Anubhūti** — *"Summā iru, col aṟa"* ("'Be still, beyond speech' — when You said that, O Mother, I understood nothing at all") — reading the leap as a *jñāna*-initiation into silence, not merely a gift of eloquence. (Source: *Kandar Anubhūti*, v. 4) [scholarly]
+- **"Summā iru" — the command to be still** — a second, mystical strand of the same encounter holds that when Aruṇagiri, overwhelmed, tried to speak, Murugan silenced him with **"Summā iru"** ("Be still / remain in silence, beyond words"). This wordless initiation is memorialised in the twelfth verse of the **Kandar Anubhūti** — *"Summā iru, col aṟa"* ("'Be still, beyond speech' — when You said that, oh!, I understood nothing at all") — reading the leap as a *jñāna*-initiation into silence, not merely a gift of eloquence. (Source: *Kandar Anubhūti*, v. 12) [scholarly]
 
 ---
 
@@ -75,7 +75,7 @@ The best-known episode of the hagiography unfolds at the **court of King Prabhu�
 ## Sources
 
 - Primary: *Tiruppugaḻ* (Aruṇagirinātar) — opening hymn *"Muttait taru…"* (Tiruvaṇṇāmalai) and the shrine-hymn corpus.
-- Primary: *Kandar Anubhūti* (Aruṇagirinātar) — 51 verses; esp. v. 4 (*"Summā iru col aṟa…"*).
+- Primary: *Kandar Anubhūti* (Aruṇagirinātar) — 51 verses; esp. v. 12 (*"Summā iru col aṟa…"*).
 - Primary: *Kandar Alaṅkāram* (Aruṇagirinātar) — ~54 verses; and *Kandar Antāti*, *Vēl / Mayil / Sēval Viruttam*.
 - Aruṇagirinātar hagiographic tradition (15th c.), attached to the Tiruppugazh corpus and the Aruṇācaleśvarar temple cult (Tiruvaṇṇāmalai).
 - [Arunagirinathar — Wikipedia](https://en.wikipedia.org/wiki/Arunagirinathar)

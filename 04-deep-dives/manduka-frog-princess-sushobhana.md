@@ -1,7 +1,7 @@
 # Māṇḍūka-upākhyāna — the frog-princess Suśobhanā and Vāmadeva's horses
 
 > *Where this sits: a deep-dive on the linked "frog cycle" (**Māṇḍūka-upākhyāna**) of the **Mahābhārata's Vana Parva**, told by the deathless sage **[Mārkaṇḍeya](markandeya.md)** to Yudhiṣṭhira in the forest — the Ikṣvāku king **Parikṣit** wedding the frog-king's daughter **Suśobhanā** on the vow never to show her water, and the sequel of his sons **Śala** and **Dala** and the swift **Vāmī** mares of the ṛṣi **Vāmadeva**. Up to the [Deep Dives index](README.md).*
-> *Two clocks: as itihāsa this Parikṣit is an ancient **Ikṣvāku / [Sūryavaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md)** sovereign of the current 28th Mahāyuga, 7th (Vaivasvata) Manvantara. As text it is a paired **upākhyāna** of the **Mārkaṇḍeya-samāsya-parva** — Critical Edition Vana 3.190–192; Ganguli Vana CXCII–CXCIII — an encyclopedic didactic block of the Vana Parva dated by scholarship to the epic's expansion phase, [scholarly] c. 200 BCE – 400 CE.*
+> *Two clocks: as itihāsa this Parikṣit is an ancient **Ikṣvāku / [Sūryavaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md)** sovereign of the current 28th Mahāyuga, 7th (Vaivasvata) Manvantara. As text it is a paired **upākhyāna** of the **Mārkaṇḍeya-samāsya-parva** — Critical Edition Vana 3.190–192; Ganguli Vana CXCI — an encyclopedic didactic block of the Vana Parva dated by scholarship to the epic's expansion phase, [scholarly] c. 200 BCE – 400 CE.*
 
 ---
 
@@ -20,36 +20,36 @@
 
 ---
 
-## 2. Parikṣit and the frog-maiden Suśobhanā (Vana 3.190; Ganguli CXCII)
+## 2. Parikṣit and the frog-maiden Suśobhanā (Vana 3.190; Ganguli CXCI)
 
-- **The hunt and the maiden by the water** — King **Parikṣit** of the Ikṣvākus, a bowman "like Ikṣvāku himself," pursues a deer deep into the forest, grows exhausted and thirsty, and comes upon a **lake where a beautiful maiden sits singing**; smitten, he asks her to be his wife. (Mbh Vana CXCII)
-- **The single covenant — never show her water** — the maiden consents to marry him on one condition: "**thou shalt never show me water**." The king pledges it and takes her to his capital as queen; they live in delight, the covenant kept, while he neglects his other wives. (Mbh Vana CXCII)
-- **The covenant broken** — one day, wearied after love-play in a pleasure-garden, the queen is **thirsty**, and the king — forgetful — leads her to a tank of clear water. **She enters the water and vanishes**; searchers drain and rake the tank and find in it only **a single frog**. (Mbh Vana CXCII)
-- **The wrath and the slaughter of frogs** — enraged at losing her, Parikṣit orders a **general massacre of frogs** throughout his realm; frogs are killed everywhere, and the survivors flee in terror to their king. (Mbh Vana CXCII)
-- **The frog-king Āyu intervenes** — the māṇḍūka-rāja **Āyu**, taking the guise of an **ascetic / brāhmaṇa**, comes before Parikṣit and begs him to stay his anger; he reveals that the vanished queen is his own daughter **Suśobhanā**, "of wicked heart, by whom many kings before this have been deceived." (Mbh Vana CXCII)
-- **The father's curse on his own daughter** — because Suśobhanā's serial deceit and the king's vengeance have caused countless frogs to die, Āyu **curses her that the sons she bears shall be of deceitful conduct and shall disregard brāhmaṇas** — a doom laid on the very children she will bear to Parikṣit. He then **restores her to the king**. (Mbh Vana CXCII)
+- **The hunt and the maiden by the water** — King **Parikṣit** of the Ikṣvākus, a bowman "like Ikṣvāku himself," pursues a deer deep into the forest, grows exhausted and thirsty, and comes upon a **lake where a beautiful maiden sits singing**; smitten, he asks her to be his wife. (Mbh Vana CXCI)
+- **The single covenant — never show her water** — the maiden consents to marry him on one condition: "**thou shalt never show me water**." The king pledges it and takes her to his capital as queen; they live in delight, the covenant kept, while he neglects his other wives. (Mbh Vana CXCI)
+- **The covenant broken** — one day, wearied after love-play in a pleasure-garden, the queen is **thirsty**, and the king — forgetful — leads her to a tank of clear water. **She enters the water and vanishes**; searchers drain and rake the tank and find in it only **a single frog**. (Mbh Vana CXCI)
+- **The wrath and the slaughter of frogs** — enraged at losing her, Parikṣit orders a **general massacre of frogs** throughout his realm; frogs are killed everywhere, and the survivors flee in terror to their king. (Mbh Vana CXCI)
+- **The frog-king Āyu intervenes** — the māṇḍūka-rāja **Āyu**, taking the guise of an **ascetic / brāhmaṇa**, comes before Parikṣit and begs him to stay his anger; he reveals that the vanished queen is his own daughter **Suśobhanā**, "of wicked heart, by whom many kings before this have been deceived." (Mbh Vana CXCI)
+- **The father's curse on his own daughter** — because Suśobhanā's serial deceit and the king's vengeance have caused countless frogs to die, Āyu **curses her that the sons she bears shall be of deceitful conduct and shall disregard brāhmaṇas** — a doom laid on the very children she will bear to Parikṣit. He then **restores her to the king**. (Mbh Vana CXCI)
   - *Variant (folk / retelling framing) [folk]:* Sister Nivedita's *Cradle Tales* and later anthologies (Subodh Ghosh's *Love Stories from the Mahābhārata*, Devdutt Pattanaik's retellings) present the tale sentimentally as "my wife is a frog," softening the curse into a hanging flaw upon the dynasty "until the magic spell be redeemed"; the epic itself frames it as fate and the peril of a broken covenant. The romance is the modern gloss; *satya* and *daiva* are the śāstric point.
-- **The three sons** — Suśobhanā bears Parikṣit **three sons: Śala (Sala), Dala, and Vala (Bala)**; upon her father's curse rests all that follows. **Śala**, the eldest, succeeds to the throne. (Mbh Vana CXCII)
+- **The three sons** — Suśobhanā bears Parikṣit **three sons: Śala (Sala), Dala, and Vala (Bala)**; upon her father's curse rests all that follows. **Śala**, the eldest, succeeds to the throne. (Mbh Vana CXCI)
 
 ---
 
-## 3. Śala and the borrowed Vāmī mares (Vana 3.191; Ganguli CXCIII)
+## 3. Śala and the borrowed Vāmī mares (Vana 3.191; Ganguli CXCI)
 
-- **The uncatchable deer** — King **Śala**, hunting, pierces a deer and bids his charioteer (*sūta*) run it down; the charioteer answers that only one team on earth can overtake it — the **Vāmī / Vāmya mares** (the "Vāmyas," swift as the wind) of the ṛṣi **Vāmadeva**. (Mbh Vana CXCIII)
-- **The loan and its condition** — Śala goes to Vāmadeva's hermitage and borrows the two mares **on the express condition of returning them once the deer is taken**; yoked to the royal car they run the deer down and Śala secures his prize. (Mbh Vana CXCIII)
-- **The pledge broken** — Śala, coveting the peerless mares, **refuses to give them back**, declaring that such steeds are the treasure of kṣatriyas and unfit for a forest-brāhmaṇa, who should content himself with the produce of the woods; he keeps them in his stables. (Mbh Vana CXCIII)
-- **The sage's demands rebuffed** — after a month Vāmadeva sends his disciple **Atreya** to reclaim the mares, then comes himself; Śala rejects each appeal and even **offers bulls and other wealth as substitutes**, which the sage refuses — he wants only what is his own. (Mbh Vana CXCIII)
-- **The curse — four Rākṣasas** — his patience exhausted, Vāmadeva by the power of his tapas **wills the king's destruction; four terrible spear-armed Rākṣasas spring forth and slay Śala**, who as he falls calls upon his brother Dala. Thus the frog-king's curse — sons who scorn brāhmaṇas — begins to work itself out. (Mbh Vana CXCIII)
+- **The uncatchable deer** — King **Śala**, hunting, pierces a deer and bids his charioteer (*sūta*) run it down; the charioteer answers that only one team on earth can overtake it — the **Vāmī / Vāmya mares** (the "Vāmyas," swift as the wind) of the ṛṣi **Vāmadeva**. (Mbh Vana CXCI)
+- **The loan and its condition** — Śala goes to Vāmadeva's hermitage and borrows the two mares **on the express condition of returning them once the deer is taken**; yoked to the royal car they run the deer down and Śala secures his prize. (Mbh Vana CXCI)
+- **The pledge broken** — Śala, coveting the peerless mares, **refuses to give them back**, declaring that such steeds are the treasure of kṣatriyas and unfit for a forest-brāhmaṇa, who should content himself with the produce of the woods; he keeps them in his stables. (Mbh Vana CXCI)
+- **The sage's demands rebuffed** — after a month Vāmadeva sends his disciple **Atreya** to reclaim the mares, then comes himself; Śala rejects each appeal and even **offers bulls and other wealth as substitutes**, which the sage refuses — he wants only what is his own. (Mbh Vana CXCI)
+- **The curse — four Rākṣasas** — his patience exhausted, Vāmadeva by the power of his tapas **wills the king's destruction; four terrible spear-armed Rākṣasas spring forth and slay Śala**, who as he falls calls upon his brother Dala. Thus the frog-king's curse — sons who scorn brāhmaṇas — begins to work itself out. (Mbh Vana CXCI)
 
 ---
 
-## 4. Dala, the poisoned arrow, and the death of the prince (Vana 3.192; Ganguli CXCIII)
+## 4. Dala, the poisoned arrow, and the death of the prince (Vana 3.192; Ganguli CXCI)
 
-- **Dala inherits both throne and defiance** — **Dala** succeeds Śala and, bent on avenging his brother whom he blames on the sage, **again refuses the mares** when Vāmadeva demands them, resolving instead to kill the ṛṣi. (Mbh Vana CXCIII)
-- **The poisoned shaft turns on his own son** — Dala orders a **shaft steeped in virulent poison** and aims it at Vāmadeva; by the sage's word — "the arrow thou hast fixed to slay me, with that very shaft shalt thou slay thy own son" — the arrow instead **strikes and kills Dala's ten-year-old son, Senajit**. The curse of Āyu — the doom on the deceiver's line — is fulfilled in the death of the grandson. (Mbh Vana CXCIII)
-- **The frozen second arrow** — mad with grief and rage, Dala fits a **second arrow** to slay the ṛṣi, but by Vāmadeva's ascetic power his arm is **stayed — he cannot loose it at all**, held fast as if bound. (Mbh Vana CXCIII)
+- **Dala inherits both throne and defiance** — **Dala** succeeds Śala and, bent on avenging his brother whom he blames on the sage, **again refuses the mares** when Vāmadeva demands them, resolving instead to kill the ṛṣi. (Mbh Vana CXCI)
+- **The poisoned shaft turns on his own son** — Dala orders a **shaft steeped in virulent poison** and aims it at Vāmadeva; by the sage's word — "the arrow thou hast fixed to slay me, with that very shaft shalt thou slay thy own son" — the arrow instead **strikes and kills Dala's ten-year-old son, Senajit**. The curse of Āyu — the doom on the deceiver's line — is fulfilled in the death of the grandson. (Mbh Vana CXCI)
+- **The frozen second arrow** — mad with grief and rage, Dala fits a **second arrow** to slay the ṛṣi, but by Vāmadeva's ascetic power his arm is **stayed — he cannot loose it at all**, held fast as if bound. (Mbh Vana CXCI)
   - *Parallel motif [scholarly]:* the "frozen arm before the holy one" recurs in Kālidāsa's [Dilīpa & Nandinī](dilipa-nandini.md), where King Dilīpa's hand sticks motionless on his quiver before Śiva's lion — a shared image of kṣatriya force paralysed before a higher sanctity.
-- **The queen's plea and the boon** — Dala's **queen** intercedes, worshipping the sage and pledging to honour brāhmaṇas; pleased, Vāmadeva grants her a boon and she asks only that he **forgive her husband and wish him well**. The sage relents; **Dala restores the two Vāmī mares** and bows to him, and the feud is closed. (Mbh Vana CXCIII)
+- **The queen's plea and the boon** — Dala's **queen** intercedes, worshipping the sage and pledging to honour brāhmaṇas; pleased, Vāmadeva grants her a boon and she asks only that he **forgive her husband and wish him well**. The sage relents; **Dala restores the two Vāmī mares** and bows to him, and the feud is closed. (Mbh Vana CXCI)
 
 ---
 
@@ -76,7 +76,7 @@
 ## Sources
 
 **Primary text (scriptural)**
-- **Mahābhārata, Vana Parva (Book 3), Mārkaṇḍeya-samāsya-parva** — the frog-marriage of Parikṣit and Suśobhanā, and the linked Śala–Dala / Vāmadeva-horse tale. **Critical Edition (Pune) Vana 3.190–192**; **Ganguli (K. M.) translation, Vana Parva, Sections CXCII–CXCIII**. Section CXCII: Parikṣit's hunt, the maiden by the lake, the water-covenant and its breach, the frog-massacre, the frog-king Āyu's curse on his daughter, and the birth of Śala, Dala, and Vala. Section CXCIII: the Vāmī/Vāmya mares, Śala's broken loan and death by four Rākṣasas, Dala's poisoned arrow slaying his own son Senajit, the frozen second arrow, and the queen's boon restoring the horses.
+- **Mahābhārata, Vana Parva (Book 3), Mārkaṇḍeya-samāsya-parva** — the frog-marriage of Parikṣit and Suśobhanā, and the linked Śala–Dala / Vāmadeva-horse tale. **Critical Edition (Pune) Vana 3.190–192**; **Ganguli (K. M.) translation, Vana Parva, Section CXCI** (headed "SECTION CLXLI" — that edition's non-standard roman for 191 — in Project Gutenberg #12333). The whole tale sits within this **single** Ganguli section, which runs continuously from "There was a king, by name Parikshit… belonging to the race of Ikshvaku" through Dala's restoring the Vāmī steeds to the sage: Parikṣit's hunt, the maiden by the lake, the water-covenant and its breach, the frog-massacre, the frog-king Āyu's curse on his daughter, the birth of Śala, Dala, and Vala, the Vāmī/Vāmya mares, Śala's broken loan and death by four Rākṣasas, Dala's poisoned arrow slaying his own son Senajit, the frozen second arrow, and the queen's boon restoring the horses. (The next section, CXCII / "CLXLII," turns to the longevity of the Ṛṣi Vaka.)
 - **Viṣṇu Purāṇa IV / Bhāgavata Purāṇa IX** — the Ikṣvāku (Sūryavaṃśa) genealogy, which carries the dynasty without this forest upākhyāna (used only to place and disambiguate the names).
 
 **Reference / web sources (consulted July 2026)**

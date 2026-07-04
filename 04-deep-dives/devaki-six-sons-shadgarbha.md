@@ -66,7 +66,7 @@ The six are not ordinary children but fallen divinities working through a chain 
 
 **Primary texts**
 - *Bhāgavata Purāṇa* (Śrīmad-Bhāgavatam), **Canto 10.85.27–59** — Devakī's grief and petition (27–33); the descent to Sutala and Bali's worship (34–46); the origin of the Ṣaḍgarbha as Marīci's sons, Brahmā's curse, the demon births and Yoga-māyā's transfer (47–50); the six names (51); the return, Devakī's suckling, and the sons' liberated ascent (52–59). Cf. **10.1–2** (the wedding prophecy, the slaughter of the six, and Yoga-māyā's transfer of the seventh) and **10.45** (the raising of Sāndīpani's son).
-- *Harivaṃśa* (khila of the [Mahābhārata](harivamsha.md)), **Viṣṇu Parva** (~ch. 47–48) — the earliest layer of the Kālanemi/Kaṃsa demon-rebirth frame for the six slain infants.
+- *Harivaṃśa* (khila of the [Mahābhārata](mahabharata/README.md)), **Viṣṇu Parva** (~ch. 47–48) — the earliest layer of the Kālanemi/Kaṃsa demon-rebirth frame for the six slain infants.
 - *Devī-Bhāgavata Purāṇa*, **Book 4** — the fuller curse-chain: Marīci's sons mock Brahmā → born of Kālanemi → reborn of Hiraṇyakaśipu → slain by Kaṃsa (the reborn Kālanemi, their "father"). [late text]
 
 **Web / reference sources consulted**

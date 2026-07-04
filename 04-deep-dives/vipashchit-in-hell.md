@@ -59,12 +59,13 @@ The episode sits in the **oldest expository stratum** of the Mārkaṇḍeya Pur
 - **A charter for royal *dharma*.** Read as a mirror-for-princes, the tale insists the ideal king's duty to protect the helpless does not end at death or at the border of his realm — it extends even to strangers in hell. It is cited in this register in *nīti* and dharma discussions of compassionate kingship.
 - **Comparable compassion-figures in the corpus.** Kindred are the self-emptying givers [Rantideva](rantideva.md) (who begs that others' suffering pass into him) and [Citraketu](citraketu.md) (a king schooled in the impartiality of the soul before Yama's realm); the theme recurs across the [Yama-Gītā](yama-gita.md) material and [Sage Śveta and Yama](sage-shveta-and-yama.md).
 
-## VIII. Disambiguation — three distinct "Vipaścit / Vipracitti"
+## VIII. Disambiguation — four distinct "Vipaścit / Vipracitti"
 
-**Honour the name-collision flagged for this node.** The compassionate king of this tale must not be conflated with two unrelated bearers of near-identical names:
+**Honour the name-collision flagged for this node.** The compassionate king of this tale must not be conflated with three unrelated bearers or uses of near-identical names:
 
 - **Vipaścit the king (this file)** — the just human monarch, husband of Pīvarī and Kaikeyī, who transits Naraka. Home text: *Mārkaṇḍeya Purāṇa* XIII–XV.
-- **"Vipaścit" as an Indra-title** — in the **manvantara** roster-files, *Vipaścit* appears as the **name of the Indra** (king of the gods) of a particular Manu's age. This is a **cosmological office-name in a deity list**, not the earthly king; the only occurrences of the string "Vipaścit" elsewhere in this corpus are these Indra-name lists. (see the [manvantara](../01-manvantaras/README.md) rosters) [do not merge]
+- **"Vipaścit" as an Indra-title** — in the **manvantara** roster-files, *Vipaścit* appears as the **name of the Indra** (king of the gods) of a particular Manu's age. This is a **cosmological office-name in a deity list**, not the earthly king; it recurs in more than one manvantara roster (e.g. the Svārociṣa Indra, and as a variant spelling of the Raivata Indra). (see the [manvantara](../01-manvantaras/README.md) rosters) [do not merge]
+- **"vipaścit" as a common adjective — "the wise / discerning one"** — the ordinary Sanskrit word from which the king's name is drawn, used as a plain epithet rather than a proper name. It appears in the corpus as an epithet of the **Self (ātman)** at *Kaṭha Upaniṣad* I.2.18 — *"na jāyate mriyate vā vipaścit"* ("the wise one is neither born nor dies") — the very etymology this file assigns the king. (see [Kaṭha Upaniṣad](../90-literature-corpus/upanishads/katha-upanishad.md)) [do not merge]
 - **Vipracitti the Dānava** — a leading **asura**, son of Danu and (in some accounts) husband of Siṃhikā, father of Rāhu's kin — a demon-chieftain of the deva–asura wars, entirely distinct from either of the above. ([devas, asuras & the lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)) [do not merge]
 
 ## Related Nodes

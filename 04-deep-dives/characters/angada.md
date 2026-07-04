@@ -37,7 +37,7 @@
 
 ## IV. Commander of the southern search-party (Rām. Kiṣkindhā-kāṇḍa 41–65)
 
-- **Leader of the decisive quarter** - When Sugrīva musters the world's vānaras and dispatches search-parties to the four directions (east under **Vinata**, west under **Suṣeṇa**, north under **Śatabali**), the **south** — the direction in which Sītā actually lies — is entrusted to **Aṅgada as commander**, with **Hanumān, Jāmbavān (the bear-king), Nīla, Tāra, Suṣeṇa, Nala** and others under him, and a one-month deadline. (Vālmīki, Kiṣkindhā 41.)
+- **Leader of the decisive quarter** - When Sugrīva musters the world's vānaras and dispatches search-parties to the four directions (east under **Vinata**, west under **Suṣeṇa**, north under **Śatabali**), the **south** — the direction in which Sītā actually lies — is entrusted to **Aṅgada as commander**, with **Hanumān, Jāmbavān (the bear-king), Nīla, Tāra, Nala** and others under him, and a one-month deadline. (Vālmīki, Kiṣkindhā 41.)
   - *Note:* Aṅgada holds nominal command by rank, but **Hanumān** is the party's true instrument; Sugrīva privately marks Hanumān as the one on whom success depends. The pairing — princely commander and heroic agent — runs through the whole southern narrative. (Kiṣkindhā-kāṇḍa.)
 - **Svayamprabhā's cave** - The party, lost and past its deadline, wanders into the enchanted underground realm of the ascetic **Svayamprabhā**, who feeds them and magically returns them to the ocean shore. (Vālmīki, Kiṣkindhā 50–52.)
 - **The fast unto death (prāyopaveśa)** - On the southern shore, deadline broken and Sītā unfound, Aṅgada — dreading Sugrīva's wrath and recalling bitterly that this same uncle's ally had killed his father — leads the party in resolving to **fast to death** rather than return in disgrace; he voices open distrust of Sugrīva in his despair. (Vālmīki, Kiṣkindhā 55–56.)
@@ -48,7 +48,7 @@
 
 ## V. The defiant embassy to Rāvaṇa's court (Rām. Yuddha-kāṇḍa 41)
 
-- **Sent as Rāma's envoy** - On the eve of battle, once the army has crossed the [Setu](../../06-sacred-geography/kishkindha-hampi-anegundi.md), Rāma sends the prince **Aṅgada** as *dūta* (ambassador) into Laṅkā, demanding that Rāvaṇa **restore Sītā and submit — on pain of death and the enthronement of Vibhīṣaṇa**. (Vālmīki, Yuddha-kāṇḍa 41.)
+- **Sent as Rāma's envoy** - On the eve of battle, once the army has crossed the [Setu](../../06-sacred-geography/rameswaram-setu-bandha.md), Rāma sends the prince **Aṅgada** as *dūta* (ambassador) into Laṅkā, demanding that Rāvaṇa **restore Sītā and submit — on pain of death and the enthronement of Vibhīṣaṇa**. (Vālmīki, Yuddha-kāṇḍa 41.)
 - **The Vālmīki embassy** - In the critical text, Aṅgada delivers Rāma's ultimatum with fearless scorn; the enraged **Rāvaṇa orders him seized**. Aṅgada lets four rākṣasas cling to him, then **leaps to the roof of Rāvaṇa's palace**, wrecking a turret/spire under his weight, hurls the guards off, and returns to Rāma's camp defiant and unharmed — a calculated humiliation of Laṅkā before the first blow. (Vālmīki, Yuddha-kāṇḍa 41.)
 - **The planted foot (Aṅgada-rāyabāra)** - In the celebrated vernacular and folk elaboration, Aṅgada **plants his foot firmly on the floor of the assembly and challenges the entire court — "if any of you can move my foot, Rāma will return home and abandon Sītā."** One after another the rākṣasa champions fail; when even **Rāvaṇa himself rises to try**, Aṅgada withdraws his foot and taunts that Rāvaṇa should instead lay his head at **Rāma's** feet, not his. The scene is the emotional climax of the embassy in performance.
   - *Attribution:* this foot-planting challenge is **not in Vālmīki**; it is prominent in the Tamil **Kamba Rāmāyaṇam** and Tulsīdās's **Rāmcaritmānas** (Laṅkā-kāṇḍa), and is a beloved set-piece of folk theatre — the Telugu/Kannada **"Aṅgada Rāyabāram"** (Aṅgada's Embassy) of Yakṣagāna and Harikathā. [folk] [regional] See [Smṛti–Itihāsa epics](../../90-literature-corpus/smriti-itihasa-epics.md).
@@ -102,6 +102,6 @@
 - Tulsīdās, **Rāmcaritmānas**, Laṅkā-kāṇḍa — the foot-planting challenge (**Aṅgada-Rāvaṇa saṃvāda**). [regional]
 - **Kamba Rāmāyaṇam** (Tamil) — the celebrated embassy and the immovable foot. [regional]
 - Folk-performance tradition — **"Aṅgada Rāyabāram"** (Aṅgada's Embassy) in Yakṣagāna, Harikathā and Telugu/Kannada theatre. [folk] [oral tradition]
-- Wikipedia, *[Angada (Ramayana)](https://en.wikipedia.org/wiki/Angada_(Ramayana))* and *[Angada Rayabaram](https://en.wikipedia.org/wiki/Angada)* — consolidated biography, the embassy, and the foot-planting variant survey.
+- Wikipedia, *[Angada (Ramayana)](https://en.wikipedia.org/wiki/Angada_(Ramayana))* and *[Angada](https://en.wikipedia.org/wiki/Angada)* — consolidated biography, the embassy, and the foot-planting variant survey.
 
 > Open roster flag: the exact membership and the distribution of rākṣasa kills among the vānara chiefs vary slightly across recensions; assignments above follow the mainstream Vālmīki critical-edition tradition, with the foot-planting embassy attributed to the later vernacular/folk stratum, not to Vālmīki.

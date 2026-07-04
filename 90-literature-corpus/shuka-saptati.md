@@ -16,7 +16,7 @@
 ## The two clocks
 
 - *Traditional / narrative frame* — the work invokes **no cosmic address at all**: no kalpa, no manvantara, no yuga is named. Its world is the everyday human bazaar — a merchant's house, a trading voyage, a lonely wife, a procuress next door. This placelessness in cosmic time is itself a genre-marker of *kathā*: pure worldly *kāma/artha* story, set in ordinary un-dated human time.
-- *Academic / historical frame* — the Śukasaptati reached its **surviving shape by about the 12th century CE**; the **oldest known manuscript is only 15th-century**, and the individual tales are older still. Ödön (Edith) **Töttössy** argued on sociopolitical grounds for an archetype in the **early 9th century CE**; there is no external anchor for an author or a firm date. **[scholarly]/[disputed]** For the documented-history spine, see [recorded-history.md](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
+- *Academic / historical frame* — the Śukasaptati reached its **surviving shape by about the 12th century CE**; the **oldest known manuscript is only 15th-century**, and the individual tales are older still. **Csaba Töttössy** argued on sociopolitical grounds for an archetype in the **early 9th century CE**; there is no external anchor for an author or a firm date. **[scholarly]/[disputed]** For the documented-history spine, see [recorded-history.md](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md).
 
 ---
 
@@ -86,7 +86,7 @@
 - Richard Schmidt (ed. & tr.), *Der Textus simplicior der Śukasaptati* and *Der Textus ornatior der Śukasaptati* (Kiel/Stuttgart, 1890s) — the standard critical editions of both recensions.
 - B. Hale Wortham (tr.), *The Enchanted Parrot* (London, 1911) — partial English rendering of the textus simplicior.
 - A. N. D. Haksar (tr.), *Shuka Saptati: Seventy Tales of the Parrot* (HarperCollins India, 2000).
-- Edith (Ödön) Töttössy, studies on the Śukasaptati recensions and dating.
+- Csaba Töttössy, studies on the Śukasaptati recensions and dating.
 - Muhammad A. Simsar (tr.), *Ṭūṭī-nāma / Tales of a Parrot* (Cleveland Museum of Art / Graz, 1978) — the Cleveland Mughal manuscript.
 - [Shukasaptati — Wikipedia](https://en.wikipedia.org/wiki/Shukasaptati)
 - [Tutinama — Wikipedia](https://en.wikipedia.org/wiki/Tutinama)
