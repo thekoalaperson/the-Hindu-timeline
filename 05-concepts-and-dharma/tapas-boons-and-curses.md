@@ -1,0 +1,87 @@
+# Tapas, Vara & Śāpa — Austerity, Boons and Curses
+
+> The three-part engine that drives Hindu narrative: **tapas** (ascetic heat) generates power, **vara** (the boon) converts it into destiny, and **śāpa** (the curse) discharges it — often setting whole yuga-plots in motion, from asura invincibility to avatāra descents. This sits in the **Concepts & Dharma** layer; the mechanism is *cross-yuga*, operating identically from the first creation to the Kali-yuga frame-stories.
+> Up: [Section README](./README.md) · [Master Index](../README.md)
+
+Tapas is scripture-internally *older than the gods*: the Ṛgveda's creation hymns make heat-generated-by-austerity the first cause. From there the corpus treats ascetic merit as a **transferable, spendable power-currency**: accumulate enough and a deity *must* appear and grant a vara; misdirect it in anger and it leaves the body as a śāpa. On the two clocks: the yuga-placement of each episode below is scriptural; the composition dates of the texts recording them run from the late Ṛgveda (c. 1200–1000 BCE) to medieval Purāṇas (into the 2nd millennium CE) [scholarly].
+
+Cross-see: [cosmogony-creation-accounts.md](../00-time-and-cosmology/cosmogony-creation-accounts.md) (tapas in creation), [yoga-paths-and-patanjali.md](./yoga-paths-and-patanjali.md) (tapas domesticated as a niyama), [apsaras.md](../08-beings-and-bestiary/apsaras.md) (Indra's counter-weapon), [jaya-vijaya.md](../04-deep-dives/jaya-vijaya.md) (the paradigm curse-driven avatāra cycle).
+
+---
+
+## I. Tapas as Cosmic Heat — from the Ṛgveda onward
+
+- **Tapas in the Nāsadīya cosmogony** — before gods or being/non-being, "That One" (*tad ekam*) breathed windless by its own power and **"arose through the power of tapas (heat)"** — austerity-heat is the first creative force in the oldest speculative hymn. (Ṛgveda 10.129.3; see [cosmogony-creation-accounts.md](../00-time-and-cosmology/cosmogony-creation-accounts.md).) Composition c. 1200–1000 BCE [scholarly].
+- **Ṛta and satya born of tapas** — "From blazing tapas were born cosmic order (ṛta) and truth (satya); thence night, thence the billowy ocean" — the moral order itself is a product of primal heat. (Ṛgveda 10.190.1; see [rta-and-cosmic-order.md](./rta-and-cosmic-order.md).)
+- **Prajāpati heats himself to create** — in the Brāhmaṇa cosmogonies the creator repeatedly "performed tapas" / "heated himself" (*so 'tapyata*) and emitted the worlds and beings from that heat — creation as self-mortification, the template every later tapasvin re-enacts in miniature. (Śatapatha Brāhmaṇa and other Brāhmaṇa creation accounts.)
+- **"Tapas is Brahman"** — in the Bhṛgu-Varuṇa dialogue, Varuṇa tells his son to *seek Brahman through tapas*, "for tapas is Brahman" — austerity as the epistemic instrument itself. (Taittirīya Upaniṣad 3, Bhṛguvallī.)
+- **Tapas domesticated by Yoga** — Patañjali lists tapas among the five niyamas (YS 2.32) and makes it the first limb of **kriyā-yoga** (*tapaḥ-svādhyāya-īśvarapraṇidhānāni*, YS 2.1), with the fruit "perfection of body and senses through the destruction of impurity" (YS 2.43) — power redirected from boon-extraction to purification. (Yoga Sūtras; text c. 350–450 CE [scholarly]; see [yoga-paths-and-patanjali.md](./yoga-paths-and-patanjali.md).)
+- **The Gītā's three-fold audit** — the Bhagavad Gītā grades tapas of body, speech and mind as sāttvika (done without desire for fruit), rājasika (for honor) or tāmasika (self-torture or to destroy another) — an explicit ethical critique of the boon-hunting asura mode. (Bhagavad Gītā 17.14–19.)
+
+## II. The Practices — how tapas is performed
+
+- **Pañcāgni-sādhana (the five fires)** — the ascetic sits ringed by four fires with the summer sun overhead as the fifth; the corpus's most cited performer is **Pārvatī**, who adds standing in icy water in winter to win Śiva. (Śiva Purāṇa, Rudra Saṃhitā, Pārvatī Khaṇḍa; Kālidāsa's Kumārasambhava 5 renders it in kāvya [scholarly: c. 5th c. CE].)
+- **Aparṇā — "not even a leaf"** — Pārvatī escalates from eating leaves to refusing even fallen leaves, earning the name **Aparṇā**. (Kumārasambhava 5.28; Śiva Purāṇa tradition.)
+- **Ūrdhvabāhu and one-foot stances** — arms held perpetually aloft (*ūrdhvabāhu*), standing on one foot or one toe for ages: **Bhagīratha** stands with arms raised amid the five fires to bring Gaṅgā down (Vālmīki Rāmāyaṇa, Bāla Kāṇḍa 1.42–43); **Dhruva** stands on one leg, motionless, until the cosmos trembles (Bhāgavata Purāṇa 4.8–9; see [dhruva.md](../04-deep-dives/dhruva.md)).
+- **Hiraṇyakaśipu's anthill tapas** — the daitya stands on tiptoe with arms raised so long that ants build a hill over his body while the fire of his austerity smokes out the worlds, forcing Brahmā to come. (Bhāgavata Purāṇa 7.3.)
+- **Escalation ladders** — the standard Purāṇic sequence: fruit → leaves → water → air → nothing; each rung multiplies the heat. Rāvaṇa's ten-thousand-year penance climaxes with him offering his own heads into the fire, one per millennium. (Vālmīki Rāmāyaṇa, Uttara Kāṇḍa 7.10; see [ravana.md](../04-deep-dives/characters/ravana.md).)
+
+## III. Tapas as Power-Currency — and Indra's Apsara Counter-Insurgency
+
+- **The economy** — tapas accrues like capital, is *spent* by boon, curse, or lapse (anger and lust are the standard leaks), and can even be **transferred or staked**. The corpus's kings and asuras treat Indra's throne as purchasable with enough of it — hence Indra's standing policy of sabotage. (Purāṇic passim; the trope is structural.)
+- **Menakā vs. Viśvāmitra** — Indra dispatches the apsaras Menakā to break Viśvāmitra's world-threatening tapas; she succeeds, and their daughter is **Śakuntalā**, ancestress of Bharata. (Mahābhārata, Ādi Parva, Śakuntalā-upākhyāna; Vālmīki Rāmāyaṇa, Bāla Kāṇḍa 1.63; see [shakuntala-bharata.md](../04-deep-dives/shakuntala-bharata.md), [apsaras.md](../08-beings-and-bestiary/apsaras.md).)
+- **Rambhā vs. Viśvāmitra — the counter-move fails** — sent next, Rambhā is cursed by the now-wary sage to become stone for ten thousand years; but the anger itself drains his tapas and he must begin again — the curse-as-leak mechanic stated explicitly. (Vālmīki Rāmāyaṇa, Bāla Kāṇḍa 1.64.)
+- **Trishaṅku's counter-heaven** — Viśvāmitra spends accumulated tapas to send king Triśaṅku bodily heavenward; when Indra hurls him down, the sage *creates a duplicate southern heaven* mid-fall — the largest single "purchase" of tapas-currency in the corpus. (Vālmīki Rāmāyaṇa, Bāla Kāṇḍa 1.57–60; see [trishanku.md](../04-deep-dives/trishanku.md).)
+- **Pramlocā vs. Kaṇḍu** — the apsaras Pramlocā seduces the sage Kaṇḍu into what he perceives as an evening but is centuries; their daughter is Māriṣā. (Viṣṇu Purāṇa 1.15.)
+- **The temptation that boomerangs** — sent against **Nara-Nārāyaṇa** at Badarī, the apsaras are shamed when Nārāyaṇa produces from his thigh (*ūru*) a nymph lovelier than all of them — **Urvaśī** — and gifts her to Indra; tapas so secure it mints apsaras instead of losing to them. (Devī Bhāgavata Purāṇa 4; the ūru-etymology is a later traditional gloss [late text]; see [nara-narayana.md](../04-deep-dives/nara-narayana.md).)
+
+## IV. Vara — Boon Rules and the Famous Loopholes
+
+- **The rules** — sufficient tapas *compels* the deity's appearance ("vara-dāna" is quasi-contractual); the grantor cannot simply refuse, but **absolute immortality (amaratva) is off the menu** — Brahmā tells Hiraṇyakaśipu he cannot grant what he himself does not possess. So petitioners engineer *conditional* immortality, and the loophole in the conditions becomes the plot. (Bhāgavata Purāṇa 7.3.35–38; the pattern is pan-Purāṇic.)
+- **Hiraṇyakaśipu's lattice boon** — death from neither man nor beast, neither indoors nor outdoors, neither day nor night, neither on ground nor in sky, by no weapon, from nothing living or nonliving Brahmā created — answered by **Narasiṃha**: man-lion, at twilight, on a threshold, on his lap, with claws. (Bhāgavata Purāṇa 7.3–8; Viṣṇu Purāṇa 1.17–20; see [prahlada-narasimha.md](../04-deep-dives/prahlada-narasimha.md).)
+- **Rāvaṇa's contempt clause** — invulnerability from devas, dānavas, gandharvas, yakṣas, nāgas — but he *omits humans and monkeys* as beneath notice; Viṣṇu descends precisely as a man, aided by vānaras. (Vālmīki Rāmāyaṇa, Uttara Kāṇḍa 7.10; see [ravana.md](../04-deep-dives/characters/ravana.md).)
+- **Mahiṣāsura's gender clause** — the buffalo-demon is invincible to gods and men; the devas' pooled tejas therefore condenses into the **Goddess**, who alone can kill him. (Devī Māhātmya, Mārkaṇḍeya Purāṇa 81–83 — text c. 5th–6th c. CE [scholarly]; the explicit "death only from a woman" boon-wording is carried in Purāṇic retellings such as the Vāmana and Skanda Purāṇa versions; see [mahishasura-mardini-stotra.md](../04-deep-dives/stotras/mahishasura-mardini-stotra.md).)
+- **Tārakāsura's impossible-son clause** — death only at the hands of a son of Śiva, requested while Śiva is a widowed ascetic; the boon forces the cosmos to arrange Pārvatī's tapas, Śiva's marriage, and Kārttikeya's birth. (Śiva Purāṇa, Rudra Saṃhitā; Matsya Purāṇa; see [tarakasura-vadha.md](../04-deep-dives/tarakasura-vadha.md).)
+- **The self-destructing boon** — **Vṛkāsura** wins the power to reduce to ash any head he touches and immediately tests it on the grantor, Śiva; Viṣṇu (as a beguiling brahmacārin) talks him into touching his own head. (Bhāgavata Purāṇa 10.88.)
+  - *Variant (later/folk "Bhasmāsura"):* the toucher is named Bhasmāsura and it is **Mohinī** who dances him into imitating her hand-on-head gesture. [folk] [late text] (See [bhasmasura-and-vrikasura.md](../04-deep-dives/bhasmasura-and-vrikasura.md).)
+- **Boon-stacking as tragedy** — boons need not be asura-held to wreck lives: Kuntī's mantra-boon from Durvāsā (summon any god for a son) gives the Mahābhārata both its heroes and Karṇa's abandonment. (Mahābhārata, Ādi Parva & Vana Parva; see [kunti.md](../04-deep-dives/characters/kunti.md), [karna.md](../04-deep-dives/karna.md).)
+
+## V. Śāpa — Curse Mechanics and Mitigation
+
+- **The mechanics** — a curse is spent tapas and **cannot be revoked, only capped**: the curser (or a superior power) may append an end-condition (*śāpānta*) or time-limit, producing "śāpa-mokṣa," release from the curse. Cursing in anger also depletes the curser — sages routinely lament the loss. (Pan-epic/Purāṇic rule, stated in the Rambhā and Kindama episodes among others.)
+- **Ahalyā** — cursed by Gautama for the Indra deception, she waits ages unseen until **Rāma's presence releases her** — the classic śāpa-mokṣa. (Vālmīki Rāmāyaṇa, Bāla Kāṇḍa 1.48–49, where she becomes invisible, living on air.)
+  - *Variant (later tellings incl. Padma Purāṇa & vernacular Rāmāyaṇas):* she is turned to **stone** and revived by the touch of Rāma's foot. [late text] (See [gautama-ahalya.md](../04-deep-dives/gautama-ahalya.md), [ahalya.md](../04-deep-dives/characters/ahalya.md).)
+- **Durvāsā curses Indra → the ocean is churned** — Indra slights Durvāsā's garland; the sage curses the devas to lose their strength/fortune, driving them to the **Samudra Manthana** for amṛta — a curse as cosmological project-starter. (Viṣṇu Purāṇa 1.9; the Bhāgavata's churning frame differs — see [samudra-manthana.md](../04-deep-dives/samudra-manthana.md).)
+- **The curse that rebounds — Ambarīṣa** — Durvāsā's kṛtyā-demon and wrath fail against the devotee-king; the **Sudarśana cakra chases Durvāsā through the three worlds** until he begs pardon at Ambarīṣa's feet: bhakti outranks tapas-power. (Bhāgavata Purāṇa 9.4–5; see [ambarisha-durvasa.md](../04-deep-dives/ambarisha-durvasa.md).)
+- **Gāndhārī curses Kṛṣṇa** — after the war she dooms the Yādava race to destroy itself in thirty-six years; Kṛṣṇa accepts it, and the Mausala Parva fulfills it to the letter. (Mahābhārata, Strī Parva 11.25; Mausala Parva; see [gandhari.md](../04-deep-dives/characters/gandhari.md), [16-mausala-parva.md](../04-deep-dives/mahabharata/16-mausala-parva.md).)
+- **Śṛṅgi curses Parīkṣit** — death by Takṣaka in seven days; the capped countdown creates the audience-situation for the entire **Bhāgavata Purāṇa** recitation — a curse as literary frame. (Bhāgavata Purāṇa 1.18–19.)
+- **Kindama curses Pāṇḍu** — death upon embracing his wife; the curse forces the niyoga births of the Pāṇḍavas — the epic's founding generation exists *because* of a śāpa. (Mahābhārata, Ādi Parva; see [pandu.md](../04-deep-dives/characters/pandu.md).)
+- **Urvaśī curses Arjuna — curse converted to asset** — rejected, she curses him to be a eunuch/dancer; Indra caps it at **one year of Arjuna's choosing**, which becomes the perfect Virāṭa-year disguise (Bṛhannaḍā). (Mahābhārata, Vana Parva & Virāṭa Parva; see [arjuna.md](../04-deep-dives/characters/arjuna.md).)
+- **Nahuṣa** — the tapas-made stand-in Indra kicks Agastya (or forces sages to bear his palanquin) and is cursed to fall as a **python**, released ages later by Yudhiṣṭhira's answers. (Mahābhārata, Vana Parva 3.176–178 & Udyoga Parva 5.11–17; see [nahusha.md](../04-deep-dives/nahusha.md).)
+- **The curses that pre-aim Rāvaṇa's death** — **Anaraṇya** of the Solar line dies cursing Rāvaṇa that a king of his own dynasty (Rāma) will slay him (Vālmīki Rāmāyaṇa, Uttara Kāṇḍa 7.19; see [anaranya-ravana-curse.md](../03-lineages-vamsha/anaranya-ravana-curse.md)); **Nandī** curses him that monkeys will destroy his race (Uttara Kāṇḍa 7.16; see [ravana-kailasa-ravananugraha.md](../04-deep-dives/ravana-kailasa-ravananugraha.md)); **Vedavatī** vows rebirth to cause his end (Uttara Kāṇḍa 7.17). Boon-loophole and curse-network converge on one death.
+- **Kalmāṣapāda** — king Saudāsa, cursed by Vasiṣṭha's son Śakti to become a man-eating rākṣasa (with a stacked second curse ensuring death if he touches his own wife), regains his throne after twelve years — curse-duration as penal sentence. (Mahābhārata, Ādi Parva; Viṣṇu Purāṇa 4.4; see [kalmashapada-saudasa.md](../04-deep-dives/kalmashapada-saudasa.md).)
+
+## VI. Curse as Grace — Śāpa Driving the Avatāras
+
+- **Jaya-Vijaya: the three-birth contract** — Vaikuṇṭha's doorkeepers, cursed by the Four Kumāras to fall to earth, are offered a choice: **seven births as devotees or three as enemies of Viṣṇu**; they choose the fast track of enmity. Their three demonic careers — Hiraṇyākṣa/Hiraṇyakaśipu, Rāvaṇa/Kumbhakarṇa, Śiśupāla/Dantavakra — *require* Varāha, Narasiṃha, Rāma and Kṛṣṇa: the curse is the engine of the avatāra sequence, and death at the Lord's hands is their mokṣa. (Bhāgavata Purāṇa 3.15–16 & 7.1.36–46; see [jaya-vijaya.md](../04-deep-dives/jaya-vijaya.md).)
+- **Nalakūbara & Maṇigrīva** — Kubera's sons, cursed by Nārada to stand as twin arjuna trees, are *placed by the curse itself* in Gokula's courtyard, where toddler Kṛṣṇa uproots and liberates them — Nārada frames the curse explicitly as a favor. (Bhāgavata Purāṇa 10.9–10; see [krishna-balya-lila.md](../04-deep-dives/krishna-balya-lila.md).)
+- **Bhṛgu kicks Viṣṇu** — testing the Trimūrti, Bhṛgu kicks the sleeping Viṣṇu's chest; in the widespread later telling, an accompanying curse (or Lakṣmī's resulting departure/anger) is linked to Viṣṇu's repeated earthly births and to Śrīnivāsa's descent at Tirupati. [late text] [regional] (Bhāgavata Purāṇa 10.89 has the test without a births-curse; the curse-linkage is Purāṇic/sthala-purāṇa elaboration — traditions disagree and are kept separate here; see [bhrigu.md](../04-deep-dives/bhrigu.md).)
+- **The theological reading** — Vaiṣṇava commentators treat such curses as *compressed karma and disguised anugraha* (grace): enmity fixes the mind on God faster than devotion (the *vaira-bhakti* doctrine voiced by Nārada in Bhāgavata 7.1) — the corpus's own explanation of why its plot-engine is benevolent. (Bhāgavata Purāṇa 7.1; see [purusharthas-and-karma-samsara-moksha.md](./purusharthas-and-karma-samsara-moksha.md).)
+
+---
+
+## Sources
+
+- **Ṛgveda** 10.129 (Nāsadīya Sūkta), 10.190 — tapas in cosmogony; ṛta/satya born of tapas.
+- **Śatapatha Brāhmaṇa** (creation accounts) — Prajāpati's self-heating.
+- **Taittirīya Upaniṣad** 3 (Bhṛguvallī) — "tapas is Brahman."
+- **Yoga Sūtras of Patañjali** 2.1, 2.32, 2.43 — tapas as kriyā-yoga and niyama.
+- **Bhagavad Gītā** 17.14–19 — the three guṇas of tapas.
+- **Vālmīki Rāmāyaṇa** — Bāla Kāṇḍa 1.42–43 (Bhagīratha), 1.48–49 (Ahalyā), 1.57–60 (Triśaṅku), 1.63–64 (Menakā, Rambhā); Uttara Kāṇḍa 7.10 (Rāvaṇa's boon), 7.16 (Nandī), 7.17 (Vedavatī), 7.19 (Anaraṇya).
+- **Mahābhārata** — Ādi Parva (Śakuntalā; Kindama; Kalmāṣapāda; Kuntī's boon), Vana Parva 3.176–178 (Nahuṣa; Urvaśī's curse), Udyoga Parva 5.11–17, Virāṭa Parva, Strī Parva 11.25 (Gāndhārī), Mausala Parva.
+- **Bhāgavata Purāṇa** — 1.18–19 (Parīkṣit), 3.15–16 & 7.1 (Jaya-Vijaya, vaira-bhakti), 4.8–9 (Dhruva), 7.3–8 (Hiraṇyakaśipu/Narasiṃha), 9.4–5 (Ambarīṣa-Durvāsā), 10.9–10 (Nalakūbara-Maṇigrīva), 10.88 (Vṛkāsura), 10.89 (Bhṛgu's test).
+- **Viṣṇu Purāṇa** — 1.9 (Durvāsā's curse on Indra), 1.15 (Pramlocā-Kaṇḍu), 1.17–20 (Hiraṇyakaśipu), 4.4 (Saudāsa).
+- **Mārkaṇḍeya Purāṇa** 81–83 (**Devī Māhātmya**) — Mahiṣāsura; woman-slayer clause carried in Vāmana/Skanda Purāṇa retellings.
+- **Śiva Purāṇa** (Rudra Saṃhitā) & **Matsya Purāṇa** — Pārvatī's pañcāgni tapas; Tārakāsura's boon.
+- **Devī Bhāgavata Purāṇa** 4 — Nara-Nārāyaṇa and the birth of Urvaśī. [late text]
+- **Kālidāsa, Kumārasambhava** 5 — kāvya rendering of Pārvatī's tapas (Aparṇā). [scholarly: c. 5th c. CE]

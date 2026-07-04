@@ -20,7 +20,7 @@ Hindu time is **cyclic, not linear.** There is no single creation at t=0 and no 
 Hindu time is a single chain running from microseconds to trillions of years. Lower (human-scale) units come from the *Manusmriti* / *Surya Siddhanta* chain; higher (cosmic) units from the Puranas.
 
 ### Human / daily scale (Surya Siddhanta chain)
-- **truti → tatpara → nimesha (blink) → kashtha → kala → ghatika → muhurta → ahoratra (day).** 1 nimesha ≈ 0.089 s; 1 muhurta ≈ 48 min; 30 muhurtas = 1 day-and-night. (See `01-units-of-time.md` for the full conversion table.)
+- **truti → tatpara → nimesha (blink) → kashtha → kala → ghatika → muhurta → ahoratra (day).** 1 nimesha ≈ 0.089 s; 1 muhurta ≈ 48 min; 30 muhurtas = 1 day-and-night. (See `units-of-time.md` for the full conversion table.)
   - *Variant (Vishnu Purana chain):* uses **15 nimesha = 1 kashtha** (vs **18** in the Surya Siddhanta / Manusmriti chain) and routes muhurta via *kshana* (12 kshana = 1 muhurta). Both traditions are cataloged.
 - **day → paksha (fortnight) → masa (month) → ritu (season) → ayana (half-year) → samvatsara (year).**
 
@@ -34,7 +34,7 @@ Hindu time is a single chain running from microseconds to trillions of years. Lo
 - **Kalpa (Day of Brahma)** = 1000 Mahayugas = **4.32 billion yr**; equal **Night of Brahma** (pralaya) follows.
 - **Brahma's lifespan** = 100 Brahma-years = **311.04 trillion yr**; then *maha-pralaya* and rebirth of Brahma.
 
-> All numbers above are fixed by the repo's FRAMEWORK CONSTANTS; see `01-units-of-time.md` and `02-yugas-and-mahayuga.md` for derivations and variant reckonings (Aryabhata, Sri Yukteswar's 24,000-year cycle).
+> All numbers above are held fixed across the repo; see [`units-of-time.md`](units-of-time.md) and [`yugas-and-mahayuga.md`](yugas-and-mahayuga.md) for derivations and variant reckonings (Aryabhata, Sri Yukteswar's 24,000-year cycle).
 
 ---
 
@@ -76,13 +76,12 @@ See `../01-manvantaras/` for the full drill-down.
 
 ## What's in this `00-` section
 
-- **`README.md`** — (this file) overview, the cyclic-time idea, the unit chain, pralaya, index.
-- **`01-units-of-time.md`** — full conversion tables (truti → Brahma's life), Surya Siddhanta vs Vishnu Purana chains.
-- **`02-yugas-and-mahayuga.md`** — the four yugas, sandhya/sandhyamsa, deva-year ratio, dharma decline; variant reckonings (Aryabhata, Sri Yukteswar).
-- **`03-higher-cycles.md`** — Mahayuga → Manvantara → Kalpa → Brahma's lifespan; the 14 Manus; nested-clock derivations.
-- **`04-pralaya-and-dissolution.md`** — the four pralayas and the creation/dissolution rhythm in detail.
+The section's 14 files fall into four clusters (every file is linked in the [Full Contents index](#-full-contents) below):
 
-*(Sub-file names are the planned layout for this node; create/adjust as the section is built out.)*
+- **The clock itself** — [`units-of-time.md`](units-of-time.md) (truti → year conversion tables, the four scriptural chains), [`yugas-and-mahayuga.md`](yugas-and-mahayuga.md) (the four yugas, sandhyas, deva-year ratio, variant reckonings), [`manvantara-system.md`](manvantara-system.md) (the 14 Manus), [`kalpa-and-pralaya.md`](kalpa-and-pralaya.md) (Day/Night of Brahma, the four dissolutions), [`brahma-lifetime.md`](brahma-lifetime.md) (the 100-year Mahakalpa), [`kalachakra-wheel-of-time.md`](kalachakra-wheel-of-time.md) (time as deity).
+- **The beginning** — [`cosmogony-creation-accounts.md`](cosmogony-creation-accounts.md) (the creation accounts, catalogued as variants).
+- **The shape of the cosmos** — [`brahmanda-and-bhuvana-kosha.md`](brahmanda-and-bhuvana-kosha.md) (the cosmic egg and its sheaths), [`bila-svarga-and-the-patalas.md`](bila-svarga-and-the-patalas.md) (the subterranean paradises), [`shishumara-chakra.md`](shishumara-chakra.md) (the stellar dolphin and the pole).
+- **Reading the sky** — [`jyotisha-and-the-zodiac.md`](jyotisha-and-the-zodiac.md), [`nakshatras.md`](nakshatras.md), [`hindu-calendar-and-panchanga.md`](hindu-calendar-and-panchanga.md), [`siddhantic-astronomy-and-astronomers.md`](siddhantic-astronomy-and-astronomers.md).
 
 ---
 
@@ -104,7 +103,7 @@ See `../01-manvantaras/` for the full drill-down.
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 14 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 15 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Bila-svarga and the Seven Pātālas (The Subterranean Paradises)](bila-svarga-and-the-patalas.md)
 - 🟩 [Brahmā's Lifetime (Mahākalpa)](brahma-lifetime.md)
@@ -115,6 +114,7 @@ See `../01-manvantaras/` for the full drill-down.
 - 🟩 [The Kālachakra — the Wheel of Time & Time as Deity](kalachakra-wheel-of-time.md)
 - 🟩 [Kalpa, Day/Night of Brahmā & the Dissolutions (Pralaya)](kalpa-and-pralaya.md)
 - 🟩 [The Manvantara System & the 14 Manus](manvantara-system.md)
+- 🟩 [Muhūrta & the Auspicious / Inauspicious Windows of the Day](muhurta-and-auspicious-timing.md)
 - 🟩 [The 27 Nakṣatras](nakshatras.md)
 - 🟩 [The Śiśumāra-cakra — the Cosmic Dolphin & Dhruva-maṇḍala](shishumara-chakra.md)
 - 🟩 [Siddhāntic Astronomy & Its Astronomers](siddhantic-astronomy-and-astronomers.md)

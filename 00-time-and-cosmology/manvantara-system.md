@@ -12,7 +12,7 @@
 ## 1. What a Manvantara Is
 
 - **Definition** — A *manvantara* (manu + antara, "the interval/age of a Manu") is the reign-period of one Manu, the progenitor and lawgiver of humankind for that age. Fourteen successive manvantaras constitute one **Kalpa** (Day of Brahma). (Vishnu Purana 3.1-2; Bhagavata Purana 8.1; Manu Smriti 1.61-63)
-- **Duration** — Each manvantara = **71 Mahayugas** (≈ 306,720,000 human years), plus inter-manvantara junctures (*sandhi*, each = 1 Satya Yuga = 1,728,000 yrs). 14 manvantaras + 15 sandhis = 1 Kalpa = 4.32 billion yrs. (See FRAMEWORK CONSTANTS §3.)
+- **Duration** — Each manvantara = **71 Mahayugas** (≈ 306,720,000 human years), plus inter-manvantara junctures (*sandhi*, each = 1 Satya Yuga = 1,728,000 yrs). 14 manvantaras + 15 sandhis = 1 Kalpa = 4.32 billion yrs. (Derivations in [`units-of-time.md`](units-of-time.md) and [`kalpa-and-pralaya.md`](kalpa-and-pralaya.md) §1.)
   - *Variant (computation):* Texts differ on whether the 15 sandhis are counted "inside" the 14 manvantaras or as separate junctures; the standard reconciliation adds them separately so the Kalpa totals exactly 1000 Mahayugas. (Surya Siddhanta; Vishnu Purana 1.3)
 - **What gets recreated each manvantara** — At every manvantara turnover, an entire cosmic administration is renewed: a new **Manu**, a new **Indra** (king of the devas), a new set of **Devas** (god-classes), the **Saptarishis** (seven sages who re-promulgate the Vedas), the **sons of Manu** (founding kings/lineages), and a **manvantara-avatara of Vishnu** who supports dharma and the Manu through the age. (Vishnu Purana 3.1-2; Bhagavata Purana 8.1.3-5)
 - **The Manu's role** — The Manu is the ruler of the earth and the source of human dharma for his age: he fathers the royal lineages, upholds law, and is "saved" across the dissolution to seed the next humanity. The lawbook *Manu Smriti* is framed as the teaching of the **first** Manu, Svayambhuva. (Manu Smriti 1; Vishnu Purana 3.1)
@@ -133,7 +133,7 @@ The seven sages rotate by manvantara. (Vishnu Purana 3.1-2; Bhagavata Purana 8.1
 ## 6. Where We Are Now
 
 - **6 manvantaras elapsed** this Kalpa (Svayambhuva → Chakshusha); we are in the **7th, Vaivasvata**.
-- Within it: **27 Mahayugas complete**, and within the **28th** Mahayuga the Satya, Treta, and Dvapara Yugas are done — we are in **Kali Yuga** (begun 3102 BCE; ≈ 5,127-5,128 years elapsed as of 2026 CE). (FRAMEWORK CONSTANTS §4)
+- Within it: **27 Mahayugas complete**, and within the **28th** Mahayuga the Satya, Treta, and Dvapara Yugas are done — we are in **Kali Yuga** (begun 3102 BCE; ≈ 5,127-5,128 years elapsed as of 2026 CE). (See the [section README — You Are Here](README.md#you-are-here-current-cosmic-address).)
 - **8 manvantaras still to come** (Savarni → Indra-savarni), after which this Kalpa ends and Brahma's night (pralaya) falls. See [kalpa-and-pralaya.md](kalpa-and-pralaya.md).
 
 ---

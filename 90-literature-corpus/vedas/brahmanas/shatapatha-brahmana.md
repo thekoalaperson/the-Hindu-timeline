@@ -44,7 +44,29 @@ Two clocks throughout: **scripture clock** (apauruṣeya, eternal Veda re-divide
 
 ---
 
-## 5. The Great Ritual Complexes
+## 5. Other Narrative Legends
+
+### 5a. Videgha Māthava and the Sadānīrā — Agni's eastward march (ŚB 1.4.1.10–17)
+
+- **Agni carried in the king's mouth.** Embedded in the exposition of the new- and full-moon rites, the legend opens with king **Videgha Māthava** (Māthava the Videgha) on the **Sarasvatī**, bearing **Agni Vaiśvānara in his mouth**; his household priest is the ṛṣi **Gotama Rāhūgaṇa**. Fearing the god would escape if he spoke, Māthava answers none of the priest's questions. (ŚB 1.4.1.10–12)
+- **The ghee-verse and the flash.** Gotama finally recites a ṛc invoking **ghee** ("sprinkled with butter…"); at the mention of butter the fire flares — **Agni Vaiśvānara bursts from the king's mouth** and falls upon this earth, unable to be held back. (ŚB 1.4.1.13–14)
+- **The eastward burning.** Agni then **burns along the earth toward the east**, Gotama Rāhūgaṇa and Videgha Māthava following behind him, and he **burns over (dries out) all the rivers** in his path — until he reaches the **Sadānīrā** ("ever-flowing," descending from the northern mountain), which he does **not** burn over. (ŚB 1.4.1.14)
+- **The unburnt frontier.** Brahmins formerly did not cross the Sadānīrā, saying "it has not been burnt over by Agni Vaiśvānara"; "now, however" (the ŚB's own present) **many Brahmins live east of it**, and the once-uncultivable, marshy land has become good, "for the Brahmins have caused Agni to taste it through sacrifices." (ŚB 1.4.1.15–16)
+- **The founding charter of Videha.** Māthava asks Agni, "Where am I to abide?" — **"To the east of this river be thy abode,"** the god replies. The Sadānīrā thereafter forms the **boundary between Kosala and Videha**, both lands reckoned to the descendants of Māthava; the kingdom of **Videha** — later **Mithilā** — thus takes its very name and legitimacy from Videgha Māthava. (ŚB 1.4.1.17)
+- *Scholarly reading:* the legend is read as a **charter myth of the eastward expansion of Vedic (Kuru-Pañcāla) śrauta culture** across the Gangetic plain into north Bihar — fire-clearing, agriculture, and Brahminism advancing behind Agni, with the Sadānīrā as the moving frontier. The Sadānīrā is usually identified with the **Gaṇḍakī (Gandak)**. [scholarly]
+  - *Variant (river identity):* some sources (following the *Amarakośa* tradition) equate the Sadānīrā instead with the **Karatoyā**; the identification is contested. [disputed]
+- **Cross-links.** The Videha/Mithilā throne this legend charters: [the Videha / Mithilā branch of the Sūryavaṃśa (Janaka line)](../../../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) — where the parallel Purāṇic founding (Nimi → Mithi/Janaka) is cataloged; its most famous daughter: [Sītā](../../../04-deep-dives/characters/sita.md), born at [Janakpur / Mithilā](../../../06-sacred-geography/janakpur-mithila-sita-janmabhumi.md). The philosopher-king **Janaka of Videha** returns as Yājñavalkya's patron in this Brāhmaṇa's own closing books (§7).
+
+### 5b. Legends told in full elsewhere — pointer stubs
+
+- **Purūravas & Urvaśī (ŚB 11.5.1)** — the ŚB's prose expansion of the mortal-king-and-apsaras dialogue of Ṛgveda 10.95 — canonical treatment: [Purūravas & Urvaśī](../../../04-deep-dives/pururavas-urvashi.md).
+- **Bhṛgu and Varuṇa's other-world vision (ŚB 11.6.1)** — parallel to the fuller Jaiminīya telling; treated at [Jaiminīya Brāhmaṇa](./jaiminiya-brahmana.md).
+- **Cyavana rejuvenated by the Aśvins (ŚB 4.1.5)** — the aged ṛṣi, Sukanyā, and the Aśvins' madhu — canonical treatment: [Cyavana & Sukanyā](../../../04-deep-dives/cyavana-sukanya.md).
+- **Dadhyañc Ātharvaṇa and the horse-head madhu-vidyā (ŚB 14.1.1, opening the Pravargya)** — canonical treatment: [Dadhīci / Dadhyañc](../../../04-deep-dives/dadhichi.md).
+
+---
+
+## 6. The Great Ritual Complexes
 
 - **Agnihotra & the model iṣṭis.** Early kāṇḍas expound the daily fire-oblation and the new-/full-moon sacrifices (darśapūrṇamāsa) as the paradigm haviryajñas. (ŚB kāṇḍas 1–2)
 - **Pravargya.** The intensely esoteric **hot-milk rite**: the **Mahāvīra** clay pot is heated red-hot and milk-and-ghee poured in, the glowing vessel identified with the **Sun, with Agni, and with the head of the sacrifice (Makha/Viṣṇu's severed head)**. The decapitation-of-the-sacrifice myth (the bow-string severing Viṣṇu's head, which becomes the sun) anchors the rite. (ŚB kāṇḍa 14, Pravargya section) [esoteric]
@@ -54,14 +76,14 @@ Two clocks throughout: **scripture clock** (apauruṣeya, eternal Veda re-divide
 
 ---
 
-## 6. The Closing Books — Bṛhadāraṇyaka Upaniṣad
+## 7. The Closing Books — Bṛhadāraṇyaka Upaniṣad
 
 - **The Āraṇyaka–Upaniṣad telescope.** The Śukla line runs Saṃhitā → Brāhmaṇa → Āraṇyaka → Upaniṣad as one continuous text; the **final kāṇḍa of the Śatapatha** *is* its Āraṇyaka-plus-Upaniṣad stratum. (Śatapatha Brāhmaṇa, closing kāṇḍa)
-- **Location.** The **Bṛhadāraṇyaka Upaniṣad** forms **Mādhyandina kāṇḍa 14 (final adhyāyas) / Kāṇva book 17** — the oldest and longest principal Upaniṣad, dominated by **Yājñavalkya** (the dialogues with Maitreyī, Gārgī, and King Janaka; *neti neti*; early Ātman = Brahman). The Pravargya material (§5) also sits in this last kāṇḍa, just before the Upaniṣadic chapters. — [`../../upanishads/brihadaranyaka-upanishad.md`](../../upanishads/brihadaranyaka-upanishad.md). [scholarly]
+- **Location.** The **Bṛhadāraṇyaka Upaniṣad** forms **Mādhyandina kāṇḍa 14 (final adhyāyas) / Kāṇva book 17** — the oldest and longest principal Upaniṣad, dominated by **Yājñavalkya** (the dialogues with Maitreyī, Gārgī, and King Janaka; *neti neti*; early Ātman = Brahman). The Pravargya material (§6) also sits in this last kāṇḍa, just before the Upaniṣadic chapters. — [`../../upanishads/brihadaranyaka-upanishad.md`](../../upanishads/brihadaranyaka-upanishad.md). [scholarly]
 
 ---
 
-## 7. Dating — Two Clocks
+## 8. Dating — Two Clocks
 
 - **Scripture clock.** Apauruṣeya prose "heard" by ṛṣis and arranged in the Dvāpara compilation era around **3102 BCE**; the Śukla branch is the fresh solar revelation to **Yājñavalkya** (the Sūrya/horse myth — see [`../yajurveda.md`](../yajurveda.md)).
 - **Academic clock.** Composed orally c. **900–700 BCE**, among the **later** Brāhmaṇas, in the Kuru-Pañcāla / eastward (Videha-Kosala) Iron-Age zone; the Bṛhadāraṇyaka stratum is early-to-mid Upaniṣadic (c. 700–500 BCE). The Kāṇva and Mādhyandina recensions reflect distinct regional transmission. [scholarly]
@@ -73,6 +95,8 @@ Two clocks throughout: **scripture clock** (apauruṣeya, eternal Veda re-divide
 - [Shatapatha Brahmana — Wikipedia](https://en.wikipedia.org/wiki/Shatapatha_Brahmana) ("hundred paths" = 100 Mādhyandina adhyāyas; Mādhyandina 14 kāṇḍas / Kāṇva 17 kāṇḍas, 104 adhyāyas; Matsya flood at ŚB 1.8.1; Prajāpati cosmogony; Yājñavalkya ascription)
 - [Julius Eggeling, *The Śatapatha-Brāhmaṇa*, Sacred Books of the East vols 12, 26, 41, 43, 44 (Mādhyandina)](https://www.sacred-texts.com/hin/sbr/index.htm) (full English translation; Manu-and-the-fish at 1.8.1; Agnicayana, Aśvamedha, Pravargya sections; kaṇḍikā counts)
 - [Manu and the Flood / Matsya — Śatapatha Brāhmaṇa 1.8.1, Eggeling tr.](https://www.sacred-texts.com/hin/sbr/sbe12/sbe1218.htm) (earliest Hindu deluge narrative; fish, ship, horn, northern mountain, Iḍā)
+- [Videgha Māthava & the Sadānīrā — Śatapatha Brāhmaṇa 1.4.1.10–17, Eggeling tr., SBE vol. 12](https://www.sacred-texts.com/hin/sbr/index.htm) (Agni Vaiśvānara in the king's mouth; the ghee-verse; the eastward burning; "to the east of this river be thy abode"; Kosala–Videha boundary)
+- [Videha — Wikipedia](https://en.wikipedia.org/wiki/Videha) (Videgha Māthava legend as the founding charter of Videha/Mithilā; Sadānīrā ≈ Gandak vs Karatoyā identifications; eastward-expansion reading) [scholarly]
 - [Yajurveda — Wikipedia](https://en.wikipedia.org/wiki/Yajurveda) (Śukla "separated" arrangement; Vājasaneyi Saṃhitā 40 adhyāyas; agnicayana, aśvamedha mapping to VS chapters)
 - [Vedic Heritage Portal — Śukla Yajurveda Brāhmaṇa](https://vedicheritage.gov.in/) (Mādhyandina & Kāṇva recensions; Bṛhadāraṇyaka as the closing kāṇḍa)
 - Śatapatha Brāhmaṇa, Mādhyandina & Kāṇva recensions (primary text — traditional citation)

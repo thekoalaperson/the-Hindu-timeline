@@ -1,0 +1,74 @@
+# Mahīsāgara-saṃgama / Kumārikā-kṣetra (Cambay) — Arjuna and the crocodile-apsarās, Stambheśvara
+
+> Where the **Mahī** river pours into the sea on the **Gulf of Khambhāt (Cambay)**, Gujarat — the *sthala* whose glory is sung across the **66 chapters of the Kaumārikā-khaṇḍa** of the *Skanda Purāṇa* (the second book of the Māheśvara-khaṇḍa). Named for **Kumāra (Skanda/Kārttikeya)**, it is the confluence where Arjuna redeems five crocodile-cursed apsarās, where Kārttikeya plants the pillar-liṅga **Stambheśvara**, and the "hidden ground" (**Guptakṣetra**) whose bathing-merit the khaṇḍa spends chapter after chapter praising.
+>
+> Parent: [Sacred Geography](README.md) · Up: [Master Index](../README.md) · Related: [Narmadā Parikramā](narmada-parikrama.md) · [Dvārakā & the Saurāṣṭra Kṛṣṇa Kṣetras](dwarka-bet-dwarka-saurashtra.md) · [Vaḍnagar / Hāṭakeśvara Kṣetra](vadnagar-hatakeshvara-kshetra.md) · [Arjuna](../04-deep-dives/characters/arjuna.md) · [Gaṇeśa & Kārttikeya](../02-deities-and-cosmic-hierarchy/ganesha-and-kartikeya.md) · [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md)
+
+---
+
+## I. The kṣetra and its names
+
+- **Mahīsāgara-saṃgama** — literally "the union (*saṃgama*) of the **Mahī** and the **sea** (*sāgara*)." The Mahī rises in the Vindhyas of Madhya Pradesh, loops north through Rajasthan, and drains west across Gujarat into the **Gulf of Khambhāt**; its estuarine mouth on that gulf is the tīrtha the khaṇḍa glorifies. A river-*saṃgama* with the ocean is by itself a place of high bathing-merit in Purāṇic tīrtha-theory; here the Mahī's mouth is raised to a full *kṣetra*. (*Skanda Purāṇa*, Kaumārikā-khaṇḍa 1–3) [late text]
+- **Kumārikā-kṣetra** — "the field of **Kumāra**," i.e. of **Skanda/Kārttikeya**, the boy-general (*kumāra* = youth/prince) born to slay [Tārakāsura](../04-deep-dives/tarakasura-vadha.md). The whole khaṇḍa is *Kaumārikā* ("relating to Kumāra"): Skanda is the presiding deity of the confluence, and the sthala is his consecrated ground. (Kaumārikā-khaṇḍa 1) — *not to be confused with* **Kanyākumārī** (Kumārī-kṣetra at the southern cape), a separate goddess-tīrtha; the collision of names is real and deliberately kept distinct here. [regional]
+- **Stambhatīrtha → Khambhāt / Cambay** — the port-town at the head of the gulf is **Khambhāt**, from Sanskrit **Stambhatīrtha** ("the tīrtha of the pillar/column"), after the pillar-liṅga **Stambheśvara**; the English "Cambay" and the gulf's name descend from the same root. The etymology ties the town's very name to the Śaiva installation the khaṇḍa narrates. (Stambhatīrtha-māhātmya; place-name tradition) [scholarly] [regional]
+- **The two clocks** — In the *scriptural* frame the events here belong to the deep past of the current Mahāyuga: Skanda's kṣetra and the Stambheśvara liṅga reach back to the war on Tāraka (a **cross-yuga Śaiva cycle**), and Arjuna's redemption of the apsarās falls in **late Dvāpara, ahead of the Kurukṣetra war**, during his pilgrimage-exile. In the *academic* frame the Kaumārikā-khaṇḍa is a **[scholarly] later stratum of the *Skanda Purāṇa*** (the sprawling Purāṇa reaching roughly its received shape **c. 7th–12th c. CE**, with sthala-māhātmyas often younger still), and the surviving **Stambheśvara temple at Kavi Kamboi** is a datable modern shrine. The corpus keeps the frames apart. [late text] [scholarly]
+
+---
+
+## II. The frame of the Kaumārikā-khaṇḍa
+
+- **A 66-chapter sthala-māhātmya** — the Kaumārikā-khaṇḍa is a self-contained book of **sixty-six adhyāyas** built as a *praise-of-the-place*: **Sūta** (Sūta Ugraśravas / Lomaharṣaṇa's son) recites to the ṛṣis of the **Naimiṣa forest** the greatness of the Mahīsāgara-saṃgama, threading legend after legend onto the single spine of "why this confluence redeems." Every embedded tale — Arjuna's, Nandabhadra's, the crocodile-apsarās' — is told *to establish the tīrtha's power*, not for its own sake. (Kaumārikā-khaṇḍa 1–3) [late text]
+- **Skanda as presiding lord** — the khaṇḍa opens in Skanda's orbit: it is *Kaumārikā*, the ground of the six-faced **Kārttikeya** who was gathered from Śiva's seed, nursed by the **Kṛttikās**, and generalled the deva army against **Tāraka** (the full cycle at [Tārakāsura-vadha](../04-deep-dives/tarakasura-vadha.md) and [Gaṇeśa & Kārttikeya](../02-deities-and-cosmic-hierarchy/ganesha-and-kartikeya.md)). His association makes the confluence a *Kaumāra* Śaiva site rather than a Vaiṣṇava one. (Kaumārikā-khaṇḍa 1) [regional]
+- **A gazetteer of sub-tīrthas** — like the [Revā/Narmadā māhātmya](narmada-parikrama.md), the khaṇḍa catalogues numerous bathing-spots, liṅgas, and shrines clustered around the mouth of the Mahī, each with a founding anecdote and a promised fruit (*phala*) for bathing, gifting, or dying there — the genre's characteristic accretive shape. (Kaumārikā-khaṇḍa, *passim*) [late text] [regional]
+
+---
+
+## III. Arjuna and the five crocodile-apsarās
+
+- **The redemption at the confluence** — the khaṇḍa's signature epic-graft: **Arjuna**, wandering on his celibate pilgrimage-exile, comes to the Mahīsāgara-saṃgama, where **five apsarās cursed to live as crocodiles (*grāhas*)** have made the water un-enterable, dragging down bathers and ascetics. Arjuna plunges in, is seized, drags the crocodile ashore — and it sheds its reptile shape to stand forth as a radiant **apsarā**, freed by his touch; he delivers all five. Their liberation *at this spot* is offered as proof of the confluence's redeeming force. (Kaumārikā-khaṇḍa; see [Arjuna](../04-deep-dives/characters/arjuna.md)) [late text]
+- **The curse behind it** — the apsarās had disturbed a **Brāhmaṇa absorbed in penance / Veda-recitation**; provoked, he cursed the seductresses to become **crocodiles**, relenting only so far as to promise that a **great man would one day pull them from the water** and restore their forms — the deliverer being Arjuna. (Kaumārikā-khaṇḍa; parallel in *Mahābhārata*, Ādi Parva) [late text]
+- **The Mahābhārata original it localizes** — the episode is the *Skanda Purāṇa*'s **relocation of a canonical *Mahābhārata* tale**. In the epic's **Ādi Parva** (the *Arjuna-vanavāsa* / tīrtha-yātrā section, ~chs. 208–210 crit. ed.), Arjuna — exiled twelve years for entering on Yudhiṣṭhira and Draupadī — frees **five apsarās** (**Vargā, Saurabheyī, Samīcī, Budbudā, Latā**), cursed to crocodile-form by a Brāhmaṇa, at **five tīrthas of the southern sea** (Saubhadra, and four others). The Purāṇa **transplants that redemption to the Mahī-mouth in Gujarat** to endow *its* confluence with the merit. *Catalogue the transposition; do not merge the two settings.* (*Mahābhārata*, Ādi Parva ~208–210 ≈ Ganguli §§217–218) [scholarly]
+  - *Variant (setting):* the **Mahābhārata** fixes the five crocodile-tīrthas on the **southern ocean** (in the Pāṇḍya/Kerala south, after his Maṇipura marriage and before he proceeds to Prabhāsa); the **Kaumārikā-khaṇḍa** sets the single deliverance at the **Mahīsāgara-saṃgama** on the *western* gulf. The apsarā-names and the Brāhmaṇa's curse are shared; the geography is not. [regional]
+- **Why Arjuna, and why here** — the graft is purposeful: attaching a **Pāṇḍava**-hero deliverance to the tīrtha imports the epic's prestige, and the "crocodile-infested water made safe" motif literalizes the māhātmya's core promise — that *this* water, however dangerous, is where the cursed are unbound. It stands beside the corpus's other epic-into-Purāṇa relocations at this same kṣetra (see [Indradyumna & Akūpāra](../04-deep-dives/indradyumna-akupara-oldest-beings.md), whose ladder-of-witnesses tale the khaṇḍa likewise re-homes here). [late text]
+
+---
+
+## IV. Kārttikeya and the pillar-liṅga Stambheśvara
+
+- **Stambheśvara installed by Skanda** — the khaṇḍa's founding Śaiva act: **Kārttikeya**, victor over Tāraka, establishes a **liṅga of Śiva as a *stambha* (pillar/column)** at the sea's edge of the kṣetra — **Stambheśvara**, "the Lord of the Pillar." The installation gives the tīrtha its Śaiva anchor and the port its name (**Stambhatīrtha → Khambhāt**). (Kaumārikā-khaṇḍa; Stambheśvara-māhātmya) [late text] [regional]
+- **The pillar motif** — the *stambha* is a recurrent Śaiva image (the beginningless-endless flame-pillar of the *liṅgodbhava*, the *skambha* cosmic axis of the *Atharvaveda*); here it is domesticated to a coastal liṅga marking where Skanda's kṣetra meets the ocean — a fixed *axis mundi* at the land's edge. (Kaumārikā-khaṇḍa) [regional]
+  - *Variant (Jain claimant to the name):* the same port carries a parallel **Jain** identity — **Stambhana(-ka) Pārśvanātha** ("Thambhaṇa Pārśvanāth"), an image famously associated with Khambhāt and the Ācārya **Abhayadevasūri** (11th c.). The Śaiva *Stambheśvara* and the Jaina *Stambhana Pārśva* are **distinct dedications sharing the "pillar-tīrtha" toponym**; the corpus records both without conflating them. [regional] [disputed]
+
+---
+
+## V. The Guptakṣetra and the merit of the confluence
+
+- **The "hidden ground" (Guptakṣetra)** — the khaṇḍa styles the Mahīsāgara-saṃgama a **Guptakṣetra**, a *secret / concealed* holy ground whose full sanctity is veiled and disclosed only to the devout — a status that both magnifies its claimed power and explains why so grand a tīrtha stands unglamorous at a muddy river-mouth. The bathing-, gifting-, and death-merit promised here is framed as the payoff of penetrating that concealment. (Kaumārikā-khaṇḍa) [late text] [regional]
+- **Nandabhadra — the theodicy exemplum** — among the tales the khaṇḍa embeds to glorify the kṣetra is the story of the flawless merchant **Nandabhadra**, stripped of son and wife and baited by an atheist neighbour to abandon *dharma*, who holds fast and is answered by a **karma-theodicy** — Hindu mythology's nearest analogue to the Book of Job, set at this confluence (full treatment at [Nandabhadra — Tested Faith](../04-deep-dives/nandabhadra-tested-faith.md)). (Kaumārikā-khaṇḍa) [late text]
+- **The closing phala-śruti** — the book ends (**Kaumārikā-khaṇḍa 66**) as māhātmyas do, with a **fruit-of-hearing (*phala-śruti*)**: a summary of the rewards — merit-restoration, ancestral rescue, liberation — accruing to whoever bathes at the Mahīsāgara-saṃgama or even hears its glory recited, sealing the sixty-six chapters as a single instrument of the tīrtha's praise. (Kaumārikā-khaṇḍa 66) [late text]
+
+---
+
+## VI. The living temple — Kavi Kamboi's "disappearing" Stambheśvar
+
+- **A tide-swallowed Śiva** — the tradition's most striking modern anchor is the **Stambheśvar Mahādev temple at Kavi Kamboi** (Jambusar taluka, Bharuch district) on the **Gulf of Khambhāt** coast, near the Mahī–sea seaboard: a small liṅga-shrine set out on the intertidal flats that is **fully submerged by the sea at high tide and re-emerges at low tide** — the celebrated **"disappearing / vanishing temple."** The twice-daily *darśana*, opened and closed by the ocean itself, dramatizes the *Guptakṣetra* idea — a god the sea hides and reveals. (Wikipedia, "Stambheshwar Mahadev"; Gujarat Tourism) [regional]
+- **Scriptural claim, modern fabric** — devotional literature attributes the liṅga to **Kārttikeya** and cites the *Skanda Purāṇa*'s Stambheśvara for its antiquity, but the **present structure is a modern coastal shrine** (its wide fame post-dating its 20th-century development and improved road access); the corpus separates the **scriptural pedigree** (Kaumārikā-khaṇḍa) from the **datable building**. Its rise to a mass pilgrimage draw belongs to **documented [Kali-Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) history**. [scholarly] [regional]
+- **Tides and the āratī clock** — worship is timed to the **tide tables** rather than the temple bell: pilgrims can approach only at ebb, and the liṅga's disappearance is treated as Śiva withdrawing into the ocean — a rare instance of a shrine whose ritual calendar is set by lunar tides on the Gulf of Khambhāt, one of the highest-tidal-range coasts in India. [regional] [folk]
+
+---
+
+## Related Nodes
+
+- [Narmadā Parikramā](narmada-parikrama.md) — the neighbouring west-flowing river whose mouth also empties into the **Gulf of Khambhāt at Bharuch**; the estuarine tīrtha-belt this kṣetra shares.
+- [Nandabhadra — Tested Faith](../04-deep-dives/nandabhadra-tested-faith.md) · [Indradyumna & Akūpāra](../04-deep-dives/indradyumna-akupara-oldest-beings.md) — two exempla the Kaumārikā-khaṇḍa embeds at this very confluence.
+- [Arjuna](../04-deep-dives/characters/arjuna.md) — his pilgrimage-exile and the crocodile-apsarā deliverance; the *Mahābhārata* source of the graft.
+- [Tārakāsura-vadha](../04-deep-dives/tarakasura-vadha.md) · [Gaṇeśa & Kārttikeya](../02-deities-and-cosmic-hierarchy/ganesha-and-kartikeya.md) — Skanda/Kumāra, presiding lord of the *Kaumārikā* kṣetra.
+- [Apsarās](../08-beings-and-bestiary/apsaras.md) — the class of celestial nymphs the five crocodile-cursed belong to.
+- [Vaḍnagar / Hāṭakeśvara Kṣetra](vadnagar-hatakeshvara-kshetra.md) · [Dvārakā & the Saurāṣṭra Kṛṣṇa Kṣetras](dwarka-bet-dwarka-saurashtra.md) — the other Gujarat *Skanda-Purāṇa* / Kṛṣṇa kṣetras of the western seaboard.
+
+## Sources
+
+- **Skanda Purāṇa, Māheśvara-khaṇḍa, Kaumārikā-khaṇḍa (Book I.2)** — the 66-chapter sthala-māhātmya of the **Mahīsāgara-saṃgama / Kumārikā-kṣetra**: the opening frame and greatness of the confluence (chs. **1–3**), the mid-book cycle of embedded redemptions and the **Stambheśvara** installation by Kārttikeya (chs. **33–36** in the received recension), and the concluding **phala-śruti** (ch. **66**). *Chapter ranges follow the brief and the standard Veṅkaṭeśvara/MLBD division; where uncertain the claim is cited at khaṇḍa level.* [late text]
+- **Mahābhārata, Ādi Parva** — the *Arjuna-vanavāsa* / tīrtha-yātrā section (~chs. 208–210 crit. ed. ≈ Ganguli §§217–218): Arjuna's twelve-year celibate exile and his freeing of the five crocodile-apsarās **Vargā, Saurabheyī, Samīcī, Budbudā, Latā** at the five southern-sea tīrthas — the canonical original the Purāṇa relocates to the Mahī-mouth. [scholarly]
+- **Cross-references within this corpus** — [Nandabhadra — Tested Faith](../04-deep-dives/nandabhadra-tested-faith.md) and [Indradyumna & Akūpāra](../04-deep-dives/indradyumna-akupara-oldest-beings.md) (both Kaumārikā-khaṇḍa exempla set at this confluence); [Tārakāsura-vadha](../04-deep-dives/tarakasura-vadha.md); [Yuga cycle](../00-time-and-cosmology/yugas-and-mahayuga.md) (the two-clock placement).
+- **Place-name & temple references** — the etymology **Stambhatīrtha → Khambhāt / Cambay**; the distinct Jaina **Stambhana Pārśvanātha** of the same port; and the modern **Stambheśvar Mahādev, Kavi Kamboi** (Bharuch district), the tide-submerged "disappearing temple" on the Gulf of Khambhāt (Wikipedia, "Stambheshwar Mahadev," "Khambhat"; Gujarat Tourism). [regional] [scholarly]

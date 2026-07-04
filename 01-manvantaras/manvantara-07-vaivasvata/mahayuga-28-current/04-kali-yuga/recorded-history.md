@@ -1,13 +1,13 @@
 # Kali Yuga — Documented History
 
 > Hierarchy: Brahma's current life → 7th (Vaivasvata) Manvantara → 28th Mahayuga → **Kali Yuga** → the *historical/academic* branch.
-> This file maps the **archaeologically and textually recorded history of the Hindu tradition** onto the Kali Yuga, distinguishing **scriptural/traditional dating** from **mainstream scholarly dating**. For the scriptural-event branch of this same yuga see `./events.md` (Kali narratives, Kalki) and `./00-overview.md`.
+> This file maps the **archaeologically and textually recorded history of the Hindu tradition** onto the Kali Yuga, distinguishing **scriptural/traditional dating** from **mainstream scholarly dating**. For the scriptural-event branch of this same yuga (Kali overview, decline narratives, Kalki) see [README.md](README.md).
 
 ---
 
 ## Orientation: two clocks running at once
 
-- **Traditional clock:** Kali Yuga began **3102 BCE** (17/18 Feb, midnight), reckoned from Krishna's departure / the close of the Mahabharata war. As of 2026 CE = **Kali year ~5,127–5,128**; ~426,873 years remain ([see constants](../../../../00-time-and-cosmology/) ). Almost all of "recorded history" thus sits inside the *first ~1.2%* of Kali Yuga.
+- **Traditional clock:** Kali Yuga began **3102 BCE** (17/18 Feb, midnight), reckoned from Krishna's departure / the close of the Mahabharata war. As of 2026 CE = **Kali year 5,127**; ~426,873 years remain ([see constants](../../../../00-time-and-cosmology/) ). Almost all of "recorded history" thus sits inside the *first ~1.2%* of Kali Yuga.
 - **Scholarly clock:** the same span is reconstructed from archaeology, epigraphy, palaeography, and text-criticism, yielding dates that frequently **diverge sharply** from the traditional/matha chronologies. This file flags every major divergence with `[traditional]` vs `[scholarly]`.
 - **Method note:** dates below labelled `[scholarly]` are mainstream academic consensus; `[traditional]` are dates internal to Hindu tradition (Puranic, matha-succession, or hagiographic). Where a date is genuinely open it is marked `[disputed]`.
 
@@ -37,8 +37,8 @@
 - **Sixteen Mahajanapadas** — c. **600–321 BCE** `[scholarly]`; 16 kingdoms/oligarchies (Magadha, Kosala, Vatsa, Avanti, etc.); rise of cities, coinage, Magadhan ascendancy. (Wikipedia: *History of India*)
 - **Heterodox movements** — **Mahavira** (Jainism) and **Gautama Buddha** flourish c. 6th–5th c. BCE `[scholarly]`; their critique of Vedic ritual and caste reshapes the religious field that "Hinduism" later defines itself against.
 - **Composition of the great epics & smṛti (long redaction windows):**
-  - **Mahabharata** — redacted c. **400 BCE – 400 CE** `[scholarly]`; *traditional:* composed by **Vyasa** at the cusp of Dvapara/Kali, recording events of ~3102 BCE `[traditional]`. (see `../03-dvapara-yuga/` for the war as scriptural event)
-  - **Ramayana** (Valmiki) — core c. **500 BCE – 200 CE** `[scholarly]`; *traditional:* events occur in **Treta Yuga**, far earlier `[traditional]`. (see `../01-treta-yuga/`)
+  - **Mahabharata** — redacted c. **400 BCE – 400 CE** `[scholarly]`; *traditional:* composed by **Vyasa** at the cusp of Dvapara/Kali, recording events of ~3102 BCE `[traditional]`. (see [../03-dvapara-yuga.md](../03-dvapara-yuga.md) for the war as scriptural event)
+  - **Ramayana** (Valmiki) — core c. **500 BCE – 200 CE** `[scholarly]`; *traditional:* events occur in **Treta Yuga**, far earlier `[traditional]`. (see [../02-treta-yuga.md](../02-treta-yuga.md))
   - **Manusmṛti** (Dharmaśāstra) — c. 200 BCE – 200 CE `[scholarly]`.
 
 ---
@@ -47,7 +47,7 @@
 
 - **Maurya Empire** — **c. 322–185 BCE** `[scholarly]`; Chandragupta, Bindusara, **Ashoka** (patronized Buddhism, rock/pillar edicts). First pan-Indian empire. (Wikipedia: *History of India*)
 - **Post-Mauryan / Shunga, Indo-Greek, Kushana** — c. 185 BCE – 3rd c. CE; **Shunga** revival of Brahmanical/Vedic sacrifice; Kushana (Kanishka) syncretism.
-- **Composition of the major Puranas** — c. **300–1000 CE** (with older oral cores) `[scholarly]`; Vishnu, Bhagavata, Shiva, Markandeya, Devi-Bhagavata, etc. — the texts that encode the **yuga/manvantara/kalpa cosmology** this whole repo uses, plus avatar theology and the Kali-Yuga decline narrative. (see `../../../../../90-literature-corpus/`)
+- **Composition of the major Puranas** — c. **300–1000 CE** (with older oral cores) `[scholarly]`; Vishnu, Bhagavata, Shiva, Markandeya, Devi-Bhagavata, etc. — the texts that encode the **yuga/manvantara/kalpa cosmology** this whole repo uses, plus avatar theology and the Kali-Yuga decline narrative. (see [../../../../90-literature-corpus/](../../../../90-literature-corpus/))
 - **Gupta Empire ("Golden Age")** — **c. 320–550 CE** `[scholarly]`; classical Sanskrit literature (**Kalidasa**), decimal/zero (**Aryabhata**, *Aryabhatiya* 499 CE — which fixes the **3102 BCE** Kali epoch astronomically), temple architecture, Vishnu/Shiva iconography crystallize. Birth of "classical Hinduism."
 - **Six Darshanas (āstika philosophical systems) systematized** — Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa, Vedanta; foundational sutras and commentaries 200 BCE – 500 CE. **Patanjali's Yoga Sutras** c. 2nd–4th c. CE.
 
@@ -134,11 +134,10 @@
 ---
 
 ## See also
-- `./00-overview.md` — Kali Yuga overview (dharma on one leg, duration, "you are here")
-- `./events.md` — scriptural Kali narratives & Kalki avatar (prophesied end)
-- `../03-dvapara-yuga/` — Mahabharata war (the event that sets the Kali epoch)
-- `../../../../../90-literature-corpus/` — the texts (Vedas, epics, Puranas) mapped back to yuga/event
-- `../../../../../00-time-and-cosmology/` — the cosmic clock & framework constants
+- [README.md](README.md) — Kali Yuga scriptural record (dharma on one leg, duration, decline narratives, Kalki)
+- [../03-dvapara-yuga.md](../03-dvapara-yuga.md) — Mahabharata war (the event that sets the Kali epoch)
+- [../../../../90-literature-corpus/](../../../../90-literature-corpus/) — the texts (Vedas, epics, Puranas) mapped back to yuga/event
+- [../../../../00-time-and-cosmology/](../../../../00-time-and-cosmology/) — the cosmic clock & framework constants
 
 ---
 

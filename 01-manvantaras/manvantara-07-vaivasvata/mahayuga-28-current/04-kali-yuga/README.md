@@ -8,7 +8,7 @@
 
 - **Duration:** 1,000 deva-years + 100 (sandhya) + 100 (sandhyamsa) = 1,200 deva-years × 360 = **432,000 human years** — the shortest yuga, 1/10 of a Mahayuga (Vishnu Purana 1.3; Bhagavata 3.11; Surya Siddhanta 1.15-20).
 - **Start epoch:** **3102 BCE** (traditionally 17/18 Feb, midnight, Ujjain meridian), reckoned from **Krishna's departure** from the earth, which the Puranas place at the exact moment Kali "fully" entered (Bhagavata 1.15.36; Vishnu Purana 5.38).
-- **Elapsed (2026 CE):** 3102 + 2026 = **5,128 years**. **Remaining:** ~426,872 years.
+- **Elapsed (2026 CE):** 3102 + 2026 − 1 (no year 0 between 1 BCE and 1 CE) = **5,127 years**. **Remaining:** ~426,873 years.
 - **Dharma symbolism:** the **bull of Dharma (Vrisha) now stands on one leg** — only 1/4 of virtue remains, falling steadily toward zero by the yuga's end (Bhagavata 1.16-17, where Earth and Dharma lament as a cow and bull; Manusmriti 1.81-86).
   - *Variant (Aryabhatiya):* same 3102 BCE epoch, but the four yugas are treated as **equal quarters** of 1,080,000 years each (no 4:3:2:1 sandhya structure) — Kali = Dvapara in length.
   - *Variant (Sri Yukteswar, The Holy Science 1894):* the million-year figures are a misreading; Kali lasted only ~2,400 years and **already ended ~1700 CE** — we are now in *ascending Dvapara Yuga*. [non-canonical / modern]
@@ -77,7 +77,7 @@ The terminal prophecy, most fully in **Kalki Purana**, with core verses in **Bha
   - **Naimittika (occasional) pralaya** comes only at the end of **Brahma's day** (after all 14 Manvantaras), 1,000 Mahayugas hence.
   - **Prakritika (elemental) pralaya** at the end of Brahma's 100-year life.
   - **Nitya (constant)** and **Atyantika (final liberation)** dissolutions are continuous/individual.
-- **The wheel turns on:** after the next Satya, the yuga cycle repeats — 43 more Mahayugas remain in this Manvantara, then 7 more Manvantaras complete the Kalpa. See [../../../README.md](../../../README.md) for the Manvantara overview and [../../../../../00-time-and-cosmology/](../../../../00-time-and-cosmology/) for the full clock.
+- **The wheel turns on:** after the next Satya, the yuga cycle repeats — 43 more Mahayugas remain in this Manvantara, then 7 more Manvantaras complete the Kalpa. See [../../../README.md](../../../README.md) for the Manvantara overview and [../../../../00-time-and-cosmology/](../../../../00-time-and-cosmology/) for the full clock.
 
 ---
 

@@ -1,7 +1,7 @@
 # AGENTS.md — How to Query *The Hindu Timeline*
 
 This repository is a large, source-cited, **chronologically-organized** knowledge base of Hindu
-mythology, cosmology, scripture, and tradition (~630 markdown files, ~1.39M words). This file tells an
+mythology, cosmology, scripture, and tradition (~870 markdown files, ~2.04M words). This file tells an
 agent (or a human) how it is organized and how to find or verify anything in **≤ 2 hops**.
 
 ---
@@ -46,7 +46,7 @@ the canonical home; the others summarize and link to it.
 1. Start at **[`README.md`](README.md)** — the master index with the "you are here" address and links to every section.
 2. Open the relevant **section `README.md`** — each ends with an auto-generated **`## 📑 Full Contents`** block that links **every** file in that section (so nothing is hidden).
 3. Or jump straight to **[`STRUCTURE.md`](STRUCTURE.md)** — a flat list of *all* files with word counts and deep/stub flags.
-4. For **"what happened and when"**, use **[`TIMELINE.md`](TIMELINE.md)** — all 6,015 events sorted on the cosmic clock (Creation → Manvantaras → Satya → Tretā → Dvāpara → Kali → Future), each linked to its detail file.
+4. For **"what happened and when"**, start at the **[`TIMELINE.md`](TIMELINE.md)** hub — it links **nine per-period files** in **[`timeline/`](timeline/)** (`00-before-time.md` … `08-cross-yuga.md`) holding all 7,918 events on the cosmic clock (Creation → Manvantaras → Satya → Tretā → Dvāpara → Kali → Future → cross-yuga), each linked to its detail file. Events sit one level deep, so their detail links carry a `../` prefix. For programmatic access, **[`data/events.jsonl`](data/events.jsonl)** carries every event as JSON (`title, description, actors[], period, source, detail_file`).
 
 **Invariant:** every file is reachable from `README.md`, and there are **0 broken internal links**
 (files and directories). If you add a file, append it to its section index (or re-run the indexer) and
@@ -79,6 +79,6 @@ into the other; the corpus deliberately keeps both.
 - **Cite the file path** you used (e.g. `04-deep-dives/samudra-manthana.md`) so the answer is checkable.
 
 ## 6. Maintenance (for an agent extending the corpus)
-- Tools live in the build history; the two invariant checks are: **(a)** every `.md` reachable from `README.md`, **(b)** 0 broken links (resolve every markdown link target, for files *and* dirs).
+- Tools live in **[`tools/repo_tools.py`](tools/repo_tools.py)** (`linkcheck`, `indexes`, `structure`, `timeline-check`, `timeline-insert`, `data`); the two invariant checks are: **(a)** every `.md` reachable from `README.md`, **(b)** 0 broken links (resolve every markdown link target, for files *and* dirs) — run `python3 tools/repo_tools.py linkcheck`.
 - New files: place them in the right section, give them the standard shape (H1 + breadcrumb + bullets + `## Sources`), then refresh the section's `## 📑 Full Contents` index and `STRUCTURE.md`.
 - Keep the canonical-home rule: deep treatment in one file, summaries elsewhere cross-link to it.

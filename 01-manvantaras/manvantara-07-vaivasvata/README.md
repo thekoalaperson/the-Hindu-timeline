@@ -1,8 +1,8 @@
 # Manvantara 7 — Vaivasvata Manu (Current)
 
-> Hierarchy address: Shveta-Varaha Kalpa (Day 1 of Brahma's 51st year) → **7th of the 14 Manvantaras**, presided over by Vaivasvata Manu. Six manvantaras have elapsed; eight remain. We are presently in its **28th of 71 Mahayugas**, in **Kali Yuga**. This is the "you are here" manvantara — the cosmic age in which essentially all of recorded Hindu history, the great epics, and the well-known avatars unfold.
+> Hierarchy address: Shveta-Varaha Kalpa (Day 1 of Brahma's 51st year) → **7th of the 14 Manvantaras**, presided over by Vaivasvata Manu. Six manvantaras have elapsed, this one is current, and seven remain. We are presently in its **28th of 71 Mahayugas**, in **Kali Yuga**. This is the "you are here" manvantara — the cosmic age in which essentially all of recorded Hindu history, the great epics, and the well-known avatars unfold.
 
-A **manvantara** = 71 Mahayugas + 1 sandhya (= one Satya Yuga, 1,728,000 yrs) ≈ **306,720,000 human years**. Each manvantara has its own Manu, set of seven sages (Saptarishi), an Indra, a class of gods, and the avatars Vishnu manifests within it. See [../README.md](../README.md) for the full list of 14 Manus and [the 28th Mahayuga](mahayuga-28-current/) for current-age events.
+A **manvantara** proper = **71 Mahayugas = 306,720,000 human years** (= 852,000 deva-years); each is bounded by a sandhya-junction (= one Satya Yuga, 1,728,000 yrs) counted separately, so that 14 manvantaras + 15 junctions total the 4.32-billion-year Kalpa. Each manvantara has its own Manu, set of seven sages (Saptarishi), an Indra, a class of gods, and the avatars Vishnu manifests within it. See [../README.md](../README.md) for the full list of 14 Manus and [the 28th Mahayuga](mahayuga-28-current/) for current-age events.
 
 ---
 
@@ -77,7 +77,7 @@ Vishnu manifests across this manvantara's mahayugas; the famous ones fall in the
 ## Position Within the Manvantara
 
 - **Mahayugas elapsed:** 27 complete (each Satya→Treta→Dvapara→Kali, 4,320,000 yrs).
-- **Current:** **28th Mahayuga**, **Kali Yuga**; ~5,127–5,128 years elapsed (as of 2026 CE) of Kali's 432,000.
+- **Current:** **28th Mahayuga**, **Kali Yuga**; 5,127 years elapsed (as of 2026 CE) of Kali's 432,000.
 - **Remaining in manvantara:** rest of this Kali Yuga (~426,873 yrs) + 43 further Mahayugas + the closing sandhya.
 - After Vaivasvata comes the **8th Manu, Savarni** (Manvantara 8). (Vishnu Purana) — see [../manvantara-08-savarni](../manvantara-08-savarni.md) if cataloged.
 

@@ -1,0 +1,77 @@
+# Raji and His Sons — The Usurpation of Indra's Throne
+
+> *Up to: [Lineages (Vaṃśa)](./README.md) · an early [Candravaṃśa](./suryavamsha-and-chandravamsha.md) (Aila) episode of the present Vaivasvata Manvantara: Raji, son of Āyus and brother of [Nahuṣa](../04-deep-dives/nahusha.md), earns [Indra](../02-deities-and-cosmic-hierarchy/indra.md)'s rank as the price of a devāsura war — and his five hundred sons seize heaven outright until [Bṛhaspati](../02-deities-and-cosmic-hierarchy/the-gurus-brihaspati-and-shukra.md)'s delusion-rites destroy them.*
+
+**Raji** is the least-remembered of Āyus's sons, yet his story is one of the Purāṇas' sharpest statements that **Indra-ship is an office, not a person** — a throne that can be promised away as a war-fee, inherited as property, and clawed back by priestcraft. Asked by both armies of a deva–asura war to tip the balance, Raji names his price: *the rank of Indra after victory*. The asuras refuse (they already have a lord in Prahlāda); the gods accept — and then Indra escapes the debt by the elegant expedient of declaring himself Raji's *son*. After Raji's death his five hundred sons call in the promise by force, occupying heaven and swallowing the shares of sacrifice, until Bṛhaspati, the gods' own preceptor, restores Indra by the most ambivalent weapon in the divine armory: he **deludes the usurpers with a heterodox, anti-Vedic teaching**, so that, fallen from dharma, they can be lawfully slain. The episode is thus both a dynastic vignette and the charter-myth behind the tradition that Bṛhaspati is the author of the world's deluding *nāstika* doctrine.
+
+---
+
+## 1. Placement in the Lunar genealogical spine
+
+- **Son of Āyus, in the third generation of the Lunar line.** Raji is a son of **Āyus**, himself the son of [Purūravas and Urvaśī](../04-deep-dives/pururavas-urvashi.md), the first mortal king of the Candravaṃśa. The standard roster of Āyus's five sons is **Nahuṣa, Kṣatravṛddha, Rambha, Raji, and Anenas**; names, spellings and order vary by recension (Rajī, Rābha, Anenā, Vṛddhaśarman appear as variants). (*Viṣṇu Purāṇa* IV.8–9; *Bhāgavata Purāṇa* IX.17; *Matsya Purāṇa* 24) [disputed: roster order and spellings]
+- **Brother of Nahuṣa — the *other* occupant of Indra's throne.** The house of Āyus produces the Purāṇic tradition's two great mortal encroachments on the devarāja's seat: Raji (and his sons) in this episode, and his brother **Nahuṣa**, whom the gods themselves later install as Indra after the Vṛtra-slaying, with disastrous results. See [Nahuṣa](../04-deep-dives/nahusha.md). (*Viṣṇu Purāṇa* IV.9–10; *Mahābhārata* Udyoga Parva 11–17)
+- **Brother of Kṣatravṛddha — root of the Kāśī kings.** Another brother, **Kṣatravṛddha**, seeds the line of the Kāśī (Vārāṇasī) kings treated in [the Kāśī line of Divodāsa](./kashi-line-divodasa.md); the *Bhāgavata* narrates Raji's episode inside its Kṣatravṛddha/Āyus genealogy chapter. (*Bhāgavata Purāṇa* IX.17; *Viṣṇu Purāṇa* IV.8)
+- **Five hundred sons, the Rājeyas.** Raji fathers **five hundred sons** of enormous might, remembered collectively as the **Rājeyas**; no individual among them is named — they act, seize, apostatize and die as a single bloc. (*Viṣṇu Purāṇa* IV.9; *Bhāgavata Purāṇa* IX.17; *Matsya Purāṇa* 24)
+- **A dead-end branch by design.** Unlike his brothers' branches (Nahuṣa → Yayāti → the [Yādava](./yadava-vamsha.md) and Paurava houses; Kṣatravṛddha → Kāśī), Raji's line is **exterminated within one generation** — the genealogists preserve him precisely *for* the episode, not for descendants. (*Viṣṇu Purāṇa* IV.9) [scholarly]
+
+---
+
+## 2. The devāsura war and Brahmā's oracle
+
+- **A war between devas and asuras deadlocks.** In a great war between the gods and the dānavas/asuras — the *Matsya* names **Prahlāda** as the asura commander — both hosts, eager for victory, go to **Brahmā** and ask which side will win. (*Viṣṇu Purāṇa* IV.9; *Matsya Purāṇa* 24) See [Devas, Asuras & the lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md) and the [asura-war roster](../08-beings-and-bestiary/asura-wars-and-roster.md).
+- **Brahmā's answer: the side for which Raji fights.** Brahmā declares that victory will belong to **whichever army the mortal king Raji joins** — an oracle that makes a human Aila king the pivot of a cosmic war. (*Viṣṇu Purāṇa* IV.9; *Matsya Purāṇa* 24)
+- **The asuras bid first — and refuse the price.** The daityas/dānavas solicit Raji first. He agrees on one condition: **that after the victory he shall be their Indra — their king**. They refuse: **"Prahlāda is our lord; for him we fight."** The asuras' loyalty to their own king is presented without irony — they will not auction their throne. (*Viṣṇu Purāṇa* IV.9; *Matsya Purāṇa* 24)
+- **The gods accept the same bargain.** The devas then approach with the identical request, and Raji states the identical condition — the rank of **Indra** after victory. The gods (with Indra among them, in the tellings) consent: *conquer our enemies, and be our Indra.* (*Viṣṇu Purāṇa* IV.9; *Matsya Purāṇa* 24; *Bhāgavata Purāṇa* IX.17)
+- **Raji destroys the asura host.** Raji takes the field for the gods and, by his prowess and weapons, **slays the asura armies** and wins the war that the devas could not win alone. (*Viṣṇu Purāṇa* IV.9; *Bhāgavata Purāṇa* IX.17; *Matsya Purāṇa* 24)
+
+---
+
+## 3. Indra's filial gambit — the throne promised, deferred, or surrendered
+
+The versions divide sharply here; catalog, never merge.
+
+- **Indra declares himself Raji's son (Viṣṇu / Matsya).** With the enemy destroyed, **Indra bows at Raji's feet and announces himself Raji's *son***: "You are my father." By the flattery — and the legal fiction that a father's rank passes through, not around, a son — Raji is gratified and **returns to his own city, leaving Indra functioning as king of the gods**. The debt is acknowledged in words and evaded in fact. (*Viṣṇu Purāṇa* IV.9; *Matsya Purāṇa* 24)
+- *Variant (Bhāgavata IX.17):* the *Bhāgavata* runs the transaction the other way — **Raji hands heaven back to Indra** after the victory, but Indra, **terrified of Prahlāda and the surviving enemies, surrenders the celestial kingdom to Raji again and clasps his feet**, and Raji actually **holds heaven for the rest of his life**, restoring it to no one. The usurpation of the next generation is thus, in this telling, mere *inheritance*. (*Bhāgavata Purāṇa* IX.17)
+- **The office survives the office-holder's humiliation.** In all versions Indra keeps (or regains) the *function* while conceding the *title* — a pattern the Purāṇas repeat wherever mortals out-earn the gods: the throne of heaven is a **merit-post**, defensible by etiquette and ritual as much as by the vajra. Compare the gods' handling of [Nahuṣa](../04-deep-dives/nahusha.md). (*Viṣṇu Purāṇa* IV.9–10) [scholarly]
+
+---
+
+## 4. The sons seize heaven
+
+- **The Rājeyas claim Indra-ship as their inheritance.** After **Raji's death**, his five hundred sons demand the rank of Indra as their **hereditary right** — the war-fee their father was promised (and, in the *Bhāgavata*, the kingdom he actually held). Indra refuses to yield it. (*Viṣṇu Purāṇa* IV.9; *Bhāgavata Purāṇa* IX.17; *Matsya Purāṇa* 24)
+  - *Variant (Viṣṇu Purāṇa IV.9):* the sons act **at the instigation of the sage Nārada** — the celestial provocateur's fingerprint on yet another succession quarrel. [disputed: the instigation detail is not carried by all parallels]
+- **Heaven occupied, the sacrifices diverted.** When Indra will not hand over the rank, the Rājeyas **take it by force**: they dispossess Indra of his station and **appropriate his shares of the sacrifices (yajña-bhāga)** — the revenue of heaven. Indra, stripped of office and offerings, is reduced to destitution. (*Viṣṇu Purāṇa* IV.9; *Bhāgavata Purāṇa* IX.17; *Matsya Purāṇa* 24)
+- **Indra begs his guru for scraps.** In the *Viṣṇu Purāṇa*'s vivid detail, the fallen Indra comes to **Bṛhaspati**, the preceptor of the gods, and begs him for even **a morsel of the sacrificial butter — "if only the size of a jujube"** — so complete is his ruin. Bṛhaspati chides him for not asking sooner and promises to restore him. (*Viṣṇu Purāṇa* IV.9)
+
+---
+
+## 5. Bṛhaspati's heterodox-delusion rites and the destruction of the Rājeyas
+
+- **Rites to swell Indra's power.** Bṛhaspati first performs **oblations/rites (abhicāra in intent)** to augment Indra's diminished energy and might — the priestly repair of a broken king. (*Viṣṇu Purāṇa* IV.9; *Bhāgavata Purāṇa* IX.17)
+- **The delusion: a teaching opposed to the Veda.** Bṛhaspati then attacks the usurpers not with weapons but with **doctrine**: he **composes and promulgates among the sons of Raji a deluding teaching hostile to the Vedas (vedabāhya)**, by which they are **led astray from the path of dharma** — they abandon the Veda, scorn the brāhmaṇas, and cast off righteousness. (*Viṣṇu Purāṇa* IV.9; *Matsya Purāṇa* 24; *Bhāgavata Purāṇa* IX.17)
+  - *Variant (Matsya 24):* the *Matsya* dwells on the **treatise of delusion** itself — Bṛhaspati's deluding śāstra of anti-Vedic (nāstika-flavoured) tenets devised expressly to make the Rājeyas apostate; readers of the *Matsya* have long connected this to the tradition that names Bṛhaspati the author of the materialist **Bārhaspatya/Cārvāka** doctrine. See [the nāstika darśanas](../05-concepts-and-dharma/nastika-darshanas-and-the-astika-nastika-frame.md). [disputed: the exact content of the teaching varies by recension and translation]
+  - *Variant (Bhāgavata IX.17):* the *Bhāgavata* compresses the device to its ritual core — Bṛhaspati **offers oblations by which the sons of Raji fall from moral bounds**, no treatise described. (*Bhāgavata Purāṇa* IX.17)
+- **Apostasy makes them killable.** This is the legal heart of the episode: while the Rājeyas held dharma, heaven's own order protected their claim; once **deluded into unrighteousness and enmity to the Veda**, they forfeit that protection. **Indra slays all five hundred** — with the **thunderbolt** in the *Viṣṇu Purāṇa*'s telling; "easily, so that not one remained alive," in the *Bhāgavata*'s. (*Viṣṇu Purāṇa* IV.9; *Bhāgavata Purāṇa* IX.17; *Matsya Purāṇa* 24)
+- **Indra restored.** With the usurpers destroyed, Indra **recovers his station in svarga and his shares of the sacrifice**; the episode closes with the office back where the genealogists found it. (*Viṣṇu Purāṇa* IV.9; *Matsya Purāṇa* 24)
+
+---
+
+## 6. Significance — the office of Indra, and delusion as a weapon
+
+- **Twice in one house.** Āyus's family supplies the tradition's paired meditations on the Indra-throne: **Nahuṣa** holds it *lawfully* (elected by the gods) and falls by his own sin; **Raji's sons** hold it *unlawfully* (seized as inheritance) and fall by induced sin. Together the two stories define the office as conditional on dharma from both directions. See [Nahuṣa](../04-deep-dives/nahusha.md) and [the thirty-three devas](../08-beings-and-bestiary/the-thirty-three-devas.md). (*Viṣṇu Purāṇa* IV.9–10) [scholarly]
+- **Heterodoxy as divine stratagem.** Bṛhaspati's delusion of the Rājeyas belongs to a recurring Purāṇic device: enemies too strong (or too righteous) to defeat are first **talked out of the Veda**, then destroyed — exactly as **Māyāmoha** deludes the asuras in *Viṣṇu Purāṇa* III.17–18, as Viṣṇu's deluding teacher undoes the Tripura demons ([Tripura-dahana](../04-deep-dives/tripura-dahana.md)), and as the [Buddha-avatāra](../04-deep-dives/buddha-avatara.md) is framed in the Purāṇic polemic. The Raji episode is the version in which the **gods' own guru** wields the weapon. (*Viṣṇu Purāṇa* III.17–18, IV.9) [scholarly, comparative]
+- **The Bṛhaspati–Cārvāka thread.** Classical Indian doxography ascribes the materialist **Lokāyata/Cārvāka** system to "Bṛhaspati" (the *Bārhaspatya* sūtras); the *Matsya*'s picture of Bṛhaspati composing a deluding anti-Vedic śāstra for Indra's benefit is one of the mythic anchors modern scholars cite for how the gods' own purohita became the eponym of unbelief. See [the nāstika darśanas](../05-concepts-and-dharma/nastika-darshanas-and-the-astika-nastika-frame.md). [scholarly]
+- **Parallel tellings.** The episode is not confined to the three texts profiled here: the same Raji narrative rides in the Āyus genealogies of other Purāṇic and epic-appendix collections (the *Vāyu*/*Brahmāṇḍa* corpus and the *Harivaṃśa* carry parallels), with the usual small divergences of roster and phrasing. [scholarly]
+- **Two clocks.** On the **scriptural clock**, Raji belongs to the dawn of the Candravaṃśa in the present **Vaivasvata Manvantara, 28th Mahāyuga** — two generations below Purūravas, in the same deep stratum as Nahuṣa, conventionally placed in the corpus's early **Tretā** band, and entangled with a devāsura war of Prahlāda's era. On the **academic clock**, Raji has no Vedic attestation: he is a creature of the Purāṇic genealogical tradition, whose carrier texts are dated roughly to the **early-to-mid first millennium CE** (the *Viṣṇu* and *Matsya* among the earlier Purāṇas, the *Bhāgavata* commonly placed c. 9th–10th century CE). The two frames must not be collapsed. [scholarly]
+
+---
+
+## Sources
+
+- **Viṣṇu Purāṇa IV.9** (tr. H. H. Wilson): the fullest telling — Āyus's five sons; Raji's five hundred sons; Brahmā's oracle; the asuras' refusal ("Prahlāda is our lord") and the gods' acceptance; Indra's "you are my father" gambit; the sons' seizure of Indra's rank at Nārada's instigation; Indra's jujube-sized plea to Bṛhaspati; the delusion of the Rājeyas by anti-Vedic teaching and their destruction by the thunderbolt. See the [Viṣṇu Purāṇa profile](../90-literature-corpus/puranas/vishnu-purana.md).
+- **Matsya Purāṇa 24**: the parallel telling inside the Purūravas–Āyus genealogy — Prahlāda as asura commander, the double solicitation of Raji, Indra's filial stratagem, and Bṛhaspati's deluding anti-Vedic śāstra composed to make the Rājeyas apostate before their slaughter. See the [Matsya Purāṇa profile](../90-literature-corpus/puranas/matsya-purana.md).
+- **Bhāgavata Purāṇa IX.17**: the compressed telling in the Āyus/Kṣatravṛddha genealogy — Raji slays the asuras and returns heaven to Indra; Indra, in fear of Prahlāda, surrenders it back and clasps Raji's feet; after Raji's death the sons refuse to return heaven and take the sacrificial shares; Bṛhaspati's oblations make them fall from morality and Indra kills them all. See the [Bhāgavata skandha map](../90-literature-corpus/bhagavata-purana-skandha-map.md).
+- **Viṣṇu Purāṇa III.17–18** (comparative): the Māyāmoha delusion of the asuras — the template of heterodoxy-as-weapon that the Raji episode applies through Bṛhaspati. [scholarly, comparative]
+- Doxographic context: the traditional ascription of the materialist **Bārhaspatya (Cārvāka/Lokāyata)** doctrine to Bṛhaspati, read by modern scholarship alongside the Matsya's deluding-śāstra motif. [scholarly]
+
+*Cross-references: [Sūrya- & Candra-vaṃśa lineages](./suryavamsha-and-chandravamsha.md) · [Nahuṣa](../04-deep-dives/nahusha.md) · [Purūravas & Urvaśī](../04-deep-dives/pururavas-urvashi.md) · [Kāśī line of Divodāsa](./kashi-line-divodasa.md) · [Yādava vaṃśa](./yadava-vamsha.md) · [Indra](../02-deities-and-cosmic-hierarchy/indra.md) · [Bṛhaspati & Śukra](../02-deities-and-cosmic-hierarchy/the-gurus-brihaspati-and-shukra.md) · [Buddha-avatāra](../04-deep-dives/buddha-avatara.md) · [nāstika darśanas](../05-concepts-and-dharma/nastika-darshanas-and-the-astika-nastika-frame.md).*

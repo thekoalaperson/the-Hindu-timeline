@@ -1,6 +1,6 @@
 # Shiva Mahimna Stotra
 
-> *Up one level: [04-deep-dives](../README.md) · The **Śiva-mahimnaḥ stotra** ("Hymn on the Greatness of Śiva"), the celebrated Śaiva praise-poem framed by its own author-legend — the [gandharva](../../08-beings-and-bestiary/gandharvas-and-kinnaras.md) Puṣpadanta, stripped of his powers for trampling Śiva's flowers, sings the god's immeasurable greatness to win back grace; sibling to the [Śiva Tāṇḍava Stotra](../shiva-tandava-stotra.md) and rooted in the [Śiva myth-cycle](../../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md).*
+> *Up one level: [04-deep-dives](../README.md) · The **Śiva-mahimnaḥ stotra** ("Hymn on the Greatness of Śiva"), the celebrated Śaiva praise-poem framed by its own author-legend — the [gandharva](../../08-beings-and-bestiary/gandharvas-and-kinnaras.md) Puṣpadanta, stripped of his powers for trampling Śiva's flowers, sings the god's immeasurable greatness to win back grace; sibling to the [Śiva Tāṇḍava Stotra](shiva-tandava-stotra.md) and rooted in the [Śiva myth-cycle](../../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md).*
 
 The **Śiva-mahimnaḥ stotra** (शिवमहिम्नः स्तोत्रम्, "Hymn to the Greatness — *mahiman* — of Śiva"), opening *mahimnaḥ pāraṃ te paramavidūṣo yady asadṛśī...* ("If, not knowing the limit of Thy greatness, my praise be unworthy of Thee..."), is among the most widely recited of all Śaiva hymns. Its **~43 verses** (Puṣpadanta recension) circle one confessional idea: that **Śiva's greatness lies utterly beyond the reach of speech, mind, and even the Vedas**, so that the only honest praise is praise that confesses its own inadequacy. Uniquely among stotras, the hymn embeds its own **frame-legend and author's name** in its closing verses — the celestial musician **Puṣpadanta**, who composed it in atonement. [scholarly]
 
@@ -28,7 +28,7 @@ The **Śiva-mahimnaḥ stotra** (शिवमहिम्नः स्तोत�
 - **Cosmic functions and paradox** — Śiva is praised as creator, sustainer, and destroyer; the verses delight in **paradox** — the naked ascetic who is lord of all wealth, the cremation-ground dweller who is supremely auspicious, the formless one worshipped in form. (*Śiva-mahimnaḥ stotra* 8–14)
 - **The one reality behind the systems (Hari–Hara samanvaya)** — An inclusivist verse harmonizes the rival paths — **Sāṃkhya, Yoga, Pāśupata, Vaiṣṇava, the Vaidika** — and the names **Hari and Hara** as facets pointing to one supreme reality; the famous *trayī-sāṃkhya-yoga* verse (~v. 7) is widely quoted as a charter of sectarian reconciliation. (*Śiva-mahimnaḥ stotra* ~7) [scholarly]
 - **The myths of Śiva woven in as proofs** — The hymn alludes to the great Śaiva narratives to demonstrate His power: the **drinking of the hālāhala poison** at the churning, the burning of the three **Tripura** cities, the chastening of **Kāma**, the bearing of the **Gaṅgā** in His matted hair, the cosmic **tāṇḍava** dance, and the **humbling of Rāvaṇa** beneath Kailāsa. (*Śiva-mahimnaḥ stotra*, narrative verses ~14–30)
-  - *Cross-reference:* the Rāvaṇa-under-Kailāsa episode is treated at length in [Rāvaṇa and Kailāsa (Rāvaṇānugraha)](../ravana-kailasa-ravananugraha.md); the cosmic dance, in the [Śiva Tāṇḍava Stotra](../shiva-tandava-stotra.md).
+  - *Cross-reference:* the Rāvaṇa-under-Kailāsa episode is treated at length in [Rāvaṇa and Kailāsa (Rāvaṇānugraha)](../ravana-kailasa-ravananugraha.md); the cosmic dance, in the [Śiva Tāṇḍava Stotra](shiva-tandava-stotra.md).
 - **The Tripura-chariot image** — A celebrated passage pictures the gods' war on Tripura with the **earth as chariot, sun and moon as wheels, Brahmā as charioteer, Meru as bow** — and Śiva needing none of it, destroying the cities by a mere **smile**, to show His power is independent of all instruments. (*Śiva-mahimnaḥ stotra*, the Tripura verse) [scholarly]
 - **The closing dedication and phala-śruti** — The final verses give the author's signature (Puṣpadanta), declare the hymn's power to purify and to please Śiva, and promise the fruit of recitation. (*Śiva-mahimnaḥ stotra* 38–43)
 
@@ -48,7 +48,7 @@ The **Śiva-mahimnaḥ stotra** (शिवमहिम्नः स्तोत�
 - **The gandharva's hymn as forgiveness-prayer** — Because a gandharva composed it to *regain divine grace*, tradition holds its recitation peculiarly efficacious for **removing offenses (aparādha)** and faults committed in worship; many liturgies append it as a *kṣamā* (forgiveness) prayer at the close of a pūjā. (devotional tradition) [folk]
 - **Recensions and length** — The familiar Puṣpadanta text runs to **~43 verses** (some printings count 43–45 with the concluding phala-śruti / dedicatory ślokas). (textual tradition) [disputed]
   - *Variant (Jain Mahimna):* a **Jain Mahimna-stotra** modeled on the same opening and *śikhariṇī* meter, redirecting the praise to a Tīrthaṅkara, is preserved in Jain liturgy — a measure of the original's prestige and cross-community reach. [regional] [disputed]
-- **Place among the great stotras** — It is grouped with the foremost recited praise-poems of Śaivism alongside the [Śiva Tāṇḍava Stotra](../shiva-tandava-stotra.md), the Rudra-praśna, and the Liṅgāṣṭakam. (liturgical tradition)
+- **Place among the great stotras** — It is grouped with the foremost recited praise-poems of Śaivism alongside the [Śiva Tāṇḍava Stotra](shiva-tandava-stotra.md), the Rudra-praśna, and the Liṅgāṣṭakam. (liturgical tradition)
 
 ---
 
@@ -65,7 +65,7 @@ The **Śiva-mahimnaḥ stotra** (शिवमहिम्नः स्तोत�
 - [Gandharvas and kinnaras](../../08-beings-and-bestiary/gandharvas-and-kinnaras.md) — the class of celestial musicians to which the author Puṣpadanta belongs.
 - [Rāvaṇa and Kailāsa (Rāvaṇānugraha)](../ravana-kailasa-ravananugraha.md) — the humbling of Rāvaṇa beneath the mountain, one of the hymn's narrative allusions.
 - [Śiva-Gītā](../shiva-gita.md) — the Padma-Purāṇa discourse that is the doctrinal Śaiva counterpart to this popular hymn.
-- [Śiva Tāṇḍava Stotra](../shiva-tandava-stotra.md) — the companion Śaiva praise-poem, focused on the cosmic dance.
+- [Śiva Tāṇḍava Stotra](shiva-tandava-stotra.md) — the companion Śaiva praise-poem, focused on the cosmic dance.
 
 ---
 

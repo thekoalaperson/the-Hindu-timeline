@@ -14,7 +14,7 @@
 ## The six schools & their root-texts
 
 - **Sāṃkhya** — dualist enumeration of *puruṣa* (consciousness) and *prakṛti* (matter), the 25 *tattvas*; ascribed to **Kapila**. Authoritative classical text: the **[Sāṃkhya-kārikā of Īśvarakṛṣṇa](./samkhya-karika.md)** (c. 350–500 CE) — used in place of the late, medieval *Sāṃkhya-sūtra*. (*Sāṃkhya-kārikā*; *Bhagavata Purāṇa* 3.24–33.)
-- **Yoga** — the eight-limbed (*aṣṭāṅga*) discipline of stilling the mind (*citta-vṛtti-nirodha*); the practical twin of Sāṃkhya, adding **Īśvara**. Root-text: the **Yoga-sūtra of Patañjali** (c. 2nd–4th c. CE), 4 *pādas*, ~195–196 sūtras. *(Dedicated profile not yet written — open node; see [Upavedas, Vedāngas & the Six Darśanas §3](../upavedas-vedangas-darshanas.md).)* [open-roster]
+- **Yoga** — the eight-limbed (*aṣṭāṅga*) discipline of stilling the mind (*citta-vṛtti-nirodha*); the practical twin of Sāṃkhya, adding **Īśvara**. Root-text: the **[Yoga-sūtra of Patañjali](../../04-deep-dives/yoga-sutras-of-patanjali.md)** (c. 2nd–4th c. CE), 4 *pādas*, ~195–196 sūtras — full profile (4 pādas, commentary chain, dating debates) lives in `04-deep-dives/`; survey entry in [Upavedas, Vedāngas & the Six Darśanas §3](../upavedas-vedangas-darshanas.md).
 - **Nyāya** — logic, debate, and epistemology (*pramāṇa-śāstra*, *ānvīkṣikī*); 16 categories beginning with the four *pramāṇas*. Root-text: the **[Nyāya Sūtras of Akṣapāda Gautama](./nyaya-sutras.md)** (c. 2nd c. BCE – 2nd c. CE).
 - **Vaiśeṣika** — atomistic ontology of substance, quality, and the categories (*padārtha*); Nyāya's sister realism. Root-text: the **[Vaiśeṣika Sūtras of Kaṇāda](./vaisheshika-sutras.md)** (c. 2nd c. BCE – 1st c. CE).
 - **Pūrva-Mīmāṃsā** — exegesis of Vedic *dharma* and ritual injunction (*vidhi*), theory of *śabda* and *apauruṣeya* Veda. Root-text: the **[Mīmāṃsā Sūtras (Pūrva-Mīmāṃsā-sūtra) of Jaimini](./mimamsa-sutras.md)** (c. 3rd–1st c. BCE; 12 *adhyāyas*).
@@ -27,7 +27,7 @@
 - **[vaisheshika-sutras.md](./vaisheshika-sutras.md)** — Vaiśeṣika (Kaṇāda).
 - **[mimamsa-sutras.md](./mimamsa-sutras.md)** — Pūrva-Mīmāṃsā (Jaimini).
 - **[brahma-sutras.md](./brahma-sutras.md)** — Vedānta (Bādarāyaṇa).
-- *(Yoga / Patañjali's Yoga-sūtra — profile pending; flagged above.)* [open-roster]
+- *(Yoga / Patañjali's Yoga-sūtra — canonical profile lives outside this directory: **[../../04-deep-dives/yoga-sutras-of-patanjali.md](../../04-deep-dives/yoga-sutras-of-patanjali.md)**.)*
 
 ## See also
 

@@ -1,6 +1,6 @@
 # Kalpa, Day/Night of Brahmā & the Dissolutions (Pralaya)
 
-> Where this sits: a core-spine node of `00-time-and-cosmology/`. The **kalpa** is the largest unit before Brahmā's own lifespan — one Day of Brahmā. This file defines the kalpa, its mirror-image Night (`pralaya`), the **four kinds of dissolution**, what dissolves vs. persists, and the naming of notable kalpas. For the units below the kalpa see `./yugas-and-mahayuga.md` and `./manvantara.md`; for the cosmic address see the FRAMEWORK CONSTANTS §4.
+> Where this sits: a core-spine node of `00-time-and-cosmology/`. The **kalpa** is the largest unit before Brahmā's own lifespan — one Day of Brahmā. This file defines the kalpa, its mirror-image Night (`pralaya`), the **four kinds of dissolution**, what dissolves vs. persists, and the naming of notable kalpas. For the units below the kalpa see `./yugas-and-mahayuga.md` and `./manvantara-system.md`; for the cosmic address see the [section README — You Are Here](README.md#you-are-here-current-cosmic-address).
 
 ---
 
@@ -8,9 +8,9 @@
 
 - **Kalpa defined** — 1 kalpa = 1000 mahāyugas = 14 manvantaras + 15 sandhyās (junctures) = **4,320,000,000 years (4.32 billion)**. This is exactly one **Day of Brahmā** (*Brahmā-divasa*). (Viṣṇu Purāṇa I.3; Bhāgavata Purāṇa 3.11; [Kalpa (Wikipedia)](https://en.wikipedia.org/wiki/Kalpa_(time)))
   - Arithmetic check: 14 × 71 mahāyugas = 994; + 15 sandhyās (each = 1 Satya Yuga = 0.4 mahāyuga) = 994 + 6 = **1000 mahāyugas**. The 15 sandhyās bracket the 14 manvantaras (one before each, one after the last). (Viṣṇu Purāṇa I.3)
-- **Day + Night** — Brahmā's Night (*Brahmā-rātri*) equals his Day: another 4.32 billion years. One full *ahorātra* of Brahmā = **8.64 billion years**. 360 such days = 1 Brahmā-year; 100 Brahmā-years = his lifespan = **311.04 trillion years** (a *Mahā-kalpa* / *parārdha*-pair). (Bhāgavata Purāṇa 3.11; FRAMEWORK CONSTANTS §3)
+- **Day + Night** — Brahmā's Night (*Brahmā-rātri*) equals his Day: another 4.32 billion years. One full *ahorātra* of Brahmā = **8.64 billion years**. 360 such days = 1 Brahmā-year; 100 Brahmā-years = his lifespan = **311.04 trillion years** (a *Mahā-kalpa* / *parārdha*-pair). (Bhāgavata Purāṇa 3.11; derivations in [`units-of-time.md`](units-of-time.md) and [`yugas-and-mahayuga.md`](yugas-and-mahayuga.md))
 - **"Kalpa" as both Day and Night** — many texts use *kalpa* for the Day and *pralaya* (or *kalpa-anta*, "kalpa's end") for the Night; some treat a kalpa as the Day-plus-Night pair. Read each Purāṇa's usage in context. (Bhāgavata Purāṇa 3.11; [Pralaya (Wikipedia)](https://en.wikipedia.org/wiki/Pralaya))
-- **What runs inside one kalpa** — exactly 14 Manus reign in succession; we are in the 7th (Vaivasvata). At the close of the 14th Manu's reign the Day ends and the Night (naimittika pralaya) falls. (Viṣṇu Purāṇa I.3; see `./manvantara.md`)
+- **What runs inside one kalpa** — exactly 14 Manus reign in succession; we are in the 7th (Vaivasvata). At the close of the 14th Manu's reign the Day ends and the Night (naimittika pralaya) falls. (Viṣṇu Purāṇa I.3; see `./manvantara-system.md`)
 
 ---
 
@@ -45,7 +45,7 @@ The standard four-fold scheme (Viṣṇu Purāṇa VI; Bhāgavata Purāṇa 12.4
 
 ## 4. Naming of Notable Kalpas
 
-- **Current kalpa: Śveta-Vārāha Kalpa ("White Boar")** — the **1st day of Brahmā's 51st year**; named for Viṣṇu's **Varāha (boar)** avatāra who lifted the earth at this kalpa's dawn. We are presently in it. (Viṣṇu Purāṇa I.4; [Śveta-Vārāha Kalpa — Wisdomlib](https://www.wisdomlib.org/definition/shveta-varaha-kalpa); FRAMEWORK CONSTANTS §4)
+- **Current kalpa: Śveta-Vārāha Kalpa ("White Boar")** — the **1st day of Brahmā's 51st year**; named for Viṣṇu's **Varāha (boar)** avatāra who lifted the earth at this kalpa's dawn. We are presently in it. (Viṣṇu Purāṇa I.4; [Śveta-Vārāha Kalpa — Wisdomlib](https://www.wisdomlib.org/definition/shveta-varaha-kalpa); see the [section README — You Are Here](README.md#you-are-here-current-cosmic-address))
 - **Previous kalpa: Pādma Kalpa ("Lotus")** — the **last day of Brahmā's 50th year**; named for the lotus that sprang from Viṣṇu's navel bearing Brahmā. The Padma Purāṇa narrates it. (Padma Purāṇa; [Hindu Cosmology — shivohampath](https://www.shivohampath.com/post/hindu-cosmology-explained-yugas-kalpas-manvantaras-the-cyclical-universe))
 - **The 30 kalpas of a Month of Brahmā** — the Śiva Purāṇa (2.4.13) enumerates 30 named kalpas constituting one month of Brahmā. Recorded names include: (1) Śveta, (2) Nīlalohita, (3) Vāmadeva, (4) Rathantara, (5) Raurava, (6) Deva, (7) Bṛhat, (8) Kandarpa, (9) Sadya, (10) Īśāna, (11) Tamaḥ, (12) Sārasvata, (13) Udāna, (14) Gāruḍa, (15) Kaurma, (16) Nārasiṃha, (17) Samāna, … (remaining names vary by recension). (Śiva Purāṇa 2.4.13; [Śveta-Vārāha Kalpa — Wisdomlib](https://www.wisdomlib.org/definition/shveta-varaha-kalpa))
   - *Variant (naming conventions):* kalpas are named in different texts after the dominant avatāra, deity, element, or first creation of that Day — hence "Vārāha" (boar), "Pādma" (lotus), "Brāhma," "Kaurma" (tortoise), "Nārasiṃha" (man-lion). Lists and orderings differ across Purāṇas; treat any single sequence as one recension, not the canon. (Various Purāṇas; [Pralaya (Wikipedia)](https://en.wikipedia.org/wiki/Pralaya))

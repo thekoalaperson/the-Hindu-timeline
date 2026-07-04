@@ -53,10 +53,30 @@ The Bhāgavata assigns specific deities, stars and asterisms to the dolphin's bo
 
 ---
 
+## 6. The vertical ladder — yojana heights of the lights (Bhāgavata 5.21–23)
+
+The Bhāgavata does not leave the dolphin's limbs floating vaguely: chapters 5.21–22 give an explicit **vertical ladder of distances**, in **yojanas** (1 yojana ≈ 8 miles / ~13 km, though the conversion varies by text), from the earth-disc up to Dhruva at the tail-tip. Each body sits a stated interval *above* (*upariṣṭāt*) the one below:
+
+- **The Sun (Sūrya)** — set in the **middle of the antarikṣa**, between Bhūrloka and Bhuvarloka, turning about Meru on the wheel of the year; the traditional gloss places it **100,000 yojanas above the earth-disc**. (*Bhāgavata Purāṇa* 5.21.7; 5.22.8 with commentaries)
+- **The Moon (Candra)** — **100,000 yojanas above the Sun's rays**. (*Bhāgavata Purāṇa* 5.22.8)
+- **The nakṣatra circle** — the ring of lunar mansions (with Abhijit, 28 in all), **200,000 yojanas above the Moon**. (*Bhāgavata Purāṇa* 5.22.11)
+- **Venus (Śukra / Uśanā)** — **200,000 yojanas above the nakṣatras**. (*Bhāgavata Purāṇa* 5.22.12)
+- **Mercury (Budha)** — **200,000 yojanas above Venus**. (*Bhāgavata Purāṇa* 5.22.13)
+- **Mars (Aṅgāraka)** — **200,000 yojanas above Mercury**. (*Bhāgavata Purāṇa* 5.22.14)
+- **Jupiter (Bṛhaspati)** — **200,000 yojanas above Mars**. (*Bhāgavata Purāṇa* 5.22.15)
+- **Saturn (Śanaiścara)** — **200,000 yojanas above Jupiter**, the slowest of the wanderers. (*Bhāgavata Purāṇa* 5.22.16)
+- **The Saptarṣi** — the seven sages, **1,100,000 yojanas above Saturn**, wheeling about the pole for the welfare of the worlds. (*Bhāgavata Purāṇa* 5.22.17)
+- **Dhruva-loka** — the pivot itself, **1,300,000 yojanas above the Saptarṣi** — the tail-tip on which the whole ladder is strung. (*Bhāgavata Purāṇa* 5.23.1)
+
+- *Two-clocks note [scholarly]:* this ladder is **scriptural-cosmographic, not observational** — most strikingly it sets the **Moon *above* the Sun**, and the planets in the order Venus → Mercury → Mars → Jupiter → Saturn above the nakṣatras. The **siddhāntic** astronomers (see [Siddhāntic Astronomy & Its Astronomers](siddhantic-astronomy-and-astronomers.md)) work with the opposite, observation-driven ordering (Moon nearest, then Mercury and Venus below the Sun, with Mars, Jupiter, Saturn beyond) and with eclipse geometry that requires the Moon *below* the Sun. Tradition itself noticed the tension; keep the two frames distinct rather than harmonised — the Purāṇic ladder is a devotional-cosmographic map of the [Brahmāṇḍa's](brahmanda-and-bhuvana-kosha.md) interior, the siddhānta a computational model. (*Bhāgavata Purāṇa* 5.22; *Sūrya Siddhānta* 12; [scholarly])
+- *Variant (Viṣṇu Purāṇa 2.7):* the *Viṣṇu Purāṇa* gives its own ladder of intervals (Sun to Moon 100,000 yojanas, then the nakṣatras, then the planets), broadly parallel but differing in several figures and in which bodies are singled out; as elsewhere, catalogue both recensions. (*Viṣṇu Purāṇa* 2.7)
+
+---
+
 ## Sources
 
-- *Bhāgavata Purāṇa* (Śrīmad-Bhāgavatam) **Canto 5, chapter 23** — "The Śiśumāra planetary system": the dolphin-figure, Dhruva at the tail-tip, the limb-to-graha anatomy, the wind-cords, and the dhāraṇā/mantra. Context in 5.20–22 (Bhū-maṇḍala, planetary spheres, Meru). [bhagavata.org](https://bhagavata.org/downloads/bhagavatam-canto5.html)
-- *Viṣṇu Purāṇa* **Book 2, chapter 9** (H. H. Wilson trans.) — the parallel Śiśumāra/Dhruva account: Dhruva as the pivot from whom sun, moon, planets, nakṣatras and the Saptarṣi are suspended by aerial cords, and the porpoise-figure of the stars. [Wikipedia: Vishnu Purana](https://en.wikipedia.org/wiki/Vishnu_Purana)
+- *Bhāgavata Purāṇa* (Śrīmad-Bhāgavatam) **Canto 5, chapter 23** — "The Śiśumāra planetary system": the dolphin-figure, Dhruva at the tail-tip, the limb-to-graha anatomy, the wind-cords, and the dhāraṇā/mantra. Context in 5.20–22 (Bhū-maṇḍala, planetary spheres, Meru) and the yojana-ladder of heights (5.21–22, 5.23.1). [bhagavata.org](https://bhagavata.org/downloads/bhagavatam-canto5.html)
+- *Viṣṇu Purāṇa* **Book 2, chapters 7 & 9** (H. H. Wilson trans.) — ch. 7: the parallel ladder of planetary intervals in yojanas; ch. 9: the Śiśumāra/Dhruva account: Dhruva as the pivot from whom sun, moon, planets, nakṣatras and the Saptarṣi are suspended by aerial cords, and the porpoise-figure of the stars. [Wikipedia: Vishnu Purana](https://en.wikipedia.org/wiki/Vishnu_Purana)
 - Cross-references within this knowledge base: [Jyotiṣa & the Zodiac](jyotisha-and-the-zodiac.md) (sidereal frame, precession), [Brahmāṇḍa & Bhuvana-kośa](brahmanda-and-bhuvana-kosha.md) (the egg and the lokas), [Meru & Cosmic Mountains](../06-sacred-geography/meru-kailash-and-cosmic-mountains.md) (the world-axis), [Dhruva](../04-deep-dives/dhruva.md) (the boy who won the pole).
 
 ---

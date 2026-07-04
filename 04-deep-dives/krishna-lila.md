@@ -80,12 +80,20 @@ The demon-slayings of infancy — most sent by Kaṃsa — and the pastoral mira
 - **Pradyumna** - Krishna and Rukmiṇī's son (Kāmadeva reborn) is stolen by the demon Śambara, raised by Māyāvatī (Rati), and returns to slay him (Bhāgavata X.55).
 - **Aniruddha & Uṣā / the war with Bāṇāsura** - Krishna's grandson Aniruddha weds Uṣā, daughter of the thousand-armed asura Bāṇa (devotee of Śiva); Krishna battles Bāṇa and even Śiva's forces (Bhāgavata X.62–63). [major Vaiṣṇava–Śaiva interface episode]
 
-## Friendships, Kingly Deeds & the War's Periphery (Bhāgavata X.71–90)
+## Friendships, Kingly Deeds & the War's Periphery (Bhāgavata X.64–90)
 
+- **King Nṛga the chameleon** - The Yādava boys find a giant chameleon in a dry well; Krishna lifts it out and it resumes the form of King **Nṛga**, cursed to that body for inadvertently giving one brāhmaṇa's strayed cow to another; released, he ascends — a royal object-lesson on the peril of misappropriating brāhmaṇa property (Bhāgavata X.64).
+- **Pauṇḍraka, the false Vāsudeva, & the burning of Kāśī** - King **Pauṇḍraka** of Karūṣa, decked in imitation regalia (a counterfeit conch, disc, and Śrīvatsa), demands Krishna renounce the name "Vāsudeva"; Krishna beheads him and his ally the king of Kāśī. When the Kāśī king's son Sudakṣiṇa unleashes an abhicāra fire-demon (kṛtyā) against Dwārakā, the Sudarśana cakra drives it back and **incinerates the city of Kāśī** (Bhāgavata X.66).
+- **Dvivida the ape** - The mountain-hurling gorilla **Dvivida** — Naraka's friend (and, in the vānara genealogies, Mainda's twin of Rāma's host, turned rogue), avenging Naraka by ravaging Ānarta and molesting its people — is battered to death by **Balarāma** on Raivataka hill (Bhāgavata X.67).
+- **Sāmba's capture & the dragging of Hastināpura** - Krishna's son **Sāmba** (by Jāmbavatī) abducts Duryodhana's daughter **Lakṣmaṇā** from her svayaṃvara and is captured by the Kuru champions; **Balarāma**, come as peacemaker and slighted by Kaurava arrogance, **hooks his plough into Hastināpura's ramparts and drags the city toward the Gaṅgā** until the terrified Kurus release the couple with dowry and honors (Bhāgavata X.68). [For Sāmba's later leprosy and the Sun-cult it founds, see the [Bhaviṣya Purāṇa](../90-literature-corpus/puranas/bhavishya-purana.md).]
 - **Slaying of Jarāsandha** - Krishna, with Bhīma and Arjuna in disguise, engineers Bhīma's wrestling victory that kills Jarāsandha, freeing the kings he had imprisoned — clearing the way for Yudhiṣṭhira's Rājasūya (Bhāgavata X.72; Mahābhārata, Sabhā Parva).
 - **Death of Śiśupāla** - At the Rājasūya, Krishna is honored first (agra-pūjā); Śiśupāla insults him past the 100 forgiven offenses and is beheaded by the Sudarśana cakra (Bhāgavata X.74; Mahābhārata, Sabhā Parva).
+- **Śālva's Saubha & Dantavakra** - Śiśupāla's ally **Śālva**, wielding the Śiva-granted aerial fortress-machine **Saubha**, besieges Dwārakā to avenge him; Krishna shatters the Saubha and beheads Śālva, then slays **Dantavakra** of Karūṣa, who attacks in revenge — discharging the third and last [Jaya–Vijaya](jaya-vijaya.md) birth-pair (Bhāgavata X.76–78; see [Śiśupāla](shishupala.md)).
+- **Balarāma's tīrtha-yātrā — Romaharṣaṇa & Balvala** - Refusing to take sides at Kurukṣetra, **Balarāma** tours the sacred fords; at Naimiṣāraṇya he kills the sūta **Romaharṣaṇa** (Vyāsa's disciple, who failed to rise for him) with a blade of kuśa grass, expiates the deed by installing Romaharṣaṇa's son **Ugraśravas** as reciter, slays the sage-harassing demon **Balvala**, and completes the pilgrimage in time to witness the Bhīma–Duryodhana mace-duel (Bhāgavata X.78–79).
 - **Sudāmā / Kucela** - Krishna's impoverished boyhood Brahmin friend brings a humble gift of flattened rice (pṛthuka); Krishna honors him lavishly and silently grants him wealth — paradigm of devotion and divine reciprocity (Bhāgavata X.80–81). [In South Indian usage the friend is called **Kucela**.]
 - **Reunion at Kurukṣetra (solar eclipse)** - On an eclipse pilgrimage the Vraja folk, gopīs, Nanda, Yaśodā, and the Pāṇḍavas all reunite with Krishna at Samanta-pañcaka (Bhāgavata X.82).
+- **Śrutadeva & Bahulāśva** - Visiting Mithilā (Videha) with a retinue of sages, Krishna **bilocates** — simultaneously guesting with the poor brāhmaṇa **Śrutadeva** and King **Bahulāśva** — honoring the equal devotion of pauper and monarch (Bhāgavata X.86).
+- **The Śruti-gīta / Veda-stuti** - Answering Parīkṣit's question of **how the Vedas, which operate among the guṇas, can indicate the attributeless (nirguṇa) Brahman**, Śuka relays **Nārāyaṇa Ṛṣi's** teaching to Nārada at Badarikāśrama: the **personified śrutis' own hymn** to the Lord at the dawn of creation (Bhāgavata X.87; catalogued among the [lesser Gītās](lesser-gitas-catalog.md)).
 - **Recovering the dead sons of a Brahmin** - Krishna and Arjuna travel beyond the world to retrieve a Brahmin's lost children from Mahā-Viṣṇu, revealing Krishna's supreme identity to Arjuna (Bhāgavata X.89).
 - **The Kurukṣetra war role** - As Arjuna's charioteer and counselor he speaks the [Bhagavad Gītā](bhagavad-gita.md) and steers the Pāṇḍava victory without bearing arms (covered fully in the [Mahābhārata](./mahabharata/) deep-dive).
 
@@ -109,11 +117,12 @@ The demon-slayings of infancy — most sent by Kaṃsa — and the pastoral mira
 ## Sources
 
 **Primary texts**
-- *Bhāgavata Purāṇa* (Śrīmad-Bhāgavatam), Cantos **X** (childhood, Vraja, rāsa-līlā, Mathurā, marriages) and **XI** (Uddhava-Gītā, Yādava destruction, departure); 1.3.28 (*svayam bhagavān*).
+- *Bhāgavata Purāṇa* (Śrīmad-Bhāgavatam), Cantos **X** (childhood, Vraja, rāsa-līlā, Mathurā, marriages; the later-canto episodes X.64 Nṛga, X.66 Pauṇḍraka/Kāśī, X.67 Dvivida, X.68 Sāmba–Hastināpura, X.76–78 Śālva & Dantavakra, X.78–79 Balarāma's tīrtha-yātrā, X.86 Śrutadeva–Bahulāśva, X.87 Śruti-gīta/Veda-stuti) and **XI** (Uddhava-Gītā, Yādava destruction, departure); 1.3.28 (*svayam bhagavān*).
+- *Bhaviṣya Purāṇa* (Brahma Parva, from the older *Sāmba Purāṇa*) — Sāmba's leprosy-curse and Sun-temple cure, the sequel to the X.68 episode: [bhavishya-purana.md](../90-literature-corpus/puranas/bhavishya-purana.md).
 - *Harivaṃśa* (khila/appendix to the Mahābhārata) — oldest connected Krishna biography (Pūtanā, Govardhana, Kaṃsa, Pārijāta).
 - *Viṣṇu Purāṇa*, Book 5 (Krishna's life; Syamantaka).
 - *Mahābhārata*, **Sabhā Parva** (Jarāsandha, Śiśupāla) and **Mausala Parva** (Yādava fratricide, death of Krishna, fall of Dwārakā).
-- *Gīta-Govinda* of Jayadeva (12th c.) — Rādhā as central heroine.
+- *Gīta-Govinda* of Jayadeva (12th c.) — Rādhā as central heroine. Profile: [Jayadeva & the Gīta-Govinda](../07-acharyas-and-sampradayas/jayadeva-and-the-gita-govinda.md).
 - *Garga Saṃhitā*; *Brahma-vaivarta Purāṇa*; *Padma, Skanda, Brahmāṇḍa, Devī-Bhāgavata Purāṇas* — Rādhā's exaltation. *Gāhā Sattasaī* of Hāla (~1st–2nd c. CE) — earliest "Rādhā" reference.
 
 **Web / reference sources consulted**

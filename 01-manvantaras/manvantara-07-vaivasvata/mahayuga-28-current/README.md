@@ -49,11 +49,13 @@ Each yuga below has its own file. The dharma-bull (vṛṣa) loses one leg per y
 
 ```
 mahayuga-28-current/
-├── README.md            ← (this file: the Mahāyuga overview)
-├── satya/README.md      ← 01 Satya/Krita Yuga (dharma 4 legs)
-├── treta/README.md      ← 02 Treta Yuga (dharma 3 legs, Rāmāyaṇa)
-├── dvapara/README.md    ← 03 Dvapara Yuga (Vyāsa, Krishna, Mahābhārata)
-└── kali/README.md       ← 04 Kali Yuga (3102 BCE → present → Kalki)
+├── README.md                    ← (this file: the Mahāyuga overview)
+├── 01-satya-yuga.md             ← Satya/Krita Yuga (dharma 4 legs)
+├── 02-treta-yuga.md             ← Treta Yuga (dharma 3 legs, Rāmāyaṇa)
+├── 03-dvapara-yuga.md           ← Dvapara Yuga (Vyāsa, Krishna, Mahābhārata)
+└── 04-kali-yuga/
+    ├── README.md                ← Kali Yuga, scriptural record (3102 BCE → Kalki)
+    └── recorded-history.md      ← Kali Yuga, documented/academic history
 ```
 
 Read top-to-bottom for the descending arc; each file catalogs that yuga's events, avatāras, lineages and source-attributed variants in depth. For the layer above this one (the whole Manvantara and the 27 prior Mahāyugas), see [../README.md](../README.md). For unit definitions and constants, see [/00-time-and-cosmology/](../../../00-time-and-cosmology/).

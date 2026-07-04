@@ -1,0 +1,88 @@
+# Māṇḍakarṇi and the Pañcāpsaras lake
+
+> Cosmic address: a *tīrtha*-legend embedded in the **Tretā Yuga** of the present **[7th — Vaivasvata — Manvantara](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)**, heard by **Rāma** in the **Daṇḍaka** forest as he journeys from Sutīkṣṇa's hermitage toward Agastya. It is the one self-contained lake-and-sage legend of the **[Araṇya Kāṇḍa](ramayana/3-aranya-kanda.md)** (Vālmīki *Rāmāyaṇa*, sarga 11).
+> Parent: [04-deep-dives](README.md) · Master index: [README](../README.md) · Container kāṇḍa: [Araṇya Kāṇḍa](ramayana/3-aranya-kanda.md) · Sage-neighbour: [Agastya](agastya.md)
+
+As **[Rāma](ramayana/3-aranya-kanda.md)**, Sītā, and Lakṣmaṇa move south through the **Daṇḍakāraṇya**, they pass a great lake from whose waters rise the sound of **song, instruments, and the tinkling of ornaments** — yet not a single being is visible on its banks. Rāma, marvelling, asks about the wonder, and the ascetic **Dharmabhṛta** (Dharmabhṛt) tells the story of the lake. Long ago the sage **Māṇḍakarṇi** stood in this water for **ten thousand years**, living on air alone; the alarmed gods sent **five foremost apsaras** to break his austerity; he succumbed, took all five as wives, and built a **concealed mansion beneath the lake**, where he dwells with them still. The music is theirs. The pool is therefore named **Pañcāpsaras**, "the Five-Apsaras lake." It is a compact charter-tale of *tapo-bhaṅga* (the breaking of penance by celestial seduction) grafted onto a real sacred pool in the forest itinerary — the Araṇya Kāṇḍa's only embedded *sthala/tīrtha* legend.
+
+---
+
+## Where it sits — the two clocks
+
+- **Scriptural / cyclic frame** — The tale is *heard* during Rāma's fourteen-year exile, i.e. in the **[Tretā Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md)** of the current 28th Mahāyuga. The *events* it recounts — Māṇḍakarṇi's ten-thousand-year immersion and seduction — are set in an unspecified deep past *before* Rāma's arrival, but within the same cosmic epoch; the corpus files it as a Tretā-Yuga forest legend, not a dated reign. The lake and its hidden palace are presented as still-inhabited at the moment Rāma passes — a living, invisible household, not a ruin.
+- **Academic / historical frame** — The Vālmīki *Rāmāyaṇa* reached substantially its present form **[scholarly] c. 5th–4th century BCE to 1st–2nd century CE**, its oldest core (Books 2–6, of which Araṇya is the third) being the earliest stratum. The Pañcāpsaras episode belongs to that older narrative layer of the *itinerary of hermitages* — a device by which the epic strings together etiological *tīrtha*-legends along the exile route. The pool is one of a chain of forest sanctities (with the Godāvarī, Pañcavaṭī, and Agastya's ashram) whose sanctity the text is simultaneously narrating and *establishing*.
+
+---
+
+## The frame — invisible music on the water (Araṇya 11)
+
+- **Where in the kāṇḍa it falls** — After his long stay and the dharma-debate at the hermitage of **Sutīkṣṇa** (Agastya's disciple), and the compressed "ten years' wandering" among the Daṇḍaka ashrams, Rāma resolves to seek out the great **[Agastya](agastya.md)**. Guided by ascetics, the trio travels; the Pañcāpsaras lake is a marvel encountered on this transit, immediately preceding their arrival at Agastya's brother's hermitage and then Agastya's own (Vālmīki, *Rāmāyaṇa* Araṇya 11).
+- **The wonder of unseen sound** — Rāma hears from the lake the strains of **vocal and instrumental music** (*gīta-vāditra-nisvana*) and the jingle of women's ornaments, but sees no performers; the water itself seems to sing. He asks his companion sage to explain the marvel (Araṇya 11).
+- **The narrator: Dharmabhṛta** — It is the ascetic **Dharmabhṛta** (Dharmabhṛt, "dharma-bearer"), one of the forest munis accompanying or receiving Rāma, who recounts the legend of the lake and its hidden sage. The tale is thus a *frame-within-the-frame*: a sage's story told to Rāma inside Vālmīki's telling. (Araṇya 11)
+  - *Note on attribution:* Vālmīki gives the narration to **Dharmabhṛta**; some abridged retellings assign the explanation loosely to "a sage" or fold it into Sutīkṣṇa's or Agastya's discourse. The named narrator in the critical text is Dharmabhṛta. [scholarly]
+
+---
+
+## Māṇḍakarṇi's ten-thousand-year penance
+
+- **The sage and his vow** — Long before, the great ascetic **Māṇḍakarṇi** (Māṇḍakarṇi *maharṣi*) undertook a penance of extreme severity at this pool. He entered the water and **stood immersed in the lake**, taking **no food but air** (*vāyu-bhakṣa*, "air-eating") — the most austere of the fasting regimens of the tapasvin (Araṇya 11).
+- **Ten thousand years** — He held this immersion, subsisting on air alone, for **ten thousand years** — the round, superhuman span the epic uses to mark a penance of world-shaking potency (Araṇya 11).
+- **The gods' alarm** — The heat (*tapas*) generated by so vast an austerity threatened the celestial order. The gods, fearing that the ascetic aimed to accumulate power enough to **seize the station of one among them** — the standard motive by which excessive mortal *tapas* endangers the devas — resolved to interrupt him before he could complete or claim his boon (Araṇya 11).
+  - *Who sent the apsaras (variant):* In Vālmīki's text the **gods collectively** dispatch the nymphs, with **[Agni](../02-deities-and-cosmic-hierarchy/agni.md)** (the Fire-god) named foremost among them. Popular summaries and this file's brief credit **[Indra](../02-deities-and-cosmic-hierarchy/indra.md)** as sender — natural, since apsaras are the ornament of Indra's court and Indra is the deva most often shown breaking penances (as with Viśvāmitra and Menakā). Both are recorded: the canonical agent is *the devas (Agni prominent)*; the shorthand agent is *Indra*, lord of the [apsaras](../08-beings-and-bestiary/apsaras.md). Do not merge them. [scholarly]
+
+---
+
+## The five apsaras and the fall
+
+- **Five foremost apsaras** — The gods sent **five** of the chief celestial nymphs (*pañca uttamāḥ apsarasaḥ*) to the lake to seduce Māṇḍakarṇi and dissolve his concentration. Vālmīki does **not name** the five; later and secondary retellings sometimes supply names, but the epic leaves them anonymous — "five apsarasas" is the point, and the source of the pool's name. [scholarly] (Araṇya 11)
+- **The breaking of the tapas** — The nymphs' dance, song, and beauty drew the sage under the sway of **desire (madana)**; his austerity was broken. Unlike the tapasvins who curse the seductress in fury (Viśvāmitra spurning Menakā and Rambhā), Māṇḍakarṇi **yielded and embraced the union**, taking **all five apsaras as his wives** (Araṇya 11).
+- **A sage regenerated by his own tapas** — Having accumulated so vast a store of ascetic merit, Māṇḍakarṇi is described as retaining the vigour of youth; the power he had heaped up he now turns not to displacing a god but to a private, hidden felicity with his five wives — the austerity "spent" on pleasure rather than on a cosmic boon (Araṇya 11).
+
+---
+
+## The hidden lake-mansion and the tīrtha
+
+- **The concealed house within the water** — For the five apsaras and himself, Māṇḍakarṇi fashioned by his ascetic power a **secret mansion (gṛha) hidden within the lake**, invisible from the banks. There he dwells with his five wives, unseen, sustained by the merit he had earned (Araṇya 11).
+- **The source of the music** — The song, the instruments, and the jingling ornaments that Rāma hears rising from the empty-seeming water are the **apsaras at their revels** in that submerged palace — the household made audible but never visible. The marvel Rāma asks about is thus explained: a whole hidden domestic world sounding beneath the surface (Araṇya 11).
+- **The pool named Pañcāpsaras** — Because five apsaras were won here and here reside, the lake bears the name **Pañcāpsaras**, "the [lake] of the Five Apsaras." The story functions as the *nāma-nirvacana* (name-etymology) and sanctity-charter of the tīrtha — the mechanism by which the Araṇya Kāṇḍa converts a point on Rāma's route into a named holy pool of the [Daṇḍakāraṇya](../06-sacred-geography/dandakaranya-rama-forest.md) (Araṇya 11).
+- **Its place in the itinerary** — Rāma reveres the pool and moves on; the episode is a pause of wonder set into the greater march toward Agastya, who will arm him with the [divine weapons](agastya.md) and direct him to settle at **Pañcavaṭī** on the Godāvarī. The Pañcāpsaras legend is the lyrical counterweight — a tale of a sage *undone* by heaven's beauty — between the demon-slayings that otherwise define the kāṇḍa (Araṇya 11–13).
+
+---
+
+## Names, numbers, and disambiguation
+
+- **The sage's name** — Vālmīki's form is **Māṇḍakarṇi**. Manuscript and secondary variants include **Māṇḍakarṇa** and, by confusion, **Māṇkaṇaka / Maṅkaṇaka** (a separate dancing-ecstatic sage of the *Mahābhārata* and Purāṇas). They are **distinct figures**; the lake-dweller of Araṇya 11 is Māṇḍakarṇi, and should not be conflated with the Maṅkaṇaka whose severed thumb bleeds vegetable sap. [scholarly]
+- **Not to be confused with other Pañcāpsara/apsara-lakes** — The name Pañcāpsaras attaches specifically to this Daṇḍaka pool of Māṇḍakarṇi; it is unrelated to the several apsara-*tīrthas* of the *Mahābhārata* Tīrtha-yātrā and to sthala-legends elsewhere that involve five nymphs. Attach the tale only to Araṇya 11. [scholarly]
+- **The unnamed five** — Because Vālmīki withholds the apsaras' names, any list of five specific names (e.g. drawn from the standard apsara-rosters) is a **later gloss, not canonical here**; the corpus records them as anonymous. [disputed]
+
+---
+
+## Motif — the *tapo-bhaṅga* pattern
+
+- **Penance broken by celestial beauty** — Māṇḍakarṇi belongs to the large family of tales in which the gods, threatened by a mortal's austerity, dispatch an **apsaras to seduce him** and disperse his merit — the *tapo-bhaṅga* motif catalogued under the [apsarās](../08-beings-and-bestiary/apsaras.md) and [tapas, boons & curses](../05-concepts-and-dharma/tapas-boons-and-curses.md). Its most famous members are **Viśvāmitra and Menakā** (parents of Śakuntalā) and **Viśvāmitra and Rambhā** (whom he curses to stone), both also told within the Vālmīki *Rāmāyaṇa* (Bāla Kāṇḍa). (comparative)
+- **The road not taken (contrast)** — Where Viśvāmitra *rages* at the interruption and curses the nymph, Māṇḍakarṇi **accepts** it, marries the five, and withdraws into private bliss. He is the type-specimen of the sage who neither completes his cosmic bid nor punishes the tempters, but simply *stops striving* — a gentler, un-tragic resolution of the same setup. (comparative) — see [Ṛśyaśṛṅga](rishyashringa.md), the ascetic lured from his forest by a courtesan, for the kindred "innocent drawn by beauty" variant.
+- **The audible-but-invisible household** — The specific narrative signature here — a whole domestic world **heard as music from empty water** — is the etiological hook: it is the *phenomenon* (unseen song on the lake) that prompts Rāma's question and the *legend* that answers it. The device is the same one by which the epic explains other forest marvels through a resident sage's biography. (Araṇya 11)
+
+---
+
+## Related Nodes
+
+- [Araṇya Kāṇḍa — Book of the Forest](ramayana/3-aranya-kanda.md) — the container kāṇḍa; this legend sits between Sutīkṣṇa and Agastya (sarga 11)
+- [Agastya](agastya.md) — the great southern sage Rāma is journeying toward when he hears the lake; giver of the divine weapons
+- [Ṛśyaśṛṅga](rishyashringa.md) — kindred *ascetic-lured-by-a-woman* tale (the innocent horn-sage drawn from the forest)
+- [Apsarās — celestial nymphs](../08-beings-and-bestiary/apsaras.md) — the class of beings and the *tapo-bhaṅga* seduction pattern they enact
+- [Gandharvas & Kinnaras](../08-beings-and-bestiary/gandharvas-and-kinnaras.md) — the musician-consorts of the apsaras (the "music" register of the tale)
+- [Tapas, boons & curses](../05-concepts-and-dharma/tapas-boons-and-curses.md) — why extreme austerity alarms the gods and invites interruption
+- [Indra](../02-deities-and-cosmic-hierarchy/indra.md) · [Agni](../02-deities-and-cosmic-hierarchy/agni.md) — rival attributions for who sent the five nymphs
+- [Daṇḍakāraṇya — Rāma's forest](../06-sacred-geography/dandakaranya-rama-forest.md) · [Godāvarī / Gautamī](../06-sacred-geography/godavari-gautami-dakshina-ganga.md) · [Pañcavaṭī, Nāśik](../06-sacred-geography/panchavati-nashik-godavari.md) — the sacred geography of the same stretch of exile
+
+---
+
+## Sources
+
+- **Vālmīki *Rāmāyaṇa*, Araṇya Kāṇḍa, sarga 11** — the Pañcāpsaras lake episode: Rāma hears song and ornament-jingle from the water; the sage **Dharmabhṛta** narrates; **Māṇḍakarṇi**'s ten-thousand-year immersion living on air; the gods (Agni foremost) send **five** foremost apsaras; his seduction (*madana*), marriage to all five, and the **concealed mansion within the lake**; the naming of the pool **Pañcāpsaras**. (Text on this file confirmed against the Vālmīki Rāmāyaṇa Araṇya sarga 11 word-for-word translation.)
+- **Vālmīki *Rāmāyaṇa*, Araṇya Kāṇḍa, sargas 7–13** — the frame: the Sutīkṣṇa hermitage and dharma-debate, the "ten years' wandering," the transit past Pañcāpsaras, and the arrival at Agastya's ashram with the bestowal of the divine weapons — the itinerary into which the legend is set.
+- **Comparative — *tapo-bhaṅga* parallels:** Vālmīki *Rāmāyaṇa* **Bāla Kāṇḍa** (Viśvāmitra & Menakā; Viśvāmitra & Rambhā); the general apsaras-seduction motif — see `08-beings-and-bestiary/apsaras.md` and `05-concepts-and-dharma/tapas-boons-and-curses.md`. [scholarly]
+- **Dating:** Vālmīki *Rāmāyaṇa* older core (Books 2–6) **[scholarly] c. 5th–4th c. BCE onward**, redaction into the received text by **c. 1st–2nd c. CE**; the itinerary-of-hermitages layer (with its embedded tīrtha-legends) belongs to this older stratum.
+- [Vālmīki Rāmāyaṇa, Araṇya Kāṇḍa Sarga 11 — verse-by-verse translation (valmikiramayan.net)](https://www.valmikiramayan.net/utf8/aranya/sarga11/aranyasans11.htm) — Māṇḍakarṇi, Dharmabhṛta the narrator, the ten thousand years of air-diet immersion, the five apsaras, the hidden lake-house, and the name Pañcāpsaras.
+- [Pancapsaras — Wikipedia / reference](https://en.wikipedia.org/wiki/Aranya_Kanda) (the lake episode within the summary of the Araṇya Kāṇḍa).

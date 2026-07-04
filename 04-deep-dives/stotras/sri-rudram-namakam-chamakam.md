@@ -1,6 +1,6 @@
 # Sri Rudram / Satarudriya (Namakam and Chamakam)
 
-> *Up one level: [04-deep-dives](../README.md) · The **Śrī Rudram** (Śatarudrīya), the supreme Vedic litany of **Rudra–Śiva** from the Kṛṣṇa-Yajurveda (Taittirīya Saṃhitā 4.5 + 4.7); foremost Śaiva abhiṣeka-chant and the matrix of the **Pañcākṣara — *Oṃ Namaḥ Śivāya***. Sibling to the [Śiva Mahimna Stotra](shiva-mahimna-stotra.md), the [Śiva Sahasranāma](shiva-sahasranama.md), and the [Śiva Tāṇḍava Stotra](../shiva-tandava-stotra.md).*
+> *Up one level: [04-deep-dives](../README.md) · The **Śrī Rudram** (Śatarudrīya), the supreme Vedic litany of **Rudra–Śiva** from the Kṛṣṇa-Yajurveda (Taittirīya Saṃhitā 4.5 + 4.7); foremost Śaiva abhiṣeka-chant and the matrix of the **Pañcākṣara — *Oṃ Namaḥ Śivāya***. Sibling to the [Śiva Mahimna Stotra](shiva-mahimna-stotra.md), the [Śiva Sahasranāma](shiva-sahasranama.md), and the [Śiva Tāṇḍava Stotra](shiva-tandava-stotra.md).*
 
 The **Śrī Rudram**, also called the **Śatarudrīya** (शतरुद्रीय, "the hymn of the hundred Rudras") and **Rudra-praśna**, is the central Śaiva text of the **Kṛṣṇa- (Black) Yajurveda**, embedded in the **Taittirīya Saṃhitā** as two complementary sets of *anuvākas* — the **Namakam** (TS 4.5, eleven anuvākas) and the **Chamakam** (TS 4.7, eleven anuvākas). Unlike the classical praise-poems, this is not a medieval *stotra* but **śruti** — Vedic mantra of high antiquity — yet it is recited daily and on festivals like any hymn, and is **the** scriptural source of the most famous of all Śaiva utterances, ***Oṃ Namaḥ Śivāya***, whose words sit at the heart of the Namakam. [scholarly]
 
@@ -42,7 +42,7 @@ The **Śrī Rudram**, also called the **Śatarudrīya** (शतरुद्र�
 - **Rudra, Ekādaśa-rudra, Laghu- and Mahā-rudra** — Recitation is graded by **multiplication**: one **Namakam with eleven Chamakam anuvākas interleaved** is a **Rudra (Ekādaśa-rudri)**; **eleven such Rudras = a Laghu-rudra**; **eleven Laghu-rudras (121 cycles) = a Mahā-rudra**; **eleven Mahā-rudras = an Ati-rudra** — escalating tiers of the same hymn used for great temple yajñas. (Rudra-yajña paddhati) [scholarly]
   - *Variant (interleaving order):* in the **Ekādaśa-rudri** the single Namakam is followed by the **first Chamakam anuvāka**, the cycle repeating so each of the eleven Chamakam anuvākas pairs once with a Namakam recitation; sequencing differs slightly by śākhā and ritual manual. [regional]
 - **The nyāsa and aṅga frame** — Formal recitation is bracketed by the **Rudra-praśna nyāsa / laghu-nyāsa** — the assignment (*nyāsa*) of mantras and deities to the parts of the body to consecrate the reciter — and concludes with the **Śānti** (peace invocation); these envelopes turn the śruti hymn into a structured *japa*. (pūjā-paddhati; laghu-nyāsa) [scholarly]
-- **Festival and daily use** — The Rudram is chanted daily in Śaiva temples and especially on **Mahā-śivarātri**, **Pradoṣa**, **Kārttika** and **Śrāvaṇa** Mondays, and at Rudra-homa/yajña — the same calendar that carries the [Bilvāṣṭaka](../bilvashtaka.md) bilva-offering and the [Śiva Mahimna Stotra](shiva-mahimna-stotra.md). (devotional tradition)
+- **Festival and daily use** — The Rudram is chanted daily in Śaiva temples and especially on **Mahā-śivarātri**, **Pradoṣa**, **Kārttika** and **Śrāvaṇa** Mondays, and at Rudra-homa/yajña — the same calendar that carries the [Bilvāṣṭaka](bilvashtaka.md) bilva-offering and the [Śiva Mahimna Stotra](shiva-mahimna-stotra.md). (devotional tradition)
 - **Phala and standing** — The tradition holds the Śatarudrīya among the most potent of all Vedic recitations, a remover of sin, disease, and fear; the **Śatapatha** and later texts already glorify Rudra-japa, and the Purāṇas treat the Śatarudrīya as the highest hymn to Śiva. (Śatapatha Brāhmaṇa; Purāṇic māhātmya) [scholarly]
 
 ---
@@ -51,7 +51,7 @@ The **Śrī Rudram**, also called the **Śatarudrīya** (शतरुद्र�
 
 - **Text-critical time** — The Śatarudrīya is **genuine Vedic śruti** of the Saṃhitā layer (Kṛṣṇa- and Śukla-Yajurveda), among the **oldest** continuously recited Hindu texts — far older than the classical *stotra* corpus. Here the scriptural clock and the historical clock nearly coincide: this is **not** a medieval composition with a Vedic frame, but Vedic antiquity itself. [scholarly]
 - **In-narrative time** — The hymn is **not a yuga-bound narrative**; it is timeless liturgy addressed to the eternal Rudra. Its only "story" is the implicit drama of **pacifying the wrathful god into his gracious form** — a cross-yuga, ever-present cultic act rather than a dated event. [scholarly]
-- **Keep the clocks distinct** — Where the [Śiva Mahimna Stotra](shiva-mahimna-stotra.md) and [Śiva Tāṇḍava Stotra](../shiva-tandava-stotra.md) are classical poems traditionally ascribed to Puṣpadanta and Rāvaṇa, the Rudram needs no such ascription: it is **anonymous Vedic revelation**, and its prestige is precisely that it is *śruti*, not *smṛti*. [scholarly]
+- **Keep the clocks distinct** — Where the [Śiva Mahimna Stotra](shiva-mahimna-stotra.md) and [Śiva Tāṇḍava Stotra](shiva-tandava-stotra.md) are classical poems traditionally ascribed to Puṣpadanta and Rāvaṇa, the Rudram needs no such ascription: it is **anonymous Vedic revelation**, and its prestige is precisely that it is *śruti*, not *smṛti*. [scholarly]
 
 ---
 
@@ -59,8 +59,8 @@ The **Śrī Rudram**, also called the **Śatarudrīya** (शतरुद्र�
 
 - [Śiva Mahimna Stotra](shiva-mahimna-stotra.md) — the classical companion praise-poem; recited on the same Śaiva festival calendar.
 - [Śiva Sahasranāma](shiva-sahasranama.md) — the thousand names of Śiva; the epic/Purāṇic counterpart to the Vedic name-litany of the Namakam.
-- [Śiva Tāṇḍava Stotra](../shiva-tandava-stotra.md) — Rāvaṇa's hymn to the dancing Śiva; classical-period sibling.
-- [Bilvāṣṭaka](../bilvashtaka.md) — the bilva-leaf offering hymn accompanying the same Rudrābhiṣeka and Mahā-śivarātri worship.
+- [Śiva Tāṇḍava Stotra](shiva-tandava-stotra.md) — Rāvaṇa's hymn to the dancing Śiva; classical-period sibling.
+- [Bilvāṣṭaka](bilvashtaka.md) — the bilva-leaf offering hymn accompanying the same Rudrābhiṣeka and Mahā-śivarātri worship.
 
 ---
 

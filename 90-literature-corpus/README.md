@@ -164,13 +164,14 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 
 ---
 
-## Sub-files (to be expanded under this node)
+## Layout of this node (sub-directories & genre files)
 
-- `./shruti/` — Vedas, Brahmanas, Aranyakas, Upanishads in detail.
-- `./itihasa/` — Ramayana & Mahabharata, kanda/parva breakdowns, event-to-yuga maps.
-- `./puranas/` — the 18 Maha- + 18 Upa-Puranas, each profiled with its variant cosmology.
-- `./vedangas/`, `./upavedas/`, `./darshanas/`, `./agamas/`, `./dharmashastras/` — genre detail files.
-- *(See parent index for cross-links into [`01-manvantaras/`](../01-manvantaras/), [`02-deities-and-cosmic-hierarchy/`](../02-deities-and-cosmic-hierarchy/), [`03-lineages-vamsha/`](../03-lineages-vamsha/).)*
+- [`./vedas/`](./vedas/) — per-Veda profiles (Ṛg, Sāma, Yajur, Atharva) plus the Āraṇyakas and Prātiśākhyas, with [`./vedas/brahmanas/`](./vedas/brahmanas/) holding the dedicated Brāhmaṇa profiles.
+- [`./upanishads/`](./upanishads/) — per-Upaniṣad profiles; overviews in [`shruti-vedas-and-upanishads.md`](shruti-vedas-and-upanishads.md) and [`principal-upanishads-detail.md`](principal-upanishads-detail.md).
+- [`./puranas/`](./puranas/) — the 18 Mahā-Purāṇas and the Upa-Purāṇas, each profiled with its variant cosmology.
+- [`./darshanas/`](./darshanas/) — root-text (mūla-sūtra) profiles of the six āstika schools.
+- Flat genre files cover the remaining nodes: **itihāsa** → [`smriti-itihasa-epics.md`](smriti-itihasa-epics.md); **vedāṅgas, upavedas & the darśana survey** → [`upavedas-vedangas-darshanas.md`](upavedas-vedangas-darshanas.md); **āgamas, tantras & dharmaśāstras** → [`agamas-tantras-dharmashastras.md`](agamas-tantras-dharmashastras.md); **smṛti purāṇa survey** → [`smriti-puranas.md`](smriti-puranas.md).
+- *(Every file in this section is linked from the auto-generated **📑 Full Contents** index below; see parent index for cross-links into [`01-manvantaras/`](../01-manvantaras/), [`02-deities-and-cosmic-hierarchy/`](../02-deities-and-cosmic-hierarchy/), [`03-lineages-vamsha/`](../03-lineages-vamsha/).)*
 
 ---
 
@@ -199,19 +200,36 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 77 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 99 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Āgamas, Tantras & Dharmaśāstras](agamas-tantras-dharmashastras.md)
 - 🟩 [The Bhāgavata Purāṇa — Skandha-by-Skandha Map](bhagavata-purana-skandha-map.md)
+- 🟩 [Bṛhatkathā, Kathāsaritsāgara & the Vikramāditya Story Cycle](brihatkatha-kathasaritsagara-and-vikramaditya-cycle.md)
+- 🟩 [Classical Sanskrit Kāvya & Drama — the Court-Poetry Story-Vehicles](classical-kavya-and-sanskrit-drama.md)
+- 🟩 [The Dhangar god-epics — Biroba, Mhaskoba and Dhuloba](dhangar-oral-epics-biroba-mhaskoba-dhuloba.md)
+- 🟩 [Dharma-Nibandhas — the medieval digests](dharma-nibandhas-and-digests.md)
+- 🟩 [Hitopadeśa — Nārāyaṇa's Book of Good Counsel](hitopadesha.md)
+- 🟩 [Kashmir Śaiva Texts — Śiva-Sūtras to Vijñāna Bhairava](kashmir-shaiva-texts.md)
+- 🟩 [Katamaraju Katha — the Telugu cattle-war epic of Nellore](katamaraju-katha.md)
+- 🟩 [Maithili Oral Epics — Rājā Salhesh & the Dinā-Bhadrī Brothers](maithili-oral-epics-salhesh-dina-bhadri.md)
+- 🟩 [Manusmriti — chapter map of the Mānava-Dharmaśāstra](manusmriti-map.md)
+- 🟩 [Odia Literature — Sāraḷā Mahābhārata, Jagamohana Rāmāyaṇa & the Pañcasakhā](odia-literature-sarala-and-panchasakha.md)
+- 🟩 [Panchatantra, Hitopadeśa & the Nīti-Kathā Fable Corpus](panchatantra-hitopadesha-and-fable-literature.md)
+- 🟩 [The Periya Purāṇam — Legend Map of the 63 Nāyaṉmār (Tirumurai Book 12)](periya-puranam-63-nayanmar-legend-map.md)
 - 🟩 [The Principal Upaniṣads — Per-Text Detail](principal-upanishads-detail.md)
 - 🟩 [Regional & Oral Epics & Folk Traditions](regional-and-oral-epics.md)
+- 🟩 [The Śivapurāṇa-Māhātmya frame tales — Devarāja, Cañculā and Binduga](shiva-purana-mahatmya-tales.md)
 - 🟩 [Śruti — Vedas & Upanishads](shruti-vedas-and-upanishads.md)
+- 🟩 [Śukasaptati — the Seventy Tales of the Parrot](shuka-saptati.md)
 - 🟩 [Smṛti — Itihāsa (The Epics)](smriti-itihasa-epics.md)
 - 🟩 [Smṛti — The Purāṇas](smriti-puranas.md)
+- 🟩 [Swasthani Brata Katha — the Goma Brahmani cycle (Nepal)](swasthani-brata-katha.md)
 - 🟩 [The Tamil Canon — Sangam, Tirukkuṟaḷ & Bhakti Corpus](tamil-canon-sangam-and-bhakti.md)
 - 🟩 [Upavedas, Vedāngas & the Six Darśanas](upavedas-vedangas-darshanas.md)
+- 🟩 [Vadakkan Pattukal — the Northern Ballads of Malabar](vadakkan-pattukal-northern-ballads.md)
 - 🟩 [Vedic Deities & Famous Sūktas](vedic-deities-and-suktas.md)
 - 🟩 [Yajñas & Vedic Rituals](yajnas-and-vedic-rituals.md)
+- 🟩 [Yoga-Vāsiṣṭha (Mahā-Rāmāyaṇa)](yoga-vasishtha.md)
 
 **darshanas/**
 
@@ -221,6 +239,7 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [Nyāya Sūtras of Gautama — Per-Text Profile](darshanas/nyaya-sutras.md)
 - 🟩 [Sāṃkhya-kārikā of Īśvarakṛṣṇa — Per-Text Profile](darshanas/samkhya-karika.md)
 - 🟩 [Vaiśeṣika Sūtras of Kaṇāda — Per-Text Profile](darshanas/vaisheshika-sutras.md)
+- 🟩 [Vedānta Prakaraṇa Granthas — The Advaita Teaching Manuals](darshanas/vedanta-prakarana-granthas.md)
 
 **puranas/**
 
@@ -238,6 +257,8 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [Mārkaṇḍeya Purāṇa](puranas/markandeya-purana.md)
 - 🟩 [Matsya Purāṇa](puranas/matsya-purana.md)
 - 🟩 [Nārada Purāṇa](puranas/narada-purana.md)
+- 🟩 [Nīlamata Purāṇa — The Charter Text of Kashmiri Hinduism](puranas/nilamata-purana.md)
+- 🟩 [Padma Purāṇa — Khaṇḍa-by-Khaṇḍa Story Map](puranas/padma-purana-khanda-map.md)
 - 🟩 [Padma Purāṇa](puranas/padma-purana.md)
 - 🟩 [Śiva Purāṇa](puranas/shiva-purana.md)
 - 🟩 [Skanda Purāṇa — Khaṇḍa-by-Khaṇḍa Story Map](puranas/skanda-purana-khanda-map.md)
@@ -247,6 +268,7 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [Varāha Purāṇa](puranas/varaha-purana.md)
 - 🟩 [Vāyu Purāṇa — Story-Map](puranas/vayu-purana.md)
 - 🟩 [Viṣṇu Purāṇa](puranas/vishnu-purana.md)
+- 🟩 [Viṣṇudharmottara Purāṇa — text profile](puranas/vishnudharmottara-purana.md)
 
 **upanishads/**
 
@@ -283,6 +305,14 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟨 [Vedas](vedas/README.md)
 - 🟩 [The Āraṇyakas (the 'Forest Books')](vedas/aranyakas.md)
 - 🟩 [Atharvaveda — Per-Text Profile (Charms, Healing & Speculation)](vedas/atharvaveda.md)
+- 🟩 [The Pratishakhyas (Veda-specific phonetic treatises)](vedas/pratishakhyas.md)
+- 🟩 [Rigveda Samvada & Secular Hymns — the Dialogue and Narrative Genre](vedas/rigveda-samvada-and-secular-hymns.md)
+- 🟩 [Rigveda — Per-Text Profile (Mandala-by-Mandala)](vedas/rigveda.md)
+- 🟩 [Samaveda — Per-Text Profile (Chant & Melody)](vedas/samaveda.md)
+- 🟩 [Yajurveda — Per-Text Profile (Shukla & Krishna Recensions)](vedas/yajurveda.md)
+
+**vedas/brahmanas/**
+
 - 🟩 [Aitareya Brahmana (and Aitareya Aranyaka)](vedas/brahmanas/aitareya-brahmana.md)
 - 🟩 [Gopatha Brāhmaṇa](vedas/brahmanas/gopatha-brahmana.md)
 - 🟩 [Jaiminīya (Talavakāra) Brāhmaṇa](vedas/brahmanas/jaiminiya-brahmana.md)
@@ -290,9 +320,5 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [Panchavimsha (Tandya Maha-) Brahmana and the Samavedic Brahmana corpus](vedas/brahmanas/panchavimsha-brahmana.md)
 - 🟩 [Shatapatha Brahmana](vedas/brahmanas/shatapatha-brahmana.md)
 - 🟩 [Taittiriya Brahmana (and Taittiriya Aranyaka)](vedas/brahmanas/taittiriya-brahmana.md)
-- 🟩 [The Pratishakhyas (Veda-specific phonetic treatises)](vedas/pratishakhyas.md)
-- 🟩 [Rigveda — Per-Text Profile (Mandala-by-Mandala)](vedas/rigveda.md)
-- 🟩 [Samaveda — Per-Text Profile (Chant & Melody)](vedas/samaveda.md)
-- 🟩 [Yajurveda — Per-Text Profile (Shukla & Krishna Recensions)](vedas/yajurveda.md)
 
 <!-- AUTOINDEX:END -->

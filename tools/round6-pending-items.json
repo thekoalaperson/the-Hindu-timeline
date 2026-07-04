@@ -1,0 +1,919 @@
+[
+ {
+  "title": "Vishnu's eye-offering and the gift of the Sudarshana chakra",
+  "slug": "vishnu-lotus-eye-sudarshana",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "Vishnu worships Shiva with a thousand lotuses; Shiva hides one and Vishnu offers his own eye — earning the epithet Padmaksha/Kamala-nayana and the Sudarshana discus. Source: Shiva Purana, Kotirudra-samhita ch. 34. Verified: only a one-line *Variant* in divyastras-and-divine-weapons.md line 83; no story treatment. Cross-link divyastras file and the vishnu forms file."
+ },
+ {
+  "title": "Śiva loses to Pārvatī at dice — the dyūta-krīḍā and the Śabarī huntress",
+  "slug": "shiva-parvati-dice-game",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "The Kedara-khanda close: Shiva gambles away everything to Parvati and stalks off; Vishnu rigs a rematch, and Parvati disguised as a Shabari huntress wins him back — charter of the Uma-Maheshvara dyuta-krida iconography. Source: Skanda Purana, Maheshvara-khanda, Kedara-khanda chs. 34–35. Verified: no Shiva-Parvati dice content anywhere (the only dice hits are Yudhishthira/Kojagari/Draupadi)."
+ },
+ {
+  "title": "Brāhmottara-khaṇḍa vrata tales — Sīmantinī, Bhadrāyu's Śiva-kavaca, Mahānandā's rudrākṣa",
+  "slug": "brahmottara-khanda-vrata-tales",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "GROUPED catalog of three gap-list entries from the same khanda: Simantini's Somavara-vrata restoring her drowned husband Citrangada (chs. 8–9), prince Bhadrayu resuscitated with the Shiva-kavaca and tested by Shiva as a tiger (chs. 10–14), and the courtesan Mahananda's rudraksha vow (ch. 20). Source: Skanda Purana, Brahma-khanda, Brahmottara-khanda chs. 8–20. Verified: simantini, bhadrayu, and mahananda-rudraksha all grep to zero corpus-wide; festivals-and-vratas.md mentions Monday vrats storylessly."
+ },
+ {
+  "title": "Daśaratha and Śani — the king who stopped Saturn",
+  "slug": "dasharatha-shani-stotra-legend",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "Dasharatha rides into the sky to stop Shani transiting Rohini (averting twelve-year famine), pleases Saturn by fearlessness, and receives the Dasharatha-Shani-stotra still recited today. Source: Skanda Purana, Nagara-khanda (Hatakeshvara-kshetra section), the Dasharatha-Shanaishcara chapters. Verified: navagraha.md gives exactly one line; characters/dasharatha.md has none. Cross-link both."
+ },
+ {
+  "title": "Kārtika-māhātmya devotee tales — King Cola vs Viṣṇudāsa, Dharmadatta-Kalahā, Dhaneśvara, Satyabhāmā's former birth",
+  "slug": "kartika-mahatmya-tales",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "MERGED (Skanda + Padma duplicates — the same tale-cluster recited each Kartika): rich King Cola vs the poor bhakta Vishnudasa who cooks his own flesh; Dharmadatta and the demoness Kalaha freed by Tulasi-water merit; the sinner Dhaneshvara saved by Kartika-dipa; Krishna telling Satyabhama her former birth as Gunavati; the Alakshmi episode. Sources: Skanda Purana, Vaishnava-khanda, Karttikamasa-mahatmya chs. 24–29; Padma Purana, Uttara-khanda 88–117. Verified: vishnudasa/dhaneshvara/kalaha/gunavati all grep to zero; jalandhara-vrinda.md covers only the Tulasi-origin side."
+ },
+ {
+  "title": "Nārada's māyā — the sage becomes Sushīlā, wife of King Tāladhvaja",
+  "slug": "narada-maya-taladhvaja",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "The famous maya-parable: Narada bathes in a tirtha, becomes the woman Sushila, marries Taladhvaja, bears and loses sons and grandsons, and is restored — a lifetime remembered as moments. Source: Devi Bhagavata Purana VI.28–31. Verified: taladhvaja greps return zero and narada.md (a full character deep-dive) has no maya-transformation episode; write as file or major section in narada.md, distinct from the Shiva Purana Narada-moha item."
+ },
+ {
+  "title": "Śatākṣī / Śākambharī and the slaying of Durgamāsura",
+  "slug": "shakambhari-shatakshi-durgamasura",
+  "section": "02-deities-and-cosmic-hierarchy",
+  "priority": 2,
+  "brief": "Durgama steals the Vedas, drought follows; the hundred-eyed Shatakshi weeps rain, feeds the world from her body as Shakambhari, and slays Durgama — charter for the name 'Durga' and the living Shakambhari cult (Sambhar, Saharanpur, Shakambhari Purnima). Source: Devi Bhagavata Purana VII.28; foretold in Devi Mahatmya 11; Skanda parallel. Verified: only one-line foretelling/etymology mentions in devi-mahatmya-and-the-great-goddess.md and devi-forms-and-navadurga.md."
+ },
+ {
+  "title": "Bhṛgu's curse on Viṣṇu — Kāvyamātā's beheading, Śukra-Jayantī, and Bṛhaspati's impersonation",
+  "slug": "bhrigus-curse-on-vishnu",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "THREE-WAY MERGE (DBP entry + Matsya Shukra-Jayanti entry + Ramayana Uttara 51 Durvasa-prophecy entry — one story-complex): Shukra's tapas for the mrita-sanjivani counter-lore, Indra's daughter Jayanti's ten-year union, Vishnu beheading Bhrigu's wife who shelters the asuras, Bhrigu's curse dooming Vishnu to repeated mortal births and wife-separation (the karmic charter of the avataras and of Sita's loss), and Brihaspati's impersonation of the asura-guru. Sources: Matsya Purana 47; Devi Bhagavata IV.10–15; Valmiki Ramayana, Uttara-kanda 51. Verified: the-gurus-brihaspati-and-shukra.md names Jayanti in one spouse-line and covers only the Kacha episode; bhrigu.md has only the chest-kick cycle."
+ },
+ {
+  "title": "Ṣaṣṭhī, Maṅgalā Caṇḍī, Svadhā and Dakṣiṇā — the Prakṛti-khaṇḍa goddess aetiologies",
+  "slug": "prakriti-khanda-goddess-origins",
+  "section": "02-deities-and-cosmic-hierarchy",
+  "priority": 2,
+  "brief": "FOUR-WAY MERGE (Shashthi + Mangala-Chandi + Brahmavaivarta duplicate + Svadha-Dakshina): the origin tales of the minor Prakriti goddesses — Shashthi reviving King Priyavrata's stillborn son (charter of the sixth-day and Chhathi worship), Mangala Chandi worshipped by Shiva before Tripura (Tuesday/Bengal cult), Svadha given to the Pitris, Dakshina wed to Yajna-purusha. Sources: Devi Bhagavata IX.44–47; Brahmavaivarta Purana, Prakriti-khanda 41–44. Verified: shashthi hits are calendar lines plus the lumped one-liner in brahmavaivarta-purana.md; peer files manasa.md and shitala.md set the convention."
+ },
+ {
+  "title": "Kuvalayāśva (Ṛtadhvaja) and Madālasā — the nāga-world romance",
+  "slug": "kuvalayashva-madalasa",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "The Markandeya's longest romance: Ritadhvaja slays Patalaketu, rescues Madalasa in Patala, loses her to a false death-report, and the naga king Ashvatara restores her from his own breast — the narrative setup of the already-covered Madalasa Upadesha lullaby. Source: Markandeya Purana, Cantos 20–27 (Pargiter). Verified: only lullaby bullets in 90-literature-corpus/puranas/markandeya-purana.md and two TIMELINE lines; the adventure is untold."
+ },
+ {
+  "title": "Vipaścit in hell — the king who gave his merit to the damned",
+  "slug": "vipashchit-in-hell",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "King Vipashchit, sent briefly to Naraka, finds his presence cools the tortured, refuses Yama's summons to heaven, and transfers his merit to free hell's denizens — a landmark of Hindu compassion-ethics, much cited in karma scholarship. Source: Markandeya Purana, Cantos 13–15 (Pargiter, the hell-visions in the Jada-father dialogue). Verified: vipashchit hits are only Indra-name lists in manvantara files; the afterlife files have no trace."
+ },
+ {
+  "title": "Anasūyā and the halted sunrise — the pativratā's night and the Dattātreya boon",
+  "slug": "anasuya-halted-sunrise",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "Mandavya's curse dooms the leprous brahmin to die at sunrise; his wife commands the sun never to rise; the gods beg Anasuya, who restores dawn, revives the husband, and earns the boon of the Trimurti as her sons. Source: Markandeya Purana, Cantos 16–17 (Pargiter), prelude to the Dattatreya section. Verified: atri-anasuya.md tells only the nagna-bhiksha version (zero sunrise/mandavya hits); write as new file or major section there."
+ },
+ {
+  "title": "Khāṇḍikya and Keśidhvaja — the Vishnu Purana's concluding yoga dialogue",
+  "slug": "khandikya-keshidhvaja",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "The VP's coda: the rival Janaka-line cousins — Khandikya master of karma, Keshidhvaja of atma-jnana — reconciled when the deposed Khandikya asks not for his kingdom but for yoga instruction; the discourse Ramanuja quotes. Source: Vishnu Purana VI.5–7 (Wilson Book VI, ch. V–VII). Verified: khandikya/keshidhvaja grep to zero corpus-wide; vishnu-purana.md's Amsha 6 summary omits it."
+ },
+ {
+  "title": "The Kṣupa–Dadhīca dispute — brahma vs kṣatra and the charter of Sthāṇu-tīrtha",
+  "slug": "kshupa-dadhicha-dispute",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "King Kshupa (backed by Vishnu) and Dadhicha quarrel over kshatra vs brahma power; the Shiva-hardened sage survives the vajra, defeats the discus, and curses the gods to burn at Daksha's yajna — the Linga Purana's Shaiva-supremacy proof-story tied to Sthaneshvara. Source: Linga Purana, Purva-bhaga chs. 35–36; Shiva/Skanda parallels. Verified: kshupa greps return zero; dadhichi.md tells only the vajra-bone gift — cross-link it."
+ },
+ {
+  "title": "Pārijāta-haraṇa — Krishna's war with Indra for the Pārijāta tree",
+  "slug": "parijata-harana",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "The Harivamsha's longest late set-piece: Satyabhama's pride, the uprooting of the Parijata, full war with Indra, Aditi's mediation, and Satyabhama's Punyaka-vrata — basis of later kavya and dance (Bhamakalapam). Source: Harivamsha, Vishnu Parva (Dutt) ch. 69 ff.; cf. Vishnu Purana 5.30–31, Bhagavata X.59. Verified: krishna-lila.md now has a one-sentence bullet (X.59) and divine-objects-and-treasures.md one bullet — the Harivamsha war-cycle and Punyaka-vrata remain untold; cross-link both."
+ },
+ {
+  "title": "Viṣṇudharmottara Purāṇa — text profile",
+  "slug": "vishnudharmottara-purana",
+  "section": "90-literature-corpus/puranas",
+  "priority": 2,
+  "brief": "Profile of the encyclopedic upapurana: Markandeya teaching King Vajra (last Yadava), Khanda 1's legend-cycles, Khanda 2's rajadharma/sciences, Khanda 3's Chitrasutra (earliest Indian painting treatise, with the origin-of-painting legend of Narayana drawing Urvashi in mango juice). Source: Vishnudharmottara Purana, 3 khandas (Priyabala Shah trans.; Kramrisch, Part III). Verified: only two one-liners in upapuranas-overview.md; the puranas directory profiles all mahapuranas plus other upapuranas but not this; the Urvashi legend is absent corpus-wide."
+ },
+ {
+  "title": "Prajāpati and his daughter — Rudra the avenger and the deer's head",
+  "slug": "prajapati-ushas-rudra-piercing",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "The Brahmanas' central transgression-myth: Prajapati pursues his daughter as a stag; the gods compound their dread forms into Bhutavat/Rudra who pierces him — Prajapati becomes Mrigashiras, the arrow Ardra, the seed a lake whence creatures arise. Sources: Aitareya Brahmana 3.33–34; Shatapatha 1.7.4.1–8; Maitrayani Samhita 4.2.12; cf. RV 10.61.5–7. Verified: only Puranic descendants (Brahma-Shatarupa; Bhairava fifth head) and a one-line allusion in nakshatras.md exist; the Vedic story is untold. Cross-link nakshatras.md and shiva-myth-cycle.md."
+ },
+ {
+  "title": "Indra and Namuci — the wager, the surā, and the foam weapon",
+  "slug": "indra-namuchi",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "The pact 'neither by day nor night, neither wet nor dry,' the beheading with water-foam at twilight, and the severed head rolling after Indra crying 'friend-betrayer' — with rich Samhita/Brahmana variants and the Mahabharata retelling. Sources: Shatapatha 12.7.3.1–4; Taittiriya Brahmana 1.7.1.6–8; RV 8.14.13; Mbh Shalya 9.43. Verified: only the one-line foam-trick parenthesis in indra.md line 71 and roster mentions in asura-wars-and-roster.md."
+ },
+ {
+  "title": "The Aśvins and their rescue-deeds cycle",
+  "slug": "ashvins",
+  "section": "02-deities-and-cosmic-hierarchy",
+  "priority": 2,
+  "brief": "A deity file for the twin gods — absent from the deities section — anchored on the deed-catalogue: Bhujyu saved from the shipwreck, Vishpala's iron leg, Rebha and Vandana from the wells, Ghosha cured and wed, Atri from the burning pit; note their Cyavana and Dadhyanc deeds already live in other files. Sources: Rigveda 1.116–118, 1.112, 10.39–40. Verified: vishpala/rebha grep to zero; Bhujyu has one clause in vedic-deities-and-suktas.md line 29."
+ },
+ {
+  "title": "Vāc and the purchase of Soma — why women love song and dance",
+  "slug": "vac-and-the-soma-purchase",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "The somakrayana etiology: the gods turn Vac into a woman to buy Soma from the woman-coveting gandharvas, then win her back when she chooses song and dance over Veda-recitation. Sources: Shatapatha Brahmana 3.2.4.1–7; Taittiriya Samhita 6.1.6.5–6; Aitareya Brahmana 1.27. Verified: gandharvas-and-kinnaras.md covers Soma-guardianship generically but not this tale; saraswati.md treats Vac only theologically."
+ },
+ {
+  "title": "Trita Āptya — the sage in the well and the scapegoat of the gods",
+  "slug": "trita-aptya",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "Trita thrown into the well by Ekata and Dvita, praying his way out, and the Aptyas' Brahmana office as wipers-away of the gods' blood-guilt — the classic Vedic scapegoat and Avestan Thraetaona cognate. Sources: Rigveda 1.105; Shatapatha 1.2.3.1–5; Jaiminiya Brahmana 1.184. Verified: the only Trita hit is a son-list in manvantara-06-chakshusha.md; Aptya returns zero files."
+ },
+ {
+  "title": "Brāhmaṇa legends catalog — ten Vedic prose tales",
+  "slug": "brahmana-legends-catalog",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "GROUPED catalog replacing ten P3 gap entries, all verified zero corpus-wide: Atri and Svarbhanu (RV 5.40; Panchavimsha 4.5.2 — ancestor of the Rahu myth), Dirghajihvi the soma-licker (Jaiminiya 1.161–163), Kavasha Ailusha and the Sarasvati (Aitareya 2.19), Nabhanedishtha (Aitareya 5.14), Vrisha Jana and Tryaruna (Panchavimsha 13.3.12; Brhaddevata 5.14–23), Indra and the Yatis/salavrikas (Aitareya 7.28), the Gaupayanas recalling Subandhu's soul (RV 10.57–60; Brhaddevata 7.83–102), Keshin Darbhya and the ghost Kaupayeya (Jaiminiya 2.269–272), Manu's bull and Kilata-Akuli (Shatapatha 1.1.4.14–17), and Kutsa Aurava the doppelganger (Jaiminiya 3.199–200). Cross-link the brahmana text-profiles in 90-literature-corpus/vedas/brahmanas/ (note: shatapatha-brahmana.md already tells Videgha Mathava — model its §5a treatment)."
+ },
+ {
+  "title": "Udayana and Vāsavadattā — the Vatsa king's romance cycle",
+  "slug": "udayana-vasavadatta",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "The proverbial romance (Meghaduta's 'elders full of Udayana tales'): capture via the artificial elephant, the lute-teaching, the elopement from Ujjayini, Yaugandharayana's fire-ruse and the Padmavati marriage — parent of Bhasa's Svapnavasavadatta and Harsha's Ratnavali. Source: Kathasaritsagara, Lambhakas II–III (Tarangas 9–19). Verified: all corpus Udayana hits are the Nyaya philosopher or an Ayyappa bandit; vasavadatta/yaugandharayana grep to zero."
+ },
+ {
+  "title": "Siṃhāsana Dvātriṃśikā — the 32 tales of Vikramaditya's throne",
+  "slug": "simhasana-dvatrimshika-vikramaditya-cycle",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "Bhoja unearths Vikramaditya's throne and its 32 apsara statuettes each tell a tale of Vikrama's generosity before letting him ascend — core of the pan-Indian Vikramaditya legend, with the Shalivahana rivalry and Bhartrihari fruit-tale attached. Source: Simhasanadvatrimshika (Vikramacharita), ed. Edgerton (HOS 26–27); Hindi Singhasan Battisi. Verified: only a source-tag line and Vikramaditya/Bhartrihari paragraphs in ujjain-avantika.md §IX (which should be cross-linked); no statuette-tale is told."
+ },
+ {
+  "title": "Famous tales of the Kathasaritsagara — Upakoshā, Devasmitā, Lohajaṅgha, Śaktivega's City of Gold",
+  "slug": "kathasaritsagara-famous-tales",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "Catalog of the celebrated stand-alone tales: Upakosha shaming her four suitors (I.4), Lohajangha posing as Vishnu at Mathura (II.12), Devasmita and the fidelity-lotus (II.13), Shaktivega and golden Kanakapuri (V), Kalingasena-Somaprabha and the automata (VI). Source: Kathasaritsagara, lambhaka/taranga as listed. Verified: upakosha/devasmita/lohajangha/shaktivega/kalingasena all grep to zero — not even one-line mentions."
+ },
+ {
+  "title": "Hitopadesha — Narayana's book of good counsel",
+  "slug": "hitopadesha",
+  "section": "90-literature-corpus",
+  "priority": 2,
+  "brief": "Text profile of the Bengal Panchatantra-reworking: King Sudarshana of Pataliputra's sons taught in four books (Mitralabha, Suhridbheda, Vigraha, Sandhi), with the famous Viravara loyalty-tale; historically among the most-read Sanskrit texts. Source: Hitopadesha of Narayana Pandit (c. 800–1373 CE window). Verified: hitopadesha greps return zero anywhere in the corpus."
+ },
+ {
+  "title": "The Story of Queen Līlā — the two universes in the mind",
+  "slug": "lila-story-yoga-vasishtha",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "The Yoga Vasishtha's flagship idealism parable: Lila, granted vision by Sarasvati, travels between nested dream-universes where her dead husband reigns — worlds as mind-appearance. Source: Yoga Vasishtha, Utpatti Prakarana III, chs. ~15–58 (Lila-upakhyana). Verified: zero hits; keep standalone beside the yoga-vasishtha-tales-catalog item, cross-linking it."
+ },
+ {
+  "title": "Siruthondar — the child-curry test of Bhairava",
+  "slug": "siruthondar-nayanar",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "Shiva as a Bhairava ascetic demands a curry of the devotee's only son Seeralan; the parents comply, the guest demands the boy join the meal, and the child runs in alive — the most debated bhakti-extremism tale of Tamil Shaivism, its hero identified with Paranjothi, the Pallava general who sacked Vatapi (642 CE). Source: Periya Puranam, Ciruttondar Nayanar Puranam (no. 36); Sundarar, Tiruttondattokai v. 6. Verified: siruthondar/seeralan grep to zero."
+ },
+ {
+  "title": "Chandesvara — the boy who axed his father's foot",
+  "slug": "chandesvara-chandikeshvara",
+  "section": "04-deep-dives/characters",
+  "priority": 2,
+  "brief": "Vicharasharman worships sand-lingas with the herd's milk; his father kicks the linga, the boy severs the leg, and Shiva appoints him Chandesvara, eternal steward of Shiva's property — grounding the Chandikeshvara sub-shrine and clapping custom of every Chola-era Shiva temple. Source: Periya Puranam, Candesvara Nayanar Puranam (no. 20); Agamic adhikara-nandi role. Verified: chandesvara/vicharasharman grep to zero despite the corpus's many Tamil temple files."
+ },
+ {
+  "title": "Alvar hagiographies — the Guruparampara legends",
+  "slug": "alvar-hagiographies-guruparampara",
+  "section": "07-acharyas-and-sampradayas",
+  "priority": 2,
+  "brief": "Umbrella hagiography file: the Mudal Alvars pressed together in the storm-corridor at Tirukkovilur sensing Vishnu as the fourth; Tirumazhisai's 'Kanikannan poga' (Vishnu rolling up his serpent-bed); Tiruppan carried into Srirangam on Loka Saranga's shoulders and merging into Ranganatha; Kulasekhara's snake-pot; Periyalvar's Tiruppallandu on Garuda. Sources: Guruparampara Prabhavam 6000-padi; Divya Suri Charitam of Garudavahana Pandita. Verified: kanikannan and loka-saranga grep to zero; the roster file alvars-and-nayanars.md gives one bullet per saint."
+ },
+ {
+  "title": "Tirumangai Alvar — the robber-saint Parakala",
+  "slug": "tirumangai-alvar",
+  "section": "07-acharyas-and-sampradayas",
+  "priority": 2,
+  "brief": "Kaliyan turns highway robber to feed devotees, waylays a wedding party that is Vishnu-Lakshmi in disguise, cannot lift the Lord's toe-ring, receives the Ashtakshara from the bridegroom's lips (Tirumanankollai), and later funds Srirangam's third wall with the Nagapattinam golden Buddha. Sources: Guruparampara Prabhavam and Divya Suri Charitam, Parakala chapters; Periya Tirumozhi 1.1. Verified: all Tirumangai hits are geographic one-liners; kumudavalli/tirumanankollai grep to zero. Corpus convention (andal.md, nammalvar.md) supports the file."
+ },
+ {
+  "title": "Nandanar (Tirunālaippōvār) — the full legend",
+  "slug": "nandanar-tirunalaippovar",
+  "section": "07-acharyas-and-sampradayas",
+  "priority": 2,
+  "brief": "The Pulaiyar bonded labourer ('I will go tomorrow'): Shiva commands Nandi at Tirupunkur to shift aside; the forty-veli field ploughed overnight; the fire-ordeal at Chidambaram and merger with Nataraja — famous far beyond the Periya Puranam through Gopalakrishna Bharati's Nandanar Charitram (1861) and central to caste-and-bhakti debates. Source: Periya Puranam, Tirunalaippovar Nayanar Puranam (no. 18). Verified: only a one-bullet roster entry in alvars-and-nayanars.md line 48; tirupunkur greps return zero."
+ },
+ {
+  "title": "Arunagirinathar — the gopuram leap and the Tiruppugazh",
+  "slug": "arunagirinathar-tiruppugazh",
+  "section": "07-acharyas-and-sampradayas",
+  "priority": 2,
+  "brief": "The dissolute youth's suicide-leap from the Tiruvannamalai gopuram caught by Murugan, who writes 'Muttai taru' on his tongue with the Vel; the contest with Sambandandan; the parrot-body errand for the Parijata and the blind king — why his Tiruvannamalai icon is a parrot. Source: Arunagirinathar hagiographic tradition (15th c.) attached to the Tiruppugazh corpus, Kandar Anubhuti, Kandar Alankaram. Verified: coverage is one works-bullet in arupadai-veedu-murugan.md line 12; arunachala-tiruvannamalai-fire-hill.md never names him — cross-link both."
+ },
+ {
+  "title": "Swasthani Brata Katha — the Goma Brahmani cycle (Nepal)",
+  "slug": "swasthani-brata-katha",
+  "section": "90-literature-corpus",
+  "priority": 2,
+  "brief": "Nepal's most recited narrative text: the month-long Magh recitation frame, Shiva-Sati/Parvati chapters, and the Goma Brahmani story — married by curse to seventy-year-old Shiva Sharma, abandoned, her son Navaraj made king, all resolved by the Svasthani vrata. Source: Svasthani Vrata Katha (oldest MS 1573 CE; framed as Skanda Purana, Kedara Khanda), 31 chapters. Verified: swasthani/goma greps return zero; Nepali tradition otherwise appears only via one Bhanubhakta line."
+ },
+ {
+  "title": "Kanchi-Kaveri — Jagannatha and Balabhadra ride to war",
+  "slug": "kanchi-kaveri-jagannatha-legend",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "Purushottama Deva, mocked as a 'sweeper' for chhera pahanra, marches on Kanchi; Jagannatha and Balabhadra ride ahead as soldiers on black and white horses and buy curds from the milkmaid Manika with a gold ring; the king weds Padmavati 'to a sweeper' at the festival. Sources: Madala Panji chronicle; Purushottama Dasa's Odia kavya Kanchi-Kaveri (16th c.); reign of Purushottama Deva (1467–97). Verified: kanchi-kaveri greps return zero; the Puri file covers only the Indradyumna cycle."
+ },
+ {
+  "title": "Bhaktas of Jagannatha — Salabega, Dasia Bauri, Bandhu Mohanty",
+  "slug": "jagannatha-bhakta-legends",
+  "section": "04-deep-dives/characters",
+  "priority": 2,
+  "brief": "The classic Odia devotee-miracle triad: the Muslim poet Salabega for whom the Ratha halts at his samadhi; Dasia Bauri's coconut accepted by the Lord's own hand; Bandhu Mohanty fed at night with mahaprasada. Source: Odia bhakta tradition — Salabega's bhajans ('Ahe Nila Shaila', early 17th c.), Dasia Bauri and Bandhu Mohanty legends in the bhakta-caritra/Madala Panji lore. Verified: all three grep to zero; comparable bhakta files (ravidas.md) set the convention. Cross-link jagannath-puri-purushottama-kshetra.md and ratha-yatra coverage."
+ },
+ {
+  "title": "Annadamangal — Ishwari Patuni and the Vidya-Sundara romance",
+  "slug": "annadamangal-bharatchandra",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "Bharatchandra Ray's 1752 climax of the mangal-kavya genre: Annada ferried by Ishwari Patuni whose boon 'may my children have milk and rice' is proverbial across Bengal; the Vidya-Sundara tunnel-romance with Sundara saved by Kali; the Bhavananda–Man Singh frame. Source: Annadamangal of Bharatchandra Ray 'Gunakar' (Nadia court), three parts. Verified: annadamangal/bharatchandra/vidya-sundara grep to zero; even regional-and-oral-epics.md omits this fourth major mangal-kavya."
+ },
+ {
+  "title": "Gopichandra and Queen Maynamati — the Nath renouncer-king epic",
+  "slug": "gopichandra-maynamati-nath-epic",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "The great Bengali Nath oral epic: the yogini-queen Maynamati, taught by Gorakshanath, foresees her son King Gopichandra's death unless he renounces; his resistance, the ordeals of Aduna-Paduna, initiation by Hadipa, and return — sung from Bengal to Punjab. Source: Gopichandrer Gan / Manikchandra Rajar Gan (Grierson 1878 Rangpur text; D.C. Sen ed. 1922–24). Verified: gopichandra/maynamati/manikchandra grep to zero; corpus Gorakhnath hits are yoga/Gugga only."
+ },
+ {
+  "title": "Katamaraju Katha — the Telugu cattle-war epic of Nellore",
+  "slug": "katamaraju-katha",
+  "section": "90-literature-corpus",
+  "priority": 2,
+  "brief": "The second great Telugu oral epic beside Palnadu: the Yadava chief Katamaraju's grazing-rights feud with Nallasiddhi of Nellore, the broken cattle-tribute pact, and the battle of Panchalingala Konda — sung by Golla bards, reckoned the longest Telugu ballad cycle. Source: Katamaraju Kathalu, ed. T.V. Subba Rao (A.P. Sahitya Akademi 1976–78); Blackburn et al., Oral Epics of India (1989). Verified: zero hits; the catalog file's Telugu section has only Palnadu — write as a section there or standalone."
+ },
+ {
+  "title": "Kathivanur Veeran — the martyr-hero theyyam of North Malabar",
+  "slug": "kathivanur-veeran",
+  "section": "02-deities-and-cosmic-hierarchy",
+  "priority": 2,
+  "brief": "Mandappan Chekavar of Kathivanur, driven from home, prospers in Coorg, marries Chemmarathi, and falls against Kodagu raiders returning for a forgotten betel pouch; his wife curses and joins his pyre and both are deified — the kolam re-enacts his combat annually. Source: Kathivanur Veeran thottam-pattu (Kannur theyyam liturgy); K.K.N. Kurup, The Cult of Teyyam. Verified: zero hits; peer file muthappan.md sets the convention."
+ },
+ {
+  "title": "Pottan Theyyam — Shiva as the Pulaya who rebukes Shankaracharya",
+  "slug": "pottan-theyyam",
+  "section": "02-deities-and-cosmic-hierarchy",
+  "priority": 2,
+  "brief": "Kerala's anti-caste charter myth: Shiva as a drunken Pulaya corpse-bearer blocks Shankaracharya's path and demolishes caste-purity claims in the thottam dialogue ('if you are cut, do you not bleed as I do?') before revealing himself; performed on live embers. Source: Pottan Theyyam thottam-pattu (Pulappottan samvada), North Malabar kavu tradition. Verified: only the parenthetical one-liner at regional-temple-festivals.md line 41."
+ },
+ {
+  "title": "Icakki Amman Katai (Nili Katai) — the vengeance of Palayanur Nili",
+  "slug": "icakki-amman-nili-katai",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "The most celebrated Tamil folk revenge-goddess epic: the murdered Nili reborn as a demoness takes the guise of her killer's new wife at Palayanur; when the seventy Velala elders stand surety she kills him, and the seventy immolate themselves to keep their word — proverbial in Tamil and charter of the Icakki Amman vil-pattu cult. Source: Icakkiyamman Katai / Nili Katai (Kanyakumari bow-song tradition; the legend already alluded to in the Periya Puranam ambit). Verified: icakki/nili/palayanur grep to zero."
+ },
+ {
+  "title": "Vadakkan Pattukal — the Northern Ballads of Malabar",
+  "slug": "vadakkan-pattukal-northern-ballads",
+  "section": "90-literature-corpus",
+  "priority": 2,
+  "brief": "The Malayalam heroic-ballad corpus: the Puthooram cycle (Aromal Chekavar betrayed by Chandu at the ankam, warrior-sister Unniyarcha, Aromalunni's revenge) and the Thacholi cycle (Othenan, devotee of Lokanarkavu Bhagavathy) — household-name heroes with shrine/theyyam veneration. Source: Vadakkan Pattukal; C. Achyuta Menon, Ballads of North Malabar (1935). Verified: othenan/unniyarcha/aromal/thacholi grep to zero; the catalog file has no Kerala-ballad section."
+ },
+ {
+  "title": "Panjurli and Guliga — the boar-daiva and the fierce watcher of Tulu Bhūta-Kola",
+  "slug": "panjurli-guliga-tulu-daivas",
+  "section": "08-beings-and-bestiary",
+  "priority": 2,
+  "brief": "The archetypal Tulu daiva origin-paddanas (globally famous since Kantara): the boar-spirit Panjurli raised in Shiva's household and exiled to protect fields, paired with the wrath-born Guliga; fold in the minor daivas Bobbariya and Kordabbu. Source: Panjurli and Guliga paddanas (Tulu Bhuta-Kola liturgies); Peter J. Claus's paddana studies; Oral Epics of India (1989). Verified: panjurli/guliga grep to zero; the Tulu section of regional-and-oral-epics.md covers only Siri and Koti-Chennaya."
+ },
+ {
+  "title": "Jyotiba (Kedarling) of Wadi Ratnagiri — demon-slayer guardian of Kolhapur",
+  "slug": "jyotiba-kedarling-kolhapur",
+  "section": "02-deities-and-cosmic-hierarchy",
+  "priority": 2,
+  "brief": "The combined Brahma-Vishnu-Shiva(-Jamadagni) amsha born to sage Pougand who slays Kolhasura, Ratnasura and Raktabhoja to free Karavira — male counterpart of the Kolhapur Mahalakshmi charter, with the pink-gulal Chaitra yatra. Source: Jyotiba/Kedarling sthala tradition (Kedara Vijaya / Karavira Mahatmya cycle). Verified: jyotiba/kolhasura grep to zero; cross-link kolhapur-mahalakshmi-karavira.md and khandoba-martanda-bhairava.md."
+ },
+ {
+  "title": "Tiruvarur Thyagaraja — Manu Needhi Chola and Muchukunda's Somaskanda",
+  "slug": "tiruvarur-thyagaraja-kamalalaya",
+  "section": "06-sacred-geography",
+  "priority": 2,
+  "brief": "The two legends of the supreme Chola kshetra: Manu Needhi Chola driving his chariot over his own son for the cow that rang his justice-bell, and Muchukunda winning the Somaskanda image from Indra with the seven decoy Vitanka shrines and the ajapa-natanam dance. Sources: Tyagaraja/Kamalalaya-kshetra-mahatmya (Skanda tradition); Periya Puranam, Tirumalai-charukkam; Tevaram hymns. Verified: manu-needhi greps return zero; Tiruvarur appears only in a padikasu list-line of 275-paadal-petra-sthalams.md; cross-link the Muchukunda lineage coverage."
+ },
+ {
+  "title": "Sakshi Gopal — the witness Gopala who walked from Vrindavan",
+  "slug": "sakshi-gopal-witness-krishna",
+  "section": "06-sacred-geography",
+  "priority": 2,
+  "brief": "The Krishna image that walked behind a young brahmin as legal witness to a marriage-promise, rooting at the spot where he looked back — a fixed stop on the Puri pilgrimage and a signature Gaudiya story. Source: Chaitanya Charitamrita, Madhya-lila 5; Sakshigopal temple tradition, Odisha. Verified: sakshi-gopal greps return zero; jagannath-puri-purushottama-kshetra.md does not treat it."
+ },
+ {
+  "title": "Kumbakonam — Adi Kumbheshwara, the amrita-pot of the pralaya, and the Mahamaham",
+  "slug": "kumbakonam-adi-kumbheshwara-mahamaham",
+  "section": "06-sacred-geography",
+  "priority": 2,
+  "brief": "The name-charter: Brahma's kumbha of creation-seeds drifts on the pralaya flood and grounds here; Shiva the kirata's arrow breaks it, the nectar pooling as the Mahamaham tank — basis of the 12-yearly 'Kumbh of the South' when nine rivers converge. Source: Adi Kumbheshwarar sthala-purana (Skanda tradition); Tevaram-sung Paadal Petra Sthalam. Verified: mahamaham has a single line in kumbh-mela-and-pilgrimage-cycles.md; the sthala legend is absent though Kumbakonam is often name-dropped as a hub."
+ },
+ {
+  "title": "Dakor Ranchhodrai — Bodana and the idol that left Dwarka",
+  "slug": "dakor-ranchhodrai-bodana",
+  "section": "06-sacred-geography",
+  "priority": 2,
+  "brief": "Gujarat's most-loved temple legend: the aged devotee Bodana rewarded when Krishna-Ranchhodrai climbs into his bullock-cart and leaves Dwarka (trad. 1156 CE); the pursuing priests weigh the idol against gold and it weighs no more than Gangabai's nose-ring. Source: Dakor mahatmya / Ranchhodji temple tradition. Verified: dwarka-bet-dwarka-saurashtra.md has only the epithet line 'later enshrined at Dakor'; bodana greps return zero — cross-link the Dwarka file."
+ },
+ {
+  "title": "Tuljapur Tulja Bhavani — goddess of the Sāḍe-tīn pithas and Shivaji's sword",
+  "slug": "tuljapur-tulja-bhavani",
+  "section": "06-sacred-geography",
+  "priority": 2,
+  "brief": "Maharashtra's tutelary goddess: Tvarita/Turaja who came 'in haste' to save the sage Anubhuti from the demon Kukur, slayer of Matanga/Mahisha here; head shrine of the Marathi three-and-a-half pitha circuit, with the Bhavani-sword legend of Shivaji. Sources: Tulja-mahatmya (Skanda tradition); Marathi bakhar tradition. Verified: the only corpus mention is a circuit-membership line inside kolhapur-mahalakshmi-karavira.md; anubhuti and the sword legend grep to zero."
+ },
+ {
+  "title": "Tarapith — Vashishtha's Tārā sādhana, the fallen third eye, and Bamakhepa",
+  "slug": "tarapith-tara-vashishtha-bamakhepa",
+  "section": "06-sacred-geography",
+  "priority": 2,
+  "brief": "Bengal's premier living tantric kshetra: Sati's third eye in the local pitha-reckoning; Vashishtha perfecting Tara-worship by vamachara learned from Vishnu-as-Buddha in Mahachina; and the cremation-ground saint Bamakhepa (d. 1911). Sources: Tara Tantra / Brahmayamala tradition (Vashishtha-Mahachina episode); Tarapith pitha tradition, Birbhum. Verified: only name-drops in dasha-mahavidya.md and shakta-and-tantra-lineages.md; Tarapith is absent from the 51-pitha list-file; bamakhepa greps return zero."
+ },
+ {
+  "title": "Gītā-Māhātmya tales — the parables of the eighteen chapters",
+  "slug": "gita-mahatmya-tales",
+  "section": "04-deep-dives/bhagavad-gita",
+  "priority": 2,
+  "brief": "Shiva narrates to Parvati one deliverance-parable per Gita adhyaya (Susharma reborn as bullock/goat, the brahmana Jada, the goat-sacrifice, courtesan figures). Source: Padma Purana, Uttara-khanda 175–192 (18 chapters). Verified: only a one-line mention in 90-literature-corpus/puranas/padma-purana.md; the bhagavad-gita directory and bhagavad-gita.md contain no mahatmya material (grep confirmed zero)."
+ },
+ {
+  "title": "Aśokasundarī, Nahuṣa and the demon Huṇḍa",
+  "slug": "ashokasundari-nahusha-hunda",
+  "section": "04-deep-dives",
+  "priority": 2,
+  "brief": "Padma-unique cycle: Parvati's Kalpavriksha-born daughter abducted by Hunda; the infant Nahusha raised by Vasishtha, storming Mahodaya to kill Hunda (and later Vihunda, with the Kamoda episode) and wedding Ashokasundari. Source: Padma Purana, Bhumi-khanda 102–121. Verified: ashokasundari appears only as two variant one-liners in nahusha.md (which covers only the Indra-throne/serpent arc); hunda/vihunda have zero real hits — cross-link nahusha.md."
+ },
+ {
+  "title": "Ila / Sudyumna — the gender-shifting hinge of the Lunar dynasty",
+  "slug": "ila-sudyumna",
+  "section": "03-lineages-vamsha",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified: Sudyumna exists only as bullets in suryavamsha-and-chandravamsha.md §0, 01-satya-yuga.md and chandra-soma.md. Create 03-lineages-vamsha/ila-sudyumna.md: the Sharavana transformation, monthly alternation, marriage to Budha and mothering of Pururavas, Vasishtha's intervention and the kimpurusha compromise, sons Utkala/Gaya/Vinatashva, and the Shatapatha vs Bhagavata vs Uttara-kanda versions. Convert the existing bullets to summaries + link; cross-link pururavas-urvashi.md and chandra-soma.md."
+ },
+ {
+  "title": "Angada — crown prince of the Vanaras",
+  "slug": "angada",
+  "section": "04-deep-dives/characters",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified: ~29 mentions with decent embedded coverage in sugriva-and-vali.md and kishkindha-kanda but no home for his celebrated embassy to Ravana's court (the foot-planting challenge). Create characters/angada.md: youth under Sugriva, leadership of the southern search party and the Sampati meeting, the defiant embassy, yuddha exploits, coronation as crown prince. Cross-link sugriva-and-vali.md, 4-kishkindha-kanda.md, 6-yuddha-kanda.md, jatayu-and-sampati.md and the new vanaras-and-rikshas.md."
+ },
+ {
+  "title": "Madhurashtakam — Vallabha's 'Adharam Madhuram'",
+  "slug": "madhurashtakam",
+  "section": "04-deep-dives/stotras",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified zero hits repo-wide. Create 04-deep-dives/stotras/madhurashtakam.md: Vallabhacharya's authorship, the ashta-madhura structure and refrain, Pushtimarg liturgical use and its pan-North-Indian singing tradition. Cross-link 07-acharyas-and-sampradayas/nimbarka-vallabha-chaitanya.md."
+ },
+ {
+  "title": "Tripura Rahasya — the Shakta-Advaita dialogue of Dattatreya and Parashurama",
+  "slug": "tripura-rahasya",
+  "section": "04-deep-dives",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified zero hits for Tripura Rahasya/Hemalekha/Hemachuda. Create 04-deep-dives/tripura-rahasya.md: the Haritayana-samhita frame, the Mahatmya/Jnana/(lost) Charya khandas, the Hemachuda-Hemalekha teaching story, the city-of-jivanmuktas tale, Lalita/Tripura theology. Cross-link dattatreya.md, parashurama.md, lalita-bhandasura.md and the new lalita-sahasranama.md."
+ },
+ {
+  "title": "Papa, Punya and Prayaschitta — sin, merit and expiation",
+  "slug": "papa-punya-and-prayaschitta",
+  "section": "05-concepts-and-dharma",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified zero hits for mahapataka/prayaschitta/chandrayana outside a section-name in agamas-tantras-dharmashastras.md. Create 05-concepts-and-dharma/papa-punya-and-prayaschitta.md: the five mahapatakas and upapatakas, expiatory vows (krichchhra, chandrayana, panchagavya), interaction with karma doctrine, and the bhakti-era claim that nama-smarana supersedes prayaschitta (the Ajamila story turns on this). Cross-link purusharthas-and-karma-samsara-moksha.md, narakas-and-afterlife.md, agamas-tantras-dharmashastras.md, ajamila.md, indra.md (brahmahatya)."
+ },
+ {
+  "title": "Anna, naivedya and prasada — the sacred-food traditions",
+  "slug": "anna-naivedya-and-prasada",
+  "section": "05-concepts-and-dharma",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified: pieces are scattered (naivedya as one upachara in mantra-japa-and-murti-puja.md, Mahaprasad in the Puri file, annakut a bullet) with panchamrita/ucchishta/fasting-taxonomy essentially absent. Create 05-concepts-and-dharma/anna-naivedya-and-prasada.md: the offering-to-grace transformation theology, panchamrita/charanamrita, ucchishta and food-purity rules, the upavasa/fasting taxonomy underlying vratas, annadana as supreme gift ('annam brahma'), temple feeding traditions. Cross-link mantra-japa-and-murti-puja.md, jagannath-puri file (keep Mahaprasad deep treatment there), festivals-and-vratas.md, ahimsa-and-hindu-ethics.md, pancha-maha-yajnas-and-the-three-debts.md."
+ },
+ {
+  "title": "Kashmir tirthas — the Nilamata sacred landscape",
+  "slug": "kashmir-tirthas-nilamata-geography",
+  "section": "06-sacred-geography",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified: zero hits for Kheer Bhawani/Ragnya, Harmukh-Gangabal, Martand temple; Kashmir exists only via Amarnath and the Satisaras myth in kashyapa.md. Create 06-sacred-geography/kashmir-tirthas-nilamata-geography.md gathering the region: Satisaras/Jalodbhava draining (summary + link to kashyapa.md as canonical), Vitasta descent, Kheer Bhawani/Ragnya Devi (the color-omen spring, Lanka-transfer legend, Jyeshtha Ashtami, Kashmiri Pandit identity [regional]), Harmukh-Gangabal, the Martand sun temple, Sharada Peeth, Shankaracharya hill. Cross-link amarnath file, sapta-sindhu-and-the-indus-rivers.md, 51-shakti-peethas.md and the new nilamata-purana.md. (Absorbs the separate kheer-bhawani-ragnya-devi item.)"
+ },
+ {
+  "title": "Sacred geography beyond the subcontinent — Angkor, Champa, Java, Bali",
+  "slug": "greater-india-sacred-geography",
+  "section": "06-sacred-geography",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified: Angkor/Prambanan appear only in the literary southeast-asian-ramayanas.md; Besakih, My Son, Kataragama have no geographic treatment. Create 06-sacred-geography/greater-india-sacred-geography.md as a single survey: Angkor Wat as Vishnuloka/Meru-model, My Son Bhadreshvara, Prambanan's Trimurti, Bali's living tirtha system (Besakih, Tanah Lot), Sri Lanka's Pancha Ishwarams and Kataragama, and major diaspora sites (Batu Caves). Cross-link southeast-asian-ramayanas.md, meru-kailash-and-cosmic-mountains.md, arupadai-veedu-murugan.md and the new Balinese Hinduism file."
+ },
+ {
+  "title": "Ashta Virattanam — the eight shrines of Shiva's heroic feats",
+  "slug": "ashta-virattanam-eight-feat-shrines",
+  "section": "06-sacred-geography",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified: only two passing name-drops (shiva-avatars-and-forms.md, the-nalvar file) while every sibling Tamil circuit has a file. Create 06-sacred-geography/ashta-virattanam-eight-feat-shrines.md: a table of the eight temples with feat, deity name and location (Tripura-dahana at Tiruvatikai, Daksha at Pariyalur, Jalandhara at Tiruvirkudi, Gajasura at Valuvur, Kama at Kurukkai, Andhaka at Tirukkovilur, Brahma's head at Kandiyur, Kalantaka at Tirukkadavur), cross-linking each feat's narrative home (tripura-dahana.md, andhakasura-vadha.md, jalandhara-vrinda.md, sati-daksha-and-parvati.md, shiva-myth-cycle.md) and temple-networks-and-circuits.md. Sources: Tevaram, sthala-puranas [regional]."
+ },
+ {
+  "title": "The later Advaita acharyas — Vidyaranya, Madhusudana Sarasvati, Appayya Dikshita",
+  "slug": "later-advaita-acharyas",
+  "section": "07-acharyas-and-sampradayas",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified: Vidyaranya appears only in passing source-citations, Appayya once, Madhusudana twice, Sadashiva Brahmendra never; adi-shankara.md ends at the four direct disciples. Create the file: Sureshvara, the Bhamati (Vachaspati) vs Vivarana (Padmapada/Prakashatman) sub-schools, Vidyaranya (Sringeri, Panchadashi, Vijayanagara), Madhusudana Sarasvati (Advaitasiddhi), Appayya Dikshita, Sadashiva Brahmendra. Cross-link adi-shankara.md, upavedas-vedangas-darshanas.md and the new vedanta-prakarana-granthas.md."
+ },
+ {
+  "title": "Hinduism of the indenture diaspora (Caribbean, Mauritius, Fiji)",
+  "slug": "indenture-diaspora-hinduism",
+  "section": "07-acharyas-and-sampradayas",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified: only incidental temple-roster mentions in mariamman.md. Create 07-acharyas-and-sampradayas/indenture-diaspora-hinduism.md: the girmitiya migrations (1834-1920) with the Ramcharitmanas as portable scripture, Trinidad Ramleela and jhandi/Hanuman worship, Kali-Mai/Madrassi rites in Guyana and Trinidad (Mariamman continuity — cross-link mariamman.md), Ganga Talao's discovery-dream legend and Shivaratri pilgrimage in Mauritius, Fiji's Sanatan-vs-Arya Samaj split and South Indian firewalking. Cross-link regional-and-oral-epics.md section III."
+ },
+ {
+  "title": "Sacred musical instruments (Vadya)",
+  "slug": "vadya-sacred-musical-instruments",
+  "section": "09-artifacts-symbols-and-arts",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified: zero hits for tata/avanaddha/ghana/sushira — the Natya Shastra ch. 28 fourfold taxonomy is absent and instrument lore exists only as scattered deity-attribute one-liners. Create 09-artifacts-symbols-and-arts/vadya-sacred-musical-instruments.md: the fourfold classification, the named divine instruments with owner and myth (Sarasvati's Kacchapi, Narada's Mahati, the rudra-vina and Ravana, the ravanahattha, damaru and the Maheshvara Sutras, mridanga/pakhavaj origin-myths, the ektara of the bhakti saints, temple naubat). Cross-link sangita-classical-music-svara-raga-tala.md, sixty-four-kalas.md #2, venu-gita.md, sacred-symbols-and-emblems.md (shankha), nandi-and-shaiva-mounts.md."
+ },
+ {
+  "title": "Dharma-Nibandhas — the medieval digests",
+  "slug": "dharma-nibandhas-and-digests",
+  "section": "90-literature-corpus",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified: total coverage is a single bullet in agamas-tantras-dharmashastras.md (Mitakshara/Hemadri hits are passing citations). Create 90-literature-corpus/dharma-nibandhas-and-digests.md: Lakshmidhara's Krityakalpataru, Hemadri's Chaturvarga-chintamani (vrata/dana codification behind the corpus's festival files), Smritichandrika, Viramitrodaya, Nirnayasindhu, Dharmasindhu, and the Mitakshara vs Dayabhaga inheritance schools [scholarly]. Expand from and cross-link the existing bullet; link festivals-and-vratas.md and shraddha-and-pitr-rites.md."
+ },
+ {
+  "title": "Manusmriti — chapter map of the Manava Dharmashastra",
+  "slug": "manusmriti-map",
+  "section": "90-literature-corpus",
+  "type": "new-file",
+  "priority": 3,
+  "brief": "Verified: solid summary entry exists in agamas-tantras-dharmashastras.md §II but no 12-adhyaya map, while all 18 Mahapuranas have per-text maps. Create 90-literature-corpus/manusmriti-map.md: the ch.1 cosmogony and Manu-frame, Bhrigu narration, varna/ashrama chapters, rajadharma (ch.7), prayaschitta (ch.11) and karma-transmigration (ch.12), Olivelle dating and critical edition [scholarly], reception controversies. Keep the §II entry as the summary linking here; cross-link the new papa-punya-and-prayaschitta.md."
+ },
+ {
+  "title": "Surapadma Samharam — the Kanda Puranam war cycle (Vīrabāhu's embassy and the six-day war)",
+  "slug": "surapadma-samharam-kanda-puranam",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "DOWNGRADED after re-grep: arupadai-veedu-murugan.md now carries the war outline (boons, Tiruchendur, mango-tree/peacock-rooster), so the remaining gap is the connected Tamil narrative — Surapadman's 1,008-aeon empire from Veeramahendram, the imprisonment of Jayanta and the devas, and especially Veerabahu's embassy to the asura court (the Tamil parallel to Hanuman's Lanka embassy; verified zero hits). Source: Kanda Puranam of Kachiappa Sivachariar (14th c.), Asura/Deva/Yuddha kandams, from Skanda Purana Shankara-samhita. Cross-link arupadai-veedu-murugan.md, ganesha-and-kartikeya.md and tarakasura-vadha.md."
+ },
+ {
+  "title": "Pusalar — the temple built in the mind",
+  "slug": "pusalar-nayanar-mind-temple",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "The poor brahmin of Tirunindravur builds Shiva a complete temple in his mind; Shiva tells Pallava Rajasimha in a dream to postpone the Kailasanathar consecration at Kanchi because he must first attend Pusalar's — the beloved manasa-puja parable. Source: Periya Puranam, Pusalar Nayanar Puranam (no. 58). Verified: zero hits, though kanchipuram-city-of-temples.md and TIMELINE.md already narrate Rajasimha's Kailasanathar without this crowning legend — cross-link them."
+ },
+ {
+  "title": "Vyuṣitāśva and Bhadrā — sons begotten by the dead king",
+  "slug": "vyushitashva-bhadra",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Kunti's precedent-tale to Pandu: the Puru king dies of excess and his widow's lament wins seven sons from the corpse-voice — the argument that a wife may raise offspring for an incapacitated husband. Source: Mahabharata CE 1.112 (Adi Parva, Sambhava; Ganguli Adi CXX–CXXI). Verified: zero hits corpus-wide; kunti.md and 01-adi-parva.md lack it."
+ },
+ {
+  "title": "Jantu — King Somaka sacrifices his only son for a hundred",
+  "slug": "jantu-somaka",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Lomasha's tirtha-tale: frail Jantu offered in sacrifice so each of the hundred wives bears a son (Jantu reborn eldest); Somaka then insists on sharing his priest's hell. Source: Mahabharata CE 3.127–128 (Aranyaka, Tirthayatra; Ganguli Vana CXXVII–CXXVIII). Verified: only the roster line in 03-vana-parva.md line 71; no telling anywhere."
+ },
+ {
+  "title": "Māṇḍūka-upākhyāna — the frog-princess Suśobhanā and Vāmadeva's horses",
+  "slug": "manduka-frog-princess-sushobhana",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Markandeya's tale: Ikshvaku king Parikshit weds the frog-king's daughter on condition he never show her water, with the linked tales of sons Shala/Dala and Vamadeva's Vami horses. Source: Mahabharata CE 3.190 (Markandeyasamasya; Ganguli Vana CXCII). Verified: only the generic one-liner in 03-vana-parva.md; Mandukya-Upanishad hits are false positives."
+ },
+ {
+  "title": "Indradyumna and Akūpāra — is anyone older than Mārkaṇḍeya?",
+  "slug": "indradyumna-akupara-oldest-beings",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "MERGED (Mbh + Skanda Kaumarika duplicate): the royal sage fallen from heaven seeks witnesses of his deeds through ever-older beings — the owl, the crane Nadijangha, the tortoise Akupara — the source of the 'oldest animals' motif. Sources: Mahabharata CE 3.191 (Ganguli Vana ~CXCIX); Skanda Purana, Kaumarika-khanda chs. 7–11. Verified: akupara/nadijangha grep to zero; all corpus Indradyumnas are the Jagannatha/Gajendra kings — disambiguate against jagannath-puri file."
+ },
+ {
+  "title": "Mātali-upākhyāna — the charioteer's quest for a Nāga son-in-law",
+  "slug": "matali-sumukha-naga-bridegroom",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Matali tours Patala with Narada (a major cosmographical catalogue) seeking a groom for Gunakeshi, chooses the Garuda-doomed naga Sumukha, whom Vishnu/Indra grant long life — humbling Garuda's pride. Source: Mahabharata CE 5.95–103 (Udyoga, Bhagavadyana; Ganguli XCVII–CV). Verified: only a two-line roster entry in mahabharata-minor-episodes.md; cross-link garuda.md and bila-svarga cosmography."
+ },
+ {
+  "title": "Suvarṇaṣṭhīvin — Nārada, Parvata and Sṛñjaya's gold-spitting son",
+  "slug": "suvarnashthivin-srinjaya-narada-parvata",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "The Sixteen Kings frame-story: Narada and Parvata's mutual curses over Sukumari (Narada's monkey face), the boon-child who excretes gold, his murder by robbers, and Narada's revival. Source: Mahabharata CE 12.30–31 (Shanti, Rajadharma; Ganguli XXX–XXXI); Drona Parva parallel. Verified: shodasarajakiya-sixteen-kings.md has the frame in one bullet with none of this plot; sukumari greps return zero. Cross-link that file and narada.md."
+ },
+ {
+  "title": "Mucukunda and Vaiśravaṇa — kings conquer only through joined brahma-kṣatra",
+  "slug": "mucukunda-vaishravana-shanti",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Distinct from the sleeping-Mucukunda tale: here Mucukunda challenges Kubera, is mauled by rakshasas until Vasishtha intervenes, learning that kshatra needs brahman power. Source: Mahabharata CE 12.75 (Shanti, Rajadharma, Mucukundopakhyana; Ganguli ~LXXIV). Verified: muchukunda-and-kalayavana.md contains zero Vaishravana/Kubera material — write as file or section there with disambiguation."
+ },
+ {
+  "title": "Śānti-Parva minor tale cycle — Jāpaka, Cirakārī, Kuṇḍadhara, Ṛṣabha-Tanu, Pūjanī",
+  "slug": "shanti-parva-minor-upakhyanas",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "GROUPED catalog replacing five P3 gap entries, all verified absent (japaka/cirakari/kundadhara/pujani grep to zero or one-line): the Gayatri-reciter brahmin and King Ikshvaku (12.189–193), Cirakari who deliberated too slowly to kill Ahalya (12.258 — minor-upakhyanas-catalog.md itself flags it un-stubbed), the cloud-spirit Kundadhara granting dharma not wealth (12.263), Rishabha and the gaunt sage Tanu on hope as the hardest thing to slay (12.125–126), and the bird Pujani who blinded Brahmadatta's prince (12.137). Source: Mahabharata Shanti Parva, Ganguli sections as per each tale. Extend or model on minor-upakhyanas-catalog.md; cross-link ahalya.md and mokshadharma-dialogues.md."
+ },
+ {
+  "title": "Uñchavṛtti-upākhyāna — the angry brahmin and the Nāga Padmanābha",
+  "slug": "unchavritti-brahmin-naga-padmanabha",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "The Shanti Parva's closing upakhyana: a resentful brahmin seeks the virtuous naga Padmanabha on the Gomati, hears his vision of the Sun's chariot, and is converted to the gleaner's life as highest dharma. Source: Mahabharata CE 12.340–353 (Ganguli Shanti CCCLV–CCCLXV). Verified: corpus unchavritti hits are Mudgala/mongoose only; all padmanabha hits are Vishnu epithets and the Thiruvananthapuram murti."
+ },
+ {
+  "title": "Mātaṅga and Vītahavya — the two Anuśāsana varṇa-change upākhyānas",
+  "slug": "matanga-vitahavya-varna-upakhyanas",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "GROUPED pair (adjacent chapters, opposed morals): Matanga the chandala-born ascetic whom Indra refuses brahminhood as unattainable in one life (13.27–30), against the Haihaya king Vitahavya made a brahmin instantly by Bhrigu's truth-speech after the Kashi wars (13.31). Source: Mahabharata Anushasana Parva; Ganguli XXVII–XXX. Verified: matanga hits are Matangi/dikpala/Hampi false positives; vitahavya only in gotra name-lists (rishi-lineages-and-gotras.md, bhrigu.md); 13-anushasana-parva.md omits both."
+ },
+ {
+  "title": "Sārasvata-upākhyāna — the sage who preserved the Vedas through the famine (with the Vṛddhakumārī tale)",
+  "slug": "sarasvata-upakhyana-vriddhakumari",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "From Balarama's Sarasvati pilgrimage: Sarasvata, son of the river-goddess and Dadhicha, fed through the 12-year drought, re-teaches the Vedas to 60,000 starved rishis; adjoining, the aged virgin ascetic who must marry one night to enter heaven. Source: Mahabharata CE 9.50–51 (Shalya, Baladeva-tirthayatra; Ganguli LI–LII). Verified: 09-shalya-parva.md and mahabharata-tirtha-yatra-fords.md give only the pilgrimage frame and ford names; neither story is told. Cross-link dadhichi.md."
+ },
+ {
+  "title": "Nimi and Vasiṣṭha's mutual curse — the bodiless king and the origin of blinking",
+  "slug": "nimi-vasishtha-mutual-curse",
+  "section": "03-lineages-vamsha",
+  "priority": 3,
+  "brief": "Expand the existing two-line bullet (suryavamsha-and-chandravamsha.md line 47, which already has the curse and Janaka-churning per VP IV.5/Bhagavata IX.13) with the fuller Ramayana telling: Vasishtha's rebirth from the kumbha of Mitra-Varuna via Urvashi, and Nimi placed in all creatures' eyelids — the nimesha/blinking etiology. Source: Valmiki Ramayana, Uttara-kanda sargas 55–57 (Shastri). Verified: the Ramayana version and blinking etiology are absent; 7-uttara-kanda.md never mentions Nimi. Best as an expanded section, not necessarily a new file."
+ },
+ {
+  "title": "Śveta, the corpse-eating king, and Agastya's ornament",
+  "slug": "shveta-corpse-king-and-agastya",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Agastya finds the ascetic king Shveta, who won heaven but gave no food-charity, condemned to descend daily and eat his own corpse in the empty Dandaka until Agastya accepts his ornament — the sharpest anna-dana parable of the epic. Source: Valmiki Ramayana, Uttara-kanda sargas 77–78 (Shastri). Verified: all Shveta hits are the Kalpa/Upanishad/dana-upakhyana figures; agastya.md lacks it — write as file or section there."
+ },
+ {
+  "title": "Bharata's conquest of the Gandharvas — founding of Takṣaśilā and Puṣkalāvatī",
+  "slug": "bharata-gandharva-conquest-takshashila",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Yudhajit summons Rama's aid against Shailusha's three crores of Gandharvas on the Sindhu; Bharata annihilates them with the Samvarta weapon and installs Taksha and Pushkala — the epic's charter for Gandhara. Source: Valmiki Ramayana, Uttara-kanda sargas 100–101 (Shastri). Verified: 7-uttara-kanda.md line 83 has only the one-line settlement note; shailusha greps return zero; bharata-shatrughna-and-their-wives.md covers Lavanasura but not this — could be a section there."
+ },
+ {
+  "title": "Māṇḍakarṇi and the Pañcāpsaras lake",
+  "slug": "mandakarni-and-panchapsaras-lake",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Rama hears music from an invisible lake-mansion: Mandakarni, who stood ten thousand years in water, succumbed to the five apsaras Indra sent and lives with them in the hidden palace — the one embedded tirtha-legend of the Aranya-kanda. Source: Valmiki Ramayana, Aranya-kanda sarga 11. Verified: mandakarni/panchapsaras grep to zero; 3-aranya-kanda.md jumps from Sutikshna to Agastya — best as a short file or section there."
+ },
+ {
+  "title": "The Dog's Justice — Rama's court and the mendicant who struck a dog",
+  "slug": "ramas-justice-the-dog-and-the-mendicant",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "A wounded dog demands justice in Rama's open court and asks that its striker be made a kulapati — the office that had damned the dog itself to this birth; a beloved animal-justice parable of Rama-rajya. Source: Valmiki Ramayana, Uttara-kanda prakshipta sargas after sarga 59 (GPP vulgate; Baroda CE Appendix I — flag [late text]). Verified: kulapati/dog-justice greps hit only Yudhishthira's dog and Yama's hounds."
+ },
+ {
+  "title": "Makarākṣa, son of Khara — the vengeance duel of the Laṅkā war",
+  "slug": "makaraksha-son-of-khara",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Ravana sends Khara's son to avenge Janasthana; Rama destroys him with the Agneya-astra. Source: Valmiki Ramayana, Yuddha-kanda sargas 78–79 (vulgate). Verified: makaraksha greps return zero; per the gap analysis this is best written as an added section in 04-deep-dives/ramayana/6-yuddha-kanda.md (which names Dhumraksha through Nikumbha but skips this two-sarga episode), not a standalone file."
+ },
+ {
+  "title": "The Kurukshetra reunion — Krishna, the gopis and Nanda at the solar eclipse",
+  "slug": "kurukshetra-reunion-gopis",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "DOWNGRADED: krishna-lila.md now has a one-line bullet (X.82), but the three-chapter episode — Krishna's metaphysical teaching to the gopis, the queens' narratives, the sage-assembly and Vasudeva's yajna, and its Gaudiya Ratha-yatra significance — remains untreated. Source: Bhagavata Purana 10.82–84. Cross-link krishna-lila.md, kurukshetra-dharmakshetra.md (eclipse-snana doctrine) and jagannath-puri (Gaudiya reading)."
+ },
+ {
+  "title": "Rantideva's fourfold charity",
+  "slug": "rantideva",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "DOWNGRADED: bhagavata-tales-catalog.md line 118 now tells the story in full summary and itself flags it '[index-only — candidate for own file]'; the promotion file should add the Mahabharata parallels and Chambal aetiology. Sources: Bhagavata 9.21.1–18; Mbh Drona 67, Shanti 29. Cross-link shibi.md and shodasarajakiya-sixteen-kings.md (roster line)."
+ },
+ {
+  "title": "The Pracetas, the Rudra-Gītā, and the marriage to Māriṣā",
+  "slug": "pracetas-rudra-gita",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "DOWNGRADED: the catalog (line 55) now summarizes the tale and flags it a promotion candidate; the file should give the Rudra-gita content (the text's Shaiva-Vaishnava bridge), the burning of the tree-overgrown earth, Marisha, and Daksha's rebirth. Source: Bhagavata Purana 4.24 (Rudra-gita 4.24.33–79), 4.30–31. Cross-link the-prajapatis.md and prithu-prithvi.md variant lines."
+ },
+ {
+  "title": "Khaṭvāṅga — liberation in a single muhūrta",
+  "slug": "khatvanga-one-muhurta",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "The Ikshvaku king told he has one muhurta to live who attains liberation within the hour — the kshana-mukti exemplum Shuka cites as precedent for Parikshit's seven days. Source: Bhagavata Purana 9.9.41–49; cf. 2.1.13. Verified: only the catalog stub (flagged promotion candidate at line 173) and a TIMELINE line; the divyastras 'khatvanga' is the skull-staff, not the king — disambiguate."
+ },
+ {
+  "title": "The return of Devakī's six sons (Ṣaḍgarbha)",
+  "slug": "devaki-six-sons-shadgarbha",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Krishna and Balarama retrieve from Bali in Sutala the six infants Kamsa slew — the cursed Shadgarbha sons of Marichi — who sip Devaki's milk and ascend liberated, closing the infanticide arc that kamsa-vadha.md opens but never closes. Source: Bhagavata Purana 10.85.27–59; cf. Harivamsha Vishnu Parva 47–48. Verified: shadgarbha/six-sons greps return zero relevant hits (re-confirmed against the updated krishna-lila.md)."
+ },
+ {
+  "title": "Nanda seized by Varuṇa — Krishna in Varuṇa-loka and the vision of Vaikuṇṭha",
+  "slug": "nanda-varuna-vaikuntha-darshana",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Nanda, bathing before dawn on Ekadashi-Dvadashi, is carried to Varuna-loka; Krishna is worshipped by the sea-god and grants the cowherds the Brahma-hrada vision of Vaikuntha — the quiet counterpart to the Govardhana Indra-defeat. Source: Bhagavata Purana 10.28. Verified: absent from varuna.md and from the updated krishna-lila.md; it falls between govardhana-dharana.md (10.24–27) and rasa-lila.md (10.29)."
+ },
+ {
+  "title": "Sudarśana, Śaṅkhacūḍa and Vyomāsura — the later Vraja slayings",
+  "slug": "sudarshana-shankhachuda-vyoma",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Three uncovered post-rasa episodes: the vidyadhara Sudarshana freed from a python's body, the guhyaka Shankhachuda slain (crest-jewel to Balarama — distinct from shankhachuda-tulasi.md), and Vyomasura the sheep-thief crushed at the cave. Source: Bhagavata Purana 10.34 and 10.37.28–33. Verified: keshi-arishta-keshava.md stops at Keshi; vyomasura/guhyaka grep to zero in all Krishna files including updated krishna-lila.md."
+ },
+ {
+  "title": "Yajña-patnī-mokṣaṇa — the wives of the Vedic brāhmaṇas feed Krishna",
+  "slug": "yajna-patni-mokshana",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "The ritualists refuse the hungry cowherds; their wives defy them and carry the feast to Krishna, winning his highest praise — a Gaudiya set-piece on devotion over ritual. Source: Bhagavata Purana 10.23. Verified: still only the single one-line bullet in krishna-lila.md line 41 and a placement note in venu-gita.md; expand as file or full section."
+ },
+ {
+  "title": "Sandhyā's tapas and rebirth as Arundhatī (with Kāma's birth and first curse)",
+  "slug": "sandhya-arundhati",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Brahma's daughter Sandhya, shamed by Kama's first arrows, immolates herself in Medhatithi's fire under Vasishtha's instruction and is reborn as Arundhati — interlocked with Kama's birth, Brahma's curse that Shiva will burn him, and the Rati marriage. Source: Shiva Purana, Rudra-samhita, Sati-khanda chs. 2–9. Verified: corpus knows Arundhati only as chastity-exemplar (saptarishi.md); no Sandhya story anywhere. Cross-link kamadeva coverage."
+ },
+ {
+  "title": "Padmā and Pippalāda — Dharma tests the sage's young wife",
+  "slug": "padma-pippalada",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Told by the Saptarshis to Himavan: King Anaranya gives Padma to the aged Pippalada; Dharma disguised as a lustful king tests and is cursed by her, and her chastity restores the sage's youth. Source: Shiva Purana, Rudra-samhita, Parvati-khanda chs. 34–35. Verified: the only Anaranya is the distinct Ramayana curse-file; pippalada hits are the Prashna Upanishad teacher and a Shani line — disambiguate both."
+ },
+ {
+  "title": "The Shivapurana-Mahatmya frame tales — Devarāja, Cañculā and Binduga",
+  "slug": "shiva-purana-mahatmya-tales",
+  "section": "90-literature-corpus",
+  "priority": 3,
+  "brief": "The three phala-shruti frames: sinful Devaraja liberated by dying mid-recitation; the adulteress Chanchula's disillusion and salvation; her husband Binduga rescued from pisacha-hood by her recital. Source: Shiva Purana, Shivapurana-mahatmya chs. 2–5. Verified: chanchula/binduga grep to zero; add as a section to the existing puranas/shiva-purana.md profile, which omits the mahatmya."
+ },
+ {
+  "title": "The origin of Vaṭuka (Batuka) Bhairava",
+  "slug": "vatuka-bhairava-origin",
+  "section": "02-deities-and-cosmic-hierarchy",
+  "priority": 3,
+  "brief": "The Kotirudra etiology of the child-form Batuka Bhairava, granted as a son-manifestation of Shiva and worshipped pan-India as boy-guardian. Source: Shiva Purana, Kotirudra-samhita ch. 13. Verified: vatuka/batuka grep to zero; shiva-avatars-and-forms.md covers Kala-Bhairava and the Ashta-Bhairavas but not this origin — write as file or section there."
+ },
+ {
+  "title": "The minor demon-slayings of the Yuddha-khaṇḍa — Dundubhinirhrāda, Vidala and Utpala",
+  "slug": "yuddha-khanda-minor-vadhas",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Shiva slays the devotee-harassing Dundubhinirhrada; Parvati crushes the shape-shifting infiltrators Vidala and Utpala with her play-ball. Source: Shiva Purana, Rudra-samhita, Yuddha-khanda chs. 58–59. Verified: nirhrada greps return zero; vidala/utpala hits are Utpaladeva/iconometry false positives; adjacent Gajasura (ch. 57) is already covered in shiva-avatars-and-forms.md."
+ },
+ {
+  "title": "Kotirudra minor linga legends — Atriśvara, Nandikeśvara, Mahābala",
+  "slug": "kotirudra-minor-linga-legends",
+  "section": "06-sacred-geography",
+  "priority": 3,
+  "brief": "The pre-jyotirlinga sthala legends: Atri-Anasuya's drought-penance producing Atrishvara; the sinful brahmin lady saved posthumously at Nandikeshvara; the outcaste woman's good goal at Mahabala (Gokarna). Source: Shiva Purana, Kotirudra-samhita chs. 3–11. Verified: atrishvara greps return zero; gokarna-mahabaleshwar-atma-linga.md lacks the outcaste-woman tale; atri-anasuya.md lacks the drought episode — cross-link all three."
+ },
+ {
+  "title": "The seven brahmins reborn — the Pitṛkalpa chain of births (Brahmadatta of Kāmpilya)",
+  "slug": "pitrikalpa-seven-brahmins-brahmadatta",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "MERGED (Harivamsha Pitrikalpa + Shiva Purana 'seven hunters' duplicate): the students who ate their guru's cow pass through births as hunters, deer, and cakravaka birds, retaining memory through shraddha-piety, ending as King Brahmadatta and companions — the classic shraddha-karma illustration. Sources: Harivamsha, Harivamsha Parva, Pitrikalpa (vulgate ~21–24; Brodbeck 16–19); Matsya Purana 20–21; Shiva Purana, Uma-samhita chs. 40–42. Verified: seven-brahmins/cakravaka greps return zero; harivamsha.md has one storyless bullet. Cross-link shraddha-and-pitr-rites.md."
+ },
+ {
+  "title": "Nandabhadra the merchant — faith tested at Guptakṣetra",
+  "slug": "nandabhadra-tested-faith",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "The Kaumarika-khanda's Job-like theodicy: the pious vaishya loses sons and wife, is baited by a heretic (the Pingalika corpse-trick) to abandon dharma, holds firm, and is vindicated by Shiva. Source: Skanda Purana, Maheshvara-khanda, Kaumarika-khanda chs. 45–46. Verified: nandabhadra greps return zero corpus-wide."
+ },
+ {
+  "title": "Vyāsa humbled at Kāśī — the paralysed arm and the ban from the city",
+  "slug": "vyasa-banished-from-kashi",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Finding no alms, Vyasa raises his arm to curse Kashi; it is paralysed, Shiva/Annapurna feed him, and he is barred from residing in the city except on the eighth and fourteenth tithis — the legend behind Vyasakashi/Ramnagar. Source: Skanda Purana, Kashi-khanda, Uttarardha chs. 95–96. Verified: kashi-varanasi.md covers Annapurna but not this; paralysed-arm greps return nothing. Best as a section in kashi-varanasi.md."
+ },
+ {
+  "title": "Mahākālavana and the release of Brahmā's skull — the Avantya opening cycle",
+  "slug": "ujjain-mahakalavana-kapalamochana",
+  "section": "06-sacred-geography",
+  "priority": 3,
+  "brief": "The Avantikshetra-mahatmya's own Brahma-decapitation: the skull-bearing Shiva wanders until the kapala drops and he is freed at Mahakalavana, chartering Ujjain's supreme sanctity. Source: Skanda Purana, Avantya-khanda, Avantikshetra-mahatmya chs. 1–7 (chs. 2, 3, 6). Verified: ujjain-avantika.md has zero skull/kapala content (re-confirmed); kashi-varanasi.md carries only the Kashi Kapalamocana variant — add as section to ujjain-avantika.md."
+ },
+ {
+  "title": "Mahīsāgara-saṃgama / Kumārikā-kṣetra (Cambay) — Arjuna and the crocodile-apsarās, Stambheśvara",
+  "slug": "mahisagara-sangama-kumarika-kshetra",
+  "section": "06-sacred-geography",
+  "priority": 3,
+  "brief": "The sthala-frame of the 66-chapter Kaumarika-khanda: the Mahi-sea confluence, Arjuna redeeming the five apsaras cursed as crocodiles, Karttikeya installing Stambheshvara (today's 'disappearing temple' of Kavi Kamboi), and the Guptakshetra. Source: Skanda Purana, Kaumarika-khanda chs. 1–3, 33–36, 66. Verified: stambheshvara/mahisagara/khambhat grep only to a Narmada-mouth geography line; arjuna.md lacks the crocodile-apsara episode."
+ },
+ {
+  "title": "Hāṭakeśvara-kṣetra (Vaḍnagar) — the Nāgara-khaṇḍa sthala and Nāgara-brahmin charter",
+  "slug": "vadnagar-hatakeshvara-kshetra",
+  "section": "06-sacred-geography",
+  "priority": 3,
+  "brief": "The largest single sthala-purana in the Skanda (279 chapters): the linga risen from Patala-gold, the founding of Camatkarapura/Vadnagar, and the Nagara-brahmin origin charter. Source: Skanda Purana, Nagara-khanda, Hatakeshvara-kshetra-mahatmya (AITM vols. 11–12). Verified: hatakeshvara/vadnagar hits are only the two literature files plus unrelated hataka-gold cosmology lines (bila-svarga, devas-asuras)."
+ },
+ {
+  "title": "Ekavīra and Ekāvalī — the origin of the Haihaya dynasty",
+  "slug": "ekavira-ekavali-haihaya-origin",
+  "section": "03-lineages-vamsha",
+  "priority": 3,
+  "brief": "The DBP's dynastic legend: mare-born Ekavira founds the Haihaya line after rescuing Ekavali from the daitya Kalaketu with the Devi-mantra — ancestry of Kartavirya Arjuna. Source: Devi Bhagavata Purana VI.15–25. Verified: ekavira/ekavali/kalaketu grep to zero relevant hits (the corpus Kalaketu is the Chandimangal hunter); the Haihaya section of suryavamsha-and-chandravamsha.md lacks the origin tale — write as section there or standalone."
+ },
+ {
+  "title": "The war of Āḍi and Baka — Vasiṣṭha and Viśvāmitra as fighting birds",
+  "slug": "adi-baka-bird-war",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "MERGED (DBP + Markandeya duplicate): after the Harishchandra ordeal the two sages curse each other into an adi and a baka who battle for ten thousand years at Manasa lake until Brahma parts them — the canonical coda to their rivalry. Sources: Markandeya Purana, Canto 9 (Pargiter); Devi Bhagavata VI.12–13. Verified: no crane/heron/baka content in vishwamitra-vasishtha.md or hariscandra.md (all Baka hits are Bakasura); best added as a closing section to hariscandra.md or vishwamitra-vasishtha.md."
+ },
+ {
+  "title": "Prahlāda's battle with Nara-Nārāyaṇa at Badarī",
+  "slug": "prahlada-nara-narayana-battle",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Prahlada challenges the armed ascetics at Badarikashrama and fights for divine years without result until Vishnu reveals their invincibility — the humbling of the greatest asura devotee. Source: Devi Bhagavata Purana IV.8–10; Vamana Purana parallel. Verified: absent from both nara-narayana.md and prahlada-narasimha.md — write as file or section in nara-narayana.md alongside the Dambhodbhava item."
+ },
+ {
+  "title": "Satyavrata the illiterate brahmin and the 'Aiṃ' bīja",
+  "slug": "satyavrata-aim-bija",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "The dull brahmin overhears the dying boar's cry 'ai-ai', unknowingly repeats the Sarasvati-bija, and the Goddess makes him a supreme poet — the DBP's showcase of bija-mantra power. Source: Devi Bhagavata Purana III.10–11. Verified: all corpus Satyavratas are the Matsya-Manu or Trishanku figures; the tale is absent. Cross-link mantra-japa-and-murti-puja.md."
+ },
+ {
+  "title": "Gautama's curse on the ungrateful brahmins",
+  "slug": "gautama-curse-on-the-brahmins",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "The DBP's polemical frame for why brahmins abandon Gayatri/Devi worship: Gautama feeds ten thousand brahmins through the famine, is framed with an illusory cow, and curses them to be averse to the Devi and Vedic rites. Source: Devi Bhagavata Purana XII.8–9. Verified: distinct from the go-hatya/Godavari-descent version now fully told in godavari-gautami-dakshina-ganga.md §II — cross-link and differentiate; gautama-ahalya.md has no famine material."
+ },
+ {
+  "title": "Karandhama, Avīkṣit, Marutta and Dama — the Markandeya's royal cycle",
+  "slug": "karandhama-avikshit-marutta-dama",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "MERGED (Karandhama cycle + Dama-Narishyanta finale, one continuous dynastic narrative): the sigh-born army, Avikshit's svayamvara capture and shame, Marutta's reign and Naga war, and the Purana's grim ending — Dama's rakshasa-vow offering Vapushmat's blood as his father's funeral libation. Source: Markandeya Purana, Cantos ~119–137 (Pargiter CXIX–CXXXVII). Verified: only Marutta's golden-sacrifice bullet exists (shodasarajakiya, ashvamedhika-parva); avikshit/karandhama/narishyanta/vapushmat hits are genealogy name-lists only."
+ },
+ {
+  "title": "The Vaivasvata king-tales of the Markandeya — Rājyavardhana, Nābhāga, Vatsaprī, Khanitra",
+  "slug": "markandeya-vaivasvata-king-tales",
+  "section": "03-lineages-vamsha",
+  "priority": 3,
+  "brief": "Four self-contained tales unique to the Markandeya's vamsha block: Rajyavardhana's lonely ten-thousand-year youth; Nabhaga's vaishya bride and accepted caste-fall; Vatsapri slaying Kujrimbha of the yawning-weapon to rescue Sunanda; Khanitra saved when his brothers' abhichara recoils. Source: Markandeya Purana, Cantos ~106–118 (Pargiter). Verified: rajyavardhana/vatsapri/kujrimbha/khanitra/bhalandana grep to zero story content."
+ },
+ {
+  "title": "Markandeya's manvantara-origin legends — Uttama's banished queen, Svarāṣṭra/Tāmasa, Ṛtavāc and Revatī",
+  "slug": "markandeya-manvantara-origin-tales",
+  "section": "01-manvantaras",
+  "priority": 3,
+  "brief": "The origin-stories for Manus 3–5 missing from the corpus's otherwise thorough manvantara files: King Uttama recovering the abducted shrewish wife and finding his own banished queen in the naga world; exiled Svarashtra reborn as Tamasa; Ritavach's curse casting the Revati nakshatra onto Mt. Kumuda, whence the girl Revati mothers Raivata Manu. Source: Markandeya Purana, Cantos 66–76 (Pargiter). Verified: manvantara-03/04/05 files carry only office-holder lists (Raivata has the distinct Kakudmi tale); ritavach/svarashtra grep to zero. Write as sections in the three manvantara files or one shared file."
+ },
+ {
+  "title": "Yama Gītā (Vishnu Purana version) — Yama's charge to spare Vishnu's devotees",
+  "slug": "yama-gita",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Yama instructs his mace-bearing duta to avoid those who take refuge in Vishnu ('I am lord only of the rest') — a short gita famous in Vaishnava liturgy, with Agni and Nrisimha Purana variants. Source: Vishnu Purana III.7; Agni Purana ch. 381; Nrisimha Purana ch. 8. Verified: only a digest line in agni-purana.md and a tally line in lesser-gitas-catalog.md; the corpus keeps many individual gita files (rama-gita.md, shiva-gita.md)."
+ },
+ {
+  "title": "Kāttavarāyan Katai — the impaled guardian-god's tale",
+  "slug": "kattavarayan-katai",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Kattavarayan, foster-son of Kali, loves and abducts the brahmin maiden Aryamala, is mounted on the impaling stake and apotheosized as a kaval deity of the kazhu-festival cults. Source: Kattavarayacuvami Kataippatal; E. Masilamani-Meyer, The Tale of Kattavarayan (Harrassowitz 2004). Verified: kattavarayan greps return zero."
+ },
+ {
+  "title": "Muchilottu Bhagavathy — the wronged scholar-virgin's apotheosis",
+  "slug": "muchilottu-bhagavathy",
+  "section": "02-deities-and-cosmic-hierarchy",
+  "priority": 3,
+  "brief": "The brahmin maiden who defeats male scholars in debate, is slandered and cast out, answers the questions of hunger and desire in her self-immolation, and is reborn from the fire as the Vaniya community's Bhagavathy — among the most performed amma-theyyams of Kannur. Source: Muchilottu Bhagavathy thottam-pattu (North Malabar kavu tradition). Verified: muchilott greps return zero."
+ },
+ {
+  "title": "Kalkuda and Kallurti — the mutilated sculptor of the Karkala Bahubali and his avenging sister",
+  "slug": "kalkuda-kallurti",
+  "section": "04-deep-dives",
+  "priority": 3,
+  "brief": "Master sculptor Kalkuda, mutilated by Veera Pandya after raising the Karkala Gommateshwara (1432 CE) so he could never duplicate it; his sister Kallurti burns the palace, and the pair are deified as paired daivas across Tulu Nadu. Source: Kalkuda-Kallurti paddana (Karkala/Venur cycle; B.A. Viveka Rai, Peter Claus collections). Verified: kalkuda/kallurti grep to zero; Bahubali has only a TIMELINE passing line."
+ },
+ {
+  "title": "The Dhangar god-epics — Biroba, Mhaskoba and Dhuloba",
+  "slug": "dhangar-oral-epics-biroba-mhaskoba-dhuloba",
+  "section": "90-literature-corpus",
+  "priority": 3,
+  "brief": "The Marathi pastoralist ovi cycles of Biroba the shepherd-god, Mhaskoba (Kal-Bhairava as the buffalo-field god of Vir), and Dhuloba — the pastoral substrate beneath Khandoba per Sontheimer's classic study. Source: Dhangar ovi epics; G.-D. Sontheimer, Biroba, Mhaskoba und Khandoba (1976). Verified: all three names grep to zero (khandoba file matches Dhangar only as a devotee community); add to regional-and-oral-epics.md or standalone."
+ },
+ {
+  "title": "Goa's kuladevata pantheon — Shantadurga, Mangeshi, Ravalnath, Betal, Sateri",
+  "slug": "goa-shantadurga-mangeshi-kuladevatas",
+  "section": "06-sacred-geography",
+  "priority": 3,
+  "brief": "MERGED (02-deities pantheon entry + 06-geography kshetra entry): Shantadurga mediating the Shiva-Vishnu war with a serpent in each hand (Kavlem); Shiva as the tiger eliciting 'trahi mam girisha' at Mangeshi; the attendant Ravalnath, Betal/Vetal and anthill-goddess Sateri; plus the 16th-c. idol-flights from Portuguese Goa to Ponda. Sources: Skanda Purana, Sahyadri-khanda (Gomantaka mahatmya); Kavlem and Mangeshi temple traditions; gaonkari village-pantheon lore. Verified: shantadurga/mangesh/ravalnath/sateri all grep to zero — the corpus has no Goan deity or kshetra file at all."
+ },
+ {
+  "title": "Suchindram Sthanumalayan — the Trimurti linga and Indra's expiation",
+  "slug": "suchindram-sthanumalayan",
+  "section": "06-sacred-geography",
+  "priority": 3,
+  "brief": "The one linga worshipped as Sthanu-Mala-Ayan (Shiva-Vishnu-Brahma); the site of Indra's purification (suchi) from the Ahalya curse — he performs the night worship still — with the giant Hanuman and the local Atri-Anasuya framing. Source: Sucindrasthala-mahatmya; cf. Ramayana Bala-kanda 48–49. Verified: Suchindram appears only as pitha list-entry and a source URL in devi-kanyakumari.md; sthanumalayan greps return zero; atri-anasuya.md never names the site."
+ },
+ {
+  "title": "Kukke Subrahmanya — Vasuki sheltered from Garuda",
+  "slug": "kukke-subrahmanya-vasuki",
+  "section": "06-sacred-geography",
+  "priority": 3,
+  "brief": "Kumara washes his weapons in the Kumaradhara after Taraka-vadha; Vasuki, hiding from Garuda in the Biladwara cave, is granted refuge and merged in worship — charter of Karnataka's premier sarpa-dosha shrine and its Ashlesha-bali rites. Source: Skanda Purana, Sahyadri-khanda (Subrahmanya-kshetra mahatmya); temple tradition, Dakshina Kannada. Verified: kukke greps return zero; the naga files do not treat the kshetra."
+ },
+ {
+  "title": "Kanipakam Varasiddhi Vinayaka — the self-manifest Ganesha in the well",
+  "slug": "kanipakam-varasiddhi-vinayaka",
+  "section": "06-sacred-geography",
+  "priority": 3,
+  "brief": "Three disabled brothers strike a bleeding stone while well-digging and are cured; the svayambhu Ganesha sits in the well-water, held to be growing, and serves as divine oath-arbiter. Source: Kanipakam sthala-purana, Chittoor district (temple trad. Kulottunga Chola I). Verified: kanipakam greps return zero; the ashtavinayaka and Ganesha files do not treat it."
+ },
+ {
+  "title": "Thayumanavar of Tiruchirappalli Rockfort — Shiva as the mother-midwife",
+  "slug": "tiruchirappalli-rockfort-thayumanavar",
+  "section": "06-sacred-geography",
+  "priority": 3,
+  "brief": "Shiva takes the flood-stranded mother's form to deliver Ratnavali's child — Tayum-ana-var, 'he who became even the mother' — plus the Ucchi Pillayar legend of Ganesha fleeing Vibhishana after installing Srirangam's Ranganatha. Source: Tiruchirappalli sthala-purana (Tevaram-sung Paadal Petra Sthalam). Verified: thayumanavar/rockfort/ucchi-pillayar grep to zero; srirangam-ranganatha.md exists but lacks the hill sequel — cross-link it."
+ },
+ {
+  "title": "Ambalappuzha Sri Krishna — the chessboard grains and the pālpāyasam",
+  "slug": "ambalappuzha-krishna-palpayasam",
+  "section": "06-sacred-geography",
+  "priority": 3,
+  "brief": "Krishna as a sage wins rice doubled per chessboard square from the Chempakasseri king, commuting the impossible debt into the daily palpayasam served to all; the temple also sheltered the Guruvayur idol during Tipu's 1789 raid. Source: Ambalappuzha temple tradition, Alappuzha. Verified: ambalappuzha/palpayasam grep to zero; the Guruvayur coverage omits the 1789 refuge — cross-link it."
+ },
+ {
+  "title": "Basara Gnana Saraswati — Vyasa's post-war sojourn on the Godavari",
+  "slug": "basara-gnana-saraswati-vyasa",
+  "section": "06-sacred-geography",
+  "priority": 3,
+  "brief": "After Kurukshetra, Vyasa's three daily handfuls of sand become the murtis of Saraswati, Lakshmi and Kali (Vasara from Vyasapuri); children receive Akshara-abhyasam here — one of India's only two major Saraswati temples. Source: Basara kshetra tradition (claimed Brahmanda Purana warrant), Nirmal district. Verified: basara greps return zero; saraswati and Vyasa files do not treat the kshetra."
+ },
+ {
+  "title": "Yadagirigutta — the five Narasimhas revealed to Yāda-ṛṣi",
+  "slug": "yadagirigutta-pancha-narasimha",
+  "section": "06-sacred-geography",
+  "priority": 3,
+  "brief": "The sage Yada-rishi, son of Rishyasringa, beholds Narasimha in five forms in the hill cave; the deity remains as Vaidya Narasimha, curing devotees in dreams. Source: Yadagiri kshetra mahatmya (claimed Skanda warrant); Yadadri temple tradition, Telangana. Verified: the only mention is a one-word roster item in prahlada-narasimha.md, while peers Ahobilam and Simhachalam have dedicated files."
+ },
+ {
+  "title": "The folk Hanuman healing shrines — Mehandipur Balaji and Salasar Balaji",
+  "slug": "mehandipur-salasar-balaji-hanuman-shrines",
+  "section": "06-sacred-geography",
+  "priority": 3,
+  "brief": "North India's two most-thronged folk Hanuman kshetras: the svayambhu Mehandipur Balaji with Pret-raj and Bhairav as his exorcism court, and Salasar's bearded Hanuman ploughed up at Asota (1754 CE) and enshrined per twin dreams. Source: Mehandipur Balaji temple tradition (Dausa) and Salasar Balaji tradition (Churu, Mohandas legend). Verified: both grep to zero; comparable folk shrines (Khatu Shyam, Vaishno Devi) have dedicated files."
+ },
+ {
+  "title": "Shuka Saptati — the seventy tales of the parrot",
+  "slug": "shuka-saptati",
+  "section": "90-literature-corpus",
+  "priority": 3,
+  "brief": "The wise parrot detains the merchant's wife Prabhavati from adultery for seventy cliff-hanger nights until Madana returns — ancestor of the Persian Tutinama. Source: Shukasaptati (simplicior and ornatior recensions, c. 12th c. or earlier). Verified: shukasaptati/tutinama grep to zero; slot alongside the panchatantra and hitopadesha profiles in the new katha-literature shelf."
+ }
+]

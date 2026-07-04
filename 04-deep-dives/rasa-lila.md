@@ -53,7 +53,7 @@ The single most-discussed feature of the Bhāgavata's rāsa is that its supreme 
 
 **Primary texts**
 - *Bhāgavata Purāṇa* (Śrīmad-Bhāgavatam), Canto X: **10.21** (Veṇu-gītā), **10.29–33** (the Rāsa-pañcādhyāya; Gopī-gītā at 10.31; the multiplication and Śuka's apologia at 10.33), **10.35** (Yugala-gītā), **10.47** (Bhramara-gītā / Uddhava's mission to Vraja).
-- *Gīta-Govinda* of **Jayadeva** (12th c.) — Rādhā as the central heroine of the rāsa; *aṣṭapadī* lyric cycle.
+- *Gīta-Govinda* of **Jayadeva** (12th c.) — Rādhā as the central heroine of the rāsa; *aṣṭapadī* lyric cycle. Profile: [Jayadeva & the Gīta-Govinda](../07-acharyas-and-sampradayas/jayadeva-and-the-gita-govinda.md).
 - *Brahma-vaivarta Purāṇa* (late) — Rādhā as eternal consort and *Rāseśvarī* of the Goloka rāsa-maṇḍala.
 - *Gāhā Sattasaī* of **Hāla** (~1st–2nd c. CE) — earliest surviving mention of the name "Rādhā."
 
