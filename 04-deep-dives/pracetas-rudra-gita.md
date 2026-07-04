@@ -3,7 +3,7 @@
 > Cosmic address: Shveta-Vārāha Kalpa → the primordial **Svāyambhuva-Manu / Dhruva line** (early dynastic prehistory), late in the [Pṛthu succession](prithu-prithvi.md) — Prācīnabarhi and his ten sons the **Pracetas**. The set-piece of the **Caturtha Skandha** (Fourth Canto) of the [Bhāgavata Purāṇa](../90-literature-corpus/smriti-puranas.md), narrated by Maitreya to Vidura, whose theological heart is the **Rudra-Gītā** — the hymn to Viṣṇu sung by **Śiva himself**.
 > Parent: [04-deep-dives](README.md) · Up to [README](../README.md)
 
-The **Pracetas** (Prācetasas, "the intelligent ones") are the ten sons of King **Prācīnabarhi**, standing near the end of the Svāyambhuva-line dynasty descended from Dhruva through [Pṛthu](prithu-prithvi.md). Commanded to beget progeny, they went to perform austerities and en route met **Śiva (Rudra)**, who out of causeless mercy taught them a stotra glorifying **Viṣṇu / Vāsudeva** — the **Rudra-Gītā** (*Bhāgavata Purāṇa* 4.24.33–79). Chanting it for ten thousand years underwater, they won the Lord's grace; emerging, they found the earth choked with forest and burned it in wrath until **Soma** pacified them and gave them the tree-born maiden **Māriṣā** as their shared wife. From her was born the reborn **Dakṣa** — the "second Dakṣa" — closing the canto's arc from the Dakṣa who had reviled Śiva to the Pracetas whom Śiva blessed. The episode is the Bhāgavata's great **Śaiva–Vaiṣṇava bridge**.
+The **Pracetas** (Prācetasas, "the intelligent ones") are the ten sons of King **Prācīnabarhi**, standing near the end of the Svāyambhuva-line dynasty descended from Dhruva through [Pṛthu](prithu-prithvi.md). Commanded to beget progeny, they went to perform austerities and en route met **Śiva (Rudra)**, who out of causeless mercy taught them a stotra glorifying **Viṣṇu / Vāsudeva** — the **Rudra-Gītā** (*Bhāgavata Purāṇa* 4.24.33–68). Chanting it for ten thousand years underwater, they won the Lord's grace; emerging, they found the earth choked with forest and burned it in wrath until **Soma** pacified them and gave them the tree-born maiden **Māriṣā** as their shared wife. From her was born the reborn **Dakṣa** — the "second Dakṣa" — closing the canto's arc from the Dakṣa who had reviled Śiva to the Pracetas whom Śiva blessed. The episode is the Bhāgavata's great **Śaiva–Vaiṣṇava bridge**.
 
 ---
 
@@ -29,13 +29,13 @@ The **Pracetas** (Prācetasas, "the intelligent ones") are the ten sons of King 
 - **Śiva's benediction** — Pleased by their singleness of purpose, Śiva blesses them and declares the theological premise that frames the whole episode: **one who is dear to Kṛṣṇa / Vāsudeva is dear to Śiva**, and Viṣṇu's devotees are the most worshipful of beings — positioning himself not as Viṣṇu's rival but as his foremost worshipper. (*Bhāgavata Purāṇa* 4.24.24–32)
 - **The gift of a hymn** — Out of causeless mercy, Śiva announces he will teach them a **stava** (hymn) glorifying the Supreme Lord — a prayer whose recitation will accomplish their purpose and, beyond it, liberation. This hymn is the **Rudra-Gītā**. (*Bhāgavata Purāṇa* 4.24.32–33)
 
-## III. The Rudra-Gītā (BhP 4.24.33–79) — the Śaiva–Vaiṣṇava bridge
+## III. The Rudra-Gītā (BhP 4.24.33–68) — the Śaiva–Vaiṣṇava bridge
 
-- **What it is** — "The Song of Rudra": the stotra Śiva sings to **Bhagavān Vāsudeva / Saṅkarṣaṇa / Nārāyaṇa / Hari**, spanning verses **4.24.33–79** of the Fourth Canto. It is unusual precisely because its speaker is **Śiva** — the deity of the Śaivas offering worship to the deity of the Vaiṣṇavas. (*Bhāgavata Purāṇa* 4.24.33–79)
-- **Content of the hymn** — Śiva glorifies the Lord as the **Supersoul (Paramātman)** and pure *sattva*, the source and refuge of all; he praises the Lord's transcendental form, his lotus feet as the shelter of the surrendered, the potency of hearing and chanting the Name, and the supreme value of the **association of devotees (sat-saṅga)** and unmotivated *bhakti*. He closes by teaching the Pracetas that whoever recites this prayer with devotion, at dawn and dusk, is freed from all bondage and attains the Lord. (*Bhāgavata Purāṇa* 4.24.33–79)
+- **What it is** — "The Song of Rudra": the stotra Śiva sings to **Bhagavān Vāsudeva / Saṅkarṣaṇa / Nārāyaṇa / Hari**, the hymn proper spanning verses **4.24.33–68** of the Fourth Canto (Śiva's closing instruction to the Pracetas and his disappearance follow, as narrative, through 4.24.79). It is unusual precisely because its speaker is **Śiva** — the deity of the Śaivas offering worship to the deity of the Vaiṣṇavas. (*Bhāgavata Purāṇa* 4.24.33–68)
+- **Content of the hymn** — Śiva glorifies the Lord as the **Supersoul (Paramātman)** and pure *sattva*, the source and refuge of all; he praises the Lord's transcendental form, his lotus feet as the shelter of the surrendered, the potency of hearing and chanting the Name, and the supreme value of the **association of devotees (sat-saṅga)** and unmotivated *bhakti*. The hymn's final verses turn wholly on surrender to the Lord's lotus feet as the sole shelter of the devotee. (*Bhāgavata Purāṇa* 4.24.33–68)
 - **The bridge, made explicit** — In the Bhāgavata's Vaiṣṇava theology, Śiva is not a competitor but the **greatest of Vaiṣṇavas** (crystallized elsewhere as *vaiṣṇavānāṃ yathā śambhuḥ*, "as Śambhu is among Vaiṣṇavas," *Bhāgavata Purāṇa* 12.13.16). The Rudra-Gītā **dramatizes** that doctrine: the very God whom one sect worships bows to and extols the God whom the other worships, so that the two great streams are reconciled rather than ranked. [scholarly]
   - *Thematic mirror:* the hymn deliberately answers the canto's opening catastrophe. At the [Dakṣa-yajña](../02-deities-and-cosmic-hierarchy/sati-daksha-and-parvati.md) a Prajāpati had **insulted Śiva** and profaned his glory; here Śiva **repairs the breach from the other side**, elevating Viṣṇu and blessing the men whose progeny will be the reborn, chastened Dakṣa. See [Trimūrti & Tridevī](../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md). [scholarly]
-- **Instruction to chant it** — Having taught the hymn, Śiva instructs the Pracetas to recite it steadily to obtain the Lord's favour, then vanishes. (*Bhāgavata Purāṇa* 4.24.68–79)
+- **Instruction to chant it** — Having sung the hymn, Śiva assures the Pracetas that whoever recites it with devotion at dawn and dusk is freed from all bondage, instructs them to chant it steadily to obtain the Lord's favour, and then vanishes. (*Bhāgavata Purāṇa* 4.24.69–79)
 
 ## IV. Ten thousand years of tapas and Viṣṇu's boon
 
@@ -74,7 +74,7 @@ The **Pracetas** (Prācetasas, "the intelligent ones") are the ten sons of King 
 
 - **Bhāgavata vs. Viṣṇu Purāṇa** — The **Rudra-Gītā as a Śiva-taught hymn** is distinctively the *Bhāgavata's* contribution. The *Viṣṇu Purāṇa* (1.15) has the Pracetas practise austerity in the waters and be blessed by Viṣṇu, and gives the fullest **Kaṇḍu–Pramlocā–Māriṣā** backstory, but does not frame the theophany as Śiva singing to Viṣṇu. The two texts thus divide the material: VP owns Māriṣā's origin, the Bhāgavata owns the sectarian bridge. [scholarly]
 - **Soma as moon vs. Soma as sap/plant-lord** — Soma's double identity — the **moon-god** and the **presiding lord of vegetation/Oṣadhi** — is exactly why he is the fitting intercessor for the burning trees; the ambiguity is intentional, not a confusion. [scholarly]
-- **The "Rudra-Gītā" name-collision** — Note that other texts carry hymns also called *Rudra-Gītā* (e.g. within the *Varāha Purāṇa* and *Devī-Bhāgavata* traditions, where the sense is inverted — a song **about** or **to** Rudra). The present Rudra-Gītā is specifically **Bhāgavata Purāṇa 4.24.33–79**, a song **by** Rudra **to** Viṣṇu. Do not conflate them. [disputed]
+- **The "Rudra-Gītā" name-collision** — Note that other texts carry hymns also called *Rudra-Gītā* (e.g. within the *Varāha Purāṇa* and *Devī-Bhāgavata* traditions, where the sense is inverted — a song **about** or **to** Rudra). The present Rudra-Gītā is specifically **Bhāgavata Purāṇa 4.24.33–68**, a song **by** Rudra **to** Viṣṇu. Do not conflate them. [disputed]
 - **Placement of Dakṣa's rebirth** — The Bhāgavata narrates Dakṣa's re-emergence directly from the Pracetas–Māriṣā union (4.30) and resumes his progeny at 6.4; the Viṣṇu Purāṇa spaces it across manvantaras. Both agree it is the **same soul reborn** — the corpus catalogs this as the "second Dakṣa." [disputed]
 
 ---
@@ -95,7 +95,7 @@ The **Pracetas** (Prācetasas, "the intelligent ones") are the ten sons of King 
 ## Sources
 
 **Primary (scriptural):**
-- *Bhāgavata Purāṇa* (Śrīmad Bhāgavatam), **Canto 4 (Caturtha Skandha), chapter 24** — the Pracetas set out, Śiva rises from the lake and teaches the hymn; the **Rudra-Gītā at 4.24.33–79** (Śiva's stotra to Vāsudeva / Saṅkarṣaṇa, the Śaiva–Vaiṣṇava bridge).
+- *Bhāgavata Purāṇa* (Śrīmad Bhāgavatam), **Canto 4 (Caturtha Skandha), chapter 24** — the Pracetas set out, Śiva rises from the lake and teaches the hymn; the **Rudra-Gītā at 4.24.33–68** (Śiva's stotra to Vāsudeva / Saṅkarṣaṇa, the Śaiva–Vaiṣṇava bridge).
 - *Bhāgavata Purāṇa* **4.30** — ten thousand years of underwater austerity, Viṣṇu's darśana and boons; the earth overgrown with trees, the burning by fire and wind, Soma's intervention, the gift and marriage of **Māriṣā**, and the birth of the reborn **Dakṣa**.
 - *Bhāgavata Purāṇa* **4.31** — Nārada's concluding discourse to the Pracetas and their liberation.
 - *Bhāgavata Purāṇa* **4.25–29** — Nārada's Purañjana allegory taught to Prācīnabarhi (interleaved frame); **4.2–7** — the Dakṣa-yajña the canto later reconciles; **6.4** — the reborn Dakṣa's renewed progeny; **12.13.16** — *vaiṣṇavānāṃ yathā śambhuḥ*.
@@ -103,7 +103,7 @@ The **Pracetas** (Prācetasas, "the intelligent ones") are the ten sons of King 
 
 **Web / reference:**
 - [Śrīmad Bhāgavatam, Canto 4 — vedabase.io](https://vedabase.io/en/library/sb/4/)
-- [Rudra Gita (Bhāgavata Purāṇa 4.24) — Wikipedia](https://en.wikipedia.org/wiki/Rudra_Gita)
+- [Rudra Gita (Bhāgavata Purāṇa 4.24) — Dharmawiki](https://dharmawiki.org/index.php/Rudra_Gita_%28%E0%A4%B0%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A4%97%E0%A5%80%E0%A4%A4%E0%A4%BE%29)
 - [Prachetas — Wikipedia](https://en.wikipedia.org/wiki/Prachetas)
 - [Marisha (Pramlocha / Kandu) — Wikipedia](https://en.wikipedia.org/wiki/Pramlocha)
 - [The Story of the Pracetās — Wisdomlib (Bhāgavata Purāṇa)](https://www.wisdomlib.org/hinduism/book/the-bhagavata-purana)
