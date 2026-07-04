@@ -127,7 +127,7 @@ STRUCTURE.md                  ← skeleton + coverage tracker (every file, deep/
 - A `## Sources` section at the foot of every file lists the texts and references used.
 
 ## Status & how this was built
-- **862 files, ~2,040,000 words**, built across a multi-round research campaign (~1,400 agents total):
+- **870 files, ~2,044,000 words**, built across a multi-round research campaign (~1,400 agents total):
   cosmological spine + literature corpus → deepened epics/episodes & gap audit → per-Purāṇa story-maps →
   deepened manvantaras & long-tail tales → festivals/ācāryas/regional/Vedic → a wide completeness sweep
   (beings, weapons, celestial systems, deity forms) → an adversarial **accuracy audit (25 verified

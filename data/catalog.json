@@ -1,7 +1,7 @@
 {
  "files": 870,
  "content_files": 846,
- "total_words": 2044283,
+ "total_words": 2044292,
  "events": 7918,
  "sections": [
   "00-time-and-cosmology",
@@ -6013,7 +6013,7 @@
    "path": "AGENTS.md",
    "title": "AGENTS.md — How to Query The Hindu Timeline",
    "section": "(root)",
-   "word_count": 931,
+   "word_count": 940,
    "is_index": false
   },
   {

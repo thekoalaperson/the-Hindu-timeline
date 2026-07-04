@@ -1,7 +1,7 @@
 # AGENTS.md — How to Query *The Hindu Timeline*
 
 This repository is a large, source-cited, **chronologically-organized** knowledge base of Hindu
-mythology, cosmology, scripture, and tradition (~860 markdown files, ~2.04M words). This file tells an
+mythology, cosmology, scripture, and tradition (~870 markdown files, ~2.04M words). This file tells an
 agent (or a human) how it is organized and how to find or verify anything in **≤ 2 hops**.
 
 ---
@@ -79,6 +79,6 @@ into the other; the corpus deliberately keeps both.
 - **Cite the file path** you used (e.g. `04-deep-dives/samudra-manthana.md`) so the answer is checkable.
 
 ## 6. Maintenance (for an agent extending the corpus)
-- Tools live in the build history; the two invariant checks are: **(a)** every `.md` reachable from `README.md`, **(b)** 0 broken links (resolve every markdown link target, for files *and* dirs).
+- Tools live in **[`tools/repo_tools.py`](tools/repo_tools.py)** (`linkcheck`, `indexes`, `structure`, `timeline-check`, `timeline-insert`, `data`); the two invariant checks are: **(a)** every `.md` reachable from `README.md`, **(b)** 0 broken links (resolve every markdown link target, for files *and* dirs) — run `python3 tools/repo_tools.py linkcheck`.
 - New files: place them in the right section, give them the standard shape (H1 + breadcrumb + bullets + `## Sources`), then refresh the section's `## 📑 Full Contents` index and `STRUCTURE.md`.
 - Keep the canonical-home rule: deep treatment in one file, summaries elsewhere cross-link to it.

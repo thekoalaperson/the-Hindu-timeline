@@ -198,7 +198,7 @@ def structure():
 SECTION_OF = lambda p: p.split("/")[0]
 
 EVENT_RE = re.compile(
-    r"^- \*\*(?P<title>.+?)\*\*\s+[—-]\s+(?P<rest>.*)$"
+    r"^- \*\*(?P<title>.+?)\*\*\s+[—–-]\s+(?P<rest>.*)$"   # em-dash, en-dash, or hyphen separator
 )
 
 def build_data():
@@ -232,7 +232,9 @@ def build_data():
                 if detail_file.startswith("../"):   # store repo-root-relative for consumers
                     detail_file = detail_file[3:]
             source = None
-            sm = re.search(r"—\s*\((?P<s>.+)\)\s*(?:\[[^\]]*\]\s*)*$", rest)
+            # greedy .+ so nested parens like (Matsya (Reva-khanda)) stay intact;
+            # allow trailing reliability tags AND free text (e.g. a date) after the source paren
+            sm = re.search(r"—\s*\((?P<s>.+)\)\s*(?:\[[^\]]*\]\s*)*[^()]*$", rest)
             if sm:
                 source = sm.group("s").strip()
             # description = rest with the actors/details/source scaffolding stripped
@@ -281,6 +283,7 @@ def timeline_check(fix=False):
     """Verify per-period-file event counts (the '**N events.**' marker) and the hub's
     per-period counts + grand total. With --fix, rewrite all of them to the actual counts."""
     ok = True
+    unfixable = False
     actuals = {}
     for period, fname in PERIOD_FILES:
         rel = TIMELINE_DIR + "/" + fname
@@ -288,12 +291,17 @@ def timeline_check(fix=False):
         actual = sum(1 for l in text.splitlines() if l.startswith("- **"))
         actuals[fname] = actual
         m = re.search(r"\*\*(\d+) events\.\*\*", text)
-        claimed = int(m.group(1)) if m else -1
+        if m is None:
+            ok = False
+            unfixable = True   # can't auto-place a missing marker
+            print(f"  MISSING-MARKER: {period}: no '**N events.**' line (actual {actual})")
+            continue
+        claimed = int(m.group(1))
         status = "OK" if claimed == actual else "MISMATCH"
         if claimed != actual:
             ok = False
         print(f"  {status}: {period}: file-header {claimed}, actual {actual}")
-        if fix and m and claimed != actual:
+        if fix and claimed != actual:
             write_file(rel, text[:m.start()] + f"**{actual} events.**" + text[m.end():])
     total_actual = sum(actuals.values())
     hub = read("TIMELINE.md")
@@ -315,14 +323,24 @@ def timeline_check(fix=False):
         write_file("TIMELINE.md", hub)
         print("counts fixed")
     good = ok and hub_ok
-    return 0 if good else (0 if fix else 1)
+    if fix:
+        # after fixing, the only unresolved failure is a marker we could not place
+        return 1 if unfixable else 0
+    return 0 if good else 1
 
 def strip_key(line):
+    """Diacritic- and case-folded key — used ONLY for alpha-ish placement ordering."""
     m = re.match(r"- \*\*(.+?)\*\*", line)
     t = m.group(1) if m else line
     t = unicodedata.normalize("NFD", t)
     t = "".join(c for c in t if not unicodedata.combining(c))
     return t.lower()
+
+def dedup_key(line):
+    """Exact bold-title key — used for DEDUPE, so events that differ only in
+    diacritics or case are NOT collapsed (strip_key would wrongly merge them)."""
+    m = re.match(r"- \*\*(.+?)\*\*", line)
+    return m.group(1) if m else line.strip()
 
 def timeline_insert(json_path):
     """json: list of {"period": "<exact period title>", "line": "- **Event** — ... [details](section/slug.md) ..."}.
@@ -346,24 +364,25 @@ def timeline_insert(json_path):
         text = read(rel)
         lines = text.splitlines()
         bullets = [i for i, l in enumerate(lines) if l.startswith("- **")]
-        existing = {strip_key(lines[i]) for i in bullets}
+        existing = {dedup_key(lines[i]) for i in bullets}   # exact-title dedupe
         # bullet region bounds (fall back to just after the first '---' if a file were empty)
         bstart = bullets[0] if bullets else next(i for i, l in enumerate(lines) if l.strip() == "---") + 1
         bend = (bullets[-1] + 1) if bullets else bstart
         for line in newlines:
-            key = strip_key(line)
-            if key in existing:
+            dk = dedup_key(line)
+            if dk in existing:
                 dup += 1
                 continue
+            sort_key = strip_key(line)
             insert_at = None
             for i in range(bstart, bend):
-                if lines[i].startswith("- **") and strip_key(lines[i]) > key:
+                if lines[i].startswith("- **") and strip_key(lines[i]) > sort_key:
                     insert_at = i
                     break
             if insert_at is None:
                 insert_at = bend
             lines.insert(insert_at, line)
-            existing.add(key)
+            existing.add(dk)
             bend += 1
             inserted += 1
         write_file(rel, "\n".join(lines) + ("\n" if text.endswith("\n") else ""))
