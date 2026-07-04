@@ -2,20 +2,19 @@
 
 > The living map of *The Hindu Timeline*: every file, its depth, and what to build next. Regenerated from the actual tree. Back to the [master index](README.md).
 
-**Totals:** 862 files · ~2,044,197 words · 2 stubs · 0 broken internal links (file & dir verified).
+**Totals:** 861 files · ~2,043,347 words · 2 stubs · 0 broken internal links (file & dir verified).
 
 **Legend:** 🟩 deep · 🟨 stub/sparse.
 
 ---
 
 
-## Root apparatus  (6 files)
+## Root apparatus  (5 files)
 
 - 🟩 [`AGENTS.md`](AGENTS.md) · 888w
-- 🟩 [`HANDOFF.md`](HANDOFF.md) · 916w
-- [`README.md`](README.md) · 1576w
+- [`README.md`](README.md) · 1603w
 - 🟩 [`SOURCES.md`](SOURCES.md) · 774w
-- 🟩 [`STRUCTURE.md`](STRUCTURE.md) · 4479w
+- 🟩 [`STRUCTURE.md`](STRUCTURE.md) · 4518w
 - 🟩 [`TIMELINE.md`](TIMELINE.md) · 340128w
 
 ## 00-time-and-cosmology  (16 files)
@@ -911,9 +910,6 @@
 
 ## Next-step TODO (running)
 
-- **Round 6 in progress — see [HANDOFF.md](HANDOFF.md)** for full state and instructions.
-- Write the 130 pending files in [tools/round6-pending-items.json](tools/round6-pending-items.json) (priority-ordered), inserting their TIMELINE events per HANDOFF §2-3.
-- Extract TIMELINE events for 02-deities-and-cosmic-hierarchy/theyyam-deities-and-thottam-myths.md.
-- Build the data/ machine-readable layer; split TIMELINE.md into timeline/ per-period files (HANDOFF §4).
-- Verification pass over all round-6 files; final README refresh; delete HANDOFF.md when done.
-- Re-run tools/repo_tools.py (indexes, structure, linkcheck, timeline-check) after every batch (invariants: every file reachable, 0 broken links).
+- **Round 6 complete.** The 130-item source-inventory write queue is fully landed (129 files + the merged tejaji node), the Theyyam and Chandra-Tāl TIMELINE events are in, the `data/` machine-readable layer is built, and every round-6 file has passed an adversarial verification pass (208 findings → ~180 verified corrections). Invariants hold: 0 broken links, TIMELINE counts consistent, shape-check clean.
+- **Optional structure work still open (not required for correctness):** split `TIMELINE.md` (~270k words) into `timeline/<nn>-<period>.md` per-period files with `TIMELINE.md` as the hub — a large link-rewriting refactor; the format decision stands (**stay Markdown**, no OpenDocument).
+- Re-run `python3 tools/repo_tools.py` (indexes, structure, linkcheck, timeline-check, data) after every batch (invariants: every file reachable from README, 0 broken links, TIMELINE counts consistent).

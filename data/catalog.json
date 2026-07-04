@@ -1,7 +1,7 @@
 {
- "files": 862,
- "content_files": 838,
- "total_words": 2044197,
+ "files": 861,
+ "content_files": 837,
+ "total_words": 2043342,
  "events": 7918,
  "sections": [
   "00-time-and-cosmology",
@@ -6017,17 +6017,10 @@
    "is_index": false
   },
   {
-   "path": "HANDOFF.md",
-   "title": "HANDOFF — Round-6 \"Full One-Over\" (state & pending work)",
-   "section": "(root)",
-   "word_count": 916,
-   "is_index": false
-  },
-  {
    "path": "README.md",
    "title": "The Hindu Timeline",
    "section": "(root)",
-   "word_count": 1576,
+   "word_count": 1603,
    "is_index": true
   },
   {
@@ -6041,7 +6034,7 @@
    "path": "STRUCTURE.md",
    "title": "STRUCTURE — Skeleton & Coverage Tracker",
    "section": "(root)",
-   "word_count": 4479,
+   "word_count": 4513,
    "is_index": false
   },
   {
