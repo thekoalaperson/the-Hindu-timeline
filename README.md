@@ -46,13 +46,13 @@ a Mahāyuga has **four** yugas (Satya, Tretā, Dvāpara, Kali), not five.
 09-artifacts-symbols-and-arts/ ← weapons, objects, vāhanas, the 64 arts, sacred symbols
 90-literature-corpus/         ← the texts that RECORD all of the above, mapped back to events
    90-…/puranas/              ← per-text story-maps for all 18 Mahāpurāṇas + Upapurāṇas
-TIMELINE.md                   ← ⭐ flat chronological index of 6,015 events, each linked to its file
+TIMELINE.md                   ← ⭐ flat chronological index of 7,918 events, each linked to its file
 AGENTS.md                     ← how to query this corpus (for agents & humans)
 SOURCES.md                    ← light consolidated bibliography
 STRUCTURE.md                  ← skeleton + coverage tracker (every file, deep/stub, what's next)
 ```
 
-> ⭐ **Want the whole story in order?** [**TIMELINE.md**](TIMELINE.md) lists 6,015 recorded events sorted
+> ⭐ **Want the whole story in order?** [**TIMELINE.md**](TIMELINE.md) lists 7,918 recorded events sorted
 > on the cosmic clock — Creation → earlier Manvantaras → Satya → Tretā → Dvāpara → Kali → the Future — each
 > linking to its detailed file. It's the single best entry point for "what happened, and when".
 
@@ -123,7 +123,7 @@ STRUCTURE.md                  ← skeleton + coverage tracker (every file, deep/
 - A `## Sources` section at the foot of every file lists the texts and references used.
 
 ## Status & how this was built
-- **631 files, ~1,390,000 words**, built across a multi-round research campaign (~1,200 agents total):
+- **862 files, ~2,040,000 words**, built across a multi-round research campaign (~1,400 agents total):
   cosmological spine + literature corpus → deepened epics/episodes & gap audit → per-Purāṇa story-maps →
   deepened manvantaras & long-tail tales → festivals/ācāryas/regional/Vedic → a wide completeness sweep
   (beings, weapons, celestial systems, deity forms) → an adversarial **accuracy audit (25 verified
@@ -135,8 +135,13 @@ STRUCTURE.md                  ← skeleton + coverage tracker (every file, deep/
   (all principal Upaniṣads, the Kūrma & Mohinī avatāras, the great Sahasranāmas & Śrī Rudram, Arunachala,
   Vaishno Devi, the Vārkarī & grāmadevatā traditions, …) → a final tail-sweep (more stotras, minor
   Upaniṣads, the Ṛgvedic rishikās, citra-kalā, Udupi, the Pañcārāma kṣetras) → a **full TIMELINE
-  re-extraction (6,015 events)**. Five successive discovery sweeps drove the major-gap count 201 → 24 → 9 → 0 (only
-  promotions/minors remain), the working definition of convergence for an unbounded corpus.
+  re-extraction** → a **round-6 completeness drive** that diffed the corpus against actual source-text
+  story-inventories (Mahābhārata upākhyānas, Bhāgavata episodes, the Kathāsaritsāgara cycle, Brāhmaṇa
+  legends, vrata-māhātmyas, the Yoga-Vāsiṣṭha tales, Nāth/folk/regional deities, …) and closed the queue
+  with **~130 new source-cited files** (each adversarially verified for citations, variants, and
+  cross-links), bringing the TIMELINE to **7,918 events**. Five successive discovery sweeps drove the
+  major-gap count 201 → 24 → 9 → 0 (only promotions/minors remain), the working definition of convergence
+  for an unbounded corpus.
 - **Invariants (verified):** every file is reachable from this index, and **0 broken internal links**
   (files *and* directories checked), **0 orphans**. Every section folder carries a complete auto-generated index.
 - The current Manvantara, its four yugas, the two epics (kāṇḍa-/parva-by-parva), the major deity
