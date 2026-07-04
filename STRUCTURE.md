@@ -2,7 +2,7 @@
 
 > The living map of *The Hindu Timeline*: every file, its depth, and what to build next. Regenerated from the actual tree. Back to the [master index](README.md).
 
-**Totals:** 861 files · ~2,043,347 words · 2 stubs · 0 broken internal links (file & dir verified).
+**Totals:** 870 files · ~2,044,234 words · 2 stubs · 0 broken internal links (file & dir verified).
 
 **Legend:** 🟩 deep · 🟨 stub/sparse.
 
@@ -11,11 +11,11 @@
 
 ## Root apparatus  (5 files)
 
-- 🟩 [`AGENTS.md`](AGENTS.md) · 888w
-- [`README.md`](README.md) · 1603w
+- 🟩 [`AGENTS.md`](AGENTS.md) · 931w
+- [`README.md`](README.md) · 1652w
 - 🟩 [`SOURCES.md`](SOURCES.md) · 774w
-- 🟩 [`STRUCTURE.md`](STRUCTURE.md) · 4518w
-- 🟩 [`TIMELINE.md`](TIMELINE.md) · 340128w
+- 🟩 [`STRUCTURE.md`](STRUCTURE.md) · 4519w
+- 🟩 [`TIMELINE.md`](TIMELINE.md) · 353w
 
 ## 00-time-and-cosmology  (16 files)
 
@@ -906,10 +906,22 @@
 - 🟩 [`90-literature-corpus/yajnas-and-vedic-rituals.md`](90-literature-corpus/yajnas-and-vedic-rituals.md) · 2310w
 - 🟩 [`90-literature-corpus/yoga-vasishtha.md`](90-literature-corpus/yoga-vasishtha.md) · 2356w
 
+## timeline  (9 files)
+
+- 🟩 [`timeline/00-before-time.md`](timeline/00-before-time.md) · 20345w
+- 🟩 [`timeline/01-earlier-manvantaras.md`](timeline/01-earlier-manvantaras.md) · 23498w
+- 🟩 [`timeline/02-satya-yuga.md`](timeline/02-satya-yuga.md) · 13870w
+- 🟩 [`timeline/03-treta-yuga.md`](timeline/03-treta-yuga.md) · 49521w
+- 🟩 [`timeline/04-dvapara-yuga.md`](timeline/04-dvapara-yuga.md) · 72099w
+- 🟩 [`timeline/05-kali-yuga-scriptural.md`](timeline/05-kali-yuga-scriptural.md) · 21456w
+- 🟩 [`timeline/06-kali-yuga-history.md`](timeline/06-kali-yuga-history.md) · 65778w
+- 🟩 [`timeline/07-future-manvantaras.md`](timeline/07-future-manvantaras.md) · 2538w
+- 🟩 [`timeline/08-cross-yuga.md`](timeline/08-cross-yuga.md) · 71464w
+
 ---
 
 ## Next-step TODO (running)
 
 - **Round 6 complete.** The 130-item source-inventory write queue is fully landed (129 files + the merged tejaji node), the Theyyam and Chandra-Tāl TIMELINE events are in, the `data/` machine-readable layer is built, and every round-6 file has passed an adversarial verification pass (208 findings → ~180 verified corrections). Invariants hold: 0 broken links, TIMELINE counts consistent, shape-check clean.
-- **Optional structure work still open (not required for correctness):** split `TIMELINE.md` (~270k words) into `timeline/<nn>-<period>.md` per-period files with `TIMELINE.md` as the hub — a large link-rewriting refactor; the format decision stands (**stay Markdown**, no OpenDocument).
+- **TIMELINE split done.** `TIMELINE.md` is now a compact hub linking the nine per-period files in `timeline/` (`00-before-time.md` … `08-cross-yuga.md`); events carry a `../` detail-link prefix, and `tools/repo_tools.py` (timeline-check / timeline-insert / data) maintains the split. Format decision stands: **Markdown**, no OpenDocument.
 - Re-run `python3 tools/repo_tools.py` (indexes, structure, linkcheck, timeline-check, data) after every batch (invariants: every file reachable from README, 0 broken links, TIMELINE counts consistent).

@@ -46,15 +46,19 @@ a Mahāyuga has **four** yugas (Satya, Tretā, Dvāpara, Kali), not five.
 09-artifacts-symbols-and-arts/ ← weapons, objects, vāhanas, the 64 arts, sacred symbols
 90-literature-corpus/         ← the texts that RECORD all of the above, mapped back to events
    90-…/puranas/              ← per-text story-maps for all 18 Mahāpurāṇas + Upapurāṇas
-TIMELINE.md                   ← ⭐ flat chronological index of 7,918 events, each linked to its file
+TIMELINE.md                   ← ⭐ the chronological index HUB (7,918 events), links the 9 per-period files
+   timeline/                  ← the events themselves, one file per period (00-before-time … 08-cross-yuga)
+data/                         ← machine-readable layer: events.jsonl (all events) + catalog.json (file inventory)
 AGENTS.md                     ← how to query this corpus (for agents & humans)
 SOURCES.md                    ← light consolidated bibliography
 STRUCTURE.md                  ← skeleton + coverage tracker (every file, deep/stub, what's next)
 ```
 
-> ⭐ **Want the whole story in order?** [**TIMELINE.md**](TIMELINE.md) lists 7,918 recorded events sorted
-> on the cosmic clock — Creation → earlier Manvantaras → Satya → Tretā → Dvāpara → Kali → the Future — each
-> linking to its detailed file. It's the single best entry point for "what happened, and when".
+> ⭐ **Want the whole story in order?** [**TIMELINE.md**](TIMELINE.md) is the hub: it links **nine
+> per-period files** in [`timeline/`](timeline/) holding all 7,918 events on the cosmic clock —
+> Creation → earlier Manvantaras → Satya → Tretā → Dvāpara → Kali → the Future, plus the timeless
+> cross-yuga cycles — each entry linking to its detailed file. It's the single best entry point for
+> "what happened, and when". (For programmatic use, [`data/events.jsonl`](data/events.jsonl) has every event as JSON.)
 
 ### 00 · [Time & Cosmology](00-time-and-cosmology/README.md) — *how the clock works*
 - [Units of Cyclic Time](00-time-and-cosmology/units-of-time.md) — truti → … → year → yuga; human:divine 360 ratio

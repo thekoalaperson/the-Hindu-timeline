@@ -5,9 +5,13 @@ Subcommands:
   linkcheck   - verify every markdown link target (files & dirs) resolves
   indexes     - regenerate the '## 📑 Full Contents' block in each top-level section README
   structure   - regenerate STRUCTURE.md (file tree, word counts, stub flags, totals)
-  timeline-check - verify TIMELINE.md event counts (header + per-section)
-  timeline-insert F.json - insert [{period, line}] events, alpha-ish placement, auto-fix counts
+  timeline-check - verify event counts in the 9 timeline/ period files + the TIMELINE.md hub
+  timeline-insert F.json - route [{period, line}] events to timeline/<period>.md (adds ../ link
+                           prefix), alpha-ish placement, dedupe by title, auto-fix all counts
   data        - regenerate the machine-readable layer (data/events.jsonl, data/catalog.json)
+
+TIMELINE layout: TIMELINE.md is a compact hub; the events live in nine per-period files under
+timeline/ (00-before-time.md … 08-cross-yuga.md). Event detail links carry a ../ prefix.
 """
 import os, re, sys, unicodedata
 
@@ -18,6 +22,30 @@ SECTIONS = [
     "06-sacred-geography", "07-acharyas-and-sampradayas", "08-beings-and-bestiary",
     "09-artifacts-symbols-and-arts", "90-literature-corpus",
 ]
+
+# --- TIMELINE split layout: a hub (TIMELINE.md) + nine per-period files in timeline/ ---
+TIMELINE_DIR = "timeline"
+PERIOD_FILES = [
+    ("Before Time — Cosmogony & the First Creation", "00-before-time.md"),
+    ("The Earlier Manvantaras (1–6) & Primordial Reigns", "01-earlier-manvantaras.md"),
+    ("Satya (Kṛta) Yuga — current 28th Mahāyuga", "02-satya-yuga.md"),
+    ("Tretā Yuga", "03-treta-yuga.md"),
+    ("Dvāpara Yuga", "04-dvapara-yuga.md"),
+    ("Kali Yuga — Scriptural & Prophetic", "05-kali-yuga-scriptural.md"),
+    ("Kali Yuga — Documented History", "06-kali-yuga-history.md"),
+    ("The Future Manvantaras (8–14) & the End", "07-future-manvantaras.md"),
+    ("Cross-Yuga & Recurring Myths", "08-cross-yuga.md"),
+]
+PERIOD_TO_FILE = {t: TIMELINE_DIR + "/" + f for t, f in PERIOD_FILES}
+_DOTDOT_RE = re.compile(r"\]\((?!\.\./|https?://|#|mailto:|/)([^)]+)\)")
+
+def _add_dotdot(line):
+    """Prepend ../ to root-relative markdown links (events live one dir deep in timeline/)."""
+    return _DOTDOT_RE.sub(lambda m: "](../" + m.group(1) + ")", line)
+
+def write_file(rel, text):
+    with open(os.path.join(ROOT, rel), "w", encoding="utf-8") as fh:
+        fh.write(text)
 STUB_WORDS = 300
 
 def all_md():
@@ -145,7 +173,9 @@ def structure():
     for f in root_files:
         body.append(entry(f, 0))
     body.append("")
-    for sec in SECTIONS:
+    for sec in SECTIONS + [TIMELINE_DIR]:
+        if not os.path.isdir(os.path.join(ROOT, sec)):
+            continue
         sfiles = sorted(os.path.join(sec, x) for x in section_files(sec))
         body.append(f"## {sec}  ({len(sfiles)} files)\n")
         for f in sfiles:
@@ -177,50 +207,47 @@ def build_data():
     import json as _json
     os.makedirs(os.path.join(ROOT, "data"), exist_ok=True)
 
-    # --- events.jsonl (one JSON object per TIMELINE bullet) ---
-    text = read("TIMELINE.md")
-    period = None
-    sec_re = re.compile(r"^## (.+?)  ·  \d+ events$")
+    # --- events.jsonl (one JSON object per timeline bullet, across the 9 period files) ---
     events = []
-    for ln in text.splitlines():
-        m = sec_re.match(ln)
-        if m:
-            period = m.group(1)
+    for period, fname in PERIOD_FILES:
+        rel = TIMELINE_DIR + "/" + fname
+        if not os.path.exists(os.path.join(ROOT, rel)):
             continue
-        if not ln.startswith("- **"):
-            continue
-        em = EVENT_RE.match(ln)
-        if not em:
-            continue
-        title = em.group("title").strip()
-        rest = em.group("rest").strip()
-        actors = []
-        am = re.search(r"_\(actors:\s*(.+?)\)_", rest)
-        if am:
-            actors = [a.strip() for a in re.split(r",\s*", am.group(1)) if a.strip()]
-        detail_file = None
-        dm = re.search(r"\[details\]\(([^)]+)\)", rest)
-        if dm:
-            detail_file = dm.group(1).split("#")[0]
-        source = None
-        sm = re.search(r"—\s*\((?P<s>.+)\)\s*(?:\[[^\]]*\]\s*)*$", rest)
-        if sm:
-            source = sm.group("s").strip()
-        if sm:
-            source = sm.group(1).strip()
-        # description = rest with the actors/details/source scaffolding stripped
-        desc = rest
-        desc = re.sub(r"\s*_\(actors:.+?\)_", "", desc)
-        desc = re.sub(r"\s*→?\s*\[details\]\([^)]+\).*$", "", desc)
-        desc = desc.strip(" —-→")
-        events.append({
-            "title": title,
-            "description": desc,
-            "actors": actors,
-            "period": period,
-            "source": source,
-            "detail_file": detail_file,
-        })
+        for ln in read(rel).splitlines():
+            if not ln.startswith("- **"):
+                continue
+            em = EVENT_RE.match(ln)
+            if not em:
+                continue
+            title = em.group("title").strip()
+            rest = em.group("rest").strip()
+            actors = []
+            am = re.search(r"_\(actors:\s*(.+?)\)_", rest)
+            if am:
+                actors = [a.strip() for a in re.split(r",\s*", am.group(1)) if a.strip()]
+            detail_file = None
+            dm = re.search(r"\[details\]\(([^)]+)\)", rest)
+            if dm:
+                detail_file = dm.group(1).split("#")[0]
+                if detail_file.startswith("../"):   # store repo-root-relative for consumers
+                    detail_file = detail_file[3:]
+            source = None
+            sm = re.search(r"—\s*\((?P<s>.+)\)\s*(?:\[[^\]]*\]\s*)*$", rest)
+            if sm:
+                source = sm.group("s").strip()
+            # description = rest with the actors/details/source scaffolding stripped
+            desc = rest
+            desc = re.sub(r"\s*_\(actors:.+?\)_", "", desc)
+            desc = re.sub(r"\s*→?\s*\[details\]\([^)]+\).*$", "", desc)
+            desc = desc.strip(" —-→")
+            events.append({
+                "title": title,
+                "description": desc,
+                "actors": actors,
+                "period": period,
+                "source": source,
+                "detail_file": detail_file,
+            })
     with open(os.path.join(ROOT, "data", "events.jsonl"), "w", encoding="utf-8") as fh:
         for e in events:
             fh.write(_json.dumps(e, ensure_ascii=False) + "\n")
@@ -251,43 +278,44 @@ def build_data():
     print(f"data/events.jsonl: {len(events)} events · data/catalog.json: {len(catalog)} files, ~{total_words:,} words")
 
 def timeline_check(fix=False):
-    text = read("TIMELINE.md")
-    lines = text.splitlines()
-    sec_re = re.compile(r"^## (.+?)  ·  (\d+) events$")
-    counts, cur, name = {}, 0, None
-    order = []
-    for ln in lines:
-        m = sec_re.match(ln)
-        if m:
-            if name is not None:
-                counts[name] = (counts[name][0], cur)
-            name = m.group(1)
-            counts[name] = (int(m.group(2)), 0)
-            order.append(name)
-            cur = 0
-        elif ln.startswith("- **") and name is not None:
-            cur += 1
-    if name is not None:
-        counts[name] = (counts[name][0], cur)
-    total_claimed = int(re.search(r"\*\*(\d+) distinct events\*\*", text).group(1))
-    total_actual = sum(v[1] for v in counts.values())
+    """Verify per-period-file event counts (the '**N events.**' marker) and the hub's
+    per-period counts + grand total. With --fix, rewrite all of them to the actual counts."""
     ok = True
-    for n in order:
-        c, a = counts[n]
-        status = "OK" if c == a else "MISMATCH"
-        if c != a:
+    actuals = {}
+    for period, fname in PERIOD_FILES:
+        rel = TIMELINE_DIR + "/" + fname
+        text = read(rel)
+        actual = sum(1 for l in text.splitlines() if l.startswith("- **"))
+        actuals[fname] = actual
+        m = re.search(r"\*\*(\d+) events\.\*\*", text)
+        claimed = int(m.group(1)) if m else -1
+        status = "OK" if claimed == actual else "MISMATCH"
+        if claimed != actual:
             ok = False
-        print(f"  {status}: {n}: header {c}, actual {a}")
-    print(f"total: header {total_claimed}, actual {total_actual}")
-    if fix and (not ok or total_claimed != total_actual):
-        for n in order:
-            c, a = counts[n]
-            text = text.replace(f"## {n}  ·  {c} events", f"## {n}  ·  {a} events")
-        text = re.sub(r"\*\*\d+ distinct events\*\*", f"**{total_actual} distinct events**", text)
-        with open(os.path.join(ROOT, "TIMELINE.md"), "w", encoding="utf-8") as fh:
-            fh.write(text)
+        print(f"  {status}: {period}: file-header {claimed}, actual {actual}")
+        if fix and m and claimed != actual:
+            write_file(rel, text[:m.start()] + f"**{actual} events.**" + text[m.end():])
+    total_actual = sum(actuals.values())
+    hub = read("TIMELINE.md")
+    hub_ok = True
+    for period, fname in PERIOD_FILES:
+        hm = re.search(r"\(timeline/" + re.escape(fname) + r"\)\*\*[^\n]*?\*\*(\d+) events\*\*", hub)
+        if hm:
+            if int(hm.group(1)) != actuals[fname]:
+                hub_ok = False
+                if fix:
+                    hub = hub[:hm.start(1)] + str(actuals[fname]) + hub[hm.end(1):]
+    tm = re.search(r"\*\*(\d+) distinct events\*\*", hub)
+    total_claimed = int(tm.group(1)) if tm else -1
+    if total_claimed != total_actual:
+        hub_ok = False
+    print(f"total: hub {total_claimed}, actual {total_actual}")
+    if fix and not hub_ok:
+        hub = re.sub(r"\*\*\d+ distinct events\*\*", f"**{total_actual} distinct events**", hub)
+        write_file("TIMELINE.md", hub)
         print("counts fixed")
-    return 0 if ok and total_claimed == total_actual else (0 if fix else 1)
+    good = ok and hub_ok
+    return 0 if good else (0 if fix else 1)
 
 def strip_key(line):
     m = re.match(r"- \*\*(.+?)\*\*", line)
@@ -297,67 +325,48 @@ def strip_key(line):
     return t.lower()
 
 def timeline_insert(json_path):
-    """json: list of {"period": "<exact section title>", "line": "- **Event** — ..."}"""
+    """json: list of {"period": "<exact period title>", "line": "- **Event** — ... [details](section/slug.md) ..."}.
+    Routes each event to its timeline/<period>.md file, adds the ../ link prefix, alpha-inserts,
+    dedupes by bold title, then fixes all counts. Event `line` uses repo-root-relative details paths."""
     import json as _json
     with open(json_path, encoding="utf-8") as fh:
         events = _json.load(fh)
-    text = read("TIMELINE.md")
-    lines = text.splitlines()
-    sec_re = re.compile(r"^## (.+?)  ·  (\d+) events$")
-    # map section name -> (start_idx, end_idx) of its bullet region
-    secs = {}
-    cur = None
-    for i, ln in enumerate(lines):
-        m = sec_re.match(ln)
-        if m:
-            cur = m.group(1)
-            secs[cur] = [i, len(lines)]
-        elif cur and ln.startswith("## "):
-            pass
-    names = list(secs.keys())
-    for j, n in enumerate(names):
-        end = secs[names[j + 1]][0] if j + 1 < len(names) else len(lines)
-        secs[n][1] = end
-    inserted, skipped, dup = 0, [], 0
-    existing_keys = {strip_key(l) for l in lines if l.startswith("- **")}
+    by_file, skipped = {}, []
     for ev in events:
         period, line = ev["period"], ev["line"].rstrip()
-        if period not in secs:
+        if period not in PERIOD_TO_FILE:
             skipped.append(f"unknown period: {period!r} for {line[:60]}")
             continue
         if not line.startswith("- **"):
             skipped.append(f"bad line format: {line[:60]}")
             continue
-        if strip_key(line) in existing_keys:
-            dup += 1
-            continue
-        start, end = secs[period]
-        key = strip_key(line)
-        pos = end
-        # skip trailing blank lines of the region
-        while pos > start and (pos - 1 >= len(lines) or not lines[pos - 1].startswith("- **")):
-            pos -= 1
-            if pos <= start:
-                break
-        insert_at = None
-        for i in range(start, end):
-            if lines[i].startswith("- **") and strip_key(lines[i]) > key:
-                insert_at = i
-                break
-        if insert_at is None:
-            last_bullet = max((i for i in range(start, end) if lines[i].startswith("- **")), default=None)
-            insert_at = (last_bullet + 1) if last_bullet is not None else start + 4
-        lines.insert(insert_at, line)
-        existing_keys.add(key)
-        # shift all section boundaries after insert
-        for n in names:
-            if secs[n][0] >= insert_at:
-                secs[n][0] += 1
-            if secs[n][1] >= insert_at:
-                secs[n][1] += 1
-        inserted += 1
-    with open(os.path.join(ROOT, "TIMELINE.md"), "w", encoding="utf-8") as fh:
-        fh.write("\n".join(lines) + ("\n" if text.endswith("\n") else ""))
+        by_file.setdefault(PERIOD_TO_FILE[period], []).append(_add_dotdot(line))
+    inserted, dup = 0, 0
+    for rel, newlines in by_file.items():
+        text = read(rel)
+        lines = text.splitlines()
+        bullets = [i for i, l in enumerate(lines) if l.startswith("- **")]
+        existing = {strip_key(lines[i]) for i in bullets}
+        # bullet region bounds (fall back to just after the first '---' if a file were empty)
+        bstart = bullets[0] if bullets else next(i for i, l in enumerate(lines) if l.strip() == "---") + 1
+        bend = (bullets[-1] + 1) if bullets else bstart
+        for line in newlines:
+            key = strip_key(line)
+            if key in existing:
+                dup += 1
+                continue
+            insert_at = None
+            for i in range(bstart, bend):
+                if lines[i].startswith("- **") and strip_key(lines[i]) > key:
+                    insert_at = i
+                    break
+            if insert_at is None:
+                insert_at = bend
+            lines.insert(insert_at, line)
+            existing.add(key)
+            bend += 1
+            inserted += 1
+        write_file(rel, "\n".join(lines) + ("\n" if text.endswith("\n") else ""))
     print(f"inserted {inserted}, duplicates skipped {dup}, errors {len(skipped)}")
     for s in skipped:
         print("  " + s)

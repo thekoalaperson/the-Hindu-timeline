@@ -1,7 +1,7 @@
 {
- "files": 861,
- "content_files": 837,
- "total_words": 2043342,
+ "files": 870,
+ "content_files": 846,
+ "total_words": 2044283,
  "events": 7918,
  "sections": [
   "00-time-and-cosmology",
@@ -6013,14 +6013,14 @@
    "path": "AGENTS.md",
    "title": "AGENTS.md — How to Query The Hindu Timeline",
    "section": "(root)",
-   "word_count": 888,
+   "word_count": 931,
    "is_index": false
   },
   {
    "path": "README.md",
    "title": "The Hindu Timeline",
    "section": "(root)",
-   "word_count": 1603,
+   "word_count": 1652,
    "is_index": true
   },
   {
@@ -6034,14 +6034,77 @@
    "path": "STRUCTURE.md",
    "title": "STRUCTURE — Skeleton & Coverage Tracker",
    "section": "(root)",
-   "word_count": 4513,
+   "word_count": 4568,
    "is_index": false
   },
   {
    "path": "TIMELINE.md",
-   "title": "TIMELINE — The Flat Chronological Index",
+   "title": "TIMELINE — The Cosmic-Clock Index (hub)",
    "section": "(root)",
-   "word_count": 340128,
+   "word_count": 353,
+   "is_index": false
+  },
+  {
+   "path": "timeline/00-before-time.md",
+   "title": "TIMELINE · Before Time — Cosmogony & the First Creation",
+   "section": "timeline",
+   "word_count": 20345,
+   "is_index": false
+  },
+  {
+   "path": "timeline/01-earlier-manvantaras.md",
+   "title": "TIMELINE · The Earlier Manvantaras (1–6) & Primordial Reigns",
+   "section": "timeline",
+   "word_count": 23498,
+   "is_index": false
+  },
+  {
+   "path": "timeline/02-satya-yuga.md",
+   "title": "TIMELINE · Satya (Kṛta) Yuga — current 28th Mahāyuga",
+   "section": "timeline",
+   "word_count": 13870,
+   "is_index": false
+  },
+  {
+   "path": "timeline/03-treta-yuga.md",
+   "title": "TIMELINE · Tretā Yuga",
+   "section": "timeline",
+   "word_count": 49521,
+   "is_index": false
+  },
+  {
+   "path": "timeline/04-dvapara-yuga.md",
+   "title": "TIMELINE · Dvāpara Yuga",
+   "section": "timeline",
+   "word_count": 72099,
+   "is_index": false
+  },
+  {
+   "path": "timeline/05-kali-yuga-scriptural.md",
+   "title": "TIMELINE · Kali Yuga — Scriptural & Prophetic",
+   "section": "timeline",
+   "word_count": 21456,
+   "is_index": false
+  },
+  {
+   "path": "timeline/06-kali-yuga-history.md",
+   "title": "TIMELINE · Kali Yuga — Documented History",
+   "section": "timeline",
+   "word_count": 65778,
+   "is_index": false
+  },
+  {
+   "path": "timeline/07-future-manvantaras.md",
+   "title": "TIMELINE · The Future Manvantaras (8–14) & the End",
+   "section": "timeline",
+   "word_count": 2538,
+   "is_index": false
+  },
+  {
+   "path": "timeline/08-cross-yuga.md",
+   "title": "TIMELINE · Cross-Yuga & Recurring Myths",
+   "section": "timeline",
+   "word_count": 71464,
    "is_index": false
   }
  ]

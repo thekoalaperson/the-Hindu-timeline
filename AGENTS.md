@@ -46,7 +46,7 @@ the canonical home; the others summarize and link to it.
 1. Start at **[`README.md`](README.md)** — the master index with the "you are here" address and links to every section.
 2. Open the relevant **section `README.md`** — each ends with an auto-generated **`## 📑 Full Contents`** block that links **every** file in that section (so nothing is hidden).
 3. Or jump straight to **[`STRUCTURE.md`](STRUCTURE.md)** — a flat list of *all* files with word counts and deep/stub flags.
-4. For **"what happened and when"**, use **[`TIMELINE.md`](TIMELINE.md)** — all 7,918 events sorted on the cosmic clock (Creation → Manvantaras → Satya → Tretā → Dvāpara → Kali → Future), each linked to its detail file.
+4. For **"what happened and when"**, start at the **[`TIMELINE.md`](TIMELINE.md)** hub — it links **nine per-period files** in **[`timeline/`](timeline/)** (`00-before-time.md` … `08-cross-yuga.md`) holding all 7,918 events on the cosmic clock (Creation → Manvantaras → Satya → Tretā → Dvāpara → Kali → Future → cross-yuga), each linked to its detail file. Events sit one level deep, so their detail links carry a `../` prefix. For programmatic access, **[`data/events.jsonl`](data/events.jsonl)** carries every event as JSON (`title, description, actors[], period, source, detail_file`).
 
 **Invariant:** every file is reachable from `README.md`, and there are **0 broken internal links**
 (files and directories). If you add a file, append it to its section index (or re-run the indexer) and
