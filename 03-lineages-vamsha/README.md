@@ -42,17 +42,21 @@ Many dynastic king-tales have their canonical home among the deep-dives; this se
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 19 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 23 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Anaraṇya — The Ikṣvāku King Whose Curse Dooms Rāvaṇa](anaranya-ravana-curse.md)
 - 🟩 [Devāpi: The Renounced Prince, Rain-Bringing Purohita, and Immortal Restorer of the Lunar Dynasty](devapi.md)
+- 🟩 [Ekavīra and Ekāvalī — the origin of the Haihaya dynasty](ekavira-ekavali-haihaya-origin.md)
 - 🟩 [Gādhi and the Caru-Swap — Birth of the Kuśika and Bhārgava Lines](gadhi-and-the-caru-swap.md)
+- 🟩 [Ilā / Sudyumna — the gender-shifting hinge of the Lunar dynasty](ila-sudyumna.md)
 - 🟩 [Jahnu — Sage-King and Eponym of Jāhnavī (Gaṅgā)](jahnu.md)
 - 🟩 [Janamejaya and the Sarpa-Satra (Snake Sacrifice)](janamejaya-sarpa-satra.md)
 - 🟩 [Jyāmagha — the Henpecked King and the Bride for the Unborn Son](jyamagha.md)
 - 🟩 [The Kāśī Line — Divodāsa, Pratardana, Alarka & Śiva's Exile from Kāśī](kashi-line-divodasa.md)
 - 🟩 [Kuru — Eponymous Founder of the Kuru Dynasty](kuru-the-eponym.md)
 - 🟩 [Kuśanābha's Hundred Daughters, Vāyu's Wrath, and the Birth of Brahmadatta](kushanabha-daughters-and-brahmadatta.md)
+- 🟩 [The Vaivasvata king-tales of the Mārkaṇḍeya — Rājyavardhana, Nābhāga, Vatsaprī, Khanitra](markandeya-vaivasvata-king-tales.md)
+- 🟩 [Nimi and Vasiṣṭha's mutual curse — the bodiless king and the origin of blinking](nimi-vasishtha-mutual-curse.md)
 - 🟩 [Parīkṣit — First King of Kali and the Śṛṅgī Curse](parikshit.md)
 - 🟩 [The Raghuvaṃśa Kings — Dilīpa, Raghu, Aja](raghuvamsha-kalidasa-kings.md)
 - 🟩 [Raji and His Sons — The Usurpation of Indra's Throne](raji-and-his-sons.md)

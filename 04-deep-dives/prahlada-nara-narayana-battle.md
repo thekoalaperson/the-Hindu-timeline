@@ -1,0 +1,79 @@
+# Prahlāda's battle with Nara-Nārāyaṇa at Badarī
+
+> Where this sits: the humbling of the **greatest asura devotee** — Prahlāda, model *bhakta* of the [Narasiṃha](./prahlada-narasimha.md) cycle — who unknowingly wages a thousand-year war against Viṣṇu himself in the form of the twin sages [Nara-Nārāyaṇa](./nara-narayana.md) at Badarī, and is stopped not by defeat but by revelation.
+>
+> Parent: [04-deep-dives](README.md) · Master index: [../README.md](../README.md) · Companion (same motif): [Dambhodbhava](./dambhodbhava-nara-narayana.md) · Canonical twins: [Nara-Nārāyaṇa](./nara-narayana.md) · Site: [Badrīnāth / Badarikāśrama](../06-sacred-geography/badrinath-badarikashrama-kshetra.md)
+
+The **Prahlāda–Nārāyaṇa battle** is the Purāṇic twin of the epic [Dambhodbhava](./dambhodbhava-nara-narayana.md) parable — a conqueror mistakes the armed ascetics of Badarī for hypocrites, demands combat, and is humbled — but with a sharper theological edge: here the challenger is not a vainglorious human emperor but **Prahlāda himself**, the paradigmatic Vaiṣṇava *bhakta*, the boy who survived Hiraṇyakaśipu's tortures and for whom Viṣṇu split a pillar as [Narasiṃha](./prahlada-narasimha.md). That the supreme devotee should, out of a moment of righteous zeal (or *ahaṃkāra*, ego), take up arms against the Lord he loves — and fight him to a standstill for a thousand divine years without ever recognizing him — is the story's entire point. It is told in the **Devī Bhāgavata Purāṇa, Book IV, chapters 8–10** (a [Śākta] retelling embedded in Vyāsa's answer to Janamejaya) and, with fuller battle-detail, in the **Vāmana Purāṇa** (chapters ~7–8 in the standard reckoning). Keep the two clocks distinct: the battle happens in Prahlāda's long Daitya reign in days of yore; the *telling* is fixed to early Kali Yuga, Vyāsa instructing Parīkṣit's son.
+
+---
+
+## I. The frame — why the story is told
+
+- **Devī Bhāgavata frame: Janamejaya's question** — In the Devī Bhāgavata, King **Janamejaya**, grieving that his father **Parīkṣit** fell into hell for insulting a brāhmaṇa boy, questions **Vyāsa** on sin, karma, and the ways of the Lord. The Prahlāda episode is folded in as an illustration of how even the enlightened act, and why Viṣṇu incarnates. (Devī Bhāgavata Purāṇa IV.8) [scholarly]
+- **Cyavana in Pātāla** — Vyāsa recounts that the sage **Cyavana**, bathing in the **Narmadā**, was seized by a serpent and dragged down to **Pātāla**; unharmed through his devotion to Viṣṇu, he there meets **Prahlāda**, the righteous king of the Daityas. (Devī Bhāgavata Purāṇa IV.8)
+- **The teaching on tīrthas** — Prahlāda asks Cyavana which are the foremost places of pilgrimage. Cyavana answers that inner purity outranks any place: *"To him whose body, speech, and mind are pure, every footstep is a tīrtha."* Only then does he name the great external tīrthas. (Devī Bhāgavata Purāṇa IV.8)
+- **The pilgrimage sets the collision in motion** — Instructed, Prahlāda leads the host of **Daityas and Dānavas** from the nether realm (Rasātala) up to the sacred forest of **Naimiṣāraṇya**, where they bathe in the **Sarasvatī** and perform rites. It is on this pilgrimage — not a war-campaign — that he stumbles upon the armed sages. (Devī Bhāgavata Purāṇa IV.8; Vāmana Purāṇa)
+  - *Variant (Vāmana Purāṇa framing):* the Vāmana Purāṇa gives the same trigger — Cyavana's counsel on tīrthas draws Prahlāda from **Rasātala** to Naimiṣa and the Sarasvatī — but tells it as a standalone Vaiṣṇava narrative rather than inside a Śākta Janamejaya-frame. Catalog both; the plot-spine (pilgrimage → encounter → battle → revelation) is shared. (Vāmana Purāṇa)
+
+## II. Prahlāda finds the armed ascetics
+
+- **The discovery near the Sarasvatī** — Hunting in the forest near the Sarasvatī, Prahlāda comes upon **two hermits** in deep penance: matted locks (*jaṭā*) piled high, clad in **black antelope skins** (*kṛṣṇājina*), minds wholly absorbed in austerity — the twin sages **Nara and Nārāyaṇa**, portions (*aṃśa*) of Viṣṇu perpetually performing *tapas*. (Vāmana Purāṇa; Devī Bhāgavata Purāṇa IV.9)
+- **The two celestial bows** — Beside the ascetics lie **two divine bows** and **two inexhaustible quivers**: **Śārṅga**, the bow of **Nārāyaṇa** (later Kṛṣṇa's bow), and **Ājagava**, the bow of **Nara**. In the Vāmana account a nearby tree stands with its branches thick with arrows. (Vāmana Purāṇa; Devī Bhāgavata Purāṇa IV.9)
+  - *Note (the same twins, the same weapons):* these are the eternal Badarī sages whose bows and *tapas* recur across the tradition — the pair reborn as [Arjuna](./characters/arjuna.md) (Nara) and Kṛṣṇa (Nārāyaṇa); Śārṅga is Viṣṇu-Kṛṣṇa's signature bow. See [Nara-Nārāyaṇa](./nara-narayana.md).
+- **Where the encounter sits vs. Badarī** — Both texts locate the *encounter* in the Naimiṣa/Sarasvatī forest, but the sages' canonical home and the site of Prahlāda's eventual submission is **Badarikāśrama** in the Himālaya; the tradition folds the two into the twins' single perpetual *tapas*. Do not collapse the encounter-site and the submission-site. (Vāmana Purāṇa; Devī Bhāgavata Purāṇa)
+
+## III. The objection — asceticism versus arms
+
+- **Prahlāda charges the sages with *dambha*** — Seeing men who wear the marks of renunciation yet keep war-bows at their side, Prahlāda reads it as **hypocrisy** (*dambha*) — a dharma-destroying pretense. He demands: *"What connection has austerity and matted hair with these excellent weapons? What false vow have you undertaken?"* (Vāmana Purāṇa; Devī Bhāgavata Purāṇa IV.9)
+- **Nara's answer — power validates both** — **Nara** replies that there is no contradiction: *"When a man possesses the necessary power, whatever he undertakes is accomplished."* The mastery of arms and the mastery of self are, for the divine, one authority, not two callings in conflict. This is the doctrinal counter to Prahlāda's accusation — the same lesson [Dambhodbhava](./dambhodbhava-nara-narayana.md) learns from the grass-blades. (Vāmana Purāṇa)
+- **The irony of the accuser** — Prahlāda, the supreme *bhakta*, indicts the Lord's own descent for irreligion; the greatest devotee fails to recognize God standing before him in the guise he came to protect *dharma* in. The tradition marks this precisely as the working of ego. (Devī Bhāgavata Purāṇa IV.9–10) [scholarly]
+
+## IV. The thousand-year battle
+
+- **A duel of one thousand divine years** — Enraged, and armored by boons that make him nearly unconquerable, Prahlāda gives battle. *"For one thousand Deva-years the terrible fight lasted between Prahlāda and Nārāyaṇa"* — a span the tradition glosses as vast beyond mortal reckoning, and still yielding **no result** on either side. (Devī Bhāgavata Purāṇa IV.9; Vāmana Purāṇa)
+- **The escalating archery** — The Vāmana Purāṇa counts the exchange rising in tiers: one arrow answered by two, three, four; then twelve, fifteen, thirty-six, seventy-two; then hundreds — a hundred, three hundred, six hundred, a thousand — and at last innumerable clouds of shafts, until the whole sky is dark with arrows and neither can be pierced. (Vāmana Purāṇa)
+- **Escalation to divine missiles** — When arrows settle nothing, the combatants deploy the greatest *astras*. Prahlāda looses the **Brahmāstra**; Nārāyaṇa answers with the **Māheśvarāstra** (or **Nārāyaṇāstra**), and *"the two missiles struck one another with equal force and fell neutralized."* The arsenals of Brahmā and Śiva cancel in the hands of the Daitya and the sage. (Vāmana Purāṇa; Devī Bhāgavata Purāṇa IV.9)
+- **Hand weapons and personal combat** — His supreme missile foiled, Prahlāda casts off the bow and charges with **mace (*gadā*), iron club (*parigha*), and Śakti-dart**; Nārāyaṇa meets him in close combat. Still the stalemate holds — the eternal ascetic cannot be overcome by force. (Devī Bhāgavata Purāṇa IV.9; Vāmana Purāṇa)
+
+## V. Viṣṇu's revelation and the humbling
+
+- **Viṣṇu discloses the twins' identity** — At the impasse, **Viṣṇu** himself appears (or speaks) and reveals the secret Prahlāda could not see: Nara and Nārāyaṇa are *"perfect ascetics, self-controlled, born of my own aṃśas"* — emanations of the Lord, doing penance for the welfare of the worlds and the establishment of *dharma*. (Devī Bhāgavata Purāṇa IV.9)
+  - *Variant (Vāmana Purāṇa — "I am that very one"):* in the Vāmana account Viṣṇu declares to Prahlāda, *"I am that very one, O tiger among the Dānavas,"* and directs him: **"You will conquer him through devotion, but never through battle."** The Yellow-robed Lord tells him no force can overcome the imperishable, all-pervading Self. (Vāmana Purāṇa)
+- **Prahlāda ceases and departs** — Recognizing whom he has fought, Prahlāda lays down his arms. In the Devī Bhāgavata he simply desists, keeps his devotion, and withdraws. (Devī Bhāgavata Purāṇa IV.9)
+- **The submission at Badarikāśrama** — The Vāmana Purāṇa carries the resolution further: Prahlāda **renounces his kingdom** (handing rule to **Andhaka**), journeys to **Badarikāśrama**, bows at the feet of both Nara and Nārāyaṇa, and offers a hymn identifying Nārāyaṇa as **Acyuta, Hṛṣīkeśa**, the Boar ([Varāha](./varaha-hiranyaksha.md)) and the Man-Lion ([Narasiṃha](./prahlada-narasimha.md)) — asking to be purified of the sin of having fought God. Nārāyaṇa grants him freedom from karmic bondage and bids him lead the Dānavas in righteousness; Prahlāda declines the throne and remains in meditation, *"continually remembering the immeasurable Keśava."* (Vāmana Purāṇa)
+
+## VI. Theology — the ego of the enlightened
+
+- **Janamejaya's follow-up and Vyāsa's answer** — In the Devī Bhāgavata frame, Janamejaya presses the paradox: how could Nara-Nārāyaṇa, being Viṣṇu, wage war for a thousand years, contradicting their serene nature? Vyāsa answers that **even liberated, enlightened beings retain *ahaṃkāra* (ego)**, which necessarily drives all action in the embodied, material world — none who has taken a body is wholly free of the impulse to act. (Devī Bhāgavata Purāṇa IV.10) [scholarly]
+- **The bridge to the Bhṛgu-curse** — This same chapter (IV.10, *"On the curse on Viṣṇu by Bhṛgu"*) uses the battle as a doorway into the Purāṇa's larger thesis — that Viṣṇu's **repeated incarnations** are themselves the fruit of curses (notably **Bhṛgu's**), i.e., that the Lord too moves within karma and cosmic necessity. See [Bhṛgu's curse on Viṣṇu](./bhrigus-curse-on-vishnu.md). (Devī Bhāgavata Purāṇa IV.10)
+- **The devotee who fought God** — The episode's force is the inversion: Prahlāda, whose whole legend is unbreakable love of Viṣṇu, here attacks Viṣṇu in ignorance and cannot win — proving that **God is unconquerable by force even to his greatest devotee**, and conquerable only by *bhakti*. It reframes the [Narasiṃha](./prahlada-narasimha.md) Prahlāda in a humbling key. [scholarly]
+
+## VII. Comparison — Dambhodbhava and the recurring "armed ascetics of Badarī" motif
+
+- **Same motif, different challenger** — Both this tale and the Mahābhārata's [Dambhodbhava-upākhyāna](./dambhodbhava-nara-narayana.md) turn on a proud conqueror who mistakes the Badarī twins for weaklings/hypocrites, demands battle, and is undone. The lessons converge: *tapas* and martial power are one in the divine; the truly supreme need not prove it. [scholarly]
+  - *Contrast — the humbling's mode:* Dambhodbhava, a mortal emperor, is routed **instantly** with a fistful of grass-blades and his whole army mutilated (Mahābhārata 5.94). Prahlāda, the boon-armored asura sovereign, fights a genuine **thousand-year astra-duel to a draw** and is stopped only by disclosure — a graver, more equal humbling befitting the mightiest of Daityas. Do not merge the two; they are distinct source-episodes with distinct registers. (Mahābhārata; Devī Bhāgavata; Vāmana Purāṇa)
+  - *Contrast — the objection:* Dambhodbhava challenges out of **vainglory** (*"is anyone my equal?"*); Prahlāda challenges out of **misplaced righteousness** (indicting apparent *dambha*). The Purāṇic version thus indicts even virtuous zeal when driven by ego. [scholarly]
+- **Sibling episodes at Badarī** — the same twin sages elsewhere humble **Indra's apsarās** (producing Urvaśī from the thigh) and teach **Nārada** — see [Nara-Nārāyaṇa](./nara-narayana.md). The Prahlāda battle is the asura-facing panel of that same eternal-*tapas* cycle.
+
+## VIII. The two clocks
+
+- **Scriptural / cyclic frame** — Prahlāda is the great Daitya devotee of the **Satya-Yuga demon cycle** (son of Hiraṇyakaśipu, grandfather of [Bali](./vamana-bali.md)); the battle belongs to his long later reign, *purā* ("of old"), within Nara-Nārāyaṇa's **beginningless, cross-yuga *tapas*** at Badarī. The *telling* — Vyāsa to **Janamejaya** — is fixed to the **opening of Kali Yuga** (traditionally from 3102 BCE), a generation after the Mahābhārata war. (Devī Bhāgavata Purāṇa IV.8–10)
+- **Academic / historical frame** — [scholarly] The **Devī Bhāgavata Purāṇa** is a Śākta *(Upa)purāṇa* generally dated **c. 900–1300 CE** (with a long redactional tail); the **Vāmana Purāṇa** in its extant form is placed **c. 800–1100 CE**. The shared Prahlāda-vs-Nārāyaṇa narrative is a Purāṇic elaboration of the older Mahābhārata "armed-ascetics-of-Badarī" motif, retooled — in the Devī Bhāgavata — to serve a Śākta and karma-theological argument about ego and incarnation.
+
+## Related Nodes
+
+- [Dambhodbhava — the World-Conqueror Humbled by Nara-Nārāyaṇa](./dambhodbhava-nara-narayana.md) — the Mahābhārata twin of this tale.
+- [Nara-Nārāyaṇa — the Twin Sages of Badarī](./nara-narayana.md) — the canonical home of the twins (birth, Urvaśī, Nārada, Arjuna-Kṛṣṇa).
+- [Prahlāda & Narasiṃha](./prahlada-narasimha.md) — the same Prahlāda as boy-devotee; his Satya-Yuga origin.
+- [Bhṛgu's curse on Viṣṇu](./bhrigus-curse-on-vishnu.md) — the sequel-thesis of Devī Bhāgavata IV.10.
+- [Vāmana & Bali](./vamana-bali.md) — Prahlāda's grandson and the Daitya line.
+- [Badrīnāth / Badarikāśrama](../06-sacred-geography/badrinath-badarikashrama-kshetra.md) · [Asura wars & roster](../08-beings-and-bestiary/asura-wars-and-roster.md).
+
+## Sources
+
+- **Devī Bhāgavata Purāṇa, Book IV, chapters 8–10** — Ch. 8 *"On Going to the Tīrthas"* (Cyavana in Pātāla; Prahlāda's pilgrimage to Naimiṣa/Sarasvatī); Ch. 9 *"On the fight between the Ṛṣis and Prahlāda"* (the thousand-Deva-year battle, Śārṅga & Ājagava, Brahmāstra vs. Māheśvarāstra, Viṣṇu's revelation of the twins as his *aṃśas*); Ch. 10 *"On the curse on Viṣṇu by Bhṛgu"* (Janamejaya's paradox; Vyāsa on the *ahaṃkāra* of the enlightened; bridge to the Bhṛgu-curse). [Śākta]
+- **Vāmana Purāṇa** (Prahlāda's battle with Nārāyaṇa; victory through devotion) — the parallel Vaiṣṇava telling: the two bows Śārṅga (Nārāyaṇa) and Ājagava (Nara), black antelope skins and matted locks, Prahlāda's charge of *dambha* and Nara's reply, the escalating archery, the neutralized *astras*, Viṣṇu's *"I am that very one"* and *"conquer him through devotion, not battle,"* Prahlāda's renunciation (rule to Andhaka), his submission and hymn at Badarikāśrama, and the grant of liberation. [late text]
+- **Mahābhārata, Udyoga Parva — Bhagavad-yāna, CE 5.94** (Ganguli Udyoga XCVI) — the older Dambhodbhava-upākhyāna, the same "armed ascetics of Badarī" motif for comparison; see [Dambhodbhava](./dambhodbhava-nara-narayana.md).
+- Web/reference: *The Śrīmad Devī Bhāgavatam*, trans. Swami Vijñānānanda (Book IV, chs. 8–10; Internet Sacred Text Archive / archive.org); Vāmana Purāṇa translations (dharmavidya.com; wisdomlib.org); Wikipedia, *"Nara-Narayana."*
+- Cross-references: [Nara-Nārāyaṇa](./nara-narayana.md) · [Prahlāda & Narasiṃha](./prahlada-narasimha.md) · [Dambhodbhava](./dambhodbhava-nara-narayana.md) · [Bhṛgu's curse on Viṣṇu](./bhrigus-curse-on-vishnu.md) · [Vāmana & Bali](./vamana-bali.md) · [Badarikāśrama](../06-sacred-geography/badrinath-badarikashrama-kshetra.md) · [Arjuna](./characters/arjuna.md).

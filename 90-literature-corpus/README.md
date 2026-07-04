@@ -200,13 +200,15 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 89 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 94 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Āgamas, Tantras & Dharmaśāstras](agamas-tantras-dharmashastras.md)
 - 🟩 [The Bhāgavata Purāṇa — Skandha-by-Skandha Map](bhagavata-purana-skandha-map.md)
 - 🟩 [Bṛhatkathā, Kathāsaritsāgara & the Vikramāditya Story Cycle](brihatkatha-kathasaritsagara-and-vikramaditya-cycle.md)
 - 🟩 [Classical Sanskrit Kāvya & Drama — the Court-Poetry Story-Vehicles](classical-kavya-and-sanskrit-drama.md)
+- 🟩 [Hitopadeśa — Nārāyaṇa's Book of Good Counsel](hitopadesha.md)
 - 🟩 [Kashmir Śaiva Texts — Śiva-Sūtras to Vijñāna Bhairava](kashmir-shaiva-texts.md)
+- 🟩 [Katamaraju Katha — the Telugu cattle-war epic of Nellore](katamaraju-katha.md)
 - 🟩 [Maithili Oral Epics — Rājā Salhesh & the Dinā-Bhadrī Brothers](maithili-oral-epics-salhesh-dina-bhadri.md)
 - 🟩 [Odia Literature — Sāraḷā Mahābhārata, Jagamohana Rāmāyaṇa & the Pañcasakhā](odia-literature-sarala-and-panchasakha.md)
 - 🟩 [Panchatantra, Hitopadeśa & the Nīti-Kathā Fable Corpus](panchatantra-hitopadesha-and-fable-literature.md)
@@ -216,8 +218,10 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [Śruti — Vedas & Upanishads](shruti-vedas-and-upanishads.md)
 - 🟩 [Smṛti — Itihāsa (The Epics)](smriti-itihasa-epics.md)
 - 🟩 [Smṛti — The Purāṇas](smriti-puranas.md)
+- 🟩 [Swasthani Brata Katha — the Goma Brahmani cycle (Nepal)](swasthani-brata-katha.md)
 - 🟩 [The Tamil Canon — Sangam, Tirukkuṟaḷ & Bhakti Corpus](tamil-canon-sangam-and-bhakti.md)
 - 🟩 [Upavedas, Vedāngas & the Six Darśanas](upavedas-vedangas-darshanas.md)
+- 🟩 [Vadakkan Pattukal — the Northern Ballads of Malabar](vadakkan-pattukal-northern-ballads.md)
 - 🟩 [Vedic Deities & Famous Sūktas](vedic-deities-and-suktas.md)
 - 🟩 [Yajñas & Vedic Rituals](yajnas-and-vedic-rituals.md)
 - 🟩 [Yoga-Vāsiṣṭha (Mahā-Rāmāyaṇa)](yoga-vasishtha.md)
@@ -259,6 +263,7 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 - 🟩 [Varāha Purāṇa](puranas/varaha-purana.md)
 - 🟩 [Vāyu Purāṇa — Story-Map](puranas/vayu-purana.md)
 - 🟩 [Viṣṇu Purāṇa](puranas/vishnu-purana.md)
+- 🟩 [Viṣṇudharmottara Purāṇa — text profile](puranas/vishnudharmottara-purana.md)
 
 **upanishads/**
 

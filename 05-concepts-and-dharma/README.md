@@ -16,9 +16,10 @@ These are the conceptual coordinates of Hindu thought, complementing the chronol
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 34 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 36 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Ahiṃsā & Hindu Ethics](ahimsa-and-hindu-ethics.md)
+- 🟩 [Anna, naivedya and prasada — the sacred-food traditions](anna-naivedya-and-prasada.md)
 - 🟩 [Atman, Brahman & the Mahavakyas — Vedanta and the Schools](atman-brahman-and-the-six-darshanas.md)
 - 🟩 [Āyurveda — The Science of Life, the Tridoṣa & the Caraka/Suśruta Tradition](ayurveda-and-the-science-of-life.md)
 - 🟩 [Bhakti-Rasa & the Bhāvas — Rūpa Gosvāmī's Devotional Aesthetics](bhakti-rasa-and-the-bhavas.md)
@@ -32,6 +33,7 @@ These are the conceptual coordinates of Hindu thought, complementing the chronol
 - 🟩 [Nāstika Darśanas & the Āstika-Nāstika Frame — Cārvāka, Buddhism, Jainism, the Ājīvikas](nastika-darshanas-and-the-astika-nastika-frame.md)
 - 🟩 [The Pañca Kośas](pancha-koshas.md)
 - 🟩 [The Five Great Sacrifices & the Three Debts](pancha-maha-yajnas-and-the-three-debts.md)
+- 🟩 [Papa, Punya and Prayaschitta — sin, merit and expiation](papa-punya-and-prayaschitta.md)
 - 🟩 [Prāṇa & the Vital Airs](prana-and-the-vital-airs.md)
 - 🟩 [The Four Aims (Purusharthas) & Karma–Samsara–Moksha](purusharthas-and-karma-samsara-moksha.md)
 - 🟩 [Regional Temple Festivals & Jatras (beyond the pan-Hindu calendar)](regional-temple-festivals.md)

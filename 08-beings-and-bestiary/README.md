@@ -90,7 +90,7 @@ Cross-check parentage against the [Kaśyapa-progeny](../03-lineages-vamsha/surya
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 24 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 25 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Airāvata, Uccaiḥśravas & the Manthana Treasures (Living Beings)](airavata-and-celestial-animals.md)
 - 🟩 [Apsarās — Celestial Nymphs](apsaras.md)
@@ -105,6 +105,7 @@ Cross-check parentage against the [Kaśyapa-progeny](../03-lineages-vamsha/surya
 - 🟩 [Mythic Beasts and Composite Creatures](mythic-beasts-and-composites.md)
 - 🟩 [Nāgas & the Serpent Races](nagas-and-serpents.md)
 - 🟩 [Nandi (Nandikeshvara): Shiva's Bull, Gana-Chief, and Gatekeeper](nandi-and-shaiva-mounts.md)
+- 🟩 [Panjurli and Guliga — the boar-daiva and the fierce watcher of Tulu Bhūta-Kola](panjurli-guliga-tulu-daivas.md)
 - 🟩 [The Pitṛs — Ancestral Orders & Pitṛ-loka](pitrs-and-ancestors.md)
 - 🟩 [Rākṣasas — The Night-Wanderers](rakshasas.md)
 - 🟩 [Ṛṣi Lineages & the Gotra System](rishi-lineages-and-gotras.md)

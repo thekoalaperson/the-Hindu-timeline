@@ -23,9 +23,10 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 65 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 73 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Agni](agni.md)
+- 🟩 [The Aśvins and their rescue-deeds cycle](ashvins.md)
 - 🟩 [Ayyaṉār / Śāstā — the Tamil Village Guardian](ayyanar-sastha.md)
 - 🟩 [Ayyappa (Hariharaputra)](ayyappa.md)
 - 🟩 [Bahuchara Mata — Gujarati Shakta Goddess and Patron of the Hijra Community](bahuchara-mata.md)
@@ -51,8 +52,10 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 - 🟩 [Hanuman — Vanara Devotee, Chiranjivi, Rudravatara](hanuman.md)
 - 🟩 [Indra — King of the Devas, Wielder of the Vajra](indra.md)
 - 🟩 [Jhulelal / Uderolal — the Sindhi Water-God](jhulelal.md)
+- 🟩 [Jyotiba (Kedarling) of Wadi Ratnagiri — demon-slayer guardian of Kolhapur](jyotiba-kedarling-kolhapur.md)
 - 🟩 [Kāmadeva, Rati & the Minor Deities](kamadeva-and-minor-deities.md)
 - 🟩 [Karuppasamy, Madurai Veeran and the Tamil Kāval Guardian Deities](karuppasamy-madurai-veeran-and-tamil-kaval-deities.md)
+- 🟩 [Kathivanur Veeran — the martyr-hero theyyam of North Malabar](kathivanur-veeran.md)
 - 🟩 [Khaṇḍobā / Mārtāṇḍa Bhairava (Mallāri)](khandoba-martanda-bhairava.md)
 - 🟩 [Khodiyar Mata](khodiyar-mata.md)
 - 🟩 [Kubera](kubera.md)
@@ -60,17 +63,21 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 - 🟩 [Lalitā Tripurasundarī & the War on Bhaṇḍāsura](lalita-bhandasura.md)
 - 🟩 [Manasā — the Serpent-Goddess of Eastern India](manasa.md)
 - 🟩 [Māriyammaṉ — the Tamil Rain-and-Pox Mother](mariamman.md)
+- 🟩 [Muchilottu Bhagavathy — the wronged scholar-virgin's apotheosis](muchilottu-bhagavathy.md)
 - 🟩 [Muthappan of Parassinikkadavu — the Hunter-God of Theyyam](muthappan.md)
 - 🟩 [Nandā Devī, Golu Devtā and the Uttarakhand Pantheon](nanda-devi-and-uttarakhand-deities.md)
 - 🟩 [The Narakas & the Afterlife](narakas-and-afterlife.md)
 - 🟩 [The Navagraha — Nine Planetary Deities](navagraha.md)
 - 🟩 [Nepal's Living Goddess Traditions — Kumari, Taleju & Machhindranath](nepal-kumari-taleju-machhindranath.md)
+- 🟩 [Pottan Theyyam — Shiva as the Pulaya who rebukes Shankaracharya](pottan-theyyam.md)
+- 🟩 [Ṣaṣṭhī, Maṅgalā Caṇḍī, Svadhā and Dakṣiṇā — the Prakṛti-khaṇḍa goddess aetiologies](prakriti-khanda-goddess-origins.md)
 - 🟩 [Rādhā — The Goddess of Braj & Her Theology](radha.md)
 - 🟩 [Ramdev Pir — Rāmdevjī / Rāmāpīr, the Rider-Saint of Runicha](ramdev-pir.md)
 - 🟩 [Reṇukā / Yellammā / Ekvīrā — the Pan-Deccan Mother-Goddess of Saundatti](renuka-yellamma.md)
 - 🟩 [The Saptarishi — The Seven Sages Across the Manvantaras](saptarishi.md)
 - 🟩 [Sarasvatī](saraswati.md)
 - 🟩 [Sati, the Daksha-Yajna & Parvati — The Goddess Reborn](sati-daksha-and-parvati.md)
+- 🟩 [Śatākṣī / Śākambharī and the slaying of Durgamāsura](shakambhari-shatakshi-durgamasura.md)
 - 🟩 [Śītalā — the Cooling Goddess of Pox and Fever](shitala.md)
 - 🟩 [Avatars & Forms of Śiva](shiva-avatars-and-forms.md)
 - 🟩 [The Śiva Myth-Cycle — Cosmic Deeds of Mahādeva](shiva-myth-cycle.md)
@@ -83,6 +90,7 @@ This is a **cross-cutting axis**, not a chronological one — the same deities r
 - 🟩 [Trimūrti & Tridevī](trimurti-and-tridevi.md)
 - 🟩 [Tulja Bhavani of Tuljapur](tulja-bhavani.md)
 - 🟩 [Varuṇa](varuna.md)
+- 🟩 [The origin of Vaṭuka (Baṭuka) Bhairava](vatuka-bhairava-origin.md)
 - 🟩 [Vāyu](vayu.md)
 - 🟩 [Vindhyavāsinī — the Goddess Who Dwells on the Vindhyas](vindhyavasini.md)
 - 🟩 [Forms of Viṣṇu — Vyūhas, Keśava Forms & Aspects](vishnu-forms-and-vyuhas.md)

@@ -154,7 +154,7 @@ Each Manvantara has its own troops of devas. From Vishnu Purana 3.1–2:
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 17 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 18 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Manvantara 1 — Svāyambhuva (Past)](manvantara-01-svayambhuva.md)
 - 🟩 [Manvantara 2 — Svārociṣa (Past)](manvantara-02-svarochisha.md)
@@ -169,6 +169,7 @@ Each Manvantara has its own troops of devas. From Vishnu Purana 3.1–2:
 - 🟩 [Manvantara 12 — Rudra-Sāvarṇi (Future)](manvantara-12-rudra-savarni.md)
 - 🟩 [Manvantara 13 — Deva-Sāvarṇi / Raucya (Future)](manvantara-13-deva-savarni.md)
 - 🟩 [Manvantara 14 — Indra-Sāvarṇi (Bhautya) (Future)](manvantara-14-indra-savarni.md)
+- 🟩 [Markandeya's manvantara-origin legends — Uttama's banished queen, Svarāṣṭra/Tāmasa, Ṛtavāc and Revatī](markandeya-manvantara-origin-tales.md)
 
 **manvantara-07-vaivasvata/**
 

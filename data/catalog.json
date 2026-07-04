@@ -1,8 +1,8 @@
 {
- "files": 735,
- "content_files": 711,
- "total_words": 1726479,
- "events": 6890,
+ "files": 855,
+ "content_files": 831,
+ "total_words": 2025052,
+ "events": 7852,
  "sections": [
   "00-time-and-cosmology",
   "01-manvantaras",
@@ -133,7 +133,7 @@
    "path": "01-manvantaras/README.md",
    "title": "The 14 Manvantaras of the Current Kalpa",
    "section": "01-manvantaras",
-   "word_count": 2250,
+   "word_count": 2263,
    "is_index": true
   },
   {
@@ -277,10 +277,17 @@
    "is_index": false
   },
   {
+   "path": "01-manvantaras/markandeya-manvantara-origin-tales.md",
+   "title": "Markandeya's manvantara-origin legends — Uttama's banished queen, Svarāṣṭra/Tāmasa, Ṛtavāc and Revatī",
+   "section": "01-manvantaras",
+   "word_count": 1988,
+   "is_index": false
+  },
+  {
    "path": "02-deities-and-cosmic-hierarchy/README.md",
    "title": "Deities & Cosmic Hierarchy",
    "section": "02-deities-and-cosmic-hierarchy",
-   "word_count": 760,
+   "word_count": 843,
    "is_index": true
   },
   {
@@ -288,6 +295,13 @@
    "title": "Agni",
    "section": "02-deities-and-cosmic-hierarchy",
    "word_count": 2596,
+   "is_index": false
+  },
+  {
+   "path": "02-deities-and-cosmic-hierarchy/ashvins.md",
+   "title": "The Aśvins and their rescue-deeds cycle",
+   "section": "02-deities-and-cosmic-hierarchy",
+   "word_count": 2169,
    "is_index": false
   },
   {
@@ -466,6 +480,13 @@
    "is_index": false
   },
   {
+   "path": "02-deities-and-cosmic-hierarchy/jyotiba-kedarling-kolhapur.md",
+   "title": "Jyotiba (Kedarling) of Wadi Ratnagiri — demon-slayer guardian of Kolhapur",
+   "section": "02-deities-and-cosmic-hierarchy",
+   "word_count": 1870,
+   "is_index": false
+  },
+  {
    "path": "02-deities-and-cosmic-hierarchy/kamadeva-and-minor-deities.md",
    "title": "Kāmadeva, Rati & the Minor Deities",
    "section": "02-deities-and-cosmic-hierarchy",
@@ -536,6 +557,13 @@
    "is_index": false
   },
   {
+   "path": "02-deities-and-cosmic-hierarchy/muchilottu-bhagavathy.md",
+   "title": "Muchilottu Bhagavathy — the wronged scholar-virgin's apotheosis",
+   "section": "02-deities-and-cosmic-hierarchy",
+   "word_count": 2195,
+   "is_index": false
+  },
+  {
    "path": "02-deities-and-cosmic-hierarchy/muthappan.md",
    "title": "Muthappan of Parassinikkadavu — the Hunter-God of Theyyam",
    "section": "02-deities-and-cosmic-hierarchy",
@@ -575,6 +603,13 @@
    "title": "Pottan Theyyam — Shiva as the Pulaya who rebukes Shankaracharya",
    "section": "02-deities-and-cosmic-hierarchy",
    "word_count": 1620,
+   "is_index": false
+  },
+  {
+   "path": "02-deities-and-cosmic-hierarchy/prakriti-khanda-goddess-origins.md",
+   "title": "Ṣaṣṭhī, Maṅgalā Caṇḍī, Svadhā and Dakṣiṇā — the Prakṛti-khaṇḍa goddess aetiologies",
+   "section": "02-deities-and-cosmic-hierarchy",
+   "word_count": 2093,
    "is_index": false
   },
   {
@@ -620,6 +655,13 @@
    "is_index": false
   },
   {
+   "path": "02-deities-and-cosmic-hierarchy/shakambhari-shatakshi-durgamasura.md",
+   "title": "Śatākṣī / Śākambharī and the slaying of Durgamāsura",
+   "section": "02-deities-and-cosmic-hierarchy",
+   "word_count": 2074,
+   "is_index": false
+  },
+  {
    "path": "02-deities-and-cosmic-hierarchy/shitala.md",
    "title": "Śītalā — the Cooling Goddess of Pox and Fever",
    "section": "02-deities-and-cosmic-hierarchy",
@@ -662,13 +704,6 @@
    "is_index": false
   },
   {
-   "path": "02-deities-and-cosmic-hierarchy/tejaji-veer-teja.md",
-   "title": "Tejaji (Veer Teja) — the Jat serpent-hero who kept his word",
-   "section": "02-deities-and-cosmic-hierarchy",
-   "word_count": 2053,
-   "is_index": false
-  },
-  {
    "path": "02-deities-and-cosmic-hierarchy/tejaji.md",
    "title": "Tejaji / Veer Teja — the Jat Serpent-Hero of Kharnal, and the Rajasthani Panch Pīrs",
    "section": "02-deities-and-cosmic-hierarchy",
@@ -708,6 +743,13 @@
    "title": "Varuṇa",
    "section": "02-deities-and-cosmic-hierarchy",
    "word_count": 1708,
+   "is_index": false
+  },
+  {
+   "path": "02-deities-and-cosmic-hierarchy/vatuka-bhairava-origin.md",
+   "title": "The origin of Vaṭuka (Baṭuka) Bhairava",
+   "section": "02-deities-and-cosmic-hierarchy",
+   "word_count": 1914,
    "is_index": false
   },
   {
@@ -763,7 +805,7 @@
    "path": "03-lineages-vamsha/README.md",
    "title": "Lineages (Vaṃśa)",
    "section": "03-lineages-vamsha",
-   "word_count": 716,
+   "word_count": 770,
    "is_index": true
   },
   {
@@ -781,10 +823,24 @@
    "is_index": false
   },
   {
+   "path": "03-lineages-vamsha/ekavira-ekavali-haihaya-origin.md",
+   "title": "Ekavīra and Ekāvalī — the origin of the Haihaya dynasty",
+   "section": "03-lineages-vamsha",
+   "word_count": 1752,
+   "is_index": false
+  },
+  {
    "path": "03-lineages-vamsha/gadhi-and-the-caru-swap.md",
    "title": "Gādhi and the Caru-Swap — Birth of the Kuśika and Bhārgava Lines",
    "section": "03-lineages-vamsha",
    "word_count": 1232,
+   "is_index": false
+  },
+  {
+   "path": "03-lineages-vamsha/ila-sudyumna.md",
+   "title": "Ilā / Sudyumna — the gender-shifting hinge of the Lunar dynasty",
+   "section": "03-lineages-vamsha",
+   "word_count": 2511,
    "is_index": false
   },
   {
@@ -827,6 +883,20 @@
    "title": "Kuśanābha's Hundred Daughters, Vāyu's Wrath, and the Birth of Brahmadatta",
    "section": "03-lineages-vamsha",
    "word_count": 1963,
+   "is_index": false
+  },
+  {
+   "path": "03-lineages-vamsha/markandeya-vaivasvata-king-tales.md",
+   "title": "The Vaivasvata king-tales of the Mārkaṇḍeya — Rājyavardhana, Nābhāga, Vatsaprī, Khanitra",
+   "section": "03-lineages-vamsha",
+   "word_count": 2361,
+   "is_index": false
+  },
+  {
+   "path": "03-lineages-vamsha/nimi-vasishtha-mutual-curse.md",
+   "title": "Nimi and Vasiṣṭha's mutual curse — the bodiless king and the origin of blinking",
+   "section": "03-lineages-vamsha",
+   "word_count": 1992,
    "is_index": false
   },
   {
@@ -903,7 +973,7 @@
    "path": "04-deep-dives/README.md",
    "title": "Deep Dives — Major Episodes & Tales",
    "section": "04-deep-dives",
-   "word_count": 2915,
+   "word_count": 3800,
    "is_index": true
   },
   {
@@ -911,6 +981,13 @@
    "title": "Acchodā → Satyavatī: the Pitṛ-Born River-Maiden and Her Rebirth",
    "section": "04-deep-dives",
    "word_count": 1959,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/adi-baka-bird-war.md",
+   "title": "The war of Āḍi and Baka — Vasiṣṭha and Viśvāmitra as fighting birds",
+   "section": "04-deep-dives",
+   "word_count": 2383,
    "is_index": false
   },
   {
@@ -942,6 +1019,13 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/anasuya-halted-sunrise.md",
+   "title": "Anasūyā and the halted sunrise — the pativratā's night and the Dattātreya boon",
+   "section": "04-deep-dives",
+   "word_count": 2106,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/andhakasura-vadha.md",
    "title": "Andhakasura-Vadha: The Blind Asura and the Matrikas",
    "section": "04-deep-dives",
@@ -956,10 +1040,24 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/annadamangal-bharatchandra.md",
+   "title": "Annadāmaṅgal — Īśvarī Pāṭunī and the Vidyā–Sundara Romance",
+   "section": "04-deep-dives",
+   "word_count": 2067,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/anugita.md",
    "title": "The Anugītā — Kṛṣṇa's 'Sequel' to the Gītā",
    "section": "04-deep-dives",
    "word_count": 1679,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/ashokasundari-nahusha-hunda.md",
+   "title": "Aśokasundarī, Nahuṣa and the demon Huṇḍa",
+   "section": "04-deep-dives",
+   "word_count": 1822,
    "is_index": false
   },
   {
@@ -1047,6 +1145,13 @@
    "is_index": true
   },
   {
+   "path": "04-deep-dives/bhagavad-gita/gita-mahatmya-tales.md",
+   "title": "Gītā-Māhātmya tales — the parables of the eighteen chapters",
+   "section": "04-deep-dives",
+   "word_count": 2185,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/bhagavata-mahatmya-gokarna-dhundhukari.md",
    "title": "Bhāgavata-Māhātmya — Bhakti and Her Sons; Gokarṇa and the Preta Dhundhukārī",
    "section": "04-deep-dives",
@@ -1075,6 +1180,13 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/bharata-gandharva-conquest-takshashila.md",
+   "title": "Bharata's conquest of the Gandharvas — founding of Takṣaśilā and Puṣkalāvatī",
+   "section": "04-deep-dives",
+   "word_count": 1906,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/bhasmasura-and-vrikasura.md",
    "title": "Bhasmāsura & Vṛkāsura — Shiva's Dangerous Boons",
    "section": "04-deep-dives",
@@ -1096,10 +1208,31 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/bhrigus-curse-on-vishnu.md",
+   "title": "Bhṛgu's curse on Viṣṇu — Kāvyamātā's beheading, Śukra-Jayantī, and Bṛhaspati's impersonation",
+   "section": "04-deep-dives",
+   "word_count": 2082,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/brahma-vimohana.md",
    "title": "Brahmā-vimohana and the Brahma-stuti — Kṛṣṇa Multiplies Himself into All Vraja",
    "section": "04-deep-dives",
    "word_count": 1886,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/brahmana-legends-catalog.md",
+   "title": "Brāhmaṇa legends catalog — ten Vedic prose tales",
+   "section": "04-deep-dives",
+   "word_count": 1948,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/brahmottara-khanda-vrata-tales.md",
+   "title": "Brāhmottara-khaṇḍa vrata tales — Sīmantinī, Bhadrāyu's Śiva-kavaca, Mahānandā's rudrākṣa",
+   "section": "04-deep-dives",
+   "word_count": 2210,
    "is_index": false
   },
   {
@@ -1149,6 +1282,13 @@
    "title": "Ambikā and Ambālikā — the Kāśi Princesses, Mothers of the Kuru Generation",
    "section": "04-deep-dives",
    "word_count": 1478,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/characters/angada.md",
+   "title": "Aṅgada — crown prince of the Vānaras",
+   "section": "04-deep-dives",
+   "word_count": 2180,
    "is_index": false
   },
   {
@@ -1219,6 +1359,13 @@
    "title": "Bhīṣma",
    "section": "04-deep-dives",
    "word_count": 3314,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/characters/chandesvara-chandikeshvara.md",
+   "title": "Chandesvara — the boy who axed his father's foot",
+   "section": "04-deep-dives",
+   "word_count": 2705,
    "is_index": false
   },
   {
@@ -1317,6 +1464,13 @@
    "title": "Indrajit (Meghanāda)",
    "section": "04-deep-dives",
    "word_count": 1842,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/characters/jagannatha-bhakta-legends.md",
+   "title": "Bhaktas of Jagannātha — Sālabega, Dāsiā Baurī, Bandhu Mohanty",
+   "section": "04-deep-dives",
+   "word_count": 1884,
    "is_index": false
   },
   {
@@ -1691,10 +1845,24 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/dasharatha-shani-stotra-legend.md",
+   "title": "Daśaratha and Śani — the king who stopped Saturn",
+   "section": "04-deep-dives",
+   "word_count": 1729,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/dattatreya.md",
    "title": "Dattātreya — the Triple-Deity Avatar & the 24 Gurus",
    "section": "04-deep-dives",
    "word_count": 2433,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/devaki-six-sons-shadgarbha.md",
+   "title": "The return of Devakī's six sons (Ṣaḍgarbha)",
+   "section": "04-deep-dives",
+   "word_count": 1735,
    "is_index": false
   },
   {
@@ -1768,10 +1936,24 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/gautama-curse-on-the-brahmins.md",
+   "title": "Gautama's curse on the ungrateful brahmins",
+   "section": "04-deep-dives",
+   "word_count": 2096,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/gautami-mahatmya-tales-catalog.md",
    "title": "Gautamī-Māhātmya — Catalog of Embedded Tales (Brahma Purāṇa)",
    "section": "04-deep-dives",
    "word_count": 2498,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/gopichandra-maynamati-nath-epic.md",
+   "title": "Gopīcandra and Queen Maynāmatī — the Nāth Renouncer-King Epic",
+   "section": "04-deep-dives",
+   "word_count": 2441,
    "is_index": false
   },
   {
@@ -1831,6 +2013,27 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/icakki-amman-nili-katai.md",
+   "title": "Icakki Amman Katai (Nili Katai) — the vengeance of Palaiyanur Nili",
+   "section": "04-deep-dives",
+   "word_count": 2605,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/indra-namuchi.md",
+   "title": "Indra and Namuci — the wager, the surā, and the foam weapon",
+   "section": "04-deep-dives",
+   "word_count": 1977,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/indradyumna-akupara-oldest-beings.md",
+   "title": "Indradyumna and Akūpāra — is anyone older than Mārkaṇḍeya?",
+   "section": "04-deep-dives",
+   "word_count": 2259,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/jalandhara-vrinda.md",
    "title": "Jalandhara and Vrinda",
    "section": "04-deep-dives",
@@ -1842,6 +2045,13 @@
    "title": "Jamadagni and the Paraśurāma Cycle",
    "section": "04-deep-dives",
    "word_count": 1524,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/jantu-somaka.md",
+   "title": "Jantu — King Somaka sacrifices his only son for a hundred",
+   "section": "04-deep-dives",
+   "word_count": 1953,
    "is_index": false
   },
   {
@@ -1873,6 +2083,13 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/kalkuda-kallurti.md",
+   "title": "Kalkuda and Kallurti — the mutilated sculptor of the Karkala Bahubali and his avenging sister",
+   "section": "04-deep-dives",
+   "word_count": 2076,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/kalmashapada-saudasa.md",
    "title": "Kalmāṣapāda (Saudāsa)",
    "section": "04-deep-dives",
@@ -1887,10 +2104,24 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/kanchi-kaveri-jagannatha-legend.md",
+   "title": "Kāñcī-Kāverī — Jagannātha and Balabhadra Ride to War",
+   "section": "04-deep-dives",
+   "word_count": 2023,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/kapila-devahuti.md",
    "title": "Kapila and the Kapila-gita",
    "section": "04-deep-dives",
    "word_count": 1774,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/karandhama-avikshit-marutta-dama.md",
+   "title": "Karandhama, Avīkṣit, Marutta and Dama — the Mārkaṇḍeya's royal cycle",
+   "section": "04-deep-dives",
+   "word_count": 2148,
    "is_index": false
   },
   {
@@ -1901,6 +2132,13 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/kartika-mahatmya-tales.md",
+   "title": "Kārtika-māhātmya devotee tales — King Cola vs Viṣṇudāsa, Dharmadatta–Kalahā, Dhaneśvara, Satyabhāmā's former birth",
+   "section": "04-deep-dives",
+   "word_count": 2192,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/kashyapa.md",
    "title": "Kaśyapa",
    "section": "04-deep-dives",
@@ -1908,10 +2146,38 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/kathasaritsagara-famous-tales.md",
+   "title": "Famous tales of the Kathāsaritsāgara — Upakośā, Devasmitā, Lohajaṅgha, Śaktivega's City of Gold",
+   "section": "04-deep-dives",
+   "word_count": 2197,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/kattavarayan-katai.md",
+   "title": "Kāttavarāyaṉ Katai — the impaled guardian-god's tale",
+   "section": "04-deep-dives",
+   "word_count": 2335,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/keshi-arishta-keshava.md",
    "title": "Keshi the Horse-Demon and the Keshava-Stuti",
    "section": "04-deep-dives",
    "word_count": 1431,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/khandikya-keshidhvaja.md",
+   "title": "Khāṇḍikya and Keśidhvaja — the Vishnu Purana's concluding yoga dialogue",
+   "section": "04-deep-dives",
+   "word_count": 2428,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/khatvanga-one-muhurta.md",
+   "title": "Khaṭvāṅga — liberation in a single muhūrta",
+   "section": "04-deep-dives",
+   "word_count": 1989,
    "is_index": false
   },
   {
@@ -1929,10 +2195,31 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/kshupa-dadhicha-dispute.md",
+   "title": "The Kṣupa–Dadhīca dispute — brahma vs kṣatra and the charter of Sthāṇu-tīrtha",
+   "section": "04-deep-dives",
+   "word_count": 2189,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/kurma-avatara.md",
    "title": "Kurma Avatara: The Cosmic Tortoise (Dvitiya-Avatara)",
    "section": "04-deep-dives",
    "word_count": 1395,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/kurukshetra-reunion-gopis.md",
+   "title": "The Kurukṣetra reunion — Krishna, the gopīs and Nanda at the solar eclipse",
+   "section": "04-deep-dives",
+   "word_count": 2006,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/kuvalayashva-madalasa.md",
+   "title": "Kuvalayāśva (Ṛtadhvaja) and Madālasā — the nāga-world romance",
+   "section": "04-deep-dives",
+   "word_count": 2168,
    "is_index": false
   },
   {
@@ -1947,6 +2234,13 @@
    "title": "The Lesser Gītās of the Mahābhārata — A Catalog",
    "section": "04-deep-dives",
    "word_count": 2727,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/lila-story-yoga-vasishtha.md",
+   "title": "The Story of Queen Līlā — the two universes in the mind",
+   "section": "04-deep-dives",
+   "word_count": 2416,
    "is_index": false
   },
   {
@@ -2090,10 +2384,31 @@
    "is_index": true
   },
   {
+   "path": "04-deep-dives/makaraksha-son-of-khara.md",
+   "title": "Makarākṣa, son of Khara — the vengeance duel of the Laṅkā war",
+   "section": "04-deep-dives",
+   "word_count": 1805,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/mandakarni-and-panchapsaras-lake.md",
+   "title": "Māṇḍakarṇi and the Pañcāpsaras lake",
+   "section": "04-deep-dives",
+   "word_count": 2058,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/mandhata.md",
    "title": "Māndhātṛ — the Archetypal Cakravartin \"Born from His Father's Side\"",
    "section": "04-deep-dives",
    "word_count": 1638,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/manduka-frog-princess-sushobhana.md",
+   "title": "Māṇḍūka-upākhyāna — the frog-princess Suśobhanā and Vāmadeva's horses",
+   "section": "04-deep-dives",
+   "word_count": 1927,
    "is_index": false
   },
   {
@@ -2108,6 +2423,20 @@
    "title": "Māsa-māhātmyas — the Glories of Kārttika, Māgha, Vaiśākha, Mārgaśīrṣa & the Puruṣottama Month",
    "section": "04-deep-dives",
    "word_count": 2243,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/matali-sumukha-naga-bridegroom.md",
+   "title": "Mātali-upākhyāna — the charioteer's quest for a Nāga son-in-law",
+   "section": "04-deep-dives",
+   "word_count": 2194,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/matanga-vitahavya-varna-upakhyanas.md",
+   "title": "Mātaṅga and Vītahavya — the two Anuśāsana varṇa-change upākhyānas",
+   "section": "04-deep-dives",
+   "word_count": 2164,
    "is_index": false
   },
   {
@@ -2146,6 +2475,13 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/mucukunda-vaishravana-shanti.md",
+   "title": "Mucukunda and Vaiśravaṇa — kings conquer only through joined brahma-kṣatra",
+   "section": "04-deep-dives",
+   "word_count": 1525,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/muttuppattan-katai.md",
    "title": "Muttuppaṭṭaṉ Katai — the Brahmin Who Became a Cobbler for Love",
    "section": "04-deep-dives",
@@ -2174,10 +2510,31 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/nanda-varuna-vaikuntha-darshana.md",
+   "title": "Nanda seized by Varuṇa — Krishna in Varuṇa-loka and the vision of Vaikuṇṭha",
+   "section": "04-deep-dives",
+   "word_count": 2396,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/nandabhadra-tested-faith.md",
+   "title": "Nandabhadra the merchant — faith tested at Bahūdaka (Mahīsāgara-Saṅgama)",
+   "section": "04-deep-dives",
+   "word_count": 2280,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/nara-narayana.md",
    "title": "Nara–Nārāyaṇa — the Twin Sages of Badarī",
    "section": "04-deep-dives",
    "word_count": 1298,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/narada-maya-taladhvaja.md",
+   "title": "Nārada's māyā — the sage becomes Suśīlā, wife of King Tāladhvaja",
+   "section": "04-deep-dives",
+   "word_count": 2136,
    "is_index": false
   },
   {
@@ -2230,10 +2587,24 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/padma-pippalada.md",
+   "title": "Padmā and Pippalāda — Dharma tests the sage's young wife",
+   "section": "04-deep-dives",
+   "word_count": 2016,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/parashurama.md",
    "title": "Paraśurāma avatāra",
    "section": "04-deep-dives",
    "word_count": 1769,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/parijata-harana.md",
+   "title": "Pārijāta-haraṇa — Krishna's war with Indra for the Pārijāta tree",
+   "section": "04-deep-dives",
+   "word_count": 2078,
    "is_index": false
   },
   {
@@ -2251,6 +2622,20 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/pitrikalpa-seven-brahmins-brahmadatta.md",
+   "title": "The seven brahmins reborn — the Pitṛkalpa chain of births (Brahmadatta of Kāmpilya)",
+   "section": "04-deep-dives",
+   "word_count": 2282,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/pracetas-rudra-gita.md",
+   "title": "The Pracetas, the Rudra-Gītā, and the marriage to Māriṣā",
+   "section": "04-deep-dives",
+   "word_count": 2472,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/pradyumna-prabhavati-vajranabha.md",
    "title": "Pradyumna, Prabhāvatī and the Slaying of Vajranābha — the Actor-Troupe Romance of Vajrapura",
    "section": "04-deep-dives",
@@ -2258,10 +2643,24 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/prahlada-nara-narayana-battle.md",
+   "title": "Prahlāda's battle with Nara-Nārāyaṇa at Badarī",
+   "section": "04-deep-dives",
+   "word_count": 2270,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/prahlada-narasimha.md",
    "title": "Prahlāda & Narasiṃha — the Man-Lion's Descent",
    "section": "04-deep-dives",
    "word_count": 1827,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/prajapati-ushas-rudra-piercing.md",
+   "title": "Prajāpati and his daughter — Rudra the avenger and the deer's head",
+   "section": "04-deep-dives",
+   "word_count": 2283,
    "is_index": false
   },
   {
@@ -2300,6 +2699,13 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/pusalar-nayanar-mind-temple.md",
+   "title": "Pūcalār (Pusalar) — the temple built in the mind",
+   "section": "04-deep-dives",
+   "word_count": 2233,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/raghu.md",
    "title": "Raghu — the King Who Gave His Name to the Dynasty",
    "section": "04-deep-dives",
@@ -2311,6 +2717,13 @@
    "title": "Rāma-Gītā: The Song of Rāma",
    "section": "04-deep-dives",
    "word_count": 1536,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/ramas-justice-the-dog-and-the-mendicant.md",
+   "title": "The Dog's Justice — Rāma's court and the mendicant who struck a dog",
+   "section": "04-deep-dives",
+   "word_count": 2162,
    "is_index": false
   },
   {
@@ -2433,6 +2846,13 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/rantideva.md",
+   "title": "Rantideva's Fourfold Charity",
+   "section": "04-deep-dives",
+   "word_count": 2388,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/rasa-lila.md",
    "title": "Rāsa-līlā — The Circle-Dance & the Heart of Bhakti-rasa",
    "section": "04-deep-dives",
@@ -2510,10 +2930,24 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/sandhya-arundhati.md",
+   "title": "Sandhyā's tapas and rebirth as Arundhatī (with Kāma's birth and first curse)",
+   "section": "04-deep-dives",
+   "word_count": 2426,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/sandipani-pancajana.md",
    "title": "Sāndīpani's School and the Conch Pāñcajanya — Kṛṣṇa's Guru-Dakṣiṇā",
    "section": "04-deep-dives",
    "word_count": 1570,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/sarasvata-upakhyana-vriddhakumari.md",
+   "title": "Sārasvata-upākhyāna — the sage who preserved the Vedas through the famine (with the Vṛddhakumārī tale)",
+   "section": "04-deep-dives",
+   "word_count": 2188,
    "is_index": false
   },
   {
@@ -2528,6 +2962,13 @@
    "title": "The Satyanārāyaṇa Vrata Kathā — and its Bengali Double, Satya Pīr",
    "section": "04-deep-dives",
    "word_count": 2306,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/satyavrata-aim-bija.md",
+   "title": "Satyavrata the illiterate brahmin and the 'Aiṃ' bīja",
+   "section": "04-deep-dives",
+   "word_count": 2044,
    "is_index": false
   },
   {
@@ -2559,6 +3000,13 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/shanti-parva-minor-upakhyanas.md",
+   "title": "Śānti-Parva minor tale cycle — Jāpaka, Cirakārī, Kuṇḍadhara, Ṛṣabha–Tanu, Pūjanī",
+   "section": "04-deep-dives",
+   "word_count": 2030,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/shatadhanu-shaibya.md",
    "title": "Śatadhanu and Śaibyā — the Peril of Conversing with Heretics",
    "section": "04-deep-dives",
@@ -2587,6 +3035,13 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/shiva-parvati-dice-game.md",
+   "title": "Śiva loses to Pārvatī at dice — the dyūta-krīḍā and the Śabarī huntress",
+   "section": "04-deep-dives",
+   "word_count": 1946,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/shivaratri-hunter-legend.md",
    "title": "The Śivarātri Hunter Legend — Gurudruh / Lubdhaka and the Deer Family",
    "section": "04-deep-dives",
@@ -2608,10 +3063,31 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/shveta-corpse-king-and-agastya.md",
+   "title": "Śveta, the corpse-eating king, and Agastya's ornament",
+   "section": "04-deep-dives",
+   "word_count": 2117,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/silappatikaram-kannagi-pattini.md",
    "title": "Cilappatikāram & the Kaṇṇaki–Pattini Cult — the Anklet, the Burning of Madurai, and a Goddess Worshipped in Three Lands",
    "section": "04-deep-dives",
    "word_count": 2335,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/simhasana-dvatrimshika-vikramaditya-cycle.md",
+   "title": "Siṃhāsana Dvātriṃśikā — the 32 tales of Vikramāditya's throne",
+   "section": "04-deep-dives",
+   "word_count": 2148,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/siruthondar-nayanar.md",
+   "title": "Siruthondar — the child-curry test of Bhairava",
+   "section": "04-deep-dives",
+   "word_count": 2052,
    "is_index": false
   },
   {
@@ -2661,6 +3137,13 @@
    "title": "Lalita Sahasranama: The Thousand Names of Lalita Tripurasundari",
    "section": "04-deep-dives",
    "word_count": 2230,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/stotras/madhurashtakam.md",
+   "title": "Madhurashtakam — Vallabha's 'Adharam Madhuram'",
+   "section": "04-deep-dives",
+   "word_count": 1695,
    "is_index": false
   },
   {
@@ -2762,6 +3245,13 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/sudarshana-shankhachuda-vyoma.md",
+   "title": "Sudarśana, Śaṅkhacūḍa and Vyomāsura — the later Vraja slayings",
+   "section": "04-deep-dives",
+   "word_count": 1910,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/sudarshana-shashikala-navaratri.md",
    "title": "Sudarśana and Śaśikalā: the Navarātri Charter-Story",
    "section": "04-deep-dives",
@@ -2773,6 +3263,20 @@
    "title": "Sunaḥśepa — the Boy Offered in Sacrifice",
    "section": "04-deep-dives",
    "word_count": 1853,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/surapadma-samharam-kanda-puranam.md",
+   "title": "Surapadma Samharam — the Kanda Puranam war cycle (Vīrabāhu's embassy and the six-day war)",
+   "section": "04-deep-dives",
+   "word_count": 2188,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/suvarnashthivin-srinjaya-narada-parvata.md",
+   "title": "Suvarṇaṣṭhīvin — Nārada, Parvata and Sṛñjaya's gold-spitting son",
+   "section": "04-deep-dives",
+   "word_count": 2415,
    "is_index": false
   },
   {
@@ -2825,6 +3329,13 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/tripura-rahasya.md",
+   "title": "Tripurā Rahasya — the Śākta-Advaita dialogue of Dattātreya and Paraśurāma",
+   "section": "04-deep-dives",
+   "word_count": 2478,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/trishanku.md",
    "title": "Triśaṅku — Heaven in Limbo",
    "section": "04-deep-dives",
@@ -2832,10 +3343,24 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/trita-aptya.md",
+   "title": "Trita Āptya — the sage in the well and the scapegoat of the gods",
+   "section": "04-deep-dives",
+   "word_count": 2585,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/tulasi-ganesha-curse.md",
    "title": "Tulasī's Proposal to Gaṇeśa and the Mutual Curses",
    "section": "04-deep-dives",
    "word_count": 1812,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/udayana-vasavadatta.md",
+   "title": "Udayana and Vāsavadattā — the Vatsa king's romance cycle",
+   "section": "04-deep-dives",
+   "word_count": 2056,
    "is_index": false
   },
   {
@@ -2853,6 +3378,13 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/unchavritti-brahmin-naga-padmanabha.md",
+   "title": "Uñchavṛtti-upākhyāna — the brahmin Dharmāraṇya and the Nāga Padmanābha",
+   "section": "04-deep-dives",
+   "word_count": 2212,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/uttanka.md",
    "title": "Uttaṅka — the Quest for the Earrings",
    "section": "04-deep-dives",
@@ -2864,6 +3396,13 @@
    "title": "The Uttara Rāmāyaṇa — Rāma-rājya, Sītā's Banishment, Lava-Kuśa & Śambūka",
    "section": "04-deep-dives",
    "word_count": 3579,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/vac-and-the-soma-purchase.md",
+   "title": "Vāc and the purchase of Soma — why women love song and dance",
+   "section": "04-deep-dives",
+   "word_count": 2260,
    "is_index": false
   },
   {
@@ -2902,6 +3441,20 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/vipashchit-in-hell.md",
+   "title": "Vipaścit in hell — the king who gave his merit to the damned",
+   "section": "04-deep-dives",
+   "word_count": 2329,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/vishnu-lotus-eye-sudarshana.md",
+   "title": "Viṣṇu's eye-offering and the gift of the Sudarśana chakra",
+   "section": "04-deep-dives",
+   "word_count": 1706,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/vishwamitra-vasishtha.md",
    "title": "Viśvāmitra & Vasiṣṭha — Kṣatriya to Brahmarṣi",
    "section": "04-deep-dives",
@@ -2930,10 +3483,24 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/vyasa-banished-from-kashi.md",
+   "title": "Vyāsa humbled at Kāśī — the paralysed arm and the ban from the city",
+   "section": "04-deep-dives",
+   "word_count": 2071,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/vyasa.md",
    "title": "Vyāsa (Kṛṣṇa Dvaipāyana) — Arranger of the Vedas",
    "section": "04-deep-dives",
    "word_count": 1490,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/vyushitashva-bhadra.md",
+   "title": "Vyuṣitāśva and Bhadrā — sons begotten by the dead king",
+   "section": "04-deep-dives",
+   "word_count": 1983,
    "is_index": false
   },
   {
@@ -2944,10 +3511,24 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/yajna-patni-mokshana.md",
+   "title": "Yajña-patnī-mokṣaṇa — the wives of the Vedic brāhmaṇas feed Krishna",
+   "section": "04-deep-dives",
+   "word_count": 2378,
+   "is_index": false
+  },
+  {
    "path": "04-deep-dives/yaksha-prashna.md",
    "title": "The Yakṣa Praśna — Yudhiṣṭhira and the Riddles of Dharma",
    "section": "04-deep-dives",
    "word_count": 2525,
+   "is_index": false
+  },
+  {
+   "path": "04-deep-dives/yama-gita.md",
+   "title": "Yama Gītā (Viṣṇu Purāṇa version) — Yama's charge to spare Viṣṇu's devotees",
+   "section": "04-deep-dives",
+   "word_count": 2171,
    "is_index": false
   },
   {
@@ -2972,10 +3553,17 @@
    "is_index": false
   },
   {
+   "path": "04-deep-dives/yuddha-khanda-minor-vadhas.md",
+   "title": "The minor demon-slayings of the Yuddha-khaṇḍa — Dundubhinirhrāda, Vidala and Utpala",
+   "section": "04-deep-dives",
+   "word_count": 1865,
+   "is_index": false
+  },
+  {
    "path": "05-concepts-and-dharma/README.md",
    "title": "Concepts & Dharma",
    "section": "05-concepts-and-dharma",
-   "word_count": 464,
+   "word_count": 485,
    "is_index": true
   },
   {
@@ -2983,6 +3571,13 @@
    "title": "Ahiṃsā & Hindu Ethics",
    "section": "05-concepts-and-dharma",
    "word_count": 1896,
+   "is_index": false
+  },
+  {
+   "path": "05-concepts-and-dharma/anna-naivedya-and-prasada.md",
+   "title": "Anna, naivedya and prasada — the sacred-food traditions",
+   "section": "05-concepts-and-dharma",
+   "word_count": 2554,
    "is_index": false
   },
   {
@@ -3074,6 +3669,13 @@
    "title": "The Five Great Sacrifices & the Three Debts",
    "section": "05-concepts-and-dharma",
    "word_count": 2276,
+   "is_index": false
+  },
+  {
+   "path": "05-concepts-and-dharma/papa-punya-and-prayaschitta.md",
+   "title": "Papa, Punya and Prayaschitta — sin, merit and expiation",
+   "section": "05-concepts-and-dharma",
+   "word_count": 2453,
    "is_index": false
   },
   {
@@ -3248,7 +3850,7 @@
    "path": "06-sacred-geography/README.md",
    "title": "Sacred Geography — Overview & Index",
    "section": "06-sacred-geography",
-   "word_count": 1319,
+   "word_count": 1581,
    "is_index": true
   },
   {
@@ -3263,6 +3865,13 @@
    "title": "Amarnath — The Ice-Lingam Cave and the Amar Katha",
    "section": "06-sacred-geography",
    "word_count": 1571,
+   "is_index": false
+  },
+  {
+   "path": "06-sacred-geography/ambalappuzha-krishna-palpayasam.md",
+   "title": "Ambalappuzha Sri Krishna — the chessboard grains and the pālpāyasam",
+   "section": "06-sacred-geography",
+   "word_count": 1858,
    "is_index": false
   },
   {
@@ -3284,6 +3893,13 @@
    "title": "Aṣṭa Svayam-vyakta Kṣetras — The Eight Self-Manifest Viṣṇu Shrines",
    "section": "06-sacred-geography",
    "word_count": 1321,
+   "is_index": false
+  },
+  {
+   "path": "06-sacred-geography/ashta-virattanam-eight-feat-shrines.md",
+   "title": "Ashta Virattanam — the eight shrines of Shiva's heroic feats",
+   "section": "06-sacred-geography",
+   "word_count": 1890,
    "is_index": false
   },
   {
@@ -3322,6 +3938,13 @@
    "is_index": false
   },
   {
+   "path": "06-sacred-geography/basara-gnana-saraswati-vyasa.md",
+   "title": "Basara Gnana Saraswati — Vyāsa's post-war sojourn on the Godāvarī",
+   "section": "06-sacred-geography",
+   "word_count": 1957,
+   "is_index": false
+  },
+  {
    "path": "06-sacred-geography/bharatavarsha-and-puranic-geography.md",
    "title": "Bhāratavarṣa & Purāṇic Geography",
    "section": "06-sacred-geography",
@@ -3343,6 +3966,13 @@
    "is_index": false
   },
   {
+   "path": "06-sacred-geography/chandra-taal-yudhishthira-svargarohana.md",
+   "title": "Chandra Tāl — the Moon Lake of Spiti and the Legend of Yudhiṣṭhira's Ascent",
+   "section": "06-sacred-geography",
+   "word_count": 1601,
+   "is_index": false
+  },
+  {
    "path": "06-sacred-geography/char-dham-and-chota-char-dham.md",
    "title": "Char Dhām & Chota Char Dhām",
    "section": "06-sacred-geography",
@@ -3354,6 +3984,13 @@
    "title": "Chitrakoot — Kamadgiri and the Forest-Tirtha of Rāma's Exile",
    "section": "06-sacred-geography",
    "word_count": 1641,
+   "is_index": false
+  },
+  {
+   "path": "06-sacred-geography/dakor-ranchhodrai-bodana.md",
+   "title": "Dākor Raṇchhoḍrāī — Bodāṇā and the Idol that Left Dvārakā",
+   "section": "06-sacred-geography",
+   "word_count": 1775,
    "is_index": false
   },
   {
@@ -3392,6 +4029,13 @@
    "is_index": false
   },
   {
+   "path": "06-sacred-geography/goa-shantadurga-mangeshi-kuladevatas.md",
+   "title": "Goa's kuladevata pantheon — Shāntādurgā, Mangeśī, Rāvaḷnāth, Betāḷ, Sāterī",
+   "section": "06-sacred-geography",
+   "word_count": 2197,
+   "is_index": false
+  },
+  {
    "path": "06-sacred-geography/godavari-gautami-dakshina-ganga.md",
    "title": "Godavari — The Gautami and the Dakshina Ganga",
    "section": "06-sacred-geography",
@@ -3403,6 +4047,13 @@
    "title": "Gokarṇa Mahābaleśvara & the Ātma-liṅga",
    "section": "06-sacred-geography",
    "word_count": 1424,
+   "is_index": false
+  },
+  {
+   "path": "06-sacred-geography/greater-india-sacred-geography.md",
+   "title": "Sacred geography beyond the subcontinent — Angkor, Champa, Java, Bali",
+   "section": "06-sacred-geography",
+   "word_count": 2348,
    "is_index": false
   },
   {
@@ -3455,6 +4106,13 @@
    "is_index": false
   },
   {
+   "path": "06-sacred-geography/kanipakam-varasiddhi-vinayaka.md",
+   "title": "Kanipakam Varasiddhi Vinayaka — the self-manifest Ganesha in the well",
+   "section": "06-sacred-geography",
+   "word_count": 2005,
+   "is_index": false
+  },
+  {
    "path": "06-sacred-geography/kanwar-yatra-and-shravan-shiva-observances.md",
    "title": "Kanwar Yatra & the Shravan Shiva Observances",
    "section": "06-sacred-geography",
@@ -3466,6 +4124,13 @@
    "title": "Kāśī / Vārāṇasī — the City of Light (Avimukta Kṣetra)",
    "section": "06-sacred-geography",
    "word_count": 2150,
+   "is_index": false
+  },
+  {
+   "path": "06-sacred-geography/kashmir-tirthas-nilamata-geography.md",
+   "title": "Kashmir tirthas — the Nilamata sacred landscape",
+   "section": "06-sacred-geography",
+   "word_count": 2418,
    "is_index": false
   },
   {
@@ -3501,6 +4166,27 @@
    "title": "Konārk Sun Temple — Arka Kṣetra",
    "section": "06-sacred-geography",
    "word_count": 1464,
+   "is_index": false
+  },
+  {
+   "path": "06-sacred-geography/kotirudra-minor-linga-legends.md",
+   "title": "Koṭirudra minor liṅga legends — Atrīśvara, Nandikeśvara, Mahābala",
+   "section": "06-sacred-geography",
+   "word_count": 2140,
+   "is_index": false
+  },
+  {
+   "path": "06-sacred-geography/kukke-subrahmanya-vasuki.md",
+   "title": "Kukke Subrahmanya — Vasuki sheltered from Garuḍa",
+   "section": "06-sacred-geography",
+   "word_count": 1625,
+   "is_index": false
+  },
+  {
+   "path": "06-sacred-geography/kumbakonam-adi-kumbheshwara-mahamaham.md",
+   "title": "Kumbakonam — Adi Kumbheśvara, the amṛta-pot of the pralaya, and the Mahāmaham",
+   "section": "06-sacred-geography",
+   "word_count": 1971,
    "is_index": false
   },
   {
@@ -3560,6 +4246,13 @@
    "is_index": false
   },
   {
+   "path": "06-sacred-geography/mahisagara-sangama-kumarika-kshetra.md",
+   "title": "Mahīsāgara-saṃgama / Kumārikā-kṣetra (Cambay) — Arjuna and the crocodile-apsarās, Stambheśvara",
+   "section": "06-sacred-geography",
+   "word_count": 1965,
+   "is_index": false
+  },
+  {
    "path": "06-sacred-geography/manasarovar-kailash-yatra.md",
    "title": "Mānasarovara & the Kailāsa Parikramā",
    "section": "06-sacred-geography",
@@ -3578,6 +4271,13 @@
    "title": "Mathurā–Vṛndāvana & the Braj Maṇḍala (84 Kos)",
    "section": "06-sacred-geography",
    "word_count": 2578,
+   "is_index": false
+  },
+  {
+   "path": "06-sacred-geography/mehandipur-salasar-balaji-hanuman-shrines.md",
+   "title": "The folk Hanuman healing shrines — Mehandipur Balaji and Salasar Balaji",
+   "section": "06-sacred-geography",
+   "word_count": 2287,
    "is_index": false
   },
   {
@@ -3749,6 +4449,13 @@
    "is_index": false
   },
   {
+   "path": "06-sacred-geography/sakshi-gopal-witness-krishna.md",
+   "title": "Sākṣi-Gopāla — the Witness Gopāla who Walked from Vṛndāvana",
+   "section": "06-sacred-geography",
+   "word_count": 2031,
+   "is_index": false
+  },
+  {
    "path": "06-sacred-geography/sapta-puri-and-sacred-cities.md",
    "title": "Sapta Purī, Sacred Cities & Rivers",
    "section": "06-sacred-geography",
@@ -3819,6 +4526,20 @@
    "is_index": false
   },
   {
+   "path": "06-sacred-geography/suchindram-sthanumalayan.md",
+   "title": "Suchindram Sthanumalayan — the Trimurti linga and Indra's expiation",
+   "section": "06-sacred-geography",
+   "word_count": 1570,
+   "is_index": false
+  },
+  {
+   "path": "06-sacred-geography/tarapith-tara-vashishtha-bamakhepa.md",
+   "title": "Tārāpīṭha — Vasiṣṭha's Tārā Sādhana, the Fallen Third Eye, and Bāmākhepā",
+   "section": "06-sacred-geography",
+   "word_count": 1951,
+   "is_index": false
+  },
+  {
    "path": "06-sacred-geography/temple-networks-and-circuits.md",
    "title": "Temple Networks & Pilgrimage Circuits",
    "section": "06-sacred-geography",
@@ -3826,10 +4547,31 @@
    "is_index": false
   },
   {
+   "path": "06-sacred-geography/tiruchirappalli-rockfort-thayumanavar.md",
+   "title": "Thāyumānavar of Tiruchirāppaḷḷi Rock Fort — Śiva as the mother-midwife",
+   "section": "06-sacred-geography",
+   "word_count": 1765,
+   "is_index": false
+  },
+  {
    "path": "06-sacred-geography/tirumala-tirupati-venkateshwara.md",
    "title": "Tirumala–Tirupati — Veṅkaṭeśvara (Bālājī)",
    "section": "06-sacred-geography",
    "word_count": 1541,
+   "is_index": false
+  },
+  {
+   "path": "06-sacred-geography/tiruvarur-thyagaraja-kamalalaya.md",
+   "title": "Tiruvarur Thyagaraja — Manu Needhi Chola and Muchukunda's Somaskanda",
+   "section": "06-sacred-geography",
+   "word_count": 2443,
+   "is_index": false
+  },
+  {
+   "path": "06-sacred-geography/tuljapur-tulja-bhavani.md",
+   "title": "Tuljapur Tulja Bhavani — goddess of the Sāḍe-tīn Pīṭhas and Shivaji's sword",
+   "section": "06-sacred-geography",
+   "word_count": 2432,
    "is_index": false
   },
   {
@@ -3847,6 +4589,13 @@
    "is_index": false
   },
   {
+   "path": "06-sacred-geography/ujjain-mahakalavana-kapalamochana.md",
+   "title": "Mahākālavana and the release of Brahmā's skull — the Avantya opening cycle",
+   "section": "06-sacred-geography",
+   "word_count": 2299,
+   "is_index": false
+  },
+  {
    "path": "06-sacred-geography/vaishno-devi-trikuta-katra.md",
    "title": "Vaishno Devi — the Trikuta Cave-Shrine of the Goddess (Katra, Jammu)",
    "section": "06-sacred-geography",
@@ -3861,10 +4610,17 @@
    "is_index": false
   },
   {
+   "path": "06-sacred-geography/yadagirigutta-pancha-narasimha.md",
+   "title": "Yādagirigutta — the Five Narasiṃhas Revealed to Yāda-ṛṣi",
+   "section": "06-sacred-geography",
+   "word_count": 1785,
+   "is_index": false
+  },
+  {
    "path": "07-acharyas-and-sampradayas/README.md",
    "title": "Ācāryas & Sampradāyas — Index",
    "section": "07-acharyas-and-sampradayas",
-   "word_count": 1153,
+   "word_count": 1197,
    "is_index": true
   },
   {
@@ -3872,6 +4628,13 @@
    "title": "Ādi Śaṅkara & Advaita Vedānta",
    "section": "07-acharyas-and-sampradayas",
    "word_count": 1641,
+   "is_index": false
+  },
+  {
+   "path": "07-acharyas-and-sampradayas/alvar-hagiographies-guruparampara.md",
+   "title": "Alvar hagiographies — the Guruparampara legends",
+   "section": "07-acharyas-and-sampradayas",
+   "word_count": 1962,
    "is_index": false
   },
   {
@@ -3886,6 +4649,13 @@
    "title": "Āṇḍāḷ — the Only Female Ālvār and the Tiruppāvai",
    "section": "07-acharyas-and-sampradayas",
    "word_count": 1944,
+   "is_index": false
+  },
+  {
+   "path": "07-acharyas-and-sampradayas/arunagirinathar-tiruppugazh.md",
+   "title": "Arunagirinathar — the gopuram leap and the Tiruppugazh",
+   "section": "07-acharyas-and-sampradayas",
+   "word_count": 1790,
    "is_index": false
   },
   {
@@ -3949,6 +4719,13 @@
    "title": "The Haridāsa Movement & the Carnatic Trinity",
    "section": "07-acharyas-and-sampradayas",
    "word_count": 1606,
+   "is_index": false
+  },
+  {
+   "path": "07-acharyas-and-sampradayas/indenture-diaspora-hinduism.md",
+   "title": "Hinduism of the indenture diaspora (Caribbean, Mauritius, Fiji)",
+   "section": "07-acharyas-and-sampradayas",
+   "word_count": 2120,
    "is_index": false
   },
   {
@@ -4040,6 +4817,13 @@
    "title": "Nammālvār — the Foremost Ālvār and the Tiruvāymoḻi",
    "section": "07-acharyas-and-sampradayas",
    "word_count": 1881,
+   "is_index": false
+  },
+  {
+   "path": "07-acharyas-and-sampradayas/nandanar-tirunalaippovar.md",
+   "title": "Nandanar (Tirunālaippōvār) — the full legend",
+   "section": "07-acharyas-and-sampradayas",
+   "word_count": 1928,
    "is_index": false
   },
   {
@@ -4148,6 +4932,13 @@
    "is_index": false
   },
   {
+   "path": "07-acharyas-and-sampradayas/tirumangai-alvar.md",
+   "title": "Tirumaṅgai Āḻvār — the robber-saint Parakāla",
+   "section": "07-acharyas-and-sampradayas",
+   "word_count": 2260,
+   "is_index": false
+  },
+  {
    "path": "07-acharyas-and-sampradayas/tukaram.md",
    "title": "Tukārām — the Abhaṅga Apex of the Vārkarī Tradition",
    "section": "07-acharyas-and-sampradayas",
@@ -4172,7 +4963,7 @@
    "path": "08-beings-and-bestiary/README.md",
    "title": "Beings & Bestiary — Index",
    "section": "08-beings-and-bestiary",
-   "word_count": 1585,
+   "word_count": 1600,
    "is_index": true
   },
   {
@@ -4267,6 +5058,13 @@
    "is_index": false
   },
   {
+   "path": "08-beings-and-bestiary/panjurli-guliga-tulu-daivas.md",
+   "title": "Panjurli and Guliga — the boar-daiva and the fierce watcher of Tulu Bhūta-Kola",
+   "section": "08-beings-and-bestiary",
+   "word_count": 1945,
+   "is_index": false
+  },
+  {
    "path": "08-beings-and-bestiary/pitrs-and-ancestors.md",
    "title": "The Pitṛs — Ancestral Orders & Pitṛ-loka",
    "section": "08-beings-and-bestiary",
@@ -4347,7 +5145,7 @@
    "path": "09-artifacts-symbols-and-arts/README.md",
    "title": "Artifacts, Symbols & Arts — Index",
    "section": "09-artifacts-symbols-and-arts",
-   "word_count": 1631,
+   "word_count": 1637,
    "is_index": true
   },
   {
@@ -4456,6 +5254,13 @@
    "is_index": false
   },
   {
+   "path": "09-artifacts-symbols-and-arts/vadya-sacred-musical-instruments.md",
+   "title": "Sacred musical instruments (Vādya)",
+   "section": "09-artifacts-symbols-and-arts",
+   "word_count": 2203,
+   "is_index": false
+  },
+  {
    "path": "09-artifacts-symbols-and-arts/vahanas-and-celestial-vehicles.md",
    "title": "Vāhanas & Celestial Vehicles",
    "section": "09-artifacts-symbols-and-arts",
@@ -4466,7 +5271,7 @@
    "path": "90-literature-corpus/README.md",
    "title": "The Literature Corpus — Overview",
    "section": "90-literature-corpus",
-   "word_count": 2819,
+   "word_count": 2867,
    "is_index": true
   },
   {
@@ -4547,10 +5352,24 @@
    "is_index": false
   },
   {
+   "path": "90-literature-corpus/hitopadesha.md",
+   "title": "Hitopadeśa — Nārāyaṇa's Book of Good Counsel",
+   "section": "90-literature-corpus",
+   "word_count": 1888,
+   "is_index": false
+  },
+  {
    "path": "90-literature-corpus/kashmir-shaiva-texts.md",
    "title": "Kashmir Śaiva Texts — Śiva-Sūtras to Vijñāna Bhairava",
    "section": "90-literature-corpus",
    "word_count": 2135,
+   "is_index": false
+  },
+  {
+   "path": "90-literature-corpus/katamaraju-katha.md",
+   "title": "Katamaraju Katha — the Telugu cattle-war epic of Nellore",
+   "section": "90-literature-corpus",
+   "word_count": 2340,
    "is_index": false
   },
   {
@@ -4764,6 +5583,13 @@
    "is_index": false
   },
   {
+   "path": "90-literature-corpus/puranas/vishnudharmottara-purana.md",
+   "title": "Viṣṇudharmottara Purāṇa — text profile",
+   "section": "90-literature-corpus",
+   "word_count": 1962,
+   "is_index": false
+  },
+  {
    "path": "90-literature-corpus/regional-and-oral-epics.md",
    "title": "Regional & Oral Epics & Folk Traditions",
    "section": "90-literature-corpus",
@@ -4789,6 +5615,13 @@
    "title": "Smṛti — The Purāṇas",
    "section": "90-literature-corpus",
    "word_count": 1808,
+   "is_index": false
+  },
+  {
+   "path": "90-literature-corpus/swasthani-brata-katha.md",
+   "title": "Swasthani Brata Katha — the Goma Brahmani cycle (Nepal)",
+   "section": "90-literature-corpus",
+   "word_count": 2357,
    "is_index": false
   },
   {
@@ -4995,6 +5828,13 @@
    "is_index": false
   },
   {
+   "path": "90-literature-corpus/vadakkan-pattukal-northern-ballads.md",
+   "title": "Vadakkan Pattukal — the Northern Ballads of Malabar",
+   "section": "90-literature-corpus",
+   "word_count": 2176,
+   "is_index": false
+  },
+  {
    "path": "90-literature-corpus/vedas/README.md",
    "title": "Vedas",
    "section": "90-literature-corpus",
@@ -5152,14 +5992,14 @@
    "path": "STRUCTURE.md",
    "title": "STRUCTURE — Skeleton & Coverage Tracker",
    "section": "(root)",
-   "word_count": 3829,
+   "word_count": 4444,
    "is_index": false
   },
   {
    "path": "TIMELINE.md",
    "title": "TIMELINE — The Flat Chronological Index",
    "section": "(root)",
-   "word_count": 294266,
+   "word_count": 337314,
    "is_index": false
   }
  ]

@@ -75,7 +75,7 @@ Single lines of the 64-kalā roster are raised into full detail files; each keep
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 16 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 17 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Pictorial / devotional painting traditions](chitra-kala-painting-traditions.md)
 - 🟩 [Classical Dance Forms & Ritual Dance-Theatre](classical-dance-forms-and-ritual-theatre.md)
@@ -92,6 +92,7 @@ Single lines of the 64-kalā roster are raised into full detail files; each keep
 - 🟩 [The Sixty-Four Kalās — Arts & Sciences](sixty-four-kalas.md)
 - 🟩 [Temple Architecture — Nāgara, Drāviḍa & Vesara](temple-architecture-nagara-dravida-vesara.md)
 - 🟩 [Temple Iconographic Motifs: Kīrtimukha, Yāḷi/Vyāla, Makara-toraṇa and Guardian Ornament](temple-iconographic-motifs.md)
+- 🟩 [Sacred musical instruments (Vādya)](vadya-sacred-musical-instruments.md)
 - 🟩 [Vāhanas & Celestial Vehicles](vahanas-and-celestial-vehicles.md)
 
 <!-- AUTOINDEX:END -->
