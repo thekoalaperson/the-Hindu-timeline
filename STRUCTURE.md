@@ -2,7 +2,7 @@
 
 > The living map of *The Hindu Timeline*: every file, its depth, and what to build next. Regenerated from the actual tree. Back to the [master index](README.md).
 
-**Totals:** 855 files · ~2,025,047 words · 2 stubs · 0 broken internal links (file & dir verified).
+**Totals:** 862 files · ~2,042,769 words · 2 stubs · 0 broken internal links (file & dir verified).
 
 **Legend:** 🟩 deep · 🟨 stub/sparse.
 
@@ -15,8 +15,8 @@
 - 🟩 [`HANDOFF.md`](HANDOFF.md) · 916w
 - [`README.md`](README.md) · 1526w
 - 🟩 [`SOURCES.md`](SOURCES.md) · 774w
-- 🟩 [`STRUCTURE.md`](STRUCTURE.md) · 4439w
-- 🟩 [`TIMELINE.md`](TIMELINE.md) · 337314w
+- 🟩 [`STRUCTURE.md`](STRUCTURE.md) · 4444w
+- 🟩 [`TIMELINE.md`](TIMELINE.md) · 340107w
 
 ## 00-time-and-cosmology  (16 files)
 
@@ -579,13 +579,13 @@
 - 🟩 [`05-concepts-and-dharma/vastu-shastra-and-the-vastu-purusha-mandala.md`](05-concepts-and-dharma/vastu-shastra-and-the-vastu-purusha-mandala.md) · 1936w
 - 🟩 [`05-concepts-and-dharma/yoga-paths-and-patanjali.md`](05-concepts-and-dharma/yoga-paths-and-patanjali.md) · 1962w
 
-## 06-sacred-geography  (114 files)
+## 06-sacred-geography  (115 files)
 
 - 🟩 [`06-sacred-geography/108-divya-desams.md`](06-sacred-geography/108-divya-desams.md) · 3128w
 - 🟩 [`06-sacred-geography/12-jyotirlingas.md`](06-sacred-geography/12-jyotirlingas.md) · 2364w
 - 🟩 [`06-sacred-geography/275-paadal-petra-sthalams.md`](06-sacred-geography/275-paadal-petra-sthalams.md) · 1687w
 - 🟩 [`06-sacred-geography/51-shakti-peethas.md`](06-sacred-geography/51-shakti-peethas.md) · 2781w
-- [`06-sacred-geography/README.md`](06-sacred-geography/README.md) · 1581w
+- [`06-sacred-geography/README.md`](06-sacred-geography/README.md) · 1592w
 - 🟩 [`06-sacred-geography/ahobilam-nava-narasimha.md`](06-sacred-geography/ahobilam-nava-narasimha.md) · 1378w
 - 🟩 [`06-sacred-geography/amarnath-ice-lingam-and-amar-katha.md`](06-sacred-geography/amarnath-ice-lingam-and-amar-katha.md) · 1571w
 - 🟩 [`06-sacred-geography/ambalappuzha-krishna-palpayasam.md`](06-sacred-geography/ambalappuzha-krishna-palpayasam.md) · 1858w
@@ -692,13 +692,14 @@
 - 🟩 [`06-sacred-geography/udupi-krishna-matha.md`](06-sacred-geography/udupi-krishna-matha.md) · 1435w
 - 🟩 [`06-sacred-geography/ujjain-avantika.md`](06-sacred-geography/ujjain-avantika.md) · 2565w
 - 🟩 [`06-sacred-geography/ujjain-mahakalavana-kapalamochana.md`](06-sacred-geography/ujjain-mahakalavana-kapalamochana.md) · 2299w
+- 🟩 [`06-sacred-geography/vadnagar-hatakeshvara-kshetra.md`](06-sacred-geography/vadnagar-hatakeshvara-kshetra.md) · 2274w
 - 🟩 [`06-sacred-geography/vaishno-devi-trikuta-katra.md`](06-sacred-geography/vaishno-devi-trikuta-katra.md) · 1603w
 - 🟩 [`06-sacred-geography/vaitarani-jajpur-viraja-kshetra.md`](06-sacred-geography/vaitarani-jajpur-viraja-kshetra.md) · 1319w
 - 🟩 [`06-sacred-geography/yadagirigutta-pancha-narasimha.md`](06-sacred-geography/yadagirigutta-pancha-narasimha.md) · 1785w
 
-## 07-acharyas-and-sampradayas  (49 files)
+## 07-acharyas-and-sampradayas  (50 files)
 
-- [`07-acharyas-and-sampradayas/README.md`](07-acharyas-and-sampradayas/README.md) · 1197w
+- [`07-acharyas-and-sampradayas/README.md`](07-acharyas-and-sampradayas/README.md) · 1209w
 - 🟩 [`07-acharyas-and-sampradayas/adi-shankara.md`](07-acharyas-and-sampradayas/adi-shankara.md) · 1641w
 - 🟩 [`07-acharyas-and-sampradayas/alvar-hagiographies-guruparampara.md`](07-acharyas-and-sampradayas/alvar-hagiographies-guruparampara.md) · 1962w
 - 🟩 [`07-acharyas-and-sampradayas/alvars-and-nayanars.md`](07-acharyas-and-sampradayas/alvars-and-nayanars.md) · 1445w
@@ -721,6 +722,7 @@
 - 🟩 [`07-acharyas-and-sampradayas/kanhopatra.md`](07-acharyas-and-sampradayas/kanhopatra.md) · 1414w
 - 🟩 [`07-acharyas-and-sampradayas/karaikkal-ammaiyar.md`](07-acharyas-and-sampradayas/karaikkal-ammaiyar.md) · 1734w
 - 🟩 [`07-acharyas-and-sampradayas/lalleshwari-lal-ded.md`](07-acharyas-and-sampradayas/lalleshwari-lal-ded.md) · 1568w
+- 🟩 [`07-acharyas-and-sampradayas/later-advaita-acharyas.md`](07-acharyas-and-sampradayas/later-advaita-acharyas.md) · 2135w
 - 🟩 [`07-acharyas-and-sampradayas/lingayat-vachana-poets.md`](07-acharyas-and-sampradayas/lingayat-vachana-poets.md) · 2475w
 - 🟩 [`07-acharyas-and-sampradayas/mantra-shastra.md`](07-acharyas-and-sampradayas/mantra-shastra.md) · 1889w
 - 🟩 [`07-acharyas-and-sampradayas/mirabai.md`](07-acharyas-and-sampradayas/mirabai.md) · 2236w
@@ -798,9 +800,9 @@
 - 🟩 [`09-artifacts-symbols-and-arts/vadya-sacred-musical-instruments.md`](09-artifacts-symbols-and-arts/vadya-sacred-musical-instruments.md) · 2203w
 - 🟩 [`09-artifacts-symbols-and-arts/vahanas-and-celestial-vehicles.md`](09-artifacts-symbols-and-arts/vahanas-and-celestial-vehicles.md) · 2738w
 
-## 90-literature-corpus  (99 files)
+## 90-literature-corpus  (104 files)
 
-- [`90-literature-corpus/README.md`](90-literature-corpus/README.md) · 2867w
+- [`90-literature-corpus/README.md`](90-literature-corpus/README.md) · 2914w
 - 🟩 [`90-literature-corpus/agamas-tantras-dharmashastras.md`](90-literature-corpus/agamas-tantras-dharmashastras.md) · 2158w
 - 🟩 [`90-literature-corpus/bhagavata-purana-skandha-map.md`](90-literature-corpus/bhagavata-purana-skandha-map.md) · 2063w
 - 🟩 [`90-literature-corpus/brihatkatha-kathasaritsagara-and-vikramaditya-cycle.md`](90-literature-corpus/brihatkatha-kathasaritsagara-and-vikramaditya-cycle.md) · 2418w
@@ -812,10 +814,13 @@
   - 🟩 [`90-literature-corpus/darshanas/samkhya-karika.md`](90-literature-corpus/darshanas/samkhya-karika.md) · 2132w
   - 🟩 [`90-literature-corpus/darshanas/vaisheshika-sutras.md`](90-literature-corpus/darshanas/vaisheshika-sutras.md) · 2218w
   - 🟩 [`90-literature-corpus/darshanas/vedanta-prakarana-granthas.md`](90-literature-corpus/darshanas/vedanta-prakarana-granthas.md) · 2319w
+- 🟩 [`90-literature-corpus/dhangar-oral-epics-biroba-mhaskoba-dhuloba.md`](90-literature-corpus/dhangar-oral-epics-biroba-mhaskoba-dhuloba.md) · 2232w
+- 🟩 [`90-literature-corpus/dharma-nibandhas-and-digests.md`](90-literature-corpus/dharma-nibandhas-and-digests.md) · 1765w
 - 🟩 [`90-literature-corpus/hitopadesha.md`](90-literature-corpus/hitopadesha.md) · 1888w
 - 🟩 [`90-literature-corpus/kashmir-shaiva-texts.md`](90-literature-corpus/kashmir-shaiva-texts.md) · 2135w
 - 🟩 [`90-literature-corpus/katamaraju-katha.md`](90-literature-corpus/katamaraju-katha.md) · 2340w
 - 🟩 [`90-literature-corpus/maithili-oral-epics-salhesh-dina-bhadri.md`](90-literature-corpus/maithili-oral-epics-salhesh-dina-bhadri.md) · 2093w
+- 🟩 [`90-literature-corpus/manusmriti-map.md`](90-literature-corpus/manusmriti-map.md) · 2417w
 - 🟩 [`90-literature-corpus/odia-literature-sarala-and-panchasakha.md`](90-literature-corpus/odia-literature-sarala-and-panchasakha.md) · 2535w
 - 🟩 [`90-literature-corpus/panchatantra-hitopadesha-and-fable-literature.md`](90-literature-corpus/panchatantra-hitopadesha-and-fable-literature.md) · 2257w
 - 🟩 [`90-literature-corpus/periya-puranam-63-nayanmar-legend-map.md`](90-literature-corpus/periya-puranam-63-nayanmar-legend-map.md) · 2590w
@@ -847,7 +852,9 @@
   - 🟩 [`90-literature-corpus/puranas/vishnu-purana.md`](90-literature-corpus/puranas/vishnu-purana.md) · 2033w
   - 🟩 [`90-literature-corpus/puranas/vishnudharmottara-purana.md`](90-literature-corpus/puranas/vishnudharmottara-purana.md) · 1962w
 - 🟩 [`90-literature-corpus/regional-and-oral-epics.md`](90-literature-corpus/regional-and-oral-epics.md) · 3631w
+- 🟩 [`90-literature-corpus/shiva-purana-mahatmya-tales.md`](90-literature-corpus/shiva-purana-mahatmya-tales.md) · 2023w
 - 🟩 [`90-literature-corpus/shruti-vedas-and-upanishads.md`](90-literature-corpus/shruti-vedas-and-upanishads.md) · 1918w
+- 🟩 [`90-literature-corpus/shuka-saptati.md`](90-literature-corpus/shuka-saptati.md) · 2008w
 - 🟩 [`90-literature-corpus/smriti-itihasa-epics.md`](90-literature-corpus/smriti-itihasa-epics.md) · 2619w
 - 🟩 [`90-literature-corpus/smriti-puranas.md`](90-literature-corpus/smriti-puranas.md) · 1808w
 - 🟩 [`90-literature-corpus/swasthani-brata-katha.md`](90-literature-corpus/swasthani-brata-katha.md) · 2357w

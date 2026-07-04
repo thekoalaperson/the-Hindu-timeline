@@ -33,7 +33,7 @@ Every file in this section is listed in the auto-generated [📑 Full Contents](
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 113 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 114 files in this section. Regenerate with the indexer.*
 
 - 🟩 [The 108 Divya Desams — Vishnu Abodes of the Alvars](108-divya-desams.md)
 - 🟩 [The 12 Jyotirlingas of Shiva](12-jyotirlingas.md)
@@ -145,6 +145,7 @@ Every file in this section is listed in the auto-generated [📑 Full Contents](
 - 🟩 [Udupi Sri Krishna Matha](udupi-krishna-matha.md)
 - 🟩 [Ujjain / Avantikā — Mahākāla & the Time-Meridian City](ujjain-avantika.md)
 - 🟩 [Mahākālavana and the release of Brahmā's skull — the Avantya opening cycle](ujjain-mahakalavana-kapalamochana.md)
+- 🟩 [Hāṭakeśvara-kṣetra (Vaḍnagar) — the Nāgara-khaṇḍa sthala and Nāgara-brahmin charter](vadnagar-hatakeshvara-kshetra.md)
 - 🟩 [Vaishno Devi — the Trikuta Cave-Shrine of the Goddess (Katra, Jammu)](vaishno-devi-trikuta-katra.md)
 - 🟩 [Vaitaraṇī tīrtha](vaitarani-jajpur-viraja-kshetra.md)
 - 🟩 [Yādagirigutta — the Five Narasiṃhas Revealed to Yāda-ṛṣi](yadagirigutta-pancha-narasimha.md)

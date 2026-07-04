@@ -200,22 +200,27 @@ This repo holds **both frames in parallel** and never lets one silently overwrit
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 94 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 99 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Āgamas, Tantras & Dharmaśāstras](agamas-tantras-dharmashastras.md)
 - 🟩 [The Bhāgavata Purāṇa — Skandha-by-Skandha Map](bhagavata-purana-skandha-map.md)
 - 🟩 [Bṛhatkathā, Kathāsaritsāgara & the Vikramāditya Story Cycle](brihatkatha-kathasaritsagara-and-vikramaditya-cycle.md)
 - 🟩 [Classical Sanskrit Kāvya & Drama — the Court-Poetry Story-Vehicles](classical-kavya-and-sanskrit-drama.md)
+- 🟩 [The Dhangar god-epics — Biroba, Mhaskoba and Dhuloba](dhangar-oral-epics-biroba-mhaskoba-dhuloba.md)
+- 🟩 [Dharma-Nibandhas — the medieval digests](dharma-nibandhas-and-digests.md)
 - 🟩 [Hitopadeśa — Nārāyaṇa's Book of Good Counsel](hitopadesha.md)
 - 🟩 [Kashmir Śaiva Texts — Śiva-Sūtras to Vijñāna Bhairava](kashmir-shaiva-texts.md)
 - 🟩 [Katamaraju Katha — the Telugu cattle-war epic of Nellore](katamaraju-katha.md)
 - 🟩 [Maithili Oral Epics — Rājā Salhesh & the Dinā-Bhadrī Brothers](maithili-oral-epics-salhesh-dina-bhadri.md)
+- 🟩 [Manusmriti — chapter map of the Mānava-Dharmaśāstra](manusmriti-map.md)
 - 🟩 [Odia Literature — Sāraḷā Mahābhārata, Jagamohana Rāmāyaṇa & the Pañcasakhā](odia-literature-sarala-and-panchasakha.md)
 - 🟩 [Panchatantra, Hitopadeśa & the Nīti-Kathā Fable Corpus](panchatantra-hitopadesha-and-fable-literature.md)
 - 🟩 [The Periya Purāṇam — Legend Map of the 63 Nāyaṉmār (Tirumurai Book 12)](periya-puranam-63-nayanmar-legend-map.md)
 - 🟩 [The Principal Upaniṣads — Per-Text Detail](principal-upanishads-detail.md)
 - 🟩 [Regional & Oral Epics & Folk Traditions](regional-and-oral-epics.md)
+- 🟩 [The Śivapurāṇa-Māhātmya frame tales — Devarāja, Cañculā and Binduga](shiva-purana-mahatmya-tales.md)
 - 🟩 [Śruti — Vedas & Upanishads](shruti-vedas-and-upanishads.md)
+- 🟩 [Śukasaptati — the Seventy Tales of the Parrot](shuka-saptati.md)
 - 🟩 [Smṛti — Itihāsa (The Epics)](smriti-itihasa-epics.md)
 - 🟩 [Smṛti — The Purāṇas](smriti-puranas.md)
 - 🟩 [Swasthani Brata Katha — the Goma Brahmani cycle (Nepal)](swasthani-brata-katha.md)

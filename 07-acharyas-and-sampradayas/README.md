@@ -51,7 +51,7 @@ The **Vedānta schools** these orders carry — Advaita, Viśiṣṭādvaita, Dv
 
 ## 📑 Full Contents
 
-*Auto-generated index of all 48 files in this section. Regenerate with the indexer.*
+*Auto-generated index of all 49 files in this section. Regenerate with the indexer.*
 
 - 🟩 [Ādi Śaṅkara & Advaita Vedānta](adi-shankara.md)
 - 🟩 [Alvar hagiographies — the Guruparampara legends](alvar-hagiographies-guruparampara.md)
@@ -75,6 +75,7 @@ The **Vedānta schools** these orders carry — Advaita, Viśiṣṭādvaita, Dv
 - 🟩 [Kānhopātrā — the Courtesan-Saint of Pandharpur](kanhopatra.md)
 - 🟩 [Kāraikkāl Ammaiyār (Puṉitavati) — The Pēy-Devotee Nāyaṉār](karaikkal-ammaiyar.md)
 - 🟩 [Lalleśvarī / Lal Ded (Lallā Yogīśvarī) — The Vākhs of Kashmir](lalleshwari-lal-ded.md)
+- 🟩 [The later Advaita ācāryas — from Sureśvara to Sadāśiva Brahmendra](later-advaita-acharyas.md)
 - 🟩 [Liṅgāyat / Vīraśaiva Vachana Saints — Basava, Akka Mahādevi, Allama](lingayat-vachana-poets.md)
 - 🟩 [Mantra-Śāstra — the Tantric Science of Mantra](mantra-shastra.md)
 - 🟩 [Mīrābāī — the Rajput Princess-Saint of Krishna](mirabai.md)

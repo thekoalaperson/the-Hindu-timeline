@@ -1,8 +1,8 @@
 {
- "files": 855,
- "content_files": 831,
- "total_words": 2025052,
- "events": 7852,
+ "files": 862,
+ "content_files": 838,
+ "total_words": 2042804,
+ "events": 7918,
  "sections": [
   "00-time-and-cosmology",
   "01-manvantaras",
@@ -3850,7 +3850,7 @@
    "path": "06-sacred-geography/README.md",
    "title": "Sacred Geography — Overview & Index",
    "section": "06-sacred-geography",
-   "word_count": 1581,
+   "word_count": 1592,
    "is_index": true
   },
   {
@@ -4596,6 +4596,13 @@
    "is_index": false
   },
   {
+   "path": "06-sacred-geography/vadnagar-hatakeshvara-kshetra.md",
+   "title": "Hāṭakeśvara-kṣetra (Vaḍnagar) — the Nāgara-khaṇḍa sthala and Nāgara-brahmin charter",
+   "section": "06-sacred-geography",
+   "word_count": 2274,
+   "is_index": false
+  },
+  {
    "path": "06-sacred-geography/vaishno-devi-trikuta-katra.md",
    "title": "Vaishno Devi — the Trikuta Cave-Shrine of the Goddess (Katra, Jammu)",
    "section": "06-sacred-geography",
@@ -4620,7 +4627,7 @@
    "path": "07-acharyas-and-sampradayas/README.md",
    "title": "Ācāryas & Sampradāyas — Index",
    "section": "07-acharyas-and-sampradayas",
-   "word_count": 1197,
+   "word_count": 1209,
    "is_index": true
   },
   {
@@ -4775,6 +4782,13 @@
    "title": "Lalleśvarī / Lal Ded (Lallā Yogīśvarī) — The Vākhs of Kashmir",
    "section": "07-acharyas-and-sampradayas",
    "word_count": 1568,
+   "is_index": false
+  },
+  {
+   "path": "07-acharyas-and-sampradayas/later-advaita-acharyas.md",
+   "title": "The later Advaita ācāryas — from Sureśvara to Sadāśiva Brahmendra",
+   "section": "07-acharyas-and-sampradayas",
+   "word_count": 2135,
    "is_index": false
   },
   {
@@ -5271,7 +5285,7 @@
    "path": "90-literature-corpus/README.md",
    "title": "The Literature Corpus — Overview",
    "section": "90-literature-corpus",
-   "word_count": 2867,
+   "word_count": 2914,
    "is_index": true
   },
   {
@@ -5352,6 +5366,20 @@
    "is_index": false
   },
   {
+   "path": "90-literature-corpus/dhangar-oral-epics-biroba-mhaskoba-dhuloba.md",
+   "title": "The Dhangar god-epics — Biroba, Mhaskoba and Dhuloba",
+   "section": "90-literature-corpus",
+   "word_count": 2232,
+   "is_index": false
+  },
+  {
+   "path": "90-literature-corpus/dharma-nibandhas-and-digests.md",
+   "title": "Dharma-Nibandhas — the medieval digests",
+   "section": "90-literature-corpus",
+   "word_count": 1765,
+   "is_index": false
+  },
+  {
    "path": "90-literature-corpus/hitopadesha.md",
    "title": "Hitopadeśa — Nārāyaṇa's Book of Good Counsel",
    "section": "90-literature-corpus",
@@ -5377,6 +5405,13 @@
    "title": "Maithili Oral Epics — Rājā Salhesh & the Dinā-Bhadrī Brothers",
    "section": "90-literature-corpus",
    "word_count": 2093,
+   "is_index": false
+  },
+  {
+   "path": "90-literature-corpus/manusmriti-map.md",
+   "title": "Manusmriti — chapter map of the Mānava-Dharmaśāstra",
+   "section": "90-literature-corpus",
+   "word_count": 2417,
    "is_index": false
   },
   {
@@ -5597,10 +5632,24 @@
    "is_index": false
   },
   {
+   "path": "90-literature-corpus/shiva-purana-mahatmya-tales.md",
+   "title": "The Śivapurāṇa-Māhātmya frame tales — Devarāja, Cañculā and Binduga",
+   "section": "90-literature-corpus",
+   "word_count": 2023,
+   "is_index": false
+  },
+  {
    "path": "90-literature-corpus/shruti-vedas-and-upanishads.md",
    "title": "Śruti — Vedas & Upanishads",
    "section": "90-literature-corpus",
    "word_count": 1918,
+   "is_index": false
+  },
+  {
+   "path": "90-literature-corpus/shuka-saptati.md",
+   "title": "Śukasaptati — the Seventy Tales of the Parrot",
+   "section": "90-literature-corpus",
+   "word_count": 2008,
    "is_index": false
   },
   {
@@ -5992,14 +6041,14 @@
    "path": "STRUCTURE.md",
    "title": "STRUCTURE — Skeleton & Coverage Tracker",
    "section": "(root)",
-   "word_count": 4444,
+   "word_count": 4479,
    "is_index": false
   },
   {
    "path": "TIMELINE.md",
    "title": "TIMELINE — The Flat Chronological Index",
    "section": "(root)",
-   "word_count": 337314,
+   "word_count": 340107,
    "is_index": false
   }
  ]
