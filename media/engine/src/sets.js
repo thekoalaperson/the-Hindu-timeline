@@ -140,8 +140,37 @@ function _fireflies(ctx, t, region, n, seed) {
     glowAdd(ctx, fx, fy, 9, `rgba(220,255,140,${0.55 * tw})`, tw);
   }
 }
+// seed-placed god-ray shafts — origin/angle/count vary per set instance so
+// the light feels placed, not stamped. spec: {n,x0,x1,y0,y1,ang,angJit,spread,len}
+function _placedRays(ctx, seed, color, alpha, t, spec) {
+  if (alpha <= 0.01) return;
+  const rnd = mulberry((seed >>> 0) + 101);
+  const n = spec.n || (2 + Math.floor(rnd() * 2));
+  for (let i = 0; i < n; i++) {
+    const ox = spec.x0 + rnd() * (spec.x1 - spec.x0);
+    const oy = spec.y0 + rnd() * (spec.y1 - spec.y0);
+    const ang = spec.ang + (rnd() - 0.5) * spec.angJit;
+    const len = spec.len * (0.82 + rnd() * 0.32);
+    const spread = spec.spread * (0.8 + rnd() * 0.5);
+    godRays(ctx, ox, oy, ang, spread, len, color, alpha * (0.7 + rnd() * 0.5), t, seed * 7 + i * 13);
+  }
+}
+// tiered/raked ground: 3 depth bands (y baseline + suggested scale) an actors
+// hook can query. bandY(0)=nearest/largest … bandY(2)=far/smallest. Also
+// published on SETS.current for callers outside the hook. opts.horizon raises
+// the far bands (Pahari vertical stacking); opts.groundBands overrides.
+function _makeBands(nearY, dh, opts) {
+  const raise = (opts && opts.horizon) ? 1.45 : 1;
+  const bands = [];
+  for (let i = 0; i < 3; i++) bands.push({ y: nearY - i * dh * raise, s: +(1 - i * 0.17).toFixed(3) });
+  if (opts && opts.groundBands) for (let i = 0; i < Math.min(3, opts.groundBands.length); i++) Object.assign(bands[i], opts.groundBands[i]);
+  const info = { bands: bands, bandY: (i) => bands[clamp(i | 0, 0, 2)].y, bandS: (i) => bands[clamp(i | 0, 0, 2)].s };
+  SETS.current = info;
+  return info;
+}
 
 const SETS = {};
+SETS.current = null;
 
 // ═══════════════════════════════════════════════════════════════════
 //  palaceHall — ported from the legacy hallSet, config-driven + tod.
@@ -192,9 +221,9 @@ SETS.palaceHall = function (ctx, cam, t, o) {
 
   // god rays from upper windows
   const raysA = o.rays === undefined ? (0.16 * dim) : o.rays;
+  const rseed = (o.seed == null ? 4 : o.seed);
   camLayer(ctx, cam, 0.3, (c) => {
-    godRays(c, 260, 60, 0.92, 0.34, 1500, T.light, raysA, t, 4);
-    godRays(c, 900, 40, 1.05, 0.28, 1400, T.light, raysA * 0.75, t, 9);
+    _placedRays(c, rseed, T.light, raysA, t, { n: 2 + (rseed % 2), x0: 160, x1: 1080, y0: 20, y1: 90, ang: 0.98, angJit: 0.55, spread: 0.32, len: 1500 });
     motes(c, 200, 200, 1100, 640, t, 11, 26, '#ffe9b0');
   });
 
@@ -306,7 +335,8 @@ SETS.palaceHall = function (ctx, cam, t, o) {
         glowAdd(c, BOW_X, FLOOR - 110, 130, 'rgba(255,190,90,0.16)', 0.5 + 0.2 * Math.sin(t * 1.2));
       }
     }
-    if (o.actors) o.actors(c);
+    const bi = _makeBands(FLOOR + 70, 96, o);
+    if (o.actors) o.actors(c, bi);
   });
 
   // L5: foreground pillars + garland
@@ -359,7 +389,8 @@ SETS.courtyardNight = function (ctx, cam, t, o) {
     for (let i = 0; i < 6; i++) { const yy = 760 + i * 60; c.beginPath(); c.moveTo(0, yy); c.lineTo(W, yy + snoise1(i, 2) * 6); c.stroke(); }
   });
   camLayer(ctx, cam, 1.0, (c) => {
-    if (o.actors) o.actors(c);
+    const bi = _makeBands(1012, 92, o);
+    if (o.actors) o.actors(c, bi);
   });
   camLayer(ctx, cam, 1.3, (c) => {
     if (o.fg !== false) { drawPillar(c, 60, H + 40, 130, 1200, '#241610'); drawPillar(c, W - 60, H + 40, 130, 1200, '#241610'); }
@@ -413,7 +444,8 @@ SETS.hutDusk = function (ctx, cam, t, o) {
     drawHut(c, { x: 1430, y: 900, s: 1.0, t, seed: 71, lamp: true, smoke: true });
     // stacked pots by the hut
     potStack(c, { x: 1560, y: 902, s: 0.9, seed: 5 });
-    if (o.actors) o.actors(c);
+    const bi = _makeBands(958, 88, o);
+    if (o.actors) o.actors(c, bi);
   });
   if (o.particles !== false) camLayer(ctx, cam, 1.1, c => _fireflies(c, t, [200, 760, 1400, 260], 14, 61));
   camLayer(ctx, cam, 1.3, (c) => { if (o.fg !== false) treePalm(c, { x: 120, y: H + 40, s: 1.05, t, seed: 11 }); });
@@ -467,7 +499,8 @@ SETS.mandap = function (ctx, cam, t, o) {
     flame(c, 960, 936, fireS, t, 171, 1);
     embers(c, 960, 900, 90, t, 173, 16);
     glowAdd(c, 960, 900, 300, 'rgba(255,170,70,0.30)', 1);
-    if (o.actors) o.actors(c);
+    const bi = _makeBands(1044, 84, o);
+    if (o.actors) o.actors(c, bi);
   });
   if (o.particles !== false) petalRain(ctx, t, 17, [-100, -80, W + 200, H + 100], 30, ['#f2a41f', '#e8801a', '#f6e7bf'], 0.6);
   _grade(ctx, { timeOfDay: tod, palette: Object.assign({ wash: '#ff9a4c', washA: 0.08, vig: 0.42 }, o.palette) });
@@ -507,10 +540,7 @@ SETS.forest = function (ctx, cam, t, o) {
     treeAshoka(c, { x: 360, y: 980, s: 0.85, t, seed: 21 });
     treeAshoka(c, { x: 1520, y: 1000, s: 0.95, t, seed: 22 });
     treePalm(c, { x: 980, y: 940, s: 0.8, t, seed: 23 });
-    if (raysA > 0.02) {
-      godRays(c, 620, -40, 1.15, 0.24, 1500, T.light, raysA, t, 4);
-      godRays(c, 1180, -60, 1.02, 0.2, 1500, T.light, raysA * 0.8, t, 9);
-    }
+    if (raysA > 0.02) _placedRays(c, (o.seed == null ? 7 : o.seed), T.light, raysA, t, { n: 2 + ((o.seed || 7) % 2), x0: 380, x1: 1420, y0: -90, y1: 30, ang: 1.1, angJit: 0.4, spread: 0.24, len: 1520 });
     motes(c, 300, 200, 1300, 700, t, 12, 28, '#e8f0c0');
   });
 
@@ -542,7 +572,8 @@ SETS.forest = function (ctx, cam, t, o) {
 
   camLayer(ctx, cam, 1.0, (c) => {
     for (let i = 0; i < 10; i++) { const bx = 30 + i * 200; _fern(c, bx, 1070, 90 + hash1(i + 3) * 40, '#22401a', t, i + 20); }
-    if (o.actors) o.actors(c);
+    const bi = _makeBands(1058, 100, o);
+    if (o.actors) o.actors(c, bi);
   });
 
   if (o.particles !== false && (tod === 'dusk' || tod === 'night')) camLayer(ctx, cam, 1.1, c => _fireflies(c, t, [150, 640, 1600, 380], 18, 41));
@@ -611,7 +642,8 @@ SETS.village = function (ctx, cam, t, o) {
     // dirt path
     c.fillStyle = 'rgba(180,140,90,0.25)';
     c.beginPath(); c.moveTo(500, H); c.quadraticCurveTo(900, 980, 1180, 966); c.lineTo(1320, 984); c.quadraticCurveTo(1000, 1030, 760, H); c.closePath(); c.fill();
-    if (o.actors) o.actors(c);
+    const bi = _makeBands(1035, 90, o);
+    if (o.actors) o.actors(c, bi);
   });
   // foreground: hanging cloth line
   camLayer(ctx, cam, 1.3, (c) => {
@@ -725,7 +757,8 @@ SETS.riverBank = function (ctx, cam, t, o) {
     }
     // reeds on the near bank
     for (let i = 0; i < 12; i++) { const rx = 120 + i * 70 + snoise1(i * 3, 2) * 20; _reed(c, rx, 1000 + (i % 3) * 18, 160 + hash1(i) * 90, t, i); }
-    if (o.actors) o.actors(c);
+    const bi = _makeBands(1045, 90, o);
+    if (o.actors) o.actors(c, bi);
   });
   // foreground reeds
   camLayer(ctx, cam, 1.3, (c) => { if (o.fg !== false) for (let i = 0; i < 7; i++) { const rx = 40 + i * 150; _reed(c, rx, H + 20, 300 + hash1(i + 4) * 120, t, i + 30); } });
@@ -823,7 +856,8 @@ SETS.interior = function (ctx, cam, t, o) {
     // oil lamps flanking
     drawLampStand(c, 470, 1000, 0.8, t, 3);
     drawLampStand(c, 1460, 990, 0.78, t, 8);
-    if (o.actors) o.actors(c);
+    const bi = _makeBands(1010, 80, o);
+    if (o.actors) o.actors(c, bi);
   });
 
   camLayer(ctx, cam, 1.3, (c) => { if (o.fg !== false) drawPillar(c, 70, H + 30, 150, 1220, '#5c3418'); });
@@ -916,7 +950,7 @@ SETS.mountain = function (ctx, cam, t, o) {
     drawRock(c, { x: 300, y: 1050, s: 0.9, seed: 3, tone: '#6a6e72' });
     drawRock(c, { x: 1600, y: 1060, s: 1.0, seed: 7, tone: '#5e646a' });
   });
-  camLayer(ctx, cam, 1.0, (c) => { if (o.actors) o.actors(c); });
+  camLayer(ctx, cam, 1.0, (c) => { const bi = _makeBands(1046, 90, o); if (o.actors) o.actors(c, bi); });
   camLayer(ctx, cam, 1.3, (c) => { if (o.fg !== false) _conifer(c, 1840, H + 40, 640, 200, tod === 'night' ? '#0c1220' : '#1a2c1a'); });
   if (o.particles !== false && (tod === 'night' || tod === 'dawn')) camLayer(ctx, cam, 1.1, c => { c.save(); c.globalCompositeOperation = 'lighter'; for (let i = 0; i < 40; i++) { const sx = (hash1(i * 3) * W + t * 12) % W; const sy = (hash1(i * 7) * H + t * 20) % H; c.fillStyle = 'rgba(240,246,255,0.5)'; c.fillRect(sx, sy, 2, 2); } c.restore(); });
   _grade(ctx, o);

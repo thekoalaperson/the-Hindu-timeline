@@ -293,7 +293,7 @@ const MOOD = {
   festive:    { perc: { on: true, bps: 1.7, gain: 0.55, sparse: false },   notes: ['D4', 'Fs4', 'G4', 'A4', 'B4', 'D5'], nps: 1.25, sustainMul: 0.8, drone: 0.85, width: 1.20, env: 0.85 },
   tense:      { perc: { on: true, bps: 1.9, gain: 0.38, sparse: true },    notes: ['A3', 'B3', 'D4'],                     nps: 0.5,  sustainMul: 0.55, drone: 0.50, width: 0.55, env: 0.38 },
   tender:     { perc: { on: false },                                       notes: ['B3', 'D4', 'E4', 'Fs4', 'A4'],       nps: 0.5,  sustainMul: 1.6, drone: 0.70, width: 0.85, env: 0.55 },
-  triumphant: { perc: { on: true, bps: 1.5, gain: 0.62, sparse: false },   notes: ['D4', 'Fs4', 'A4', 'B4', 'D5'],        nps: 1.05, sustainMul: 1.0, drone: 1.00, width: 1.25, env: 0.95 },
+  triumphant: { perc: { on: true, bps: 1.75, gain: 0.72, sparse: false },  notes: ['D4', 'Fs4', 'A4', 'B4', 'D5'],        nps: 1.15, sustainMul: 1.0, drone: 1.00, width: 1.25, env: 0.95 },
   somber:     { perc: { on: false },                                       notes: ['A3', 'B3', 'D4', 'E4'],              nps: 0.38, sustainMul: 2.0, drone: 0.60, width: 0.55, env: 0.36 },
   suspense:   { perc: { on: true, bps: 1.1, gain: 0.32, sparse: true },    notes: ['A3', 'B3', 'D4', 'Fs4'],              nps: 0.42, sustainMul: 0.6, drone: 0.42, width: 0.50, env: 0.30 },
 };

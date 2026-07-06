@@ -71,6 +71,54 @@ function jointPatch(ctx, p, r, color) {
   ctx.beginPath(); ctx.arc(p[0], p[1], r, 0, TAU); ctx.fill();
 }
 
+// PAINTED LIMB: a whole joint chain (shoulder→elbow→wrist, or hip→knee→ankle)
+// rendered as ONE tapering form with a SINGLE continuous calligraphic contour —
+// no capsule seams, no joint dots. Reads as one painted stroke, not a puppet.
+function limbChain(ctx, joints, ws, skin, dark, outline) {
+  const spine = [], W = [], seg = joints.length - 1, N = 5;
+  for (let s = 0; s < seg; s++) for (let k = 0; k < N; k++) {
+    const u = k / N;
+    spine.push([lerp(joints[s][0], joints[s + 1][0], u), lerp(joints[s][1], joints[s + 1][1], u)]);
+    W.push(lerp(ws[s], ws[s + 1], u));
+  }
+  spine.push(joints[seg]); W.push(ws[seg]);
+  const n = spine.length, L = [], R = [];
+  for (let i = 0; i < n; i++) {
+    const p = spine[i], q = spine[Math.min(i + 1, n - 1)], r = spine[Math.max(i - 1, 0)];
+    let dx = q[0] - r[0], dy = q[1] - r[1]; const l = Math.hypot(dx, dy) || 1; dx /= l; dy /= l;
+    L.push([p[0] - dy * W[i], p[1] + dx * W[i]]);
+    R.push([p[0] + dy * W[i], p[1] - dx * W[i]]);
+  }
+  const s0 = spine[0], sN = spine[n - 1];
+  let e0x = spine[1][0] - s0[0], e0y = spine[1][1] - s0[1]; { const l = Math.hypot(e0x, e0y) || 1; e0x /= l; e0y /= l; }
+  let eNx = sN[0] - spine[n - 2][0], eNy = sN[1] - spine[n - 2][1]; { const l = Math.hypot(eNx, eNy) || 1; eNx /= l; eNy /= l; }
+  const nS = [-e0y, e0x], nE = [-eNy, eNx];
+  const path = () => {
+    ctx.beginPath();
+    ctx.moveTo(L[0][0], L[0][1]);
+    for (let i = 1; i < n; i++) ctx.lineTo(L[i][0], L[i][1]);
+    ctx.arc(sN[0], sN[1], W[n - 1], Math.atan2(nE[1], nE[0]), Math.atan2(-nE[1], -nE[0]));
+    for (let i = n - 2; i >= 0; i--) ctx.lineTo(R[i][0], R[i][1]);
+    ctx.arc(s0[0], s0[1], W[0], Math.atan2(-nS[1], -nS[0]), Math.atan2(nS[1], nS[0]));
+    ctx.closePath();
+  };
+  path(); ctx.fillStyle = skin; ctx.fill();
+  // modelled shading (light one edge, shadow the other, along the chain)
+  ctx.save(); path(); ctx.clip();
+  const g = ctx.createLinearGradient(L[0][0], L[0][1], R[0][0], R[0][1]);
+  g.addColorStop(0, 'rgba(255,240,210,0.14)'); g.addColorStop(0.55, 'rgba(0,0,0,0)'); g.addColorStop(1, rgba(dark, 0.42));
+  ctx.fillStyle = g;
+  let mnx = 1e9, mny = 1e9, mxx = -1e9, mxy = -1e9;
+  for (const p of L.concat(R)) { mnx = Math.min(mnx, p[0]); mxx = Math.max(mxx, p[0]); mny = Math.min(mny, p[1]); mxy = Math.max(mxy, p[1]); }
+  ctx.fillRect(mnx - 4, mny - 4, mxx - mnx + 8, mxy - mny + 8);
+  ctx.restore();
+  if (outline) {
+    path();
+    ctx.strokeStyle = outline; ctx.lineJoin = 'round'; ctx.lineCap = 'round'; ctx.lineWidth = 1.7;
+    ctx.stroke();
+  }
+}
+
 // ─────────────────────────── HANDS ───────────────────────────
 // Reworked: real palm + 3 grouped fingers + thumb, knuckle curves, per-kind
 // articulation. Hand-local: origin = wrist, +y = down the hand (finger side).
@@ -461,16 +509,17 @@ function drawFacialHair(ctx, style, f, tn, mouth) {
     ctx.stroke();
   }
   if (style.tusks) {
-    ctx.fillStyle = '#efe7d2'; ctx.strokeStyle = rgba('#241005', 0.5); ctx.lineWidth = 0.03;
+    ctx.fillStyle = '#efe7d2'; ctx.strokeStyle = rgba('#241005', 0.5); ctx.lineWidth = 0.025;
+    // short fangs rooted at the lower lip, curving up-and-out from each corner
     const tusk = (cx, dir) => {
       ctx.beginPath();
-      ctx.moveTo(cx - dir * 0.05, my + 0.02);
-      ctx.quadraticCurveTo(cx + dir * 0.02, my - 0.14, cx + dir * 0.10, my - 0.30);
-      ctx.quadraticCurveTo(cx + dir * 0.04, my - 0.15, cx + dir * 0.08, my + 0.03);
+      ctx.moveTo(cx, my + 0.075);
+      ctx.quadraticCurveTo(cx + dir * 0.055, my + 0.0, cx + dir * 0.05, my - 0.10);
+      ctx.quadraticCurveTo(cx + dir * 0.006, my - 0.02, cx - dir * 0.028, my + 0.065);
       ctx.closePath(); ctx.fill(); ctx.stroke();
     };
-    tusk(mth - mw * 0.55, 1);
-    tusk(mth + 0.02, -1);
+    tusk(mth - mw * 0.62, 1);
+    tusk(mth - mw * 0.02, -1);
   }
 }
 

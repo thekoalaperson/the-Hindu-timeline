@@ -336,17 +336,48 @@ function drawSkyline(ctx, y, color, seed) {
 
 // crowd of seated nobles/brahmins — cached to an offscreen strip.
 // Calls the GLOBAL drawSeated (frozen API from people.js/world.js).
+// Anti-twinning: per-figure sampling of height (±8%), build, skin tone,
+// garment/headgear (de-twinned so no two neighbours share both), seated
+// lean + head-turn/gaze micro-variation, and uneven spacing (±18px).
 function crowdStrip(key, n, kindFn, scale) {
-  return cached(key, Math.round(n * 120 * scale), Math.round(320 * scale), (g, w, h) => {
+  const cw = Math.round(n * 132 * scale + 60), ch = Math.round(346 * scale);
+  return cached(key, cw, ch, (g, w, h) => {
+    // 1) sample styles, then de-twin adjacent garment+headgear
+    const styles = [];
+    for (let i = 0; i < n; i++) styles.push(Object.assign({}, kindFn(i)));
+    for (let i = 1; i < n; i++) {
+      const a = styles[i - 1], b = styles[i];
+      if (a.clothMain === b.clothMain && (a.crown || '') === (b.crown || '')) {
+        b.clothMain = _hx(b.clothMain, hash1(i * 3) > 0.5 ? 0.17 : -0.17);
+        b.crown = b.crown === 'mukut' ? 'turban' : 'mukut';
+        if (b.turbanColor) b.turbanColor = _hx(b.turbanColor, -0.12);
+      }
+    }
+    // 2) place with per-figure jitter
+    let cx = 30 * scale;
     for (let i = 0; i < n; i++) {
-      const st = kindFn(i);
+      const st = styles[i];
+      st.build = (st.build || 1) * (0.93 + hash1(i * 13) * 0.13);            // build var
+      const sj = (hash1(i * 29) - 0.5) * 0.1;
+      st.skin = _hx(st.skin, sj);                                            // skin micro-shift
+      if (st.skinShade) st.skinShade = _hx(st.skinShade, sj);
+      const s = scale * (0.92 + hash1(i * 7) * 0.16);                        // height ±8%
+      const gap = (108 + hash1(i * 17) * 40) * scale;                        // uneven spacing
+      cx += gap * 0.5;
+      const px = cx + snoise1(i * 7.7, 3) * 18 * scale;                      // ±18px jitter
+      const py = h - 6 * scale - hash1(i * 11) * 12 * scale;
+      const lean = (hash1(i * 5) - 0.5) * 0.1;                               // slight body lean
+      g.save();
+      g.translate(px, py); g.rotate(lean);
       drawSeated(g, {
-        x: (i + 0.5) * 120 * scale + snoise1(i * 7.7, 3) * 14 * scale,
-        y: h - 6 * scale,
-        s: scale * (0.92 + hash1(i * 13) * 0.1),
-        facing: 1, style: st, t: hash1(i) * 9, seed: i * 17 + 2,
-        face: { turn: 0.25 + hash1(i * 3) * 0.2, smile: 0.05, gaze: { x: -0.3, y: 0.1 } },
+        x: 0, y: 0, s, facing: 1, style: st, t: hash1(i) * 9, seed: i * 17 + 2,
+        face: {
+          turn: 0.16 + hash1(i * 3) * 0.34, smile: hash1(i * 9) * 0.16,
+          gaze: { x: -0.45 + hash1(i * 2) * 0.35, y: 0.02 + hash1(i * 4) * 0.16 },
+        },
       });
+      g.restore();
+      cx += gap * 0.5;
     }
   });
 }
@@ -1369,18 +1400,25 @@ function drawCow(ctx, o) {
   // dewlap folds
   ctx.strokeStyle = 'rgba(30,18,8,0.3)'; ctx.lineWidth = 2;
   ctx.beginPath(); ctx.moveTo(150, -238); ctx.quadraticCurveTo(160, -224, 150, -204); ctx.stroke();
-  // head
-  ctx.save(); ctx.translate(196, -300); ctx.rotate(0.12);
+  // head (larger, rounder for a calf)
+  ctx.save(); ctx.translate(196, -300); ctx.rotate(0.12); if (o.calf) ctx.scale(1.16, 1.16);
   const head = [[-6, -18], [30, -14], [52, 4], [54, 32], [40, 46], [12, 44], [-6, 20]];
   ctx.beginPath(); smoothPath(ctx, head, true);
   ctx.fillStyle = coat; ctx.fill();
   ctx.strokeStyle = _INK; ctx.lineWidth = 2.2; ctx.stroke();
   ctx.fillStyle = coatD; ctx.beginPath(); ctx.ellipse(42, 34, 12, 9, 0.1, 0, TAU); ctx.fill();
   ctx.fillStyle = '#160c06'; ctx.beginPath(); ctx.arc(44, 32, 3, 0, TAU); ctx.fill();
-  // horns
-  ctx.strokeStyle = horn; ctx.lineWidth = 6; ctx.lineCap = 'round';
-  ctx.beginPath(); ctx.moveTo(2, -14); ctx.quadraticCurveTo(-6, -44, 14, -58); ctx.stroke();
-  ctx.beginPath(); ctx.moveTo(14, -12); ctx.quadraticCurveTo(24, -40, 44, -46); ctx.stroke();
+  // horns (nubs for a calf)
+  if (o.calf) {
+    ctx.fillStyle = horn;
+    ctx.beginPath(); ctx.arc(6, -14, 5, 0, TAU); ctx.fill();
+    ctx.beginPath(); ctx.arc(22, -12, 5, 0, TAU); ctx.fill();
+    ctx.strokeStyle = _INKS; ctx.lineWidth = 1.2; ctx.stroke();
+  } else {
+    ctx.strokeStyle = horn; ctx.lineWidth = 6; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(2, -14); ctx.quadraticCurveTo(-6, -44, 14, -58); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(14, -12); ctx.quadraticCurveTo(24, -40, 44, -46); ctx.stroke();
+  }
   // ear
   const earFlick = Math.sin(t * 2.0 + seed) * 0.12;
   ctx.save(); ctx.translate(-4, 2); ctx.rotate(-0.4 + earFlick);
@@ -1498,5 +1536,53 @@ function drawBird(ctx, o) {
   _animEye(ctx, 50, -100, 4, 0.4);
   ctx.restore();
   ctx.restore();
+  ctx.restore();
+}
+
+// three ready cow coats (white/grey, brown, black) — read well under lamplight.
+const COW_COATS = ['#d8ccb4', '#9a6636', '#4a4038'];
+
+// ═══════════════════════════════════════════════════════════════════
+//  WEATHER — layered rain (slanted streak layers + ground splashes).
+//  o: {t, seed, intensity:0..1, angle(rad slant), region:[x,y,w,h],
+//      groundY?:number, color?}
+// ═══════════════════════════════════════════════════════════════════
+function drawRain(ctx, o) {
+  const t = o.t || 0, seed = o.seed || 1, I = o.intensity == null ? 1 : o.intensity;
+  if (I <= 0.01) return;
+  const ang = o.angle == null ? 0.26 : o.angle;
+  const region = o.region || [0, 0, W, H];
+  const rx = region[0], ry = region[1], rw = region[2], rh = region[3];
+  const sa = Math.sin(ang), ca = Math.cos(ang);
+  const base = o.color || '218,232,248';
+  ctx.save();
+  // 3 depth layers — far (faint/short/slow) → near (bright/long/fast)
+  const layers = [[Math.round(70 * I), 0.45, 70, 0.14, 1.0], [Math.round(90 * I), 0.72, 120, 0.22, 1.6], [Math.round(60 * I), 1.0, 200, 0.32, 2.4]];
+  for (let L = 0; L < layers.length; L++) {
+    const n = layers[L][0], spd = layers[L][1], len = layers[L][2], a = layers[L][3], lw = layers[L][4];
+    ctx.strokeStyle = `rgba(${base},${a})`; ctx.lineWidth = lw;
+    for (let i = 0; i < n; i++) {
+      const speed = (620 + hash1(seed * 2 + i) * 520) * spd;
+      const ph = (hash1(seed * 3 + i + L * 17) + t * speed / rh) % 1;
+      const x = rx + hash1(seed + i * 13 + L * 31) * (rw + rh * sa) + ph * sa * rh - rh * sa;
+      const y = ry + ph * rh;
+      ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(x - sa * len, y + ca * len); ctx.stroke();
+    }
+  }
+  // ground splash ticks
+  if (o.groundY != null) {
+    for (let i = 0; i < Math.round(46 * I); i++) {
+      const sx = rx + hash1(seed * 7 + i) * rw;
+      const cyc = (hash1(seed * 5 + i) + t * 2.2) % 1;
+      if (cyc < 0.32) {
+        const k = cyc / 0.32, r = 3 + k * 9, a = (1 - k) * 0.5;
+        ctx.strokeStyle = `rgba(${base},${a})`; ctx.lineWidth = 1.4;
+        ctx.beginPath();
+        ctx.moveTo(sx - r, o.groundY); ctx.lineTo(sx - r - 3, o.groundY - 5 - k * 4);
+        ctx.moveTo(sx + r, o.groundY); ctx.lineTo(sx + r + 3, o.groundY - 5 - k * 4);
+        ctx.stroke();
+      }
+    }
+  }
   ctx.restore();
 }
