@@ -6685,16 +6685,16 @@ function scCart(ctx, tl, dur, t) {
       drawFigure(c, {
         x: bhX, y: bhY, s: bhS, facing: 1, style: bh,
         pose: {
-          lean: 0.05, headTurn: 0.36, headNod: 0.16 + chew * 0.12,
-          armF: { sh: lerp(0.82, 1.12, toMouth), el: lerp(1.5, 1.86, toMouth), wr: 0.5, hand: 'hold' },
+          lean: 0.05, headTurn: 0.4, headNod: 0.22 + chew * 0.12,
+          armF: { sh: lerp(0.68, 0.92, toMouth), el: lerp(1.44, 1.7, toMouth), wr: 0.55, hand: 'hold' },
           armB: { sh: 0.22, el: 0.5, hand: 'relaxed' },
           legF: { hip: 0.12, knee: 0.08 }, legB: { hip: -0.15, knee: 0.12 },
-          face: { smile: 0.2, lipsPart: 0.25 + chew * 0.4, eyeOpen: 0.72, lowered: 0.2 },
+          face: { smile: 0.2, lipsPart: 0.3 + chew * 0.4, eyeOpen: 0.7, lowered: 0.25 },
         },
         t, seed: 21,
       });
-      // the morsel held at his open mouth — sells the eating
-      const mx = bhX + 44 * bhS, my = bhY - 352 * bhS;
+      // the morsel held up at his mouth — sells the eating
+      const mx = bhX + 46 * bhS, my = bhY - 300 * bhS;
       c.fillStyle = '#e8b84c';
       c.beginPath(); c.arc(mx, my, 8 * bhS, 0, TAU); c.fill();
       c.strokeStyle = rgba('#5a2e0e', 0.5); c.lineWidth = 1; c.stroke();
