@@ -827,10 +827,7 @@ function drawTorsoBody(ctx, st, M) {
 function _extraArm(ctx, shx, shy, a, build, skin, dark, OUT, armW, hand, wr) {
   const arm = armChain(shx, shy, a, build);
   const sk = shade(skin, -0.1);
-  limb(ctx, arm.sh, arm.el, armW * 1.05, armW * 0.74, sk, dark, OUT);
-  limb(ctx, arm.el, arm.wr, armW * 0.74, armW * 0.56, sk, dark, OUT);
-  jointPatch(ctx, arm.el, armW * 0.78, sk);
-  jointPatch(ctx, arm.sh, armW * 1.08, sk);
+  limbChain(ctx, [arm.sh, arm.el, arm.wr], [armW * 1.04, armW * 0.76, armW * 0.55], sk, dark, OUT);
   drawHand(ctx, arm.wr[0], arm.wr[1], -arm.a2 + (wr || 0), build * 0.95, sk, hand || 'open', dark);
   return arm;
 }
@@ -882,10 +879,9 @@ function drawFigure(ctx, o) {
     const ax = kx2 + Math.sin(Lg.hip - Lg.knee) * sh;
     const ay = ky2 + Math.cos(Lg.hip - Lg.knee) * sh;
     const wTh = 16 * build * (female ? 1.05 : 1), wSh = 9.5 * build;
-    limb(ctx, [hx, hy], [kx2, ky2], wTh, wTh * 0.72, front ? skin : shade(skin, -0.13), dark, OUT);
-    limb(ctx, [kx2, ky2], [ax, Math.min(ay, groundY - 6)], wTh * 0.7, wSh * 0.75, front ? skin : shade(skin, -0.13), dark, OUT);
-    jointPatch(ctx, [kx2, ky2], wTh * 0.66, front ? skin : shade(skin, -0.13));
-    ctx.fillStyle = front ? skin : shade(skin, -0.13);
+    const legC = front ? skin : shade(skin, -0.13);
+    limbChain(ctx, [[hx, hy], [kx2, ky2], [ax, Math.min(ay, groundY - 6)]], [wTh, wTh * 0.71, wSh * 0.78], legC, dark, OUT);
+    ctx.fillStyle = legC;
     ctx.strokeStyle = OUT; ctx.lineWidth = 1.3;
     ctx.beginPath();
     const fy = Math.min(ay, groundY - 2);
@@ -903,10 +899,7 @@ function drawFigure(ctx, o) {
   // far arm behind everything
   const shBx = leanDx * 0.8 - shW * 0.55, shBy = shoulderY + 6;
   const armB = armChain(shBx, shBy, pose.armB, build);
-  limb(ctx, armB.sh, armB.el, armW * 1.15, armW * 0.8, shade(skin, -0.15), dark, OUT);
-  limb(ctx, armB.el, armB.wr, armW * 0.8, armW * 0.6, shade(skin, -0.15), dark, OUT);
-  jointPatch(ctx, armB.el, armW * 0.83, shade(skin, -0.15));
-  jointPatch(ctx, armB.sh, armW * 1.18, shade(skin, -0.15));
+  limbChain(ctx, [armB.sh, armB.el, armB.wr], [armW * 1.12, armW * 0.82, armW * 0.58], shade(skin, -0.15), dark, OUT);
   if (female && st.garb === 'sari') sleeve(ctx, armB, armW, shade(st.clothMain || '#8c1f28', -0.16), st.clothAccent);
   drawHand(ctx, armB.wr[0], armB.wr[1], -armB.a2 + (pose.armB.wr || 0), build * (female ? 0.85 : 1), shade(skin, -0.15), pose.armB.hand || 'relaxed', dark, { claw: st.claws });
   if (st.armlets) { ctx.fillStyle = GOLD_D; ctx.beginPath(); ctx.ellipse(lerp(armB.sh[0], armB.el[0], 0.45), lerp(armB.sh[1], armB.el[1], 0.45), armW * 1.02, 4.4, armB.a1, 0, TAU); ctx.fill(); }
@@ -926,10 +919,8 @@ function drawFigure(ctx, o) {
   // near arm
   const shFx = leanDx * 0.8 + shW * 0.62, shFy = shoulderY + 8;
   const armF = armChain(shFx, shFy, pose.armF, build);
-  limb(ctx, armF.sh, armF.el, armW * 1.2, armW * 0.82, skin, dark, OUT);
-  limb(ctx, armF.el, armF.wr, armW * 0.82, armW * 0.62, skin, dark, OUT);
-  jointPatch(ctx, armF.el, armW * 0.86, skin);
-  jointPatch(ctx, armF.sh, armW * 1.22, skin);
+  limbChain(ctx, [armF.sh, armF.el, armF.wr], [armW * 1.18, armW * 0.85, armW * 0.6], skin, dark, OUT);
+  // deltoid modelling so the shoulder reads as a form (painterly, not a disc)
   ctx.fillStyle = rgba(dark, 0.22);
   ctx.beginPath(); ctx.arc(armF.sh[0] + 2, armF.sh[1] + 4, armW * 0.95, -0.4, 1.8); ctx.fill();
   if ((pose.armF.el || 0) > 0.45) {

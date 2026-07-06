@@ -40,11 +40,12 @@ const ACTORS = {
     fig(c, 'arjunaGroom', 720, 1044, 0.62, 1, { headTurn: 0.3, armF: { sh: 0.4, el: 0.9, hand: 'hold' }, face: { smile: 0.2 } });
     fig(c, 'draupadi', 840, 1050, 0.6, -1, { headTurn: 0.3, face: { smile: 0.18, lowered: 0.4 } });
   },
-  forest(c) {
-    fig(c, 'arjuna', 760, 1058, 0.82, 1, { headTurn: 0.32, armF: { sh: 0.2, el: 0.4, hand: 'relaxed' }, face: { smile: 0.05 } });
-    fig(c, 'krishna', 900, 1060, 0.8, -1, { headTurn: 0.3, armF: { sh: 0.5, el: 0.4, hand: 'open' }, face: { smile: 0.3 } });
-    drawDeer(c, { x: 1360, y: 1064, s: 0.92, facing: -1, t, seed: 5, gait: 'idle' });
-    drawBird(c, { x: 300, y: 1050, s: 0.7, facing: 1, t, seed: 8, gait: 'idle' });
+  forest(c, bi) {
+    // band 0 (near, full scale) and band 1 (further back, auto-scaled) — tiered ground
+    fig(c, 'arjuna', 760, bi.bandY(0) + 2, 0.82 * bi.bandS(0), 1, { headTurn: 0.32, armF: { sh: 0.2, el: 0.4, hand: 'relaxed' }, face: { smile: 0.05 } });
+    fig(c, 'krishna', 1150, bi.bandY(1), 0.82 * bi.bandS(1), -1, { headTurn: 0.3, armF: { sh: 0.5, el: 0.4, hand: 'open' }, face: { smile: 0.3 } });
+    drawDeer(c, { x: 1420, y: bi.bandY(0) + 6, s: 0.92, facing: -1, t, seed: 5, gait: 'idle' });
+    drawBird(c, { x: 300, y: bi.bandY(0), s: 0.7, facing: 1, t, seed: 8, gait: 'idle' });
   },
   village(c) {
     fig(c, 'kunti', 980, 1038, 0.8, 1, { headTurn: 0.3, armF: { sh: 0.4, el: 0.9, hand: 'hold' }, face: { smile: 0.1 } });
@@ -60,16 +61,20 @@ const ACTORS = {
     drawSeated(c, { x: 960, y: 950, s: 0.92, facing: -1, style: CAST.vyasa, t, seed: 5, face: { turn: 0.35, smile: 0.12 } });
     fig(c, 'kunti', 1300, 1010, 0.78, -1, { headTurn: 0.3, armF: { sh: 0.35, el: 0.9, hand: 'bless' }, face: { smile: 0.12 } });
   },
-  mountain(c) {
-    fig(c, 'vyasa', 900, 1046, 0.78, 1, { headTurn: 0.3, armF: { sh: 0.7, el: 0.6, hand: 'bless' }, face: { smile: 0.12 } });
+  mountain(c, bi) {
+    fig(c, 'vyasa', 900, bi.bandY(0), 0.78 * bi.bandS(0), 1, { headTurn: 0.3, armF: { sh: 0.7, el: 0.6, hand: 'bless' }, face: { smile: 0.12 } });
   },
 };
 
+const seed = parseInt(q.get('seed') || '0', 10);
 const fn = SETS[set];
 if (!fn) { ctx.fillStyle = '#fff'; ctx.font = '40px Georgia'; ctx.fillText('unknown set: ' + set, 60, 100); }
-else fn(ctx, cam, t, { timeOfDay: tod, actors: ACTORS[set], brahmins: true, ghat: true });
+else fn(ctx, cam, t, { timeOfDay: tod, seed, actors: ACTORS[set], brahmins: true, ghat: true, horizon: q.get('horizon') === '1' });
+
+// optional rain overlay (?rain=1[&rainI=0..1]) — marquee weather FX
+if (q.get('rain') === '1') drawRain(ctx, { t, seed: 5, intensity: parseFloat(q.get('rainI') || '0.85'), region: [0, 0, W, H], groundY: 1015 });
 
 // caption
 ctx.fillStyle = 'rgba(255,240,210,0.85)'; ctx.font = '24px Georgia';
-ctx.fillText(set + '  ·  ' + tod + '  ·  t=' + t, 30, 40);
+ctx.fillText(set + '  ·  ' + tod + '  ·  t=' + t + '  ·  seed=' + seed, 30, 40);
 </script>
