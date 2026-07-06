@@ -127,6 +127,35 @@ draw order by y unless `z` given. Camera keys interpolate with easing names
 exposed to node via `engine/build/validate.mjs` (jsdom-free: stage.js must be
 loadable in node with a small shim; guard browser-only calls).
 
+## Expressiveness principles
+
+The engine's worth is measured by the *space of characters and moments it can
+express*, not by any single film. When adding parameters prefer **orthogonal
+dials over hardcoded looks**: a new character should be a point in parameter
+space (archetype × palette × age × build × wardrobe × marks × items), not new
+drawing code. Target dimensions (grow toward, never regress):
+- **Age**: `style.age` 0..1 planned (child head-ratio & proportions ↔ stooped
+  elder w/ grey hair, softened jaw, walking staff affinity).
+- **Forms**: the same registry character may carry `forms` (e.g. kṛṣṇa: cowherd
+  boy / charioteer / Viśvarūpa) — forms are style override sub-objects.
+- **Diversity**: complexions, builds, regional garments and headgear should mix
+  freely; crowd generators must sample the whole space, not one template.
+- **Aesthetic bar**: every addition must sit inside the miniature-painting
+  register (kohl line, gold, modelled flats) — if a new asset looks like it
+  came from a different show, it does not merge.
+
+## Music hierarchy (music.mjs)
+
+Composition resolves through a hierarchy, most-specific wins:
+`BASE (tanpura drone + tala grid) → RAGA (note pool + characteristic phrases +
+mood affinities) → MOOD (texture: percussion density, register, pace, dynamics)
+→ SCENE (events: bell/boom/swell/silence at beats) → STORY overrides`.
+Planned ragas (pools over the existing NOTE table, D-rooted): `yamanish`
+(bright — festive/triumphant), `bhairavish` (grave — somber/mystic), `desh-ish`
+(lyrical — tender). Every mood must render acceptably under every raga.
+`music-demos.mjs` renders short examples per hierarchy node into
+`engine/demos/` so choices are auditable by ear.
+
 ## Music moods (music.mjs — Agent D)
 
 `script.json` scenes carry `"mood"`: `mystic | festive | tense | tender |
