@@ -1,0 +1,175 @@
+{
+  "slug": "yaksha-prashna",
+  "title": "The Yakṣa's Questions",
+  "subtitle": "Mahābhārata · Vana Parva 311–315",
+  "watchHint": "watch · about 2 min",
+  "sources": [
+    "04-deep-dives/yaksha-prashna.md"
+  ],
+  "engineFiles": [
+    "core.js",
+    "paint.js",
+    "acting.js",
+    "wardrobe.js",
+    "person.js",
+    "archetypes.js",
+    "props.js",
+    "sets.js",
+    "stage.js",
+    "finish.js"
+  ],
+  "storyFiles": [
+    "cast.js",
+    "timeline.js",
+    "film.js"
+  ],
+  "narration": {
+    "provider": "pico",
+    "voice": "en-GB",
+    "pitch": 0.95,
+    "tempo": 1.12
+  },
+  "music": {
+    "mode": "auto"
+  },
+  "video": {
+    "fps": 24,
+    "crf": 22
+  },
+  "titleHtml": "The Yakṣa's <span class=\"d\">Questions</span>",
+  "poster": {
+    "t": 58.0
+  },
+  "folios": {
+    "titleDur": 3.6,
+    "endDur": 4.6,
+    "endLine": "and still the living wish to live forever"
+  },
+  "scenes": {
+    "reach": {
+      "storyboard": {
+        "set": "riverBank",
+        "setOpts": {
+          "timeOfDay": "day",
+          "seed": 12
+        },
+        "grade": {
+          "wash": "#cfe6ec",
+          "washAlpha": 0.05,
+          "vignette": 0.3
+        },
+        "shot": {
+          "type": "processional",
+          "actor": "nakula"
+        },
+        "actors": [
+          {
+            "id": "nakula",
+            "who": "nakula",
+            "at": [
+              980,
+              1016
+            ],
+            "s": 0.72,
+            "facing": 1,
+            "enter": {
+              "type": "walk",
+              "from": [
+                -180,
+                1016
+              ],
+              "t0": 0.6,
+              "t1": 6.6
+            },
+            "featured": true
+          }
+        ],
+        "beats": [
+          {
+            "at": "narr+6.0",
+            "actor": "nakula",
+            "pose": "kneel",
+            "over": 1.5
+          },
+          {
+            "at": "narr+6.4",
+            "actor": "nakula",
+            "face": {
+              "lowered": 0.5,
+              "lipsPart": 0.35
+            },
+            "over": 1.0
+          },
+          {
+            "at": 2.2,
+            "fx": "motes",
+            "opts": {
+              "x": 640,
+              "y": 300,
+              "w": 1000,
+              "h": 420,
+              "n": 18,
+              "color": "#d4ecff"
+            }
+          }
+        ]
+      }
+    },
+    "wonder": {
+      "storyboard": {
+        "set": "riverBank",
+        "setOpts": {
+          "timeOfDay": "dusk",
+          "seed": 33,
+          "particles": false,
+          "fg": false
+        },
+        "grade": {
+          "wash": "#33436e",
+          "washAlpha": 0.09,
+          "vignette": 0.46
+        },
+        "shot": {
+          "type": "close-up",
+          "actor": "yudhishthira"
+        },
+        "actors": [
+          {
+            "id": "yudhishthira",
+            "who": "yudhishthira",
+            "at": [
+              960,
+              1010
+            ],
+            "s": 0.74,
+            "facing": 1,
+            "featured": true
+          }
+        ],
+        "beats": [
+          {
+            "at": 0.5,
+            "actor": "yudhishthira",
+            "face": {
+              "brow": 0.28,
+              "lowered": 0.18,
+              "smile": -0.06
+            },
+            "over": 1.2
+          },
+          {
+            "at": "narr+6.2",
+            "actor": "yudhishthira",
+            "face": {
+              "brow": 0.44,
+              "lowered": 0.34,
+              "smile": -0.12,
+              "lipsPart": 0.22
+            },
+            "over": 1.8
+          }
+        ]
+      }
+    }
+  }
+}

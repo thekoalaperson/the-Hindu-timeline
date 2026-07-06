@@ -1,0 +1,73 @@
+{
+  "title": "Bhīma and Bakāsura",
+  "subtitle": "Mahābhārata · Ādi Parva 159–166",
+  "total": 89.256,
+  "scenes": [
+    {
+      "id": "ekacakra",
+      "name": "The Town of Ekacakrā",
+      "display": "After the burning of the lac house, the five Pāṇḍava brothers lived hidden in the town of Ekacakrā, disguised as brahmins, begging their bread. But over that town hung a shadow.",
+      "mood": "mystic",
+      "start": 0,
+      "narrAt": 2,
+      "narrDur": 11.35,
+      "dur": 14.55,
+      "end": 14.55
+    },
+    {
+      "id": "grief",
+      "name": "The Demon's Toll",
+      "display": "In the wood lived Bakāsura, a rākṣasa who devoured men. Each week the town sent him a cartload of food — and the one who drove the cart. Now the lot fell on the very house that had sheltered them; and the brahmin's family wept.",
+      "mood": "somber",
+      "start": 14.55,
+      "narrAt": 15.55,
+      "narrDur": 13.435,
+      "dur": 15.635,
+      "end": 30.185
+    },
+    {
+      "id": "kunti",
+      "name": "Kuntī's Word",
+      "display": "Then Kuntī said quietly: \"Do not grieve. You gave my sons shelter; my son shall take your place.\" And she chose Bhīma — the strongest of the five.",
+      "mood": "tender",
+      "start": 30.185,
+      "narrAt": 31.185,
+      "narrDur": 10.529,
+      "dur": 12.929,
+      "end": 43.114
+    },
+    {
+      "id": "cart",
+      "name": "The Cart of Food",
+      "display": "At dawn Bhīma drove the loaded cart toward the forest — and being Bhīma, and being hungry, he ate the demon's dinner himself along the way.",
+      "mood": "festive",
+      "start": 43.114,
+      "narrAt": 44.114,
+      "narrDur": 9.02,
+      "dur": 11.62,
+      "end": 54.733
+    },
+    {
+      "id": "fight",
+      "name": "Baka Falls",
+      "display": "The rākṣasa came roaring from the trees — huge as a hill, furious at the empty cart. They fought, tree against fist, until Bhīma seized him and broke his back across his knee.",
+      "mood": "tense",
+      "start": 54.733,
+      "narrAt": 55.933,
+      "narrDur": 11.64,
+      "dur": 15.84,
+      "end": 70.573
+    },
+    {
+      "id": "freed",
+      "name": "The Town Set Free",
+      "display": "In the morning the people of Ekacakrā found the demon dead at their gates, and wondered who had saved them. The brahmins kept their secret — and walked on quietly, toward Pāñcāla, and a destiny that would change the world.",
+      "mood": "triumphant",
+      "start": 70.573,
+      "narrAt": 71.573,
+      "narrDur": 14.083,
+      "dur": 18.683,
+      "end": 89.256
+    }
+  ]
+}

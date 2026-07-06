@@ -1,9 +1,14 @@
 {
   "slug": "bhima-and-bakasura",
   "title": "Bhīma and Bakāsura",
-  "subtitle": "",
-  "watchHint": "watch",
-  "sources": [],
+  "subtitle": "Mahābhārata · Ādi Parva 159–166",
+  "watchHint": "watch · about 2 min",
+  "sources": [
+    "04-deep-dives/mahabharata/01-adi-parva.md",
+    "04-deep-dives/characters/bhima.md",
+    "04-deep-dives/characters/kunti.md",
+    "08-beings-and-bestiary/rakshasas.md"
+  ],
   "engineFiles": [
     "core.js",
     "paint.js",
@@ -13,7 +18,8 @@
     "archetypes.js",
     "props.js",
     "sets.js",
-    "stage.js"
+    "stage.js",
+    "finish.js"
   ],
   "storyFiles": [
     "cast.js",
@@ -33,5 +39,355 @@
     "fps": 24,
     "crf": 22
   },
-  "titleHtml": "Bhīma and Bakāsura"
+  "titleHtml": "Bhīma <span class=\"d\">and</span> Bakāsura",
+  "poster": {
+    "t": 58.0
+  },
+  "folios": {
+    "titleDur": 3.6,
+    "endDur": 4.6,
+    "endLine": "and the town of Ekacakrā was free"
+  },
+  "scenes": {
+    "ekacakra": {
+      "storyboard": {
+        "set": "village",
+        "setOpts": {
+          "timeOfDay": "dusk",
+          "seed": 3
+        },
+        "grade": {
+          "wash": "#2a2440",
+          "washAlpha": 0.07,
+          "vignette": 0.42
+        },
+        "shot": {
+          "type": "wide"
+        },
+        "actors": [
+          {
+            "id": "yudhishthira",
+            "who": "yudhishthira",
+            "at": [700, 1024],
+            "s": 0.66,
+            "facing": 1,
+            "featured": true
+          },
+          {
+            "id": "bhima",
+            "who": "bhimaHero",
+            "at": [960, 1032],
+            "s": 0.7,
+            "facing": -1,
+            "featured": true
+          },
+          {
+            "id": "townsman",
+            "who": "villagerElder",
+            "at": [1500, 1016],
+            "s": 0.58,
+            "facing": -1,
+            "featured": false
+          }
+        ],
+        "beats": [
+          {
+            "at": "narr+3.0",
+            "actor": "bhima",
+            "face": {
+              "turn": 0.3,
+              "brow": 0.25,
+              "lowered": 0.15
+            },
+            "over": 1.4
+          },
+          {
+            "at": "narr+8.0",
+            "actor": "yudhishthira",
+            "pose": "stand",
+            "face": {
+              "brow": 0.3,
+              "lowered": 0.2
+            },
+            "over": 1.4
+          },
+          {
+            "at": 2.4,
+            "fx": "motes",
+            "opts": {
+              "x": 300,
+              "y": 300,
+              "w": 1300,
+              "h": 620,
+              "color": "#6a6280",
+              "n": 20
+            }
+          }
+        ]
+      }
+    },
+    "grief": {
+      "storyboard": {
+        "set": "hutDusk",
+        "setOpts": {
+          "timeOfDay": "dusk",
+          "seed": 6
+        },
+        "grade": {
+          "wash": "#3a2c4a",
+          "washAlpha": 0.06,
+          "vignette": 0.42
+        },
+        "shot": {
+          "type": "wide"
+        },
+        "actors": [
+          {
+            "id": "host",
+            "who": "brahminHost",
+            "at": [700, 1002],
+            "s": 0.72,
+            "facing": 1,
+            "featured": true
+          },
+          {
+            "id": "wife",
+            "who": "brahminWife",
+            "at": [982, 1008],
+            "s": 0.7,
+            "facing": -1,
+            "featured": true
+          },
+          {
+            "id": "child",
+            "who": "brahminChild",
+            "at": [1168, 1012],
+            "s": 0.58,
+            "facing": -1,
+            "featured": true
+          },
+          {
+            "id": "kunti",
+            "who": "kunti",
+            "at": [1360, 1000],
+            "s": 0.66,
+            "facing": -1,
+            "featured": false
+          }
+        ],
+        "beats": [
+          {
+            "at": "narr+5.0",
+            "actor": "host",
+            "pose": "grief",
+            "over": 1.6
+          },
+          {
+            "at": "narr+5.4",
+            "actor": "wife",
+            "pose": "grief",
+            "over": 1.6
+          },
+          {
+            "at": "narr+6.0",
+            "actor": "child",
+            "face": {
+              "weep": 0.7,
+              "brow": 0.4,
+              "lowered": 0.4
+            },
+            "over": 1.2
+          },
+          {
+            "at": "narr+7.0",
+            "actor": "kunti",
+            "face": {
+              "brow": 0.35,
+              "lowered": 0.3,
+              "smile": -0.05
+            },
+            "over": 1.4
+          }
+        ]
+      }
+    },
+    "kunti": {
+      "storyboard": {
+        "set": "hutDusk",
+        "setOpts": {
+          "timeOfDay": "dusk",
+          "seed": 6
+        },
+        "grade": {
+          "wash": "#e8b878",
+          "washAlpha": 0.05,
+          "vignette": 0.38
+        },
+        "shot": {
+          "type": "two-shot",
+          "actors": ["kunti", "bhima"]
+        },
+        "actors": [
+          {
+            "id": "kunti",
+            "who": "kunti",
+            "at": [720, 1006],
+            "s": 0.72,
+            "facing": 1,
+            "featured": true
+          },
+          {
+            "id": "bhima",
+            "who": "bhimaHero",
+            "at": [1150, 1018],
+            "s": 0.76,
+            "facing": -1,
+            "featured": true
+          },
+          {
+            "id": "host",
+            "who": "brahminHost",
+            "at": [1460, 1000],
+            "s": 0.58,
+            "facing": -1,
+            "featured": false
+          }
+        ],
+        "beats": [
+          {
+            "at": "narr+1.4",
+            "actor": "kunti",
+            "pose": "bless",
+            "over": 1.6
+          },
+          {
+            "at": "narr+2.0",
+            "actor": "kunti",
+            "face": {
+              "smile": 0.16,
+              "lowered": 0.2
+            },
+            "over": 1.2
+          },
+          {
+            "at": "narr+7.2",
+            "actor": "kunti",
+            "pose": "point",
+            "over": 1.2
+          },
+          {
+            "at": "narr+7.6",
+            "actor": "bhima",
+            "pose": "namaste",
+            "over": 1.6
+          },
+          {
+            "at": "narr+7.8",
+            "actor": "bhima",
+            "face": {
+              "brow": 0.2,
+              "smile": 0.08
+            },
+            "over": 1.2
+          }
+        ]
+      }
+    },
+    "freed": {
+      "storyboard": {
+        "set": "village",
+        "setOpts": {
+          "timeOfDay": "dawn",
+          "seed": 12
+        },
+        "grade": {
+          "wash": "#ffd9a0",
+          "washAlpha": 0.08,
+          "vignette": 0.3
+        },
+        "shot": {
+          "type": "wide"
+        },
+        "actors": [
+          {
+            "id": "villagerC",
+            "who": "brahminWife",
+            "at": [1080, 1018],
+            "s": 0.58,
+            "facing": -1,
+            "featured": false
+          },
+          {
+            "id": "villagerA",
+            "who": "villagerYoung",
+            "at": [1244, 1022],
+            "s": 0.6,
+            "facing": 1,
+            "featured": false
+          },
+          {
+            "id": "villagerB",
+            "who": "villagerElder",
+            "at": [1420, 1028],
+            "s": 0.58,
+            "facing": 1,
+            "featured": false
+          },
+          {
+            "id": "bhima",
+            "who": "bhimaHero",
+            "at": [740, 1030],
+            "s": 0.7,
+            "facing": -1,
+            "featured": true,
+            "enter": {
+              "type": "walk",
+              "from": [980, 1030],
+              "t0": 0.5,
+              "t1": 7.0
+            }
+          },
+          {
+            "id": "yudhishthira",
+            "who": "yudhishthira",
+            "at": [928, 1028],
+            "s": 0.64,
+            "facing": -1,
+            "featured": true,
+            "enter": {
+              "type": "walk",
+              "from": [1168, 1028],
+              "t0": 0.5,
+              "t1": 7.0
+            }
+          }
+        ],
+        "beats": [
+          {
+            "at": "narr+3.0",
+            "actor": "villagerA",
+            "pose": "point",
+            "over": 1.2
+          },
+          {
+            "at": "narr+3.6",
+            "actor": "villagerB",
+            "pose": "pray",
+            "over": 1.4
+          },
+          {
+            "at": 1.0,
+            "fx": "glow",
+            "opts": {
+              "x": 320,
+              "y": 280,
+              "r": 520,
+              "color": "rgba(255,214,150,0.2)",
+              "alpha": 1
+            }
+          }
+        ]
+      }
+    }
+  }
 }

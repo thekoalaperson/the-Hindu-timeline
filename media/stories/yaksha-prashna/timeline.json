@@ -1,0 +1,84 @@
+{
+  "title": "The Yakṣa's Questions",
+  "subtitle": "Mahābhārata · Vana Parva 311–315",
+  "total": 109.696,
+  "scenes": [
+    {
+      "id": "chase",
+      "name": "The Stolen Fire",
+      "display": "As the long exile waned, a deer bounded off with a Brāhmaṇa's sacred fire-sticks caught in its antlers. The five Pāṇḍava brothers gave chase — until it melted into shadow, leaving them lost and parched.",
+      "mood": "mystic",
+      "start": 0,
+      "narrAt": 2.2,
+      "narrDur": 12.574,
+      "dur": 15.974,
+      "end": 15.974
+    },
+    {
+      "id": "reach",
+      "name": "The Still Lake",
+      "display": "Nakula, youngest and swift, found a still and shining lake. As he stooped to drink, a voice rose from the empty air: \"This water is mine. Answer me first — then drink.\"",
+      "mood": "suspense",
+      "start": 15.974,
+      "narrAt": 16.974,
+      "narrDur": 12.406,
+      "dur": 14.406,
+      "end": 30.38
+    },
+    {
+      "id": "fall",
+      "name": "Four Brothers Fallen",
+      "display": "Heedless with thirst, Nakula drank — and fell. One by one his brothers followed: Sahadeva, Arjuna, Bhīma. Each ignored the voice, drank, and lay still — four brothers fallen like felled trees.",
+      "mood": "somber",
+      "start": 30.38,
+      "narrAt": 31.18,
+      "narrDur": 14.212,
+      "dur": 17.212,
+      "end": 47.592
+    },
+    {
+      "id": "voice",
+      "name": "A Voice with No Body",
+      "display": "At last Yudhiṣṭhira came, and found all four fallen. He grieved — yet saw no wound. When the bodiless voice rose again above the still water, he bowed his head: \"Ask, Yakṣa. I will answer.\"",
+      "mood": "mystic",
+      "start": 47.592,
+      "narrAt": 48.592,
+      "narrDur": 13.77,
+      "dur": 16.57,
+      "end": 64.163
+    },
+    {
+      "id": "riddles",
+      "name": "The Questions",
+      "display": "\"What is swifter than the wind?\" — \"The mind.\" \"What is heavier than the earth?\" — \"A mother.\" Riddle upon riddle, he answered every one. Then came the deepest: \"What is the greatest wonder?\"",
+      "mood": "tense",
+      "start": 64.163,
+      "narrAt": 64.963,
+      "narrDur": 12.2,
+      "dur": 14.2,
+      "end": 78.362
+    },
+    {
+      "id": "wonder",
+      "name": "The Greatest Wonder",
+      "display": "And Yudhiṣṭhira answered: \"Day upon day, the dead are borne to the House of Death — yet those who remain believe they will never die. That is the greatest wonder.\"",
+      "mood": "somber",
+      "start": 78.362,
+      "narrAt": 79.362,
+      "narrDur": 10.148,
+      "dur": 13.548,
+      "end": 91.91
+    },
+    {
+      "id": "reveal",
+      "name": "Dharma Revealed",
+      "display": "The crane blazed and put off its shape: it was Dharma, his own divine father, who made the whole trial to prove him. Pleased, he raised all four brothers, and gave the Pāṇḍavas their year unseen.",
+      "mood": "triumphant",
+      "start": 91.91,
+      "narrAt": 92.91,
+      "narrDur": 12.585,
+      "dur": 17.785,
+      "end": 109.696
+    }
+  ]
+}
