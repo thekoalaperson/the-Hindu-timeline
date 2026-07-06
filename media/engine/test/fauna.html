@@ -16,6 +16,42 @@ const ctx = document.getElementById('cv').getContext('2d');
 const q = new URLSearchParams(location.search);
 const gait = q.get('gait') || 'walk';         // idle | walk | run
 const orn = q.get('orn') === '1';             // draw caparison / howdah
+const mode = q.get('mode') || 'grid';         // grid | crowd | cows
+const T = parseFloat(q.get('t') || '2');
+
+// ── mode: crowd close-up (verify NO clones) ──
+if (mode === 'crowd') {
+  vgrad(ctx, 0, 0, W, H, [[0, '#6e4520'], [1, '#2e1a0a']]);
+  const strip = crowdStrip('crowd-check', 9, kingStyle, 1.0);
+  // draw large so faces/garments are inspectable
+  const scale = W / strip.width;
+  ctx.drawImage(strip, 0, H - strip.height * scale * 1.6, W, strip.height * scale * 1.6);
+  ctx.fillStyle = '#f2dfae'; ctx.font = '24px Georgia';
+  ctx.fillText('crowd close-up · 9 kings · check for twins (garment+headgear, height, spacing, lean)', 24, 40);
+}
+// ── mode: cow palettes + calf (Govardhana slate; check dusk readability) ──
+else if (mode === 'cows') {
+  vgrad(ctx, 0, 0, W, H, [[0, '#3a2a44'], [0.5, '#7a4a3a'], [1, '#2a1608']]);   // dusk-ish
+  glowAdd(ctx, 960, 300, 700, 'rgba(255,150,60,0.12)', 1);
+  const specs = [['white/grey', COW_COATS[0], 470], ['brown', COW_COATS[1], 960], ['black', COW_COATS[2], 1450]];
+  specs.forEach(([label, coat, x]) => {
+    drawCow(ctx, { x, y: 760, s: 0.86, facing: 1, t: T, seed: (x | 0), gait: 'idle', coat });
+    ctx.fillStyle = '#f2dfae'; ctx.font = '22px Georgia'; ctx.textAlign = 'center';
+    ctx.fillText(label, x, 820);
+  });
+  // a calf beside the brown cow
+  drawCow(ctx, { x: 1150, y: 940, s: 0.5, facing: -1, t: T, seed: 9, gait: 'idle', coat: COW_COATS[1], calf: true });
+  ctx.fillText('calf', 1150, 980);
+  // lamp for lamplight read
+  drawLampStand(ctx, 250, 980, 1.1, T, 3);
+  drawLampStand(ctx, 1700, 980, 1.1, T, 8);
+  wash(ctx, '#ff9a4c', 0.06, 'soft-light'); vignette(ctx, 0.4, true);
+  ctx.fillStyle = '#f2dfae'; ctx.font = '24px Georgia'; ctx.textAlign = 'left';
+  ctx.fillText('cow palettes + calf · dusk/lamplight', 24, 40);
+}
+// ── default mode: 5-animal × 3-time gait grid ──
+else grid();
+function grid() {
 
 // warm parchment ground so silhouettes read
 vgrad(ctx, 0, 0, W, H, [[0, '#e9d9b6'], [0.6, '#dcc9a0'], [1, '#c8b184']]);
@@ -54,4 +90,5 @@ times.forEach((t, r) => {
 });
 ctx.fillStyle = '#3a2410'; ctx.font = '20px Georgia'; ctx.textAlign = 'right';
 ctx.fillText('gait=' + gait + (orn ? ' · ornament' : ''), W - 20, 30);
+}
 </script>

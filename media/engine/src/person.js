@@ -631,7 +631,7 @@ function drawHead(ctx, R, style, face, t, seed, rig) {
     const k = norm(tn, 0.22, 0.55);
     const farEx = lerp(P(-0.35, -0.26), -nearEx, front);
     const sz = lerp(0.30 * (0.55 + 0.45 * k) * 0.9, 0.30, front);
-    ctx.save(); ctx.globalAlpha = Math.max(k, front);
+    ctx.save(); ctx.globalAlpha = front > 0.25 ? 1 : Math.max(k, front);
     if (front > 0.25) { ctx.translate(farEx, 0); ctx.scale(-1, 1); drawEye(ctx, 0, eyeY, sz, bl, { x: -gz.x, y: gz.y }, style, f, -1); }
     else drawEye(ctx, farEx, eyeY + 0.005, sz, bl, gz, style, f, -1);
     ctx.restore();
@@ -644,7 +644,7 @@ function drawHead(ctx, R, style, face, t, seed, rig) {
   browStroke(ctx, nearEx, eyeY - 0.20 - f.brow * 0.07 + browY, 0.34, f.brow - f.rage * 0.6, 1, browTilt, heavy);
   if (tn > 0.22) {
     const farBx = lerp(P(-0.35, -0.26), -nearEx, front);
-    ctx.save(); ctx.globalAlpha = Math.max(norm(tn, 0.22, 0.55), front);
+    ctx.save(); ctx.globalAlpha = front > 0.25 ? 1 : Math.max(norm(tn, 0.22, 0.55), front);
     if (front > 0.25) { ctx.translate(farBx, 0); ctx.scale(-1, 1); browStroke(ctx, 0, eyeY - 0.20 - f.brow * 0.06 + browY, 0.32, f.brow - f.rage * 0.6, -1, browTilt, heavy); }
     else browStroke(ctx, farBx, eyeY - 0.20 - f.brow * 0.06, 0.30, f.brow * 0.8, -1, browTilt, heavy);
     ctx.restore();
@@ -659,11 +659,21 @@ function drawHead(ctx, R, style, face, t, seed, rig) {
   }
   if (front > 0.3) {
     ctx.save(); ctx.globalAlpha = front;
-    ctx.beginPath(); ctx.arc(0.12, 0.2, 0.05, Math.PI * 0.15, Math.PI * 1.0); ctx.stroke();
-    ctx.beginPath(); ctx.arc(-0.12, 0.2, 0.05, Math.PI * 0.0, Math.PI * 0.85); ctx.stroke();
-    ctx.strokeStyle = rgbaC(dark, 0.32); ctx.lineWidth = 0.03;
-    ctx.beginPath(); ctx.moveTo(0.03, -0.22); ctx.lineTo(0.0, 0.13); ctx.stroke();
-    ctx.fillStyle = 'rgba(255,244,214,0.22)'; ctx.beginPath(); ctx.ellipse(0.0, 0.11, 0.09, 0.06, 0, 0, TAU); ctx.fill();
+    // soft under-tip shadow gives the frontal nose volume
+    ctx.fillStyle = rgbaC(dark, 0.24);
+    ctx.beginPath(); ctx.ellipse(0.0, 0.21, 0.15, 0.09, 0, 0, TAU); ctx.fill();
+    // nostrils
+    ctx.strokeStyle = rgbaC('#241005', 0.6); ctx.lineWidth = 0.03;
+    ctx.beginPath(); ctx.arc(0.105, 0.2, 0.045, Math.PI * 0.1, Math.PI * 1.05); ctx.stroke();
+    ctx.beginPath(); ctx.arc(-0.105, 0.2, 0.045, Math.PI * -0.05, Math.PI * 0.9); ctx.stroke();
+    // nostril wings
+    ctx.strokeStyle = rgbaC(dark, 0.34); ctx.lineWidth = 0.026;
+    ctx.beginPath(); ctx.moveTo(0.165, 0.15); ctx.quadraticCurveTo(0.175, 0.22, 0.1, 0.25); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(-0.165, 0.15); ctx.quadraticCurveTo(-0.175, 0.22, -0.1, 0.25); ctx.stroke();
+    // one-sided bridge shadow for form + a soft light down the ridge
+    ctx.strokeStyle = rgbaC(dark, 0.3); ctx.lineWidth = 0.03;
+    ctx.beginPath(); ctx.moveTo(0.06, -0.22); ctx.quadraticCurveTo(0.03, -0.02, 0.09, 0.15); ctx.stroke();
+    ctx.fillStyle = 'rgba(255,244,214,0.28)'; ctx.beginPath(); ctx.ellipse(-0.02, 0.06, 0.055, 0.13, 0, 0, TAU); ctx.fill();
     ctx.restore();
   }
   if (style.noseRing) {
@@ -836,6 +846,8 @@ function _extraArm(ctx, shx, shy, a, build, skin, dark, OUT, armW, hand, wr) {
 function drawFigure(ctx, o) {
   const st = o.style, pose = Object.assign(defaultPoseLocal(), o.pose);
   const build = st.build || 1;
+  const vS = st.heightScale || 1;        // per-instance height (±), kills clone silhouettes
+  const shMul = st.shoulderScale || 1;   // shoulder breadth (broad warriors / giants)
   const female = st.female;
   const t = o.t || 0, seed = o.seed || 1;
   const skin = st.skin, dark = st.skinShade || shade(skin, -0.3);
@@ -850,10 +862,10 @@ function drawFigure(ctx, o) {
 
   const br = Math.sin(t * 1.55 + seed * 3) * 0.5 + 0.5;
 
-  const shW = FIG.shoulderW * build * (female ? 0.82 : 1);
+  const shW = FIG.shoulderW * build * shMul * (female ? 0.82 : 1);
   const hipW = FIG.hipW * build * (female ? 1.12 : 1);
-  const shoulderY = -FIG.shoulderY * build - br * 1.2;
-  const waistY = -FIG.waistY * build, hipY = -FIG.hipY * build;
+  const shoulderY = -FIG.shoulderY * build * vS - br * 1.2;
+  const waistY = -FIG.waistY * build * vS, hipY = -FIG.hipY * build * vS;
   const leanDx = Math.sin(pose.lean) * 90;
   const chestTop = shoulderY - 8;
   const M = { shoulderY, waistY, hipY, chestTop, shW, hipW, leanDx, skin, dark, female, build, OUT, t, seed };
@@ -873,7 +885,7 @@ function drawFigure(ctx, o) {
   const groundY = 0;
   function leg(Lg, front) {
     const hx = leanDx * 0.15 + (front ? 6 : -8), hy = hipY + 6;
-    const th = FIG.thigh * build, sh = FIG.shin * build;
+    const th = FIG.thigh * build * vS, sh = FIG.shin * build * vS;
     const kx2 = hx + Math.sin(Lg.hip) * th;
     const ky2 = hy + Math.cos(Lg.hip) * th;
     const ax = kx2 + Math.sin(Lg.hip - Lg.knee) * sh;
@@ -943,7 +955,7 @@ function drawFigure(ctx, o) {
   drawHand(ctx, armF.wr[0], armF.wr[1], -armF.a2 + (pose.armF.wr || 0), build * (female ? 0.85 : 1), skin, pose.armF.hand || 'relaxed', dark, { claw: st.claws });
 
   // neck & head
-  const neckX = leanDx * 0.9, headCy = shoulderY - FIG.neck * build - FIG.headR * 0.72;
+  const neckX = leanDx * 0.9, headCy = shoulderY - FIG.neck * build * vS - FIG.headR * 0.72;
   ctx.fillStyle = skin;
   ctx.beginPath();
   ctx.moveTo(neckX - 10 * build, shoulderY + 6);
@@ -1129,7 +1141,7 @@ class Sage extends Man {
 class Rakshasa extends Man {
   constructor(style) {
     super(Object.assign({
-      build: 1.28, skin: '#7a5a44', skinShade: '#3f2c1e', hairColor: '#241109',
+      build: 1.32, shoulderScale: 1.3, skin: '#7a5a44', skinShade: '#3f2c1e', hairColor: '#241109',
       tusks: true, mane: true, heavyBrow: true, claws: true, hairstyle: 'mane',
       garb: 'dhoti', clothMain: '#5a3324', clothAccent: '#8a5a2c', sash: '#3a2016',
       lip: '#5c2a22', iris: '#7a1e12', ornaments: 1,
@@ -1141,11 +1153,14 @@ class Rakshasa extends Man {
 // resolve a data archetype (ARCH) or named character (CHARACTERS registry) or a
 // raw style object, and instantiate the right behaviour class.
 Person.of = function (sel) {
-  let style = {};
+  let style = {}, form = null;
   if (typeof sel === 'string') {
+    // 'name:form' → resolve base, then apply style.forms[form] overrides (e.g. 'arjuna:brahmin')
+    if (sel.indexOf(':') > 0) { const parts = sel.split(':'); sel = parts[0]; form = parts[1]; }
     if (typeof CHARACTERS !== 'undefined' && CHARACTERS[sel]) style = Object.assign({}, CHARACTERS[sel]);
     else if (typeof ARCH !== 'undefined' && ARCH[sel]) style = Object.assign({}, ARCH[sel]);
     else style = { archetype: sel };
+    if (form && style.forms && style.forms[form]) style = Object.assign({}, style, style.forms[form]);
   } else if (sel && typeof sel === 'object') {
     if (sel.archetype && typeof ARCH !== 'undefined' && ARCH[sel.archetype]) style = Object.assign({}, ARCH[sel.archetype], sel);
     else style = Object.assign({}, sel);

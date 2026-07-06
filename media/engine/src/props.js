@@ -1358,7 +1358,7 @@ function drawCow(ctx, o) {
   const hindN = [-140, -248], hindF = [-158, -248];
   const upLen = 124, loLen = 124;
   const cyc = i => t * g.rate + g.ph[i];
-  const legW = [13, 9, 6.5];
+  const legW = [15, 11, 8];
   const brB = Math.sin(t * 1.3 + seed) * 1.8;
 
   _qLeg(ctx, foreF, upLen, loLen, _legAng(cyc(2), g.amp), 1, legW.map(w => w * 0.9), _hx(coat, -0.12), coatD, _hx(hoof, -0.1));
@@ -1373,17 +1373,17 @@ function drawCow(ctx, o) {
   // body with shoulder hump
   ctx.save(); ctx.translate(0, -brB);
   const body = [
-    [150, -262], [150, -300], [120, -336], [96, -300],   // shoulder + zebu hump
-    [10, -300], [-110, -288], [-166, -262],
-    [-170, -206], [-120, -172], [0, -166], [110, -176], [156, -212],
+    [152, -260], [150, -300], [120, -336], [96, -300],   // shoulder + zebu hump
+    [10, -300], [-110, -288], [-168, -258],
+    [-172, -196], [-120, -142], [0, -134], [112, -144], [158, -186],  // deeper belly
   ];
   ctx.beginPath(); smoothPath(ctx, body, true);
-  const bg = ctx.createLinearGradient(0, -336, 0, -166);
+  const bg = ctx.createLinearGradient(0, -336, 0, -134);
   bg.addColorStop(0, coatL); bg.addColorStop(0.5, coat); bg.addColorStop(1, coatD);
   ctx.fillStyle = bg; ctx.fill();
   ctx.strokeStyle = _INK; ctx.lineWidth = 2.5; ctx.stroke();
   ctx.save(); ctx.beginPath(); smoothPath(ctx, body, true); ctx.clip();
-  ctx.fillStyle = 'rgba(20,10,4,0.24)'; ctx.beginPath(); ctx.ellipse(-30, -170, 150, 34, 0, 0, TAU); ctx.fill();
+  ctx.fillStyle = 'rgba(20,10,4,0.24)'; ctx.beginPath(); ctx.ellipse(-30, -150, 152, 32, 0, 0, TAU); ctx.fill();
   ctx.restore();
   ctx.restore();
 

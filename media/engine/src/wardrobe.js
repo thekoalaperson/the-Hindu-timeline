@@ -256,6 +256,16 @@ function drawLowerGarment(ctx, st, pose, hipY, hipW, build, t, seed, female) {
       ctx.quadraticCurveTo(x0 * 1.5 + sway * 0.4, hipY * 0.4, x0 * 1.7 + sway, -8);
       ctx.stroke();
     }
+    // soft drape folds — broad, low-alpha ink; painters mark folds, mannequins don't
+    ctx.strokeStyle = rgba(shade(cm, -0.4), 0.16); ctx.lineWidth = 5; ctx.lineCap = 'round';
+    for (let i = 0; i < 3; i++) {
+      const u = (i + 0.3) / 3, x0 = lerp(-hipW * 0.8, hipW * 0.8, u);
+      ctx.beginPath();
+      ctx.moveTo(x0 * 0.9, hipY - 2);
+      ctx.quadraticCurveTo(x0 * 1.5 + sway * 0.5, hipY * 0.35, x0 * 1.9 + sway + Math.sin(i * 4 + seed) * 5, -6);
+      ctx.stroke();
+    }
+    ctx.lineCap = 'butt';
     // gold hem
     ctx.strokeStyle = acc; ctx.lineWidth = 4.5;
     ctx.beginPath();
@@ -298,6 +308,16 @@ function drawLowerGarment(ctx, st, pose, hipY, hipW, build, t, seed, female) {
       ctx.quadraticCurveTo(i * 8 + sway * 0.4, hipY + len * 0.6, i * 12 + sway * 0.8, hem + 4);
       ctx.stroke();
     }
+    // soft drape folds — broad, low-alpha ink for painterly volume
+    ctx.strokeStyle = rgba(shade(cm, -0.42), 0.15); ctx.lineWidth = 4.5; ctx.lineCap = 'round';
+    for (let i = 0; i < 2; i++) {
+      const s2 = i ? 1 : -1;
+      ctx.beginPath();
+      ctx.moveTo(s2 * hipW * 0.42, hipY + 6);
+      ctx.quadraticCurveTo(s2 * hipW * 0.85 + sway * 0.4, hipY + len * 0.5, s2 * hipW * 0.55 + sway * 0.8, hem + 6);
+      ctx.stroke();
+    }
+    ctx.lineCap = 'butt';
     // hem border
     if (st.clothAccent) {
       ctx.strokeStyle = st.clothAccent; ctx.lineWidth = 3.5;

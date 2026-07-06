@@ -36,7 +36,7 @@ const ARCH = {
     archetype: 'warrior', skin: '#b57a45', skinShade: '#7c4a1e', hairColor: '#171009',
     hairstyle: 'topknot', garb: 'armor', clothMain: '#9a7a2e', clothAccent: '#8c5a12',
     crown: 'turban', turbanColor: '#8c2f1d', moustache: 2, ornaments: 1, armlets: true,
-    build: 1.12, dhotiLen: 200,
+    build: 1.14, shoulderScale: 1.16, dhotiLen: 200,
   },
   brahmin: {
     archetype: 'brahmin', skin: '#c98d5e', skinShade: '#8a5127', hairColor: '#241a10',
@@ -77,7 +77,7 @@ const ARCH = {
     archetype: 'rakshasa', skin: '#6f5140', skinShade: '#382519', hairColor: '#1c0f08',
     hairstyle: 'mane', garb: 'dhoti', clothMain: '#563021', clothAccent: '#8a5a2c',
     tusks: true, mane: true, heavyBrow: true, claws: true, sash: '#33190f',
-    lip: '#57271f', iris: '#7a1e12', ornaments: 1, build: 1.3, dhotiLen: 150,
+    lip: '#57271f', iris: '#7a1e12', ornaments: 1, build: 1.32, shoulderScale: 1.3, dhotiLen: 150,
   },
   deity: {
     archetype: 'deity', skin: '#d3a860', skinShade: '#9a6b28', hairColor: '#160f09',
@@ -87,30 +87,45 @@ const ARCH = {
   },
 };
 
-// generic assembly king; i varies palette & headgear (parallels cast.kingStyle)
+// Variety is contract: each index varies skin tone + age tint, garment palette,
+// build, HEIGHT (±~6%), shoulder breadth, and carries a `phase` so callers can
+// jitter pose timing (t: T + style.phase*2, seed: base + i) — no two clones.
 function archKing(i) {
   const cloths = ['#7a2e2e', '#2e5a7a', '#5a7a2e', '#7a5a2e', '#4a2e7a', '#2e7a6a'];
   const turbs = ['#a13a1e', '#1e5aa1', '#6ea11e', '#a1791e', '#5a1ea1', '#1ea18a'];
-  const skins = ['#c98d5e', '#b57a45', '#d9a05e', '#a86a3c', '#c69265'];
-  const sk = skins[i % skins.length];
+  const skins = ['#c98d5e', '#b57a45', '#d9a05e', '#a86a3c', '#c69265', '#bd8850'];
+  let sk = skins[i % skins.length];
+  const old = (i % 5 === 4);
+  if (old) sk = mixC(sk, '#b7a894', 0.28);   // elder: desaturated skin
   return {
     archetype: 'king', skin: sk, skinShade: shade(sk, -0.35),
-    hairColor: '#1d1408', hairstyle: 'topknot', garb: 'royal',
+    hairColor: old ? '#6b6154' : '#1d1408', hairstyle: 'topknot', garb: 'royal',
     clothMain: cloths[i % cloths.length], clothAccent: GOLD,
     crown: i % 3 === 0 ? 'mukut' : 'turban', turbanColor: turbs[i % turbs.length],
-    moustache: i % 2 ? 1 : 2, ornaments: 2, armlets: true,
-    build: 0.98 + (i % 4) * 0.05, dhotiLen: 215,
+    moustache: i % 2 ? 1 : 2, beard: old ? 'grey' : null, beardLen: 0.25,
+    ornaments: 2, armlets: true,
+    build: 0.98 + (i % 4) * 0.05,
+    heightScale: 0.95 + ((i * 37) % 13) / 13 * 0.11,
+    shoulderScale: 1.0 + ((i * 5) % 4) * 0.05,
+    phase: (i * 0.61803) % 1,
+    dhotiLen: 215,
   };
 }
 
 function archBrahmin(i) {
-  const skins = ['#c98d5e', '#c08a58', '#b57a45', '#cf9a68'];
-  const sk = skins[i % skins.length];
+  const skins = ['#c98d5e', '#c08a58', '#b57a45', '#cf9a68', '#bb8752'];
+  let sk = skins[i % skins.length];
+  const old = (i % 4 === 3);
+  if (old) sk = mixC(sk, '#b7a894', 0.25);
   return {
     archetype: 'brahmin', skin: sk, skinShade: shade(sk, -0.35),
-    hairColor: '#241a10', hairstyle: i % 3 === 0 ? 'sagebun' : 'topknot', garb: 'dhoti',
+    hairColor: old ? '#7a7064' : '#241a10', hairstyle: i % 3 === 0 ? 'sagebun' : 'topknot', garb: 'dhoti',
     clothMain: '#ede4cb', clothAccent: '#c9a44a', sacredThread: true,
-    tilak: i % 2 ? 'plain' : 'urdhva', beard: i % 4 === 3 ? 'white' : null, beardLen: 0.3,
-    build: 0.92 + (i % 3) * 0.05, dhotiLen: 200,
+    tilak: i % 2 ? 'plain' : 'urdhva', beard: old ? 'white' : null, beardLen: 0.32,
+    build: 0.92 + (i % 3) * 0.05,
+    heightScale: 0.95 + ((i * 29) % 11) / 11 * 0.1,
+    shoulderScale: 0.96 + ((i * 7) % 3) * 0.03,
+    phase: (i * 0.61803) % 1,
+    dhotiLen: 200,
   };
 }
