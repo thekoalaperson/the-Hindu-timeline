@@ -19,6 +19,11 @@
 //   New props (opts-object signature (ctx, {x,y,s,t,seed,...})):
 //     drawCart, drawWell, drawThrone, treeBanyan, treePalm, treeAshoka,
 //     drawRock, potStack, shrine, drawHut
+//   Trees take an optional `tod:'dawn'|'day'|'dusk'|'night'` so their foliage
+//   is graded (day muted-green · dusk warm-olive · dawn misty grey-green ·
+//   night deep blue-green near-silhouette) to match the set's time of day;
+//   canopies are flat scalloped lobes (ink-outlined, sparse leaf-ticks), not
+//   glossy bubbles. Sets pass their own `tod` through.
 //   Fauna (ctx, {x,y,s,facing,t,seed,gait:'idle'|'walk'|'run', ornament?}):
 //     drawHorse, drawElephant, drawDeer, drawBird, drawCow
 'use strict';
