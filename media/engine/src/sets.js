@@ -665,25 +665,33 @@ SETS.village = function (ctx, cam, t, o) {
     const bi = _makeBands(1035, 90, o);
     if (o.actors) o.actors(c, bi);
   });
-  // foreground: hanging cloth line
+  // foreground: hanging cloth line — a few small, muted natural-dye cloths
+  // strung low between the hut rooflines (not big blocks dominating the sky).
   camLayer(ctx, cam, 1.3, (c) => {
     if (o.fg !== false) {
       c.strokeStyle = '#5a4028'; c.lineWidth = 3;
-      c.beginPath(); c.moveTo(-20, 120); c.quadraticCurveTo(W / 2, 190, W + 20, 120); c.stroke();
-      const cc = ['#c0392b', '#2e6da8', '#e0a020', '#3f7a52', '#8c3f6e'];
-      for (let i = 0; i < 6; i++) {
-        const px = 120 + i * 300;
-        const sag = Math.sin((px / W) * Math.PI) * 60 + 130;
-        const sway = sfbm1(t * 0.6 + i, i) * 8;
-        c.fillStyle = cc[i % cc.length];
+      c.beginPath(); c.moveTo(-20, 364); c.quadraticCurveTo(W / 2, 430, W + 20, 364); c.stroke();
+      const cc = ['#a15644', '#3c5476', '#c0973f', '#6e7448'];   // madder · indigo · turmeric · leaf-green
+      const cw = 54, ch = 112;                                   // ~45% of the old blocks
+      for (let i = 0; i < 4; i++) {
+        const px = 360 + i * 420;
+        const sag = Math.sin((px / W) * Math.PI) * 40 + 390;
+        const sway = sfbm1(t * 0.5 + i, i) * 5;                  // gentle noise sway
+        c.fillStyle = cc[i];
         c.beginPath();
-        c.moveTo(px - 60, sag);
-        c.lineTo(px + 60, sag + 4);
-        c.quadraticCurveTo(px + 66 + sway, sag + 150, px + 40 + sway, sag + 240);
-        c.lineTo(px - 40 + sway, sag + 236);
-        c.quadraticCurveTo(px - 60, sag + 150, px - 60, sag);
+        c.moveTo(px - cw / 2, sag);
+        c.lineTo(px + cw / 2, sag + 3);
+        c.quadraticCurveTo(px + cw / 2 + 4 + sway, sag + ch * 0.6, px + cw * 0.34 + sway, sag + ch);
+        c.lineTo(px - cw * 0.34 + sway, sag + ch - 3);
+        c.quadraticCurveTo(px - cw / 2 - 4, sag + ch * 0.6, px - cw / 2, sag);
         c.closePath(); c.fill();
-        c.strokeStyle = 'rgba(0,0,0,0.15)'; c.lineWidth = 2; c.stroke();
+        c.strokeStyle = rgba('#241005', 0.3); c.lineWidth = 1.6; c.stroke();
+        // 2 interior fold strokes
+        c.strokeStyle = rgba('#241005', 0.16); c.lineWidth = 1.5;
+        c.beginPath(); c.moveTo(px - cw * 0.14, sag + 6); c.lineTo(px - cw * 0.14 + sway * 0.6, sag + ch - 8); c.stroke();
+        c.beginPath(); c.moveTo(px + cw * 0.16, sag + 6); c.lineTo(px + cw * 0.16 + sway * 0.8, sag + ch - 8); c.stroke();
+        // peg at the line
+        c.fillStyle = '#3a2a18'; c.fillRect(px - 3, sag - 5, 6, 8);
       }
     }
   });

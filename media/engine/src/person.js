@@ -1154,6 +1154,7 @@ Person.of = function (sel) {
     // 'name:form' → resolve base, then apply style.forms[form] overrides (e.g. 'arjuna:brahmin')
     if (sel.indexOf(':') > 0) { const parts = sel.split(':'); sel = parts[0]; form = parts[1]; }
     if (typeof CHARACTERS !== 'undefined' && CHARACTERS[sel]) style = Object.assign({}, CHARACTERS[sel]);
+    else if (typeof CAST !== 'undefined' && CAST && CAST[sel]) style = Object.assign({}, CAST[sel]); // story-local cast
     else if (typeof ARCH !== 'undefined' && ARCH[sel]) style = Object.assign({}, ARCH[sel]);
     else style = { archetype: sel };
     // registry entries are overrides on top of their archetype preset
@@ -1163,6 +1164,12 @@ Person.of = function (sel) {
   } else if (sel && typeof sel === 'object') {
     if (sel.archetype && typeof ARCH !== 'undefined' && ARCH[sel.archetype]) style = Object.assign({}, ARCH[sel.archetype], sel);
     else style = Object.assign({}, sel);
+  }
+  // never let a film crash on an unstyled name: neutral villager defaults
+  if (!style.skin) {
+    const base = (typeof ARCH !== 'undefined' && ARCH.villager) ? ARCH.villager
+      : { skin: '#b57a45', skinShade: '#7c4a1e', hairColor: '#1c130a', hairstyle: 'topknot', garb: 'dhoti', clothMain: '#d9cbb0' };
+    style = Object.assign({}, base, style);
   }
   const a = style.archetype, kind = style.kind;
   let Cls = Man;

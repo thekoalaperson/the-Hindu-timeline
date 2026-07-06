@@ -16,11 +16,12 @@ const storyFiles = cfg.storyFiles || ['timeline.js', 'film.js'];
 const readEngine = f => readFileSync(join(engineDir, 'src', f), 'utf8');
 const readStory = f => readFileSync(join(story, f), 'utf8');
 
-// character registry, exposed as the CHARACTERS global on every page
+// character registry + story config, exposed as globals on every page
 const regPath = join(mediaDir, 'characters', 'registry.json');
-const registryJs = existsSync(regPath)
+const registryJs = (existsSync(regPath)
   ? 'const CHARACTERS = ' + JSON.stringify(JSON.parse(readFileSync(regPath, 'utf8')).characters || {}) + ';\n'
-  : 'const CHARACTERS = {};\n';
+  : 'const CHARACTERS = {};\n')
+  + 'const STORY = ' + JSON.stringify(cfg) + ';\n';
 
 // ── dev page: plain script tags, relative paths ──
 const devTags = [

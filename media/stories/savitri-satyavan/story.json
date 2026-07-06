@@ -1,0 +1,418 @@
+{
+  "slug": "savitri-satyavan",
+  "title": "Sāvitrī & Satyavān",
+  "subtitle": "Mahābhārata · Vana Parva 291–297",
+  "watchHint": "watch · about 2 min",
+  "sources": [
+    "04-deep-dives/savitri-satyavan.md"
+  ],
+  "engineFiles": [
+    "core.js",
+    "paint.js",
+    "acting.js",
+    "wardrobe.js",
+    "person.js",
+    "archetypes.js",
+    "props.js",
+    "sets.js",
+    "stage.js",
+    "finish.js"
+  ],
+  "storyFiles": [
+    "cast.js",
+    "timeline.js",
+    "film.js"
+  ],
+  "narration": {
+    "provider": "pico",
+    "voice": "en-GB",
+    "pitch": 0.95,
+    "tempo": 1.12
+  },
+  "music": {
+    "mode": "auto"
+  },
+  "video": {
+    "fps": 24,
+    "crf": 22
+  },
+  "titleHtml": "Sāvitrī <span class=\"d\">&</span> Satyavān",
+  "poster": {
+    "t": 66.5
+  },
+  "folios": {
+    "titleDur": 3.6,
+    "endDur": 4.6,
+    "endLine": "and Death himself kept his word"
+  },
+  "scenes": {
+    "choice": {
+      "storyboard": {
+        "set": "forest",
+        "setOpts": {
+          "timeOfDay": "dawn",
+          "seed": 3,
+          "rays": 0.8
+        },
+        "grade": {
+          "wash": "#ffd9a0",
+          "washAlpha": 0.07,
+          "vignette": 0.3
+        },
+        "shot": {
+          "type": "processional",
+          "actor": "savitri"
+        },
+        "actors": [
+          {
+            "id": "savitri",
+            "who": "savitri",
+            "at": [
+              1400,
+              1000
+            ],
+            "s": 0.7,
+            "facing": 1,
+            "enter": {
+              "type": "walk",
+              "from": [
+                -160,
+                1000
+              ],
+              "t0": 0.8,
+              "t1": 9
+            },
+            "featured": true
+          },
+          {
+            "id": "satyavan",
+            "who": "satyavan",
+            "at": [
+              1560,
+              995
+            ],
+            "s": 0.71,
+            "facing": -1,
+            "featured": false
+          },
+          {
+            "id": "dyumatsena",
+            "who": "dyumatsena",
+            "at": [
+              1800,
+              985
+            ],
+            "s": 0.64,
+            "facing": -1,
+            "featured": false
+          }
+        ],
+        "beats": [
+          {
+            "at": "narr+9.5",
+            "actor": "satyavan",
+            "pose": "namaste",
+            "over": 1.4
+          },
+          {
+            "at": "narr+10.2",
+            "actor": "savitri",
+            "pose": "bless",
+            "over": 1.6
+          },
+          {
+            "at": "narr+10.5",
+            "actor": "savitri",
+            "face": {
+              "smile": 0.3,
+              "lowered": 0.4
+            },
+            "over": 1
+          },
+          {
+            "at": 2.5,
+            "fx": "motes",
+            "opts": {}
+          }
+        ]
+      }
+    },
+    "prophecy": {
+      "storyboard": {
+        "set": "interior",
+        "setOpts": {
+          "timeOfDay": "day",
+          "seed": 5
+        },
+        "grade": {
+          "wash": "#e8c9a0",
+          "washAlpha": 0.05,
+          "vignette": 0.36
+        },
+        "shot": {
+          "type": "two-shot",
+          "actors": [
+            "narada",
+            "savitri"
+          ]
+        },
+        "actors": [
+          {
+            "id": "asvapati",
+            "who": "asvapati",
+            "at": [
+              640,
+              1005
+            ],
+            "s": 0.72,
+            "facing": 1,
+            "featured": false
+          },
+          {
+            "id": "narada",
+            "who": "narada",
+            "at": [
+              1000,
+              990
+            ],
+            "s": 0.72,
+            "facing": 1,
+            "featured": true
+          },
+          {
+            "id": "savitri",
+            "who": "savitri",
+            "at": [
+              1420,
+              1000
+            ],
+            "s": 0.72,
+            "facing": -1,
+            "featured": true
+          }
+        ],
+        "beats": [
+          {
+            "at": 1.2,
+            "actor": "narada",
+            "pose": "point",
+            "over": 1.2
+          },
+          {
+            "at": "narr+3.4",
+            "actor": "asvapati",
+            "face": {
+              "brow": 0.6,
+              "lipsPart": 0.4,
+              "smile": -0.3
+            },
+            "over": 1.2
+          },
+          {
+            "at": "narr+7.8",
+            "actor": "narada",
+            "pose": "stand",
+            "over": 1.4
+          },
+          {
+            "at": "narr+8.2",
+            "actor": "savitri",
+            "face": {
+              "smile": 0.08,
+              "brow": 0.15,
+              "lowered": 0
+            },
+            "over": 1
+          },
+          {
+            "at": "narr+8.6",
+            "actor": "savitri",
+            "pose": "namaste",
+            "over": 1.6
+          }
+        ]
+      }
+    },
+    "year": {
+      "storyboard": {
+        "set": "hutDusk",
+        "setOpts": {
+          "timeOfDay": "dusk",
+          "seed": 9
+        },
+        "grade": {
+          "wash": "#c26a9a",
+          "washAlpha": 0.05,
+          "vignette": 0.4
+        },
+        "shot": {
+          "type": "wide"
+        },
+        "actors": [
+          {
+            "id": "savitri",
+            "who": "savitri:vrata",
+            "at": [
+              700,
+              1010
+            ],
+            "s": 0.68,
+            "facing": 1,
+            "enter": {
+              "type": "walk",
+              "from": [
+                300,
+                1010
+              ],
+              "t0": 0.6,
+              "t1": 3.4
+            },
+            "featured": true
+          },
+          {
+            "id": "dyumatsena",
+            "who": "dyumatsena",
+            "at": [
+              1240,
+              1000
+            ],
+            "s": 0.62,
+            "facing": -1
+          },
+          {
+            "id": "satyavan",
+            "who": "satyavan",
+            "at": [
+              1420,
+              1005
+            ],
+            "s": 0.66,
+            "facing": -1
+          }
+        ],
+        "beats": [
+          {
+            "at": 3.6,
+            "actor": "savitri",
+            "pose": "carry",
+            "over": 1
+          },
+          {
+            "at": "narr+6.5",
+            "actor": "savitri",
+            "pose": "pray",
+            "over": 2.2
+          },
+          {
+            "at": "narr+6.8",
+            "actor": "savitri",
+            "face": {
+              "lowered": 0.7,
+              "smile": 0.02
+            },
+            "over": 1.5
+          },
+          {
+            "at": 6,
+            "fx": "glow",
+            "opts": {
+              "x": 700,
+              "y": 760,
+              "r": 90,
+              "color": "rgba(255,190,90,0.4)",
+              "alpha": 0.8
+            }
+          }
+        ]
+      }
+    },
+    "return": {
+      "storyboard": {
+        "set": "forest",
+        "setOpts": {
+          "timeOfDay": "dawn",
+          "seed": 31,
+          "rays": 0.9
+        },
+        "grade": {
+          "wash": "#ffd9a0",
+          "washAlpha": 0.09,
+          "vignette": 0.28
+        },
+        "shot": {
+          "type": "two-shot",
+          "actors": [
+            "savitri",
+            "satyavan"
+          ]
+        },
+        "actors": [
+          {
+            "id": "satyavan",
+            "who": "satyavan",
+            "at": [
+              860,
+              1000
+            ],
+            "s": 0.72,
+            "facing": 1,
+            "featured": true
+          },
+          {
+            "id": "savitri",
+            "who": "savitri:vrata",
+            "at": [
+              1060,
+              1005
+            ],
+            "s": 0.71,
+            "facing": -1,
+            "featured": true
+          }
+        ],
+        "beats": [
+          {
+            "at": 1,
+            "actor": "satyavan",
+            "face": {
+              "eyeOpen": 0.4,
+              "lowered": 0.5
+            },
+            "over": 0.5
+          },
+          {
+            "at": "narr+5.4",
+            "actor": "satyavan",
+            "face": {
+              "eyeOpen": 1,
+              "smile": 0.25,
+              "lowered": 0.1
+            },
+            "over": 1.6
+          },
+          {
+            "at": "narr+6.0",
+            "actor": "satyavan",
+            "pose": "namaste",
+            "over": 1.8
+          },
+          {
+            "at": "narr+7.0",
+            "actor": "savitri",
+            "face": {
+              "smile": 0.35
+            },
+            "over": 1.4
+          },
+          {
+            "at": "narr+11.0",
+            "fx": "petals",
+            "opts": {
+              "density": 0.5
+            }
+          }
+        ]
+      }
+    }
+  }
+}

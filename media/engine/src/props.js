@@ -1000,6 +1000,9 @@ function _qLeg(ctx, root, upLen, loLen, ang, bendSign, w, col, dark, hoofCol, fo
   // fill the two tapered segments WITHOUT per-segment outline (no cap rings)
   limb(ctx, [hx, hy], [kx, ky], w[0], w[1], col, dark, null);
   limb(ctx, [kx, ky], [fx, fy], w[1], w[2], col, dark, null);
+  // flat knee fill hides the two capsules' overlapping rim-highlights (no
+  // outline here, so no joint ring) — the leg reads as one continuous mass
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(kx, ky, w[1] * 1.02, 0, TAU); ctx.fill();
   // ONE continuous tapered ink contour along the outer silhouette (hip→knee→
   // foot down one side, arc around the foot, back up the other) — like humans.
   const per = (a, b) => { const dx = b[0] - a[0], dy = b[1] - a[1], L = Math.hypot(dx, dy) || 1; return [-dy / L, dx / L]; };
@@ -1122,16 +1125,29 @@ function drawHorse(ctx, o) {
     ctx.restore();
   }
   _animEye(ctx, 26, 20, 7, 0.4);
-  // forelock + mane along the crest
-  ctx.restore();
-  ctx.strokeStyle = mane; ctx.lineWidth = 4; ctx.lineCap = 'round';
-  const mSway = sfbm1(t * 1.1, seed + 2) * 6;
-  for (let i = 0; i < 12; i++) {
-    const u = i / 11;
-    const bx = lerp(196, 300, u), by = lerp(-322, -450, u);
-    ctx.strokeStyle = i % 2 ? _hx(mane, 0.14) : mane;
-    ctx.beginPath(); ctx.moveTo(bx, by); ctx.quadraticCurveTo(bx - 20, by + 26, bx - 30 + mSway * u, by + 52); ctx.stroke();
+  // mane — a smooth dark arc mass along the crest + a few flowing ink strokes
+  ctx.restore();                                            // back to neck space
+  const mSway = sfbm1(t * 1.1, seed + 2) * 5;
+  ctx.fillStyle = mane;
+  ctx.beginPath();
+  ctx.moveTo(172, -318);
+  ctx.quadraticCurveTo(214, -386, 300, -452);              // top edge follows the crest
+  ctx.quadraticCurveTo(312, -444, 316, -430);              // wrap at the poll
+  ctx.quadraticCurveTo(258, -402, 214, -358 + mSway * 0.5); // lower fall edge
+  ctx.quadraticCurveTo(196, -338, 184, -312 + mSway);
+  ctx.quadraticCurveTo(176, -312, 172, -318);
+  ctx.closePath(); ctx.fill();
+  ctx.strokeStyle = _INK; ctx.lineWidth = 1.6; ctx.stroke();
+  // interior modelling: 3-4 flowing hair strokes
+  ctx.strokeStyle = _hx(mane, 0.16); ctx.lineWidth = 2.2; ctx.lineCap = 'round';
+  for (let i = 0; i < 4; i++) {
+    const u = (i + 0.5) / 4;
+    const bx = lerp(190, 300, u), by = lerp(-320, -448, u);
+    ctx.beginPath(); ctx.moveTo(bx, by); ctx.quadraticCurveTo(bx - 14, by + 22, bx - 22 + mSway * u, by + 40); ctx.stroke();
   }
+  // forelock tuft falling onto the forehead
+  ctx.strokeStyle = mane; ctx.lineWidth = 3.4;
+  ctx.beginPath(); ctx.moveTo(304, -450); ctx.quadraticCurveTo(322, -436, 320 + mSway * 0.6, -414); ctx.stroke();
   ctx.restore();
 
   // ── ornament: caparison (saddle-cloth), browband, reins ──
@@ -1353,45 +1369,76 @@ function drawDeer(ctx, o) {
   ctx.restore();
   ctx.restore();
 
-  // neck + head
+  // neck — short and thick, carried forward (a deer, not a giraffe) + head
   ctx.save(); ctx.translate(0, -brB);
   ctx.fillStyle = coat;
   ctx.beginPath();
-  ctx.moveTo(96, -212); ctx.quadraticCurveTo(120, -270, 150, -320);
-  ctx.quadraticCurveTo(168, -318, 156, -300); ctx.quadraticCurveTo(134, -258, 122, -200);
+  ctx.moveTo(82, -204);                                    // lower throat at chest
+  ctx.quadraticCurveTo(124, -230, 156, -250);              // front of neck up to jaw
+  ctx.quadraticCurveTo(178, -262, 172, -238);              // crest over to nape
+  ctx.quadraticCurveTo(138, -222, 110, -196);              // thick nape base back to withers
   ctx.closePath(); ctx.fill();
   ctx.strokeStyle = _INK; ctx.lineWidth = 2.2; ctx.stroke();
-  // head
-  ctx.save(); ctx.translate(150, -324); ctx.rotate(0.1);
-  const head = [[-8, -8], [24, -6], [44, 6], [46, 22], [34, 32], [8, 30], [-6, 16]];
+  // head — large, with a tapering deer muzzle wedge (+x = muzzle)
+  ctx.save(); ctx.translate(156, -252); ctx.rotate(0.18);
+  const head = [
+    [-16, -18], [8, -24], [30, -20], [56, -12], [72, -1],
+    [66, 12], [42, 16], [14, 20], [-14, 10],
+  ];
   ctx.beginPath(); smoothPath(ctx, head, true);
   ctx.fillStyle = coat; ctx.fill();
   ctx.strokeStyle = _INK; ctx.lineWidth = 2; ctx.stroke();
-  ctx.fillStyle = '#160c06'; ctx.beginPath(); ctx.ellipse(40, 22, 4, 5, 0, 0, TAU); ctx.fill();
-  // big ear
+  // muzzle shade + nose + nostril
+  ctx.fillStyle = coatD; ctx.beginPath(); ctx.ellipse(56, 2, 16, 11, 0.1, 0, TAU); ctx.fill();
+  ctx.fillStyle = '#160c06'; ctx.beginPath(); ctx.ellipse(66, 0, 5, 6, 0, 0, TAU); ctx.fill();
+  // big ear (back of head)
   const earFlick = Math.sin(t * 2.4 + seed) * 0.14;
-  ctx.save(); ctx.translate(-2, -6); ctx.rotate(-0.7 + earFlick);
+  ctx.save(); ctx.translate(-6, -14); ctx.rotate(-0.8 + earFlick);
   ctx.fillStyle = coatL;
-  ctx.beginPath(); ctx.moveTo(0, 0); ctx.quadraticCurveTo(-14, -34, 4, -40); ctx.quadraticCurveTo(18, -20, 10, 2); ctx.closePath(); ctx.fill();
+  ctx.beginPath(); ctx.moveTo(0, 0); ctx.quadraticCurveTo(-16, -38, 6, -44); ctx.quadraticCurveTo(22, -22, 12, 2); ctx.closePath(); ctx.fill();
   ctx.strokeStyle = _INK; ctx.lineWidth = 1.4; ctx.stroke();
-  ctx.fillStyle = belly; ctx.beginPath(); ctx.ellipse(2, -18, 5, 14, 0.1, 0, TAU); ctx.fill();
+  ctx.fillStyle = belly; ctx.beginPath(); ctx.ellipse(4, -20, 5, 15, 0.1, 0, TAU); ctx.fill();
   ctx.restore();
-  // small antlers
-  ctx.strokeStyle = '#c9a86a'; ctx.lineWidth = 3.4; ctx.lineCap = 'round';
+  // antlers — thicker main beams sweeping up-and-back with tines
+  ctx.strokeStyle = '#c9a86a'; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
   for (const sgn of [0, 1]) {
-    ctx.save(); ctx.translate(6 + sgn * 6, -6);
-    ctx.beginPath(); ctx.moveTo(0, 0); ctx.quadraticCurveTo(6, -30, 2, -54); ctx.stroke();
-    ctx.beginPath(); ctx.moveTo(3, -26); ctx.lineTo(-10, -40); ctx.stroke();
-    ctx.beginPath(); ctx.moveTo(2, -42); ctx.lineTo(14, -54); ctx.stroke();
+    ctx.save(); ctx.translate(-2 + sgn * 12, -18);
+    ctx.lineWidth = 5.5;
+    ctx.beginPath(); ctx.moveTo(0, 0); ctx.quadraticCurveTo(10, -34, 2, -66); ctx.stroke();  // main beam
+    ctx.lineWidth = 4;
+    ctx.beginPath(); ctx.moveTo(6, -30); ctx.lineTo(-12, -46); ctx.stroke();                  // back tine
+    ctx.beginPath(); ctx.moveTo(4, -50); ctx.lineTo(18, -64); ctx.stroke();                   // front tine
     ctx.restore();
   }
-  _animEye(ctx, 24, 16, 6, 0.3);
+  _animEye(ctx, 22, -2, 6.5, 0.3);
   ctx.restore();
   ctx.restore();
 
   _qLeg(ctx, hindN, upLen, loLen, _legAng(cyc(1), g.amp), -1, legW, coat, coatD, hoof);
   _qLeg(ctx, foreN, upLen, loLen, _legAng(cyc(0), g.amp), 1, legW, coat, coatD, hoof);
   ctx.restore();
+}
+
+// short curved bone-crescent horn (base B → tip T), tapering, with a dark tip.
+function _cowHorn(ctx, B, T, wBase, col, tipCol) {
+  const dx = T[0] - B[0], dy = T[1] - B[1], L = Math.hypot(dx, dy) || 1;
+  const px = -dy / L, py = dx / L;                          // perpendicular
+  const mx = (B[0] + T[0]) / 2, my = (B[1] + T[1]) / 2;
+  const cx = mx + px * L * 0.24, cy = my + py * L * 0.24;   // bow the crescent
+  ctx.beginPath();
+  ctx.moveTo(B[0] + px * wBase, B[1] + py * wBase);
+  ctx.quadraticCurveTo(cx + px * wBase * 0.4, cy + py * wBase * 0.4, T[0], T[1]);
+  ctx.quadraticCurveTo(cx - px * wBase * 0.4, cy - py * wBase * 0.4, B[0] - px * wBase, B[1] - py * wBase);
+  ctx.closePath();
+  ctx.fillStyle = col; ctx.fill();
+  ctx.strokeStyle = _INKS; ctx.lineWidth = 1; ctx.stroke();
+  // dark tip: a short tapered sliver over the distal third (not a bulbous dot)
+  const Q = [lerp(B[0], T[0], 0.58), lerp(B[1], T[1], 0.58)], qw = wBase * 0.5;
+  ctx.beginPath();
+  ctx.moveTo(Q[0] + px * qw, Q[1] + py * qw);
+  ctx.quadraticCurveTo(cx + px * qw * 0.4, cy + py * qw * 0.4, T[0], T[1]);
+  ctx.quadraticCurveTo(cx - px * qw * 0.4, cy - py * qw * 0.4, Q[0] - px * qw, Q[1] - py * qw);
+  ctx.closePath(); ctx.fillStyle = tipCol; ctx.fill();
 }
 
 // ── COW (humped zebu, dewlap, horns) ──
@@ -1442,32 +1489,34 @@ function drawCow(ctx, o) {
   ctx.fillStyle = coat;
   ctx.beginPath();
   ctx.moveTo(126, -284); ctx.quadraticCurveTo(168, -300, 206, -300);   // neck top
-  ctx.quadraticCurveTo(206, -250, 176, -232);                          // to head
-  ctx.quadraticCurveTo(150, -222, 150, -200);                          // dewlap hang
-  ctx.quadraticCurveTo(128, -224, 122, -262);
+  ctx.quadraticCurveTo(208, -248, 182, -230);                          // to head
+  ctx.quadraticCurveTo(172, -210, 158, -184);                          // dewlap hangs low
+  ctx.quadraticCurveTo(142, -190, 134, -212);                          // fold scoops up
+  ctx.quadraticCurveTo(127, -240, 122, -262);
   ctx.closePath(); ctx.fill();
   ctx.strokeStyle = _INK; ctx.lineWidth = 2.3; ctx.stroke();
-  // dewlap folds
+  // dewlap fold curves (subtle loose-skin lines)
   ctx.strokeStyle = 'rgba(30,18,8,0.3)'; ctx.lineWidth = 2;
-  ctx.beginPath(); ctx.moveTo(150, -238); ctx.quadraticCurveTo(160, -224, 150, -204); ctx.stroke();
-  // head (larger, rounder for a calf)
-  ctx.save(); ctx.translate(196, -300); ctx.rotate(0.12); if (o.calf) ctx.scale(1.16, 1.16);
+  ctx.beginPath(); ctx.moveTo(178, -232); ctx.quadraticCurveTo(168, -208, 156, -186); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(166, -226); ctx.quadraticCurveTo(158, -210, 150, -194); ctx.stroke();
+  // head — enlarged ~20% (bigger still for a calf)
+  ctx.save(); ctx.translate(198, -298); ctx.rotate(0.12);
+  const hs = o.calf ? 1.34 : 1.2; ctx.scale(hs, hs);
   const head = [[-6, -18], [30, -14], [52, 4], [54, 32], [40, 46], [12, 44], [-6, 20]];
   ctx.beginPath(); smoothPath(ctx, head, true);
   ctx.fillStyle = coat; ctx.fill();
-  ctx.strokeStyle = _INK; ctx.lineWidth = 2.2; ctx.stroke();
-  ctx.fillStyle = coatD; ctx.beginPath(); ctx.ellipse(42, 34, 12, 9, 0.1, 0, TAU); ctx.fill();
-  ctx.fillStyle = '#160c06'; ctx.beginPath(); ctx.arc(44, 32, 3, 0, TAU); ctx.fill();
-  // horns (nubs for a calf)
+  ctx.strokeStyle = _INK; ctx.lineWidth = 2.0; ctx.stroke();
+  ctx.fillStyle = coatD; ctx.beginPath(); ctx.ellipse(42, 34, 13, 10, 0.1, 0, TAU); ctx.fill();   // muzzle
+  ctx.fillStyle = '#160c06'; ctx.beginPath(); ctx.arc(46, 33, 3, 0, TAU); ctx.fill();              // nostril
+  // horns — short curved bone crescents with dark tips (nubs for a calf)
   if (o.calf) {
     ctx.fillStyle = horn;
     ctx.beginPath(); ctx.arc(6, -14, 5, 0, TAU); ctx.fill();
     ctx.beginPath(); ctx.arc(22, -12, 5, 0, TAU); ctx.fill();
     ctx.strokeStyle = _INKS; ctx.lineWidth = 1.2; ctx.stroke();
   } else {
-    ctx.strokeStyle = horn; ctx.lineWidth = 6; ctx.lineCap = 'round';
-    ctx.beginPath(); ctx.moveTo(2, -14); ctx.quadraticCurveTo(-6, -44, 14, -58); ctx.stroke();
-    ctx.beginPath(); ctx.moveTo(14, -12); ctx.quadraticCurveTo(24, -40, 44, -46); ctx.stroke();
+    _cowHorn(ctx, [4, -13], [-18, -38], 8, horn, '#3a2a18');     // near/back horn
+    _cowHorn(ctx, [18, -12], [42, -34], 8, horn, '#3a2a18');     // far/front horn
   }
   // ear
   const earFlick = Math.sin(t * 2.0 + seed) * 0.12;
@@ -1476,9 +1525,9 @@ function drawCow(ctx, o) {
   ctx.beginPath(); ctx.moveTo(0, 0); ctx.quadraticCurveTo(-24, -6, -30, 12); ctx.quadraticCurveTo(-20, 22, 2, 12); ctx.closePath(); ctx.fill();
   ctx.strokeStyle = _INK; ctx.lineWidth = 1.4; ctx.stroke();
   ctx.restore();
-  _animEye(ctx, 30, 18, 6.5, 0.2);
+  _animEye(ctx, 30, 16, 7.6, 0.2);                                // larger eye
   // tilak on forehead (sacred cow)
-  ctx.fillStyle = '#c92f1d'; ctx.beginPath(); ctx.ellipse(18, 2, 4, 8, 0, 0, TAU); ctx.fill();
+  ctx.fillStyle = '#c92f1d'; ctx.beginPath(); ctx.ellipse(16, 0, 4, 8, 0, 0, TAU); ctx.fill();
   ctx.restore();
   ctx.restore();
 

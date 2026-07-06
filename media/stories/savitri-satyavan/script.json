@@ -1,0 +1,73 @@
+{
+  "title": "Sāvitrī & Satyavān",
+  "subtitle": "Mahābhārata · Vana Parva 291–297",
+  "scenes": [
+    {
+      "id": "choice",
+      "name": "The Choice",
+      "mood": "mystic",
+      "raga": "deshish",
+      "pad_before": 2.2,
+      "pad_after": 1.2,
+      "display": "The princess Sāvitrī shone so brightly that no prince dared ask for her hand. So she went forth to choose for herself — and in a forest hermitage she chose Satyavān, son of a blind and exiled king.",
+      "tts": "The princess Sah-vit-ree shone so brightly, that no prince dared ask for her hand. So she went forth to choose for herself; and in a forest hermitage, she chose Sut-yuh-vaan, son of a blind and exiled king."
+    },
+    {
+      "id": "prophecy",
+      "name": "Nārada's Word",
+      "mood": "somber",
+      "pad_before": 1.0,
+      "pad_after": 1.2,
+      "display": "But the sage Nārada told her father: this youth is flawless in every virtue — and one year from this day, he will die. Sāvitrī answered only: \"The heart is given once. I have given mine.\"",
+      "tts": "But the sage Naa-rud-ah told her father: this youth is flawless in every virtue; and one year from this day, he will die. Sah-vit-ree answered only: the heart is given once. I have given mine."
+    },
+    {
+      "id": "year",
+      "name": "Counting the Days",
+      "mood": "tender",
+      "pad_before": 1.0,
+      "pad_after": 1.2,
+      "display": "She put away her silks, wore bark-cloth, and served the hermitage — telling no one, counting the days. For the last three nights she stood fasting, still as a lamp in windless air.",
+      "tts": "She put away her silks, wore bark cloth, and served the hermitage; telling no one, counting the days. For the last three nights she stood fasting, still as a lamp in windless air."
+    },
+    {
+      "id": "axe",
+      "name": "The Fated Day",
+      "mood": "suspense",
+      "pad_before": 1.0,
+      "pad_after": 1.6,
+      "display": "On the appointed morning she followed him into the forest. At noon, the axe slipped from Satyavān's hand. \"My head,\" he said, \"is splitting.\" And he laid it in her lap, and was still.",
+      "tts": "On the appointed morning she followed him into the forest. At noon, the axe slipped from Sut-yuh-vaan's hand. My head, he said, is splitting. And he laid it in her lap, and was still."
+    },
+    {
+      "id": "yama",
+      "name": "The Dark King",
+      "mood": "somber",
+      "raga": "bhairavish",
+      "pad_before": 1.2,
+      "pad_after": 1.6,
+      "display": "Then Sāvitrī saw a figure dark as a rain-cloud, robed in red, a noose in his hand: Yama, King of the Dead, come in person for so virtuous a soul. He drew out a spark the size of a thumb — and turned south. And she followed.",
+      "tts": "Then Sah-vit-ree saw a figure dark as a rain cloud, robed in red, a noose in his hand: Yum-ah, King of the Dead, come in person for so virtuous a soul. He drew out a spark the size of a thumb; and turned south. And she followed."
+    },
+    {
+      "id": "boons",
+      "name": "Walking with Death",
+      "mood": "tense",
+      "raga": "bhairavish",
+      "pad_before": 1.0,
+      "pad_after": 1.6,
+      "display": "Walk with the wise but seven steps, she said, and you are friends. Pleased, Yama offered boons — anything but the life he carried. Sight for the blind king. A kingdom restored. And then: \"a hundred sons, born of me and Satyavān.\" The Lord of Death stopped walking.",
+      "tts": "Walk with the wise but seven steps, she said, and you are friends. Pleased, Yum-ah offered boons; anything but the life he carried. Sight for the blind king. A kingdom restored. And then: a hundred sons, born of me and Sut-yuh-vaan. The Lord of Death stopped walking."
+    },
+    {
+      "id": "return",
+      "name": "The Return",
+      "mood": "triumphant",
+      "raga": "deshish",
+      "pad_before": 1.2,
+      "pad_after": 4.2,
+      "display": "For her word could not come true unless his life was returned. Caught by his own boon, Yama smiled — and loosed the noose. Satyavān woke as if from sleep; his father's eyes opened on the world; and Sāvitrī walked her husband home at dusk, having out-argued Death.",
+      "tts": "For her word could not come true unless his life was returned. Caught by his own boon, Yum-ah smiled; and loosed the noose. Sut-yuh-vaan woke as if from sleep; his father's eyes opened on the world; and Sah-vit-ree walked her husband home at dusk, having out-argued Death."
+    }
+  ]
+}

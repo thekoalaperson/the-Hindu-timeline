@@ -121,7 +121,7 @@
 //    in the browser, it is consulted too, so this list only has to cover the
 //    baseline from CONTRACTS.md. ──
 var STG_KNOWN_SETS = ['palaceHall', 'courtyardNight', 'hutDusk', 'mandap', 'forest', 'village', 'riverBank', 'interior', 'mountain'];
-var STG_KNOWN_POSES = ['stand', 'kneel', 'sit', 'bow', 'pranam', 'pray', 'point', 'refuse', 'shoot', 'carry', 'bless', 'shock', 'grief', 'dance'];
+var STG_KNOWN_POSES = ['namaste', 'dance', 'grief', 'shock', 'stand', 'kneel', 'sit', 'bow', 'pranam', 'pray', 'point', 'refuse', 'shoot', 'carry', 'bless', 'shock', 'grief', 'dance'];
 var STG_KNOWN_ARCHETYPES = ['king', 'queen', 'prince', 'princess', 'warrior', 'brahmin', 'priest', 'villager', 'hunter'];
 var STG_KNOWN_FX = ['petals', 'glow', 'motes', 'flame', 'embers', 'smoke', 'godrays'];
 var STG_KNOWN_SHOTS = ['wide', 'two-shot', 'close-up', 'processional', 'hero-frame'];
