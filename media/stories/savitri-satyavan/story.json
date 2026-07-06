@@ -52,7 +52,7 @@
         "setOpts": {
           "timeOfDay": "dawn",
           "seed": 3,
-          "rays": 0.8
+          "rays": 0.35
         },
         "grade": {
           "wash": "#ffd9a0",
@@ -332,7 +332,7 @@
         "setOpts": {
           "timeOfDay": "dawn",
           "seed": 31,
-          "rays": 0.9
+          "rays": 0.4
         },
         "grade": {
           "wash": "#ffd9a0",

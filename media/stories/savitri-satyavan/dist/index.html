@@ -120,7 +120,7 @@
 <script>
 // ===== characters/registry =====
 const CHARACTERS = {"arjuna":{"archetype":"brahmin","skin":"#c98d5e","skinShade":"#8a5127","hairColor":"#171009","hairstyle":"topknot","garb":"dhoti","clothMain":"#efe6cf","clothAccent":"#c9a44a","sash":"#b3452c","sacredThread":true,"tilak":"urdhva","dhotiLen":210,"ornaments":0,"build":1,"grounding":"04-deep-dives/characters/arjuna.md","notes":"this entry is Arjuna's Ādi-Parva brahmin disguise (white cloth, ascetic topknot, no ornament) — see arjunaGroom for the post-svayaṃvara reveal look; for a Kurukṣetra-era Arjuna, override garb:'armor' and drop sacredThread-as-only-ornament."},"arjunaGroom":{"archetype":"prince","skin":"#c98d5e","skinShade":"#8a5127","hairColor":"#171009","hairstyle":"topknot","garb":"dhoti","clothMain":"#efe0bb","clothAccent":"#c9a44a","sash":"#8c1f28","sacredThread":true,"tilak":"urdhva","earring":true,"ornaments":2,"armlets":true,"scarf":"#d8b25a","wearGarland":true,"dhotiLen":210,"grounding":"04-deep-dives/characters/arjuna.md","notes":"revealed/wedding look once his identity is known — modest gold, garland from Draupadī."},"draupadi":{"archetype":"princess","female":true,"skin":"#9a6038","skinShade":"#63381c","hairColor":"#0f0a05","hairstyle":"braid","hairFlowers":true,"garb":"sari","clothMain":"#a11e2c","clothAccent":"#e8b64c","crown":"tiara","bindi":true,"earring":true,"noseRing":false,"ornaments":3,"bangles":true,"anklets":true,"lip":"#8e3125","grounding":"04-deep-dives/characters/draupadi.md","notes":"\"Kṛṣṇā, the dark one\" — crimson & gold bridal sari, agni-born (see story.json sources for the fire-birth episode)."},"kunti":{"archetype":"queen","female":true,"skin":"#c08a5c","skinShade":"#875428","hairColor":"#3a2c22","hairstyle":"veil","garb":"sari","clothMain":"#c47f2c","clothAccent":"#f0ddb0","veil":"#d99a3d","bindi":true,"earring":true,"ornaments":1,"lip":"#96442f","build":0.94,"grounding":"04-deep-dives/characters/kunti.md","notes":"widowed queen-mother register — subdued ochre, veiled, low ornament count (contrast a young/married-queen preset, which would run brighter and more bejewelled)."},"karna":{"archetype":"warrior","skin":"#d9a05e","skinShade":"#9a6426","hairColor":"#1d1207","hairstyle":"topknot","garb":"armor","clothMain":"#caa54a","clothAccent":"#8c5a12","earring":true,"crown":"turban","turbanColor":"#8c2f1d","tilak":"plain","ornaments":1,"armlets":true,"build":1.06,"dhotiLen":210,"grounding":"04-deep-dives/karna.md","notes":"sun-touched skin and gilded cuirass reference his solar birth and the kavaca-kuṇḍala (born-in armor and earrings) that Indra later begs from him."},"krishna":{"archetype":"prince","skin":"#5c7ba1","skinShade":"#33507a","hairColor":"#12100c","hairstyle":"topknot","garb":"dhoti","clothMain":"#e8bd35","clothAccent":"#a1651c","peacock":true,"earring":true,"ornaments":2,"armlets":true,"scarf":"#f2d066","tilak":"urdhva","lip":"#7c3450","dhotiLen":210,"grounding":"04-deep-dives/krishna-lila.md","notes":"depicted here as a Yādava prince-guest at the svayaṃvara, not performing miracles on screen; for a Gītā or Kṛṣṇa-līlā film where his divinity is foregrounded, consider archetype:'deity' with an aura/flute cue instead of a plain prince preset."},"bhima":{"archetype":"brahmin","skin":"#b57a45","skinShade":"#7c4a1e","hairColor":"#171009","hairstyle":"topknot","garb":"dhoti","clothMain":"#e3d7bd","clothAccent":"#7c8546","sash":"#3f5a33","moustache":2,"sacredThread":true,"build":1.16,"dhotiLen":200,"grounding":"04-deep-dives/characters/bhima.md","notes":"brahmin here reflects the svayaṃvara-arc disguise (dhoti, sacred thread, no armor/crown) shared by all five Pāṇḍavas at this point in the story, not caste — Bhīma is a kṣatriya prince and, in most of the epic, the mace-wielding strongman; for a forest-exile or Kurukṣetra scene use archetype:'warrior' with garb:'armor' and drop the disguise cues."},"yudhishthira":{"archetype":"brahmin","skin":"#c69265","skinShade":"#8a5a2c","hairColor":"#241a10","hairstyle":"topknot","garb":"dhoti","clothMain":"#efe8d5","clothAccent":"#b3a26a","sash":"#7a5c2e","sacredThread":true,"tilak":"plain","build":1.03,"dhotiLen":215,"grounding":"04-deep-dives/characters/yudhishthira.md","notes":"same brahmin-disguise register as Bhīma/Arjuna at the svayaṃvara; he is the eldest Pāṇḍava and rightful king — use archetype:'king' with garb:'royal' once he is crowned (post-Kurukṣetra) or during the Rājasūya."},"nakula":{"archetype":"brahmin","skin":"#cf9a68","skinShade":"#94602c","hairColor":"#1a1208","hairstyle":"topknot","garb":"dhoti","clothMain":"#e7e0cd","clothAccent":"#5c7a8a","sash":"#41616e","sacredThread":true,"build":0.96,"dhotiLen":205,"grounding":"04-deep-dives/characters/nakula-sahadeva.md","notes":"svayaṃvara brahmin-disguise register, matching his brothers."},"sahadeva":{"archetype":"brahmin","skin":"#cf9a68","skinShade":"#94602c","hairColor":"#1a1208","hairstyle":"topknot","garb":"dhoti","clothMain":"#e7e0cd","clothAccent":"#6e5c8a","sash":"#4f4370","sacredThread":true,"build":0.96,"dhotiLen":205,"grounding":"04-deep-dives/characters/nakula-sahadeva.md","notes":"svayaṃvara brahmin-disguise register, matching his brothers; distinguished from Nakula only by the cooler violet clothAccent/sash."},"drupada":{"archetype":"king","skin":"#c08a58","skinShade":"#875428","hairColor":"#4a4038","hairstyle":"topknot","garb":"royal","clothMain":"#5c2e6e","clothAccent":"#e8b64c","crown":"mukut","beard":"grey","beardLen":0.25,"moustache":1,"ornaments":3,"armlets":true,"scarf":"#8c56a1","dhotiLen":220,"build":1.05,"grounding":"04-deep-dives/characters/drupada.md","notes":"king of Pāñcāla — regal purple & gold, grey beard."},"dhrishtadyumna":{"archetype":"prince","skin":"#a86a3c","skinShade":"#754419","hairColor":"#140d06","hairstyle":"topknot","garb":"royal","clothMain":"#8c2f1d","clothAccent":"#e8b64c","crown":"turban","turbanColor":"#a13a1e","ornaments":2,"armlets":true,"dhotiLen":215,"grounding":"04-deep-dives/characters/dhrishtadyumna.md","notes":"fire-born prince of Pāñcāla, Draupadī's twin, born from the same sacrificial fire as she (see draupadi.md / the story's 'fire' scene)."},"vyasa":{"archetype":"sage","skin":"#a97e52","skinShade":"#775027","hairColor":"#5a4a3a","hairstyle":"sagebun","garb":"robe","clothMain":"#b4632a","clothAccent":"#7c4a1e","beard":"white","beardLen":0.7,"mala":true,"tilak":"tripundra","build":0.98,"grounding":"04-deep-dives/vyasa.md","notes":"the sage — matted bun, rudrākṣa mālā, ochre robe; author-narrator and grandfather figure of the whole epic."},"priest":{"archetype":"priest","skin":"#c08a58","skinShade":"#875428","hairColor":"#2c2018","hairstyle":"topknot","garb":"dhoti","clothMain":"#efe6cf","clothAccent":"#c9702e","sacredThread":true,"tilak":"plain","build":0.97,"dhotiLen":205,"grounding":"04-deep-dives/mahabharata/01-adi-parva.md","notes":"generic officiant for the svayaṃvara fire-rite / wedding scenes; unnamed in the source text, so no character-specific grounding beyond the parva itself."},"shiva":{"archetype":"deity","skin":"#bcc7d1","skinShade":"#7e8ea1","hairColor":"#3f3428","hairstyle":"sagebun","garb":"dhoti","clothMain":"#c7a86c","clothAccent":"#8a6a3a","tilak":"tripundra","mala":true,"build":1.08,"dhotiLen":190,"grounding":"02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md","notes":"flashback-vision register in this story (ash-pale, tripuṇḍra, crescent drawn in-scene) for Vyāsa's account of Draupadī's five prayers/five husbands boon."},"rama":{"archetype":"prince","skin":"#4a6a8c","skinShade":"#2c4258","hairColor":"#171009","hairstyle":"topknot","garb":"royal","clothMain":"#e8c25a","clothAccent":"#2c4258","crown":"kirita","tilak":"urdhva","ornaments":2,"armlets":true,"sash":"#8c1f28","build":1.05,"dhotiLen":210,"grounding":"04-deep-dives/characters/rama.md","notes":"standard iconographic form is two-armed, dark blue/green-black complexion, kirīṭa-mukuṭa crown as royal heir (rama.md line on Vaiṣṇava iconography); 'kirita' is a proposed crown value alongside the existing 'mukut'/'turban'/'tiara'. For the forest-exile stretch of the Rāmāyaṇa, drop the crown/ornaments and switch garb:'dhoti' with matted hair instead."},"sita":{"archetype":"princess","female":true,"skin":"#c9945f","skinShade":"#8a5f2c","hairColor":"#241a10","hairstyle":"braid","hairFlowers":true,"garb":"sari","clothMain":"#c9432c","clothAccent":"#e8b64c","bindi":true,"earring":true,"ornaments":2,"bangles":true,"lip":"#8e3125","build":0.94,"grounding":"04-deep-dives/characters/sita.md","notes":"no single fixed iconographic complexion for Sītā in this corpus's file; using the same warm-gold register as Draupadī/Kuntī since she is a princess-queen, not divine-blue like Rāma. Furrow-born/earth motifs (Janakī) suit gold+earth-tone accents in set dressing."},"lakshmana":{"archetype":"prince","skin":"#c69265","skinShade":"#8a5a2c","hairColor":"#1d1408","hairstyle":"topknot","garb":"royal","clothMain":"#e7e0cd","clothAccent":"#3f5a33","sash":"#3f5a33","ornaments":1,"build":0.98,"dhotiLen":210,"grounding":"04-deep-dives/characters/lakshmana.md","notes":"devoted younger brother who follows Rāma into exile; for the 14-year forest stretch switch garb:'dhoti', ornaments:0 to match Rāma/Sītā's ascetic register."},"hanuman":{"archetype":"warrior","skin":"#c2622a","skinShade":"#7a3a14","hairColor":"#3a2410","hairstyle":"topknot","garb":"dhoti","clothMain":"#c9432c","clothAccent":"#e8b64c","mala":true,"build":1.1,"dhotiLen":160,"grounding":"02-deities-and-cosmic-hierarchy/hanuman.md","notes":"vānara (monkey) anatomy — muzzle/snout face, fur-covered body, prehensile tail, long simian arms — is NOT supported by the current humanoid person.js rig. Until a dedicated vānara body-plan exists, this entry approximates him as the human warrior rig in a vermilion/orange palette (his sindoor association); prefer distant/silhouette poses or a tail add-on sprite over close-up faces that would expose the missing snout. Kapidhvaja (monkey banner) makes him a natural addition to any Arjuna-chariot scene."},"ravana":{"archetype":"rakshasa","skin":"#8a6a42","skinShade":"#5c4626","hairColor":"#140d06","hairstyle":"topknot","garb":"royal","clothMain":"#7a2e2e","clothAccent":"#e8b64c","crown":"mukut","tilak":"tripundra","ornaments":4,"armlets":true,"moustache":2,"build":1.15,"dhotiLen":220,"grounding":"04-deep-dives/characters/ravana.md","notes":"Daśagrīva — ten heads, twenty arms (Rām. Uttara-kāṇḍa 9) — well beyond the current one-head/two-arm person.js rig. For the multi-head reveal, composite several drawHead() calls fanned behind the primary head rather than quietly rendering him single-headed; for ordinary dialogue shots a single crowned, fanged head is a reasonable simplification as long as it isn't the 'true form' beat. tilak:'tripundra' nods to his long Śiva-devotion (Kailāsa episode, ravana.md). No fixed complexion is given in this corpus file; the bronze tone here is an iconographic convention, not a scriptural detail."},"duryodhana":{"archetype":"prince","skin":"#c9945a","skinShade":"#8a5f2c","hairColor":"#1a1108","hairstyle":"topknot","garb":"royal","clothMain":"#7a2e2e","clothAccent":"#e8b64c","crown":"mukut","ornaments":3,"armlets":true,"moustache":2,"build":1.12,"dhotiLen":210,"grounding":"04-deep-dives/characters/duryodhana.md","notes":"deep-red/gold Kaurava court palette, deliberately distinct from the Pāṇḍavas' cream/pale tones. Signature weapon is the gadā (mace), trained under Balarāma; the vastraharaṇa thigh-slap gesture and the later Śalya-Parva thigh-wound (see duryodhana.md) are the two staging beats most likely to be dramatized."},"bhishma":{"archetype":"warrior","skin":"#b58a5c","skinShade":"#7c5a30","hairColor":"#d8d0c0","hairstyle":"topknot","garb":"armor","clothMain":"#8c8c94","clothAccent":"#e8b64c","beard":"white","beardLen":0.5,"moustache":1,"crown":"turban","turbanColor":"#5c5c66","ornaments":1,"build":1.05,"dhotiLen":210,"grounding":"04-deep-dives/characters/bhishma.md","notes":"white hair/beard and grey-steel armor for the aged patriarch-general most scenes depict (he took his celibacy vow young but nearly all epic action is decades later). Icchā-mṛtyu elder; the śara-śayyā (bed-of-arrows) death scene needs a reclined/impaled pose with no current POSES preset — likely a bespoke JS scene fn rather than a storyboard beat."},"drona":{"archetype":"brahmin","skin":"#c08a58","skinShade":"#875428","hairColor":"#3a3028","hairstyle":"topknot","garb":"dhoti","clothMain":"#efe6cf","clothAccent":"#8c5a12","beard":"grey","beardLen":0.35,"sacredThread":true,"tilak":"plain","build":0.95,"dhotiLen":205,"grounding":"04-deep-dives/characters/drona.md","notes":"rāja-guru who takes up arms against his own brahmin caste norm; base look is the teacher (dhoti, sacred thread). For his Kurukṣetra command of the Kaurava host, override garb:'armor' with a gold-on-white palette to mark the generalship without losing the brahmin identity."},"ganga":{"archetype":"deity","female":true,"skin":"#e8e0d4","skinShade":"#b0a690","hairColor":"#2c241c","hairstyle":"loose","garb":"sari","clothMain":"#dce8ec","clothAccent":"#e8b64c","crown":"tiara","ornaments":2,"bangles":true,"build":0.96,"grounding":"02-deities-and-cosmic-hierarchy/ganga.md","notes":"iconographically fair-skinned, crowned, holding a water-lily/kalaśa. Her vāhana is the makara (crocodile/fish hybrid) — not among the props.js fauna rigs (drawHorse/drawElephant/drawDeer/drawBird/drawCow); represent her via flowing-water motifs and the riverBank set instead of a mount rig until a makara rig exists. hairstyle:'loose' is proposed vocabulary (see $schema-note)."},"shakuntala":{"archetype":"princess","female":true,"skin":"#c9945f","skinShade":"#8a5f2c","hairColor":"#241a10","hairstyle":"braid","hairFlowers":true,"garb":"forest","clothMain":"#a9773c","clothAccent":"#e0d0a0","ornaments":0,"build":0.95,"grounding":"04-deep-dives/shakuntala-bharata.md","notes":"foundling raised wholly in Kaṇva's forest hermitage — garb:'forest' (bark-cloth/valkala) is proposed vocabulary; wardrobe.js doesn't define it yet, so fall back to garb:'sari' with a desaturated ochre palette and ornaments:0 meanwhile. Switch to garb:'royal', ornaments 2+ for her later Hastināpura court scenes as Duṣyanta's queen."},"savitri":{"archetype":"princess","female":true,"skin":"#cf9a68","skinShade":"#94602c","hairColor":"#1a1208","hairstyle":"braid","garb":"forest","clothMain":"#a9773c","clothAccent":"#e0d0a0","ornaments":0,"build":0.92,"grounding":"04-deep-dives/savitri-satyavan.md","notes":"\"sheds her royal ornaments, dons bark-cloth\" to serve her ascetic in-laws (MBh Vana Parva 293) — same garb:'forest' proposed value as Śakuntalā. She is Aśvapati's princess before choosing Satyavān, so a pre-marriage svayaṃvara-quest scene should use garb:'royal' with ornaments restored.","forms":{"vrata":{"garb":"sari","clothMain":"#b59a6e","clothAccent":"#8a6a3a","crown":null,"ornaments":1,"hairFlowers":false,"notes-form":"bark-cloth ascetic wife, Vana 293"}}},"yama":{"archetype":"deity","skin":"#3a4a3c","skinShade":"#1e2a20","hairColor":"#0f0a05","hairstyle":"sagebun","garb":"royal","clothMain":"#7a1414","clothAccent":"#e8b64c","crown":"mukut","ornaments":2,"build":1.1,"dhotiLen":210,"grounding":"02-deities-and-cosmic-hierarchy/yama.md","notes":"dark storm-cloud/green complexion, blood-red robe, majestic-kingly in benign depictions (yama.md). Vāhana is a black water-buffalo (Mahiṣa) — props.js has drawCow but no drawBuffalo; approximate by re-palette-ing drawCow darker with larger horns until a dedicated rig lands. Carries a daṇḍa (staff) and pāśa (noose) as held props, neither currently in the props.js list."},"bakasura":{"archetype":"rakshasa","skin":"#6e4a3a","skinShade":"#3c2418","hairColor":"#140d06","hairstyle":"loose","garb":"hide","clothMain":"#4a3020","clothAccent":"#8c2f1d","moustache":2,"build":1.3,"grounding":"04-deep-dives/mahabharata/01-adi-parva.md","notes":"the man-eating rākṣasa of Ekacakrā whom Bhīma kills in the brahmin's place (Ādi 159-166, cited at adi-parva.md lines ~66/72); garb:'hide' is proposed vocabulary for wild rākṣasas with no royal dress (cf. Hiḍimba in hidimba-hidimbi.md for the same register). Do not confuse with the crane-demon Bakāsura that infant Kṛṣṇa kills at Vraja (Bhāgavata Purāṇa X.11, see 04-deep-dives/vraja-boyhood-demons.md) — a distinct character sharing the name."},"hidimba":{"archetype":"rakshasa","female":true,"skin":"#9a6038","skinShade":"#63381c","hairColor":"#140d06","hairstyle":"loose","garb":"sari","clothMain":"#5c7a3e","clothAccent":"#8c56a1","ornaments":1,"build":0.98,"grounding":"04-deep-dives/characters/hidimba-hidimbi.md","notes":"a kāmarūpiṇī (shape-shifter) — this palette is her chosen beautiful-human-woman guise (Ādi Parva ~154-155), styled close to Draupadī/Kuntī's warm tones but in forest green rather than court color. Some tellings say 'Hiḍimbā/Hiḍimbī' for her and reserve 'Hiḍimba' for the cannibal brother Bhīma kills; the same source file covers both, disambiguate by context. A true-rākṣasī-form variant (yellow eyes, tusks, per her brother's description in the same file) could be added if a scene needs it."},"ganesha":{"archetype":"deity","skin":"#c9432c","skinShade":"#8a2418","hairColor":"#140d06","garb":"dhoti","clothMain":"#e8b64c","clothAccent":"#7a2e2e","crown":"mukut","ornaments":2,"build":1.2,"grounding":"02-deities-and-cosmic-hierarchy/ganesha-and-kartikeya.md","notes":"elephant head (trunk, large ears, single/broken tusk) and a pot-belly are the defining silhouette — person.js's human drawHead()/drawFigure() proportions can't produce these from a palette swap alone; needs a dedicated head-variant and body-proportion override, tracked as an engine gap, not just a style override. Vāhana is a mouse (Mūṣika) — no rodent rig exists in props.js yet either."},"durga":{"archetype":"deity","female":true,"skin":"#e8c25a","skinShade":"#a9822c","hairColor":"#140d06","hairstyle":"loose","garb":"royal","clothMain":"#a11e2c","clothAccent":"#e8b64c","crown":"mukut","ornaments":3,"build":1.05,"grounding":"02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md","notes":"Devī Māhātmya iconography is eight-/ten-/eighteen-armed (popular Mahiṣāsura-mardinī form has ten, Daśabhujā), each hand holding a different god-given weapon, mounted on a lion. person.js currently rigs one pair of arms and props.js has no drawLion; for a faithful tableau either extend the rig for multi-limb compositing or stage her with 2-4 held weapons and flag the reduction rather than pretending it's the full iconography."},"lakshmi":{"archetype":"deity","female":true,"skin":"#e8c25a","skinShade":"#a9822c","hairColor":"#1a1208","hairstyle":"loose","garb":"sari","clothMain":"#a11e2c","clothAccent":"#e8b64c","crown":"tiara","ornaments":3,"bangles":true,"build":0.95,"grounding":"02-deities-and-cosmic-hierarchy/lakshmi.md","notes":"Śrī Sūkta calls her golden-hued (hiraṇya-varṇām), lotus-seated and lotus-garlanded (padma-mālinīm) — render the lotus seat/garland as set-dressing/props, not character-style keys. Some traditions show her four-armed (lotus, pot, abhaya, varada mudrās); default to two-armed with a held-lotus prop unless a scene calls for the fuller iconography, same caveat as Durgā."}};
-const STORY = {"slug":"savitri-satyavan","title":"Sāvitrī & Satyavān","subtitle":"Mahābhārata · Vana Parva 291–297","watchHint":"watch · about 2 min","sources":["04-deep-dives/savitri-satyavan.md"],"engineFiles":["core.js","paint.js","acting.js","wardrobe.js","person.js","archetypes.js","props.js","sets.js","stage.js","finish.js"],"storyFiles":["cast.js","timeline.js","film.js"],"narration":{"provider":"pico","voice":"en-GB","pitch":0.95,"tempo":1.12},"music":{"mode":"auto"},"video":{"fps":24,"crf":22},"titleHtml":"Sāvitrī <span class=\"d\">&</span> Satyavān","poster":{"t":66.5},"folios":{"titleDur":3.6,"endDur":4.6,"endLine":"and Death himself kept his word"},"scenes":{"choice":{"storyboard":{"set":"forest","setOpts":{"timeOfDay":"dawn","seed":3,"rays":0.8},"grade":{"wash":"#ffd9a0","washAlpha":0.07,"vignette":0.3},"shot":{"type":"processional","actor":"savitri"},"actors":[{"id":"savitri","who":"savitri","at":[1400,1000],"s":0.7,"facing":1,"enter":{"type":"walk","from":[-160,1000],"t0":0.8,"t1":9},"featured":true},{"id":"satyavan","who":"satyavan","at":[1560,995],"s":0.71,"facing":-1,"featured":false},{"id":"dyumatsena","who":"dyumatsena","at":[1800,985],"s":0.64,"facing":-1,"featured":false}],"beats":[{"at":"narr+9.5","actor":"satyavan","pose":"namaste","over":1.4},{"at":"narr+10.2","actor":"savitri","pose":"bless","over":1.6},{"at":"narr+10.5","actor":"savitri","face":{"smile":0.3,"lowered":0.4},"over":1},{"at":2.5,"fx":"motes","opts":{}}]}},"prophecy":{"storyboard":{"set":"interior","setOpts":{"timeOfDay":"day","seed":5},"grade":{"wash":"#e8c9a0","washAlpha":0.05,"vignette":0.36},"shot":{"type":"two-shot","actors":["narada","savitri"]},"actors":[{"id":"asvapati","who":"asvapati","at":[640,1005],"s":0.72,"facing":1,"featured":false},{"id":"narada","who":"narada","at":[1000,990],"s":0.72,"facing":1,"featured":true},{"id":"savitri","who":"savitri","at":[1420,1000],"s":0.72,"facing":-1,"featured":true}],"beats":[{"at":1.2,"actor":"narada","pose":"point","over":1.2},{"at":"narr+3.4","actor":"asvapati","face":{"brow":0.6,"lipsPart":0.4,"smile":-0.3},"over":1.2},{"at":"narr+7.8","actor":"narada","pose":"stand","over":1.4},{"at":"narr+8.2","actor":"savitri","face":{"smile":0.08,"brow":0.15,"lowered":0},"over":1},{"at":"narr+8.6","actor":"savitri","pose":"namaste","over":1.6}]}},"year":{"storyboard":{"set":"hutDusk","setOpts":{"timeOfDay":"dusk","seed":9},"grade":{"wash":"#c26a9a","washAlpha":0.05,"vignette":0.4},"shot":{"type":"wide"},"actors":[{"id":"savitri","who":"savitri:vrata","at":[700,1010],"s":0.68,"facing":1,"enter":{"type":"walk","from":[300,1010],"t0":0.6,"t1":3.4},"featured":true},{"id":"dyumatsena","who":"dyumatsena","at":[1240,1000],"s":0.62,"facing":-1},{"id":"satyavan","who":"satyavan","at":[1420,1005],"s":0.66,"facing":-1}],"beats":[{"at":3.6,"actor":"savitri","pose":"carry","over":1},{"at":"narr+6.5","actor":"savitri","pose":"pray","over":2.2},{"at":"narr+6.8","actor":"savitri","face":{"lowered":0.7,"smile":0.02},"over":1.5},{"at":6,"fx":"glow","opts":{"x":700,"y":760,"r":90,"color":"rgba(255,190,90,0.4)","alpha":0.8}}]}},"return":{"storyboard":{"set":"forest","setOpts":{"timeOfDay":"dawn","seed":31,"rays":0.9},"grade":{"wash":"#ffd9a0","washAlpha":0.09,"vignette":0.28},"shot":{"type":"two-shot","actors":["savitri","satyavan"]},"actors":[{"id":"satyavan","who":"satyavan","at":[860,1000],"s":0.72,"facing":1,"featured":true},{"id":"savitri","who":"savitri:vrata","at":[1060,1005],"s":0.71,"facing":-1,"featured":true}],"beats":[{"at":1,"actor":"satyavan","face":{"eyeOpen":0.4,"lowered":0.5},"over":0.5},{"at":"narr+5.4","actor":"satyavan","face":{"eyeOpen":1,"smile":0.25,"lowered":0.1},"over":1.6},{"at":"narr+6.0","actor":"satyavan","pose":"namaste","over":1.8},{"at":"narr+7.0","actor":"savitri","face":{"smile":0.35},"over":1.4},{"at":"narr+11.0","fx":"petals","opts":{"density":0.5}}]}}}};
+const STORY = {"slug":"savitri-satyavan","title":"Sāvitrī & Satyavān","subtitle":"Mahābhārata · Vana Parva 291–297","watchHint":"watch · about 2 min","sources":["04-deep-dives/savitri-satyavan.md"],"engineFiles":["core.js","paint.js","acting.js","wardrobe.js","person.js","archetypes.js","props.js","sets.js","stage.js","finish.js"],"storyFiles":["cast.js","timeline.js","film.js"],"narration":{"provider":"pico","voice":"en-GB","pitch":0.95,"tempo":1.12},"music":{"mode":"auto"},"video":{"fps":24,"crf":22},"titleHtml":"Sāvitrī <span class=\"d\">&</span> Satyavān","poster":{"t":66.5},"folios":{"titleDur":3.6,"endDur":4.6,"endLine":"and Death himself kept his word"},"scenes":{"choice":{"storyboard":{"set":"forest","setOpts":{"timeOfDay":"dawn","seed":3,"rays":0.35},"grade":{"wash":"#ffd9a0","washAlpha":0.07,"vignette":0.3},"shot":{"type":"processional","actor":"savitri"},"actors":[{"id":"savitri","who":"savitri","at":[1400,1000],"s":0.7,"facing":1,"enter":{"type":"walk","from":[-160,1000],"t0":0.8,"t1":9},"featured":true},{"id":"satyavan","who":"satyavan","at":[1560,995],"s":0.71,"facing":-1,"featured":false},{"id":"dyumatsena","who":"dyumatsena","at":[1800,985],"s":0.64,"facing":-1,"featured":false}],"beats":[{"at":"narr+9.5","actor":"satyavan","pose":"namaste","over":1.4},{"at":"narr+10.2","actor":"savitri","pose":"bless","over":1.6},{"at":"narr+10.5","actor":"savitri","face":{"smile":0.3,"lowered":0.4},"over":1},{"at":2.5,"fx":"motes","opts":{}}]}},"prophecy":{"storyboard":{"set":"interior","setOpts":{"timeOfDay":"day","seed":5},"grade":{"wash":"#e8c9a0","washAlpha":0.05,"vignette":0.36},"shot":{"type":"two-shot","actors":["narada","savitri"]},"actors":[{"id":"asvapati","who":"asvapati","at":[640,1005],"s":0.72,"facing":1,"featured":false},{"id":"narada","who":"narada","at":[1000,990],"s":0.72,"facing":1,"featured":true},{"id":"savitri","who":"savitri","at":[1420,1000],"s":0.72,"facing":-1,"featured":true}],"beats":[{"at":1.2,"actor":"narada","pose":"point","over":1.2},{"at":"narr+3.4","actor":"asvapati","face":{"brow":0.6,"lipsPart":0.4,"smile":-0.3},"over":1.2},{"at":"narr+7.8","actor":"narada","pose":"stand","over":1.4},{"at":"narr+8.2","actor":"savitri","face":{"smile":0.08,"brow":0.15,"lowered":0},"over":1},{"at":"narr+8.6","actor":"savitri","pose":"namaste","over":1.6}]}},"year":{"storyboard":{"set":"hutDusk","setOpts":{"timeOfDay":"dusk","seed":9},"grade":{"wash":"#c26a9a","washAlpha":0.05,"vignette":0.4},"shot":{"type":"wide"},"actors":[{"id":"savitri","who":"savitri:vrata","at":[700,1010],"s":0.68,"facing":1,"enter":{"type":"walk","from":[300,1010],"t0":0.6,"t1":3.4},"featured":true},{"id":"dyumatsena","who":"dyumatsena","at":[1240,1000],"s":0.62,"facing":-1},{"id":"satyavan","who":"satyavan","at":[1420,1005],"s":0.66,"facing":-1}],"beats":[{"at":3.6,"actor":"savitri","pose":"carry","over":1},{"at":"narr+6.5","actor":"savitri","pose":"pray","over":2.2},{"at":"narr+6.8","actor":"savitri","face":{"lowered":0.7,"smile":0.02},"over":1.5},{"at":6,"fx":"glow","opts":{"x":700,"y":760,"r":90,"color":"rgba(255,190,90,0.4)","alpha":0.8}}]}},"return":{"storyboard":{"set":"forest","setOpts":{"timeOfDay":"dawn","seed":31,"rays":0.4},"grade":{"wash":"#ffd9a0","washAlpha":0.09,"vignette":0.28},"shot":{"type":"two-shot","actors":["savitri","satyavan"]},"actors":[{"id":"satyavan","who":"satyavan","at":[860,1000],"s":0.72,"facing":1,"featured":true},{"id":"savitri","who":"savitri:vrata","at":[1060,1005],"s":0.71,"facing":-1,"featured":true}],"beats":[{"at":1,"actor":"satyavan","face":{"eyeOpen":0.4,"lowered":0.5},"over":0.5},{"at":"narr+5.4","actor":"satyavan","face":{"eyeOpen":1,"smile":0.25,"lowered":0.1},"over":1.6},{"at":"narr+6.0","actor":"satyavan","pose":"namaste","over":1.8},{"at":"narr+7.0","actor":"savitri","face":{"smile":0.35},"over":1.4},{"at":"narr+11.0","fx":"petals","opts":{"density":0.5}}]}}}};
 
 // ===== engine/core.js =====
 // ── core.js ── deterministic math, easing, noise, color, canvas utilities.
@@ -2542,6 +2542,11 @@ function archBrahmin(i) {
 //   New props (opts-object signature (ctx, {x,y,s,t,seed,...})):
 //     drawCart, drawWell, drawThrone, treeBanyan, treePalm, treeAshoka,
 //     drawRock, potStack, shrine, drawHut
+//   Trees take an optional `tod:'dawn'|'day'|'dusk'|'night'` so their foliage
+//   is graded (day muted-green · dusk warm-olive · dawn misty grey-green ·
+//   night deep blue-green near-silhouette) to match the set's time of day;
+//   canopies are flat scalloped lobes (ink-outlined, sparse leaf-ticks), not
+//   glossy bubbles. Sets pass their own `tod` through.
 //   Fauna (ctx, {x,y,s,facing,t,seed,gait:'idle'|'walk'|'run', ornament?}):
 //     drawHorse, drawElephant, drawDeer, drawBird, drawCow
 'use strict';
@@ -5895,26 +5900,48 @@ function buildFilmFromStory(storyDef, TIMELINE) {
       at += d;
     }
   }
-  function drawSubtitle(ctx, T) {
+  function drawSubtitle(ctx, T, dimK) {
     var s = null;
     for (var k = 0; k < SUBS.length; k++) { var cand = SUBS[k]; if (T >= cand.from - 0.15 && T <= cand.to + 0.1) { s = cand; break; } }
     if (!s) return;
     var a = Math.min(ramp(T, s.from - 0.15, s.from + 0.15), 1 - ramp(T, s.to - 0.1, s.to + 0.1));
+    a *= (1 - (dimK || 0)); // suppressed while a folio plate is up
     if (a <= 0.01) return;
     ctx.save();
     ctx.globalAlpha = a;
     ctx.textAlign = 'center';
-    ctx.font = 'italic 34px Georgia, serif';
-    var y = H - 54;
-    var w = ctx.measureText(s.text).width;
-    var g = ctx.createLinearGradient(W / 2 - w / 2 - 60, 0, W / 2 + w / 2 + 60, 0);
+    ctx.font = 'italic 31px Georgia, serif';
+    // wrap into up to two centred lines inside the margin-frame safe width
+    var maxW = W - 420;
+    var lines = [s.text];
+    if (ctx.measureText(s.text).width > maxW) {
+      var words = s.text.split(' ');
+      var best = Math.ceil(words.length / 2), l1 = null, l2 = null;
+      for (var off = 0; off < words.length / 2; off++) {
+        var done = false;
+        for (var dir = -1; dir <= 1; dir += 2) {
+          var cut = best + dir * off;
+          if (cut <= 0 || cut >= words.length) continue;
+          var c1 = words.slice(0, cut).join(' '), c2 = words.slice(cut).join(' ');
+          if (ctx.measureText(c1).width <= maxW && ctx.measureText(c2).width <= maxW) { l1 = c1; l2 = c2; done = true; break; }
+        }
+        if (done) break;
+      }
+      if (!l1) { l1 = words.slice(0, best).join(' '); l2 = words.slice(best).join(' '); }
+      lines = [l1, l2];
+    }
+    var lh = 40;
+    var y0 = H - 64 - (lines.length - 1) * lh;
+    var wMax = 0;
+    for (var li = 0; li < lines.length; li++) wMax = Math.max(wMax, ctx.measureText(lines[li]).width);
+    var g = ctx.createLinearGradient(W / 2 - wMax / 2 - 60, 0, W / 2 + wMax / 2 + 60, 0);
     g.addColorStop(0, 'rgba(12,6,2,0)'); g.addColorStop(0.12, 'rgba(12,6,2,0.55)');
     g.addColorStop(0.88, 'rgba(12,6,2,0.55)'); g.addColorStop(1, 'rgba(12,6,2,0)');
     ctx.fillStyle = g;
-    ctx.fillRect(W / 2 - w / 2 - 60, y - 40, w + 120, 58);
+    ctx.fillRect(W / 2 - wMax / 2 - 60, y0 - 36, wMax + 120, 50 + (lines.length - 1) * lh);
     ctx.fillStyle = '#f4e6c4';
     ctx.shadowColor = 'rgba(0,0,0,0.8)'; ctx.shadowBlur = 6;
-    ctx.fillText(s.text, W / 2, y);
+    for (var li2 = 0; li2 < lines.length; li2++) ctx.fillText(lines[li2], W / 2, y0 + li2 * lh);
     ctx.restore();
   }
 
@@ -5960,26 +5987,25 @@ function buildFilmFromStory(storyDef, TIMELINE) {
     // global finish: vignette + grain (every scene, storyboard or js-fn alike)
     vignette(ctx, 0.30, true);
     grain(ctx, 0.038, T);
-    if (opts.subs !== false) drawSubtitle(ctx, T);
-    transitionOverlay(ctx, T);
-    // manuscript folios: calligraphic title/end plates over the fades
+    // folio alphas first — subtitles dim to zero underneath a plate
+    var kT = 0, kE = 0, folMeta = null;
     if (storyDef.folios !== false && typeof drawTitleFolio === 'function') {
       var fol = storyDef.folios || {};
-      var meta = {
+      folMeta = {
         title: TIMELINE.title, subtitle: TIMELINE.subtitle,
         sources: fol.sources || storyDef.sources || [],
         endLine: fol.endLine,
       };
       var tDur = fol.titleDur == null ? 3.4 : fol.titleDur;
       var eDur = fol.endDur == null ? 4.2 : fol.endDur;
-      if (tDur > 0 && T < tDur + 0.8) {
-        var kT = (1 - ramp(T, tDur - 0.8, tDur + 0.6)) * ramp(T, 0.0, 0.7);
-        drawTitleFolio(ctx, meta, kT);
-      }
-      if (eDur > 0 && T > TIMELINE.total - eDur - 0.8) {
-        var kE = ramp(T, TIMELINE.total - eDur, TIMELINE.total - eDur + 0.9);
-        drawEndFolio(ctx, meta, kE);
-      }
+      if (tDur > 0 && T < tDur + 0.8) kT = (1 - ramp(T, tDur - 0.8, tDur + 0.6)) * ramp(T, 0.0, 0.7);
+      if (eDur > 0 && T > TIMELINE.total - eDur - 0.8) kE = ramp(T, TIMELINE.total - eDur, TIMELINE.total - eDur + 0.9);
+    }
+    if (opts.subs !== false) drawSubtitle(ctx, T, Math.min(1, (kT + kE) * 1.6));
+    transitionOverlay(ctx, T);
+    if (folMeta) {
+      if (kT > 0) drawTitleFolio(ctx, folMeta, kT);
+      if (kE > 0) drawEndFolio(ctx, folMeta, kE);
     }
     // illuminated margin frame — the studio's manuscript signature
     if (storyDef.frame !== false && typeof drawMarginFrame === 'function') {
@@ -6589,7 +6615,7 @@ function svDrawYama(ctx, x, y, s, facing, pose, t, seed) {
   g.addColorStop(0, 'rgba(10,6,14,0.34)'); g.addColorStop(1, 'rgba(10,6,14,0)');
   ctx.fillStyle = g; ctx.fillRect(x - 460 * s, y - 620 * s, 920 * s, 760 * s);
   ctx.restore();
-  const st = Object.assign({}, Person.of('yama').style, { build: 1.16, crown: 'mukut' });
+  const st = Object.assign({}, Person.of('yama').style, { build: 1.16, crown: 'mukut', scarf: null });
   drawFigure(ctx, { x, y, s, facing, style: st, pose, t, seed });
   // the daṇḍa (staff of Death) in the far hand
   ctx.save();
@@ -6603,16 +6629,17 @@ function svDrawYama(ctx, x, y, s, facing, pose, t, seed) {
 }
 
 // Satyavān lying with his head in Sāvitrī's lap (the tableau of the fated day)
-function svLapTableau(ctx, x, y, s, t, lifeK) {
+function svLapTableau(ctx, x, y, s, t, lifeK, opts) {
   // lifeK: 1 = awake/waking, 0 = lifeless
-  // Sāvitrī seated
-  drawSeated(ctx, {
+  // Sāvitrī seated (unless she has risen to follow Death)
+  if (!opts || opts.her !== false) drawSeated(ctx, {
     x: x, y: y, s: s, facing: -1, style: Person.of('savitri:vrata').style, t, seed: 21,
     face: { turn: 0.35, lowered: 0.8, smile: -0.05 + lifeK * 0.25, brow: 0.25 * (1 - lifeK) },
   });
-  // Satyavān: torso across her lap, drawn reclined
+  // Satyavān: reclined, his head at her lap (pivot chosen so the rotated
+  // head vector (-366s, -55s) lands beside her knee)
   ctx.save();
-  ctx.translate(x - 68 * s, y - 66 * s);
+  ctx.translate(x + 300 * s, y - 12 * s);
   ctx.rotate(-1.42);
   drawFigure(ctx, {
     x: 0, y: 0, s: s * 0.94, facing: 1,
@@ -6642,7 +6669,7 @@ function scAxe(ctx, tl, dur, t) {
     z: 1.12 + ramp(tl, 6.0, 12.0) * 0.16,
   };
   SETS.forest(ctx, cam, t, {
-    timeOfDay: 'day', seed: 7, rays: 0.6,
+    timeOfDay: 'day', seed: 7, rays: 0.22,
     actors: (c) => {
       const gx = 900, gy = 1000;
       if (sink < 0.98) {
@@ -6661,13 +6688,14 @@ function scAxe(ctx, tl, dur, t) {
           },
           t, seed: 22,
         });
-        // the axe: in-hand while chopping, falling after
+        // the axe: in-hand while chopping, falling after (lands clear of the
+        // foreground undergrowth band so the beat stays visible)
         c.save();
         if (drop < 0.02) {
           c.translate(gx + 66, gy - 250 + swing * -40);
           c.rotate(-0.9 + swing * 0.5);
         } else {
-          c.translate(gx + 66 + drop * 60, gy - 250 + drop * drop * 236);
+          c.translate(gx + 66 + drop * 70, gy - 250 + drop * drop * 175);
           c.rotate(-0.9 + drop * 2.6);
         }
         c.strokeStyle = '#5c4226'; c.lineWidth = 9;
@@ -6679,9 +6707,9 @@ function scAxe(ctx, tl, dur, t) {
         c.restore();
         // log
         c.fillStyle = '#6e4a26';
-        c.beginPath(); c.ellipse(gx + 150, gy - 20, 90, 26, 0.06, 0, TAU); c.fill();
+        c.beginPath(); c.ellipse(gx + 185, gy - 52, 90, 26, 0.06, 0, TAU); c.fill();
         c.strokeStyle = rgba('#2c1a0c', 0.5); c.lineWidth = 2;
-        c.beginPath(); c.ellipse(gx + 150, gy - 20, 90, 26, 0.06, 0, TAU); c.stroke();
+        c.beginPath(); c.ellipse(gx + 185, gy - 52, 90, 26, 0.06, 0, TAU); c.stroke();
         // Sāvitrī nearby
         drawFigure(c, {
           x: gx - 300 + sink * 120, y: gy + 6, s: 0.7, facing: 1,
@@ -6716,8 +6744,8 @@ function scYama(ctx, tl, dur, t) {
   SETS.forest(ctx, cam, t, {
     timeOfDay: 'dusk', seed: 11, rays: 0.25,
     actors: (c) => {
-      const gx = 780, gy = 1000;
-      svLapTableau(c, gx, gy, 0.72, t, 0);
+      const gx = 780, gy = 972;
+      svLapTableau(c, gx, gy, 0.72, t, 0, { her: walk < 0.05 });
       // Yama: manifests at right, draws the spark from Satyavān's breast
       if (appear > 0.01) {
         const yx = 1430 - walk * 900, yy = gy + 10;
@@ -6746,12 +6774,13 @@ function scYama(ctx, tl, dur, t) {
         }
         c.restore();
       }
-      // Sāvitrī rises and follows once he walks
+      // Sāvitrī rises and follows once he walks — a fixed seven steps behind
       if (walk > 0.05) {
-        const sx = gx - 40 + walk * -560;
+        const yxNow = 1430 - walk * 900;
+        const sx = yxNow + 320;
         const wp2 = walk < 0.96 ? walkPose(t * 6.1, 0.6) : {};
         drawFigure(c, {
-          x: Math.max(sx, 1430 - walk * 900 + 260), y: gy + 8, s: 0.7, facing: -1,
+          x: sx, y: gy + 26, s: 0.7, facing: -1,
           style: Person.of('savitri:vrata').style,
           pose: Object.assign({}, wp2, {
             headTurn: 0.3, face: { brow: 0.3, smile: -0.05, lowered: 0.1 },

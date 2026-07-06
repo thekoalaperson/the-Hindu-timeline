@@ -696,26 +696,48 @@ function buildFilmFromStory(storyDef, TIMELINE) {
       at += d;
     }
   }
-  function drawSubtitle(ctx, T) {
+  function drawSubtitle(ctx, T, dimK) {
     var s = null;
     for (var k = 0; k < SUBS.length; k++) { var cand = SUBS[k]; if (T >= cand.from - 0.15 && T <= cand.to + 0.1) { s = cand; break; } }
     if (!s) return;
     var a = Math.min(ramp(T, s.from - 0.15, s.from + 0.15), 1 - ramp(T, s.to - 0.1, s.to + 0.1));
+    a *= (1 - (dimK || 0)); // suppressed while a folio plate is up
     if (a <= 0.01) return;
     ctx.save();
     ctx.globalAlpha = a;
     ctx.textAlign = 'center';
-    ctx.font = 'italic 34px Georgia, serif';
-    var y = H - 54;
-    var w = ctx.measureText(s.text).width;
-    var g = ctx.createLinearGradient(W / 2 - w / 2 - 60, 0, W / 2 + w / 2 + 60, 0);
+    ctx.font = 'italic 31px Georgia, serif';
+    // wrap into up to two centred lines inside the margin-frame safe width
+    var maxW = W - 420;
+    var lines = [s.text];
+    if (ctx.measureText(s.text).width > maxW) {
+      var words = s.text.split(' ');
+      var best = Math.ceil(words.length / 2), l1 = null, l2 = null;
+      for (var off = 0; off < words.length / 2; off++) {
+        var done = false;
+        for (var dir = -1; dir <= 1; dir += 2) {
+          var cut = best + dir * off;
+          if (cut <= 0 || cut >= words.length) continue;
+          var c1 = words.slice(0, cut).join(' '), c2 = words.slice(cut).join(' ');
+          if (ctx.measureText(c1).width <= maxW && ctx.measureText(c2).width <= maxW) { l1 = c1; l2 = c2; done = true; break; }
+        }
+        if (done) break;
+      }
+      if (!l1) { l1 = words.slice(0, best).join(' '); l2 = words.slice(best).join(' '); }
+      lines = [l1, l2];
+    }
+    var lh = 40;
+    var y0 = H - 64 - (lines.length - 1) * lh;
+    var wMax = 0;
+    for (var li = 0; li < lines.length; li++) wMax = Math.max(wMax, ctx.measureText(lines[li]).width);
+    var g = ctx.createLinearGradient(W / 2 - wMax / 2 - 60, 0, W / 2 + wMax / 2 + 60, 0);
     g.addColorStop(0, 'rgba(12,6,2,0)'); g.addColorStop(0.12, 'rgba(12,6,2,0.55)');
     g.addColorStop(0.88, 'rgba(12,6,2,0.55)'); g.addColorStop(1, 'rgba(12,6,2,0)');
     ctx.fillStyle = g;
-    ctx.fillRect(W / 2 - w / 2 - 60, y - 40, w + 120, 58);
+    ctx.fillRect(W / 2 - wMax / 2 - 60, y0 - 36, wMax + 120, 50 + (lines.length - 1) * lh);
     ctx.fillStyle = '#f4e6c4';
     ctx.shadowColor = 'rgba(0,0,0,0.8)'; ctx.shadowBlur = 6;
-    ctx.fillText(s.text, W / 2, y);
+    for (var li2 = 0; li2 < lines.length; li2++) ctx.fillText(lines[li2], W / 2, y0 + li2 * lh);
     ctx.restore();
   }
 
@@ -761,26 +783,25 @@ function buildFilmFromStory(storyDef, TIMELINE) {
     // global finish: vignette + grain (every scene, storyboard or js-fn alike)
     vignette(ctx, 0.30, true);
     grain(ctx, 0.038, T);
-    if (opts.subs !== false) drawSubtitle(ctx, T);
-    transitionOverlay(ctx, T);
-    // manuscript folios: calligraphic title/end plates over the fades
+    // folio alphas first — subtitles dim to zero underneath a plate
+    var kT = 0, kE = 0, folMeta = null;
     if (storyDef.folios !== false && typeof drawTitleFolio === 'function') {
       var fol = storyDef.folios || {};
-      var meta = {
+      folMeta = {
         title: TIMELINE.title, subtitle: TIMELINE.subtitle,
         sources: fol.sources || storyDef.sources || [],
         endLine: fol.endLine,
       };
       var tDur = fol.titleDur == null ? 3.4 : fol.titleDur;
       var eDur = fol.endDur == null ? 4.2 : fol.endDur;
-      if (tDur > 0 && T < tDur + 0.8) {
-        var kT = (1 - ramp(T, tDur - 0.8, tDur + 0.6)) * ramp(T, 0.0, 0.7);
-        drawTitleFolio(ctx, meta, kT);
-      }
-      if (eDur > 0 && T > TIMELINE.total - eDur - 0.8) {
-        var kE = ramp(T, TIMELINE.total - eDur, TIMELINE.total - eDur + 0.9);
-        drawEndFolio(ctx, meta, kE);
-      }
+      if (tDur > 0 && T < tDur + 0.8) kT = (1 - ramp(T, tDur - 0.8, tDur + 0.6)) * ramp(T, 0.0, 0.7);
+      if (eDur > 0 && T > TIMELINE.total - eDur - 0.8) kE = ramp(T, TIMELINE.total - eDur, TIMELINE.total - eDur + 0.9);
+    }
+    if (opts.subs !== false) drawSubtitle(ctx, T, Math.min(1, (kT + kE) * 1.6));
+    transitionOverlay(ctx, T);
+    if (folMeta) {
+      if (kT > 0) drawTitleFolio(ctx, folMeta, kT);
+      if (kE > 0) drawEndFolio(ctx, folMeta, kE);
     }
     // illuminated margin frame — the studio's manuscript signature
     if (storyDef.frame !== false && typeof drawMarginFrame === 'function') {

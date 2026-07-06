@@ -38,7 +38,7 @@ function svDrawYama(ctx, x, y, s, facing, pose, t, seed) {
   g.addColorStop(0, 'rgba(10,6,14,0.34)'); g.addColorStop(1, 'rgba(10,6,14,0)');
   ctx.fillStyle = g; ctx.fillRect(x - 460 * s, y - 620 * s, 920 * s, 760 * s);
   ctx.restore();
-  const st = Object.assign({}, Person.of('yama').style, { build: 1.16, crown: 'mukut' });
+  const st = Object.assign({}, Person.of('yama').style, { build: 1.16, crown: 'mukut', scarf: null });
   drawFigure(ctx, { x, y, s, facing, style: st, pose, t, seed });
   // the daṇḍa (staff of Death) in the far hand
   ctx.save();
@@ -52,16 +52,17 @@ function svDrawYama(ctx, x, y, s, facing, pose, t, seed) {
 }
 
 // Satyavān lying with his head in Sāvitrī's lap (the tableau of the fated day)
-function svLapTableau(ctx, x, y, s, t, lifeK) {
+function svLapTableau(ctx, x, y, s, t, lifeK, opts) {
   // lifeK: 1 = awake/waking, 0 = lifeless
-  // Sāvitrī seated
-  drawSeated(ctx, {
+  // Sāvitrī seated (unless she has risen to follow Death)
+  if (!opts || opts.her !== false) drawSeated(ctx, {
     x: x, y: y, s: s, facing: -1, style: Person.of('savitri:vrata').style, t, seed: 21,
     face: { turn: 0.35, lowered: 0.8, smile: -0.05 + lifeK * 0.25, brow: 0.25 * (1 - lifeK) },
   });
-  // Satyavān: torso across her lap, drawn reclined
+  // Satyavān: reclined, his head at her lap (pivot chosen so the rotated
+  // head vector (-366s, -55s) lands beside her knee)
   ctx.save();
-  ctx.translate(x - 68 * s, y - 66 * s);
+  ctx.translate(x + 300 * s, y - 12 * s);
   ctx.rotate(-1.42);
   drawFigure(ctx, {
     x: 0, y: 0, s: s * 0.94, facing: 1,
@@ -91,7 +92,7 @@ function scAxe(ctx, tl, dur, t) {
     z: 1.12 + ramp(tl, 6.0, 12.0) * 0.16,
   };
   SETS.forest(ctx, cam, t, {
-    timeOfDay: 'day', seed: 7, rays: 0.6,
+    timeOfDay: 'day', seed: 7, rays: 0.22,
     actors: (c) => {
       const gx = 900, gy = 1000;
       if (sink < 0.98) {
@@ -110,13 +111,14 @@ function scAxe(ctx, tl, dur, t) {
           },
           t, seed: 22,
         });
-        // the axe: in-hand while chopping, falling after
+        // the axe: in-hand while chopping, falling after (lands clear of the
+        // foreground undergrowth band so the beat stays visible)
         c.save();
         if (drop < 0.02) {
           c.translate(gx + 66, gy - 250 + swing * -40);
           c.rotate(-0.9 + swing * 0.5);
         } else {
-          c.translate(gx + 66 + drop * 60, gy - 250 + drop * drop * 236);
+          c.translate(gx + 66 + drop * 70, gy - 250 + drop * drop * 175);
           c.rotate(-0.9 + drop * 2.6);
         }
         c.strokeStyle = '#5c4226'; c.lineWidth = 9;
@@ -128,9 +130,9 @@ function scAxe(ctx, tl, dur, t) {
         c.restore();
         // log
         c.fillStyle = '#6e4a26';
-        c.beginPath(); c.ellipse(gx + 150, gy - 20, 90, 26, 0.06, 0, TAU); c.fill();
+        c.beginPath(); c.ellipse(gx + 185, gy - 52, 90, 26, 0.06, 0, TAU); c.fill();
         c.strokeStyle = rgba('#2c1a0c', 0.5); c.lineWidth = 2;
-        c.beginPath(); c.ellipse(gx + 150, gy - 20, 90, 26, 0.06, 0, TAU); c.stroke();
+        c.beginPath(); c.ellipse(gx + 185, gy - 52, 90, 26, 0.06, 0, TAU); c.stroke();
         // Sāvitrī nearby
         drawFigure(c, {
           x: gx - 300 + sink * 120, y: gy + 6, s: 0.7, facing: 1,
@@ -165,8 +167,8 @@ function scYama(ctx, tl, dur, t) {
   SETS.forest(ctx, cam, t, {
     timeOfDay: 'dusk', seed: 11, rays: 0.25,
     actors: (c) => {
-      const gx = 780, gy = 1000;
-      svLapTableau(c, gx, gy, 0.72, t, 0);
+      const gx = 780, gy = 972;
+      svLapTableau(c, gx, gy, 0.72, t, 0, { her: walk < 0.05 });
       // Yama: manifests at right, draws the spark from Satyavān's breast
       if (appear > 0.01) {
         const yx = 1430 - walk * 900, yy = gy + 10;
@@ -195,12 +197,13 @@ function scYama(ctx, tl, dur, t) {
         }
         c.restore();
       }
-      // Sāvitrī rises and follows once he walks
+      // Sāvitrī rises and follows once he walks — a fixed seven steps behind
       if (walk > 0.05) {
-        const sx = gx - 40 + walk * -560;
+        const yxNow = 1430 - walk * 900;
+        const sx = yxNow + 320;
         const wp2 = walk < 0.96 ? walkPose(t * 6.1, 0.6) : {};
         drawFigure(c, {
-          x: Math.max(sx, 1430 - walk * 900 + 260), y: gy + 8, s: 0.7, facing: -1,
+          x: sx, y: gy + 26, s: 0.7, facing: -1,
           style: Person.of('savitri:vrata').style,
           pose: Object.assign({}, wp2, {
             headTurn: 0.3, face: { brow: 0.3, smile: -0.05, lowered: 0.1 },
