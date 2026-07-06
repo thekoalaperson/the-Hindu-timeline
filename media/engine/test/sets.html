@@ -1,0 +1,75 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>sets — environment library (Agent B)</title>
+<style>body{margin:0;background:#000}canvas{display:block}</style>
+<canvas id="cv" width="1920" height="1080"></canvas>
+<script src="../src/core.js"></script>
+<script src="../src/paint.js"></script>
+<script src="../src/people.js"></script>
+<script src="../../stories/winning-of-draupadi/cast.js"></script>
+<!-- world.js supplies the frozen `drawSeated` global (Agent A will own it in
+     people.js); props.js + sets.js load AFTER so our implementations win. -->
+<script src="../src/world.js"></script>
+<script src="../src/props.js"></script>
+<script src="../src/sets.js"></script>
+<script>
+'use strict';
+const ctx = document.getElementById('cv').getContext('2d');
+const q = new URLSearchParams(location.search);
+const set = q.get('set') || 'palaceHall';
+const tod = q.get('tod') || 'day';
+const t = parseFloat(q.get('t') || '3');
+const cam = drift(t, 8, 3);   // subtle live drift, z≈1 (full-frame coverage)
+
+// ── per-set actor hooks: a couple of cast figures + relevant fauna/props ──
+const GROUND = { forest: 1055, village: 1035, riverBank: 1045, mountain: 1046, interior: 1005, courtyardNight: 1012, hutDusk: 950, mandap: 1040 };
+function fig(c, name, x, y, s, facing, pose) {
+  drawFigure(c, { x, y, s, facing, style: CAST[name], pose: pose || { headTurn: 0.3, face: { smile: 0.08 } }, t, seed: (x | 0) + 7 });
+}
+const ACTORS = {
+  palaceHall: null,                                   // set draws its own dais + herald below
+  courtyardNight(c) {
+    fig(c, 'drupada', 820, 1012, 0.82, 1, { headTurn: 0.3, armF: { sh: 0.3, el: 0.5 }, face: { smile: 0.1 } });
+    fig(c, 'draupadi', 1090, 1004, 0.78, -1, { headTurn: 0.3, armF: { sh: 0.4, el: 0.9, hand: 'bless' }, face: { smile: 0.15 } });
+  },
+  hutDusk(c) {
+    fig(c, 'bhima', 640, 968, 0.7, 1, { headTurn: 0.3, face: { smile: 0.1 } });
+    fig(c, 'arjuna', 470, 970, 0.7, 1, { headTurn: 0.3, armF: { sh: 0.9, el: 0.4, hand: 'open' }, face: { smile: 0.05, lipsPart: 0.3 } });
+  },
+  mandap(c) {
+    fig(c, 'arjunaGroom', 720, 1044, 0.62, 1, { headTurn: 0.3, armF: { sh: 0.4, el: 0.9, hand: 'hold' }, face: { smile: 0.2 } });
+    fig(c, 'draupadi', 840, 1050, 0.6, -1, { headTurn: 0.3, face: { smile: 0.18, lowered: 0.4 } });
+  },
+  forest(c) {
+    fig(c, 'arjuna', 760, 1058, 0.82, 1, { headTurn: 0.32, armF: { sh: 0.2, el: 0.4, hand: 'relaxed' }, face: { smile: 0.05 } });
+    fig(c, 'krishna', 900, 1060, 0.8, -1, { headTurn: 0.3, armF: { sh: 0.5, el: 0.4, hand: 'open' }, face: { smile: 0.3 } });
+    drawDeer(c, { x: 1360, y: 1064, s: 0.92, facing: -1, t, seed: 5, gait: 'idle' });
+    drawBird(c, { x: 300, y: 1050, s: 0.7, facing: 1, t, seed: 8, gait: 'idle' });
+  },
+  village(c) {
+    fig(c, 'kunti', 980, 1038, 0.8, 1, { headTurn: 0.3, armF: { sh: 0.4, el: 0.9, hand: 'hold' }, face: { smile: 0.1 } });
+    drawCow(c, { x: 1360, y: 1044, s: 0.78, facing: -1, t, seed: 4, gait: 'idle' });
+    drawCart(c, { x: 520, y: 1052, s: 0.86, t, seed: 12, load: 'pots', facing: 1 });
+  },
+  riverBank(c) {
+    fig(c, 'draupadi', 720, 1048, 0.82, -1, { headTurn: 0.3, armF: { sh: 0.55, el: 1.1, hand: 'hold' }, face: { smile: 0.08, lowered: 0.3 } });
+    drawBird(c, { x: 1180, y: 1010, s: 1.0, facing: -1, t, seed: 3, gait: 'walk' });
+    drawBird(c, { x: 1480, y: 980, s: 0.7, facing: -1, t, seed: 9, gait: 'idle' });
+  },
+  interior(c) {
+    drawSeated(c, { x: 960, y: 950, s: 0.92, facing: -1, style: CAST.vyasa, t, seed: 5, face: { turn: 0.35, smile: 0.12 } });
+    fig(c, 'kunti', 1300, 1010, 0.78, -1, { headTurn: 0.3, armF: { sh: 0.35, el: 0.9, hand: 'bless' }, face: { smile: 0.12 } });
+  },
+  mountain(c) {
+    fig(c, 'vyasa', 900, 1046, 0.78, 1, { headTurn: 0.3, armF: { sh: 0.7, el: 0.6, hand: 'bless' }, face: { smile: 0.12 } });
+  },
+};
+
+const fn = SETS[set];
+if (!fn) { ctx.fillStyle = '#fff'; ctx.font = '40px Georgia'; ctx.fillText('unknown set: ' + set, 60, 100); }
+else fn(ctx, cam, t, { timeOfDay: tod, actors: ACTORS[set], brahmins: true, ghat: true });
+
+// caption
+ctx.fillStyle = 'rgba(255,240,210,0.85)'; ctx.font = '24px Georgia';
+ctx.fillText(set + '  ·  ' + tod + '  ·  t=' + t, 30, 40);
+</script>

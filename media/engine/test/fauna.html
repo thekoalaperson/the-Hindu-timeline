@@ -1,0 +1,57 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>fauna — animal rigs (Agent B)</title>
+<style>body{margin:0;background:#000}canvas{display:block}</style>
+<canvas id="cv" width="1920" height="1080"></canvas>
+<script src="../src/core.js"></script>
+<script src="../src/paint.js"></script>
+<script src="../src/people.js"></script>
+<script src="../../stories/winning-of-draupadi/cast.js"></script>
+<script src="../src/world.js"></script>
+<script src="../src/props.js"></script>
+<script src="../src/sets.js"></script>
+<script>
+'use strict';
+const ctx = document.getElementById('cv').getContext('2d');
+const q = new URLSearchParams(location.search);
+const gait = q.get('gait') || 'walk';         // idle | walk | run
+const orn = q.get('orn') === '1';             // draw caparison / howdah
+
+// warm parchment ground so silhouettes read
+vgrad(ctx, 0, 0, W, H, [[0, '#e9d9b6'], [0.6, '#dcc9a0'], [1, '#c8b184']]);
+
+// 5 animals (columns) × 3 time samples of the gait cycle (rows)
+const animals = [
+  ['horse', drawHorse, 0.56],
+  ['elephant', drawElephant, 0.42],
+  ['deer', drawDeer, 0.95],
+  ['cow', drawCow, 0.66],
+  ['bird', drawBird, 1.0],
+];
+const times = [0, 0.4, 0.8];
+const colW = W / animals.length;
+const rowH = H / times.length;
+
+// reference human height bar (400px @ s=1) so scale coherence is visible
+times.forEach((t, r) => {
+  const baseY = (r + 1) * rowH - 40;
+  animals.forEach(([name, draw, sc], ci) => {
+    const cx = ci * colW + colW / 2;
+    // faint ground line + reference 400*sc/... marker
+    ctx.strokeStyle = 'rgba(60,40,20,0.25)'; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(ci * colW + 20, baseY + 1); ctx.lineTo((ci + 1) * colW - 20, baseY + 1); ctx.stroke();
+    const opts = { x: cx, y: baseY, s: sc, facing: 1, t, seed: ci * 13 + 3, gait };
+    if (orn && name === 'horse') opts.ornament = true;
+    if (orn && name === 'elephant') { opts.ornament = true; opts.howdah = true; }
+    draw(ctx, opts);
+    if (r === 0) {
+      ctx.fillStyle = '#3a2410'; ctx.font = '22px Georgia'; ctx.textAlign = 'center';
+      ctx.fillText(name, cx, 30);
+    }
+  });
+  ctx.fillStyle = '#5a4020'; ctx.font = 'italic 18px Georgia'; ctx.textAlign = 'left';
+  ctx.fillText('t=' + t, 14, baseY - 4);
+});
+ctx.fillStyle = '#3a2410'; ctx.font = '20px Georgia'; ctx.textAlign = 'right';
+ctx.fillText('gait=' + gait + (orn ? ' · ornament' : ''), W - 20, 30);
+</script>
