@@ -1,0 +1,25 @@
+{
+  "_comment": "tts respells Sanskrit/proper names phonetically for offline TTS (pico2wave/espeak) — e.g. Draupadī → 'Drow-pa-dee', Kṛṣṇa → 'Krish-na', Yudhiṣṭhira → 'You-dish-teer'. display keeps full IAST diacritics for the on-screen subtitle track; tts is what's actually spoken. Aim for ~30-45 spoken words per scene. mood must be one of: mystic | festive | tense | tender | triumphant | somber | suspense (CONTRACTS.md 'Music moods'). See stories/winning-of-draupadi/script.json for the reference pattern this was scaffolded from.",
+  "title": "Bhīma and Bakāsura",
+  "subtitle": "",
+  "scenes": [
+    {
+      "id": "opening",
+      "name": "Opening",
+      "pad_before": 1.5,
+      "pad_after": 1.2,
+      "mood": "mystic",
+      "display": "REPLACE ME: the scene’s on-screen text, IAST diacritics welcome (~30-45 spoken words).",
+      "tts": "REPLACE ME: the same text, with proper names phonetically respelled for the TTS engine."
+    },
+    {
+      "id": "turn",
+      "name": "Turning Point",
+      "pad_before": 1,
+      "pad_after": 1.4,
+      "mood": "tense",
+      "display": "REPLACE ME: the scene’s on-screen text, IAST diacritics welcome (~30-45 spoken words).",
+      "tts": "REPLACE ME: the same text, with proper names phonetically respelled for the TTS engine."
+    }
+  ]
+}

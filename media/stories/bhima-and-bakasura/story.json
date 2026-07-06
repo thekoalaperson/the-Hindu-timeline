@@ -1,0 +1,37 @@
+{
+  "slug": "bhima-and-bakasura",
+  "title": "Bhīma and Bakāsura",
+  "subtitle": "",
+  "watchHint": "watch",
+  "sources": [],
+  "engineFiles": [
+    "core.js",
+    "paint.js",
+    "acting.js",
+    "wardrobe.js",
+    "person.js",
+    "archetypes.js",
+    "props.js",
+    "sets.js",
+    "stage.js"
+  ],
+  "storyFiles": [
+    "cast.js",
+    "timeline.js",
+    "film.js"
+  ],
+  "narration": {
+    "provider": "pico",
+    "voice": "en-GB",
+    "pitch": 0.95,
+    "tempo": 1.12
+  },
+  "music": {
+    "mode": "auto"
+  },
+  "video": {
+    "fps": 24,
+    "crf": 22
+  },
+  "titleHtml": "Bhīma and Bakāsura"
+}
