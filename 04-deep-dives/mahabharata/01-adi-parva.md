@@ -79,6 +79,8 @@ The book is told in nested frames: **Ugraśravas Sauti** narrates to the ṛṣi
 
 ## Draupadī's Svayaṃvara (Svayaṃvara Parva)
 
+> 🎬 *Watch:* this episode (Ādi 166–198, through the wedding) has a ~2-minute hand-coded animated retelling in [`media/winning-of-draupadi/`](../../media/winning-of-draupadi/README.md) — interactive player + MP4.
+
 - **The contest** - **Drupada**, hoping Arjuna lives, sets a near-impossible test: string a mighty bow and shoot a revolving fish-target (*matsya-yantra*) by looking only at its reflection in water below, to win **Draupadī (Kṛṣṇā / Pāñcālī)** (Vyāsa, Ādi 186–188).
 - **The kings fail; Karṇa rebuffed** - Assembled monarchs cannot lift or string the bow. **Karṇa** rises to attempt it but is rejected by Draupadī as a *sūta* (charioteer's son) — a wound that fuels his hatred (Ādi 188–190).
   - *Variant (Karṇa's attempt):* in some recensions Karṇa actually strings and nearly shoots before Draupadī's refusal; the vulgate has her stop him beforehand. [textual variant]

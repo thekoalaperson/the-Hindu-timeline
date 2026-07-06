@@ -1,0 +1,70 @@
+{
+  "title": "The Winning of Draupadī",
+  "subtitle": "Mahābhārata · Ādi Parva 166–198",
+  "scenes": [
+    {
+      "id": "fire",
+      "name": "Born of Fire",
+      "pad_before": 2.2,
+      "pad_after": 1.2,
+      "display": "In the kingdom of Pañchāla, King Drupada kindled a great sacrificial fire — and out of the flames arose a daughter. Draupadī: dark, radiant, born of no womb. The gods whispered that she would bend the fate of kings.",
+      "tts": "In the kingdom of Pun-chaala, King Droo-pada kindled a great sacrificial fire; and out of the flames arose a daughter. Drow-pa-dee. Dark, radiant, born of no womb. The gods whispered, that she would bend the fate of kings."
+    },
+    {
+      "id": "hall",
+      "name": "The Svayaṃvara",
+      "pad_before": 1.2,
+      "pad_after": 1.4,
+      "display": "When she came of age, kings from every land filled Drupada's hall. High above hung a golden fish, spinning on a wheel. Whoever could string the great bow, and pierce the fish's eye by its reflection alone, would win her hand.",
+      "tts": "When she came of age, kings from every land filled Droo-pada's hall. High above hung a golden fish, spinning on a wheel. Whoever could string the great bow, and pierce the fish's eye by its reflection alone, would win her hand."
+    },
+    {
+      "id": "kings",
+      "name": "The Kings Fail",
+      "pad_before": 1.0,
+      "pad_after": 1.2,
+      "display": "One by one, the proud kings strained against the bow — and one by one they fell back, defeated. Even Karṇa the golden rose to try; but Draupadī turned her face away.",
+      "tts": "One by one, the proud kings strained against the bow; and one by one they fell back, defeated. Even Kurna the golden rose to try; but Drow-pa-dee turned her face away."
+    },
+    {
+      "id": "rises",
+      "name": "A Stranger in White",
+      "pad_before": 1.0,
+      "pad_after": 1.2,
+      "display": "Then, from among the brahmins, a quiet young man in white stood up. The five Pāṇḍava brothers, believed dead in the burning of the lac house, had come to Pañchāla in disguise. His name was Arjuna.",
+      "tts": "Then, from among the brah-mins, a quiet young man in white stood up. The five Paan-dava brothers, believed dead in the burning of the lack house, had come to Pun-chaala in disguise. His name was Ar-joona."
+    },
+    {
+      "id": "shot",
+      "name": "The Eye of the Fish",
+      "pad_before": 1.2,
+      "pad_after": 3.2,
+      "display": "He circled the bow, and bowed his head. In a single breath he strung it. Then, gazing only into the water — at the trembling reflection of the wheel — he loosed five arrows into the sky.",
+      "tts": "He circled the bow, and bowed his head. In a single breath, he strung it. Then, gazing only into the water, at the trembling reflection of the wheel, he loosed five arrows into the sky."
+    },
+    {
+      "id": "garland",
+      "name": "The Garland",
+      "pad_before": 1.0,
+      "pad_after": 1.4,
+      "display": "The golden fish fell. And Draupadī came to the stranger, and laid her garland of white flowers upon his neck. In the crowd, Kṛṣṇa smiled — for he alone had recognized the brahmin.",
+      "tts": "The golden fish fell. And Drow-pa-dee came to the stranger, and laid her garland of white flowers upon his neck. In the crowd, Krish-na smiled; for he alone had recognized the brah-min."
+    },
+    {
+      "id": "kunti",
+      "name": "A Mother's Word",
+      "pad_before": 1.2,
+      "pad_after": 1.2,
+      "display": "That evening, at their mother's door, the brothers called out: \"Mother — see what we have brought!\" And Kuntī, without turning, answered: \"Share it among yourselves.\" A mother's word, once spoken, could not be unsaid.",
+      "tts": "That evening, at their mother's door, the brothers called out: Mother! See what we have brought! And Koon-tee, without turning, answered: share it among yourselves. A mother's word, once spoken, could not be unsaid."
+    },
+    {
+      "id": "wedding",
+      "name": "Five Flames, One Fate",
+      "pad_before": 1.0,
+      "pad_after": 3.6,
+      "display": "But the sage Vyāsa revealed a deeper design: in a former life, Draupadī had prayed five times to Lord Śiva for a worthy husband — and Śiva had granted all five prayers. And so Draupadī wed the five Pāṇḍava brothers; and their fates were bound together, until the end of the age.",
+      "tts": "But the sage Vee-yaasa revealed a deeper design. In a former life, Drow-pa-dee had prayed five times to Lord Shiva, for a worthy husband; and Shiva had granted all five prayers. And so Drow-pa-dee wed the five Paan-dava brothers; and their fates were bound together, until the end of the age."
+    }
+  ]
+}
