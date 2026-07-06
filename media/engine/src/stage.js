@@ -45,14 +45,68 @@
 //       3. Otherwise a small "[missing scene]" placeholder card is drawn so
 //          nothing throws.
 //
-//   validateStory(storyJson) -> {errors:[], warnings:[]}
+//   validateStory(storyJson, opts?) -> {errors:[], warnings:[]}
 //     Pure, Node-safe validation of the same storyDef shape — no canvas/DOM
 //     required, so it runs headless via engine/build/validate.mjs. Reports:
 //     unknown set names, actors with an unrecognised `who`, beats/moves that
 //     reference an actor id the scene never declared (error), malformed time
-//     specs (error), pose/fx names outside the known lists (warn), and
-//     scenes with neither a storyboard nor a confirmed JS fn (warn — this
-//     can't be verified statically, so it is always a warning, never fatal).
+//     specs (error), pose/fx names outside the known lists (warn), scenes
+//     with neither a storyboard nor a confirmed JS fn (warn — this can't be
+//     verified statically, so it is always a warning, never fatal), shot
+//     preset problems (unknown type: warn; missing/unknown slots: error),
+//     plus the COMPOSITION LINTER below. opts.timeline (the narrate.mjs
+//     timeline object) supplies real scene durations/narration windows;
+//     without it a nominal clock is assumed (dur 10s, narration 1..9s).
+//
+// ── Composition presets (scene-level "shot" field) ──────────────────────
+//   "shot": "wide" | {type, actor?|actors?} — generates the camera when the
+//   storyboard has no explicit "camera" keys (explicit camera always wins).
+//   Presets solve cam.x/y/z from the compiled actor position tracks through
+//   the exact camLayer f=1.0 projection (see stgProject), plus a small
+//   deterministic drift from a local hash-noise — the SAME function the
+//   linter evaluates, so runtime and validation see identical cameras.
+//     wide          slot (or featured) centroid centered, z_eff 1.05, feet
+//                   just inside the bottom safe margin.
+//     two-shot      {actors:[a,b]} — centered on the pair midpoint, z_eff
+//                   solved so both land on the golden sections (0.382/0.618
+//                   of frame width), clamped to [1.25, 2.2].
+//     close-up      {actor} — the actor's head region (top quarter of the
+//                   400·s figure box) fills ~55% of frame height, centered,
+//                   head at 45% vertical. The emotional close-up.
+//     processional  {actor} — tracks the moving actor with lead room in the
+//                   facing direction, z_eff 1.25.
+//     hero-frame    low-center symmetric: subject centered, z_eff 1.5,
+//                   grounded low in frame.
+//
+// ── Composition linter (inside validateStory; pure math, no rendering) ──
+//   Samples every storyboard scene at each beat time, each move/enter
+//   arrival, scene start/mid/end, and three points inside the narration
+//   window; projects each FEATURED actor's bounding box (±85·s wide, 400·s
+//   tall above the ground point) through the same camera the runtime uses,
+//   then checks:
+//     (a) [safe-area, ERROR]  the actor's head region (top 25% of the box)
+//         fully inside the 5% safe area. Deliberate deviation from the
+//         literal "whole box inside safe area": the house style crops feet
+//         and waists constantly (see scGarland/scRises framing), so the
+//         literal rule would flag every good frame; edge crops only ruin a
+//         composition when they take the head. Actors mid-entrance from an
+//         offscreen point, or moving toward one (deliberate exits), are
+//         skipped for this rule.
+//     (b) [overlap, WARN]     no two featured actors' boxes overlap more
+//         than 70% of the smaller box's area.
+//     (c) [facing, WARN]      facing sign agrees with the horizontal
+//         direction of each enter/move at its start (|dx| > 50 units).
+//     (d) [subtitle-band, ERROR] during the narration window, no featured
+//         actor's head region intersects the subtitle band (bottom 12%).
+//   Featured: "featured": true, or by default any actor that has beats
+//   targeting it or an enter ("featured": false opts out). Violations
+//   report scene id + time + actor id + rule tag, deduped per rule/actor.
+//
+// ── Dressing ────────────────────────────────────────────────────────────
+//   Scene-level "dressing" object: passthrough options merged into setOpts
+//   (dressing wins key collisions) — for set-specific extras (e.g. the
+//   legacy hallSet's drupadaSmile/raysAlpha) without growing the core
+//   setOpts contract.
 //
 // ── Node-loadable ──────────────────────────────────────────────────────
 // No top-level window/document access. Every browser/engine-global use
@@ -70,6 +124,41 @@ var STG_KNOWN_SETS = ['palaceHall', 'courtyardNight', 'hutDusk', 'mandap', 'fore
 var STG_KNOWN_POSES = ['stand', 'kneel', 'sit', 'bow', 'pranam', 'pray', 'point', 'refuse', 'shoot', 'carry', 'bless', 'shock', 'grief', 'dance'];
 var STG_KNOWN_ARCHETYPES = ['king', 'queen', 'prince', 'princess', 'warrior', 'brahmin', 'priest', 'villager', 'hunter'];
 var STG_KNOWN_FX = ['petals', 'glow', 'motes', 'flame', 'embers', 'smoke', 'godrays'];
+var STG_KNOWN_SHOTS = ['wide', 'two-shot', 'close-up', 'processional', 'hero-frame'];
+
+// ── shared camera math (used by shot presets AND the composition linter,
+//    in browser and node alike — so no engine globals here, only literals
+//    mirroring core.js's design space and camLayer()'s f=1.0 zoom curve). ──
+var STG_W = 1920, STG_H = 1080;
+// camLayer: z_eff = 1 + (cam.z - 1) * lerp(0.72, 1.22, min(f,1.3)/1.3); at
+// the subject plane f=1.0 the lerp factor is 0.72 + 0.5/1.3:
+var STG_CAM_F1 = 0.72 + 0.5 / 1.3;
+function stgZEff(camZ) { return 1 + (camZ - 1) * STG_CAM_F1; }
+function stgCamZFor(zEff) { return 1 + (zEff - 1) / STG_CAM_F1; }
+// world point -> screen point at subject plane f=1.0 (mirrors camLayer's
+// translate(W/2,H/2); scale(z_eff); translate(-W/2-cam.x, -H/2-cam.y)).
+function stgProject(cam, wx, wy) {
+  var z = stgZEff(cam.z);
+  return { x: STG_W / 2 + z * (wx - STG_W / 2 - cam.x), y: STG_H / 2 + z * (wy - STG_H / 2 - cam.y) };
+}
+// cam.y that puts world ground line gy at the screen height frac*H.
+function stgCamYForGround(gy, zEff, frac) {
+  return gy - STG_H / 2 - (frac * STG_H - STG_H / 2) / zEff;
+}
+// local deterministic noise (pure copies of core.js's hash1/noise1 recipe)
+// for preset camera drift — local so the node-side linter computes the
+// EXACT same camera as the browser runtime. No Math.random anywhere.
+function stgHash1(n) { var x = Math.sin(n * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); }
+function stgSmoothT(t) { return t * t * (3 - 2 * t); }
+function stgNoise1(x, seed) {
+  var i = Math.floor(x), f = x - i;
+  return stgLerp(stgHash1(i + seed * 57.31), stgHash1(i + 1 + seed * 57.31), stgSmoothT(f));
+}
+function stgSfbm1(x, seed) {
+  var v = 0, amp = 0.5, xx = x;
+  for (var o = 0; o < 3; o++) { v += amp * stgNoise1(xx, seed + o * 13); xx *= 2.03; amp *= 0.5; }
+  return v * 2 - 1;
+}
 
 // ── time-spec grammar: number (seconds) | "NN%" (of scene dur) | "narr+X" /
 //    "narr-X" (X seconds relative to narration start). Shared by the
@@ -293,6 +382,7 @@ function stgCompileStoryboard(id, sb, sceneMeta) {
       facing: a.facing === undefined ? 1 : a.facing, z: a.z,
       gaitAmp: a.gaitAmp, style: stgResolveActorStyle(a.who),
       seed: (stgStrSeed(a.id) % 89) + 2,
+      featuredExplicit: a.featured, hasEnter: !!a.enter, hasBeat: false,
       posSegments: [], poseBeats: [], faceBeats: [],
     };
     if (a.enter) {
@@ -314,6 +404,7 @@ function stgCompileStoryboard(id, sb, sceneMeta) {
     if (b.fx) fxBeats.push({ t: at2, fx: b.fx, opts: b.opts || {} });
     var actor2 = b.actor && actors[b.actor];
     if (!actor2) continue;
+    actor2.hasBeat = true;
     if (b.pose) actor2.poseBeats.push({ t: at2, pose: b.pose, over: b.over === undefined ? 1 : b.over, ease: b.ease || 'io' });
     if (b.face) actor2.faceBeats.push({ t: at2, face: b.face, over: b.over === undefined ? 1 : b.over, ease: b.ease || 'io' });
     if (b.move) {
@@ -329,6 +420,8 @@ function stgCompileStoryboard(id, sb, sceneMeta) {
     ac.poseBeats.sort(function (x, y) { return x.t - y.t; });
     ac.faceBeats.sort(function (x, y) { return x.t - y.t; });
     ac.posSegments.sort(function (x, y) { return x.t0 - y.t0; });
+    // featured: explicit flag wins; else any beat target or an enter.
+    ac.featured = ac.featuredExplicit !== undefined ? !!ac.featuredExplicit : !!(ac.hasBeat || ac.hasEnter);
   }
   fxBeats.sort(function (x, y) { return x.t - y.t; });
 
@@ -336,7 +429,15 @@ function stgCompileStoryboard(id, sb, sceneMeta) {
     return { t: T(kf.t === undefined ? 0 : kf.t), x: kf.x === undefined ? 0 : kf.x, y: kf.y === undefined ? 0 : kf.y, z: kf.z === undefined ? 1 : kf.z, ease: kf.ease || 'io' };
   }).sort(function (x, y) { return x.t - y.t; });
 
-  return { id: id, sb: sb, actors: actors, fxBeats: fxBeats, camera: camera, dur: dur };
+  var shot = sb.shot;
+  if (typeof shot === 'string') shot = { type: shot };
+  if (!shot || typeof shot !== 'object' || Array.isArray(shot)) shot = null;
+
+  return {
+    id: id, sb: sb, actors: actors, fxBeats: fxBeats, camera: camera, dur: dur,
+    narrLocal: narrLocal, narrDur: sceneMeta.narrDur || 0,
+    shot: shot, camSeed: (stgStrSeed(id) % 977) + 3,
+  };
 }
 
 // ── per-frame evaluation of one actor's position/pose/face from the
@@ -374,6 +475,73 @@ function stgEvalFace(actor, tl) {
   }
   return result;
 }
+// ── shot-preset cameras: pure functions of the compiled scene + tl, shared
+//    verbatim by the runtime draw path and the node-side linter. ──
+function stgShotSlots(compiled, spec) {
+  var ids = [];
+  if (spec.actor) ids = [spec.actor];
+  else if (Array.isArray(spec.actors)) ids = spec.actors.slice();
+  var out = [];
+  for (var i = 0; i < ids.length; i++) if (compiled.actors[ids[i]]) out.push(compiled.actors[ids[i]]);
+  if (!out.length) { // no/unknown slots: fall back to featured actors, else all
+    var all = Object.keys(compiled.actors);
+    for (var j = 0; j < all.length; j++) if (compiled.actors[all[j]].featured) out.push(compiled.actors[all[j]]);
+    if (!out.length) for (var k = 0; k < all.length; k++) out.push(compiled.actors[all[k]]);
+  }
+  return out;
+}
+function stgShotCamera(compiled, spec, tl) {
+  var slots = stgShotSlots(compiled, spec);
+  if (!slots.length) return null;
+  var pos = [], cx = 0, gy = -Infinity, i;
+  for (i = 0; i < slots.length; i++) {
+    var p = stgEvalPosition(slots[i], tl, tl);
+    pos.push(p); cx += p.x; if (p.y > gy) gy = p.y;
+  }
+  cx /= slots.length;
+  var type = spec.type, zEff, camX, camY, s;
+  if (type === 'two-shot') {
+    var a = pos[0], b = pos[1] || pos[0];
+    var sep = Math.abs(b.x - a.x);
+    // z_eff putting the pair on the golden sections (0.618-0.382 = 0.236 of W)
+    zEff = stgClamp(0.236 * STG_W / Math.max(sep, 1), 1.25, 2.2);
+    camX = (a.x + b.x) / 2 - STG_W / 2;
+    camY = stgCamYForGround(gy, zEff, 0.945);
+  } else if (type === 'close-up') {
+    s = slots[0].s;
+    zEff = 0.55 * STG_H / (100 * s);      // head region (top quarter of 400·s) -> 55% of H
+    camX = pos[0].x - STG_W / 2;
+    // head-region centre (gy - 350·s) parked at 45% frame height
+    camY = (pos[0].y - 350 * s) - STG_H / 2 - (0.45 * STG_H - STG_H / 2) / zEff;
+  } else if (type === 'processional') {
+    zEff = 1.25;
+    // subject trails centre by 90px: lead room in the walking direction
+    camX = pos[0].x - STG_W / 2 + (slots[0].facing || 1) * 90 / zEff;
+    camY = stgCamYForGround(gy, zEff, 0.945);
+  } else if (type === 'hero-frame') {
+    zEff = 1.5;
+    camX = cx - STG_W / 2;
+    camY = stgCamYForGround(gy, zEff, 0.97);
+  } else { // 'wide' (and, at runtime, any unknown type the validator warned about)
+    zEff = 1.05;
+    camX = stgClamp(cx - STG_W / 2, -280, 280);
+    camY = stgCamYForGround(gy, zEff, 0.945);
+  }
+  // gentle deterministic handheld drift — identical in runtime and linter.
+  camX += stgSfbm1(tl * 0.12, compiled.camSeed) * 4;
+  camY += stgSfbm1(tl * 0.11, compiled.camSeed + 5) * 2.5;
+  return { x: camX, y: camY, z: stgCamZFor(zEff) };
+}
+// the ONE camera evaluator: explicit keys > shot preset > identity.
+function stgCameraAt(compiled, tl) {
+  if (compiled.camera.length) return stgCamTrack(compiled.camera, tl);
+  if (compiled.shot) {
+    var c = stgShotCamera(compiled, compiled.shot, tl);
+    if (c) return c;
+  }
+  return { x: 0, y: 0, z: 1 };
+}
+
 function stgSafeWalkPose(ph, amp) { return typeof walkPose === 'function' ? walkPose(ph, amp) : {}; }
 function stgSafeDrawFigure(c, o) { if (typeof drawFigure === 'function') drawFigure(c, o); }
 
@@ -476,11 +644,12 @@ function stgGetSceneFn(id) {
 // draws one already-compiled storyboard scene at scene-local time tl.
 function stgDrawStoryboardScene(ctx, compiled, tl, t) {
   var sb = compiled.sb;
-  var cam = compiled.camera.length ? stgCamTrack(compiled.camera, tl) : { x: 0, y: 0, z: 1 };
+  var cam = stgCameraAt(compiled, tl);
   var actorsHook = function (c) { stgDrawActors(c, compiled, tl, t); };
   var setName = sb.set;
+  var dressing = (sb.dressing && typeof sb.dressing === 'object' && !Array.isArray(sb.dressing)) ? sb.dressing : null;
   if (setName && typeof SETS !== 'undefined' && SETS && typeof SETS[setName] === 'function') {
-    var setOpts = Object.assign({}, sb.setOpts, { actors: actorsHook });
+    var setOpts = Object.assign({}, sb.setOpts, dressing, { actors: actorsHook });
     SETS[setName](ctx, cam, t, setOpts);
   } else {
     stgDrawFallbackBackdrop(ctx, setName, compiled.id);
@@ -605,10 +774,157 @@ function buildFilmFromStory(storyDef, TIMELINE) {
   return film;
 }
 
+// ── composition linter: pure geometry over the compiled scene ───────────
+var STG_SAFE = 0.05;          // 5% safe-area margin
+var STG_SUB_BAND = 0.88;      // subtitle band = bottom 12% of frame
+var STG_HEAD_FRAC = 0.25;     // head region = top quarter of the actor box
+
+function stgActorWorldBox(actor, tt) {
+  var p = stgEvalPosition(actor, tt, tt);
+  var s = actor.s;
+  return { x0: p.x - 85 * s, x1: p.x + 85 * s, y0: p.y - 400 * s, y1: p.y };
+}
+function stgProjectBox(cam, box) {
+  var a = stgProject(cam, box.x0, box.y0), b = stgProject(cam, box.x1, box.y1);
+  return {
+    x0: Math.min(a.x, b.x), x1: Math.max(a.x, b.x),
+    y0: Math.min(a.y, b.y), y1: Math.max(a.y, b.y),
+  };
+}
+function stgHeadRegion(pbox) {
+  return { x0: pbox.x0, x1: pbox.x1, y0: pbox.y0, y1: pbox.y0 + (pbox.y1 - pbox.y0) * STG_HEAD_FRAC };
+}
+function stgActiveSegment(actor, tt) {
+  var segs = actor.posSegments, seg = segs[0];
+  for (var i = 0; i < segs.length; i++) if (tt >= segs[i].t0) seg = segs[i];
+  return seg;
+}
+function stgPtOffFrame(cam, wx, wy) {
+  var p = stgProject(cam, wx, wy);
+  return p.x < 0 || p.x > STG_W || p.y < 0 || p.y > STG_H;
+}
+// true while the actor is intentionally out of/entering frame: mid-entrance
+// from an offscreen point, or moving toward an offscreen point (an exit).
+function stgIntentionallyOut(actor, cam, tt) {
+  var seg = stgActiveSegment(actor, tt);
+  if (!isFinite(seg.t0)) return false; // static placement
+  var hy = 350 * actor.s;
+  if (tt <= seg.t1 && stgPtOffFrame(cam, seg.from[0], seg.from[1] - hy)) return true;
+  if (stgPtOffFrame(cam, seg.to[0], seg.to[1] - hy)) return true;
+  return false;
+}
+function stgFmtT(t) { return (Math.round(t * 100) / 100).toString(); }
+
+function stgLintScene(compiled, out) {
+  var id = compiled.id, dur = compiled.dur;
+  var narr0 = compiled.narrLocal, narr1 = narr0 + compiled.narrDur;
+  var safeX0 = STG_W * STG_SAFE, safeX1 = STG_W * (1 - STG_SAFE);
+  var safeY0 = STG_H * STG_SAFE, safeY1 = STG_H * (1 - STG_SAFE);
+  var bandY = STG_H * STG_SUB_BAND;
+  var ids = Object.keys(compiled.actors);
+  var seen = {}; // dedupe: one report per rule+actor(+pair)
+  function report(kind, key, msg) {
+    if (seen[key]) return;
+    seen[key] = true;
+    (kind === 'error' ? out.errors : out.warnings).push(msg);
+  }
+
+  // sample times: beats, segment starts/arrivals, start/mid/end, narration edges
+  var times = [0, dur / 2, Math.max(dur - 0.05, 0)];
+  if (compiled.narrDur > 0) times.push(narr0 + 0.1, (narr0 + narr1) / 2, narr1 - 0.1);
+  for (var ti = 0; ti < compiled.fxBeats.length; ti++) times.push(compiled.fxBeats[ti].t);
+  for (var ai = 0; ai < ids.length; ai++) {
+    var ac = compiled.actors[ids[ai]];
+    for (var pi = 0; pi < ac.poseBeats.length; pi++) times.push(ac.poseBeats[pi].t);
+    for (var fi = 0; fi < ac.faceBeats.length; fi++) times.push(ac.faceBeats[fi].t);
+    for (var si = 0; si < ac.posSegments.length; si++) {
+      var sg = ac.posSegments[si];
+      if (isFinite(sg.t0)) times.push(sg.t0, sg.t1);
+    }
+  }
+  var samples = [];
+  var seenT = {};
+  for (var i = 0; i < times.length; i++) {
+    var tt = stgClamp(times[i], 0, Math.max(dur - 0.001, 0));
+    var tk = Math.round(tt * 1000);
+    if (!seenT[tk]) { seenT[tk] = true; samples.push(tt); }
+  }
+  samples.sort(function (a, b) { return a - b; });
+
+  // rule (c): facing vs movement direction — per segment, sample-independent
+  for (var ci = 0; ci < ids.length; ci++) {
+    var a3 = compiled.actors[ids[ci]];
+    if (!a3.featured) continue;
+    for (var s3 = 0; s3 < a3.posSegments.length; s3++) {
+      var seg = a3.posSegments[s3];
+      if (!isFinite(seg.t0)) continue;
+      var dx = seg.to[0] - seg.from[0];
+      if (Math.abs(dx) > 50 && dx * a3.facing < 0) {
+        report('warn', 'c|' + a3.id + '|' + s3,
+          'scene "' + id + '": [facing] actor "' + a3.id + '" moves ' + (dx > 0 ? 'right' : 'left') +
+          ' (dx=' + Math.round(dx) + ') from t=' + stgFmtT(Math.max(seg.t0, 0)) + ' while facing ' + a3.facing + '.');
+      }
+    }
+  }
+
+  // rules (a), (b), (d) at each sample time
+  for (var s4 = 0; s4 < samples.length; s4++) {
+    var t4 = samples[s4];
+    var cam = stgCameraAt(compiled, t4);
+    var boxes = [];
+    for (var a4 = 0; a4 < ids.length; a4++) {
+      var actor = compiled.actors[ids[a4]];
+      if (!actor.featured) continue;
+      if (stgIntentionallyOut(actor, cam, t4)) continue;
+      var pbox = stgProjectBox(cam, stgActorWorldBox(actor, t4));
+      var head = stgHeadRegion(pbox);
+      boxes.push({ id: actor.id, box: pbox });
+      // (a) head region inside the 5% safe area
+      if (head.x0 < safeX0 || head.x1 > safeX1 || head.y0 < safeY0 || head.y1 > safeY1) {
+        report('error', 'a|' + actor.id,
+          'scene "' + id + '": [safe-area] t=' + stgFmtT(t4) + ' actor "' + actor.id +
+          '" head region outside 5% safe area (head x ' + Math.round(head.x0) + '..' + Math.round(head.x1) +
+          ', y ' + Math.round(head.y0) + '..' + Math.round(head.y1) + '; safe x ' + Math.round(safeX0) + '..' + Math.round(safeX1) +
+          ', y ' + Math.round(safeY0) + '..' + Math.round(safeY1) + ').');
+      }
+      // (d) head region vs subtitle band during narration
+      if (compiled.narrDur > 0 && t4 >= narr0 && t4 <= narr1 && head.y1 >= bandY && head.y0 <= STG_H) {
+        report('error', 'd|' + actor.id,
+          'scene "' + id + '": [subtitle-band] t=' + stgFmtT(t4) + ' actor "' + actor.id +
+          '" head region intersects subtitle band during narration (head y ' + Math.round(head.y0) + '..' + Math.round(head.y1) +
+          ', band y>=' + Math.round(bandY) + ').');
+      }
+    }
+    // (b) featured-actor overlap > 70% of the smaller box
+    for (var p1 = 0; p1 < boxes.length; p1++) {
+      for (var p2 = p1 + 1; p2 < boxes.length; p2++) {
+        var A = boxes[p1].box, B = boxes[p2].box;
+        var ix = Math.min(A.x1, B.x1) - Math.max(A.x0, B.x0);
+        var iy = Math.min(A.y1, B.y1) - Math.max(A.y0, B.y0);
+        if (ix <= 0 || iy <= 0) continue;
+        var inter = ix * iy;
+        var minArea = Math.min((A.x1 - A.x0) * (A.y1 - A.y0), (B.x1 - B.x0) * (B.y1 - B.y0));
+        if (minArea > 0 && inter / minArea > 0.7) {
+          report('warn', 'b|' + boxes[p1].id + '|' + boxes[p2].id,
+            'scene "' + id + '": [overlap] t=' + stgFmtT(t4) + ' actors "' + boxes[p1].id + '"+"' + boxes[p2].id +
+            '" overlap ' + Math.round(inter / minArea * 100) + '% of the smaller box.');
+        }
+      }
+    }
+  }
+}
+
 // ── validateStory: static, Node-safe validation ─────────────────────────
-function validateStory(storyJson) {
+function validateStory(storyJson, opts) {
   var errors = [];
   var warnings = [];
+  var timeline = opts && opts.timeline;
+  function metaFor(id) {
+    var scs = timeline && timeline.scenes;
+    if (scs) for (var mi = 0; mi < scs.length; mi++) if (scs[mi].id === id) return scs[mi];
+    // nominal clock when no timeline exists yet (pre-narration authoring)
+    return { start: 0, dur: 10, narrAt: 1, narrDur: 8 };
+  }
   var scenes = stgNormalizeScenes(storyJson);
   if (!scenes.length) {
     warnings.push('story has no scenes[] to validate.');
@@ -663,6 +979,44 @@ function validateStory(storyJson) {
       if (b.fx && !stgIsKnownFx(b.fx)) warnings.push('scene "' + id + '": beat fx "' + b.fx + '" not in known fx list.');
       if (b.move && b.move.t1 !== undefined && !stgIsValidTime(b.move.t1)) errors.push('scene "' + id + '": move beat t1 malformed time ' + JSON.stringify(b.move.t1) + '.');
       if (!b.actor && !b.fx) warnings.push('scene "' + id + '": beat at ' + JSON.stringify(b.at) + ' has neither actor nor fx — no effect.');
+    }
+
+    // ── shot preset checks ──
+    var shot = sb.shot;
+    if (shot !== undefined) {
+      if (typeof shot === 'string') shot = { type: shot };
+      if (!shot || typeof shot !== 'object' || Array.isArray(shot)) {
+        warnings.push('scene "' + id + '": malformed "shot" (expected string or {type,...}) — ignored.');
+        shot = null;
+      }
+      if (shot) {
+        if (STG_KNOWN_SHOTS.indexOf(shot.type) === -1) {
+          warnings.push('scene "' + id + '": unknown shot type ' + JSON.stringify(shot.type) + ' — camera falls back to default framing.');
+        }
+        var slotIds = shot.actor !== undefined ? [shot.actor] : (Array.isArray(shot.actors) ? shot.actors : []);
+        for (var sli = 0; sli < slotIds.length; sli++) {
+          if (!actorIds[slotIds[sli]]) errors.push('scene "' + id + '": shot references unknown actor id "' + slotIds[sli] + '".');
+        }
+        if ((shot.type === 'close-up' || shot.type === 'processional') && shot.actor === undefined) {
+          errors.push('scene "' + id + '": shot type "' + shot.type + '" requires an "actor" slot.');
+        }
+        if (shot.type === 'two-shot' && (!Array.isArray(shot.actors) || shot.actors.length !== 2)) {
+          errors.push('scene "' + id + '": shot type "two-shot" requires exactly two ids in "actors".');
+        }
+      }
+    }
+
+    // ── dressing shape check ──
+    if (sb.dressing !== undefined && (typeof sb.dressing !== 'object' || sb.dressing === null || Array.isArray(sb.dressing))) {
+      warnings.push('scene "' + id + '": "dressing" should be a plain object of setOpts overrides — ignored.');
+    }
+
+    // ── composition linter (pure math over the compiled scene) ──
+    try {
+      var compiled = stgCompileStoryboard(id, sb, metaFor(id));
+      stgLintScene(compiled, { errors: errors, warnings: warnings });
+    } catch (e) {
+      errors.push('scene "' + id + '": storyboard failed to compile: ' + (e && e.message ? e.message : String(e)));
     }
   }
   return { errors: errors, warnings: warnings };

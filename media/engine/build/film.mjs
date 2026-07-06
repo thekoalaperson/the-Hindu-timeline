@@ -20,6 +20,8 @@
 //   --story <slug|path>   required (forwarded to every step; see lib.mjs)
 //   --provider <name>     forwarded to narrate.mjs (audio/all steps only)
 //   --legacy              forwarded to music.mjs (audio/all steps only)
+//   --raga <name>         forwarded to music.mjs (audio/all steps only):
+//                          whole-film raga pin (yamanish|bhairavish|deshish)
 //   --dry                 print the plan (every command it would run) and
 //                          exit without executing or touching disk.
 //

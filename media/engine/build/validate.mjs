@@ -7,7 +7,7 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { createRequire } from 'node:module';
-import { storyDir, loadStory, engineDir } from './lib.mjs';
+import { storyDir, loadStory, loadTimeline, engineDir } from './lib.mjs';
 
 const dir = storyDir(process.argv);
 const story = loadStory(dir); // story.json
@@ -15,6 +15,12 @@ const story = loadStory(dir); // story.json
 let script = null;
 const scriptPath = join(dir, 'script.json');
 if (existsSync(scriptPath)) script = JSON.parse(readFileSync(scriptPath, 'utf8'));
+
+// timeline.json (present once narrate.mjs has run) gives the composition
+// linter real scene durations + narration windows; without it stage.js
+// assumes a nominal per-scene clock (dur 10s, narration 1..9s).
+let timeline = null;
+if (existsSync(join(dir, 'timeline.json'))) timeline = loadTimeline(dir);
 
 // Normalize into the {scenes:[{id, storyboard?}, ...]} shape validateStory
 // expects. A future data-driven story carries its own `scenes[]` (array or
@@ -36,9 +42,9 @@ const sceneCount = Array.isArray(storyJson.scenes) ? storyJson.scenes.length : O
 const require = createRequire(import.meta.url);
 const { validateStory } = require(join(engineDir, 'src', 'stage.js'));
 
-const { errors, warnings } = validateStory(storyJson);
+const { errors, warnings } = validateStory(storyJson, { timeline });
 
-console.log(`validating "${story.slug || dir}" (${sceneCount} scene${sceneCount === 1 ? '' : 's'})`);
+console.log(`validating "${story.slug || dir}" (${sceneCount} scene${sceneCount === 1 ? '' : 's'}${timeline ? ', timeline.json clock' : ', nominal clock'})`);
 for (const w of warnings) console.warn('WARN:  ' + w);
 for (const e of errors) console.error('ERROR: ' + e);
 console.log(`${errors.length} error(s), ${warnings.length} warning(s).`);

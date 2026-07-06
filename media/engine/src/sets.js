@@ -77,13 +77,28 @@ function _grade(ctx, opts) {
 function _actors(ctx, cam, opts) {
   if (opts && opts.actors) camLayer(ctx, cam, 1.0, c => opts.actors(c));
 }
-// drifting cloud band
+// drifting cloud — overlapping circles merged into one soft puffy silhouette.
+// `col` is a solid colour; `a` sets translucency.
 function _cloud(ctx, x, y, w, h, col, a) {
-  ctx.save(); ctx.globalAlpha = a;
-  for (let i = 0; i < 5; i++) {
-    const cx = x + (i - 2) * w * 0.24, cy = y + (i % 2) * h * 0.3;
-    softDisc(ctx, cx, cy, h * (0.7 + (i % 2) * 0.4), col, 'rgba(0,0,0,0)');
+  ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = col;
+  ctx.beginPath();
+  const lobes = 8;
+  for (let i = 0; i < lobes; i++) {
+    const u = i / (lobes - 1);
+    const env = Math.sin(u * Math.PI);                       // 0 ends → 1 middle
+    const cx = x + (u - 0.5) * w;
+    const cy = y - env * h * 0.55;
+    const r = h * (0.5 + env * 0.85);
+    ctx.moveTo(cx + r, cy); ctx.arc(cx, cy, r, 0, TAU);
   }
+  for (let i = 0; i < 4; i++) {                              // soft under-lobes (no hard base)
+    const u = (i + 0.5) / 4;
+    const cx = x + (u - 0.5) * w * 0.82;
+    ctx.moveTo(cx + h * 0.62, y + h * 0.16); ctx.arc(cx, y + h * 0.16, h * 0.62, 0, TAU);
+  }
+  ctx.fill();
+  ctx.globalAlpha = a * 0.34; ctx.fillStyle = '#ffffff';     // top light
+  ctx.beginPath(); ctx.ellipse(x, y - h * 0.28, w * 0.26, h * 0.42, 0, 0, TAU); ctx.fill();
   ctx.restore();
 }
 // simple conifer silhouette (deodar / distant tree)
@@ -102,33 +117,36 @@ function _conifer(ctx, x, base, h, w, col) {
     ctx.closePath(); ctx.fill();
   }
 }
-// mountain ridge silhouette via fbm; returns nothing
+// mountain ridge silhouette via fbm
+function _ridgeY(x, baseY, amp, seed) {
+  return baseY - fbm1(x * 0.0016 + seed, seed, 4) * amp - Math.abs(snoise1(x * 0.006, seed + 5)) * amp * 0.32;
+}
 function _ridge(ctx, baseY, amp, floorY, col, seed) {
   ctx.fillStyle = col;
   ctx.beginPath();
   ctx.moveTo(-80, floorY);
   ctx.lineTo(-80, baseY);
-  for (let x = -80; x <= W + 80; x += 46) {
-    const h = baseY - fbm1(x * 0.0016 + seed, seed, 4) * amp - Math.abs(snoise1(x * 0.006, seed + 5)) * amp * 0.32;
-    ctx.lineTo(x, h);
-  }
+  for (let x = -80; x <= W + 80; x += 30) ctx.lineTo(x, _ridgeY(x, baseY, amp, seed));
   ctx.lineTo(W + 80, floorY);
   ctx.closePath(); ctx.fill();
 }
-// snow line over the last-drawn ridge shape (recomputed), above snowY
+// snow: a white band hugging the ridge crest, deeper on high peaks, pinching to
+// nothing where the ridge dips below snowY (so caps sit on peaks, not a sawtooth)
 function _snowCap(ctx, baseY, amp, snowY, seed) {
-  ctx.fillStyle = 'rgba(244,248,255,0.92)';
-  for (let x = -80; x <= W + 80; x += 46) {
-    const h = baseY - fbm1(x * 0.0016 + seed, seed, 4) * amp - Math.abs(snoise1(x * 0.006, seed + 5)) * amp * 0.32;
-    if (h < snowY) {
-      ctx.beginPath();
-      ctx.moveTo(x - 24, h + 46);
-      ctx.lineTo(x, h);
-      ctx.lineTo(x + 24, h + 46);
-      ctx.quadraticCurveTo(x, h + 30, x - 24, h + 46);
-      ctx.closePath(); ctx.fill();
-    }
+  const step = 20, top = [], bot = [];
+  for (let x = -80; x <= W + 80; x += step) {
+    const h = _ridgeY(x, baseY, amp, seed);
+    top.push([x, h]);
+    bot.push([x, h + clamp((snowY - h) / 90, 0, 1) * 92]);
   }
+  ctx.beginPath();
+  ctx.moveTo(top[0][0], top[0][1]);
+  for (let i = 1; i < top.length; i++) ctx.lineTo(top[i][0], top[i][1]);
+  for (let i = bot.length - 1; i >= 0; i--) ctx.lineTo(bot[i][0], bot[i][1]);
+  ctx.closePath();
+  const g = ctx.createLinearGradient(0, baseY - amp, 0, snowY + 40);
+  g.addColorStop(0, 'rgba(250,252,255,0.96)'); g.addColorStop(1, 'rgba(226,235,250,0.12)');
+  ctx.fillStyle = g; ctx.fill();
 }
 // fireflies over a region (dusk/night)
 function _fireflies(ctx, t, region, n, seed) {
@@ -220,7 +238,7 @@ SETS.palaceHall = function (ctx, cam, t, o) {
   });
 
   // god rays from upper windows
-  const raysA = o.rays === undefined ? (0.16 * dim) : o.rays;
+  const raysA = o.rays === undefined ? (0.12 * dim) : o.rays;
   const rseed = (o.seed == null ? 4 : o.seed);
   camLayer(ctx, cam, 0.3, (c) => {
     _placedRays(c, rseed, T.light, raysA, t, { n: 2 + (rseed % 2), x0: 160, x1: 1080, y0: 20, y1: 90, ang: 0.98, angJit: 0.55, spread: 0.32, len: 1500 });
@@ -523,12 +541,13 @@ SETS.forest = function (ctx, cam, t, o) {
   // L1 far misty tree wall
   camLayer(ctx, cam, 0.14, (c) => {
     const wall = cached('forest-far-' + tod, W, H, (g) => {
-      g.fillStyle = _hx('#2c4a2e', (dim - 1) * 0.4);
+      const col = _hx('#2c4a2e', (dim - 1) * 0.4);
+      g.fillStyle = col;
+      g.fillRect(-100, 690, W + 200, 420);                 // solid base — no sky gaps
       for (let i = 0; i < 26; i++) {
         const x = i * 80 + snoise1(i * 3, 4) * 30;
         const h = 380 + hash1(i * 7) * 260;
-        g.beginPath(); g.ellipse(x, 760 - h * 0.4, 70, h * 0.5, 0, 0, TAU); g.fill();
-        g.fillRect(x - 10, 760 - h * 0.1, 20, h * 0.3);
+        g.beginPath(); g.ellipse(x, 760 - h * 0.4, 70, h * 0.5, 0, 0, TAU); g.fill();  // lumpy canopy top
       }
     });
     c.drawImage(wall, 0, 0);
@@ -612,7 +631,7 @@ SETS.village = function (ctx, cam, t, o) {
     if (tod === 'day' || tod === 'dawn' || tod === 'dusk') _sunDisc(c, T);
     else _crescent(c, 1650, 160, 40);
     // drifting clouds
-    if (tod !== 'night') for (let i = 0; i < 3; i++) _cloud(c, ((t * 6 + i * 700) % (W + 600)) - 300, 150 + i * 70, 460, 46, 'rgba(255,250,240,0.6)', tod === 'day' ? 0.7 : 0.4);
+    if (tod !== 'night') for (let i = 0; i < 3; i++) _cloud(c, ((t * 6 + i * 700) % (W + 900)) - 400, 140 + (i % 2) * 60, 480, 48, '#fff6ea', tod === 'day' ? 0.62 : 0.4);
   });
   // distant fields + treeline
   camLayer(ctx, cam, 0.2, (c) => {
@@ -839,7 +858,7 @@ SETS.interior = function (ctx, cam, t, o) {
   // L3 pillars
   camLayer(ctx, cam, 0.82, (c) => {
     drawPillar(c, 260, H - 40, 110, 1040, '#7c4a22');
-    drawPillar(c, 1380, H - 40, 110, 1040, '#7c4a22');
+    drawPillar(c, 1300, H - 40, 110, 1040, '#7c4a22');
   });
 
   // L4 subject: floor + low seat + lamps + actors
@@ -916,9 +935,9 @@ SETS.mountain = function (ctx, cam, t, o) {
   });
   // drifting clouds high up
   camLayer(ctx, cam, 0.1, (c) => {
-    for (let i = 0; i < 4; i++) {
-      const cx = ((t * 8 + i * 620) % (W + 800)) - 400;
-      _cloud(c, cx, 200 + i * 60, 520, 46, tod === 'night' ? 'rgba(120,130,170,0.4)' : 'rgba(255,255,255,0.75)', 0.7);
+    for (let i = 0; i < 3; i++) {
+      const cx = ((t * 6 + i * 780) % (W + 1200)) - 560;
+      _cloud(c, cx, 170 + (i % 2) * 90, 720, 68, tod === 'night' ? '#8a92b4' : '#ffffff', tod === 'night' ? 0.4 : 0.62);
     }
   });
   // farthest ridge — palest (atmospheric fade)

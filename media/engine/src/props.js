@@ -642,18 +642,23 @@ function treeBanyan(ctx, o) {
     const top = -430 - hash1(i * 5 + seed) * 60;
     ctx.beginPath(); ctx.moveTo(rx, top); ctx.quadraticCurveTo(rx + snoise1(i, seed) * 20, top / 2, rx + snoise1(i * 7, seed) * 26, -20 - hash1(i) * 60); ctx.stroke();
   }
-  // canopy: layered leaf clusters
+  // canopy: layered leaf clusters (spread tones so the mass reads as volume,
+  // dark clumps behind/below → light clumps up front, plus an underside shadow)
   const cy = -430;
-  const dark = '#274a1c', mid = '#356b26', lite = '#4d8a30';
+  const dark = '#1c3c14', mid = '#356b26', lite = '#5c9c38';
   const clusters = [
     [0, cy, 360, 190, dark], [-210, cy + 30, 200, 150, dark], [210, cy + 20, 210, 150, dark],
     [-90, cy - 70, 220, 160, mid], [110, cy - 60, 220, 160, mid], [0, cy - 20, 260, 170, mid],
-    [-60, cy - 120, 150, 120, lite], [90, cy - 110, 150, 120, lite],
+    [-60, cy - 120, 150, 120, lite], [90, cy - 110, 150, 120, lite], [-160, cy - 40, 120, 100, lite],
   ];
   for (let i = 0; i < clusters.length; i++) {
     const [cx, ccy, rx, ry, col] = clusters[i];
     const wob = sfbm1(t * 0.5 + i * 2, seed + i) * 8;
     _leafBlob(ctx, cx + wob + sway * ccy, ccy, rx, ry, 0, col);
+    // each clump gets a small shaded lower-belly for roundness
+    ctx.fillStyle = 'rgba(15,30,10,0.22)';
+    ctx.beginPath(); ctx.ellipse(cx + wob + sway * ccy, ccy + ry * 0.42, rx * 0.82, ry * 0.34, 0, 0, TAU); ctx.fill();
+    _leafBlob(ctx, cx + wob + sway * ccy - rx * 0.18, ccy - ry * 0.3, rx * 0.5, ry * 0.4, 0, _hx(col, 0.12));
   }
   // leaf stipple highlights
   ctx.fillStyle = 'rgba(150,200,90,0.5)';

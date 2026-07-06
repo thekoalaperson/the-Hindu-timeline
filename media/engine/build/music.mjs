@@ -3,64 +3,82 @@
 // Tanpura drone (Karplus-Strong), bansuri (additive w/ vibrato+breath),
 // tabla-ish percussion, temple bells, climax boom.
 //
-//   node music.mjs --story <slug> [--legacy]
+//   node music.mjs --story <slug> [--legacy] [--raga <name>]
 //
-// Two composers share the synthesis primitives below (pluck/flute/bell/ge/
-// na/boom, the WAV writer, the envelope machinery, the deterministic rng):
+// Composition resolves through a hierarchy, most-specific wins (see
+// engine/CONTRACTS.md "Music hierarchy" / "Music moods"):
 //
-//   composeLegacy(TL)     the exact hand-composed "Winning of Draupadi" score.
-//                         Selected by --legacy, or story.json `music.mode ===
-//                         'legacy'`. Byte-identical to the original score —
-//                         do not reorder/reword anything in this function;
-//                         the rng is a single shared stream and its output
-//                         depends on the exact sequence of primitive calls.
+//   BASE   tanpura drone (pa-SA-SA-sa cycle) + the tala accent grid
+//          (the legacy m%8 ge/na pattern, re-parameterized per mood).
+//   RAGA   pitch material only: note pools by register (low/mid/high),
+//          characteristic cadence, phrase bias (step/leap odds, ascent
+//          share, sustain multiplier, optional resting tone). Table:
+//            yamanish   bright, Yaman-flavored (leading tone Cs5, ascent
+//                       skips, rests on B)   — affinity: festive, triumphant
+//            bhairavish grave, komal color (Eb/F/Bb), slow descending
+//                       cadences to D        — affinity: somber, mystic,
+//                                              suspense, tense*
+//            deshish    lyrical Desh flavor (natural C), gentle B->A->D
+//                       cadence              — affinity: tender
+//          *tense is assigned bhairavish (judgment call, delegated: komal
+//          darkness reads more tense than Desh lyricism).
+//   MOOD   texture: percussion pattern/tempo/gain (or none), melody
+//          register + pacing (notes/sec, sustain), drone intensity,
+//          stereo width, master-envelope target. Moods: mystic, festive,
+//          tense, tender, triumphant, somber, suspense (unknown/missing
+//          warns and falls back to 'tender'). Guard: if a raga lacks the
+//          mood's register, the melody falls back to the raga's full pool.
+//   SCENE  events from story.json music.events["<sceneId>"]:
+//            {"at": s-from-scene-start, "type": "bell"|"boom"|"swell"|"silence",
+//             "freq"?, "gain"?, "dur"?}
+//          silence ducks melody+perc scheduling for the window and dips the
+//          master envelope; swell bumps the envelope briefly.
+//   STORY  raga overrides, most-specific wins:
+//            script.json scene.raga  >  --raga CLI  >  story.json
+//            music.raga  >  mood affinity.
 //
-//   composeMood(TL, cfg)  default. Reads each timeline.json scene's `mood`
-//                         (mystic|festive|tense|tender|triumphant|somber|
-//                         suspense — unknown/missing mood warns and falls
-//                         back to 'tender') and algorithmically composes:
-//                           - percussion: pattern/tempo/gain per mood, or
-//                             none at all
-//                           - melody: register (a note-pool subset of the
-//                             existing NOTE table), phrase pacing (notes/sec
-//                             + sustain), composed as 2-5 note phrases that
-//                             mostly step +-1 in the pool with occasional
-//                             leaps, cadence toward D4/D5, seeded per scene
-//                             by hash(scene.id) (stable regardless of scene
-//                             timing/order/re-narration)
-//                           - drone intensity: per-mood gain multiplier on
-//                             the continuous tanpura cycle
-//                           - stereo width: per-mood mid/side post-process
-//                             (primitives' internal pans stay untouched —
-//                             they're part of the verbatim synthesis layer)
-//                           - master intensity envelope: derived from the
-//                             mood timeline with smooth 1.5s ramps at scene
-//                             boundaries, plus the usual fade tail
-//                         Also applies optional per-scene `events` from
-//                         story.json's `music.events` map:
-//                           "music": { "events": { "<sceneId>": [
-//                             {"at": 12.0, "type": "bell", "freq": 880, "gain": 0.3},
-//                             {"at": 4.0,  "type": "boom", "gain": 0.8},
-//                             {"at": 6.0,  "type": "swell"},
-//                             {"at": 9.5,  "type": "silence", "dur": 2.0}
-//                           ] } }
-//                         `at` is seconds from scene start. silence ducks
-//                         melody+percussion for the window (and dips the
-//                         master envelope so already-ringing tails don't mask
-//                         it); swell bumps the master envelope briefly.
+// Modes:
+//   composeLegacy(TL)   the exact hand-composed "Winning of Draupadi"
+//                       score. Selected by --legacy, or story.json
+//                       music.mode === 'legacy'. Byte-identical to the
+//                       original — do not reorder/reword anything in that
+//                       function; the rng is a single shared stream and
+//                       its output depends on the exact sequence of
+//                       primitive calls.
+//   composeMood(TL,cfg) default: the hierarchy above. Melody phrases
+//                       (2-5 notes, mostly +-1 steps in the pool,
+//                       occasional leaps, raga cadence at scene end,
+//                       30-50% silence so narration breathes, nothing
+//                       before scene.start+0.8) seeded per scene by
+//                       hash(scene.id) — stable per story.
 //
-// See engine/CONTRACTS.md "Music moods" for the contract this implements.
-import { writeFileSync } from 'node:fs';
-import { join } from 'node:path';
-import { storyDir, loadStory, loadTimeline } from './lib.mjs';
+// Import surface (used by music-demos.mjs; `node music.mjs` behaviour is
+// unaffected — the CLI flow only executes when this file is argv[1]):
+//   NOTE, RAGAS, MOOD, DEFAULT_MOOD          tables
+//   pluck/flute/bell/ge/na/boom              synthesis primitives (verbatim)
+//   initBuffers(seconds), resetRng(), setEnv(pts), writeWav(path)
+//   composeMood(TL, cfg, opts)
+import { readFileSync, writeFileSync } from 'node:fs';
+import { join, resolve as resolvePath } from 'node:path';
+import { pathToFileURL } from 'node:url';
+import { storyDir, loadStory, loadTimeline, arg } from './lib.mjs';
 
-const story = storyDir(process.argv);
-const cfg = loadStory(story);
-const TL = loadTimeline(story);
+const IS_MAIN = !!process.argv[1] &&
+  import.meta.url === pathToFileURL(resolvePath(process.argv[1])).href;
+
 const FS = 44100;
-const DUR = Math.ceil(TL.total + 1.0);
-const N = FS * DUR;
-const L = new Float64Array(N), R = new Float64Array(N);
+let DUR = 0, N = 0, L = new Float64Array(0), R = new Float64Array(0);
+
+// (re)allocate the render buffers for a score `seconds` long (rounded up).
+// Also resets per-render state (envelope, flute glide memory).
+export function initBuffers(seconds) {
+  DUR = Math.ceil(seconds);
+  N = FS * DUR;
+  L = new Float64Array(N);
+  R = new Float64Array(N);
+  envPts = [[0, 0], [DUR, 0]];
+  lastFlute = null;
+}
 
 // deterministic rng — shared stream consumed (in order) by the noise-driven
 // primitives below (pluck's excitation burst, flute's breath noise, na/boom's
@@ -68,8 +86,12 @@ const L = new Float64Array(N), R = new Float64Array(N);
 // so never insert extra rnd() consumers ahead of/inside it.
 let _s = 1234567;
 const rnd = () => { _s = (_s * 1103515245 + 12345) & 0x7fffffff; return _s / 0x7fffffff; };
+export function resetRng() { _s = 1234567; }
 
-const NOTE = { A2: 110, D2: 73.42, D3: 146.83, A3: 220, B3: 246.94, D4: 293.66, E4: 329.63, Fs4: 369.99, G4: 392, A4: 440, B4: 493.88, D5: 587.33 };
+export const NOTE = { A2: 110, D2: 73.42, D3: 146.83, A3: 220, B3: 246.94, D4: 293.66, E4: 329.63, Fs4: 369.99, G4: 392, A4: 440, B4: 493.88, D5: 587.33,
+  // raga-layer additions (equal temperament, A4=440) — additive only; the
+  // legacy arrangement never references these keys.
+  Bb3: 233.08, C4: 261.63, Cs4: 277.18, Eb4: 311.13, F4: 349.23, Bb4: 466.16, C5: 523.25, Cs5: 554.37 };
 
 function addStereo(i, v, pan) { // pan -1..1
   const g = 0.5 * (1 - pan), h = 0.5 * (1 + pan);
@@ -77,7 +99,7 @@ function addStereo(i, v, pan) { // pan -1..1
 }
 
 // ── Karplus-Strong pluck ──
-function pluck(t0, freq, gain, decayS, pan) {
+export function pluck(t0, freq, gain, decayS, pan) {
   const start = Math.floor(t0 * FS);
   const period = Math.max(2, Math.round(FS / freq));
   const buf = new Float64Array(period);
@@ -97,7 +119,7 @@ function pluck(t0, freq, gain, decayS, pan) {
 
 // ── bansuri note (with glide from prev freq) ──
 let lastFlute = null;
-function flute(t0, name, dur, gain) {
+export function flute(t0, name, dur, gain) {
   const f1 = NOTE[name];
   const f0 = lastFlute || f1;
   lastFlute = f1;
@@ -121,7 +143,7 @@ function flute(t0, name, dur, gain) {
 }
 
 // ── bell ──
-function bell(t0, base, gain) {
+export function bell(t0, base, gain) {
   const start = Math.floor(t0 * FS);
   const parts = [[1, 1], [2.74, 0.55], [5.4, 0.24]];
   const total = Math.min(N - start, Math.floor(2.8 * FS));
@@ -134,7 +156,7 @@ function bell(t0, base, gain) {
 }
 
 // ── tabla ──
-function ge(t0, gain) { // low bayan with pitch drop
+export function ge(t0, gain) { // low bayan with pitch drop
   const start = Math.floor(t0 * FS);
   const total = Math.min(N - start, Math.floor(0.32 * FS));
   let ph = 0;
@@ -145,7 +167,7 @@ function ge(t0, gain) { // low bayan with pitch drop
     addStereo(start + i, Math.sin(ph) * Math.exp(-t * 12) * gain, -0.08);
   }
 }
-function na(t0, gain) { // bright tap
+export function na(t0, gain) { // bright tap
   const start = Math.floor(t0 * FS);
   const total = Math.min(N - start, Math.floor(0.09 * FS));
   for (let i = 0; i < total; i++) {
@@ -154,7 +176,7 @@ function na(t0, gain) { // bright tap
     addStereo(start + i, v * gain, 0.05);
   }
 }
-function boom(t0, gain) { // climax drum + rumble
+export function boom(t0, gain) { // climax drum + rumble
   const start = Math.floor(t0 * FS);
   const total = Math.min(N - start, Math.floor(1.6 * FS));
   let ph = 0, lp = 0;
@@ -168,7 +190,8 @@ function boom(t0, gain) { // climax drum + rumble
 }
 
 // ── master intensity envelope machinery (shared; data supplied per composer) ──
-let envPts = [[0, 0], [DUR, 0]];
+let envPts = [[0, 0], [1, 0]];
+export function setEnv(pts) { envPts = pts; }
 function envAt(t) {
   for (let i = 1; i < envPts.length; i++) {
     if (t <= envPts[i][0]) {
@@ -279,23 +302,69 @@ function composeLegacy(TL) {
   for (const [t, n, d, g] of PH) flute(t, n, d, g);
 }
 
+// ════════════════════════ raga layer ════════════════════════
+// Pitch material only — texture (percussion/pace/dynamics) stays with MOOD.
+//   pools       note-name pools by register; MOOD picks the register.
+//   cadence     characteristic closing figure (low/high variants; every
+//               variant ends on D4 or D5, keeping the scene-end sa).
+//   phraseBias  ascendShare (P(step up)), leapP (P(leap)), sustainMul
+//               (multiplies the mood's note length), restPC (optional
+//               pitch-class the melody rests on, lengthened when landed on).
+export const RAGAS = {
+  yamanish: {   // bright, Yaman-flavored: leading tone Cs, ascent skips, rests on B
+    pools: {
+      low: ['A3', 'B3', 'Cs4', 'D4', 'E4'],
+      mid: ['D4', 'E4', 'Fs4', 'A4', 'B4'],
+      high: ['Fs4', 'A4', 'B4', 'Cs5', 'D5'],
+    },
+    cadence: { low: ['B3', 'Cs4', 'D4'], high: ['B4', 'Cs5', 'D5'] },
+    phraseBias: { ascendShare: 0.62, leapP: 0.16, sustainMul: 1.0, restPC: 'B' },
+    moodAffinity: ['festive', 'triumphant'],
+  },
+  bhairavish: { // grave, komal color (Eb F Bb), slow descending cadences to D
+    pools: {
+      low: ['A3', 'Bb3', 'D4', 'Eb4'],
+      mid: ['D4', 'Eb4', 'F4', 'A4'],
+      high: ['F4', 'A4', 'Bb4', 'D5'],
+    },
+    cadence: { low: ['F4', 'Eb4', 'D4'], high: ['F4', 'Eb4', 'D4'] }, // always settles low: grave
+    phraseBias: { ascendShare: 0.38, leapP: 0.06, sustainMul: 1.35, restPC: null },
+    moodAffinity: ['somber', 'mystic', 'suspense', 'tense'],
+  },
+  deshish: {    // lyrical Desh flavor (D E Fs G A B C), gentle B->A->D cadence
+    pools: {
+      low: ['A3', 'B3', 'C4', 'D4', 'E4'],
+      mid: ['D4', 'E4', 'Fs4', 'G4', 'A4'],
+      high: ['G4', 'A4', 'B4', 'C5', 'D5'],
+    },
+    cadence: { low: ['B3', 'A3', 'D4'], high: ['B4', 'A4', 'D5'] },
+    phraseBias: { ascendShare: 0.52, leapP: 0.10, sustainMul: 1.1, restPC: null },
+    moodAffinity: ['tender'],
+  },
+};
+const RAGA_FOR_MOOD = {};
+for (const [rn, r] of Object.entries(RAGAS)) for (const m of r.moodAffinity) RAGA_FOR_MOOD[m] = rn;
+const pitchClass = n => n.replace(/\d+$/, '');
+const ragaFullPool = raga =>
+  [...new Set([...(raga.pools.low || []), ...(raga.pools.mid || []), ...(raga.pools.high || [])])];
+
 // ════════════════════════ mood composer ════════════════════════
-const DEFAULT_MOOD = 'tender';
+export const DEFAULT_MOOD = 'tender';
 // Each mood is a preset over: percussion (pattern/tempo/gain, or off),
-// melody register (a subset of NOTE, ascending, indexed for +-1 stepping),
-// phrase pacing (nps = notes/sec, sustainMul = note-length multiplier),
-// drone intensity (tanpura gain multiplier) and stereo width (mid/side
-// scale, 1 = untouched). `env` is this mood's target on the master
-// intensity envelope (0..1) — this is what makes e.g. festive read louder
-// than tense after the shared peak-normalize pass.
-const MOOD = {
-  mystic:     { perc: { on: false },                                       notes: ['A3', 'B3', 'D4', 'E4', 'Fs4'],       nps: 0.42, sustainMul: 1.9, drone: 0.95, width: 0.65, env: 0.50 },
-  festive:    { perc: { on: true, bps: 1.7, gain: 0.55, sparse: false },   notes: ['D4', 'Fs4', 'G4', 'A4', 'B4', 'D5'], nps: 1.25, sustainMul: 0.8, drone: 0.85, width: 1.20, env: 0.85 },
-  tense:      { perc: { on: true, bps: 1.9, gain: 0.38, sparse: true },    notes: ['A3', 'B3', 'D4'],                     nps: 0.5,  sustainMul: 0.55, drone: 0.50, width: 0.55, env: 0.38 },
-  tender:     { perc: { on: false },                                       notes: ['B3', 'D4', 'E4', 'Fs4', 'A4'],       nps: 0.5,  sustainMul: 1.6, drone: 0.70, width: 0.85, env: 0.55 },
-  triumphant: { perc: { on: true, bps: 1.75, gain: 0.72, sparse: false },  notes: ['D4', 'Fs4', 'A4', 'B4', 'D5'],        nps: 1.15, sustainMul: 1.0, drone: 1.00, width: 1.25, env: 0.95 },
-  somber:     { perc: { on: false },                                       notes: ['A3', 'B3', 'D4', 'E4'],              nps: 0.38, sustainMul: 2.0, drone: 0.60, width: 0.55, env: 0.36 },
-  suspense:   { perc: { on: true, bps: 1.1, gain: 0.32, sparse: true },    notes: ['A3', 'B3', 'D4', 'Fs4'],              nps: 0.42, sustainMul: 0.6, drone: 0.42, width: 0.50, env: 0.30 },
+// melody register (which raga pool the melody draws from), phrase pacing
+// (nps = notes/sec, sustainMul = note-length multiplier), drone intensity
+// (tanpura gain multiplier) and stereo width (mid/side scale, 1 =
+// untouched). `env` is this mood's target on the master intensity
+// envelope (0..1) — this is what makes e.g. festive read louder than
+// tense after the shared peak-normalize pass.
+export const MOOD = {
+  mystic:     { perc: { on: false },                                       register: 'low',  nps: 0.42, sustainMul: 1.9,  drone: 0.95, width: 0.65, env: 0.50 },
+  festive:    { perc: { on: true, bps: 1.7, gain: 0.55, sparse: false },   register: 'high', nps: 1.25, sustainMul: 0.8,  drone: 0.85, width: 1.20, env: 0.85 },
+  tense:      { perc: { on: true, bps: 1.9, gain: 0.38, sparse: true },    register: 'low',  nps: 0.5,  sustainMul: 0.55, drone: 0.50, width: 0.55, env: 0.38 },
+  tender:     { perc: { on: false },                                       register: 'mid',  nps: 0.5,  sustainMul: 1.6,  drone: 0.70, width: 0.85, env: 0.55 },
+  triumphant: { perc: { on: true, bps: 1.75, gain: 0.72, sparse: false },  register: 'high', nps: 1.15, sustainMul: 1.0,  drone: 1.00, width: 1.25, env: 0.95 },
+  somber:     { perc: { on: false },                                       register: 'low',  nps: 0.38, sustainMul: 2.0,  drone: 0.60, width: 0.55, env: 0.36 },
+  suspense:   { perc: { on: true, bps: 1.1, gain: 0.32, sparse: true },    register: 'low',  nps: 0.42, sustainMul: 0.6,  drone: 0.42, width: 0.50, env: 0.30 },
 };
 
 function resolveMood(sc) {
@@ -303,6 +372,16 @@ function resolveMood(sc) {
   if (m && MOOD[m]) return m;
   console.warn(`[music] scene "${sc.id}": unknown/missing mood (${JSON.stringify(m ?? null)}) — defaulting to "${DEFAULT_MOOD}"`);
   return DEFAULT_MOOD;
+}
+
+function resolveRaga(sc, moodName, sceneRagas, filmRaga) {
+  const perScene = sceneRagas?.[sc.id];
+  if (perScene) {
+    if (RAGAS[perScene]) return perScene;
+    console.warn(`[music] scene "${sc.id}": unknown raga "${perScene}" in script.json — ignoring`);
+  }
+  if (filmRaga) return filmRaga; // validated once upstream
+  return RAGA_FOR_MOOD[moodName] || 'deshish';
 }
 
 // FNV-1a-ish string hash -> stable per-scene seed (independent of scene
@@ -367,15 +446,37 @@ function scheduleScenePercussion(sc, inDuck) {
   }
 }
 
-// algorithmic melody: 2-5 note phrases stepping mostly +-1 in the mood's
-// note pool, occasional leaps, cadence toward D4/D5, 30-50% silence gaps,
+// algorithmic melody: 2-5 note phrases stepping mostly +-1 in the raga
+// pool for the mood's register, leaps/direction per the raga's phraseBias,
+// the raga's characteristic cadence closing the scene, 30-50% silence gaps,
 // never before scene.start+0.8. Seeded per-scene so it's stable per story.
 function scheduleSceneMelody(sc, inDuck) {
-  const mood = sc.mood, pool = mood.notes;
+  const mood = sc.mood, raga = sc.raga, bias = raga.phraseBias;
+  let pool = raga.pools[mood.register];
+  if (!pool || !pool.length) { // guard: register missing from this raga
+    pool = ragaFullPool(raga);
+    console.warn(`[music] scene "${sc.id}": raga "${sc.ragaName}" has no "${mood.register}" register — using full pool`);
+  }
   const rng = makeRng(hashSeed(sc.id));
   const windowStart = sc.start + 0.8;
   const windowEnd = sc.end - 0.3;
-  if (windowEnd - windowStart < 1.2) return; // too short for even one phrase
+
+  // reserve room at the end for the characteristic cadence (capped + scaled
+  // so slow moods — somber/mystic under a high-sustain raga — can't eat the
+  // whole window and leave a scene melodyless)
+  const cad = raga.cadence[(mood.register === 'high' || mood.env > 0.6) ? 'high' : 'low'];
+  let cadGap = Math.max(0.55, (1 / mood.nps) * 0.7);
+  let cadDur = Math.min(3.0, Math.max(0.5, cadGap * mood.sustainMul * bias.sustainMul));
+  let cadSpan = cadGap * (cad.length - 1) + cadDur + 0.3;
+  const maxCadSpan = (windowEnd - windowStart) * 0.45;
+  if (cadSpan > maxCadSpan) {
+    const k = maxCadSpan / cadSpan;
+    cadGap = Math.max(0.45, cadGap * k);
+    cadDur = Math.max(0.5, cadDur * k);
+    cadSpan = cadGap * (cad.length - 1) + cadDur + 0.3;
+  }
+  if (windowEnd - windowStart < cadSpan + 1.2) return; // too short for melody
+  const melodyEnd = windowEnd - cadSpan;
 
   const totalAvail = windowEnd - windowStart;
   const gapFraction = 0.3 + rng() * 0.2; // 30-50% left silent for narration
@@ -385,7 +486,7 @@ function scheduleSceneMelody(sc, inDuck) {
   let idx = Math.floor(rng() * pool.length);
   let t = windowStart, active = 0, guard = 0;
   const notesOut = []; // [time, noteName, dur, gain]
-  while (t < windowEnd - 0.4 && active < activeBudget && guard < 60) {
+  while (t < melodyEnd - 0.4 && active < activeBudget && guard < 60) {
     guard++;
     const phraseLen = 2 + Math.floor(rng() * 4); // 2..5
     const phraseIdx = [];
@@ -393,34 +494,49 @@ function scheduleSceneMelody(sc, inDuck) {
       if (k > 0) {
         const r = rng();
         let step;
-        if (r < 0.55) step = 1;
-        else if (r < 0.78) step = -1;
-        else if (r < 0.90) step = 0; // repeat
-        else step = (rng() < 0.5 ? -1 : 1) * (2 + Math.floor(rng() * 2)); // leap
+        if (r < bias.leapP) step = (rng() < bias.ascendShare ? 1 : -1) * (2 + Math.floor(rng() * 2)); // leap
+        else if (r < bias.leapP + 0.12) step = 0; // repeat
+        else step = rng() < bias.ascendShare ? 1 : -1;
         idx = Math.max(0, Math.min(pool.length - 1, idx + step));
       }
       phraseIdx.push(idx);
     }
+    // raga resting tone (e.g. yamanish rests on B): pull some phrase endings
+    // there and let them ring
+    let restBoost = 1;
+    if (bias.restPC) {
+      const restIdx = pool.findIndex(n => pitchClass(n) === bias.restPC);
+      if (restIdx >= 0 && rng() < 0.35) phraseIdx[phraseIdx.length - 1] = restIdx;
+      if (pitchClass(pool[phraseIdx[phraseIdx.length - 1]]) === bias.restPC) restBoost = 1.35;
+    }
     const onsetGap = (1 / mood.nps) * (0.85 + rng() * 0.3);
-    const noteDur = Math.max(0.35, onsetGap * mood.sustainMul);
-    const phraseSpan = onsetGap * (phraseLen - 1) + noteDur + 0.4;
-    if (t + phraseSpan > windowEnd) {
+    const noteDur = Math.min(3.5, Math.max(0.35, onsetGap * mood.sustainMul * bias.sustainMul));
+    const phraseSpan = onsetGap * (phraseLen - 1) + noteDur * restBoost + 0.4;
+    if (t + phraseSpan > melodyEnd) {
       if (notesOut.length === 0 && phraseLen > 2) continue; // try a shorter phrase before giving up
       break;
     }
     for (let k = 0; k < phraseLen; k++) {
       const nt = t + k * onsetGap;
-      if (!inDuck(nt)) notesOut.push([nt, pool[phraseIdx[k]], noteDur, baseGain * (0.9 + rng() * 0.2)]);
+      const nd = k === phraseLen - 1 ? noteDur * restBoost : noteDur;
+      if (!inDuck(nt)) notesOut.push([nt, pool[phraseIdx[k]], nd, baseGain * (0.9 + rng() * 0.2)]);
     }
     active += phraseSpan;
     t += phraseSpan + Math.max(0.6, (totalAvail * gapFraction) / 4 * (0.6 + rng() * 0.8));
   }
-  if (notesOut.length) {
-    const cadence = pool.includes('D5') && mood.env > 0.6 ? 'D5' : 'D4';
-    const last = notesOut[notesOut.length - 1];
-    last[1] = cadence;
-    last[3] = Math.max(last[3], baseGain * 1.05);
+  // guarantee: even when no phrase fit (very slow mood in a short scene),
+  // hold one quiet mid-pool tone so the scene isn't melodyless before the cadence
+  if (!notesOut.length) {
+    const nd = Math.min(3.5, Math.max(1.2, melodyEnd - windowStart - 0.2));
+    if (!inDuck(windowStart)) notesOut.push([windowStart, pool[Math.floor(pool.length / 2)], nd, baseGain * 0.9]);
   }
+  // characteristic cadence closing the scene (always ends on D, at windowEnd)
+  for (let k = 0; k < cad.length; k++) {
+    const nt = melodyEnd + 0.3 + k * cadGap;
+    const isLast = k === cad.length - 1;
+    if (!inDuck(nt)) notesOut.push([nt, cad[k], isLast ? cadDur : cadDur * 0.85, baseGain * (isLast ? 1.1 : 0.95)]);
+  }
+  notesOut.sort((a, b) => a[0] - b[0]); // keep flute glide memory in time order
   for (const [nt, nm, nd, ng] of notesOut) flute(nt, nm, nd, ng);
 }
 
@@ -481,11 +597,18 @@ function applyStereoWidth(scenes) {
   }
 }
 
-function composeMood(TL, cfg) {
+// opts: { cliRaga?: string|null, sceneRagas?: {sceneId: ragaName}, quiet?: bool }
+export function composeMood(TL, cfg, opts = {}) {
   const eventsCfg = cfg.music?.events || {};
+  let filmRaga = opts.cliRaga || cfg.music?.raga || null;
+  if (filmRaga && !RAGAS[filmRaga]) {
+    console.warn(`[music] unknown raga "${filmRaga}" (know: ${Object.keys(RAGAS).join(', ')}) — falling back to mood affinity`);
+    filmRaga = null;
+  }
   const scenes = TL.scenes.map(sc => {
     const moodName = resolveMood(sc);
-    return { id: sc.id, start: sc.start, end: sc.end, moodName, mood: MOOD[moodName] };
+    const ragaName = resolveRaga(sc, moodName, opts.sceneRagas, filmRaga);
+    return { id: sc.id, start: sc.start, end: sc.end, moodName, mood: MOOD[moodName], ragaName, raga: RAGAS[ragaName] };
   });
 
   const ducks = [], swells = [];
@@ -513,38 +636,62 @@ function composeMood(TL, cfg) {
   envPts = buildMoodEnvelope(TL, scenes, swells, ducks);
   applyStereoWidth(scenes);
 
-  for (const sc of scenes) {
-    const p = sc.mood.perc;
-    console.log(`  ${sc.id.padEnd(12)} mood=${sc.moodName.padEnd(11)} env=${sc.mood.env.toFixed(2)} drone=${sc.mood.drone.toFixed(2)} width=${sc.mood.width.toFixed(2)} perc=${p.on ? p.bps.toFixed(2) + 'bps/' + p.gain.toFixed(2) : 'none'}`);
+  if (!opts.quiet) {
+    for (const sc of scenes) {
+      const p = sc.mood.perc;
+      console.log(`  ${sc.id.padEnd(12)} mood=${sc.moodName.padEnd(11)} raga=${sc.ragaName.padEnd(11)} env=${sc.mood.env.toFixed(2)} drone=${sc.mood.drone.toFixed(2)} width=${sc.mood.width.toFixed(2)} perc=${p.on ? p.bps.toFixed(2) + 'bps/' + p.gain.toFixed(2) : 'none'}`);
+    }
   }
 }
 
-// ════════════════════════ dispatch ════════════════════════
-const legacyFlag = process.argv.includes('--legacy');
-const legacyMode = legacyFlag || cfg.music?.mode === 'legacy';
-if (legacyMode) composeLegacy(TL);
-else composeMood(TL, cfg);
-
 // ── apply master envelope + write (verbatim machinery) ──
-const out = Buffer.alloc(44 + N * 4);
-// header
-out.write('RIFF', 0); out.writeUInt32LE(36 + N * 4, 4); out.write('WAVE', 8);
-out.write('fmt ', 12); out.writeUInt32LE(16, 16); out.writeUInt16LE(1, 20); out.writeUInt16LE(2, 22);
-out.writeUInt32LE(FS, 24); out.writeUInt32LE(FS * 4, 28); out.writeUInt16LE(4, 32); out.writeUInt16LE(16, 34);
-out.write('data', 36); out.writeUInt32LE(N * 4, 40);
-let peak = 0;
-for (let i = 0; i < N; i++) {
-  const e = envAt(i / FS);
-  const l = L[i] * e, r = R[i] * e;
-  peak = Math.max(peak, Math.abs(l), Math.abs(r));
+export function writeWav(path) {
+  const out = Buffer.alloc(44 + N * 4);
+  // header
+  out.write('RIFF', 0); out.writeUInt32LE(36 + N * 4, 4); out.write('WAVE', 8);
+  out.write('fmt ', 12); out.writeUInt32LE(16, 16); out.writeUInt16LE(1, 20); out.writeUInt16LE(2, 22);
+  out.writeUInt32LE(FS, 24); out.writeUInt32LE(FS * 4, 28); out.writeUInt16LE(4, 32); out.writeUInt16LE(16, 34);
+  out.write('data', 36); out.writeUInt32LE(N * 4, 40);
+  let peak = 0;
+  for (let i = 0; i < N; i++) {
+    const e = envAt(i / FS);
+    const l = L[i] * e, r = R[i] * e;
+    peak = Math.max(peak, Math.abs(l), Math.abs(r));
+  }
+  const norm = peak > 0 ? 0.86 / peak : 1;
+  for (let i = 0; i < N; i++) {
+    const e = envAt(i / FS) * norm;
+    const l = Math.max(-1, Math.min(1, L[i] * e));
+    const r = Math.max(-1, Math.min(1, R[i] * e));
+    out.writeInt16LE((l * 32767) | 0, 44 + i * 4);
+    out.writeInt16LE((r * 32767) | 0, 46 + i * 4);
+  }
+  writeFileSync(path, out);
+  return { dur: DUR, peak, norm };
 }
-const norm = peak > 0 ? 0.86 / peak : 1;
-for (let i = 0; i < N; i++) {
-  const e = envAt(i / FS) * norm;
-  const l = Math.max(-1, Math.min(1, L[i] * e));
-  const r = Math.max(-1, Math.min(1, R[i] * e));
-  out.writeInt16LE((l * 32767) | 0, 44 + i * 4);
-  out.writeInt16LE((r * 32767) | 0, 46 + i * 4);
+
+// ════════════════════════ CLI ════════════════════════
+if (IS_MAIN) {
+  const story = storyDir(process.argv);
+  const cfg = loadStory(story);
+  const TL = loadTimeline(story);
+  initBuffers(TL.total + 1.0);
+
+  const legacyFlag = process.argv.includes('--legacy');
+  const legacyMode = legacyFlag || cfg.music?.mode === 'legacy';
+  if (legacyMode) {
+    composeLegacy(TL);
+  } else {
+    // per-scene raga overrides live in script.json (narrate.mjs doesn't copy
+    // them into timeline.json, so read them from the source)
+    const sceneRagas = {};
+    try {
+      const sj = JSON.parse(readFileSync(join(story, 'script.json'), 'utf8'));
+      for (const s of sj.scenes || []) if (s.raga) sceneRagas[s.id] = s.raga;
+    } catch { /* script.json optional for music */ }
+    composeMood(TL, cfg, { cliRaga: arg(process.argv, '--raga', null), sceneRagas });
+  }
+
+  const { dur, peak, norm } = writeWav(join(story, 'audio', 'music.wav'));
+  console.log(`music.wav: ${dur}s, peak ${peak.toFixed(3)}, norm ${norm.toFixed(3)}  [${legacyMode ? 'legacy' : 'mood'}]`);
 }
-writeFileSync(join(story, 'audio', 'music.wav'), out);
-console.log(`music.wav: ${DUR}s, peak ${peak.toFixed(3)}, norm ${norm.toFixed(3)}  [${legacyMode ? 'legacy' : 'mood'}]`);

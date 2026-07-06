@@ -143,7 +143,7 @@ function _finger(ctx, x0, y0, x1, y1, w0, w1, skin, dark, claw) {
     ctx.fillStyle = '#efe7d4';
     ctx.beginPath();
     ctx.moveTo(x1 + nx * w1 * 0.8, y1 + ny * w1 * 0.8);
-    ctx.lineTo(x1 + ux * w1 * 3.0, y1 + uy * w1 * 3.0);
+    ctx.lineTo(x1 + ux * w1 * 2.3, y1 + uy * w1 * 2.3);
     ctx.lineTo(x1 - nx * w1 * 0.8, y1 - ny * w1 * 0.8);
     ctx.closePath(); ctx.fill();
     ctx.strokeStyle = rgba('#241005', 0.5); ctx.lineWidth = 0.5; ctx.stroke();
@@ -164,14 +164,14 @@ function drawHand(ctx, x, y, ang, s, skin, kind, dark, opt) {
   ctx.save(); ctx.translate(x, y); ctx.rotate(ang); ctx.scale(s, s);
   ctx.lineJoin = 'round'; ctx.lineCap = 'round';
   const OUT = rgba('#241005', 0.6);
-  const pW = 6.0, pTop = 6.4, pH = 8.5;
+  const pW = 6.2, pTop = 6.3, pWr = 4.6, pH = 8.5;
   const palm = () => {
     ctx.beginPath();
-    ctx.moveTo(-pW, -1.5);
-    ctx.quadraticCurveTo(-pW - 1.2, pH * 0.5, -pTop, pH);
-    ctx.quadraticCurveTo(0, pH + 1.6, pTop, pH);
-    ctx.quadraticCurveTo(pW + 1.2, pH * 0.5, pW, -1.5);
-    ctx.quadraticCurveTo(0, -3.4, -pW, -1.5);
+    ctx.moveTo(-pWr, -2.6);
+    ctx.quadraticCurveTo(-pW - 0.4, pH * 0.5, -pTop, pH);
+    ctx.quadraticCurveTo(0, pH + 1.7, pTop, pH);
+    ctx.quadraticCurveTo(pW + 0.4, pH * 0.5, pWr, -2.6);
+    ctx.quadraticCurveTo(0, -4.1, -pWr, -2.6);
     ctx.closePath();
   };
 
@@ -183,8 +183,8 @@ function drawHand(ctx, x, y, ang, s, skin, kind, dark, opt) {
     } else if (kind === 'namaste') {
       _finger(ctx, -pW + 1.0, 1.0, -pW - 0.6, -3.2, 2.3, 1.5, skin, dark, false);
     } else {
-      const spread = kind === 'point' ? 0.55 : 0.85;
-      _finger(ctx, -pW + 1.2, 1.6, -pW - 3.6, 1.2 + Math.sin(spread) * 3.0, 2.4, 1.6, skin, dark, claw);
+      const tx = kind === 'point' ? -pW - 0.6 : -pW - 2.4;
+      _finger(ctx, -pW + 1.4, 1.8, tx, 3.2, 2.5, 1.7, skin, dark, claw);
     }
   };
 
@@ -202,23 +202,23 @@ function drawHand(ctx, x, y, ang, s, skin, kind, dark, opt) {
   ctx.beginPath(); ctx.arc(-1.5, 1, 4, 0.3, 1.5); ctx.stroke();
   ctx.restore();
 
-  // three fingers along the knuckle line
-  const fX = [-4.0, -0.4, 3.2], fLen = [10.5, 12.2, 10.0], fSpread = [-0.17, 0.0, 0.17], fW = [2.0, 2.1, 1.95];
+  // three grouped fingers along the knuckle line (near-touching, gentle splay)
+  const fX = [-3.4, -0.3, 2.9], fLen = [10, 11.6, 9.6], fSpread = [-0.11, 0.0, 0.11], fW = [2.3, 2.45, 2.25];
   const curlOf = { open: 0, bless: 0, namaste: 0, point: 0, hold: 1, fist: 1, relaxed: 0.42 };
   const cu = curlOf[kind] == null ? 0.3 : curlOf[kind];
   const knuckY = pH - 1.5;
   for (let i = 0; i < 3; i++) {
     const isPoint = kind === 'point';
-    if (isPoint && i !== 1) { _knuckle(ctx, fX[i], knuckY, 1.95 - i * 0.08, skin, dark); continue; }
-    if (cu >= 1) { _knuckle(ctx, fX[i], knuckY, 2.05, skin, dark); continue; }
+    if (isPoint && i !== 1) { _knuckle(ctx, fX[i], knuckY, 2.0 - i * 0.08, skin, dark); continue; }
+    if (cu >= 1) { _knuckle(ctx, fX[i], knuckY, 2.15, skin, dark); continue; }
     let dir = fSpread[i];
-    if (kind === 'namaste') dir *= 0.3;                 // fingers together, upright
-    if (claw) dir *= 1.7;                                // claws splay
-    const L = fLen[i] * (1 - cu * 0.5) * (isPoint ? 1.15 : 1);
+    if (kind === 'namaste') dir *= 0.25;                // fingers together, upright
+    if (claw) dir *= 1.5;                               // claws splay a little
+    const L = fLen[i] * (1 - cu * 0.5) * (isPoint ? 1.18 : 1);
     const bx = fX[i], by = knuckY;
     const tx = bx + Math.sin(dir) * L;
     const ty = by + Math.cos(dir) * L - cu * 2.2;
-    _finger(ctx, bx, by, tx, ty, fW[i], fW[i] * 0.66, skin, dark, claw);
+    _finger(ctx, bx, by, tx, ty, fW[i], fW[i] * 0.7, skin, dark, claw);
   }
 
   if (!thumbOver) drawThumb();
@@ -641,11 +641,11 @@ function drawHead(ctx, R, style, face, t, seed, rig) {
   const browTilt = f.weep * 0.06 - f.rage * 0.05;
   const browY = f.rage * 0.05;
   ctx.strokeStyle = '#1d0f06';
-  browStroke(ctx, nearEx, eyeY - 0.20 - f.brow * 0.07 + browY, 0.34, f.brow - f.rage * 0.6, 1, browTilt, heavy);
+  browStroke(ctx, nearEx, eyeY - 0.20 - f.brow * 0.07 + browY, 0.34 * (1 - front * 0.18), f.brow - f.rage * 0.6, 1, browTilt, heavy);
   if (tn > 0.22) {
     const farBx = lerp(P(-0.35, -0.26), -nearEx, front);
     ctx.save(); ctx.globalAlpha = front > 0.25 ? 1 : Math.max(norm(tn, 0.22, 0.55), front);
-    if (front > 0.25) { ctx.translate(farBx, 0); ctx.scale(-1, 1); browStroke(ctx, 0, eyeY - 0.20 - f.brow * 0.06 + browY, 0.32, f.brow - f.rage * 0.6, -1, browTilt, heavy); }
+    if (front > 0.25) { ctx.translate(farBx, 0); ctx.scale(-1, 1); browStroke(ctx, 0, eyeY - 0.20 - f.brow * 0.06 + browY, 0.32 * (1 - front * 0.18), f.brow - f.rage * 0.6, -1, browTilt, heavy); }
     else browStroke(ctx, farBx, eyeY - 0.20 - f.brow * 0.06, 0.30, f.brow * 0.8, -1, browTilt, heavy);
     ctx.restore();
   }
@@ -659,21 +659,17 @@ function drawHead(ctx, R, style, face, t, seed, rig) {
   }
   if (front > 0.3) {
     ctx.save(); ctx.globalAlpha = front;
-    // soft under-tip shadow gives the frontal nose volume
-    ctx.fillStyle = rgbaC(dark, 0.24);
-    ctx.beginPath(); ctx.ellipse(0.0, 0.21, 0.15, 0.09, 0, 0, TAU); ctx.fill();
-    // nostrils
-    ctx.strokeStyle = rgbaC('#241005', 0.6); ctx.lineWidth = 0.03;
-    ctx.beginPath(); ctx.arc(0.105, 0.2, 0.045, Math.PI * 0.1, Math.PI * 1.05); ctx.stroke();
-    ctx.beginPath(); ctx.arc(-0.105, 0.2, 0.045, Math.PI * -0.05, Math.PI * 0.9); ctx.stroke();
-    // nostril wings
-    ctx.strokeStyle = rgbaC(dark, 0.34); ctx.lineWidth = 0.026;
-    ctx.beginPath(); ctx.moveTo(0.165, 0.15); ctx.quadraticCurveTo(0.175, 0.22, 0.1, 0.25); ctx.stroke();
-    ctx.beginPath(); ctx.moveTo(-0.165, 0.15); ctx.quadraticCurveTo(-0.175, 0.22, -0.1, 0.25); ctx.stroke();
-    // one-sided bridge shadow for form + a soft light down the ridge
-    ctx.strokeStyle = rgbaC(dark, 0.3); ctx.lineWidth = 0.03;
-    ctx.beginPath(); ctx.moveTo(0.06, -0.22); ctx.quadraticCurveTo(0.03, -0.02, 0.09, 0.15); ctx.stroke();
-    ctx.fillStyle = 'rgba(255,244,214,0.28)'; ctx.beginPath(); ctx.ellipse(-0.02, 0.06, 0.055, 0.13, 0, 0, TAU); ctx.fill();
+    // slim refined nose: faint under-tip shadow + small comma nostrils, not a snout
+    ctx.fillStyle = rgbaC(dark, 0.16);
+    ctx.beginPath(); ctx.ellipse(0.0, 0.19, 0.1, 0.05, 0, 0, TAU); ctx.fill();
+    ctx.strokeStyle = rgbaC('#241005', 0.5); ctx.lineWidth = 0.028; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.arc(0.075, 0.185, 0.032, Math.PI * 0.15, Math.PI * 1.0); ctx.stroke();
+    ctx.beginPath(); ctx.arc(-0.075, 0.185, 0.032, Math.PI * 0.0, Math.PI * 0.85); ctx.stroke();
+    // both nose ridges (slim, tapering to the brows) + soft ridge light
+    ctx.strokeStyle = rgbaC(dark, 0.26); ctx.lineWidth = 0.024;
+    ctx.beginPath(); ctx.moveTo(0.055, -0.2); ctx.quadraticCurveTo(0.04, -0.02, 0.09, 0.16); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(-0.055, -0.2); ctx.quadraticCurveTo(-0.04, -0.02, -0.09, 0.16); ctx.stroke();
+    ctx.fillStyle = 'rgba(255,244,214,0.26)'; ctx.beginPath(); ctx.ellipse(0.0, 0.04, 0.04, 0.14, 0, 0, TAU); ctx.fill();
     ctx.restore();
   }
   if (style.noseRing) {
