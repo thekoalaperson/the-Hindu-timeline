@@ -92,20 +92,14 @@ function scCart(ctx, tl, dur, t) {
       drawFigure(c, {
         x: bhX, y: bhY, s: bhS, facing: 1, style: bh,
         pose: {
-          lean: 0.05, headTurn: 0.4, headNod: 0.22 + chew * 0.12,
-          armF: { sh: lerp(0.68, 0.92, toMouth), el: lerp(1.44, 1.7, toMouth), wr: 0.55, hand: 'hold' },
+          lean: 0.05, headTurn: 0.42, headNod: 0.24 + chew * 0.14,
+          armF: { sh: lerp(0.78, 1.0, toMouth), el: lerp(1.55, 1.82, toMouth), wr: 0.6, hand: 'hold' },
           armB: { sh: 0.22, el: 0.5, hand: 'relaxed' },
           legF: { hip: 0.12, knee: 0.08 }, legB: { hip: -0.15, knee: 0.12 },
-          face: { smile: 0.2, lipsPart: 0.3 + chew * 0.4, eyeOpen: 0.7, lowered: 0.25 },
+          face: { smile: 0.18, lipsPart: 0.35 + chew * 0.4, eyeOpen: 0.68, lowered: 0.28 },
         },
         t, seed: 21,
       });
-      // the morsel held up at his mouth — sells the eating
-      const mx = bhX + 46 * bhS, my = bhY - 300 * bhS;
-      c.fillStyle = '#e8b84c';
-      c.beginPath(); c.arc(mx, my, 8 * bhS, 0, TAU); c.fill();
-      c.strokeStyle = rgba('#5a2e0e', 0.5); c.lineWidth = 1; c.stroke();
-      if (chew > 0.55) glowAdd(c, mx, my, 12, 'rgba(255,226,150,0.5)', chew - 0.55);
     },
   });
   wash(ctx, '#ffdca0', 0.05, 'soft-light');
@@ -177,11 +171,6 @@ function scFight(ctx, tl, dur, t) {
           },
           t, seed: 21,
         });
-        // a morsel still at his mouth while he calmly eats through the roar
-        if (grapple < 0.4) {
-          const mx = bhX + 34 * bhS, my = bhY - 318 * bhS;
-          c.fillStyle = '#e8b84c'; c.beginPath(); c.arc(mx, my, 7 * bhS, 0, TAU); c.fill();
-        }
         // dust at the giant's feet + rage glow behind his head
         dustCloud(c, bakaX - 8, bakaY + 8, 150 * bakaS, 0.4 + grapple * 0.4, t, 3);
         glowAdd(c, bakaX, bakaY - 540 * bakaS, 230 * bakaS, 'rgba(160,32,20,0.22)', 0.55 + roar * 0.3);
