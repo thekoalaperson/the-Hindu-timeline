@@ -5,7 +5,7 @@
 //   <story>/dist/artifact.html  same, minus outer document skeleton (for claude.ai Artifacts)
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { engineDir, storyDir, loadStory } from './lib.mjs';
+import { engineDir, mediaDir, storyDir, loadStory } from './lib.mjs';
 
 const story = storyDir(process.argv);
 const cfg = loadStory(story);
@@ -16,8 +16,15 @@ const storyFiles = cfg.storyFiles || ['timeline.js', 'film.js'];
 const readEngine = f => readFileSync(join(engineDir, 'src', f), 'utf8');
 const readStory = f => readFileSync(join(story, f), 'utf8');
 
+// character registry, exposed as the CHARACTERS global on every page
+const regPath = join(mediaDir, 'characters', 'registry.json');
+const registryJs = existsSync(regPath)
+  ? 'const CHARACTERS = ' + JSON.stringify(JSON.parse(readFileSync(regPath, 'utf8')).characters || {}) + ';\n'
+  : 'const CHARACTERS = {};\n';
+
 // ── dev page: plain script tags, relative paths ──
 const devTags = [
+  `<script>${registryJs}</script>`,
   ...engineFiles.map(f => `<script src="../../engine/src/${f}"></script>`),
   ...storyFiles.map(f => `<script src="${f}"></script>`),
 ].join('\n');
@@ -52,6 +59,7 @@ window.__renderFrame = (i, fps, q2) => {
 
 // ── player page ──
 const js = [
+  '// ===== characters/registry =====\n' + registryJs,
   ...engineFiles.map(f => `// ===== engine/${f} =====\n` + readEngine(f)),
   ...storyFiles.map(f => `// ===== ${f} =====\n` + readStory(f)),
 ].join('\n');
