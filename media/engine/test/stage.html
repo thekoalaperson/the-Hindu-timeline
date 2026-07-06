@@ -1,0 +1,44 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>stage test — storyboard interpreter</title>
+<style>body{margin:0;background:#0d0906;color:#cfa96a;font:14px Georgia}canvas{display:block;width:100%;max-width:1920px}#bar{padding:8px}input[type=range]{width:70%}</style>
+<canvas id="cv" width="1920" height="1080"></canvas>
+<div id="bar"><button id="play">▶</button><input type="range" id="seek" min="0" max="1" step="0.05" value="0"><span id="tt">0.0</span></div>
+<script src="../src/core.js"></script>
+<script src="../src/paint.js"></script>
+<script src="../src/people.js"></script>
+<script src="../src/world.js"></script>
+<script src="../../stories/winning-of-draupadi/cast.js"></script>
+<script src="../../stories/winning-of-draupadi/scenes1.js"></script>
+<script>
+// adapter: expose the legacy (config-driven) hallSet as the future
+// SETS.palaceHall registry entry, per CONTRACTS.md's Sets API. hallSet
+// currently lives in stories/winning-of-draupadi/scenes1.js (it hasn't been
+// promoted to engine/src/world.js or a dedicated sets.js yet) — loading that
+// one story file here is the only way to get a real, working palaceHall set
+// for this demo without inventing/duplicating one.
+const SETS = { palaceHall: (c, cam, t, o) => hallSet(c, cam, t, o) };
+</script>
+<script src="../src/stage.js"></script>
+<script src="stage-demo.js"></script>
+<script>
+const cv = document.getElementById('cv'), ctx = cv.getContext('2d');
+const seek = document.getElementById('seek'), tt = document.getElementById('tt');
+seek.max = __film.duration;
+const q = new URLSearchParams(location.search);
+let T = parseFloat(q.get('t') || '0'), playing = false, last = 0;
+function frame(ts) {
+  if (playing) { T += (ts - last) / 1000; if (T > __film.duration) T = 0; }
+  last = ts;
+  seek.value = T; tt.textContent = T.toFixed(1);
+  __film.draw(ctx, T, {});
+  requestAnimationFrame(frame);
+}
+if (!q.get('render')) requestAnimationFrame(frame);
+seek.oninput = () => { T = parseFloat(seek.value); };
+document.getElementById('play').onclick = () => playing = !playing;
+window.__renderFrame = (i, fps, q2) => {
+  __film.draw(ctx, i / fps, {});
+  return cv.toDataURL('image/jpeg', q2 || 0.93);
+};
+</script>

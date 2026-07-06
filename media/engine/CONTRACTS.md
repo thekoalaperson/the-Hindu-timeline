@@ -176,6 +176,37 @@ current arrangement code behind it).
 - New public APIs documented at top of file + one-line entries appended to this
   file's changelog section.
 
+## Director's addendum (binding, from the fresh-eyes review)
+
+1. **Painting, not puppet.** No visible joint circles; limb chains and torsos
+   carry one continuous tapered ink contour; garment masses carry 2-3 interior
+   fold strokes. The mannequin look is a merge-blocker.
+2. **No twinning.** Any generated group (crowds, armies, brothers) samples
+   height/build/skin/garment/headgear/pose-phase with uneven spacing; adjacent
+   figures may not share garment color + headgear. Named characters must
+   differ in silhouette, not just palette.
+3. **Composition grammar.** Storyboards use named shot presets (`wide`,
+   `two-shot`, `close-up`, `processional`, `hero-frame`); every film has at
+   least one close-up at an emotional peak. The composition linter
+   (safe-area / overlap / facing / subtitle-clearance on computed boxes) runs
+   in validate before any render.
+4. **Manuscript identity.** Films render inside an illuminated Pahari margin
+   frame (dark rule + ornament band); title/end cards are calligraphic folios
+   with a colophon citing corpus file paths; each story exports a poster
+   frame; the player's pause mode ("darshan") exposes actor hitboxes with
+   name/epithet/corpus links.
+5. **Deferred by decision:** multi-arm/multi-head rigs (no slate film needs
+   them), viseme lip-sync (narration will be re-voiced), further coverage
+   census beyond the committed audit.
+6. **Slate order:** Sāvitrī → Yakṣa Praśna → Bakāsura → Govardhana. Hero
+   images: Sāvitrī following Yama's noose-bound spark through darkening
+   forest; brothers fallen around a mirror lake, a voice with no body; small
+   Bhīma calmly eating before a raging giant; the mountain-as-umbrella over
+   lamp-lit cows while blue-black rain slants outside the dry circle.
+
 ## Changelog
 
 - v1: initial contracts (restructure commit).
+- v1.1: expressiveness principles + music hierarchy.
+- v1.2: director's addendum (line pass, anti-twinning, composition grammar,
+  manuscript identity, slate order).

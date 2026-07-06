@@ -905,22 +905,24 @@ function drawHut(ctx, o) {
 //  Signature: (ctx, {x,y,s,facing,t,seed,gait,ornament?,howdah?})
 // ═══════════════════════════════════════════════════════════════════
 
-// gait presets. ph = phase offsets [nearFore, nearHind, farFore, farHind]
+// gait presets. ph = phase offsets [nearFore, nearHind, farFore, farHind].
+// walk = 4-beat lateral sequence (LH,LF,RH,RF) so legs never all split at once.
 function _gaitCfg(gait) {
-  if (gait === 'run') return { rate: 2.15, amp: 1.15, bob: 18, pitch: 0.05, ph: [0.06, 0.60, 0.0, 0.54], sus: 0.5 };
-  if (gait === 'walk') return { rate: 1.1, amp: 1.0, bob: 6, pitch: 0.012, ph: [0.0, 0.5, 0.5, 0.0], sus: 0 };
-  return { rate: 0.0, amp: 0.05, bob: 1.4, pitch: 0.0, ph: [0.0, 0.5, 0.5, 0.0], sus: 0 }; // idle
+  if (gait === 'run') return { rate: 2.1, amp: 1.15, bob: 16, pitch: 0.05, ph: [0.10, 0.60, 0.0, 0.50], gallop: true };
+  if (gait === 'walk') return { rate: 1.05, amp: 1.0, bob: 5, pitch: 0.012, ph: [0.25, 0.0, 0.75, 0.5], gallop: false };
+  return { rate: 0.0, amp: 0.04, bob: 1.2, pitch: 0.0, ph: [0.2, 0.0, 0.7, 0.5], gallop: false }; // idle
 }
-// one leg's hip/knee angles for a cycle position (0..1)
+// one leg's hip/knee angles for a cycle position (0..1).
 function _legAng(cyc, amp) {
   const a = (cyc % 1) * TAU;
   return {
-    hip: Math.cos(a) * 0.42 * amp,                     // fwd(+) at cyc 0, back(-) at cyc .5
-    knee: 0.16 + Math.max(0, -Math.sin(a)) * 0.66 * amp, // flexes through swing (cyc .5..1)
+    hip: Math.cos(a) * 0.26 * amp,                      // fwd(+) at cyc 0, back(-) at cyc .5
+    knee: 0.12 + Math.max(0, -Math.sin(a)) * 0.5 * amp, // flexes (tucks) through swing (.5..1)
   };
 }
 // draw a 2-segment leg rooted at `root`, return foot point.
-function _qLeg(ctx, root, upLen, loLen, ang, bendSign, w, col, dark, hoofCol) {
+// footType: 'hoof' (small dark hoof) | 'pad' (flat toenailed pad) | 'none'
+function _qLeg(ctx, root, upLen, loLen, ang, bendSign, w, col, dark, hoofCol, footType) {
   const hx = root[0], hy = root[1];
   const kx = hx + Math.sin(ang.hip) * upLen;
   const ky = hy + Math.cos(ang.hip) * upLen;
@@ -929,11 +931,20 @@ function _qLeg(ctx, root, upLen, loLen, ang, bendSign, w, col, dark, hoofCol) {
   const fy = ky + Math.cos(fa) * loLen;
   limb(ctx, [hx, hy], [kx, ky], w[0], w[1], col, dark, _INK);
   limb(ctx, [kx, ky], [fx, fy], w[1], w[2], col, dark, _INK);
-  jointPatch(ctx, [kx, ky], w[1] * 0.9, col);
-  // hoof / foot
-  ctx.fillStyle = hoofCol;
-  ctx.beginPath(); ctx.ellipse(fx, fy - w[2] * 0.2, w[2] * 1.25, w[2] * 1.05, 0, 0, TAU); ctx.fill();
-  ctx.strokeStyle = _INK; ctx.lineWidth = 1.2; ctx.stroke();
+  // unify the knee (hide overlapping limb highlights) + model it round
+  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(kx, ky, w[1] * 0.9, 0, TAU); ctx.fill();
+  ctx.fillStyle = rgba(dark, 0.22); ctx.beginPath(); ctx.arc(kx + w[1] * 0.28, ky + w[1] * 0.3, w[1] * 0.7, 0, TAU); ctx.fill();
+  if (footType === 'pad') {
+    ctx.fillStyle = col;
+    ctx.beginPath(); ctx.ellipse(fx, fy - w[2] * 0.1, w[2] * 1.28, w[2] * 0.72, 0, 0, TAU); ctx.fill();
+    ctx.strokeStyle = _INK; ctx.lineWidth = 1.6; ctx.stroke();
+    ctx.fillStyle = hoofCol;
+    for (let n = -1; n <= 1; n++) { ctx.beginPath(); ctx.ellipse(fx + n * w[2] * 0.66, fy + w[2] * 0.42, w[2] * 0.26, w[2] * 0.34, 0, 0, TAU); ctx.fill(); }
+  } else if (footType !== 'none') {
+    ctx.fillStyle = hoofCol;
+    ctx.beginPath(); ctx.ellipse(fx + w[2] * 0.2, fy - w[2] * 0.1, w[2] * 1.05, w[2] * 0.88, 0, 0, TAU); ctx.fill();
+    ctx.strokeStyle = _INK; ctx.lineWidth = 1.1; ctx.stroke();
+  }
   return [fx, fy];
 }
 
@@ -1001,8 +1012,6 @@ function drawHorse(ctx, o) {
 
   // neck + head
   ctx.save(); ctx.translate(0, -brB);
-  const neckA = 0.0 + (g.gait === 'run' ? 0.1 : 0) + Math.sin(t * g.rate * TAU) * 0.02 * g.amp;
-  // neck
   const neck = [
     [172, -318], [210, -382], [258, -430], [300, -452],   // top (crest)
     [318, -430], [300, -392], [250, -352], [196, -300],   // throat
@@ -1095,11 +1104,9 @@ function drawElephant(ctx, o) {
   const legW = [40, 36, 34];
   const brB = Math.sin(t * 1.1 + seed) * 3;
 
-  // far legs
-  _qLeg(ctx, foreF, upLen, loLen, _legAng(cyc(2), g.amp * 0.7), 1, legW.map(w => w * 0.94), _hx(skin, -0.1), skinD, _hx(nail, -0.2));
-  _qLeg(ctx, hindF, upLen, loLen, _legAng(cyc(3), g.amp * 0.7), -1, legW.map(w => w * 0.94), _hx(skin, -0.1), skinD, _hx(nail, -0.2));
-  // toenails on far feet
-  ctx.save(); ctx.translate(0, 0); ctx.restore();
+  // far legs (stout pillars — minimal swing)
+  _qLeg(ctx, foreF, upLen, loLen, _legAng(cyc(2), g.amp * 0.3), 1, legW.map(w => w * 0.94), _hx(skin, -0.1), skinD, _hx(nail, -0.2), 'pad');
+  _qLeg(ctx, hindF, upLen, loLen, _legAng(cyc(3), g.amp * 0.3), -1, legW.map(w => w * 0.94), _hx(skin, -0.1), skinD, _hx(nail, -0.2), 'pad');
 
   // tail
   const tsw = sfbm1(t * 0.8, seed + 5) * 18;
@@ -1174,7 +1181,7 @@ function drawElephant(ctx, o) {
   ctx.beginPath(); ctx.moveTo(340, -350); ctx.quadraticCurveTo(392, -320, 404, -272); ctx.quadraticCurveTo(388, -300, 340, -330); ctx.closePath(); ctx.fill();
   ctx.strokeStyle = _INKS; ctx.lineWidth = 1.4; ctx.stroke();
   // trunk (curls, secondary sway)
-  const curl = (g.gait === 'idle' ? Math.sin(t * 0.8 + seed) * 0.5 : 0.2);
+  const curl = ((o.gait || 'idle') === 'idle' ? Math.sin(t * 0.8 + seed) * 0.5 : 0.2);
   ctx.strokeStyle = skin; ctx.lineWidth = 46; ctx.lineCap = 'round';
   ctx.beginPath();
   ctx.moveTo(348, -420);
@@ -1214,10 +1221,8 @@ function drawElephant(ctx, o) {
   }
 
   // near legs
-  _qLeg(ctx, hindN, upLen, loLen, _legAng(cyc(1), g.amp * 0.7), -1, legW, skin, skinD, nail);
-  _qLeg(ctx, foreN, upLen, loLen, _legAng(cyc(0), g.amp * 0.7), 1, legW, skin, skinD, nail);
-  // toenails on near fore/hind
-  ctx.fillStyle = nail;
+  _qLeg(ctx, hindN, upLen, loLen, _legAng(cyc(1), g.amp * 0.3), -1, legW, skin, skinD, nail, 'pad');
+  _qLeg(ctx, foreN, upLen, loLen, _legAng(cyc(0), g.amp * 0.3), 1, legW, skin, skinD, nail, 'pad');
   ctx.restore();
 }
 
@@ -1258,7 +1263,7 @@ function drawDeer(ctx, o) {
   ctx.strokeStyle = _INK; ctx.lineWidth = 2.2; ctx.stroke();
   // white belly + spots
   ctx.save(); ctx.beginPath(); smoothPath(ctx, body, true); ctx.clip();
-  ctx.fillStyle = belly; ctx.beginPath(); ctx.ellipse(0, -128, 110, 26, 0, 0, TAU); ctx.fill();
+  ctx.fillStyle = belly; ctx.beginPath(); ctx.ellipse(-6, -124, 88, 18, 0, 0, TAU); ctx.fill();
   ctx.fillStyle = 'rgba(255,246,224,0.85)';
   for (let i = 0; i < 16; i++) {
     const sx = -110 + hash1(seed + i) * 210, sy = -230 + hash1(seed * 3 + i) * 80;
