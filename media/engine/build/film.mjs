@@ -35,7 +35,7 @@ import { engineDir, storyDir, loadTimeline, arg } from './lib.mjs';
 const SUBCOMMANDS = ['validate', 'audio', 'stills', 'player', 'render', 'all'];
 const sub = process.argv[2];
 if (!SUBCOMMANDS.includes(sub)) {
-  console.error(`usage: film.mjs <${SUBCOMMANDS.join('|')}> --story <slug> [--provider p] [--legacy] [--dry]`);
+  console.error(`usage: film.mjs <${SUBCOMMANDS.join('|')}> --story <slug> [--provider p] [--legacy] [--raga r] [--dry]`);
   process.exit(2);
 }
 
@@ -44,6 +44,7 @@ const slug = basename(story);
 const dry = process.argv.includes('--dry');
 const providerFlag = arg(process.argv, '--provider', null);
 const legacyFlag = process.argv.includes('--legacy');
+const ragaFlag = arg(process.argv, '--raga', null);
 const build = f => join(engineDir, 'build', f);
 
 function run(cmd, args) {
@@ -77,7 +78,9 @@ function doValidate() {
 function doAudio() {
   const narrArgs = ['--story', story, ...(providerFlag ? ['--provider', providerFlag] : [])];
   run('node', [build('narrate.mjs'), ...narrArgs]);
-  const musicArgs = ['--story', story, ...(legacyFlag ? ['--legacy'] : [])];
+  const musicArgs = ['--story', story,
+    ...(legacyFlag ? ['--legacy'] : []),
+    ...(ragaFlag ? ['--raga', ragaFlag] : [])];
   run('node', [build('music.mjs'), ...musicArgs]);
   run('bash', [build('mix.sh'), story]);
 }

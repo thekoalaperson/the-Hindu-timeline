@@ -396,10 +396,50 @@ function _hx(hex, amt) {
   return '#' + to(c[0]) + to(c[1]) + to(c[2]);
 }
 
-// a small filled leaf blob (for tree canopies)
-function _leafBlob(ctx, x, y, rx, ry, rot, col) {
-  ctx.fillStyle = col;
-  ctx.beginPath(); ctx.ellipse(x, y, rx, ry, rot, 0, TAU); ctx.fill();
+// ── FOLIAGE ── flat scalloped lobes in low-saturation, tod-graded greens.
+// The canopy reads as overlapping leaf-clumps with a thin ink line per lobe
+// and sparse leaf-tick strokes — never glossy bubbles. Colour respects the
+// scene's time-of-day so night reads near-silhouette, dusk warm-olive, etc.
+function _foliage(tod) {
+  switch (tod) {
+    case 'night': return { dark: '#101d24', mid: '#182b2f', lite: '#22383a', ink: 'rgba(8,16,18,0.6)', tick: 'rgba(90,120,120,0.26)' };
+    case 'dusk':  return { dark: '#2a3220', mid: '#3f4227', lite: '#565231', ink: 'rgba(22,18,8,0.55)', tick: 'rgba(150,138,78,0.28)' };
+    case 'dawn':  return { dark: '#3d483a', mid: '#525d4c', lite: '#697263', ink: 'rgba(30,36,30,0.42)', tick: 'rgba(158,170,155,0.28)' };
+    default:      return { dark: '#31432a', mid: '#465a34', lite: '#5a6f42', ink: 'rgba(22,28,15,0.5)', tick: 'rgba(120,145,88,0.30)' }; // day — calm, muted
+  }
+}
+// one flat foliage lobe: a scalloped closed blob (vertices bulge out, chord
+// midpoints tuck in) filled flat, with a thin ink outline.
+function _foliageLobe(ctx, cx, cy, rx, ry, seed, col, ink) {
+  const N = clamp(Math.round((rx + ry) / 34), 7, 14);
+  const pts = [];
+  for (let i = 0; i < N; i++) {
+    const a = i / N * TAU;
+    const jt = 1 + snoise1(i * 1.7 + seed, seed) * 0.12;      // per-scallop wobble
+    pts.push([cx + Math.cos(a) * rx * jt, cy + Math.sin(a) * ry * jt]);
+  }
+  const mid = i => [(pts[i][0] + pts[(i + 1) % N][0]) / 2, (pts[i][1] + pts[(i + 1) % N][1]) / 2];
+  const bulge = 1.16;
+  ctx.beginPath();
+  let m = mid(N - 1); ctx.moveTo(m[0], m[1]);
+  for (let i = 0; i < N; i++) {
+    const cxp = cx + (pts[i][0] - cx) * bulge, cyp = cy + (pts[i][1] - cy) * bulge;
+    m = mid(i); ctx.quadraticCurveTo(cxp, cyp, m[0], m[1]);
+  }
+  ctx.closePath();
+  ctx.fillStyle = col; ctx.fill();
+  if (ink) { ctx.strokeStyle = ink; ctx.lineWidth = 1.8; ctx.stroke(); }
+}
+// sparse short leaf-tick strokes over a canopy region (replaces glossy stipple)
+function _leafTicks(ctx, cx, cy, rx, ry, n, seed, col, t) {
+  ctx.strokeStyle = col; ctx.lineWidth = 1.5; ctx.lineCap = 'round';
+  for (let i = 0; i < n; i++) {
+    const a = hash1(seed + i) * TAU, rr = 0.3 + hash1(seed * 3 + i) * 0.66;
+    const lx = cx + Math.cos(a) * rx * rr, ly = cy + Math.sin(a) * ry * rr;
+    const wob = sfbm1(t * 0.5 + i, seed) * 3;
+    const ang = -1.15 + hash1(seed * 5 + i) * 0.7;            // mostly upward ticks
+    ctx.beginPath(); ctx.moveTo(lx + wob, ly); ctx.lineTo(lx + wob + Math.cos(ang) * 5.5, ly + Math.sin(ang) * 5.5); ctx.stroke();
+  }
 }
 
 // ═══════════════════════════════════════════════════════════════════
@@ -642,31 +682,24 @@ function treeBanyan(ctx, o) {
     const top = -430 - hash1(i * 5 + seed) * 60;
     ctx.beginPath(); ctx.moveTo(rx, top); ctx.quadraticCurveTo(rx + snoise1(i, seed) * 20, top / 2, rx + snoise1(i * 7, seed) * 26, -20 - hash1(i) * 60); ctx.stroke();
   }
-  // canopy: layered leaf clusters (spread tones so the mass reads as volume,
-  // dark clumps behind/below → light clumps up front, plus an underside shadow)
+  // canopy: overlapping flat foliage lobes (dark clumps low/back → muted-light
+  // clumps up top), thin ink outline per lobe, sparse leaf-ticks. tod-graded.
   const cy = -430;
-  const dark = '#1c3c14', mid = '#356b26', lite = '#5c9c38';
-  const clusters = [
-    [0, cy, 360, 190, dark], [-210, cy + 30, 200, 150, dark], [210, cy + 20, 210, 150, dark],
-    [-90, cy - 70, 220, 160, mid], [110, cy - 60, 220, 160, mid], [0, cy - 20, 260, 170, mid],
-    [-60, cy - 120, 150, 120, lite], [90, cy - 110, 150, 120, lite], [-160, cy - 40, 120, 100, lite],
+  const pal = _foliage(o.tod || 'day');
+  // [cx, cyOffset from cy, rx, ry, toneIdx] — 0 dark(back/low) 1 mid 2 lite(top)
+  const lobes = [
+    [0, 46, 330, 148, 0], [-206, 54, 176, 118, 0], [208, 44, 186, 118, 0],   // lower/back
+    [-118, -26, 208, 138, 1], [128, -18, 206, 138, 1], [4, 12, 244, 150, 1],  // mid mass
+    [-66, -108, 148, 108, 2], [104, -96, 146, 108, 2], [-190, -22, 118, 94, 2], // upper lit
   ];
-  for (let i = 0; i < clusters.length; i++) {
-    const [cx, ccy, rx, ry, col] = clusters[i];
-    const wob = sfbm1(t * 0.5 + i * 2, seed + i) * 8;
-    _leafBlob(ctx, cx + wob + sway * ccy, ccy, rx, ry, 0, col);
-    // each clump gets a small shaded lower-belly for roundness
-    ctx.fillStyle = 'rgba(15,30,10,0.22)';
-    ctx.beginPath(); ctx.ellipse(cx + wob + sway * ccy, ccy + ry * 0.42, rx * 0.82, ry * 0.34, 0, 0, TAU); ctx.fill();
-    _leafBlob(ctx, cx + wob + sway * ccy - rx * 0.18, ccy - ry * 0.3, rx * 0.5, ry * 0.4, 0, _hx(col, 0.12));
+  const tones = [pal.dark, pal.mid, pal.lite];
+  for (let i = 0; i < lobes.length; i++) {
+    const [cx, dcy, rx, ry, tone] = lobes[i];
+    const ccy = cy + dcy;
+    const wob = sfbm1(t * 0.5 + i * 2, seed + i) * 7 + sway * ccy;
+    _foliageLobe(ctx, cx + wob, ccy, rx, ry, seed + i * 4, tones[tone], pal.ink);
   }
-  // leaf stipple highlights
-  ctx.fillStyle = 'rgba(150,200,90,0.5)';
-  for (let i = 0; i < 60; i++) {
-    const a = hash1(seed + i) * TAU, rr = hash1(seed * 3 + i);
-    const lx = Math.cos(a) * 320 * rr, ly = cy - 40 + Math.sin(a) * 150 * rr;
-    ctx.beginPath(); ctx.arc(lx + sfbm1(t * 0.5 + i, seed) * 6, ly, 3.5, 0, TAU); ctx.fill();
-  }
+  _leafTicks(ctx, sway * (cy - 40), cy - 40, 320, 155, 26, seed, pal.tick, t);
   ctx.restore();
 }
 
@@ -698,8 +731,8 @@ function treePalm(ctx, o) {
   // crown base
   ctx.fillStyle = '#4a3a1e';
   ctx.beginPath(); ctx.ellipse(topX, topY, 20, 14, 0, 0, TAU); ctx.fill();
-  // fronds radiating & arching, with wind sway
-  const dark = '#2c5a24', mid = '#3f7a2c';
+  // fronds radiating & arching, with wind sway (muted, tod-graded)
+  const _pf = _foliage(o.tod || 'day'), dark = _pf.dark, mid = _pf.mid;
   for (let i = 0; i < 9; i++) {
     const base = -2.5 + i * (5.0 / 8);
     const wind = sfbm1(t * 0.7 + i * 1.3, seed + i) * 0.18;
@@ -735,31 +768,30 @@ function treeAshoka(ctx, o) {
   ctx.fillStyle = '#5a3d22';
   ctx.fillRect(-12, -70, 24, 70);
   ctx.strokeStyle = _INK; ctx.lineWidth = 2; ctx.strokeRect(-12, -70, 24, 70);
-  const top = -560, dark = '#20421a', mid = '#2f5f22', lite = '#48853050';
+  const top = -560, pal = _foliage(o.tod || 'day'), tones = [pal.dark, pal.mid];
   const sway = sfbm1(t * 0.4, seed) * 12;
-  // stacked conical foliage tiers
+  // stacked conical foliage tiers with scalloped leaf-edge undersides + ink line
   const tiers = 6;
   for (let i = 0; i < tiers; i++) {
     const u = i / (tiers - 1);
     const cyc = lerp(-60, top, u);
     const halfW = lerp(120, 26, u);
     const wob = sway * u;
-    ctx.fillStyle = i % 2 ? mid : dark;
     ctx.beginPath();
     ctx.moveTo(-halfW + wob, cyc + 70);
-    ctx.quadraticCurveTo(wob, cyc - 40, halfW + wob, cyc + 70);
-    ctx.quadraticCurveTo(0 + wob, cyc + 46, -halfW + wob, cyc + 70);
-    ctx.closePath(); ctx.fill();
+    ctx.quadraticCurveTo(wob, cyc - 46, halfW + wob, cyc + 70);   // peaked top
+    const bumps = Math.max(3, Math.round(halfW / 24));
+    for (let b = 0; b < bumps; b++) {                              // scalloped bottom (right→left)
+      const x1 = lerp(halfW, -halfW, (b + 1) / bumps) + wob;
+      const mxb = lerp(halfW, -halfW, (b + 0.5) / bumps) + wob;
+      ctx.quadraticCurveTo(mxb, cyc + 88, x1, cyc + 70);
+    }
+    ctx.closePath();
+    ctx.fillStyle = tones[i % 2]; ctx.fill();
+    ctx.strokeStyle = pal.ink; ctx.lineWidth = 1.6; ctx.stroke();
   }
-  // sunlit edge stipple
-  ctx.fillStyle = 'rgba(120,180,80,0.5)';
-  for (let i = 0; i < 40; i++) {
-    const u = hash1(seed + i);
-    const cyc = lerp(-70, top + 40, u);
-    const halfW = lerp(110, 20, u);
-    const lx = -halfW + hash1(seed * 3 + i) * halfW * 1.6;
-    ctx.beginPath(); ctx.arc(lx + sway * u, cyc + hash1(i) * 30, 2.6, 0, TAU); ctx.fill();
-  }
+  // sparse leaf ticks (no glossy stipple)
+  _leafTicks(ctx, sway * 0.5, lerp(-70, top, 0.5), 96, (top + 70) * -0.5, 22, seed, pal.tick, t);
   ctx.restore();
 }
 
@@ -965,11 +997,24 @@ function _qLeg(ctx, root, upLen, loLen, ang, bendSign, w, col, dark, hoofCol, fo
   const fa = ang.hip - ang.knee * bendSign;
   const fx = kx + Math.sin(fa) * loLen;
   const fy = ky + Math.cos(fa) * loLen;
-  limb(ctx, [hx, hy], [kx, ky], w[0], w[1], col, dark, _INK);
-  limb(ctx, [kx, ky], [fx, fy], w[1], w[2], col, dark, _INK);
-  // unify the knee (hide overlapping limb highlights) + model it round
-  ctx.fillStyle = col; ctx.beginPath(); ctx.arc(kx, ky, w[1] * 0.9, 0, TAU); ctx.fill();
-  ctx.fillStyle = rgba(dark, 0.22); ctx.beginPath(); ctx.arc(kx + w[1] * 0.28, ky + w[1] * 0.3, w[1] * 0.7, 0, TAU); ctx.fill();
+  // fill the two tapered segments WITHOUT per-segment outline (no cap rings)
+  limb(ctx, [hx, hy], [kx, ky], w[0], w[1], col, dark, null);
+  limb(ctx, [kx, ky], [fx, fy], w[1], w[2], col, dark, null);
+  // ONE continuous tapered ink contour along the outer silhouette (hip→knee→
+  // foot down one side, arc around the foot, back up the other) — like humans.
+  const per = (a, b) => { const dx = b[0] - a[0], dy = b[1] - a[1], L = Math.hypot(dx, dy) || 1; return [-dy / L, dx / L]; };
+  const nA = per([hx, hy], [kx, ky]), nB = per([kx, ky], [fx, fy]);
+  ctx.strokeStyle = _INK; ctx.lineWidth = 1.8; ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+  ctx.beginPath();
+  ctx.moveTo(hx + nA[0] * w[0], hy + nA[1] * w[0]);
+  ctx.lineTo(kx + nA[0] * w[1], ky + nA[1] * w[1]);
+  ctx.lineTo(kx + nB[0] * w[1], ky + nB[1] * w[1]);
+  ctx.lineTo(fx + nB[0] * w[2], fy + nB[1] * w[2]);
+  ctx.arc(fx, fy, w[2], Math.atan2(nB[1], nB[0]), Math.atan2(-nB[1], -nB[0]));   // round foot cap
+  ctx.lineTo(kx - nB[0] * w[1], ky - nB[1] * w[1]);
+  ctx.lineTo(kx - nA[0] * w[1], ky - nA[1] * w[1]);
+  ctx.lineTo(hx - nA[0] * w[0], hy - nA[1] * w[0]);
+  ctx.stroke();
   if (footType === 'pad') {
     ctx.fillStyle = col;
     ctx.beginPath(); ctx.ellipse(fx, fy - w[2] * 0.1, w[2] * 1.28, w[2] * 0.72, 0, 0, TAU); ctx.fill();

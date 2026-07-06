@@ -1,0 +1,49 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>integration smoke — full new-engine stack</title>
+<style>body{margin:0;background:#20160e}canvas{display:block}</style>
+<canvas id="cv" width="1920" height="1080"></canvas>
+<script>const CHARACTERS = {};</script>
+<script src="../src/core.js"></script>
+<script src="../src/paint.js"></script>
+<script src="../src/acting.js"></script>
+<script src="../src/wardrobe.js"></script>
+<script src="../src/person.js"></script>
+<script src="../src/archetypes.js"></script>
+<script src="../src/props.js"></script>
+<script src="../src/sets.js"></script>
+<script src="../src/stage.js"></script>
+<script>
+// Full-stack smoke: one storyboard scene on a real set with registry-less cast,
+// props, fauna, pose presets, and a composition preset — everything at once.
+const ctx = document.getElementById('cv').getContext('2d');
+const T = parseFloat(new URLSearchParams(location.search).get('t') || '4');
+
+const TL = { title: 'smoke', subtitle: '', total: 16, scenes: [
+  { id: 'one', name: 'Smoke', display: 'A rider passes the village well at dusk.',
+    start: 0, narrAt: 1, narrDur: 6, dur: 16, end: 16 },
+]};
+const STORY = { scenes: { one: { storyboard: {
+  set: 'village', setOpts: { timeOfDay: 'dusk', seed: 4 },
+  grade: { wash: '#ffb45c', washAlpha: 0.06, vignette: 0.3 },
+  shot: { type: 'wide' },
+  actors: [
+    { id: 'trav', who: { archetype: 'villager', skin: '#b57a45' }, at: [640, 1000], s: 0.7, facing: 1 },
+    { id: 'sage', who: { archetype: 'sage' }, at: [1180, 990], s: 0.68, facing: -1 },
+  ],
+  beats: [
+    { at: 1.5, actor: 'trav', pose: 'namaste', over: 1.0 },
+    { at: 2.0, actor: 'sage', pose: 'bless', over: 1.0 },
+    { at: 3.0, fx: 'petals', opts: { density: 0.4 } },
+  ],
+} } } };
+
+buildFilmFromStory(STORY, TL);
+__film.draw(ctx, T, {});
+// overlay: props + fauna + a Person.of archetype directly, to prove co-existence
+drawCart(ctx, { x: 330, y: 1040, s: 0.8, facing: 1, t: T, seed: 3 });
+drawCow(ctx, { x: 1660, y: 1030, s: 0.8, facing: -1, t: T, seed: 5, gait: 'idle' });
+Person.of({ archetype: 'rakshasa' }).draw(ctx, { x: 1500, y: 1060, s: 0.5, facing: -1, t: T, seed: 9,
+  pose: POSES.stand(1, T, 9) });
+console.log('SMOKE OK');
+</script>

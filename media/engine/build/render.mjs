@@ -3,7 +3,7 @@
 //   node render.mjs --story <slug> [--fps 24] [--crf 22]
 import { chromium } from 'playwright-core';
 import { execFileSync } from 'node:child_process';
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { storyDir, loadStory, loadTimeline, arg, CHROMIUM } from './lib.mjs';
 
@@ -40,11 +40,15 @@ await browser.close();
 console.log(`rendered ${FRAMES} frames in ${((Date.now() - t0) / 60000).toFixed(1)} min`);
 
 const mp4 = join(story, 'dist', `${cfg.slug}.mp4`);
-execFileSync('ffmpeg', ['-y', '-v', 'error',
+const srt = join(story, 'dist', 'captions.srt');
+const args = ['-y', '-v', 'error',
   '-framerate', String(FPS), '-i', join(outDir, 'f%05d.jpg'),
-  '-i', join(story, 'audio', 'mix.wav'),
-  '-c:v', 'libx264', '-preset', 'slow', '-crf', CRF, '-pix_fmt', 'yuv420p',
-  '-c:a', 'aac', '-b:a', '160k',
-  '-movflags', '+faststart', '-shortest', mp4,
-], { stdio: 'inherit' });
-console.log('encoded', mp4);
+  '-i', join(story, 'audio', 'mix.wav')];
+const haveSrt = existsSync(srt);
+if (haveSrt) args.push('-i', srt);
+args.push('-c:v', 'libx264', '-preset', 'slow', '-crf', CRF, '-pix_fmt', 'yuv420p',
+  '-c:a', 'aac', '-b:a', '160k');
+if (haveSrt) args.push('-c:s', 'mov_text', '-metadata:s:s:0', 'language=eng');
+args.push('-movflags', '+faststart', '-shortest', mp4);
+execFileSync('ffmpeg', args, { stdio: 'inherit' });
+console.log('encoded', mp4, haveSrt ? '(with captions track)' : '');

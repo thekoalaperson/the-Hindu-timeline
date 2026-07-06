@@ -11,7 +11,8 @@
     "core.js",
     "paint.js",
     "people.js",
-    "world.js"
+    "world.js",
+    "finish.js"
   ],
   "storyFiles": [
     "cast.js",
@@ -34,5 +35,8 @@
     "fps": 24,
     "crf": 22
   },
-  "titleHtml": "The Winning of <span class=\"d\">Draupadī</span>"
+  "titleHtml": "The Winning of <span class=\"d\">Draupadī</span>",
+  "poster": {
+    "t": 75.8
+  }
 }

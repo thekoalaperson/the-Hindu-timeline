@@ -64,6 +64,28 @@
   #chapters .sep { color:#4a3a66; align-self:center; }
   footer { padding: 4px 18px 30px; color:#66517c; font-size:12.5px; text-align:center; font-style:italic; }
   footer a { color:#9a7c4e; }
+  /* darshan mode: pause to meet the characters */
+  #darshan { position:absolute; inset:0; pointer-events:none; z-index:2; }
+  #darshan .dot {
+    position:absolute; transform:translate(-50%,-100%);
+    pointer-events:auto; cursor:pointer;
+    background:rgba(18,10,26,0.78); border:1px solid var(--gold);
+    color:var(--ink); font:italic 13px Georgia; padding:3px 10px; border-radius:12px;
+    white-space:nowrap; letter-spacing:0.04em;
+  }
+  #darshan .dot:hover { background:rgba(60,36,80,0.9); }
+  #darshan .card {
+    position:absolute; pointer-events:auto; max-width:340px;
+    background:rgba(14,8,20,0.94); border:1px solid var(--gold);
+    border-radius:10px; padding:12px 16px; color:var(--ink); font-size:13.5px;
+    box-shadow:0 12px 40px rgba(0,0,0,0.6);
+  }
+  #darshan .card b { color:var(--gold); font-size:15px; }
+  #darshan .card .g { color:#9a7c4e; font-style:italic; font-size:12px; margin-top:6px; }
+  #darshan .hint {
+    position:absolute; right:12px; top:10px; color:rgba(242,223,174,0.75);
+    font:italic 12.5px Georgia; background:rgba(14,8,20,0.6); padding:3px 10px; border-radius:10px;
+  }
 </style>
 </head>
 <body>
@@ -74,6 +96,7 @@
 <div id="stage">
   <div class="frame">
     <canvas id="cv" width="1920" height="1080"></canvas>
+    <div id="darshan"></div>
     <div id="poster">
       <div id="playbtn">
         <svg width="34" height="38" viewBox="0 0 34 38"><path d="M2 2 L32 19 L2 36 Z" fill="#e8b64c"/></svg>
@@ -1908,6 +1931,154 @@ function crowdStrip(key, n, kindFn, scale) {
   });
 }
 
+// ===== engine/finish.js =====
+// ── finish.js ── manuscript identity: illuminated margin frame, calligraphic
+// title/end folios with corpus colophon, poster titling. Part of the film
+// compositor; stage.js calls these when the story enables them.
+// API: drawMarginFrame(ctx, opts?), drawTitleFolio(ctx, meta, k),
+//      drawEndFolio(ctx, meta, k), drawPosterTitle(ctx, meta)
+'use strict';
+
+// The frame is static — cache it once per style key.
+function drawMarginFrame(ctx, o) {
+  o = o || {};
+  const key = 'finish-frame-' + (o.tone || 'default');
+  const tile = cached(key, W, H, (g) => {
+    const m = 24;                     // band width
+    const inner = 8;                  // inner gold rule inset from band
+    // outer band: deep lacquer with subtle gradient
+    g.save();
+    const band = g.createLinearGradient(0, 0, 0, H);
+    band.addColorStop(0, '#241206'); band.addColorStop(0.5, '#170b04'); band.addColorStop(1, '#241206');
+    g.fillStyle = band;
+    g.fillRect(0, 0, W, m); g.fillRect(0, H - m, W, m);
+    g.fillRect(0, 0, m, H); g.fillRect(W - m, 0, m, H);
+    // fine double gold rule
+    g.strokeStyle = rgba('#e8b64c', 0.85); g.lineWidth = 2;
+    g.strokeRect(m - 2, m - 2, W - 2 * m + 4, H - 2 * m + 4);
+    g.strokeStyle = rgba('#9a7c4e', 0.65); g.lineWidth = 1;
+    g.strokeRect(m + inner, m + inner, W - 2 * (m + inner), H - 2 * (m + inner));
+    // ornament ticks along the band (tiny lotus-bud dashes)
+    g.fillStyle = rgba('#e8b64c', 0.5);
+    const step = 46;
+    for (let x = m + 20; x < W - m - 20; x += step) {
+      g.beginPath(); g.arc(x, m / 2 + 1, 2.2, 0, TAU); g.fill();
+      g.beginPath(); g.arc(x + step / 2, H - m / 2 - 1, 2.2, 0, TAU); g.fill();
+    }
+    for (let y = m + 20; y < H - m - 20; y += step) {
+      g.beginPath(); g.arc(m / 2 + 1, y, 2.2, 0, TAU); g.fill();
+      g.beginPath(); g.arc(W - m / 2 - 1, y + step / 2, 2.2, 0, TAU); g.fill();
+    }
+    // corner medallions: eight-petal lotus rosettes
+    const corner = (cx, cy) => {
+      g.save(); g.translate(cx, cy);
+      g.fillStyle = '#1d0e05';
+      g.beginPath(); g.arc(0, 0, 17, 0, TAU); g.fill();
+      g.strokeStyle = rgba('#e8b64c', 0.9); g.lineWidth = 1.6;
+      g.beginPath(); g.arc(0, 0, 17, 0, TAU); g.stroke();
+      for (let i = 0; i < 8; i++) {
+        const a = i / 8 * TAU;
+        g.save(); g.rotate(a);
+        g.fillStyle = rgba('#e8b64c', 0.75);
+        g.beginPath(); g.ellipse(8.5, 0, 5.5, 2.6, 0, 0, TAU); g.fill();
+        g.restore();
+      }
+      g.fillStyle = '#c9302a';
+      g.beginPath(); g.arc(0, 0, 3.4, 0, TAU); g.fill();
+      g.restore();
+    };
+    corner(m, m); corner(W - m, m); corner(m, H - m); corner(W - m, H - m);
+    g.restore();
+  });
+  ctx.drawImage(tile, 0, 0);
+}
+
+// shared folio ground: deep night-lacquer with a faint gold aura and rules
+function _folioGround(ctx, k) {
+  ctx.save();
+  ctx.globalAlpha = k;
+  vgrad(ctx, 0, 0, W, H, [[0, '#160b1e'], [0.55, '#20101a'], [1, '#120804']]);
+  glowAdd(ctx, W / 2, H * 0.42, 620, 'rgba(232,182,76,0.10)', 1);
+  // ornamental rules
+  ctx.strokeStyle = rgba('#e8b64c', 0.55); ctx.lineWidth = 1.6;
+  ctx.beginPath(); ctx.moveTo(W * 0.3, H * 0.30); ctx.lineTo(W * 0.7, H * 0.30); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(W * 0.3, H * 0.615); ctx.lineTo(W * 0.7, H * 0.615); ctx.stroke();
+  // lotus bud centered on each rule
+  for (const yy of [H * 0.30, H * 0.615]) {
+    ctx.fillStyle = rgba('#e8b64c', 0.8);
+    ctx.beginPath(); ctx.ellipse(W / 2, yy, 5, 8, 0, 0, TAU); ctx.fill();
+    ctx.fillStyle = rgba('#c9302a', 0.8);
+    ctx.beginPath(); ctx.arc(W / 2, yy, 2.2, 0, TAU); ctx.fill();
+  }
+  ctx.restore();
+}
+
+function drawTitleFolio(ctx, meta, k) {
+  if (k <= 0.005) return;
+  _folioGround(ctx, k);
+  ctx.save();
+  ctx.globalAlpha = k;
+  ctx.textAlign = 'center';
+  // small invocation mark
+  ctx.fillStyle = rgba('#cfa96a', 0.9);
+  ctx.font = '30px Georgia, serif';
+  ctx.fillText('॥', W / 2, H * 0.265);
+  // title
+  ctx.fillStyle = '#f2dfae';
+  ctx.font = '600 78px Georgia, serif';
+  ctx.shadowColor = 'rgba(232,182,76,0.45)'; ctx.shadowBlur = 26;
+  ctx.fillText(meta.title || '', W / 2, H * 0.435);
+  // subtitle
+  ctx.shadowBlur = 10;
+  ctx.fillStyle = '#cfa96a';
+  ctx.font = 'italic 30px Georgia, serif';
+  ctx.fillText(meta.subtitle || '', W / 2, H * 0.51);
+  ctx.restore();
+}
+
+function drawEndFolio(ctx, meta, k) {
+  if (k <= 0.005) return;
+  _folioGround(ctx, k);
+  ctx.save();
+  ctx.globalAlpha = k;
+  ctx.textAlign = 'center';
+  ctx.fillStyle = '#f2dfae';
+  ctx.font = '600 46px Georgia, serif';
+  ctx.shadowColor = 'rgba(232,182,76,0.4)'; ctx.shadowBlur = 18;
+  ctx.fillText(meta.endLine || '॥ śubham ॥', W / 2, H * 0.40);
+  ctx.shadowBlur = 8;
+  ctx.font = 'italic 26px Georgia, serif';
+  ctx.fillStyle = '#cfa96a';
+  ctx.fillText(meta.subtitle || '', W / 2, H * 0.465);
+  // colophon: cite the corpus sources
+  ctx.font = '20px Georgia, serif';
+  ctx.fillStyle = '#9a7c4e';
+  const src = (meta.sources || []).slice(0, 3);
+  ctx.fillText('drawn from the corpus:', W / 2, H * 0.565);
+  src.forEach((s, i) => ctx.fillText(s, W / 2, H * 0.565 + 30 + i * 28));
+  ctx.font = '18px Georgia, serif';
+  ctx.fillStyle = '#66517c';
+  ctx.fillText('hand-drawn with code · no AI imagery · the-Hindu-timeline', W / 2, H * 0.72 + src.length * 8);
+  ctx.restore();
+}
+
+function drawPosterTitle(ctx, meta) {
+  ctx.save();
+  ctx.textAlign = 'center';
+  const g = ctx.createLinearGradient(0, H - 300, 0, H);
+  g.addColorStop(0, 'rgba(10,5,2,0)'); g.addColorStop(1, 'rgba(10,5,2,0.82)');
+  ctx.fillStyle = g; ctx.fillRect(0, H - 300, W, 300);
+  ctx.fillStyle = '#f2dfae';
+  ctx.font = '600 64px Georgia, serif';
+  ctx.shadowColor = 'rgba(232,182,76,0.5)'; ctx.shadowBlur = 22;
+  ctx.fillText(meta.title || '', W / 2, H - 120);
+  ctx.shadowBlur = 8;
+  ctx.font = 'italic 26px Georgia, serif';
+  ctx.fillStyle = '#cfa96a';
+  ctx.fillText(meta.subtitle || '', W / 2, H - 70);
+  ctx.restore();
+}
+
 // ===== cast.js =====
 // ── cast.js ── character style sheets for the whole film.
 'use strict';
@@ -3578,6 +3749,7 @@ function loop() {
 }
 function play() {
   if (!started) { started = true; poster.classList.add('hide'); }
+  clearDarshan();
   audio.play();
   ppBtn.textContent = '❚❚';
   if (!raf) loop();
@@ -3588,6 +3760,45 @@ function pause() {
   if (raf) { cancelAnimationFrame(raf); raf = null; }
   drawAt(Math.min(audio.currentTime, DURN - 0.001));
   refreshUI(audio.currentTime);
+  showDarshan();
+}
+
+// ── darshan mode: pause → the frame becomes an annotated plate ──
+const darshan = document.getElementById('darshan');
+function clearDarshan() { darshan.innerHTML = ''; }
+function showDarshan() {
+  clearDarshan();
+  if (!started || !__film.actorsAt) return;
+  const actors = __film.actorsAt(audio.currentTime);
+  if (!actors.length) return;
+  const hint = document.createElement('div');
+  hint.className = 'hint'; hint.textContent = 'darshan · tap a name';
+  darshan.appendChild(hint);
+  const r = cv.getBoundingClientRect(), fr = darshan.getBoundingClientRect();
+  const sx = r.width / 1920, sy = r.height / 1080;
+  actors.forEach(a => {
+    const d = document.createElement('div');
+    d.className = 'dot';
+    d.style.left = ((a.box.x0 + a.box.x1) / 2 * sx) + 'px';
+    d.style.top = (a.box.y0 * sy - 4) + 'px';
+    d.textContent = a.label;
+    d.onclick = (ev) => {
+      ev.stopPropagation();
+      darshan.querySelectorAll('.card').forEach(c => c.remove());
+      const info = (typeof CHARACTERS !== 'undefined' && a.who && CHARACTERS[a.who]) || {};
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = '<b>' + a.label + '</b>' +
+        (info.notes ? '<div>' + info.notes + '</div>' : '') +
+        (info.grounding ? '<div class="g">corpus: ' + info.grounding + '</div>' : '') +
+        (info.archetype ? '<div class="g">archetype: ' + info.archetype + '</div>' : '');
+      const cx = Math.min((a.box.x1 * sx) + 10, r.width - 360);
+      card.style.left = Math.max(10, cx) + 'px';
+      card.style.top = Math.max(10, a.box.y0 * sy + 20) + 'px';
+      darshan.appendChild(card);
+    };
+    darshan.appendChild(d);
+  });
 }
 function toggle() { audio.paused ? play() : pause(); }
 function seekTo(T) {

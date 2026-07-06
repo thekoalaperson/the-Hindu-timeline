@@ -1156,6 +1156,9 @@ Person.of = function (sel) {
     if (typeof CHARACTERS !== 'undefined' && CHARACTERS[sel]) style = Object.assign({}, CHARACTERS[sel]);
     else if (typeof ARCH !== 'undefined' && ARCH[sel]) style = Object.assign({}, ARCH[sel]);
     else style = { archetype: sel };
+    // registry entries are overrides on top of their archetype preset
+    if (style.archetype && typeof ARCH !== 'undefined' && ARCH[style.archetype])
+      style = Object.assign({}, ARCH[style.archetype], style);
     if (form && style.forms && style.forms[form]) style = Object.assign({}, style, style.forms[form]);
   } else if (sel && typeof sel === 'object') {
     if (sel.archetype && typeof ARCH !== 'undefined' && ARCH[sel.archetype]) style = Object.assign({}, ARCH[sel.archetype], sel);

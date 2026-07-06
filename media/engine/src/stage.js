@@ -291,7 +291,8 @@ function stgArchetypeFallbackStyle(who) {
 function stgResolveActorStyle(who) {
   if (!who) return stgArchetypeFallbackStyle('unknown');
   if (typeof Person !== 'undefined' && Person && typeof Person.of === 'function') {
-    try { var p = Person.of(who); if (p) return p; } catch (e) { /* fall through */ }
+    // Person.of returns a rig instance; drawFigure consumes its resolved .style
+    try { var p = Person.of(who); if (p) return (p && p.style) ? p.style : p; } catch (e) { /* fall through */ }
   }
   if (typeof CAST !== 'undefined' && CAST && CAST[who]) return CAST[who];
   if (typeof CHARACTERS !== 'undefined' && CHARACTERS && CHARACTERS[who]) return CHARACTERS[who];
@@ -762,6 +763,59 @@ function buildFilmFromStory(storyDef, TIMELINE) {
     grain(ctx, 0.038, T);
     if (opts.subs !== false) drawSubtitle(ctx, T);
     transitionOverlay(ctx, T);
+    // manuscript folios: calligraphic title/end plates over the fades
+    if (storyDef.folios !== false && typeof drawTitleFolio === 'function') {
+      var fol = storyDef.folios || {};
+      var meta = {
+        title: TIMELINE.title, subtitle: TIMELINE.subtitle,
+        sources: fol.sources || storyDef.sources || [],
+        endLine: fol.endLine,
+      };
+      var tDur = fol.titleDur == null ? 3.4 : fol.titleDur;
+      var eDur = fol.endDur == null ? 4.2 : fol.endDur;
+      if (tDur > 0 && T < tDur + 0.8) {
+        var kT = (1 - ramp(T, tDur - 0.8, tDur + 0.6)) * ramp(T, 0.0, 0.7);
+        drawTitleFolio(ctx, meta, kT);
+      }
+      if (eDur > 0 && T > TIMELINE.total - eDur - 0.8) {
+        var kE = ramp(T, TIMELINE.total - eDur, TIMELINE.total - eDur + 0.9);
+        drawEndFolio(ctx, meta, kE);
+      }
+    }
+    // illuminated margin frame — the studio's manuscript signature
+    if (storyDef.frame !== false && typeof drawMarginFrame === 'function') {
+      drawMarginFrame(ctx, storyDef.frame || {});
+    }
+  }
+
+  // darshan support: screen-space positions of storyboard actors at time T
+  function actorsAt(T) {
+    var scenes = TIMELINE.scenes || [];
+    if (!scenes.length) return [];
+    T = stgClamp(T, 0, TIMELINE.total - 0.001);
+    var scene = scenes[0];
+    for (var i = 0; i < scenes.length; i++) if (T >= scenes[i].start) scene = scenes[i];
+    var def = storyDef.scenes ? storyDef.scenes[scene.id] : null;
+    if (!def || !def.storyboard) return [];
+    var compiled = compiledCache[scene.id];
+    if (!compiled) { compiled = stgCompileStoryboard(scene.id, def.storyboard, scene); compiledCache[scene.id] = compiled; }
+    var tl = T - scene.start;
+    var cam = stgCameraAt(compiled, tl);
+    var out = [];
+    var raw = (def.storyboard.actors || []);
+    for (var j = 0; j < raw.length; j++) {
+      var a = compiled.actors[raw[j].id];
+      if (!a) continue;
+      var box = stgProjectBox(cam, stgActorWorldBox(a, tl));
+      if (box.x1 < 0 || box.x0 > W || box.y1 < 0 || box.y0 > H) continue;
+      out.push({
+        id: raw[j].id,
+        who: typeof raw[j].who === 'string' ? raw[j].who : null,
+        label: raw[j].label || (typeof raw[j].who === 'string' ? raw[j].who : raw[j].id),
+        box: box,
+      });
+    }
+    return out;
   }
 
   var film = {
@@ -769,6 +823,7 @@ function buildFilmFromStory(storyDef, TIMELINE) {
     duration: TIMELINE.total,
     timeline: TIMELINE,
     draw: function (canvasCtx, T, opts) { drawFrame(canvasCtx, T, opts); },
+    actorsAt: actorsAt,
   };
   if (typeof window !== 'undefined') window.__film = film;
   return film;

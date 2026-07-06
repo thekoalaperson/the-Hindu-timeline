@@ -447,8 +447,8 @@ SETS.hutDusk = function (ctx, cam, t, o) {
   });
   camLayer(ctx, cam, 0.5, (c) => {
     // mid trees framing
-    treeAshoka(c, { x: 210, y: 900, s: 0.7, t, seed: 3 });
-    treeBanyan(c, { x: 1640, y: 930, s: 0.62, t, seed: 7 });
+    treeAshoka(c, { x: 210, y: 900, s: 0.7, t, seed: 3, tod });
+    treeBanyan(c, { x: 1640, y: 930, s: 0.62, t, seed: 7, tod });
   });
   camLayer(ctx, cam, 0.8, (c) => {
     vgrad(c, -100, 720, W + 200, H - 620, [[0, '#4a2a16'], [1, '#200f06']]);
@@ -466,7 +466,7 @@ SETS.hutDusk = function (ctx, cam, t, o) {
     if (o.actors) o.actors(c, bi);
   });
   if (o.particles !== false) camLayer(ctx, cam, 1.1, c => _fireflies(c, t, [200, 760, 1400, 260], 14, 61));
-  camLayer(ctx, cam, 1.3, (c) => { if (o.fg !== false) treePalm(c, { x: 120, y: H + 40, s: 1.05, t, seed: 11 }); });
+  camLayer(ctx, cam, 1.3, (c) => { if (o.fg !== false) treePalm(c, { x: 120, y: H + 40, s: 1.05, t, seed: 11, tod }); });
   _grade(ctx, { timeOfDay: tod, palette: Object.assign({ wash: '#c26a9a', washA: 0.05 }, o.palette) });
 };
 
@@ -541,9 +541,10 @@ SETS.forest = function (ctx, cam, t, o) {
   // L1 far misty tree wall
   camLayer(ctx, cam, 0.14, (c) => {
     const wall = cached('forest-far-' + tod, W, H, (g) => {
-      const col = _hx('#2c4a2e', (dim - 1) * 0.4);
-      g.fillStyle = col;
+      const pal = _foliage(tod);
+      g.fillStyle = mixC(pal.dark, T.sky[0][1], 0.16);     // far tree wall, hazed toward sky
       g.fillRect(-100, 690, W + 200, 420);                 // solid base — no sky gaps
+      g.fillStyle = mixC(pal.mid, T.sky[0][1], 0.2);
       for (let i = 0; i < 26; i++) {
         const x = i * 80 + snoise1(i * 3, 4) * 30;
         const h = 380 + hash1(i * 7) * 260;
@@ -556,9 +557,9 @@ SETS.forest = function (ctx, cam, t, o) {
   // L2 canopy gap god rays
   const raysA = o.rays === undefined ? 0.2 * dim : o.rays;
   camLayer(ctx, cam, 0.28, (c) => {
-    treeAshoka(c, { x: 360, y: 980, s: 0.85, t, seed: 21 });
-    treeAshoka(c, { x: 1520, y: 1000, s: 0.95, t, seed: 22 });
-    treePalm(c, { x: 980, y: 940, s: 0.8, t, seed: 23 });
+    treeAshoka(c, { x: 360, y: 980, s: 0.85, t, seed: 21, tod });
+    treeAshoka(c, { x: 1520, y: 1000, s: 0.95, t, seed: 22, tod });
+    treePalm(c, { x: 980, y: 940, s: 0.8, t, seed: 23, tod });
     if (raysA > 0.02) _placedRays(c, (o.seed == null ? 7 : o.seed), T.light, raysA, t, { n: 2 + ((o.seed || 7) % 2), x0: 380, x1: 1420, y0: -90, y1: 30, ang: 1.1, angJit: 0.4, spread: 0.24, len: 1520 });
     motes(c, 300, 200, 1300, 700, t, 12, 28, '#e8f0c0');
   });
@@ -573,8 +574,8 @@ SETS.forest = function (ctx, cam, t, o) {
 
   // L4 hero banyan + mid trees
   camLayer(ctx, cam, 0.52, (c) => {
-    treeBanyan(c, { x: 700, y: 1030, s: 1.05, t, seed: 31 });
-    treeAshoka(c, { x: 1300, y: 1040, s: 1.1, t, seed: 33 });
+    treeBanyan(c, { x: 700, y: 1030, s: 1.05, t, seed: 31, tod });
+    treeAshoka(c, { x: 1300, y: 1040, s: 1.1, t, seed: 33, tod });
   });
 
   // L5 undergrowth + floor
@@ -602,7 +603,7 @@ SETS.forest = function (ctx, cam, t, o) {
     if (o.fg !== false) {
       c.fillStyle = '#2e1e10';
       c.beginPath(); c.moveTo(-20, 0); c.quadraticCurveTo(120, 400, 60, H); c.lineTo(-40, H); c.closePath(); c.fill();
-      treePalm(c, { x: 1860, y: H + 60, s: 1.2, t, seed: 44 });
+      treePalm(c, { x: 1860, y: H + 60, s: 1.2, t, seed: 44, tod });
     }
   });
   _grade(ctx, o);
@@ -649,7 +650,7 @@ SETS.village = function (ctx, cam, t, o) {
   camLayer(ctx, cam, 0.66, (c) => {
     drawHut(c, { x: 470, y: 936, s: 0.82, t, seed: 51, lamp: tod !== 'day', smoke: true });
     drawWell(c, { x: 1150, y: 940, s: 0.72, t, seed: 3 });
-    treeBanyan(c, { x: 1640, y: 980, s: 0.7, t, seed: 9 });
+    treeBanyan(c, { x: 1640, y: 980, s: 0.7, t, seed: 9, tod });
   });
   // near: cart + potstack
   camLayer(ctx, cam, 0.9, (c) => {
