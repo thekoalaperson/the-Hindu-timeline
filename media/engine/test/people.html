@@ -16,91 +16,91 @@ const T = parseFloat(new URLSearchParams(location.search).get('t') || '2.4');
 
 vgrad(ctx, 0, 0, W, H, [[0, '#ece0c2'], [0.5, '#e0d0a8'], [1, '#cdb98e']]);
 function label(txt, x, y, sz) {
-  ctx.fillStyle = '#3a2410'; ctx.font = (sz || 17) + 'px Georgia'; ctx.textAlign = 'center';
+  ctx.fillStyle = '#3a2410'; ctx.font = (sz || 15) + 'px Georgia'; ctx.textAlign = 'center';
   ctx.fillText(txt, x, y);
 }
-function head(txt, x) { ctx.fillStyle = 'rgba(58,36,16,0.8)'; ctx.font = 'italic 15px Georgia'; ctx.textAlign = 'left'; ctx.fillText(txt, x, 20); }
+function head(txt, y) { ctx.fillStyle = 'rgba(58,36,16,0.85)'; ctx.font = 'italic 15px Georgia'; ctx.textAlign = 'left'; ctx.fillText(txt, 24, y); }
 
-// ───────────────────── ROW 1 · archetype lineup ─────────────────────
-head('row 1 · archetype lineup (rakshasa + 4-armed deity)', 24);
-const R1 = [
-  ['king', 'bless', 1], ['queen', 'namaste', -1], ['warrior', 'shoot', 1],
-  ['brahmin', 'pranam', 1], ['sage', 'bless', -1], ['villager', 'carry', 1],
-  ['hunter', 'point', 1], ['girl', 'dance', -1],
-];
-R1.forEach(([name, pose, facing], i) => {
-  const x = 118 + i * 168;
-  Person.of(name).draw(ctx, { x, y: 330, s: 0.6, facing, pose, t: T + i * 0.5, seed: i * 7 + 3 });
-  label(name, x, 356, 15);
+// ───────────────────── ROW 1 · archetype lineup + variety ─────────────────────
+head('row 1 · archetypes + variety (3 distinct kings, rakshasa, 4-armed deity)', 16);
+const R1 = [];
+[0, 2, 4].forEach(i => R1.push([Person.of(archKing(i)), i === 4 ? 'king · elder' : 'king', i % 2 ? -1 : 1, 'bless']));
+R1.push([Person.of('queen'), 'queen', -1, 'namaste']);
+R1.push([Person.of('warrior'), 'warrior', 1, 'shoot']);
+R1.push([Person.of(archBrahmin(1)), 'brahmin', 1, 'pranam']);
+R1.push([Person.of('sage'), 'sage', -1, 'bless']);
+R1.push([Person.of('hunter'), 'hunter', 1, 'point']);
+R1.push([Person.of('girl'), 'girl', -1, 'dance']);
+R1.forEach(([p, name, facing, pose], i) => {
+  const x = 96 + i * 158;
+  const ph = (p.style.phase || i * 0.31);
+  p.draw(ctx, { x, y: 290, s: 0.46, facing, pose, t: T + ph * 3, seed: i * 7 + 3 });
+  label(name, x, 306);
 });
 // rakshasa (Bakāsura-type)
 Person.of({ archetype: 'rakshasa', horns: true }).draw(ctx, {
-  x: 118 + 8 * 168, y: 336, s: 0.62, facing: 1,
-  pose: { lean: 0.05, armF: { sh: 1.2, el: 0.5, wr: 0.2, hand: 'point' }, armB: { sh: -0.35, el: 0.5, hand: 'fist' }, legF: { hip: 0.3, knee: 0.12 }, legB: { hip: -0.35, knee: 0.3 }, face: { rage: 0.8, brow: 0.6, turn: 0.34 } },
+  x: 96 + 9 * 158, y: 296, s: 0.48, facing: 1,
+  pose: { lean: 0.05, armF: { sh: 1.2, el: 0.5, wr: 0.2, hand: 'point' }, armB: { sh: -0.35, el: 0.5, hand: 'fist' }, legF: { hip: 0.32, knee: 0.12 }, legB: { hip: -0.36, knee: 0.32 }, face: { rage: 0.8, brow: 0.6, turn: 0.34 } },
   t: T, seed: 40,
 });
-label('rakshasa', 118 + 8 * 168, 356, 15);
+label('rakshasa', 96 + 9 * 158, 306);
 // 4-armed deity with halo + prabhavali
 Person.of({ archetype: 'deity', arms: 4, prabhavali: true }).draw(ctx, {
-  x: 118 + 9 * 168 + 20, y: 330, s: 0.62, facing: 1,
+  x: 96 + 10 * 158 + 26, y: 290, s: 0.48, facing: 1,
   pose: { headTurn: 0.4, armF: { sh: 1.0, el: 1.35, wr: 0.1, hand: 'bless' }, armB: { sh: 0.2, el: 0.3, hand: 'hold' }, armF2: { sh: 1.35, el: 0.5, hand: 'open' }, armB2: { sh: -0.95, el: 0.5, hand: 'open' }, face: { smile: 0.25, turn: 0.4 } },
   t: T, seed: 9,
 });
-label('deity (4-arm)', 118 + 9 * 168 + 20, 356, 15);
+label('deity (4-arm)', 96 + 10 * 158 + 26, 306);
 
 // ───────────────────── ROW 2 · heads: turn range + expressions ─────────────────────
-head('row 2 · heads — turns 0.0 / 0.3 / 0.5 / 0.6 / 0.8 / 0.8 + rage · laugh · weep', 24, 388);
-const krishna = { skin: '#5c7ba1', skinShade: '#33507a', hairColor: '#12100c', hairstyle: 'topknot', clothMain: '#e8bd35', peacock: true, earring: true, tilak: 'urdhva', lip: '#7c3450', iris: '#241a10' };
+head('row 2 · heads — turns 0.0 / 0.3 / 0.5 / 0.6 / 0.8 / 0.8 · rage · laugh · weep', 332);
+const krishna = { skin: '#5c7ba1', skinShade: '#33507a', hairColor: '#12100c', hairstyle: 'topknot', clothMain: '#e8bd35', crown: 'mukut', earring: true, tilak: 'urdhva', lip: '#7c3450', iris: '#241a10' };
 const rageHead = Object.assign({}, ARCH.rakshasa, { horns: true });
 const H2 = [
-  ['warrior', ARCH.warrior, 0.0, { smile: 0.05, brow: 0.1 }, 'profile · calm'],
-  ['queen', ARCH.queen, 0.3, { laugh: 0.8, smile: 0.5, gaze: { x: .1, y: .05 } }, '0.3 · laugh'],
-  ['sage', ARCH.sage, 0.5, { smile: 0.2 }, '0.5 · serene'],
-  ['rakshasa', rageHead, 0.6, { rage: 0.85, brow: 0.7 }, '0.6 · rage'],
-  ['princess', ARCH.princess, 0.8, { weep: 0.8, brow: 0.4, lowered: 0.4, smile: -0.15 }, '0.8 · weep'],
-  ['krishna', krishna, 0.8, { smile: 0.35, gaze: { x: 0, y: .05 } }, '0.8 · frontal'],
+  [ARCH.warrior, 0.0, { smile: 0.05, brow: 0.1 }, 'profile · calm'],
+  [Object.assign({}, ARCH.queen, { hairstyle: 'bun' }), 0.3, { laugh: 0.85, smile: 0.5, gaze: { x: .1, y: .05 } }, '0.3 · laugh'],
+  [ARCH.sage, 0.5, { smile: 0.2 }, '0.5 · serene'],
+  [rageHead, 0.6, { rage: 0.9, brow: 0.7 }, '0.6 · rage'],
+  [Object.assign({}, ARCH.princess, { hairstyle: 'bun' }), 0.8, { weep: 0.85, brow: 0.4, lowered: 0.4, smile: -0.15 }, '0.8 · weep'],
+  [krishna, 0.8, { smile: 0.35, gaze: { x: 0, y: .05 } }, '0.8 · frontal'],
 ];
-H2.forEach(([nm, style, turn, face, cap], i) => {
-  const x = 165 + i * 305, y = 560;
+H2.forEach(([style, turn, face, cap], i) => {
+  const x = 165 + i * 305, y = 470;
   ctx.save(); ctx.translate(x, y);
-  drawHead(ctx, 100, style, Object.assign({ turn }, face), T + i * 1.3, i * 11 + 5);
+  drawHead(ctx, 76, style, Object.assign({ turn }, face), T + i * 1.3, i * 11 + 5);
   ctx.restore();
-  label(cap, x, 690, 16);
+  label(cap, x, 560);
 });
 
-// ───────────────────── ROW 3 · hands: all kinds, large ─────────────────────
-head('row 3 · hands — 3 fingers + thumb, knuckle curves', 24, 726);
+// ───────────────────── ROW 3 · painted limbs + hands ─────────────────────
+head('row 3 · painted limb (one continuous contour, no joint dots) + hand kinds', 582);
 const HANDS = ['relaxed', 'fist', 'hold', 'open', 'bless', 'point', 'namaste', 'claw'];
-const handSkin = '#c98d5e', handDark = '#8a5127';
+const hSkin = '#c98d5e', hDark = '#8a5127', HO = rgba('#241005', 0.4);
 HANDS.forEach((k, i) => {
-  const x = 145 + i * 232, wy = 812;
-  // forearm stub
-  limb(ctx, [x, wy + 70], [x, wy], 10, 8, handSkin, handDark, rgba('#241005', 0.4));
-  drawHand(ctx, x, wy, Math.PI, 7.0, handSkin, k, handDark);
-  label(k, x, wy + 96, 16);
+  const x = 145 + i * 232, sy = 616, ey = 668, wy = 712;
+  // bent arm as ONE painted contour (shoulder → elbow → wrist)
+  limbChain(ctx, [[x - 16, sy], [x + 20, ey], [x - 4, wy]], [15, 11, 8], hSkin, hDark, HO);
+  drawHand(ctx, x - 4, wy, 0.15, 4.6, hSkin, k, hDark);
+  label(k, x, 820);
 });
 
 // ───────────────────── ROW 4 · patterned garments + cloth chains ─────────────────────
-head('row 4 · textile patterns + closed-form cloth chains', 24, 862);
-// patterned sari
-Person.of({ archetype: 'queen', clothMain: '#8c1f3a', clothAccent: '#f0d68a', pattern: { kind: 'bandhani', color: '#f0d68a', color2: '#fff3d0', scale: 26 }, clothSim: true, scarf: '#c23a6a' })
-  .draw(ctx, { x: 150, y: 1058, s: 0.62, facing: 1, pose: 'namaste', t: T, seed: 3 });
-label('sari · bandhani', 150, 1076, 15);
-// patterned dhoti
-Person.of({ archetype: 'prince', garb: 'dhoti', clothMain: '#2e5a7a', clothAccent: GOLD, pattern: { kind: 'temple', color: GOLD, color2: '#ffe9a8', scale: 22 }, crown: 'turban', turbanColor: '#1e5aa1' })
-  .draw(ctx, { x: 340, y: 1058, s: 0.62, facing: -1, pose: 'stand', t: T, seed: 8 });
-label('dhoti · temple border', 340, 1076, 15);
-// standalone flowing cloth tails
+head('row 4 · textile patterns (clip) + closed-form cloth chains', 848);
+Person.of({ archetype: 'queen', clothMain: '#8c1f3a', clothAccent: '#f0d68a', pattern: { kind: 'bandhani', color: '#f0d68a', color2: '#fff3d0', scale: 24 }, clothSim: true, scarf: '#c23a6a' })
+  .draw(ctx, { x: 138, y: 1060, s: 0.5, facing: 1, pose: 'namaste', t: T, seed: 3 });
+label('sari · bandhani', 138, 1076);
+Person.of({ archetype: 'brahmin', clothMain: '#2e5a7a', clothAccent: GOLD, pattern: { kind: 'temple', color: GOLD, color2: '#ffe9a8', scale: 20 }, sacredThread: true })
+  .draw(ctx, { x: 350, y: 1060, s: 0.5, facing: -1, pose: 'stand', t: T, seed: 8 });
+label('dhoti · temple border', 350, 1076);
 const TAILS = [
-  ['paisley', '#a11e2c', '#f0d68a', { kind: 'paisley', color: '#f0d68a', color2: '#fff', scale: 46 }, 1.4],
-  ['stripes', '#2e6a5a', GOLD, { kind: 'stripes', color: GOLD, color2: '#fff', scale: 20, angle: 0.25 }, 1.7],
-  ['bandhani', '#6e2e8a', '#f0d68a', { kind: 'bandhani', color: '#f0d68a', color2: '#fff', scale: 24 }, 1.2],
-  ['temple', '#c4611f', '#7a3a10', { kind: 'temple', color: '#7a3a10', scale: 24 }, 1.6],
+  ['paisley', '#a11e2c', '#f0d68a', { kind: 'paisley', color: '#f0d68a', color2: '#fff', scale: 44 }, 1.4],
+  ['stripes', '#2e6a5a', GOLD, { kind: 'stripes', color: GOLD, color2: '#fff', scale: 18, angle: 0.25 }, 1.7],
+  ['bandhani', '#6e2e8a', '#f0d68a', { kind: 'bandhani', color: '#f0d68a', color2: '#fff', scale: 22 }, 1.2],
+  ['temple', '#c4611f', '#7a3a10', { kind: 'temple', color: '#7a3a10', scale: 22 }, 1.6],
 ];
 TAILS.forEach(([nm, col, acc, pat, lag], i) => {
   const x = 620 + i * 320;
-  drawClothTail(ctx, x, 900, Math.PI * 0.5, 250, T, i * 13 + 2,
-    { color: col, accent: acc, pattern: pat, w0: 42, w1: 34, nodes: 12, amp: 30, lag, grav: 0.5 });
-  label(nm, x + 40, 1076, 15);
+  drawClothTail(ctx, x, 872, Math.PI * 0.5, 188, T, i * 13 + 2,
+    { color: col, accent: acc, pattern: pat, w0: 40, w1: 32, nodes: 12, amp: 26, lag, grav: 0.5 });
+  label(nm, x + 30, 1076);
 });
-</script>
