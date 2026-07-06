@@ -3,11 +3,11 @@
 // Tanpura drone (Karplus-Strong), bansuri (additive w/ vibrato+breath),
 // tabla-ish percussion, temple bells, climax boom. Hand-composed phrases.
 import { readFileSync, writeFileSync } from 'node:fs';
-import { dirname, join } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { join } from 'node:path';
+import { storyDir } from './lib.mjs';
 
-const here = dirname(fileURLToPath(import.meta.url));
-const TL = JSON.parse(readFileSync(join(here, 'timeline.json'), 'utf8'));
+const story = storyDir(process.argv);
+const TL = JSON.parse(readFileSync(join(story, 'timeline.json'), 'utf8'));
 const FS = 44100;
 const DUR = Math.ceil(TL.total + 1.0);
 const N = FS * DUR;
@@ -239,5 +239,5 @@ for (let i = 0; i < N; i++) {
   out.writeInt16LE((l * 32767) | 0, 44 + i * 4);
   out.writeInt16LE((r * 32767) | 0, 46 + i * 4);
 }
-writeFileSync(join(here, '..', 'audio', 'music.wav'), out);
+writeFileSync(join(story, 'audio', 'music.wav'), out);
 console.log(`music.wav: ${DUR}s, peak ${peak.toFixed(3)}, norm ${norm.toFixed(3)}`);

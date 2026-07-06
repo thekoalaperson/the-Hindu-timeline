@@ -1,0 +1,38 @@
+{
+  "slug": "winning-of-draupadi",
+  "title": "The Winning of Draupadī",
+  "subtitle": "Mahābhārata · Ādi Parva 166–198",
+  "watchHint": "watch · 2 min 15 s",
+  "sources": [
+    "04-deep-dives/mahabharata/01-adi-parva.md",
+    "04-deep-dives/characters/draupadi.md"
+  ],
+  "engineFiles": [
+    "core.js",
+    "paint.js",
+    "people.js",
+    "world.js"
+  ],
+  "storyFiles": [
+    "cast.js",
+    "scenes1.js",
+    "scenes2.js",
+    "scenes3.js",
+    "timeline.js",
+    "film.js"
+  ],
+  "narration": {
+    "provider": "pico",
+    "voice": "en-GB",
+    "pitch": 0.95,
+    "tempo": 1.12
+  },
+  "music": {
+    "mode": "legacy"
+  },
+  "video": {
+    "fps": 24,
+    "crf": 22
+  },
+  "titleHtml": "The Winning of <span class=\"d\">Draupadī</span>"
+}

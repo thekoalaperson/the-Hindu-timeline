@@ -1,0 +1,5 @@
+node_modules/
+stories/*/audio/*.wav
+stories/*/audio/raw-*.wav
+stories/*/dist/artifact.html
+stories/*/dev.html
