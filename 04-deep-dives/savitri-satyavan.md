@@ -6,6 +6,8 @@ The **Sāvitrī-Upākhyāna** ("the Tale of Sāvitrī"), also called the **Pativ
 
 ---
 
+> 🎬 *Watch:* this tale has a ~2-minute hand-coded animated retelling in [`media/stories/savitri-satyavan/`](../media/stories/savitri-satyavan/) — interactive player + MP4.
+
 ## Setup — birth and the choice of a doomed husband
 
 - **Aśvapati's eighteen-year penance** - Aśvapati, the righteous but childless king of **Madra**, propitiates the goddess **Sāvitrī** (a form of Sāvitrī/Gāyatrī, consort-aspect of Brahmā) with eighteen years of austerity and a hundred-thousand-oblation offering of the Sāvitrī mantra (MBh Vana Parva 291).

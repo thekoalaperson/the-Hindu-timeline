@@ -3,6 +3,8 @@
 > Where this sits: the complete earthly career of **Kṛṣṇa**, 8th avatāra of [Viṣṇu](../02-deities-and-cosmic-hierarchy/dashavatara.md), born at the junction of [Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) and [Kali Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md) of our 28th Mahāyuga. His departure (3102 BCE by tradition) marks the onset of Kali Yuga. He is of the [Chandravamsha](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) (Yadu/Vṛṣṇi line).
 >
 > Parent: [04-deep-dives](./) · Up to: [Dvāpara Yuga](../01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md) · Related: [Bhagavad Gītā](bhagavad-gita.md) · [Mahābhārata](./mahabharata/) · [Daśāvatāra](../02-deities-and-cosmic-hierarchy/dashavatara.md)
+> 🎬 *Watch:* the Govardhana-dhāraṇa episode has a hand-coded animated retelling in [`media/stories/govardhana/`](../media/stories/govardhana/) — interactive player + MP4.
+
 
 This file consolidates Krishna's life **beyond the Kurukṣetra war** (for the war and Gītā, see the [Mahābhārata](./mahabharata/) and [Gītā](bhagavad-gita.md) deep-dives). The principal source is the **Bhāgavata Purāṇa** (Canto X = childhood/Vraja/Mathurā; Canto XI = Dwārakā, Uddhava, departure), supplemented by the **Harivaṃśa** (appendix to the Mahābhārata, the oldest connected Krishna biography), **Viṣṇu Purāṇa Book 5**, Jayadeva's **Gīta-Govinda** (12th c.), the **Garga Saṃhitā**, and the **Brahma-vaivarta Purāṇa**.
 
