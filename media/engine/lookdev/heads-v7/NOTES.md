@@ -78,14 +78,27 @@ rebuilt. See `contract-map.md` for the API/coordinate contract and
 CONTRACTS.md §v3-renderer for the binding turn-model rules (v7 3/4 at
 native turn 0.30; hard profile switch at 0.85 — never animate across it).
 
-## Open fronts for the next session (owner's review notes)
-1. **Figure rebuild** — the heads now outclass the round-3 bodies; the same
+## Open fronts for the next session (owner's review notes + altitude audit)
+1. **Finish the head vocabulary, then swap the wrappers** — drawHead4 does
+   not yet draw beard mass (+beardLen), veil (Kuntī!), mane/wildHair
+   (Bakāsura), peacock (Krishna), tilak variants, or earring/bindi opt-outs;
+   because of that, `drawHead`(people.js/person.js) and `drawSeated` still
+   route to drawHead3 — story close-ups (Sāvitrī's grief close-up, Arjuna's
+   eye close-up) and every seated character render OLD heads in the current
+   films. Complete the vocabulary (checklist in contract-map.md), swap the
+   two wrapper lines, re-render, re-baseline goldens. NOTE: the wholesale
+   golden re-baseline done at port time removed the guard that would have
+   caught this — always sweep-render + look (engine/test/head4/) as well.
+2. **Figure rebuild** — the heads now outclass the round-3 bodies; the same
    critique→θ-model discipline applied to drawFigure3 is the biggest
    remaining quality lever.
-2. **Close-up detail pass** — extreme close-ups (e.g. Sāvitrī's grief scene)
-   read quieter than the drama; consider an R-dependent detail tier.
-3. **Style-code bake** — the Style Lab sliders (line weight, shadow, eyes)
+3. **Close-up detail pass** — extreme close-ups read quieter than the drama
+   (currently they're also still v3 per item 1); consider an R-dependent
+   detail tier after the wrapper swap.
+4. **Style-code bake** — the Style Lab sliders (line weight, shadow, eyes)
    are not yet plumbed into drawHead4; if the owner tunes a style code,
    bake those numbers in as the canonical look.
-4. **Workflow lesson** — builder agents must return file PATHS, never inline
+5. **Crown vocabulary normalization** — 'kirita' aliases to mukut inside
+   drawHead4; normalize style vocabulary at the registry layer instead.
+6. **Workflow lesson** — builder agents must return file PATHS, never inline
    modules (two builders died on the 64k output cap returning code inline).

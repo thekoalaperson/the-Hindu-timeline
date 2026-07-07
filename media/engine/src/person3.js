@@ -28,7 +28,7 @@ function drawHead3(ctx, R, style, face, t, seed) {
   ctx.scale(R, R);
   ctx.lineJoin = 'round'; ctx.lineCap = 'round';
 
-  // blink
+  // blink — KEEP IN SYNC with the drawHead4 copy (see IIFE below)
   const cyc = (t * 0.29 + hash1(seed) * 7) % 4.6;
   const blink = cyc < 0.13 ? Math.sin(cyc / 0.13 * Math.PI) : 0;
   const open = clamp(f.eyeOpen - blink * 1.2, 0.06, 1.2);
@@ -1153,7 +1153,7 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb)
 //     (y=1.10) and the v7 eye line (0.03) lands near the engine eye line.
 //   - turn model: tn<0.72 -> "family" construction where every coordinate is
 //     lerp(front, threequarter, u) with u = tn/0.45 (damped extrapolation past
-//     the approved 3/4); tn in 0.72..1 -> silhouette morph where the Bundi
+//     the approved 3/4); tn >= 0.95 -> pure v7 profile via a hard
 //     staircase grows out of the smooth oval while interior nose ink fades and
 //     the far eye slides behind the bridge.
 // Self-contained: private copies of the v7 ink engine + core.js math live in
@@ -1176,6 +1176,8 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb)
 
   // ---------- v7 palette ----------
   var INK = '#2a1608', INK2 = '#42260f', KOHL = '#180c05';
+  // NOTE: pinned copies of paint.js GOLD/GOLD_D/GOLD_L — a paint.js palette
+  // tune must be mirrored here or head vs body gold will fork.
   var GOLD = '#e8b64c', GOLD_D = '#a5741f', GOLD_L = '#ffe9a8';
   var CRIM = '#8c1f28', CRIM_L = '#a83a41';
   var TEAL = '#1f6f5c', MARI = '#e08a1e', WHT = '#f6efdd', LIP = '#8f2a24';
@@ -1518,6 +1520,9 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb)
     ], INK);
   }
 
+  // v7 nose strokes merged to one 5-point path (the family lerp needs equal
+  // point counts) with widths x1.35 vs the sign-off sheet — approved film-scale
+  // drift, not a transcription bug.
   function famNose(C, ex, u) {
     var L = function (a, b) { return a + (b - a) * u; };
     ink([
@@ -1573,7 +1578,7 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb)
     tiaraBandFront();
     ctx.restore();
   }
-  function mukutFront() { // v7 drawMukutFront verbatim
+  function mukutFront() { // v7 drawMukutFront, EXCEPT alpha is composed (*=/÷) not assigned — do not 're-sync' to the sheet
     ctx.fillStyle = GOLD; ctx.beginPath(); ctx.moveTo(-0.42, -0.32); ctx.quadraticCurveTo(-0.30, -0.50, 0, -0.50); ctx.quadraticCurveTo(0.30, -0.50, 0.42, -0.32); ctx.quadraticCurveTo(0.30, -0.40, 0, -0.40); ctx.quadraticCurveTo(-0.30, -0.40, -0.42, -0.32); ctx.closePath(); ctx.fill();
     ctx.strokeStyle = GOLD_D; ctx.lineWidth = 0.010; ctx.stroke();
     ctx.fillStyle = GOLD; ctx.beginPath(); ctx.moveTo(-0.30, -0.47); ctx.bezierCurveTo(-0.46, -0.62, -0.40, -0.80, -0.10, -0.86); ctx.quadraticCurveTo(0, -0.875, 0.10, -0.86); ctx.bezierCurveTo(0.40, -0.80, 0.46, -0.62, 0.30, -0.47); ctx.quadraticCurveTo(0, -0.56, -0.30, -0.47); ctx.closePath(); ctx.fill();
@@ -1622,10 +1627,8 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb)
     famBackHair(ue, C.hairC);
     withA(smooth(norm(u, 0.55, 0.95)) * (1 - smooth(norm(w, 0.35, 0.75))), function () { famJhumka(C); });
     famNeck(C, Math.min(ue, 1.4));
-    // face fill
-    blob(S, C.skin);
-    // shadows (clipped): front system crossfades to the tq system
-    ctx.save(); pathClosed(S); ctx.clip();
+    // face fill + clipped shadows share one densified path
+    ctx.save(); pathClosed(S); ctx.fillStyle = C.skin; ctx.fill(); ctx.clip();
     withA(1 - smooth(norm(u, 0.35, 0.85)), function () { famShadowFront(C, u * 0.10); });
     withA(smooth(norm(u, 0.40, 0.95)), function () { famShadowTq(C, Math.max(0, ue - 1) * 0.06); });
     ctx.restore();
@@ -1639,12 +1642,9 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb)
     // features on the single perspective centerline
     var bY = ex.browY || 0, drop = ex.drop || 0;
     brow34(T(-0.195, -0.085, -0.165), L(-0.155, -0.155) + bY + drop, false, C, ex, T(1, 1.04, 1.07));
-    var farA = 1; // far features stay alive through the family band (hide only in the morph)
-    withA(farA, function () { brow34(T(0.195, 0.273, 0.328), L(-0.155, -0.152) + bY + drop, true, C, ex, T(1, 0.74, 0.52)); });
+    brow34(T(0.195, 0.273, 0.328), L(-0.155, -0.152) + bY + drop, true, C, ex, T(1, 0.74, 0.52));
     ctx.save(); ctx.translate(T(-0.195, -0.075, -0.155), 0.030 + drop); ctx.scale(T(1, 1.04, 1.07), 1); eyeFront(0, 0, false, C, ex, ex.gaze); ctx.restore();
-    withA(farA, function () {
-      ctx.save(); ctx.translate(T(0.195, 0.263, 0.318), 0.030 + drop); ctx.scale(T(1, 0.72, 0.44), 1); eyeFront(0, 0, true, C, ex, -ex.gaze); ctx.restore();
-    });
+    ctx.save(); ctx.translate(T(0.195, 0.263, 0.318), 0.030 + drop); ctx.scale(T(1, 0.72, 0.44), 1); eyeFront(0, 0, true, C, ex, -ex.gaze); ctx.restore();
     if (ex.weep > 0.05) {
       withA(clamp(ex.weep, 0, 1), function () {
         tearDrop(T(-0.195, -0.075, -0.155) + 0.02, 0.030 + drop + 0.10);
@@ -1845,190 +1845,53 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb)
   }
 
   // =====================================================================
-  // MORPH zone (0.72..1): staircase grows out of the oval
+  // PROFILE (tn >= 0.95): the pure v7 profile pieces, mirrored to face +x
   // =====================================================================
-  var U1 = 1 + (0.72 - 0.45) / 0.45 * 0.55; // family parameter frozen at zone edge
-  // family-outline parameters for the 21 profile landmarks (fraction of the
-  // closed 13-pt outline, measured in control-point index / 13)
-  var FAMPAR = [0, 1, 2, 2.6, 2.95, 3.1, 3.55, 3.9, 4.0, 4.25, 4.4, 4.6, 4.8, 4.95, 5.4, 6, 7, 8, 9.8, 11, 12].map(function (v) { return v / 13; });
-  var FAM_WDS = [0.006, 0.008, 0.009, 0.010, 0.011, 0.013, 0.016, 0.018, 0.020, 0.022, 0.024, 0.025, 0.026, 0.027, 0.028, 0.024, 0.016, 0.014, 0.010];
-
-  function sampleClosed(dense, s) {
-    var n = dense.length, idx = ((s % 1) + 1) % 1 * n;
-    var i0 = Math.floor(idx) % n, f = idx - Math.floor(idx);
-    var p0 = dense[i0], p1 = dense[(i0 + 1) % n];
-    return { x: lerp(p0.x, p1.x, f), y: lerp(p0.y, p1.y, f) };
-  }
-
-  function morphHead(C, ex, m, tn) {
-    var famDense = crClosed(famSil(1, 1), 18);
+  function profileHead(C, ex) {
     var prof = profSilPts(C).map(function (p) { return { x: -p.x, y: p.y }; }); // mirrored to face +x
-    var cur = [];
-    for (var i = 0; i < 21; i++) {
-      var fp = sampleClosed(famDense, FAMPAR[i]);
-      cur.push({ x: lerp(fp.x, prof[i].x, m), y: lerp(fp.y, prof[i].y, m) });
-    }
-    var L1 = function (a, b) { return a + (b - a) * U1; };
-    var hairA = smooth(norm(m, 0.25, 0.75));
-    var xf = smooth(norm(m, 0.35, 0.70)); // tight feature crossfade: one clean feature at any m
 
-    // ---- behind: hair masses crossfade, braid fades in ----
-    withA(1 - hairA, function () { famBackHair(1.9, C.hairC); });
-    withA(hairA, function () { mirrored(function () { profBackHair(C.hairC); }); });
-    if (C.female && C.braid) withA(smooth(norm(m, 0.55, 0.95)), function () { mirrored(function () { profBraid(C, C.flowers); }); });
-    withA(1 - smooth(norm(m, 0.1, 0.5)), function () { famJhumka(C); });
+    // behind: hair mass, braid
+    mirrored(function () { profBackHair(C.hairC); });
+    if (C.female && C.braid) mirrored(function () { profBraid(C, C.flowers); });
 
-    // ---- neck: corner-lerped quad + crossfading shades ----
-    var nk = [ // family(left-top, left-bottom, right-bottom, right-top) -> mirrored profile
-      { x: lerp(-0.13, -0.15, m), y: lerp(0.64, 0.56, m) },
-      { x: lerp(-0.15, -0.12, m), y: 0.98 },
-      { x: lerp(0.19, 0.21, m), y: 0.98 },
-      { x: lerp(0.17, 0.15, m), y: lerp(0.64, 0.58, m) }
-    ];
+    // neck + shade
     ctx.fillStyle = C.skin; ctx.beginPath();
-    ctx.moveTo(nk[0].x, nk[0].y); ctx.lineTo(nk[1].x, nk[1].y); ctx.lineTo(nk[2].x, nk[2].y); ctx.lineTo(nk[3].x, nk[3].y); ctx.closePath(); ctx.fill();
-    withA(1 - m, function () {
-      ctx.fillStyle = C.shade; ctx.beginPath();
-      ctx.moveTo(0.17, 0.64); ctx.lineTo(0.19, 0.98); ctx.lineTo(0.0, 0.98); ctx.quadraticCurveTo(0.05, 0.78, 0.12, 0.66); ctx.closePath(); ctx.fill();
-    });
-    withA(m, function () { mirrored(function () { profNeckShade(C); }); });
+    ctx.moveTo(-0.15, 0.56); ctx.lineTo(-0.12, 0.98); ctx.lineTo(0.21, 0.98); ctx.lineTo(0.15, 0.58); ctx.closePath(); ctx.fill();
+    mirrored(function () { profNeckShade(C); });
 
-    // ---- face fill on the morph silhouette ----
-    blob(cur, C.skin);
-
-    // ---- shadows clipped to the morph silhouette ----
-    ctx.save(); pathClosed(cur); ctx.clip();
-    withA(1 - smooth(norm(m, 0.1, 0.7)), function () { famShadowTq(C, 0.054); });
-    withA(smooth(norm(m, 0.3, 0.9)), function () { mirrored(function () { profShadows(C); }); });
+    // face fill + shadows on one densification (fill then clip share the path)
+    ctx.save(); pathClosed(prof); ctx.fillStyle = C.skin; ctx.fill(); ctx.clip();
+    mirrored(function () { profShadows(C); });
     ctx.restore();
 
-    // ---- hair front: framing crossfades to the profile cap + sidelock ----
-    if (!C.turban) {
-      withA(1 - hairA, function () { famHairFraming(1.9, C.hairC); });
-      withA(hairA, function () { mirrored(function () { profHairCap(C); }); });
-    }
+    // hair cap + sidelock, ear
+    if (!C.turban) mirrored(function () { profHairCap(C); });
+    mirrored(function () { profEar(C); });
 
-    // ---- ear slides from the near edge to the profile position ----
-    var earS = { x: -0.455, y: 0.06 }, earE = { x: -0.108, y: 0.128 };
-    var earC = { x: lerp(earS.x, earE.x, m), y: lerp(earS.y, earE.y, m) };
-    withA(1 - xf, function () { earFront(earC.x, earC.y, C); });
-    withA(xf, function () {
-      ctx.save(); ctx.translate(earC.x - earE.x, earC.y - earE.y);
-      mirrored(function () { profEar(C); });
-      ctx.restore();
-    });
-
-    // ---- single silhouette ink on the morph outline ----
+    // silhouette ink
     var pts = [];
-    for (i = 0; i < 19; i++) pts.push({ x: cur[i].x, y: cur[i].y, w: lerp(FAM_WDS[i], PROF_WDS[i], m) });
+    for (var i = 0; i < 19; i++) pts.push({ x: prof[i].x, y: prof[i].y, w: PROF_WDS[i] });
     ink(pts, INK);
 
-    // ---- features: crossfade family -> profile along lerped anchors ----
-    var drop = ex.drop || 0;
-    // near brow
-    var bS = { x: -0.165, y: -0.155 }, bE = { x: 0.26, y: -0.11 };
-    var bC = { x: lerp(bS.x, bE.x, m), y: lerp(bS.y, bE.y, m) };
-    withA(1 - xf, function () { brow34(bC.x, bC.y + (ex.browY || 0) + drop, false, C, ex, 1.07); });
-    withA(xf, function () {
-      ctx.save(); ctx.translate(bC.x - bE.x, bC.y - bE.y);
-      mirrored(function () { profBrow(C, ex); });
-      ctx.restore();
-    });
-    // far brow + far eye slide behind the bridge and fade
-    var farA = 1 - smooth(norm(m, 0, 0.45)); // far features slide behind the bridge early in the morph
-    if (farA > 0.004) {
-      var fx = lerp(0.318, 0.42, m);
-      withA(farA, function () { brow34(fx + 0.01, -0.152 + (ex.browY || 0) + drop, true, C, ex, 0.52 * (1 - 0.4 * m)); });
-      withA(farA, function () {
-        ctx.save(); ctx.translate(fx, 0.030 + drop); ctx.scale(0.44 * (1 - 0.35 * m), 1); eyeFront(0, 0, true, C, ex, -ex.gaze); ctx.restore();
-      });
-    }
-    // near eye
-    var eS = { x: -0.155, y: 0.030 }, eE = { x: 0.298, y: 0.028 };
-    var eC = { x: lerp(eS.x, eE.x, m), y: lerp(eS.y, eE.y, m) };
-    withA(1 - xf, function () {
-      ctx.save(); ctx.translate(eC.x, eC.y + drop); ctx.scale(1.07, 1); eyeFront(0, 0, false, C, ex, ex.gaze); ctx.restore();
-    });
-    withA(xf, function () {
-      ctx.save(); ctx.translate(eC.x - eE.x, eC.y - eE.y);
-      mirrored(function () { profEye(C, ex, -ex.gaze); });
-      ctx.restore();
-    });
-    if (ex.weep > 0.05) withA(clamp(ex.weep, 0, 1), function () { tearDrop(eC.x + 0.02, eC.y + drop + 0.10); });
-
-    // nose: interior ink fades as the staircase takes over; nostril comma fades in
-    var noseS = { x: 0.137, y: 0.285 }, noseE = { x: 0.46, y: 0.27 };
-    var noseC = { x: lerp(noseS.x, noseE.x, m * 0.5), y: lerp(noseS.y, noseE.y, m * 0.5) };
-    withA(1 - smooth(norm(m, 0, 0.6)), function () {
-      ctx.save(); ctx.translate(noseC.x - noseS.x + 0.055, noseC.y - noseS.y);
-      famNose(C, ex, 1);
-      ctx.restore();
-    });
-    withA(smooth(norm(m, 0.35, 1)), function () { mirrored(function () { profNostril(); }); });
-    // nath: geometric lerp
-    if (C.female) {
-      var naS = { x: 0.083, y: 0.262 }, naE = { x: 0.436, y: 0.344 };
-      var naC = { x: lerp(naS.x, naE.x, m), y: lerp(naS.y, naE.y, m) };
-      ring(naC.x, naC.y, lerp(0.019, 0.021, m), 0.006, GOLD);
-      withA(1 - m, function () { dot(naC.x, naC.y, 0.010, GOLD); });
-      dot(naC.x + lerp(0, 0.021, m), naC.y, 0.007, GOLD_L);
-    }
-    // mouth: family mouth fades toward the staircase lips
-    var moS = { x: 0.178, y: 0.46 }, moE = { x: 0.383, y: 0.462 };
-    var moC = { x: lerp(moS.x, moE.x, m), y: lerp(moS.y, moE.y, m) };
-    withA(1 - xf, function () {
-      ctx.save(); ctx.translate(moC.x, moC.y - 0.46); ctx.scale(0.94 * (1 - 0.3 * m), 1);
-      mouthFront(C, ex);
-      ctx.restore();
-    });
-    withA(xf, function () {
-      ctx.save(); ctx.translate(moC.x - moE.x, moC.y - moE.y);
-      mirrored(function () { profLips(C, ex); });
-      ctx.restore();
-    });
-    // mustache
-    if (C.moustache) {
-      var muS = { x: 0.168, y: 0.4155 }, muE = { x: 0.29, y: 0.38 };
-      var muC = { x: lerp(muS.x, muE.x, m), y: lerp(muS.y, muE.y, m) };
-      withA(1 - xf, function () {
-        ctx.save(); ctx.translate(muC.x - muS.x, muC.y - muS.y); ctx.translate(0.168, 0.166); ctx.scale(0.80, 0.60); mustacheFront(C.mouC); ctx.restore();
-      });
-      withA(xf, function () {
-        ctx.save(); ctx.translate(muC.x - muE.x, muC.y - muE.y);
-        mirrored(function () { profMustache(C.mouC); });
-        ctx.restore();
-      });
-    }
-    // forehead ornament: geometric lerp
-    if (C.female) {
-      var oS = { x: 0.148, y: -0.24 }, oE = { x: 0.348, y: -0.190 };
-      var oC = { x: lerp(oS.x, oE.x, m), y: lerp(oS.y, oE.y, m) };
-      dot(oC.x, oC.y, lerp(0.028, 0.022, m), '#c92f1d'); dot(oC.x, oC.y, lerp(0.012, 0.009, m), GOLD_L);
-    } else {
-      var LT = { x: lerp(0.128, 0.324, m), y: lerp(-0.34, -0.30, m) };
-      var RT = { x: lerp(0.172, 0.352, m), y: lerp(-0.34, -0.30, m) };
-      var RB = { x: lerp(0.162, 0.360, m), y: lerp(-0.14, -0.15, m) };
-      var LB = { x: lerp(0.138, 0.338, m), y: lerp(-0.14, -0.15, m) };
+    // features
+    mirrored(function () { profBrow(C, ex); });
+    mirrored(function () { profEye(C, ex, -ex.gaze); });
+    if (ex.weep > 0.05) withA(clamp(ex.weep, 0, 1), function () { tearDrop(0.298 + 0.02, 0.028 + (ex.drop || 0) + 0.10); });
+    mirrored(function () { profNostril(); });
+    if (C.female) { ring(0.436, 0.344, 0.021, 0.006, GOLD); dot(0.436 + 0.021, 0.344, 0.007, GOLD_L); }
+    mirrored(function () { profLips(C, ex); });
+    if (C.moustache) mirrored(function () { profMustache(C.mouC); });
+    if (C.female) { dot(0.348, -0.190, 0.022, '#c92f1d'); dot(0.348, -0.190, 0.009, GOLD_L); }
+    else {
       ctx.fillStyle = 'rgba(232,182,76,0.92)'; ctx.beginPath();
-      ctx.moveTo(LT.x, LT.y); ctx.lineTo(RT.x, RT.y); ctx.lineTo(RB.x, RB.y); ctx.lineTo(LB.x, LB.y); ctx.closePath(); ctx.fill();
-      withA(1 - m, function () {
-        ctx.fillStyle = '#b23016'; ctx.beginPath();
-        ctx.moveTo(lerp(0.142, 0.33, m), -0.30); ctx.lineTo(lerp(0.158, 0.346, m), -0.30);
-        ctx.lineTo(lerp(0.156, 0.35, m), -0.16); ctx.lineTo(lerp(0.144, 0.334, m), -0.16); ctx.closePath(); ctx.fill();
-      });
+      ctx.moveTo(0.324, -0.30); ctx.lineTo(0.352, -0.30); ctx.lineTo(0.360, -0.15); ctx.lineTo(0.338, -0.15); ctx.closePath(); ctx.fill();
     }
-    // throat jewelry fades in with the profile
-    withA(smooth(norm(m, 0.45, 1)), function () { mirrored(function () { profThroat(); }); });
-    // headgear crossfade
-    if (C.crown === 'tiara') {
-      withA(1 - hairA, function () { famTiara(1.9); });
-      withA(hairA, function () { mirrored(function () { profTiara(); }); });
-    } else if (C.crown === 'mukut') {
-      withA(1 - hairA, function () { famMukut(1.9); });
-      withA(hairA, function () { mirrored(function () { profMukut(); }); });
-    } else if (C.crown === 'turban') {
-      simpleTurban(C.turbanC);
-    }
+    mirrored(function () { profThroat(); });
+
+    // headgear
+    if (C.crown === 'tiara') mirrored(function () { profTiara(); });
+    else if (C.crown === 'mukut') mirrored(function () { profMukut(); });
+    else if (C.crown === 'turban') simpleTurban(C.turbanC);
   }
 
   // =====================================================================
@@ -2044,19 +1907,21 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb)
     var tn = clamp(f.turn, 0, 1);
     var gz = f.gaze || { x: 0, y: 0 };
 
-    // blink — exactly the drawHead3 recipe
+    // blink — exactly the drawHead3 recipe. KEEP IN SYNC with drawHead3:32-34
+    // (bakeoff-canvas.html pins this cadence; seated v3 heads must blink in
+    // step with standing v4 heads in the same shot).
     var cyc = (t * 0.29 + hash1(seed) * 7) % 4.6;
     var blink = cyc < 0.13 ? Math.sin(cyc / 0.13 * Math.PI) : 0;
     var open = clamp((f.eyeOpen == null ? 1 : f.eyeOpen) - blink * 1.2, 0.06, 1.2);
 
     var female = !!style.female;
     var skin = style.skin || (female ? '#8a5330' : '#c08652');
-    var crown = style.crown || style.headgear || null;
+    var crown = style.crown || style.headgear || null; // headgear: harness alias
+    // TODO(next session): normalize crown vocabulary at the registry layer, not per-renderer
     if (crown === 'kirita') crown = 'mukut';
     if (crown !== 'mukut' && crown !== 'tiara' && crown !== 'turban') crown = null;
     var hairMode = style.hairstyle || style.mane || style.wildHair || null;
     var C = {
-      who: female ? 'draupadi' : 'arjuna',
       female: female,
       skin: skin,
       shade: style.skinShade || shadeC(skin, -0.28),
@@ -2071,7 +1936,7 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb)
       crown: crown,
       turban: crown === 'turban',
       turbanC: style.turbanColor || '#b3452c',
-      braid: hairMode !== 'sagebun' && hairMode !== 'bun' && hairMode !== 'topknot',
+      braid: hairMode === 'braid' || hairMode === 'long', // positive map — 'veil'/'loose'/unknown must NOT grow a braid
       flowers: style.hairFlowers !== undefined ? !!style.hairFlowers : female
     };
 
@@ -2095,14 +1960,17 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb)
     c.scale(R * VS, R * VS);
     c.lineJoin = 'round'; c.lineCap = 'round';
     try {
-      if (tn < 0.85) {
+      if (tn < 0.95) {
         var u = Math.min(tn / 0.30, 1);       // v7 three-quarter anchors at tn=0.30
-        var w = tn <= 0.30 ? 0 : smooth(Math.min((tn - 0.30) / 0.42, 1)); // deep-3/4 by 0.72, held to 0.85
+        var w = tn <= 0.30 ? 0 : smooth(Math.min((tn - 0.30) / 0.42, 1)); // deep-3/4 by 0.72, held to the switch
         famHead(C, ex, u, w, tn);
       } else {
-        // hard construction switch: crossfading two dark hair systems ghosts,
-        // and no film animates across 0.85 — pure v7 profile from here
-        morphHead(C, ex, 1, tn);
+        // hard construction switch to the pure v7 profile. 0.95, not lower:
+        // films DO animate headTurn up to ~0.88 mid-shot (winning-of-draupadi
+        // scenes3), and crossing the switch mid-animation pops — keep every
+        // animated turn inside the family band; only true-profile staging
+        // (tests, tn~1) takes this branch.
+        profileHead(C, ex);
       }
     } finally {
       c.restore();

@@ -216,25 +216,34 @@ rebuilt from drawing construction and ported engine-wide.
    `drawHead3`/`drawFigure3` (old bodies retained as `_drawHeadV2`/`_drawFigureV1`
    etc. only where `drawSeated`/`world.js` still need internals). New work
    extends v3 — never resurrect the old bodies.
-2. **Heads: `drawHead4` is THE production head** (owner-approved heads-v7
-   look; `drawFigure3` calls it). It is a self-contained IIFE at the bottom
-   of `person3.js` implementing the approved model sheet
+2. **Heads: `drawHead4` is THE production head for figures** (owner-approved
+   heads-v7 look; `drawFigure3` calls it). It is a self-contained IIFE at
+   the bottom of `person3.js` implementing the approved model sheet
    (`engine/lookdev/heads-v7/` — model-sheet.html is the canonical geometry,
    NOTES.md the binding construction rules, contract-map.md the API map).
    Contract is drawHead3-identical: signature `(ctx, R, style, face, t,
    seed)`, head units with origin on the eye line (crown ≈ −1.10, chin ≈
-   +1.10), the exact drawHead3 blink formula, additive `rage/laugh/weep`
-   folds. Turn model: the approved v7 three-quarter lands at native
-   `turn=0.30` and deepens smoothly to a strong 3/4 via an authored
-   42° landmark set (two-leg interpolation, both eyes alive, ornaments on
-   the perspective centerline); a hard construction switch at `turn=0.85`
-   yields the Bundi-staircase profile — never animate a head across 0.85.
-   `drawHead3` remains ONLY for `test/look3.html` comparison; do not call
-   it from production. Style keys honored: `skin, skinShade, hairColor,
-   female, heavyBrow, iris, lip, earring, tilak, bindi, moustache, beard(+
-   beardLen), fangs/tusks, crown|headgear ∈ {mukut,tiara,turban(+turbanColor)},
-   peacock, hairstyle, hairFlowers`; unknown hairstyles fall back to the
-   plain cap, `kirita` renders as mukut.
+   +1.10), the exact drawHead3 blink formula (KEEP THE TWO COPIES IN SYNC),
+   additive `rage/laugh/weep` folds. Turn model: the approved v7
+   three-quarter lands at native `turn=0.30` and deepens smoothly to a
+   strong 3/4 via an authored 42° landmark set (two-leg interpolation, both
+   eyes alive, ornaments on the perspective centerline); a hard construction
+   switch at `turn=0.95` yields the Bundi-staircase profile — never animate
+   a head across 0.95 (films legitimately animate up to ~0.88).
+   **KNOWN SPLIT STATE (first task of the next session):** the public
+   `drawHead` wrappers in `people.js`/`person.js` still delegate to
+   `drawHead3`, so story close-ups drawn via `drawHead` and all `drawSeated`
+   characters render v3 heads while standing figures render v4 — because
+   drawHead4 does not yet honor `beard(+beardLen)` mass, `veil`, `mane`/
+   `wildHair`, `peacock`, `tilak` variants (urdhva/tripundra), or
+   `earring:false`/`bindi:false` opt-outs. Complete that vocabulary in
+   drawHead4 (checklist: lookdev/heads-v7/contract-map.md §style), swap the
+   two wrappers, re-render, and re-baseline goldens. `kirita` currently
+   aliases to mukut inside drawHead4 — move crown normalization to the
+   registry/style-resolution layer when the vocabulary work happens.
+   Verification tooling for ANY head change lives in `engine/test/head4/`
+   (sweep grid, 21-step strip, motion rig — render and LOOK; a wholesale
+   golden re-baseline is not a review).
 3. **Figure construction:** FK pose semantics identical to v2/acting.js
    (`sh/el/hip/knee` joint angles — `walkPose`/`POSES` keep working); every
    limb is ONE smooth tapered ribbon through the implied joint (no capsule

@@ -10,7 +10,7 @@ const path = require('path');
 const fs = require('fs');
 const { chromium } = require('/home/user/the-Hindu-timeline/media/node_modules/playwright-core');
 
-const HARNESS = '/tmp/claude-0/-home-user-the-Hindu-timeline/b405e8a4-35cc-57c0-b0ec-fb2c5e3db8fe/scratchpad/head4/harness.html';
+const HARNESS = require('node:path').join(__dirname, 'harness.html');
 const CHROME = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome';
 
 async function main(){
