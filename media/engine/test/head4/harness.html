@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>head4 candidate harness</title>
+<style>
+  html,body{margin:0;padding:0;background:#1a1a1a;}
+  canvas{display:block;}
+</style>
+</head>
+<body>
+<canvas id="cv" width="2400" height="1350"></canvas>
+<script>
+(function(){
+'use strict';
+const cv = document.getElementById('cv');
+const ctx = cv.getContext('2d');
+window.__done = false;
+window.__errors = [];
+
+// ---------- grid spec ----------
+const TURNS = [0, 0.15, 0.3, 0.45, 0.6, 0.8, 1.0];
+
+// style presets for the two approved characters
+const DRAUPADI = { skin:'#8a5330', skinShade:'#5c3115', female:true,
+                   hairColor:'#170d08', headgear:'tiara' };
+const ARJUNA   = { skin:'#c08652', skinShade:'#87511f', female:false,
+                   headgear:'mukut', heavyBrow:false };
+
+// base face; each row overrides only its named params
+function face(turn, over){
+  const f = { turn:turn, smile:0, eyeOpen:0.9, brow:0, lipsPart:0,
+              gaze:{x:0,y:0} };
+  for (const k in over) f[k] = over[k];
+  return f;
+}
+
+const ROWS = [
+  { label:'female serene', style:DRAUPADI, over:{ smile:0.45 } },
+  { label:'male serene',   style:ARJUNA,   over:{ smile:0.45 } },
+  { label:'female joy',    style:DRAUPADI, over:{ smile:1.0, eyeOpen:0.78 } },
+  { label:'female grief',  style:DRAUPADI, over:{ brow:1.0, smile:-1 } },
+  { label:'female talk',   style:DRAUPADI, over:{ lipsPart:0.5 } },
+];
+
+const R = 85, T = 1.0, SEED = 7;
+const W = cv.width, H = cv.height;
+const GUTTER_L = 180, GUTTER_T = 70;
+const CW = (W - GUTTER_L) / TURNS.length;   // ~317
+const CH = (H - GUTTER_T) / ROWS.length;    // 256
+
+function wrapText(text, x, y, maxW, lh){
+  const words = String(text).split(/\s+/);
+  let line = '';
+  for (const w of words){
+    const test = line ? line + ' ' + w : w;
+    if (ctx.measureText(test).width > maxW && line){
+      ctx.fillText(line, x, y); y += lh; line = w;
+    } else line = test;
+  }
+  if (line) ctx.fillText(line, x, y);
+}
+
+function renderGrid(){
+  // background + chrome
+  ctx.fillStyle = '#efe6d0';
+  ctx.fillRect(0, 0, W, H);
+  ctx.strokeStyle = 'rgba(0,0,0,0.25)';
+  ctx.lineWidth = 1;
+  ctx.fillStyle = '#2a1608';
+  ctx.textBaseline = 'middle';
+
+  // column labels (turn values)
+  ctx.font = 'bold 26px sans-serif';
+  ctx.textAlign = 'center';
+  TURNS.forEach((tv, c) => {
+    ctx.fillText('turn ' + tv, GUTTER_L + (c + 0.5) * CW, GUTTER_T * 0.5);
+  });
+
+  // row labels
+  ctx.textAlign = 'left';
+  ROWS.forEach((row, r) => {
+    ctx.font = 'bold 24px sans-serif';
+    const cy = GUTTER_T + r * CH;
+    ctx.save();
+    ctx.fillStyle = '#2a1608';
+    wrapText(row.label, 14, cy + CH * 0.45, GUTTER_L - 24, 28);
+    ctx.restore();
+  });
+
+  // grid lines
+  ctx.strokeStyle = 'rgba(0,0,0,0.18)';
+  for (let c = 0; c <= TURNS.length; c++){
+    const x = GUTTER_L + c * CW;
+    ctx.beginPath(); ctx.moveTo(x, GUTTER_T); ctx.lineTo(x, H); ctx.stroke();
+  }
+  for (let r = 0; r <= ROWS.length; r++){
+    const y = GUTTER_T + r * CH;
+    ctx.beginPath(); ctx.moveTo(GUTTER_L, y); ctx.lineTo(W, y); ctx.stroke();
+  }
+
+  // cells
+  ROWS.forEach((row, r) => {
+    TURNS.forEach((tv, c) => {
+      const x0 = GUTTER_L + c * CW, y0 = GUTTER_T + r * CH;
+      ctx.save();
+      try {
+        ctx.beginPath();
+        ctx.rect(x0, y0, CW, CH);
+        ctx.clip();
+        // head center: a bit below cell middle so tall headgear has room
+        ctx.translate(x0 + CW / 2, y0 + CH * 0.60);
+        if (typeof setV7Ctx === 'function') setV7Ctx(ctx);
+        if (typeof window.drawHead4 !== 'function')
+          throw new Error('drawHead4 is not defined (candidate did not export a global drawHead4)');
+        window.drawHead4(ctx, R, row.style, face(tv, row.over), T, SEED);
+        ctx.restore();
+      } catch (e) {
+        ctx.restore();
+        const msg = '[' + row.label + ' / turn ' + tv + '] ' + (e && e.message ? e.message : String(e));
+        window.__errors.push(msg);
+        ctx.save();
+        ctx.beginPath(); ctx.rect(x0, y0, CW, CH); ctx.clip();
+        ctx.fillStyle = '#b02020';
+        ctx.fillRect(x0, y0, CW, CH);
+        ctx.fillStyle = '#fff';
+        ctx.font = '16px monospace';
+        ctx.textAlign = 'left';
+        ctx.textBaseline = 'top';
+        wrapText(e && e.message ? e.message : String(e), x0 + 8, y0 + 10, CW - 16, 20);
+        ctx.restore();
+      }
+    });
+  });
+}
+
+// ---------- load candidate from ?cand=<abs path>, then render ----------
+const params = new URLSearchParams(location.search);
+const cand = params.get('cand');
+
+function fail(msg){
+  window.__errors.push(msg);
+  ctx.fillStyle = '#b02020';
+  ctx.fillRect(0, 0, W, H);
+  ctx.fillStyle = '#fff';
+  ctx.font = 'bold 36px monospace';
+  ctx.textAlign = 'left';
+  ctx.textBaseline = 'top';
+  wrapText(msg, 40, 40, W - 80, 46);
+  window.__done = true;
+}
+
+if (!cand){
+  fail('harness error: missing ?cand=<absolute path to candidate js>');
+} else {
+  const s = document.createElement('script');
+  s.src = cand.startsWith('file://') ? cand : 'file://' + cand;
+  s.onload = function(){
+    try { renderGrid(); }
+    catch (e) { window.__errors.push('grid fatal: ' + (e && e.message ? e.message : String(e))); }
+    window.__done = true;
+  };
+  s.onerror = function(){
+    fail('harness error: failed to load candidate script ' + cand);
+  };
+  document.body.appendChild(s);
+}
+})();
+</script>
+</body>
+</html>

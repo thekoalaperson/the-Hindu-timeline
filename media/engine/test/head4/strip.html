@@ -1,0 +1,31 @@
+<!doctype html><meta charset="utf-8"><body style="margin:0;background:#e9d2a0">
+<canvas id="cv" width="3150" height="640"></canvas>
+<script src="../../src/person3.js"></script>
+<script>
+const cv=document.getElementById('cv'),ctx=cv.getContext('2d');
+ctx.fillStyle='#e9d2a0';ctx.fillRect(0,0,3150,640);
+const DR={skin:'#8a5330',skinShade:'#5c3115',female:true,hairColor:'#170d08',headgear:'tiara'};
+const AR={skin:'#c08652',skinShade:'#87511f',female:false,headgear:'mukut',moustache:1};
+try{
+for(let i=0;i<21;i++){
+  const tn=i/20, x=75+i*150;
+  drawHead4(ctx,62,DR,{turn:tn,smile:0.35,eyeOpen:0.92,gaze:{x:0,y:0}},1.0,7);
+  ctx.setTransform(1,0,0,1,0,0);ctx.translate(x,170);ctx.setTransform(1,0,0,1,0,0);
+}
+}catch(e){window.__err='layout bug: '+e.message}
+// redo properly with explicit transforms
+ctx.setTransform(1,0,0,1,0,0);ctx.fillStyle='#e9d2a0';ctx.fillRect(0,0,3150,640);
+try{
+for(let i=0;i<21;i++){
+  const tn=i/20, x=75+i*150;
+  ctx.save();ctx.translate(x,170);
+  drawHead4(ctx,62,DR,{turn:tn,smile:0.35,eyeOpen:0.92,gaze:{x:0,y:0}},1.0,7);
+  ctx.restore();
+  ctx.save();ctx.translate(x,470);
+  drawHead4(ctx,62,AR,{turn:tn,smile:0.2,eyeOpen:0.95,gaze:{x:0,y:0}},1.0,11);
+  ctx.restore();
+  ctx.fillStyle='#5a4020';ctx.font='16px Georgia';ctx.textAlign='center';ctx.fillText(tn.toFixed(2),x,625);
+}
+window.__done=true;
+}catch(e){window.__err=e.message}
+</script></body>

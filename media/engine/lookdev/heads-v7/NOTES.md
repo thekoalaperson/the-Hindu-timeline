@@ -70,7 +70,22 @@ from what finally worked:
 - When the owner can't articulate what's wrong, spawn fresh-eyes critics with
   zero construction context and implement their measured prescriptions.
 
-## Next (owner-approved direction)
-Port these heads into the film engine (person3) so the five films inherit the
-approved faces, prove them with a ~10s motion test (turn + blink + settle),
-then remake one full film as the acceptance test before rolling the cast out.
+## Status: PORTED (2026-07-07)
+The port shipped as `drawHead4` (self-contained IIFE at the bottom of
+`engine/src/person3.js`; `drawFigure3` calls it). Motion test passed the
+owner; all five films re-rendered, goldens re-baselined, dist players
+rebuilt. See `contract-map.md` for the API/coordinate contract and
+CONTRACTS.md §v3-renderer for the binding turn-model rules (v7 3/4 at
+native turn 0.30; hard profile switch at 0.85 — never animate across it).
+
+## Open fronts for the next session (owner's review notes)
+1. **Figure rebuild** — the heads now outclass the round-3 bodies; the same
+   critique→θ-model discipline applied to drawFigure3 is the biggest
+   remaining quality lever.
+2. **Close-up detail pass** — extreme close-ups (e.g. Sāvitrī's grief scene)
+   read quieter than the drama; consider an R-dependent detail tier.
+3. **Style-code bake** — the Style Lab sliders (line weight, shadow, eyes)
+   are not yet plumbed into drawHead4; if the owner tunes a style code,
+   bake those numbers in as the canonical look.
+4. **Workflow lesson** — builder agents must return file PATHS, never inline
+   modules (two builders died on the 64k output cap returning code inline).
