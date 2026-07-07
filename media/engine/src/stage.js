@@ -666,6 +666,46 @@ function stgDrawStoryboardScene(ctx, compiled, tl, t) {
   if (grade.vignette && typeof vignette === 'function') vignette(ctx, grade.vignette, grade.vignetteWarm !== false);
 }
 
+// ── darshan label humanization: never show a raw camelCase/snake/kebab id
+//    on screen. Resolution order: explicit actor.label (story.json, set by
+//    hand per actor so reused casts can read differently in different
+//    scenes) > CHARACTERS[who].displayName (shared registry) >
+//    CAST[who].displayName (story-local cast.js) > auto-prettified id
+//    (camelCase/snake/kebab -> Title Case words), so an unrecognised `who`
+//    still reads as words, never as source code. `who` may carry a ':form'
+//    modifier (e.g. 'savitri:vrata' — see person.js's own 'name:form'
+//    convention for style overrides); it is stripped before every lookup so
+//    the base character's label/displayName is used regardless of form. ──
+function stgStripWhoForm(who) {
+  if (typeof who !== 'string') return who;
+  var i = who.indexOf(':');
+  return i > 0 ? who.slice(0, i) : who;
+}
+function stgPrettifyId(id) {
+  var s = String(id || '').trim();
+  if (!s) return '';
+  s = s
+    .replace(/([a-z0-9])([A-Z])/g, '$1 $2') // camelCase -> "camel Case"
+    .replace(/[_-]+/g, ' ')                  // snake_case / kebab-case -> spaced
+    .replace(/\s+/g, ' ')
+    .trim();
+  return s
+    .split(' ')
+    .map(function (w) { return w ? w.charAt(0).toUpperCase() + w.slice(1) : w; })
+    .join(' ');
+}
+function stgHumanizeActorLabel(raw) {
+  if (!raw) return '';
+  if (raw.label) return raw.label;
+  var who = typeof raw.who === 'string' ? stgStripWhoForm(raw.who) : null;
+  if (who) {
+    if (typeof CHARACTERS !== 'undefined' && CHARACTERS && CHARACTERS[who] && CHARACTERS[who].displayName) return CHARACTERS[who].displayName;
+    if (typeof CAST !== 'undefined' && CAST && CAST[who] && CAST[who].displayName) return CAST[who].displayName;
+    return stgPrettifyId(who);
+  }
+  return stgPrettifyId(raw.id);
+}
+
 // ── buildFilmFromStory: the public entry point ──────────────────────────
 function buildFilmFromStory(storyDef, TIMELINE) {
   storyDef = storyDef || {};
@@ -832,7 +872,7 @@ function buildFilmFromStory(storyDef, TIMELINE) {
       out.push({
         id: raw[j].id,
         who: typeof raw[j].who === 'string' ? raw[j].who : null,
-        label: raw[j].label || (typeof raw[j].who === 'string' ? raw[j].who : raw[j].id),
+        label: stgHumanizeActorLabel(raw[j]),
         box: box,
       });
     }

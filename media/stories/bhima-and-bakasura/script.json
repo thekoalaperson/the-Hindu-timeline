@@ -7,38 +7,38 @@
       "name": "The Town of Ekacakrā",
       "mood": "mystic",
       "raga": "bhairavish",
-      "pad_before": 2.0,
-      "pad_after": 1.2,
-      "display": "After the burning of the lac house, the five Pāṇḍava brothers lived hidden in the town of Ekacakrā, disguised as brahmins, begging their bread. But over that town hung a shadow.",
-      "tts": "After the burning of the lack house, the five Paandava brothers lived hidden in the town of Ay-ka-chuck-ra, disguised as brahmins, begging their bread. But over that town, hung a shadow."
+      "pad_before": 2.6,
+      "pad_after": 2.2,
+      "display": "After the burning of the lac house, the five Pāṇḍava brothers had gone into hiding in the town of Ekacakrā, disguised as brahmins, begging their bread door to door. But over that town hung a shadow.",
+      "tts": "After the burning of the lack house, the five Paandava brothers had gone into hiding in the town of Ay-ka-chuck-ra, disguised as brahmins, begging their bread door to door. But over that town, hung a shadow."
     },
     {
       "id": "grief",
       "name": "The Demon's Toll",
       "mood": "somber",
       "raga": "bhairavish",
-      "pad_before": 1.0,
-      "pad_after": 1.2,
-      "display": "In the wood lived Bakāsura, a rākṣasa who devoured men. Each week the town sent him a cartload of food — and the one who drove the cart. Now the lot fell on the very house that had sheltered them; and the brahmin's family wept.",
-      "tts": "In the wood lived Buck-ah-soora, a rahk-shasa who devoured men. Each week the town sent him a cart-load of food; and the one who drove the cart. Now the lot fell on the very house that had sheltered them; and the brahmin's family wept."
+      "pad_before": 1.8,
+      "pad_after": 2.4,
+      "display": "In the wood lived Bakāsura, a rākṣasa who fed on men. Each week the town paid him tribute — a cartload of food, and with it the one who drove the cart, for none of them ever came back. Now the lot had fallen on the very house that had sheltered the brothers, and the family wept.",
+      "tts": "In the wood lived Buck-ah-soora, a rahk-shasa who fed on men. Each week the town paid him tribute; a cart-load of food, and with it the one who drove the cart, for none of them ever came back. Now the lot had fallen on the very house that had sheltered the brothers, and the family wept."
     },
     {
       "id": "kunti",
       "name": "Kuntī's Word",
       "mood": "tender",
       "raga": "deshish",
-      "pad_before": 1.0,
-      "pad_after": 1.4,
-      "display": "Then Kuntī said quietly: \"Do not grieve. You gave my sons shelter; my son shall take your place.\" And she chose Bhīma — the strongest of the five.",
-      "tts": "Then Koon-tee said, quietly: do not grieve. You gave my sons shelter; my son shall take your place. And she chose Bee-ma; the strongest of the five."
+      "pad_before": 1.8,
+      "pad_after": 2.4,
+      "display": "Then Kuntī spoke, quiet and certain: \"Do not grieve. You gave my sons shelter — now my son will take your place.\" And she chose Bhīma, the strongest of the five.",
+      "tts": "Then Koon-tee spoke, quiet and certain: do not grieve. You gave my sons shelter; now my son will take your place. And she chose Bee-ma, the strongest of the five."
     },
     {
       "id": "cart",
       "name": "The Cart of Food",
       "mood": "festive",
       "raga": "yamanish",
-      "pad_before": 1.0,
-      "pad_after": 1.6,
+      "pad_before": 1.8,
+      "pad_after": 2.2,
       "display": "At dawn Bhīma drove the loaded cart toward the forest — and being Bhīma, and being hungry, he ate the demon's dinner himself along the way.",
       "tts": "At dawn, Bee-ma drove the loaded cart toward the forest; and being Bee-ma, and being hungry, he ate the demon's dinner himself, along the way."
     },
@@ -47,8 +47,8 @@
       "name": "Baka Falls",
       "mood": "tense",
       "raga": "bhairavish",
-      "pad_before": 1.2,
-      "pad_after": 3.0,
+      "pad_before": 1.8,
+      "pad_after": 3.6,
       "display": "The rākṣasa came roaring from the trees — huge as a hill, furious at the empty cart. They fought, tree against fist, until Bhīma seized him and broke his back across his knee.",
       "tts": "The rahk-shasa came roaring from the trees; huge as a hill, furious at the empty cart. They fought, tree against fist, until Bee-ma seized him, and broke his back across his knee."
     },
@@ -57,8 +57,8 @@
       "name": "The Town Set Free",
       "mood": "triumphant",
       "raga": "yamanish",
-      "pad_before": 1.0,
-      "pad_after": 3.6,
+      "pad_before": 1.8,
+      "pad_after": 4.8,
       "display": "In the morning the people of Ekacakrā found the demon dead at their gates, and wondered who had saved them. The brahmins kept their secret — and walked on quietly, toward Pāñcāla, and a destiny that would change the world.",
       "tts": "In the morning, the people of Ay-ka-chuck-ra found the demon dead at their gates, and wondered who had saved them. The brahmins kept their secret; and walked on, quietly, toward Paan-chaala, and a destiny that would change the world."
     }

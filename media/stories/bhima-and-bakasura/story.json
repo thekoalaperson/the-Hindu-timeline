@@ -29,8 +29,7 @@
   "narration": {
     "provider": "pico",
     "voice": "en-GB",
-    "pitch": 0.95,
-    "tempo": 1.12
+    "pitch": 0.95
   },
   "music": {
     "mode": "auto"
@@ -68,7 +67,11 @@
           {
             "id": "yudhishthira",
             "who": "yudhishthira",
-            "at": [700, 1024],
+            "label": "Yudhiṣṭhira",
+            "at": [
+              700,
+              1024
+            ],
             "s": 0.66,
             "facing": 1,
             "featured": true
@@ -76,7 +79,11 @@
           {
             "id": "bhima",
             "who": "bhimaHero",
-            "at": [960, 1032],
+            "label": "Bhīma",
+            "at": [
+              960,
+              1032
+            ],
             "s": 0.7,
             "facing": -1,
             "featured": true
@@ -84,7 +91,11 @@
           {
             "id": "townsman",
             "who": "villagerElder",
-            "at": [1500, 1016],
+            "label": "A Village Elder",
+            "at": [
+              1500,
+              1016
+            ],
             "s": 0.58,
             "facing": -1,
             "featured": false
@@ -145,7 +156,11 @@
           {
             "id": "host",
             "who": "brahminHost",
-            "at": [700, 1002],
+            "label": "The Brahmin",
+            "at": [
+              700,
+              1002
+            ],
             "s": 0.72,
             "facing": 1,
             "featured": true
@@ -153,7 +168,11 @@
           {
             "id": "wife",
             "who": "brahminWife",
-            "at": [982, 1008],
+            "label": "His Wife",
+            "at": [
+              982,
+              1008
+            ],
             "s": 0.7,
             "facing": -1,
             "featured": true
@@ -161,7 +180,11 @@
           {
             "id": "child",
             "who": "brahminChild",
-            "at": [1168, 1012],
+            "label": "Their Daughter",
+            "at": [
+              1168,
+              1012
+            ],
             "s": 0.58,
             "facing": -1,
             "featured": true
@@ -169,7 +192,11 @@
           {
             "id": "kunti",
             "who": "kunti",
-            "at": [1360, 1000],
+            "label": "Kuntī",
+            "at": [
+              1360,
+              1000
+            ],
             "s": 0.66,
             "facing": -1,
             "featured": false
@@ -225,13 +252,20 @@
         },
         "shot": {
           "type": "two-shot",
-          "actors": ["kunti", "bhima"]
+          "actors": [
+            "kunti",
+            "bhima"
+          ]
         },
         "actors": [
           {
             "id": "kunti",
             "who": "kunti",
-            "at": [720, 1006],
+            "label": "Kuntī",
+            "at": [
+              720,
+              1006
+            ],
             "s": 0.72,
             "facing": 1,
             "featured": true
@@ -239,7 +273,11 @@
           {
             "id": "bhima",
             "who": "bhimaHero",
-            "at": [1150, 1018],
+            "label": "Bhīma",
+            "at": [
+              1150,
+              1018
+            ],
             "s": 0.76,
             "facing": -1,
             "featured": true
@@ -247,7 +285,11 @@
           {
             "id": "host",
             "who": "brahminHost",
-            "at": [1460, 1000],
+            "label": "The Brahmin",
+            "at": [
+              1460,
+              1000
+            ],
             "s": 0.58,
             "facing": -1,
             "featured": false
@@ -312,7 +354,11 @@
           {
             "id": "villagerC",
             "who": "brahminWife",
-            "at": [1080, 1018],
+            "label": "A Townswoman",
+            "at": [
+              1080,
+              1018
+            ],
             "s": 0.58,
             "facing": -1,
             "featured": false
@@ -320,7 +366,11 @@
           {
             "id": "villagerA",
             "who": "villagerYoung",
-            "at": [1244, 1022],
+            "label": "A Young Herder",
+            "at": [
+              1244,
+              1022
+            ],
             "s": 0.6,
             "facing": 1,
             "featured": false
@@ -328,7 +378,11 @@
           {
             "id": "villagerB",
             "who": "villagerElder",
-            "at": [1420, 1028],
+            "label": "A Village Elder",
+            "at": [
+              1420,
+              1028
+            ],
             "s": 0.58,
             "facing": 1,
             "featured": false
@@ -336,13 +390,20 @@
           {
             "id": "bhima",
             "who": "bhimaHero",
-            "at": [740, 1030],
+            "label": "Bhīma",
+            "at": [
+              740,
+              1030
+            ],
             "s": 0.7,
             "facing": -1,
             "featured": true,
             "enter": {
               "type": "walk",
-              "from": [980, 1030],
+              "from": [
+                980,
+                1030
+              ],
               "t0": 0.5,
               "t1": 7.0
             }
@@ -350,13 +411,20 @@
           {
             "id": "yudhishthira",
             "who": "yudhishthira",
-            "at": [928, 1028],
+            "label": "Yudhiṣṭhira",
+            "at": [
+              928,
+              1028
+            ],
             "s": 0.64,
             "facing": -1,
             "featured": true,
             "enter": {
               "type": "walk",
-              "from": [1168, 1028],
+              "from": [
+                1168,
+                1028
+              ],
               "t0": 0.5,
               "t1": 7.0
             }

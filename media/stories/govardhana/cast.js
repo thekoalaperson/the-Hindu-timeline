@@ -7,6 +7,7 @@
 
 const CAST = {
   nanda: { // cowherd chieftain, Kṛṣṇa's foster-father — an elder gopa, broad build
+    displayName: 'Nanda',
     archetype: 'villager',
     skin: '#a86a3c', skinShade: '#6e4420', hairColor: '#6f665a',
     hairstyle: 'topknot', garb: 'dhoti', clothMain: '#c98a3a', clothAccent: '#8a5a2c',
@@ -15,6 +16,7 @@ const CAST = {
     dhotiLen: 172,
   },
   gopa: { // a younger herdsman — leaner, plainer cloth, no beard
+    displayName: 'A Young Cowherd',
     archetype: 'villager',
     skin: '#bd8850', skinShade: '#7c4a1e', hairColor: '#1c130a',
     hairstyle: 'topknot', garb: 'dhoti', clothMain: '#8ea24a', clothAccent: null,
@@ -22,6 +24,7 @@ const CAST = {
     dhotiLen: 150,
   },
   gopi: { // a cowherd woman of Vraja — for the sheltering crowd
+    displayName: 'A Cowherd Woman',
     archetype: 'villager', female: true,
     skin: '#c08a5c', skinShade: '#875428', hairColor: '#160e07',
     hairstyle: 'braid', garb: 'sari', clothMain: '#b23a5a', clothAccent: '#f0d68a',

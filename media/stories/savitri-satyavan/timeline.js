@@ -2,7 +2,7 @@
 const TIMELINE = {
  "title": "Sāvitrī & Satyavān",
  "subtitle": "Mahābhārata · Vana Parva 291–297",
- "total": 121.9,
+ "total": 169.584,
  "scenes": [
   {
    "id": "choice",
@@ -10,76 +10,76 @@ const TIMELINE = {
    "display": "The princess Sāvitrī shone so brightly that no prince dared ask for her hand. So she went forth to choose for herself — and in a forest hermitage she chose Satyavān, son of a blind and exiled king.",
    "mood": "mystic",
    "start": 0,
-   "narrAt": 2.2,
-   "narrDur": 13.316,
-   "dur": 16.716,
-   "end": 16.716
+   "narrAt": 2.6,
+   "narrDur": 15.922,
+   "dur": 20.722,
+   "end": 20.722
   },
   {
    "id": "prophecy",
    "name": "Nārada's Word",
-   "display": "But the sage Nārada told her father: this youth is flawless in every virtue — and one year from this day, he will die. Sāvitrī answered only: \"The heart is given once. I have given mine.\"",
+   "display": "But the sage Nārada brought her father news no father wants to hear: the boy was flawless in every virtue that mattered — and in one year, he would die. Sāvitrī answered only, \"The heart is given once. I have given mine.\"",
    "mood": "somber",
-   "start": 16.716,
-   "narrAt": 17.716,
-   "narrDur": 12.551,
-   "dur": 14.751,
-   "end": 31.467
+   "start": 20.722,
+   "narrAt": 22.522,
+   "narrDur": 18.316,
+   "dur": 22.516,
+   "end": 43.238
   },
   {
    "id": "year",
    "name": "Counting the Days",
-   "display": "She put away her silks, wore bark-cloth, and served the hermitage — telling no one, counting the days. For the last three nights she stood fasting, still as a lamp in windless air.",
+   "display": "She folded away her silks, put on rough bark-cloth, and took up the hermitage's small daily work — telling no one, only counting the days. For the last three nights she stood fasting, still as a lamp in windless air.",
    "mood": "tender",
-   "start": 31.467,
-   "narrAt": 32.467,
-   "narrDur": 11.837,
-   "dur": 14.037,
-   "end": 45.504
+   "start": 43.238,
+   "narrAt": 45.038,
+   "narrDur": 16.576,
+   "dur": 20.776,
+   "end": 64.014
   },
   {
    "id": "axe",
    "name": "The Fated Day",
    "display": "On the appointed morning she followed him into the forest. At noon, the axe slipped from Satyavān's hand. \"My head,\" he said, \"is splitting.\" And he laid it in her lap, and was still.",
    "mood": "suspense",
-   "start": 45.504,
-   "narrAt": 46.504,
-   "narrDur": 12.529,
-   "dur": 15.129,
-   "end": 60.633
+   "start": 64.014,
+   "narrAt": 66.014,
+   "narrDur": 15.742,
+   "dur": 21.142,
+   "end": 85.156
   },
   {
    "id": "yama",
    "name": "The Dark King",
-   "display": "Then Sāvitrī saw a figure dark as a rain-cloud, robed in red, a noose in his hand: Yama, King of the Dead, come in person for so virtuous a soul. He drew out a spark the size of a thumb — and turned south. And she followed.",
+   "display": "Then Sāvitrī saw him: a figure dark as a rain-cloud, robed in red, a noose coiled in his hand. It was Yama, King of the Dead, come in person for so virtuous a soul. He drew out a spark no bigger than a thumb, and turned south. And she followed.",
    "mood": "somber",
-   "start": 60.633,
-   "narrAt": 61.833,
-   "narrDur": 15.146,
-   "dur": 17.946,
-   "end": 78.579
+   "start": 85.156,
+   "narrAt": 87.156,
+   "narrDur": 20.233,
+   "dur": 25.833,
+   "end": 110.989
   },
   {
    "id": "boons",
    "name": "Walking with Death",
-   "display": "Walk with the wise but seven steps, she said, and you are friends. Pleased, Yama offered boons — anything but the life he carried. Sight for the blind king. A kingdom restored. And then: \"a hundred sons, born of me and Satyavān.\" The Lord of Death stopped walking.",
+   "display": "\"Walk with the wise but seven steps,\" she said, \"and you are friends.\" Pleased, Yama offered her boon after boon — anything but the life he carried. Sight for the blind king. A kingdom restored. And then, quietly: \"a hundred sons, born of me and Satyavān.\" The Lord of Death stopped walking.",
    "mood": "tense",
-   "start": 78.579,
-   "narrAt": 79.579,
-   "narrDur": 18.262,
-   "dur": 20.862,
-   "end": 99.441
+   "start": 110.989,
+   "narrAt": 112.789,
+   "narrDur": 25.652,
+   "dur": 30.052,
+   "end": 141.041
   },
   {
    "id": "return",
    "name": "The Return",
-   "display": "For her word could not come true unless his life was returned. Caught by his own boon, Yama smiled — and loosed the noose. Satyavān woke as if from sleep; his father's eyes opened on the world; and Sāvitrī walked her husband home at dusk, having out-argued Death.",
+   "display": "For her word could not come true unless his life was returned. Caught by his own boon, Yama smiled, and loosed the noose. Satyavān woke as if from sleep, and his father opened his eyes on a world made new. Sāvitrī walked her husband home at dusk, having out-argued Death itself.",
    "mood": "triumphant",
-   "start": 99.441,
-   "narrAt": 100.641,
-   "narrDur": 17.058,
-   "dur": 22.458,
-   "end": 121.9
+   "start": 141.041,
+   "narrAt": 142.841,
+   "narrDur": 21.943,
+   "dur": 28.543,
+   "end": 169.584
   }
  ]
 };

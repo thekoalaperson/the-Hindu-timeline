@@ -9,6 +9,7 @@
 
 const CAST = {
   dharma: { // the god of righteousness — Yudhiṣṭhira's divine father, revealed
+    displayName: 'Dharma',
     archetype: 'deity',
     skin: '#cbae72', skinShade: '#8a6a2c', hairColor: '#efe8d6',
     hairstyle: 'sagebun', garb: 'robe', clothMain: '#e8c25a', clothAccent: '#a1651c',

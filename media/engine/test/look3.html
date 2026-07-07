@@ -1,0 +1,132 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>body{margin:0;background:#20160e}canvas{display:block}</style>
+<canvas id="cv" width="1920" height="1080"></canvas>
+<script src="../src/core.js"></script>
+<script src="../src/paint.js"></script>
+<script src="../src/person.js"></script>
+<script src="../src/wardrobe.js"></script>
+<script src="../src/acting.js"></script>
+<script src="../src/archetypes.js"></script>
+<script src="../src/person3.js"></script>
+<script>
+'use strict';
+const ctx = document.getElementById('cv').getContext('2d');
+const q = new URLSearchParams(location.search);
+const T = parseFloat(q.get('t') || '1.0');
+const MODE = q.get('mode') || 'heads';   // heads | figs | v3   (v3 = v3-only big grid)
+
+// representative styles covering the engine's range
+const LOOKS = {
+  arjuna: {
+    skin: '#c08652', skinShade: '#87511f', hairColor: '#140d07',
+    hairstyle: 'topknot', crown: 'mukut', earring: true, garb: 'royal',
+    clothMain: '#f0e3c2', clothAccent: '#a5741f', sash: '#27526b',
+    ornaments: 2, armlets: true, sacredThread: false, build: 1.03,
+  },
+  draupadi: {
+    female: true, skin: '#8a5330', skinShade: '#5c3115', hairColor: '#0d0805',
+    hairstyle: 'braid', crown: 'tiara', bindi: true, earring: true, garb: 'sari',
+    clothMain: '#8c1f28', clothAccent: '#e8b64c', ornaments: 2, bangles: true,
+    lip: '#a83a30', hairFlowers: true, build: 0.94,
+  },
+  krishna: {
+    skin: '#3d5a8c', skinShade: '#24365c', hairColor: '#10090c',
+    hairstyle: 'topknot', crown: 'mukut', peacock: true, earring: true, garb: 'royal',
+    clothMain: '#e8c73f', clothAccent: '#a5741f', sash: '#8c2f3a',
+    ornaments: 2, armlets: true, wearGarland: true, build: 0.99,
+  },
+  kunti: {
+    female: true, skin: '#b5794a', skinShade: '#7c4a20', hairColor: '#241812',
+    hairstyle: 'veil', veil: '#d9c08a', bindi: true, garb: 'sari',
+    clothMain: '#7a5a8c', clothAccent: '#c9a44a', ornaments: 1, bangles: true, build: 0.95,
+  },
+  vyasa: {
+    skin: '#a06a3a', skinShade: '#6e441a', hairColor: '#cfc4b0',
+    hairstyle: 'sagebun', beard: 'white', beardLen: 0.55, moustache: 1,
+    tilak: 'urdhva', mala: true, garb: 'robe', clothMain: '#c9862e',
+    clothAccent: '#8a5a14', build: 0.97,
+  },
+  villager: {
+    skin: '#a8703d', skinShade: '#744818', hairColor: '#1c130a',
+    hairstyle: 'topknot', crown: 'turban', turbanColor: '#9c4a2a', moustache: 1,
+    garb: 'dhoti', clothMain: '#ddd0ae', sash: '#7c5a34', build: 1.0,
+  },
+};
+
+// parchment ground + row separators
+vgrad(ctx, 0, 0, W, H, [[0, '#e9d9b6'], [0.6, '#dcc9a0'], [1, '#c8b184']]);
+ctx.fillStyle = 'rgba(60,36,16,0.12)'; ctx.fillRect(0, 538, W, 4);
+function rowLabel(txt, y) {
+  ctx.fillStyle = '#3a2410'; ctx.font = 'italic 26px Georgia'; ctx.textAlign = 'left';
+  ctx.fillText(txt, 24, y);
+}
+
+const HEADS = [
+  ['arjuna',  0.05, { smile: 0.1 }],
+  ['arjuna',  0.55, { smile: -0.2, brow: -0.7 }],          // 3/4, stern
+  ['draupadi',0.10, { smile: 0.35, gaze: { x: 0.2, y: 0.1 } }],
+  ['draupadi',0.60, { smile: -0.4, brow: 0.5, lowered: 0.4 }], // sorrow
+  ['krishna', 0.35, { smile: 0.55, lipsPart: 0.35 }],      // laughing
+  ['kunti',   0.20, { smile: 0.05, brow: 0.3, lipsPart: 0.3 }],
+  ['vyasa',   0.45, { smile: 0.15 }],
+  ['villager',1.00, { smile: 0 }],                          // full profile
+];
+
+const FIGS = [
+  ['arjuna',  {}, 1],
+  ['arjuna',  { lean: 0.10, armF: { sh: 1.45, el: 0.35, hand: 'fist' }, armB: { sh: -0.5, el: 0.9, hand: 'hold' }, legF: { hip: 0.35, knee: 0.25 }, legB: { hip: -0.4, knee: 0.06 }, headTurn: 0.5 }, 1], // archer lunge
+  ['draupadi',{ armF: { sh: 0.5, el: 1.15, hand: 'hold' }, headTurn: 0.35 }, 1],
+  ['draupadi',{ lean: -0.05, armF: { sh: 0.3, el: 1.3, hand: 'namaste' }, armB: { sh: 0.32, el: 1.32, hand: 'namaste' }, headNod: 0.12 }, 1], // namaste
+  ['krishna', { armF: { sh: 0.25, el: 0.5, hand: 'point' }, headTurn: 0.45, face: { smile: 0.5 } }, 1],
+  ['kunti',   { armF: { sh: 0.3, el: 0.9, hand: 'bless' }, headNod: 0.1 }, 1],
+  ['vyasa',   { armF: { sh: 0.45, el: 0.8, hand: 'bless' } }, -1],
+  ['villager',{ lean: 0.06, armF: { sh: 0.9, el: 0.25, hand: 'open' }, legF: { hip: 0.22, knee: 0.12 }, legB: { hip: -0.25, knee: 0.05 } }, -1], // mid-stride
+];
+
+if (MODE === 'heads') {
+  rowLabel('v2 (current)', 44);
+  HEADS.forEach(([name, turn, face], i) => {
+    ctx.save(); ctx.translate(160 + i * 228, 280);
+    drawHead(ctx, 82, LOOKS[name], Object.assign({ turn }, face), T + i, i * 7 + 1);
+    ctx.restore();
+  });
+  rowLabel('v3 (spike)', 584);
+  HEADS.forEach(([name, turn, face], i) => {
+    ctx.save(); ctx.translate(160 + i * 228, 820);
+    drawHead3(ctx, 82, LOOKS[name], Object.assign({ turn }, face), T + i, i * 7 + 1);
+    ctx.restore();
+    ctx.fillStyle = '#3a2410'; ctx.font = '19px Georgia'; ctx.textAlign = 'center';
+    ctx.fillText(name + ' t' + turn, 160 + i * 228, 1044);
+  });
+} else if (MODE === 'figs') {
+  rowLabel('v2 (current)', 44);
+  FIGS.forEach(([name, pose, facing], i) => {
+    drawFigure(ctx, { x: 140 + i * 232, y: 512, s: 1.06, facing, style: LOOKS[name], pose, t: T + i * 0.6, seed: i * 13 + 3 });
+  });
+  rowLabel('v3 (spike)', 584);
+  FIGS.forEach(([name, pose, facing], i) => {
+    drawFigure3(ctx, { x: 140 + i * 232, y: 1046, s: 1.06, facing, style: LOOKS[name], pose, t: T + i * 0.6, seed: i * 13 + 3 });
+    ctx.fillStyle = '#3a2410'; ctx.font = '19px Georgia'; ctx.textAlign = 'center';
+    ctx.fillText(name, 140 + i * 232, 1070);
+  });
+} else { // v3 close inspection: big heads across turns for one character
+  const who = q.get('who') || 'draupadi';
+  const turns = [0, 0.25, 0.5, 0.75, 1.0];
+  turns.forEach((tn, i) => {
+    ctx.save(); ctx.translate(210 + i * 380, 300);
+    drawHead3(ctx, 150, LOOKS[who], { turn: tn, smile: 0.2 }, T + i, i * 7 + 1);
+    ctx.restore();
+  });
+  const exprs = [
+    { smile: 0.6, lipsPart: 0.5 }, { smile: -0.5, brow: -0.9 },
+    { smile: -0.3, brow: 0.6, lowered: 0.5, eyeOpen: 0.7 },
+    { smile: 0.1, brow: 0.9, lipsPart: 0.6, eyeOpen: 1.2 }, { smile: 0, eyeOpen: 0.15, lowered: 0.6 },
+  ];
+  exprs.forEach((f, i) => {
+    ctx.save(); ctx.translate(210 + i * 380, 800);
+    drawHead3(ctx, 150, LOOKS[who], Object.assign({ turn: 0.3 }, f), T + i, i * 5 + 2);
+    ctx.restore();
+  });
+}
+</script>

@@ -26,8 +26,7 @@
   "narration": {
     "provider": "pico",
     "voice": "en-GB",
-    "pitch": 0.95,
-    "tempo": 1.12
+    "pitch": 0.95
   },
   "music": {
     "mode": "auto"
@@ -66,6 +65,7 @@
           {
             "id": "nakula",
             "who": "nakula",
+            "label": "Nakula",
             "at": [
               980,
               1016
@@ -137,6 +137,7 @@
           {
             "id": "yudhishthira",
             "who": "yudhishthira",
+            "label": "Yudhiṣṭhira",
             "at": [
               960,
               1010

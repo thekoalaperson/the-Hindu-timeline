@@ -26,18 +26,26 @@
   "narration": {
     "provider": "pico",
     "voice": "en-GB",
-    "pitch": 0.95,
-    "tempo": 1.12
+    "pitch": 0.95
   },
   "music": {
     "mode": "auto",
     "events": {
       "lift": [
-        { "at": 2.0, "type": "swell" },
-        { "at": 4.2, "type": "bell" }
+        {
+          "at": 2.0,
+          "type": "swell"
+        },
+        {
+          "at": 4.2,
+          "type": "bell"
+        }
       ],
       "govinda": [
-        { "at": 1.0, "type": "bell" }
+        {
+          "at": 1.0,
+          "type": "bell"
+        }
       ]
     }
   },
@@ -78,6 +86,7 @@
           {
             "id": "krishna",
             "who": "krishna",
+            "label": "Kṛṣṇa",
             "at": [
               820,
               1010
@@ -89,6 +98,7 @@
           {
             "id": "nanda",
             "who": "nanda",
+            "label": "Nanda",
             "at": [
               1200,
               1010
@@ -100,6 +110,7 @@
           {
             "id": "gopa",
             "who": "gopa",
+            "label": "A Young Cowherd",
             "at": [
               1470,
               1000
@@ -176,6 +187,7 @@
           {
             "id": "krishna",
             "who": "krishna",
+            "label": "Kṛṣṇa",
             "at": [
               960,
               1010
@@ -187,6 +199,7 @@
           {
             "id": "nanda",
             "who": "nanda",
+            "label": "Nanda",
             "at": [
               1300,
               1005
@@ -198,6 +211,7 @@
           {
             "id": "gopa",
             "who": "gopa",
+            "label": "A Young Cowherd",
             "at": [
               1560,
               998

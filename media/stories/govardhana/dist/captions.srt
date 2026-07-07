@@ -1,63 +1,67 @@
 1
-00:00:02,200 --> 00:00:06,173
+00:00:02,600 --> 00:00:07,855
 In Vṛndāvana the cowherds kept a festival for Indra, lord of rain.
 
 2
-00:00:06,173 --> 00:00:14,120
-But young Kṛṣṇa watched the cattle graze the green slopes of Govardhana, and wondered why the mountain that fed them went unthanked.
+00:00:07,855 --> 00:00:19,401
+But young Kṛṣṇa watched the cattle graze Govardhana's green slopes, and asked a simple question: why did the mountain that fed them go unthanked?
 
 3
-00:00:16,420 --> 00:00:21,968
-"Worship what feeds you," said Kṛṣṇa. "These pastures, these cows, this hill —
+00:00:23,401 --> 00:00:26,581
+"Worship what feeds you," said Kṛṣṇa.
 
 4
-00:00:21,968 --> 00:00:27,871
-they give us all we have. Honour Govardhana, and let the pride of distant Indra go.
+00:00:26,581 --> 00:00:33,630
+"This hill has given us pasture and rain and green slopes, and asked nothing back.
 
 5
-00:00:27,871 --> 00:00:30,431
-" And the herders, trusting, agreed.
+00:00:33,630 --> 00:00:38,444
+Honour Govardhana, and let distant Indra keep his pride.
 
 6
-00:00:32,731 --> 00:00:38,192
-Robbed of his worship, Indra raged. He loosed the clouds of doomsday upon Vṛndāvana —
+00:00:38,444 --> 00:00:41,538
+" And the herders, trusting, agreed.
 
 7
-00:00:38,192 --> 00:00:45,002
-seven nights of blinding rain, thunder without mercy, to drown the herders and their impudent cowherd boy.
+00:00:45,537 --> 00:00:51,228
+Robbed of his worship, Indra raged. He broke open the sky over Vṛndāvana —
 
 8
-00:00:47,802 --> 00:00:52,911
-Then Kṛṣṇa reached down, and lifted Govardhana whole upon his little finger.
+00:00:51,228 --> 00:01:00,073
+seven nights of blinding rain and thunder without mercy, meant to drown the herders and their impudent cowherd boy.
 
 9
-00:00:52,911 --> 00:00:56,003
-The mountain rose like a vast green umbrella —
+00:01:04,474 --> 00:01:10,603
+Then Kṛṣṇa reached down, and lifted Govardhana whole upon his little finger.
 
 10
-00:00:56,003 --> 00:01:00,708
-and all Vṛndāvana, herder and cow and calf, sheltered beneath it, dry.
+00:01:10,603 --> 00:01:14,313
+The mountain rose like a vast green umbrella —
 
 11
-00:01:05,108 --> 00:01:08,931
-Seven days and seven nights the rain hammered the world.
+00:01:14,313 --> 00:01:19,958
+and all Vṛndāvana, herder and cow and calf, sheltered beneath it, dry.
 
 12
-00:01:08,931 --> 00:01:11,730
-Yet under the mountain not one drop fell.
+00:01:25,758 --> 00:01:30,368
+Seven days and seven nights the rain hammered the world.
 
 13
-00:01:11,730 --> 00:01:18,078
-Kṛṣṇa held it steady, smiling, while the storm spent its fury on the unbroken circle of calm.
+00:01:30,368 --> 00:01:33,744
+Yet under the mountain not one drop fell.
 
 14
-00:01:21,478 --> 00:01:25,023
-At last Indra's storm broke, and shamed, he bowed.
+00:01:33,744 --> 00:01:41,400
+Kṛṣṇa held it steady, smiling, while the storm spent its fury on the unbroken circle of calm.
 
 15
-00:01:25,023 --> 00:01:30,765
-The sun returned to a washed and shining Vṛndāvana. Kṛṣṇa set the mountain down —
+00:01:45,800 --> 00:01:50,248
+At last Indra's storm broke, and shamed, he bowed.
 
 16
-00:01:30,765 --> 00:01:34,451
+00:01:50,248 --> 00:01:57,453
+The sun returned to a washed and shining Vṛndāvana. Kṛṣṇa set the mountain down —
+
+17
+00:01:57,453 --> 00:02:02,079
 and the cowherds hailed him Govinda, keeper of cows.

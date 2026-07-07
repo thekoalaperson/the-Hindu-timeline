@@ -357,14 +357,17 @@ export const DEFAULT_MOOD = 'tender';
 // untouched). `env` is this mood's target on the master intensity
 // envelope (0..1) — this is what makes e.g. festive read louder than
 // tense after the shared peak-normalize pass.
+// bps reduced ~15% and sustainMul increased ~20% across the board (v1.3,
+// pacing pass) so the mood texture breathes with the slower narration —
+// nps/drone/width/env/gain/register/sparse are unchanged.
 export const MOOD = {
-  mystic:     { perc: { on: false },                                       register: 'low',  nps: 0.42, sustainMul: 1.9,  drone: 0.95, width: 0.65, env: 0.50 },
-  festive:    { perc: { on: true, bps: 1.7, gain: 0.55, sparse: false },   register: 'high', nps: 1.25, sustainMul: 0.8,  drone: 0.85, width: 1.20, env: 0.85 },
-  tense:      { perc: { on: true, bps: 1.9, gain: 0.38, sparse: true },    register: 'low',  nps: 0.5,  sustainMul: 0.55, drone: 0.50, width: 0.55, env: 0.38 },
-  tender:     { perc: { on: false },                                       register: 'mid',  nps: 0.5,  sustainMul: 1.6,  drone: 0.70, width: 0.85, env: 0.55 },
-  triumphant: { perc: { on: true, bps: 1.75, gain: 0.72, sparse: false },  register: 'high', nps: 1.15, sustainMul: 1.0,  drone: 1.00, width: 1.25, env: 0.95 },
-  somber:     { perc: { on: false },                                       register: 'low',  nps: 0.38, sustainMul: 2.0,  drone: 0.60, width: 0.55, env: 0.36 },
-  suspense:   { perc: { on: true, bps: 1.1, gain: 0.32, sparse: true },    register: 'low',  nps: 0.42, sustainMul: 0.6,  drone: 0.42, width: 0.50, env: 0.30 },
+  mystic:     { perc: { on: false },                                       register: 'low',  nps: 0.42, sustainMul: 2.28, drone: 0.95, width: 0.65, env: 0.50 },
+  festive:    { perc: { on: true, bps: 1.45, gain: 0.55, sparse: false },  register: 'high', nps: 1.25, sustainMul: 0.96, drone: 0.85, width: 1.20, env: 0.85 },
+  tense:      { perc: { on: true, bps: 1.62, gain: 0.38, sparse: true },   register: 'low',  nps: 0.5,  sustainMul: 0.66, drone: 0.50, width: 0.55, env: 0.38 },
+  tender:     { perc: { on: false },                                       register: 'mid',  nps: 0.5,  sustainMul: 1.92, drone: 0.70, width: 0.85, env: 0.55 },
+  triumphant: { perc: { on: true, bps: 1.49, gain: 0.72, sparse: false },  register: 'high', nps: 1.15, sustainMul: 1.2,  drone: 1.00, width: 1.25, env: 0.95 },
+  somber:     { perc: { on: false },                                       register: 'low',  nps: 0.38, sustainMul: 2.4,  drone: 0.60, width: 0.55, env: 0.36 },
+  suspense:   { perc: { on: true, bps: 0.94, gain: 0.32, sparse: true },   register: 'low',  nps: 0.42, sustainMul: 0.72, drone: 0.42, width: 0.50, env: 0.30 },
 };
 
 function resolveMood(sc) {

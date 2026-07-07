@@ -26,7 +26,7 @@
     "provider": "pico",
     "voice": "en-GB",
     "pitch": 0.95,
-    "tempo": 1.12
+    "tempo": 1.0
   },
   "music": {
     "mode": "legacy"

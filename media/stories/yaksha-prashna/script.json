@@ -8,18 +8,18 @@
       "name": "The Stolen Fire",
       "mood": "mystic",
       "raga": "bhairavish",
-      "pad_before": 2.2,
-      "pad_after": 1.2,
-      "display": "As the long exile waned, a deer bounded off with a Brāhmaṇa's sacred fire-sticks caught in its antlers. The five Pāṇḍava brothers gave chase — until it melted into shadow, leaving them lost and parched.",
-      "tts": "As the long exile waned, a deer bounded off with a brahmin's sacred fire-sticks caught in its antlers. The five Pahn-dah-vah brothers gave chase; until it melted into shadow, leaving them lost, and parched."
+      "pad_before": 2.6,
+      "pad_after": 2.2,
+      "display": "As the long exile waned, a deer bounded away with a Brāhmaṇa's sacred fire-sticks tangled in its antlers. The five Pāṇḍava brothers gave chase, until it melted into shadow and left them lost, and parched.",
+      "tts": "As the long exile waned, a deer bounded away with a brahmin's sacred fire-sticks tangled in its antlers. The five Pahn-dah-vah brothers gave chase, until it melted into shadow and left them lost, and parched."
     },
     {
       "id": "reach",
       "name": "The Still Lake",
       "mood": "suspense",
       "raga": "bhairavish",
-      "pad_before": 1.0,
-      "pad_after": 1.0,
+      "pad_before": 1.8,
+      "pad_after": 2.4,
       "display": "Nakula, youngest and swift, found a still and shining lake. As he stooped to drink, a voice rose from the empty air: \"This water is mine. Answer me first — then drink.\"",
       "tts": "Nuh-koo-lah, youngest and swift, found a still and shining lake. As he stooped to drink, a voice rose from the empty air: this water is mine. Answer me first; then drink."
     },
@@ -28,18 +28,18 @@
       "name": "Four Brothers Fallen",
       "mood": "somber",
       "raga": "bhairavish",
-      "pad_before": 0.8,
-      "pad_after": 2.2,
-      "display": "Heedless with thirst, Nakula drank — and fell. One by one his brothers followed: Sahadeva, Arjuna, Bhīma. Each ignored the voice, drank, and lay still — four brothers fallen like felled trees.",
-      "tts": "Heedless with thirst, Nuh-koo-lah drank; and fell. One by one his brothers followed: Sah-hah-day-vah, Ar-joona, Bee-ma. Each ignored the voice, drank, and lay still; four brothers fallen like felled trees."
+      "pad_before": 1.8,
+      "pad_after": 3.2,
+      "display": "Heedless with thirst, Nakula drank, and fell. Sahadeva went to look for him, and fell in turn; then Arjuna; then Bhīma — each ignoring the voice, each drinking, each lying still, until four brothers lay fallen like felled trees.",
+      "tts": "Heedless with thirst, Nuh-koo-lah drank, and fell. Sah-hah-day-vah went to look for him, and fell in turn; then Ar-joona; then Bee-ma; each ignoring the voice, each drinking, each lying still, until four brothers lay fallen like felled trees."
     },
     {
       "id": "voice",
       "name": "A Voice with No Body",
       "mood": "mystic",
       "raga": "bhairavish",
-      "pad_before": 1.0,
-      "pad_after": 1.8,
+      "pad_before": 1.8,
+      "pad_after": 2.4,
       "display": "At last Yudhiṣṭhira came, and found all four fallen. He grieved — yet saw no wound. When the bodiless voice rose again above the still water, he bowed his head: \"Ask, Yakṣa. I will answer.\"",
       "tts": "At last Yoo-dish-teer-ah came, and found all four fallen. He grieved; yet saw no wound. When the bodiless voice rose again above the still water, he bowed his head: ask, Yuck-shah. I will answer."
     },
@@ -48,8 +48,8 @@
       "name": "The Questions",
       "mood": "tense",
       "raga": "bhairavish",
-      "pad_before": 0.8,
-      "pad_after": 1.2,
+      "pad_before": 1.8,
+      "pad_after": 2.4,
       "display": "\"What is swifter than the wind?\" — \"The mind.\" \"What is heavier than the earth?\" — \"A mother.\" Riddle upon riddle, he answered every one. Then came the deepest: \"What is the greatest wonder?\"",
       "tts": "What is swifter than the wind? The mind. What is heavier than the earth? A mother. Riddle upon riddle, he answered every one. Then came the deepest: what is the greatest wonder?"
     },
@@ -58,8 +58,8 @@
       "name": "The Greatest Wonder",
       "mood": "somber",
       "raga": "bhairavish",
-      "pad_before": 1.0,
-      "pad_after": 2.4,
+      "pad_before": 2.0,
+      "pad_after": 3.6,
       "display": "And Yudhiṣṭhira answered: \"Day upon day, the dead are borne to the House of Death — yet those who remain believe they will never die. That is the greatest wonder.\"",
       "tts": "And Yoo-dish-teer-ah answered: day upon day, the dead are borne to the house of death; yet those who remain believe they will never die. That, is the greatest wonder."
     },
@@ -68,10 +68,10 @@
       "name": "Dharma Revealed",
       "mood": "triumphant",
       "raga": "deshish",
-      "pad_before": 1.0,
-      "pad_after": 4.2,
-      "display": "The crane blazed and put off its shape: it was Dharma, his own divine father, who made the whole trial to prove him. Pleased, he raised all four brothers, and gave the Pāṇḍavas their year unseen.",
-      "tts": "The crane blazed, and put off its shape: it was Dar-mah, his own divine father, who made the whole trial to prove him. Pleased, he raised all four brothers, and gave the Pahn-dah-vahs their year unseen."
+      "pad_before": 1.8,
+      "pad_after": 4.8,
+      "display": "The crane blazed, and shed its shape: this was Dharma, his own divine father, testing him all along. Pleased, he raised all four brothers to their feet, and granted the Pāṇḍavas a year in which no one would know their faces.",
+      "tts": "The crane blazed, and shed its shape: this was Dar-mah, his own divine father, testing him all along. Pleased, he raised all four brothers to their feet, and granted the Pahn-dah-vahs a year in which no one would know their faces."
     }
   ]
 }

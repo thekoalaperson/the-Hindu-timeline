@@ -1,73 +1,73 @@
 {
   "title": "Govardhana",
   "subtitle": "Bhāgavata Purāṇa · Canto X.24–27",
-  "total": 98.651,
+  "total": 126.879,
   "scenes": [
     {
       "id": "pastoral",
       "name": "The Herders' Festival",
-      "display": "In Vṛndāvana the cowherds kept a festival for Indra, lord of rain. But young Kṛṣṇa watched the cattle graze the green slopes of Govardhana, and wondered why the mountain that fed them went unthanked.",
+      "display": "In Vṛndāvana the cowherds kept a festival for Indra, lord of rain. But young Kṛṣṇa watched the cattle graze Govardhana's green slopes, and asked a simple question: why did the mountain that fed them go unthanked?",
       "mood": "festive",
       "start": 0,
-      "narrAt": 2.2,
-      "narrDur": 11.92,
-      "dur": 15.42,
-      "end": 15.42
+      "narrAt": 2.6,
+      "narrDur": 16.801,
+      "dur": 21.601,
+      "end": 21.601
     },
     {
       "id": "counsel",
       "name": "Worship What Feeds You",
-      "display": "\"Worship what feeds you,\" said Kṛṣṇa. \"These pastures, these cows, this hill — they give us all we have. Honour Govardhana, and let the pride of distant Indra go.\" And the herders, trusting, agreed.",
+      "display": "\"Worship what feeds you,\" said Kṛṣṇa. \"This hill has given us pasture and rain and green slopes, and asked nothing back. Honour Govardhana, and let distant Indra keep his pride.\" And the herders, trusting, agreed.",
       "mood": "tender",
-      "start": 15.42,
-      "narrAt": 16.42,
-      "narrDur": 14.011,
-      "dur": 16.311,
-      "end": 31.731
+      "start": 21.601,
+      "narrAt": 23.401,
+      "narrDur": 18.137,
+      "dur": 22.137,
+      "end": 43.737
     },
     {
       "id": "fury",
       "name": "Indra's Wrath",
-      "display": "Robbed of his worship, Indra raged. He loosed the clouds of doomsday upon Vṛndāvana — seven nights of blinding rain, thunder without mercy, to drown the herders and their impudent cowherd boy.",
+      "display": "Robbed of his worship, Indra raged. He broke open the sky over Vṛndāvana — seven nights of blinding rain and thunder without mercy, meant to drown the herders and their impudent cowherd boy.",
       "mood": "tense",
-      "start": 31.731,
-      "narrAt": 32.731,
-      "narrDur": 12.271,
-      "dur": 14.671,
-      "end": 46.402
+      "start": 43.737,
+      "narrAt": 45.537,
+      "narrDur": 14.536,
+      "dur": 18.736,
+      "end": 62.474
     },
     {
       "id": "lift",
       "name": "The Lifting of the Mountain",
       "display": "Then Kṛṣṇa reached down, and lifted Govardhana whole upon his little finger. The mountain rose like a vast green umbrella — and all Vṛndāvana, herder and cow and calf, sheltered beneath it, dry.",
       "mood": "triumphant",
-      "start": 46.402,
-      "narrAt": 47.802,
-      "narrDur": 12.906,
-      "dur": 17.706,
-      "end": 64.108
+      "start": 62.474,
+      "narrAt": 64.474,
+      "narrDur": 15.484,
+      "dur": 21.484,
+      "end": 83.958
     },
     {
       "id": "vigil",
       "name": "Seven Days and Nights",
       "display": "Seven days and seven nights the rain hammered the world. Yet under the mountain not one drop fell. Kṛṣṇa held it steady, smiling, while the storm spent its fury on the unbroken circle of calm.",
       "mood": "mystic",
-      "start": 64.108,
-      "narrAt": 65.108,
-      "narrDur": 12.97,
-      "dur": 16.17,
-      "end": 80.278
+      "start": 83.958,
+      "narrAt": 85.758,
+      "narrDur": 15.642,
+      "dur": 20.042,
+      "end": 104
     },
     {
       "id": "govinda",
       "name": "Govinda",
       "display": "At last Indra's storm broke, and shamed, he bowed. The sun returned to a washed and shining Vṛndāvana. Kṛṣṇa set the mountain down — and the cowherds hailed him Govinda, keeper of cows.",
       "mood": "festive",
-      "start": 80.278,
-      "narrAt": 81.478,
-      "narrDur": 12.973,
-      "dur": 18.373,
-      "end": 98.651
+      "start": 104,
+      "narrAt": 105.8,
+      "narrDur": 16.279,
+      "dur": 22.879,
+      "end": 126.879
     }
   ]
 }

@@ -26,8 +26,7 @@
   "narration": {
     "provider": "pico",
     "voice": "en-GB",
-    "pitch": 0.95,
-    "tempo": 1.12
+    "pitch": 0.95
   },
   "music": {
     "mode": "auto"
@@ -67,6 +66,7 @@
           {
             "id": "savitri",
             "who": "savitri",
+            "label": "Sāvitrī",
             "at": [
               1400,
               1000
@@ -87,6 +87,7 @@
           {
             "id": "satyavan",
             "who": "satyavan",
+            "label": "Satyavān",
             "at": [
               1560,
               995
@@ -98,6 +99,7 @@
           {
             "id": "dyumatsena",
             "who": "dyumatsena",
+            "label": "Dyumatsena",
             "at": [
               1800,
               985
@@ -160,6 +162,7 @@
           {
             "id": "asvapati",
             "who": "asvapati",
+            "label": "Aśvapati",
             "at": [
               640,
               1005
@@ -171,6 +174,7 @@
           {
             "id": "narada",
             "who": "narada",
+            "label": "Nārada",
             "at": [
               1000,
               990
@@ -182,6 +186,7 @@
           {
             "id": "savitri",
             "who": "savitri",
+            "label": "Sāvitrī",
             "at": [
               1420,
               1000
@@ -252,6 +257,7 @@
           {
             "id": "savitri",
             "who": "savitri:vrata",
+            "label": "Sāvitrī",
             "at": [
               700,
               1010
@@ -272,6 +278,7 @@
           {
             "id": "dyumatsena",
             "who": "dyumatsena",
+            "label": "Dyumatsena",
             "at": [
               1240,
               1000
@@ -282,6 +289,7 @@
           {
             "id": "satyavan",
             "who": "satyavan",
+            "label": "Satyavān",
             "at": [
               1420,
               1005
@@ -350,6 +358,7 @@
           {
             "id": "satyavan",
             "who": "satyavan",
+            "label": "Satyavān",
             "at": [
               860,
               1000
@@ -361,6 +370,7 @@
           {
             "id": "savitri",
             "who": "savitri:vrata",
+            "label": "Sāvitrī",
             "at": [
               1060,
               1005

@@ -2,84 +2,84 @@
 const TIMELINE = {
  "title": "The Yakṣa's Questions",
  "subtitle": "Mahābhārata · Vana Parva 311–315",
- "total": 109.696,
+ "total": 146.998,
  "scenes": [
   {
    "id": "chase",
    "name": "The Stolen Fire",
-   "display": "As the long exile waned, a deer bounded off with a Brāhmaṇa's sacred fire-sticks caught in its antlers. The five Pāṇḍava brothers gave chase — until it melted into shadow, leaving them lost and parched.",
+   "display": "As the long exile waned, a deer bounded away with a Brāhmaṇa's sacred fire-sticks tangled in its antlers. The five Pāṇḍava brothers gave chase, until it melted into shadow and left them lost, and parched.",
    "mood": "mystic",
    "start": 0,
-   "narrAt": 2.2,
-   "narrDur": 12.574,
-   "dur": 15.974,
-   "end": 15.974
+   "narrAt": 2.6,
+   "narrDur": 14.532,
+   "dur": 19.332,
+   "end": 19.332
   },
   {
    "id": "reach",
    "name": "The Still Lake",
    "display": "Nakula, youngest and swift, found a still and shining lake. As he stooped to drink, a voice rose from the empty air: \"This water is mine. Answer me first — then drink.\"",
    "mood": "suspense",
-   "start": 15.974,
-   "narrAt": 16.974,
-   "narrDur": 12.406,
-   "dur": 14.406,
-   "end": 30.38
+   "start": 19.332,
+   "narrAt": 21.132,
+   "narrDur": 15.546,
+   "dur": 19.746,
+   "end": 39.078
   },
   {
    "id": "fall",
    "name": "Four Brothers Fallen",
-   "display": "Heedless with thirst, Nakula drank — and fell. One by one his brothers followed: Sahadeva, Arjuna, Bhīma. Each ignored the voice, drank, and lay still — four brothers fallen like felled trees.",
+   "display": "Heedless with thirst, Nakula drank, and fell. Sahadeva went to look for him, and fell in turn; then Arjuna; then Bhīma — each ignoring the voice, each drinking, each lying still, until four brothers lay fallen like felled trees.",
    "mood": "somber",
-   "start": 30.38,
-   "narrAt": 31.18,
-   "narrDur": 14.212,
-   "dur": 17.212,
-   "end": 47.592
+   "start": 39.078,
+   "narrAt": 40.878,
+   "narrDur": 19.701,
+   "dur": 24.701,
+   "end": 63.778
   },
   {
    "id": "voice",
    "name": "A Voice with No Body",
    "display": "At last Yudhiṣṭhira came, and found all four fallen. He grieved — yet saw no wound. When the bodiless voice rose again above the still water, he bowed his head: \"Ask, Yakṣa. I will answer.\"",
    "mood": "mystic",
-   "start": 47.592,
-   "narrAt": 48.592,
-   "narrDur": 13.77,
-   "dur": 16.57,
-   "end": 64.163
+   "start": 63.778,
+   "narrAt": 65.578,
+   "narrDur": 17.692,
+   "dur": 21.892,
+   "end": 85.67
   },
   {
    "id": "riddles",
    "name": "The Questions",
    "display": "\"What is swifter than the wind?\" — \"The mind.\" \"What is heavier than the earth?\" — \"A mother.\" Riddle upon riddle, he answered every one. Then came the deepest: \"What is the greatest wonder?\"",
    "mood": "tense",
-   "start": 64.163,
-   "narrAt": 64.963,
-   "narrDur": 12.2,
-   "dur": 14.2,
-   "end": 78.362
+   "start": 85.67,
+   "narrAt": 87.47,
+   "narrDur": 16.534,
+   "dur": 20.734,
+   "end": 106.404
   },
   {
    "id": "wonder",
    "name": "The Greatest Wonder",
    "display": "And Yudhiṣṭhira answered: \"Day upon day, the dead are borne to the House of Death — yet those who remain believe they will never die. That is the greatest wonder.\"",
    "mood": "somber",
-   "start": 78.362,
-   "narrAt": 79.362,
-   "narrDur": 10.148,
-   "dur": 13.548,
-   "end": 91.91
+   "start": 106.404,
+   "narrAt": 108.404,
+   "narrDur": 12.418,
+   "dur": 18.018,
+   "end": 124.422
   },
   {
    "id": "reveal",
    "name": "Dharma Revealed",
-   "display": "The crane blazed and put off its shape: it was Dharma, his own divine father, who made the whole trial to prove him. Pleased, he raised all four brothers, and gave the Pāṇḍavas their year unseen.",
+   "display": "The crane blazed, and shed its shape: this was Dharma, his own divine father, testing him all along. Pleased, he raised all four brothers to their feet, and granted the Pāṇḍavas a year in which no one would know their faces.",
    "mood": "triumphant",
-   "start": 91.91,
-   "narrAt": 92.91,
-   "narrDur": 12.585,
-   "dur": 17.785,
-   "end": 109.696
+   "start": 124.422,
+   "narrAt": 126.222,
+   "narrDur": 15.977,
+   "dur": 22.577,
+   "end": 146.998
   }
  ]
 };
