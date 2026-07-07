@@ -907,7 +907,7 @@ function hair3Back(ctx, style, t, seed, tn) {
     ctx.quadraticCurveTo(-0.64, -0.5, 0.05, -0.94);
     ctx.closePath(); ctx.fill();
     if (mode === 'braid') {
-      ctx.strokeStyle = 'rgba(255,235,200,0.20)'; ctx.lineWidth = 0.05;
+      ctx.strokeStyle = 'rgba(255,235,200,0.11)'; ctx.lineWidth = 0.045;
       for (let i = 0; i < 6; i++) {
         const u = i / 6, yy = 0.5 + u * 1.7;
         ctx.beginPath();
@@ -976,9 +976,9 @@ function hair3Front(ctx, style, t, seed, tn) {
   // one solid cap: outer edge rides just above the skull, inner edge = hairline
   ctx.fillStyle = c;
   ctx.beginPath();
-  ctx.moveTo(P(0.80, 0.92), -0.36);                                // temple, face side
-  ctx.quadraticCurveTo(P(0.55, 0.72), -0.72, P(0.08, 0.28), -0.80); // hairline over forehead
-  ctx.quadraticCurveTo(-0.56, -0.88, -0.86, -0.50);                // hairline to back
+  ctx.moveTo(P(0.80, 0.92), -0.30);                                // temple, face side
+  ctx.quadraticCurveTo(P(0.55, 0.72), -0.62, P(0.08, 0.28), -0.70); // hairline low over the forehead (a tall bare brow reads balloon-like in close-up)
+  ctx.quadraticCurveTo(-0.56, -0.80, -0.86, -0.48);                // hairline to back
   ctx.lineTo(-0.97, -0.44);                                        // out past silhouette
   ctx.quadraticCurveTo(-1.02, -0.98, -0.34, -1.18);                // back crown, proud of skull
   ctx.quadraticCurveTo(P(0.40, 0.62), -1.14, P(0.72, 0.86), -0.66);// over the top
@@ -4657,13 +4657,28 @@ function _gaitCfg(gait) {
   if (gait === 'walk') return { rate: 1.05, amp: 1.0, bob: 5, pitch: 0.012, ph: [0.25, 0.0, 0.75, 0.5], gallop: false };
   return { rate: 0.0, amp: 0.04, bob: 1.2, pitch: 0.0, ph: [0.2, 0.0, 0.7, 0.5], gallop: false }; // idle
 }
-// one leg's hip/knee angles for a cycle position (0..1).
-function _legAng(cyc, amp) {
+// one leg's hip/knee angles for a cycle position (0..1). Optional `stance`
+// adds a constant idle-pose bias (see _stance) — locomotion passes nothing.
+function _legAng(cyc, amp, stance) {
   const a = (cyc % 1) * TAU;
+  const st = stance || 0;
   return {
-    hip: Math.cos(a) * 0.26 * amp,                      // fwd(+) at cyc 0, back(-) at cyc .5
-    knee: 0.12 + Math.max(0, -Math.sin(a)) * 0.5 * amp, // flexes (tucks) through swing (.5..1)
+    hip: Math.cos(a) * 0.26 * amp + (st ? st.hip : 0),  // fwd(+) at cyc 0, back(-) at cyc .5
+    knee: 0.12 + Math.max(0, -Math.sin(a)) * 0.5 * amp + (st ? st.knee : 0), // flexes (tucks) through swing (.5..1)
   };
+}
+// idle standing stance. A real standing ungulate is never four parallel posts:
+// the fore legs carry a slight fetlock/knee break, the hind legs tuck their
+// hocks under the body. Returns {hip,knee} angle offsets, ZERO during walk/run
+// so locomotion is untouched. role:+1 fore · -1 hind. k scales per animal
+// (elephants stay near-columnar). Seed-jittered a degree or two → no twinning.
+function _stance(gait, role, seed, n, k) {
+  if (gait !== 'idle') return 0;
+  const s = k == null ? 1 : k;
+  const j = (hash1(seed * 4.7 + n * 2.9) - 0.5) * 0.05;    // ~±1.4°
+  return role > 0
+    ? { hip: (0.055 + j) * s, knee: (0.05 + j * 0.5) * s }       // fore: gentle break
+    : { hip: (-0.12 + j) * s, knee: (0.175 + j * 0.5) * s };     // hind: hock angled under
 }
 // a hoof wedge sitting ON the ground at (fx,fy), tilted by the pastern.
 // cloven=true → two-toe cleft (cow/deer); false → single hoof (horse).
@@ -4791,7 +4806,8 @@ function _animEye(ctx, x, y, r, dir) {
 // ── HORSE ──
 function drawHorse(ctx, o) {
   const s = o.s === undefined ? 1 : o.s, t = o.t || 0, seed = o.seed || 1;
-  const g = _gaitCfg(o.gait || 'idle');
+  const gait = o.gait || 'idle';
+  const g = _gaitCfg(gait);
   const coat = o.coat || '#7a4a24', coatD = _hx(coat, -0.4), coatL = _hx(coat, 0.14);
   const mane = o.mane || '#241206', hoof = '#2a1c12';
   ctx.save();
@@ -4807,8 +4823,8 @@ function drawHorse(ctx, o) {
   const brB = Math.sin(t * 1.4 + seed) * 2;
 
   // far legs (behind body) — darker
-  _qLeg(ctx, foreF, upLen, loLen, _legAng(cyc(2), g.amp), 1, legW.map(w => w * 0.92), _hx(coat, -0.12), coatD, _hx(hoof, -0.1), 'hoof');
-  _qLeg(ctx, hindF, upLen, loLen, _legAng(cyc(3), g.amp), -1, legW.map(w => w * 0.92), _hx(coat, -0.12), coatD, _hx(hoof, -0.1), 'hoof');
+  _qLeg(ctx, foreF, upLen, loLen, _legAng(cyc(2), g.amp, _stance(gait, 1, seed, 2)), 1, legW.map(w => w * 0.92), _hx(coat, -0.12), coatD, _hx(hoof, -0.1), 'hoof');
+  _qLeg(ctx, hindF, upLen, loLen, _legAng(cyc(3), g.amp, _stance(gait, -1, seed, 3)), -1, legW.map(w => w * 0.92), _hx(coat, -0.12), coatD, _hx(hoof, -0.1), 'hoof');
 
   // tail (behind rump)
   const swish = sfbm1(t * 0.9, seed + 4) * 26;
@@ -4851,65 +4867,71 @@ function drawHorse(ctx, o) {
   ctx.beginPath(); smoothPath(ctx, neck, true);
   ctx.fillStyle = coat; ctx.fill();
   ctx.strokeStyle = _INK; ctx.lineWidth = 2.6; ctx.stroke();
-  // head (muzzle at +x/+y, refined equine profile)
+
+  // ── mane — a clean crest riding the neck and falling DOWN THE BACK; drawn
+  //    BEFORE the head so it can never spill over the face ──
+  const mSway = sfbm1(t * 1.1, seed + 2) * 5;
+  ctx.fillStyle = mane;
+  ctx.beginPath();
+  ctx.moveTo(168, -316);
+  ctx.quadraticCurveTo(210, -384, 286, -446);              // crest up to just behind the poll
+  ctx.quadraticCurveTo(300, -438, 292, -420);              // small poll cap (tucks behind head)
+  ctx.quadraticCurveTo(252, -402, 214, -360 + mSway * 0.5); // fall down the back of the neck
+  ctx.quadraticCurveTo(196, -338, 182, -312 + mSway);
+  ctx.quadraticCurveTo(174, -314, 168, -316);
+  ctx.closePath(); ctx.fill();
+  ctx.strokeStyle = _INK; ctx.lineWidth = 1.6; ctx.stroke();
+  ctx.strokeStyle = _hx(mane, 0.16); ctx.lineWidth = 2.2; ctx.lineCap = 'round';
+  for (let i = 0; i < 4; i++) {
+    const u = (i + 0.5) / 4;
+    const bx = lerp(196, 288, u), by = lerp(-320, -444, u);
+    ctx.beginPath(); ctx.moveTo(bx, by); ctx.quadraticCurveTo(bx - 16, by + 24, bx - 26 + mSway * u, by + 42); ctx.stroke();
+  }
+
+  // ── head — constructed equine skull + round jowl + tapering muzzle wedge.
+  //    (muzzle at +x/+y, poll & ears at -y, eye high on the skull) ──
   ctx.save();
   ctx.translate(300, -440); ctx.rotate(0.15);
   const earFlick = Math.sin(t * 2.1 + seed) * 0.12;
   // far ear (behind the poll)
-  ctx.save(); ctx.translate(2, -16); ctx.rotate(0.2 + earFlick * 0.7);
+  ctx.save(); ctx.translate(0, -16); ctx.rotate(0.36 + earFlick * 0.7);
   ctx.fillStyle = coatD;
-  ctx.beginPath(); ctx.moveTo(0, 2); ctx.quadraticCurveTo(-6, -32, 10, -32); ctx.quadraticCurveTo(15, -12, 9, 4); ctx.closePath(); ctx.fill();
+  ctx.beginPath(); ctx.moveTo(0, 4); ctx.quadraticCurveTo(-9, -30, 8, -34); ctx.quadraticCurveTo(17, -14, 10, 4); ctx.closePath(); ctx.fill();
   ctx.strokeStyle = _INK; ctx.lineWidth = 1.5; ctx.stroke();
   ctx.restore();
   const head = [
-    [-10, -20], [26, -15], [56, 2], [74, 28], [77, 52], [67, 72], [47, 80], [25, 78], [5, 60], [-12, 32], [-14, 2],
+    [-8, -20], [24, -19], [50, -9], [72, 9], [82, 29],     // poll → bridge → nose
+    [77, 47], [60, 57], [40, 60], [16, 56],                // muzzle front → chin → jaw
+    [-6, 44], [-17, 20], [-13, -3],                        // round jowl → back to poll
   ];
   ctx.beginPath(); smoothPath(ctx, head, true);
-  const hhg = ctx.createLinearGradient(-14, 0, 60, 60);
-  hhg.addColorStop(0, coatL); hhg.addColorStop(0.55, coat); hhg.addColorStop(1, coatD);
+  const hhg = ctx.createLinearGradient(-10, -18, 66, 52);
+  hhg.addColorStop(0, coatL); hhg.addColorStop(0.5, coat); hhg.addColorStop(1, coatD);
   ctx.fillStyle = hhg; ctx.fill();
   ctx.strokeStyle = _INK; ctx.lineWidth = 2.4; ctx.stroke();
-  // muzzle + cheek + bridge modelling (clipped)
+  // modelling (clipped): round jowl shade · dark muzzle pad · bridge highlight
   ctx.save(); ctx.beginPath(); smoothPath(ctx, head, true); ctx.clip();
-  ctx.fillStyle = rgba(coatD, 0.85); ctx.beginPath(); ctx.ellipse(60, 60, 20, 18, 0.2, 0, TAU); ctx.fill();
-  ctx.fillStyle = rgba(coatD, 0.28); ctx.beginPath(); ctx.ellipse(0, 40, 18, 24, 0.1, 0, TAU); ctx.fill();
-  ctx.fillStyle = 'rgba(255,246,214,0.14)'; ctx.beginPath(); ctx.ellipse(40, 14, 13, 26, 0.35, 0, TAU); ctx.fill();
+  ctx.fillStyle = rgba(coatD, 0.34); ctx.beginPath(); ctx.ellipse(4, 42, 24, 20, 0.2, 0, TAU); ctx.fill();
+  ctx.fillStyle = rgba(_hx(coat, -0.3), 0.85); ctx.beginPath(); ctx.ellipse(72, 40, 16, 15, 0.2, 0, TAU); ctx.fill();
+  ctx.fillStyle = 'rgba(255,246,214,0.16)'; ctx.beginPath(); ctx.ellipse(46, 8, 12, 30, 0.42, 0, TAU); ctx.fill();
   ctx.restore();
-  // nostril (comma) + lip line
-  ctx.fillStyle = '#160c06'; ctx.beginPath(); ctx.ellipse(64, 58, 5, 8, 0.3, 0, TAU); ctx.fill();
-  ctx.strokeStyle = 'rgba(22,12,6,0.6)'; ctx.lineWidth = 1.6; ctx.lineCap = 'round';
-  ctx.beginPath(); ctx.moveTo(70, 68); ctx.quadraticCurveTo(56, 77, 44, 74); ctx.stroke();
-  // near ear — larger, alert
-  ctx.save(); ctx.translate(-6, -16); ctx.rotate(-0.3 + earFlick);
+  // nostril (comma) + mouth line integrated into the muzzle silhouette
+  ctx.fillStyle = '#160c06'; ctx.beginPath(); ctx.ellipse(74, 34, 5, 8, 0.2, 0, TAU); ctx.fill();
+  ctx.strokeStyle = 'rgba(22,12,6,0.62)'; ctx.lineWidth = 1.6; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(80, 44); ctx.quadraticCurveTo(66, 54, 52, 52); ctx.stroke();
+  // near ear — larger, alert, standing clear of the mane
+  ctx.save(); ctx.translate(14, -18); ctx.rotate(-0.12 + earFlick);
   ctx.fillStyle = coat;
-  ctx.beginPath(); ctx.moveTo(0, 4); ctx.quadraticCurveTo(-10, -42, 10, -40); ctx.quadraticCurveTo(20, -14, 12, 4); ctx.closePath(); ctx.fill();
+  ctx.beginPath(); ctx.moveTo(0, 6); ctx.quadraticCurveTo(-10, -42, 10, -40); ctx.quadraticCurveTo(20, -14, 12, 6); ctx.closePath(); ctx.fill();
   ctx.strokeStyle = _INK; ctx.lineWidth = 1.6; ctx.stroke();
-  ctx.fillStyle = rgba(coatD, 0.55); ctx.beginPath(); ctx.moveTo(2, 0); ctx.quadraticCurveTo(-2, -26, 8, -30); ctx.quadraticCurveTo(10, -12, 7, 0); ctx.closePath(); ctx.fill();
+  ctx.fillStyle = rgba(coatD, 0.55); ctx.beginPath(); ctx.moveTo(2, 2); ctx.quadraticCurveTo(-2, -26, 8, -30); ctx.quadraticCurveTo(11, -12, 8, 2); ctx.closePath(); ctx.fill();
   ctx.restore();
-  _animEye(ctx, 22, 16, 7.5, 0.4);
-  // mane — a smooth dark arc mass along the crest + a few flowing ink strokes
+  // forelock — a short wisp between the ears, swept BACK over the poll (not the face)
+  ctx.strokeStyle = mane; ctx.lineWidth = 3; ctx.lineCap = 'round';
+  for (let i = -1; i <= 1; i++) { ctx.beginPath(); ctx.moveTo(8 + i * 5, -16); ctx.quadraticCurveTo(-2 + i * 4, -7, -12 + i * 3, -2); ctx.stroke(); }
+  // eye — high on the skull, clear margin from the mane
+  _animEye(ctx, 25, 5, 7.5, 0.42);
   ctx.restore();                                            // back to neck space
-  const mSway = sfbm1(t * 1.1, seed + 2) * 5;
-  ctx.fillStyle = mane;
-  ctx.beginPath();
-  ctx.moveTo(172, -318);
-  ctx.quadraticCurveTo(214, -386, 300, -452);              // top edge follows the crest
-  ctx.quadraticCurveTo(312, -444, 316, -430);              // wrap at the poll
-  ctx.quadraticCurveTo(258, -402, 214, -358 + mSway * 0.5); // lower fall edge
-  ctx.quadraticCurveTo(196, -338, 184, -312 + mSway);
-  ctx.quadraticCurveTo(176, -312, 172, -318);
-  ctx.closePath(); ctx.fill();
-  ctx.strokeStyle = _INK; ctx.lineWidth = 1.6; ctx.stroke();
-  // interior modelling: 3-4 flowing hair strokes
-  ctx.strokeStyle = _hx(mane, 0.16); ctx.lineWidth = 2.2; ctx.lineCap = 'round';
-  for (let i = 0; i < 4; i++) {
-    const u = (i + 0.5) / 4;
-    const bx = lerp(190, 300, u), by = lerp(-320, -448, u);
-    ctx.beginPath(); ctx.moveTo(bx, by); ctx.quadraticCurveTo(bx - 14, by + 22, bx - 22 + mSway * u, by + 40); ctx.stroke();
-  }
-  // forelock tuft falling onto the forehead
-  ctx.strokeStyle = mane; ctx.lineWidth = 3.4;
-  ctx.beginPath(); ctx.moveTo(304, -450); ctx.quadraticCurveTo(322, -436, 320 + mSway * 0.6, -414); ctx.stroke();
   ctx.restore();
 
   // ── ornament: caparison (saddle-cloth), browband, reins ──
@@ -4941,15 +4963,16 @@ function drawHorse(ctx, o) {
   }
 
   // near legs (in front) — full color
-  _qLeg(ctx, hindN, upLen, loLen, _legAng(cyc(1), g.amp), -1, legW, coat, coatD, hoof, 'hoof');
-  _qLeg(ctx, foreN, upLen, loLen, _legAng(cyc(0), g.amp), 1, legW, coat, coatD, hoof, 'hoof');
+  _qLeg(ctx, hindN, upLen, loLen, _legAng(cyc(1), g.amp, _stance(gait, -1, seed, 1)), -1, legW, coat, coatD, hoof, 'hoof');
+  _qLeg(ctx, foreN, upLen, loLen, _legAng(cyc(0), g.amp, _stance(gait, 1, seed, 0)), 1, legW, coat, coatD, hoof, 'hoof');
   ctx.restore();
 }
 
 // ── ELEPHANT ──
 function drawElephant(ctx, o) {
   const s = o.s === undefined ? 1 : o.s, t = o.t || 0, seed = o.seed || 1;
-  const g = _gaitCfg(o.gait || 'idle');
+  const gait = o.gait || 'idle';
+  const g = _gaitCfg(gait);
   const skin = o.coat || '#8a8894', skinD = _hx(skin, -0.34), skinL = _hx(skin, 0.12);
   const nail = '#e8dcc4';
   ctx.save();
@@ -4964,8 +4987,8 @@ function drawElephant(ctx, o) {
   const brB = Math.sin(t * 1.1 + seed) * 3;
 
   // far legs (stout pillars — minimal swing)
-  _qLeg(ctx, foreF, upLen, loLen, _legAng(cyc(2), g.amp * 0.3), 1, legW.map(w => w * 0.94), _hx(skin, -0.1), skinD, _hx(nail, -0.2), 'pad');
-  _qLeg(ctx, hindF, upLen, loLen, _legAng(cyc(3), g.amp * 0.3), -1, legW.map(w => w * 0.94), _hx(skin, -0.1), skinD, _hx(nail, -0.2), 'pad');
+  _qLeg(ctx, foreF, upLen, loLen, _legAng(cyc(2), g.amp * 0.3, _stance(gait, 1, seed, 2, 0.5)), 1, legW.map(w => w * 0.94), _hx(skin, -0.1), skinD, _hx(nail, -0.2), 'pad');
+  _qLeg(ctx, hindF, upLen, loLen, _legAng(cyc(3), g.amp * 0.3, _stance(gait, -1, seed, 3, 0.5)), -1, legW.map(w => w * 0.94), _hx(skin, -0.1), skinD, _hx(nail, -0.2), 'pad');
 
   // tail
   const tsw = sfbm1(t * 0.8, seed + 5) * 18;
@@ -5012,29 +5035,60 @@ function drawElephant(ctx, o) {
 
   // head + trunk + ear (front side)
   ctx.save(); ctx.translate(0, -brB);
-  // head dome
+  // domed skull — Asian-elephant twin forehead + a defined brow, the lower face
+  // flowing down into the trunk root so the head is one mass, not an ellipse
   const head = [
-    [230, -470], [300, -510], [352, -486], [372, -430], [366, -360], [330, -320], [270, -320], [232, -366],
+    [228, -462], [258, -502], [292, -516], [312, -506],    // left dome → central dip
+    [334, -512], [356, -484], [372, -430],                 // right dome → brow
+    [366, -356], [344, -326], [318, -318], [286, -322], [250, -346], [230, -390],
   ];
   ctx.beginPath(); smoothPath(ctx, head, true);
-  ctx.fillStyle = skin; ctx.fill();
+  const hg2 = ctx.createLinearGradient(230, -516, 330, -320);
+  hg2.addColorStop(0, skinL); hg2.addColorStop(0.55, skin); hg2.addColorStop(1, skinD);
+  ctx.fillStyle = hg2; ctx.fill();
   ctx.strokeStyle = _INK; ctx.lineWidth = 2.6; ctx.stroke();
-  // ear (large, flaps slowly)
-  const earFlap = Math.sin(t * 1.3 + seed) * 0.06 + 0.02;
-  ctx.save(); ctx.translate(250, -430);
-  ctx.rotate(earFlap);
-  ctx.fillStyle = _hx(skin, -0.06);
-  ctx.beginPath();
-  ctx.moveTo(0, -70); ctx.quadraticCurveTo(-120, -80, -150, 30);
-  ctx.quadraticCurveTo(-140, 120, -40, 130); ctx.quadraticCurveTo(10, 90, 10, 0);
-  ctx.closePath(); ctx.fill();
-  ctx.strokeStyle = _INK; ctx.lineWidth = 2.4; ctx.stroke();
-  ctx.strokeStyle = 'rgba(30,26,34,0.3)'; ctx.lineWidth = 2;
-  ctx.beginPath(); ctx.moveTo(-8, -40); ctx.quadraticCurveTo(-90, -30, -120, 40); ctx.stroke();
-  if (o.ornament) { ctx.fillStyle = '#c11f2c'; ctx.beginPath(); ctx.arc(-70, 60, 16, 0, TAU); ctx.fill(); ctx.strokeStyle = GOLD; ctx.lineWidth = 2.5; ctx.stroke(); }
+  // forehead modelling: central furrow, twin-dome light, trunk-root shade
+  ctx.save(); ctx.beginPath(); smoothPath(ctx, head, true); ctx.clip();
+  ctx.strokeStyle = 'rgba(30,26,34,0.26)'; ctx.lineWidth = 2.4; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(313, -506); ctx.quadraticCurveTo(311, -440, 322, -360); ctx.stroke();
+  ctx.fillStyle = 'rgba(255,250,244,0.10)'; ctx.beginPath(); ctx.ellipse(280, -486, 26, 34, -0.2, 0, TAU); ctx.fill();
+  ctx.fillStyle = rgba(skinD, 0.24); ctx.beginPath(); ctx.ellipse(322, -350, 40, 46, 0, 0, TAU); ctx.fill();
   ctx.restore();
-  // eye
-  _animEye(ctx, 320, -412, 8, 0.3);
+  // ear — a big veined leaf with a folded leading rim; slow deterministic fan
+  const earFan = Math.sin(t * 0.6 + seed) * 0.05 + 0.05;
+  ctx.save(); ctx.translate(258, -446);
+  ctx.rotate(earFan);
+  const eg = ctx.createLinearGradient(-40, -60, -90, 130);
+  eg.addColorStop(0, _hx(skin, -0.04)); eg.addColorStop(1, _hx(skin, -0.2));
+  ctx.fillStyle = eg;
+  ctx.beginPath();
+  ctx.moveTo(8, -66); ctx.quadraticCurveTo(-128, -78, -166, 26);       // top-back sweep
+  ctx.quadraticCurveTo(-156, 132, -44, 150);                           // bottom lobe
+  ctx.quadraticCurveTo(12, 104, 14, 4); ctx.closePath(); ctx.fill();   // front edge to root
+  ctx.strokeStyle = _INK; ctx.lineWidth = 2.4; ctx.stroke();
+  // folded leading rim (the ear's front edge rolls over)
+  ctx.fillStyle = _hx(skin, 0.05);
+  ctx.beginPath();
+  ctx.moveTo(8, -62); ctx.quadraticCurveTo(-14, -22, -6, 64);
+  ctx.quadraticCurveTo(2, 104, 14, 4); ctx.quadraticCurveTo(16, -34, 8, -62);
+  ctx.closePath(); ctx.fill();
+  ctx.strokeStyle = rgba(skinD, 0.5); ctx.lineWidth = 1.6; ctx.stroke();
+  // veins radiating from the root toward the back edge
+  ctx.strokeStyle = 'rgba(30,26,34,0.22)'; ctx.lineWidth = 1.5; ctx.lineCap = 'round';
+  for (let i = 0; i < 5; i++) {
+    const u = i / 4;
+    ctx.beginPath(); ctx.moveTo(-4, 8);
+    ctx.quadraticCurveTo(-70, -30 + u * 96, -134 - u * 8, -22 + u * 128);
+    ctx.stroke();
+  }
+  if (o.ornament) { ctx.fillStyle = '#c11f2c'; ctx.beginPath(); ctx.arc(-78, 72, 16, 0, TAU); ctx.fill(); ctx.strokeStyle = GOLD; ctx.lineWidth = 2.5; ctx.stroke(); }
+  ctx.restore();
+  // eye — larger, with a heavy wrinkle crease above (elephant brow)
+  _animEye(ctx, 322, -410, 10.5, 0.3);
+  ctx.strokeStyle = 'rgba(30,26,34,0.4)'; ctx.lineWidth = 2.2; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(300, -430); ctx.quadraticCurveTo(322, -439, 348, -427); ctx.stroke();
+  ctx.strokeStyle = 'rgba(30,26,34,0.24)'; ctx.lineWidth = 1.8;
+  ctx.beginPath(); ctx.moveTo(304, -422); ctx.quadraticCurveTo(323, -430, 344, -420); ctx.stroke();
   // tusk
   ctx.fillStyle = nail;
   ctx.beginPath(); ctx.moveTo(340, -350); ctx.quadraticCurveTo(392, -320, 404, -272); ctx.quadraticCurveTo(388, -300, 340, -330); ctx.closePath(); ctx.fill();
@@ -5080,15 +5134,16 @@ function drawElephant(ctx, o) {
   }
 
   // near legs
-  _qLeg(ctx, hindN, upLen, loLen, _legAng(cyc(1), g.amp * 0.3), -1, legW, skin, skinD, nail, 'pad');
-  _qLeg(ctx, foreN, upLen, loLen, _legAng(cyc(0), g.amp * 0.3), 1, legW, skin, skinD, nail, 'pad');
+  _qLeg(ctx, hindN, upLen, loLen, _legAng(cyc(1), g.amp * 0.3, _stance(gait, -1, seed, 1, 0.5)), -1, legW, skin, skinD, nail, 'pad');
+  _qLeg(ctx, foreN, upLen, loLen, _legAng(cyc(0), g.amp * 0.3, _stance(gait, 1, seed, 0, 0.5)), 1, legW, skin, skinD, nail, 'pad');
   ctx.restore();
 }
 
 // ── DEER (spotted, graceful) ──
 function drawDeer(ctx, o) {
   const s = o.s === undefined ? 1 : o.s, t = o.t || 0, seed = o.seed || 1;
-  const g = _gaitCfg(o.gait || 'idle');
+  const gait = o.gait || 'idle';
+  const g = _gaitCfg(gait);
   const coat = o.coat || '#b5793c', coatD = _hx(coat, -0.4), coatL = _hx(coat, 0.16), belly = '#f0e4cf';
   const hoof = '#241209';
   ctx.save();
@@ -5102,8 +5157,8 @@ function drawDeer(ctx, o) {
   const legW = [8.5, 5.5, 3.8];             // slender
   const brB = Math.sin(t * 1.6 + seed) * 1.4;
 
-  _qLeg(ctx, foreF, upLen, loLen, _legAng(cyc(2), g.amp), 1, legW.map(w => w * 0.9), _hx(coat, -0.12), coatD, _hx(hoof, -0.1));
-  _qLeg(ctx, hindF, upLen, loLen, _legAng(cyc(3), g.amp), -1, legW.map(w => w * 0.9), _hx(coat, -0.12), coatD, _hx(hoof, -0.1));
+  _qLeg(ctx, foreF, upLen, loLen, _legAng(cyc(2), g.amp, _stance(gait, 1, seed, 2)), 1, legW.map(w => w * 0.9), _hx(coat, -0.12), coatD, _hx(hoof, -0.1));
+  _qLeg(ctx, hindF, upLen, loLen, _legAng(cyc(3), g.amp, _stance(gait, -1, seed, 3)), -1, legW.map(w => w * 0.9), _hx(coat, -0.12), coatD, _hx(hoof, -0.1));
 
   // short tail
   ctx.fillStyle = coat; ctx.beginPath(); ctx.moveTo(-118, -196); ctx.quadraticCurveTo(-138, -180, -128, -150); ctx.quadraticCurveTo(-118, -170, -108, -186); ctx.closePath(); ctx.fill();
@@ -5204,8 +5259,8 @@ function drawDeer(ctx, o) {
   ctx.restore();
   ctx.restore();
 
-  _qLeg(ctx, hindN, upLen, loLen, _legAng(cyc(1), g.amp), -1, legW, coat, coatD, hoof);
-  _qLeg(ctx, foreN, upLen, loLen, _legAng(cyc(0), g.amp), 1, legW, coat, coatD, hoof);
+  _qLeg(ctx, hindN, upLen, loLen, _legAng(cyc(1), g.amp, _stance(gait, -1, seed, 1)), -1, legW, coat, coatD, hoof);
+  _qLeg(ctx, foreN, upLen, loLen, _legAng(cyc(0), g.amp, _stance(gait, 1, seed, 0)), 1, legW, coat, coatD, hoof);
   ctx.restore();
 }
 
@@ -5234,7 +5289,8 @@ function _cowHorn(ctx, B, T, wBase, col, tipCol) {
 // ── COW (humped zebu, dewlap, horns) ──
 function drawCow(ctx, o) {
   const s = o.s === undefined ? 1 : o.s, t = o.t || 0, seed = o.seed || 1;
-  const g = _gaitCfg(o.gait || 'idle');
+  const gait = o.gait || 'idle';
+  const g = _gaitCfg(gait);
   const coat = o.coat || '#c9b79a', coatD = _hx(coat, -0.34), coatL = _hx(coat, 0.12);
   const hoof = '#2a1c12', horn = '#e6d8bc';
   ctx.save();
@@ -5248,8 +5304,8 @@ function drawCow(ctx, o) {
   const legW = [15, 10.5, 7.5];
   const brB = Math.sin(t * 1.3 + seed) * 1.8;
 
-  _qLeg(ctx, foreF, upLen, loLen, _legAng(cyc(2), g.amp), 1, legW.map(w => w * 0.9), _hx(coat, -0.12), coatD, _hx(hoof, -0.1));
-  _qLeg(ctx, hindF, upLen, loLen, _legAng(cyc(3), g.amp), -1, legW.map(w => w * 0.9), _hx(coat, -0.12), coatD, _hx(hoof, -0.1));
+  _qLeg(ctx, foreF, upLen, loLen, _legAng(cyc(2), g.amp, _stance(gait, 1, seed, 2)), 1, legW.map(w => w * 0.9), _hx(coat, -0.12), coatD, _hx(hoof, -0.1));
+  _qLeg(ctx, hindF, upLen, loLen, _legAng(cyc(3), g.amp, _stance(gait, -1, seed, 3)), -1, legW.map(w => w * 0.9), _hx(coat, -0.12), coatD, _hx(hoof, -0.1));
 
   // tuft tail
   const tsw = sfbm1(t * 0.9, seed + 4) * 14;
@@ -5371,8 +5427,8 @@ function drawCow(ctx, o) {
   ctx.restore();
   ctx.restore();
 
-  _qLeg(ctx, hindN, upLen, loLen, _legAng(cyc(1), g.amp), -1, legW, coat, coatD, hoof);
-  _qLeg(ctx, foreN, upLen, loLen, _legAng(cyc(0), g.amp), 1, legW, coat, coatD, hoof);
+  _qLeg(ctx, hindN, upLen, loLen, _legAng(cyc(1), g.amp, _stance(gait, -1, seed, 1)), -1, legW, coat, coatD, hoof);
+  _qLeg(ctx, foreN, upLen, loLen, _legAng(cyc(0), g.amp, _stance(gait, 1, seed, 0)), 1, legW, coat, coatD, hoof);
   ctx.restore();
 }
 
@@ -5439,26 +5495,51 @@ function drawBird(ctx, o) {
     ctx.strokeStyle = bodyD; ctx.lineWidth = 2;
     for (let i = 0; i < 5; i++) { const u = i / 4; ctx.beginPath(); ctx.moveTo(-40 - u * 90, 4 - flap * 24 * u); ctx.lineTo(-52 - u * 96, 18); ctx.stroke(); }
   } else {
-    // folded wing: covert mass + long primaries tapering back + lacy dorsal plume
-    ctx.fillStyle = wingC;
-    ctx.beginPath(); ctx.moveTo(34, -12); ctx.quadraticCurveTo(-16, -22, -60, 2); ctx.quadraticCurveTo(-24, 20, 34, 14); ctx.closePath(); ctx.fill();
+    // folded wing — ONE teardrop covert mass hugging the body and tapering over
+    // the tail; soft feather rows (not tiling); 2-3 primary TIPS peeking at the
+    // rear, their points converging just above the tail. Never blades crossing
+    // the silhouette.
+    const set = sfbm1(t * 0.5, seed + 8) * 1.5;             // tiny settle motion
+    const mass = [
+      [46, -8], [30, -20], [0, -23], [-30, -17], [-54, -3], // shoulder → dorsal edge → rear
+      [-70, 7 + set],                                        // rear point, over the tail
+      [-50, 16], [-14, 20], [22, 18], [44, 9],               // ventral edge → front
+    ];
+    ctx.beginPath(); smoothPath(ctx, mass, true);
+    const wg = ctx.createLinearGradient(30, -20, -58, 16);
+    wg.addColorStop(0, _hx(wingC, 0.08)); wg.addColorStop(1, _hx(wingC, -0.16));
+    ctx.fillStyle = wg; ctx.fill();
     ctx.strokeStyle = _INK; ctx.lineWidth = 1.8; ctx.stroke();
-    // covert scallops
-    ctx.strokeStyle = rgba(bodyD, 0.5); ctx.lineWidth = 1.3; ctx.lineCap = 'round';
-    for (let i = 0; i < 4; i++) { ctx.beginPath(); ctx.moveTo(18 - i * 14, -7 + i * 2); ctx.quadraticCurveTo(-8 - i * 12, 4, -26 - i * 10, 10); ctx.stroke(); }
-    // long primary feathers extending past the tail
-    for (let i = 0; i < 3; i++) {
-      const yy = -3 + i * 8;
-      ctx.fillStyle = _hx(wingC, -0.05 - i * 0.04);
-      ctx.beginPath();
-      ctx.moveTo(-22, yy); ctx.quadraticCurveTo(-72, yy + 2, -110 - i * 5, yy + 9 + i * 3);
-      ctx.quadraticCurveTo(-70, yy + 9, -22, yy + 6); ctx.closePath(); ctx.fill();
-      ctx.strokeStyle = _INKS; ctx.lineWidth = 1.1; ctx.stroke();
+    // feather rows — three soft scalloped arcs following the fold (front → rear)
+    ctx.strokeStyle = rgba(bodyD, 0.42); ctx.lineWidth = 1.2; ctx.lineCap = 'round';
+    for (let r = 0; r < 3; r++) {
+      const yy = -8 + r * 8;
+      ctx.beginPath(); ctx.moveTo(34, yy);
+      ctx.quadraticCurveTo(-8, yy + 6, -42, yy + 9);
+      ctx.quadraticCurveTo(-58, yy + 10, -66, yy + 8); ctx.stroke();
     }
-    // a lacy dorsal plume drifting on the breeze (egret aigrette)
-    const pl = sfbm1(t * 0.8, seed + 3) * 8;
-    ctx.strokeStyle = rgba(body, 0.85); ctx.lineWidth = 2; ctx.lineCap = 'round';
-    ctx.beginPath(); ctx.moveTo(-4, -16); ctx.quadraticCurveTo(-72, -20 + pl * 0.3, -122, 6 + pl); ctx.stroke();
+    // 2-3 primary tips: narrow rounded feathers whose points converge over the tail
+    for (let i = 0; i < 3; i++) {
+      const bx = -30 - i * 6, by = i * 5;                   // bases spread inside the mass
+      const tx = -76 - i * 4, ty = 11 + i * 1.4 + set * 0.5; // tips clustered (converge)
+      const w = 3.8 - i * 0.4;
+      ctx.fillStyle = _hx(wingC, -0.06 - i * 0.05);
+      ctx.beginPath();
+      ctx.moveTo(bx, by - w);
+      ctx.quadraticCurveTo((bx + tx) / 2, (by + ty) / 2 - w, tx, ty);          // upper edge → rounded tip
+      ctx.quadraticCurveTo((bx + tx) / 2, (by + ty) / 2 + w * 0.7, bx, by + w); // lower edge back
+      ctx.closePath(); ctx.fill();
+      ctx.strokeStyle = rgba(bodyD, 0.5); ctx.lineWidth = 0.9; ctx.stroke();    // subtle darker edge
+    }
+    // lacy dorsal aigrette — wispy breeding plumes that drape back and DROOP
+    // over the tail (egret filoplumes), never straight horizontal blades
+    const pl = sfbm1(t * 0.8, seed + 3) * 5;
+    ctx.strokeStyle = rgba(body, 0.72); ctx.lineWidth = 1.4; ctx.lineCap = 'round';
+    for (let i = 0; i < 3; i++) {
+      ctx.beginPath(); ctx.moveTo(-6 + i * 3, -17 + i * 2);
+      ctx.quadraticCurveTo(-46, -6 + pl * 0.4, -66 - i * 4, 15 + i * 3 + pl);
+      ctx.stroke();
+    }
   }
   ctx.restore();
 

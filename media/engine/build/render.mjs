@@ -49,6 +49,9 @@ if (haveSrt) args.push('-i', srt);
 args.push('-c:v', 'libx264', '-preset', 'slow', '-crf', CRF, '-pix_fmt', 'yuv420p',
   '-c:a', 'aac', '-b:a', '160k');
 if (haveSrt) args.push('-c:s', 'mov_text', '-metadata:s:s:0', 'language=eng');
-args.push('-movflags', '+faststart', '-shortest', mp4);
+// cap at the timeline total explicitly: -shortest would truncate at the END
+// OF THE LAST SUBTITLE CUE (captions end when narration ends, before the
+// final contemplative hold), silently chopping the end folio + closing bell.
+args.push('-movflags', '+faststart', '-t', String(TL.total), mp4);
 execFileSync('ffmpeg', args, { stdio: 'inherit' });
 console.log('encoded', mp4, haveSrt ? '(with captions track)' : '');
