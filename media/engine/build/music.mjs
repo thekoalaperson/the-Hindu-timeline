@@ -203,22 +203,31 @@ function envAt(t) {
 }
 
 // ════════════════════════ legacy composer ════════════════════════
-// The original hand-composed arrangement, unchanged in every particular:
-// same envelope points, same tanpura cycle, same percussion spans, same
-// heartbeat/boom/bell cues, same bansuri phrases, in the same order (so the
-// shared rnd() stream lines up and the output stays byte-identical).
+// The original hand-composed arrangement — same events, same order (so the
+// shared rnd() stream lines up) — but every hand-placed cue is retimed
+// through at(): the score was tuned against the original narration
+// (pad_before 1.2s, narration lengths in LEGACY_TUNED_NARR); at() pins each
+// cue to the same fraction through its scene's narration window, so the
+// release-boom still lands on "he loosed five arrows" no matter how the
+// narration is re-paced or re-recorded (narrAt/narrDur are the live values).
+const LEGACY_TUNED_NARR = {
+  fire: 15.19, hall: 14.845, kings: 10.886, rises: 12.58,
+  shot: 11.999, garland: 11.774, kunti: 15.322, wedding: 18.221,
+};
 function composeLegacy(TL) {
   const S = Object.fromEntries(TL.scenes.map(s => [s.id, s]));
+  const at = (id, off) =>
+    S[id].narrAt + (off - 1.2) * (S[id].narrDur / LEGACY_TUNED_NARR[id]);
 
   // master intensity envelope (piecewise, sampled later)
   envPts = [
-    [0, 0.0], [1.5, 0.4], [8, 0.55], [12.5, 0.8], [18, 0.6],       // fire
+    [0, 0.0], [at('fire', 1.5), 0.4], [at('fire', 8), 0.55], [at('fire', 12.5), 0.8], [at('fire', 18), 0.6],
     [S.hall.start + 1, 0.75], [S.kings.start, 0.65],
-    [S.rises.start, 0.6], [S.rises.start + 8, 0.7],
-    [S.shot.start, 0.55], [S.shot.start + 6, 0.4], [S.shot.start + 11.9, 0.35],
-    [S.shot.start + 12.3, 0.95], [S.garland.start, 0.8],
-    [S.kunti.start, 0.5], [S.kunti.start + 14, 0.6],
-    [S.wedding.start, 0.55], [S.wedding.start + 8, 0.8],
+    [S.rises.start, 0.6], [at('rises', 8), 0.7],
+    [S.shot.start, 0.55], [at('shot', 6), 0.4], [at('shot', 11.9), 0.35],
+    [at('shot', 12.3), 0.95], [S.garland.start, 0.8],
+    [S.kunti.start, 0.5], [at('kunti', 14), 0.6],
+    [S.wedding.start, 0.55], [at('wedding', 8), 0.8],
     [TL.total - 2.5, 0.7], [TL.total - 0.2, 0.05], [DUR, 0],
   ];
 
@@ -237,9 +246,9 @@ function composeLegacy(TL) {
     [S.hall.start + 1.5, S.hall.end - 0.5, 1.28, 0.5, false],
     [S.kings.start + 0.5, S.kings.end - 0.5, 1.28, 0.38, true],
     [S.rises.start + 2, S.rises.end - 0.5, 1.28, 0.42, true],
-    [S.shot.start, S.shot.start + 5.8, 1.28, 0.4, true],
-    [S.shot.start + 12.6, S.garland.end - 1, 1.7, 0.55, false],
-    [S.wedding.start + 8, TL.total - 4, 1.5, 0.5, false],
+    [S.shot.start, at('shot', 5.8), 1.28, 0.4, true],
+    [at('shot', 12.6), S.garland.end - 1, 1.7, 0.55, false],
+    [at('wedding', 8), TL.total - 4, 1.5, 0.5, false],
   ];
   for (const [a, b, bps, g, sparse] of percSpans) {
     let beat = 0;
@@ -251,54 +260,55 @@ function composeLegacy(TL) {
     }
   }
 
-  // heartbeat during the aim (tension)
+  // heartbeat during the aim (tension) — beat period stays a heartbeat,
+  // only the onset tracks the narration
   for (let k = 0; k < 6; k++) {
-    const t = S.shot.start + 6.4 + k * 1.05;
+    const t = at('shot', 6.4) + k * 1.05;
     ge(t, 0.5); ge(t + 0.24, 0.34);
   }
 
   // the release & hit
-  boom(S.shot.start + 11.35, 0.7);    // string release thump
-  boom(S.shot.start + 12.15, 1.0);    // the fish struck
-  bell(S.shot.start + 12.3, 1174.7, 0.4);
-  bell(S.shot.start + 13.1, 880, 0.3);
+  boom(at('shot', 11.35), 0.7);    // string release thump
+  boom(at('shot', 12.15), 1.0);    // the fish struck
+  bell(at('shot', 12.3), 1174.7, 0.4);
+  bell(at('shot', 13.1), 880, 0.3);
 
   // fire-scene reveal bell
-  bell(11.0, 880, 0.28);
-  bell(13.2, 1174.7, 0.3);
+  bell(at('fire', 11.0), 880, 0.28);
+  bell(at('fire', 13.2), 1174.7, 0.3);
 
   // wedding bells
-  for (const off of [8.5, 12.2, 15.8, 19.2]) bell(S.wedding.start + off, 1174.7, 0.26);
+  for (const off of [8.5, 12.2, 15.8, 19.2]) bell(at('wedding', off), 1174.7, 0.26);
   bell(TL.total - 2.2, 880, 0.34);
 
   // ── bansuri melody (hand-composed) ──
   const PH = [];
   const M = (t, n, d, g) => PH.push([t, n, d, g || 0.30]);
   // fire: slow awakening, rising at the reveal
-  M(4.2, 'D4', 2.8); M(7.4, 'E4', 1.6); M(9.2, 'Fs4', 3.2); M(12.7, 'A4', 2.2); M(15.0, 'D5', 2.6, 0.34);
+  M(at('fire', 4.2), 'D4', 2.8); M(at('fire', 7.4), 'E4', 1.6); M(at('fire', 9.2), 'Fs4', 3.2); M(at('fire', 12.7), 'A4', 2.2); M(at('fire', 15.0), 'D5', 2.6, 0.34);
   // hall: festive
-  M(S.hall.start + 1.8, 'A4', 1.1); M(S.hall.start + 3.0, 'B4', 1.1); M(S.hall.start + 4.2, 'D5', 2.2);
-  M(S.hall.start + 8.0, 'Fs4', 1.0); M(S.hall.start + 9.1, 'A4', 1.0); M(S.hall.start + 10.2, 'B4', 2.4);
-  M(S.hall.start + 13.6, 'D5', 1.0); M(S.hall.start + 14.7, 'B4', 1.0); M(S.hall.start + 15.8, 'A4', 1.9);
+  M(at('hall', 1.8), 'A4', 1.1); M(at('hall', 3.0), 'B4', 1.1); M(at('hall', 4.2), 'D5', 2.2);
+  M(at('hall', 8.0), 'Fs4', 1.0); M(at('hall', 9.1), 'A4', 1.0); M(at('hall', 10.2), 'B4', 2.4);
+  M(at('hall', 13.6), 'D5', 1.0); M(at('hall', 14.7), 'B4', 1.0); M(at('hall', 15.8), 'A4', 1.9);
   // kings: sombre pair
-  M(S.kings.start + 7.6, 'E4', 1.8, 0.26); M(S.kings.start + 9.6, 'Fs4', 1.2, 0.26); M(S.kings.start + 11.0, 'E4', 1.9, 0.24);
+  M(at('kings', 7.6), 'E4', 1.8, 0.26); M(at('kings', 9.6), 'Fs4', 1.2, 0.26); M(at('kings', 11.0), 'E4', 1.9, 0.24);
   // rises: warm ascent, then Kṛṣṇa's phrase
-  M(S.rises.start + 1.0, 'D4', 1.4); M(S.rises.start + 2.5, 'E4', 1.4); M(S.rises.start + 4.0, 'Fs4', 1.8); M(S.rises.start + 6.0, 'A4', 2.6);
-  M(S.rises.start + 9.6, 'B4', 1.8); M(S.rises.start + 11.6, 'D5', 2.6, 0.34);
+  M(at('rises', 1.0), 'D4', 1.4); M(at('rises', 2.5), 'E4', 1.4); M(at('rises', 4.0), 'Fs4', 1.8); M(at('rises', 6.0), 'A4', 2.6);
+  M(at('rises', 9.6), 'B4', 1.8); M(at('rises', 11.6), 'D5', 2.6, 0.34);
   // shot: low suspense, then triumph
-  M(S.shot.start + 0.6, 'A3', 1.8, 0.24); M(S.shot.start + 2.6, 'D4', 2.4, 0.24);
-  M(S.shot.start + 12.9, 'D5', 0.8, 0.36); M(S.shot.start + 13.7, 'B4', 0.8, 0.34); M(S.shot.start + 14.5, 'A4', 1.8, 0.32);
+  M(at('shot', 0.6), 'A3', 1.8, 0.24); M(at('shot', 2.6), 'D4', 2.4, 0.24);
+  M(at('shot', 12.9), 'D5', 0.8, 0.36); M(at('shot', 13.7), 'B4', 0.8, 0.34); M(at('shot', 14.5), 'A4', 1.8, 0.32);
   // garland: lyrical
-  M(S.garland.start + 1.2, 'Fs4', 1.8); M(S.garland.start + 3.2, 'A4', 1.8); M(S.garland.start + 5.2, 'B4', 2.2);
-  M(S.garland.start + 7.8, 'D5', 3.0, 0.34); M(S.garland.start + 11.0, 'B4', 1.6); M(S.garland.start + 12.6, 'A4', 1.6);
+  M(at('garland', 1.2), 'Fs4', 1.8); M(at('garland', 3.2), 'A4', 1.8); M(at('garland', 5.2), 'B4', 2.2);
+  M(at('garland', 7.8), 'D5', 3.0, 0.34); M(at('garland', 11.0), 'B4', 1.6); M(at('garland', 12.6), 'A4', 1.6);
   // kunti: tender, low register
-  M(S.kunti.start + 1.2, 'B3', 2.2, 0.26); M(S.kunti.start + 3.6, 'D4', 2.2, 0.26); M(S.kunti.start + 6.0, 'E4', 2.8, 0.27);
-  M(S.kunti.start + 9.4, 'D4', 2.2, 0.25); M(S.kunti.start + 12.0, 'B3', 2.6, 0.24); M(S.kunti.start + 15.0, 'D4', 2.6, 0.26);
+  M(at('kunti', 1.2), 'B3', 2.2, 0.26); M(at('kunti', 3.6), 'D4', 2.2, 0.26); M(at('kunti', 6.0), 'E4', 2.8, 0.27);
+  M(at('kunti', 9.4), 'D4', 2.2, 0.25); M(at('kunti', 12.0), 'B3', 2.6, 0.24); M(at('kunti', 15.0), 'D4', 2.6, 0.26);
   // wedding: mystical, then festive, then home
-  M(S.wedding.start + 1.0, 'E4', 2.2, 0.26); M(S.wedding.start + 3.4, 'Fs4', 2.2, 0.27); M(S.wedding.start + 5.8, 'A4', 2.6, 0.28);
-  M(S.wedding.start + 9.0, 'D5', 1.0, 0.32); M(S.wedding.start + 10.1, 'B4', 1.0); M(S.wedding.start + 11.2, 'A4', 1.4);
-  M(S.wedding.start + 13.0, 'B4', 1.2); M(S.wedding.start + 14.3, 'D5', 2.6, 0.34);
-  M(S.wedding.start + 17.6, 'A4', 1.6); M(S.wedding.start + 19.3, 'D4', 3.4, 0.3);
+  M(at('wedding', 1.0), 'E4', 2.2, 0.26); M(at('wedding', 3.4), 'Fs4', 2.2, 0.27); M(at('wedding', 5.8), 'A4', 2.6, 0.28);
+  M(at('wedding', 9.0), 'D5', 1.0, 0.32); M(at('wedding', 10.1), 'B4', 1.0); M(at('wedding', 11.2), 'A4', 1.4);
+  M(at('wedding', 13.0), 'B4', 1.2); M(at('wedding', 14.3), 'D5', 2.6, 0.34);
+  M(at('wedding', 17.6), 'A4', 1.6); M(at('wedding', 19.3), 'D4', 3.4, 0.3);
   for (const [t, n, d, g] of PH) flute(t, n, d, g);
 }
 
