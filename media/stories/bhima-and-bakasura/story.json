@@ -12,6 +12,7 @@
   "engineFiles": [
     "core.js",
     "paint.js",
+    "person3.js",
     "acting.js",
     "wardrobe.js",
     "person.js",

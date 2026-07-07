@@ -9,7 +9,7 @@
 
 // ─────────────────────────── HEAD ───────────────────────────
 // face: {turn(0=profile→1=front), smile, eyeOpen, gaze:{x,y}, brow, lipsPart, lowered(eyes downcast)}
-function drawHead(ctx, R, style, face, t, seed) {
+function _drawHeadV1(ctx, R, style, face, t, seed) {
   const f = Object.assign({ turn: 0.28, smile: 0.12, eyeOpen: 1, gaze: { x: 0, y: 0 }, brow: 0, lipsPart: 0, lowered: 0 }, face);
   const skin = style.skin, dark = style.skinShade || shade(skin, -0.28);
   const hairC = style.hairColor || '#170d08';
@@ -599,7 +599,7 @@ function drawHand(ctx, x, y, ang, s, skin, kind, dark) {
 
 // ── main figure ──
 // opts: {x, y(ground), s(scale), facing(1|-1), style, pose, t, seed, shadow}
-function drawFigure(ctx, o) {
+function _drawFigureV1(ctx, o) {
   const st = o.style, pose = Object.assign(defaultPose(), o.pose);
   const build = st.build || 1;
   const female = st.female;
@@ -986,3 +986,21 @@ function drawTorsoOrnaments(ctx, st, shoulderY, waistY, shW, leanDx, t, seed, fe
     ctx.restore();
   }
 }
+
+// ─────────────────────── v3 RENDERER (person3.js) ───────────────────────
+// The Draupadī film now renders its cast through drawHead3/drawFigure3 (the
+// director-approved v3 look), loaded before this file via story.json engineFiles.
+// drawHead/drawFigure below are thin delegating wrappers; the v1 bodies are
+// preserved as _drawHeadV1/_drawFigureV1 and every other v1 helper (drawHand,
+// limb, drawCrown, sleeve, drawLowerGarment, drawTorsoOrnaments, defaultPose,
+// armChain, FIG …) stays live — world.js's drawSeated still uses them.
+//
+// Head turn: legacy face.turn (0=profile … frontal) is remapped to v3's native
+// turn (0=frontal … 1=profile) with the SAME ×1.6 curve drawFigure3 applies to
+// pose.headTurn, so a standalone drawHead matches a figured head.
+function drawHead(ctx, R, style, face, t, seed) {
+  const f = face || {};
+  const v3face = Object.assign({}, f, { turn: clamp((f.turn == null ? 0.3 : f.turn) * 1.6, 0, 1) });
+  return drawHead3(ctx, R, style, v3face, t, seed);
+}
+function drawFigure(ctx, o) { return drawFigure3(ctx, o); }

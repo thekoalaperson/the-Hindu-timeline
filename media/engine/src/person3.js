@@ -12,6 +12,12 @@
 //        brow -1(anger)..1(raised), lipsPart 0..1, lowered 0..1}
 function drawHead3(ctx, R, style, face, t, seed) {
   const f = Object.assign({ turn: 0.5, smile: 0.1, eyeOpen: 1, gaze: { x: 0, y: 0 }, brow: 0, lipsPart: 0, lowered: 0 }, face);
+  // v2 expression compat: rage/laugh fold into the base face params (additive;
+  // absent by default, so the approved look-dev cases are unchanged). weep is
+  // handled by the tears block below.
+  if (f.rage) { f.brow = (f.brow || 0) - f.rage * 0.7; f.lipsPart = Math.max(f.lipsPart || 0, 0.25 + f.rage * 0.3); }
+  if (f.laugh) { f.smile = (f.smile || 0) + f.laugh * 0.6; f.lipsPart = Math.max(f.lipsPart || 0, f.laugh * 0.45); }
+  const heavy = style.heavyBrow ? 1.5 : 1;
   const tn = clamp(f.turn, 0, 1);
   const skin = style.skin, dark = style.skinShade || shade(skin, -0.28);
   const hairC = style.hairColor || '#170d08';
@@ -128,11 +134,30 @@ function drawHead3(ctx, R, style, face, t, seed) {
     ctx.restore();
   }
   // brows: the expression carriers
-  brow3(ctx, nearX, eyeY - 0.20, 0.36, f.brow, f.smile, 1);
+  brow3(ctx, nearX, eyeY - 0.20, 0.36, f.brow, f.smile, 1, heavy);
   if (tn < 0.72) {
     ctx.save();
     if (tn > 0.5) ctx.globalAlpha = 1 - norm(tn, 0.5, 0.72);
-    brow3(ctx, farX, eyeY - 0.20, 0.32, f.brow * 0.9, f.smile, -1);
+    brow3(ctx, farX, eyeY - 0.20, 0.32, f.brow * 0.9, f.smile, -1, heavy);
+    ctx.restore();
+  }
+
+  // ── tears (weep) — additive, absent by default ──
+  if (f.weep > 0.05) {
+    ctx.save();
+    ctx.globalAlpha = clamp(f.weep, 0, 1);
+    const tear = (tx) => {
+      ctx.fillStyle = 'rgba(200,224,242,0.75)';
+      ctx.beginPath();
+      ctx.moveTo(tx, eyeY + 0.16);
+      ctx.quadraticCurveTo(tx + 0.05, eyeY + 0.30, tx, eyeY + 0.42);
+      ctx.quadraticCurveTo(tx - 0.05, eyeY + 0.30, tx, eyeY + 0.16);
+      ctx.fill();
+      ctx.fillStyle = 'rgba(255,255,255,0.9)';
+      ctx.beginPath(); ctx.arc(tx - 0.015, eyeY + 0.28, 0.02, 0, TAU); ctx.fill();
+    };
+    tear(nearX + 0.03);
+    if (tn < 0.5) tear(farX + 0.03);
     ctx.restore();
   }
 
@@ -193,6 +218,20 @@ function drawHead3(ctx, R, style, face, t, seed) {
       ctx.beginPath(); ctx.arc(mx - mw * 0.66, my - sm * 0.075 + 0.02, 0.035, -1.7, -0.2); ctx.stroke();
       ctx.beginPath(); ctx.arc(mx + mw * 0.64, my - sm * 0.06 + 0.02, 0.035, -2.9, -1.5); ctx.stroke();
     }
+  }
+
+  // fangs (rakshasa): two small down-pointing teeth at the mouth corners
+  if (style.fangs || style.tusks) {
+    ctx.fillStyle = '#efe7d2'; ctx.strokeStyle = rgba('#26130a', 0.5); ctx.lineWidth = 0.028;
+    const fang = (fx, w) => {
+      ctx.beginPath();
+      ctx.moveTo(fx - w, my - 0.02);
+      ctx.lineTo(fx + w, my - 0.02);
+      ctx.lineTo(fx, my + 0.15);
+      ctx.closePath(); ctx.fill(); ctx.stroke();
+    };
+    fang(mx - mw * 0.5 * P(1, 0.72), 0.05);
+    fang(mx + mw * 0.44 * P(1, 0.72), 0.05);
   }
 
   // marks
@@ -295,19 +334,20 @@ function eye3(ctx, x, y, w, h, open, f, style, side, tn) {
 }
 
 // brow: arched, tapered toward the inner end; raise>0 lifts, <0 knits (anger)
-function brow3(ctx, x, y, len, raise, smile, side) {
+function brow3(ctx, x, y, len, raise, smile, side, heavy) {
+  heavy = heavy || 1;
   const inX = x - side * len * 0.45;   // toward nose
   const outX = x + side * len * 0.55;  // toward face edge / temple
   const inY = y + (raise < 0 ? 0.11 * -raise : -raise * 0.09);
   const peakX = x + side * len * 0.12;
   const peakY = y - 0.075 - Math.max(raise, 0) * 0.07 - smile * 0.012;
   ctx.strokeStyle = '#20100a'; ctx.lineCap = 'round';
-  ctx.lineWidth = 0.085;
+  ctx.lineWidth = 0.085 * heavy;
   ctx.beginPath();
   ctx.moveTo(outX, y + 0.015);
   ctx.quadraticCurveTo(peakX, peakY, lerp(peakX, inX, 0.6), lerp(peakY, inY, 0.65));
   ctx.stroke();
-  ctx.lineWidth = 0.05;
+  ctx.lineWidth = 0.05 * heavy;
   ctx.beginPath();
   ctx.moveTo(lerp(peakX, inX, 0.55), lerp(peakY, inY, 0.6));
   ctx.lineTo(inX, inY);
@@ -336,6 +376,17 @@ function hair3Back(ctx, style, t, seed, tn) {
   const c = style.hairColor || '#170d08';
   const mode = style.hairstyle;
   ctx.fillStyle = c;
+  // wild rakshasa mane — jagged mass behind the skull
+  if (style.wildHair || style.mane || mode === 'mane') {
+    ctx.beginPath(); ctx.moveTo(0.15, -1.02);
+    for (let i = 0; i <= 13; i++) {
+      const a = Math.PI * (0.5 + i / 13 * 1.16);
+      const r = 1.16 + sfbm1(i * 1.7 + t * 0.4, seed) * 0.5;
+      ctx.lineTo(Math.cos(a) * r - 0.16, Math.sin(a) * r * 1.28 + 0.2);
+    }
+    ctx.closePath(); ctx.fill();
+    return;
+  }
   if (mode === 'braid' || mode === 'long') {
     ctx.beginPath();
     ctx.moveTo(-0.1, -1.06);
@@ -364,6 +415,29 @@ function hair3Front(ctx, style, t, seed, tn) {
   const cHi = shade(c, 0.16);
   const mode = style.hairstyle;
   const P = (front, prof) => lerp(front, prof, tn);
+  // wild rakshasa mane — spiky-topped mass low over the forehead
+  if (style.wildHair || style.mane || mode === 'mane') {
+    ctx.fillStyle = c;
+    ctx.beginPath();
+    ctx.moveTo(P(0.82, 0.92), -0.34);          // temple (face side)
+    ctx.lineTo(P(0.70, 0.80), -0.80);
+    ctx.lineTo(P(0.92, 1.02), -0.70);          // forward spike
+    ctx.lineTo(P(0.50, 0.62), -0.96);
+    ctx.lineTo(P(0.56, 0.68), -1.32);          // spike
+    ctx.lineTo(P(0.18, 0.28), -1.00);
+    ctx.lineTo(P(0.12, 0.22), -1.46);          // tall crown spike
+    ctx.lineTo(-0.20, -1.04);
+    ctx.lineTo(-0.34, -1.48);                  // spike
+    ctx.lineTo(-0.64, -1.02);
+    ctx.lineTo(-0.88, -1.30);                  // back spike
+    ctx.lineTo(-1.02, -0.70);
+    ctx.quadraticCurveTo(-1.06, -0.40, -0.90, -0.30);
+    ctx.quadraticCurveTo(-0.5, -0.60, P(0.10, 0.30), -0.64);   // low forehead hairline
+    ctx.quadraticCurveTo(P(0.55, 0.72), -0.58, P(0.82, 0.92), -0.34);
+    ctx.closePath(); ctx.fill();
+    ctx.strokeStyle = rgba('#26130a', 0.4); ctx.lineWidth = 0.04; ctx.stroke();
+    return;
+  }
   if (mode === 'veil') {
     if (style.veil) {
       ctx.fillStyle = style.veil;
@@ -550,7 +624,9 @@ function limbRibbon3(ctx, ch, w0, w1, w2, col, dark, noStroke) {
 }
 
 // shaped hand library (unit ≈ 20px at s=1)
-function hand3(ctx, x, y, ang, s, skin, kind, dark) {
+function hand3(ctx, x, y, ang, s, skin, kind, dark, claw) {
+  claw = claw || kind === 'claw';
+  if (kind === 'claw') kind = 'open';
   ctx.save(); ctx.translate(x, y); ctx.rotate(ang); ctx.scale(s, s);
   ctx.fillStyle = skin;
   ctx.strokeStyle = rgba('#26130a', 0.62); ctx.lineWidth = 1.5 / s;
@@ -625,6 +701,20 @@ function hand3(ctx, x, y, ang, s, skin, kind, dark) {
     ctx.beginPath(); ctx.moveTo(-0.6, 4.5); ctx.quadraticCurveTo(0.2, 9, -0.4, 12); ctx.stroke();
     ctx.beginPath(); ctx.moveTo(2.6, 3.6); ctx.quadraticCurveTo(3.4, 7.5, 2.6, 10.6); ctx.stroke();
   }
+  // claws: 3 short dark nail wedges at the fingertips (rakshasa)
+  if (claw) {
+    ctx.fillStyle = '#2a1a10'; ctx.strokeStyle = rgba('#26130a', 0.6); ctx.lineWidth = 0.9 / s;
+    const nailY = (kind === 'open' || kind === 'bless') ? 15.5 : (kind === 'point' ? 18.5 : 12);
+    const tips = [[-3.0, nailY], [0.2, nailY + 1.0], [3.4, nailY - 0.4]];
+    for (let i = 0; i < 3; i++) {
+      const nx = tips[i][0], ny = tips[i][1];
+      ctx.beginPath();
+      ctx.moveTo(nx - 1.7, ny - 1.4);
+      ctx.lineTo(nx + 1.7, ny - 1.4);
+      ctx.lineTo(nx + 0.2, ny + 5.2);
+      ctx.closePath(); ctx.fill(); ctx.stroke();
+    }
+  }
   ctx.restore();
 }
 
@@ -678,8 +768,12 @@ function drawFigure3(ctx, o) {
   const shC = [chestDx, shoulderY + 6];                  // shoulder centre
   const hipC = [hipDx, hipY];
 
-  const skirted = st.garb === 'sari' || st.garb === 'robe';
-  const bare = !female && (st.garb === 'dhoti' || st.garb === 'royal');
+  // normalize proposed garb vocabulary to nearest implemented value
+  let garb = st.garb;
+  if (garb === 'forest') garb = female ? 'sari' : 'dhoti';
+  else if (garb === 'hide') garb = 'dhoti';
+  const skirted = garb === 'sari' || garb === 'robe';
+  const bare = !female && (garb === 'dhoti' || garb === 'royal');
   const armW = 10.5 * build * (female ? 0.78 : 1);
   const cm = st.clothMain || (female ? '#8c1f28' : '#ece2c8');
 
@@ -696,7 +790,7 @@ function drawFigure3(ctx, o) {
     ctx.fillStyle = rgba(dark, side > 0 ? 0.20 : 0.28);
     ctx.beginPath(); ctx.arc(shx + 2, shy + 4, armW * 0.9, -0.3, 1.9); ctx.fill();
     // sari blouse sleeve over the upper arm
-    if (female && st.garb === 'sari') {
+    if (female && garb === 'sari') {
       const sc = side > 0 ? cm : shade(cm, -0.16);
       const sl = { sh: ch.sh, el: [lerp(ch.sh[0], ch.el[0], 0.62), lerp(ch.sh[1], ch.el[1], 0.62)] };
       ribbon(ctx, [sl.sh, [lerp(sl.sh[0], sl.el[0], 0.5), lerp(sl.sh[1], sl.el[1], 0.5)], sl.el],
@@ -725,7 +819,18 @@ function drawFigure3(ctx, o) {
         ctx.stroke();
       }
     }
-    hand3(ctx, ch.wr[0], ch.wr[1], -ch.a2 + (a.wr || 0), build * (female ? 0.82 : 0.95), col, a.hand || 'relaxed', dark);
+    hand3(ctx, ch.wr[0], ch.wr[1], -ch.a2 + (a.wr || 0), build * (female ? 0.82 : 0.95), col, a.hand || 'relaxed', dark, st.claws);
+    return ch;
+  }
+
+  // one extra (deity) arm as a single desaturated ribbon behind the mains
+  function extraArm3(a, side) {
+    const shx = shC[0] + shW * (side > 0 ? 0.86 : -0.82);
+    const shy = shC[1] + 20;
+    const col = shade(skin, -0.12);
+    const ch = armChain3(shx, shy, a, build);
+    limbRibbon3(ctx, ch, armW * 1.0, armW * 0.74, armW * 0.5, col, dark);
+    hand3(ctx, ch.wr[0], ch.wr[1], -ch.a2 + (a.wr || 0), build * (female ? 0.8 : 0.9), col, a.hand || 'open', dark, st.claws);
     return ch;
   }
 
@@ -751,6 +856,22 @@ function drawFigure3(ctx, o) {
       foot3(ctx, ax + 2, Math.min(ay + 13, -1), build, 1, col, dark);
     }
     return [ax, ay];
+  }
+
+  // ── aura (deity halo / prabhāvalī) behind everything, via the class rig hook.
+  //    Base Person.aura is a no-op; Deity.aura draws the halo. Storyboard/direct
+  //    draws pass no rig, so no halo — matching the v2 behaviour exactly. ──
+  if (o.rig && typeof o.rig.aura === 'function') {
+    o.rig.aura(ctx, {
+      build: build, leanDx: chestDx, shoulderY: shoulderY, hipY: hipY,
+      waistY: waistY, shW: shW, hipW: hipW, t: t, seed: seed,
+    });
+  }
+
+  // ── extra deity arms (st.arms >= 4): one single-ribbon pair behind the mains ──
+  if (st.arms >= 4) {
+    extraArm3(pose.armB2 || { sh: -0.85, el: 0.55, hand: 'open' }, -1);
+    extraArm3(pose.armF2 || { sh: 0.95, el: 0.55, hand: 'bless' }, +1);
   }
 
   // ── far arm, far leg (behind) ──
@@ -796,8 +917,25 @@ function drawFigure3(ctx, o) {
   ctx.restore();
   torsoPath(); ctx.strokeStyle = rgba('#26130a', 0.6); ctx.lineWidth = 1.9; ctx.stroke();
 
+  // ── armor cuirass: horizontal plate courses + a gold breast-medallion ──
+  if (garb === 'armor') {
+    ctx.save(); torsoPath(); ctx.clip();
+    ctx.strokeStyle = rgba('#5c3a08', 0.5); ctx.lineWidth = 2;
+    for (let i = 0; i < 4; i++) {
+      const yy = shC[1] + 22 + i * 22;
+      ctx.beginPath(); ctx.moveTo(chestDx - shW, yy); ctx.quadraticCurveTo(chestDx, yy + 10, chestDx + shW, yy); ctx.stroke();
+    }
+    ctx.restore();
+    const mx = chestDx, myy = shC[1] + 42;
+    const mg = ctx.createRadialGradient(mx, myy, 1, mx, myy, 12);
+    mg.addColorStop(0, GOLD_L); mg.addColorStop(1, GOLD_D);
+    ctx.fillStyle = mg; ctx.beginPath(); ctx.arc(mx, myy, 9, 0, TAU); ctx.fill();
+    ctx.strokeStyle = GOLD_D; ctx.lineWidth = 1.4;
+    for (let i = 0; i < 8; i++) { const a = i / 8 * TAU; ctx.beginPath(); ctx.moveTo(mx + Math.cos(a) * 11, myy + Math.sin(a) * 11); ctx.lineTo(mx + Math.cos(a) * 15, myy + Math.sin(a) * 15); ctx.stroke(); }
+  }
+
   // ── lower garment (defines the figure's lower silhouette) ──
-  garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose);
+  garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb);
 
   // ── near leg (over the dhoti wrap edge) ──
   leg3(pose.legF, true);
@@ -815,6 +953,48 @@ function drawFigure3(ctx, o) {
     ctx.strokeStyle = '#6d4423'; ctx.lineWidth = 2.8; ctx.setLineDash([3.2, 3]);
     ctx.beginPath(); ctx.moveTo(chestDx - 16, shC[1] + 7); ctx.quadraticCurveTo(chestDx, waistY - 14, chestDx + 16, shC[1] + 7); ctx.stroke();
     ctx.setLineDash([]);
+  }
+
+  // ── uttariya / scarf sash across the torso (behind the near arm) ──
+  if (st.scarf) {
+    const sc = st.scarf, fl = sfbm1(t * 0.9, seed + 7);
+    ctx.save();
+    ctx.fillStyle = rgba(sc, 0.94);
+    ctx.beginPath();
+    ctx.moveTo(chestDx - shW * 0.95, shC[1] - 2);
+    ctx.quadraticCurveTo(chestDx - shW * 0.4, shC[1] + 40, chestDx + shW * 0.55, waistY - 10);
+    ctx.lineTo(chestDx + shW * 0.85, waistY + 6);
+    ctx.quadraticCurveTo(chestDx - shW * 0.2, shC[1] + 58, chestDx - shW * 0.78, shC[1] + 16 + fl * 4);
+    ctx.closePath(); ctx.fill();
+    ctx.strokeStyle = rgba('#26130a', 0.4); ctx.lineWidth = 1.3; ctx.stroke();
+    // hanging tail behind the far shoulder
+    ctx.fillStyle = rgba(sc, 0.85);
+    ctx.beginPath();
+    ctx.moveTo(chestDx - shW * 0.95, shC[1] - 6);
+    ctx.quadraticCurveTo(chestDx - shW * 1.3, shC[1] + 60 + fl * 10, chestDx - shW * 1.2 + fl * 10, shC[1] + 150 + fl * 14);
+    ctx.quadraticCurveTo(chestDx - shW * 1.24 + fl * 12, shC[1] + 168, chestDx - shW * 1.02 + fl * 8, shC[1] + 158);
+    ctx.quadraticCurveTo(chestDx - shW * 0.94, shC[1] + 70, chestDx - shW * 0.78, shC[1] + 16);
+    ctx.closePath(); ctx.fill();
+    ctx.restore();
+  }
+
+  // ── veil shoulder-drape (veiled women whose hairstyle isn't 'veil'; the
+  //    'veil' hairstyle already draws a head-veil in drawHead3) ──
+  if (st.veil && st.hairstyle !== 'veil') {
+    const vc = st.veil;
+    const vHeadCy = shoulderY - FIG3.neck * build - headR * 1.15;
+    ctx.save();
+    ctx.fillStyle = rgba(vc, 0.95);
+    ctx.beginPath();
+    ctx.moveTo(chestDx + headR * 0.9, vHeadCy + 6);
+    ctx.quadraticCurveTo(chestDx + headR * 0.6, vHeadCy - headR * 1.1, chestDx - headR * 0.75, vHeadCy - headR * 0.92);
+    ctx.quadraticCurveTo(chestDx - headR * 1.85, vHeadCy - headR * 0.1, chestDx - headR * 1.65, shoulderY + 66);
+    ctx.quadraticCurveTo(chestDx - headR * 1.45, shoulderY + 120, chestDx - headR * 1.15, shoulderY + 142);
+    ctx.lineTo(chestDx - headR * 0.4, shoulderY + 36);
+    ctx.quadraticCurveTo(chestDx - headR * 0.9, vHeadCy + headR, chestDx + headR * 0.55, vHeadCy + headR * 0.55);
+    ctx.closePath(); ctx.fill();
+    ctx.strokeStyle = rgba('#26130a', 0.4); ctx.lineWidth = 1.3; ctx.stroke();
+    ctx.restore();
   }
 
   // ── near arm ──
@@ -848,10 +1028,11 @@ function drawFigure3(ctx, o) {
 }
 
 // lower garments v3: garment shapes ARE the silhouette
-function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose) {
+function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb) {
+  garb = garb || st.garb;
   const sway = sfbm1(t * 0.65, seed + 2) * 5 + (pose.clothSway || 0);
   const spread = Math.abs(((pose.legF && pose.legF.hip) || 0) - ((pose.legB && pose.legB.hip) || 0));
-  if (st.garb === 'sari' || st.garb === 'robe') {
+  if (garb === 'sari' || garb === 'robe') {
     const cm = st.clothMain || '#8c1f28';
     // A-line skirt with drape S-curves
     ctx.beginPath();
@@ -882,7 +1063,7 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose) {
     ctx.quadraticCurveTo(hipC[0], 3 + Math.abs(sway) * 0.4, hipC[0] + hipW + 23 + sway, -12);
     ctx.stroke();
     // pallu (sari only): diagonal drape from shoulder, falling behind the hip
-    if (female && st.garb === 'sari' && st.pallu !== false) {
+    if (female && garb === 'sari' && st.pallu !== false) {
       const shY = hipY - 150 * build; // approx chest
       const fl = sfbm1(t * 0.7, seed + 9);
       ctx.fillStyle = shade(cm, 0.07);

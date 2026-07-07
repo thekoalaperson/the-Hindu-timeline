@@ -10,6 +10,7 @@
   "engineFiles": [
     "core.js",
     "paint.js",
+    "person3.js",
     "people.js",
     "world.js",
     "finish.js"

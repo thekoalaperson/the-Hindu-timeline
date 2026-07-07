@@ -536,7 +536,7 @@ function drawHeadgear(ctx, style, tn, t, seed) {
 
 // face: {turn(0=profile→0.85 near-front), smile, eyeOpen, gaze{x,y}, brow,
 //        lipsPart, lowered, rage, laugh, weep}
-function drawHead(ctx, R, style, face, t, seed, rig) {
+function _drawHeadV2(ctx, R, style, face, t, seed, rig) {
   const f = Object.assign({ turn: 0.28, smile: 0.12, eyeOpen: 1, gaze: { x: 0, y: 0 }, brow: 0, lipsPart: 0, lowered: 0, rage: 0, laugh: 0, weep: 0 }, face);
   const skin = style.skin, dark = style.skinShade || shade(skin, -0.28);
   const tn = clamp(f.turn, 0, 0.85);
@@ -839,7 +839,7 @@ function _extraArm(ctx, shx, shy, a, build, skin, dark, OUT, armW, hand, wr) {
 }
 
 // main figure. opts: {x, y(ground), s(scale), facing(1|-1), style, pose, t, seed, shadow[, rig]}
-function drawFigure(ctx, o) {
+function _drawFigureV2(ctx, o) {
   const st = o.style, pose = Object.assign(defaultPoseLocal(), o.pose);
   const build = st.build || 1;
   const vS = st.heightScale || 1;        // per-instance height (±), kills clone silhouettes
@@ -1179,3 +1179,24 @@ Person.of = function (sel) {
   else if (style.female || a === 'queen' || a === 'princess' || a === 'girl') Cls = Woman;
   return new Cls(style);
 };
+
+// ─────────────────────── v3 RENDERER (person3.js) ───────────────────────
+// The whole cast now renders through drawHead3/drawFigure3 (the director-approved
+// v3 look). drawHead/drawFigure below are thin delegating wrappers; the v2 bodies
+// are preserved as _drawHeadV2/_drawFigureV2 (unused, kept for reference) and all
+// v2 helpers above stay live for drawSeated + the class rig hooks. v3 layers back
+// the v2-only features it lacked: aura/halo (Deity via o.rig), st.arms>=4 extra
+// arms, st.scarf uttariya, st.veil shoulder-drape, garb:'armor' cuirass, claw
+// hands (st.claws / hand:'claw'), style.fangs/tusks, style.wildHair/mane — all
+// keyed on the same style/pose objects, so the class hierarchy and legacy free
+// calls both work unchanged.
+//
+// Head turn: legacy face.turn (0=profile … ~0.85=frontal) is remapped to v3's
+// native turn (0=frontal … 1=profile) with the SAME ×1.6 curve drawFigure3 uses
+// on pose.headTurn, so a standalone drawHead matches a figured head.
+function drawHead(ctx, R, style, face, t, seed, rig) {
+  const f = face || {};
+  const v3face = Object.assign({}, f, { turn: clamp((f.turn == null ? 0.3 : f.turn) * 1.6, 0, 1) });
+  return drawHead3(ctx, R, style, v3face, t, seed);
+}
+function drawFigure(ctx, o) { return drawFigure3(ctx, o); }
