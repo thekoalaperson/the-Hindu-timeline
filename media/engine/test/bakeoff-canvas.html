@@ -1,0 +1,306 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>bakeoff — canvas v3 (person3.js)</title>
+<style>body{margin:0;background:#20160e}canvas{display:block}</style>
+<canvas id="cv" width="1920" height="1080"></canvas>
+<script src="../src/core.js"></script>
+<script src="../src/paint.js"></script>
+<script src="../src/acting.js"></script>
+<script src="../src/person3.js"></script>
+<script src="../src/props.js"></script>
+<script>
+'use strict';
+// ── bakeoff-canvas.html ── control-sample entry for the animation-technique
+// bake-off. Uses ONLY the engine's existing v3 renderer (drawHead3/drawFigure3
+// from person3.js) plus acting.js pose vocabulary and core.js math/easing —
+// nothing here changes engine/src. Query: mode=portraits|figures|clip.
+const cv = document.getElementById('cv'), ctx = cv.getContext('2d');
+const q = new URLSearchParams(location.search);
+const MODE = q.get('mode') || 'portraits';
+
+// ── the two subjects, palette verbatim from engine/test/look3.html (already
+// matches characters/registry.json + the bake-off brief's style bible) ──
+const LOOKS = {
+  arjuna: {
+    skin: '#c08652', skinShade: '#87511f', hairColor: '#140d07',
+    hairstyle: 'topknot', crown: 'mukut', earring: true, garb: 'royal',
+    clothMain: '#f0e3c2', clothAccent: '#a5741f', sash: '#27526b',
+    ornaments: 2, armlets: true, sacredThread: false, build: 1.03,
+  },
+  draupadi: {
+    female: true, skin: '#8a5330', skinShade: '#5c3115', hairColor: '#0d0805',
+    hairstyle: 'braid', crown: 'tiara', bindi: true, earring: true, garb: 'sari',
+    clothMain: '#8c1f28', clothAccent: '#e8b64c', ornaments: 2, bangles: true,
+    lip: '#a83a30', hairFlowers: true, build: 0.94,
+  },
+};
+
+function bgParchment() {
+  vgrad(ctx, 0, 0, W, H, [[0, '#e9d9b6'], [1, '#c8b184']]);
+  // faint vignette so figures/heads read against the ground
+  const g = ctx.createRadialGradient(W / 2, H * 0.46, H * 0.25, W / 2, H * 0.5, H * 0.85);
+  g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, 'rgba(60,32,12,0.16)');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+}
+function label(txt, x, y, size, align) {
+  ctx.fillStyle = '#3a2410'; ctx.font = (size || 22) + 'px Georgia';
+  ctx.textAlign = align || 'center'; ctx.fillText(txt, x, y);
+}
+function heading(txt) {
+  ctx.fillStyle = '#3a2410'; ctx.font = 'italic 28px Georgia'; ctx.textAlign = 'left';
+  ctx.fillText(txt, 30, 46);
+}
+
+// ── shared geometry (duplicated from person3.js's FIG3/drawFigure3 internals
+// — the engine exposes no "world position of joint X" query, so prop
+// attachment and bust framing both have to re-derive shoulder/head offsets
+// by hand from the same constants drawFigure3 uses internally). ──
+function effectivePose(o) {
+  const pose = Object.assign(defaultPose(), o.pose || {});
+  const seed = o.seed || 1, t = o.t || 0;
+  if (!pose.noIdle) {
+    const jA = hash1(seed * 7.31) - 0.5, jB = hash1(seed * 3.77) - 0.5;
+    const sway = Math.sin(t * 0.9 + seed * 5) * 0.02;
+    pose.lean = (pose.lean || 0) + jA * 0.05;
+    pose.armF = Object.assign({}, pose.armF);
+    pose.armB = Object.assign({}, pose.armB);
+    pose.armF.el = (pose.armF.el || 0) + jB * 0.10 + sway;
+    pose.armB.el = (pose.armB.el || 0) - jB * 0.08 + sway * 0.7;
+  }
+  return pose;
+}
+// world-space shoulder/elbow/wrist for the near(+1)/far(-1) arm of a figure o
+function armWorld(o, side) {
+  const st = o.style, build = st.build || 1, female = !!st.female;
+  const shMul = st.shoulderScale || 1;
+  const seed = o.seed || 1, t = o.t || 0;
+  const pose = effectivePose(o);
+  const lean = pose.lean || 0;
+  const chestDx = Math.sin(lean) * 95;
+  const hipY = -(FIG3.thigh + FIG3.shin) * build - 14;
+  const br = Math.sin(t * 1.5 + seed * 3) * 0.5 + 0.5;
+  const shoulderY = hipY - 122 * build - br * 1.4;
+  const shC = [chestDx, shoulderY + 6];
+  const shW = FIG3.shoulderW * build * (female ? 0.8 : 1) * shMul;
+  const shx = shC[0] + shW * (side > 0 ? 0.60 : -0.58);
+  const shy = shC[1] + (side > 0 ? 9 : 7);
+  const a = side > 0 ? pose.armF : pose.armB;
+  const ch = armChain3(shx, shy, a || {}, build);
+  const s = o.s, facing = o.facing || 1, bob = pose.bob || 0;
+  const P = (p) => ({ x: o.x + p[0] * s * facing, y: o.y - bob + p[1] * s });
+  return { sh: P(ch.sh), el: P(ch.el), wr: P(ch.wr), a2: ch.a2 };
+}
+// draws a great-bow gripped at world point `grip` — corrects for
+// drawGreatBow's own internal bend-bulge (its "centre" bows outward ~0.8×bend
+// in +x) so the bow's shaft actually passes through the grip point instead
+// of floating bend-offset away from the hand.
+function drawHeldBow(ctx, grip, rot, bowScale, flex, strung, stringPullY, withArrow) {
+  const bend = 34 + (flex || 0) * 26;
+  const off = bend * 0.8 * bowScale;
+  ctx.save();
+  ctx.translate(grip.x, grip.y);
+  ctx.rotate(rot);
+  ctx.translate(-off, 0);
+  drawGreatBow(ctx, 0, 0, bowScale, flex, strung, stringPullY);
+  if (withArrow) {
+    const px = stringPullY ? stringPullY[0] : -40, py = stringPullY ? stringPullY[1] : 0;
+    drawArrow(ctx, px, py, 0, bowScale * 0.44, false);
+  }
+  ctx.restore();
+}
+
+// bust-crop placement: choose (s, y) so the head alone reads at headPx tall,
+// centered vertically at targetCy, standing at column cx (feet fall off-canvas)
+function bustPlacement(look, headPx, cx, targetCy) {
+  const build = look.build || 1, female = !!look.female;
+  const headR = FIG3.headR * build * (female ? 0.95 : 1);
+  const s = headPx / (2.26 * headR);
+  const hipY = -(FIG3.thigh + FIG3.shin) * build - 14;
+  const shoulderY = hipY - 122 * build;
+  const headCy = shoulderY - FIG3.neck * build - headR * 0.9;
+  const y = targetCy - s * headCy;
+  return { x: cx, y, s };
+}
+
+// ═══════════════════════════════════════════ A. PORTRAIT SHEET ═══════════
+function drawPortraits() {
+  bgParchment();
+  heading('Draupadī  &  Arjuna — portrait sheet · canvas v3 (person3.js)');
+  const cols = [
+    { who: 'draupadi', turn: 0.06, smile: 0.20, brow: 0.05, cap: 'Draupadī — front' },
+    { who: 'draupadi', turn: 0.55, smile: 0.30, brow: 0.12, cap: 'Draupadī — 3/4' },
+    { who: 'arjuna', turn: 0.06, smile: 0.00, brow: -0.05, cap: 'Arjuna — front' },
+    { who: 'arjuna', turn: 0.55, smile: -0.05, brow: -0.22, cap: 'Arjuna — 3/4' },
+  ];
+  const colW = 480, cropBottom = 900; // crop above the hip-flare so the sari/
+                                       // shoulders never widen enough to read
+                                       // as touching the next column
+  const cx = [246, 726, 1206, 1686];
+  cols.forEach((c, i) => {
+    const look = LOOKS[c.who];
+    const place = bustPlacement(look, 380, cx[i], 460);
+    const pose = {
+      headTurn: 0, lean: 0,
+      face: {
+        turn: c.turn, smile: c.smile, brow: c.brow,
+        gaze: { x: c.who === 'draupadi' ? 0.12 : 0.04, y: 0.04 },
+      },
+      noIdle: true, // still portrait: no idle jitter, exact framing
+    };
+    // clip to this portrait's own column AND above the hip-flare — hair/
+    // pallu/shoulders can be wider than the column at this scale, and the
+    // engine has no "silhouette bbox" query, so a hard clip is the reliable
+    // way to keep the four busts reading as separate portraits.
+    ctx.save();
+    ctx.beginPath(); ctx.rect(i * colW, 76, colW, cropBottom - 76); ctx.clip();
+    drawFigure3(ctx, {
+      x: place.x, y: place.y, s: place.s, facing: 1,
+      style: look, pose, t: 1.1 + i * 0.4, seed: 21 + i * 6, shadow: false,
+    });
+    ctx.restore();
+  });
+  // column dividers (ink rule) drawn over everything so the four portraits
+  // always read as distinct sheet cells, whatever the underlying silhouette
+  for (let i = 1; i < 4; i++) {
+    ctx.strokeStyle = 'rgba(58,36,16,0.28)'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(i * colW, 76); ctx.lineTo(i * colW, 960); ctx.stroke();
+  }
+  cols.forEach((c, i) => {
+    ctx.fillStyle = 'rgba(233,217,182,0.72)';
+    ctx.fillRect(cx[i] - 120, 926, 240, 40);
+    label(c.cap, cx[i], 954, 25);
+  });
+  label('control sample — engine/src/person3.js, unmodified', W - 24, H - 20, 18, 'right');
+}
+
+// ═══════════════════════════════════════════ B. FIGURE SHEET ═════════════
+function drawFigures() {
+  bgParchment();
+  heading('standing pair · archer’s lunge · namaste — figure sheet · canvas v3 (person3.js)');
+  const groundY = 986, s = 1.75;
+  const cx = [280, 760, 1200, 1660];
+
+  // 1. Draupadī — relaxed standing
+  drawFigure3(ctx, {
+    x: cx[0], y: groundY, s, facing: 1, style: LOOKS.draupadi,
+    pose: { headTurn: 0.30, face: { smile: 0.18, gaze: { x: 0.1, y: 0.05 } } },
+    t: 1.2, seed: 31,
+  });
+  label('Draupadī — relaxed', cx[0], groundY + 46, 24);
+
+  // 2. Arjuna — relaxed standing
+  drawFigure3(ctx, {
+    x: cx[1], y: groundY, s, facing: -1, style: LOOKS.arjuna,
+    pose: { headTurn: 0.28, face: { smile: -0.03, brow: -0.08 } },
+    t: 1.6, seed: 32,
+  });
+  label('Arjuna — relaxed', cx[1], groundY + 46, 24);
+
+  // 3. Arjuna — archer's lunge, bow drawn
+  const archerFig = {
+    x: cx[2], y: groundY, s, facing: 1, style: LOOKS.arjuna,
+    pose: {
+      lean: 0.10, headTurn: 0.5,
+      armF: { sh: 1.45, el: 0.35, hand: 'hold' },
+      armB: { sh: -0.5, el: 0.9, hand: 'hold' },
+      legF: { hip: 0.35, knee: 0.25 }, legB: { hip: -0.4, knee: 0.06 },
+      face: { smile: -0.05, brow: -0.2, eyeOpen: 1.05 },
+    },
+    t: 1.8, seed: 33,
+  };
+  drawFigure3(ctx, archerFig);
+  // the bow, hand-fitted to the near-arm grip via the shared joint math above
+  {
+    const grip = armWorld(archerFig, +1);
+    // drawArrow's pale shaft (#e8d9b0) is tuned for dark backgrounds and
+    // nearly disappears against warm parchment, leaving only a stray fleck
+    // of fletching — so the lunge relies on the drawn bow/string alone.
+    drawHeldBow(ctx, { x: grip.wr.x, y: grip.wr.y + 4 }, 0.20, s * 1.02, 0.5, true, [-70, 4], false);
+  }
+  label('Arjuna — archer’s lunge', cx[2], groundY + 46, 24);
+
+  // 4. Draupadī — namaste
+  drawFigure3(ctx, {
+    x: cx[3], y: groundY, s, facing: -1, style: LOOKS.draupadi,
+    pose: {
+      lean: -0.05, headTurn: 0.55, headNod: 0.12,
+      armF: { sh: 0.3, el: 1.3, hand: 'namaste' },
+      armB: { sh: 0.32, el: 1.32, hand: 'namaste' },
+      face: { smile: 0.28 },
+    },
+    t: 2.1, seed: 34,
+  });
+  label('Draupadī — namaste', cx[3], groundY + 46, 24);
+
+  label('control sample — engine/src/person3.js, unmodified', W - 24, H - 20, 18, 'right');
+}
+
+// ═══════════════════════════════════════════ C. MOTION CLIP ══════════════
+// Draupadī (left, bust): head turns front → 3/4 and blinks (blink is the
+// engine's OWN deterministic seed-driven blink cycle in drawHead3 — seed 25
+// was chosen because its blink window lands at t≈3.0–3.45s, i.e. during the
+// 3/4 hold, purely by picking the right seed/phase, no override needed).
+// Arjuna (right, figure): bow arm rises rest → horizontal with easeOutBack
+// or, i.e. ease-out + a small mechanical overshoot before it settles.
+const CLIP_DUR = 5.0;
+function drawClip(t) {
+  bgParchment();
+
+  // manuscript-style centre rule, cosmetic only
+  ctx.strokeStyle = 'rgba(60,32,12,0.18)'; ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.moveTo(W / 2, 40); ctx.lineTo(W / 2, H - 40); ctx.stroke();
+
+  // ── Draupadī: head turn + blink ──
+  {
+    const turnK = ramp(t, 0.4, 2.2, easeIO);
+    const turn = lerp(0.05, 0.55, turnK);
+    const smile = lerp(0.16, 0.30, turnK);
+    const place = bustPlacement(LOOKS.draupadi, 460, 480, 560);
+    drawFigure3(ctx, {
+      x: place.x, y: place.y, s: place.s, facing: 1, style: LOOKS.draupadi,
+      pose: {
+        headTurn: 0, lean: 0,
+        face: { turn, smile, brow: 0.06, gaze: { x: 0.1, y: 0.04 } },
+      },
+      t, seed: 25,
+    });
+  }
+
+  // ── Arjuna: bow arm rest → horizontal, ease-out + overshoot ──
+  {
+    const raiseK = ramp(t, 1.0, 3.4, easeOutBack);
+    const sh = lerp(0.14, 1.45, raiseK);
+    const el = lerp(0.30, 0.35, clamp(raiseK, 0, 1));
+    const headTurn = lerp(0.30, 0.42, clamp(raiseK, 0, 1));
+    const s = 1.95, groundY = 1040;
+    const fig = {
+      x: 1420, y: groundY, s, facing: -1, style: LOOKS.arjuna,
+      pose: {
+        headTurn, face: { smile: 0.02, brow: -0.06 },
+        armF: { sh, el, hand: 'hold' },
+        armB: { sh: -0.14, el: 0.28, hand: 'relaxed' },
+      },
+      t, seed: 41,
+    };
+    drawFigure3(ctx, fig);
+    // bow tracks the raising hand; rotation eases open with the raise, and it
+    // stays unstrung-at-rest/loosely-strung — this beat is the RAISE, not
+    // the full draw (that lives on the figure sheet's archer lunge instead).
+    const grip = armWorld(fig, +1);
+    const rot = lerp(-0.05, 0.22, clamp(raiseK, 0, 1));
+    drawHeldBow(ctx, { x: grip.wr.x, y: grip.wr.y + 4 }, rot, s * 1.0, 0.15, true, null, false);
+  }
+}
+
+// ── mode dispatch ──
+if (MODE === 'portraits') drawPortraits();
+else if (MODE === 'figures') drawFigures();
+else if (MODE === 'clip') {
+  const previewT = parseFloat(q.get('t') || '2.5');
+  drawClip(previewT);
+  window.__renderFrame = (i, fps) => {
+    drawClip(i / fps);
+    return cv.toDataURL('image/jpeg', 0.93);
+  };
+}
+</script>
