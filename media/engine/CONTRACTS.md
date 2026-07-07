@@ -204,9 +204,63 @@ current arrangement code behind it).
    Bhīma calmly eating before a raging giant; the mountain-as-umbrella over
    lamp-lit cows while blue-black rain slants outside the dry circle.
 
+## v3 renderer (person3.js) — the two-generation upgrade (binding)
+
+After the user's quality review ("faces/eyes/legs look weird; needs to be two
+generations better; palatable comic is the bar"), the figure/face renderer was
+rebuilt from drawing construction and ported engine-wide.
+
+1. **`person3.js` is THE renderer.** It loads right after `paint.js` in every
+   story's `engineFiles`. `person.js` (v2) and `people.js` (v1) keep their
+   public names but `drawHead`/`drawFigure` are thin delegating wrappers over
+   `drawHead3`/`drawFigure3` (old bodies retained as `_drawHeadV2`/`_drawFigureV1`
+   etc. only where `drawSeated`/`world.js` still need internals). New work
+   extends v3 — never resurrect the old bodies.
+2. **Head construction:** round cranium + short jaw; features sit on the
+   mid-skull eye line; profile is built from feature-step landmarks (brow
+   ridge, nose, philtrum, lips, chin ball) that blend in with `turn` — sharp
+   only at nose tip and lip notch. Large almond kohl eyes (iris-dominant,
+   lash line + wing, correct inner/outer per side), arched tapered brows as
+   the expression carriers, one core-shadow band + cheek blush, low hairline
+   (a tall bare brow reads balloon-like in close-up). Optional style keys:
+   `fangs/tusks, heavyBrow, wildHair|mane, earring, tilak, bindi, veil, peacock`.
+3. **Figure construction:** FK pose semantics identical to v2/acting.js
+   (`sh/el/hip/knee` joint angles — `walkPose`/`POSES` keep working); every
+   limb is ONE smooth tapered ribbon through the implied joint (no capsule
+   seams, no joint dots); deltoid cap hides the shoulder seam; one-vase torso
+   with line-of-action lean; shaped hand library (`relaxed/fist/hold/open/
+   bless/point/namaste/claw`); garments define the lower silhouette (dhoti
+   wrap with stance-responsive hem; sari A-skirt + pallu + blouse sleeves);
+   ornaments are worn bands (rotated ellipses), never floating circles.
+   Rig hooks: only `aura` is honored (Deity halo/prabhāvalī, Yama's dark
+   ring); multi-arm deities via `arms >= 4` + `armF2/armB2` (ribbon arms).
+4. **Fauna construction (props.js):** `_animEye` (dark iris-dominant almond,
+   kohl lash, catchlight — never white-sclera cartoon circles); `_qLeg`+`_hoof`
+   (one tapered ribbon per leg, forward knee / backward hock, cloven or
+   single hoof wedge, pad feet for elephants); idle stance angles per animal
+   (seed-jittered, no twinning); constructed heads (zebu cow, chital deer,
+   equine skull+muzzle, twin-domed elephant, egret with folded teardrop wing —
+   feather tips converge over the tail). Micro-motion (ear flick, tail swish,
+   chewing) is t+seed-driven.
+5. **Pacing (narrate.mjs + script.json):** narration tempo 1.0 (never rush a
+   storyteller), sentences synthesized separately and joined with 0.55 s
+   breathing silences; pad_before ≈ 1.8–2.6 s, pad_after ≈ 2.2–2.6 s (4–5 s on
+   climax/final scenes). Films should breathe: ~2:00–3:00 for a short tale.
+6. **Music sync:** the Draupadī legacy score's hand cues are pinned to
+   narrative moments via `at(scene, off)` (fraction through the narration
+   window, from `narrAt`/`narrDur` against `LEGACY_TUNED_NARR`) — re-pacing or
+   re-recording narration must never desync the fish-struck boom again. Mood
+   scores read scene timing live.
+7. **On-screen text:** every actor label resolves through
+   `stgHumanizeActorLabel` (story `label` → registry `displayName` → cast
+   `displayName` → Title-Case prettify). Raw ids must never reach the screen;
+   registry/cast entries carry `displayName` with proper diacritics.
+
 ## Changelog
 
 - v1: initial contracts (restructure commit).
 - v1.1: expressiveness principles + music hierarchy.
 - v1.2: director's addendum (line pass, anti-twinning, composition grammar,
   manuscript identity, slate order).
+- v2.0: two-generation upgrade — v3 renderer port (humans + fauna), breathing
+  pacing, humanized labels, narration-anchored legacy score.
