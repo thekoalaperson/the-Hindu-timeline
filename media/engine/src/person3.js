@@ -397,7 +397,7 @@ function hair3Back(ctx, style, t, seed, tn) {
     ctx.quadraticCurveTo(-0.64, -0.5, 0.05, -0.94);
     ctx.closePath(); ctx.fill();
     if (mode === 'braid') {
-      ctx.strokeStyle = 'rgba(255,235,200,0.20)'; ctx.lineWidth = 0.05;
+      ctx.strokeStyle = 'rgba(255,235,200,0.11)'; ctx.lineWidth = 0.045;
       for (let i = 0; i < 6; i++) {
         const u = i / 6, yy = 0.5 + u * 1.7;
         ctx.beginPath();
@@ -466,9 +466,9 @@ function hair3Front(ctx, style, t, seed, tn) {
   // one solid cap: outer edge rides just above the skull, inner edge = hairline
   ctx.fillStyle = c;
   ctx.beginPath();
-  ctx.moveTo(P(0.80, 0.92), -0.36);                                // temple, face side
-  ctx.quadraticCurveTo(P(0.55, 0.72), -0.72, P(0.08, 0.28), -0.80); // hairline over forehead
-  ctx.quadraticCurveTo(-0.56, -0.88, -0.86, -0.50);                // hairline to back
+  ctx.moveTo(P(0.80, 0.92), -0.30);                                // temple, face side
+  ctx.quadraticCurveTo(P(0.55, 0.72), -0.62, P(0.08, 0.28), -0.70); // hairline low over the forehead (a tall bare brow reads balloon-like in close-up)
+  ctx.quadraticCurveTo(-0.56, -0.80, -0.86, -0.48);                // hairline to back
   ctx.lineTo(-0.97, -0.44);                                        // out past silhouette
   ctx.quadraticCurveTo(-1.02, -0.98, -0.34, -1.18);                // back crown, proud of skull
   ctx.quadraticCurveTo(P(0.40, 0.62), -1.14, P(0.72, 0.86), -0.66);// over the top
