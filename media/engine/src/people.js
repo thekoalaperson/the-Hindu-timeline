@@ -496,8 +496,8 @@ const FIG = {
 function defaultPose() {
   return {
     lean: 0, bend: 0, headTurn: 0.3, headNod: 0, headTilt: 0,
-    armF: { sh: 0.12, el: 0.15, wr: 0 },   // near/front arm
-    armB: { sh: -0.10, el: 0.12, wr: 0 },  // far/back arm
+    armF: { sh: 0.14, el: 0.30, wr: 0 },   // near/front arm — relaxed elbow bend, never plumb-straight
+    armB: { sh: -0.12, el: 0.26, wr: 0 },  // far/back arm
     legF: { hip: 0.03, knee: 0.02 }, legB: { hip: -0.05, knee: 0.04 },
     face: {}, grounded: true,
   };

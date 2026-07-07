@@ -589,7 +589,7 @@ function peacock3(ctx, tn, t, seed) {
 const FIG3 = {
   H: 400, headR: 30, neck: 15,
   shoulderW: 47, waistW: 29, hipW: 35,
-  upperArm: 63, foreArm: 57,
+  upperArm: 56, foreArm: 50,   // comic canon: fingertips end at upper thigh, never gibbon-long
   thigh: 97, shin: 93, footL: 30,
 };
 
@@ -606,9 +606,9 @@ function armChain3(shx, shy, a, build) {
 function limbRibbon3(ctx, ch, w0, w1, w2, col, dark, noStroke) {
   const spine = [
     ch.sh,
-    [lerp(ch.sh[0], ch.el[0], 0.55), lerp(ch.sh[1], ch.el[1], 0.55)],
-    ch.el,
-    [lerp(ch.el[0], ch.wr[0], 0.45), lerp(ch.el[1], ch.wr[1], 0.45)],
+    [lerp(ch.sh[0], ch.el[0], 0.82), lerp(ch.sh[1], ch.el[1], 0.82)],
+    ch.el, ch.el,   // doubled: midpoint smoothing is forced THROUGH the joint — elbow/knee reads as an angle, not a hose-curve
+    [lerp(ch.el[0], ch.wr[0], 0.18), lerp(ch.el[1], ch.wr[1], 0.18)],
     ch.wr,
   ];
   ribbon(ctx, spine, u => u < 0.5 ? lerp(w0, w1, smooth(u * 2)) : lerp(w1, w2, smooth((u - 0.5) * 2)));
@@ -620,7 +620,7 @@ function limbRibbon3(ctx, ch, w0, w1, w2, col, dark, noStroke) {
   g.addColorStop(0, 'rgba(255,240,210,0.10)'); g.addColorStop(0.6, 'rgba(0,0,0,0)'); g.addColorStop(1, rgba(dark, 0.32));
   ctx.fillStyle = g; ctx.fill();
   ctx.restore();
-  if (!noStroke) { ctx.strokeStyle = rgba('#26130a', 0.55); ctx.lineWidth = 1.9; ctx.stroke(); }
+  if (!noStroke) { ctx.strokeStyle = rgba('#26130a', 0.55); ctx.lineWidth = 2.6; ctx.stroke(); }
 }
 
 // shaped hand library (unit ≈ 20px at s=1)
@@ -629,7 +629,7 @@ function hand3(ctx, x, y, ang, s, skin, kind, dark, claw) {
   if (kind === 'claw') kind = 'open';
   ctx.save(); ctx.translate(x, y); ctx.rotate(ang); ctx.scale(s, s);
   ctx.fillStyle = skin;
-  ctx.strokeStyle = rgba('#26130a', 0.62); ctx.lineWidth = 1.5 / s;
+  ctx.strokeStyle = rgba('#26130a', 0.62); ctx.lineWidth = 2.0 / s;
   ctx.beginPath();
   if (kind === 'fist' || kind === 'hold') {
     ctx.moveTo(-6, -1);
@@ -721,7 +721,7 @@ function hand3(ctx, x, y, ang, s, skin, kind, dark, claw) {
 function foot3(ctx, x, y, s, facing, skin, dark) {
   ctx.save(); ctx.translate(x, y); ctx.scale(s * facing, s);
   ctx.fillStyle = skin;
-  ctx.strokeStyle = rgba('#26130a', 0.62); ctx.lineWidth = 1.5 / s;
+  ctx.strokeStyle = rgba('#26130a', 0.62); ctx.lineWidth = 2.0 / s;
   ctx.beginPath();
   ctx.moveTo(-7, -13);                       // ankle back
   ctx.quadraticCurveTo(-9.5, -4, -7.5, -1);  // heel
@@ -738,6 +738,19 @@ function foot3(ctx, x, y, s, facing, skin, dark) {
 // main figure: same opts contract as drawFigure
 function drawFigure3(ctx, o) {
   const st = o.style, pose = Object.assign(typeof defaultPose === 'function' ? defaultPose() : {}, o.pose);
+  // idle life: no two figures ever stand identically, and nobody stands
+  // rigid — tiny seed-fixed asymmetries + a slow breathing sway. Clone the
+  // arm objects before nudging (callers may share/cache pose objects).
+  if (!pose.noIdle) {
+    const jA = hash1((o.seed || 1) * 7.31) - 0.5, jB = hash1((o.seed || 1) * 3.77) - 0.5;
+    const sway = Math.sin((o.t || 0) * 0.9 + (o.seed || 1) * 5) * 0.02;
+    pose.lean = (pose.lean || 0) + jA * 0.05;
+    pose.headTilt = (pose.headTilt || 0) + jA * 0.04;
+    pose.armF = Object.assign({}, pose.armF);
+    pose.armB = Object.assign({}, pose.armB);
+    pose.armF.el = (pose.armF.el || 0) + jB * 0.10 + sway;
+    pose.armB.el = (pose.armB.el || 0) - jB * 0.08 + sway * 0.7;
+  }
   const build = st.build || 1;
   const vS = st.heightScale || 1;
   const shMul = st.shoulderScale || 1;
@@ -774,7 +787,7 @@ function drawFigure3(ctx, o) {
   else if (garb === 'hide') garb = 'dhoti';
   const skirted = garb === 'sari' || garb === 'robe';
   const bare = !female && (garb === 'dhoti' || garb === 'royal');
-  const armW = 10.5 * build * (female ? 0.78 : 1);
+  const armW = 13.5 * build * (female ? 0.8 : 1);  // arms carry mass — noodle arms read mannequin
   const cm = st.clothMain || (female ? '#8c1f28' : '#ece2c8');
 
   // draws one full arm (ribbon + sleeve + ornaments + hand)
@@ -783,12 +796,12 @@ function drawFigure3(ctx, o) {
     const shy = shC[1] + (side > 0 ? 9 : 7);
     const col = side > 0 ? skin : shade(skin, -0.14);
     const ch = armChain3(shx, shy, a, build);
-    limbRibbon3(ctx, ch, armW * 1.14, armW * 0.82, armW * 0.55, col, dark);
+    limbRibbon3(ctx, ch, armW * 1.08, armW * 0.86, armW * 0.62, col, dark);
     // deltoid cap: hides the ribbon/torso seam, adds painterly form
     ctx.fillStyle = col;
-    ctx.beginPath(); ctx.arc(shx, shy + 1, armW * 1.02, 0, TAU); ctx.fill();
+    ctx.beginPath(); ctx.arc(shx, shy + 1, armW * 1.12, 0, TAU); ctx.fill();
     ctx.fillStyle = rgba(dark, side > 0 ? 0.20 : 0.28);
-    ctx.beginPath(); ctx.arc(shx + 2, shy + 4, armW * 0.9, -0.3, 1.9); ctx.fill();
+    ctx.beginPath(); ctx.arc(shx + 2, shy + 4, armW * 1.0, -0.3, 1.9); ctx.fill();
     // sari blouse sleeve over the upper arm
     if (female && garb === 'sari') {
       const sc = side > 0 ? cm : shade(cm, -0.16);
@@ -796,7 +809,7 @@ function drawFigure3(ctx, o) {
       ribbon(ctx, [sl.sh, [lerp(sl.sh[0], sl.el[0], 0.5), lerp(sl.sh[1], sl.el[1], 0.5)], sl.el],
         u => lerp(armW * 1.3, armW * 0.95, u));
       ctx.fillStyle = sc; ctx.fill();
-      ctx.strokeStyle = rgba('#26130a', 0.45); ctx.lineWidth = 1.4; ctx.stroke();
+      ctx.strokeStyle = rgba('#26130a', 0.45); ctx.lineWidth = 1.8; ctx.stroke();
       if (st.clothAccent) {
         ctx.strokeStyle = st.clothAccent; ctx.lineWidth = 2.2;
         ctx.beginPath();
@@ -819,7 +832,7 @@ function drawFigure3(ctx, o) {
         ctx.stroke();
       }
     }
-    hand3(ctx, ch.wr[0], ch.wr[1], -ch.a2 + (a.wr || 0), build * (female ? 0.82 : 0.95), col, a.hand || 'relaxed', dark, st.claws);
+    hand3(ctx, ch.wr[0], ch.wr[1], -ch.a2 + (a.wr || 0), build * (female ? 0.92 : 1.08), col, a.hand || 'relaxed', dark, st.claws);
     return ch;
   }
 
@@ -829,8 +842,8 @@ function drawFigure3(ctx, o) {
     const shy = shC[1] + 20;
     const col = shade(skin, -0.12);
     const ch = armChain3(shx, shy, a, build);
-    limbRibbon3(ctx, ch, armW * 1.0, armW * 0.74, armW * 0.5, col, dark);
-    hand3(ctx, ch.wr[0], ch.wr[1], -ch.a2 + (a.wr || 0), build * (female ? 0.8 : 0.9), col, a.hand || 'open', dark, st.claws);
+    limbRibbon3(ctx, ch, armW * 0.95, armW * 0.78, armW * 0.58, col, dark);
+    hand3(ctx, ch.wr[0], ch.wr[1], -ch.a2 + (a.wr || 0), build * (female ? 0.88 : 1.0), col, a.hand || 'open', dark, st.claws);
     return ch;
   }
 
@@ -875,7 +888,7 @@ function drawFigure3(ctx, o) {
   }
 
   // ── far arm, far leg (behind) ──
-  arm3(pose.armB || { sh: -0.1, el: 0.12 }, -1);
+  arm3(pose.armB || { sh: -0.12, el: 0.26 }, -1);
   leg3(pose.legB, false);
 
   // ── torso: one vase silhouette shoulders→waist→hips ──
@@ -915,7 +928,7 @@ function drawFigure3(ctx, o) {
     }
   }
   ctx.restore();
-  torsoPath(); ctx.strokeStyle = rgba('#26130a', 0.6); ctx.lineWidth = 1.9; ctx.stroke();
+  torsoPath(); ctx.strokeStyle = rgba('#26130a', 0.6); ctx.lineWidth = 2.6; ctx.stroke();
 
   // ── armor cuirass: horizontal plate courses + a gold breast-medallion ──
   if (garb === 'armor') {
@@ -998,7 +1011,7 @@ function drawFigure3(ctx, o) {
   }
 
   // ── near arm ──
-  arm3(pose.armF || { sh: 0.12, el: 0.15 }, +1);
+  arm3(pose.armF || { sh: 0.14, el: 0.30 }, +1);
 
   // ── neck + head ──
   const headCy = shoulderY - FIG3.neck * build - headR * 0.9;
@@ -1009,7 +1022,7 @@ function drawFigure3(ctx, o) {
   ctx.lineTo(chestDx + 9 * build, headCy + headR * 0.5);
   ctx.quadraticCurveTo(chestDx + 10 * build, headCy + headR * 0.7, chestDx + 11 * build, shoulderY - 12);
   ctx.closePath(); ctx.fill();
-  ctx.strokeStyle = rgba('#26130a', 0.4); ctx.lineWidth = 1.4; ctx.stroke();
+  ctx.strokeStyle = rgba('#26130a', 0.4); ctx.lineWidth = 1.9; ctx.stroke();
   ctx.fillStyle = rgba(dark, 0.3);
   ctx.beginPath(); ctx.ellipse(chestDx + 0.5, headCy + headR * 0.62, 9.5 * build, 4, 0, 0, TAU); ctx.fill();
 
@@ -1046,7 +1059,7 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb)
     const g = ctx.createLinearGradient(hipC[0] - hipW - 18, 0, hipC[0] + hipW + 20, 0);
     g.addColorStop(0, shade(cm, -0.3)); g.addColorStop(0.48, cm); g.addColorStop(1, shade(cm, -0.16));
     ctx.fillStyle = g; ctx.fill();
-    ctx.strokeStyle = rgba('#26130a', 0.62); ctx.lineWidth = 1.8; ctx.stroke();
+    ctx.strokeStyle = rgba('#26130a', 0.62); ctx.lineWidth = 2.4; ctx.stroke();
     // drape folds: 3 S-curves
     ctx.strokeStyle = rgba('#000', 0.16); ctx.lineWidth = 1.6;
     for (let i = 0; i < 3; i++) {
@@ -1074,7 +1087,7 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb)
       ctx.quadraticCurveTo(hipC[0] - hipW * 0.96 + fl * 10, shY + 208, hipC[0] - hipW * 0.7 + fl * 8, hipY + 40);
       ctx.quadraticCurveTo(hipC[0] - hipW * 0.2, hipY - 16, hipC[0] + hipW * 0.55, hipY - 18);
       ctx.closePath(); ctx.fill();
-      ctx.strokeStyle = rgba('#26130a', 0.4); ctx.lineWidth = 1.4; ctx.stroke();
+      ctx.strokeStyle = rgba('#26130a', 0.4); ctx.lineWidth = 1.9; ctx.stroke();
       ctx.strokeStyle = st.clothAccent || GOLD; ctx.lineWidth = 2.6;
       ctx.beginPath();
       ctx.moveTo(hipC[0] + hipW * 0.68, hipY - 8);
@@ -1098,7 +1111,7 @@ function garment3(ctx, st, hipC, hipY, hipW, build, t, seed, female, pose, garb)
     const g = ctx.createLinearGradient(hipC[0] - hipW, 0, hipC[0] + hipW + 8, 0);
     g.addColorStop(0, shade(cm, -0.26)); g.addColorStop(0.45, cm); g.addColorStop(1, shade(cm, -0.12));
     ctx.fillStyle = g; ctx.fill();
-    ctx.strokeStyle = rgba('#26130a', 0.62); ctx.lineWidth = 1.8; ctx.stroke();
+    ctx.strokeStyle = rgba('#26130a', 0.62); ctx.lineWidth = 2.4; ctx.stroke();
     // centre pleat fan (3 lines)
     ctx.strokeStyle = rgba('#000', 0.14); ctx.lineWidth = 1.5;
     for (let i = -1; i <= 1; i++) {
