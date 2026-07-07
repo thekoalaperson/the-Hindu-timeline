@@ -62,10 +62,11 @@ function sheet() {
     if (orn && name === 'elephant') { opts.ornament = true; opts.howdah = true; }
     draw(ctx, opts);
     ctx.fillStyle = '#3a2410'; ctx.font = '24px Georgia'; ctx.textAlign = 'center';
-    ctx.fillText(name, cx, 40);
+    ctx.fillText(name, cx, 38);
   });
-  ctx.fillStyle = '#3a2410'; ctx.font = '20px Georgia'; ctx.textAlign = 'right';
-  ctx.fillText('hero row · gait=' + gait + (orn ? ' · ornament' : '') + '  ·  t=' + T, W - 20, 40);
+  // status caption on its own line (left) so it can't collide with column labels
+  ctx.fillStyle = '#5a4020'; ctx.font = 'italic 18px Georgia'; ctx.textAlign = 'left';
+  ctx.fillText('hero row · gait=' + gait + (orn ? ' · ornament' : '') + '  ·  t=' + T, 24, 70);
 
   // in-context strip — a small pastoral band: herd + calf, deer, crane
   ctx.save();
