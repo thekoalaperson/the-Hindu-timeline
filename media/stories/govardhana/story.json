@@ -1,0 +1,272 @@
+{
+  "slug": "govardhana",
+  "title": "Govardhana",
+  "subtitle": "Bhāgavata Purāṇa · Canto X.24–27",
+  "watchHint": "watch · about 2 min",
+  "sources": [
+    "04-deep-dives/krishna-lila.md"
+  ],
+  "engineFiles": [
+    "core.js",
+    "paint.js",
+    "person3.js",
+    "acting.js",
+    "wardrobe.js",
+    "person.js",
+    "archetypes.js",
+    "props.js",
+    "sets.js",
+    "stage.js",
+    "finish.js"
+  ],
+  "storyFiles": [
+    "cast.js",
+    "timeline.js",
+    "film.js"
+  ],
+  "narration": {
+    "provider": "pico",
+    "voice": "en-GB",
+    "pitch": 0.95
+  },
+  "music": {
+    "mode": "auto",
+    "events": {
+      "lift": [
+        {
+          "at": 2.0,
+          "type": "swell"
+        },
+        {
+          "at": 4.2,
+          "type": "bell"
+        }
+      ],
+      "govinda": [
+        {
+          "at": 1.0,
+          "type": "bell"
+        }
+      ]
+    }
+  },
+  "video": {
+    "fps": 24,
+    "crf": 22
+  },
+  "titleHtml": "Govardhana",
+  "poster": {
+    "t": 55.0
+  },
+  "folios": {
+    "titleDur": 3.6,
+    "endDur": 4.6,
+    "endLine": "and the cowherds called him Govinda"
+  },
+  "scenes": {
+    "counsel": {
+      "storyboard": {
+        "set": "village",
+        "setOpts": {
+          "timeOfDay": "day",
+          "seed": 5
+        },
+        "grade": {
+          "wash": "#ffd9a0",
+          "washAlpha": 0.06,
+          "vignette": 0.32
+        },
+        "shot": {
+          "type": "two-shot",
+          "actors": [
+            "krishna",
+            "nanda"
+          ]
+        },
+        "actors": [
+          {
+            "id": "krishna",
+            "who": "krishna",
+            "label": "Kṛṣṇa",
+            "at": [
+              820,
+              1010
+            ],
+            "s": 0.74,
+            "facing": 1,
+            "featured": true
+          },
+          {
+            "id": "nanda",
+            "who": "nanda",
+            "label": "Nanda",
+            "at": [
+              1200,
+              1010
+            ],
+            "s": 0.72,
+            "facing": -1,
+            "featured": true
+          },
+          {
+            "id": "gopa",
+            "who": "gopa",
+            "label": "A Young Cowherd",
+            "at": [
+              1470,
+              1000
+            ],
+            "s": 0.68,
+            "facing": -1,
+            "featured": false
+          }
+        ],
+        "beats": [
+          {
+            "at": 1.2,
+            "actor": "krishna",
+            "pose": "point",
+            "over": 1.3
+          },
+          {
+            "at": "narr+2.0",
+            "actor": "krishna",
+            "face": {
+              "smile": 0.24,
+              "brow": 0.12
+            },
+            "over": 1.2
+          },
+          {
+            "at": "narr+8.5",
+            "actor": "krishna",
+            "pose": "bless",
+            "over": 1.6
+          },
+          {
+            "at": "narr+9.5",
+            "actor": "nanda",
+            "pose": "namaste",
+            "over": 1.6
+          },
+          {
+            "at": "narr+10.0",
+            "actor": "gopa",
+            "pose": "namaste",
+            "over": 1.6
+          },
+          {
+            "at": "narr+10.2",
+            "actor": "nanda",
+            "face": {
+              "smile": 0.3,
+              "lowered": 0.2
+            },
+            "over": 1.2
+          }
+        ]
+      }
+    },
+    "govinda": {
+      "storyboard": {
+        "set": "village",
+        "setOpts": {
+          "timeOfDay": "day",
+          "seed": 21,
+          "rays": 0.4
+        },
+        "grade": {
+          "wash": "#ffdca6",
+          "washAlpha": 0.09,
+          "vignette": 0.3
+        },
+        "shot": {
+          "type": "close-up",
+          "actor": "krishna"
+        },
+        "actors": [
+          {
+            "id": "krishna",
+            "who": "krishna",
+            "label": "Kṛṣṇa",
+            "at": [
+              960,
+              1010
+            ],
+            "s": 0.76,
+            "facing": 1,
+            "featured": true
+          },
+          {
+            "id": "nanda",
+            "who": "nanda",
+            "label": "Nanda",
+            "at": [
+              1300,
+              1005
+            ],
+            "s": 0.72,
+            "facing": -1,
+            "featured": false
+          },
+          {
+            "id": "gopa",
+            "who": "gopa",
+            "label": "A Young Cowherd",
+            "at": [
+              1560,
+              998
+            ],
+            "s": 0.68,
+            "facing": -1,
+            "featured": false
+          }
+        ],
+        "beats": [
+          {
+            "at": 0.5,
+            "actor": "krishna",
+            "face": {
+              "smile": 0.18
+            },
+            "over": 1.0
+          },
+          {
+            "at": "narr+7.5",
+            "actor": "krishna",
+            "face": {
+              "smile": 0.4,
+              "lowered": 0.1
+            },
+            "over": 1.8
+          },
+          {
+            "at": "narr+7.8",
+            "actor": "nanda",
+            "pose": "pranam",
+            "over": 1.6
+          },
+          {
+            "at": "narr+8.2",
+            "actor": "gopa",
+            "pose": "pranam",
+            "over": 1.6
+          },
+          {
+            "at": "narr+9.5",
+            "fx": "petals",
+            "opts": {
+              "density": 0.6,
+              "colors": [
+                "#f2a41f",
+                "#e8801a",
+                "#ffe08a",
+                "#f6e7bf"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>body{margin:0;background:#20160e}canvas{display:block}</style>
+<canvas id="cv" width="1920" height="1080"></canvas>
+<script src="../src/core.js"></script>
+<script src="../src/paint.js"></script>
+<script src="../src/people.js"></script>
+<script src="../../stories/winning-of-draupadi/cast.js"></script>
+<script>
+const ctx = document.getElementById('cv').getContext('2d');
+vgrad(ctx, 0, 0, W, H, [[0, '#e9d9b6'], [1, '#c8b184']]);
+// four large upper-body studies with different arm poses
+const tests = [
+  ['arjuna', {armF:{sh:0.12,el:0.15}, armB:{sh:-0.1,el:0.12}}, 'hanging'],
+  ['draupadi', {armF:{sh:0.85,el:0.9,hand:'hold'}, armB:{sh:0.25,el:0.55,hand:'hold'}}, 'garland lift'],
+  ['krishna', {armF:{sh:1.25,el:0.25,hand:'open'}}, 'pointing'],
+  ['karna', {armF:{sh:-0.25,el:0.6,hand:'fist'}, face:{brow:-.5,smile:-.35}}, 'clench'],
+];
+tests.forEach(([name, pose, label], i) => {
+  drawFigure(ctx, {x: 260 + i * 470, y: 1420, s: 2.4, facing: 1,
+    style: CAST[name], pose, t: 2.2 + i, seed: i * 11 + 5});
+  ctx.fillStyle = '#3a2410'; ctx.font = '26px Georgia'; ctx.textAlign='center';
+  ctx.fillText(label, 260 + i * 470, 1050);
+});
+</script>

@@ -1,0 +1,66 @@
+{
+  "title": "Govardhana",
+  "subtitle": "Bhāgavata Purāṇa · Canto X.24–27",
+  "scenes": [
+    {
+      "id": "pastoral",
+      "name": "The Herders' Festival",
+      "mood": "festive",
+      "raga": "yamanish",
+      "pad_before": 2.6,
+      "pad_after": 2.2,
+      "display": "In Vṛndāvana the cowherds kept a festival for Indra, lord of rain. But young Kṛṣṇa watched the cattle graze Govardhana's green slopes, and asked a simple question: why did the mountain that fed them go unthanked?",
+      "tts": "In Vrin-dah-vun the cowherds kept a festival for In-drah, lord of rain. But young Krish-na watched the cattle graze Go-var-dhun-ah's green slopes, and asked a simple question: why did the mountain that fed them go unthanked?"
+    },
+    {
+      "id": "counsel",
+      "name": "Worship What Feeds You",
+      "mood": "tender",
+      "raga": "deshish",
+      "pad_before": 1.8,
+      "pad_after": 2.2,
+      "display": "\"Worship what feeds you,\" said Kṛṣṇa. \"This hill has given us pasture and rain and green slopes, and asked nothing back. Honour Govardhana, and let distant Indra keep his pride.\" And the herders, trusting, agreed.",
+      "tts": "Worship what feeds you, said Krish-na. This hill has given us pasture and rain and green slopes, and asked nothing back. Honour Go-var-dhun-ah, and let distant In-drah keep his pride. And the herders, trusting, agreed."
+    },
+    {
+      "id": "fury",
+      "name": "Indra's Wrath",
+      "mood": "tense",
+      "raga": "bhairavish",
+      "pad_before": 1.8,
+      "pad_after": 2.4,
+      "display": "Robbed of his worship, Indra raged. He broke open the sky over Vṛndāvana — seven nights of blinding rain and thunder without mercy, meant to drown the herders and their impudent cowherd boy.",
+      "tts": "Robbed of his worship, In-drah raged. He broke open the sky over Vrin-dah-vun; seven nights of blinding rain and thunder without mercy, meant to drown the herders and their impudent cowherd boy."
+    },
+    {
+      "id": "lift",
+      "name": "The Lifting of the Mountain",
+      "mood": "triumphant",
+      "raga": "yamanish",
+      "pad_before": 2.0,
+      "pad_after": 4.0,
+      "display": "Then Kṛṣṇa reached down, and lifted Govardhana whole upon his little finger. The mountain rose like a vast green umbrella — and all Vṛndāvana, herder and cow and calf, sheltered beneath it, dry.",
+      "tts": "Then Krish-na reached down, and lifted Go-var-dhun-ah whole upon his little finger. The mountain rose like a vast green umbrella; and all Vrin-dah-vun, herder and cow and calf, sheltered beneath it, dry."
+    },
+    {
+      "id": "vigil",
+      "name": "Seven Days and Nights",
+      "mood": "mystic",
+      "raga": "bhairavish",
+      "pad_before": 1.8,
+      "pad_after": 2.6,
+      "display": "Seven days and seven nights the rain hammered the world. Yet under the mountain not one drop fell. Kṛṣṇa held it steady, smiling, while the storm spent its fury on the unbroken circle of calm.",
+      "tts": "Seven days and seven nights the rain hammered the world. Yet under the mountain, not one drop fell. Krish-na held it steady, smiling, while the storm spent its fury on the unbroken circle of calm."
+    },
+    {
+      "id": "govinda",
+      "name": "Govinda",
+      "mood": "festive",
+      "raga": "yamanish",
+      "pad_before": 1.8,
+      "pad_after": 4.8,
+      "display": "At last Indra's storm broke, and shamed, he bowed. The sun returned to a washed and shining Vṛndāvana. Kṛṣṇa set the mountain down — and the cowherds hailed him Govinda, keeper of cows.",
+      "tts": "At last In-drah's storm broke, and shamed, he bowed. The sun returned to a washed and shining Vrin-dah-vun. Krish-na set the mountain down; and the cowherds hailed him Go-vin-dah, keeper of cows."
+    }
+  ]
+}

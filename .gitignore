@@ -7,3 +7,6 @@ tools/wf_verify_shard*.js
 tools/_events_all.json
 tools/_broken.txt
 tools/wf_fix_shard*.js
+
+# Rendered film outputs (regenerate with: cd media && node engine/build/render.mjs --story <slug>)
+media/stories/*/dist/*.mp4

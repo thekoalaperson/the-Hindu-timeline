@@ -1,0 +1,73 @@
+{
+  "title": "Bhīma and Bakāsura",
+  "subtitle": "Mahābhārata · Ādi Parva 159–166",
+  "total": 119.951,
+  "scenes": [
+    {
+      "id": "ekacakra",
+      "name": "The Town of Ekacakrā",
+      "display": "After the burning of the lac house, the five Pāṇḍava brothers had gone into hiding in the town of Ekacakrā, disguised as brahmins, begging their bread door to door. But over that town hung a shadow.",
+      "mood": "mystic",
+      "start": 0,
+      "narrAt": 2.6,
+      "narrDur": 14.628,
+      "dur": 19.428,
+      "end": 19.428
+    },
+    {
+      "id": "grief",
+      "name": "The Demon's Toll",
+      "display": "In the wood lived Bakāsura, a rākṣasa who fed on men. Each week the town paid him tribute — a cartload of food, and with it the one who drove the cart, for none of them ever came back. Now the lot had fallen on the very house that had sheltered the brothers, and the family wept.",
+      "mood": "somber",
+      "start": 19.428,
+      "narrAt": 21.228,
+      "narrDur": 20.183,
+      "dur": 24.383,
+      "end": 43.811
+    },
+    {
+      "id": "kunti",
+      "name": "Kuntī's Word",
+      "display": "Then Kuntī spoke, quiet and certain: \"Do not grieve. You gave my sons shelter — now my son will take your place.\" And she chose Bhīma, the strongest of the five.",
+      "mood": "tender",
+      "start": 43.811,
+      "narrAt": 45.611,
+      "narrDur": 14.343,
+      "dur": 18.543,
+      "end": 62.354
+    },
+    {
+      "id": "cart",
+      "name": "The Cart of Food",
+      "display": "At dawn Bhīma drove the loaded cart toward the forest — and being Bhīma, and being hungry, he ate the demon's dinner himself along the way.",
+      "mood": "festive",
+      "start": 62.354,
+      "narrAt": 64.154,
+      "narrDur": 10.516,
+      "dur": 14.516,
+      "end": 76.87
+    },
+    {
+      "id": "fight",
+      "name": "Baka Falls",
+      "display": "The rākṣasa came roaring from the trees — huge as a hill, furious at the empty cart. They fought, tree against fist, until Bhīma seized him and broke his back across his knee.",
+      "mood": "tense",
+      "start": 76.87,
+      "narrAt": 78.67,
+      "narrDur": 14.233,
+      "dur": 19.633,
+      "end": 96.503
+    },
+    {
+      "id": "freed",
+      "name": "The Town Set Free",
+      "display": "In the morning the people of Ekacakrā found the demon dead at their gates, and wondered who had saved them. The brahmins kept their secret — and walked on quietly, toward Pāñcāla, and a destiny that would change the world.",
+      "mood": "triumphant",
+      "start": 96.503,
+      "narrAt": 98.303,
+      "narrDur": 16.848,
+      "dur": 23.448,
+      "end": 119.951
+    }
+  ]
+}

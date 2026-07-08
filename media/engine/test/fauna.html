@@ -1,0 +1,140 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>fauna — animal rigs (Agent B)</title>
+<style>body{margin:0;background:#000}canvas{display:block}</style>
+<canvas id="cv" width="1920" height="1080"></canvas>
+<script src="../src/core.js"></script>
+<script src="../src/paint.js"></script>
+<script src="../src/people.js"></script>
+<script src="../../stories/winning-of-draupadi/cast.js"></script>
+<script src="../src/world.js"></script>
+<script src="../src/props.js"></script>
+<script src="../src/sets.js"></script>
+<script>
+'use strict';
+const ctx = document.getElementById('cv').getContext('2d');
+const q = new URLSearchParams(location.search);
+const gait = q.get('gait') || 'idle';         // idle | walk | run
+const orn = q.get('orn') === '1';             // draw caparison / howdah
+const mode = q.get('mode') || 'sheet';        // sheet | gait | cows | crowd
+const T = parseFloat(q.get('t') || '2');
+
+const ANIMALS = [
+  // name, fn, hero-scale, context-scale
+  ['horse', drawHorse, 0.74, 0.34],
+  ['elephant', drawElephant, 0.54, 0.30],
+  ['deer', drawDeer, 1.18, 0.62],
+  ['cow', drawCow, 0.88, 0.44],
+  ['bird', drawBird, 1.48, 0.82],
+];
+
+if (mode === 'crowd') crowd();
+else if (mode === 'cows') cows();
+else if (mode === 'gait') gaitGrid();
+else if (mode === 'lake') lake();
+else sheet();
+
+// ── crane in its real environment (Yakṣa-praśna riverBank, no person code) ──
+function lake() {
+  const cam = { x: 0, y: 0, z: 1.05 };
+  SETS.riverBank(ctx, cam, T, {
+    timeOfDay: 'dusk', seed: 12, fg: false,
+    actors: (c) => {
+      drawBird(c, { x: 1500, y: 900, s: 1.15, facing: -1, t: T, seed: 7, gait: 'idle', coat: '#e8e4d6' });
+      drawDeer(c, { x: 560, y: 940, s: 0.62, facing: -1, t: T, seed: 3, gait: 'idle', coat: '#b5793c' });
+    },
+  });
+  ctx.fillStyle = '#f2dfae'; ctx.font = '24px Georgia'; ctx.textAlign = 'left';
+  ctx.fillText('crane + deer · riverBank dusk (yaksha-prashna staging)', 24, 40);
+}
+
+// ── default: hero row (faces large) + an in-context scene strip ──
+function sheet() {
+  vgrad(ctx, 0, 0, W, H, [[0, '#e9d9b6'], [0.55, '#dcc9a0'], [1, '#c8b184']]);
+  // hero row — each animal big, side pose, so legs & faces are inspectable
+  const baseY = 620, colW = W / ANIMALS.length;
+  ANIMALS.forEach(([name, draw, sc], ci) => {
+    const cx = ci * colW + colW / 2;
+    ctx.strokeStyle = 'rgba(60,40,20,0.22)'; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(ci * colW + 24, baseY + 1); ctx.lineTo((ci + 1) * colW - 24, baseY + 1); ctx.stroke();
+    const opts = { x: cx, y: baseY, s: sc, facing: 1, t: T, seed: ci * 13 + 3, gait };
+    if (orn && name === 'horse') opts.ornament = true;
+    if (orn && name === 'elephant') { opts.ornament = true; opts.howdah = true; }
+    draw(ctx, opts);
+    ctx.fillStyle = '#3a2410'; ctx.font = '24px Georgia'; ctx.textAlign = 'center';
+    ctx.fillText(name, cx, 38);
+  });
+  // status caption on its own line (left) so it can't collide with column labels
+  ctx.fillStyle = '#5a4020'; ctx.font = 'italic 18px Georgia'; ctx.textAlign = 'left';
+  ctx.fillText('hero row · gait=' + gait + (orn ? ' · ornament' : '') + '  ·  t=' + T, 24, 70);
+
+  // in-context strip — a small pastoral band: herd + calf, deer, crane
+  ctx.save();
+  ctx.fillStyle = '#b79a6a'; ctx.fillRect(0, 900, W, H - 900);
+  vgrad(ctx, 0, 895, W, 40, [[0, 'rgba(90,64,30,0.35)'], [1, 'rgba(90,64,30,0)']]);
+  const gy = 1052;
+  drawCow(ctx, { x: 250, y: gy, s: 0.42, facing: 1, t: T, seed: 5, gait: 'idle', coat: COW_COATS[0] });
+  drawCow(ctx, { x: 470, y: gy + 4, s: 0.44, facing: -1, t: T, seed: 6, gait: 'idle', coat: COW_COATS[1] });
+  drawCow(ctx, { x: 370, y: gy + 10, s: 0.27, facing: -1, t: T, seed: 7, gait: 'idle', coat: '#e6d6b4', calf: true });
+  drawCow(ctx, { x: 720, y: gy, s: 0.42, facing: 1, t: T, seed: 8, gait: 'idle', coat: COW_COATS[2] });
+  drawDeer(ctx, { x: 1080, y: gy, s: 0.6, facing: -1, t: T, seed: 3, gait: 'idle' });
+  drawHorse(ctx, { x: 1420, y: gy, s: 0.3, facing: -1, t: T, seed: 2, gait: 'idle' });
+  drawBird(ctx, { x: 1700, y: gy, s: 0.82, facing: -1, t: T, seed: 7, gait: 'idle' });
+  ctx.fillStyle = '#2e1c08'; ctx.font = 'italic 18px Georgia'; ctx.textAlign = 'left';
+  ctx.fillText('in-context · pastoral band', 24, 928);
+  ctx.restore();
+}
+
+// ── gait matrix: 5 animals × 3 phase samples (locomotion check) ──
+function gaitGrid() {
+  vgrad(ctx, 0, 0, W, H, [[0, '#e9d9b6'], [0.6, '#dcc9a0'], [1, '#c8b184']]);
+  const times = [0, 0.4, 0.8];
+  const colW = W / ANIMALS.length, rowH = H / times.length;
+  times.forEach((tt, r) => {
+    const baseY = (r + 1) * rowH - 40;
+    ANIMALS.forEach(([name, draw, , sc], ci) => {
+      const cx = ci * colW + colW / 2;
+      ctx.strokeStyle = 'rgba(60,40,20,0.25)'; ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(ci * colW + 20, baseY + 1); ctx.lineTo((ci + 1) * colW - 20, baseY + 1); ctx.stroke();
+      const opts = { x: cx, y: baseY, s: sc * 1.6, facing: 1, t: tt, seed: ci * 13 + 3, gait };
+      if (orn && name === 'horse') opts.ornament = true;
+      if (orn && name === 'elephant') { opts.ornament = true; opts.howdah = true; }
+      draw(ctx, opts);
+      if (r === 0) { ctx.fillStyle = '#3a2410'; ctx.font = '22px Georgia'; ctx.textAlign = 'center'; ctx.fillText(name, cx, 30); }
+    });
+    ctx.fillStyle = '#5a4020'; ctx.font = 'italic 18px Georgia'; ctx.textAlign = 'left';
+    ctx.fillText('t=' + tt, 14, baseY - 4);
+  });
+  ctx.fillStyle = '#3a2410'; ctx.font = '20px Georgia'; ctx.textAlign = 'right';
+  ctx.fillText('gait=' + gait + (orn ? ' · ornament' : ''), W - 20, 30);
+}
+
+// ── cow palettes + calf (Govardhana slate; dusk/lamplight readability) ──
+function cows() {
+  vgrad(ctx, 0, 0, W, H, [[0, '#3a2a44'], [0.5, '#7a4a3a'], [1, '#2a1608']]);
+  glowAdd(ctx, 960, 300, 700, 'rgba(255,150,60,0.12)', 1);
+  const specs = [['white/grey', COW_COATS[0], 470], ['brown', COW_COATS[1], 960], ['black', COW_COATS[2], 1450]];
+  specs.forEach(([label, coat, x]) => {
+    drawCow(ctx, { x, y: 760, s: 0.86, facing: 1, t: T, seed: (x | 0), gait: 'idle', coat });
+    ctx.fillStyle = '#f2dfae'; ctx.font = '22px Georgia'; ctx.textAlign = 'center';
+    ctx.fillText(label, x, 820);
+  });
+  drawCow(ctx, { x: 1150, y: 940, s: 0.5, facing: -1, t: T, seed: 9, gait: 'idle', coat: COW_COATS[1], calf: true });
+  ctx.fillText('calf', 1150, 980);
+  drawLampStand(ctx, 250, 980, 1.1, T, 3);
+  drawLampStand(ctx, 1700, 980, 1.1, T, 8);
+  wash(ctx, '#ff9a4c', 0.06, 'soft-light'); vignette(ctx, 0.4, true);
+  ctx.fillStyle = '#f2dfae'; ctx.font = '24px Georgia'; ctx.textAlign = 'left';
+  ctx.fillText('cow palettes + calf · dusk/lamplight', 24, 40);
+}
+
+// ── crowd close-up (verify NO clones) ──
+function crowd() {
+  vgrad(ctx, 0, 0, W, H, [[0, '#6e4520'], [1, '#2e1a0a']]);
+  const strip = crowdStrip('crowd-check', 9, kingStyle, 1.0);
+  const scale = W / strip.width;
+  ctx.drawImage(strip, 0, H - strip.height * scale * 1.6, W, strip.height * scale * 1.6);
+  ctx.fillStyle = '#f2dfae'; ctx.font = '24px Georgia';
+  ctx.fillText('crowd close-up · 9 kings · check for twins', 24, 40);
+}
+</script>

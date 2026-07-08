@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>head4 motion test rig</title>
+<style>
+  html,body{margin:0;padding:0;background:#222}
+  canvas{display:block}
+</style>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<script>
+(function(){
+  'use strict';
+  var canvas = document.getElementById('c');
+  var ctx = canvas.getContext('2d');
+  var W = 1920, H = 1080;
+
+  // ---------------------------------------------------------------
+  // Script loading: v7ref.js (optional, tolerate 404) then candidate
+  // from ?cand=<abs path>. Candidate may define everything itself.
+  // ---------------------------------------------------------------
+  function loadScript(src){
+    return new Promise(function(resolve){
+      if(!src){ resolve(false); return; }
+      var s = document.createElement('script');
+      s.src = src;
+      s.onload = function(){ resolve(true); };
+      s.onerror = function(){ resolve(false); }; // tolerate missing file / 404
+      document.head.appendChild(s);
+    });
+  }
+  function toUrl(p){
+    if(!p) return null;
+    if(/^(file|https?):/.test(p)) return p;
+    return 'file://' + encodeURI(p);
+  }
+  var params = new URLSearchParams(location.search);
+  var cand = params.get('cand');
+
+  window.__scriptsLoaded = false;
+  window.__loadInfo = { ref:false, cand:false };
+
+  loadScript('../v7ref.js').then(function(okRef){
+    window.__loadInfo.ref = okRef;
+    return loadScript(toUrl(cand));
+  }).then(function(okCand){
+    window.__loadInfo.cand = okCand;
+    window.__scriptsLoaded = true;
+  });
+
+  // ---------------------------------------------------------------
+  // Choreography — pure functions of t, no state.
+  // ---------------------------------------------------------------
+  function clamp(v,a,b){ return Math.max(a, Math.min(b, v)); }
+  function lerp(a,b,u){ return a + (b - a) * u; }
+  function easeInOutCubic(u){
+    u = clamp(u, 0, 1);
+    return u < 0.5 ? 4*u*u*u : 1 - Math.pow(-2*u + 2, 3) / 2;
+  }
+  function smooth(u){ // smoothstep, for settles
+    u = clamp(u, 0, 1);
+    return u*u*(3 - 2*u);
+  }
+
+  var TURN = 0.45;
+  var OVER = TURN * 1.04;          // 4% overshoot at end of the turn-in
+  var BACK_OVER = -0.018;          // small settle past front on the way back
+
+  // Face parameters at local time t (>= 0). Identical logic for both
+  // heads; the caller applies the 0.6s delay for Arjuna.
+  function faceAt(t){
+    t = Math.max(0, t);
+
+    // --- turn ---
+    var turn;
+    if(t < 1.2){
+      turn = 0;                                              // hold front
+    } else if(t < 3.0){
+      turn = OVER * easeInOutCubic((t - 1.2) / 1.8);         // ease in, land 4% over
+    } else if(t < 3.4){
+      turn = lerp(OVER, TURN, smooth((t - 3.0) / 0.4));      // settle to 0.45 by 3.4s
+    } else if(t < 6.6){
+      turn = TURN;                                           // hold 3/4
+    } else if(t < 8.1){
+      turn = lerp(TURN, BACK_OVER, easeInOutCubic((t - 6.6) / 1.5)); // ease back
+    } else if(t < 8.4){
+      turn = lerp(BACK_OVER, 0, smooth((t - 8.1) / 0.3));    // small settle
+    } else {
+      turn = 0;                                              // hold front
+    }
+
+    // --- gaze shift: 0 -> 0.5 -> 0 over 3.6..4.6s ---
+    var gx = 0;
+    if(t >= 3.6 && t <= 4.6){
+      gx = 0.5 * Math.sin(Math.PI * (t - 3.6) / 1.0);
+    }
+
+    // --- smile ---
+    var smile;
+    if(t < 5.0){
+      smile = 0.35;                                          // serene
+    } else if(t < 6.6){
+      smile = lerp(0.35, 0.9, easeInOutCubic((t - 5.0) / 1.6)); // joy
+    } else if(t < 8.4){
+      smile = lerp(0.9, 0.4, easeInOutCubic((t - 6.6) / 1.8));  // relax
+    } else {
+      smile = 0.4;
+    }
+
+    // --- eyeOpen ---
+    var eyeOpen;
+    if(t < 5.0){
+      eyeOpen = 0.92;
+    } else if(t < 6.6){
+      eyeOpen = lerp(0.92, 0.8, easeInOutCubic((t - 5.0) / 1.6)); // joy squint
+    } else if(t < 8.4){
+      eyeOpen = lerp(0.8, 0.92, easeInOutCubic((t - 6.6) / 1.8));
+    } else {
+      eyeOpen = 0.92;
+    }
+
+    // One deliberate slow blink centered at 9.0s, 0.36s total,
+    // done by modulating face.eyeOpen (module hash-blink may also run).
+    var bd = Math.abs(t - 9.0);
+    if(bd < 0.18){
+      var k = Math.cos((bd / 0.18) * Math.PI / 2);  // 1 at center -> 0 at edges
+      eyeOpen = lerp(eyeOpen, 0.06, k * k);
+    }
+
+    return { turn: turn, smile: smile, eyeOpen: eyeOpen, gaze: { x: gx, y: 0 } };
+  }
+
+  // ---------------------------------------------------------------
+  // The two heads.
+  // ---------------------------------------------------------------
+  var HEADS = [
+    { cx: 560,  cy: 540, seed: 7,  delay: 0,
+      style: { skin:'#8a5330', skinShade:'#5c3115', female:true,  hairColor:'#170d08', hairstyle:'braid', headgear:'tiara' } },
+    { cx: 1360, cy: 540, seed: 11, delay: 0.6,
+      style: { skin:'#c08652', skinShade:'#87511f', female:false, headgear:'mukut' } }
+  ];
+  var R = 300;
+
+  window.__renderFrame = function(i, fps){
+    fps = fps || 24;
+    var t = i / fps;
+
+    // ground: warm parchment vertical gradient
+    ctx.setTransform(1, 0, 0, 1, 0, 0);
+    var g = ctx.createLinearGradient(0, 0, 0, H);
+    g.addColorStop(0, '#e9d9b6');
+    g.addColorStop(1, '#c8b184');
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, W, H);
+
+    if(typeof window.drawHead4 !== 'function'){
+      ctx.fillStyle = '#7a1f1f';
+      ctx.font = '48px sans-serif';
+      ctx.fillText('drawHead4 is not defined (v7ref.js missing and candidate did not define it)', 60, 120);
+      return canvas.toDataURL('image/jpeg', 0.92);
+    }
+
+    for(var h = 0; h < HEADS.length; h++){
+      var head = HEADS[h];
+      var face = faceAt(t - head.delay);
+      ctx.save();
+      ctx.translate(head.cx, head.cy);
+      window.drawHead4(ctx, R, head.style, face, t, head.seed);
+      ctx.restore();
+    }
+    return canvas.toDataURL('image/jpeg', 0.92);
+  };
+
+  // expose for debugging / external inspection
+  window.__faceAt = faceAt;
+})();
+</script>
+</body>
+</html>

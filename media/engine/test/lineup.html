@@ -1,0 +1,56 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>body{margin:0;background:#20160e}canvas{display:block}</style>
+<canvas id="cv" width="1920" height="1080"></canvas>
+<script src="../src/core.js"></script>
+<script src="../src/paint.js"></script>
+<script src="../src/person3.js"></script>
+<script src="../src/people.js"></script>
+<script src="../../stories/winning-of-draupadi/cast.js"></script>
+<script>
+const ctx = document.getElementById('cv').getContext('2d');
+const T = parseFloat(new URLSearchParams(location.search).get('t') || '1.0');
+
+// warm parchment ground
+vgrad(ctx, 0, 0, W, H, [[0, '#e9d9b6'], [0.6, '#dcc9a0'], [1, '#c8b184']]);
+
+// ── top row: big heads (art check) ──
+const heads = [
+  ['draupadi', 0.45, {smile:0.25, gaze:{x:.1,y:.1}}],
+  ['arjuna', 0.05, {smile:0.05}],
+  ['krishna', 0.45, {smile:0.5}],
+  ['kunti', 0.12, {smile:0, brow:.3, lipsPart:.4}],
+  ['karna', 0.3, {smile:-0.3, brow:-.4}],
+  ['drupada', 0.3, {smile:0.1}],
+  ['vyasa', 0.2, {smile:0.15}],
+];
+heads.forEach(([name, turn, face], i) => {
+  ctx.save();
+  ctx.translate(170 + i * 265, 190);
+  drawHead(ctx, 95, CAST[name], Object.assign({turn}, face), T + i, i * 7 + 1);
+  ctx.restore();
+  ctx.fillStyle = '#3a2410'; ctx.font = '22px Georgia';
+  ctx.textAlign = 'center';
+  ctx.fillText(name, 170 + i * 265, 330);
+});
+
+// ── bottom row: full figures ──
+const figs = [
+  ['arjuna', {}, 1],
+  ['draupadi', {armF:{sh:0.5,el:1.15,wr:0,hand:'hold'}}, 1],
+  ['krishna', {armF:{sh:0.25,el:0.5}}, 1],
+  ['karna', {}, -1],
+  ['kunti', {armF:{sh:0.3,el:0.9,hand:'bless'}}, 1],
+  ['bhima', {}, 1],
+  ['drupada', {}, -1],
+  ['vyasa', {armF:{sh:0.45,el:0.8,hand:'bless'}}, 1],
+];
+figs.forEach(([name, pose, facing], i) => {
+  drawFigure(ctx, {
+    x: 150 + i * 235, y: 1020, s: 1.42, facing,
+    style: CAST[name], pose, t: T + i * 0.6, seed: i * 13 + 3,
+  });
+  ctx.fillStyle = '#3a2410'; ctx.font = '20px Georgia'; ctx.textAlign = 'center';
+  ctx.fillText(name, 150 + i * 235, 1058);
+});
+</script>

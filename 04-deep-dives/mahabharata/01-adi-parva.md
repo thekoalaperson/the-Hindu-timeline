@@ -69,7 +69,7 @@ The book is told in nested frames: **Ugraśravas Sauti** narrates to the ṛṣi
 
 - **Bhīma slays Hiḍimba** - In the woods the rākṣasa **Hiḍimba** sends his sister **Hiḍimbā** to lure the sleeping brothers; she falls in love with Bhīma instead, and Bhīma kills Hiḍimba in combat (Vyāsa, Ādi 154–155).
 - **Birth of Ghaṭotkaca** - With Kuntī's and Yudhiṣṭhira's leave, Bhīma weds **Hiḍimbā**; she bears the mighty bald-headed rākṣasa son **Ghaṭotkaca**, who vows to come whenever needed (and later dies heroically in the war) (Vyāsa, Ādi 155).
-- **The slaying of Baka** - At Ekacakrā the cannibal-demon **Bakāsura** extorts a cartload of food and a human victim daily; **Bhīma**, going in a brahmin's place, eats the food and kills Baka, freeing the town (Vyāsa, Ādi 159–166).
+- **The slaying of Baka** *(🎬 [animated retelling](../../media/stories/bhima-and-bakasura/))* - At Ekacakrā the cannibal-demon **Bakāsura** extorts a cartload of food and a human victim daily; **Bhīma**, going in a brahmin's place, eats the food and kills Baka, freeing the town (Vyāsa, Ādi 159–166).
 - **Birth of Draupadī foretold** - A brahmin guest tells of Drupada's fire-altar daughter; Vyāsa appears and directs the Pāṇḍavas toward Pāñcāla and Draupadī's svayaṃvara (Vyāsa, Ādi 166).
 
 ## Toward Pāñcāla (Caitraratha Parva)
@@ -78,6 +78,8 @@ The book is told in nested frames: **Ugraśravas Sauti** narrates to the ṛṣi
 - **The need for a priest & the tale of Tapatī, Vasiṣṭha, Aurva, Viśvāmitra** - The gandharva counsels the brotherhood to take a *purohita*; he recounts the lineage-tales of **Tapatī**, **Vasiṣṭha vs Viśvāmitra**, and **Aurva** — explaining why the Pāṇḍavas lack a guiding priest (Ādi 173–185). They engage **Dhaumya** as family priest (Ādi 182).
 
 ## Draupadī's Svayaṃvara (Svayaṃvara Parva)
+
+> 🎬 *Watch:* this episode (Ādi 166–198, through the wedding) has a ~2-minute hand-coded animated retelling in [`media/stories/winning-of-draupadi/`](../../media/stories/winning-of-draupadi/README.md) — interactive player + MP4.
 
 - **The contest** - **Drupada**, hoping Arjuna lives, sets a near-impossible test: string a mighty bow and shoot a revolving fish-target (*matsya-yantra*) by looking only at its reflection in water below, to win **Draupadī (Kṛṣṇā / Pāñcālī)** (Vyāsa, Ādi 186–188).
 - **The kings fail; Karṇa rebuffed** - Assembled monarchs cannot lift or string the bow. **Karṇa** rises to attempt it but is rejected by Draupadī as a *sūta* (charioteer's son) — a wound that fuels his hatred (Ādi 188–190).
