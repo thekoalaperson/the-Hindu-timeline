@@ -1,0 +1,91 @@
+# Gautamī-Māhātmya — Catalog of Embedded Tales (Brahma Purāṇa)
+
+> Where this sits: a **tale-keyed index** of the story-cycle embedded in the **Gautamī-māhātmya**, the ~105-chapter Godāvarī-glorification that is the largest single block of the [Brahma Purāṇa](../90-literature-corpus/puranas/brahma-purana.md) (vulgate adhyāyas ~70–175). The **frame legend** — sage Gautama, the phantom cow, and the descent of the Gautamī Gaṅgā — has its canonical home in [Godāvarī / Gautamī — Dakṣiṇa Gaṅgā](../06-sacred-geography/godavari-gautami-dakshina-ganga.md); **this file catalogs the tales told *inside* the frame**, one per tīrtha. Back to the [deep-dives index](README.md) · [master index](../README.md).
+
+Like its sibling [Bhāgavata tales catalog](bhagavata-tales-catalog.md), this is an **honest index, not a re-telling**. Each chapter of the māhātmya names a ford (tīrtha) on the Godāvarī, tells the story of how it got its name, and states the merit of bathing there — so the block is in effect a **necklace of independent fables** strung on the river. **Two clocks:** on the scriptural clock the tales are ṛṣi-age legends set after the river's descent (itself placed in deep mythic antiquity, before the Tretā-yuga events staged on its banks); on the academic clock the extant Brahma Purāṇa is a **late compilation, c. 10th–13th century CE and after**, and the Gautamī-māhātmya is prized as a near travel-guide snapshot of medieval Deccan sacred geography [scholarly] [late text]. **Chapter numbering:** the māhātmya circulates both *inside* the vulgate Brahma Purāṇa (adhyāyas ~70–175) and as a *separately transmitted* work of 105 chapters; the separate numbering runs ≈ vulgate minus 70 (e.g. Garuḍa-tīrtha = BP 90 = GM 20). Both are given below where known. [scholarly]
+
+---
+
+## The frame and the shape of the block
+
+- **The descent-frame (Gautama and the phantom cow)** — the whole māhātmya hangs on sage **Gautama**: the twelve-year drought, Varuṇa's boon of unfailing grain, the jealous sages' **māyā-dhenu** (illusory cow) that frames him for cow-slaughter, his tapas to Śiva at Brahmagiri, and the release of a strand of Gaṅgā from Śiva's locks as the **Gautamī Gaṅgā / Godāvarī**. → canonical treatment with all variants in [godavari-gautami-dakshina-ganga.md](../06-sacred-geography/godavari-gautami-dakshina-ganga.md). (Brahma Purāṇa, Gautamī-māhātmya, opening chapters; conclusion recapitulated at vulgate adh. 175)
+- **Narrative frame** — the māhātmya is cast as **Brahmā's** discourse (the Purāṇa's overall speaker), praising the Gautamī's fords one by one; the river divides into multiple streams and the final chapters carry her to her **confluence with the ocean**, where gods offer praise. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 76, 172–175)
+- **One tīrtha, one tale** — each adhyāya typically (a) tells the origin-legend of a ford's name, (b) states its greatness, (c) gives the fruit of bathing/gifting there. The tales below are the block's most distinctive **original fables**; a final section lists the **recycled pan-Purāṇic repertoire** it also carries. [scholarly]
+
+---
+
+## Garuḍa and Maṇināga (Garuḍa-tīrtha)
+
+- **Maṇināga's boon** — **Maṇināga**, a serpent son of **Ananta** ([Śeṣa](../08-beings-and-bestiary/shesha-ananta.md)), lives in terror of [Garuḍa](../08-beings-and-bestiary/garuda.md), devourer of snakes; he propitiates **Śiva** and wins the boon that *Garuḍa can do him no harm*, after which he wanders freely and no longer flees the eagle. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 90 = GM 20)
+- **The capture and the release** — astonished at a snake that does not run, Garuḍa seizes Maṇināga and imprisons him in his own residence. **Nandin** misses the serpent from Śiva's presence and reports it; Śiva sends Nandin to **Viṣṇu**, at whose command Garuḍa must reluctantly free his captive. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 90)
+- **The little finger on Garuḍa's head** — Garuḍa complains to Viṣṇu that for all his strength and battle-service he is ever ordered to surrender his gains; Viṣṇu answers by resting his **little finger** on Garuḍa's head — the weight crushes the bird flat, breaking his pride in his own strength. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 90)
+- **Restoration at the Gautamī** — directed to bathe in the Gautamī, Garuḍa recovers his body and rises **stronger and swifter than before**; the ford is thereafter **Garuḍa-tīrtha**. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 90)
+- Cross-refs: [Garuḍa](../08-beings-and-bestiary/garuda.md) (the vāhana's fuller myth-cycle, incl. the parallel pride-humbling motifs) · [Nāgas & serpents](../08-beings-and-bestiary/nagas-and-serpents.md).
+
+## Vṛddhagautama — the noseless sage and the aged bride
+
+- **The deformed son** — **Vṛddhagautama**, a son of sage Gautama, is born **ugly and noseless**; grown, he leaves to wander the world. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 107 ≈ GM 37)
+- **The old woman of Śītagiri** — in a cave on mount **Śītagiri** he finds an **aged woman** who has banked two boons from tapas — **learning** from Sarasvatī and **beauty/wholeness** from Varuṇa — and confers them on him; made handsome and learned, he marries her. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 107)
+- **Mockery and rejuvenation at the river** — visiting sages laugh at the young husband and his aged wife ("her son? her grandson?"); shamed, the couple consult **[Agastya](agastya.md)**, bathe in the **Gautamī** and pray to Viṣṇu and Śiva, and the old woman rises **young and beautiful** — the tale charters the ford's power to renew. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 107)
+- *Note:* the name ("Old Gautama") and the story's inversion of age and youth make it a deliberate mirror of the frame-sage; the corpus keeps the [ṛṣi-side Gautama node](gautama-ahalya.md) separate. The māhātmya tells the **Ahalyā** episode too, at its own ford (below).
+
+## Gautama and Maṇikuṇḍala — the dharma-wager
+
+- **The wager on dharma vs adharma** — a brāhmaṇa named **Gautama** (a namesake, *not* the frame-sage) and his vaiśya friend **Maṇikuṇḍala** set out trading; they fall to disputing whether **righteousness or wickedness prospers** in this world and stake all on the answer, agreeing that passers-by shall judge. Most people answer that *adharma triumphs*, and Maṇikuṇḍala forfeits his wealth to his cynical friend. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 170 ≈ GM 100)
+- **Escalation: arms, eyes, life** — Maṇikuṇḍala holds that dharma will yet triumph; the enraged Gautama presses further wagers — the loser's **two arms**, then his life — and, winning again by the world's cynical verdict, severs Maṇikuṇḍala's arms, **blinds him**, and leaves him dying on the Gautamī's bank. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 170)
+- **The viśalyakaraṇī healing** — the son of the rākṣasa **Vibhīṣaṇa** finds the mutilated man; Vibhīṣaṇa recalls that the healing herb **viśalyakaraṇī** — the very simple fetched for **Lakṣmaṇa** in the war at Laṅkā — fell here and has grown into a great tree; by it Maṇikuṇḍala's eyes and limbs are restored. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 170)
+- **Dharma's verdict** — Maṇikuṇḍala reaches the city of **Mahāpura**, cures its **blind princess**, and becomes king; years later the now-destitute Gautama is hauled before him as a criminal, and Maṇikuṇḍala **pardons his betrayer and shares his wealth** — dharma vindicated precisely where the crowd had crowned adharma. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 170)
+- *Parallel (tale-type):* the "virtue-vs-vice wager with mutilation and royal restoration" is a widespread Indic folktale type (the Satya/Pāpa or Dharmabuddhi/Duṣṭabuddhi pattern of story-literature); the Brahma Purāṇa fixes it to a Godāvarī ford. [folk] [scholarly]
+
+## The bird-and-hunter fables
+
+- **The self-immolating doves (Kapota-tīrtha)** — a male and female **pigeon (kapota)** cast themselves into the fire to feed a starving **hunter** who is their guest, and **both ascend to heaven**; the ford is **Kapota-tīrtha**. The supreme *atithi-dharma* (guest-duty) fable, here made a river-charter. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 80 = GM 10)
+  - *Variant (Mahābhārata, Śānti-parva, Āpad-dharma — the kapota-lubdhaka-upākhyāna):* the male pigeon immolates himself to feast the fowler who has snared his mate, and the fowler himself is converted by the sight — see the stub in [Mahābhārata minor episodes](mahabharata-minor-episodes.md). The two tellings are cataloged separately per house policy.
+  - *Cross-ref (motif):* the hawk-and-dove test of King Śibi — the other great dove-fable of sacrifice — has its own file: [Śibi](shibi.md).
+- **The war of the owl and the dove (Yama-tīrtha and its cluster)** — a **terrible war** breaks out between an **owl (ulūka)** and a **pigeon/dove (kapota)** with their hosts; the dove-party propitiates **Yama** and the owl-party **Agni**, and only when all worship the **Gautamī** is the war ended — chartering the Yama-tīrtha group of fords. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 125 = GM 55, "Yamatīrtha etc.")
+- **The hunter and the brāhmaṇa Veda** — an unlettered **hunter**, ignorant of every rite, worships Śiva out of **pure faith**, and Śiva is **more pleased with him** than with the learned brāhmaṇa **Veda** and his correct ritual — the māhātmya's bhakti-over-ritual exemplum. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 169 ≈ GM 99)
+  - *Cross-refs (motif-family):* the accidental-worship hunter of the [Śivarātri hunter legend](shivaratri-hunter-legend.md) and the South-Indian Kaṇṇappa cycle [regional]; the righteous-butcher teaching of the [Vyādha-gītā](vyadha-gita.md).
+
+## Pippalāda's revenge (Dadhīci's orphan)
+
+- **The orphan of the vajra** — after **[Dadhīci](dadhichi.md)** yields his bones so the gods may forge the **vajra**, his widow entrusts their infant son to the **pippala trees** and enters the fire; the trees rear the boy — hence **Pippalāda** — and beg **Soma/Candra, lord of trees and herbs**, to feed him **amṛta**, which gives him great strength. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 110 ≈ GM 40)
+  - *Variant (the mother's name):* the Brahma Purāṇa's telling (as rendered in the abridged translation) calls her **Lopāmudrā**; the standard Dadhīci genealogy (Bhāgavata-context; Purāṇic lists) names his wife **Suvarcā** — see [dadhichi.md](dadhichi.md), which catalogs the wife/son variants. [disputed]
+- **The vow of revenge** — grown, Pippalāda asks the trees who his parents were; learning that the **gods' need caused both deaths**, he resolves to destroy the gods, and undertakes fierce tapas to **Śiva** on the Gautamī in the Daṇḍaka country, demanding as boon the sight of Śiva's **third eye**. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 110)
+- **The mare-demon that turns on its asker** — from Śiva's third eye springs a **demoness in the shape of a mare**, who attacks **Pippalāda himself first** — reasoning that one born of the gods' benefactor is fit prey in a war on the gods; Śiva shields him. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 110)
+- **Pacification and the river** — Śiva persuades Pippalāda that vengeance cannot restore the dead; his parents appear in a celestial vehicle to bless him and bid him marry; the mare-born fire-being is discharged as a **river that merges into the Gautamī**, chartering the ford. (Brahma Purāṇa, Gautamī-māhātmya, vulgate adh. 110)
+  - *Variant (Śiva Purāṇa cycle):* the Śiva Purāṇa carries its own Pippalāda material (the Dadhīci frame with Suvarcā; the tale of Pippalāda and princess **Padmā**), a separate strand not merged here. (Śiva Purāṇa)
+  - *Cross-ref (the name):* a **Pippalāda** is also the teacher-sage of the [Praśna Upaniṣad](../90-literature-corpus/upanishads/prashna-upanishad.md) and eponym of the Paippalāda Atharvaveda recension; the identification of the Upaniṣadic teacher with Dadhīci's avenger son is traditional, not demonstrable. [scholarly]
+
+## The Caṇḍāla and the Brahmarākṣasa
+
+- **The outcaste devotee of Avanti** — a **caṇḍāla** living outside **Avanti** keeps, without fail, a monthly vow: on every **ekādaśī** he fasts by day and spends the whole night in Viṣṇu's temple singing the Lord's praises. Cross-ref: [Ekādaśī-māhātmyas catalog](ekadashi-mahatmyas-catalog.md). (Brahma Purāṇa, abridged sequence: told in the dharma-discourse chapters following the varṇāśrama section)
+- **The bargain on the riverbank** — gathering flowers by the river (the **Kṣiprā**, in the Avanti setting), he is seized by a starving **brahmarākṣasa** in a tree, ten days without food; the caṇḍāla begs leave to complete that night's worship first, pledging to return to be eaten — and, vow kept, **returns at dawn**. (Brahma Purāṇa, same discourse)
+- **The demon's confession** — the astonished demon reveals himself: **Somaśarmā**, son of the righteous brāhmaṇa **Devaśarmā**, who officiated as a priest at a yajña **without ever having received the upanayana** — the sin that made him a [brahmarākṣasa](../08-beings-and-bestiary/rakshasas.md) at death. He begs a share of the night-vigil's merit. (Brahma Purāṇa, same discourse)
+- **Merit given, both freed** — moved to pity, the caṇḍāla parts with a portion of his **puṇya**; the demon, released, performs penance at a tīrtha and is freed of his rākṣasa state. Touring the tīrthas afterwards, the caṇḍāla **remembers his own former birth** — a Veda-versed hermit who had contemptuously discarded alms dusted by passing cattle, the lapse that made him an outcaste. (Brahma Purāṇa, same discourse)
+- *Placement note:* popular retellings group this tale with the Gautamī cycle, but the māhātmya's chapter-lists (vulgate 70–175) do not show it, and its setting is Avanti/Kṣiprā, not the Godāvarī; the abridged translation places it **after** the varṇāśrama chapters, in the Purāṇa's closing dharma discourse. Cataloged here for the cycle's sake with placement flagged. [disputed]
+- *Cross-ref (motif):* outcaste devotion outshining ritual status is the engine of the Odia [Lakṣmī Purāṇa tale of Śriyā the caṇḍāluṇī](lakshmi-purana-shriya-chandaluni.md) [regional].
+
+## The shared repertoire — pan-Purāṇic tales recycled as ford-charters
+
+The māhātmya also re-tells much of the common epic-Purāṇic stock, each tale pinned to a Godāvarī ford (a hallmark of its compilatory character [scholarly]). Pointer-bullets only; canonical homes linked:
+
+- **Sagara's sons and the Gaṅgā's descent** — Bhagīratha material re-staged for the southern Gaṅgā. (vulgate adh. 78) → cf. [sacred rivers & descent myths](../06-sacred-geography/sacred-rivers-and-descent-myths.md).
+- **Ahalyā and Indra (Ahalyā-saṅgama-tīrtha)** — Indra's deception in Gautama's form, told to charter the Ahalyā-confluence ford. (vulgate adh. 87; GM 16–17) → canonical: [Ahalyā](characters/ahalya.md) · [Gautama](gautama-ahalya.md).
+- **Indra's brahmahatyā after Vṛtra** — Indra hides in a lotus-stalk and is purified in the Gautamī. (vulgate adh. 96) → cf. [Indra](../02-deities-and-cosmic-hierarchy/indra.md).
+- **Rāvaṇa's penance and Laṅkā** — the Paulastya brothers' tapas; Rāvaṇa defeats Kubera's side and takes Laṅkā. (vulgate adh. 97) → cf. [Rāvaṇa at Kailāsa](ravana-kailasa-ravananugraha.md).
+- **Śukra wins the mṛtasañjīvanī** — the Bhārgava obtains the revival-lore through Śiva. (vulgate adh. 95) → cf. [Śukra in the asura-wars roster](../08-beings-and-bestiary/asura-wars-and-roster.md).
+- **Hariścandra and Sunaḥśepa** — the truth-king and the substitute-victim, at their own fords. (vulgate adh. 104, 150) → canonical: [Hariścandra](hariscandra.md) · [Sunaḥśepa](sunahshepa.md).
+- **Purūravas; Soma and Tārā** — lunar-line seed-tales re-told. (vulgate adh. 151, 152) → canonical: [Purūravas-Urvaśī](pururavas-urvashi.md) · [Soma-Tārā-Budha](soma-tara-budha.md).
+- **Brahmā's fifth head; Agastya and Vindhya; Kadrū and Vinatā; Dakṣa's yajña; Rāma on the Godāvarī** — further stock episodes at vulgate adh. 113, 118, 159, 109, 154/157. → cf. [Agastya](agastya.md) · [Garuḍa](../08-beings-and-bestiary/garuda.md) (Kadrū-Vinatā) · [Pañcavaṭī](../06-sacred-geography/panchavati-nashik-godavari.md).
+
+---
+
+## Sources
+
+- **Brahma Purāṇa, Gautamī-māhātmya** (vulgate adhyāyas ~70–175 = separately-numbered GM 1–105) — the frame and all tale-chapters cataloged above: Kapota-tīrtha (80/GM 10), Garuḍa-tīrtha with Maṇināga (90/GM 20), Vṛddhagautama (107), Pippalāda (110), the owl–dove war at Yama-tīrtha (125/GM 55), the hunter and Veda (169), Gautama and Maṇikuṇḍala (170), the Gaṅgā-ocean confluence close (172–175).
+- *The Gautami Mahatmya* — English translation (AITM/Motilal Banarsidass series), online at [Wisdomlib: Gautami Mahatmya](https://www.wisdomlib.org/hinduism/book/gautami-mahatmya) (chapter titles incl. Kapota-tīrtha ch. 10, Garuḍa-tīrtha ch. 20, Yamatīrtha ch. 55, Ahalyā-saṅgama ch. 16).
+- *The Brahma Purana (abridged)* — retellings used for tale detail: [Garuda and Maninaga](https://www.wisdomlib.org/hinduism/book/the-brahma-purana/d/doc57570.html) · [Vriddhagoutama](https://www.wisdomlib.org/hinduism/book/the-brahma-purana/d/doc57575.html) · [Pippalada](https://www.wisdomlib.org/hinduism/book/the-brahma-purana/d/doc57576.html) · [Goutama and Manikundala](https://www.wisdomlib.org/hinduism/book/the-brahma-purana/d/doc57581.html) · [The Chandala and the Brahmarakshasa](https://www.wisdomlib.org/hinduism/book/the-brahma-purana/d/doc57584.html).
+- *Brahma Purana — a critical study* — chapter-by-chapter contents of the Gautamī-māhātmya and its repeated-tale inventory. [Wisdomlib: The Gautami-mahatmya section](https://www.wisdomlib.org/hinduism/essay/brahma-purana-critical-study/d/doc1454934.html) and the contents sections for adhyāyas 76–100, 101–125, 126–150, 151–175. [scholarly]
+- **Mahābhārata, Śānti-parva (Āpad-dharma)** — the kapota-lubdhaka parallel to the dove-fable.
+- **Śiva Purāṇa** — the parallel Dadhīci/Suvarcā and Pippalāda–Padmā strand.
+- *Cross-refs within this corpus:* [Brahma Purāṇa profile](../90-literature-corpus/puranas/brahma-purana.md) · [Godāvarī / Gautamī](../06-sacred-geography/godavari-gautami-dakshina-ganga.md) · [Dadhīci](dadhichi.md) · [Bhāgavata tales catalog](bhagavata-tales-catalog.md) (the model for this index).

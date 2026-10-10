@@ -1,0 +1,112 @@
+# Apsarās — Celestial Nymphs
+
+> Part of [08 · Beings & Bestiary](README.md) → the **semi-divine roster** of Indra's heavenly court.
+> Cosmic address: residents of *Svarga* / Indraloka (see [Devas, Asuras & the Lokas](../02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md)).
+> Paired class: the [Gandharvas](gandharvas-and-kinnaras.md) (their musician-husbands). For the mortal-tapas tales they trigger, cross-link the [04 · Deep Dives](../04-deep-dives/).
+
+The **apsarās** (अप्सरस्, "moving in the waters" — *ap* "water" + *saras* "to move/flow") are the celestial nymphs of Hindu cosmology: shape-shifting, eternally youthful dancers of Indra's court, wives of the Gandharvas, dispensers of *bhoga* (sensual delight) in heaven, escorts of slain heroes to *Svarga*, and — most narratively consequential — the weapons Indra deploys to **break the tapas (austerity) of rishis** whose accumulating spiritual heat threatens the cosmic order. They are an **open-ended class** (texts speak of tens of thousands), but a finite set of **named, famous** apsarās recurs across the Vedas, Mahābhārata, Rāmāyaṇa, Purāṇas and the *Nāṭyaśāstra*. This node catalogs the named roster and all major list/count variants.
+
+---
+
+## Origin Accounts (variants)
+
+- **Samudra Manthana (Churning of the Ocean of Milk)** - The classic origin: the apsarās arose from the foam/waters churned up between Devas and Asuras, alongside other treasures. Neither side claimed them, so they became *sādhāraṇa* (common to all) — hence "apsaras," born of the waters. *(Source: Viṣṇu Purāṇa 1.9; Rāmāyaṇa, Bāla Kāṇḍa 45; Mahābhārata, Ādi Parva.)*
+- *Variant (Mahābhārata, Ādi Parva):* Several apsarās (incl. Rambhā and eleven others) are the **daughters of the sage Kaśyapa and his wife Pradhā**, not ocean-born. *(Source: MBh Ādi Parva 65.)*
+- *Variant (Padma/Vāyu lineage):* Apsarās born of **Muni** (another daughter of Dakṣa wed to Kaśyapa) or of various Prajāpati-descended mothers. [disputed]
+- *Variant (individual births):* Several famous apsarās have **distinct origins** overriding the generic Manthana account — see Urvashī (thigh of Nara-Nārāyaṇa), Tilottamā (assembled by Viśvakarmā), below.
+
+---
+
+## The Two Classes (daivika / laukika)
+
+Classical texts divide apsarās into two ranks. *(Source: traditional Purāṇic / iconographic classification; summarized in modern surveys such as Vedic People & Wikipedia.)*
+
+- **Daivika apsarās (divine)** - The exalted, permanently heaven-dwelling order; counted as **ten** in the standard list. They embody the divine arts and rarely touch the mortal sphere.
+  - *Variant list (10):* **Menakā, Sahajanyā, Karṇikā / Parṇikā, Puñjikasthalā, Ṛtusthalā / Ghṛtasthalā, Ghṛtācī, Viśvācī, Urvaśī, Anumlocā / Anlochā, Pramlocā.** (Names vary slightly by recension.) [disputed]
+- **Laukika apsarās (worldly)** - The order more engaged with earth and mortals; counted as **thirty-four**. These are the nymphs typically sent down to seduce ascetics and to attend mortal kings. [disputed]
+- *Note:* The exact membership of each class differs across sources; the **10 + 34** split is the most-cited figure but the rosters are **not fully standardized** — treat as an open-ended classification.
+
+---
+
+## The Famous Named Apsarās
+
+### Urvashī (the foremost)
+- **Urvashī** - The most celebrated apsarā, paragon of beauty. **Origin:** born from the **thigh (*ūru*)** of the sage **Nara-Nārāyaṇa** at Badarī, created to humble the apsarās Indra had sent to disturb his penance — hence "Urvaśī" ("from the thigh"). Beloved of King **Purūravas** (founder of the Lunar/Chandravamśa dynasty); their love story runs from **Rigveda 10.95** (the Purūravas–Urvaśī dialogue hymn) through the *Śatapatha Brāhmaṇa* to Kālidāsa's play *Vikramorvaśīyam*. Mother of **Āyu** and other sons in the Lunar line. Also cursed **Arjuna** to a year as the eunuch Bṛhannala when he refused her advances (MBh Vana Parva). *(Source: RV 10.95; Śatapatha Brāhmaṇa 11.5.1; Viṣṇu Purāṇa; MBh.)* — see [Lineages / Chandravamśa](../03-lineages-vamsha/).
+
+### Menakā (breaker of Vishwāmitra)
+- **Menakā** - Among the most beautiful; the archetypal *tapo-bhanga* (penance-breaker). Indra sent her against the rishi **Viśvāmitra**; aided by Vāyu (who disrobed her) and Kāmadeva, she seduced him, and from their union was born **Śakuntalā** — abandoned, then mother of Emperor **Bharata**. *(Source: MBh Ādi Parva; Rāmāyaṇa Bāla Kāṇḍa.)* — see [Vishwāmitra & Vasiṣṭha](../04-deep-dives/vishwamitra-vasishtha.md) and [Śakuntalā & Bharata](../04-deep-dives/shakuntala-bharata.md).
+  - *Also:* in some accounts Menakā similarly bore **Pramadvarā** (by the Gandharva Viśvāvasu), wife of Ruru. *(Source: MBh Ādi Parva.)*
+
+### Rambhā (queen of the apsarās)
+- **Rambhā** - Often titled the loveliest, "queen" of the apsarās, mistress of dance and music. **Origin:** ocean-born in Manthana accounts; daughter of Kaśyapa/Pradhā in MBh. Consort of **Nalakūbara** (son of Kubera). Sent against Viśvāmitra, she was **cursed to become stone** for ten thousand years when she failed. Assaulted by **Rāvaṇa** despite her protests — she was on her way to Nalakūbara, and pleaded that as his son's beloved she was Rāvaṇa's own daughter-in-law — prompting **Nalakūbara's** curse that Rāvaṇa's head would break into **seven** pieces if he ever again forced an unwilling woman. *(Source: Rāmāyaṇa Uttara Kāṇḍa 26; Bāla Kāṇḍa; MBh Ādi Parva.)*
+  - *Do not merge with the Brahmā curse:* the restraint Rāvaṇa actually cites in the war-book is the **hundred**-piece curse Brahmā laid on him over **Puñjikasthalā** (Yuddha 13, below) — two separate assaults, two separate cursers, two different numbers. Tradition and retelling routinely fuse them into one. [disputed]
+
+### Tilottamā (the assembled perfection)
+- **Tilottamā** - Fashioned by **Viśvakarmā** at Brahmā's command from the **finest particle (*tila*) of every beautiful thing (*uttama*)** in creation — hence her name. Created specifically to destroy the invincible Asura brothers **Sunda and Upasunda**, who, mesmerized by her, fought each other to death over her. *(Source: MBh Ādi Parva, Sunda-Upasunda episode.)* By a side-effect of her circling Śiva, Śiva grew four faces to keep watching her (and Indra grew a thousand eyes).
+
+### Ghṛtācī (the much-loved, the genealogical mother)
+- **Ghṛtācī** (घृताची, "moving in / dripping with ghee," from *ghṛta* "clarified butter" + *añc* "to move") - One of the **daivika ten** (listed alongside Menakā, Sahajanyā, Viśvācī, Urvaśī, Pramlocā and the rest above), and among all the named apsarās the one whose unions are the **most genealogically consequential**: where Urvaśī seeds a single great line (the Lunar dynasty via Purūravas), Ghṛtācī is repeatedly cited as the mother — by sages and by kings alike — of **whole clusters of offspring** who become apical ancestors of dynastic and ṛṣi lineages. She is invoked across the MBh and the Viṣṇu/Bhāgavata/Vāmana Purāṇas more as a *fountainhead of descent* than as any single story's heroine. *(Source: MBh Ādi Parva; Viṣṇu Purāṇa IV.19; Bhāgavata Purāṇa IX.20; Vāmana Purāṇa.)*
+  - **The ten sons of Raudrāśva (the Paurava branch)** - In the Paurava genealogy, the early king **Raudrāśva / Rudrāśva** (a descendant of Puru) unites with Ghṛtācī and begets **ten sons** — among them **Ṛceyu / Anteyu, Kakṣeyu, Kṛkaṇeyu, Sthaṇḍileyu, Vaneyu, Jaleyu, Tejeyu, Satyeyu, Dharmeyu** and **Sannateyu / Matināra-line forebear** (the *-eyu* names varying by recension) — from whom the Paurava–Bhārata stem runs down through **Matināra** toward **Saṃvaraṇa**, **Kuru**, and ultimately the Kauravas and Pāṇḍavas. *(Source: Viṣṇu Purāṇa IV.19; Bhāgavata Purāṇa IX.20.)* — see [Sūryavaṃśa & Chandravaṃśa](../03-lineages-vamsha/suryavamsha-and-chandravamsha.md) and [Saṃvaraṇa & Tapatī](../03-lineages-vamsha/samvarana-tapati.md). *(Variant: recensions disagree both on the exact ten names and on whether all ten are Ghṛtācī's or distributed across more than one mother of Raudrāśva; the headline "ten sons by the apsarā Ghṛtācī" is the most-cited form. [disputed])*
+  - **Mother of Droṇa, by Bharadvāja** - The tradition that makes Ghṛtācī "mother by sage **Bharadvāja**" is the conception of **[Droṇa](../04-deep-dives/characters/drona.md)**: at the Gaṅgā the ṛṣi **Bharadvāja** sees Ghṛtācī, a breeze disrobes her, his seed (*retas*) escapes, and he catches it in a wooden trough (*droṇa*) from which the boy develops — *ayonija*, "not womb-born." She is thus, at one remove, ancestress of the epic's weapons-master line (Droṇa → **Aśvatthāman**). *(Source: MBh Ādi Parva ~130.)* — see [Bharadvāja](../04-deep-dives/bharadvaja.md).
+  - **Consort of Viśvakarman (Vāmana-Purāṇa tradition)** - A separate strand names Ghṛtācī the **wife of Viśvakarmā** (the architect-god), mother of his daughters and artisan progeny; this is the tradition that links her, by adjacency, to the **Saṃvaraṇa–Sūrya** material (Viśvakarmā being father of **Saṃjñā/Saraṇyū**, Sūrya's wife, whose own dynastic descent runs near the Paurava king **Saṃvaraṇa** married to **Tapatī**, Sūrya's daughter). *(Source: Vāmana Purāṇa.)* — see [Viśvakarmā & Tvaṣṭṛ](../02-deities-and-cosmic-hierarchy/vishvakarma-and-tvashtar.md). *(Variant: the apsarā-Ghṛtācī of the dynastic tales and the Ghṛtācī named as Viśvakarmā's consort are treated as one figure by the cataloguing Purāṇas, though the identification is not pressed in every recension. [disputed])*
+  - **The recurring tapas-tester** - Like Menakā and Pramlocā, Ghṛtācī functions as a *tapo-bhanga* agent whose mere appearance breaks an ascetic's penance; the Bharadvāja–Droṇa episode is itself an instance (the disrobing breeze and the spilled *retas* are the standard penance-shattering motif), and she recurs in the Purāṇic rosters of nymphs deployed against rishis whose austerity grows dangerous. *(Source: MBh Ādi Parva; Purāṇic apsarā-lists.)* — see **Penance-breakers** under Roles & Functions below.
+
+### Puñjikasthalā → Añjanā (mother of Hanumān)
+- **Puñjikasthalā** - A daivika apsarā **cursed** to be **born on earth as the vānara princess Añjanā**, daughter of the vānara chief **Kuñjara**; she becomes the wife of the vānara king **Kesarī** and the mother of **Hanumān**. *(Source: Vālmīki Rāmāyaṇa, Kiṣkindhā Kāṇḍa 66.)* — see [Hanumān](../02-deities-and-cosmic-hierarchy/hanuman.md) and [Vānaras & Ṛkṣas](vanaras-and-rikshas.md).
+  - *What the epic withholds:* Vālmīki says only "by reason of a curse" — he **names no curser, states no terms, and sets no release-condition**. The bare fact of the curse is the whole of the text. *(Source: Kiṣkindhā Kāṇḍa 66.)*
+  - *Variant (folk & Purāṇic Hanumān-birth traditions):* the curser is supplied as **Bṛhaspati**, or in some texts **Indra**, with the rishi **Durvāsa** softening the sentence so that she may marry Kesarī and bear Hanumān, after which she is freed. This is the tradition's completion of a gap the epic leaves open, not a reading of it. [folk]
+  - *Name-collision note:* a **second, distinct** apsarā **Puñjikasthalā** appears in the Rāmāyaṇa — the one **Rāvaṇa** seizes as she goes to Brahmā's world, for which **Brahmā** curses him that his head will split into a hundred pieces should he ever again force an unwilling woman. Rāvaṇa confesses this curse himself, in his own war-council, and it — not the Nalakūbara/Rambhā curse — is the war-book's own answer to why Sītā is never forced. The two apsarases share a name and nothing else. *(Source: Vālmīki Rāmāyaṇa, Yuddha Kāṇḍa 13.)* [disputed: routinely conflated with Rambhā's curse in retellings]
+
+### Pramlocā (and the 907-year tapas of Kandu)
+- **Pramlocā** - Sent by Indra to break the terrifying penance of rishi **Kandu**, whose austerity "scorched the three worlds." In the Mandara valley Kandu lived with her **907 years, 6 months and 3 days** (which seemed a day to him); when he banished her, the foetus exuded from her limbs as **sweat onto the trees**, nursed by the trees and the moon, becoming **Māriṣā** — later wife of the **Prachetas** and mother of **Dakṣa**. *(Source: Viṣṇu Purāṇa 1.15; Brahma Purāṇa; Bhāgavata Purāṇa.)*
+
+### Pañcacūḍā (the interlocutor of the strī-svabhāva discourse)
+- **Pañcacūḍā** (Panchachuda, "five-crested") - The apsarā framed as the authority on **strī-svabhāva** (the inner nature and conduct of women) in the **Mahābhārata Anuśāsana Parva**. In Bhīṣma's instruction of **Yudhiṣṭhira** from the bed of arrows, Bhīṣma reports an older dialogue — the **Nārada–Pañcacūḍā saṃvāda** — in which the sage **Nārada**, encountering the beautiful apsarā Pañcacūḍā, interrogates her about the true disposition of women; her unsparing reply (that even well-born, well-guarded women are by nature restless, given to transgression, and not to be wholly trusted) becomes one of the epic's most-cited and most-debated gnomic passages on women, frequently invoked (and contested) in later moral and *dharmaśāstra* literature. *(Source: MBh Anuśāsana Parva, Nārada-Pañcacūḍā saṃvāda; Bhīṣma–Yudhiṣṭhira frame.)* She also appears as a standard name in **Purāṇic apsarā rosters** among the court-dancers of Indra's heaven. *(Source: Purāṇic lists.)* — see [Bhīṣma](../03-lineages-vamsha/) and the [Mahābhārata Deep Dives](../04-deep-dives/).
+
+### Miśrakeśī and other recurring names
+- **Miśrakeśī** - A prominent court apsarā, named in both the MBh and *Nāṭyaśāstra* rosters; appears among those attending Yudhiṣṭhira's vision of heaven. *(Source: MBh Sabhā Parva; Nāṭyaśāstra.)*
+- **Sahajanyā** - Listed among the daivika ten and the MBh roster; a frequent dance-attendant of Indra's court. *(Source: MBh; Purāṇic lists.)*
+- **Viśvācī** - Of the daivika ten; mother of several heroes/sages by mortal kings in genealogies. *(Source: Viṣṇu Purāṇa.)*
+- **Anumlocā / Anlochā** - Of the daivika ten, paired with Pramlocā. *(Source: Purāṇic lists.)*
+- **Pūrvacitti** - Named in MBh; in the Bhāgavata, sent against and consort of King **Āgnīdhra**, ancestress of the Jambūdvīpa kings (mother of Nābhi etc.). *(Source: Bhāgavata Purāṇa 5.2; MBh.)*
+- **Citralekhā** - Apsarā skilled in painting/magic; friend of **Ūṣā** (daughter of Bāṇāsura), she abducts **Aniruddha** by her arts. *(Source: Bhāgavata / Harivaṃśa, Ūṣā-Aniruddha episode.)*
+- **Citrasenā, Madhuraswanā, Saha, Prajāgarā, Gopālī, Varūthinī, Daṇḍagaurī, Kumbhayoni, Svayamprabhā** - Further apsarās named in the MBh roster. *(Source: MBh Ādi Parva.)*
+- **Svayamprabhā and Hemā (the Ṛkṣabila cave)** - **Hemā** is the apsarā beloved of **Maya the dānava**, for whom Maya built the jewelled subterranean mansion in the Vindhyas; when Indra struck Maya down with the vajra for that union, Hemā departed to Brahmā's world, leaving the cave in the keeping of her friend **Svayamprabhā**, an ascetic and the **daughter of Merusāvarṇi**. It is Svayamprabhā who feeds Aṅgada's starving southern party in the cave and, since none who enters may leave alive, closes her eyes and wills them out to the sea-shore — the act that puts them on the beach where Sampāti finds them. *(Source: Vālmīki Rāmāyaṇa, Kiṣkindhā Kāṇḍa 50–52.)* — **Hemā is not the architect's daughter**; Maya *is* the architect, and she is his beloved. — see [Maya Dānava](maya-danava.md).
+- **Vargā** and her companions (**Saurabheyī, Samīcī, Budbudā, Latā**) - Five apsarās of the Rāmāyaṇa/MBh who, cursed to become **crocodiles**, were freed by **Arjuna** in the southern tīrthas. *(Source: MBh Ādi Parva, Tīrtha-yātrā.)*
+- **Ṛtusthalā / Ghṛtasthalā, Karṇikā/Parṇikā** - Remaining members of the daivika-ten list (recension-dependent). [disputed]
+
+---
+
+## Canonical List Variants (count & name catalogs)
+
+- *Variant — Rigveda:* Names few individually (Urvaśī is the prime named apsarā, RV 10.95); apsarās appear as a plural class, wives/companions of Gandharvas, associated with waters and trees.
+- *Variant — Nāṭyaśāstra (Bharata), 26 named:* **Mañjukeśī, Sukeśī, Miśrakeśī, Sulocanā, Saudāminī, Devadattā, Devasenā, Manoramā, Sudatī, Sundarī, Vigagdhā, Vividhā, Budhā, Sumālā, Santati, Sunandā, Sumukhī, Māgadhī, Arjunī, Saralā, Keralā, Dhṛti, Nandā, Supuṣkalā, Supuṣpamālā, Kalabhā** — born/listed as the dancers of the dramatic arts. *(Source: Nāṭyaśāstra.)*
+- *Variant — Mahābhārata (Ādi/Sabhā Parva), 18+ named in one passage:* **Ghṛtācī, Menakā, Rambhā, Tilottamā, Pūrvacitti, Svayamprabhā, Urvaśī, Miśrakeśī, Daṇḍagaurī, Varūthinī, Gopālī, Sahajanyā, Kumbhayoni, Prajāgarā, Citrasenā, Citralekhā, Saha, Madhuraswanā** (some passages enumerate **~45** apsarās total). *(Source: MBh.)*
+- *Variant — Daivika 10 + Laukika 34:* The two-class scheme above; the headline counts (10 / 34) are the most-cited but membership is **not fixed**.
+- *Open-ended:* Purāṇas variously assert **35 million**, or "innumerable," apsarās — so the named roster is a finite catalog atop an unbounded class. [late text]
+
+---
+
+## Roles & Functions (cross-cutting)
+
+- **Indra's court (Indraloka/Svarga)** - Principal dancers and entertainers; wives/consorts of the **Gandharvas** (court musicians). Together they perform at divine assemblies. — see [Gandharvas](gandharvas-and-kinnaras.md).
+- **Penance-breakers (*tapo-bhanga*)** - Indra's instrument against rishis whose austerity threatens his throne or cosmic balance: **Menakā→Viśvāmitra**, **Pramlocā→Kandu**, **Rambhā→Viśvāmitra**, the daivika nymphs→**Nara-Nārāyaṇa** (whence Urvaśī). Failure often incurs a curse (Rambhā→stone). — see [04 · Deep Dives](../04-deep-dives/).
+- **Escorts of heroes** - They garland and bear slain warriors who die valorously to *Svarga* (a motif invoked across the MBh war books).
+- **Mothers of dynastic lines** - Through unions with kings/sages they seed genealogies (Urvaśī→Lunar line via Purūravas; Pūrvacitti→Āgnīdhra's line; Ghṛtācī/Viśvācī→various). — see [03 · Lineages](../03-lineages-vamsha/).
+- **Shape-shifting & the arts** - Able to change form at will; archetypes of **dance, music and erotic beauty (*śṛṅgāra rasa*)**; later codified in the *Nāṭyaśāstra* and sculpted on temple walls (the *surasundarī* / apsarā reliefs).
+
+---
+
+## Sources
+
+- **Vālmīki Rāmāyaṇa** *(vulgate / Southern-recension sargas)* — Kiṣkindhā Kāṇḍa **50–52** (Hemā, Maya's cave, and Svayamprabhā daughter of Merusāvarṇi) and **66** (Puñjikasthalā's curse and birth as Añjanā, with no curser named); Yuddha Kāṇḍa **13** (Rāvaṇa's confession of Brahmā's hundred-piece curse over the *other* Puñjikasthalā); Uttara Kāṇḍa **26** (Rambhā and Nalakūbara's seven-piece curse).
+- *Apsara* — Wikipedia: https://en.wikipedia.org/wiki/Apsara (named rosters; Nāṭyaśāstra 26; MBh list; Manthana origin; Menakā–Viśvāmitra).
+- *Rambha (apsara)* — Wikipedia: https://en.wikipedia.org/wiki/Rambha_(apsara) (origins, Vishwāmitra/stone curse, Rāvaṇa–Nalakūbara curse).
+- *Menaka* — Wikipedia: https://en.wikipedia.org/wiki/Menaka (Viśvāmitra, Śakuntalā).
+- *Pramlocha* — Wikipedia: https://en.wikipedia.org/wiki/Pramlocha and Indica Today, *Apsara Pramlocha's 907 Years Romance with Rishi Kandu*: https://www.indica.today/quick-reads/apsara-pramlochas-907-years-romance-rishi-kandu/ (Kandu, 907-year tale, Māriṣā).
+- *Añjanā* — Wikipedia: https://en.wikipedia.org/wiki/A%C3%B1jan%C4%81 and Hindu Blog, *From Celestial Nymph to Mother of Hanuman*: https://www.hindu-blog.com/2025/10/from-celestial-nymph-to-mother-of.html (Puñjikasthalā→Añjanā→Hanumān).
+- Vedic People, *Apsaras — Origins, Types & Roles*: https://vedicpeople.com/people/apsaras/ (daivika 10 / laukika 34 classification).
+- Vyāsa Mahābhārata encyclopedia, *Apsaras*: https://www.vyasaonline.com/encyclopedia/apsaras/ (MBh name lists; Vargā & companions).
+- Dolls of India, *Apsaras — The Dancing Damsels of Indra's Court*: https://www.dollsofindia.com/library/apsaras/ (roles, Manthana, individual origins).
+
+> **Roster status:** OPEN-ENDED. The named apsarās above are the finite famous core; the underlying class is counted in the millions and membership of the daivika/laukika lists varies by recension. Counts and spellings are flagged where recension-dependent.

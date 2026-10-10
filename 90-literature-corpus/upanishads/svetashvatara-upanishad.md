@@ -1,0 +1,114 @@
+# Śvetāśvatara Upaniṣad — Dedicated Deep-Dive
+
+> Part of [`90-literature-corpus/`](../README.md) — a per-text deep-dive into the **Śvetāśvatara Upaniṣad**, the most overtly **theistic** of the *mukhya* Upaniṣads and the bridge from the impersonal Brahman of the older Upaniṣads to **bhakti** and **Śaiva** theology. Companion to the cross-text overview in [`principal-upanishads-detail.md`](../principal-upanishads-detail.md); parent Veda in [`vedas/yajurveda.md`](../vedas/yajurveda.md); sibling deep-dive [`chandogya-upanishad.md`](./chandogya-upanishad.md). For Rudra-Śiva as Brahman see [`../../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md`](../../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md) and [`../../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md`](../../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md); for the proto-Sāṃkhya/Yoga vocabulary see [`../darshanas/samkhya-karika.md`](../darshanas/samkhya-karika.md) and [`../../05-concepts-and-dharma/yoga-paths-and-patanjali.md`](../../05-concepts-and-dharma/yoga-paths-and-patanjali.md). Master index: [`../../README.md`](../../README.md).
+
+---
+
+## 1. Identity, Placement, Dating
+
+- **Parent Veda & school** — the Śvetāśvatara belongs to the **Kṛṣṇa (Black) Yajurveda**, traditionally attached to the **Taittirīya** branch; it is associated with the **Śvetāśvatara śākhā/caraṇa**, a now-largely-lost school whose name it carries. *(Source: Śvetāśvatara Up.; Muktikā tradition)*
+- **The name** — "Śvetāśvatara" is read two ways: (a) the **eponymous sage Śvetāśvatara**, named in the colophon **6.21** as the one who, having attained the highest, taught this knowledge to renunciate ascetics; (b) etymologically *śveta-aśva* ("white horse") + *tara* ("carrying across") — "he who is carried across [saṃsāra] on a white horse," i.e. one whose senses (the horses) are purified. *(Source: Śvetāśvatara Up. 6.21)* [folk etymology widely repeated]
+- **Scale** — **113 mantras** across **six adhyāyas (chapters)**: roughly **16 + 17 + 21 + 22 + 14 + 23** verses; the final three verses of ch. 6 (6.21–6.23) form a closing **epilogue/phala-śruti**. Listed among the principal Upaniṣads; numbered variously in the **Muktikā** list of 108. *(Source: Śvetāśvatara Up.; Muktikā Up.)*
+- **Dating (two clocks)** —
+  - *Academic:* a **late metrical (verse) Upaniṣad**, generally **c. 5th–4th c. BCE** (some place it as late as ~3rd c. BCE), composed **after** Bṛhadāraṇyaka, Chāndogya, Kena and Kaṭha; it shows developed proto-Sāṃkhya and proto-Yoga vocabulary and "non-Vedic influences" (Olivelle; standard surveys). [scholarly]
+  - *Variant (orthodox / traditional):* eternal *apauruṣeya* Śruti "seen" by ṛṣis (the sage **Śvetāśvatara**) and compiled at the Dvāpara–Kali junction (~3102 BCE; see Kali-Yuga onset constant), not "authored" in a BCE stratum. Both frames are recorded here; neither is corrected. [scripture vs. academic dating]
+- **Distinctive character** — unlike most *mukhya* Upaniṣads (which treat an impersonal *nirguṇa* Brahman), the Śvetāśvatara is **overtly theistic (saguṇa/Īśvara-centric)**: it names a **personal God** — **Rudra / Hara / Īśa / Bhagavān / Deva / Maheśvara / Śiva** — and identifies *that* God *with* Brahman, opening the door to **bhakti**. It is therefore read as **the seam between Upaniṣadic monism and Purāṇic/Āgamic theism**. [pivotal bridge text]
+- **Commentary** — a **bhāṣya attributed to Ādi Śaṅkara** exists but its full ascription to Śaṅkara is contested by modern scholars (likely remodelled/interpolated by later hands); a separate gloss is attributed to **Vijñānabhagavat / Śaṅkarānanda**. The text is a **core proof-text for theistic Vedānta** and is quoted approvingly by **Rāmānuja** to establish the Personal God as Ultimate Reality, and across **Śaiva** schools. *(Source: pseudo-Śaṅkara bhāṣya; Śaiva commentarial tradition)*
+
+---
+
+## 2. Chapter 1 — The Quest for the First Cause; Brahma-cakra
+
+- **The opening questions (1.1)** — students of Brahman ask: *"kiṃ kāraṇam? brahma?"* — **What is the cause?** Is it Brahman? Whence are we born, by what do we live, in what are we established? Are time (kāla), nature (svabhāva), necessity (niyati), chance (yadṛcchā), the elements (bhūta), the womb (yoni) or the puruṣa the cause — or a combination? *(Source: Śvetāśvatara Up. 1.1–1.2)* — a famous **survey of rival causal theories** (an early doxography).
+- **The answer: Deva's power (1.3)** — those who practiced meditation (dhyāna-yoga) saw the **self-power of the Deva (devātma-śakti), hidden by its own qualities (sva-guṇair nigūḍhām)**; *He alone* presides over all these causes "from time to the self." This is the Upaniṣad's signature move — replacing the impersonal substrate with a **God who wields māyā/śakti**.
+- **The wheel of Brahman — Brahma-cakra (1.4–1.6)** — the cosmos is figured as a **great wheel** (one-felloed, threefold, with sixteen ends, fifty spokes, twenty counter-spokes, six sets of eight...) on which the *haṃsa* (the individual soul) **wanders, thinking itself separate**, until, favoured by Him, it attains immortality. *(Source: Śvetāśvatara Up. 1.4–1.6)* — an early **soul-wheel (saṃsāra)** image; cf. [`../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md`](../../05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md).
+- **Knowing God ends all bondage (1.8–1.11)** — the perishable (kṣara) is *pradhāna* (= prakṛti); the immortal-imperishable (akṣara) is *Hara*; the **one Deva rules both** the perishable and the self. By meditating on, uniting with, and finally *becoming* Him, all *māyā* ceases; knowing God, *"all fetters fall away."* *(Source: Śvetāśvatara Up. 1.8–1.11)* — note the **name Hara (= Śiva)** used for the imperishable principle.
+
+---
+
+## 3. Chapter 2 — The Earliest Yoga Manual in the Upaniṣads
+
+- **Savitṛ invocation (2.1–2.5)** — chapter 2 opens with verses adapted from the Yajurveda **Savitṛ hymns** ("yuñjānaḥ prathamam manaḥ…"), yoking the mind and senses to the great Light, framing yoga as a sacrificial discipline. *(Source: Śvetāśvatara Up. 2.1–2.5; cf. ṚV/YV Savitṛ mantras)*
+- **Posture, place, and method (2.8–2.10)** — concrete **yoga instruction**: hold the **body steady, chest, neck and head erect (trīṇy unnataṃ)**; restrain the senses into the heart; cross the fearful currents on the boat of Brahman; control the breath, breathing through the nostrils with checked motion as one reins "restless horses"; practice in a **level, clean, quiet cave/place**, free of pebbles, fire and gravel, pleasing to the mind. *(Source: Śvetāśvatara Up. 2.8–2.10)* — among the **oldest systematic descriptions of yogic praxis in Śruti**, predating Patañjali; see [`../../05-concepts-and-dharma/yoga-paths-and-patanjali.md`](../../05-concepts-and-dharma/yoga-paths-and-patanjali.md).
+- **Preliminary visions (2.11)** — signs of progress in yoga: forms like **mist, smoke, sun, wind, fire, fireflies, lightning, crystal and moon** appear before the manifestation of Brahman. *(Source: Śvetāśvatara Up. 2.11)*
+- **The fruit (2.12–2.15)** — for the yogī of an earth/water/fire/air/ether-purified body there is no sickness, age or death; lightness, health, steadiness, clear complexion follow; as a mirror cleaned of dust shines, so the embodied one, **seeing the true nature of the Self (ātma-tattva), becomes one, his goal attained, freed from sorrow.** *(Source: Śvetāśvatara Up. 2.12–2.15)*
+
+---
+
+## 4. Chapter 3 — Rudra Identified as Brahman; *Eko hi Rudraḥ*
+
+- **The single ruler (3.1–3.2)** — the **one (eka) who rules** by His ruling powers (īśanībhiḥ) is alone; there is **no second** beside Him who stands over all wombs and beings. *(Source: Śvetāśvatara Up. 3.1)*
+- **"Eko hi Rudraḥ" (3.2)** — *"ekohi rudro na dvitīyāya tasthur…"* — **"Rudra is truly one; they did not allow a second"**: He alone, holding all worlds with His ruling powers, stands behind beings, creates and at the end of time rolls them up (saṃcukoca). *(Source: Śvetāśvatara Up. 3.2)* — the **foundational verse of Rudra/Śiva-monotheism**, lifted almost verbatim into Śaiva theology; see [`../../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md`](../../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md).
+- **The benediction (3.5–3.6)** — *"yā te rudra śivā tanūr aghorā…"* — invocation of **Rudra's auspicious, non-terrifying (śivā, aghorā) form**, asking Him to look with it; here **śivā ("auspicious")** functions as the bridge between the adjective and the proper name **Śiva**. *(Source: Śvetāśvatara Up. 3.5–3.6)* [the adjective-to-name crystallization of "Śiva"]
+- **The cosmic Puruṣa (3.8–3.16)** — borrowing from the **Puruṣa-Sūkta** and **Yajurveda**: *"vedāham etaṃ puruṣaṃ mahāntam āditya-varṇaṃ tamasaḥ parastāt"* — "I know this great Puruṣa, sun-coloured, beyond darkness; knowing Him alone one crosses death; there is no other path." (3.8). He is **"sahasra-śīrṣā"** (thousand-headed), pervading all yet a *"hand-span (aṅguṣṭha-mātra) measure"* in the heart. *(Source: Śvetāśvatara Up. 3.8–3.16)*
+- **Subtle and all-pervading (3.17–3.21)** — He grasps without hands, moves without feet, sees without eyes, hears without ears; **subtler than the subtle, greater than the great**, seated in the secret heart; the **tranquil one (śānta)** worthy of worship. *(Source: Śvetāśvatara Up. 3.19–3.20)*
+
+---
+
+## 5. Chapter 4 — Māyā, the Two Birds, and the One God of the Manifold
+
+- **The colourless making colours (4.1)** — the **one, colourless (avarṇa)** Deva who, by His manifold power (bahudhā śaktiyogāt), distributes many colours for a hidden purpose, and into whom the universe dissolves at the beginning and end — *"Sa no buddhyā śubhayā saṃyunaktu"* ("May He join us with clear understanding"). *(Source: Śvetāśvatara Up. 4.1)*
+- **The all-pervading God (4.2–4.4)** — *"tad eva agnis tad ādityas tad vāyus tad u candramāḥ…"* — **"That alone is Agni, that the Sun, that Vāyu, that the Moon... that Brahman, the waters, Prajāpati."** He is woman, man, youth, maiden, the old man tottering on a staff; He is the blue fly, the green parrot, the cloud, the seasons, the seas — **born everywhere with all faces**. *(Source: Śvetāśvatara Up. 4.2–4.4)* — a sweeping **panentheist** declaration of God as the manifold.
+- **The three-coloured ewe — aja (4.5)** — the cryptic verse of the **one unborn female (ajā: "she-goat / unborn") red, white and black** (the three guṇas — rajas/sattva/tamas) producing many offspring like herself, beside whom lies one unborn male (the soul) who **enjoys her**, while another unborn male, having enjoyed, **leaves her**. *(Source: Śvetāśvatara Up. 4.5)* — read by Sāṃkhya-leaning commentators as **prakṛti's three guṇas** and the bound vs. liberated puruṣa. [allegory; reading disputed]
+- **The Two Birds — *Dvā suparṇā* (4.6–4.7)** — *"dvā suparṇā sayujā sakhāyā samānaṃ vṛkṣaṃ pariṣasvajāte; tayor anyaḥ pippalaṃ svādv atti, anaśnann anyo abhicākaśīti"* — **two birds, companions, perched on the same tree; one eats the sweet fruit, the other looks on without eating.** The eating bird (jīva), sunk in delusion, grieves; **seeing the other — the Lord (Īśa) — and His glory, it becomes free of sorrow.** *(Source: Śvetāśvatara Up. 4.6–4.7)*
+  - *Variant / shared verse:* this mantra is **shared verbatim with the Muṇḍaka Upaniṣad (3.1.1–3.1.2)** and ultimately derives from **Ṛgveda 1.164.20** (the Aśya Vāmīya hymn of the ṛṣi Dīrghatamas). The Śvetāśvatara reading is **theistic** — the second bird is the personal **Īśa/Lord**; the Muṇḍaka reading is more **non-dual** (the witnessing Ātman). [same verse, two doctrinal framings]
+- **Māyā and Prakṛti — *Māyāṃ tu prakṛtiṃ vidyāt* (4.9–4.10)** — *"chandāṃsi yajñāḥ… yataḥ prabhūtir…"* (4.9) leads to the pivotal **4.10: "māyāṃ tu prakṛtiṃ vidyāt, māyinaṃ tu maheśvaram"** — **"Know Prakṛti as Māyā, and the Great Lord (Maheśvara) as the wielder of Māyā (the māyin)"**; the whole world is pervaded by parts of Him. *(Source: Śvetāśvatara Up. 4.10)* — the **first explicit Vedāntic use of *māyā* as the creative cosmic illusion/power**, with God as its master — a seed of both Advaita's *māyā* and theistic *śakti* doctrines. [landmark verse]
+- **The benign Rudra (4.11–4.22)** — He who is the **one net-holder (jāla-vān)** ruling by His powers; *"yo devānāṃ prabhavaś codbhavaś ca"* (the source and lord of the gods); repeated **Rudra benedictions** ("mā nas toke…") borrowed from the **Śatarudrīya / Rudram** of the Yajurveda, including *"namas te astu bhagavan"* — "Homage to you, Bhagavān." *(Source: Śvetāśvatara Up. 4.11–4.22; cf. YV Rudram)*
+
+---
+
+## 6. Chapter 5 — The Two Unborn, Kṣara/Akṣara, and the Embodied Soul
+
+- **Two hidden in Brahman (5.1)** — in the imperishable, infinite **Brahman are hidden two: knowledge (vidyā) and ignorance (avidyā)** — ignorance is perishable, knowledge immortal; and **He who rules both is another** (the Lord beyond both). *(Source: Śvetāśvatara Up. 5.1)*
+- **The Kapila reference (5.2)** — *"yo yoniṃ yonim adhitiṣṭhaty eko… ṛṣiṃ prasūtaṃ kapilaṃ yas tam agre jñānair bibharti…"* — He who **bore the seer Kapila, born at the beginning, and watched him as he was born.** *(Source: Śvetāśvatara Up. 5.2)*
+  - *Variant (disputed):* "kapila" is read either as a **proper name (the sage Kapila, founder of Sāṃkhya)** — a much-cited (if contested) early reference linking this Upaniṣad to Sāṃkhya — **or** simply as the adjective **"tawny/reddish-brown"** (e.g. Hiraṇyagarbha "of golden-red colour"). [scholarly dispute over whether Sāṃkhya's Kapila is meant]
+- **The Lord as cause; the soul's size (5.7–5.10)** — the embodied self (jīva), by its **qualities, acts and self (guṇa, karma, ātma)**, assumes forms; it is measured as **"the hundredth part of the tip of a hair, infinitely subdivided"** yet partakes of infinity (5.9). *(Source: Śvetāśvatara Up. 5.8–5.9)*
+- **Brahman is neither male nor female (5.10)** — *"naiva strī na pumān eṣa na caivāyaṃ napuṃsakaḥ"* — **the Self is neither woman, nor man, nor neuter**; whatever body it takes, by that it is (apparently) determined; it is **genderless / beyond gender**. *(Source: Śvetāśvatara Up. 5.10)*
+
+---
+
+## 7. Chapter 6 — *Eko Devaḥ* and the Closing Bhakti Verse
+
+- **Cause beyond causes (6.1–6.2)** — some sages speak of **inherent nature (svabhāva)** or **time (kāla)** as the cause, but it is **the greatness of the Deva** (devasya eṣa mahimā) by which the wheel of Brahman is turned; **He is the one who, beginning the work with the guṇas, distributes all beings.** *(Source: Śvetāśvatara Up. 6.1–6.2)*
+- **The architect of the worlds (6.3–6.6)** — He is **without beginning, end or middle**, the **maker of all, of many forms, the one encloser of the universe**; from Him spring tree-and-time; **greater than which there is nothing.** *(Source: Śvetāśvatara Up. 6.5–6.6)*
+- **The Supreme Lord — Patiḥ patīnām (6.7–6.9)** — *"taṃ īśvarāṇāṃ paramaṃ maheśvaraṃ, taṃ devatānāṃ paramaṃ ca daivatam, patiṃ patīnāṃ paramaṃ parastāt…"* — He is the **highest Lord of lords, the highest God of gods, the highest Master of masters**, the adorable God, ruler of the world; **He has no master, no marks, no cause, no organ; none is His equal.** His powers (śakti) are revealed as **inherent — of knowledge, strength and action (jñāna-bala-kriyā)**. *(Source: Śvetāśvatara Up. 6.7–6.9)* — the **jñāna-bala-kriyā śakti triad** is foundational to later **Śaiva Siddhānta**.
+- **"Eko Devaḥ" — One God hidden in all (6.11)** — *"eko devaḥ sarva-bhūteṣu gūḍhaḥ, sarva-vyāpī sarva-bhūtāntarātmā; karmādhyakṣaḥ sarva-bhūtādhivāsaḥ, sākṣī cetā kevalo nirguṇaś ca"* — **"The One God, hidden in all beings, all-pervading, the inner Self of all; overseer of all actions, dwelling in all beings, the witness, the knower, the one, free of qualities (nirguṇa)."** *(Source: Śvetāśvatara Up. 6.11)* — the **signature verse** harmonizing a personal indwelling God with the *nirguṇa* absolute.
+- **The eternal among the eternal (6.12–6.13)** — *"nityo nityānāṃ cetanaś cetanānām, eko bahūnāṃ yo vidadhāti kāmān"* — **"the eternal among eternals, the conscious among the conscious, the one who fulfils the desires of the many"**; the wise who perceive Him **within themselves** attain eternal peace — *"tat-sthānaṃ… nānyatra"* ("that abode, and nowhere else"). *(Source: Śvetāśvatara Up. 6.12–6.13)* — a verse later **shared with the Kaṭha Upaniṣad (2.2.13)**.
+- **The Light of lights (6.14)** — *"na tatra sūryo bhāti na candra-tārakaṃ…"* — **there the sun shines not, nor moon and stars; lightning shines not, much less fire; when He shines, all shine after Him; by His light all this is lit.** *(Source: Śvetāśvatara Up. 6.14)* — also **shared with Kaṭha 2.2.15 and Muṇḍaka 2.2.10**.
+- **Liberation only by knowing Him (6.15–6.20)** — He is the **one swan (haṃsa)** in the world's midst; by knowing Him alone one passes beyond death — *"nānyaḥ panthā vidyate ayanāya"* ("no other path is known for going there"); a man could **sooner roll up the sky like leather** than end suffering without knowing the Deva. *(Source: Śvetāśvatara Up. 6.15–6.20)*
+- **Colophon — the sage and the transmission (6.21)** — by the power of his austerity and the grace of God, the sage **Śvetāśvatara** rightly spoke this **supreme means of purification, pleasing to the assembly of seers (ṛṣis)**. *(Source: Śvetāśvatara Up. 6.21)*
+- **Restriction of the teaching (6.22)** — the **highest secret (paramaṃ guhyaṃ)** declared in the former age (purā-kalpe) should **not be given to one who is not tranquil, not a son or pupil.** *(Source: Śvetāśvatara Up. 6.22)* — a standard **adhikāra (eligibility) caveat**.
+- **The closing bhakti verse — 6.23** — *"yasya deve parā bhaktir yathā deve tathā gurau, tasyaite kathitā hy arthāḥ prakāśante mahātmanaḥ"* — **"To the great soul who has the highest devotion (parā bhakti) to God (Deva), and as to God so to his Guru, the truths here declared shine forth."** *(Source: Śvetāśvatara Up. 6.23)*
+  - This is **among the earliest occurrences of the word *bhakti* ("loving devotion") in Śruti**, coupling **devotion to God with devotion to the guru** — the seed of the entire later **bhakti** and **guru-paramparā** traditions; see [`../../07-acharyas-and-sampradayas`](../../07-acharyas-and-sampradayas/) (sampradāya lineages). [some scholars regard 6.23 as a later addendum] [late text]
+
+---
+
+## 8. Proto-Sāṃkhya & Proto-Yoga Vocabulary
+
+- **Sāṃkhya terms in embryo** — the Upaniṣad deploys, in pre-systematic form, the lexicon later codified by classical **Sāṃkhya**: **puruṣa** (spirit/witness), **prakṛti / pradhāna** (primal nature/matter), the **three guṇas** (the red-white-black *ajā* of 4.5), **kṣara/akṣara** (perishable/imperishable), and **vyakta/avyakta** (manifest/unmanifest). *(Source: Śvetāśvatara Up. 1.8–1.12, 4.5, 4.10, 5.1–5.2)* — see [`../darshanas/samkhya-karika.md`](../darshanas/samkhya-karika.md).
+  - *Crucial difference:* classical Sāṃkhya is **non-theistic (nirīśvara)** — prakṛti and the plural puruṣas suffice. The Śvetāśvatara **theizes** the scheme: it adds a **third principle, the ruling Lord (Īśvara/Maheśvara) above both prakṛti and puruṣa** (1.9–1.12; 4.10), making it **"theistic / seśvara Sāṃkhya"** and a doctrinal ancestor of the **Yoga-darśana's Īśvara** and of **Śaiva** metaphysics. [theistic recasting of Sāṃkhya]
+- **Yoga in embryo** — ch. 2's posture, breath-restraint, sense-withdrawal, place of practice and visionary signs are a **proto-Yoga manual** predating Patañjali's *Yoga-Sūtra*; the term **"dhyāna-yoga"** appears at 1.3. *(Source: Śvetāśvatara Up. 1.3, 2.8–2.15)* — see [`../../05-concepts-and-dharma/yoga-paths-and-patanjali.md`](../../05-concepts-and-dharma/yoga-paths-and-patanjali.md).
+- **Open-ended roster flagged** — verse-by-verse counts per chapter (16/17/21/22/14/23) vary slightly by recension/edition; whether 6.23 (bhakti) and the Kapila reference (5.2) are original or interpolated remain **scholarly open questions**, not settled. [disputed]
+
+---
+
+## 9. Why the Śvetāśvatara Matters
+
+- **The theistic turn of the Upaniṣads** — it is the single *mukhya* Upaniṣad in which the **impersonal Brahman is explicitly identified with a personal, worshipped God** (Rudra-Śiva-Īśa-Maheśvara), supplying the scriptural warrant by which later **theistic Vedānta** (Rāmānuja and after) and the entire **Śaiva** tradition read the Upaniṣads as God-centred. See [`../../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md`](../../02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md).
+- **Core Śaiva scripture** — *Eko hi Rudraḥ* (3.2), the **śivā tanū** benediction (3.5), the **jñāna-bala-kriyā śakti** triad (6.8) and *Eko Devaḥ* (6.11) are bedrock for **Śaiva Siddhānta** and Kashmir Śaiva theology; the text is treated as a primary Śaiva Upaniṣad. See [`../../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md`](../../02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md).
+- **First home of two key terms** — the **first Vedāntic use of *māyā*** as cosmic creative power (4.10) and **one of the earliest uses of *bhakti*** in Śruti (6.23) — two of the most consequential words in all later Hindu thought.
+- **A bridge, not a tangent** — it carries the **shared cosmic verses** (two birds, Light-of-lights) of the Ṛgveda/Muṇḍaka/Kaṭha and re-aims them at a personal Lord, standing exactly at the seam between **monism and devotion**.
+
+---
+
+## Sources
+
+- **Śvetāśvatara Upaniṣad** (primary), Kṛṣṇa-Yajurveda — chapters 1–6 cited inline by adhyāya.mantra.
+- **Bhāṣya attributed to Ādi Śaṅkara** on the Śvetāśvatara (ascription contested); gloss attributed to Śaṅkarānanda.
+- Patrick Olivelle, *The Early Upaniṣads* (1998) / *Upaniṣads* (Oxford World's Classics, 1996) — dating and translation.
+- F. Max Müller, *The Upanishads, Part II* (Sacred Books of the East XV) — translation of the Śvetāśvatara.
+- [Shvetashvatara Upanishad — Wikipedia](https://en.wikipedia.org/wiki/Shvetashvatara_Upanishad) — chapter structure (113 verses), dating, eko devaḥ 6.11, māyā 4.10, two-birds 4.6, bhakti 6.23, Kapila 5.2, name etymology.
+- [Svetasvatara Upanishad and its Significance in Shaivism — Hinduwebsite](https://www.allsaivism.com/articles/svetavatara.aspx) — "Eko hi rudro" and Rudra-as-Brahman.
+- [Translation of the Śvetāśvatara Upanishad (chapters 3, 4, 6) — Hinduwebsite](https://www.hinduwebsite.com/sveta4.asp) — per-verse renderings.
+- [Svetasvatara Upanishad, Chap. 4 & 6 commentary — eSamskriti](https://www.esamskriti.com/e/Spirituality/Upanishads-Commentary/Svetasvatara-Upanishad-~-Chap-4-The-One-God-of-the-Manifold-World-2.aspx); [Vivekavani — full text](https://vivekavani.com/svu/).
+- Companion files in this corpus: [`principal-upanishads-detail.md`](../principal-upanishads-detail.md), [`chandogya-upanishad.md`](./chandogya-upanishad.md), [`vedas/yajurveda.md`](../vedas/yajurveda.md), [`darshanas/samkhya-karika.md`](../darshanas/samkhya-karika.md).

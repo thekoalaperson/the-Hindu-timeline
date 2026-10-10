@@ -1,0 +1,16 @@
+# Private production and credentials never belong in this public research repo.
+.env
+.env.*
+!.env.example
+*credentials*.json
+*token*.json
+private/
+production/
+productions/
+assets/
+media/
+autopilot/
+*.log
+.DS_Store
+__pycache__/
+*.pyc

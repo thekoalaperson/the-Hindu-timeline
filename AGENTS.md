@@ -1,0 +1,100 @@
+# AGENTS.md — How to Query *The Hindu Timeline*
+
+This repository is a large, source-cited, **chronologically-organized** knowledge base of Hindu
+mythology, cosmology, scripture, and tradition (899 markdown files, ~2.15M words). This file tells an
+agent (or a human) how it is organized and how to find or verify anything in **≤ 2 hops**.
+
+---
+
+## 1. The one thing to understand first: it is organized on the cosmic clock
+
+Hindu time is **cyclic and nested**. The whole spine mirrors that nesting:
+
+```
+Brahmā's life (100 yrs) → Kalpa (a day of Brahmā) → 14 Manvantaras → 71 Mahāyugas each
+                                                   → 4 Yugas (Satya, Tretā, Dvāpara, Kali) → events
+```
+
+**Current address ("you are here"):** Śveta-Vārāha Kalpa · **7th (Vaivasvata) Manvantara** ·
+**28th Mahāyuga** · **Kali Yuga** (began 3102 BCE). Most named events sit in the four yugas of this
+current Mahāyuga; that branch is the most deeply populated.
+
+---
+
+## 2. Map: which section answers which kind of question
+
+| If the question is about… | Look in |
+|---|---|
+| How time/cosmology works (yugas, kalpas, pralaya, creation, calendar, jyotiṣa) | `00-time-and-cosmology/` |
+| **When** an event happened / the chronological spine (manvantaras → yugas → events) | `01-manvantaras/` |
+| A god/goddess, avatar, cosmic beings, the lokas, deity forms | `02-deities-and-cosmic-hierarchy/` |
+| Royal genealogies (Solar/Lunar dynasties) | `03-lineages-vamsha/` |
+| A specific big story in depth (Rāmāyaṇa kāṇḍa, Mahābhārata parva, Gītā, Samudra Manthana, a named tale) | `04-deep-dives/` |
+| A doctrine/concept (karma, mokṣa, the darśanas, yoga, varṇa/āśrama) | `05-concepts-and-dharma/` |
+| A sacred place (pīṭha, jyotirliṅga, dhām, temple legend, river) | `06-sacred-geography/` |
+| A teacher or sect (Śaṅkara, Rāmānuja, sampradāyas, bhakti saints, modern reformers) | `07-acharyas-and-sampradayas/` |
+| A *class* of being (apsaras, nāgas, asuras, yakṣas, the 33 devas, rishis) | `08-beings-and-bestiary/` |
+| A divine weapon/object, vāhana, the 64 arts, a symbol | `09-artifacts-symbols-and-arts/` |
+| A **text** (a Veda, Upaniṣad, a specific Purāṇa, an Āgama, the Tamil canon) | `90-literature-corpus/` (per-Purāṇa maps in `90-…/puranas/`) |
+
+A topic often appears in **layers**, by design: a thumbnail in a roster, a chronological summary in the
+relevant yuga file, and a full treatment in a `04-deep-dives/` file — all cross-linked. The deep-dive is
+the canonical home; the others summarize and link to it.
+
+## 3. How to find a specific thing (navigation contract)
+
+1. Start at **[`README.md`](README.md)** — the master index with the "you are here" address and links to every section.
+2. Open the relevant **section `README.md`** — each ends with an auto-generated **`## 📑 Full Contents`** block that links **every** file in that section (so nothing is hidden).
+3. Or jump straight to **[`STRUCTURE.md`](STRUCTURE.md)** — a flat list of *all* files with word counts and deep/stub flags.
+4. For **"what happened and when"**, start at the **[`TIMELINE.md`](TIMELINE.md)** hub — it links **nine per-period files** in **[`timeline/`](timeline/)** (`00-before-time.md` … `08-cross-yuga.md`) holding all 7,919 events on the cosmic clock (Creation → Manvantaras → Satya → Tretā → Dvāpara → Kali → Future → cross-yuga), each linked to its detail file. Events sit one level deep, so their detail links carry a `../` prefix. For programmatic access, **[`data/events.jsonl`](data/events.jsonl)** carries every event as JSON (`title, description, actors[], period, source, detail_file`).
+
+**Invariant:** every file is reachable from `README.md`, and there are **0 broken internal links**
+(files and directories). If you add a file, append it to its section index (or re-run the indexer) and
+re-run the link check so these invariants hold.
+
+## 4. How to read a file (conventions)
+
+Every content file follows the same shape:
+- An **H1 title**, then a 1–3 line **breadcrumb** ("where this sits", with an up-link to its parent).
+- **Dense bullets**, one per event/item: `**Name** — what happens, who's involved. (Source text)`.
+- **Variants are cataloged, never merged.** When traditions disagree, you'll see nested
+  `- *Variant (SourceText):* …` bullets. *Treat these as deliberate — multiple traditions are all recorded and attributed, not contradictions to resolve.*
+- A **`## Sources`** section at the foot lists the texts/links used.
+
+### Reliability tags — read these before trusting a claim
+- **`(Source text)`** in parentheses = the scripture/text the claim is attributed to.
+- **`[scholarly]` / academic dating** = modern historical-critical view (vs the traditional/scriptural one).
+- **`[disputed]`** = contested even within tradition. **`[late text]` / `[interpolation]`** = likely a later addition.
+- **`[folk]` / `[oral tradition]` / `[regional]`** = outside the Sanskrit canon.
+
+### The "two clocks"
+Dates come in two frames, always distinguished: the **scriptural/cyclic** frame (yugas; e.g. Kali began
+3102 BCE) and the **academic/historical** frame (e.g. Vedic period c. 1500–500 BCE). Never collapse one
+into the other; the corpus deliberately keeps both.
+
+## 5. Answering a question well
+- **Prefer the deepest, most specific file** (the canonical home) over a roster mention.
+- **Report variants** when they exist — the value of this corpus is that it preserves disagreement with attribution.
+- **Carry the tags through:** if the source is `[disputed]` or `[scholarly]`, say so rather than stating it as settled fact.
+- **Cite the file path** you used (e.g. `04-deep-dives/samudra-manthana.md`) so the answer is checkable.
+
+## 6. Maintenance (for an agent extending the corpus)
+- Tools live in **[`tools/repo_tools.py`](tools/repo_tools.py)** (`linkcheck`, `indexes`, `structure`, `timeline-check`, `timeline-insert`, `data`); the two invariant checks are: **(a)** every `.md` reachable from `README.md`, **(b)** 0 broken links (resolve every markdown link target, for files *and* dirs) — run `python3 tools/repo_tools.py linkcheck`.
+- New files: place them in the right section, give them the standard shape (H1 + breadcrumb + bullets + `## Sources`), then refresh the section's `## 📑 Full Contents` index and `STRUCTURE.md`.
+- Keep the canonical-home rule: deep treatment in one file, summaries elsewhere cross-link to it.
+
+## Public research and private production
+
+This public repository owns the cited research corpus and its website. Generic
+animation tools live in `agentic-animation`; episode scripts, adaptation choices,
+continuity bibles, generated assets and credentials live in private production
+storage. Preserve research variants and attribution when adapting a story.
+
+The website accepts selected artwork through an external asset root and catalog;
+see [site/README.md](site/README.md). It never assumes a sibling animation checkout.
+Only named research sections and apparatus pages are indexed. Private production
+must never be placed inside those public sections.
+
+Keep exploratory work and one-off research campaign scripts outside the public
+repository. Refresh derived indexes after changing corpus structure, and run
+`python3 tools/repo_tools.py linkcheck` and `timeline-check` before delivery.
