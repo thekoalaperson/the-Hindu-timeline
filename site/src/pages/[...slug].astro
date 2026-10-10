@@ -1,0 +1,42 @@
+---
+/**
+ * Every corpus page except the five root-apparatus files, which have bespoke
+ * routes (`/`, `/about/`, `/sources/`, `/about/structure/`, `/clock/`).
+ */
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import Article from '../layouts/Article.astro';
+import { nodeFor } from '../lib/graph.ts';
+import { ROOT_ROUTES, pathToRoute } from '../lib/routes.ts';
+
+export async function getStaticPaths() {
+  /**
+   * Corpus entries whose route is now owned by a bespoke page. `/stories/` is
+   * the Stories hub (W3a); the deep-dives README it used to render lives at
+   * `/stories/all/` (`pages/stories/all.astro`). Excluding it here is what
+   * stops the two from emitting the same `dist/stories/index.html`.
+   *
+   * Declared *inside* the function on purpose: Astro hoists `getStaticPaths`
+   * into its own module, and a module-scope const is not in scope there.
+   */
+  const REROUTED = new Set(['04-deep-dives/README.md']);
+  const entries = await getCollection('corpus');
+  return entries
+    .filter((entry) => !Object.hasOwn(ROOT_ROUTES, entry.id) && !REROUTED.has(entry.id))
+    .map((entry) => {
+      const route = pathToRoute(entry.id);
+      return {
+        params: { slug: route ? route.replace(/^\/|\/$/g, '') : entry.id },
+        props: { entry },
+      };
+    });
+}
+
+const { entry } = Astro.props as { entry: CollectionEntry<'corpus'> };
+const node = nodeFor(entry.id);
+if (!node) throw new Error(`No graph node for ${entry.id} — re-run \`npm run generate\`.`);
+const { Content, headings } = await render(entry);
+---
+
+<Article node={node} headings={headings} page={node.isIndex ? 'index' : 'article'}>
+  <Content />
+</Article>

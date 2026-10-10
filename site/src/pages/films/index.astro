@@ -1,0 +1,158 @@
+---
+/**
+ * /films/ — the films index.
+ *
+ * Grouped by cosmic period, in clock order, because that is how the site is
+ * organised; the playlists follow as a secondary grouping. No episode numbers
+ * anywhere (standing ruling, 2026-07-22): the films are a connected web of
+ * stories, not an ordered series.
+ *
+ * The jump chips are anchors, not filters — the page is complete without JS.
+ */
+import '../../styles/films.css';
+import FilmRow from '../../components/films/FilmRow.astro';
+import PageArt from '../../components/PageArt.astro';
+import { plateForSection } from '../../components/art.ts';
+import Base from '../../layouts/Base.astro';
+import {
+  CHANNEL_PLAYLISTS_URL,
+  CHANNEL_URL,
+  counts,
+  filmsByPeriod,
+  filmsByPlaylist,
+  getFilms,
+  unmappedPeriodLabels,
+} from '../../lib/films.ts';
+
+const films = getFilms();
+const groups = filmsByPeriod(films);
+const playlists = filmsByPlaylist(films);
+const unmapped = unmappedPeriodLabels();
+
+const description =
+  `${counts.published} animated films from the corpus, in Hindi with English subtitles, ` +
+  'placed on the cosmic clock from before time to the age we are in.';
+/* The films index opens on Trivikrama — the most cinematic frame in the
+   fifty, and the one that says "these are films" before a word is read. */
+const filmsPlate = plateForSection('films');
+
+---
+
+<Base title="Films" description={description} page="films">
+  <nav class="crumbs" aria-label="Breadcrumb" slot="crumbs">
+    <ol>
+      <!-- No root crumb: the wordmark to its immediate left already links
+           home, and repeating "The Hindu Timeline" here is a second copy of
+           it rather than a real section in the trail. -->
+      <li class="crumb crumb-current" aria-current="page">Films</li>
+    </ol>
+  </nav>
+
+  <div class="page films-index" data-pagefind-ignore>
+    {
+      filmsPlate ? (
+        <PageArt art={filmsPlate} title="Films" kicker={`${counts.published + counts.upcoming} animated retellings`} />
+      ) : (
+        <h1 class="page-title">Films</h1>
+      )
+    }
+
+    <p class="films-intro">
+      Animated retellings, narrated in Hindi with English subtitles, from the channel <a
+        href={CHANNEL_URL}
+        rel="noopener">@thehindutimelinehindi</a
+      >. They are a connected web of stories rather than a series — every film opens onto the page it was
+      drawn from, and every page says where it sits in time. Start anywhere.
+    </p>
+
+    <p class="film-meta">
+      <span class="film-meta-strong">{counts.published} published</span>
+      {counts.upcoming > 0 && <span>{counts.upcoming} still to come</span>}
+      <span>{counts.corpusPages} pages of the manuscript</span>
+    </p>
+
+    <ul class="films-jump" aria-label="Jump to a period">
+      {
+        groups.map((g) => (
+          <li>
+            <a class="chip" href={`#${g.slug ?? 'elsewhere'}`} data-period={g.slug ?? undefined}>
+              {g.name}
+              <span class="film-group-count">{g.films.length}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    {
+      groups.map((group) => (
+        <section
+          class="film-group"
+          id={group.slug ?? 'elsewhere'}
+          data-period={group.slug ?? undefined}
+          aria-labelledby={`h-${group.slug ?? 'elsewhere'}`}
+        >
+          <div class="film-group-head">
+            <h2 class="film-group-title" id={`h-${group.slug ?? 'elsewhere'}`}>
+              {group.name}
+            </h2>
+            <span class="film-group-count">{group.films.length}</span>
+            {group.route && (
+              <a class="film-group-link" href={group.route}>
+                On the clock
+              </a>
+            )}
+          </div>
+          <ul class="film-list">
+            {group.films.map((film) => (
+              <FilmRow film={film} />
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+
+    {
+      playlists.length > 0 && (
+        <section class="film-group" id="playlists" aria-labelledby="h-playlists">
+          <div class="film-group-head">
+            <h2 class="film-group-title" id="h-playlists">
+              By playlist
+            </h2>
+            <span class="film-group-count">{playlists.length}</span>
+            <a class="film-group-link" href={CHANNEL_PLAYLISTS_URL} rel="noopener">
+              On YouTube
+            </a>
+          </div>
+          <ul class="playlist-list">
+            {playlists.map((p) => (
+              <li>
+                <a class="playlist-name" href={CHANNEL_PLAYLISTS_URL} rel="noopener">
+                  {p.name}
+                </a>
+                <span class="playlist-count">
+                  {p.films.length} <span class="u-visually-hidden">films</span>
+                </span>
+              </li>
+            ))}
+          </ul>
+          <p class="films-note">
+            The playlists live on the channel. We hold their names but not their identifiers, so these open{' '}
+            <a href={CHANNEL_PLAYLISTS_URL} rel="noopener">
+              the channel's playlists
+            </a>{' '}
+            rather than one list each.
+          </p>
+        </section>
+      )
+    }
+
+    {
+      /* A new editorial period label that no rule could place would otherwise
+         vanish into the "Elsewhere in time" group unremarked. */
+      unmapped.length > 0 && (
+        <Fragment set:html={`<!-- I4b: unmapped period labels — ${unmapped.join(' | ')} -->`} />
+      )
+    }
+  </div>
+</Base>

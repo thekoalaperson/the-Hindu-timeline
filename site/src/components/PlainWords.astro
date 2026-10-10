@@ -1,0 +1,112 @@
+---
+/**
+ * PlainWords.astro — the "In plain words" block, rendered right under the H1
+ * and above the lede (EXPERIENCE-BRIEF v3 §5).
+ *
+ * The copy comes from `src/data/plain-words.json`, written by lane PE2:
+ *
+ *   { "<route>": { intro, whoIsWho: [{ name, role }], whyItMatters } }
+ *
+ * That file is being written concurrently with this component, so it is
+ * loaded through `import.meta.glob` rather than a bare `import`: a glob that
+ * matches nothing yields `{}`, where a missing `import` specifier is a build
+ * error. Everything below is shape-guarded for the same reason — a partial
+ * or half-written entry renders whatever parts of it are usable and drops the
+ * rest rather than failing the build.
+ *
+ * It is *not* a grey callout. It borrows the page's own art as a soft wash
+ * (see `plain.css`), because on a page whose first screen is a painting a
+ * grey box is the one thing that would look bolted on.
+ */
+import type { PageArt } from './art.ts';
+
+interface WhoEntry {
+  name: string;
+  role: string;
+}
+interface PlainEntry {
+  intro?: unknown;
+  whoIsWho?: unknown;
+  whyItMatters?: unknown;
+}
+
+const modules = import.meta.glob<Record<string, PlainEntry>>('../data/plain-words.json', {
+  eager: true,
+  import: 'default',
+});
+const TABLE: Record<string, PlainEntry> = (Object.values(modules)[0] ?? {}) as Record<string, PlainEntry>;
+
+interface Props {
+  route: string;
+  art?: PageArt | null;
+}
+const { route, art = null } = Astro.props;
+
+function lookup(r: string): PlainEntry | undefined {
+  if (!r) return undefined;
+  const withSlash = r.endsWith('/') ? r : `${r}/`;
+  const withoutSlash = withSlash.length > 1 ? withSlash.slice(0, -1) : withSlash;
+  return TABLE[withSlash] ?? TABLE[withoutSlash] ?? TABLE[r];
+}
+
+function text(v: unknown): string | null {
+  return typeof v === 'string' && v.trim() ? v.trim() : null;
+}
+
+const entry = lookup(route);
+const intro = text(entry?.intro);
+const why = text(entry?.whyItMatters);
+const who: WhoEntry[] = Array.isArray(entry?.whoIsWho)
+  ? (entry!.whoIsWho as unknown[])
+      .map((w) => {
+        if (!w || typeof w !== 'object') return null;
+        const name = text((w as Record<string, unknown>).name);
+        const role = text((w as Record<string, unknown>).role);
+        return name ? { name, role: role ?? '' } : null;
+      })
+      .filter((w): w is WhoEntry => w !== null)
+      .slice(0, 5)
+  : [];
+
+/* Nothing usable for this route: render nothing at all. Most of the 899 pages
+   will be in this state for a while, and an empty ornamented box is worse
+   than no box. */
+const show = Boolean(intro || who.length > 0 || why);
+
+/* The wash is the page's own picture at the 400 tier — already downloaded for
+   the hero on most pages, and tiny where it is not. */
+const wash = art?.srcset ? art.src.replace(/-1600\.webp$/, '-400.webp') : (art?.lqip ?? null);
+---
+
+{
+  show && (
+    <aside class="plain-words" aria-labelledby="plain-words-title" data-pagefind-ignore>
+      <span class="pw-wash" aria-hidden="true" style={wash ? `background-image:url("${wash}")` : undefined} />
+      <div class="pw-body">
+        <h2 class="pw-title" id="plain-words-title">
+          In plain words
+        </h2>
+        {intro && <p class="pw-intro">{intro}</p>}
+        {who.length > 0 && (
+          <div class="pw-who">
+            <h3 class="pw-sub">Who’s who</h3>
+            <ul class="pw-who-list">
+              {who.map((w) => (
+                <li>
+                  <span class="pw-name">{w.name}</span>
+                  {w.role && <span class="pw-role">{w.role}</span>}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {why && (
+          <p class="pw-why">
+            <span class="pw-sub pw-why-label">Why it matters</span>
+            {why}
+          </p>
+        )}
+      </div>
+    </aside>
+  )
+}

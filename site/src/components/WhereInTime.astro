@@ -1,0 +1,90 @@
+---
+/**
+ * WhereInTime.astro — the one line that answers "where am I?".
+ *
+ * Age › Chapter, both tappable, on every page that has an answer:
+ *   · the age goes to the road at that place — `/#at=<period-slug>`, the
+ *     contract lane L1 honours on the home page;
+ *   · the chapter goes to its band on the age page — `/clock/<age>/#<id>`.
+ *
+ * A **figure** — a character, a deity — is not in one age, and saying so is
+ * the point (FIXLIST L2b-7). Rāma belongs to Tretā; Viṣṇu appears in all
+ * nine. So when the page's own events land in more ages than its address
+ * names, the extra ages follow as chips, in cosmic order, each a tap to the
+ * road at that place. The strip is never blank while the graph knows any
+ * period at all.
+ *
+ * With no age and no chapter it renders nothing rather than an empty rule.
+ */
+import { clockMarkSvg } from './clock/ClockMark.tsx';
+import Plain from './Plain.astro';
+import type { Chapter } from '../lib/chapters.ts';
+import { periodLabel } from '../lib/graph.ts';
+import { PERIODS } from '../lib/routes.ts';
+
+interface Props {
+  period: string | null;
+  chapter?: Chapter | null;
+  /**
+   * `node.periods` — how many of the page's events fall in each age. Used
+   * only to add the *other* ages a figure appears in.
+   */
+  periods?: Record<string, number> | null;
+}
+const { period: nodePeriod, chapter = null, periods = null } = Astro.props;
+
+/* The graph is the answer. It used to be the *inference* — a node's
+   `cosmicAddress` was read off the events its page happens to cite, which put
+   the first four kāṇḍas of the Rāmāyaṇa in "Kali Yuga (scriptural)" — and
+   this component overrode it with the chapter's period. `scripts/graph.mjs`
+   now applies chapters.json at source (a route named in a chapter's
+   `stories` takes that chapter's period), so the two agree and the override
+   is gone: the strip, the breadcrumb chip and `body[data-period]` cannot
+   disagree any more. The chapter is still the fallback for a page the graph
+   could place nowhere at all. */
+const period = nodePeriod ?? chapter?.period ?? null;
+const ageName = periodLabel(period);
+
+/* The other ages this page's events reach, in cosmic order. A single stray
+   event is noise on a page of hundreds, so an age has to carry at least a
+   twentieth of the page's events, or two of them, to earn a chip — and at
+   most three follow, or the strip becomes the wiki row it replaced. */
+const ORDER = PERIODS.map((p) => p.slug);
+const counts = periods ?? {};
+const total = Object.values(counts).reduce((n, c) => n + c, 0);
+const threshold = Math.max(2, Math.round(total / 20));
+const also = ORDER.filter(
+  (slug) => slug !== period && (counts[slug] ?? 0) >= threshold,
+).slice(0, 3);
+---
+
+{
+  (ageName || chapter) && (
+    <nav class="where-strip" aria-label="Where in time" data-where>
+      <span class="where-label">Where in time</span>
+      {ageName && period && (
+        <a href={`/#at=${period}`} data-period={period}>
+          <Fragment set:html={clockMarkSvg({ size: 13, period })} />
+          <span><Plain text={ageName} /></span>
+        </a>
+      )}
+      {ageName && chapter && <span class="where-sep" aria-hidden="true">›</span>}
+      {chapter && (
+        <a href={`/clock/${chapter.period}/#${chapter.id}`}>
+          <span><Plain text={chapter.title} /></span>
+        </a>
+      )}
+      {also.length > 0 && (
+        <>
+          <span class="where-also">also in</span>
+          {also.map((slug) => (
+            <a class="where-chip" href={`/#at=${slug}`} data-period={slug}>
+              <Fragment set:html={clockMarkSvg({ size: 12, period: slug })} />
+              <span><Plain text={periodLabel(slug)} /></span>
+            </a>
+          ))}
+        </>
+      )}
+    </nav>
+  )
+}

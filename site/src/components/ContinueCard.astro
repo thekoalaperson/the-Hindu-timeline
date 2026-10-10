@@ -1,0 +1,48 @@
+---
+/**
+ * ContinueCard.astro — "pick up where you left off".
+ *
+ * Server-renders an empty, `hidden` card; `lib/continue.ts` fills it from
+ * localStorage after load, or leaves it hidden. That ordering matters: the
+ * card must never occupy space for a first-time visitor, and it must never be
+ * baked into the HTML (the site is static and shared by everyone).
+ *
+ * Mount it anywhere. Lane L1's home page can `import ContinueCard from
+ * '../components/ContinueCard.astro'` and drop it in — no props, no script of
+ * its own; only one mount per page is filled.
+ */
+---
+
+<div class="hook hook-continue" data-continue hidden>
+  <span class="hook-copy">
+    <span class="hook-label">Continue reading</span>
+    <a class="hook-link" href="/" data-continue-link>
+      <span class="hook-title" data-continue-title></span>
+    </a>
+    <span class="hook-when" data-continue-when></span>
+    <span class="hook-day" data-continue-day hidden></span>
+  </span>
+  <button type="button" class="hook-dismiss" data-continue-dismiss aria-label="Forget where I was">Clear</button>
+</div>
+
+<script>
+  import { fillContinue } from '../lib/continue.ts';
+  import { applyPlainEnglish } from '../lib/plain-english-client.ts';
+
+  fillContinue();
+
+  /* The stored title is the page's own (IAST) title, and PlainScript's
+     MutationObserver only sees inserted *nodes* — this fill writes
+     `textContent` into a node that was already there. Convert this subtree
+     once, by hand, so "Continue reading: Araṇya Kāṇḍa" cannot appear on a page
+     that says "Aranya Kanda" everywhere else. The converter is already in the
+     shared chunk, so this costs no extra bytes. */
+  try {
+    if (document.documentElement.hasAttribute('data-plain')) {
+      const el = document.querySelector<HTMLElement>('[data-continue]');
+      if (el && !el.hidden) applyPlainEnglish(el, true);
+    }
+  } catch {
+    /* the card is a convenience; never let it throw */
+  }
+</script>

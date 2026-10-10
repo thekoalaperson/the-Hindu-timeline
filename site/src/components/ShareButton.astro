@@ -1,0 +1,95 @@
+---
+/**
+ * ShareButton.astro — share this story.
+ *
+ * `navigator.share` where the platform has it (every phone this site is built
+ * for), `navigator.clipboard.writeText` as the fallback, and — when both are
+ * missing or blocked — the URL is selected in a text field so it can be copied
+ * by hand. The card the share carries is the page's existing OG image; nothing
+ * new is generated.
+ *
+ * Rendered `hidden` and revealed by its own script: without JS the button
+ * would do nothing, and a dead control is worse than no control. The address
+ * bar is the no-JS share.
+ */
+import Icon from './Icon.astro';
+
+interface Props {
+  title: string;
+  /** One line for the share sheet's body. */
+  text?: string | null;
+}
+const { title, text = null } = Astro.props;
+---
+
+<div class="share-row" data-share hidden>
+  <button
+    type="button"
+    class="share-btn"
+    data-share-btn
+    data-share-title={title}
+    data-share-text={text ?? undefined}
+  >
+    <Icon name="share" size={17} />
+    <span data-share-label>Share this story</span>
+  </button>
+  <span class="share-said" data-share-said hidden role="status"></span>
+</div>
+
+<script>
+  const row = document.querySelector<HTMLElement>('[data-share]');
+  const btn = row?.querySelector<HTMLButtonElement>('[data-share-btn]');
+  const said = row?.querySelector<HTMLElement>('[data-share-said]');
+
+  if (row && btn) {
+    row.hidden = false;
+
+    function say(msg: string): void {
+      if (!said) return;
+      said.textContent = msg;
+      said.hidden = false;
+      window.setTimeout(() => {
+        said.hidden = true;
+      }, 3200);
+    }
+
+    btn.addEventListener('click', async () => {
+      const url = location.href;
+      const data = {
+        title: btn.dataset.shareTitle || document.title,
+        text: btn.dataset.shareText || undefined,
+        url,
+      };
+      try {
+        if (navigator.share) {
+          await navigator.share(data);
+          return;
+        }
+      } catch (err) {
+        /* A dismissed share sheet throws AbortError — that is a decision, not
+           a failure, so fall through to nothing rather than to the clipboard. */
+        if ((err as { name?: string })?.name === 'AbortError') return;
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        say('Link copied');
+        return;
+      } catch {
+        /* fall through */
+      }
+      /* Last resort: put it somewhere the reader can select it themselves. */
+      try {
+        const field = document.createElement('input');
+        field.value = url;
+        field.setAttribute('readonly', '');
+        field.className = 'share-fallback-field';
+        field.style.cssText = 'width:100%;font:inherit;padding:.4rem;margin-top:.4rem';
+        btn.insertAdjacentElement('afterend', field);
+        field.select();
+        say('Copy the link above');
+      } catch {
+        say('Copy the address from the bar above');
+      }
+    });
+  }
+</script>

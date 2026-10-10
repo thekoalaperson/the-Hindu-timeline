@@ -1,0 +1,1059 @@
+/**
+ * road-v2.css — the Road v2 layer (brief §4 W2), loaded after terrain.css.
+ *
+ * Kept as its own sheet rather than appended to the 2,100-line prototype
+ * stylesheet, so what changed in this pass is legible on its own:
+ *
+ *   a. the hierarchy of labels — gate > landmark > stele, one accent per age;
+ *   b. the era markers of Kali-history, the two-clocks note, and the receding
+ *      gates of the Future;
+ *   c. the dissolution — the Saṃvartaka fire and rain, the rising water, the
+ *      Night's card and the dawn that carries you back to the waters;
+ *   d. the home intro's three doors and its two return hooks, plus a chapter's
+ *      stories inside its panel.
+ *
+ * The landmark object itself (`.tr-lm`) lives in terrain.css, where it replaced
+ * the waypoint it is descended from.
+ */
+
+/* -------------------------------------------- a. the hierarchy of labels - */
+/**
+ * Never more than four labels competing on a phone screen. `places.ts` spaces
+ * the landmarks for it at build time; the steles get there by only naming the
+ * ones standing at the verge — the two lanes behind carry the age's accent and
+ * the picture, and say their name in the panel. One label per object, one
+ * object type per lane: that is the whole rule.
+ */
+@media (max-width: 899px) {
+  /* Only the lane standing at the verge is named. Dvāpara has 21 films inside
+     five screens; naming all three lanes put six or seven labels on one phone
+     screen, which is exactly the "messy" the brief is fixing. The two lanes
+     behind still carry the age's accent, the picture and the panel. */
+  .tr-stele[data-lane='1'] .tr-stele-plate,
+  .tr-stele[data-lane='2'] .tr-stele-plate {
+    display: none;
+  }
+}
+
+/* ---------------------------------- b1. the era markers of Kali-history - */
+/**
+ * A dated milestone at the roadside of a city at night: a numeral, a name and
+ * the years, on a lit post. They stand on the road line, in front of the hills,
+ * because these are the only places on the whole journey with a date on them.
+ */
+.tr-era {
+  position: absolute;
+  bottom: calc(var(--road-line) + 4px);
+  display: flex;
+  flex-direction: column-reverse;
+  width: 138px;
+  margin-left: -69px;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+/* Two heights, so ten dated markers fit the stretch without touching. */
+.tr-era[data-row='1'] {
+  bottom: calc(var(--road-line) + 96px);
+}
+.tr-era[data-row='1'] .tr-era-post {
+  height: 62px;
+}
+.tr-era-post {
+  display: block;
+  width: 2px;
+  height: 26px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, var(--accent), rgba(0, 0, 0, 0));
+  opacity: 0.7;
+}
+.tr-era-plate {
+  display: block;
+  padding: 5px 8px 6px;
+  border: 1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(16, 13, 22, 0.9), rgba(8, 7, 12, 0.94));
+  box-shadow: 0 0 22px -10px var(--accent);
+  transition: transform 200ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.tr-era:active .tr-era-plate {
+  transform: translateY(-2px) scale(1.03);
+}
+.tr-era:focus-visible .tr-era-plate {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+/* Each era wears its chapter's picture, or — for the nine eras the film
+   library simply has no image of (R7) — its carved emblem. A small square
+   above the numeral: enough to tell two eras apart at a glance without
+   turning a dated marker into a photograph. */
+.tr-era-mark {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 26px;
+  margin: 0 auto 4px;
+  overflow: hidden;
+  border-radius: 3px;
+  border: 1px solid color-mix(in srgb, var(--accent) 42%, transparent);
+  background: rgba(0, 0, 0, 0.4);
+  color: var(--accent);
+}
+.tr-era-mark:empty {
+  display: none;
+}
+.tr-era-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.85;
+}
+.tr-era-num {
+  display: block;
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  line-height: 1;
+}
+.tr-era-name {
+  display: block;
+  margin-top: 3px;
+  font-size: 11.5px;
+  line-height: 1.2;
+  color: var(--ink);
+  text-wrap: balance;
+}
+.tr-era-dates {
+  display: block;
+  margin-top: 2px;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------------------------- b2. the two clocks, stated once at a gate - */
+.tr-gate-note {
+  display: block;
+  max-width: 300px;
+  margin: 12px auto 0;
+  padding: 8px 10px;
+  border-left: 2px solid var(--gaccent);
+  background: rgba(8, 8, 14, 0.5);
+  text-align: left;
+}
+.tr-gate-note strong {
+  display: block;
+  font-weight: 400;
+  font-size: 12.5px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--gaccent);
+}
+.tr-gate-note span {
+  display: block;
+  margin-top: 4px;
+  font-size: 12.5px;
+  line-height: 1.42;
+  color: var(--gink);
+  opacity: 0.86;
+}
+.tr-gate-note em {
+  display: block;
+  margin-top: 5px;
+  font-style: normal;
+  font-size: 10.5px;
+  line-height: 1.35;
+  opacity: 0.5;
+  color: var(--gink);
+  overflow-wrap: anywhere;
+}
+
+/* The true scale, one tap from every gate. */
+.tr-gate-scale {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 7px 15px;
+  border: 1px solid color-mix(in srgb, var(--gaccent) 62%, transparent);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.28);
+  color: var(--gaccent);
+  font: inherit;
+  font-size: 12.5px;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.tr-gate-scale:active {
+  background: color-mix(in srgb, var(--gaccent) 20%, transparent);
+}
+/* 34px of pill, 42px of thumb: the extra is transparent overhang, so the
+   button looks the same and is reachable. */
+.tr-gate-scale {
+  position: relative;
+}
+.tr-gate-scale::after {
+  content: '';
+  position: absolute;
+  inset: -4px 0;
+}
+
+/* ---------------------------- b3. the seven Manus, receding (the Future) - */
+/**
+ * One avenue running away from you: each gate is smaller, dimmer and higher
+ * than the one before it, so seven arches inside a screen and a half read as
+ * distance rather than as seven posts. `--d` is 0 (nearest) … 1 (furthest).
+ */
+.tr-manu {
+  position: absolute;
+  bottom: var(--road-line);
+  display: block;
+  width: 150px;
+  margin-left: -75px;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  transform: translateY(calc(var(--d) * -14px)) scale(calc(1 - var(--d) * 0.52));
+  opacity: calc(1 - var(--d) * 0.42);
+  -webkit-tap-highlight-color: transparent;
+}
+.tr-manu-arch {
+  display: block;
+  width: 108px;
+  height: 132px;
+  margin: 0 auto;
+  border: 1.5px solid color-mix(in srgb, var(--accent) 70%, transparent);
+  border-bottom: 0;
+  border-radius: 54px 54px 0 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.32));
+  box-shadow: 0 0 34px -14px var(--accent);
+}
+.tr-manu-label {
+  display: block;
+  margin-top: 5px;
+  line-height: 1.15;
+}
+.tr-manu-n {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+}
+.tr-manu-name {
+  display: block;
+  font-size: 12.5px;
+  color: var(--ink);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.85);
+}
+.tr-manu:focus-visible .tr-manu-arch {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.tr-manu:active {
+  filter: brightness(1.25);
+}
+
+/* --------------------------------------------------- b4. the Night gate - */
+.tr-night {
+  position: absolute;
+  bottom: var(--road-line);
+  display: block;
+  width: 190px;
+  margin-left: -95px;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.tr-night-disc {
+  display: block;
+  width: 118px;
+  height: 118px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 50% 50%,
+    #05030a 0%,
+    #05030a 58%,
+    rgba(255, 190, 140, 0.4) 60%,
+    transparent 72%
+  );
+  box-shadow: 0 0 60px -8px rgba(255, 170, 110, 0.5);
+}
+.tr-night-label {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  color: #f6e6d8;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.9);
+}
+.tr-night:focus-visible .tr-night-disc {
+  outline: 2px solid #ffd9b0;
+  outline-offset: 4px;
+}
+
+/* ------------------------------------ c. the dissolution, and the morning */
+/**
+ * The whole end of the road is one number: `--end-t`, 0 → 1, written by road.ts
+ * from the scroll position. Nothing here is played at the traveller; the fire
+ * rises, the rain falls and the water comes up *because they are still
+ * dragging*. Three gradients and one repeating-gradient — no canvas, no
+ * library, nothing that costs a frame.
+ */
+.tr-finale {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  --t: var(--end-t, 0);
+}
+.tr-finale[hidden] {
+  display: none !important;
+}
+.tr-fin-fire,
+.tr-fin-rain,
+.tr-fin-water {
+  position: absolute;
+  inset: 0;
+}
+/* The Saṃvartaka fire, rising out of the ground. */
+.tr-fin-fire {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 138, 40, 0.92) 0%,
+    rgba(226, 74, 26, 0.66) 14%,
+    rgba(150, 34, 30, 0.3) 30%,
+    transparent 52%
+  );
+  opacity: calc(min(1, var(--t) * 2.4) * (1 - max(0, (var(--t) - 0.55) * 2.2)));
+  mix-blend-mode: screen;
+  animation: tr-fin-flicker 2.6s ease-in-out infinite alternate;
+}
+@keyframes tr-fin-flicker {
+  from {
+    transform: translateY(2%) scaleY(0.97);
+  }
+  to {
+    transform: translateY(-1%) scaleY(1.03);
+  }
+}
+/* Then the Saṃvartaka rain-clouds. */
+.tr-fin-rain {
+  background: repeating-linear-gradient(104deg, rgba(200, 226, 255, 0.5) 0 1px, transparent 1px 9px);
+  opacity: calc(max(0, var(--t) - 0.3) * 1.1);
+  animation: tr-fin-rain 0.62s linear infinite;
+}
+@keyframes tr-fin-rain {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -36px 120px;
+  }
+}
+/* And the water the journey began in, coming up over everything. */
+.tr-fin-water {
+  top: auto;
+  height: calc(max(0, var(--t) - 0.42) * 190%);
+  background: linear-gradient(180deg, rgba(20, 92, 104, 0.62) 0%, #061a26 42%, #04121b 100%);
+  box-shadow: 0 -18px 60px -10px rgba(90, 214, 196, 0.35);
+}
+
+/* The one thing to do at the end of the world. */
+.tr-morning {
+  position: absolute;
+  z-index: 12;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: min(30rem, calc(100% - 32px));
+  max-height: calc(100% - 150px);
+  overflow-y: auto;
+  padding: 18px 20px 20px;
+  text-align: center;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 214, 176, 0.28);
+  background: linear-gradient(180deg, rgba(10, 7, 16, 0.9), rgba(4, 4, 9, 0.94));
+  box-shadow: 0 24px 70px -24px rgba(0, 0, 0, 0.9);
+  color: #f4e8dc;
+}
+.tr-morning[hidden] {
+  display: none !important;
+}
+.tr-morning h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+.tr-morning-hi {
+  margin: 2px 0 0;
+  font-size: 15px;
+  opacity: 0.6;
+}
+.tr-morning-line {
+  margin: 10px 0 0;
+  font-size: 14.5px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+.tr-morning-facts {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 1.45;
+  letter-spacing: 0.03em;
+  opacity: 0.66;
+}
+.tr-morning-facts li + li {
+  margin-top: 2px;
+}
+.tr-morning-cite {
+  margin: 9px 0 0;
+  font-size: 10.5px;
+  line-height: 1.4;
+  opacity: 0.55;
+  overflow-wrap: anywhere;
+}
+.tr-morning-cite a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.tr-morning-go {
+  display: inline-block;
+  margin: 15px 0 0;
+  padding: 12px 22px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 216, 160, 0.75);
+  background: rgba(255, 216, 160, 0.1);
+  color: #ffe9c9;
+  font: inherit;
+  font-size: 15.5px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+.tr-morning-go:active {
+  background: rgba(255, 216, 160, 0.24);
+}
+.tr-morning-go:focus-visible {
+  outline: 2px solid #ffd9a8;
+  outline-offset: 3px;
+}
+.tr-morning-sub {
+  margin: 9px 0 0;
+  font-size: 12px;
+  line-height: 1.45;
+  opacity: 0.6;
+}
+
+/* The dawn the button brings: a light sweeping over the whole world. */
+.tr-dawn {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  pointer-events: none;
+  opacity: 0;
+  background: linear-gradient(
+    100deg,
+    rgba(255, 244, 220, 0) 0%,
+    rgba(255, 240, 208, 0.97) 45%,
+    rgba(255, 244, 226, 0) 100%
+  );
+  background-size: 260% 100%;
+  background-position: 130% 0;
+  transition:
+    opacity 300ms ease,
+    background-position 900ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tr-dawn[hidden] {
+  display: none !important;
+}
+.tr-dawn.is-on {
+  opacity: 1;
+  background-position: -60% 0;
+}
+
+/* --------------------------------------------------- the loop, on the rail */
+.tr-loop {
+  flex: none;
+  width: 30px;
+  align-self: stretch;
+  margin-left: 2px;
+  border: 0;
+  border-left: 1px dashed rgba(255, 240, 214, 0.32);
+  background: none;
+  color: var(--accent);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  padding: 0;
+}
+.tr-loop svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+}
+.tr-loop:active {
+  background: rgba(255, 255, 255, 0.08);
+}
+.tr-loop:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+/* -------------------------------------- the atlas as the chapter list ---- */
+.tr-atlas-item {
+  margin: 0 0 6px;
+}
+.tr-atlas-chapters {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.tr-atlas-chapters a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 244, 222, 0.2);
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(248, 240, 226, 0.92);
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1.2;
+}
+.tr-atlas-chapters a:hover,
+.tr-atlas-chapters a:focus-visible {
+  border-color: var(--accent);
+  color: #fff;
+}
+.tr-atlas-chapters em {
+  font-style: normal;
+  font-size: 11px;
+  opacity: 0.55;
+}
+.tr-atlas-loop {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0 30px;
+  padding: 14px 16px;
+  border: 1px dashed rgba(255, 240, 214, 0.34);
+  border-radius: 12px;
+  color: rgba(248, 240, 226, 0.9);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.tr-atlas-loop span[aria-hidden] {
+  font-size: 22px;
+  opacity: 0.8;
+}
+.tr-atlas-loop strong {
+  font-weight: 400;
+  color: #ffe3b2;
+}
+
+/* ------------------------------- a chapter's stories, inside its panel --- */
+.tr-rows {
+  list-style: none;
+  margin: 14px 0 4px;
+  padding: 0;
+}
+.tr-rows li {
+  margin: 0;
+}
+.tr-rows a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 2px;
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(243, 234, 217, 0.1);
+}
+.tr-rows a:hover .tr-row-name,
+.tr-rows a:focus-visible .tr-row-name {
+  color: var(--accent);
+}
+.tr-row-art {
+  flex: none;
+  width: 44px;
+  height: 34px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.06) center / cover no-repeat;
+  border: 1px solid rgba(243, 234, 217, 0.14);
+}
+.tr-row-art[data-bud='1'] {
+  background: radial-gradient(
+    circle at 50% 52%,
+    color-mix(in srgb, var(--accent) 45%, transparent) 0%,
+    transparent 66%
+  );
+}
+.tr-row-txt {
+  min-width: 0;
+}
+.tr-row-name {
+  display: block;
+  font-size: 14.5px;
+  line-height: 1.28;
+}
+.tr-row-note {
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.55;
+  margin-top: 1px;
+}
+
+/* ------------------------------------------------ d. the home intro ----- */
+.tr-doors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+  margin: 16px 0 0;
+}
+.tr-door {
+  padding: 8px 13px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 244, 222, 0.24);
+  background: rgba(255, 255, 255, 0.03);
+  color: rgba(246, 238, 224, 0.9);
+  font: inherit;
+  font-size: 13.5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.tr-door.is-default {
+  border-color: rgba(255, 226, 176, 0.6);
+  color: #ffeacb;
+}
+.tr-door:active {
+  background: rgba(255, 255, 255, 0.1);
+}
+.tr-door:focus-visible {
+  outline: 2px solid #ffdca0;
+  outline-offset: 2px;
+}
+
+.tr-continue,
+.tr-today {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin: 10px 0 0;
+  padding: 9px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 244, 222, 0.18);
+  background: rgba(12, 10, 16, 0.55);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.tr-continue[hidden],
+.tr-today[hidden] {
+  display: none !important;
+}
+.tr-continue:focus-visible,
+.tr-today:focus-visible {
+  outline: 2px solid #ffdca0;
+  outline-offset: 2px;
+}
+.tr-continue-k,
+.tr-today-k {
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+.tr-continue-k {
+  flex: none;
+}
+.tr-continue-v,
+.tr-today-v {
+  font-size: 14.5px;
+  line-height: 1.25;
+  display: block;
+}
+.tr-continue-v {
+  margin-left: auto;
+  text-align: right;
+}
+.tr-today-art {
+  flex: none;
+  width: 46px;
+  height: 36px;
+  border-radius: 5px;
+  border: 1px solid rgba(243, 234, 217, 0.16);
+  background: rgba(255, 255, 255, 0.05) center / cover no-repeat;
+}
+.tr-today-txt {
+  min-width: 0;
+}
+
+/* The intro has to fit above the fold on a 390 × 844 phone. */
+.tr-hint p {
+  margin: 0 0 16px;
+}
+.tr-hint-card {
+  max-width: 22em;
+  width: 100%;
+}
+
+/* ------------------------------------------- the index, with its chapters */
+.tr-index-line {
+  margin: 2px 0 8px;
+  font-size: 13px;
+  opacity: 0.6;
+  line-height: 1.45;
+}
+.tr-index-chapters {
+  margin: 0 0 10px;
+  padding-left: 1.15em;
+}
+.tr-index-chapters > li {
+  margin: 0 0 4px;
+}
+.tr-index-chapters ul {
+  margin: 2px 0 6px;
+  padding-left: 0.9em;
+  list-style: none;
+}
+.tr-index-chapters ul a {
+  font-size: 13px;
+  opacity: 0.78;
+}
+
+/* ---------------------------------------------------------- no JS, again - */
+html:not(.tr-js) .tr-finale,
+html:not(.tr-js) .tr-morning,
+html:not(.tr-js) .tr-dawn,
+html:not(.tr-js) .tr-scale-host {
+  display: none !important;
+}
+
+/* --------------------------------------------------------- reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .tr-fin-fire,
+  .tr-fin-rain {
+    animation: none !important;
+  }
+  .tr-dawn {
+    transition-duration: 1ms !important;
+  }
+  .tr-era-plate {
+    transition-duration: 1ms !important;
+  }
+}
+
+/* -------------------------------------------------------------- desktop - */
+@media (min-width: 900px) {
+  .tr-era {
+    width: 180px;
+    margin-left: -90px;
+  }
+  .tr-era-name {
+    font-size: 13px;
+  }
+  .tr-manu {
+    width: 200px;
+    margin-left: -100px;
+  }
+  .tr-manu-arch {
+    width: 150px;
+    height: 190px;
+    border-radius: 75px 75px 0 0;
+  }
+  .tr-night-disc {
+    width: 168px;
+    height: 168px;
+  }
+}
+
+/* ======================================================================== *
+ * Road v2, second pass — the fixes the audit and the contact sheets found.
+ * ======================================================================== */
+
+/* -------------------------------------------- c1. the gate keeps its zone */
+/**
+ * A gate is the only reading matter on the road, and the two lanes behind it
+ * travel at different speeds — so nothing static can keep them off its text.
+ * `road.ts` marks whatever falls inside the gate's 300 px block while it is on
+ * screen; here is what "stepping back" looks like. It is not `display:none`:
+ * the chapter keeps its place in the world and comes back the moment the gate
+ * has gone by, so the road never loses a landmark, only a collision.
+ */
+.tr-lm,
+.tr-sky-place,
+.tr-stele,
+.tr-era,
+.tr-manu {
+  transition: opacity 260ms ease;
+}
+[data-shy] {
+  opacity: 0 !important;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .tr-lm,
+  .tr-sky-place,
+  .tr-stele,
+  .tr-era,
+  .tr-manu {
+    transition: none;
+  }
+}
+
+/* --------------------------------------- c2. the tools say what they are */
+/**
+ * R6: the header icons carried only `aria-label`s — invisible to the sighted
+ * first-timer — while every inner page labels the same kind of control in
+ * words. One convention, everywhere.
+ */
+.tr-tools .tr-tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  width: auto;
+  min-width: 46px;
+  height: auto;
+  padding: 5px 5px 4px;
+  border-radius: 12px;
+}
+.tr-tool-label {
+  display: block;
+  font-size: 9.5px;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.78;
+  white-space: nowrap;
+}
+
+/* ------------------------------ c3. the finder answers from the manuscript */
+.tr-find-more {
+  margin: 8px 0 0;
+  padding: 10px 12px 8px;
+  border-radius: 14px;
+  background: rgba(12, 9, 14, 0.94);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 240, 214, 0.16);
+  box-shadow: 0 20px 50px -18px rgba(0, 0, 0, 0.95);
+  max-height: min(40dvh, 340px);
+  overflow: hidden auto;
+  overscroll-behavior: contain;
+}
+.tr-find-more[hidden] {
+  display: none;
+}
+.tr-find-kicker {
+  margin: 0 0 6px;
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--accent, #f3b551);
+}
+.tr-find-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tr-find-list a {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 7px 2px;
+  color: rgba(246, 240, 226, 0.94);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 240, 214, 0.07);
+  font-size: 14px;
+}
+.tr-find-list li:last-child a {
+  border-bottom: 0;
+}
+.tr-find-list em {
+  flex: none;
+  font-style: normal;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+.tr-find-list a:focus-visible {
+  outline: 2px solid var(--accent, #f3b551);
+  outline-offset: 1px;
+}
+
+/* -------------------------- c4. the two return hooks, inside the intro --- */
+/**
+ * `ContinueCard` and `TodayCard` are L2's components, mounted as they are so
+ * the home and the Stories hub cannot disagree. Their own stylesheet lives in
+ * the site shell, which this page does not load — so the intro dresses them
+ * itself, in the intro's own layout, and both stay `hidden` until they have
+ * something to say (the one-screen rule survives a first visit).
+ */
+.tr-hint .hook-row {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 18px;
+}
+.tr-hint .hook {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid rgba(255, 240, 214, 0.16);
+  border-radius: 12px;
+  background: rgba(10, 12, 20, 0.42);
+  text-align: left;
+}
+.tr-hint .hook[hidden] {
+  display: none !important;
+}
+.tr-hint .hook-thumb {
+  flex: none;
+  display: block;
+  width: 42px;
+  height: 32px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: rgba(255, 240, 214, 0.08);
+}
+.tr-hint .hook-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.tr-hint .hook-copy {
+  display: block;
+  min-width: 0;
+}
+.tr-hint .hook-label {
+  display: block;
+  font-size: 9.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent, #f3b551);
+}
+.tr-hint .hook-link {
+  color: inherit;
+  text-decoration: none;
+}
+.tr-hint .hook-title {
+  display: block;
+  margin-top: 2px;
+  font-size: 15px;
+  line-height: 1.25;
+  color: rgba(246, 240, 226, 0.96);
+}
+.tr-hint .hook-when,
+.tr-hint .hook-day {
+  display: block;
+  margin-top: 1px;
+  font-size: 11px;
+  opacity: 0.6;
+}
+.tr-hint .hook-dismiss {
+  margin-left: auto;
+  flex: none;
+  padding: 4px 8px;
+  border: 0;
+  border-radius: 8px;
+  background: none;
+  color: rgba(246, 240, 226, 0.55);
+  font: inherit;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+/* --------------------- c5. a gate with no photograph: the Future's own -- */
+.tr-gate-art.is-carved {
+  display: grid;
+  place-items: center;
+  color: var(--gaccent, #f3b551);
+  opacity: 0.3;
+}
+.tr-gate-art.is-carved svg {
+  width: min(46vw, 220px);
+  height: auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 0.9;
+}
+
+/* ------------------------------------------ one screen, one message (C2) --
+ *
+ * The intro is a sentence laid over a landscape, and the landscape was
+ * answering back. Measured at 390 × 844: "Drag to travel it. Everything
+ * standing beside it opens." intersected the landmark label "A hymn asks a
+ * question" by 118 × 14 px and "Brahmā's lotus birth" by 86 × 14, both at 0.94
+ * opacity, and two of the three door pills clipped "The Self alone at first" —
+ * eleven competing labels on the first phone screen, against the brief's four.
+ *
+ * A heavier ground was tried here before and correctly reverted: it muted the
+ * artwork, which is the one thing the first ten seconds are for. So the
+ * pictures stay lit at full strength and only the *words* go quiet. Nothing
+ * moves and nothing is removed — every label keeps its box and its accessible
+ * name — and they fade back up as the card leaves, which is what makes the
+ * dismissal read as a door opening rather than a card disappearing.
+ *
+ * The interactive gate controls are deliberately not in this list: fading a
+ * button leaves an invisible tab stop, and none of them reach the first
+ * screen anyway.
+ */
+.tr-lm-label,
+.tr-lm-dates,
+.tr-stele-title,
+.tr-sky-label,
+.tr-era-name,
+.tr-era-dates,
+.tr-era-num {
+  transition: opacity 320ms ease;
+}
+.terrain.tr-introing .tr-lm-label,
+.terrain.tr-introing .tr-lm-dates,
+.terrain.tr-introing .tr-stele-title,
+.terrain.tr-introing .tr-sky-label,
+.terrain.tr-introing .tr-era-name,
+.terrain.tr-introing .tr-era-dates,
+.terrain.tr-introing .tr-era-num {
+  opacity: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .tr-lm-label,
+  .tr-lm-dates,
+  .tr-stele-title,
+  .tr-sky-label,
+  .tr-era-name,
+  .tr-era-dates,
+  .tr-era-num {
+    transition: none;
+  }
+}

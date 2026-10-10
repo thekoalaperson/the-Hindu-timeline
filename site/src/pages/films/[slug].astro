@@ -1,0 +1,321 @@
+---
+/**
+ * /films/<slug>/ — one film (PRODUCT-SPEC §3, "Film page").
+ *
+ * Order: the title, the leaf, where it sits in time, the summary, the stills,
+ * the other cuts of this film, then the story itself rendered INLINE from the
+ * corpus (not merely linked), then the neighbouring films.
+ *
+ * The inline story uses exactly the pattern in `src/pages/[...slug].astro`:
+ * `getEntry('corpus', <repo-relative path>)` + `render()`, wrapped in the same
+ * `div.prose`, so I2's prose styles, the citation marks, the reliability tags
+ * and the `<details>` variants all apply unchanged.
+ */
+import '../../styles/films.css';
+import { getEntry, render } from 'astro:content';
+import PageArt from '../../components/PageArt.astro';
+import { heroForFilm } from '../../components/art.ts';
+import StillsStrip from '../../components/films/StillsStrip.astro';
+import YouTubeLeaf from '../../components/films/YouTubeLeaf.astro';
+import FilmNext from '../../components/films/FilmNext.astro';
+import FilmRow from '../../components/films/FilmRow.astro';
+import Base from '../../layouts/Base.astro';
+import {
+  CHANNEL_URL,
+  type Film,
+  embedSrc,
+  getFilms,
+  siblingFilms,
+} from '../../lib/films.ts';
+import { githubUrl } from '../../lib/graph.ts';
+import { canonicalPath, fold, splitTitle } from '../../lib/routes.ts';
+
+export async function getStaticPaths() {
+  return getFilms().map((film) => ({ params: { slug: film.slug }, props: { film } }));
+}
+
+const { film } = Astro.props as { film: Film };
+
+/* -- the story, rendered inline ------------------------------------------ */
+
+const primary = film.corpus[0];
+const others = film.corpus.slice(1);
+let Story: Awaited<ReturnType<typeof render>>['Content'] | null = null;
+if (primary) {
+  const entry = await getEntry('corpus', canonicalPath(primary.path));
+  if (entry) ({ Content: Story } = await render(entry));
+}
+
+/* -- the rest ------------------------------------------------------------ */
+
+const siblings = siblingFilms(film, 6);
+const shorts = film.shorts;
+const vectorPoster = film.vectorFilm ? film.vectorFilm.replace(/index\.html$/, 'poster.webp') : null;
+
+// EP44–50 carry unverified working titles — hedge them wherever they are
+// quoted as fact (I4a §9.3).
+const seoTitle = film.titleDraft ? `${film.title.en} (working title)` : film.title.en;
+const seoDescription = film.summary;
+/* The share card is the film's own poster when we hold one locally; otherwise
+   `Base` falls back to the site card rather than hotlinking i.ytimg. */
+const ogImage = film.thumb ? film.thumb[1280] : null;
+
+// I4a §5: 20 of the corpus mappings are subject-matched rather than cited by
+// the episode's own documents. K confirms them from the report; until then the
+// flag is machine-readable only — never visible copy.
+const inferred = primary?.inferred === true;
+
+/* The full-bleed opener (EXPERIENCE-BRIEF v3 §2). Null only for a film with
+   no stills *and* no local thumbnail, where the page falls back to the plain
+   H1 it had before. */
+const hero = heroForFilm(film);
+/* Same `Title — Subtitle` split the corpus pages use, so a long film name does
+   not set as one four-line block of display type on a phone. */
+const [heroTitle, heroSub] = splitTitle(film.title.en);
+---
+
+<Base
+  title={seoTitle}
+  description={seoDescription}
+  page="films"
+  period={film.periodSlug}
+  image={ogImage}
+>
+  {
+    /* og:title, og:description and og:image are Base's; og:video is this
+       page's alone, so it rides the head slot I5 added to Base.astro. */
+    film.yt.url && (
+      <Fragment slot="head">
+        <meta property="og:video" content={film.yt.url} />
+        <meta property="og:video:type" content="text/html" />
+      </Fragment>
+    )
+  }
+
+  <nav class="crumbs" aria-label="Breadcrumb" slot="crumbs">
+    <ol>
+      <li class="crumb crumb-root"><a href="/films/">Films</a></li>
+      <li class="crumb crumb-current" aria-current="page">{film.title.en}</li>
+    </ol>
+  </nav>
+
+  <article
+    class="page film-page"
+    data-pagefind-body
+    data-film={film.slug}
+    data-period={film.periodSlug ?? undefined}
+    data-route={film.route}
+    data-inferred={inferred ? 'true' : undefined}
+    data-status={film.yt.status}
+  >
+    <span class="u-visually-hidden" data-pagefind-meta="section:Films" data-pagefind-filter="section:Films"
+    ></span>
+    {
+      film.periodSlug && (
+        <span
+          class="u-visually-hidden"
+          data-pagefind-meta={`period:${film.periodName}`}
+          data-pagefind-filter={`period:${film.periodName}`}
+        />
+      )
+    }
+    <span class="u-visually-hidden" data-pagefind-meta="title_folded">{fold(film.title.en)}</span>
+
+    {
+      /* The opener is the film's own first still, full-bleed, with the title
+         standing on it — the same band every corpus page now opens with, cut
+         shorter here because the player is immediately below it. The play mark
+         inside the picture is suppressed (`film` is not passed through) since
+         tapping it would only scroll to the player one screen-height away. */
+      hero ? (
+        <PageArt
+          art={{ ...hero, film: null }}
+          title={heroTitle}
+          subtitle={heroSub}
+          kicker={film.title.hi}
+          kickerLang={film.title.hi ? 'hi' : null}
+          period={film.periodSlug}
+        />
+      ) : (
+        <h1 class="film-title">
+          {film.title.hi && <span class="film-title-hi dv" lang="hi">{film.title.hi}</span>}
+          <span class="film-title-en">{film.title.en}</span>
+        </h1>
+      )
+    }
+
+    <YouTubeLeaf film={film} eager />
+
+    <p class="film-meta film-headmeta">
+      {film.publishedLabel && <span>Published {film.publishedLabel}</span>}
+      {!film.isPublic && <span>Not yet released</span>}
+      {
+        film.yt.url && (
+          <span>
+            <a href={film.yt.url} rel="noopener">
+              Watch on YouTube
+            </a>
+          </span>
+        )
+      }
+      {!film.yt.url && (
+        <span>
+          <a href={CHANNEL_URL} rel="noopener">The channel</a>
+        </span>
+      )}
+    </p>
+
+    <p class="film-context">
+      {
+        film.periodSlug && (
+          <a class="chip" data-period={film.periodSlug} href={`/clock/${film.periodSlug}/`}>
+            {film.periodName}
+          </a>
+        )
+      }
+      {film.cosmicAddressLabel && <span class="film-address">{film.cosmicAddressLabel}</span>}
+    </p>
+
+    <p class="film-summary">{film.summary}</p>
+
+    <StillsStrip stills={film.stills} title="Stills from the film" id={`stills-${film.slug}`} />
+
+    {
+      (shorts.length > 0 || film.vectorFilm) && (
+        <section class="film-section" aria-labelledby="more-cuts">
+          <h2 class="film-section-title" id="more-cuts">
+            More of this film
+          </h2>
+
+          {shorts.length > 0 && (
+            <ul class="shorts-strip">
+              {shorts.map((id, i) => (
+                <li class="short-tile">
+                  <a
+                    class="short-frame"
+                    href={`https://www.youtube.com/shorts/${id}`}
+                    rel="noopener"
+                    data-film-facade
+                    data-video-id={id}
+                    data-embed-src={embedSrc(id)}
+                    data-embed-title={`Short — ${film.title.en}`}
+                    aria-label={`Play the short from ${film.title.en}`}
+                  >
+                    <span class="fp-mini film-play" aria-hidden="true">
+                      <svg viewBox="0 0 48 48" focusable="false">
+                        <circle class="fp-ring" cx="24" cy="24" r="19" />
+                        <path class="fp-tri" d="M20 16.4 33 24l-13 7.6z" />
+                      </svg>
+                    </span>
+                  </a>
+                  <span class="short-label">
+                    {shorts.length > 1 ? `A short from the film (${i + 1})` : 'A short from the film'}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )}
+
+          {film.vectorFilm && (
+            <a class="film-vector" href={film.vectorFilm} target="_blank" rel="noopener">
+              {vectorPoster && <img src={vectorPoster} alt="" width="160" height="90" loading="lazy" decoding="async" />}
+              <span class="film-vector-body">
+                <span class="film-vector-title">Watch the vector edition (interactive)</span>
+                <span class="film-vector-note">
+                  A self-contained player — drawn, not filmed. Opens in a new tab.
+                </span>
+              </span>
+            </a>
+          )}
+        </section>
+      )
+    }
+
+    {
+      /* I4a §5 — the grounding of this mapping is subject-matched, not cited.
+         Machine-readable only (see data-inferred on article.film-page). */
+      inferred && (
+        <Fragment set:html={`<!-- I4b: grounding inferred — check ${primary?.path ?? ''} against the film -->`} />
+      )
+    }
+
+    {
+      primary && (
+        <section class="film-story" data-inferred={inferred ? 'true' : undefined}>
+          <div class="film-story-head">
+            <h2 class="film-story-title" id="the-story">
+              Read the story
+            </h2>
+            <p class="film-story-source">{primary.title}</p>
+          </div>
+
+          {Story ? (
+            <div class="prose">
+              <Story />
+            </div>
+          ) : (
+            <p class="films-note">
+              The page this film draws on is <a href={primary.route}>{primary.title}</a>.
+            </p>
+          )}
+
+          <p class="film-open-full">
+            <a href={primary.route}>Open the full page</a>
+            <span class="u-visually-hidden"> — {primary.title}</span>
+          </p>
+        </section>
+      )
+    }
+
+    {
+      others.length > 0 && (
+        <section class="film-also" aria-labelledby="also-in">
+          <h2 class="film-section-title" id="also-in">
+            Also in the manuscript
+          </h2>
+          <ul>
+            {others.map((c) => (
+              <li>
+                <a href={c.route}>{c.title}</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <FilmNext film={film} story={primary ? { route: primary.route, title: primary.title } : null} />
+
+    {
+      /* The shelf comes *after* the next step: "here is the one thing to do
+         next" reads as an invitation, and the same title arriving first in a
+         list of six reads as a catalogue. */
+      siblings.length > 0 && (
+        <section class="film-section" aria-labelledby="same-yuga" data-pagefind-ignore>
+          <h2 class="film-section-title" id="same-yuga">
+            Other films in {film.periodName}
+            <span class="fs-count">{siblings.length}</span>
+          </h2>
+          <ul class="film-list">
+            {siblings.map((other) => (
+              <FilmRow film={other} showSummary={false} />
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <p class="source-link" data-pagefind-ignore>
+      {
+        primary && (
+          <>
+            <a href={githubUrl(primary.path)} rel="noopener" class="ext">
+              View source on GitHub
+            </a>
+            <span class="source-path">{primary.path}</span>
+          </>
+        )
+      }
+    </p>
+  </article>
+</Base>

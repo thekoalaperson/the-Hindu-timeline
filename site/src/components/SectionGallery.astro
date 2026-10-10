@@ -1,0 +1,138 @@
+---
+/**
+ * SectionGallery.astro — a section index that opens with pictures.
+ *
+ * FIXLIST L2b-6. `/deities/`, `/places/`, `/texts/` and the rest were prose
+ * followed by a long list: a directory listing with a paragraph on top. The
+ * list is right — it is the section's whole contents and people use it — but
+ * nothing above it says what the section *looks* like, and a section of 60
+ * pages has no way to show you the six you would actually want first.
+ *
+ * So: a tile gallery between the intro and the list. Two up on a phone, the
+ * same grid the Stories hub uses (`.hub-grid`/`.hub-tile`), so the site has
+ * one gallery, not two. A tile's picture is a **still** where anything in the
+ * group has been filmed — that is the section's own art, not a stock plate —
+ * and the section's plate otherwise, quieted so the tiles read as one set.
+ *
+ * What gets a tile, in order: the section's sub-sections (a doorway is worth
+ * more than a leaf), then its filmed pages, then its longest pages. Capped at
+ * eight, which is four rows on a phone and keeps the page's DOM inside the
+ * quality floor's budget.
+ */
+import { plateForSection } from './art.ts';
+import { cardPoster, filmsForRoute } from '../lib/films.ts';
+import type { GraphNode } from '../lib/graph.ts';
+import { groupedChildren, nodeFor } from '../lib/graph.ts';
+import { splitTitle } from '../lib/routes.ts';
+import Plain from './Plain.astro';
+
+interface Props {
+  node: GraphNode;
+  /** How many tiles at most. Eight is four phone rows. */
+  limit?: number;
+}
+const { node, limit = 8 } = Astro.props;
+
+const plate = plateForSection(node.sectionSlug);
+
+/** The first film under a page (itself, or any of its children). */
+function stillFor(n: GraphNode) {
+  const own = n.isIndex ? undefined : filmsForRoute(n.route)[0];
+  if (own) return cardPoster(own);
+  for (const childPath of n.children ?? []) {
+    const child = nodeFor(childPath);
+    if (!child) continue;
+    const film = filmsForRoute(child.route)[0];
+    if (film) return cardPoster(film);
+  }
+  return null;
+}
+
+const { top } = groupedChildren(node);
+const children = top.length > 0 ? top : (node.children ?? []).map((p) => nodeFor(p)).filter(Boolean as unknown as (n: GraphNode | undefined) => n is GraphNode);
+
+const indexes = children.filter((c) => c.isIndex);
+const leaves = children.filter((c) => !c.isIndex);
+const filmed = leaves.filter((c) => filmsForRoute(c.route).length > 0);
+const filmedRoutes = new Set(filmed.map((c) => c.route));
+const substantial = leaves
+  .filter((c) => !filmedRoutes.has(c.route))
+  .sort((a, b) => b.wordCount - a.wordCount);
+
+const picked: GraphNode[] = [];
+const seen = new Set<string>();
+for (const c of [...indexes, ...filmed, ...substantial]) {
+  if (picked.length >= limit) break;
+  if (seen.has(c.route)) continue;
+  seen.add(c.route);
+  picked.push(c);
+}
+
+const tiles = picked.map((c) => {
+  const poster = stillFor(c);
+  return {
+    route: c.route,
+    title: splitTitle(c.title)[0],
+    poster,
+    /* A sub-section says how many pages it holds; a leaf says how long it is —
+       both are the one number that helps you choose. */
+    note: c.isIndex
+      ? `${(c.children ?? []).length} ${(c.children ?? []).length === 1 ? 'page' : 'pages'}`
+      : `${c.readingMinutes} min`,
+    filmed: Boolean(poster),
+  };
+});
+---
+
+{
+  tiles.length >= 3 && (
+    <section class="hub-section section-gallery" aria-labelledby="gallery-heading" data-pagefind-ignore>
+      <div class="hub-head">
+        <h2 class="hub-title" id="gallery-heading">Start here</h2>
+        <p class="hub-note">
+          {tiles.some((t) => t.filmed) ? 'The pages of this section people open first — filmed where a film exists.' : 'The pages of this section people open first.'}
+        </p>
+      </div>
+      <ul class="hub-grid" data-cols="wide">
+        {tiles.map((t) => (
+          <li>
+            <a class="hub-tile section-tile" href={t.route} data-play={t.filmed ? '' : undefined}>
+              <span class="hub-tile-art" aria-hidden="true" data-plate={t.poster ? undefined : ''}>
+                {t.poster ? (
+                  <img
+                    src={t.poster.src}
+                    srcset={t.poster.srcset ?? undefined}
+                    sizes="(min-width: 700px) 220px, 46vw"
+                    width={t.poster.width}
+                    height={t.poster.height}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
+                ) : (
+                  plate && (
+                    <img
+                      src={plate.src}
+                      srcset={plate.srcset ?? undefined}
+                      sizes="(min-width: 700px) 220px, 46vw"
+                      width={plate.width}
+                      height={plate.height}
+                      alt=""
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  )
+                )}
+              </span>
+              <span class="hub-tile-veil" aria-hidden="true" />
+              <span class="hub-tile-copy">
+                <span class="hub-tile-name"><Plain text={t.title} /></span>
+                <span class="hub-tile-count">{t.note}</span>
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}

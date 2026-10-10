@@ -1,0 +1,86 @@
+---
+/**
+ * FilmCard.astro — "Watch the film", for a corpus article page.
+ *
+ * The one double-ruled band on a content page (DESIGN-BRIEF §1 device 4,
+ * and the phone wireframe in §2). I5 mounts it in `Article.astro` between
+ * `h1.page-title` and `nav.toc`:
+ *
+ *   import FilmCard from '../components/films/FilmCard.astro';
+ *   import { filmsForRoute } from '../lib/films.ts';
+ *   const film = filmsForRoute(node.route)[0];
+ *   …
+ *   <h1 class="page-title">{node.title}</h1>
+ *   {film && <FilmCard film={film} />}
+ *   <Toc headings={headings} />
+ *
+ * It links to the film page rather than embedding: the article is for reading,
+ * and the leaf lives one tap away.
+ */
+import '../../styles/films.css';
+import { type Film, cardPoster } from '../../lib/films.ts';
+
+interface Props {
+  film: Film;
+}
+
+const { film } = Astro.props;
+/* The first hero still, not the YouTube thumbnail: those carry Hinglish text
+   baked into the picture, and this card sits inside body copy. */
+const poster = cardPoster(film);
+const kicker = film.isPublic ? 'Watch the film' : 'A film is coming';
+---
+
+<a
+  class="film-card"
+  href={film.route}
+  data-period={film.periodSlug ?? undefined}
+  data-film={film.slug}
+  data-pagefind-ignore
+>
+  <span
+    class="film-card-thumb"
+    data-poster={poster?.kind}
+    style={poster?.lqip ? `background-image:url("${poster.lqip}")` : undefined}
+  >
+    {
+      poster && (
+        <img
+          src={poster.src}
+          srcset={poster.srcset ?? undefined}
+          sizes="7rem"
+          width={poster.width}
+          height={poster.height}
+          alt=""
+          loading="lazy"
+          decoding="async"
+        />
+      )
+    }
+    {
+      film.isPublic && (
+        <span class="fp-mini film-play" aria-hidden="true">
+          <svg viewBox="0 0 48 48" focusable="false">
+            <circle class="fp-ring" cx="24" cy="24" r="19" />
+            <path class="fp-tri" d="M20 16.4 33 24l-13 7.6z" />
+          </svg>
+        </span>
+      )
+    }
+  </span>
+
+  <span class="film-card-body">
+    <span class="film-card-kicker">{kicker}</span>
+    {film.title.hi && <span class="film-card-hi dv" lang="hi">{film.title.hi}</span>}
+    <span class="film-card-en">{film.title.en}</span>
+    {
+      /* Short on purpose: the card interrupts an article, so it carries only
+         what decides whether to tap. The film page says the rest. */
+    }
+    <span class="film-meta">
+      {film.duration && <span class="film-duration">{film.duration}</span>}
+      {!film.isPublic && <span>Not yet released</span>}
+      {film.isPublic && <span>Hindi</span>}
+    </span>
+  </span>
+</a>

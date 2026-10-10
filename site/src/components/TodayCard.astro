@@ -1,0 +1,104 @@
+---
+/**
+ * TodayCard.astro — one story a day, the same one for everybody.
+ *
+ * The pick is made at build time by `lib/today.ts` so the card is complete
+ * without JavaScript; a fourteen-line inline script re-picks on the client
+ * when the *reader's* date has moved past the build date — which, on a static
+ * site published once, it always will. The whole pool is embedded as a small
+ * JSON payload (slug, route, title, poster) rather than fetched.
+ *
+ * Lane L1's home page can mount this as-is; `todaysStory()` is the same
+ * function, so home and hub always show the same story.
+ */
+import { cardPoster } from '../lib/films.ts';
+import { dayNumber, pickIndex, todayPool, todaysStory } from '../lib/today.ts';
+import { splitTitle } from '../lib/routes.ts';
+
+const pool = todayPool().map((f) => {
+  const poster = cardPoster(f);
+  return {
+    href: f.corpus[0]?.route ?? f.route,
+    title: splitTitle(f.title.en)[0],
+    src: poster?.src ?? '',
+    srcset: poster?.srcset ?? '',
+  };
+});
+const today = todaysStory();
+const built = today ? { day: dayNumber(), index: pickIndex(dayNumber(), pool.length) } : null;
+const shown = built ? pool[built.index] : null;
+---
+
+{
+  shown && (
+    <div class="hook hook-today" data-today data-pool={JSON.stringify(pool)}>
+      <span class="hook-thumb" data-today-thumb>
+        {shown.src && (
+          <img
+            src={shown.src}
+            srcset={shown.srcset || undefined}
+            sizes="84px"
+            width={320}
+            height={180}
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+        )}
+      </span>
+      <span class="hook-copy">
+        <span class="hook-label">Today's story</span>
+        <a class="hook-link" href={shown.href} data-today-link>
+          <span class="hook-title" data-today-title>
+            {shown.title}
+          </span>
+        </a>
+        <span class="hook-when">A new one every day</span>
+      </span>
+    </div>
+  )
+}
+
+<script>
+  /* `lib/day.ts`, not `lib/today.ts`: the latter imports films.ts, which
+     imports featured.json, which is 1.4 MB — and it all followed this one
+     import into the client bundle before the split. */
+  import { dayNumber, pickIndex } from '../lib/day.ts';
+  import { applyPlainEnglish } from '../lib/plain-english-client.ts';
+
+  /* The build baked in one day's pick; correct it for the reader's own date.
+     Everything is wrapped: a card showing a slightly stale story is a much
+     smaller failure than a page that throws. */
+  try {
+    const el = document.querySelector<HTMLElement>('[data-today]');
+    if (el) {
+      const pool = JSON.parse(el.dataset.pool || '[]') as {
+        href: string;
+        title: string;
+        src: string;
+        srcset: string;
+      }[];
+      if (pool.length > 0) {
+        const pick = pool[pickIndex(dayNumber(), pool.length)];
+        const link = el.querySelector<HTMLAnchorElement>('[data-today-link]');
+        const title = el.querySelector<HTMLElement>('[data-today-title]');
+        const img = el.querySelector<HTMLImageElement>('[data-today-thumb] img');
+        if (pick && link && title) {
+          link.href = pick.href;
+          title.textContent = pick.title;
+          if (img && pick.src) {
+            img.src = pick.src;
+            if (pick.srcset) img.srcset = pick.srcset;
+          }
+          /* Same reason as ContinueCard: a `textContent` write into an
+             existing node is invisible to PlainScript's observer. */
+          if (document.documentElement.hasAttribute('data-plain')) applyPlainEnglish(el, true);
+        }
+      }
+      /* The payload has done its job; drop it so the DOM stays small. */
+      el.removeAttribute('data-pool');
+    }
+  } catch {
+    /* leave the build-time pick in place */
+  }
+</script>

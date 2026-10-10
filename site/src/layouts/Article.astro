@@ -1,0 +1,351 @@
+---
+/**
+ * Article.astro — the template every corpus page uses.
+ *
+ * DOM contract from I1 §9 kept intact. Two deliberate moves:
+ *
+ *  1. `.context` is slotted into the header, so the pill row and the
+ *     breadcrumb hide and return together and the sticky maths stays exact.
+ *     The Pagefind metadata that used to ride on the chip now lives on hidden
+ *     spans *inside* `[data-pagefind-body]` — where Pagefind can actually read
+ *     it. (The section meta on the breadcrumb had the same problem: the crumbs
+ *     are slotted into the header too, i.e. outside the indexed body.)
+ *  2. `nav.toc` still renders, but is visually hidden once JS is on, so the
+ *     `.lede` blockquote reads directly under the H1 — the DOM-order deviation
+ *     I1 §9 flagged. The contents live in the page sheet (phones) and the
+ *     scribal margin (≥1100px).
+ */
+import Crumbs from '../components/Crumbs.astro';
+import PageArt from '../components/PageArt.astro';
+import Plain from '../components/Plain.astro';
+import PlainWords from '../components/PlainWords.astro';
+import { artForNode } from '../components/art.ts';
+import { clockMarkSvg } from '../components/clock/ClockMark.tsx';
+import IndexList from '../components/IndexList.astro';
+import PageSheet from '../components/PageSheet.astro';
+import Scribe from '../components/Scribe.astro';
+import SectionGallery from '../components/SectionGallery.astro';
+import StoryEnd from '../components/StoryEnd.astro';
+import StoryRail from '../components/StoryRail.astro';
+import Toc from '../components/Toc.astro';
+import WhereInTime from '../components/WhereInTime.astro';
+import { chapterOfRoute } from '../lib/chapters.ts';
+import { filmsForRoute } from '../lib/films.ts';
+import type { GraphNode } from '../lib/graph.ts';
+import { crumbsFor, githubUrl, nodeFor, nodeForRoute, periodLabel } from '../lib/graph.ts';
+import { fold, splitTitle } from '../lib/routes.ts';
+import Base from './Base.astro';
+
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  node: GraphNode;
+  headings?: Heading[];
+  /** Set false for the bespoke pages (home, structure) that build their own body. */
+  showIndex?: boolean;
+  page?: string;
+}
+
+const { node, headings = [], showIndex = true, page = 'article' } = Astro.props;
+
+/* The root crumb is dropped: the clock mark to its immediate left already
+   links home, and "The Hindu Ti…" truncated next to its own mark is noise. */
+const crumbs = crumbsFor(node).filter((c) => c.route !== '/');
+const period = node.cosmicAddress;
+const periodName = periodLabel(period);
+const titleFolded = fold(node.title);
+const topHeadings = headings.filter((h) => h.depth === 2).length;
+const [titleHead, titleSub] = splitTitle(node.title);
+
+/* Section/period as Pagefind metadata. **One element per key** — Pagefind
+   1.5.2 does *not* split `data-pagefind-meta` on commas, so the comma-joined
+   form this replaced stored the whole tail as the value of the first key and
+   every result on the site printed
+   `The Texts, period:Before Time, period_slug:before-time` as its section
+   (S1-report §5; verified in `dist/pagefind/fragment`, 862 of 947 fragments
+   dirty). The spans are *empty*: an inline `key:value` takes its value from
+   the attribute, so nothing is added to the indexed body text — which is why
+   the four hidden spans the attribute form itself replaced were a problem. */
+const pagefindKeys: { key: string; value: string; filter: boolean }[] = [
+  { key: 'section', value: node.sectionLabel, filter: true },
+  ...(period
+    ? [
+        { key: 'period', value: periodName ?? '', filter: true },
+        { key: 'period_slug', value: period, filter: false },
+      ]
+    : []),
+].filter((m) => Boolean(m.value));
+
+const backlinks = node.backlinks.routes
+  .map((r) => nodeForRoute(r))
+  .filter((n): n is GraphNode => Boolean(n) && n!.route !== node.route)
+  .slice(0, 24);
+
+const parent = node.parentPath ? nodeFor(node.parentPath) : undefined;
+const backlinkRoutes = new Set(backlinks.map((b) => b.route));
+const siblings = (parent?.children ?? [])
+  .map((p) => nodeFor(p))
+  .filter((n): n is GraphNode => Boolean(n) && n!.route !== node.route && !backlinkRoutes.has(n!.route))
+  .slice(0, 12);
+const relatedCount = node.backlinks.total + siblings.length;
+
+const prev = node.prev ? nodeForRoute(node.prev) : undefined;
+const next = node.next ? nodeForRoute(node.next) : undefined;
+
+/* The film this page animates, if any. Public films sort first, so a
+   watchable film is offered before a promised one. A section index is a list
+   of leaves, not a story, so it gets none — the films it points at are on the
+   leaves themselves. */
+const film = node.isIndex ? undefined : filmsForRoute(node.route)[0];
+
+/* The picture the page opens with (EXPERIENCE-BRIEF v3 §2). A page with a
+   film wears its own first still as a full-bleed hero and carries the play
+   mark inside it — which is why the old `FilmCard` between the title and the
+   text is gone: it said the same thing, in a smaller voice, below the fold.
+   A page without one wears an age plate, or its section's plate. */
+const art = artForNode(node, film);
+/* The line above the H1. A film page gets its Devanagari title; anything else
+   gets the age it sits in, falling back to its section — but never a kicker
+   that just repeats the title, which is exactly what a section index
+   ("Sacred Geography" over "Sacred Geography") would otherwise produce. */
+const artKickerRaw =
+  art?.reason === 'film'
+    ? (film?.title.hi ?? film?.title.en ?? null)
+    : (periodName ?? node.sectionLabel ?? null);
+const artKicker = artKickerRaw && artKickerRaw !== titleHead ? artKickerRaw : null;
+const artKickerLang = art?.reason === 'film' && film?.title.hi ? ('hi' as const) : null;
+
+/* ----------------------------------------------------------- story mode -- *
+ * BRIEF v4 §4 W3d. "Story mode" is not a switch a reader flips; it is what a
+ * *reading* page is now: a chapter rail from its own H2s, a place in time, and
+ * a next step at the end. A section index is a doorway, not a story, so it
+ * gets the place in time but neither rail nor ending — the ending belongs on
+ * the leaves it points at.
+ */
+const chapter = chapterOfRoute(node.route);
+const isStory = !node.isIndex;
+/* The eleven top-level section READMEs hang off the corpus root's own README;
+   a sub-directory index hangs off its section. That is the whole test. */
+const isSectionIndex = node.isIndex && node.parentPath === 'README.md';
+const storyMode = isStory && topHeadings >= 2;
+---
+
+<Base title={node.title} description={node.dek} page={page} period={period}>
+  <Crumbs slot="crumbs" crumbs={crumbs} current={node.title} />
+
+  <div class="context" slot="context">
+    {
+      period && (
+        <a class="chip context-period" data-period={period} href={`/clock/${period}/`}>
+          <Fragment set:html={clockMarkSvg({ size: 14, period })} />
+          {/* One span, not a bare run: `.chip` is an inline-flex row with a
+              gap, and Plain's per-word spans would each become a flex item —
+              "Tretā Yuga" rendered with a double gap in the middle. */}
+          <span><Plain text={periodName} /></span>
+        </a>
+      )
+    }
+    {node.eventCount > 0 && <span class="context-events">{node.eventCount.toLocaleString('en')} events</span>}
+    <span class="context-reading">{node.readingMinutes} min</span>
+    <a class="context-contents" href="#contents" data-sheet="sheet-page" aria-haspopup="dialog">
+      {topHeadings > 1 ? 'Contents' : 'This leaf'}
+    </a>
+  </div>
+
+  <article
+    class="page has-scribe"
+    data-pagefind-body
+    data-story-mode={storyMode ? '' : undefined}
+    data-chapter={chapter?.id ?? undefined}
+    data-route={node.route}
+    data-section={node.section}
+    data-period={period ?? undefined}
+  >
+    <div class="page-body">
+      {
+        art ? (
+          <PageArt
+            art={art}
+            title={titleHead}
+            subtitle={titleSub}
+            kicker={artKicker}
+            kickerLang={artKickerLang}
+            period={period}
+          />
+        ) : (
+          <Fragment>
+            <h1 class="page-title"><Plain text={titleHead} /></h1>
+            {titleSub && <p class="page-subtitle"><Plain text={titleSub} /></p>}
+          </Fragment>
+        )
+      }
+
+    <PlainWords route={node.route} art={art} />
+
+    {/* Age › chapter, both tappable. On every page that has an answer. */}
+    <WhereInTime period={period} chapter={chapter} periods={node.periods} />
+
+    {storyMode && <StoryRail headings={headings} />}
+
+    <Toc headings={headings} />
+
+    <div class="prose">
+      <slot />
+    </div>
+
+    {
+      /* A section index opens with pictures now (FIXLIST L2b-6): the prose
+         intro above, the tile gallery here, the full list below. Only the
+         eleven top-level sections — a sub-index is already a short list and a
+         gallery of three would be decoration. */
+      showIndex && isSectionIndex && <SectionGallery node={node} />
+    }
+
+    {showIndex && node.isIndex && <IndexList node={node} />}
+
+    {
+      /* The end of a story: the next one *in time*, the films of the same
+         chapter, the way back to the road, the share, and — in plain mode —
+         the one tap that brings the citations back. Before "Linked from" and
+         the section pager, both of which are apparatus. */
+      isStory && <StoryEnd route={node.route} chapter={chapter} title={titleHead} ownFilmSlug={film?.slug ?? null} />
+    }
+
+    {
+      (backlinks.length > 0 || siblings.length > 0) && (
+        <section class="related" id="related" data-pagefind-ignore>
+          {backlinks.length > 0 && (
+            <div class="related-group" data-related="backlinks">
+              <h2 class="related-title">
+                Linked from
+                <span class="related-count">{node.backlinks.total}</span>
+              </h2>
+              <ul class="related-list">
+                {backlinks.map((b) => (
+                  <li class="related-item">
+                    <a href={b.route}>{b.title}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {siblings.length > 0 && (
+            <div class="related-group" data-related="siblings">
+              <h2 class="related-title">Nearby in {parent?.title ?? 'this section'}</h2>
+              <ul class="related-list">
+                {siblings.map((s) => (
+                  <li class="related-item">
+                    <a href={s.route}>{s.title}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </section>
+      )
+    }
+
+    {
+      (prev || next) && (
+        <nav class="pager" aria-label="Elsewhere in this section" data-pagefind-ignore>
+          {/* Two continuations offered side by side is one too many: a story's
+              real "what happens next" is StoryEnd's *Next in time*. This is
+              the manuscript's own filing order, so it says so and stops
+              competing. */}
+          <p class="pager-head">Elsewhere in this section</p>
+          {prev && (
+            <a class="pager-prev" href={prev.route} rel="prev">
+              <span class="pager-label">Previous page</span>
+              <span class="pager-title">{prev.title}</span>
+            </a>
+          )}
+          {next && (
+            <a class="pager-next" href={next.route} rel="next">
+              <span class="pager-label">Next page</span>
+              <span class="pager-title">{next.title}</span>
+            </a>
+          )}
+        </nav>
+      )
+    }
+
+      <p class="source-link" data-pagefind-ignore>
+        <a href={githubUrl(node.path)} rel="noopener" class="ext">View the source file</a>
+        <span class="source-path">{node.path}</span>
+      </p>
+    </div>
+
+    <Scribe
+      node={node}
+      headings={headings}
+      period={period}
+      periodName={periodName}
+      hasSources={true}
+      relatedCount={relatedCount}
+    />
+
+    {
+      /* Kept as real indexed text (unlike the metadata above, this needs to
+         match a folded query) but pushed to the very end of the body — after
+         `Scribe`, which is `data-pagefind-ignore` — so it is the last thing
+         Pagefind sees and the least likely span to be chosen for an excerpt. */
+    }
+    <span class="u-visually-hidden" data-pagefind-meta="title_folded">{titleFolded}</span>
+    {
+      pagefindKeys.map((m) => (
+        <span
+          class="u-visually-hidden"
+          data-pagefind-meta={`${m.key}:${m.value}`}
+          data-pagefind-filter={m.filter ? `${m.key}:${m.value}` : undefined}
+        />
+      ))
+    }
+  </article>
+
+  <PageSheet
+    slot="sheets"
+    node={node}
+    headings={headings}
+    period={period}
+    periodName={periodName}
+    hasSources={true}
+    relatedCount={relatedCount}
+  />
+
+  {
+    /* "I was here." Only stories are remembered — a section index is a
+       doorway, and "continue reading: Sacred Geography — Index" is not an
+       invitation. The value is written to `ht:last`; `lib/continue.ts` reads
+       it back on the Stories hub and (lane L1) the home page. Inline rather
+       than a module import of `lib/continue.ts`: three lines of JSON are not
+       worth a second script request on every article. `'ht:last'` here is
+       that module's `LAST_KEY`; the two must stay in step. */
+    isStory && (
+      <script
+        is:inline
+        define:vars={{
+          route: node.route,
+          title: titleHead,
+          /* The graph again: `scripts/graph.mjs` now takes a route named in a
+             chapter's `stories` at that chapter's period, so `cosmicAddress`
+             *is* the authored answer where one exists and the old
+             chapter-first override became a patch on a fixed bug. */
+          where: periodName ?? '',
+        }}
+      >
+        try {
+          if (route && title) {
+            localStorage.setItem(
+              'ht:last',
+              JSON.stringify({ route, title, where: where || undefined, at: Date.now() }),
+            );
+          }
+        } catch (e) {}
+      </script>
+    )
+  }
+</Base>

@@ -1,0 +1,64 @@
+---
+/**
+ * The Browse sheet — the manuscript's index of sections. A bottom sheet on
+ * phones, a popover under the header on desktop. Native <dialog>, so focus
+ * trapping, Esc and focus return come from the platform.
+ */
+import { sections } from '../lib/graph.ts';
+import Icon from './Icon.astro';
+
+const ONE_LINE: Record<string, string> = {
+  '00-time-and-cosmology': 'How the cosmic clock is built — from a truṭi to Brahmā’s hundred years.',
+  '01-manvantaras': 'The chronological spine: fourteen manvantaras, their mahāyugas, their yugas.',
+  '02-deities-and-cosmic-hierarchy': 'The who’s-who — gods, avatāras, the worlds they hold.',
+  '03-lineages-vamsha': 'The solar and lunar genealogies that thread the whole timeline.',
+  '04-deep-dives': 'Dedicated files for the biggest episodes: the epics, the great tales.',
+  '05-concepts-and-dharma': 'The doctrinal layer — karma, mokṣa, yoga, the six darśanas.',
+  '06-sacred-geography': 'The sacred map: pīṭhas, dhāms, jyotirliṅgas, rivers.',
+  '07-acharyas-and-sampradayas': 'Teachers and sectarian lineages, Śaṅkara onward.',
+  '08-beings-and-bestiary': 'The classes of beings — apsarās, nāgas, asuras, the thirty-three devas.',
+  '09-artifacts-symbols-and-arts': 'Weapons, objects, vāhanas, the sixty-four arts.',
+  '90-literature-corpus': 'The texts that record all of it, mapped back to the events.',
+};
+---
+
+<dialog class="sheet" id="sheet-browse" aria-labelledby="sheet-browse-title">
+  <div class="sheet-grip" aria-hidden="true"><Icon name="roundel" size={20} /></div>
+  <div class="sheet-head">
+    <h2 class="sheet-title" id="sheet-browse-title">Browse the manuscript</h2>
+    <button type="button" class="sheet-close" data-sheet-close aria-label="Close">Close</button>
+  </div>
+  <div class="sheet-body">
+    <ul class="sheet-list">
+      {
+        sections.map((s) => (
+          <li>
+            <a href={s.route}>
+              <span class="sl-name">{s.label}</span>
+              <span class="sl-dek">{ONE_LINE[s.dir] ?? s.dek}</span>
+              <span class="sl-count">{s.count.toLocaleString('en')} pages</span>
+            </a>
+          </li>
+        ))
+      }
+      <li>
+        <a href="/clock/">
+          <span class="sl-name">The Cosmic Clock</span>
+          <span class="sl-dek">Nine periods, from before time to the end of the kalpa.</span>
+          <span class="sl-count">7,919 events</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="sheet-foot">
+      <a href="/about/">About</a>
+      <a href="/sources/">Sources</a>
+      <a href="/about/structure/">Every page</a>
+      <div class="theme-toggle" role="group" aria-label="Appearance">
+        <button type="button" data-theme-set="light" aria-pressed="false">Day</button>
+        <button type="button" data-theme-set="dark" aria-pressed="false">Night</button>
+        <button type="button" data-theme-set="system" aria-pressed="false">Auto</button>
+      </div>
+    </div>
+  </div>
+</dialog>

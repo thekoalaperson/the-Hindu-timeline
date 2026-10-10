@@ -1,0 +1,3084 @@
+[
+ {
+  "slug": "draupadi",
+  "ep": 1,
+  "title": {
+   "en": "The Marriage of Draupadi — One Bow, One Fish, Five Brothers",
+   "hi": "द्रौपदी का विवाह"
+  },
+  "ytTitle": "Paanch Pati Kaise Ho Gaye | Draupadi Vivah Ki Katha",
+  "yt": {
+   "videoId": "UZrsq55nAnM",
+   "url": "https://youtu.be/UZrsq55nAnM",
+   "published": "2026-07-19",
+   "status": "public"
+  },
+  "shorts": [
+   "LC2poh32nqc"
+  ],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/characters/draupadi.md",
+    "route": "/stories/characters/draupadi/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/characters/drupada.md",
+    "route": "/stories/characters/drupada/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/mahabharata/01-adi-parva.md",
+    "route": "/stories/mahabharata/01-adi-parva/",
+    "inferred": false
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b01_3_v3.png",
+    "alt": "King Drupada feeds the night fire in a pillared courtyard, asking the sacrifice for a weapon.",
+    "caption": "The sacrifice at Kāmpilya"
+   },
+   {
+    "file": "b10_5_v2.png",
+    "alt": "The arena at Kāmpilya — the fish-target on its wheel above the black pool of oil.",
+    "caption": "One arrow, by the reflection alone"
+   },
+   {
+    "file": "b11_3_v2.png",
+    "alt": "Draupadī places the marigold garland around the young brahmin's neck as the arena looks on.",
+    "caption": "She walks past every throne"
+   },
+   {
+    "file": "b16_1_v2.png",
+    "alt": "Yudhiṣṭhira, Bhīma, Arjuna, Draupadī, Nakula and Sahadeva stand together before the late fire of the wedding mandapa."
+   }
+  ],
+  "summary": "Draupadī is born full-grown from King Drupada's vengeance-sacrifice, and is won at her svayaṃvara by a disguised Arjuna, who pierces a spinning fish by its reflection alone. Kuntī's unretractable word then makes her the common wife of all five Pāṇḍavas.",
+  "durationSec": 258
+ },
+ {
+  "slug": "manthan",
+  "ep": 2,
+  "title": {
+   "en": "Samudra Manthan — The Churning of the Ocean",
+   "hi": "समुद्र मंथन"
+  },
+  "ytTitle": "Zehar Pehle Nikla, Amrit Baad Mein | Samudra Manthan",
+  "yt": {
+   "videoId": "d01g3e9c5xw",
+   "url": "https://youtu.be/d01g3e9c5xw",
+   "published": "2026-07-20",
+   "status": "public"
+  },
+  "shorts": [
+   "jfyZfQin_Ls"
+  ],
+  "playlists": [
+   {
+    "name": "Vishnu | Shri Hari Ki Sabse Badi Kathayein",
+    "id": null
+   },
+   {
+    "name": "Vishnu Ke Dashavatar | Matsya Se Parashuram Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/samudra-manthana.md",
+    "route": "/stories/samudra-manthana/",
+    "inferred": false
+   }
+  ],
+  "period": "Satya Yuga",
+  "periodCandidates": [
+   "Satya Yuga",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b06_2.png",
+    "alt": "Vāsuki is wound taut as the churning-rope while Viṣṇu holds the coils.",
+    "caption": "The churning"
+   },
+   {
+    "file": "b08_3.png",
+    "alt": "Śiva's throat turns blue where he holds the Hālāhala poison, the serpent at his shoulder.",
+    "caption": "The blue throat"
+   },
+   {
+    "file": "b11_2.png",
+    "alt": "Lakṣmī rises from the sea on a lotus, attended by elephants."
+   },
+   {
+    "file": "b17_3.png",
+    "alt": "Devotees stand waist-deep in a river at sunrise, where drops of the nectar are said to have fallen."
+   }
+  ],
+  "summary": "Devas and asuras churn the ocean of milk together to draw out amṛta, using Mount Mandara as the rod and the serpent Vāsuki as the rope, with Viṣṇu as the tortoise Kūrma beneath it. Fourteen treasures rise before the nectar, among them the Hālāhala poison that Śiva holds in his throat.",
+  "durationSec": 262,
+  "cosmicAddressLabel": "Chakshusha Manvantara"
+ },
+ {
+  "slug": "vamana",
+  "ep": 3,
+  "title": {
+   "en": "Vamana & Bali — Three Steps That Measured the Universe",
+   "hi": "वामन और बलि"
+  },
+  "ytTitle": "Ek Bauna Brahman Sab Le Gaya | Vaman Avatar Katha",
+  "yt": {
+   "videoId": "wmCu08cbsbU",
+   "url": "https://youtu.be/wmCu08cbsbU",
+   "published": "2026-07-21",
+   "status": "public"
+  },
+  "shorts": [
+   "N72vbluQCUQ"
+  ],
+  "playlists": [
+   {
+    "name": "Vishnu | Shri Hari Ki Sabse Badi Kathayein",
+    "id": null
+   },
+   {
+    "name": "Vishnu Ke Dashavatar | Matsya Se Parashuram Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/vamana-bali.md",
+    "route": "/stories/vamana-bali/",
+    "inferred": false
+   }
+  ],
+  "period": "Treta Yuga",
+  "periodCandidates": [
+   "Treta Yuga",
+   "Kali Yuga (History)"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b01_2.png",
+    "alt": "Asura warriors stand over their fallen king Bali on a battlefield shore after the war for the nectar."
+   },
+   {
+    "file": "b12_2_v2.png",
+    "alt": "Seen from below, the dwarf becomes Trivikrama and towers past the crowd as daylight tears open into stars.",
+    "caption": "The first step"
+   },
+   {
+    "file": "b16_2_v2.png",
+    "alt": "Bali kneels beneath a bloom of golden light as Viṣṇu's third step descends upon his head.",
+    "caption": "The third step is a blessing"
+   },
+   {
+    "file": "b18_2.png",
+    "alt": "A banana-leaf feast laid for Onam in a Kerala doorway, the room flooded with light."
+   }
+  ],
+  "summary": "Viṣṇu, born as a brahmin dwarf, asks the world-conquering asura king Bali for three paces of land, then swells into the cosmic Trivikrama and measures the universe in two strides. Bali keeps his word and offers his own head for the third.",
+  "durationSec": 334,
+  "cosmicAddressLabel": "7th — Vaivasvata — Manvantara"
+ },
+ {
+  "slug": "varaha",
+  "ep": 4,
+  "title": {
+   "en": "Varaha & the Drowning Earth",
+   "hi": "वराह और डूबती धरती"
+  },
+  "ytTitle": "Vishnu Sooar Ban Kar Aaye | Varah Avatar Ki Katha",
+  "yt": {
+   "videoId": "H67Z7H9fiho",
+   "url": "https://youtu.be/H67Z7H9fiho",
+   "published": "2026-07-22",
+   "status": "public"
+  },
+  "shorts": [
+   "zJsAWjbfZ2U"
+  ],
+  "playlists": [
+   {
+    "name": "Vishnu | Shri Hari Ki Sabse Badi Kathayein",
+    "id": null
+   },
+   {
+    "name": "Vishnu Ke Dashavatar | Matsya Se Parashuram Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/varaha-hiranyaksha.md",
+    "route": "/stories/varaha-hiranyaksha/",
+    "inferred": false
+   }
+  ],
+  "period": "Before Time",
+  "periodCandidates": [
+   "Before Time"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b07_2.png",
+    "alt": "Brahmā looks out across a shoreless ocean at the dawn of a new creation, with no earth left to stand on."
+   },
+   {
+    "file": "b11_2.png",
+    "alt": "Varāha finds Bhū-devī in the lightless deep, and she folds her hands before him."
+   },
+   {
+    "file": "b12_3_v2.png",
+    "alt": "Varāha holds Bhū-devī in the crook of his arm, discus, conch and mace in his other hands.",
+    "caption": "The world carried home"
+   },
+   {
+    "file": "b16_3.png",
+    "alt": "Varāha carries Bhū-devī onto the restored Earth as light breaks over the calmed water."
+   }
+  ],
+  "summary": "When Hiraṇyākṣa drags the Earth down into the lightless deep, Viṣṇu takes the form of a boar, dives after her and raises her on one tusk. The episode fuses an older cosmogonic boar who lifts the Earth at a kalpa's dawn with the killing of the first of Viṣṇu's cursed gatekeepers.",
+  "durationSec": 379
+ },
+ {
+  "slug": "narasimha",
+  "ep": 5,
+  "title": {
+   "en": "Prahlada & Narasimha — Neither Man Nor Beast, Neither Day Nor Night",
+   "hi": "प्रह्लाद और नरसिंह"
+  },
+  "ytTitle": "Vardaan Mein Ek Chhed Reh Gaya | Narsimha Avatar Katha",
+  "yt": {
+   "videoId": "-O_mx5J7-Zw",
+   "url": "https://youtu.be/-O_mx5J7-Zw",
+   "published": "2026-07-23",
+   "status": "public"
+  },
+  "shorts": [
+   "0GDwJ4vUuLE"
+  ],
+  "playlists": [
+   {
+    "name": "Vishnu | Shri Hari Ki Sabse Badi Kathayein",
+    "id": null
+   },
+   {
+    "name": "Vishnu Ke Dashavatar | Matsya Se Parashuram Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/prahlada-narasimha.md",
+    "route": "/stories/prahlada-narasimha/",
+    "inferred": false
+   }
+  ],
+  "period": "Satya Yuga",
+  "periodCandidates": [
+   "Satya Yuga",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b03_3.png",
+    "alt": "Hiraṇyakaśipu stands motionless in penance on Mount Mandara until an anthill closes over him."
+   },
+   {
+    "file": "b12_3.png",
+    "alt": "The pillar splits and Narasiṃha bursts from the stone — a lion's head upon a man's body.",
+    "caption": "Is he in this pillar too?"
+   },
+   {
+    "file": "b13_4.png",
+    "alt": "Narasiṃha holds the king across his thighs in the doorway at dusk — neither inside nor out, neither day nor night.",
+    "caption": "Every promise unravels"
+   },
+   {
+    "file": "b15_2.png",
+    "alt": "Prahlāda walks up to the towering Man-Lion alone and bows, and the god no one could calm grows gentle."
+   }
+  ],
+  "summary": "Hiraṇyakaśipu's boon leaves a gap in every direction — no man and no beast, neither day nor night, neither inside nor out — and his son Prahlāda's devotion to Viṣṇu is what finds it. Narasiṃha bursts from a pillar at dusk and satisfies every clause at once.",
+  "durationSec": 392
+ },
+ {
+  "slug": "seventh-gate",
+  "ep": 6,
+  "title": {
+   "en": "The Seventh Gate — Every Demon You Watched Fall Was the Same Two Souls",
+   "hi": "सातवाँ द्वार"
+  },
+  "ytTitle": "Vaikunth Ke Dwarpal Rakshas Bane | Jai Vijay Shraap",
+  "yt": {
+   "videoId": "walSipG9hfk",
+   "url": "https://youtu.be/walSipG9hfk",
+   "published": "2026-07-24",
+   "status": "public"
+  },
+  "shorts": [
+   "2NnUv6lKZUE"
+  ],
+  "playlists": [
+   {
+    "name": "Vishnu | Shri Hari Ki Sabse Badi Kathayein",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/jaya-vijaya.md",
+    "route": "/stories/jaya-vijaya/",
+    "inferred": false
+   },
+   {
+    "path": "02-deities-and-cosmic-hierarchy/dashavatara.md",
+    "route": "/deities/dashavatara/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/varaha-hiranyaksha.md",
+    "route": "/stories/varaha-hiranyaksha/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/prahlada-narasimha.md",
+    "route": "/stories/prahlada-narasimha/",
+    "inferred": false
+   }
+  ],
+  "period": "Cross-Yuga (recurs Satya/Treta/Dvapara)",
+  "periodCandidates": [
+   "Satya Yuga",
+   "Treta Yuga",
+   "Dvapara Yuga",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b01_2.png",
+    "alt": "Jaya and Vijaya stand armed at the seventh gate of Vaikuṇṭha, the palace of light behind them."
+   },
+   {
+    "file": "b05_1.png",
+    "alt": "The two gatekeepers cross their maces against the four Kumāras, who still have the bodies of children.",
+    "caption": "In the realm where no one is refused"
+   },
+   {
+    "file": "b12_3.png",
+    "alt": "Jaya and Vijaya fall from Vaikuṇṭha, their haloes guttering as horns break from their brows."
+   },
+   {
+    "file": "b16_2.png",
+    "alt": "The two gatekeepers stand restored beside Viṣṇu at the gate of Vaikuṇṭha."
+   }
+  ],
+  "summary": "Viṣṇu's gatekeepers Jaya and Vijaya turn the four Kumāras away at the seventh gate of Vaikuṇṭha and are cursed to be born on earth. Given the choice, they take three lives as his enemies rather than seven as his devotees.",
+  "durationSec": 434
+ },
+ {
+  "slug": "matsya",
+  "ep": 7,
+  "title": {
+   "en": "Matsya and the Deluge — One Small Mercy Saved the Whole World",
+   "hi": "मत्स्य अवतार"
+  },
+  "ytTitle": "Vishnu Ka Pehla Avatar | Matsya Aur Manu Ki Nauka",
+  "yt": {
+   "videoId": "HXupgruuQzk",
+   "url": "https://youtu.be/HXupgruuQzk",
+   "published": "2026-07-25",
+   "status": "public"
+  },
+  "shorts": [
+   "J7K7cqBM5Og"
+  ],
+  "playlists": [
+   {
+    "name": "Vishnu | Shri Hari Ki Sabse Badi Kathayein",
+    "id": null
+   },
+   {
+    "name": "Vishnu Ke Dashavatar | Matsya Se Parashuram Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/matsya-pralaya.md",
+    "route": "/stories/matsya-pralaya/",
+    "inferred": false
+   }
+  ],
+  "period": "Before Time",
+  "periodCandidates": [
+   "Before Time"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b01_3.png",
+    "alt": "King Satyavrata stands in the river Kṛtamālā at dawn with a tiny fish lying in his cupped hands."
+   },
+   {
+    "file": "b04_3.png",
+    "alt": "The fish has grown to fill the ocean itself, golden and vast, a single horn shining on its head."
+   },
+   {
+    "file": "b08_3.png",
+    "alt": "The boat rides the flood, bound by the serpent Vāsuki to Matsya's golden horn.",
+    "caption": "Through the drowning dark"
+   },
+   {
+    "file": "b13_3.png",
+    "alt": "Green land rises again beneath a clearing sky as the sages set free the seeds they carried through the night."
+   }
+  ],
+  "summary": "A great horned fish warns the righteous king Satyavrata that a pralaya flood will drown the three worlds, and tells him to build a boat and load it with the seven sages and the seeds of all life. The boat rides out the deluge tethered to the fish's horn.",
+  "durationSec": 279,
+  "cosmicAddressLabel": "7th — Vaivasvata — Manvantara"
+ },
+ {
+  "slug": "garuda",
+  "ep": 8,
+  "title": {
+   "en": "Garuda and the Stolen Nectar — The Eagle Who Stormed Heaven to Free His Mother",
+   "hi": "गरुड़ और अमृत"
+  },
+  "ytTitle": "Ek Panchhi Devtaon Se Bhid Gaya | Garud Ki Katha",
+  "yt": {
+   "videoId": "aJgzC8QNMf0",
+   "url": "https://youtu.be/aJgzC8QNMf0",
+   "published": "2026-07-26",
+   "status": "public"
+  },
+  "shorts": [
+   "6opsYDwz67k"
+  ],
+  "playlists": [
+   {
+    "name": "Vishnu | Shri Hari Ki Sabse Badi Kathayein",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "08-beings-and-bestiary/garuda.md",
+    "route": "/beings/garuda/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/samudra-manthana.md",
+    "route": "/stories/samudra-manthana/",
+    "inferred": false
+   }
+  ],
+  "period": "Treta Yuga",
+  "periodCandidates": [
+   "Before Time",
+   "Treta Yuga",
+   "Kali Yuga (History)"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b04_3.png",
+    "alt": "Garuḍa rises fully formed from the second egg, blazing so bright that the gods mistake him for Agni."
+   },
+   {
+    "file": "b12_4.png",
+    "alt": "Indra's vajra strikes Garuḍa in flight and cannot harm him at all.",
+    "caption": "The thunderbolt that failed"
+   },
+   {
+    "file": "b15_3.png",
+    "alt": "Garuḍa sets the pot of amṛta on sharp kuśa grass before the serpents, and his mother Vinatā walks free."
+   },
+   {
+    "file": "b16_3.png",
+    "alt": "Garuḍa takes his place above Viṣṇu as lord of the sky, deathless without ever having drunk the nectar."
+   }
+  ],
+  "summary": "Garuḍa's mother Vinatā is enslaved by her sister through a rigged wager, and the price named for her freedom is the amṛta the gods keep in heaven. He fights his way to it, wins deathlessness without drinking it, and frees her without breaking a promise.",
+  "durationSec": 326
+ },
+ {
+  "slug": "mohini",
+  "ep": 9,
+  "title": {
+   "en": "Mohini and Bhasmasura — The Boon That Turned on the Hand That Begged for It",
+   "hi": "मोहिनी और भस्मासुर"
+  },
+  "ytTitle": "Jiske Sir Par Haath Rakhe Woh Bhasm | Bhasmasur Katha",
+  "yt": {
+   "videoId": "w2qzYLT-wfw",
+   "url": "https://youtu.be/w2qzYLT-wfw",
+   "published": "2026-07-27",
+   "status": "public"
+  },
+  "shorts": [
+   "puT4NDk3lbk"
+  ],
+  "playlists": [
+   {
+    "name": "Vishnu | Shri Hari Ki Sabse Badi Kathayein",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/mohini-avatara.md",
+    "route": "/stories/mohini-avatara/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/samudra-manthana.md",
+    "route": "/stories/samudra-manthana/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/bhasmasura-and-vrikasura.md",
+    "route": "/stories/bhasmasura-and-vrikasura/",
+    "inferred": false
+   }
+  ],
+  "period": "Satya Yuga",
+  "periodCandidates": [
+   "Satya Yuga",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b03_3.png",
+    "alt": "The boon settles as a flame into Bhasmāsura's cupped hands."
+   },
+   {
+    "file": "b11_4.png",
+    "alt": "Mohinī turns and Bhasmāsura turns with her, matching every pose of the dance of release.",
+    "caption": "The muktanṛtya"
+   },
+   {
+    "file": "b13_3.png",
+    "alt": "Only bright ash drifts down in the glade where the demon had danced."
+   },
+   {
+    "file": "b14_3.png",
+    "alt": "The hand that hunted Śiva, burning — the gift spent on the one who begged for it."
+   }
+  ],
+  "summary": "Bhasmāsura wins a boon from Śiva that burns to ash whatever head his hand touches, then turns it on Śiva himself. Viṣṇu takes the form of Mohinī and leads the demon into a dance that ends with his own hand on his own head.",
+  "durationSec": 241
+ },
+ {
+  "slug": "kaliya",
+  "ep": 10,
+  "title": {
+   "en": "Kaliya Daman — The Boy Who Danced on the Serpent King",
+   "hi": "कालिया दमन"
+  },
+  "ytTitle": "Saanp Ke Phan Par Naacha Krishna | Kaliya Daman Leela",
+  "yt": {
+   "videoId": "a2woqpFK5Vc",
+   "url": "https://youtu.be/a2woqpFK5Vc",
+   "published": "2026-07-28",
+   "status": "public"
+  },
+  "shorts": [
+   "h5Yy8XTOas0"
+  ],
+  "playlists": [
+   {
+    "name": "Krishna | Kaliya Se Vishwaroop Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/kaliya-mardana.md",
+    "route": "/stories/kaliya-mardana/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/krishna-lila.md",
+    "route": "/stories/krishna-lila/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/krishna-balya-lila.md",
+    "route": "/stories/krishna-balya-lila/",
+    "inferred": false
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b03_3.png",
+    "alt": "The poisoned bend of the Yamunā lies black and still, its trees scorched, one flowering kadamba left alive above it."
+   },
+   {
+    "file": "b07_2.png",
+    "alt": "Kāliya winds coil upon coil around Kṛṣṇa until the boy is lost inside them and the water falls silent."
+   },
+   {
+    "file": "b11_4.png",
+    "alt": "Kṛṣṇa dances on the serpent's broad hoods, pressing each one down as it rears.",
+    "caption": "The Kāliya-mardana"
+   },
+   {
+    "file": "b16_3.png",
+    "alt": "Kṛṣṇa in the groves of Vṛndāvana, a peacock feather in his hair."
+   }
+  ],
+  "summary": "The boy Kṛṣṇa leaps into a bend of the Yamunā poisoned by the many-hooded serpent Kāliya and dances on his hoods until he yields. The river runs clean again, and Kāliya is spared and sent away.",
+  "durationSec": 298
+ },
+ {
+  "slug": "mahishasura",
+  "ep": 11,
+  "title": {
+   "en": "Durga and Mahishasura — The Demon No God Could Kill",
+   "hi": "दुर्गा और महिषासुर"
+  },
+  "ytTitle": "Nau Din Ka Yuddh | Durga Aur Mahishasur Ki Katha",
+  "yt": {
+   "videoId": "ym2bxVflaDg",
+   "url": "https://youtu.be/ym2bxVflaDg",
+   "published": "2026-07-29",
+   "status": "public"
+  },
+  "shorts": [
+   "YqYEqxLDsb4"
+  ],
+  "playlists": [
+   {
+    "name": "Devi | Durga, Kali Aur Vaishno Devi Ki Katha",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md",
+    "route": "/deities/devi-mahatmya-and-the-great-goddess/",
+    "inferred": false
+   }
+  ],
+  "period": "Cross-Yuga",
+  "periodCandidates": [
+   "Before Time",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b05_3.png",
+    "alt": "Streams of light pour from the face of every god and climb into a single mountain-tall column of fire."
+   },
+   {
+    "file": "b08_3.png",
+    "alt": "Durgā rides her lion toward Mahiṣāsura's army, laughing, and the sound alone shakes the demon ranks."
+   },
+   {
+    "file": "b12_3.png",
+    "alt": "Durgā sets her foot upon the buffalo and drives her triśūla deep into its neck.",
+    "caption": "The war no god could win"
+   },
+   {
+    "file": "b16_3.png",
+    "alt": "The goddess as her devotees keep her across the nine nights of Navarātri."
+   }
+  ],
+  "summary": "Mahiṣāsura's boon makes him proof against every god and every man, so the gods pour their combined fury into a single form and Durgā steps out of it. She meets him through every shape he takes and ends him with her triśūla and sword.",
+  "durationSec": 305
+ },
+ {
+  "slug": "daksha-sati",
+  "ep": 12,
+  "title": {
+   "en": "Sati and Daksha's Yajna — The Origin of the 51 Shakti Peethas",
+   "hi": "सती और दक्ष यज्ञ"
+  },
+  "ytTitle": "Shav Lekar Ghoomte Rahe Shiv | 51 Shakti Peeth Katha",
+  "yt": {
+   "videoId": "CXP8pIzDsS4",
+   "url": "https://youtu.be/CXP8pIzDsS4",
+   "published": "2026-07-30",
+   "status": "public"
+  },
+  "shorts": [
+   "NHwqWNW4qjY"
+  ],
+  "playlists": [
+   {
+    "name": "Shiv | Mahadev Ki Sabse Badi Kathayein",
+    "id": null
+   },
+   {
+    "name": "Devi | Durga, Kali Aur Vaishno Devi Ki Katha",
+    "id": null
+   },
+   {
+    "name": "Yeh Puja Kyun Hoti Hai | Teerth Aur Vrat Ki Kahani",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "02-deities-and-cosmic-hierarchy/sati-daksha-and-parvati.md",
+    "route": "/deities/sati-daksha-and-parvati/",
+    "inferred": false
+   }
+  ],
+  "period": "Before Time / Earlier Manvantaras",
+  "periodCandidates": [
+   "Before Time",
+   "Earlier Manvantaras",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b03_3.png",
+    "alt": "Dakṣa's great sacrifice burns before an assembly of every god and sage — with no share set aside for Śiva."
+   },
+   {
+    "file": "b09_2.png",
+    "alt": "Satī stands alone in the grove and turns inward, kindling the fire by her own will."
+   },
+   {
+    "file": "b11_2.png",
+    "alt": "Vīrabhadra rises out of fire and smoke where Śiva's torn lock struck the mountain."
+   },
+   {
+    "file": "b15_3.png",
+    "alt": "Points of light fall across the turning cosmos where her body came to rest.",
+    "caption": "Fifty-one śakti pīṭhas"
+   }
+  ],
+  "summary": "Dakṣa holds a great sacrifice and allows Śiva no share in it, and his daughter Satī gives up by her own yogic fire the body her father gave her. Śiva's grief takes shape as Vīrabhadra, and the places where her body falls become the śakti pīṭhas.",
+  "durationSec": 314
+ },
+ {
+  "slug": "kartikeya",
+  "ep": 13,
+  "title": {
+   "en": "The Birth of Kartikeya — The Six-Faced God Who Slew Tarakasura",
+   "hi": "कार्तिकेय जन्म"
+  },
+  "ytTitle": "Sirf Shiv Ka Putra Use Maar Sakta Tha | Kartikeya Katha",
+  "yt": {
+   "videoId": "Gt2HLhhcioI",
+   "url": "https://youtu.be/Gt2HLhhcioI",
+   "published": "2026-07-31",
+   "status": "public"
+  },
+  "shorts": [
+   "MKAP9s_uB5E"
+  ],
+  "playlists": [
+   {
+    "name": "Shiv | Mahadev Ki Sabse Badi Kathayein",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/tarakasura-vadha.md",
+    "route": "/stories/tarakasura-vadha/",
+    "inferred": false
+   }
+  ],
+  "period": "Earlier Manvantaras",
+  "periodCandidates": [
+   "Earlier Manvantaras"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b02_2.png",
+    "alt": "Brahmā comes down on his lotus to answer the penance that has scorched the three worlds."
+   },
+   {
+    "file": "b08_3.png",
+    "alt": "Pārvatī, daughter of Himavān, who would win Śiva by her own austerity."
+   },
+   {
+    "file": "b13_1.png",
+    "alt": "Pārvatī gathers all six infants into one embrace and the six become a single child with six faces."
+   },
+   {
+    "file": "b15_3.png",
+    "alt": "Tārakāsura stands alone on the field where a week-old commander will meet him."
+   }
+  ],
+  "summary": "Tārakāsura's boon allows only a son of Śiva to kill him, and Śiva is a widower sunk in meditation. The union of Śiva and Pārvatī produces a six-faced child who leads heaven's army at seven days old.",
+  "durationSec": 272
+ },
+ {
+  "slug": "gajendra",
+  "ep": 14,
+  "title": {
+   "en": "Gajendra Moksha — The Elephant King Saved by One Cry to Vishnu",
+   "hi": "गजेन्द्र मोक्ष"
+  },
+  "ytTitle": "Hazaar Saal Ki Ladai, Ek Pukaar | Gajendra Moksha Katha",
+  "yt": {
+   "videoId": "SHvlCnFSoGg",
+   "url": "https://youtu.be/SHvlCnFSoGg",
+   "published": "2026-08-01",
+   "status": "public"
+  },
+  "shorts": [
+   "gZCJGhbqEHE"
+  ],
+  "playlists": [
+   {
+    "name": "Vishnu | Shri Hari Ki Sabse Badi Kathayein",
+    "id": null
+   },
+   {
+    "name": "Tapasya | Jinhone Apna Bhagya Badal Diya",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/gajendra-moksha.md",
+    "route": "/stories/gajendra-moksha/",
+    "inferred": false
+   }
+  ],
+  "period": "Earlier Manvantaras",
+  "periodCandidates": [
+   "Earlier Manvantaras"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b02_2.png",
+    "alt": "The three peaks of Trikūṭa rise from the Ocean of Milk above Ṛtumat's lake of lotuses."
+   },
+   {
+    "file": "b04_3.png",
+    "alt": "A crocodile seizes Gajendra's leg in one sudden churn of the water."
+   },
+   {
+    "file": "b11_3.png",
+    "alt": "With his last strength Gajendra lifts a single lotus toward the sky, calling no god by name.",
+    "caption": "He named no god, so no god came"
+   },
+   {
+    "file": "b14_3.png",
+    "alt": "Viṣṇu takes the lotus from Gajendra's trunk."
+   }
+  ],
+  "summary": "The elephant-king Gajendra is seized by a crocodile and fights for a thousand years without winning free. He is saved only when he stops fighting, lifts a single lotus, and calls on no god by name.",
+  "durationSec": 292,
+  "cosmicAddressLabel": "7th — Vaivasvata — Manvantara"
+ },
+ {
+  "slug": "ganesha",
+  "ep": 15,
+  "title": {
+   "en": "The Birth of Ganesha — How Ganesha Got His Elephant Head",
+   "hi": "श्री गणेश जन्म"
+  },
+  "ytTitle": "Haldi Se Bana Balak | Ganesh Ko Hathi Ka Sir Kaise Mila",
+  "yt": {
+   "videoId": "VRUiL48CyGs",
+   "url": "https://youtu.be/VRUiL48CyGs",
+   "published": "2026-08-02",
+   "status": "public"
+  },
+  "shorts": [
+   "VvGVySfloA8"
+  ],
+  "playlists": [
+   {
+    "name": "Shiv | Mahadev Ki Sabse Badi Kathayein",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "02-deities-and-cosmic-hierarchy/ganesha-and-kartikeya.md",
+    "route": "/deities/ganesha-and-kartikeya/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/ganesha-gita.md",
+    "route": "/stories/ganesha-gita/",
+    "inferred": false
+   }
+  ],
+  "period": "Cross-Yuga",
+  "periodCandidates": [
+   "Before Time",
+   "Treta Yuga",
+   "Dvapara Yuga",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b03_4.png",
+    "alt": "Pārvatī's son, shaped from her own body, takes up a staff at her word."
+   },
+   {
+    "file": "b08_3.png",
+    "alt": "Śiva stands at his own doorway with the triśūla in his hand."
+   },
+   {
+    "file": "b12_3.png",
+    "alt": "Pārvatī runs to her son, restored and elephant-faced."
+   },
+   {
+    "file": "b15_3.png",
+    "alt": "Gaṇeśa breaks off his own right tusk and writes on to the last verse of the Mahābhārata."
+   }
+  ],
+  "summary": "Pārvatī shapes a son from her own body to guard her door, and Śiva, refused entry to his own house, strikes off the boy's head. He is restored with the head of an elephant and given the first worship at the start of every undertaking.",
+  "durationSec": 290
+ },
+ {
+  "slug": "markandeya",
+  "ep": 16,
+  "title": {
+   "en": "Markandeya and Yama — The Boy Who Defeated Death",
+   "hi": "मार्कण्डेय और यमराज"
+  },
+  "ytTitle": "Maut Ko Haraane Wala Balak | Markandeya Shiv Katha",
+  "yt": {
+   "videoId": "TO2MsWwLWsE",
+   "url": "https://youtu.be/TO2MsWwLWsE",
+   "published": "2026-08-03",
+   "status": "public"
+  },
+  "shorts": [
+   "lwOHMhHViNU"
+  ],
+  "playlists": [
+   {
+    "name": "Shiv | Mahadev Ki Sabse Badi Kathayein",
+    "id": null
+   },
+   {
+    "name": "Tapasya | Jinhone Apna Bhagya Badal Diya",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/markandeya.md",
+    "route": "/stories/markandeya/",
+    "inferred": false
+   }
+  ],
+  "period": "Cross-Yuga",
+  "periodCandidates": [
+   "Earlier Manvantaras",
+   "Satya Yuga",
+   "Dvapara Yuga",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b06_3.png",
+    "alt": "Mārkaṇḍeya wraps both arms around the śivaliṅga on the last day of his sixteenth year."
+   },
+   {
+    "file": "b08_3.png",
+    "alt": "Yama's noose falls and loops around both the boy's neck and the stone he will not release."
+   },
+   {
+    "file": "b09_3.png",
+    "alt": "The stone cracks open like dawn and Śiva comes out of it as Kālāntaka, the ender of Death."
+   },
+   {
+    "file": "b15_4.png",
+    "alt": "Śiva blesses Mārkaṇḍeya to stay sixteen forever, beside the stone he would not let go."
+   }
+  ],
+  "summary": "Mārkaṇḍeya is given a brilliant life of only sixteen years, and on the last day he holds on to a śivaliṅga. Śiva comes out of the stone as Kālāntaka, strikes Death down, and leaves the boy sixteen forever.",
+  "durationSec": 302
+ },
+ {
+  "slug": "parashurama",
+  "ep": 17,
+  "title": {
+   "en": "Parashurama — The Sage Who Beheaded His Own Mother — Sixth Avatar of Vishnu",
+   "hi": "भगवान परशुराम"
+  },
+  "ytTitle": "Vishnu Ka Chhatha Avatar | Parashuram Aur Uska Farsa",
+  "yt": {
+   "videoId": "om1sbZWA8Ew",
+   "url": "https://youtu.be/om1sbZWA8Ew",
+   "published": "2026-08-04",
+   "status": "public"
+  },
+  "shorts": [
+   "3b2hBoJSSRE"
+  ],
+  "playlists": [
+   {
+    "name": "Vishnu | Shri Hari Ki Sabse Badi Kathayein",
+    "id": null
+   },
+   {
+    "name": "Vishnu Ke Dashavatar | Matsya Se Parashuram Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/parashurama.md",
+    "route": "/stories/parashurama/",
+    "inferred": false
+   }
+  ],
+  "period": "Treta Yuga",
+  "periodCandidates": [
+   "Treta Yuga",
+   "Dvapara Yuga",
+   "Future Manvantaras"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b02_2.png",
+    "alt": "The Bhṛgu hermitage deep in the forest, where Jamadagni, Reṇukā and the cow Kāmadhenu live."
+   },
+   {
+    "file": "b10_5.png",
+    "alt": "Kāmadhenu at the hermitage — the cow whose bounty fed a whole army."
+   },
+   {
+    "file": "b12_2.png",
+    "alt": "Paraśurāma counts the twenty-one blows on his mother's breast and raises the axe against a darkening sky.",
+    "caption": "Twenty-one times"
+   },
+   {
+    "file": "b16_3.png",
+    "alt": "Paraśurāma waits on Mahendra Parvata, deathless across the ages, his axe laid by."
+   }
+  ],
+  "summary": "Paraśurāma obeys his father's order to kill his own mother, then spends his one reward on asking for her life back. When Kārtavīrya's sons kill his father, he sweeps the earth of kṣatriya kings twenty-one times over.",
+  "durationSec": 310,
+  "cosmicAddressLabel": "Tretā Yuga"
+ },
+ {
+  "slug": "karna-kavacha",
+  "ep": 18,
+  "title": {
+   "en": "Karna's Golden Armor",
+   "hi": "कर्ण का कवच-कुण्डल"
+  },
+  "ytTitle": "Apne Shareer Se Kavach Kaat Diya | Karna Kavach Kundal",
+  "yt": {
+   "videoId": "_E4qKkTQYN0",
+   "url": "https://youtu.be/_E4qKkTQYN0",
+   "published": "2026-08-05",
+   "status": "public"
+  },
+  "shorts": [
+   "SBHOuqnw3dE"
+  ],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/karna.md",
+    "route": "/stories/karna/",
+    "inferred": false
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Treta Yuga",
+   "Dvapara Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b03_3.png",
+    "alt": "Kuntī sets the basket holding her armoured child upon the river, her hand holding on a moment longer."
+   },
+   {
+    "file": "b10_2.png",
+    "alt": "Karṇa stands waist-deep in the river at dawn, lifting water toward the rising sun."
+   },
+   {
+    "file": "b13_light.png",
+    "alt": "At the water's edge at sunrise, the golden armour comes away from Karṇa's body.",
+    "caption": "He made no sound"
+   },
+   {
+    "file": "b15_3.png",
+    "alt": "Karṇa holds the Vāsavī Śakti, the single-use dart Indra gave him in return."
+   }
+  ],
+  "summary": "Karṇa is born wearing golden armour and earrings fused to his skin, and while they stay on him he cannot be killed. Indra comes as a beggar at the one hour Karṇa's vow cannot refuse, and Karṇa cuts them from his own body.",
+  "durationSec": 326
+ },
+ {
+  "slug": "sudama",
+  "ep": 19,
+  "title": {
+   "en": "Krishna and Sudama — The Fistful of Rice That Became a Palace",
+   "hi": "कृष्ण और सुदामा"
+  },
+  "ytTitle": "Ek Mutthi Chawal Ka Mol | Krishna Sudama Ki Mitrata",
+  "yt": {
+   "videoId": "zitd0yoSps0",
+   "url": "https://youtu.be/zitd0yoSps0",
+   "published": "2026-08-06",
+   "status": "public"
+  },
+  "shorts": [
+   "a56jAi5ywKg"
+  ],
+  "playlists": [
+   {
+    "name": "Krishna | Kaliya Se Vishwaroop Tak",
+    "id": null
+   },
+   {
+    "name": "Tapasya | Jinhone Apna Bhagya Badal Diya",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/sudama-kuchela.md",
+    "route": "/stories/sudama-kuchela/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/krishna-lila.md",
+    "route": "/stories/krishna-lila/",
+    "inferred": false
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b06_2.png",
+    "alt": "Sudāmā's wife knots a small handful of borrowed flattened rice into a scrap of torn cloth."
+   },
+   {
+    "file": "b08_2.png",
+    "alt": "Sudāmā stands small and ragged at the great gate of Dvārakā, its towers and golden banners above him."
+   },
+   {
+    "file": "b10_2.png",
+    "alt": "Kṛṣṇa kneels and washes Sudāmā's dusty feet with his own hands.",
+    "caption": "What no king would do"
+   },
+   {
+    "file": "b16_4.png",
+    "alt": "A golden bowl holding the handful of flattened rice."
+   }
+  ],
+  "summary": "Sudāmā, a poor brahmin and Kṛṣṇa's boyhood schoolmate, walks to Dvārakā with a handful of borrowed flattened rice and cannot bring himself to ask for anything. Kṛṣṇa washes his feet, eats the rice, and sends him home to a house he never requested.",
+  "durationSec": 330
+ },
+ {
+  "slug": "govardhan",
+  "ep": 20,
+  "title": {
+   "en": "Krishna Lifts Govardhan — Seven Days Under a Mountain",
+   "hi": "गोवर्धन लीला"
+  },
+  "ytTitle": "Poora Parvat Ungli Par Utha Liya | Govardhan Leela",
+  "yt": {
+   "videoId": "QwYyFnTWlvc",
+   "url": "https://youtu.be/QwYyFnTWlvc",
+   "published": "2026-08-07",
+   "status": "public"
+  },
+  "shorts": [
+   "NrT8RdJMiS8"
+  ],
+  "playlists": [
+   {
+    "name": "Krishna | Kaliya Se Vishwaroop Tak",
+    "id": null
+   },
+   {
+    "name": "Yeh Puja Kyun Hoti Hai | Teerth Aur Vrat Ki Kahani",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/govardhana-dharana.md",
+    "route": "/stories/govardhana-dharana/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/krishna-lila.md",
+    "route": "/stories/krishna-lila/",
+    "inferred": false
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga",
+   "Kali Yuga (History)"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b05_3.png",
+    "alt": "Kṛṣṇa among the cowherds of Vraja, before the hill they will honour.",
+    "caption": "The first annakūṭa"
+   },
+   {
+    "file": "b07_3.png",
+    "alt": "Storm clouds roll over the cowherd village of Vraja."
+   },
+   {
+    "file": "b09_3.png",
+    "alt": "Kṛṣṇa lifts Govardhana from its roots and holds the whole hill on the little finger of his left hand."
+   },
+   {
+    "file": "b14_3.png",
+    "alt": "Indra comes down to the earth alone, his pride gone."
+   }
+  ],
+  "summary": "Kṛṣṇa persuades the cowherds of Vraja to honour the hill Govardhana rather than Indra, and Indra answers with seven days of storm. Kṛṣṇa lifts the whole hill on one finger and holds it up until the clouds wear themselves out.",
+  "durationSec": 337
+ },
+ {
+  "slug": "ganga",
+  "ep": 21,
+  "title": {
+   "en": "Bhagiratha and the Descent of Ganga — The River Shiva Caught in His Hair",
+   "hi": "भगीरथ और गंगा का अवतरण"
+  },
+  "ytTitle": "Shiv Ki Jataon Ne Ganga Ko Roka | Ganga Avataran Katha",
+  "yt": {
+   "videoId": "aqGZRQHgR18",
+   "url": "https://youtu.be/aqGZRQHgR18",
+   "published": "2026-08-08",
+   "status": "public"
+  },
+  "shorts": [
+   "DRgZm1GDP6I"
+  ],
+  "playlists": [
+   {
+    "name": "Shiv | Mahadev Ki Sabse Badi Kathayein",
+    "id": null
+   },
+   {
+    "name": "Devi | Durga, Kali Aur Vaishno Devi Ki Katha",
+    "id": null
+   },
+   {
+    "name": "Yeh Puja Kyun Hoti Hai | Teerth Aur Vrat Ki Kahani",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "02-deities-and-cosmic-hierarchy/ganga.md",
+    "route": "/deities/ganga/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/dilipa-nandini.md",
+    "route": "/stories/dilipa-nandini/",
+    "inferred": false
+   },
+   {
+    "path": "03-lineages-vamsha/sagara.md",
+    "route": "/lineages/sagara/",
+    "inferred": false
+   }
+  ],
+  "period": "Treta Yuga",
+  "periodCandidates": [
+   "Earlier Manvantaras",
+   "Treta Yuga",
+   "Dvapara Yuga",
+   "Kali Yuga (History)",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b06_2.png",
+    "alt": "Sagara's sons find their horse beside the sage Kapila, deep in pātāla."
+   },
+   {
+    "file": "b12_1_v4.png",
+    "alt": "Brahmā appears before Bhagīratha and grants what the long penance asked for."
+   },
+   {
+    "file": "b19_1_v2.png",
+    "alt": "The river pours through the sage Jahnu's fire-ground and drowns it."
+   },
+   {
+    "file": "b21_2.png",
+    "alt": "The offering-pot at the end of the road — the long wait of the sixty thousand ended.",
+    "caption": "An impossible effort made for someone else"
+   }
+  ],
+  "summary": "Sixty thousand sons of King Sagara are burnt to ash by the sage Kapila's glance, and only the river of heaven can release them. Bhagīratha's penance brings Gaṅgā down, and Śiva catches her fall in his hair.",
+  "durationSec": 397
+ },
+ {
+  "slug": "raktabija",
+  "ep": 22,
+  "title": {
+   "en": "Kali and Raktabija — The Demon Who Multiplied From His Own Blood",
+   "hi": "काली और रक्तबीज: अपने ही रक्त से बढ़ता असुर"
+  },
+  "ytTitle": "Devi Ko Uska Rakt Peena Pada | Raktabeej Vadh Katha",
+  "yt": {
+   "videoId": "tiFwYswClfY",
+   "url": "https://youtu.be/tiFwYswClfY",
+   "published": "2026-08-09",
+   "status": "public"
+  },
+  "shorts": [
+   "Pyp9obngeVg"
+  ],
+  "playlists": [
+   {
+    "name": "Devi | Durga, Kali Aur Vaishno Devi Ki Katha",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md",
+    "route": "/deities/devi-mahatmya-and-the-great-goddess/",
+    "inferred": false
+   }
+  ],
+  "period": "Cross-Yuga",
+  "periodCandidates": [
+   "Before Time",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "st_kali_born.png",
+    "alt": "Kālī springs fully formed from the knot of Durgā's frowning brow, black-skinned, garlanded with skulls."
+   },
+   {
+    "file": "st_field_of_copies.png",
+    "alt": "Every drop of Raktabīja's blood that touches the earth stands up as another Raktabīja."
+   },
+   {
+    "file": "st_tongue_wet.png",
+    "alt": "Kālī spreads her tongue across the field and catches every drop before it can fall.",
+    "caption": "The one thing no weapon could do"
+   },
+   {
+    "file": "st_reabsorption.png",
+    "alt": "Durgā draws every goddess standing around her back into her own body before facing Śumbha alone."
+   }
+  ],
+  "summary": "Raktabīja's boon makes every drop of his spilled blood stand up as another Raktabīja, so wounding him only multiplies him. Kālī, sprung from Durgā's brow, drinks each drop before it can reach the ground.",
+  "durationSec": 412
+ },
+ {
+  "slug": "tripura",
+  "ep": 23,
+  "title": {
+   "en": "Tripurantaka — The Three Flying Cities",
+   "hi": "त्रिपुरान्तक — तीन उड़ती नगरियाँ"
+  },
+  "ytTitle": "Ek Pal Mein Teen Lok Jal Gaye | Tripur Sanhaar Katha",
+  "yt": {
+   "videoId": "rVSkzLwjX2g",
+   "url": "https://youtu.be/rVSkzLwjX2g",
+   "published": "2026-08-10",
+   "status": "public"
+  },
+  "shorts": [
+   "yhilF74cjUc"
+  ],
+  "playlists": [
+   {
+    "name": "Shiv | Mahadev Ki Sabse Badi Kathayein",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/tripura-dahana.md",
+    "route": "/stories/tripura-dahana/",
+    "inferred": false
+   }
+  ],
+  "period": "Earlier Manvantaras",
+  "periodCandidates": [
+   "Earlier Manvantaras"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "sp1b_gold.png",
+    "alt": "The first of the three flying cities, built of gold, riding in the heavens."
+   },
+   {
+    "file": "ks_chariot.png",
+    "alt": "The gods build Śiva a chariot: the earth its body, the sun and moon its wheels, Meru its bow."
+   },
+   {
+    "file": "hs4_full_draw.png",
+    "alt": "Śiva draws the string to his ear in the one instant the three cities slide into a single line.",
+    "caption": "One breath was all he needed"
+   },
+   {
+    "file": "sp3b_lamp_sky.png",
+    "alt": "Lamps lit across the sky on the full moon of Kārttika, for the terror's end and for cities once good."
+   }
+  ],
+  "summary": "Three asura brothers win three flying cities that can be destroyed only by a single arrow, at the one instant in a thousand years when the cities align. Śiva waits for that instant on a chariot built from the earth, the sun and the moon.",
+  "durationSec": 370
+ },
+ {
+  "slug": "kamsa",
+  "ep": 24,
+  "title": {
+   "en": "Krishna and Kamsa — The King Who Feared a Boy Before He Was Born",
+   "hi": "कृष्ण और कंस — वह राजा जो जन्म से पहले ही एक बालक से डरता था"
+  },
+  "ytTitle": "Mama Hi Sabse Bada Dushman Nikla | Kans Ki Katha",
+  "yt": {
+   "videoId": "cWFgimY8GcY",
+   "url": "https://youtu.be/cWFgimY8GcY",
+   "published": "2026-08-11",
+   "status": "public"
+  },
+  "shorts": [
+   "70f4AqWLhAU"
+  ],
+  "playlists": [
+   {
+    "name": "Krishna | Kaliya Se Vishwaroop Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/kamsa-vadha.md",
+    "route": "/stories/kamsa-vadha/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "SS01.png",
+    "alt": "Dawn over the river, the black fort of Mathurā standing on the far bank."
+   },
+   {
+    "file": "SS06.png",
+    "alt": "Six small unglazed clay lamps stand in a row on the floor of a stone prison cell.",
+    "caption": "Six sons"
+   },
+   {
+    "file": "st2.png",
+    "alt": "Vasudeva carries the eighth child across the Yamunā at monsoon midnight, under soundless sheet lightning."
+   },
+   {
+    "file": "SW1.png",
+    "alt": "A youth of about sixteen with dark blue skin faces Kaṃsa's champion on the raked arena sand."
+   }
+  ],
+  "summary": "Kaṃsa hears a voice promise that his sister's eighth child will kill him, and spends his life trying to prevent it. Kṛṣṇa comes to Mathurā for a bow-sacrifice that is really a trap, and takes the king down from his own high seat.",
+  "durationSec": 532
+ },
+ {
+  "slug": "narakasura",
+  "ep": 25,
+  "title": {
+   "en": "Narakasura and Satyabhama — The Queen Who Took the Reins",
+   "hi": "नरकासुर और सत्यभामा: जब रानी ने लगाम थामी"
+  },
+  "ytTitle": "Krishna Ki Patni Ne Rakshas Ko Mara | Narakasur Vadh",
+  "yt": {
+   "videoId": "ZzTCVXg5dYQ",
+   "url": "https://youtu.be/ZzTCVXg5dYQ",
+   "published": "2026-08-12",
+   "status": "public"
+  },
+  "shorts": [
+   "eEmzPws-7vU"
+  ],
+  "playlists": [
+   {
+    "name": "Krishna | Kaliya Se Vishwaroop Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/krishna-lila.md",
+    "route": "/stories/krishna-lila/",
+    "inferred": false
+   },
+   {
+    "path": "04-deep-dives/narakasura-vadha.md",
+    "route": "/stories/narakasura-vadha/",
+    "inferred": false
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga",
+   "Kali Yuga (History)"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "st_f1.png",
+    "alt": "Kṛṣṇa and Satyabhāmā climb away from the white sea-city of Dvārakā on Garuḍa at first light."
+   },
+   {
+    "file": "st_m1.png",
+    "alt": "The riders hover above the water at the foot of Narakāsura's black fortress wall."
+   },
+   {
+    "file": "st_k2.png",
+    "alt": "The road out of Prāgjyotiṣa's fortress, its great gate standing open."
+   },
+   {
+    "file": "st_sp2c.png",
+    "alt": "One small earthen lamp alone on dark wet stone, before the darkest dawn of the year.",
+    "caption": "Naraka Chaturdaśī"
+   }
+  ],
+  "summary": "Narakāsura's boon leaves one clause open — only his own mother can end him — and his mother is the earth, Bhūdevī, incarnate as Kṛṣṇa's queen Satyabhāmā. The campaign frees sixteen thousand captive women, and the day before Dīvālī still carries the demon's name.",
+  "durationSec": 519
+ },
+ {
+  "slug": "syamantaka",
+  "ep": 26,
+  "title": {
+   "en": "Krishna and the Syamantaka Jewel — The Sun-Gem That Made Him a Suspect",
+   "hi": "कृष्ण और स्यमन्तक मणि — वह सूर्य-मणि जिसने उन्हें आरोपी बना दिया"
+  },
+  "ytTitle": "Krishna Par Hatya Ka Aarop Laga | Syamantak Mani Katha",
+  "yt": {
+   "videoId": "rB2DWhP0t6A",
+   "url": "https://youtu.be/rB2DWhP0t6A",
+   "published": "2026-08-13",
+   "status": "public"
+  },
+  "shorts": [
+   "8hNOCRIOu7o"
+  ],
+  "playlists": [
+   {
+    "name": "Krishna | Kaliya Se Vishwaroop Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/syamantaka-jewel.md",
+    "route": "/stories/syamantaka-jewel/",
+    "inferred": false
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga",
+   "Kali Yuga (Scriptural)",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "st_surya_gift.png",
+    "alt": "Sūrya gives Satrājit the Syamantaka, the gem that makes eight bhāra of gold a day."
+   },
+   {
+    "file": "st_whisper.png",
+    "alt": "Dvārakā begins to whisper, and the city says aloud what it already believes about Kṛṣṇa.",
+    "caption": "A lie that does not wash off"
+   },
+   {
+    "file": "st_cave_confront.png",
+    "alt": "Kṛṣṇa and Jāmbavān fight in the dark of the bear king's cave, day after day without rest."
+   },
+   {
+    "file": "st_assembly_restore.png",
+    "alt": "Kṛṣṇa calls the assembly together and gives the jewel back before all of Dvārakā."
+   }
+  ],
+  "summary": "The Syamantaka gem yields gold every day and destroys a wearer who does not deserve it. When its owner's brother is killed on a hunt, Dvārakā suspects Kṛṣṇa, and he has to track the jewel into a bear king's cave to clear his own name.",
+  "durationSec": 415
+ },
+ {
+  "slug": "lingodbhava",
+  "ep": 27,
+  "title": {
+   "en": "Lingodbhava — The Pillar of Fire No God Could Measure",
+   "hi": "लिंगोद्भव — वह अग्नि-स्तंभ जिसका छोर किसी देवता को न मिला"
+  },
+  "ytTitle": "Brahma Ne Jhooth Bola Aur Sir Ganwaya | Lingodbhav Katha",
+  "yt": {
+   "videoId": "93yalqekMKQ",
+   "url": "https://youtu.be/93yalqekMKQ",
+   "published": "2026-08-14",
+   "status": "public"
+  },
+  "shorts": [
+   "D8xSpYedVWY"
+  ],
+  "playlists": [
+   {
+    "name": "Shiv | Mahadev Ki Sabse Badi Kathayein",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "00-time-and-cosmology/cosmogony-creation-accounts.md",
+    "route": "/cosmology/cosmogony-creation-accounts/",
+    "inferred": false
+   }
+  ],
+  "period": "Before Time",
+  "periodCandidates": [
+   "Before Time"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "st_quarrel_corrected.png",
+    "alt": "Brahmā and Viṣṇu stand face to face, each claiming to be the first cause of everything."
+   },
+   {
+    "file": "st_pillar_risen_corrected.png",
+    "alt": "A pillar of fire rises between them, with no top that either god can see and no base either can reach."
+   },
+   {
+    "file": "st_shiva_out.png",
+    "alt": "The pillar splits and Śiva steps out of it, having heard every word."
+   },
+   {
+    "file": "st_arunachala.png",
+    "alt": "Aruṇācala, the hill at Tiruvaṇṇāmalai, where that fire is given a place on earth."
+   }
+  ],
+  "summary": "Brahmā and Viṣṇu argue over which of them is the first cause, and a pillar of fire rises between them with no top and no base. Viṣṇu admits he found no end; Brahmā claims a summit he never reached, and Śiva steps out of the pillar having heard both.",
+  "durationSec": 382
+ },
+ {
+  "slug": "kamadahana",
+  "ep": 28,
+  "title": {
+   "en": "Kama's Ashes, Parvati's Vow — Kamadeva Dahan",
+   "hi": "कामदेव का दहन और पार्वती का तप"
+  },
+  "ytTitle": "Teesri Aankh Khuli Aur Kaamdev Bhasm | Shiv Katha",
+  "yt": {
+   "videoId": "AibkR_k2K8w",
+   "url": "https://youtu.be/AibkR_k2K8w",
+   "published": "2026-08-15",
+   "status": "public"
+  },
+  "shorts": [
+   "AlFSVin40vE"
+  ],
+  "playlists": [
+   {
+    "name": "Shiv | Mahadev Ki Sabse Badi Kathayein",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "02-deities-and-cosmic-hierarchy/kamadeva-and-minor-deities.md",
+    "route": "/deities/kamadeva-and-minor-deities/",
+    "inferred": false
+   }
+  ],
+  "period": "Cross-Yuga",
+  "periodCandidates": [
+   "Before Time",
+   "Satya Yuga",
+   "Dvapara Yuga",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "st_taraka_throne.png",
+    "alt": "Tārakāsura sits on the throne of heaven, which his boon has made it impossible for any god to take back."
+   },
+   {
+    "file": "st_kama_listens.png",
+    "alt": "Kāmadeva with his sugarcane bow and its string of bees, under a cold moon."
+   },
+   {
+    "file": "st_rati_boon.png",
+    "alt": "Rati weeps before Śiva over the small grey heap where her husband had stood.",
+    "caption": "Anaṅga, the bodiless one"
+   },
+   {
+    "file": "st_reveal.png",
+    "alt": "The wandering ascetic's disguise falls away and Śiva stands before Pārvatī in his own form."
+   }
+  ],
+  "summary": "The gods send Kāmadeva to break Śiva's meditation so that a son can be born who will kill Tārakāsura, and Śiva's third eye burns him to ash. Pārvatī then wins Śiva by her own austerity rather than by an arrow.",
+  "durationSec": 413
+ },
+ {
+  "slug": "kirata",
+  "ep": 29,
+  "title": {
+   "en": "Arjuna and the Hunter of Indrakila — Kiratarjuniya, Shiva's Test",
+   "hi": "अर्जुन और इंद्रकील का शिकारी"
+  },
+  "ytTitle": "Arjun Ne Haar Kar Pashupatastra Jeeta | Shiv Ka Shikari Roop",
+  "yt": {
+   "videoId": "iTarSXkyk_4",
+   "url": "https://youtu.be/iTarSXkyk_4",
+   "published": "2026-08-16",
+   "status": "public"
+  },
+  "shorts": [
+   "UU4M6dg-PIY"
+  ],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   },
+   {
+    "name": "Shiv | Mahadev Ki Sabse Badi Kathayein",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/mahabharata/03-vana-parva.md",
+    "route": "/stories/mahabharata/03-vana-parva/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Satya Yuga",
+   "Treta Yuga",
+   "Dvapara Yuga",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "st01.png",
+    "alt": "Indrakīla at first light: a vast grey-blue Himalayan massif above the treeline."
+   },
+   {
+    "file": "st12m.png",
+    "alt": "Arjuna stands on the tips of his toes with both arms raised, living on air, until the mountain smokes."
+   },
+   {
+    "file": "st_h4.png",
+    "alt": "Arjuna and the Kirāta grapple on the shale, the prince beaten for the first time in his life."
+   },
+   {
+    "file": "st31.png",
+    "alt": "The weapons of the guardians of the four directions laid out on bare grey shale."
+   }
+  ],
+  "summary": "During the Pāṇḍavas' forest exile, Arjuna goes north alone to win the weapons the coming war will need. Śiva meets him as a mountain hunter, beats him in a quarrel over a boar, and gives him the Pāśupata.",
+  "durationSec": 407
+ },
+ {
+  "slug": "barbarik",
+  "ep": 30,
+  "title": {
+   "en": "Barbarik — Three Arrows Were Enough",
+   "hi": "बर्बरीक · खाटू श्याम"
+  },
+  "ytTitle": "Sabse Bada Daani Kaun Tha? | Khatu Shyam Ji Ki Kahani",
+  "yt": {
+   "videoId": "I_QWIU8fy3I",
+   "url": "https://youtu.be/I_QWIU8fy3I",
+   "published": "2026-08-17",
+   "status": "public"
+  },
+  "shorts": [
+   "mSsNml-QRHo"
+  ],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   },
+   {
+    "name": "Yeh Puja Kyun Hoti Hai | Teerth Aur Vrat Ki Kahani",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/characters/barbarika-khatu-shyam.md",
+    "route": "/stories/characters/barbarika-khatu-shyam/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga",
+   "Kali Yuga (History)",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "s25_ST4_canopy_pierced_T1.png",
+    "alt": "A single arrow rises into the pīpal canopy and pierces leaf after leaf."
+   },
+   {
+    "file": "s26_ST5_arrow_hover_T2.png",
+    "alt": "The arrow hovers above the brahmin's foot, over the one leaf he has hidden beneath it."
+   },
+   {
+    "file": "s43_S11_head_hilltop_T2r.png",
+    "alt": "Barbarīka's head is set on a hill above Kurukṣetra, facing the field, its eyes never closing.",
+    "caption": "Eighteen days of watching"
+   },
+   {
+    "file": "s55_S16_two_shrines_T2.png",
+    "alt": "The shrines that keep his name, at Khāṭū in Rājasthān and beyond."
+   }
+  ],
+  "summary": "Barbarīka comes to Kurukṣetra with three infallible arrows and a promise to his mother to fight for whichever side is losing — which would make the war unwinnable by either. Kṛṣṇa asks him for his head, and gives it a hilltop from which to watch the whole war.",
+  "durationSec": 395
+ },
+ {
+  "slug": "dhruva",
+  "ep": 31,
+  "title": {
+   "en": "Dhruva — The Five-Year-Old Who Became the Pole Star",
+   "hi": "ध्रुव: पाँच बरस का वह बालक जो ध्रुवतारा बन गया"
+  },
+  "ytTitle": "Ek Bachche Ki Tapasya | Dhruv, Jo Dhruvtara Ban Gaya",
+  "yt": {
+   "videoId": "lobeQpFZUf8",
+   "url": "https://youtu.be/lobeQpFZUf8",
+   "published": "2026-08-18",
+   "status": "public"
+  },
+  "shorts": [
+   "xwGnvD2UBpY"
+  ],
+  "playlists": [
+   {
+    "name": "Tapasya | Jinhone Apna Bhagya Badal Diya",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/dhruva.md",
+    "route": "/stories/dhruva/",
+    "inferred": false
+   }
+  ],
+  "period": "Earlier Manvantaras",
+  "periodCandidates": [
+   "Earlier Manvantaras"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "st_lap_reach.png",
+    "alt": "Five-year-old Dhruva reaches toward his father's lap, his hand still raised when he is stopped."
+   },
+   {
+    "file": "st2_breath_still.png",
+    "alt": "Dhruva stands on one leg and holds his breath until the three worlds shake."
+   },
+   {
+    "file": "st6_conch_touch.png",
+    "alt": "Viṣṇu touches his conch to the boy's cheek, and words come."
+   },
+   {
+    "file": "kb_star_fixed.png",
+    "alt": "The fixed point at the top of the sky, with every other star circling it without end.",
+    "caption": "Dhruva Tārā"
+   }
+  ],
+  "summary": "Refused a place on his father's lap at five years old, Dhruva walks into the forest alone to find Viṣṇu himself. He is granted the kingdom he no longer wants, and the one fixed point at the top of the sky.",
+  "durationSec": 489
+ },
+ {
+  "slug": "savitri",
+  "ep": 32,
+  "title": {
+   "en": "Savitri and Satyavan — She Followed Death Down the Road",
+   "hi": "सावित्री और सत्यवान: वह मृत्यु के पीछे-पीछे चल पड़ी"
+  },
+  "ytTitle": "Yamraj Se Pati Waapas Maang Liya | Savitri Ki Katha",
+  "yt": {
+   "videoId": "u6hj7xoyKe0",
+   "url": "https://youtu.be/u6hj7xoyKe0",
+   "published": "2026-08-19",
+   "status": "public"
+  },
+  "shorts": [
+   "iIDrbFVeF6g"
+  ],
+  "playlists": [
+   {
+    "name": "Tapasya | Jinhone Apna Bhagya Badal Diya",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/savitri-satyavan.md",
+    "route": "/stories/savitri-satyavan/",
+    "inferred": true
+   }
+  ],
+  "period": "Cross-Yuga",
+  "periodCandidates": [
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b01.png",
+    "alt": "One forest clearing holds the whole final year at once — spring blossom, summer dust, monsoon rain, autumn leaves, winter mist."
+   },
+   {
+    "file": "b13.png",
+    "alt": "At midday beneath a great tree, Satyavān lies with his head in Sāvitrī's lap, his axe fallen aside."
+   },
+   {
+    "file": "b16.png",
+    "alt": "Yama walks south along a black river road holding Satyavān's bound soul, and Sāvitrī follows.",
+    "caption": "The road keeps count"
+   },
+   {
+    "file": "b21.png",
+    "alt": "Satyavān wakes with his head in Sāvitrī's lap and looks up in confusion."
+   }
+  ],
+  "summary": "Sāvitrī marries Satyavān knowing he has a year to live, and when Yama comes for him she follows Death down the southern road. She argues four boons out of him before asking for the one that returns her husband.",
+  "durationSec": 386
+ },
+ {
+  "slug": "ekalavya",
+  "ep": 33,
+  "title": {
+   "en": "Ekalavya and the Teacher Made of Clay",
+   "hi": "एकलव्य और मिट्टी का गुरु"
+  },
+  "ytTitle": "Guru Dakshina Mein Angootha Manga | Eklavya Katha",
+  "yt": {
+   "videoId": "2T5n3xm-MMk",
+   "url": "https://youtu.be/2T5n3xm-MMk",
+   "published": "2026-08-20",
+   "status": "public"
+  },
+  "shorts": [
+   "SR1mFEDw9G4"
+  ],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/ekalavya.md",
+    "route": "/stories/ekalavya/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b05.png",
+    "alt": "Young Ekalavya presses the last of the wet clay onto the teacher he has made for himself."
+   },
+   {
+    "file": "b09.png",
+    "alt": "Arjuna and the Kuru princes find the black-clad archer standing calm beside his clay teacher."
+   },
+   {
+    "file": "b13.png",
+    "alt": "Droṇa holds out one open hand, and what the kneeling Ekalavya does stays hidden in a fold of dark robe.",
+    "caption": "The guru-dakṣiṇā"
+   },
+   {
+    "file": "b20.png",
+    "alt": "At dawn Ekalavya bows before the inert clay teacher, his bow laid aside and one wildflower at its feet."
+   }
+  ],
+  "summary": "Refused instruction by Droṇa, the forest prince Ekalavya makes a clay image of the teacher and trains before it until he outshoots the Kuru princes. Droṇa then claims the one fee that disarms him: his right thumb.",
+  "durationSec": 342
+ },
+ {
+  "slug": "abhimanyu",
+  "ep": 34,
+  "title": {
+   "en": "Abhimanyu and the Chakravyuha — Not Out",
+   "hi": "अभिमन्यु और चक्रव्यूह"
+  },
+  "ytTitle": "Adhoori Vidya Ne Jaan Le Li | Abhimanyu Ka Chakravyuh",
+  "yt": {
+   "videoId": "WS-_TqXUPDs",
+   "url": "https://youtu.be/WS-_TqXUPDs",
+   "published": "2026-08-21",
+   "status": "public"
+  },
+  "shorts": [
+   "REYZ5dVjigk"
+  ],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/characters/abhimanyu.md",
+    "route": "/stories/characters/abhimanyu/",
+    "inferred": true
+   },
+   {
+    "path": "04-deep-dives/mahabharata/07-drona-parva.md",
+    "route": "/stories/mahabharata/07-drona-parva/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b07.png",
+    "alt": "Droṇa's Cakravyūha seen whole from above, built entirely of soldiers, chariots and standards."
+   },
+   {
+    "file": "b11.png",
+    "alt": "Sumitra drives Abhimanyu's chariot through the formation's mouth at the instant its ranks buckle."
+   },
+   {
+    "file": "b16.png",
+    "alt": "Dismounted and disarmed, Abhimanyu keeps one heavy broken chariot wheel as his only shield."
+   },
+   {
+    "file": "b21.png",
+    "alt": "Soma's moon comes whole again above the broken chariot wheel."
+   }
+  ],
+  "summary": "Abhimanyu knows how to break into Droṇa's cakravyūha but not how to get out of it, and goes in anyway when no one else can. The formation closes behind him and he fights on alone until only a broken chariot wheel is left him.",
+  "durationSec": 402
+ },
+ {
+  "slug": "brahma-head",
+  "ep": 35,
+  "title": {
+   "en": "Why Brahma Has Almost No Temples — The Fifth Head Shiva Cut Off",
+   "hi": "ब्रह्मा के मंदिर क्यों नहीं हैं — ब्रह्मा का पाँचवाँ सिर"
+  },
+  "ytTitle": "Ek Jhooth Aur Brahma Ka Sir Gaya | Shiv Puran Katha",
+  "yt": {
+   "videoId": "sHT6l2HR0x8",
+   "url": "https://youtu.be/sHT6l2HR0x8",
+   "published": "2026-08-22",
+   "status": "public"
+  },
+  "shorts": [
+   "L_YbkrqyJCw"
+  ],
+  "playlists": [
+   {
+    "name": "Shiv | Mahadev Ki Sabse Badi Kathayein",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md",
+    "route": "/deities/trimurti-and-tridevi/",
+    "inferred": false
+   }
+  ],
+  "period": "Before Time",
+  "periodCandidates": [
+   "Before Time",
+   "Treta Yuga",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b03_v2.png",
+    "alt": "Brahmā raises a fifth face above the four, and the gathered devas look up uneasily."
+   },
+   {
+    "file": "b06.png",
+    "alt": "Bhairava manifests empty-handed from a column of sober blue-black light beside Śiva."
+   },
+   {
+    "file": "b12.png",
+    "alt": "Villagers place alms into Bhairava's kapāla on the mendicant road, a black dog at his heel."
+   },
+   {
+    "file": "b22.png",
+    "alt": "The living Brahmā shrine at Puṣkar receives its line of pilgrims, while other sanctuaries stay only implied.",
+    "caption": "Almost no temples"
+   }
+  ],
+  "summary": "Brahmā raises a fifth head and makes a claim that Śiva hears out in silence; Bhairava takes the head off with a single stroke. The skull clings to Bhairava's hand until it falls at a place of release — and Brahmā is left with almost no temples of his own.",
+  "durationSec": 393
+ },
+ {
+  "slug": "tulsi",
+  "ep": 36,
+  "title": {
+   "en": "Vrinda and Jalandhara — Why a Tulsi Plant Is Married to a Stone",
+   "hi": "वृंदा और जलंधर — तुलसी हर वर्ष एक पत्थर से क्यों ब्याही जाती है"
+  },
+  "ytTitle": "Vrinda Ka Pativrat Kaise Toota | Tulsi Vivah Katha",
+  "yt": {
+   "videoId": "9kvS5brYr1o",
+   "url": "https://youtu.be/9kvS5brYr1o",
+   "published": "2026-08-23",
+   "status": "public"
+  },
+  "shorts": [
+   "yl08ZKyMAvY"
+  ],
+  "playlists": [
+   {
+    "name": "Devi | Durga, Kali Aur Vaishno Devi Ki Katha",
+    "id": null
+   },
+   {
+    "name": "Yeh Puja Kyun Hoti Hai | Teerth Aur Vrat Ki Kahani",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/shankhachuda-tulasi.md",
+    "route": "/stories/shankhachuda-tulasi/",
+    "inferred": true
+   }
+  ],
+  "period": "Earlier Manvantaras",
+  "periodCandidates": [
+   "Before Time",
+   "Earlier Manvantaras",
+   "Kali Yuga (History)",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b01.png",
+    "alt": "In a household courtyard at dusk, a woman garlands a tulsī plant beside a small black śālagrāma stone."
+   },
+   {
+    "file": "b07.png",
+    "alt": "Jālandhara leads a disciplined asura army up a vast stone causeway toward the gates of heaven."
+   },
+   {
+    "file": "b16.png",
+    "alt": "Vṛndā walks into the funeral fire in the forest clearing."
+   },
+   {
+    "file": "b17.png",
+    "alt": "The morning after the funeral fire, one vivid green tulsī sapling grows from the ashes."
+   }
+  ],
+  "summary": "Jālandhara cannot be killed while his wife Vṛndā's chastity is intact, so the gods win by māyā rather than by weapons. Vṛndā walks into the fire, and a tulsī plant grows from her ashes — married each year to a śālagrāma stone.",
+  "durationSec": 391
+ },
+ {
+  "slug": "yayati",
+  "ep": 37,
+  "title": {
+   "en": "Yayati — The King Who Borrowed His Son's Youth",
+   "hi": "यायाति: वह राजा जिसने पुत्र से यौवन उधार लिया"
+  },
+  "ytTitle": "Beta Boodha Hua, Baap Jawan | Yayati Ki Puri Kahani",
+  "yt": {
+   "videoId": "nzTGzkj7Reg",
+   "url": "https://youtu.be/nzTGzkj7Reg",
+   "published": "2026-08-24",
+   "status": "public"
+  },
+  "shorts": [
+   "tsrNTAza2GQ"
+  ],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/yayati.md",
+    "route": "/stories/yayati/",
+    "inferred": true
+   }
+  ],
+  "period": "Earlier Manvantaras",
+  "periodCandidates": [
+   "Earlier Manvantaras",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b01.png",
+    "alt": "An unnaturally aged Yayāti reaches toward his youngest son Puru, who stands young and straight before him."
+   },
+   {
+    "file": "b04.png",
+    "alt": "Yayāti takes the hand raised from the well and lifts Devayānī out of it."
+   },
+   {
+    "file": "b11.png",
+    "alt": "Puru accepts his father's old age and gives up his own youth, where four elder brothers had refused.",
+    "caption": "A thousand years, borrowed"
+   },
+   {
+    "file": "b19.png",
+    "alt": "Yayāti after the fall from heaven, having learned that desire is never ended by feeding it."
+   }
+  ],
+  "summary": "Cursed with premature old age, King Yayāti asks his sons to trade their youth for it, and only the youngest, Puru, agrees. A thousand years of indulgence teach him that desire is never ended by feeding it.",
+  "durationSec": 406
+ },
+ {
+  "slug": "shakuntala",
+  "ep": 38,
+  "title": {
+   "en": "Shakuntala — The Ring Was Never in the Original",
+   "hi": "शकुन्तला — असली कथा"
+  },
+  "ytTitle": "Mahabharat Mein Angoothi Thi Hi Nahi | Shakuntala Katha",
+  "yt": {
+   "videoId": "1EJMShHbtsQ",
+   "url": "https://youtu.be/1EJMShHbtsQ",
+   "published": "2026-08-25",
+   "status": "public"
+  },
+  "shorts": [],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/shakuntala-bharata.md",
+    "route": "/stories/shakuntala-bharata/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b11.png",
+    "alt": "King Duṣyanta walks alone into Kaṇva's forest hermitage."
+   },
+   {
+    "file": "b14.png",
+    "alt": "The boy Bharata plays in the ashram, tying lion cubs to trees."
+   },
+   {
+    "file": "b19.png",
+    "alt": "Duṣyanta steps down from the throne and acknowledges Śakuntalā and Bharata before the whole court."
+   },
+   {
+    "file": "b21.png",
+    "alt": "A closing portrait of Śakuntalā alone in the forest ashram, looking directly ahead."
+   }
+  ],
+  "summary": "Duṣyanta marries Śakuntalā at her forest hermitage and then refuses to know her when she comes to his court with their son. The epic's own telling has no curse and no ring: a voice from the sky settles it, and the boy becomes Bharata.",
+  "durationSec": 390
+ },
+ {
+  "slug": "ashwatthama",
+  "ep": 39,
+  "title": {
+   "en": "Ashwatthama — The Sentence Krishna Chose Instead of Death",
+   "hi": "अश्वत्थामा: कृष्ण ने मृत्यु के बदले जो दंड चुना"
+  },
+  "ytTitle": "Aaj Bhi Bhatak Raha Hai | Ashwatthama Ka Amar Shraap",
+  "yt": {
+   "videoId": "qgNK-4blbzc",
+   "url": "https://youtu.be/qgNK-4blbzc",
+   "published": "2026-08-26",
+   "status": "public"
+  },
+  "shorts": [],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/characters/ashvatthama.md",
+    "route": "/stories/characters/ashvatthama/",
+    "inferred": true
+   },
+   {
+    "path": "04-deep-dives/mahabharata/10-sauptika-parva.md",
+    "route": "/stories/mahabharata/10-sauptika-parva/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga",
+   "Kali Yuga (Scriptural)"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b03.png",
+    "alt": "A grounded pre-war portrait of Aśvatthāman, the small dark-blue gem in his forehead clearly visible."
+   },
+   {
+    "file": "b05.png",
+    "alt": "Droṇa lays his bow and staff on the earth of Kurukṣetra and sits upright in meditation, unarmed."
+   },
+   {
+    "file": "b12.png",
+    "alt": "Inside the burning night camp, Draupadī's five sons come out of their separate tents with weapons raised."
+   },
+   {
+    "file": "b22.png",
+    "alt": "At predawn Aśvatthāman walks on without the forehead gem, a plain cloth band around his brow.",
+    "caption": "The sentence chosen instead of death"
+   }
+  ],
+  "summary": "After the war is already decided, Aśvatthāman kills the Pāṇḍava camp in its sleep and then looses a weapon at an unborn child. Kṛṣṇa takes the gem from his forehead and gives him a sentence to live out rather than a death.",
+  "durationSec": 408
+ },
+ {
+  "slug": "shani",
+  "ep": 40,
+  "title": {
+   "en": "Surya's Shadow Wife — Sanjna, Chhaya and the Birth of Shani",
+   "hi": "सूर्य की छाया-पत्नी: संज्ञा, छाया और शनि का जन्म"
+  },
+  "ytTitle": "Surya Ne Patni Ko Pehchana Nahi | Shani Dev Ki Kahani",
+  "yt": {
+   "videoId": "hS7YjntzSr0",
+   "url": "https://youtu.be/hS7YjntzSr0",
+   "published": "2026-08-27",
+   "status": "public"
+  },
+  "shorts": [],
+  "playlists": [
+   {
+    "name": "Yeh Puja Kyun Hoti Hai | Teerth Aur Vrat Ki Kahani",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "02-deities-and-cosmic-hierarchy/surya-and-his-family.md",
+    "route": "/deities/surya-and-his-family/",
+    "inferred": true
+   }
+  ],
+  "period": "Earlier Manvantaras",
+  "periodCandidates": [
+   "Earlier Manvantaras",
+   "Treta Yuga",
+   "Dvapara Yuga",
+   "Kali Yuga (History)",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "b04.png",
+    "alt": "In a shaded palace courtyard Saṃjñā faces Chāyā, the shadow double she is leaving in her place."
+   },
+   {
+    "file": "b11.png",
+    "alt": "Chāyā sits with all six children, and the difference between her own three and the other three shows."
+   },
+   {
+    "file": "b13.png",
+    "alt": "A frightened Yama stands before Sūrya with both hands raised, just after the curse."
+   },
+   {
+    "file": "b22.png",
+    "alt": "Śani as the judge who only weighs, giving each exactly what their acts have earned."
+   }
+  ],
+  "summary": "Saṃjñā cannot bear her husband Sūrya's light and leaves her own shadow, Chāyā, in her place, and the substitution holds for years. Chāyā's son is Śani, and his father's doubt about him is where the planet's reputation begins.",
+  "durationSec": 353
+ },
+ {
+  "slug": "draupadi-dice-hall",
+  "ep": 41,
+  "title": {
+   "en": "The Cloth Would Not End — Draupadi in the Dice Hall",
+   "hi": "वस्त्र बढ़ता गया, सभा देखती रही — द्रौपदी चीरहरण"
+  },
+  "ytTitle": "Draupadi Ka Cheer Haran (vastra haran)",
+  "yt": {
+   "videoId": "d95CanS3kdo",
+   "url": "https://youtu.be/d95CanS3kdo",
+   "published": "2026-09-01",
+   "status": "public"
+  },
+  "shorts": [],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/mahabharata/02-sabha-parva.md",
+    "route": "/stories/mahabharata/02-sabha-parva/",
+    "inferred": true
+   },
+   {
+    "path": "04-deep-dives/characters/draupadi.md",
+    "route": "/stories/characters/draupadi/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "ep41-s001.png",
+    "alt": "The dice hall at Hastināpura, where dice kept falling and kingdoms kept changing hands."
+   },
+   {
+    "file": "ep41-s018.png",
+    "alt": "Śakuni offers Duryodhana a weapon that looks harmless because it fits inside one hand."
+   },
+   {
+    "file": "ep41-s062.png",
+    "alt": "Duḥśāsana ignores Draupadī's words and pulls her toward the assembly."
+   },
+   {
+    "file": "ep41-s122.png",
+    "alt": "Bhīma swears that if he does not spill Duḥśāsana's blood in battle, he will not reach his ancestors."
+   },
+   {
+    "file": "ep41-s140.png",
+    "alt": "The dice hall after the vows, as Duryodhana, Duḥśāsana, Karṇa and Śakuni press for a second game."
+   }
+  ],
+  "summary": "Yudhiṣṭhira stakes and loses his kingdom, his brothers, himself and finally Draupadī at a rigged game of dice. Draupadī's question to the assembly — whether a man who has already lost himself can stake another — is the one no one in the hall can answer.",
+  "durationSec": 1035,
+  "cosmicAddressLabel": "Dvāpara Yuga"
+ },
+ {
+  "slug": "bhagavad-gita-vishvarupa",
+  "ep": 42,
+  "title": {
+   "en": "Arjuna Refused to Fight — Then Krishna Showed Him Time",
+   "hi": "अर्जुन ने युद्ध से मना किया—फिर कृष्ण ने काल दिखाया"
+  },
+  "ytTitle": "Krishna Ne Apna Asli Roop Dikhaya | Vishwaroop Darshan",
+  "yt": {
+   "videoId": "-3Ne0i1Qiqc",
+   "url": "https://youtu.be/-3Ne0i1Qiqc",
+   "published": "2026-09-04",
+   "status": "public"
+  },
+  "shorts": [],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   },
+   {
+    "name": "Krishna | Kaliya Se Vishwaroop Tak",
+    "id": null
+   },
+   {
+    "name": "Vishnu Ke Dashavatar | Matsya Se Parashuram Tak",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/bhagavad-gita/07-to-12-bhakti-shatka.md",
+    "route": "/stories/bhagavad-gita/07-to-12-bhakti-shatka/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "ep42-s001.png",
+    "alt": "Before the first arrow flies at Kurukṣetra, the blind king Dhṛtarāṣṭra asks what the two sides have done."
+   },
+   {
+    "file": "ep42-s032.png",
+    "alt": "Weapons cannot cleave the self, fire cannot burn it, water cannot wet it, wind cannot dry it."
+   },
+   {
+    "file": "ep42-s064.png",
+    "alt": "Kṛṣṇa names his vibhūtis — among wielders of weapons Rāma, among warriors Arjuna, among seers Vyāsa."
+   },
+   {
+    "file": "ep42-s111.png",
+    "alt": "In the Viśvarūpa, Kṛṣṇa tells Arjuna to arise, for these warriors have already been struck down.",
+    "caption": "Time, revealed"
+   },
+   {
+    "file": "ep42-s140.png",
+    "alt": "Arjuna bends, closes his hand around Gāṇḍīva, and lifts the bow that grief had cast down."
+   }
+  ],
+  "summary": "Arjuna sets down his bow between the two armies rather than fight his own kin, and Kṛṣṇa answers him. Chapters seven to twelve turn the teaching toward devotion and open into the Viśvarūpa, the form in which Arjuna sees time itself.",
+  "durationSec": 1162
+ },
+ {
+  "slug": "vaishno-devi-bhairavnath",
+  "ep": 43,
+  "title": {
+   "en": "Why Vaishno Devi Granted Bhairavnath Liberation",
+   "hi": "वैष्णो देवी ने भैरवनाथ को वरदान क्यों दिया?"
+  },
+  "ytTitle": "Vaishno Devi Ki Yatra Bhairavnath Ke Bina Adhuri Kyun Hai?",
+  "yt": {
+   "videoId": "34MsjN6v4eQ",
+   "url": "https://youtu.be/34MsjN6v4eQ",
+   "published": "2026-09-05",
+   "status": "public"
+  },
+  "shorts": [],
+  "playlists": [
+   {
+    "name": "Devi | Durga, Kali Aur Vaishno Devi Ki Katha",
+    "id": null
+   },
+   {
+    "name": "Yeh Puja Kyun Hoti Hai | Teerth Aur Vrat Ki Kahani",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "06-sacred-geography/vaishno-devi-trikuta-katra.md",
+    "route": "/places/vaishno-devi-trikuta-katra/",
+    "inferred": true
+   }
+  ],
+  "period": "Kali Yuga (History)",
+  "periodCandidates": [
+   "Kali Yuga (History)",
+   "Cross-Yuga"
+  ],
+  "thumbnail": "thumb.webp",
+  "stills": [
+   {
+    "file": "ep43-s001.png",
+    "alt": "High on Trikūṭa, pilgrims enter the holy cave and bow before three sacred stone piṇḍīs."
+   },
+   {
+    "file": "ep43-s053.png",
+    "alt": "The new water at Bāṇ Gaṅgā, a life-giving path opened by divine will rather than a weapon's wound."
+   },
+   {
+    "file": "ep43-s111.png",
+    "alt": "Bhairav raises his weapon and finally understands that restraint had never meant helplessness."
+   },
+   {
+    "file": "ep43-s134.png",
+    "alt": "Śrīdhar's impossible bhaṇḍārā began with scarcity and ended by opening a road followed by millions."
+   }
+  ],
+  "summary": "Pursued by the tantric Bhairavnāth, the goddess takes refuge in a cave on Trikūṭa for nine months. At the cave she ends him — and then grants him liberation and a shrine of his own above hers.",
+  "durationSec": 1261
+ },
+ {
+  "slug": "ganesha-vs-kartikeya",
+  "ep": 44,
+  "title": {
+   "en": "Ganesha Never Left Home — and Won the World",
+   "hi": "गणेश घर से निकले ही नहीं—फिर भी संसार जीत लिया"
+  },
+  "ytTitle": null,
+  "yt": {
+   "videoId": null,
+   "url": null,
+   "published": null,
+   "status": "coming-soon"
+  },
+  "shorts": [],
+  "playlists": [],
+  "corpus": [
+   {
+    "path": "02-deities-and-cosmic-hierarchy/ganesha-and-kartikeya.md",
+    "route": "/deities/ganesha-and-kartikeya/",
+    "inferred": false
+   },
+   {
+    "path": "06-sacred-geography/arupadai-veedu-murugan.md",
+    "route": "/places/arupadai-veedu-murugan/",
+    "inferred": false
+   }
+  ],
+  "period": "Cross-Yuga",
+  "periodCandidates": [
+   "Before Time",
+   "Treta Yuga",
+   "Dvapara Yuga",
+   "Cross-Yuga",
+   "Kali Yuga (History)"
+  ],
+  "thumbnail": null,
+  "stills": [
+   {
+    "file": "ep44-s001.png",
+    "alt": "Kārttikeya returns to Kailāsa with the wind of three worlds still streaming from his peacock's feathers."
+   },
+   {
+    "file": "ep44-s011.png",
+    "alt": "One brother carries the spear of a warrior, the other the patience to study an obstacle before touching it."
+   },
+   {
+    "file": "ep44-s051.png",
+    "alt": "Kārttikeya lowers his spear, breaks the fallen trees blocking the current, and opens a path to higher ground."
+   },
+   {
+    "file": "ep44-s107.png",
+    "alt": "Pārvatī steps toward him and says that no fruit can measure the love owed to either of them."
+   },
+   {
+    "file": "ep44-s134.png",
+    "alt": "Far south, the peacock folds its exhausted wings at sunset."
+   }
+  ],
+  "summary": "Śiva and Pārvatī set their two sons a race around the world for a single fruit. Kārttikeya circles the three worlds; Gaṇeśa walks around his parents and says that they are the world.",
+  "durationSec": null,
+  "titleDraft": true
+ },
+ {
+  "slug": "ghatotkacha-final-night",
+  "ep": 45,
+  "title": {
+   "en": "Karna Used the One Weapon Meant for Arjuna",
+   "hi": "कर्ण ने अर्जुन के लिए बचा अस्त्र किस पर चलाया?"
+  },
+  "ytTitle": null,
+  "yt": {
+   "videoId": null,
+   "url": null,
+   "published": null,
+   "status": "coming-soon"
+  },
+  "shorts": [],
+  "playlists": [],
+  "corpus": [
+   {
+    "path": "04-deep-dives/characters/ghatotkacha.md",
+    "route": "/stories/characters/ghatotkacha/",
+    "inferred": true
+   },
+   {
+    "path": "04-deep-dives/mahabharata/07-drona-parva.md",
+    "route": "/stories/mahabharata/07-drona-parva/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga"
+  ],
+  "thumbnail": null,
+  "stills": [
+   {
+    "file": "ep45-s001.png",
+    "alt": "A single golden dart crosses the torch-lit darkness while a colossal warrior fills the moonlit sky before it."
+   },
+   {
+    "file": "ep45-s053.png",
+    "alt": "Alāyudha's chariot emerges through black smoke, rākṣasa warriors beating weapons against shields."
+   },
+   {
+    "file": "ep45-s096.png",
+    "alt": "It was the Vāsavī Śakti — not Indra's thunderbolt, not an arrow, and not a weapon that would ever return."
+   },
+   {
+    "file": "ep45-s141.png",
+    "alt": "Dawn has not yet arrived, but the future duel between Karṇa and Arjuna has already changed."
+   },
+   {
+    "file": "ep45-s142.png",
+    "alt": "Karṇa still has courage, skill and terrible weapons, but no longer the one strike that could not fail."
+   }
+  ],
+  "summary": "On the fourteenth night of the war, Ghaṭotkaca's rākṣasa power is destroying the Kaurava army in the dark. Karṇa spends the Vāsavī Śakti — the one weapon he had kept back for Arjuna — to stop him.",
+  "durationSec": null,
+  "titleDraft": true
+ },
+ {
+  "slug": "karna-vs-arjuna",
+  "ep": 46,
+  "title": {
+   "en": "When Karna’s Wheel Sank — The Final Battle",
+   "hi": "जब कर्ण का पहिया धँसा — अंतिम युद्ध"
+  },
+  "ytTitle": null,
+  "yt": {
+   "videoId": null,
+   "url": null,
+   "published": null,
+   "status": "coming-soon"
+  },
+  "shorts": [],
+  "playlists": [],
+  "corpus": [
+   {
+    "path": "04-deep-dives/karna.md",
+    "route": "/stories/karna/",
+    "inferred": true
+   },
+   {
+    "path": "04-deep-dives/mahabharata/08-karna-parva.md",
+    "route": "/stories/mahabharata/08-karna-parva/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Treta Yuga",
+   "Dvapara Yuga"
+  ],
+  "thumbnail": null,
+  "stills": [
+   {
+    "file": "ep46-s001.png",
+    "alt": "On the seventeenth day of Kurukṣetra, two chariots move toward the duel the war had delayed for a lifetime."
+   },
+   {
+    "file": "ep46-s018.png",
+    "alt": "Paraśurāma accepts Karṇa as a student and teaches him the use of celestial weapons."
+   },
+   {
+    "file": "ep46-s059.png",
+    "alt": "Duḥśāsana has fallen and Bhīma has fulfilled his terrible vow."
+   },
+   {
+    "file": "ep46-s116.png",
+    "alt": "Karṇa's standard snaps and falls across the trapped wheel as the bright arrow passes beyond the chariot.",
+    "caption": "Añjalika"
+   },
+   {
+    "file": "ep46-s133.png",
+    "alt": "Karṇa's life cannot be reduced to victimhood, villainy, generosity, or fate alone."
+   }
+  ],
+  "summary": "Two curses fall due on the seventeenth day: Karṇa's weapons desert his memory and his chariot wheel sinks into the earth. The duel the war had delayed for a lifetime ends with him unarmed and asking after the rules of war.",
+  "durationSec": null,
+  "titleDraft": true
+ },
+ {
+  "slug": "rukmini-haran",
+  "ep": 47,
+  "title": {
+   "en": "Krishna Took the Bride — Because She Asked Him To",
+   "hi": "कृष्ण दुल्हन को ले गए—क्योंकि उसी ने बुलाया था"
+  },
+  "ytTitle": null,
+  "yt": {
+   "videoId": null,
+   "url": null,
+   "published": null,
+   "status": "coming-soon"
+  },
+  "shorts": [],
+  "playlists": [],
+  "corpus": [
+   {
+    "path": "04-deep-dives/rukmini-harana.md",
+    "route": "/stories/rukmini-harana/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga",
+   "Kali Yuga (History)"
+  ],
+  "thumbnail": null,
+  "stills": [
+   {
+    "file": "ep47-s001.png",
+    "alt": "Before dawn in Kuṇḍina, Rukmiṇī presses a sealed letter into a trusted brahmin's hands."
+   },
+   {
+    "file": "ep47-s025.png",
+    "alt": "The brahmin enters expecting grief and finds Rukmiṇī seated before a completed message and a precise plan."
+   },
+   {
+    "file": "ep47-s073.png",
+    "alt": "Kṛṣṇa halts exactly where Rukmiṇī instructed, on open ground beyond the temple steps."
+   },
+   {
+    "file": "ep47-s110.png",
+    "alt": "Rukmī seizes sword, shield and spear in succession, and Kṛṣṇa breaks each of them."
+   },
+   {
+    "file": "ep47-s133.png",
+    "alt": "Rukmiṇī approaches the wedding flame with no guard directing her path and no brother naming the hand she must take."
+   }
+  ],
+  "summary": "Rukmiṇī sends Kṛṣṇa a letter asking him to come before her brother can marry her to someone else, and sets out the plan herself. What follows is a rescue she solicited, not a raid for plunder.",
+  "durationSec": null,
+  "titleDraft": true
+ },
+ {
+  "slug": "putana-vadha",
+  "ep": 48,
+  "title": {
+   "en": "She Came to Kill Baby Krishna — He Gave Her Liberation",
+   "hi": "मारने आई पूतना को कृष्ण ने मोक्ष क्यों दिया?"
+  },
+  "ytTitle": null,
+  "yt": {
+   "videoId": null,
+   "url": null,
+   "published": null,
+   "status": "coming-soon"
+  },
+  "shorts": [],
+  "playlists": [],
+  "corpus": [
+   {
+    "path": "04-deep-dives/krishna-balya-lila.md",
+    "route": "/stories/krishna-balya-lila/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Dvapara Yuga"
+  ],
+  "thumbnail": null,
+  "stills": [
+   {
+    "file": "ep48-s001.png",
+    "alt": "Before Gokula fully wakes, a beautiful stranger crosses Nanda's threshold carrying poison on her body."
+   },
+   {
+    "file": "ep48-s004.png",
+    "alt": "Beneath the borrowed beauty waits Pūtanā, a child-killing rākṣasī sent into the cowherd settlements."
+   },
+   {
+    "file": "ep48-s085.png",
+    "alt": "Nanda looks toward Kṛṣṇa and then toward the fallen rākṣasī, sensing protection without yet understanding it."
+   },
+   {
+    "file": "ep48-s111.png",
+    "alt": "Her immense body burns, but the fragrance of the smoke suggests what did not survive the child she tried to kill."
+   },
+   {
+    "file": "ep48-s134.png",
+    "alt": "Yaśodā at the nursery door, the child safe in the cradle — the other image of motherhood."
+   }
+  ],
+  "summary": "Pūtanā comes to Gokula disguised as a beautiful nurse, with poison on her breast, to kill the infant Kṛṣṇa. He takes her life along with her milk, and gives her the liberation owed to a mother.",
+  "durationSec": null,
+  "titleDraft": true
+ },
+ {
+  "slug": "origin-of-jagannath",
+  "ep": 49,
+  "title": {
+   "en": "They Opened the Door Too Soon — and Found Jagannath",
+   "hi": "दरवाज़ा जल्दी खुला—और जगन्नाथ का रूप मिला"
+  },
+  "ytTitle": null,
+  "yt": {
+   "videoId": null,
+   "url": null,
+   "published": null,
+   "status": "coming-soon"
+  },
+  "shorts": [],
+  "playlists": [],
+  "corpus": [
+   {
+    "path": "06-sacred-geography/jagannath-puri-purushottama-kshetra.md",
+    "route": "/places/jagannath-puri-purushottama-kshetra/",
+    "inferred": true
+   },
+   {
+    "path": "04-deep-dives/indradyumna-akupara-oldest-beings.md",
+    "route": "/stories/indradyumna-akupara-oldest-beings/",
+    "inferred": true
+   }
+  ],
+  "period": "Kali Yuga (Scriptural)",
+  "periodCandidates": [
+   "Kali Yuga (Scriptural)",
+   "Kali Yuga (History)",
+   "Cross-Yuga"
+  ],
+  "thumbnail": null,
+  "stills": [
+   {
+    "file": "ep49-s001.png",
+    "alt": "Every summer three immense chariots roll through Puri as countless hands pull the Lord of the Universe into the street."
+   },
+   {
+    "file": "ep49-s004.png",
+    "alt": "The form raises a question that an ordinary human-shaped image never asks."
+   },
+   {
+    "file": "ep49-s054.png",
+    "alt": "Only then did the sacred log yield and begin its journey from the shore toward the place prepared for worship."
+   },
+   {
+    "file": "ep49-s111.png",
+    "alt": "The Nabakalebara ritual spaces, where tradition says the deities withdraw from public darśana during Anavasara."
+   },
+   {
+    "file": "ep49-s140.png",
+    "alt": "The Indradyumna story does not make every surviving stone wall a structure from mythic antiquity.",
+    "caption": "Two clocks"
+   }
+  ],
+  "summary": "King Indradyumna is told to carve an image from a log that comes to the Odisha shore, and the craftsman who takes the work asks only to be left undisturbed until it is done. The door is opened too soon, and the unfinished forms are installed exactly as they are.",
+  "durationSec": null,
+  "titleDraft": true
+ },
+ {
+  "slug": "lakshagriha",
+  "ep": 50,
+  "title": {
+   "en": "The Palace Was Built to Burn the Pandavas Alive",
+   "hi": "पांडवों को जलाने के लिए बनाया गया था यह महल"
+  },
+  "ytTitle": null,
+  "yt": {
+   "videoId": null,
+   "url": null,
+   "published": null,
+   "status": "coming-soon"
+  },
+  "shorts": [],
+  "playlists": [],
+  "corpus": [
+   {
+    "path": "04-deep-dives/mahabharata/01-adi-parva.md",
+    "route": "/stories/mahabharata/01-adi-parva/",
+    "inferred": true
+   }
+  ],
+  "period": "Dvapara Yuga",
+  "periodCandidates": [
+   "Earlier Manvantaras",
+   "Dvapara Yuga"
+  ],
+  "thumbnail": null,
+  "stills": [
+   {
+    "file": "ep50-s001.png",
+    "alt": "Above the concealed passage, a palace blazes so fiercely that its lacquered walls seem to melt into the night."
+   },
+   {
+    "file": "ep50-s032.png",
+    "alt": "In a palace corridor, the warning is passed in words only the intended ear can read."
+   },
+   {
+    "file": "ep50-s086.png",
+    "alt": "The hidden materials answer the flame with terrifying speed, turning shelter into a single spreading blaze."
+   },
+   {
+    "file": "ep50-s120.png",
+    "alt": "When the fire subsides, the citizens discover the splendid palace had been built from materials meant to burn."
+   },
+   {
+    "file": "ep50-s140.png",
+    "alt": "The epic does not pause to give the dead a rescue, a speech, or even individual names."
+   }
+  ],
+  "summary": "Duryodhana has a palace of lac built at Vāraṇāvata so that the Pāṇḍavas will burn inside it, and Vidura warns Yudhiṣṭhira in code. They escape through a tunnel and let the world believe they died in the fire.",
+  "durationSec": null,
+  "titleDraft": true
+ }
+]

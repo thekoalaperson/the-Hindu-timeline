@@ -1,0 +1,220 @@
+---
+/**
+ * /lab/web/ — concept C, "The web of stories".
+ *
+ * The corpus as a living constellation: 164 illustrated nodes (43 published
+ * films, 7 coming soon, 114 corpus pages — deities, places, episodes, texts)
+ * strung on 525 real relations (a film animates a page; a page links another;
+ * two things share actors; a film series). Time runs left to right through the
+ * nine cosmic ages, and every node is tinted by its age, so the web reads as a
+ * timeline you can also wander.
+ *
+ * The layout is precomputed by `src/lab/web/build-graph.mjs` (annealed force
+ * layout with a horizontal age field) → `src/lab/web/data/web-graph.json`.
+ * The phone never simulates from cold; it only draws.
+ *
+ * Renderer: a single 2D canvas (see `src/lab/web/web.js`). 164 sprites, 525
+ * hairlines, additive haloes and travelling lights — measured at 60fps on a
+ * 4× CPU throttle. No WebGL, so there is no WebGL failure mode; without any
+ * JavaScript at all the `<noscript>` rule below swaps the canvas for the same
+ * content as an illustrated list grouped by age.
+ */
+import ebLatin from '@fontsource/eb-garamond/files/eb-garamond-latin-400-normal.woff2?url';
+import '@fontsource/eb-garamond/400.css';
+import '@fontsource/eb-garamond/400-italic.css';
+import '@fontsource/eb-garamond/600.css';
+import '@fontsource/tiro-devanagari-hindi/400.css';
+import '../../lab/web/web.css';
+import savedGraph from '../../lab/web/data/web-graph.json';
+import media from '../../generated/media-manifest.json';
+
+// Layout is precomputed, but artwork must reflect this build's selected inputs.
+// A checkout without private assets must not emit stale image requests.
+const mediaPaths = new Set<string>();
+function collectMediaPaths(value: unknown): void {
+  if (typeof value === 'string' && value.startsWith('/media/')) mediaPaths.add(value);
+  else if (Array.isArray(value)) value.forEach(collectMediaPaths);
+  else if (value && typeof value === 'object') Object.values(value).forEach(collectMediaPaths);
+}
+collectMediaPaths(media);
+const data = {
+  ...savedGraph,
+  nodes: savedGraph.nodes.map((node) => ({
+    ...node,
+    img: node.img && mediaPaths.has(node.img) ? node.img : null,
+    lq: node.img && mediaPaths.has(node.img) ? node.lq : null,
+  })),
+  panels: savedGraph.panels.map((panel) => ({
+    ...panel,
+    img8: panel.img8 && mediaPaths.has(panel.img8) ? panel.img8 : null,
+    lq: panel.img8 && mediaPaths.has(panel.img8) ? panel.lq : null,
+  })),
+};
+
+/** Client payload: everything the renderer needs, nothing it does not. */
+const world = {
+  world: data.world,
+  periods: data.periods,
+  nodes: data.nodes,
+  edges: data.edges,
+};
+/** Panel payload: read only when something is tapped. */
+const panels = data.panels;
+
+const j = (v: unknown) => JSON.stringify(v).replace(/</g, '\\u003c');
+
+/** The age-grouped fallback list, also used by the “List all” overlay. */
+const byPeriod = data.periods.map((p, i) => ({
+  period: p,
+  items: data.nodes
+    .map((n, idx) => ({ n, idx }))
+    .filter((x) => x.n.p === i)
+    .sort((a, b) => (a.n.k === 'page' ? 1 : 0) - (b.n.k === 'page' ? 1 : 0) || b.n.r - a.n.r),
+}));
+---
+
+<!doctype html>
+<html lang="en" data-web>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>The web of stories · The Hindu Timeline</title>
+    <meta
+      name="description"
+      content="The corpus as a living constellation — films, deities, places and episodes strung on the relations between them, across the nine ages."
+    />
+    <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#0d0906" />
+    <link rel="preload" as="font" type="font/woff2" href={ebLatin} crossorigin />
+    <noscript>
+      <style>
+        .stage {
+          display: none !important;
+        }
+        .alllist {
+          display: block !important;
+          position: static !important;
+          opacity: 1 !important;
+          visibility: visible !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <a class="skip" href="#alllist">Skip the map — list everything</a>
+
+    <div class="stage" id="stage">
+      <canvas id="cv" tabindex="0" role="application" aria-label="The web of stories — an explorable map. Drag to travel, pinch to zoom, tap a node to open it. Arrow keys move between nodes, Enter opens one."
+      ></canvas>
+
+      <div class="veil" id="veil" aria-hidden="true"></div>
+
+      <header class="topbar" id="topbar">
+        <a class="mark" href="/" aria-label="The Hindu Timeline — home">
+          <span class="mark-glyph" aria-hidden="true"></span>
+        </a>
+        <div class="find">
+          <input
+            id="q"
+            type="search"
+            autocomplete="off"
+            spellcheck="false"
+            enterkeyhint="go"
+            placeholder="Find a story, a god, a place"
+            aria-label="Find a story, a god, a place"
+            aria-expanded="false"
+            aria-controls="results"
+            role="combobox"
+          />
+          <ul class="results" id="results" role="listbox" aria-label="Matches" hidden></ul>
+        </div>
+        <button class="listbtn" id="listBtn" type="button" aria-haspopup="dialog">List<span> all</span></button>
+      </header>
+
+      <div class="hint" id="hint" hidden>
+        <p><b>Drag</b> to travel · <b>pinch</b> to zoom · <b>tap</b> a story</p>
+        <button type="button" id="hintOk">Got it</button>
+      </div>
+
+      <nav class="rail" id="rail" aria-label="The nine ages">
+        {
+          data.periods.map((p, i) => (
+            <button type="button" class="rail-seg" data-i={i} aria-label={`Travel to ${p.name}`}>
+              <span class="rail-bar"></span>
+              <span class="rail-name">{p.short}</span>
+            </button>
+          ))
+        }
+      </nav>
+      <p class="railnow" id="railNow" aria-hidden="true"></p>
+
+      <div
+        class="panel"
+        id="panel"
+        role="dialog"
+        aria-modal="false"
+        aria-labelledby="panelTitle"
+        tabindex="-1"
+        hidden
+      >
+        <button class="panel-grip" id="panelGrip" type="button" aria-label="Expand the story"></button>
+        <button class="panel-close" id="panelClose" type="button" aria-label="Close">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+        </button>
+        <div class="panel-inner" id="panelInner"></div>
+      </div>
+    </div>
+
+    <section class="alllist" id="alllist" hidden aria-label="Everything in the web, by age">
+      <div class="alllist-head">
+        <h1>The web of stories</h1>
+        <p>
+          Every film, deity, place and episode placed in the web — {data.nodes.length} of them, in
+          cosmic order.
+        </p>
+        <button class="alllist-close" id="alllistClose" type="button">Back to the map</button>
+      </div>
+      {
+        byPeriod.map((g) => (
+          <section class="alllist-age">
+            <h2>
+              <a href={g.period.route}>{g.period.name}</a>
+            </h2>
+            <p class="alllist-intro">{g.period.intro}</p>
+            <ul>
+              {g.items.map((x) => (
+                <li>
+                  <a href={x.n.href} data-i={x.idx}>
+                    <span
+                      class="alllist-art"
+                      style={x.n.lq ? `background-image:url(${x.n.lq})` : undefined}
+                      aria-hidden="true"
+                    >
+                      {x.n.img ? (
+                        <img src={x.n.img} alt="" width="44" height="44" loading="lazy" decoding="async" />
+                      ) : null}
+                    </span>
+                    <span class="alllist-txt">
+                      <b>{x.n.l}</b>
+                      {x.n.hi ? <i lang="hi">{x.n.hi}</i> : null}
+                      <em>{x.n.k === 'soon' ? 'Film — coming soon' : x.n.k === 'film' ? 'Film' : x.n.sec}</em>
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
+      }
+    </section>
+
+    <p class="sr" id="live" aria-live="polite"></p>
+
+    <script id="web-data" type="application/json" is:inline set:html={j(world)}></script>
+    <script id="web-panels" type="application/json" is:inline set:html={j(panels)}></script>
+    <script>
+      import { start } from '../../lab/web/web.js';
+      start();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+---
+/**
+ * /stories/all/ — the corpus's own index of the deep-dives section.
+ *
+ * `04-deep-dives/README.md` used to be served at `/stories/` by the catch-all.
+ * The Stories hub took that address (a static route wins in Astro), so this
+ * page keeps the README reachable rather than deleting a page from the site;
+ * `[...slug].astro` excludes the same entry so the two never build the same
+ * output path. It is linked from the hub's "Every section" list.
+ */
+import { getEntry, render } from 'astro:content';
+import Article from '../../layouts/Article.astro';
+import { nodeFor } from '../../lib/graph.ts';
+
+const ID = '04-deep-dives/README.md';
+const entry = await getEntry('corpus', ID);
+if (!entry) throw new Error(`Missing corpus entry ${ID} — re-run \`npm run generate\`.`);
+const node = nodeFor(ID);
+if (!node) throw new Error(`No graph node for ${ID} — re-run \`npm run generate\`.`);
+const { Content, headings } = await render(entry);
+---
+
+<Article node={node} headings={headings} page="index">
+  <Content />
+</Article>

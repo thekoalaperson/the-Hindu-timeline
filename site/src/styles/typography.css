@@ -1,0 +1,201 @@
+/*
+ * typography.css — one family for Latin, one companion for Devanagari.
+ *
+ * The Devanagari face is listed *second in the global stack*, not only on
+ * :lang() — EB Garamond has no Devanagari glyphs, so every Devanagari
+ * codepoint in the corpus (which carries no lang attributes) falls through to
+ * Tiro automatically. That is the only way to guarantee the brief's "never let
+ * the OS fallback render Devanagari" across 899 unmarked files.
+ */
+
+/* A metric-matched local stand-in, so the swap at font-load does not reflow.
+ *
+ * 86.3% is measured, not guessed: a 250-character sentence of body copy sets
+ * 9,965px in EB Garamond and 11,546px in Georgia at 100px — a ratio of 0.8631.
+ * Matching *advance width* is what stops the reflow (line-height here is a
+ * unitless 1.6, so it does not move with the font's own metrics), and at that
+ * scale Georgia's x-height lands on 0.418em against EB Garamond's ≈0.44em, so
+ * the stand-in also reads at close to the right size. */
+@font-face {
+  font-family: 'Garamond Fallback';
+  src:
+    local('Georgia'),
+    local('Times New Roman'),
+    local('Times'),
+    local('Liberation Serif');
+  size-adjust: 86.3%;
+  ascent-override: 98%;
+  descent-override: 24%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: 'Devanagari Fallback';
+  src:
+    local('Noto Serif Devanagari'),
+    local('Kohinoor Devanagari'),
+    local('Devanagari MT'),
+    local('Nirmala UI');
+  size-adjust: 100%;
+}
+
+:root {
+  --face-text: 'EB Garamond', 'Tiro Devanagari Hindi', 'Garamond Fallback', Georgia, serif;
+  --face-dv: 'Tiro Devanagari Hindi', 'Devanagari Fallback', 'Noto Serif Devanagari', serif;
+
+  /* Major-third scale: 13 · 15 · 18 · 20 · 25 · 31 · 39.
+     The three display steps go fluid between 360px and 900px. */
+  --t-xs: 0.8125rem; /* 13 — micro marks only, never chrome */
+  --t-sm: 0.9375rem; /* 15 — chrome, meta, captions */
+  --t-base: 1.125rem; /* 18 — body */
+  --t-md: 1.25rem; /* 20 — lede, H4 */
+  --t-lg: clamp(1.25rem, 1.042rem + 0.93vw, 1.5625rem); /* 20 → 25 — H3 */
+  --t-xl: clamp(1.5625rem, 1.3125rem + 1.11vw, 1.9375rem); /* 25 → 31 — H2 */
+  --t-2xl: clamp(1.9375rem, 1.604rem + 1.48vw, 2.4375rem); /* 31 → 39 — H1 */
+
+  --lh-body: 1.6;
+  --lh-ui: 1.35;
+  --lh-title: 1.14;
+}
+
+@media (min-width: 900px) {
+  :root {
+    --t-base: 1.1875rem; /* 19 */
+  }
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-kerning: normal;
+  font-synthesis-weight: none;
+}
+
+body {
+  font-family: var(--face-text);
+  font-size: var(--t-base);
+  line-height: var(--lh-body);
+  font-variant-ligatures: common-ligatures contextual;
+  hyphens: none;
+  -webkit-hyphens: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Devanagari: explicit hooks for marked-up blocks; the global stack covers
+   everything the corpus leaves unmarked. */
+:lang(hi),
+:lang(sa),
+:lang(mr),
+:lang(ne),
+.dv {
+  font-family: var(--face-dv);
+  font-feature-settings: 'kern' 1;
+}
+
+/* The daṇḍa / double daṇḍa are Devanagari punctuation — never stretched,
+   never restyled into a generic dash. */
+.danda,
+.dv-danda {
+  font-family: var(--face-dv);
+  color: var(--rubric);
+  font-size: 1em;
+}
+
+/* -- numerals ------------------------------------------------------------ */
+/* Old-style in prose (they sit in the line like lowercase letters);
+   lining + tabular wherever numbers are compared or counted. */
+
+.prose,
+.lede,
+.page-dek,
+.index-dek {
+  font-variant-numeric: oldstyle-nums proportional-nums;
+}
+
+table,
+.chip,
+.cit,
+.count,
+.index-count,
+.related-count,
+.story-group-count,
+.tree-meta,
+.tree-count,
+.period-count,
+.index-length,
+.index-events,
+.context,
+.clock-slot,
+.stat-figure,
+.pf-count,
+.leaf-count,
+code,
+kbd {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+/* -- headings ------------------------------------------------------------ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  line-height: var(--lh-title);
+  text-wrap: balance;
+  margin: 0;
+}
+
+p,
+li,
+dd,
+figcaption,
+blockquote {
+  text-wrap: pretty;
+}
+
+/* Sanskrit terms: italic only when isolated. Quoted verse gets the ॥ block
+   instead, so italics never run across a whole quotation. */
+em,
+i {
+  font-style: italic;
+}
+.prose blockquote em,
+.verse em {
+  font-style: normal;
+}
+
+strong,
+b {
+  font-weight: 600;
+}
+
+small,
+.u-small {
+  font-size: var(--t-sm);
+}
+
+/* Never small-caps for Sanskrit — the diacritics clip. Kept as an explicit
+   override in case a source file or a later lane reaches for it. */
+[lang^='sa'],
+.iast {
+  font-variant-caps: normal;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--face-text);
+  font-size: 0.94em;
+  letter-spacing: 0.01em;
+}
+
+/* -- the IAST / Devanagari proof strip (rendered hidden on /about/) ------- */
+.glyph-probe {
+  font-size: 14px;
+  line-height: 1.35;
+}

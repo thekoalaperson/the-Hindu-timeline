@@ -1,0 +1,157 @@
+---
+/**
+ * YouTubeLeaf.astro — the film, on a leaf framed by the double rule.
+ *
+ * A hand-rolled privacy facade (no `lite-youtube-embed`; R3 §5 recommends it,
+ * but it wants its own poster convention and a red play button, and we have
+ * better posters and a different mark — see I4b-report §Decisions):
+ *
+ *   - the poster is OUR WebP (`thumb-800`/`1280` in a srcset), never
+ *     i.ytimg.com, so nothing is requested from Google before a tap;
+ *   - the LQIP is the frame's background-image, so the leaf is never empty;
+ *   - `width`/`height` are the manifest's true output size — no layout shift;
+ *   - the play mark is the string-hole roundel: a hairline ring with a small
+ *     triangle. Never a filled red button (DESIGN-BRIEF §1.3, §7);
+ *   - with no JS it is a plain link to the video on YouTube;
+ *   - on tap/Enter the anchor is replaced by a `youtube-nocookie.com` iframe.
+ *
+ * `coming-soon` films render the same leaf with the empty roundel and
+ * "Not yet released" — no poster, no invented date.
+ */
+import '../../styles/films.css';
+import type { Film } from '../../lib/films.ts';
+import { embedSrc, videoPoster } from '../../lib/films.ts';
+
+interface Props {
+  film: Film;
+  /** The leaf above the fold on a film page should not lazy-load its poster. */
+  eager?: boolean;
+}
+
+const { film, eager = false } = Astro.props;
+
+/* The one place the YouTube thumbnail belongs: it is the *video's* poster, and
+   the text painted into it reads as part of the player rather than as page
+   artwork. Falls back to i.ytimg when the build had no studio repo — a film
+   that is public must never render as "not yet released". */
+const poster = videoPoster(film);
+const playable = film.isPublic && Boolean(film.yt.videoId);
+const label = film.title.en;
+const embedTitle = film.title.hi ? `${film.title.en} — ${film.title.hi}` : film.title.en;
+
+// One meta line, phrases divided by a hairline (DESIGN-BRIEF §5).
+const captionBits: string[] = ['Hindi narration', 'English subtitles available'];
+---
+
+<figure
+  class="film-leaf"
+  data-period={film.periodSlug ?? undefined}
+  data-state={playable ? 'ready' : 'coming-soon'}
+>
+  <div class="film-leaf-frame">
+    {
+      playable ? (
+        <a
+          class="film-facade"
+          href={film.yt.url}
+          rel="noopener"
+          data-film-facade
+          data-video-id={film.yt.videoId}
+          data-embed-src={embedSrc(film.yt.videoId!)}
+          data-embed-title={embedTitle}
+          aria-label={`Watch the film: ${label}`}
+          data-poster={poster?.kind}
+          style={poster?.lqip ? `background-image:url("${poster.lqip}")` : undefined}
+        >
+          {poster && (
+            <img
+              class="film-poster"
+              src={poster.src}
+              srcset={poster.srcset ?? undefined}
+              sizes="(min-width: 900px) 56rem, 100vw"
+              width={poster.width}
+              height={poster.height}
+              alt=""
+              loading={eager ? 'eager' : 'lazy'}
+              decoding="async"
+              fetchpriority={eager ? 'high' : undefined}
+            />
+          )}
+          <span class="film-play">
+            <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+              <circle class="fp-ring" cx="24" cy="24" r="19" />
+              <path class="fp-tri" d="M20 16.4 33 24l-13 7.6z" />
+            </svg>
+          </span>
+        </a>
+      ) : (
+        <div class="film-empty">
+          <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+            <circle class="fe-ring" cx="24" cy="24" r="19" />
+          </svg>
+          <p class="film-empty-label">Not yet released. The stills and the story below are already here.</p>
+        </div>
+      )
+    }
+  </div>
+
+  <figcaption class="film-leaf-caption">
+    {
+      playable ? (
+        <ul class="film-meta">
+          {captionBits.map((bit) => (
+            <li>{bit}</li>
+          ))}
+          {film.duration && (
+            <li class="film-duration">
+              <span class="u-visually-hidden">Running time </span>
+              {film.duration}
+            </li>
+          )}
+        </ul>
+      ) : (
+        /* "available" would be a present-tense claim about a film nobody can
+           watch yet. This describes what it will be. */
+        <ul class="film-meta">
+          <li>Hindi narration, with English subtitles</li>
+        </ul>
+      )
+    }
+  </figcaption>
+</figure>
+
+<script>
+  /**
+   * One delegated listener for every facade on the page (the leaf and the
+   * Shorts tiles both carry `data-film-facade`). Modified clicks and
+   * middle-clicks fall through to the anchor, so "open in a new tab" still
+   * reaches YouTube.
+   */
+  const KEY = '__thtFilmFacade';
+  const w = window as unknown as Record<string, boolean>;
+  if (!w[KEY]) {
+    w[KEY] = true;
+    document.addEventListener('click', (event) => {
+      const ev = event as MouseEvent;
+      if (ev.defaultPrevented || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+      const target = ev.target as Element | null;
+      const facade = target?.closest<HTMLAnchorElement>('a[data-film-facade]');
+      if (!facade) return;
+      const src = facade.dataset.embedSrc;
+      const frame = facade.parentElement;
+      if (!src || !frame) return;
+
+      ev.preventDefault();
+      const iframe = document.createElement('iframe');
+      iframe.src = src;
+      iframe.title = facade.dataset.embedTitle || 'Film';
+      iframe.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+      iframe.allowFullscreen = true;
+      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+      iframe.setAttribute('frameborder', '0');
+      frame.replaceChildren(iframe);
+      frame.closest('[data-state]')?.setAttribute('data-state', 'playing');
+      iframe.focus();
+    });
+  }
+</script>

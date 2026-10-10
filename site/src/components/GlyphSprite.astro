@@ -1,0 +1,40 @@
+---
+/**
+ * GlyphSprite.astro — the twelve carved emblems, emitted once per page.
+ *
+ * Include it on any page that renders `<svg class="glyph"><use href="#gl-…">`.
+ * It is inert markup: no script, no request, ~1.6 kB, and it costs nothing on
+ * a page whose chapters all have pictures (the browser draws nothing that is
+ * never `<use>`d). Stroke geometry is set here so a glyph is one weight
+ * everywhere; colour comes from `currentColor` at the use site.
+ */
+import { GLYPHS } from '../lib/glyphs.ts';
+---
+
+<svg class="glyph-sprite" aria-hidden="true" focusable="false" width="0" height="0">
+  <defs>
+    {
+      Object.entries(GLYPHS).map(([id, body]) => (
+        <symbol
+          id={`gl-${id}`}
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          set:html={body}
+        />
+      ))
+    }
+  </defs>
+</svg>
+
+<style>
+  .glyph-sprite {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+</style>

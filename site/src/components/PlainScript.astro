@@ -1,0 +1,114 @@
+---
+/**
+ * PlainScript.astro — the browser half of plain-English reading mode.
+ *
+ * PE1 owns the conversion (`lib/plain-english.ts`) and the DOM walk
+ * (`lib/plain-english-client.ts`); this file owns only the wiring its
+ * integration notes asked a later lane to build:
+ *
+ *   · the pre-paint attribute stamp lives inline in `Base.astro` (it must run
+ *     before the first paint, which a bundled module cannot);
+ *   · this module does the actual text rewrite once the DOM exists;
+ *   · it keeps every `[data-plain-toggle]` mount in sync (header + Page sheet);
+ *   · it snaps open `details.tellings` shut on entering plain mode — the UX
+ *     call PE1 deliberately left to whoever built the toggle;
+ *   · and it re-applies to injected subtrees (search results, the link peek),
+ *     which the module has no MutationObserver for by design.
+ *
+ * Scope is `document.body`, not `main`. The brief scoped it to `main`, and
+ * the first build did — but the breadcrumb, the Page sheet and the search
+ * sheet all repeat the page's title, so a `main`-only conversion put "Bāla
+ * Kāṇḍa" in the trail directly above "Bala Kanda" as the H1. Whole-body is
+ * also what PE1's own integration note assumes; the chrome's own labels carry
+ * no diacritics, so converting them is a no-op.
+ */
+---
+
+<script>
+  import { applyPlainEnglish, initPlainEnglish } from '../lib/plain-english-client.ts';
+
+  const root = (): HTMLElement | null => document.body;
+
+  let on = initPlainEnglish();
+
+  /* The label names the *destination*, not the current state: with plain
+     English on by default (D-plain-default), a button reading only "Plain
+     English" gave a reader no way to discover the scholarly text existed. */
+  const HINT = {
+    toScholarly: 'Switch to the scholarly text — IAST spellings, citations and variants',
+    toPlain: 'Switch to plain English — popular spellings, apparatus quieted',
+  };
+
+  function syncToggles(): void {
+    document.querySelectorAll<HTMLElement>('[data-plain-toggle]').forEach((b) => {
+      b.setAttribute('aria-pressed', String(on));
+      const hint = on ? HINT.toScholarly : HINT.toPlain;
+      b.setAttribute('aria-label', hint);
+      b.setAttribute('title', hint);
+      const state = b.querySelector<HTMLElement>('[data-plain-state]');
+      if (state) state.textContent = on ? 'On' : 'Off';
+    });
+  }
+
+  /* Collapsing a disclosure the reader may have opened deliberately is only
+     right in one direction: entering plain mode quiets the apparatus, leaving
+     it does not re-open anything. */
+  function foldTellings(): void {
+    if (!on) return;
+    document
+      .querySelectorAll<HTMLDetailsElement>('details.tellings[open]')
+      .forEach((d) => {
+        d.open = false;
+      });
+  }
+
+  function apply(): void {
+    const main = root();
+    if (main) applyPlainEnglish(main, on);
+    foldTellings();
+    syncToggles();
+  }
+
+  function start(): void {
+    apply();
+
+    document.querySelectorAll<HTMLElement>('[data-plain-toggle]').forEach((b) => {
+      b.addEventListener('click', () => {
+        on = !on;
+        apply();
+      });
+    });
+
+    /* Search results and the link-preview card are built after this runs.
+       Convert each inserted subtree once, on insertion. Only `childList` is
+       observed, so the converter's own text-node writes cannot re-trigger it. */
+    const main = root();
+    if (main && 'MutationObserver' in window) {
+      const mo = new MutationObserver((records) => {
+        if (!on) return;
+        for (const rec of records) {
+          rec.addedNodes.forEach((n) => {
+            if (n.nodeType === Node.ELEMENT_NODE || n.nodeType === Node.TEXT_NODE) {
+              applyPlainEnglish(n, true);
+            }
+          });
+        }
+      });
+      mo.observe(main, { childList: true, subtree: true });
+    }
+
+    const peek = document.querySelector<HTMLElement>('[data-peek]');
+    if (peek && 'MutationObserver' in window) {
+      const mo2 = new MutationObserver(() => {
+        if (on) applyPlainEnglish(peek, true);
+      });
+      mo2.observe(peek, { childList: true, subtree: true });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', start, { once: true });
+  } else {
+    start();
+  }
+</script>

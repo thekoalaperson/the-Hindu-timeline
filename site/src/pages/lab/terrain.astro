@@ -1,0 +1,44 @@
+---
+/**
+ * /lab/terrain/ — the prototype route, kept as an alias.
+ *
+ * "Time as terrain" won the concept review on 2026-09-06 and became the home
+ * page, so this route no longer holds a copy of the world: it points at `/`.
+ * Old links (the judge's shots, the concept reports) still land somewhere real.
+ */
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Time as terrain · The Hindu Timeline</title>
+    <meta name="robots" content="noindex" />
+    <meta http-equiv="refresh" content="0; url=/" />
+    <link rel="canonical" href="/" />
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #05070c;
+        color: #e8e0cd;
+        font: 400 17px/1.5 Georgia, serif;
+        text-align: center;
+        padding: 24px;
+      }
+      a { color: #f0c98a; }
+    </style>
+  </head>
+  <body>
+    <p>
+      The landscape is the home page now.<br />
+      <a href="/">Go to The Hindu Timeline →</a>
+    </p>
+    <script is:inline>
+      location.replace('/');
+    </script>
+  </body>
+</html>

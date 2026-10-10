@@ -1,0 +1,2184 @@
+/**
+ * terrain.css — Concept B, "Time as terrain".
+ *
+ * The whole experience is one viewport-filling picture with a native
+ * horizontal scroller laid over it. Nothing here animates layout: every moving
+ * part is a `transform` or an `opacity`, so the compositor does the work and a
+ * mid-range phone stays at 60fps. The only per-frame style writes road.ts
+ * makes are `translate3d()` on five lane/band elements and `opacity` on the
+ * three cross-fade pairs.
+ *
+ * Palette is per-region and lives on `.terrain` as custom properties, written
+ * once per frame by the runtime (they are only read by the two cross-fading
+ * band elements, never by anything that would force a reflow).
+ */
+
+.terrain-page {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #05070c;
+  color: #f2ece0;
+  font-family: 'EB Garamond', 'Tiro Devanagari Hindi', Georgia, serif;
+  font-size: 17px;
+  line-height: 1.45;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+.terrain-page :lang(hi),
+.terrain-page .dv {
+  font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+/* Percentage padding resolves against the containing block's *width*, and in
+   this scene a lane is as wide as the whole world (≈18,000px) — so every box
+   inside the road is border-box and no length in here is a percentage of a
+   width. (A `padding-bottom: 8%` on the gates cost them 1,467px and pushed
+   every age's name off the top of the screen.) */
+.terrain *,
+.terrain *::before,
+.terrain *::after { box-sizing: border-box; }
+
+.terrain {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  isolation: isolate;
+  /* Live palette — road.ts writes these; the bands read them. */
+  --ink: #efe7d6;
+  --ink-soft: rgba(239, 231, 214, 0.64);
+  --accent: #e6b559;
+  --horizon: 44%;
+  --road-line: 18%;
+  --stele-w: clamp(142px, 40vw, 200px);
+}
+
+.tr-skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 99;
+  background: #100c06;
+  color: #fff;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0 0 8px 0;
+}
+.tr-skip:focus { left: 0; }
+
+/* ============================================================== the stage */
+/* Everything behind the road: sky, sun, hills, ground. Pointer-transparent. */
+
+.tr-stage {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  contain: strict;
+}
+
+.tr-band {
+  position: absolute;
+  left: 0;
+  right: 0;
+  will-change: opacity;
+  backface-visibility: hidden;
+}
+
+/* --- sky ------------------------------------------------------------- */
+.tr-sky {
+  top: 0;
+  height: calc(var(--horizon) + 3%);
+  background-image: linear-gradient(
+    to bottom,
+    var(--s0, #05070c) 0%,
+    var(--s1, #0b1220) 62%,
+    var(--s2, #16233a) 100%
+  );
+}
+.tr-sky::after {
+  /* the age's one light source */
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at var(--glow-at, 70% 78%),
+    var(--glow, rgba(255, 220, 160, 0.4)) 0,
+    rgba(0, 0, 0, 0) 46%
+  );
+}
+
+/* --- hills ------------------------------------------------------------ */
+.tr-hill {
+  height: 220px;
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  will-change: transform, opacity;
+}
+/* Far ridges break the sky; the near range sits a good way below them, so the
+   two read as two distances rather than one crenellated line. */
+/* (no `opacity` here — road.ts owns that channel for the cross-fade; the
+   sense of distance comes from the paler `hillFar` colour instead.) */
+.tr-hill-far { bottom: calc(100% - var(--horizon) - 4px); }
+.tr-hill-near { bottom: calc(100% - var(--horizon) - 60px); }
+
+.tr-hill-wrap,
+.tr-verge-wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -8px;
+  width: calc(100% + 660px);
+  will-change: transform;
+}
+
+/* --- ground ----------------------------------------------------------- */
+.tr-ground {
+  bottom: 0;
+  height: calc(100% - var(--horizon) + 2%);
+  /* `--g-top` is the *near hill* colour: the plain has to start in exactly the
+     shade the near range ends in, or the flat base of the silhouette shows as
+     a ruled line across the landscape. */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    var(--g-top, #0b1220) 15%,
+    var(--g-mid, #0b1220) 44%,
+    var(--g-bot, #05070c) 100%
+  );
+}
+.tr-ground::before {
+  /* The road: one lit band, wide enough for the steles to stand beside it and
+     narrow enough that the plain above and the verge below stay dark. It is
+     anchored in px, not %, so it keeps its width at any viewport height. */
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 26px;
+  height: 240px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    var(--road, rgba(255, 255, 255, 0.12)) 26%,
+    var(--road, rgba(255, 255, 255, 0.12)) 66%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.tr-ground::after {
+  /* The haze that always sits on a far horizon — a thin lit line and a short
+     fall-off, which is what makes the plain read as *distance*. */
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 4%;
+  height: 60px;
+  background:
+    linear-gradient(to bottom, var(--road, rgba(255, 255, 255, 0.1)) 0%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0.85;
+}
+
+.tr-verge {
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  opacity: 0.9;
+  /* the nearest ground is always in shadow, whatever the age's light */
+  filter: brightness(0.4) saturate(1.3);
+}
+
+.tr-motes {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* A vignette so labels always have something to sit on. */
+.tr-vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0) 15%),
+    linear-gradient(to top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 18%);
+  z-index: 2;
+}
+
+/* ============================================================== the road */
+
+.tr-road {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior: contain;
+  touch-action: pan-x;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  outline: none;
+}
+.tr-road::-webkit-scrollbar { display: none; }
+
+.tr-world {
+  position: relative;
+  height: 100%;
+  width: var(--world-w);
+  /* The far and sky lanes are pulled *right* by `scrollLeft × (1 − factor)`,
+     and a transform contributes to the scroll container's overflow — which
+     added fourteen thousand px of nothing after the Night of Brahmā. Clipping
+     the world on x throws that away without clipping anything real (a lane's
+     places always land inside [0, world-w] once the pull is applied), and
+     leaves y alone so a gate's arch may still rise out of the box. */
+  overflow-x: clip;
+  overflow-y: visible;
+}
+
+.tr-lane {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  will-change: transform;
+}
+/* A lane is a full-size box stacked over the ones before it, so a lane must
+   not itself take a hit — only the places in it. Without this the near lane
+   (which is drawn last) swallows every tap aimed at a distant waypoint. */
+.tr-lane { pointer-events: none; }
+.tr-lane > * { pointer-events: auto; }
+.tr-gate { pointer-events: none; }
+
+/* ------------------------------------------------------------ the gates - */
+
+.tr-gate {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 300px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 42vh;
+  color: var(--gink, #efe7d6);
+  text-align: center;
+}
+.tr-gate-arch {
+  position: absolute;
+  left: 50%;
+  bottom: 96px;
+  width: 268px;
+  height: 340px;
+  transform: translateX(-50%);
+  border: 2px solid currentColor;
+  border-bottom: none;
+  border-radius: 134px 134px 0 0;
+  opacity: 0.28;
+}
+.tr-gate-arch::before,
+.tr-gate-arch::after {
+  content: '';
+  position: absolute;
+  bottom: -34px;
+  width: 12px;
+  height: 96px;
+  background: currentColor;
+  opacity: 0.5;
+}
+.tr-gate-arch::before { left: -6px; }
+.tr-gate-arch::after { right: -6px; }
+
+.tr-gate-name {
+  position: relative;
+  font-size: clamp(26px, 7.4vw, 40px);
+  line-height: 1.05;
+  letter-spacing: 0.008em;
+  margin: 0;
+  font-weight: 400;
+  text-shadow: 0 2px 22px rgba(0, 0, 0, 0.5);
+}
+.tr-gate-hi {
+  position: relative;
+  font-size: 17px;
+  opacity: 0.72;
+  margin: 0.34em 0 0;
+}
+.tr-gate-line {
+  position: relative;
+  margin: 0.9em auto 0;
+  max-width: 260px;
+  font-size: 14.5px;
+  font-style: italic;
+  opacity: 0.82;
+  text-wrap: balance;
+}
+.tr-gate-facts {
+  position: relative;
+  list-style: none;
+  margin: 1em 0 0;
+  padding: 0;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  opacity: 0.62;
+}
+.tr-gate-facts li { margin: 0.3em 0; }
+
+/* dharma's remaining legs, drawn as standing pillars */
+.tr-legs {
+  position: relative;
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  margin-top: 1.1em;
+  height: 34px;
+  align-items: flex-end;
+}
+.tr-legs i {
+  display: block;
+  width: 7px;
+  height: 34px;
+  border-radius: 3px 3px 0 0;
+  background: currentColor;
+  opacity: 0.72;
+}
+.tr-legs i[data-fallen] {
+  height: 7px;
+  opacity: 0.2;
+}
+
+/* ---------------------------------------------------------- the steles - */
+
+.tr-stele {
+  position: absolute;
+  bottom: var(--road-line);
+  display: block;
+  text-decoration: none;
+  width: var(--stele-w);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: center;
+  cursor: pointer;
+  transform-origin: 50% 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+.tr-stele-inner {
+  display: block;
+  transition: transform 220ms cubic-bezier(0.22, 1, 0.36, 1);
+  transform-origin: 50% 100%;
+}
+.tr-stele:active .tr-stele-inner { transform: scale(0.955); }
+@media (hover: hover) {
+  .tr-stele:hover .tr-stele-inner { transform: translateY(-5px); }
+}
+.tr-stele:focus-visible { outline: none; }
+.tr-stele:focus-visible .tr-stele-frame {
+  box-shadow: 0 0 0 3px var(--accent), 0 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.tr-stele-frame {
+  display: block;
+  position: relative;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 50% 50% 5px 5px / 26% 26% 2px 2px;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow:
+    0 18px 34px -14px rgba(0, 0, 0, 0.8),
+    inset 0 0 0 1.5px rgba(255, 255, 255, 0.16);
+}
+.tr-stele-frame img {
+  -webkit-user-drag: none;
+  user-select: none;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transform: scale(1.04);
+}
+.tr-stele-frame::after {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border-radius: 50% 50% 3px 3px / 26% 26% 1px 1px;
+  border: 1px solid rgba(255, 236, 200, 0.34);
+  pointer-events: none;
+}
+/* the idle cue — a slow lamp-glow that says "this is alive" */
+.tr-stele-glow {
+  position: absolute;
+  inset: -14%;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--accent) 0%, rgba(0, 0, 0, 0) 62%);
+  opacity: 0.16;
+  pointer-events: none;
+  animation: tr-breathe 5.6s ease-in-out infinite;
+}
+@keyframes tr-breathe {
+  0%, 100% { opacity: 0.1; transform: scale(0.97); }
+  50% { opacity: 0.26; transform: scale(1.03); }
+}
+
+.tr-stele-post {
+  display: block;
+  height: 12px;
+  width: 58%;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.35));
+  border-radius: 0 0 3px 3px;
+}
+.tr-stele-plate {
+  display: block;
+  margin: 5px auto 0;
+  max-width: 100%;
+  padding: 4px 8px 5px;
+  border-radius: 3px;
+  background: rgba(12, 9, 6, 0.56);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  box-shadow: inset 0 0 0 1px rgba(255, 236, 200, 0.16);
+}
+.tr-stele-title {
+  display: block;
+  font-size: 13px;
+  line-height: 1.18;
+  color: #f6efe1;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
+}
+.tr-stele-hi {
+  display: block;
+  font-size: 11.5px;
+  line-height: 1.3;
+  margin-top: 1px;
+  color: rgba(246, 239, 225, 0.66);
+}
+.tr-stele-shadow {
+  position: absolute;
+  left: 50%;
+  bottom: -13px;
+  width: 116%;
+  height: 26px;
+  transform: translateX(-50%);
+  background: radial-gradient(ellipse 42% 50% at center, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0) 74%);
+  pointer-events: none;
+}
+
+.tr-stele[data-soon='1'] .tr-stele-frame img { filter: grayscale(0.62) brightness(0.66); }
+.tr-stele[data-soon='1'] .tr-stele-glow { display: none; }
+.tr-stele[data-soon='1'] { opacity: 0.82; }
+.tr-soon-seal {
+  position: absolute;
+  left: 50%;
+  top: 52%;
+  transform: translate(-50%, -50%);
+  font-size: 10.5px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border: 1px solid rgba(255, 240, 214, 0.5);
+  border-radius: 2px;
+  color: rgba(255, 244, 224, 0.9);
+  background: rgba(10, 8, 5, 0.42);
+  white-space: nowrap;
+}
+
+/* ------------------------------------------------------- the landmarks - */
+/**
+ * A landmark is one *chapter* of an age: a small framed plate on a post,
+ * standing out on the hills. Illustrated when the chapter has art, a carved
+ * mark in the age's accent when it has not — but always the same object and
+ * always the same label, because the thing that made the first build feel
+ * messy was three sizes of diamond saying three different kinds of thing.
+ *
+ * `places.ts` spaces them so that at most four labels are on a phone screen.
+ */
+.tr-lm {
+  position: absolute;
+  display: block;
+  text-decoration: none;
+  width: 118px;
+  margin-left: -59px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+/* Landmarks ride *above* the steles, not behind them: a label half-hidden by a
+   painted panel reads as a bug rather than as distance. Ridge 0 stands in the
+   sky over the far hills, ridge 1 just under the horizon line. */
+.tr-lm[data-ridge='0'] { bottom: calc(100% - var(--horizon) + 24px); }
+.tr-lm[data-ridge='1'] { bottom: calc(100% - var(--horizon) - 62px); }
+
+.tr-lm-frame {
+  display: block;
+  width: 54px;
+  height: 66px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--accent);
+  border-radius: 27px 27px 3px 3px;
+  background: rgba(0, 0, 0, 0.42);
+  box-shadow: 0 0 16px -6px var(--accent), inset 0 0 12px -6px rgba(0, 0, 0, 0.9);
+  transition: transform 200ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.tr-lm-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0.86;
+}
+/* No art: a *carved emblem*, chosen for what the chapter is about (W4), in
+   the age's own accent. Twenty-nine chapters can have no picture — an abstract
+   doctrine, a period of recorded history, an age still to come — so they get
+   something made instead of a hole. Never an empty arch, never a broken
+   picture, and never the same anonymous diamond on all of them. */
+.tr-lm-carve {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--accent);
+  background:
+    radial-gradient(circle at 50% 34%, color-mix(in srgb, var(--accent) 34%, transparent) 0%, transparent 66%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(0, 0, 0, 0.3));
+}
+.tr-lm-carve svg {
+  opacity: 0.94;
+  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--accent) 45%, transparent));
+}
+/* A chapter whose data names no glyph either (only the event-group fallback
+   ever gets here) still shows a mark rather than an empty frame. */
+.tr-lm-carve:empty::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  transform: rotate(45deg);
+  border: 1.5px solid var(--accent);
+  opacity: 0.9;
+}
+.tr-lm-post {
+  display: block;
+  width: 2px;
+  height: 15px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, var(--accent), rgba(0, 0, 0, 0));
+  opacity: 0.55;
+}
+.tr-lm-label {
+  display: block;
+  margin-top: 3px;
+  font-size: 12px;
+  line-height: 1.18;
+  color: var(--ink);
+  opacity: 0.94;
+  /* Two lines, then stop — the data is written short rather than truncated. */
+  text-wrap: balance;
+  text-shadow: 0 1px 7px rgba(0, 0, 0, 0.9), 0 0 2px rgba(0, 0, 0, 0.75);
+}
+.tr-lm-dates {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--accent);
+  opacity: 0.9;
+}
+.terrain[data-light='1'] .tr-lm-label {
+  text-shadow: 0 1px 7px rgba(255, 251, 238, 0.95), 0 0 3px rgba(255, 251, 238, 0.9);
+}
+.terrain[data-light='1'] .tr-gate-name,
+.terrain[data-light='1'] .tr-gate-line { text-shadow: 0 2px 18px rgba(255, 250, 235, 0.7); }
+.tr-lm:active .tr-lm-frame { transform: scale(1.08); }
+.tr-lm:focus-visible .tr-lm-frame {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+/* --------------------------------------------------------- the sky lane - */
+
+.tr-lane-sky { }
+.tr-sky-place {
+  position: absolute;
+  display: block;
+  text-decoration: none;
+  width: 96px;
+  margin-left: -48px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+.tr-sky-disc {
+  display: block;
+  position: relative;
+  width: 78px;
+  height: 78px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow:
+    0 0 0 1.5px rgba(255, 236, 196, 0.5),
+    0 0 26px -2px rgba(255, 226, 170, 0.5);
+  transition: transform 220ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.tr-sky-disc img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.tr-sky-place:active .tr-sky-disc { transform: scale(0.93); }
+.tr-sky-place:focus-visible .tr-sky-disc { box-shadow: 0 0 0 3px #f7cd77; }
+.tr-sky-label {
+  display: block;
+  margin-top: 5px;
+  font-size: 11.5px;
+  line-height: 1.16;
+  color: rgba(255, 246, 228, 0.9);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.9);
+}
+.tr-sky-place[data-soon='1'] .tr-sky-disc img { filter: grayscale(0.6) brightness(0.7); }
+
+/* ============================================================ the ribbon */
+
+.tr-ribbon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  padding: 0 8px calc(6px + env(safe-area-inset-bottom, 0px));
+  background: linear-gradient(to top, rgba(6, 5, 9, 0.92) 52%, rgba(6, 5, 9, 0.66) 78%, rgba(6, 5, 9, 0));
+  pointer-events: none;
+}
+.tr-ribbon > * { pointer-events: auto; }
+
+.tr-ribbon-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 0 4px 5px;
+  min-height: 22px;
+}
+.tr-here {
+  font-size: 15px;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.9);
+  color: #fdf6e6;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tr-here-sub {
+  font-size: 11.5px;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.9);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(253, 246, 230, 0.5);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+/* 40px is the floor for a thumb. The eight age chips and the loop button are
+   `align-items: stretch`, so the track's own height *is* their hit area — and
+   `.tr-seg` clips its label with `overflow: hidden`, which would eat a
+   pseudo-element hit pad. So the band grows the 8px instead. */
+.tr-track {
+  position: relative;
+  display: flex;
+  gap: 3px;
+  height: 42px;
+  align-items: stretch;
+  touch-action: none;
+}
+.tr-seg {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  border: 0;
+  padding: 0;
+  border-radius: 4px;
+  background: var(--seg, #333);
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+  overflow: hidden;
+  opacity: 0.5;
+  transition: opacity 220ms ease, box-shadow 220ms ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.tr-seg[aria-current='true'] {
+  opacity: 1;
+  box-shadow: inset 0 0 0 1.5px rgba(255, 245, 224, 0.8);
+}
+.tr-seg span {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 10.5px;
+  letter-spacing: 0.03em;
+  color: var(--segink, #fff);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  padding: 0 2px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.tr-seg:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+.tr-thumb {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  width: 4px;
+  margin-left: -2px;
+  border-radius: 3px;
+  background: #fff8e8;
+  box-shadow: 0 0 10px rgba(255, 240, 200, 0.9);
+  pointer-events: none;
+  will-change: transform;
+}
+
+.tr-tools {
+  position: absolute;
+  right: 10px;
+  top: calc(8px + env(safe-area-inset-top, 0px));
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.tr-tool {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 240, 214, 0.28);
+  background: rgba(10, 8, 12, 0.5);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: #fbf3e2;
+  font-size: 15px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.tr-tool:active { transform: scale(0.93); }
+.tr-tool:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.tr-tool svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 1.6; }
+
+.tr-brand {
+  position: absolute;
+  left: 12px;
+  top: calc(12px + env(safe-area-inset-top, 0px));
+  z-index: 4;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 245, 228, 0.62);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+
+/* ============================================================== the panel */
+
+.tr-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  background: rgba(4, 3, 8, 0.6);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  opacity: 0;
+  transition: opacity 260ms ease;
+}
+.tr-scrim[hidden] { display: none !important; }
+.tr-scrim.is-open { opacity: 1; }
+
+.tr-sheet {
+  position: absolute;
+  z-index: 6;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 90dvh;
+  overflow: hidden auto;
+  overscroll-behavior: contain;
+  border-radius: 20px 20px 0 0;
+  background: linear-gradient(to bottom, #16110c 0%, #0c0906 100%);
+  box-shadow: 0 -20px 60px -12px rgba(0, 0, 0, 0.9), inset 0 1px 0 rgba(255, 232, 190, 0.16);
+  color: #f3ead9;
+  padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+  will-change: transform, opacity;
+}
+.tr-sheet[hidden] { display: none !important; }
+.tr-sheet-grip {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to bottom, rgba(22, 17, 12, 0.98), rgba(22, 17, 12, 0));
+}
+.tr-sheet-grip::before {
+  content: '';
+  width: 38px;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(255, 236, 200, 0.3);
+}
+.tr-sheet-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 3;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 236, 200, 0.22);
+  background: rgba(8, 6, 4, 0.66);
+  color: #f6eddc;
+  font-size: 17px;
+  line-height: 1;
+  cursor: pointer;
+}
+.tr-sheet-close:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+.tr-panel { display: none; }
+.tr-panel.is-active { display: block; }
+
+.tr-panel-hero {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #0a0806;
+  margin-top: -22px;
+}
+.tr-panel-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.is-active .tr-panel-hero img { animation: tr-ken 15s ease-out forwards; }
+@keyframes tr-ken {
+  from { transform: scale(1.001) translate3d(0, 0, 0); }
+  to { transform: scale(1.1) translate3d(-1.4%, -1.6%, 0); }
+}
+.tr-panel-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, #16110c 2%, rgba(22, 17, 12, 0) 46%);
+}
+.tr-panel-age {
+  position: absolute;
+  left: 14px;
+  top: 12px;
+  z-index: 2;
+  font-size: 11px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  padding: 4px 9px;
+  border-radius: 999px;
+  background: rgba(8, 6, 4, 0.6);
+  border: 1px solid rgba(255, 236, 200, 0.24);
+  color: #ffeec6;
+}
+
+.tr-panel-body { padding: 0 18px; margin-top: -14px; position: relative; z-index: 1; }
+.tr-panel-hi {
+  font-size: 19px;
+  color: #ffe6b3;
+  margin: 0 0 2px;
+  line-height: 1.4;
+}
+.tr-panel-title {
+  font-size: 23px;
+  line-height: 1.2;
+  margin: 0 0 8px;
+  font-weight: 400;
+  text-wrap: balance;
+}
+.tr-panel-sum {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(243, 234, 217, 0.84);
+  margin: 0 0 14px;
+}
+.tr-panel-meta {
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(243, 234, 217, 0.48);
+  margin: 0 0 12px;
+}
+
+.tr-watch {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #0a0806;
+  cursor: pointer;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 12px;
+}
+.tr-watch img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.tr-watch-play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+}
+.tr-watch-play i {
+  display: grid;
+  width: 62px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(216, 42, 32, 0.92);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.5);
+}
+.tr-watch-play i::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 16px solid #fff;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  margin-left: 4px;
+}
+.tr-watch iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.tr-watch:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+.tr-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 16px; }
+.tr-link {
+  flex: 1 1 46%;
+  text-align: center;
+  padding: 11px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 236, 200, 0.22);
+  background: rgba(255, 236, 200, 0.06);
+  color: #f6eedd;
+  text-decoration: none;
+  font-size: 15px;
+}
+.tr-link:active { background: rgba(255, 236, 200, 0.14); }
+.tr-link-primary {
+  background: var(--accent, #e6b559);
+  border-color: transparent;
+  color: #1a1206;
+}
+.tr-caption {
+  font-size: 13.5px;
+  font-style: italic;
+  color: rgba(243, 234, 217, 0.6);
+  margin: 0 0 14px;
+}
+
+/* the small panel a waypoint opens */
+.tr-wp-panel { padding: 4px 18px 6px; }
+.tr-wp-kicker {
+  font-size: 11px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--accent, #e6b559);
+  margin: 0 0 6px;
+}
+.tr-wp-title { font-size: 21px; line-height: 1.22; margin: 0 0 8px; font-weight: 400; }
+.tr-wp-note { font-size: 16px; line-height: 1.5; color: rgba(243, 234, 217, 0.84); margin: 0 0 10px; }
+.tr-wp-src {
+  font-size: 12.5px;
+  font-style: italic;
+  color: rgba(243, 234, 217, 0.5);
+  margin: 0 0 14px;
+}
+
+/* ============================================================== the atlas */
+/* pinch in, or the ⤢ button: the whole clock as nine painted bands. */
+
+.tr-atlas {
+  position: absolute;
+  inset: 0;
+  z-index: 7;
+  background: #06050a;
+  overflow: hidden auto;
+  overscroll-behavior: contain;
+  padding: calc(14px + env(safe-area-inset-top, 0px)) 12px calc(18px + env(safe-area-inset-bottom, 0px));
+  opacity: 0;
+  transform: scale(1.04);
+  transition: opacity 240ms ease, transform 300ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.tr-atlas[hidden] { display: none !important; }
+.tr-atlas.is-open { opacity: 1; transform: none; }
+.tr-atlas-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 2px 2px 12px;
+}
+.tr-atlas-head h2 {
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 0.01em;
+}
+.tr-atlas-head p {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(255, 245, 228, 0.44);
+}
+.tr-atlas-close { margin-left: auto; }
+
+.tr-atlas-band {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  border: 0;
+  padding: 12px 13px;
+  margin-bottom: 8px;
+  border-radius: 12px;
+  text-align: left;
+  color: var(--bink);
+  background-image: var(--bg);
+  cursor: pointer;
+  overflow: hidden;
+  font: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+.tr-atlas-band:active { transform: scale(0.99); }
+.tr-atlas-band:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.tr-atlas-band[aria-current='true'] { box-shadow: inset 0 0 0 2px rgba(255, 248, 230, 0.9); }
+.tr-atlas-name { font-size: 19px; line-height: 1.15; display: block; }
+.tr-atlas-hi { font-size: 13px; opacity: 0.66; display: block; margin-top: 1px; }
+.tr-atlas-line { font-size: 13px; opacity: 0.78; margin: 5px 0 0; max-width: 30em; }
+.tr-atlas-count {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-top: 7px;
+  display: block;
+}
+.tr-atlas-strip {
+  display: flex;
+  gap: 5px;
+  margin-top: 9px;
+}
+.tr-atlas-strip img {
+  width: 46px;
+  height: 58px;
+  object-fit: cover;
+  border-radius: 3px 3px 2px 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4), inset 0 0 0 1px rgba(255, 255, 255, 0.2);
+}
+
+/* ============================================================== the index */
+
+.tr-index {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  background: #0a0805;
+  color: #f2ebdb;
+  overflow: hidden auto;
+  overscroll-behavior: contain;
+  padding: calc(14px + env(safe-area-inset-top, 0px)) 16px calc(28px + env(safe-area-inset-bottom, 0px));
+}
+.tr-index[hidden] { display: none !important; }
+.tr-index h2 { font-size: 21px; font-weight: 400; margin: 0; }
+.tr-index-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.tr-index-head .tr-tool { margin-left: auto; }
+.tr-index h3 {
+  font-size: 12px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--accent, #e6b559);
+  margin: 20px 0 6px;
+  border-bottom: 1px solid rgba(255, 236, 200, 0.14);
+  padding-bottom: 5px;
+}
+.tr-index ul { list-style: none; margin: 0; padding: 0; }
+.tr-index li { margin: 0; }
+.tr-index a {
+  display: block;
+  padding: 8px 2px;
+  color: #f2ebdb;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 16px;
+  line-height: 1.3;
+}
+.tr-index a:hover, .tr-index a:focus-visible { color: #ffdca0; }
+.tr-index em { font-style: normal; opacity: 0.5; font-size: 13px; }
+
+/* =============================================================== the hint */
+
+.tr-hint {
+  position: absolute;
+  inset: 0;
+  z-index: 9;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(ellipse at 50% 46%, rgba(4, 3, 7, 0.72) 0%, rgba(4, 3, 7, 0.42) 70%);
+  text-align: center;
+  padding: 24px;
+  transition: opacity 400ms ease;
+}
+.tr-hint[hidden] { display: none !important; }
+.tr-hint.is-out { opacity: 0; pointer-events: none; }
+.tr-hint-card { max-width: 20em; }
+.tr-hint h2 {
+  font-size: 27px;
+  font-weight: 400;
+  margin: 0 0 8px;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+.tr-hint p { margin: 0 0 22px; font-size: 16px; color: rgba(242, 235, 219, 0.76); }
+.tr-hint-drag {
+  width: 190px;
+  height: 34px;
+  margin: 0 auto 22px;
+  position: relative;
+}
+.tr-hint-drag::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 16px;
+  height: 1px;
+  background: linear-gradient(to right, rgba(255, 236, 200, 0), rgba(255, 236, 200, 0.5), rgba(255, 236, 200, 0));
+}
+.tr-hint-drag i {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #ffe9bd;
+  box-shadow: 0 0 18px rgba(255, 226, 160, 0.8);
+  animation: tr-swipe 2.4s cubic-bezier(0.5, 0, 0.2, 1) infinite;
+}
+@keyframes tr-swipe {
+  0% { transform: translateX(160px); opacity: 0; }
+  18% { opacity: 1; }
+  76% { opacity: 1; }
+  100% { transform: translateX(0); opacity: 0; }
+}
+.tr-hint-go {
+  border: 1px solid rgba(255, 236, 200, 0.4);
+  background: rgba(255, 236, 200, 0.1);
+  color: #fbf2e0;
+  font: inherit;
+  font-size: 16px;
+  padding: 11px 26px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.tr-hint-go:active { background: rgba(255, 236, 200, 0.2); }
+
+/* ============================================================ the entrance */
+
+.tr-entrance .tr-stage { animation: tr-dawn 1500ms ease-out both; }
+@keyframes tr-dawn {
+  from { opacity: 0; transform: scale(1.05); filter: brightness(0.4); }
+  to { opacity: 1; transform: none; filter: none; }
+}
+
+/* ================================================================ desktop */
+
+@media (min-width: 900px) {
+  .terrain { --stele-w: 200px; --road-line: 21%; }
+  .tr-lm { width: 152px; margin-left: -76px; }
+  .tr-lm-label { font-size: 13.5px; }
+  .tr-lm-frame { width: 68px; height: 84px; border-radius: 34px 34px 3px 3px; }
+  /* the steles are much taller here, so both ridges move into the sky */
+  .tr-lm[data-ridge='0'] { bottom: calc(100% - var(--horizon) + 112px); }
+  .tr-lm[data-ridge='1'] { bottom: calc(100% - var(--horizon) + 34px); }
+  .tr-stele-title { font-size: 15px; }
+  .tr-stele-hi { font-size: 13px; }
+  .tr-sky-disc { width: 96px; height: 96px; }
+  .tr-sky-place { width: 120px; margin-left: -60px; }
+  .tr-gate { width: 420px; }
+  .tr-gate-arch { width: 380px; height: 430px; }
+  .tr-sheet {
+    left: auto;
+    right: 24px;
+    bottom: 24px;
+    top: 24px;
+    width: 430px;
+    max-height: none;
+    border-radius: 18px;
+  }
+  .tr-ribbon { padding-left: 16px; padding-right: 16px; }
+  .tr-atlas-band { padding: 16px 18px; }
+  .tr-index { padding-left: 8vw; padding-right: 8vw; }
+}
+
+/* ========================================================= reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  .tr-stele-glow,
+  .tr-hint-drag i { animation: none !important; }
+  .is-active .tr-panel-hero img { animation: none !important; }
+  .tr-entrance .tr-stage { animation: none !important; }
+  .tr-road { scroll-behavior: auto !important; }
+  .tr-atlas, .tr-scrim, .tr-hint { transition-duration: 1ms !important; }
+  .tr-stele-inner, .tr-sky-disc, .tr-lm-frame { transition-duration: 1ms !important; }
+}
+
+/* =============================================== no-JS: the painted bands */
+/*
+ * Without the runtime nothing can travel — the parallax, the cross-fades and
+ * the panels are all script. So the page becomes what it always was
+ * underneath: the nine ages as painted bands, then every film and every story
+ * group in the corpus, age by age, as plain links. Nothing is lost; the
+ * landscape simply stops moving. (Every place in the world is already an <a>,
+ * so with JS off a tap on a stele just goes to that film's page.)
+ */
+html:not(.tr-js) .terrain {
+  position: static;
+  overflow: visible;
+  min-height: 100vh;
+  background: #0a0805;
+}
+html:not(.tr-js) .terrain-page { overflow: auto; }
+html:not(.tr-js) .tr-stage,
+html:not(.tr-js) .tr-road,
+html:not(.tr-js) .tr-vignette,
+html:not(.tr-js) .tr-ribbon,
+html:not(.tr-js) .tr-tools,
+html:not(.tr-js) .tr-sheet,
+html:not(.tr-js) .tr-scrim,
+html:not(.tr-js) .tr-hint,
+html:not(.tr-js) .tr-atlas-close { display: none !important; }
+html:not(.tr-js) .tr-brand {
+  position: static;
+  display: block;
+  padding: 18px 16px 4px;
+}
+html:not(.tr-js) .tr-atlas[hidden],
+html:not(.tr-js) .tr-index[hidden] {
+  display: block !important;
+  position: static;
+  opacity: 1;
+  transform: none;
+  overflow: visible;
+  background: transparent;
+}
+html:not(.tr-js) .tr-atlas-band[aria-current] { box-shadow: none; }
+
+.tr-nojs {
+  position: static;
+  margin: 0 12px 14px;
+  z-index: 4;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(10, 8, 12, 0.72);
+  border: 1px solid rgba(255, 236, 200, 0.2);
+  font-size: 13.5px;
+  color: rgba(250, 243, 228, 0.86);
+}
+.tr-js .tr-nojs { display: none; }
+
+/* ==========================================================================
+   THE HOME LAYER
+   Everything below was added when the prototype became `/`. It is appended
+   rather than woven in so the diff against the judged prototype stays legible;
+   where it changes an earlier rule it simply comes later and wins.
+   ========================================================================== */
+
+/* A Devanagari face that is not fetched until you touch something needs a real
+   fallback for the first seconds. Every phone has one of these. */
+.terrain-page :lang(hi),
+.terrain-page .dv {
+  font-family: 'Tiro Devanagari Hindi', 'Noto Sans Devanagari', 'Devanagari Sangam MN',
+    'Nirmala UI', 'Kohinoor Devanagari', serif;
+}
+
+/* --------------------------------------------------------------- chrome - */
+
+.tr-chrome {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: calc(9px + env(safe-area-inset-top, 0px)) 10px 9px 12px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(4, 3, 7, 0.5), rgba(4, 3, 7, 0));
+}
+.tr-chrome > * { pointer-events: auto; }
+
+.tr-brand {
+  position: static;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-right: auto;
+  padding: 5px 4px 5px 0;
+  font-size: 12px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: rgba(255, 246, 231, 0.82);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.tr-brand:active { opacity: 0.7; }
+.tr-brand:focus-visible { outline: 2px solid #fff; outline-offset: 3px; border-radius: 4px; }
+.tr-brand-mark {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 1px solid var(--accent, #e6b559);
+  position: relative;
+  flex: 0 0 auto;
+  transition: border-color 700ms ease;
+}
+.tr-brand-mark::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 1px;
+  height: 5.5px;
+  background: var(--accent, #e6b559);
+  transform-origin: 50% 100%;
+  transform: translate(-50%, -100%) rotate(38deg);
+  transition: background-color 700ms ease;
+}
+
+.tr-tools {
+  position: static;
+  flex-direction: row;
+  gap: 7px;
+}
+.tr-tool { width: 38px; height: 38px; }
+
+/* --------------------------------------------------------------- finder - */
+
+.tr-find {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  top: calc(52px + env(safe-area-inset-top, 0px));
+  z-index: 8;
+  max-width: 520px;
+  margin: 0 auto;
+}
+.tr-find[hidden] { display: none !important; }
+.tr-find-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 6px 0 12px;
+  height: 46px;
+  border-radius: 14px;
+  background: rgba(12, 9, 14, 0.86);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid color-mix(in srgb, var(--accent, #e6b559) 46%, transparent);
+  box-shadow: 0 14px 40px -14px rgba(0, 0, 0, 0.9);
+}
+.tr-find-icon {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: var(--accent, #e6b559);
+  stroke-width: 1.7;
+}
+.tr-find-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  background: none;
+  border: 0;
+  outline: none;
+  color: #f7efdf;
+  font: inherit;
+  font-size: 16px;
+  padding: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.tr-find-input::placeholder { color: rgba(247, 239, 223, 0.42); }
+.tr-find-input::-webkit-search-cancel-button { display: none; }
+.tr-find-x {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 auto;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: rgba(247, 239, 223, 0.66);
+  font-size: 15px;
+  cursor: pointer;
+}
+.tr-results {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 6px;
+  border-radius: 14px;
+  background: rgba(12, 9, 14, 0.94);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 240, 214, 0.16);
+  box-shadow: 0 20px 50px -18px rgba(0, 0, 0, 0.95);
+  max-height: min(52dvh, 420px);
+  overflow: hidden auto;
+  overscroll-behavior: contain;
+}
+.tr-results[hidden] { display: none !important; }
+.tr-results button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 7px 8px;
+  border: 0;
+  border-radius: 10px;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.tr-results li[aria-selected='true'] button,
+.tr-results button:hover,
+.tr-results button:focus-visible {
+  background: color-mix(in srgb, var(--accent, #e6b559) 20%, transparent);
+  outline: none;
+}
+.tr-res-art {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  background-color: #17110c;
+  box-shadow: inset 0 0 0 1px rgba(255, 236, 200, 0.16);
+}
+.tr-res-art[data-bud] {
+  background-image: radial-gradient(
+    circle at 50% 46%,
+    rgba(255, 240, 206, 0.92) 0%,
+    rgba(240, 196, 120, 0.5) 20%,
+    rgba(220, 160, 80, 0.14) 52%,
+    rgba(220, 160, 80, 0) 100%
+  );
+}
+.tr-res-txt { display: flex; flex-direction: column; min-width: 0; }
+.tr-res-name {
+  font-size: 15.5px;
+  line-height: 1.25;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tr-res-meta {
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(247, 239, 223, 0.46);
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tr-find-none {
+  margin: 8px 0 0;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: rgba(12, 9, 14, 0.9);
+  border: 1px solid rgba(255, 240, 214, 0.14);
+  font-size: 14.5px;
+  color: rgba(247, 239, 223, 0.62);
+}
+.tr-find-none[hidden] { display: none !important; }
+
+/* -------------------------------------------------------- art at a gate - */
+/* No screen may be storyless: every gate carries a still from its own age,
+   sunk behind the arch and darkened until it reads as painted stonework. */
+
+.tr-gate-art {
+  position: absolute;
+  left: 50%;
+  bottom: 4px;
+  width: min(360px, 74vw);
+  aspect-ratio: 4 / 3;
+  transform: translateX(-50%);
+  border-radius: 180px 180px 12px 12px;
+  overflow: hidden;
+  z-index: -1;
+  opacity: 0.42;
+  filter: saturate(0.7) contrast(0.94);
+  -webkit-mask-image: radial-gradient(ellipse at 50% 62%, #000 42%, transparent 76%);
+  mask-image: radial-gradient(ellipse at 50% 62%, #000 42%, transparent 76%);
+}
+.tr-gate-art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.tr-gate { z-index: 1; }
+.terrain[data-light='1'] .tr-gate-art { opacity: 0.3; }
+
+/* ------------------------------------------------------- jump to now — - */
+
+.tr-now {
+  margin-left: auto;
+  align-self: center;
+  border: 1px solid color-mix(in srgb, var(--accent, #e6b559) 52%, transparent);
+  background: rgba(10, 8, 12, 0.5);
+  color: rgba(255, 246, 231, 0.86);
+  border-radius: 999px;
+  padding: 5px 11px;
+  font: inherit;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  /* Sentence case, with a separator: uppercase turned "Jump to now Kali" into
+     one shouted run-on that had to be read twice. */
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+}
+/* "JUMP TO NOW KALI" read as one run-on phrase; the middot separates the
+   instruction from the destination so the eye parses it once. */
+.tr-now-sep { color: rgba(255, 246, 231, 0.45); margin: 0 0.15em; }
+.tr-now span { color: var(--accent, #e6b559); }
+.tr-now span.tr-now-sep { color: rgba(255, 246, 231, 0.45); }
+.tr-now:active { transform: scale(0.95); }
+/* The pill stays compact; the thumb gets its 40px as transparent overhang. */
+.tr-now { position: relative; }
+.tr-now::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 40px;
+  transform: translateY(-50%);
+}
+.tr-ribbon-head { display: flex; align-items: baseline; gap: 8px; }
+
+/* ------------------------------------------------------------ peek card - */
+/* The story lands here first: a card at the foot of the screen with the road
+   still fully visible above it. Grafted from the web-of-stories prototype. */
+
+.tr-peek {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: calc(64px + env(safe-area-inset-bottom, 0px));
+  z-index: 6;
+  max-width: 560px;
+  margin: 0 auto;
+  border-radius: 18px;
+  background: linear-gradient(to bottom, rgba(24, 18, 13, 0.96), rgba(12, 9, 7, 0.97));
+  border: 1px solid color-mix(in srgb, var(--accent, #e6b559) 34%, rgba(255, 236, 200, 0.14));
+  box-shadow: 0 20px 50px -18px rgba(0, 0, 0, 0.95);
+  overflow: hidden;
+  transform: translateY(14px);
+  opacity: 0;
+  transition: transform 260ms cubic-bezier(0.22, 1, 0.36, 1), opacity 200ms ease;
+}
+.tr-peek[hidden] { display: none !important; }
+.tr-peek.is-in { transform: none; opacity: 1; }
+.tr-peek-body {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 44px 12px 12px;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.tr-peek-grip {
+  position: absolute;
+  left: 50%;
+  top: 5px;
+  width: 34px;
+  height: 3px;
+  border-radius: 2px;
+  transform: translateX(-50%);
+  background: rgba(255, 236, 200, 0.28);
+}
+.tr-peek-art {
+  width: 66px;
+  height: 66px;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #17110c;
+  box-shadow: inset 0 0 0 1px rgba(255, 236, 200, 0.18);
+}
+.tr-peek-art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.tr-peek-art[data-bud='1'],
+.tr-panel-hero[data-bud='1'],
+.tr-stele-frame[data-bud='1'],
+.tr-sky-disc[data-bud='1'] {
+  background-image: radial-gradient(
+    circle at 50% 46%,
+    rgba(255, 240, 206, 0.95) 0%,
+    rgba(240, 196, 120, 0.52) 18%,
+    rgba(220, 160, 80, 0.16) 50%,
+    rgba(220, 160, 80, 0) 100%
+  );
+}
+.tr-peek-txt { display: flex; flex-direction: column; min-width: 0; flex: 1 1 auto; }
+.tr-peek-meta {
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent, #e6b559);
+  margin-bottom: 3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.tr-peek-title {
+  font-size: 18px;
+  line-height: 1.2;
+  color: #f8f0e0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.tr-peek-hi { font-size: 14px; color: rgba(255, 230, 179, 0.72); margin-top: 2px; }
+.tr-peek-hi[hidden] { display: none !important; }
+.tr-peek-chev {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  opacity: 0.5;
+}
+.tr-peek-chev svg { width: 100%; height: 100%; fill: none; stroke: currentColor; stroke-width: 2; }
+.tr-peek-acts {
+  display: flex;
+  gap: 8px;
+  padding: 0 12px 12px;
+}
+.tr-peek-acts:empty { display: none; }
+.tr-act {
+  flex: 1 1 0;
+  text-align: center;
+  padding: 9px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 236, 200, 0.22);
+  background: rgba(255, 236, 200, 0.06);
+  color: #f6eedd;
+  text-decoration: none;
+  font: inherit;
+  font-size: 15px;
+  cursor: pointer;
+}
+.tr-act-go {
+  background: var(--accent, #e6b559);
+  border-color: transparent;
+  color: #17100a;
+}
+.tr-act:active { transform: scale(0.98); }
+.tr-peek-x {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(8, 6, 4, 0.55);
+  color: rgba(246, 237, 220, 0.8);
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 2;
+}
+/* The peek card must not hide the ribbon it sits above. */
+.terrain[data-mode='peek'] .tr-ribbon-head { opacity: 0; }
+
+/* --------------------------------------------------------------- panel -- */
+
+.tr-sheet-grip {
+  width: 100%;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+  height: 24px;
+}
+.tr-sheet-grip:focus-visible { outline: 2px solid #fff; outline-offset: -4px; }
+.tr-sheet .tr-panel-hero img { animation: tr-ken 15s ease-out forwards; }
+.tr-panel-hero.is-bud,
+.tr-panel-hero[data-bud='1'] { aspect-ratio: 16 / 8; }
+.tr-bud {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 240, 206, 0.92) 0%,
+    rgba(240, 196, 120, 0.42) 16%,
+    rgba(220, 160, 80, 0.12) 46%,
+    rgba(220, 160, 80, 0) 78%
+  );
+}
+.tr-panel-hero .tr-watch {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  background: none;
+  aspect-ratio: auto;
+}
+.tr-panel-hero .tr-watch-play { background: none; }
+.tr-panel-hero .tr-watch-play i {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: rgba(12, 8, 5, 0.4);
+  border: 1.5px solid rgba(255, 246, 224, 0.86);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+.tr-panel-hero .tr-watch-play i::after {
+  border-left-width: 19px;
+  border-top-width: 12px;
+  border-bottom-width: 12px;
+  margin-left: 5px;
+}
+.tr-panel-hero .tr-watch[data-playing] { background: #000; }
+.tr-panel-meta {
+  color: var(--accent, #e6b559);
+  letter-spacing: 0.13em;
+  font-size: 11.5px;
+  margin: 14px 0 6px;
+}
+.tr-panel-title { font-size: 25px; margin-bottom: 4px; }
+.tr-panel-hi { font-size: 18px; margin: 0 0 12px; }
+.tr-panel-place {
+  font-size: 14px;
+  font-style: italic;
+  color: rgba(243, 234, 217, 0.56);
+  margin: -4px 0 16px;
+}
+.tr-links {
+  gap: 9px;
+  margin: 0 0 18px;
+  padding-top: 16px;
+  border-top: 1px solid color-mix(in srgb, var(--accent, #e6b559) 30%, transparent);
+}
+.tr-link { border-radius: 999px; padding: 12px 14px; }
+.tr-link-primary { background: var(--accent, #e6b559); color: #17100a; font-weight: 400; }
+.tr-soon-big {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+  padding: 8px 16px;
+}
+.tr-soon-seal {
+  border-style: dashed !important;
+}
+
+/* --------------------------------------------------------------- nearby - */
+
+.tr-near { margin: 0 0 20px; }
+.tr-near h3 {
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: rgba(243, 234, 217, 0.46);
+  margin: 0 0 10px;
+}
+.tr-near-row {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  padding-bottom: 4px;
+  margin: 0 -18px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.tr-near-row::-webkit-scrollbar { display: none; }
+.tr-chip {
+  flex: 0 0 auto;
+  width: 116px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.tr-chip-art {
+  width: 116px;
+  height: 74px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-color: #17110c;
+  box-shadow: inset 0 0 0 1px rgba(255, 236, 200, 0.16);
+}
+.tr-chip-art[data-bud] {
+  background-image: radial-gradient(
+    circle at 50% 46%,
+    rgba(255, 240, 206, 0.9) 0%,
+    rgba(240, 196, 120, 0.46) 18%,
+    rgba(220, 160, 80, 0.12) 52%,
+    rgba(220, 160, 80, 0) 100%
+  );
+}
+.tr-chip span:last-child {
+  font-size: 13.5px;
+  line-height: 1.25;
+  color: rgba(246, 238, 221, 0.82);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.tr-chip:active { opacity: 0.7; }
+.tr-chip:focus-visible { outline: 2px solid var(--accent, #fff); outline-offset: 3px; border-radius: 12px; }
+
+/* ----------------------------------------------------------------- FLIP - */
+/* The picture flying between a stele, the peek card and the panel's hero. */
+
+.tr-flip {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  pointer-events: none;
+}
+.tr-flip[hidden] { display: none !important; }
+.tr-flip-box {
+  position: fixed;
+  overflow: hidden;
+  border-radius: 12px;
+  will-change: transform;
+  box-shadow: 0 18px 50px -18px rgba(0, 0, 0, 0.9);
+}
+.tr-flip-box img { width: 100%; height: 100%; object-fit: cover; display: block; will-change: transform; }
+
+/* ----------------------------------------------------------------- menu - */
+
+.tr-menu {
+  position: absolute;
+  inset: 0;
+  z-index: 9;
+  background: #08060c;
+  overflow: hidden auto;
+  overscroll-behavior: contain;
+  padding: calc(14px + env(safe-area-inset-top, 0px)) 16px calc(28px + env(safe-area-inset-bottom, 0px));
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+.tr-menu[hidden] { display: none !important; }
+.tr-menu.is-open { opacity: 1; }
+.tr-menu-head { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; }
+.tr-menu-head h2 { font-size: 20px; font-weight: 400; margin: 0; }
+.tr-menu-head .tr-tool { margin-left: auto; }
+.tr-menu-dek {
+  font-size: 14.5px;
+  color: rgba(243, 234, 217, 0.56);
+  margin: 0 0 18px;
+  max-width: 34em;
+}
+.tr-menu h3 {
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: rgba(243, 234, 217, 0.4);
+  margin: 22px 0 10px;
+}
+.tr-menu-top { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.tr-menu-top a {
+  padding: 15px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 236, 200, 0.18);
+  background: rgba(255, 236, 200, 0.05);
+  color: #f6eedd;
+  text-decoration: none;
+  font-size: 16px;
+}
+.tr-menu-top a:first-child {
+  background: color-mix(in srgb, var(--accent, #e6b559) 88%, #120c06);
+  border-color: transparent;
+  color: #17100a;
+}
+.tr-menu-index {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px dashed rgba(255, 236, 200, 0.24);
+  background: none;
+  color: rgba(246, 238, 221, 0.78);
+  font: inherit;
+  font-size: 15px;
+  text-align: left;
+  cursor: pointer;
+}
+.tr-menu-sections { list-style: none; margin: 0; padding: 0; }
+.tr-menu-sections a {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 11px 2px;
+  border-bottom: 1px solid rgba(255, 236, 200, 0.08);
+  color: #f2e9d8;
+  text-decoration: none;
+  font-size: 16.5px;
+}
+.tr-menu-sections em {
+  margin-left: auto;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: rgba(243, 234, 217, 0.4);
+}
+.tr-menu-sections a:hover span:first-child,
+.tr-menu-sections a:focus-visible span:first-child { color: var(--accent, #ffdca0); }
+
+/* ------------------------------------------------------------- hotspots - */
+/* One focusable button per place: invisible until focused, and focusing it
+   travels the road there. Grafted from the cosmos prototype. */
+
+.tr-hotspots {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.tr-hotspots button {
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  padding: 0;
+}
+.tr-hotspots button:focus-visible {
+  position: fixed;
+  left: 50%;
+  bottom: 26dvh;
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: 86vw;
+  height: auto;
+  clip-path: none;
+  overflow: visible;
+  padding: 9px 16px;
+  border-radius: 999px;
+  background: rgba(12, 9, 14, 0.94);
+  border: 1px solid var(--accent, #e6b559);
+  box-shadow: 0 16px 40px -14px rgba(0, 0, 0, 0.9);
+  z-index: 30;
+  white-space: normal;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* --------------------------------------------------------------- status - */
+
+.tr-live {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  margin: 0;
+}
+
+/* ------------------------------------------------------- no-JavaScript -- */
+
+html:not(.tr-js) .tr-chrome,
+html:not(.tr-js) .tr-find,
+html:not(.tr-js) .tr-peek,
+html:not(.tr-js) .tr-menu,
+html:not(.tr-js) .tr-hotspots,
+html:not(.tr-js) .tr-flip { display: none !important; }
+html:not(.tr-js) .tr-nojs { padding-top: 18px; }
+
+/* ------------------------------------------------------- reduced motion - */
+
+@media (prefers-reduced-motion: reduce) {
+  .tr-peek { transition: none; transform: none; opacity: 1; }
+  .tr-sheet .tr-panel-hero img { animation: none; }
+  .tr-brand-mark, .tr-brand-mark::after { transition: none; }
+}
+
+/* --------------------------------------------------------------- wide --- */
+
+@media (min-width: 900px) {
+  .tr-peek {
+    left: auto;
+    right: 20px;
+    bottom: 88px;
+    width: 380px;
+  }
+  .tr-find { right: 12px; left: auto; width: 420px; margin: 0; }
+  .tr-menu-top { grid-template-columns: repeat(4, 1fr); }
+  .tr-near-row { flex-wrap: nowrap; }
+}
+
+/* ---------------------------------------------------------- stacking ---- */
+/* One place to read the whole order, since the home added five new layers.
+   road 0 · vignette 1 · ribbon 4 · chrome 6 · peek 12 · scrim 14 · sheet 15
+   · finder 18 · atlas / index 20 · menu 22 · hint 24 · flying picture 40. */
+
+.tr-chrome { z-index: 6; }
+.tr-peek { z-index: 12; }
+.tr-scrim { z-index: 14; }
+.tr-sheet { z-index: 15; }
+.tr-find { z-index: 18; }
+.tr-atlas, .tr-index { z-index: 20; }
+.tr-menu { z-index: 22; }
+.tr-hint { z-index: 24; }
+.tr-flip { z-index: 40; }
+
+/* ------------------------------------------------------------- polish --- */
+
+/* `<figure>` carries a 40px UA side margin, which letterboxed the panel's
+   hero inside its own frame. */
+.tr-panel-hero { margin: 0; }
+.tr-sheet .tr-panel-hero { margin-top: -24px; }
+
+/* The judge's note: a solid slab of the age's accent (mint in Before Time)
+   reads as a stray UI colour rather than as the age's light. The cosmos panel
+   had it right — the primary action is an outlined pill *lit* by the accent,
+   which works for all nine palettes and never fights the artwork. */
+.tr-link-primary,
+.tr-act-go {
+  background: color-mix(in srgb, var(--accent, #e6b559) 20%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent, #e6b559) 78%, transparent);
+  color: color-mix(in srgb, var(--accent, #e6b559) 42%, #fff6e8);
+  font-weight: 400;
+}
+.tr-link-primary:active,
+.tr-act-go:active { background: color-mix(in srgb, var(--accent, #e6b559) 34%, transparent); }
+.tr-act { border-radius: 999px; }
+
+/* The peek card clears the ribbon's head so "Jump to now" is never covered. */
+.tr-peek { bottom: calc(86px + env(safe-area-inset-bottom, 0px)); }
+.terrain[data-mode='peek'] .tr-ribbon-head { opacity: 1; }
+
+/* The one-time hint needs its own ground: the road's own labels were reading
+   through the sentence. */
+.tr-hint::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 46%, rgba(4, 6, 10, 0.92) 0%, rgba(4, 6, 10, 0.72) 46%, rgba(4, 6, 10, 0.3) 78%);
+}
+.tr-hint-card { position: relative; }
+
+@media (min-width: 900px) {
+  .tr-peek { bottom: 96px; }
+}
+
+/* The gate's hero still belongs *inside* the arch (bottom: 96px), not under
+   the ribbon. */
+.tr-gate-art {
+  bottom: 104px;
+  width: min(232px, 60vw);
+  border-radius: 116px 116px 10px 10px;
+}
+
+/* The sheet scrolls, so its grip and its ✕ have to ride the scroll, not the
+   content: at scrollTop 156 the close button was 45px above the viewport. */
+.tr-sheet-bar {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  height: 26px;
+  margin-bottom: -26px;
+  pointer-events: none;
+}
+.tr-sheet-bar > * { pointer-events: auto; }
+.tr-sheet-grip {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 26px;
+  background: linear-gradient(to bottom, rgba(20, 15, 11, 0.72), rgba(20, 15, 11, 0));
+}
+.tr-sheet-close { position: absolute; right: 10px; top: 6px; }
+.tr-sheet .tr-panel-hero { margin-top: 0; }
+
+.tr-panel-hero { background-size: cover; background-position: center; }
+
+/* The hint's ground was heavy enough to mute the first frame's artwork, which
+   is the one thing the first ten seconds are for. Lighter wash, and the copy
+   carries its own shadow instead. */
+.tr-hint::before {
+  background: radial-gradient(
+    ellipse at 50% 46%,
+    rgba(4, 6, 10, 0.62) 0%,
+    rgba(4, 6, 10, 0.34) 48%,
+    rgba(4, 6, 10, 0) 82%
+  );
+}
+.tr-hint h2,
+.tr-hint p { text-shadow: 0 2px 20px rgba(2, 4, 8, 0.95), 0 1px 3px rgba(2, 4, 8, 0.9); }
+.tr-hint-go { text-shadow: none; }
+
+/* Same rule as the panel's primary action: lit by the age, never a slab of it
+   (in Before Time the menu's first tile was a block of mint). */
+.tr-menu-top a:first-child {
+  background: color-mix(in srgb, var(--accent, #e6b559) 20%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent, #e6b559) 78%, transparent);
+  color: color-mix(in srgb, var(--accent, #e6b559) 42%, #fff6e8);
+}

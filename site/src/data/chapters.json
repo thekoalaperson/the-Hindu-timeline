@@ -1,0 +1,1778 @@
+{
+  "$comment": "Chapter spine for the cosmic clock, curated by lane R5 from the corpus spine files on 2026-09-06.",
+  "periods": [
+    {
+      "slug": "before-time",
+      "chapters": [
+        {
+          "id": "before-vedic-hymns",
+          "title": "A hymn asks a question",
+          "hi": null,
+          "line": "Long before gods existed, one Vedic hymn wonders whether anyone, even a god, truly knows how the universe began.",
+          "source": {
+            "file": "00-time-and-cosmology/cosmogony-creation-accounts.md",
+            "heading": "I. Vedic Hymn Accounts (oldest layer)"
+          },
+          "stories": [
+            "/cosmology/cosmogony-creation-accounts/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/cosmology/cosmogony-creation-accounts/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "manuscript"
+        },
+        {
+          "id": "before-upanishads",
+          "title": "The Self alone at first",
+          "hi": null,
+          "line": "The Upanishads say there was only one Self in the beginning, lonely, who became many so it would not be alone.",
+          "source": {
+            "file": "00-time-and-cosmology/cosmogony-creation-accounts.md",
+            "heading": "II. Brahmanic / Upanishadic Accounts"
+          },
+          "stories": [
+            "/cosmology/cosmogony-creation-accounts/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/cosmology/cosmogony-creation-accounts/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "flame"
+        },
+        {
+          "id": "before-vishnu-lotus",
+          "title": "Brahma's lotus birth",
+          "hi": null,
+          "line": "Vishnu sleeps on the cosmic ocean and a lotus grows from his navel; Brahma sits on it and starts to build the worlds.",
+          "source": {
+            "file": "00-time-and-cosmology/cosmogony-creation-accounts.md",
+            "heading": "III. Vaishnava Account — Brahma from the Lotus from Vishnu's Navel"
+          },
+          "stories": [
+            "/cosmology/cosmogony-creation-accounts/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/cosmology/cosmogony-creation-accounts/"
+          },
+          "art": {
+            "film": "varaha",
+            "still": 0
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "before-cosmic-egg",
+          "title": "Creation hatches from an egg",
+          "hi": null,
+          "line": "A golden egg floats on the first waters for a year, then splits open: its two halves become the sky and the earth.",
+          "source": {
+            "file": "00-time-and-cosmology/cosmogony-creation-accounts.md",
+            "heading": "IV. The Cosmic Egg — Brahmanda"
+          },
+          "stories": [
+            "/cosmology/cosmogony-creation-accounts/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/cosmology/cosmogony-creation-accounts/"
+          },
+          "art": {
+            "film": "varaha",
+            "still": 1,
+            "alt": "Dark water without a shore, lit only from within — the deep before anything has been raised out of it."
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "before-shiva-source",
+          "title": "Shiva is the ultimate source",
+          "hi": null,
+          "line": "Shaiva texts say Shiva alone creates, keeps and destroys everything, and Brahma and Vishnu act only as his agents.",
+          "source": {
+            "file": "00-time-and-cosmology/cosmogony-creation-accounts.md",
+            "heading": "V. Shaiva Account — Shiva / Sadashiva as Source"
+          },
+          "stories": [
+            "/cosmology/cosmogony-creation-accounts/"
+          ],
+          "films": [
+            "lingodbhava"
+          ],
+          "hero": {
+            "route": "/cosmology/cosmogony-creation-accounts/"
+          },
+          "art": {
+            "film": "lingodbhava",
+            "still": 1
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "before-devi-primordial",
+          "title": "The Goddess makes the makers",
+          "hi": null,
+          "line": "In Shakta texts the Goddess is the ultimate power; without her, Shiva cannot even act, and she brings the Trimurti to life.",
+          "source": {
+            "file": "00-time-and-cosmology/cosmogony-creation-accounts.md",
+            "heading": "VI. Shakta Account — Devi / Shakti as Primordial"
+          },
+          "stories": [
+            "/cosmology/cosmogony-creation-accounts/",
+            "/deities/devi-mahatmya-and-the-great-goddess/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/cosmology/cosmogony-creation-accounts/"
+          },
+          "art": {
+            "film": "mahishasura",
+            "still": 0,
+            "alt": "Light drawn out of many faces and gathered into one standing column of fire."
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "before-puranic-sarga",
+          "title": "Creation unfolds in nine stages",
+          "hi": null,
+          "line": "The Puranas describe creation as an ordered sequence: mind, ego, the elements, plants, animals, gods, humans, and the ageless Kumaras.",
+          "source": {
+            "file": "00-time-and-cosmology/cosmogony-creation-accounts.md",
+            "heading": "VII. Puranic Sequential Creation — Sarga & the Categories of Creation"
+          },
+          "stories": [
+            "/cosmology/cosmogony-creation-accounts/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/cosmology/cosmogony-creation-accounts/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "lotus"
+        },
+        {
+          "id": "before-mind-born-sons",
+          "title": "Brahma populates the worlds",
+          "hi": null,
+          "line": "Brahma creates sons from his mind, then splits into the first man and woman, starting the family lines every later story rests on.",
+          "source": {
+            "file": "00-time-and-cosmology/cosmogony-creation-accounts.md",
+            "heading": "VIII. Secondary Creation — Brahma's Mind-Born Sons, Rudra, and the Prajapatis"
+          },
+          "stories": [
+            "/cosmology/cosmogony-creation-accounts/",
+            "/deities/saptarishi/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/cosmology/cosmogony-creation-accounts/"
+          },
+          "art": {
+            "film": "brahma-head",
+            "still": 0,
+            "alt": "The creator seated in a lit pavilion with figures gathered below: a court at the beginning of things."
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "before-hand-off",
+          "title": "Every story reaches one clock",
+          "hi": null,
+          "line": "However creation began, every tradition agrees Brahma now runs the current cycle, and his day is what starts the clock of ages.",
+          "source": {
+            "file": "00-time-and-cosmology/cosmogony-creation-accounts.md",
+            "heading": "IX. Synthesis — How the Variants Relate"
+          },
+          "stories": [
+            "/cosmology/cosmogony-creation-accounts/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/cosmology/cosmogony-creation-accounts/"
+          },
+          "art": null,
+          "covers": [
+            "/cosmology/"
+          ],
+          "dates": null,
+          "glyph": "wheel"
+        }
+      ]
+    },
+    {
+      "slug": "earlier-manvantaras",
+      "chapters": [
+        {
+          "id": "manvantara-01-svayambhuva",
+          "title": "Svayambhuva, the first Manu",
+          "hi": null,
+          "line": "The first ruler of humankind and his wife begin the human family; their descendant Dhruva becomes the still Pole Star.",
+          "source": {
+            "file": "01-manvantaras/manvantara-01-svayambhuva.md",
+            "heading": "Manvantara 1 — Svāyambhuva (Past)"
+          },
+          "stories": [
+            "/manvantaras/manvantara-01-svayambhuva/",
+            "/stories/dhruva/"
+          ],
+          "films": [
+            "dhruva"
+          ],
+          "hero": {
+            "route": "/stories/dhruva/"
+          },
+          "art": {
+            "film": "dhruva",
+            "still": 3
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "manvantara-02-svarochisha",
+          "title": "Svarochisha, born self-radiant",
+          "hi": null,
+          "line": "A romance between a sage and a nymph, tangled by a trickster's disguise, produces the glowing second ruler of the age.",
+          "source": {
+            "file": "01-manvantaras/manvantara-02-svarochisha.md",
+            "heading": "The Origin Legend — Svarocis and the Birth of Svārociṣa (Mārkaṇḍeya Purāṇa)"
+          },
+          "stories": [
+            "/manvantaras/manvantara-02-svarochisha/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-02-svarochisha/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "crescent"
+        },
+        {
+          "id": "manvantara-03-uttama",
+          "title": "Uttama, the sparse record",
+          "hi": null,
+          "line": "The third age has almost no surviving story of its own, only a bare list of who ruled and who kept the sacred fires.",
+          "source": {
+            "file": "01-manvantaras/manvantara-03-uttama.md",
+            "heading": "Manvantara 3 — Uttama (Auttama) (Past)"
+          },
+          "stories": [
+            "/manvantaras/manvantara-03-uttama/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-03-uttama/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "manuscript"
+        },
+        {
+          "id": "manvantara-04-tamasa",
+          "title": "Tamasa and the trapped elephant",
+          "hi": null,
+          "line": "This age is remembered for Gajendra, an elephant-king seized by a crocodile, whose final cry brings Vishnu running to save him.",
+          "source": {
+            "file": "01-manvantaras/manvantara-04-tamasa.md",
+            "heading": "Key Episode — Gajendra-mokṣa"
+          },
+          "stories": [
+            "/manvantaras/manvantara-04-tamasa/",
+            "/stories/gajendra-moksha/"
+          ],
+          "films": [
+            "gajendra"
+          ],
+          "hero": {
+            "route": "/stories/gajendra-moksha/"
+          },
+          "art": {
+            "film": "gajendra",
+            "still": 0
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "manvantara-05-raivata",
+          "title": "Raivata and a warped afternoon",
+          "hi": null,
+          "line": "A king waits what feels like a short while in Brahma's court, but millions of years pass on earth before he goes home.",
+          "source": {
+            "file": "01-manvantaras/manvantara-05-raivata.md",
+            "heading": "The Revati & Kakudmi Time-Dilation Tale"
+          },
+          "stories": [
+            "/manvantaras/manvantara-05-raivata/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-05-raivata/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "sun"
+        },
+        {
+          "id": "manvantara-06-chakshusha",
+          "title": "Chakshusha, the age before ours",
+          "hi": null,
+          "line": "The final age before our own gathers stories the texts leave loosely dated: sages born of Anasuya, Shiva burning desire to ash, and the long life of King Yayati.",
+          "source": {
+            "file": "01-manvantaras/manvantara-06-chakshusha.md",
+            "heading": "Events, Stories & Figures of the Cākṣuṣa Age"
+          },
+          "stories": [
+            "/manvantaras/manvantara-06-chakshusha/",
+            "/stories/tarakasura-vadha/",
+            "/stories/tripura-dahana/",
+            "/stories/shankhachuda-tulasi/",
+            "/stories/yayati/",
+            "/deities/surya-and-his-family/"
+          ],
+          "films": [
+            "tripura",
+            "tulsi",
+            "yayati",
+            "shani"
+          ],
+          "hero": {
+            "route": "/stories/tripura-dahana/"
+          },
+          "art": {
+            "film": "tripura",
+            "still": 0
+          },
+          "covers": [],
+          "dates": null
+        }
+      ]
+    },
+    {
+      "slug": "satya-yuga",
+      "chapters": [
+        {
+          "id": "satya-matsya",
+          "title": "Matsya saves the world",
+          "hi": null,
+          "line": "Vishnu becomes a fish, warns Manu of a coming flood, and tows his boat of survivors and seeds to safety.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md",
+            "heading": "### Matsya (the Fish) — the great deluge"
+          },
+          "stories": [
+            "/stories/matsya-pralaya/"
+          ],
+          "films": [
+            "matsya"
+          ],
+          "hero": {
+            "route": "/stories/matsya-pralaya/"
+          },
+          "art": {
+            "film": "matsya",
+            "still": 1
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "satya-samudra-manthan",
+          "title": "Churning the ocean of milk",
+          "hi": null,
+          "line": "Devas and asuras team up to churn the ocean of milk for the nectar of immortality, and wonders and poison both rise up.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md",
+            "heading": "### Kūrma (the Tortoise) — Samudra Manthana (Churning of the Ocean of Milk)"
+          },
+          "stories": [
+            "/stories/samudra-manthana/",
+            "/stories/mohini-avatara/",
+            "/beings/garuda/"
+          ],
+          "films": [
+            "manthan",
+            "mohini",
+            "garuda"
+          ],
+          "hero": {
+            "route": "/stories/samudra-manthana/"
+          },
+          "art": {
+            "film": "manthan",
+            "still": 0
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "satya-varaha",
+          "title": "Varaha lifts the earth",
+          "hi": null,
+          "line": "A demon drags the earth to the bottom of the ocean, so Vishnu becomes a giant boar, dives in, and carries her back up.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md",
+            "heading": "### Varāha (the Boar) — Hiraṇyākṣa & the lifting of the Earth"
+          },
+          "stories": [
+            "/stories/varaha-hiranyaksha/"
+          ],
+          "films": [
+            "varaha"
+          ],
+          "hero": {
+            "route": "/stories/varaha-hiranyaksha/"
+          },
+          "art": {
+            "film": "varaha",
+            "still": 3
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "satya-narasimha",
+          "title": "Narasimha bursts from a pillar",
+          "hi": null,
+          "line": "A tyrant cannot be killed by man or beast, day or night, indoors or out — so Vishnu becomes a man-lion and kills him at twilight on a doorstep.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md",
+            "heading": "### Narasiṃha (the Man-Lion) — Hiraṇyakaśipu & Prahlāda"
+          },
+          "stories": [
+            "/stories/prahlada-narasimha/"
+          ],
+          "films": [
+            "narasimha"
+          ],
+          "hero": {
+            "route": "/stories/prahlada-narasimha/"
+          },
+          "art": {
+            "film": "narasimha",
+            "still": 0
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "satya-dhruva-pole-star",
+          "title": "Dhruva becomes the Pole Star",
+          "hi": null,
+          "line": "A boy pushed off his father's lap performs such fierce penance that Vishnu fixes him in the sky as the star everything turns around.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md",
+            "heading": "### Dhruva — the boy who became the Pole Star"
+          },
+          "stories": [
+            "/stories/dhruva/"
+          ],
+          "films": [
+            "dhruva"
+          ],
+          "hero": {
+            "route": "/stories/dhruva/"
+          },
+          "art": {
+            "film": "dhruva",
+            "still": 1,
+            "alt": "A small figure holding absolutely still by a cold lake while the sky presses down."
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "satya-daksha-yajna",
+          "title": "Daksha insults Shiva and Sati",
+          "hi": null,
+          "line": "A king snubs his own daughter and her husband Shiva at a great sacrifice; she burns herself alive, and Shiva's grief wrecks the ritual.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md",
+            "heading": "### Sati & the Daksha Yajña"
+          },
+          "stories": [
+            "/deities/sati-daksha-and-parvati/"
+          ],
+          "films": [
+            "daksha-sati"
+          ],
+          "hero": {
+            "route": "/deities/sati-daksha-and-parvati/"
+          },
+          "art": {
+            "film": "daksha-sati",
+            "still": 3
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "satya-royal-lineages",
+          "title": "Two royal families begin",
+          "hi": null,
+          "line": "Manu's ten sons found the Solar dynasty of Ikshvaku and the Lunar dynasty, the two family lines every king in the epics belongs to.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md",
+            "heading": "### The founding of the royal lineages"
+          },
+          "stories": [
+            "/lineages/suryavamsha-and-chandravamsha/",
+            "/lineages/ila-sudyumna/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/lineages/suryavamsha-and-chandravamsha/"
+          },
+          "art": {
+            "film": "matsya",
+            "still": 0,
+            "alt": "A king standing waist-deep in a river at first light, the water carrying everything downstream."
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "satya-sages-and-origins",
+          "title": "The first sages and seekers",
+          "hi": null,
+          "line": "The eternal child-sages, the teacher Kapila, and the twin ascetics Nara-Narayana all begin their long watch over dharma in this age.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/01-satya-yuga.md",
+            "heading": "### Early sages, mind-born sons & other Satya-Yuga origins"
+          },
+          "stories": [
+            "/cosmology/cosmogony-creation-accounts/",
+            "/deities/saptarishi/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/cosmology/cosmogony-creation-accounts/"
+          },
+          "art": {
+            "film": "ganga",
+            "still": 0,
+            "alt": "A cavern under the earth, a seated ascetic, and a stillness that has clearly lasted a very long time."
+          },
+          "covers": [],
+          "dates": null
+        }
+      ]
+    },
+    {
+      "slug": "treta-yuga",
+      "chapters": [
+        {
+          "id": "treta-vamana-bali",
+          "title": "Vamana tricks King Bali",
+          "hi": null,
+          "line": "Vishnu becomes a dwarf, asks a proud king for three paces of land, then grows to cover earth and sky and gently sets him underground.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md",
+            "heading": "Vāmana (the Dwarf) — 5th avatāra"
+          },
+          "stories": [
+            "/stories/vamana-bali/"
+          ],
+          "films": [
+            "vamana"
+          ],
+          "hero": {
+            "route": "/stories/vamana-bali/"
+          },
+          "art": {
+            "film": "vamana",
+            "still": 1
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "treta-parashurama",
+          "title": "Parashurama the warrior sage",
+          "hi": null,
+          "line": "A sage's son takes up an axe to punish kings who wronged his family, then waits immortal through every age since.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md",
+            "heading": "Paraśurāma (Rāma-with-the-axe) — 6th avatāra"
+          },
+          "stories": [
+            "/stories/parashurama/"
+          ],
+          "films": [
+            "parashurama"
+          ],
+          "hero": {
+            "route": "/stories/parashurama/"
+          },
+          "art": {
+            "film": "parashurama",
+            "still": 3
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "treta-ganga-descent",
+          "title": "Ganga comes down to earth",
+          "hi": null,
+          "line": "A king does immense penance so the heavenly river Ganga will fall to earth and free his ancestors' ashes, and Shiva breaks her fall.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md",
+            "heading": "Bhagīratha & the Descent of Gangā (Gangāvataraṇa)"
+          },
+          "stories": [
+            "/deities/ganga/",
+            "/stories/dilipa-nandini/",
+            "/lineages/sagara/"
+          ],
+          "films": [
+            "ganga"
+          ],
+          "hero": {
+            "route": "/deities/ganga/"
+          },
+          "art": {
+            "film": "ganga",
+            "still": 2
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "treta-ramayana-bala",
+          "title": "Rama is born and married",
+          "hi": null,
+          "line": "Prince Rama is born in Ayodhya, trains with a sage, breaks Shiva's great bow, and wins Sita's hand in Mithila.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md",
+            "heading": "### Bāla Kāṇḍa — birth & boyhood"
+          },
+          "stories": [
+            "/stories/ramayana/1-bala-kanda/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/stories/ramayana/1-bala-kanda/"
+          },
+          "art": {
+            "treatment": "atmosphere",
+            "alt": "Brick and timber courts under an open sky, cultivated ground running away behind them.",
+            "asset": "treta-ramayana-bala"
+          },
+          "covers": [
+            "/stories/ramayana/1-bala-kanda/"
+          ],
+          "dates": null
+        },
+        {
+          "id": "treta-ramayana-ayodhya",
+          "title": "Rama is exiled fourteen years",
+          "hi": null,
+          "line": "A stepmother's old promise sends Rama into the forest for fourteen years, and his father dies of grief at the parting.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md",
+            "heading": "### Ayodhyā Kāṇḍa — the exile"
+          },
+          "stories": [
+            "/stories/ramayana/2-ayodhya-kanda/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/stories/ramayana/2-ayodhya-kanda/"
+          },
+          "art": {
+            "treatment": "atmosphere",
+            "alt": "A dim hall of carved wooden posts with low seating and an empty seat at the far end.",
+            "asset": "treta-ramayana-ayodhya"
+          },
+          "covers": [
+            "/stories/ramayana/2-ayodhya-kanda/"
+          ],
+          "dates": null
+        },
+        {
+          "id": "treta-ramayana-aranya",
+          "title": "Ravana steals Sita away",
+          "hi": null,
+          "line": "In the forest a demon king disguises himself as a beggar and carries off Rama's wife Sita to his island kingdom of Lanka.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md",
+            "heading": "### Aranya Kāṇḍa — the forest & abduction"
+          },
+          "stories": [
+            "/stories/ramayana/3-aranya-kanda/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/stories/ramayana/3-aranya-kanda/"
+          },
+          "art": {
+            "treatment": "atmosphere",
+            "alt": "A forest floor in failing light, one figure down on a knee among the leaf litter.",
+            "asset": "treta-ramayana-aranya"
+          },
+          "covers": [
+            "/stories/ramayana/3-aranya-kanda/"
+          ],
+          "dates": null
+        },
+        {
+          "id": "treta-ramayana-kishkindha",
+          "title": "Rama allies with the monkeys",
+          "hi": null,
+          "line": "Rama befriends the monkey prince Sugriva and the devoted Hanuman, who set out with an army to search for Sita.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md",
+            "heading": "### Kishkindhā Kāṇḍa — the vānara alliance"
+          },
+          "stories": [
+            "/stories/ramayana/4-kishkindha-kanda/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/stories/ramayana/4-kishkindha-kanda/"
+          },
+          "art": null,
+          "covers": [
+            "/stories/ramayana/4-kishkindha-kanda/"
+          ],
+          "dates": null,
+          "glyph": "mountain"
+        },
+        {
+          "id": "treta-ramayana-sundara",
+          "title": "Hanuman leaps across the sea",
+          "hi": null,
+          "line": "Hanuman leaps the ocean alone, finds Sita in captivity, gives her Rama's ring, and burns part of Lanka before flying home.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md",
+            "heading": "### Sundara Kāṇḍa — Hanumān's leap"
+          },
+          "stories": [
+            "/stories/ramayana/5-sundara-kanda/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/stories/ramayana/5-sundara-kanda/"
+          },
+          "art": {
+            "treatment": "atmosphere",
+            "alt": "Two figures meeting on an open shore at dusk, a camp of many others behind them.",
+            "asset": "treta-ramayana-sundara"
+          },
+          "covers": [
+            "/stories/ramayana/5-sundara-kanda/"
+          ],
+          "dates": null
+        },
+        {
+          "id": "treta-ramayana-yuddha",
+          "title": "The war for Lanka",
+          "hi": null,
+          "line": "Rama's army builds a bridge to Lanka, and after a huge battle Rama kills Ravana and brings Sita home to be crowned king.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md",
+            "heading": "### Yuddha Kāṇḍa — the war"
+          },
+          "stories": [
+            "/stories/ramayana/6-yuddha-kanda/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/stories/ramayana/6-yuddha-kanda/"
+          },
+          "art": {
+            "treatment": "atmosphere",
+            "alt": "An island seen from very far off: dark headlands, a gold-lit citadel, sea on every side.",
+            "asset": "treta-ramayana-yuddha"
+          },
+          "covers": [
+            "/stories/ramayana/6-yuddha-kanda/"
+          ],
+          "dates": null
+        },
+        {
+          "id": "treta-ramayana-uttara",
+          "title": "Rama's difficult homecoming",
+          "hi": null,
+          "line": "Gossip about Sita's time in captivity leads Rama to send her away; years later he learns of their twin sons and Sita returns to the earth.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md",
+            "heading": "### Uttara Kāṇḍa — the aftermath"
+          },
+          "stories": [
+            "/stories/ramayana/7-uttara-kanda/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/stories/ramayana/7-uttara-kanda/"
+          },
+          "art": null,
+          "covers": [
+            "/stories/ramayana/7-uttara-kanda/"
+          ],
+          "dates": null,
+          "glyph": "footprint"
+        }
+      ]
+    },
+    {
+      "slug": "dvapara-yuga",
+      "chapters": [
+        {
+          "id": "dvapara-kuru-lineage",
+          "title": "The Kuru cousins are born",
+          "hi": null,
+          "line": "Vyasa fathers the blind Dhritarashtra and pale Pandu; their sons the Kauravas and Pandavas grow up rivals from the start.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md",
+            "heading": "## 2. The Kuru Lineage — Setup for the Mahābhārata"
+          },
+          "stories": [
+            "/stories/mahabharata/01-adi-parva/",
+            "/stories/characters/bhishma/",
+            "/stories/characters/drona/",
+            "/stories/ekalavya/",
+            "/stories/karna/"
+          ],
+          "films": [
+            "ekalavya",
+            "karna-kavacha"
+          ],
+          "hero": {
+            "route": "/stories/ekalavya/"
+          },
+          "art": {
+            "film": "ekalavya",
+            "still": 0
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "dvapara-krishna-birth",
+          "title": "Krishna is born in prison",
+          "hi": null,
+          "line": "A tyrant king is warned his sister's eighth child will kill him, but that child is smuggled across a flooding river to safety.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md",
+            "heading": "### Birth & rescue"
+          },
+          "stories": [
+            "/stories/krishna-lila/",
+            "/stories/kamsa-vadha/"
+          ],
+          "films": [
+            "kamsa"
+          ],
+          "hero": {
+            "route": "/stories/krishna-lila/"
+          },
+          "art": {
+            "film": "kamsa",
+            "still": 2
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "dvapara-krishna-childhood",
+          "title": "Krishna grows up in Vrindavan",
+          "hi": null,
+          "line": "The cowherd boy Krishna dances on a poisonous serpent, lifts a whole mountain on his finger, and delights every child in the village.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md",
+            "heading": "### Childhood līlās in Vraja (Gokula / Vṛndāvana)"
+          },
+          "stories": [
+            "/stories/krishna-balya-lila/",
+            "/stories/kaliya-mardana/",
+            "/stories/govardhana-dharana/"
+          ],
+          "films": [
+            "kaliya",
+            "govardhan",
+            "putana-vadha"
+          ],
+          "hero": {
+            "route": "/stories/govardhana-dharana/"
+          },
+          "art": {
+            "film": "govardhan",
+            "still": 2
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "dvapara-mathura-dvaraka",
+          "title": "Krishna kills Kamsa, builds Dvaraka",
+          "hi": null,
+          "line": "Grown up, Krishna kills the tyrant Kamsa, then leads his people to a new sea-fortress city called Dvaraka.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md",
+            "heading": "### Mathura, Kamsa & the move to Dvārakā"
+          },
+          "stories": [
+            "/stories/kamsa-vadha/",
+            "/stories/syamantaka-jewel/",
+            "/stories/rukmini-harana/",
+            "/stories/narakasura-vadha/",
+            "/stories/sudama-kuchela/"
+          ],
+          "films": [
+            "kamsa",
+            "syamantaka",
+            "rukmini-haran",
+            "narakasura",
+            "sudama"
+          ],
+          "hero": {
+            "route": "/stories/kamsa-vadha/"
+          },
+          "art": {
+            "film": "kamsa",
+            "still": 3
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "dvapara-balarama",
+          "title": "Balarama, Krishna's elder brother",
+          "hi": null,
+          "line": "Krishna's brother Balarama, who carries a plough as his weapon, teaches both cousins to fight and stays neutral in their war.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md",
+            "heading": "## 4. Balarāma (the 7th/elder; Śeṣa avatar)"
+          },
+          "stories": [
+            "/stories/characters/balarama/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/stories/characters/balarama/"
+          },
+          "art": {
+            "alt": "Green riverbank pasture in flat morning light, cattle and two small figures far off.",
+            "asset": "dvapara-balarama"
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "dvapara-rivalry-svayamvara",
+          "title": "The cousins become rivals",
+          "hi": null,
+          "line": "The Pandavas escape a burning palace, Arjuna wins Draupadi at her contest, and the cousins split the kingdom, sowing the seeds of war.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md",
+            "heading": "### Rise of the rivalry"
+          },
+          "stories": [
+            "/stories/mahabharata/01-adi-parva/",
+            "/stories/characters/draupadi/"
+          ],
+          "films": [
+            "lakshagriha",
+            "draupadi"
+          ],
+          "hero": {
+            "route": "/stories/characters/draupadi/"
+          },
+          "art": {
+            "film": "draupadi",
+            "still": 1
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "dvapara-dice-exile",
+          "title": "Draupadi's humiliation and exile",
+          "hi": null,
+          "line": "Yudhishthira gambles away everything, even Draupadi, in a rigged dice game, and the five brothers spend thirteen years in exile.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md",
+            "heading": "### The dice game & exile"
+          },
+          "stories": [
+            "/stories/mahabharata/02-sabha-parva/",
+            "/stories/mahabharata/03-vana-parva/"
+          ],
+          "films": [
+            "draupadi-dice-hall",
+            "kirata"
+          ],
+          "hero": {
+            "route": "/stories/mahabharata/02-sabha-parva/"
+          },
+          "art": {
+            "film": "draupadi-dice-hall",
+            "still": 0
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "dvapara-gita",
+          "title": "Krishna teaches the Bhagavad Gita",
+          "hi": null,
+          "line": "As the armies face off, Arjuna despairs at fighting his own family, and Krishna teaches him the Bhagavad Gita on the battlefield.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md",
+            "heading": "### The Bhagavad Gītā"
+          },
+          "stories": [
+            "/stories/bhagavad-gita/07-to-12-bhakti-shatka/"
+          ],
+          "films": [
+            "bhagavad-gita-vishvarupa"
+          ],
+          "hero": {
+            "route": "/stories/bhagavad-gita/07-to-12-bhakti-shatka/"
+          },
+          "art": {
+            "film": "bhagavad-gita-vishvarupa",
+            "still": 3
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "dvapara-kurukshetra-war",
+          "title": "The eighteen-day war",
+          "hi": null,
+          "line": "Over eighteen days at Kurukshetra, teachers, brothers and sons fall one after another until almost no one is left standing.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md",
+            "heading": "### The 18-day Kurukṣetra War & key deaths"
+          },
+          "stories": [
+            "/stories/characters/abhimanyu/",
+            "/stories/mahabharata/07-drona-parva/",
+            "/stories/characters/ghatotkacha/",
+            "/stories/karna/",
+            "/stories/mahabharata/08-karna-parva/",
+            "/stories/characters/ashvatthama/",
+            "/stories/characters/barbarika-khatu-shyam/"
+          ],
+          "films": [
+            "abhimanyu",
+            "ghatotkacha-final-night",
+            "karna-vs-arjuna",
+            "ashwatthama",
+            "barbarik"
+          ],
+          "hero": {
+            "route": "/stories/characters/abhimanyu/"
+          },
+          "art": {
+            "film": "abhimanyu",
+            "still": 0
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "dvapara-close-of-age",
+          "title": "Krishna departs, the age ends",
+          "hi": null,
+          "line": "Years after the war a curse destroys Krishna's clan, a hunter's arrow ends his life, and the sea swallows the city of Dvaraka.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md",
+            "heading": "## 6. The Close of Dvāpara — Yādava Destruction & Krishna's Departure"
+          },
+          "stories": [
+            "/stories/mahabharata/16-mausala-parva/",
+            "/stories/mahabharata/17-mahaprasthanika-parva/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/stories/mahabharata/16-mausala-parva/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "conch"
+        }
+      ]
+    },
+    {
+      "slug": "kali-yuga-scriptural",
+      "chapters": [
+        {
+          "id": "kali-scriptural-frame",
+          "title": "Kali Yuga begins at midnight",
+          "hi": null,
+          "line": "The last and shortest age begins the moment Krishna leaves the earth, traditionally dated to 3102 BCE, and lasts 432,000 years.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md",
+            "heading": "## 1. The Frame — When, How Long, How Reckoned"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "crescent"
+        },
+        {
+          "id": "kali-scriptural-symptoms",
+          "title": "Dharma stands on one leg",
+          "hi": null,
+          "line": "The texts predict a world where wealth decides worth, rulers become predators, and only a quarter of virtue remains standing.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md",
+            "heading": "## 2. Symptoms & Decline Predictions (the Kali-dharma)"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "wheel"
+        },
+        {
+          "id": "kali-scriptural-kings",
+          "title": "The prophesied kings of Kali",
+          "hi": null,
+          "line": "The Puranas list dynasty after dynasty that will rule after the Mahabharata war, right down to a king who erases caste entirely.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md",
+            "heading": "## 3. The Kali Yuga Kings — Puranic Dynasty Prophecy"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "gate"
+        },
+        {
+          "id": "kali-scriptural-kalki",
+          "title": "Kalki, the final avatar",
+          "hi": null,
+          "line": "When wickedness peaks, Vishnu will come once more as the warrior Kalki, riding a white horse, to clear the world for a new age.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md",
+            "heading": "## 4. The End of Kali — Kalki, the Tenth Avatar"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "flame"
+        },
+        {
+          "id": "kali-scriptural-dissolution",
+          "title": "The wheel keeps turning",
+          "hi": null,
+          "line": "The end of Kali is not the end of the world, only the end of one cycle; a new Satya Yuga begins right after within the same great age.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md",
+            "heading": "## 5. Dissolution & the Cosmic Reset"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          },
+          "art": null,
+          "covers": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          ],
+          "dates": null,
+          "glyph": "wave"
+        }
+      ]
+    },
+    {
+      "slug": "kali-yuga-history",
+      "chapters": [
+        {
+          "id": "kali-history-01-indus",
+          "title": "Cities on the Indus",
+          "hi": null,
+          "line": "Planned cities rise along the Indus river with standardized weights and an undeciphered script, long before written history names a single king.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md",
+            "heading": "## I. Proto-history & the Indus link [disputed]"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": "c. 7000–1900 BCE",
+          "glyph": "wave"
+        },
+        {
+          "id": "kali-history-02-vedic",
+          "title": "The Vedas take shape",
+          "hi": null,
+          "line": "Hymns to Agni, Indra and the other gods are composed and passed down by memory, later joined by the philosophical Upanishads.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md",
+            "heading": "## II. Vedic period (the śruti is composed)"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": "c. 1500–500 BCE",
+          "glyph": "manuscript"
+        },
+        {
+          "id": "kali-history-03-mahajanapadas",
+          "title": "Sixteen kingdoms and new teachers",
+          "hi": null,
+          "line": "Sixteen kingdoms rise across the land as cities and coins spread, and the Buddha and Mahavira challenge Vedic ritual; the great epics take their first shape.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md",
+            "heading": "## III. Second urbanization, Mahajanapadas & the śramaṇa challenge"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": "c. 600 BCE – 400 CE",
+          "glyph": "gate"
+        },
+        {
+          "id": "kali-history-04-empires",
+          "title": "Empires and the classical age",
+          "hi": null,
+          "line": "The Maurya and Gupta empires unite much of India, Ashoka rules from the throne, and the great Puranas are written down.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md",
+            "heading": "## IV. Empires & the consolidation of classical Hinduism"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": "c. 322 BCE – 550 CE",
+          "glyph": "wheel"
+        },
+        {
+          "id": "kali-history-05-temples-bhakti",
+          "title": "Temples rise, poet-saints sing",
+          "hi": null,
+          "line": "Great temple-building dynasties raise stone monuments in the south, while poet-saints sing devotional hymns to Vishnu and Shiva in Tamil.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md",
+            "heading": "## V. Classical temple & dynasty era; the rise of devotional South India"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          },
+          "art": {
+            "film": "vaishno-devi-bhairavnath",
+            "still": 3,
+            "alt": "A mountain path at dawn crowded with people walking upward, lamps and cloth against grey rock."
+          },
+          "covers": [],
+          "dates": "c. 5th–11th c. CE"
+        },
+        {
+          "id": "kali-history-06-acharyas",
+          "title": "The great philosopher-teachers",
+          "hi": null,
+          "line": "Shankara, Ramanuja and Madhva each found their own school of Vedanta, arguing over how the soul and God are related.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md",
+            "heading": "## VI. The Acharyas (Vedanta founders) — note the traditional/scholarly date gap"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": "c. 700–1317 CE",
+          "glyph": "lotus"
+        },
+        {
+          "id": "kali-history-07-bhakti-sants",
+          "title": "Poet-saints of devotion",
+          "hi": null,
+          "line": "Kabir, Mirabai, Tulsidas and Guru Nanak spread passionate devotion to God in everyday language across northern India.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md",
+            "heading": "## VII. The Bhakti & Sant movement (north India, 14th–17th c.)"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": "14th–17th c. CE",
+          "glyph": "flame"
+        },
+        {
+          "id": "kali-history-08-early-modern",
+          "title": "Empires, gurus and Shivaji",
+          "hi": null,
+          "line": "Mughal rulers alternately patronize and destroy temples while Shivaji builds a Hindu kingdom in the west and the Sikh Gurus lead in the north.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md",
+            "heading": "## VIII. Late-medieval & early modern (16th–18th c.)"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": "16th–18th c. CE",
+          "glyph": "spire"
+        },
+        {
+          "id": "kali-history-09-reform",
+          "title": "Reformers and a Hindu renaissance",
+          "hi": null,
+          "line": "Ram Mohan Roy, Dayananda Saraswati and Vivekananda reshape Hindu thought for the modern world and carry it to a world stage in Chicago.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md",
+            "heading": "## IX. Colonial-era reform & the \"Hindu Renaissance\" (19th–early 20th c.)"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": "1828–1902 CE",
+          "glyph": "sun"
+        },
+        {
+          "id": "kali-history-10-modern",
+          "title": "Hinduism in the modern world",
+          "hi": null,
+          "line": "Gandhi reinterprets the Gita as a call to nonviolence, and gurus carry yoga and Vedanta to a global audience through the twentieth century.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md",
+            "heading": "## X. Modern & contemporary Hinduism (20th–21st c.)"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": "20th–21st c. CE",
+          "glyph": "conch"
+        }
+      ]
+    },
+    {
+      "slug": "future-manvantaras",
+      "chapters": [
+        {
+          "id": "future-kalki-dawn",
+          "title": "Kalki clears the way",
+          "hi": null,
+          "line": "Once Kalki has destroyed the wicked, the minds of everyone left turn naturally pure, and they become the first people of the next golden age.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md",
+            "heading": "The dawn of the new age"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "flame"
+        },
+        {
+          "id": "future-satya-returns",
+          "title": "Only the end of Kali",
+          "hi": null,
+          "line": "Finishing this Kali Yuga only completes one quarter-turn of the wheel: forty-three more Mahayugas remain before this Manvantara itself is done.",
+          "source": {
+            "file": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md",
+            "heading": "Not a universal pralaya"
+          },
+          "stories": [
+            "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "wheel"
+        },
+        {
+          "id": "future-seven-manus",
+          "title": "Seven Manus still to come",
+          "hi": null,
+          "line": "After ours, seven more Manus will each rule their own long age, the last of them named Indra-savarni, before this Day of Brahma ends.",
+          "source": {
+            "file": "01-manvantaras/README.md",
+            "heading": "## Master Index — All 14 Manvantaras"
+          },
+          "stories": [
+            "/manvantaras/manvantara-08-savarni/",
+            "/manvantaras/manvantara-09-daksha-savarni/",
+            "/manvantaras/manvantara-10-brahma-savarni/",
+            "/manvantaras/manvantara-11-dharma-savarni/",
+            "/manvantaras/manvantara-12-rudra-savarni/",
+            "/manvantaras/manvantara-13-deva-savarni/",
+            "/manvantaras/manvantara-14-indra-savarni/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/manvantaras/manvantara-08-savarni/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "gate"
+        },
+        {
+          "id": "future-night-of-brahma",
+          "title": "The Night of Brahma falls",
+          "hi": null,
+          "line": "When all fourteen Manus have ruled, fire and flood destroy the lower worlds and Brahma sleeps through a night as long as his day.",
+          "source": {
+            "file": "00-time-and-cosmology/kalpa-and-pralaya.md",
+            "heading": "### At Naimittika Pralaya (Night of Brahmā)"
+          },
+          "stories": [
+            "/cosmology/kalpa-and-pralaya/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/cosmology/kalpa-and-pralaya/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "crescent"
+        },
+        {
+          "id": "future-next-dawn",
+          "title": "The next dawn always comes",
+          "hi": null,
+          "line": "Even after Brahma's whole hundred-year life ends in total dissolution, tradition holds that time is beginningless and endless, and a new Brahma always follows.",
+          "source": {
+            "file": "00-time-and-cosmology/brahma-lifetime.md",
+            "heading": "What comes after:"
+          },
+          "stories": [
+            "/cosmology/brahma-lifetime/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/cosmology/brahma-lifetime/"
+          },
+          "art": null,
+          "covers": [],
+          "dates": null,
+          "glyph": "sun"
+        }
+      ]
+    },
+    {
+      "slug": "cross-yuga",
+      "chapters": [
+        {
+          "id": "cross-jaya-vijaya",
+          "title": "The doorkeepers' three lives",
+          "hi": null,
+          "line": "Two gatekeepers of heaven choose three quick lives as Vishnu's enemies over seven slow ones as devotees, and each life forces him to descend.",
+          "source": {
+            "file": "04-deep-dives/jaya-vijaya.md",
+            "heading": "## The three births — one curse across three yugas"
+          },
+          "stories": [
+            "/stories/jaya-vijaya/",
+            "/deities/dashavatara/"
+          ],
+          "films": [
+            "seventh-gate"
+          ],
+          "hero": {
+            "route": "/stories/jaya-vijaya/"
+          },
+          "art": {
+            "film": "seventh-gate",
+            "still": 0
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "cross-mahishasura",
+          "title": "The gods create Durga",
+          "hi": null,
+          "line": "When a buffalo-demon defeats every god, they pour their light together into one being: the goddess Durga, who alone can stop him.",
+          "source": {
+            "file": "02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md",
+            "heading": "## 5. Madhyama Carita — Mahiṣāsura-mardinī (ch. 2–4)"
+          },
+          "stories": [
+            "/deities/devi-mahatmya-and-the-great-goddess/"
+          ],
+          "films": [
+            "mahishasura"
+          ],
+          "hero": {
+            "route": "/deities/devi-mahatmya-and-the-great-goddess/"
+          },
+          "art": {
+            "film": "mahishasura",
+            "still": 0
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "cross-raktabija",
+          "title": "Kali licks up every drop",
+          "hi": null,
+          "line": "A demon who multiplies from every drop of his own spilled blood is finally stopped when Kali licks up each drop before it touches ground.",
+          "source": {
+            "file": "02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md",
+            "heading": "### The Mātṛkās & Raktabīja (ch. 8)"
+          },
+          "stories": [
+            "/deities/devi-mahatmya-and-the-great-goddess/"
+          ],
+          "films": [
+            "raktabija"
+          ],
+          "hero": {
+            "route": "/deities/devi-mahatmya-and-the-great-goddess/"
+          },
+          "art": {
+            "film": "raktabija",
+            "still": 1
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "cross-kama-dahana",
+          "title": "Shiva burns desire to ash",
+          "hi": null,
+          "line": "The gods send Kama, god of desire, to wake grieving Shiva's love for Parvati; Shiva burns him to ash with a glance, then relents.",
+          "source": {
+            "file": "02-deities-and-cosmic-hierarchy/kamadeva-and-minor-deities.md",
+            "heading": "### The burning of Kāma and his rebirth as Pradyumna"
+          },
+          "stories": [
+            "/deities/kamadeva-and-minor-deities/"
+          ],
+          "films": [
+            "kamadahana"
+          ],
+          "hero": {
+            "route": "/deities/kamadeva-and-minor-deities/"
+          },
+          "art": {
+            "film": "kamadahana",
+            "still": 1
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "cross-ganesha-kartikeya",
+          "title": "The brothers race the world",
+          "hi": null,
+          "line": "Ganesha and Kartikeya compete to see who can circle the world first; Ganesha wins by simply walking around his own parents.",
+          "source": {
+            "file": "02-deities-and-cosmic-hierarchy/ganesha-and-kartikeya.md",
+            "heading": "### The race around the parents (vs Kārtikeya)"
+          },
+          "stories": [
+            "/deities/ganesha-and-kartikeya/",
+            "/stories/tarakasura-vadha/"
+          ],
+          "films": [
+            "ganesha",
+            "ganesha-vs-kartikeya",
+            "kartikeya"
+          ],
+          "hero": {
+            "route": "/deities/ganesha-and-kartikeya/"
+          },
+          "art": {
+            "film": "ganesha-vs-kartikeya",
+            "still": 0
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "cross-markandeya",
+          "title": "The boy who outlived time",
+          "hi": null,
+          "line": "Granted a short but limitless life, the sage Markandeya survives the dissolution of the entire universe and sees the infant form of God floating on the flood.",
+          "source": {
+            "file": "04-deep-dives/markandeya.md",
+            "heading": "## 4. The Pralaya Vision — Bāla-Mukunda on the banyan leaf"
+          },
+          "stories": [
+            "/stories/markandeya/",
+            "/stories/indradyumna-akupara-oldest-beings/"
+          ],
+          "films": [
+            "markandeya",
+            "origin-of-jagannath"
+          ],
+          "hero": {
+            "route": "/stories/markandeya/"
+          },
+          "art": {
+            "film": "markandeya",
+            "still": 2
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "cross-savitri",
+          "title": "Savitri argues with Death",
+          "hi": null,
+          "line": "When Death comes to take her husband, Savitri follows him on foot, out-argues him with clever boons, and wins her husband's life back.",
+          "source": {
+            "file": "04-deep-dives/savitri-satyavan.md",
+            "heading": "## The dialectical duel — the five boons"
+          },
+          "stories": [
+            "/stories/savitri-satyavan/"
+          ],
+          "films": [
+            "savitri"
+          ],
+          "hero": {
+            "route": "/stories/savitri-satyavan/"
+          },
+          "art": {
+            "film": "savitri",
+            "still": 0
+          },
+          "covers": [],
+          "dates": null
+        },
+        {
+          "id": "cross-devasura-wars",
+          "title": "Gods and demons at war",
+          "hi": null,
+          "line": "One Purana counts twelve separate wars between gods and demons, a rivalry so constant the texts treat it as the engine of history itself.",
+          "source": {
+            "file": "08-beings-and-bestiary/twelve-devasura-battles.md",
+            "heading": "## The Twelve Wars, one by one"
+          },
+          "stories": [
+            "/beings/twelve-devasura-battles/",
+            "/deities/devas-asuras-and-the-lokas/"
+          ],
+          "films": [],
+          "hero": {
+            "route": "/beings/twelve-devasura-battles/"
+          },
+          "art": {
+            "film": "tripura",
+            "still": 0,
+            "alt": "A fortress of gold riding in an empty sky — power built to be unreachable."
+          },
+          "covers": [],
+          "dates": null
+        }
+      ]
+    }
+  ]
+}

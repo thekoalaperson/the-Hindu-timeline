@@ -1,0 +1,323 @@
+---
+/**
+ * The search panel — one markup, two homes: the search sheet (every inner
+ * page) and /search/. An underscore-prefixed file inside src/pages/ is not a
+ * route; it lives here because lane S1 owns src/pages/search/** and this
+ * partial is the search page's own body, shared with the sheet.
+ *
+ * Progressive enhancement, in three layers:
+ *
+ *   no JS  — the field is a real GET form at /search/, and the six doors and
+ *            the "recently" block below are ordinary links. Nothing is hidden
+ *            behind a script that never runs.
+ *   JS     — src/lib/search-client.ts takes over on mount: results as you
+ *            type, the pinned direct answer first, arrow keys / Enter / Esc,
+ *            recent searches from localStorage.
+ *   index  — Pagefind's WASM is fetched at the first focus, not on page load.
+ *
+ * The panel deliberately does *not* carry the old `[data-search-panel]`
+ * attribute: the shell script in ShellScript.astro binds to that, and two
+ * engines on one field would render twice. It keeps `[data-search-input]`,
+ * which is what the shell uses to focus the field when the sheet opens and to
+ * answer the "/" shortcut.
+ */
+import Icon from '../../components/Icon.astro';
+import { nodeForRoute } from '../../lib/graph.ts';
+
+interface Props {
+  id: string;
+  autofocus?: boolean;
+  /** True on /search/, where `?q=` is a shareable search. */
+  urlQuery?: boolean;
+}
+const { id, autofocus = false, urlQuery = false } = Astro.props;
+
+/* Six doors for the empty state — pinned entry points, chosen to be the six
+   things a first-time visitor is most likely to have come for. Titles come
+   from the graph so a corpus rename cannot leave a stale label here. */
+const DOORS: Array<{ route: string; label?: string }> = [
+  { route: '/stories/ramayana/', label: 'The Rāmāyaṇa' },
+  { route: '/stories/mahabharata/', label: 'The Mahābhārata' },
+  { route: '/stories/krishna-lila/', label: 'Kṛṣṇa' },
+  { route: '/deities/shiva-myth-cycle/', label: 'Śiva' },
+  { route: '/stories/bhagavad-gita/', label: 'The Bhagavad Gītā' },
+  { route: '/cosmology/yugas-and-mahayuga/', label: 'The four yugas' },
+];
+const doors = DOORS.map((d) => {
+  const node = nodeForRoute(d.route);
+  const title = d.label ?? (node?.title ?? d.route).split(' — ')[0];
+  return { route: d.route, title, section: node?.sectionLabel ?? '' };
+});
+---
+
+<div class="search-panel search2" data-search2 data-search-id={id} data-search-url-query={urlQuery ? 'yes' : 'no'}>
+  <form class="search-field" role="search" action="/search/" method="get">
+    <Icon name="search" size={18} />
+    <input
+      class="search-input"
+      type="search"
+      id={`${id}-input`}
+      name="q"
+      data-search-input
+      placeholder="Search for a god, a story, a place"
+      autocomplete="off"
+      autocorrect="off"
+      autocapitalize="off"
+      spellcheck="false"
+      enterkeyhint="search"
+      role="combobox"
+      aria-expanded="false"
+      aria-controls={`${id}-live`}
+      aria-label="Search the manuscript"
+      autofocus={autofocus || undefined}
+    />
+    <button class="search-go" type="submit">Search</button>
+  </form>
+
+  <div class="search-live" id={`${id}-live`} data-search-live hidden>
+    <p class="search-status" data-search-status role="status" aria-live="polite"></p>
+    <div data-search-pins></div>
+    <div data-search-results></div>
+  </div>
+
+  <div class="search-empty" data-search-empty>
+    <div class="search-recent" data-search-recent hidden>
+      <div class="search-recent-head">
+        <h3 class="search-kicker">Recently</h3>
+        <button type="button" class="link-button" data-search-clear>Clear</button>
+      </div>
+      <ul class="search-recent-list" data-search-recent-list></ul>
+    </div>
+
+    <h3 class="search-kicker">Start anywhere</h3>
+    <ul class="search-doors">
+      {
+        doors.map((d) => (
+          <li>
+            <a class="search-door" href={d.route}>
+              <span class="door-title">{d.title}</span>
+              <span class="door-section">{d.section}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</div>
+
+<script>
+  import { mountAllSearch } from '../../lib/search-client.ts';
+  mountAllSearch();
+</script>
+
+<style>
+  /* The go button only matters without JavaScript; with JS the panel answers
+     as you type, so it is a visually-hidden submit that keeps the form real
+     and keyboard-reachable. */
+  .search-go {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+  }
+  .search-go:focus-visible {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    clip-path: none;
+    padding: 0.2rem 0.7rem;
+    border: var(--hair) solid var(--rule-strong);
+    border-radius: 999px;
+    background: none;
+    color: var(--ink);
+    font: inherit;
+    font-size: var(--t-xs);
+  }
+  .search-field {
+    margin: 0;
+  }
+
+  .search-kicker {
+    font-size: var(--t-xs);
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--rubric);
+    margin: 0 0 0.5rem;
+  }
+
+  /* ------------------------------------------------------ direct answers - */
+
+  .search-panel :global(.pin-block) {
+    margin: 0 0 var(--gap-4);
+  }
+  .search-panel :global(.pin-kicker) {
+    font-size: var(--t-xs);
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--rubric);
+    margin: 0 0 0.4rem;
+  }
+  .search-panel :global(.pin-card) {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+    text-decoration: none;
+    color: var(--ink);
+    border: var(--hair) solid var(--rule-strong);
+    border-radius: 3px;
+    margin-bottom: 0.5rem;
+    background: color-mix(in oklab, var(--gold) 7%, transparent);
+    min-height: 56px;
+  }
+  .search-panel :global(.pin-card:hover),
+  .search-panel :global(.pin-card.is-active) {
+    border-color: var(--rubric);
+  }
+  /* The whole 16:9 still, not a tall slice of it — a crop this narrow reads as
+     texture rather than as a picture of anything. */
+  .search-panel :global(.pin-art) {
+    flex: 0 0 112px;
+    display: block;
+    padding: 0.55rem 0 0.55rem 0.55rem;
+  }
+  .search-panel :global(.pin-art img) {
+    width: 112px;
+    height: 63px;
+    object-fit: cover;
+    display: block;
+    border-radius: 2px;
+  }
+  .search-panel :global(.pin-text) {
+    display: block;
+    padding: 0.6rem 0.75rem;
+    min-width: 0;
+  }
+  .search-panel :global(.pin-title) {
+    display: block;
+    font-weight: 600;
+    font-size: var(--t-md);
+    line-height: 1.2;
+  }
+  .search-panel :global(.pin-line) {
+    display: block;
+    color: var(--ink-2);
+    font-size: var(--t-sm);
+    line-height: 1.4;
+    margin-top: 0.2rem;
+  }
+  .search-panel :global(.pin-section) {
+    display: block;
+    font-size: var(--t-xs);
+    letter-spacing: 0.04em;
+    color: var(--ink-2);
+    margin-top: 0.3rem;
+  }
+  .search-panel :global(.search-more-kicker) {
+    font-size: var(--t-xs);
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    margin: 0 0 0.2rem;
+  }
+
+  /* ------------------------------------------------------ ranked results - */
+
+  .search-panel :global(.search-result a) {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+  .search-panel :global(.search-result a.is-active) {
+    outline: 2px solid var(--rubric);
+    outline-offset: 2px;
+  }
+  .search-panel :global(.sr-thumb) {
+    flex: 0 0 72px;
+    margin-top: 0.15rem;
+  }
+  .search-panel :global(.sr-thumb img) {
+    width: 72px;
+    height: 41px;
+    object-fit: cover;
+    display: block;
+    border-radius: 2px;
+  }
+  .search-panel :global(.sr-text) {
+    min-width: 0;
+  }
+
+  /* --------------------------------------------------------- empty state - */
+
+  .search-empty {
+    margin-top: var(--gap-3);
+  }
+  .search-recent {
+    margin-bottom: var(--gap-4);
+  }
+  .search-recent-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.6rem;
+  }
+  .link-button {
+    border: 0;
+    background: none;
+    color: var(--ink-2);
+    font: inherit;
+    font-size: var(--t-xs);
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0.2rem;
+  }
+  .search-recent-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .search-doors {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr));
+    gap: 0.5rem;
+  }
+  .search-door {
+    display: block;
+    padding: 0.6rem 0.75rem;
+    border: var(--hair) solid var(--rule);
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--ink);
+    min-height: 44px;
+  }
+  .search-door:hover {
+    border-color: var(--rubric);
+  }
+  .door-title {
+    display: block;
+    font-weight: 600;
+    font-size: var(--t-base);
+    line-height: 1.2;
+  }
+  .door-section {
+    display: block;
+    font-size: var(--t-xs);
+    letter-spacing: 0.04em;
+    color: var(--ink-2);
+    margin-top: 0.15rem;
+  }
+</style>

@@ -1,0 +1,558 @@
+/* clock.css — the Cosmic Clock.
+ *
+ * Consumes the site's tokens (DESIGN-BRIEF §2) and never defines them, except as
+ * `var(--token, fallback)` fallbacks so the component also renders correctly on a
+ * page that has not loaded the design system yet.
+ *
+ * Tokens read: --paper --paper-2 --ink --ink-2 --rubric --gold --rule --link
+ *              --yuga-satya --yuga-treta --yuga-dvapara --yuga-kali (+ *-on)
+ *              --period-before --period-earlier --period-future --period-cross
+ * Token written: --period  (the hue of the current selection; chips, rules and the
+ *                progress roundel elsewhere on the page pick it up)
+ */
+
+.cclock {
+  /* Fallbacks mirror DESIGN-BRIEF §2 exactly. */
+  --cc-paper: var(--paper, #f4eedd);
+  --cc-paper-2: var(--paper-2, #ede4cc);
+  --cc-ink: var(--ink, #241c15);
+  --cc-ink-2: var(--ink-2, #5b4f3f);
+  --cc-rubric: var(--rubric, #a8342a);
+  --cc-gold: var(--gold, #96742e);
+  --cc-rule: var(--rule, #d6c7a1);
+  --cc-link: var(--link, #2e4066);
+
+  /* Yuga fills — the large-area grade the site publishes for surfaces. */
+  --cc-satya: var(--yuga-satya-fill, #fbf8f0);
+  --cc-treta: var(--yuga-treta, #9c4a1c);
+  --cc-dvapara: var(--yuga-dvapara, #3b4a7a);
+  --cc-kali: var(--yuga-kali, #8a6a2a);
+  /* Ink drawn on top of those fills. --paper flips with the theme, and so do the
+     fills, so paper-on-fill is legible in both without a second set of tokens. */
+  --cc-satya-on: var(--ink, #241c15);
+  --cc-treta-on: var(--paper, #f4eedd);
+  --cc-dvapara-on: var(--paper, #f4eedd);
+  --cc-kali-on: var(--paper, #f4eedd);
+
+  --cc-before: var(--period-before, #7a7568);
+  --cc-earlier: var(--period-earlier, #8e897b);
+  --cc-future: var(--period-future, #2e4066);
+  --cc-cross: var(--period-cross, #5b4f3f);
+
+  /* Motion, DESIGN-BRIEF §4. */
+  --cc-ease: var(--ease-out-quint, cubic-bezier(0.22, 1, 0.36, 1));
+  --cc-zoom: var(--dur-ring, 320ms);
+  --cc-intro: 900ms;
+
+  /* The page accent follows the selection: the component writes `data-period` and
+     an inline `--period` on its root, so the site's [data-period] rules and this
+     component agree on the hue whether or not tokens.css is loaded. */
+
+  display: block;
+  color: var(--cc-ink);
+  font-family: inherit;
+  container-type: inline-size;
+}
+
+/* ── breadcrumb ─────────────────────────────────────────────────────────── */
+
+.cclock__crumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.15em;
+  margin: 0 0 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.35;
+}
+.cclock__crumb {
+  appearance: none;
+  background: none;
+  border: 0;
+  padding: 0.35em 0.2em;
+  margin: 0;
+  font: inherit;
+  color: var(--cc-ink-2);
+  cursor: pointer;
+  border-radius: 2px;
+}
+.cclock__crumb:hover { color: var(--cc-link); }
+.cclock__crumb[aria-current='true'] { color: var(--cc-rubric); }
+.cclock__sep {
+  color: var(--cc-rule);
+  user-select: none;
+}
+
+/* ── stage ──────────────────────────────────────────────────────────────── */
+
+.cclock__stage {
+  position: relative;
+  width: 100%;
+  margin-inline: auto;
+}
+.cclock__svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  font-family: inherit;
+  touch-action: manipulation;
+}
+.cclock text {
+  font-variant-numeric: lining-nums tabular-nums;
+  paint-order: stroke fill;
+}
+
+/* ── the dial: one uniform scale is the whole zoom ───────────────────────── */
+
+.cclock__dial,
+.cclock__ring {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+}
+.cclock__dial.is-animating {
+  transition:
+    transform var(--cc-zoom) var(--cc-ease),
+    opacity var(--cc-zoom) var(--cc-ease);
+}
+.cclock__ring {
+  transition: transform var(--cc-zoom) var(--cc-ease);
+}
+
+/* ── rings ──────────────────────────────────────────────────────────────── */
+
+/* tone modifiers sit on the same element as .cc-shape */
+.cc-shape {
+  vector-effect: non-scaling-stroke;
+  stroke-width: 1;
+  stroke: var(--cc-rule);
+  fill: var(--cc-paper);
+  pointer-events: none;
+}
+.cc-shape.is-past {
+  fill: var(--cc-paper-2);
+  fill: color-mix(in srgb, var(--cc-earlier) 15%, var(--cc-paper));
+}
+.cc-shape.is-future {
+  fill: var(--cc-paper);
+  fill: color-mix(in srgb, var(--cc-future) 5%, var(--cc-paper));
+  stroke-dasharray: 3 3;
+}
+.cc-shape.is-current {
+  fill: color-mix(in srgb, var(--period) 18%, var(--cc-paper));
+  stroke: var(--cc-gold);
+}
+/* a hue given by the data (the yugas, the period tones) wins over the tone fill */
+.cc-shape.is-hue {
+  fill: var(--cc-hue);
+  stroke: color-mix(in srgb, var(--cc-ink) 45%, var(--cc-hue));
+  stroke-dasharray: none;
+}
+.cc-shape.is-hue.is-future {
+  stroke-dasharray: 3 3;
+}
+.cc-shape.is-hue.is-current {
+  stroke: var(--cc-gold);
+  stroke-width: 1.75;
+}
+/* the period ring: a wash of the period hue, so its long names stay ink */
+.cc-shape.is-tint {
+  fill: color-mix(in srgb, var(--cc-hue) 20%, var(--cc-paper));
+  stroke: color-mix(in srgb, var(--cc-hue) 70%, var(--cc-paper));
+  stroke-width: 1.25;
+}
+
+.cc-wedge__hit {
+  fill: transparent;
+  stroke: none;
+  cursor: pointer;
+}
+.cc-wedge--inert .cc-wedge__hit { cursor: default; }
+
+.cc-wedge__label {
+  fill: var(--cc-ink-2);
+  pointer-events: none;
+}
+.cc-wedge__label--current {
+  fill: var(--cc-ink);
+  font-weight: 500;
+}
+.cc-wedge__sub {
+  fill: var(--cc-ink-2);
+  font-size: 0.82em;
+  font-weight: 400;
+}
+
+/* focus is drawn, not outlined: SVG outlines clip badly in Safari */
+.cc-wedge:focus { outline: none; }
+.cc-wedge__focus {
+  fill: none;
+  stroke: var(--cc-link);
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+  opacity: 0;
+  pointer-events: none;
+}
+.cc-wedge:focus-visible .cc-wedge__focus { opacity: 1; }
+@media (hover: hover) {
+  .cc-wedge:hover .cc-wedge__hit {
+    fill: color-mix(in srgb, var(--cc-ink) 6%, transparent);
+  }
+  .cc-wedge--inert:hover .cc-wedge__hit { fill: transparent; }
+}
+
+/* fine gauges: one stroked arc, dashed into ticks */
+.cc-ticks {
+  fill: none;
+  stroke: var(--cc-rule);
+  stroke-linecap: butt;
+  pointer-events: none;
+}
+.cc-gauge,
+.cc-needle {
+  pointer-events: none;
+}
+.cc-ticks--past { stroke: color-mix(in srgb, var(--cc-ink-2) 55%, transparent); }
+.cc-ticks--future {
+  stroke: color-mix(in srgb, var(--cc-rule) 85%, transparent);
+}
+.cc-ticks--current { stroke: var(--cc-gold); }
+
+/* ── the elapsed roundel (the string-hole ring) ──────────────────────────── */
+
+.cc-gauge__track {
+  fill: none;
+  stroke: var(--cc-rule);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.8;
+}
+.cc-gauge__ink {
+  fill: none;
+  stroke: var(--period);
+  stroke-width: 3;
+  vector-effect: non-scaling-stroke;
+  stroke-linecap: butt;
+}
+
+/* ── the needle ─────────────────────────────────────────────────────────── */
+
+.cc-needle {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+}
+/* a paper halo under the needle, so one hairline reads over every fill it crosses */
+.cc-needle__halo {
+  stroke: var(--cc-paper);
+  stroke-width: 3.25;
+  vector-effect: non-scaling-stroke;
+  fill: none;
+  opacity: 0.5;
+}
+.cc-needle--off .cc-needle__halo { opacity: 0.45; }
+.cc-needle__line {
+  stroke: var(--cc-rubric);
+  stroke-width: 1.5;
+  vector-effect: non-scaling-stroke;
+  fill: none;
+}
+.cc-needle__tip { fill: var(--cc-rubric); }
+.cc-needle--off .cc-needle__line {
+  stroke: var(--cc-ink-2);
+  stroke-dasharray: 4 4;
+  opacity: 0.55;
+}
+.cc-needle--off .cc-needle__tip {
+  fill: var(--cc-ink-2);
+  opacity: 0.55;
+}
+
+/* ── the core ───────────────────────────────────────────────────────────── */
+
+.cc-core__disc {
+  fill: var(--cc-paper);
+  stroke: var(--cc-rule);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+.cc-core__rule {
+  fill: none;
+  stroke: var(--period);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.75;
+}
+.cc-core[data-interactive='true'] .cc-core__disc { cursor: pointer; }
+.cc-core:focus { outline: none; }
+.cc-core:focus-visible .cc-core__disc {
+  stroke: var(--cc-link);
+  stroke-width: 2;
+}
+@media (hover: hover) {
+  .cc-core[data-interactive='true']:hover .cc-core__disc {
+    fill: var(--cc-paper-2);
+  }
+}
+.cc-core__l1 { fill: var(--cc-ink); }
+.cc-core__l2 { fill: var(--cc-ink-2); }
+.cc-core__l3 { fill: var(--cc-ink-2); }
+.cc-core__hint { fill: var(--cc-ink-2); opacity: 0.75; }
+.cc-core text { pointer-events: none; }
+
+/* ── the one orchestrated moment (DESIGN-BRIEF §4) ───────────────────────── */
+
+.cclock[data-intro='true'] .cclock__dial {
+  animation: cc-settle var(--cc-intro) var(--cc-ease) both;
+}
+.cclock[data-intro='true'] .cc-needle {
+  animation: cc-needle var(--cc-intro) var(--cc-ease) both;
+}
+.cclock[data-intro='true'] .cc-gauge__ink {
+  animation: cc-ink var(--cc-intro) var(--cc-ease) both;
+}
+.cclock[data-intro='true'] .cc-shape.is-current {
+  animation: cc-fade var(--cc-intro) var(--cc-ease) both;
+}
+@keyframes cc-settle {
+  from { transform: rotate(5.5deg); }
+  to { transform: rotate(0deg); }
+}
+@keyframes cc-needle {
+  from { transform: scaleY(0.04); opacity: 0; }
+  55% { opacity: 1; }
+  to { transform: scaleY(1); opacity: 1; }
+}
+@keyframes cc-ink {
+  from { stroke-dashoffset: var(--cc-ink-len); }
+  to { stroke-dashoffset: 0; }
+}
+@keyframes cc-fade {
+  from { opacity: 0; }
+  60% { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ── text under the dial ────────────────────────────────────────────────── */
+
+.cclock__address {
+  margin: 0.9rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 0.55em;
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  color: var(--cc-ink-2);
+}
+.cclock__address b {
+  font-weight: 500;
+  color: var(--cc-ink);
+}
+.cclock__address .cc-tick-rule {
+  display: inline-block;
+  width: 1px;
+  height: 0.85em;
+  background: var(--cc-rule);
+  vertical-align: -0.08em;
+}
+
+.cclock__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+.cclock__btn {
+  appearance: none;
+  font: inherit;
+  font-size: 0.875rem;
+  color: var(--cc-link);
+  background: none;
+  border: 1px solid var(--cc-rule);
+  border-radius: 2px;
+  padding: 0.4em 0.7em;
+  min-height: 44px;
+  cursor: pointer;
+}
+.cclock__btn:hover { border-color: var(--cc-link); }
+.cclock__btn:focus-visible {
+  outline: 2px solid var(--cc-link);
+  outline-offset: 2px;
+}
+
+/*
+ * One legend row is one phrase — "Dvāpara 864,000 yr · 2 parts" — and it must
+ * break between rows, never inside one. At 360px the old 8.5rem track still
+ * fitted two columns, so every row wrapped after the middot and the legend read
+ * as eight half-lines. The track is now wide enough to hold a whole row, so
+ * auto-fit drops to a single column on a narrow phone and the row stays whole.
+ */
+.cclock__legend {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: 0.3rem 1rem;
+  font-size: 0.8125rem;
+  color: var(--cc-ink-2);
+}
+.cclock__legend li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45em;
+  white-space: nowrap;
+}
+.cclock__swatch {
+  flex: none;
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 50%;
+  background: var(--cc-sw);
+  border: 1px solid color-mix(in srgb, var(--cc-ink) 32%, var(--cc-sw));
+  transform: translateY(0.03em);
+}
+.cclock__legend b {
+  font-weight: 500;
+  color: var(--cc-ink);
+}
+.cclock__legend span { font-variant-numeric: lining-nums tabular-nums; }
+
+.cclock__foot {
+  margin: 0.85rem 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--cc-ink-2);
+  max-width: 46rem;
+}
+.cclock__foot a {
+  color: var(--cc-link);
+  text-underline-offset: 0.15em;
+}
+.cclock__foot + .cclock__foot { margin-top: 0.4rem; }
+
+/* the two periods that hang off no point on the dial */
+.cclock__offdial {
+  margin: 0.5rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  font-size: 0.8125rem;
+}
+.cclock__offdial a { color: var(--cc-link); }
+
+.cclock__sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ── hero mode is quieter ───────────────────────────────────────────────── */
+
+.cclock--hero .cclock__legend,
+.cclock--hero .cclock__crumbs {
+  display: none;
+}
+
+/* ── the "you are here" mark ────────────────────────────────────────────── */
+
+.clockmark {
+  display: inline-block;
+  vertical-align: -0.15em;
+  flex: none;
+}
+.clockmark__ring {
+  fill: none;
+  stroke: var(--gold, #96742e);
+}
+.clockmark__arc,
+.clockmark__accent {
+  fill: none;
+  stroke: var(--period, var(--gold, #96742e));
+}
+.clockmark__needle { stroke: var(--rubric, #a8342a); }
+.clockmark__boss { fill: var(--rubric, #a8342a); }
+/* Sigil shimmer (DESIGN-BRIEF §4): one highlight sweep, on hover or focus only. */
+.clockmark__shimmer {
+  stroke: var(--gold, #96742e);
+  opacity: 0;
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  a:hover > .clockmark .clockmark__shimmer,
+  button:hover > .clockmark .clockmark__shimmer,
+  a:focus-visible > .clockmark .clockmark__shimmer,
+  button:focus-visible > .clockmark .clockmark__shimmer {
+    animation: cm-shimmer 720ms var(--ease-out-quint, cubic-bezier(0.22, 1, 0.36, 1)) 1;
+  }
+}
+@keyframes cm-shimmer {
+  from {
+    opacity: 0.85;
+    transform: rotate(-40deg);
+  }
+  to {
+    opacity: 0;
+    transform: rotate(320deg);
+  }
+}
+
+/* Dark mode: the Satya token that carries a *surface* there is a 9% wash, too faint
+   for an arc on the dial, so the dial takes the solid grade instead. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .cclock {
+    --cc-satya: var(--yuga-satya, #b3ad9a);
+    --cc-satya-on: var(--paper, #14181f);
+  }
+}
+:root[data-theme='dark'] .cclock {
+  --cc-satya: var(--yuga-satya, #b3ad9a);
+  --cc-satya-on: var(--paper, #14181f);
+}
+
+/* ── reduced motion: everything is instant (DESIGN-BRIEF §4, §6) ─────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  .cclock *,
+  .cclock *::before,
+  .cclock *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+[data-reduce-motion='true'] .cclock *,
+.cclock[data-reduce-motion='true'] * {
+  transition-duration: 0.01ms !important;
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+}
+
+/* ── dark mode: the lamp breathes on the gold, nothing else ─────────────── */
+
+@media (prefers-reduced-motion: no-preference) {
+  [data-theme='dark'] .cclock .cc-needle__tip,
+  [data-theme='dark'] .cclock .cc-ticks--current {
+    animation: cc-lamp 7.3s ease-in-out infinite alternate;
+  }
+  [data-theme='dark'] .cclock .cc-gauge__ink {
+    animation: cc-lamp-2 11.1s ease-in-out infinite alternate;
+  }
+}
+@keyframes cc-lamp {
+  from { opacity: 0.97; }
+  to { opacity: 1; }
+}
+@keyframes cc-lamp-2 {
+  from { opacity: 0.97; }
+  to { opacity: 1; }
+}

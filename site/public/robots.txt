@@ -1,0 +1,7 @@
+# The Hindu Timeline — a static manuscript. Everything here is public and
+# meant to be read, indexed and quoted; every claim carries its source.
+User-agent: *
+Allow: /
+
+# `public/media/` holds derived film stills and posters. They are part of the
+# pages, not a separate archive.

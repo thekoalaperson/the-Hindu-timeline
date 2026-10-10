@@ -1,0 +1,165 @@
+---
+/**
+ * /clock/ — the instrument, then the nine periods as pothi leaves.
+ * `#cosmic-clock-island` is lane I3's mount point; everything under it works
+ * without JavaScript.
+ */
+import { getEntry, render } from 'astro:content';
+import CosmicClock from '../../components/clock/CosmicClock.tsx';
+import { kaliYearOrdinal, kaliYearsCompleted } from '../../components/clock/clock-model.ts';
+import PageArt from '../../components/PageArt.astro';
+import ScaleBars from '../../components/scale/ScaleBars.astro';
+import { plateForSection } from '../../components/art.ts';
+import Base from '../../layouts/Base.astro';
+import periods from '../../generated/periods.json';
+import { nodeFor, stats } from '../../lib/graph.ts';
+
+const entry = await getEntry('corpus', 'TIMELINE.md');
+if (!entry) throw new Error('TIMELINE.md is missing from the corpus collection.');
+const node = nodeFor('TIMELINE.md')!;
+const { Content } = await render(entry);
+
+/* Not `node.title`. TIMELINE.md's H1 is the repo's own file heading —
+   "TIMELINE — The Cosmic-Clock Index (hub)" — which is a filename read aloud.
+   The page is called what its H1, its breadcrumb and the bottom bar call it. */
+const pageTitle = 'The Cosmic Clock';
+
+const clockState = {
+  kalpa: 'Śveta-Vārāha',
+  manvantara: 7,
+  manvantaraName: 'Vaivasvata',
+  mahayuga: 28,
+  yuga: 'kali',
+  yugaLabel: 'Kali Yuga',
+  yugaYears: 432000,
+};
+
+/* The one place the site states the Kali figure in prose. The corpus dates the
+   yuga's start to 3102 BCE, so at 2026 CE 5,127 whole years have run and we
+   stand in the 5,128th. `clock-model.ts` derives both from the same epoch. */
+const kaliCompleted = kaliYearsCompleted().toLocaleString('en');
+const kaliOrdinal = kaliYearOrdinal().toLocaleString('en');
+const kaliYears = clockState.yugaYears.toLocaleString('en');
+
+/* The clock's own plate: Dhruva's fixed point, the one star the ages turn
+   around (EXPERIENCE-BRIEF v3 §2). */
+const clockPlate = plateForSection('timeline');
+---
+
+<Base title={pageTitle} description={node.dek} page="clock" period="kali-yuga-scriptural">
+  <nav class="crumbs" aria-label="Breadcrumb" slot="crumbs">
+    <ol>
+      <li class="crumb crumb-current" aria-current="page">The Cosmic Clock</li>
+    </ol>
+  </nav>
+
+  <article class="page clock-page" data-pagefind-body data-route="/clock/">
+    {
+      clockPlate ? (
+        <PageArt art={clockPlate} title="The Cosmic Clock" kicker="Nine ages" period="kali-yuga-scriptural" />
+      ) : (
+        <h1 class="page-title">The Cosmic Clock</h1>
+      )
+    }
+    <p class="page-dek">
+      {stats.events.toLocaleString('en')} events across nine periods, from before time to the end of the kalpa.
+      Chronology inside a period is approximate — the texts are cyclic, not sequential.
+    </p>
+
+
+    <div
+      id="cosmic-clock-island"
+      class="clock-slot"
+      data-clock
+      data-kalpa={clockState.kalpa}
+      data-manvantara={String(clockState.manvantara)}
+      data-manvantara-name={clockState.manvantaraName}
+      data-mahayuga={String(clockState.mahayuga)}
+      data-yuga={clockState.yuga}
+      data-current-period="kali-yuga-scriptural"
+      data-periods={JSON.stringify(
+        periods.map((p) => ({ slug: p.slug, short: p.short, count: p.count, route: p.route })),
+      )}
+    >
+      <CosmicClock client:visible mode="instrument" size="fill" />
+    </div>
+
+    <p class="clock-now-note">
+      The needle stands {kaliCompleted} years into the Kali Yuga's {kaliYears} — the {kaliOrdinal}th
+      year, and about a hundredth of the shortest arc on the dial.
+    </p>
+
+
+
+    {/* The static form of the road's "How big is this?" overlay — the same six
+        levels from the same data, so the answer survives with no JavaScript. */}
+    <ScaleBars />
+
+    <h2 class="home-heading" id="periods">The nine periods</h2>
+    <ol class="leaves">
+      {
+        periods.map((p, i) => (
+          <li data-period={p.slug}>
+            <a class="leaf" href={p.route}>
+              <span class="leaf-head">
+                <span class="leaf-ordinal">{i + 1}</span>
+                <span class="leaf-title">{p.short}</span>
+                <span class="leaf-count">{p.count.toLocaleString('en')} events</span>
+              </span>
+              {p.intro && <span class="leaf-intro">{p.intro}</span>}
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+
+
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    <p class="source-link" data-pagefind-ignore>
+      <a href="https://github.com/thekoalaperson/the-Hindu-timeline/blob/main/TIMELINE.md" rel="noopener" class="ext"
+        >View the source file</a
+      >
+      <span class="source-path">TIMELINE.md</span>
+    </p>
+  </article>
+</Base>
+
+<style>
+  .ca-label {
+    display: block;
+    font-size: var(--t-xs);
+    letter-spacing: 0.05em;
+    color: var(--rubric);
+    margin-bottom: 0.4rem;
+  }
+  /* A thin rule between phrases, not a middot chain (DESIGN-BRIEF §5). */
+  .ca-sep {
+    display: inline-block;
+    width: var(--hair);
+    height: 0.8em;
+    margin: 0 0.5em;
+    vertical-align: -0.05em;
+    background: var(--rule-strong);
+  }
+  .clock-page .prose {
+    margin-top: var(--gap-6);
+  }
+  .clock-now-note {
+    margin: var(--gap-4) 0 0;
+    font-size: var(--t-sm);
+    line-height: 1.55;
+    color: var(--ink-2);
+    max-inline-size: 34rem;
+  }
+  .legend-note {
+    margin: var(--gap-4) 0 0;
+    font-size: var(--t-xs);
+    line-height: 1.5;
+    color: var(--ink-2);
+    max-inline-size: 30rem;
+  }
+</style>

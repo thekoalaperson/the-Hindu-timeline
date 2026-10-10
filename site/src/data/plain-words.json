@@ -1,0 +1,2355 @@
+{
+  "/stories/characters/draupadi/": {
+    "intro": "Draupadi is born fully grown from a sacrificial fire lit by her father King Drupada, who wanted a son to defeat his enemy Drona. She is won by Arjuna in an archery contest and becomes the wife of all five Pandava brothers. During a rigged dice game, her enemies try to strip her in public, and in the best-known telling Krishna saves her by making her sari endless.",
+    "whoIsWho": [
+      {
+        "name": "Draupadi",
+        "role": "the fire-born princess who marries all five Pandava brothers"
+      },
+      {
+        "name": "Drupada",
+        "role": "the king whose sacrifice against Drona produces her"
+      },
+      {
+        "name": "Arjuna",
+        "role": "the Pandava archer who wins her hand"
+      },
+      {
+        "name": "Krishna",
+        "role": "in the popular telling, saves her from being stripped in the assembly hall"
+      },
+      {
+        "name": "Duhshasana",
+        "role": "the Kaurava prince who drags her by the hair and tries to strip her"
+      }
+    ],
+    "whyItMatters": "Her humiliation in the assembly hall is treated in the epic as the moral turning point that makes the war between the Kauravas and Pandavas unavoidable.",
+    "source": "04-deep-dives/characters/draupadi.md"
+  },
+  "/stories/characters/drupada/": {
+    "intro": "King Drupada of Panchala breaks a boyhood promise to share his kingdom with his friend Drona, and when Drona later takes revenge by seizing half his land, Drupada holds a fire sacrifice to gain a son who can kill Drona. The sacrifice produces two children: Dhrishtadyumna, born to kill Drona, and Draupadi, born to marry the Pandavas.",
+    "whoIsWho": [
+      {
+        "name": "Drupada",
+        "role": "king of Panchala whose broken friendship with Drona sets off the feud"
+      },
+      {
+        "name": "Drona",
+        "role": "the poor priest turned Kuru teacher, once Drupada's boyhood friend"
+      },
+      {
+        "name": "Dhrishtadyumna",
+        "role": "Drupada's fire-born son, destined to kill Drona"
+      },
+      {
+        "name": "Draupadi",
+        "role": "Drupada's fire-born daughter, who marries the five Pandavas"
+      }
+    ],
+    "whyItMatters": "His pursuit of revenge through ritual sets in motion the births and alliances that lead to the war at Kurukshetra and, in the end, the destruction of his own family line.",
+    "source": "04-deep-dives/characters/drupada.md"
+  },
+  "/stories/mahabharata/01-adi-parva/": {
+    "intro": "The Adi Parva is the opening book of the Mahabharata. It tells how the Kuru royal family began, how the Kaurava and Pandava cousins were born and raised, how the Pandavas survived an attempted murder by fire, and how they won Draupadi as their shared wife and founded the city of Indraprastha.",
+    "whoIsWho": [
+      {
+        "name": "Bhishma",
+        "role": "prince who gives up the throne and takes a vow of lifelong celibacy"
+      },
+      {
+        "name": "Drona",
+        "role": "the teacher of the Kaurava and Pandava princes"
+      },
+      {
+        "name": "Draupadi",
+        "role": "the princess born from fire who becomes the shared wife of the five Pandava brothers"
+      },
+      {
+        "name": "Arjuna",
+        "role": "the Pandava archer who wins Draupadi's hand"
+      },
+      {
+        "name": "Duryodhana",
+        "role": "the eldest Kaurava prince, born amid bad omens, and rival of the Pandavas"
+      }
+    ],
+    "whyItMatters": "It lays out the family history, rivalries, and marriages that make the later war between the Kauravas and Pandavas feel inevitable.",
+    "source": "04-deep-dives/mahabharata/01-adi-parva.md"
+  },
+  "/stories/samudra-manthana/": {
+    "intro": "The gods and demons join forces to churn the cosmic ocean of milk using a mountain as a rod and a giant serpent as a rope, hoping to bring up the nectar of immortality. Many treasures rise from the ocean before the nectar itself appears, and Vishnu has to trick the demons so the gods alone drink it.",
+    "whoIsWho": [
+      {
+        "name": "Vishnu",
+        "role": "takes the form of a turtle to support the mountain, then becomes the enchantress Mohini to secure the nectar for the gods"
+      },
+      {
+        "name": "Indra",
+        "role": "king of the gods, restored to power once the gods regain the nectar"
+      },
+      {
+        "name": "Shiva",
+        "role": "swallows a deadly poison that surfaces during the churning, turning his throat blue"
+      },
+      {
+        "name": "Lakshmi",
+        "role": "goddess of fortune who rises from the ocean during the churning"
+      },
+      {
+        "name": "Bali",
+        "role": "leader of the demons in this telling"
+      }
+    ],
+    "whyItMatters": "The churning explains the origin of several major gods, sacred objects, and the ongoing rivalry between gods and demons.",
+    "source": "04-deep-dives/samudra-manthana.md"
+  },
+  "/stories/vamana-bali/": {
+    "intro": "Vishnu is born as a small brahmin dwarf named Vamana and asks Bali, a demon-king famous for never refusing a request, for just three paces of land. Bali agrees even after his teacher warns him not to, and Vamana grows into a giant who covers the earth and sky in two steps, then gently sends Bali to rule the netherworld instead of punishing him.",
+    "whoIsWho": [
+      {
+        "name": "Vamana",
+        "role": "the dwarf form Vishnu takes to approach Bali"
+      },
+      {
+        "name": "Bali",
+        "role": "the demon king who keeps his promise even when it costs him everything"
+      },
+      {
+        "name": "Shukra",
+        "role": "Bali's teacher, who warns him not to grant the gift of land"
+      },
+      {
+        "name": "Prahlada",
+        "role": "Bali's grandfather, who pleads for him"
+      }
+    ],
+    "whyItMatters": "The story became the origin legend of the Kerala harvest festival Onam, where Bali is honored as a beloved former king who returns once a year.",
+    "source": "04-deep-dives/vamana-bali.md"
+  },
+  "/stories/varaha-hiranyaksha/": {
+    "intro": "When the demon Hiranyaksha drags the earth down into the cosmic ocean, Vishnu takes the form of a giant boar named Varaha, dives in to rescue her, and fights the demon in a battle said to last a thousand years before killing him and lifting the earth back into place on his tusks.",
+    "whoIsWho": [
+      {
+        "name": "Varaha",
+        "role": "Vishnu's boar form, who rescues the earth"
+      },
+      {
+        "name": "Hiranyaksha",
+        "role": "the demon who drags the earth into the cosmic ocean"
+      },
+      {
+        "name": "Bhudevi",
+        "role": "the earth goddess Varaha lifts to safety"
+      }
+    ],
+    "whyItMatters": "The story explains why the present cosmic age is named the Shveta-Varaha age, \"the White Boar age,\" after this rescue.",
+    "source": "04-deep-dives/varaha-hiranyaksha.md"
+  },
+  "/stories/prahlada-narasimha/": {
+    "intro": "The demon king Hiranyakashipu wins a boon that makes him almost impossible to kill, then turns on his own son Prahlada for worshipping Vishnu instead of him. When Hiranyakashipu demands to know if Vishnu is even in a palace pillar, Vishnu bursts out as Narasimha, a being that is neither man nor beast, and kills him at twilight on a doorway threshold, satisfying every condition of the boon.",
+    "whoIsWho": [
+      {
+        "name": "Hiranyakashipu",
+        "role": "the demon king who wins near-invincibility and persecutes his son"
+      },
+      {
+        "name": "Prahlada",
+        "role": "his son, a devoted child who survives every attempt to kill him"
+      },
+      {
+        "name": "Narasimha",
+        "role": "the half-man, half-lion form Vishnu takes to kill Hiranyakashipu"
+      },
+      {
+        "name": "Vishnu",
+        "role": "the god who becomes Narasimha"
+      }
+    ],
+    "whyItMatters": "The story is often read as showing that no boon or clever wording can outwit true devotion, since Vishnu finds a way through every loophole in Hiranyakashipu's protection.",
+    "source": "04-deep-dives/prahlada-narasimha.md"
+  },
+  "/stories/jaya-vijaya/": {
+    "intro": "Jaya and Vijaya are Vishnu's two gatekeepers in his heavenly home, Vaikuntha. When they rudely turn away four child-sages at the gate, the sages curse them to be born as enemies of Vishnu three times over. Rather than face seven lifetimes apart from him as devotees, the two choose three lives as demons killed by Vishnu's own hand each time, so they can return to him faster.",
+    "whoIsWho": [
+      {
+        "name": "Jaya",
+        "role": "one of Vishnu's two gatekeepers, reborn three times as a demon and killed each time by Vishnu"
+      },
+      {
+        "name": "Vijaya",
+        "role": "the other gatekeeper, sharing the same three-life curse alongside Jaya"
+      },
+      {
+        "name": "Vishnu",
+        "role": "the god who kills each pair and welcomes them home"
+      },
+      {
+        "name": "the four Kumaras",
+        "role": "the child-sages who curse the gatekeepers after being turned away"
+      }
+    ],
+    "whyItMatters": "The curse ties together several of Vishnu's most famous demon-slayings, showing they are really the same two souls working their way back to him across three ages.",
+    "source": "04-deep-dives/jaya-vijaya.md"
+  },
+  "/deities/dashavatara/": {
+    "intro": "The Dashavatara is the traditional list of Vishnu's ten major descents to earth, each appearing in a different age to restore order when evil grows too strong. The list runs from Matsya the fish at the dawn of this world-cycle to Kalki, a rider still to come at the end of the current age.",
+    "whoIsWho": [
+      {
+        "name": "Matsya",
+        "role": "the fish who saves Manu and all living seeds from a great flood"
+      },
+      {
+        "name": "Varaha",
+        "role": "the boar who rescues the earth from the depths"
+      },
+      {
+        "name": "Narasimha",
+        "role": "the man-lion who kills the demon Hiranyakashipu"
+      },
+      {
+        "name": "Rama",
+        "role": "the exiled prince of the Ramayana"
+      },
+      {
+        "name": "Krishna",
+        "role": "the eighth descent, central to the Mahabharata and the Bhagavad Gita"
+      }
+    ],
+    "whyItMatters": "The Dashavatara is the framework most Hindus use to place the well-known stories of Rama, Krishna, and the other avatars on a single timeline.",
+    "source": "02-deities-and-cosmic-hierarchy/dashavatara.md"
+  },
+  "/stories/matsya-pralaya/": {
+    "intro": "Vishnu takes the form of a fish to warn a righteous man, Manu, that a great flood is coming. The fish grows enormous, and Manu ties his boat to its horn so it can tow him to safety along with seeds of every living thing and seven great sages, so life can begin again after the flood.",
+    "whoIsWho": [
+      {
+        "name": "Matsya",
+        "role": "the fish form Vishnu takes to save Manu"
+      },
+      {
+        "name": "Manu",
+        "role": "the righteous man who survives the flood and refounds humanity"
+      },
+      {
+        "name": "Vishnu",
+        "role": "the god who becomes Matsya"
+      }
+    ],
+    "whyItMatters": "The story is the first of Vishnu's ten great descents and explains why Manu is honored as the ancestor of the current age of humanity.",
+    "source": "04-deep-dives/matsya-pralaya.md"
+  },
+  "/beings/garuda/": {
+    "intro": "Garuda is the golden eagle-king who becomes Vishnu's mount. He is born from an egg to eventually win freedom for his mother, who has been enslaved by her sister Kadru, mother of the serpents. To free her, Garuda journeys to steal the nectar of immortality from the gods, and his lasting hostility toward snakes begins here.",
+    "whoIsWho": [
+      {
+        "name": "Garuda",
+        "role": "the giant eagle who becomes Vishnu's mount"
+      },
+      {
+        "name": "Vinata",
+        "role": "Garuda's mother, enslaved after losing a bet to her sister"
+      },
+      {
+        "name": "Kadru",
+        "role": "Vinata's sister, mother of the serpents"
+      },
+      {
+        "name": "Vishnu",
+        "role": "grants Garuda immortality and makes him his mount"
+      }
+    ],
+    "whyItMatters": "Garuda's rivalry with serpents and his role as Vishnu's mount make him one of the most widely recognized figures in Hindu art, and the national emblem of countries such as Indonesia and Thailand.",
+    "source": "08-beings-and-bestiary/garuda.md"
+  },
+  "/stories/mohini-avatara/": {
+    "intro": "Mohini is the only female form Vishnu takes among his many avatars. He becomes her to trick greedy demons out of the nectar of immortality after the churning of the ocean, serving it only to the gods. In a later, more folk-based story, Mohini's beauty also leads a demon named Bhasmasura to accidentally destroy himself.",
+    "whoIsWho": [
+      {
+        "name": "Mohini",
+        "role": "Vishnu's only female avatar"
+      },
+      {
+        "name": "Vishnu",
+        "role": "the god who becomes Mohini"
+      },
+      {
+        "name": "Bhasmasura",
+        "role": "in a popular but non-scriptural story, a demon tricked into killing himself while dancing with Mohini"
+      }
+    ],
+    "whyItMatters": "The Mohini stories teach that clever deception, not force, can be as powerful a tool as any weapon when used to protect the world's order.",
+    "source": "04-deep-dives/mohini-avatara.md"
+  },
+  "/stories/bhasmasura-and-vrikasura/": {
+    "intro": "These are two versions of one warning story: a demon devoted to Shiva wins power to burn to ash anyone he touches on the head, then tries to test it on Shiva. In the older, scripture-based version the demon Vrikasura is tricked into touching his own head by Vishnu disguised as a student; in the popular version the demon Bhasmasura is tricked the same way by Vishnu disguised as Mohini.",
+    "whoIsWho": [
+      {
+        "name": "Vrikasura",
+        "role": "the demon in the scriptural version, son of Shakuni, who wins the deadly boon from Shiva"
+      },
+      {
+        "name": "Bhasmasura",
+        "role": "the demon in the popular, non-scriptural version, who wins the same boon"
+      },
+      {
+        "name": "Shiva",
+        "role": "grants the fatal boon and then has to flee from it"
+      },
+      {
+        "name": "Vishnu",
+        "role": "tricks the demon into destroying himself, appearing as a student in one version and as Mohini in the other"
+      }
+    ],
+    "whyItMatters": "Both versions warn that a boon granted without judging the person receiving it can endanger even the god who gave it.",
+    "source": "04-deep-dives/bhasmasura-and-vrikasura.md"
+  },
+  "/stories/kaliya-mardana/": {
+    "intro": "The young Krishna dives into a pool of the Yamuna river to confront Kaliya, a giant poisonous serpent whose venom has been killing people, animals, and plants nearby. After Kaliya coils around him and nearly crushes him, Krishna grows larger, then dances on the serpent's many hoods until Kaliya surrenders, and Krishna banishes him from the river instead of killing him.",
+    "whoIsWho": [
+      {
+        "name": "Krishna",
+        "role": "the boy who subdues Kaliya"
+      },
+      {
+        "name": "Kaliya",
+        "role": "the poisonous serpent living in the Yamuna"
+      },
+      {
+        "name": "Balarama",
+        "role": "Krishna's brother, who reassures the frightened onlookers"
+      },
+      {
+        "name": "Kaliya's wives",
+        "role": "plead with Krishna to spare their husband"
+      }
+    ],
+    "whyItMatters": "The story is one of the most depicted scenes in Indian art and dance, showing Krishna as a boy already master over even the most dangerous forces of nature.",
+    "source": "04-deep-dives/kaliya-mardana.md"
+  },
+  "/stories/krishna-lila/": {
+    "intro": "This page traces Krishna's life after his childhood in Vrindavan. He kills the tyrant king Kamsa, who once tried to have him killed as a baby, marries several wives, and founds the city of Dwarka. He later guides the Pandavas as Arjuna's charioteer in the Mahabharata war, and eventually dies from an arrow wound just before the sea swallows his city.",
+    "whoIsWho": [
+      {
+        "name": "Krishna",
+        "role": "the eighth avatar of Vishnu, whose life this page covers from childhood's end to death"
+      },
+      {
+        "name": "Kamsa",
+        "role": "the tyrant king of Mathura whom Krishna kills"
+      },
+      {
+        "name": "Balarama",
+        "role": "Krishna's elder brother, who dies around the same time as him"
+      },
+      {
+        "name": "Arjuna",
+        "role": "the Pandava warrior Krishna serves as charioteer and counselor"
+      },
+      {
+        "name": "Radha",
+        "role": "Krishna's beloved in later devotional tradition, though she is not named in the oldest version of these stories"
+      }
+    ],
+    "whyItMatters": "This page traces the arc of Krishna's whole life as told across the Puranas, from divine child to world-shaping king to his quiet death, which traditionally marks the start of the present age, Kali Yuga.",
+    "source": "04-deep-dives/krishna-lila.md"
+  },
+  "/stories/krishna-balya-lila/": {
+    "intro": "This page tells the stories of Krishna's earliest years as a baby and toddler in the cowherd village of Gokula, before his family moves to Vrindavan. As an infant he survives assassination attempts by demons sent by the tyrant king Kamsa, and as a toddler he pulls down two cursed trees, freeing two former celestial beings trapped inside them.",
+    "whoIsWho": [
+      {
+        "name": "Krishna",
+        "role": "the divine infant and toddler at the center of these stories"
+      },
+      {
+        "name": "Putana",
+        "role": "a demoness sent to poison baby Krishna with her milk, but is instead killed by him"
+      },
+      {
+        "name": "Yashoda",
+        "role": "Krishna's foster mother, who once sees the entire universe inside his mouth"
+      },
+      {
+        "name": "Kamsa",
+        "role": "the tyrant king who sends demons to kill the infant Krishna"
+      }
+    ],
+    "whyItMatters": "These childhood stories are loved for showing tenderness and divine power together, letting devotees imagine God as approachable as their own baby.",
+    "source": "04-deep-dives/krishna-balya-lila.md"
+  },
+  "/deities/devi-mahatmya-and-the-great-goddess/": {
+    "intro": "The Devi Mahatmya is a scripture that tells three stories in which the Great Goddess defeats demons that no male god can stop, showing that the divine feminine power, Shakti, is the ultimate source behind all the gods. Its most famous section describes the buffalo-demon Mahishasura, defeated by the goddess Durga after being formed from the combined light and weapons of all the male gods.",
+    "whoIsWho": [
+      {
+        "name": "Durga",
+        "role": "the many-armed goddess formed from the gods' combined power, who kills the buffalo-demon Mahishasura"
+      },
+      {
+        "name": "Mahishasura",
+        "role": "the buffalo-shaped demon who conquers heaven and can only be killed by a woman"
+      },
+      {
+        "name": "Kali",
+        "role": "a fierce, dark form that bursts from the goddess's brow during battle"
+      },
+      {
+        "name": "Shiva, Vishnu, and Brahma",
+        "role": "the three male gods who, in this text, need the Goddess's power to defeat the demons they cannot beat alone"
+      }
+    ],
+    "whyItMatters": "The text is the founding scripture of Shakta worship, the tradition that treats the Goddess, not any male god, as the supreme reality, and it is recited in full every year during the festival of Navratri.",
+    "source": "02-deities-and-cosmic-hierarchy/devi-mahatmya-and-the-great-goddess.md"
+  },
+  "/deities/sati-daksha-and-parvati/": {
+    "intro": "The Goddess is born once as Sati, daughter of King Daksha, and marries Shiva against her father's wishes. When Daksha insults Shiva at a great sacrifice, Sati gives up her own body in grief and anger, and Shiva's followers destroy the sacrifice in revenge. The Goddess is later reborn as Parvati, daughter of the Himalayas, and wins Shiva back as her husband through years of devoted practice.",
+    "whoIsWho": [
+      {
+        "name": "Sati",
+        "role": "the Goddess's first life, daughter of Daksha, who gives up her body after her father insults Shiva"
+      },
+      {
+        "name": "Daksha",
+        "role": "the king who despises his son-in-law Shiva and is later punished for it"
+      },
+      {
+        "name": "Shiva",
+        "role": "the ascetic god who marries Sati and, after her death, is drawn back into married life as Parvati's husband"
+      },
+      {
+        "name": "Parvati",
+        "role": "the Goddess reborn as the daughter of the Himalaya, who wins Shiva through austerity"
+      }
+    ],
+    "whyItMatters": "The story explains why the Goddess has two lives, and it is the origin story behind the network of Shakti Pitha shrines said to mark where pieces of Sati's body fell.",
+    "source": "02-deities-and-cosmic-hierarchy/sati-daksha-and-parvati.md"
+  },
+  "/stories/tarakasura-vadha/": {
+    "intro": "The demon Tarakasura wins a boon that only a son of Shiva can kill him — seemingly impossible, since Shiva has withdrawn from the world in grief after his wife Sati's death. To make the birth happen, the gods arrange Shiva's marriage to Parvati and send the love god Kama to stir his desire, though Shiva burns Kama to ash. Their son Skanda leads the gods and kills Tarakasura.",
+    "whoIsWho": [
+      {
+        "name": "Tarakasura",
+        "role": "the demon whose clever boon can only be undone by a child of Shiva"
+      },
+      {
+        "name": "Shiva",
+        "role": "the ascetic god whose remarriage and fatherhood become the gods' only hope"
+      },
+      {
+        "name": "Parvati",
+        "role": "the goddess who marries Shiva and becomes Skanda's mother"
+      },
+      {
+        "name": "Skanda (Kartikeya)",
+        "role": "the war-god son of Shiva and Parvati, born to kill Tarakasura"
+      },
+      {
+        "name": "Kama",
+        "role": "the love god burned to ash by Shiva while trying to awaken his desire"
+      }
+    ],
+    "whyItMatters": "The story turns Shiva's return to married life into a cosmic necessity, showing the tradition's belief that even the greatest renunciate has world-saving duties as a householder and father.",
+    "source": "04-deep-dives/tarakasura-vadha.md"
+  },
+  "/stories/gajendra-moksha/": {
+    "intro": "An elephant king named Gajendra is seized by a crocodile while bathing. After a struggle lasting a thousand years leaves him too weak to fight on, he stops struggling and instead surrenders completely in prayer to Vishnu. Vishnu flies to the lake at once, kills the crocodile, and frees the elephant, revealing that both animals were once cursed beings from earlier lives.",
+    "whoIsWho": [
+      {
+        "name": "Gajendra",
+        "role": "the elephant king who surrenders to Vishnu after being seized by a crocodile"
+      },
+      {
+        "name": "Vishnu",
+        "role": "the god who rescues Gajendra the moment he calls out in total surrender"
+      },
+      {
+        "name": "Indradyumna",
+        "role": "the king Gajendra used to be, cursed to be reborn as an elephant"
+      }
+    ],
+    "whyItMatters": "The story is treated as the model example of total surrender to God, still recited daily by many devotees who see themselves in Gajendra's helplessness.",
+    "source": "04-deep-dives/gajendra-moksha.md"
+  },
+  "/deities/ganesha-and-kartikeya/": {
+    "intro": "This page tells the stories of Shiva and Parvati's two sons. Ganesha, the elephant-headed god, is created by Parvati, then accidentally beheaded by Shiva and revived with an elephant's head; he later wins a race against his brother by simply circling his parents instead of the world. Kartikeya, the six-faced war god, is born through fire and the river Ganga so he can grow up and kill the demon Tarakasura.",
+    "whoIsWho": [
+      {
+        "name": "Ganesha",
+        "role": "the elephant-headed god of beginnings, formed by Parvati"
+      },
+      {
+        "name": "Kartikeya (also called Skanda or Murugan)",
+        "role": "the six-faced war god, son of Shiva and Parvati, born to kill Tarakasura"
+      },
+      {
+        "name": "Shiva",
+        "role": "the father who accidentally beheads Ganesha, then restores him with an elephant's head"
+      },
+      {
+        "name": "Parvati",
+        "role": "the mother of both sons"
+      }
+    ],
+    "whyItMatters": "These two gods are among the most worshipped in India, Ganesha invoked at the start of any undertaking and Kartikeya especially honored as Murugan in South India.",
+    "source": "02-deities-and-cosmic-hierarchy/ganesha-and-kartikeya.md"
+  },
+  "/stories/ganesha-gita/": {
+    "intro": "The Ganesha Gita is a lesser-known scripture in which the elephant-headed god Ganesha, not Krishna, teaches a king named Varenya the same core lessons as the Bhagavad Gita. Most of its verses are closely adapted from the Bhagavad Gita itself, simply replacing Krishna's name with Ganesha's, to argue that Ganesha, too, is the Supreme Being.",
+    "whoIsWho": [
+      {
+        "name": "Ganesha",
+        "role": "the teacher in this scripture, cast in the role Krishna plays in the Bhagavad Gita"
+      },
+      {
+        "name": "King Varenya",
+        "role": "the troubled king who receives Ganesha's teaching"
+      }
+    ],
+    "whyItMatters": "The text is the key scripture used by the Ganapatya tradition, which worships Ganesha as the highest reality above all other gods.",
+    "source": "04-deep-dives/ganesha-gita.md"
+  },
+  "/stories/markandeya/": {
+    "intro": "Markandeya is a boy fated to die at sixteen, but his devotion to Shiva saves him. When Death comes for him as he clings to a Shiva shrine, Shiva bursts out and defeats Death, granting the boy eternal life. Because he never dies, Markandeya later survives the total dissolution of the universe and sees the infant Vishnu resting on a leaf on the cosmic ocean.",
+    "whoIsWho": [
+      {
+        "name": "Markandeya",
+        "role": "the boy granted eternal youth who later survives the end of the universe"
+      },
+      {
+        "name": "Shiva",
+        "role": "defeats Death to save his young devotee"
+      },
+      {
+        "name": "Yama",
+        "role": "the god of death who comes to take Markandeya"
+      },
+      {
+        "name": "Vishnu",
+        "role": "appears to Markandeya as a divine infant during the cosmic dissolution"
+      }
+    ],
+    "whyItMatters": "Markandeya's two stories link Shiva's power over death and Vishnu's role as keeper of the cosmos through destruction, making him one of the few figures honored across different Hindu traditions as a witness to both.",
+    "source": "04-deep-dives/markandeya.md"
+  },
+  "/stories/parashurama/": {
+    "intro": "Parashurama is a warrior-priest and an avatar of Vishnu whose father's wish-granting cow is stolen by a king; after killing that king, the king's sons kill his father in revenge, so Parashurama wipes out the entire warrior class twenty-one times over. Unlike other avatars, he never dies, living on long enough to test the young Rama's strength, teach weapons to Bhishma, Drona, and Karna, and train the future avatar Kalki.",
+    "whoIsWho": [
+      {
+        "name": "Parashurama",
+        "role": "the immortal warrior-priest avatar of Vishnu who wields an axe"
+      },
+      {
+        "name": "Jamadagni",
+        "role": "his father, a sage murdered after a king steals the family's wish-cow"
+      },
+      {
+        "name": "Kartavirya Arjuna",
+        "role": "the thousand-armed king who steals the cow and is killed by Parashurama"
+      },
+      {
+        "name": "Karna",
+        "role": "one of the warriors Parashurama later trains, whom he also curses"
+      },
+      {
+        "name": "Rama",
+        "role": "the later avatar whose strength Parashurama tests by challenging him to string a bow"
+      }
+    ],
+    "whyItMatters": "As the only avatar who never dies, Parashurama becomes the living link connecting the ages of Rama, Krishna, and the future Kalki.",
+    "source": "04-deep-dives/parashurama.md"
+  },
+  "/stories/karna/": {
+    "intro": "Karna is secretly the eldest son of Kunti, born to the sun god before her marriage and abandoned in a basket on a river, then raised by a humble charioteer family. Despite being a match for Arjuna in skill, he is mocked for his low birth, becomes the loyal friend of the Pandavas' rival Duryodhana, and dies fighting his own unacknowledged brothers at Kurukshetra, undone by a chain of curses.",
+    "whoIsWho": [
+      {
+        "name": "Karna",
+        "role": "Kunti's secret eldest son, a warrior equal to Arjuna"
+      },
+      {
+        "name": "Kunti",
+        "role": "his mother, who abandons him as a baby and only reveals the truth after his death"
+      },
+      {
+        "name": "Duryodhana",
+        "role": "the Kaurava prince who befriends and honors Karna when others mock him"
+      },
+      {
+        "name": "Arjuna",
+        "role": "Karna's unacknowledged half-brother and greatest rival, who kills him in the war"
+      },
+      {
+        "name": "Krishna",
+        "role": "reveals Karna's true parentage to him before the war, and reminds him of his own past cruelties, such as the killing of Abhimanyu, just before his death"
+      }
+    ],
+    "whyItMatters": "Karna's story is often read as the Mahabharata's sharpest statement on how birth and caste can waste even the greatest talent and loyalty.",
+    "source": "04-deep-dives/karna.md"
+  },
+  "/stories/sudama-kuchela/": {
+    "intro": "Sudama, also called Kuchela, is a desperately poor childhood friend of Krishna who travels to Krishna's city carrying only a small gift of flattened rice, too embarrassed to ask for help. Krishna welcomes him like royalty, eats the humble gift with joy, and afterward secretly transforms Sudama's home into a palace, without Sudama ever having to ask for anything.",
+    "whoIsWho": [
+      {
+        "name": "Sudama (Kuchela)",
+        "role": "the poor brahmin friend who visits Krishna empty-handed but full of love"
+      },
+      {
+        "name": "Krishna",
+        "role": "welcomes his poor friend as an equal and rewards him with unasked-for wealth"
+      }
+    ],
+    "whyItMatters": "The story teaches that God values the love behind a gift over its size, and rewards true devotion even when nothing is asked in return.",
+    "source": "04-deep-dives/sudama-kuchela.md"
+  },
+  "/stories/govardhana-dharana/": {
+    "intro": "As a boy, Krishna convinces the cowherds of his village to stop their yearly offering to the storm god Indra and worship the local hill and cattle instead. Furious at being snubbed, Indra sends a flood to destroy the village, so Krishna lifts the entire hill on one finger and holds it up like an umbrella for seven days until Indra gives up and apologizes.",
+    "whoIsWho": [
+      {
+        "name": "Krishna",
+        "role": "the boy who redirects worship away from Indra and then lifts the hill to protect his village"
+      },
+      {
+        "name": "Indra",
+        "role": "the storm god who sends a flood in anger, then submits to Krishna"
+      },
+      {
+        "name": "Nanda",
+        "role": "Krishna's foster father, one of the village elders persuaded to change the sacrifice"
+      }
+    ],
+    "whyItMatters": "The story is still celebrated every year as Govardhana Puja, when people build a small hill of food to reenact Krishna's redirection of worship from the sky-god to the land that actually sustains life.",
+    "source": "04-deep-dives/govardhana-dharana.md"
+  },
+  "/deities/ganga/": {
+    "intro": "Ganga is the river goddess who flows through heaven, earth, and the underworld, and whose water is believed to wash away sin and free the dead. She descends to earth after generations of prayer by kings whose 60,000 ancestors were burned to ash by a sage's fiery glance, and Shiva breaks the force of her fall by catching her in his hair before releasing her as the Ganges.",
+    "whoIsWho": [
+      {
+        "name": "Ganga",
+        "role": "the goddess and river said to purify all who touch or remember her"
+      },
+      {
+        "name": "Bhagiratha",
+        "role": "the king whose long penance finally brings Ganga down from heaven"
+      },
+      {
+        "name": "Shiva",
+        "role": "catches Ganga's fall in his matted hair to protect the earth"
+      },
+      {
+        "name": "Sagara",
+        "role": "the ancestor-king whose 60,000 sons are burned to ash and need Ganga's water to reach heaven"
+      },
+      {
+        "name": "Bhishma",
+        "role": "in the Mahabharata, Ganga's mortal son by King Shantanu"
+      }
+    ],
+    "whyItMatters": "Ganga's story explains why bathing in the Ganges, and being cremated on its banks, are treated as among the most powerful ways to purify a soul in Hindu practice.",
+    "source": "02-deities-and-cosmic-hierarchy/ganga.md"
+  },
+  "/stories/dilipa-nandini/": {
+    "intro": "King Dilipa and his queen cannot have children because Dilipa once failed to bow to a sacred wish-granting cow, the sage Vasishtha tells them. To lift the curse, the couple serve the cow's daughter, Nandini, with devotion for three weeks. When a lion attacks Nandini, Dilipa offers his body to save her; the lion vanishes, revealing a test, and Nandini rewards his selflessness with the birth of a son, Raghu.",
+    "whoIsWho": [
+      {
+        "name": "Dilipa",
+        "role": "the childless king who serves the cow Nandini to lift a curse"
+      },
+      {
+        "name": "Nandini",
+        "role": "the wish-cow who tests Dilipa's devotion and grants him a son"
+      },
+      {
+        "name": "Vasishtha",
+        "role": "the sage who diagnoses the cause of the king's childlessness"
+      },
+      {
+        "name": "Raghu",
+        "role": "the son born from the boon, who becomes the dynasty's namesake"
+      }
+    ],
+    "whyItMatters": "The story is the opening set piece of the poet Kalidasa's Raghuvamsha, and establishes selfless devotion as the standard by which the dynasty's later kings, including Rama, are measured.",
+    "source": "04-deep-dives/dilipa-nandini.md"
+  },
+  "/lineages/sagara/": {
+    "intro": "Sagara is an ancestor-king of Rama's dynasty who is born after his exiled father dies in the forest, while his mother carries him for years, poisoned by a jealous rival wife. Sagara reclaims his family's throne, then performs a great horse sacrifice; when the sacrificial horse is stolen and hidden underground, his 60,000 sons dig down searching for it, insult the meditating sage guarding it, and are burned to ashes.",
+    "whoIsWho": [
+      {
+        "name": "Sagara",
+        "role": "the emperor born of a poisoned pregnancy who later fathers 60,000 sons"
+      },
+      {
+        "name": "Kapila",
+        "role": "the sage whose glance burns Sagara's 60,000 sons to ash"
+      },
+      {
+        "name": "Bhagiratha",
+        "role": "Sagara's descendant, who later brings the Ganga down from heaven to free the ashes"
+      },
+      {
+        "name": "Keshini and Sumati",
+        "role": "Sagara's two queens, one who bears the single heir and one who bears the 60,000 sons"
+      }
+    ],
+    "whyItMatters": "Sagara's story explains why the ocean is called \"sagara\" in Sanskrit, and sets up the far more famous tale of how the Ganges river came to earth.",
+    "source": "03-lineages-vamsha/sagara.md"
+  },
+  "/stories/tripura-dahana/": {
+    "intro": "Three demon brothers win three flying fortresses that can only be destroyed by a single arrow fired at the one moment in a thousand years when all three cities line up. When the brothers' rule turns tyrannical, the gods lend their own bodies and weapons to build Shiva a cosmic chariot, and Shiva destroys all three cities with one shot.",
+    "whoIsWho": [
+      {
+        "name": "Shiva",
+        "role": "the god who destroys the three cities with a single arrow"
+      },
+      {
+        "name": "Tarakaksha, Vidyunmali, and Kamalaksha",
+        "role": "the three demon brothers who rule the flying cities"
+      },
+      {
+        "name": "Vishnu",
+        "role": "becomes the arrow in Shiva's cosmic weapon, and separately sends a deceiver to weaken the demons' protection"
+      },
+      {
+        "name": "Brahma",
+        "role": "serves as Shiva's charioteer for the battle"
+      }
+    ],
+    "whyItMatters": "The story is the central proof-text for Shiva's supremacy in Shaiva tradition, showing every other god reduced to a part of his weapon.",
+    "source": "04-deep-dives/tripura-dahana.md"
+  },
+  "/stories/kamsa-vadha/": {
+    "intro": "Krishna leaves his cowherd village and travels to the city of Mathura to fulfill a prophecy that he will kill his tyrant uncle, King Kamsa. Along the way he breaks Kamsa's ceremonial bow, kills a rampaging elephant and two champion wrestlers sent to murder him, and finally drags Kamsa down and kills him, restoring the rightful king, his grandfather Ugrasena, to the throne.",
+    "whoIsWho": [
+      {
+        "name": "Krishna",
+        "role": "the young man who kills the tyrant Kamsa as foretold"
+      },
+      {
+        "name": "Kamsa",
+        "role": "the tyrant king of Mathura who tries to have Krishna killed"
+      },
+      {
+        "name": "Balarama",
+        "role": "Krishna's brother, who fights alongside him in Mathura"
+      },
+      {
+        "name": "Ugrasena",
+        "role": "Kamsa's father, restored to the throne after his son's death"
+      }
+    ],
+    "whyItMatters": "Kamsa's death marks the turning point where Krishna leaves his life as a cowherd behind and becomes a prince and future king.",
+    "source": "04-deep-dives/kamsa-vadha.md"
+  },
+  "/stories/narakasura-vadha/": {
+    "intro": "The demon king Narakasura, son of the earth goddess, imprisons over 16,000 women and steals treasures from the gods, so Krishna flies to his fortress on the bird Garuda with his wife Satyabhama, and kills him. Krishna then marries all the freed women so they can live with honor, and the story becomes the origin legend for Naraka Chaturdashi, the day before Diwali.",
+    "whoIsWho": [
+      {
+        "name": "Narakasura",
+        "role": "the demon king who imprisons thousands of women and is killed by Krishna"
+      },
+      {
+        "name": "Krishna",
+        "role": "kills Narakasura and marries the rescued women to restore their honor"
+      },
+      {
+        "name": "Satyabhama",
+        "role": "Krishna's wife, who fights beside him in the battle"
+      },
+      {
+        "name": "Bhumi (the earth goddess)",
+        "role": "Narakasura's mother, who appears after his death to ask Krishna to protect her grandson"
+      }
+    ],
+    "whyItMatters": "The story is the reason Naraka Chaturdashi is celebrated with oil baths and lamps the night before Diwali, especially as the main Diwali legend in South India.",
+    "source": "04-deep-dives/narakasura-vadha.md"
+  },
+  "/stories/syamantaka-jewel/": {
+    "intro": "When a magical sun-gem goes missing after its wearer is killed by a lion, Krishna is wrongly accused of stealing it and sets out to clear his name. His search leads him into a cave where he fights the bear-king Jambavan for many days, wins both the jewel and Jambavan's daughter as a bride, and later marries a second wife, Satyabhama, as an apology from the jewel's original owner.",
+    "whoIsWho": [
+      {
+        "name": "Krishna",
+        "role": "falsely accused of theft, who investigates and clears his own name"
+      },
+      {
+        "name": "Jambavan",
+        "role": "the bear-king who takes the jewel, fights Krishna, then gives him his daughter"
+      },
+      {
+        "name": "Jambavati",
+        "role": "Jambavan's daughter, who becomes one of Krishna's wives"
+      },
+      {
+        "name": "Satyabhama",
+        "role": "given to Krishna in marriage by her father, Satrajit, as an apology for the false accusation"
+      }
+    ],
+    "whyItMatters": "The tale is unusual as Krishna's only true detective story, and is recited even today as a remedy for anyone falsely accused of wrongdoing.",
+    "source": "04-deep-dives/syamantaka-jewel.md"
+  },
+  "/cosmology/cosmogony-creation-accounts/": {
+    "intro": "This page collects the many ways Hindu texts describe how the universe began, from the oldest Vedic hymns that admit even the gods may not know the answer, to later stories of a golden cosmic egg, a lotus growing from Vishnu's navel with Brahma seated on it, or the Goddess as the power behind every act of creation. It keeps these accounts side by side, without picking one true version.",
+    "whyItMatters": "Understanding that Hindu cosmology holds multiple, sometimes contradictory creation stories together helps explain why the tradition treats scripture as a layered library of perspectives rather than a single fixed account.",
+    "source": "00-time-and-cosmology/cosmogony-creation-accounts.md"
+  },
+  "/deities/kamadeva-and-minor-deities/": {
+    "intro": "This page introduces several important but lesser gods: Kamadeva, the god of desire who is burned to ash by Shiva and later reborn as Krishna's son Pradyumna; the divine architect Vishvakarma; the physician-god Dhanvantari; the eight elemental Vasus; and the great mother-goddesses Aditi and Diti, from whom the gods and demons descend.",
+    "whoIsWho": [
+      {
+        "name": "Kamadeva",
+        "role": "the god of love and desire, burned by Shiva and reborn as Pradyumna"
+      },
+      {
+        "name": "Rati",
+        "role": "Kamadeva's wife, who later raises her reborn husband in secret"
+      },
+      {
+        "name": "Aditi",
+        "role": "mother of the gods (devas)"
+      },
+      {
+        "name": "Diti",
+        "role": "Aditi's sister and mother of many demons (asuras)"
+      }
+    ],
+    "whyItMatters": "These minor deities fill out the working machinery of the Hindu cosmos, standing behind everyday concerns like love, craftsmanship, healing, and the elements.",
+    "source": "02-deities-and-cosmic-hierarchy/kamadeva-and-minor-deities.md"
+  },
+  "/stories/mahabharata/03-vana-parva/": {
+    "intro": "The Vana Parva covers the twelve years the Pandavas and Draupadi spend exiled in the forest after losing everything in the rigged dice game. Along the way they hear dozens of consoling stories from wandering sages, including the tales of Nala and Damayanti, Savitri winning her husband back from Death, and a condensed retelling of the entire Ramayana, while Arjuna leaves to win divine weapons from the gods.",
+    "whoIsWho": [
+      {
+        "name": "Yudhishthira",
+        "role": "the eldest Pandava, whose loss at dice caused the exile and who receives most of the consoling stories"
+      },
+      {
+        "name": "Draupadi",
+        "role": "the shared wife of the Pandavas, who endures the exile alongside her husbands"
+      },
+      {
+        "name": "Arjuna",
+        "role": "leaves the group to perform austerities and receive weapons from Shiva and Indra"
+      },
+      {
+        "name": "Bhima",
+        "role": "kills several demons the family encounters during the exile"
+      }
+    ],
+    "whyItMatters": "The book is the Mahabharata's great storehouse of side-tales, using stories of other sufferers to console the Pandavas and to teach lessons about fate, duty, and endurance that echo their own situation.",
+    "source": "04-deep-dives/mahabharata/03-vana-parva.md"
+  },
+  "/stories/characters/barbarika-khatu-shyam/": {
+    "intro": "Barbarika is a mighty archer, grandson of Bhima, who owns three magic arrows powerful enough to end any battle instantly and has vowed to always fight for whichever side is losing. Realizing this vow would make the Kurukshetra war impossible to finish, Krishna tricks him into giving up his own head as a gift, then sets the still-living head on a hilltop so it can watch the entire war unfold.",
+    "whoIsWho": [
+      {
+        "name": "Barbarika",
+        "role": "the archer whose three arrows and vow to help the losing side threaten to make the war unwinnable"
+      },
+      {
+        "name": "Krishna",
+        "role": "persuades Barbarika to sacrifice his head before the war begins"
+      },
+      {
+        "name": "Ghatotkacha",
+        "role": "Barbarika's father and Bhima's son"
+      }
+    ],
+    "whyItMatters": "Barbarika's story is not part of the standard Sanskrit Mahabharata but comes from regional and folk tradition; today he is worshipped across Rajasthan as Khatu Shyam, especially by those facing hardship or defeat.",
+    "source": "04-deep-dives/characters/barbarika-khatu-shyam.md"
+  },
+  "/stories/dhruva/": {
+    "intro": "A young prince named Dhruva is humiliated when his stepmother tells him he has no right to sit on his father's lap, so he leaves home to win a place greater than anyone has ever held, through devotion to Vishnu. His extreme fasting and meditation eventually earns him a vision of the god, who grants him the position of the Pole Star, fixed at the center of the turning sky.",
+    "whoIsWho": [
+      {
+        "name": "Dhruva",
+        "role": "the boy whose devotion wins him the Pole Star as his eternal home"
+      },
+      {
+        "name": "Suruci",
+        "role": "the stepmother whose insult drives Dhruva to his quest"
+      },
+      {
+        "name": "Sunīti",
+        "role": "Dhruva's mother, who is later honored alongside him in the sky"
+      },
+      {
+        "name": "Vishnu",
+        "role": "appears to Dhruva and grants him the boon of the polar seat"
+      },
+      {
+        "name": "Narada",
+        "role": "the sage who teaches Dhruva how to worship Vishnu"
+      }
+    ],
+    "whyItMatters": "Dhruva's story explains why the Pole Star never seems to move, and makes him, alongside Prahlada, one of the two model child-devotees held up across Hindu tradition.",
+    "source": "04-deep-dives/dhruva.md"
+  },
+  "/stories/savitri-satyavan/": {
+    "intro": "Princess Savitri knowingly marries Satyavan even after a sage warns her he will die within a year, and refuses to change her mind. When Death himself comes to take her husband's soul, Savitri follows him on foot, impresses him with her wisdom, and tricks him into granting boons that can only be fulfilled if Satyavan is alive, forcing Death to bring him back to life.",
+    "whoIsWho": [
+      {
+        "name": "Savitri",
+        "role": "the princess who outwits Death to save her husband"
+      },
+      {
+        "name": "Satyavan",
+        "role": "the exiled prince Savitri marries, knowing he is fated to die young"
+      },
+      {
+        "name": "Yama",
+        "role": "the god of death, who is outmaneuvered into restoring Satyavan's life"
+      },
+      {
+        "name": "Narada",
+        "role": "the sage who foretells Satyavan's death"
+      }
+    ],
+    "whyItMatters": "The story is the model of the devoted wife in Hindu tradition and is still honored today through the Vat Savitri fast, when married women pray for their husbands' long lives.",
+    "source": "04-deep-dives/savitri-satyavan.md"
+  },
+  "/stories/ekalavya/": {
+    "intro": "Ekalavya is a low-born forest prince who teaches himself archery by practicing in front of a clay statue of the teacher Drona, who had refused to train him, and becomes even better than Drona's star pupil, Arjuna. When Drona discovers this, he demands Ekalavya's right thumb as payment for being his teacher, even though he never formally taught him, and Ekalavya cuts it off without complaint, ruining his skill forever.",
+    "whoIsWho": [
+      {
+        "name": "Ekalavya",
+        "role": "the self-taught archer who gives up his thumb out of devotion to a teacher who rejected him"
+      },
+      {
+        "name": "Drona",
+        "role": "the royal weapons teacher who demands the thumb to protect his promise that Arjuna would be unmatched"
+      },
+      {
+        "name": "Arjuna",
+        "role": "the Pandava archer whose supremacy is threatened by Ekalavya's skill"
+      }
+    ],
+    "whyItMatters": "The story is read two ways today, as a lesson in devotion to a teacher, and, especially in modern readings, as a story about how caste and privilege can be used to destroy a talented outsider.",
+    "source": "04-deep-dives/ekalavya.md"
+  },
+  "/stories/characters/abhimanyu/": {
+    "intro": "Abhimanyu is Arjuna's sixteen-year-old son, who knows how to break into a deadly spiral battle formation but never learned how to get out. Trapped alone inside enemy lines when a Kaurava ally blocks the other Pandavas from following him, he fights off warrior after warrior until six senior fighters attack him together and break his weapons before finally killing him, an act the epic openly calls unfair.",
+    "whoIsWho": [
+      {
+        "name": "Abhimanyu",
+        "role": "the young hero who breaks into the enemy formation but cannot escape"
+      },
+      {
+        "name": "Arjuna",
+        "role": "Abhimanyu's father, who swears revenge after finding his son dead"
+      },
+      {
+        "name": "Jayadratha",
+        "role": "the king who seals the gap and traps Abhimanyu inside alone"
+      },
+      {
+        "name": "Uttara",
+        "role": "Abhimanyu's wife, who is pregnant with his son when he dies"
+      }
+    ],
+    "whyItMatters": "Abhimanyu's death is treated in the epic as the war's moral low point, and it sets off the chain of revenge that shapes the rest of the fighting.",
+    "source": "04-deep-dives/characters/abhimanyu.md"
+  },
+  "/stories/mahabharata/07-drona-parva/": {
+    "intro": "The Drona Parva covers days eleven through fifteen of the Kurukshetra war, fought under the second Kaurava commander, Drona. It includes some of the war's most disturbing moments: the killing of the boy warrior Abhimanyu by six men at once, Krishna faking a sunset to expose a hidden warrior so Arjuna can kill him, and Drona's own death by trickery and beheading after being falsely told his son had died.",
+    "whoIsWho": [
+      {
+        "name": "Drona",
+        "role": "the Kaurava commander for these five days, eventually killed while unarmed and grieving"
+      },
+      {
+        "name": "Abhimanyu",
+        "role": "Arjuna's young son, killed by six warriors ganging up on him"
+      },
+      {
+        "name": "Arjuna",
+        "role": "swears revenge for his son and kills the king who trapped him"
+      },
+      {
+        "name": "Krishna",
+        "role": "engineers the tricks that bring down both Jayadratha and Drona"
+      }
+    ],
+    "whyItMatters": "This book marks the point where both sides abandon the war's agreed rules of fair combat, and the story treats every one of these events as a serious moral failure, not a triumph.",
+    "source": "04-deep-dives/mahabharata/07-drona-parva.md"
+  },
+  "/deities/trimurti-and-tridevi/": {
+    "intro": "The Trimurti is the idea that creation, preservation, and destruction are handled by three gods, Brahma, Vishnu, and Shiva, while the Tridevi are their three wife-goddesses, Sarasvati, Lakshmi, and Parvati. Some traditions describe the goddesses' power as what makes each god's function possible. Different schools argue that one god, or the Goddess, is the supreme being over the others, and this page lays out each claim without declaring a winner.",
+    "whoIsWho": [
+      {
+        "name": "Brahma",
+        "role": "the creator god, paired with Sarasvati"
+      },
+      {
+        "name": "Vishnu",
+        "role": "the preserver god, paired with Lakshmi"
+      },
+      {
+        "name": "Shiva",
+        "role": "the destroyer god, paired with Parvati"
+      },
+      {
+        "name": "Sarasvati, Lakshmi, and Parvati",
+        "role": "the goddesses whose power is said, in some traditions, to make each god's role possible"
+      }
+    ],
+    "whyItMatters": "Understanding the Trimurti explains why Hindu traditions can honor different gods as supreme without contradiction, since each stream reads the same three-part structure through its own lens.",
+    "source": "02-deities-and-cosmic-hierarchy/trimurti-and-tridevi.md"
+  },
+  "/stories/shankhachuda-tulasi/": {
+    "intro": "Shankhachuda is a demon who becomes unbeatable in battle because of his wife Tulasi's perfect faithfulness to him. To defeat him, Vishnu disguises himself as Shankhachuda and tricks Tulasi into breaking her vow without realizing it, which allows Shiva to kill the now-unprotected demon. When Tulasi discovers the deception, she curses Vishnu, and in return he turns her into the sacred basil plant named for her, linked to his worship.",
+    "whoIsWho": [
+      {
+        "name": "Shankhachuda",
+        "role": "the demon whose invincibility depends on his wife's unbroken faithfulness"
+      },
+      {
+        "name": "Tulasi",
+        "role": "his devoted wife, tricked into breaking her vow and later transformed into the tulasi plant"
+      },
+      {
+        "name": "Vishnu",
+        "role": "disguises himself as the demon to break the spell, then accepts Tulasi's curse"
+      },
+      {
+        "name": "Shiva",
+        "role": "strikes down Shankhachuda once his protection is gone"
+      }
+    ],
+    "whyItMatters": "The story explains why the tulasi (holy basil) plant is treated as sacred to Vishnu and is paired with his worship in households across India.",
+    "source": "04-deep-dives/shankhachuda-tulasi.md"
+  },
+  "/stories/yayati/": {
+    "intro": "King Yayati is cursed with sudden old age by his father-in-law, the sage Shukra, after secretly fathering children with his wife's servant, Sharmishtha. The curse lifts only if one of his sons trades their youth for his old age; only the youngest, Puru, agrees. A thousand years later, having learned that indulging desire only feeds it, Yayati returns Puru's youth and makes him heir instead of his older brothers.",
+    "whoIsWho": [
+      {
+        "name": "Yayati",
+        "role": "the king cursed with premature old age, who learns the futility of indulging desire"
+      },
+      {
+        "name": "Sukra (Shukra)",
+        "role": "Yayati's father-in-law, the sage who curses him"
+      },
+      {
+        "name": "Puru",
+        "role": "the youngest son who trades his youth for his father's old age and is rewarded with the throne"
+      },
+      {
+        "name": "Devayani",
+        "role": "Yayati's wife, whose father pronounces the curse after learning of his secret second family"
+      }
+    ],
+    "whyItMatters": "Yayati's choice to favor Puru over his elder sons is the reason the Pandavas' own lineage descends through Puru rather than through Yadu, ancestor of Krishna's clan.",
+    "source": "04-deep-dives/yayati.md"
+  },
+  "/stories/shakuntala-bharata/": {
+    "intro": "Shakuntala, daughter of a sage and a heavenly nymph, secretly marries King Dushyanta in the forest, on condition that their son will be his heir. Years later, when she brings their son to court, Dushyanta denies knowing her, and only a voice from the sky forces him to admit the truth. Their son, Bharata, grows up to become a legendary emperor, and India's ancient name, Bharatavarsha, comes from him.",
+    "whoIsWho": [
+      {
+        "name": "Shakuntala",
+        "role": "the forest-raised woman who marries a king and is later publicly rejected by him"
+      },
+      {
+        "name": "Dushyanta",
+        "role": "the king who denies his marriage to Shakuntala until a divine voice corrects him"
+      },
+      {
+        "name": "Bharata",
+        "role": "their son, who becomes a great emperor and gives his name to the land"
+      },
+      {
+        "name": "Kanva",
+        "role": "the sage who raises Shakuntala after she is abandoned as an infant"
+      }
+    ],
+    "whyItMatters": "This story, later famously reworked into a play by the poet Kalidasa, is the origin story for the name \"Bharat,\" still used today as India's official name.",
+    "source": "04-deep-dives/shakuntala-bharata.md"
+  },
+  "/stories/characters/ashvatthama/": {
+    "intro": "Ashvatthama is Drona's only son, born with a magic gem in his forehead that makes him nearly invincible. Enraged that his father was tricked into laying down his weapons and beheaded, he sneaks into the enemy camp at night and kills the sleeping soldiers, among them Draupadi's five sons. Krishna curses him to wander the earth for three thousand years, unable to die, for striking at an unborn child too.",
+    "whoIsWho": [
+      {
+        "name": "Ashvatthama",
+        "role": "Drona's son, cursed to endless wandering for the night massacre"
+      },
+      {
+        "name": "Drona",
+        "role": "his father, tricked into laying down his weapons and then killed"
+      },
+      {
+        "name": "Krishna",
+        "role": "pronounces the curse that condemns Ashvatthama to immortality as punishment"
+      },
+      {
+        "name": "Draupadi",
+        "role": "demands vengeance and the gem from Ashvatthama's forehead after her sons are killed in their sleep"
+      }
+    ],
+    "whyItMatters": "Ashvatthama is counted among a small group of beings said to be still alive today, making him one of Hindu tradition's most vivid images of guilt that can never be erased.",
+    "source": "04-deep-dives/characters/ashvatthama.md"
+  },
+  "/stories/mahabharata/10-sauptika-parva/": {
+    "intro": "The Sauptika Parva describes the night after the eighteen-day war ends, when the last three surviving Kaurava warriors sneak into the sleeping enemy camp for revenge. Ashvatthama kills the man who beheaded his father and the five sons of Draupadi, while his companions set the camp on fire and cut down anyone who flees, turning a war the Pandavas had already won into a massacre of the unarmed and asleep.",
+    "whoIsWho": [
+      {
+        "name": "Ashvatthama",
+        "role": "leads the night raid and kills Dhrishtadyumna and Draupadi's five sons in their sleep"
+      },
+      {
+        "name": "Kripa and Kritavarma",
+        "role": "the two surviving allies who guard the camp gates and set it ablaze"
+      },
+      {
+        "name": "Dhrishtadyumna",
+        "role": "Drona's killer, murdered in his sleep in revenge"
+      },
+      {
+        "name": "Draupadi",
+        "role": "demands justice after learning her sons were killed while helpless"
+      }
+    ],
+    "whyItMatters": "The book is the Mahabharata's clearest statement that even a just war can end in an atrocity, since the massacre happens only after the war is effectively already decided.",
+    "source": "04-deep-dives/mahabharata/10-sauptika-parva.md"
+  },
+  "/deities/surya-and-his-family/": {
+    "intro": "Surya is the sun god, whose radiance is so intense that his wife cannot bear to be near him, so she leaves a shadow double in her place and flees in the form of a mare. Their children include Yama, judge of the dead, the river goddess Yamuna, the healer twins the Ashvins, and Manu, ancestor of humanity. The shadow wife bears more children, including the planet-god Shani.",
+    "whoIsWho": [
+      {
+        "name": "Surya",
+        "role": "the sun god at the center of a large divine family"
+      },
+      {
+        "name": "Sanjna (Saranyu)",
+        "role": "Surya's true wife, who cannot bear his heat and secretly leaves"
+      },
+      {
+        "name": "Chhaya",
+        "role": "the shadow double Sanjna leaves behind to take her place"
+      },
+      {
+        "name": "Yama",
+        "role": "Surya's son, the first being to die and the judge of the dead"
+      },
+      {
+        "name": "Manu",
+        "role": "Surya's son, considered the ancestor of the current human race"
+      }
+    ],
+    "whyItMatters": "Surya's household explains the origins of death, the calendar, the Ashvin healer-gods, and the astrological planet Shani, tying the sun to nearly every corner of the wider cosmology.",
+    "source": "02-deities-and-cosmic-hierarchy/surya-and-his-family.md"
+  },
+  "/stories/mahabharata/02-sabha-parva/": {
+    "intro": "The Sabha Parva tells how Yudhishthira rises to the height of his power, crowned emperor after a grand sacrifice, and then loses everything in a single rigged dice game. His cousin Duryodhana's uncle cheats him out of his kingdom, his brothers, himself, and finally his wife Draupadi, who is dragged into the hall and nearly stripped in public before elders too paralyzed by the question of law to stop it.",
+    "whoIsWho": [
+      {
+        "name": "Yudhishthira",
+        "role": "the Pandava king whose gambling addiction loses everything, including his wife"
+      },
+      {
+        "name": "Duryodhana",
+        "role": "the rival cousin who arranges the dice game to destroy the Pandavas"
+      },
+      {
+        "name": "Shakuni",
+        "role": "Duryodhana's uncle, who cheats at every throw"
+      },
+      {
+        "name": "Draupadi",
+        "role": "staked and nearly stripped after being dragged into the assembly"
+      },
+      {
+        "name": "Krishna",
+        "role": "kills the insulting king Shishupala earlier in the same book, at the height of Yudhishthira's power"
+      }
+    ],
+    "whyItMatters": "The dice game and Draupadi's humiliation in this book are named again and again later in the epic as the true cause of the war, more than any battlefield grievance.",
+    "source": "04-deep-dives/mahabharata/02-sabha-parva.md"
+  },
+  "/stories/bhagavad-gita/07-to-12-bhakti-shatka/": {
+    "intro": "This page covers chapters seven through twelve of the Bhagavad Gita, where Krishna explains his divine nature, describes himself as the greatest example within every category of creation, and grants Arjuna a terrifying vision of his cosmic form, containing every world and the war's coming deaths. The section ends by teaching that loving devotion, open to people of any background, is an easier path to God than pure knowledge.",
+    "whoIsWho": [
+      {
+        "name": "Krishna",
+        "role": "the speaker of these chapters, who reveals his cosmic form to Arjuna"
+      },
+      {
+        "name": "Arjuna",
+        "role": "asks to see Krishna's true form and reacts with terror and awe"
+      }
+    ],
+    "whyItMatters": "This section contains the Gita's most quoted line, \"I am become Death, the destroyer of worlds,\" and its clearest statement that sincere devotion, not birth or learning, is what reaches God.",
+    "source": "04-deep-dives/bhagavad-gita/07-to-12-bhakti-shatka.md"
+  },
+  "/places/vaishno-devi-trikuta-katra/": {
+    "intro": "Vaishno Devi is a cave shrine in the Trikuta hills above Katra, where the Goddess is worshipped not as a statue but as three natural rock formations. According to the shrine's legend, she flees up the mountain from a tantric who pursues her, and beheads him at the cave's mouth; out of mercy she grants him a boon, so no pilgrimage to her is complete without visiting his shrine nearby.",
+    "whoIsWho": [
+      {
+        "name": "Vaishno Devi",
+        "role": "the goddess worshipped in the cave as three natural rock forms"
+      },
+      {
+        "name": "Bhairavnath",
+        "role": "the pursuer she beheads, whom she then forgives and blesses"
+      },
+      {
+        "name": "Shridhar",
+        "role": "the poor devotee whose feast first reveals the goddess's miraculous nature"
+      }
+    ],
+    "whyItMatters": "Vaishno Devi is one of the most visited pilgrimage sites in India, drawing millions of devotees each year to a shrine built entirely around natural rock rather than carved images.",
+    "source": "06-sacred-geography/vaishno-devi-trikuta-katra.md"
+  },
+  "/places/arupadai-veedu-murugan/": {
+    "intro": "The Arupadai Veedu are six sacred sites across Tamil Nadu, each tied to one chapter of the war-god Murugan's life story: his birth and battle against the demon Surapadman, his marriage to the warrior-bride Devasena, his time as a renouncing ascetic, the moment he teaches his own father Shiva the meaning of the sacred syllable Om, and his marriage to the tribal girl Valli.",
+    "whoIsWho": [
+      {
+        "name": "Murugan (also called Skanda or Kartikeya)",
+        "role": "the six-faced war god honored across all six shrines"
+      },
+      {
+        "name": "Surapadman",
+        "role": "the demon Murugan defeats in battle, whose body becomes his peacock mount and rooster banner"
+      },
+      {
+        "name": "Devasena",
+        "role": "Murugan's first wife, given to him by the gods after his victory"
+      },
+      {
+        "name": "Valli",
+        "role": "a hunter's daughter Murugan woos and marries in the hills, his second, more human romance"
+      }
+    ],
+    "whyItMatters": "Visiting all six shrines in order is treated as tracing the whole arc of Murugan's life, from warrior to bridegroom to teacher to graceful protector of the land.",
+    "source": "06-sacred-geography/arupadai-veedu-murugan.md"
+  },
+  "/stories/characters/ghatotkacha/": {
+    "intro": "Ghatotkacha is the rakshasa son of Bhima, born and grown to full size and strength within a single day, gifted with illusion-warfare that lets him fight from the sky. During a night battle, he wreaks havoc on the Kaurava army until their leaders beg Karna to use his one-time weapon on him rather than save it for Arjuna — and Krishna celebrates the boy's death, since it keeps Arjuna safe.",
+    "whoIsWho": [
+      {
+        "name": "Ghatotkacha",
+        "role": "Bhima's demon son, whose death in battle secretly saves Arjuna's life"
+      },
+      {
+        "name": "Bhima",
+        "role": "his father, one of the five Pandava brothers"
+      },
+      {
+        "name": "Hidimba (Hidimbi)",
+        "role": "his rakshasa mother"
+      },
+      {
+        "name": "Karna",
+        "role": "forced to kill Ghatotkacha with the one weapon he was saving for Arjuna"
+      },
+      {
+        "name": "Krishna",
+        "role": "privately rejoices at Ghatotkacha's death, knowing it disarms Karna's greatest threat"
+      }
+    ],
+    "whyItMatters": "Ghatotkacha's death is framed as a hidden turning point of the war, a sacrifice that saves the hero Arjuna without either side realizing it at the time.",
+    "source": "04-deep-dives/characters/ghatotkacha.md"
+  },
+  "/stories/mahabharata/08-karna-parva/": {
+    "intro": "The Karna Parva covers the last two days Karna commands the Kaurava army, after Drona's death. Weighed down by three separate curses working against him at once, Karna finally duels Arjuna and, at the crucial moment, his chariot wheel sinks into the earth and he forgets the mantra for his most powerful weapon, leaving him helpless when Arjuna beheads him.",
+    "whoIsWho": [
+      {
+        "name": "Karna",
+        "role": "the tragic hero who commands the army for two days before dying in his final duel with Arjuna"
+      },
+      {
+        "name": "Arjuna",
+        "role": "kills Karna, ending the fight that decides the war"
+      },
+      {
+        "name": "Shalya",
+        "role": "Karna's reluctant charioteer, who deliberately discourages him throughout the battle"
+      },
+      {
+        "name": "Krishna",
+        "role": "refuses to let Arjuna spare Karna, reminding him of Karna's own past cruelties in the war"
+      }
+    ],
+    "whyItMatters": "Karna's death is treated as the war's true turning point, since with him gone the Kaurava army has no warrior left who can match Arjuna.",
+    "source": "04-deep-dives/mahabharata/08-karna-parva.md"
+  },
+  "/stories/rukmini-harana/": {
+    "intro": "Princess Rukmini secretly writes to Krishna, whom she has never met but loves by reputation, begging him to carry her off before her brother can force her to marry his ally Shishupala. Krishna races to her city, snatches her from a temple procession in front of the assembled kings, and marries her, later sparing her brother's life at her request even after defeating him in battle.",
+    "whoIsWho": [
+      {
+        "name": "Rukmini",
+        "role": "the princess who arranges her own rescue from an unwanted marriage"
+      },
+      {
+        "name": "Krishna",
+        "role": "answers her secret plea and takes her as his chief wife"
+      },
+      {
+        "name": "Rukmi",
+        "role": "Rukmini's brother, who tries to force her marriage to Shishupala and is later defeated by Krishna"
+      },
+      {
+        "name": "Shishupala",
+        "role": "the king Rukmini was set to marry against her will"
+      }
+    ],
+    "whyItMatters": "The story shows Krishna's central marriage as a rescue the bride herself designs and requests, which is why it is celebrated in temples across South India as a model wedding.",
+    "source": "04-deep-dives/rukmini-harana.md"
+  },
+  "/places/jagannath-puri-purushottama-kshetra/": {
+    "intro": "Jagannath Puri is a major pilgrimage city on the Odisha coast where Krishna is worshipped in an unusual form: a plain wooden log with round eyes and no arms, alongside his brother and sister. According to legend, a divine carpenter began carving the images behind locked doors but was interrupted before finishing, which is why the statues remain deliberately unfinished to this day.",
+    "whoIsWho": [
+      {
+        "name": "Jagannatha",
+        "role": "the armless wooden form of Krishna worshipped at Puri"
+      },
+      {
+        "name": "Balabhadra",
+        "role": "his brother, worshipped alongside him"
+      },
+      {
+        "name": "Subhadra",
+        "role": "their sister, the third figure in the temple's triad"
+      },
+      {
+        "name": "Indradyumna",
+        "role": "the king whose search for a hidden form of Vishnu leads to the discovery of the sacred log"
+      }
+    ],
+    "whyItMatters": "Puri is the site of the Ratha Yatra, the festival that gave English the word \"juggernaut,\" when the three deities are pulled through the streets in giant chariots.",
+    "source": "06-sacred-geography/jagannath-puri-purushottama-kshetra.md"
+  },
+  "/stories/indradyumna-akupara-oldest-beings/": {
+    "intro": "A king named Indradyumna falls from heaven because no one remembers him anymore, and he is told he can return only if he finds someone who does. He is sent from the sage Markandeya to an owl, then a crane, and at last to a tortoise named Akupara, who recognizes him — because the lake he lives in was dug out by the hooves of cattle Indradyumna gave away.",
+    "whoIsWho": [
+      {
+        "name": "Indradyumna",
+        "role": "the fallen king searching for someone who still remembers his good deeds"
+      },
+      {
+        "name": "Markandeya",
+        "role": "the immortal sage who cannot remember Indradyumna and sends him to an even older witness"
+      },
+      {
+        "name": "Akupara",
+        "role": "the ancient tortoise who finally recognizes the king through the mark his generosity left on the land"
+      }
+    ],
+    "whyItMatters": "The story teaches that a person's good deeds can outlast even their name being remembered, since it is the changed landscape, not the memory of the king himself, that finally proves who he was.",
+    "source": "04-deep-dives/indradyumna-akupara-oldest-beings.md"
+  },
+  "/cosmology/": {
+    "intro": "This section explains how Hindu tradition understands time itself: not as a straight line from a beginning to an end, but as an endless cycle of creation, maintenance, and dissolution, playing out in units that range from the blink of an eye to spans of hundreds of trillions of years. Start here to understand the \"cosmic address\" used throughout the rest of the site to place every story and era.",
+    "whyItMatters": "Every date and era used elsewhere on this site is really a position within these cycles, so this section is the key to understanding how Hindu tradition places any given event in time.",
+    "source": "00-time-and-cosmology/README.md"
+  },
+  "/manvantaras/": {
+    "intro": "This section tracks the fourteen great cosmic ages, called Manvantaras, that make up one full day in the life of the god Brahma. Each Manvantara has its own presiding ancestor of humanity (a Manu), its own king of the gods, and its own set of seven sages. We are currently living in the seventh of these fourteen ages.",
+    "whyItMatters": "Use this section to see where the Puranic king lists, floods, and avatar stories fit inside the wider cosmic calendar, and to find the current age from which every other dated story on this site is measured.",
+    "source": "01-manvantaras/README.md"
+  },
+  "/deities/": {
+    "intro": "This section is the who's-who of Hindu gods and cosmic beings, organized not by time period but by identity, since the same deities reappear across every age. It covers the three-part godhead of Brahma, Vishnu, and Shiva; their ten and more avatars; the Goddess in her many forms; and the wider worlds of gods and demons.",
+    "whyItMatters": "Come here when a story mentions a god you don't recognize, or when you want to see how the same deity's different names and forms connect across the whole site.",
+    "source": "02-deities-and-cosmic-hierarchy/README.md"
+  },
+  "/lineages/": {
+    "intro": "This section traces the royal family trees that run through the timeline's stories, mostly descending from two dynasties founded by the children of Manu: the solar line that leads to Rama, and the lunar line that leads to the Pandavas and Krishna. Since these families span many different ages, their stories are gathered here rather than scattered across each era.",
+    "whyItMatters": "Use this section to see how kings and heroes from different stories are actually related, and how a single family's choices generations earlier echo forward into the Ramayana and the Mahabharata.",
+    "source": "03-lineages-vamsha/README.md"
+  },
+  "/stories/": {
+    "intro": "This section holds full-length treatments of the biggest individual episodes in Hindu tradition, from the two great epics, the Ramayana and the Mahabharata, told book by book, to standalone tales like the churning of the ocean and the whole life of Krishna. These are the stories too large to fit inside a single page about their time period.",
+    "whyItMatters": "This is the place to go for the complete version of any story mentioned briefly elsewhere on the site, since each entry gathers every named character, variant telling, and source in one place.",
+    "source": "04-deep-dives/README.md"
+  },
+  "/dharma/": {
+    "intro": "This section explains the ideas behind the stories: concepts like dharma (duty and cosmic order), karma and rebirth, the four goals of life, the stages of life, and the different schools of Hindu philosophy. These are the recurring principles that motivate characters' choices throughout the timeline's narratives.",
+    "whyItMatters": "Come here when a story references an idea like karma, moksha, or varna and you want the concept explained on its own terms, apart from any single character's story.",
+    "source": "05-concepts-and-dharma/README.md"
+  },
+  "/places/": {
+    "intro": "This section maps the sacred landscape of India: rivers, mountains, temple cities, and whole pilgrimage circuits where, according to tradition, a story from the timeline actually touched the earth. Each entry explains the local legend that explains why a particular site became holy.",
+    "whyItMatters": "Use this section to see where a story you've read elsewhere is still marked on the map today, and which pilgrimage traditions grew out of it.",
+    "source": "06-sacred-geography/README.md"
+  },
+  "/teachers/": {
+    "intro": "This section covers the historical teachers, poet-saints, and religious orders that carried Hindu practice forward through the centuries: philosophers like Shankara, devotional poets like Mirabai and Tulsidas, and the different sects built around Vishnu, Shiva, and the Goddess. Unlike most of this site, these are figures whose dates can often be checked against outside historical records.",
+    "whyItMatters": "Come here to see who actually built the schools of thought and worship practiced today, and how they trace their authority back to the older scriptures and stories told elsewhere on this site.",
+    "source": "07-acharyas-and-sampradayas/README.md"
+  },
+  "/beings/": {
+    "intro": "This section catalogs the many kinds of beings that exist between gods and humans: celestial musicians, tree-spirits, serpent-people, demon races, ghosts, and the named magical animals of the epics, like the eagle Garuda and the wish-granting cow Kamadhenu. None of these classes are simply good or evil; the same family of beings can include both villains and devoted heroes.",
+    "whyItMatters": "Use this section to understand a creature's place in the wider cosmic order whenever a story mentions it without much explanation.",
+    "source": "08-beings-and-bestiary/README.md"
+  },
+  "/symbols/": {
+    "intro": "This section catalogs the objects, weapons, symbols, and traditional arts that appear throughout Hindu stories: named weapons like Vishnu's discus and Arjuna's bow, sacred symbols like Om and the lotus, the animals the gods ride, and the sixty-four traditional arts a well-rounded person was expected to master.",
+    "whyItMatters": "Come here whenever a story mentions an object or symbol by name and you want to know its origin, its usual owner, and what it stands for.",
+    "source": "09-artifacts-symbols-and-arts/README.md"
+  },
+  "/texts/": {
+    "intro": "This section explains the scriptures themselves: the difference between the Vedas, treated as eternally revealed, and the later texts like the epics and the eighteen Puranas, which are composed but still highly authoritative. It sorts out which text says what, how each was traditionally dated versus how scholars date it today, and which texts are the real sources behind the stories told elsewhere on the site.",
+    "whyItMatters": "Use this section whenever you want to know how reliable or how old a claim is, since every event elsewhere on the site should trace back to a specific text cataloged here.",
+    "source": "90-literature-corpus/README.md"
+  },
+  "/": {
+    "intro": "This is the master index for a project that maps the entire Hindu understanding of time, from the smallest fraction of a second to the 311-trillion-year life of the god Brahma, and places every story, king, and text at its own address on that scale. It works forward from cosmic ages down to individual epics, gods, family trees, sacred places, and the scriptures that record them all.",
+    "whyItMatters": "This page is the front door to the whole site; start here to find your way to any section, whether you want the cosmic calendar, a specific god, a royal lineage, or one particular story.",
+    "source": "README.md"
+  },
+  "/lineages/suryavamsha-and-chandravamsha/": {
+    "intro": "This page traces the two royal family trees that produce almost every major hero in Hindu epic literature: the Solar dynasty, descending through King Ikshvaku to Rama, and the Lunar dynasty, descending through King Yayati's son Puru to the Pandavas, and through his other son Yadu to Krishna. Both families descend from the same ancestor, Manu, the survivor of the great flood.",
+    "whoIsWho": [
+      {
+        "name": "Ikshvaku",
+        "role": "founder of the Solar dynasty that leads to Rama"
+      },
+      {
+        "name": "Yayati",
+        "role": "the Lunar dynasty king whose choice of heir splits the family into the line of Krishna and the line of the Pandavas"
+      },
+      {
+        "name": "Rama",
+        "role": "the most celebrated king of the Solar line"
+      },
+      {
+        "name": "Krishna",
+        "role": "born into the Lunar dynasty's Yadava branch"
+      }
+    ],
+    "whyItMatters": "Nearly every named king and hero elsewhere on this site belongs to one of these two families, so this page is the key to seeing how far-flung characters are actually related.",
+    "source": "03-lineages-vamsha/suryavamsha-and-chandravamsha.md"
+  },
+  "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/": {
+    "intro": "This page describes what Hindu scripture predicts about the current age, Kali Yuga, the last and worst of the four ages, when virtue is reduced to a quarter of its original strength. The texts describe a long decline in honesty, health, and justice, followed eventually by the arrival of Kalki, a final avatar of Vishnu who will end the age's corruption and restart the cycle with a new golden age.",
+    "whoIsWho": [
+      {
+        "name": "Kalki",
+        "role": "the future avatar of Vishnu who will appear at the end of Kali Yuga riding a white horse"
+      },
+      {
+        "name": "Vishnuyasha",
+        "role": "Kalki's father, a brahmin in the village of Shambhala, according to the prophecy"
+      }
+    ],
+    "whyItMatters": "This page explains why Hindu tradition considers the present era to be one of moral decline, and gives the traditional endpoint, still hundreds of thousands of years away, when that decline is expected to reverse.",
+    "source": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/README.md"
+  },
+  "/deities/shiva-myth-cycle/": {
+    "intro": "This page collects the major stories of Shiva: how he burns the demon of desire to ash, catches the falling river Ganga in his hair, drinks a world-poison that turns his throat blue, destroys three flying demon cities with a single arrow, and dances the cosmic dance that both destroys and renews the universe. These stories present Shiva as the highest reality, with the other gods shown as his instruments.",
+    "whoIsWho": [
+      {
+        "name": "Shiva",
+        "role": "the god at the center of every story on this page"
+      },
+      {
+        "name": "Parvati",
+        "role": "Shiva's wife, present in several of the stories including the burning of Kama and the swallowing of poison"
+      },
+      {
+        "name": "Kama",
+        "role": "the love god, burned to ash by Shiva's third eye"
+      },
+      {
+        "name": "Ganga",
+        "role": "the river goddess whose fall to earth is broken by Shiva's hair"
+      }
+    ],
+    "whyItMatters": "The page is written from a Shaiva point of view, meaning it consistently treats Shiva, not Brahma or Vishnu, as the ultimate power behind the universe.",
+    "source": "02-deities-and-cosmic-hierarchy/shiva-myth-cycle.md"
+  },
+  "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga/": {
+    "intro": "The Dvapara Yuga is the third of the four cosmic ages, when virtue and vice are evenly balanced. It is the age of Krishna, the Mahabharata war, and the sage Vyasa, who organized the Vedas and composed the great epic this age is remembered for. The age ends with Krishna's death and the sinking of his city, Dwarka, which traditionally begins the present age, Kali Yuga.",
+    "whoIsWho": [
+      {
+        "name": "Krishna",
+        "role": "the central figure of this age, whose life and death frame its close"
+      },
+      {
+        "name": "Vyasa",
+        "role": "the sage credited with organizing the Vedas and composing the Mahabharata during this age"
+      },
+      {
+        "name": "Arjuna",
+        "role": "the warrior Krishna guides through the Bhagavad Gita during the war that defines this era"
+      }
+    ],
+    "whyItMatters": "This page is the cosmic-calendar anchor for the entire Mahabharata story world, showing exactly where Krishna's life and the great war sit on the larger timeline of ages.",
+    "source": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/03-dvapara-yuga.md"
+  },
+  "/manvantaras/manvantara-07-vaivasvata/": {
+    "intro": "This page covers the seventh of fourteen great cosmic ages, the one we are currently living in, presided over by the ancestor-figure Manu, who survives a world-ending flood at its start by following the warning of a fish that is really Vishnu in disguise. All of recorded Hindu history, the two great epics, and the well-known avatars of Vishnu take place within this single age.",
+    "whoIsWho": [
+      {
+        "name": "Manu (Vaivasvata)",
+        "role": "the ancestor of humanity for this age, who survives the flood that opens it"
+      },
+      {
+        "name": "Vishnu",
+        "role": "takes the form of a fish, Matsya, to warn and save Manu"
+      }
+    ],
+    "whyItMatters": "This page is the frame that holds the Ramayana, the Mahabharata, and every well-known avatar story, since all of them are said to happen within this one cosmic age.",
+    "source": "01-manvantaras/manvantara-07-vaivasvata/README.md"
+  },
+  "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga/": {
+    "intro": "The Treta Yuga is the second of the four cosmic ages, when virtue has dropped to three-quarters strength and grand ritual sacrifice becomes the main way people uphold order. It is the age of three of Vishnu's avatars: the dwarf Vamana who tricks a generous demon-king, the axe-wielding priest-warrior Parashurama, and Rama, whose story, the Ramayana, defines the age.",
+    "whoIsWho": [
+      {
+        "name": "Rama",
+        "role": "the central figure of this age, prince of Ayodhya and hero of the Ramayana"
+      },
+      {
+        "name": "Vamana",
+        "role": "an earlier avatar of Vishnu in this age, the dwarf who outwits the demon-king Bali"
+      },
+      {
+        "name": "Parashurama",
+        "role": "another avatar of this age, the warrior-priest who wipes out corrupt kings"
+      },
+      {
+        "name": "Sita",
+        "role": "Rama's wife, whose abduction sets the Ramayana's plot in motion"
+      }
+    ],
+    "whyItMatters": "This page places Rama's life on the larger timeline of ages, right after Vishnu's earlier appearances in the same era as Vamana and Parashurama.",
+    "source": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/02-treta-yuga.md"
+  },
+  "/stories/ramayana/": {
+    "intro": "This is the overview page for the Ramayana, one of Hindu tradition's two great epics, telling the life of Prince Rama of Ayodhya across seven books: his birth, his exile, the abduction of his wife Sita by the demon king Ravana, the war to rescue her, and his eventual return home as king. Countless retellings of this story exist across Asia in different languages and religions.",
+    "whoIsWho": [
+      {
+        "name": "Rama",
+        "role": "the exiled prince of Ayodhya whose story the epic follows"
+      },
+      {
+        "name": "Sita",
+        "role": "Rama's wife, abducted by Ravana, at the center of the plot"
+      },
+      {
+        "name": "Ravana",
+        "role": "the ten-headed demon king of Lanka who abducts Sita"
+      },
+      {
+        "name": "Hanuman",
+        "role": "the devoted monkey-warrior who finds Sita and helps win the war"
+      },
+      {
+        "name": "Lakshmana",
+        "role": "Rama's loyal brother, who accompanies him through exile and war"
+      }
+    ],
+    "whyItMatters": "This page is the entry point to the epic's seven books, and explains how the version most people know differs from the older core text and from the many other Ramayanas told in other Indian languages, and in Jain, Buddhist, and Southeast Asian traditions.",
+    "source": "04-deep-dives/ramayana/README.md"
+  },
+  "/deities/devas-asuras-and-the-lokas/": {
+    "intro": "This page maps the vertical structure of the Hindu universe: fourteen worlds stacked above and below the earth, home to gods, sages, and serpent-people in the upper and lower realms. It introduces the devas (gods) and asuras (their demon rivals), explaining that both groups are half-brothers, children of the same father by two different mothers, which makes their conflict a family struggle rather than a battle between good and evil.",
+    "whoIsWho": [
+      {
+        "name": "Indra",
+        "role": "king of the gods and ruler of heaven, whose throne is repeatedly threatened by demons and ascetics"
+      },
+      {
+        "name": "Kashyapa",
+        "role": "the father of both the gods and many demon lineages, through different wives"
+      },
+      {
+        "name": "Prahlada and Bali",
+        "role": "devout demon-kings who show that not every asura is a villain"
+      },
+      {
+        "name": "Ravana and Hiranyakashipu",
+        "role": "demon kings whose tyranny is ended by different forms of Vishnu"
+      }
+    ],
+    "whyItMatters": "Use this page to understand the cosmic geography and the family relationships behind every deva-versus-asura story told elsewhere on the site.",
+    "source": "02-deities-and-cosmic-hierarchy/devas-asuras-and-the-lokas.md"
+  },
+  "/stories/characters/": {
+    "intro": "This section holds dedicated pages for the individual characters of the Ramayana and the Mahabharata who have enough of their own story, across multiple books and later retellings, to deserve a page of their own rather than just appearing inside the main narrative. It covers everyone from the five Pandava brothers and their wife Draupadi to Rama's allies and enemies in the Ramayana.",
+    "whyItMatters": "Come here when you want the complete picture of one character's arc pulled together from across an epic's many books, rather than scattered pieces from each chapter.",
+    "source": "04-deep-dives/characters/README.md"
+  },
+  "/texts/smriti-puranas/": {
+    "intro": "This page introduces the Puranas, the large body of scripture that tells most of the stories used throughout this site: how the world was created, the ages of the fourteen ancestor-figures called Manus, the deeds of the avatars, and the family trees of ancient kings. Tradition counts eighteen major Puranas and eighteen lesser ones, all credited to the sage Vyasa, though which text belongs on which list is disputed.",
+    "whyItMatters": "This page is the map to which scripture says what, since almost every story elsewhere on the site traces back to one specific Purana named here.",
+    "source": "90-literature-corpus/smriti-puranas.md"
+  },
+  "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/": {
+    "intro": "This page covers the 28th of the seventy-one great four-age cycles that make up our current cosmic era, the one containing nearly every story and figure this site records. Within it, the golden Satya age, the ritual-centered Treta age, and the balanced Dvapara age have already passed; we are living in its fourth and final quarter, the declining Kali age.",
+    "whyItMatters": "This page is the direct parent of the four yuga pages, showing how the ages of Rama, Krishna, and the present day all sit inside this one specific cycle rather than some other one of the seventy-one.",
+    "source": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/README.md"
+  },
+  "/stories/mahabharata/": {
+    "intro": "This is the overview page for the Mahabharata, the longer of Hindu tradition's two great epics, telling the story of a war between two branches of one royal family, the Pandavas and the Kauravas, across eighteen books. It also contains the Bhagavad Gita, Krishna's teaching to the warrior Arjuna on the battlefield, and is traditionally said to hold every story that matters, since it calls itself the fifth Veda.",
+    "whoIsWho": [
+      {
+        "name": "Yudhishthira",
+        "role": "eldest of the five Pandava brothers, whose gambling loss sets the tragedy in motion"
+      },
+      {
+        "name": "Duryodhana",
+        "role": "the eldest Kaurava, whose refusal to share the kingdom leads to war"
+      },
+      {
+        "name": "Krishna",
+        "role": "guides the Pandavas and delivers the Bhagavad Gita during the war"
+      },
+      {
+        "name": "Bhishma",
+        "role": "the Kuru elder bound by a lifelong vow, who commands the Kaurava army for the war's first ten days"
+      },
+      {
+        "name": "Vyasa",
+        "role": "the sage credited with composing the entire epic, and who also appears as a character in it"
+      }
+    ],
+    "whyItMatters": "This page is the entry point to the epic's eighteen books, and explains how the version most people know grew, over centuries, from a shorter core into the longest poem in the world.",
+    "source": "04-deep-dives/mahabharata/README.md"
+  },
+  "/texts/shruti-vedas-and-upanishads/": {
+    "intro": "This page explains the Vedas, the oldest and most authoritative layer of Hindu scripture, believed to be eternally revealed truth rather than something a human being wrote. It covers the four Vedas, their different layers of hymn, ritual instruction, and philosophy, and the Upanishads, the philosophical writings at the end of each Veda that ask what the self and ultimate reality really are.",
+    "whyItMatters": "This page explains why the Vedas outrank every other Hindu text in authority, and gives the philosophical foundation, especially the Upanishads, that later texts like the Bhagavad Gita build on.",
+    "source": "90-literature-corpus/shruti-vedas-and-upanishads.md"
+  },
+  "/texts/smriti-itihasa-epics/": {
+    "intro": "This page covers Itihasa, meaning \"thus it was,\" the category that holds Hindu tradition's two great epics, the Ramayana and the Mahabharata. Unlike the Vedas, these are considered human-composed rather than eternally revealed, though they carry enormous authority and are treated as genuine, if ancient, history.",
+    "whyItMatters": "This page is the map to how the two epics are structured, how many different versions of each exist across India and Asia, and how scholars date them differently from how tradition dates them.",
+    "source": "90-literature-corpus/smriti-itihasa-epics.md"
+  },
+  "/dharma/purusharthas-and-karma-samsara-moksha/": {
+    "intro": "This page explains two of Hindu thought's central ideas: the four proper aims of a human life (duty, wealth, pleasure, and liberation), and the engine of karma, rebirth, and release that carries a soul through many lifetimes. Different schools of thought rank these aims differently and disagree about what liberation actually means, and the page lays out each position without picking a winner.",
+    "whyItMatters": "This page explains the underlying logic of reward, rebirth, and liberation that quietly shapes the motivations of nearly every character across the site's stories.",
+    "source": "05-concepts-and-dharma/purusharthas-and-karma-samsara-moksha.md"
+  },
+  "/texts/bhagavata-purana-skandha-map/": {
+    "intro": "This page maps the twelve books of the Bhagavata Purana, the scripture most responsible for the popular image of Krishna, book by book. Its longest and most famous book, the tenth, tells Krishna's entire life story, from his birth in a prison cell to his years as a cowherd boy to his rule as a king in Dwarka.",
+    "whoIsWho": [
+      {
+        "name": "Krishna",
+        "role": "the central figure of the text, especially its tenth book"
+      },
+      {
+        "name": "Shuka",
+        "role": "the sage who narrates most of the text to a dying king, Parikshit"
+      },
+      {
+        "name": "Parikshit",
+        "role": "the king who hears the entire scripture in the seven days before his death"
+      }
+    ],
+    "whyItMatters": "This page helps locate any Krishna story elsewhere on the site within its proper book and chapter of this single, enormously influential scripture.",
+    "source": "90-literature-corpus/bhagavata-purana-skandha-map.md"
+  },
+  "/stories/bhagavad-gita/": {
+    "intro": "This is the hub page for the Bhagavad Gita, the eighteen-chapter conversation between the warrior Arjuna and his charioteer Krishna, spoken on the battlefield just before the Mahabharata war begins. Arjuna, refusing to fight his own relatives, is taught by Krishna about duty, the eternal soul, devotion, and the nature of God, in what became the most widely read philosophical text in Hindu tradition.",
+    "whoIsWho": [
+      {
+        "name": "Krishna",
+        "role": "Arjuna's charioteer and teacher throughout the conversation, revealed as God himself"
+      },
+      {
+        "name": "Arjuna",
+        "role": "the warrior who despairs at fighting his own family and is guided back to action"
+      },
+      {
+        "name": "Sanjaya",
+        "role": "the narrator who relays the entire conversation to the blind king Dhritarashtra"
+      }
+    ],
+    "whyItMatters": "This page links out to a deep dive on all eighteen chapters, and explains why a battlefield speech became one of the most commented-on religious texts in the world, studied by wildly different schools of thought that each read it as confirming their own view.",
+    "source": "04-deep-dives/bhagavad-gita/README.md"
+  },
+  "/stories/vishwamitra-vasishtha/": {
+    "intro": "This page tells the long rivalry between Vishwamitra, a king who wants to become a sage of the highest rank through sheer willpower, and Vasishtha, a sage born into that rank who refuses to simply hand it over. Across many lifetimes of effort, Vishwamitra suffers repeated setbacks driven by his own anger, until he finally masters it, and Vasishtha freely gives him the title he could never take by force.",
+    "whoIsWho": [
+      {
+        "name": "Vishwamitra",
+        "role": "the king-turned-sage who spends a lifetime of austerity trying to earn the highest priestly rank"
+      },
+      {
+        "name": "Vasishtha",
+        "role": "the sage born to that rank, whose forgiveness eventually completes Vishwamitra's transformation"
+      },
+      {
+        "name": "Menaka and Rambha",
+        "role": "two heavenly dancers sent to distract Vishwamitra from his efforts"
+      },
+      {
+        "name": "Shakuntala",
+        "role": "Vishwamitra's daughter, born during one of these distractions"
+      }
+    ],
+    "whyItMatters": "The rivalry is Hindu tradition's central story about whether spiritual rank can be earned rather than only inherited by birth, and its answer is that it can, but only once anger itself has been conquered.",
+    "source": "04-deep-dives/vishwamitra-vasishtha.md"
+  },
+  "/places/sthala-puranas-major-temples/": {
+    "intro": "This page collects the origin legends of major Hindu temples that are not covered by the more famous lists like the twelve Jyotirlingas or the fifty-one Shakti Peethas. Each temple has its own story explaining how a particular god chose that exact spot, such as Krishna's image floating ashore as a sacred log at Puri, or Shiva being unable to lift a sacred stone he had given away at Gokarna.",
+    "whyItMatters": "Use this page when a story elsewhere on the site mentions why a specific temple exists, since it collects the local legend behind places like Tirupati, Puri, Pandharpur, and Rameswaram in one place.",
+    "source": "06-sacred-geography/sthala-puranas-major-temples.md"
+  },
+  "/manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history/": {
+    "intro": "This page lines up two different clocks for the same stretch of time: the traditional dating used in Hindu scripture, where the present age began in 3102 BCE, and the mainstream historical dating used by archaeologists and scholars, which sees the same story unfold much later. It runs from the Indus Valley civilization up through modern reform movements, flagging every point where the two clocks disagree.",
+    "whyItMatters": "This page shows how far apart Hindu tradition's own timeline and modern scholarly history really are, and exactly where the two accounts pull apart.",
+    "source": "01-manvantaras/manvantara-07-vaivasvata/mahayuga-28-current/04-kali-yuga/recorded-history.md"
+  },
+  "/stories/ramayana/1-bala-kanda/": {
+    "intro": "This is the first book of the Ramayana, covering Rama's birth as an answer to his father's prayer for sons, his boyhood training under the sage Vishwamitra, his killing of the demon Tataka, and his marriage to Sita after he alone can string and break the bow of Shiva. It closes with the warrior-sage Parashurama testing him and recognizing him as Vishnu.",
+    "whoIsWho": [
+      {
+        "name": "Rama",
+        "role": "the newborn prince at the center of the book, later revealed to be Vishnu born in human form"
+      },
+      {
+        "name": "Sita",
+        "role": "the woman said to have risen from the earth as a baby, won by Rama when he breaks Shiva's great bow"
+      },
+      {
+        "name": "Vishwamitra",
+        "role": "the sage who takes the boy Rama from his father to guard his sacrifice from demons"
+      },
+      {
+        "name": "Dasharatha",
+        "role": "the aging king of Ayodhya whose long childlessness is ended by a sacred offering"
+      },
+      {
+        "name": "Parashurama",
+        "role": "an earlier warrior form of Vishnu, furious that Rama has broken Shiva's bow, who yields his own power to him"
+      }
+    ],
+    "whyItMatters": "This book sets up nearly everything the rest of the epic depends on: Rama's divine identity, his marriage to Sita, and the family ties that will shape the exile to come.",
+    "source": "04-deep-dives/ramayana/1-bala-kanda.md"
+  },
+  "/places/12-jyotirlingas/": {
+    "intro": "This page catalogs the twelve Jyotirlingas, the most sacred shrines of Shiva, each said to mark a spot where he appeared as an infinite pillar of fire to settle a dispute between Brahma and Vishnu over which of them was supreme. Scripture describes sixty-four such sites in total, but only these twelve are treated as supreme across all of India.",
+    "whyItMatters": "This page gives the story behind each of the twelve shrines, including several whose exact location is still disputed between rival towns today.",
+    "source": "06-sacred-geography/12-jyotirlingas.md"
+  },
+  "/deities/saptarishi/": {
+    "intro": "The Saptarishi are the seven greatest sages of Hindu tradition, a role that is refilled with new people at the start of each of the fourteen great cosmic ages. Different scriptures name the seven differently, but they are always credited with preserving the Vedas, fathering the priestly family lines, and standing as a council of wisdom alongside the ruling Manu of their age.",
+    "whoIsWho": [
+      {
+        "name": "Vasishtha",
+        "role": "the priest of the solar dynasty kings including Rama, and one side of the seven sages' most famous rivalry"
+      },
+      {
+        "name": "Vishwamitra",
+        "role": "a king who wins his way into the seven sages' rank through relentless self-discipline"
+      },
+      {
+        "name": "Agastya",
+        "role": "a sage sometimes counted among the seven, said to have drunk the entire ocean in one gulp"
+      },
+      {
+        "name": "Kashyapa",
+        "role": "father of the gods, demons, and many other beings, through his many wives"
+      },
+      {
+        "name": "Bhrigu",
+        "role": "a sage sometimes counted among the seven, who once kicked the sleeping Vishnu to test his patience"
+      }
+    ],
+    "whyItMatters": "This page explains why one sage's name can appear on different lists across the tradition, and gathers the best-known stories of each of the seven sages in one place.",
+    "source": "02-deities-and-cosmic-hierarchy/saptarishi.md"
+  },
+  "/stories/ramayana/6-yuddha-kanda/": {
+    "intro": "This is the sixth book of the Ramayana, covering the building of a bridge to Lanka, the long siege of the city, and the deaths of Ravana's brother Kumbhakarna, his son Indrajit, and finally Ravana himself. It ends with Sita proving her purity by fire and the couple's triumphant return to Ayodhya, where Rama is crowned king.",
+    "whoIsWho": [
+      {
+        "name": "Rama",
+        "role": "leads the war to rescue Sita and kills Ravana with a weapon given to him by the sage Agastya"
+      },
+      {
+        "name": "Ravana",
+        "role": "the ten-headed king of Lanka, killed by Rama after a fierce battle"
+      },
+      {
+        "name": "Hanuman",
+        "role": "carries Rama on his shoulders in battle and later flies off to fetch a whole mountain of healing herbs"
+      },
+      {
+        "name": "Lakshmana",
+        "role": "Rama's brother, badly wounded twice in the war and healed both times"
+      },
+      {
+        "name": "Vibhishana",
+        "role": "Ravana's own brother, who defects to Rama's side and is later crowned king of Lanka"
+      }
+    ],
+    "whyItMatters": "This book is the climax of the entire epic, and the source of the famous line where Rama insists, \"I think of myself as a man,\" even as the gods declare he is God returned to earth.",
+    "source": "04-deep-dives/ramayana/6-yuddha-kanda.md"
+  },
+  "/stories/ramayana/7-uttara-kanda/": {
+    "intro": "This final book of the Ramayana is widely considered a later addition by scholars, and it covers events both before and after the war: Ravana's family history, Rama's banishment of the pregnant Sita over public gossip, the birth of their twin sons, and Rama's own departure from the world by walking into the river Sarayu. Many of its harshest episodes are debated as later, non-original material.",
+    "whoIsWho": [
+      {
+        "name": "Rama",
+        "role": "now king of Ayodhya, who banishes the pregnant Sita over rumors and later kills a low-born ascetic for practicing forbidden penance"
+      },
+      {
+        "name": "Sita",
+        "role": "banished to the forest while pregnant, who chooses to return to the earth rather than prove her purity a second time"
+      },
+      {
+        "name": "Lava and Kusha",
+        "role": "Rama and Sita's twin sons, raised by the sage Valmiki, who unknowingly recite their own father's life story back to him"
+      },
+      {
+        "name": "Valmiki",
+        "role": "the sage credited with composing the Ramayana, who shelters Sita and raises her sons"
+      },
+      {
+        "name": "Ravana",
+        "role": "Rama's old enemy, whose whole family history and rise to power is told in flashback at the start of this book"
+      }
+    ],
+    "whyItMatters": "This is the epic's most controversial book, containing both the beloved reunion of Rama with his sons and episodes, like Sita's banishment, that many readers and scholars find hard to reconcile with Rama's own character.",
+    "source": "04-deep-dives/ramayana/7-uttara-kanda.md"
+  },
+  "/places/temple-networks-and-circuits/": {
+    "intro": "This page catalogs the great numbered pilgrimage circuits of Hindu temples, fixed sets like the 108 Vishnu shrines sung by Tamil poet-saints called the Alvars, or the eight self-made Ganesha shrines of Maharashtra, that are meant to be visited together as one complete journey. Unlike a single holy site, a circuit isn't finished until every temple on the list has been visited.",
+    "whyItMatters": "Use this page when a story elsewhere mentions a temple as part of a numbered set, since it explains which larger circuit that temple belongs to and why the number itself is treated as sacred.",
+    "source": "06-sacred-geography/temple-networks-and-circuits.md"
+  },
+  "/places/sapta-puri-and-sacred-cities/": {
+    "intro": "This page lists the seven cities and the seven rivers that Hindu tradition holds to be so sacred that dying in one of the cities, or bathing in one of the rivers, grants liberation. The seven cities include Ayodhya, where Rama was born, and Dwarka, the sea capital Krishna built and which later sank beneath the waves.",
+    "whyItMatters": "This page is the map to the seven mokṣa-cities and seven sacred rivers named in every ritual bath, showing which deity, era, and story each one is tied to.",
+    "source": "06-sacred-geography/sapta-puri-and-sacred-cities.md"
+  },
+  "/beings/nagas-and-serpents/": {
+    "intro": "Nagas are a race of half-human, half-serpent beings who live in a jeweled underground realm, guard treasure and water, and are locked in an old blood feud with the great eagle Garuda. Born as the thousand sons of the sage Kashyapa, they include kings like Vasuki and Takshaka, the river-serpent Kaliya tamed by Krishna, and the goddess Manasa, who protects against snakebite.",
+    "whoIsWho": [
+      {
+        "name": "Vasuki",
+        "role": "king of the serpent people, who serves as the churning-rope when gods and demons churn the ocean for the drink of immortality"
+      },
+      {
+        "name": "Kaliya",
+        "role": "a poisonous, hundred-hooded serpent that poisons a river until the young Krishna dances on his hoods and drives him away"
+      },
+      {
+        "name": "Shesha (Ananta)",
+        "role": "the endless, thousand-hooded serpent who holds up the earth and forms the couch on which Vishnu reclines"
+      },
+      {
+        "name": "Takshaka",
+        "role": "the serpent whose bite kills a king, setting off a vow to destroy the entire serpent race"
+      },
+      {
+        "name": "Manasa",
+        "role": "the goddess of snakes, sister of Vasuki, worshipped especially in Bengal to protect against snakebite"
+      }
+    ],
+    "whyItMatters": "This page collects the named serpent-kings and serpent-stories that appear scattered across the epics, from the ocean-churning rope Vasuki to the Kaliya Krishna dances on top of, in one place.",
+    "source": "08-beings-and-bestiary/nagas-and-serpents.md"
+  },
+  "/places/51-shakti-peethas/": {
+    "intro": "This page catalogs the Shakti Peethas, shrines marking the spots where pieces of the goddess Sati's body fell to earth after she gave up her life at her father's sacrifice and a grieving Shiva carried her corpse across the world. The exact number is one of the most disputed counts in Hindu sacred geography, with different scriptures naming four, eighteen, fifty-one, or a hundred and eight shrines.",
+    "whoIsWho": [
+      {
+        "name": "Sati",
+        "role": "the goddess whose body, destroyed by her own grief and anger, falls to earth piece by piece and creates the shrines"
+      },
+      {
+        "name": "Shiva",
+        "role": "Sati's husband, whose mad grief at carrying her corpse across the world threatens to unbalance all creation"
+      },
+      {
+        "name": "Vishnu",
+        "role": "cuts Sati's body apart with his discus as Shiva carries it, to end his grief and restore order"
+      },
+      {
+        "name": "Daksha",
+        "role": "Sati's father, whose sacrifice she attends uninvited and where she is publicly humiliated"
+      }
+    ],
+    "whyItMatters": "This page explains why the count of these shrines differs so much between texts, and gathers the origin story, presiding goddess, and guardian god paired at each of the best-known sites.",
+    "source": "06-sacred-geography/51-shakti-peethas.md"
+  },
+  "/manvantaras/manvantara-01-svayambhuva/": {
+    "intro": "This is the very first of the fourteen great ages, called Manvantaras, that make up one day in the life of the god Brahma, and it is the age with the most stories attached to it. It opens just after Vishnu's Boar form lifts the earth out of the cosmic ocean. The first man and woman, Manu and Shatarupa, are born here, and their children start the earliest royal families. Two of the tradition's best-loved stories happen in this age: a boy named Dhruva becomes the pole star, and a king named Prithu milks the earth like a cow to bring out food for everyone.",
+    "whoIsWho": [
+      {
+        "name": "Svayambhuva Manu",
+        "role": "the first man, mind-born son of Brahma"
+      },
+      {
+        "name": "Shatarupa",
+        "role": "the first woman, wife of Svayambhuva Manu"
+      },
+      {
+        "name": "Dhruva",
+        "role": "a boy who wins a place in the sky as the pole star"
+      },
+      {
+        "name": "Prithu",
+        "role": "a king who \"milks\" the earth to bring out grain"
+      }
+    ],
+    "whyItMatters": "This age sets up humanity's first family tree and gives two of the most loved teaching stories in the tradition — Dhruva's patience and Prithu's care for the earth.",
+    "source": "01-manvantaras/manvantara-01-svayambhuva.md"
+  },
+  "/manvantaras/manvantara-02-svarochisha/": {
+    "intro": "This is the second of the fourteen cosmic ages. Some scriptures simply say its ruler, Svarochisha, was the son of the fire god Agni, with no story attached. But one text, the Markandeya Purana, tells a richer tale: a devoted husband named Pravara is tricked by a spirit who takes his shape, and a romance follows through three generations, ending when a doe begs a man named Svarochis for mercy and then gives birth to the Manu of this age in an instant.",
+    "whoIsWho": [
+      {
+        "name": "Svarochisha Manu",
+        "role": "ruler of the second age; in one telling, born from a doe"
+      },
+      {
+        "name": "Pravara",
+        "role": "a faithful married priest whose story opens the tale"
+      },
+      {
+        "name": "Svarochis",
+        "role": "Pravara's radiant son, father of the Manu in this version"
+      }
+    ],
+    "whyItMatters": "This age shows how the same ruler can have two completely different origin stories in different scriptures — one bare, one a full romance — and the corpus keeps both rather than picking a winner.",
+    "source": "01-manvantaras/manvantara-02-svarochisha.md"
+  },
+  "/manvantaras/manvantara-03-uttama/": {
+    "intro": "This is the third of the fourteen cosmic ages, and one of the least storied. Its ruler is Uttama, a son of the ancient king Priyavrata, but almost nothing happens here except administrative lists — who was king of the gods, which sages served — and different scriptures disagree on nearly every name. The one striking detail is that the seven wise sages of this age are said to be the reborn sons of the great sage Vashishtha, coming back to serve a second time.",
+    "whoIsWho": [
+      {
+        "name": "Uttama",
+        "role": "the Manu, or ruling ancestor, of this third age"
+      },
+      {
+        "name": "Vashishtha",
+        "role": "the sage whose seven sons from the first age are reborn as the sages here"
+      }
+    ],
+    "whyItMatters": "This page is honest that some ages in the tradition are just name-lists with no surviving story — useful for seeing how thin the Puranic record can get.",
+    "source": "01-manvantaras/manvantara-03-uttama.md"
+  },
+  "/manvantaras/manvantara-04-tamasa/": {
+    "intro": "This is the fourth of the fourteen cosmic ages, ruled by a Manu named Tamasa. Like most of these early ages, its official records are just lists of names that disagree across scriptures. But one famous story is placed here: Gajendra, a great elephant king, is caught by the leg by a crocodile in a lake and struggles for years before finally calling out to God for help. Vishnu arrives riding his eagle Garuda, kills the crocodile, and saves the elephant.",
+    "whoIsWho": [
+      {
+        "name": "Tamasa",
+        "role": "the Manu, or ruling ancestor, of this fourth age"
+      },
+      {
+        "name": "Gajendra",
+        "role": "the elephant king seized by a crocodile in a forest lake"
+      },
+      {
+        "name": "Vishnu",
+        "role": "arrives on his eagle Garuda to save Gajendra"
+      }
+    ],
+    "whyItMatters": "The Gajendra story is one of the tradition's clearest teaching stories about giving up on your own strength and trusting God completely.",
+    "source": "01-manvantaras/manvantara-04-tamasa.md"
+  },
+  "/manvantaras/manvantara-05-raivata/": {
+    "intro": "This is the fifth of the fourteen cosmic ages, ruled by a Manu named Raivata. Like the ages around it, the record is mostly lists of names. But the age lends its name to a famous story about time itself: a king called Kakudmi, who shares the name Raivata, takes his daughter Revati to see the creator god Brahma to find her a husband. While they wait through what feels like a short visit, millions of years pass on earth, and every suitor Kakudmi had in mind is long dead when they return.",
+    "whoIsWho": [
+      {
+        "name": "Raivata",
+        "role": "the Manu, or ruling ancestor, of this fifth age"
+      },
+      {
+        "name": "Kakudmi",
+        "role": "a later king who shares the name Raivata; father of Revati"
+      },
+      {
+        "name": "Revati",
+        "role": "Kakudmi's daughter, far taller than the people of her new age"
+      },
+      {
+        "name": "Balarama",
+        "role": "the hero Brahma chooses as Revati's husband"
+      }
+    ],
+    "whyItMatters": "The Kakudmi story is a striking old example of time passing at different speeds in different realms — the corpus flags that it belongs to a later king, not the Manu of this age.",
+    "source": "01-manvantaras/manvantara-05-raivata.md"
+  },
+  "/manvantaras/manvantara-06-chakshusha/": {
+    "intro": "This is the sixth and last cosmic age before our own, and it carries more stories than the ages before it because it sits right on the edge of our own history. In this age, the sage-pair Nara and Narayana are born, who will later be reborn as Arjuna and Krishna. Also born here are three sons of a devoted woman named Anasuya, who take partial birth from the gods Brahma, Vishnu and Shiva. This age ends with the great flood story, in which Vishnu as a giant fish saves the first man of our own era.",
+    "whoIsWho": [
+      {
+        "name": "Chakshusha",
+        "role": "the Manu, or ruling ancestor, of this sixth age"
+      },
+      {
+        "name": "Nara and Narayana",
+        "role": "twin ascetic sages, later reborn as Arjuna and Krishna"
+      },
+      {
+        "name": "Anasuya",
+        "role": "a devoted wife whose sons carry the essence of Brahma, Vishnu, and Shiva"
+      }
+    ],
+    "whyItMatters": "This age is the direct bridge into our own — its ending, a great flood, is also the beginning of the Vaivasvata age we are still living in.",
+    "source": "01-manvantaras/manvantara-06-chakshusha.md"
+  },
+  "/manvantaras/manvantara-08-savarni/": {
+    "intro": "This is the eighth cosmic age, and it hasn't happened yet — it lies far in the future, after our own current age ends. It carries one exciting piece of news: the king Bali, pushed down to the underworld by Vishnu's Dwarf form for claiming too much of the universe, is promised he will become the new king of the gods (Indra) in this future age, as a reward for his devotion. The scriptures also link this age to a king named Suratha, who loses his kingdom, worships the Goddess in the forest, and is reborn as its ruling ancestor.",
+    "whoIsWho": [
+      {
+        "name": "Savarni",
+        "role": "the future Manu of this eighth age; in one telling, the reborn King Suratha"
+      },
+      {
+        "name": "Bali",
+        "role": "the generous demon-king promised the throne of the gods in this future age"
+      },
+      {
+        "name": "Vishnu",
+        "role": "appears as Sarvabhauma to hand the gods' throne over to Bali"
+      }
+    ],
+    "whyItMatters": "This age answers a loose end from the Vamana-Bali story: it is where Bali finally gets his reward for keeping his word, even after losing his kingdom.",
+    "source": "01-manvantaras/manvantara-08-savarni.md"
+  },
+  "/manvantaras/manvantara-09-daksha-savarni/": {
+    "intro": "This is the ninth cosmic age, still far in the future. Like most future ages, its scriptures give only a name-list of who will hold each important job — the ruling ancestor (Manu), the king of the gods (Indra), the seven sages — without telling any actual story. Its Manu is called Daksha-Savarni, said to be a son of the god Varuna, and its future king of the gods is named Adbhuta. No adventures are recorded for this age; it exists on paper as a roster waiting for its turn.",
+    "whoIsWho": [
+      {
+        "name": "Daksha-Savarni",
+        "role": "the future ruling ancestor (Manu) of this ninth age"
+      },
+      {
+        "name": "Adbhuta",
+        "role": "the future king of the gods (Indra) for this age"
+      }
+    ],
+    "whyItMatters": "This page shows how honest the corpus tries to be: rather than invent a story where none survives, it simply says this age is still just a list of names waiting to happen.",
+    "source": "01-manvantaras/manvantara-09-daksha-savarni.md"
+  },
+  "/manvantaras/manvantara-10-brahma-savarni/": {
+    "intro": "This is the tenth cosmic age, another one still to come. Its scriptures again give only a bare list of future office-holders: the ruling ancestor (Manu) will be called Brahma-Savarni, son of a man named Upasloka; the king of the gods will be named Sambhu; and Vishnu will appear in this age as Vishvaksena. No stories or events survive about what actually happens — only these names, and even they differ slightly between different scriptures.",
+    "whoIsWho": [
+      {
+        "name": "Brahma-Savarni",
+        "role": "the future ruling ancestor (Manu) of this tenth age"
+      },
+      {
+        "name": "Vishvaksena",
+        "role": "the name Vishnu will take when he appears in this age"
+      }
+    ],
+    "whyItMatters": "Like its neighboring future ages, this page shows the tradition cataloguing a name-list for an age that hasn't happened yet, rather than inventing untold adventures.",
+    "source": "01-manvantaras/manvantara-10-brahma-savarni.md"
+  },
+  "/manvantaras/manvantara-11-dharma-savarni/": {
+    "intro": "This is the eleventh cosmic age, still to come. Its future ruling ancestor (Manu) is named Dharma-Savarni, son of a sage named Ruci, and the scriptures say he is himself an earlier form of Vishnu's avatar for this age, named Dharmasetu — so the ruler and the divine helper of this age are one and the same being. Beyond that, the record is just a list of names, and the two main scriptures cannot even agree on who will be king of the gods in this age.",
+    "whoIsWho": [
+      {
+        "name": "Dharma-Savarni",
+        "role": "the future ruling ancestor (Manu) of this eleventh age"
+      },
+      {
+        "name": "Dharmasetu",
+        "role": "Vishnu's future form for this age, identified with the Manu himself"
+      }
+    ],
+    "whyItMatters": "This is one of the few future ages where the Manu and Vishnu's avatar are described as linked, rather than as two separate figures.",
+    "source": "01-manvantaras/manvantara-11-dharma-savarni.md"
+  },
+  "/manvantaras/manvantara-12-rudra-savarni/": {
+    "intro": "This is the twelfth cosmic age, still far in the future. Its ruling ancestor (Manu) will be called Rudra-Savarni, and Vishnu will appear in this age as an avatar named Svadhaman. As with the other future ages, no actual events are recorded — the scriptures give only the standard roster of who will hold each cosmic job, and even small details like exact names shift between texts.",
+    "whoIsWho": [
+      {
+        "name": "Rudra-Savarni",
+        "role": "the future ruling ancestor (Manu) of this twelfth age"
+      },
+      {
+        "name": "Svadhaman",
+        "role": "the name Vishnu will take when he appears in this age"
+      }
+    ],
+    "whyItMatters": "This page continues the pattern of the future ages: a placeholder roster of names rather than a told story.",
+    "source": "01-manvantaras/manvantara-12-rudra-savarni.md"
+  },
+  "/manvantaras/manvantara-13-deva-savarni/": {
+    "intro": "This is the thirteenth cosmic age, still to come. It has two names for its future ruler: most scriptures call him Deva-Savarni, but one text, the Markandeya Purana, tells an actual story about a ruler it calls Raucya instead. In that story, a wandering sage named Ruci refuses to ever marry, believing family life only brings suffering, until his ancestors scold him for shirking his duty and Brahma orders him to marry and have a son who will become a future Manu. Scholars are unsure whether Raucya and Deva-Savarni are the same person.",
+    "whoIsWho": [
+      {
+        "name": "Deva-Savarni",
+        "role": "the future ruling ancestor (Manu) of this thirteenth age, in most scriptures"
+      },
+      {
+        "name": "Ruci",
+        "role": "a sage who at first refuses to marry, in the story that may describe this age"
+      },
+      {
+        "name": "Raucya",
+        "role": "the son born to Ruci, possibly the same figure as Deva-Savarni"
+      }
+    ],
+    "whyItMatters": "This is one of the few future ages with an actual story attached, though the tradition itself is unsure whether it describes the ruler its other scriptures call Deva-Savarni.",
+    "source": "01-manvantaras/manvantara-13-deva-savarni.md"
+  },
+  "/manvantaras/manvantara-14-indra-savarni/": {
+    "intro": "This is the fourteenth and very last of the fourteen cosmic ages that make up one full day in the life of the god Brahma. Its future ruler, called Indra-Savarni or Bhautya, has a short birth story: his father, a stern and long-childless man named Bhuti, was away when the sacred fire at his hermitage went out. Bhuti's disciple prayed to the fire god Agni to relight it, and Agni granted that Bhuti would finally have a son — the future Manu of this last age. When this age ends, Brahma's whole cosmic Day closes, and the universe rests before the cycle begins again.",
+    "whoIsWho": [
+      {
+        "name": "Indra-Savarni (Bhautya)",
+        "role": "the future ruling ancestor (Manu) of this final age"
+      },
+      {
+        "name": "Bhuti",
+        "role": "Bhautya's long-childless father"
+      },
+      {
+        "name": "Agni",
+        "role": "the fire god who grants Bhuti's boon of a son"
+      }
+    ],
+    "whyItMatters": "This age marks the very end of Brahma's cosmic Day — after it, everything dissolves into a Night of Brahma before creation starts fresh.",
+    "source": "01-manvantaras/manvantara-14-indra-savarni.md"
+  },
+  "/lineages/ila-sudyumna/": {
+    "intro": "Ila, also called Sudyumna, is one of the strangest figures in Hindu genealogy: a child of the ancestor Manu who changes between being a man and a woman. Born as a daughter after a sacrifice goes wrong, Ila is turned into a son, but wanders into a forest grove near Mount Meru where Shiva has decreed any man who enters becomes a woman. As a woman again, Ila is loved by a being named Budha and gives birth to Pururavas, the first king of the Lunar dynasty. A later compromise lets Sudyumna live as a man one month and a woman the next, until finally giving up the throne.",
+    "whoIsWho": [
+      {
+        "name": "Ila (Sudyumna)",
+        "role": "a child of Manu who changes between being a man and a woman"
+      },
+      {
+        "name": "Budha",
+        "role": "loves Ila while she is in her female form; father of Pururavas"
+      },
+      {
+        "name": "Pururavas",
+        "role": "the son born to Ila, first king of the Lunar dynasty"
+      }
+    ],
+    "whyItMatters": "Ila/Sudyumna is the one point where Hindu tradition's two great royal family trees — the Solar and Lunar lines — actually connect, since this Solar-born child becomes, as a woman, the mother of the first Lunar king.",
+    "source": "03-lineages-vamsha/ila-sudyumna.md"
+  },
+  "/stories/ramayana/2-ayodhya-kanda/": {
+    "intro": "This is the second book of the Ramayana. King Dashratha wants to crown his son Rama as the next king, but his wife Kaikeyi, talked into it by her servant Manthara, calls in two old promises: her own son Bharata must be crowned instead, and Rama must go to the forest for fourteen years. Rama accepts without anger, because a father's word must be kept. His wife Sita and brother Lakshmana insist on going with him. Heartbroken, King Dashratha dies of grief. Bharata refuses the throne his mother won for him and rules only as a caretaker, placing Rama's sandals on the throne until he returns.",
+    "whoIsWho": [
+      {
+        "name": "Rama",
+        "role": "the prince who accepts fourteen years of exile without complaint"
+      },
+      {
+        "name": "Kaikeyi",
+        "role": "Dashratha's wife, who demands Rama's exile using two old promises"
+      },
+      {
+        "name": "Manthara",
+        "role": "Kaikeyi's servant, who convinces her to make the demands"
+      },
+      {
+        "name": "Bharata",
+        "role": "Kaikeyi's son, who refuses the throne and rules only as caretaker"
+      }
+    ],
+    "whyItMatters": "This book is Hindu tradition's great study of keeping your word even when it costs you everything, and of a brother who refuses power that isn't rightfully his.",
+    "source": "04-deep-dives/ramayana/2-ayodhya-kanda.md"
+  },
+  "/stories/ramayana/3-aranya-kanda/": {
+    "intro": "This is the third book of the Ramayana, covering years of forest exile for Rama, Sita, and Lakshmana. A demon princess named Shurpanakha falls for Rama, and when she attacks Sita out of jealousy, Lakshmana cuts off her nose and ears. She runs to her brother Khara, who attacks with an army and is destroyed by Rama alone. Shurpanakha then goes to her other brother, the demon king Ravana, and describes Sita's beauty. Ravana tricks the couple with a magical golden deer, luring both brothers away, then kidnaps Sita. The giant vulture Jatayu tries to save her and is mortally wounded fighting Ravana.",
+    "whoIsWho": [
+      {
+        "name": "Shurpanakha",
+        "role": "a demon princess whose mutilation sparks the whole war"
+      },
+      {
+        "name": "Khara",
+        "role": "Shurpanakha's brother, killed along with his army by Rama alone"
+      },
+      {
+        "name": "Ravana",
+        "role": "the demon king who kidnaps Sita using a magical deer as a trick"
+      },
+      {
+        "name": "Jatayu",
+        "role": "an aged vulture who fights Ravana to try to save Sita"
+      }
+    ],
+    "whyItMatters": "This book contains the central turning point of the whole epic — Sita's kidnapping — which is what makes the rest of the story, and the eventual war, happen.",
+    "source": "04-deep-dives/ramayana/3-aranya-kanda.md"
+  },
+  "/stories/ramayana/4-kishkindha-kanda/": {
+    "intro": "This is the fourth book of the Ramayana. Searching for Sita, Rama meets the monkey hero Hanuman and allies with the exiled monkey prince Sugriva, driven out of his kingdom by his stronger brother Vali. In exchange for help finding Sita, Rama kills Vali by shooting him from hiding during a fight with Sugriva — an act some in the story itself call unfair, though Rama explains his reasons. Sugriva becomes king but forgets his promise until Lakshmana angrily reminds him. Finally, armies of monkeys are sent in every direction, and the southern group, led by Hanuman, learns from a dying vulture exactly where Sita is held.",
+    "whoIsWho": [
+      {
+        "name": "Sugriva",
+        "role": "an exiled monkey prince who allies with Rama to win back his throne"
+      },
+      {
+        "name": "Vali",
+        "role": "Sugriva's powerful brother, killed by Rama from hiding"
+      },
+      {
+        "name": "Hanuman",
+        "role": "the monkey hero who becomes Rama's most devoted helper"
+      }
+    ],
+    "whyItMatters": "This book sets up the alliance and search that makes finding Sita possible, and includes one of the epic's most debated moments — whether Rama was right to kill Vali by stealth.",
+    "source": "04-deep-dives/ramayana/4-kishkindha-kanda.md"
+  },
+  "/stories/ramayana/5-sundara-kanda/": {
+    "intro": "This is the fifth book of the Ramayana, and the only one where Rama is not the main character — it belongs to Hanuman. The monkey hero leaps across the ocean to the island kingdom of Lanka, sneaks into the city, and finds Sita held captive in a garden, refusing to give in to the demon king Ravana. Hanuman gives her Rama's ring as proof he is a real messenger, and she gives him her jewel to carry back. Before leaving, Hanuman lets himself be captured, and when the demons set his tail on fire, he uses it to burn down much of the city.",
+    "whoIsWho": [
+      {
+        "name": "Hanuman",
+        "role": "the monkey hero who finds Sita and burns down part of Lanka"
+      },
+      {
+        "name": "Sita",
+        "role": "held captive in Ravana's garden, refusing to submit"
+      },
+      {
+        "name": "Ravana",
+        "role": "the demon king holding Sita prisoner"
+      }
+    ],
+    "whyItMatters": "This is the most independently loved and recited book of the whole epic, because it is the story of an impossible task — finding Sita — finally being achieved.",
+    "source": "04-deep-dives/ramayana/5-sundara-kanda.md"
+  },
+  "/stories/characters/bhishma/": {
+    "intro": "Bhishma is the grand old warrior of the Mahabharata, uncle and guardian to both feuding sides of the family. As a young prince named Devavrata, he gave up his own right to the throne and swore never to marry, just so his father could remarry — a vow so extreme the gods rewarded him with the power to choose the moment of his own death. Because of his loyalty to the throne, he fights for the Kauravas in the great war, even though he loves the Pandavas. On the tenth day, he lets himself be struck down by a wall of arrows, but delays his death for weeks to teach the dying wisdom of dharma.",
+    "whoIsWho": [
+      {
+        "name": "Bhishma",
+        "role": "the celibate warrior-patriarch who chooses the timing of his own death"
+      },
+      {
+        "name": "Devavrata",
+        "role": "Bhishma's birth name, before his terrible vow"
+      },
+      {
+        "name": "Shikhandin",
+        "role": "a warrior Bhishma refuses to fight, letting Arjuna strike him down"
+      }
+    ],
+    "whyItMatters": "Bhishma's story is about the cost of an extreme vow: his sacrifice secures one throne but unravels his whole family, and his last words teach the very lessons he could not follow while alive.",
+    "source": "04-deep-dives/characters/bhishma.md"
+  },
+  "/stories/characters/drona/": {
+    "intro": "Drona is the brahmin warrior-teacher who trains both the Kauravas and the Pandavas in archery. Poor and humiliated after his childhood friend, King Drupada, refuses to share his kingdom as promised, Drona becomes royal teacher at Hastinapura and makes Arjuna his favorite student. When a tribal boy named Ekalavya secretly becomes an even better archer by training alone, Drona demands the boy's thumb as a teaching fee, crippling him, just to keep Arjuna the best. Drona later gets his revenge on Drupada, but Drupada's children are born to destroy him. During the war, Drona is tricked into laying down his weapons by a false report of his son's death, then beheaded unarmed.",
+    "whoIsWho": [
+      {
+        "name": "Drona",
+        "role": "the brahmin master of weapons who teaches both warring families"
+      },
+      {
+        "name": "Drupada",
+        "role": "Drona's childhood friend turned enemy, whose humiliation starts the feud"
+      },
+      {
+        "name": "Ekalavya",
+        "role": "a self-taught archer whose thumb Drona demands as a cruel fee"
+      }
+    ],
+    "whyItMatters": "Drona's story is one of the epic's harshest lessons about favoritism and loyalty to the wrong side — his gifts as a teacher are matched by his cruelty to a student he never wanted to have.",
+    "source": "04-deep-dives/characters/drona.md"
+  },
+  "/stories/characters/balarama/": {
+    "intro": "Balarama is Krishna's older brother, a mighty hero who carries a plough as his weapon and is believed to be an incarnation of the cosmic serpent Shesha. He grows up alongside Krishna, kills demons as a boy, and later becomes the mace-fighting teacher of both Bhima and Duryodhana. When the Kurukshetra war breaks out, Balarama refuses to fight for either side because he loves both families, and goes on pilgrimage instead. Years later, when Krishna's own clan destroys itself in a drunken brawl, Balarama sits calmly under a tree, enters deep meditation, and lets his body go — a great white serpent is seen leaving his mouth and gliding into the sea.",
+    "whoIsWho": [
+      {
+        "name": "Balarama",
+        "role": "Krishna's elder brother, believed to be the serpent Shesha in human form"
+      },
+      {
+        "name": "Krishna",
+        "role": "Balarama's younger brother, alongside whom he grows up"
+      },
+      {
+        "name": "Bhima and Duryodhana",
+        "role": "the two mace-fighting students Balarama trains"
+      }
+    ],
+    "whyItMatters": "Balarama shows a different path through the great war than Krishna — refusing violence between kin — and his peaceful, serpent-revealing death marks the traditional start of Kali Yuga.",
+    "source": "04-deep-dives/characters/balarama.md"
+  },
+  "/stories/mahabharata/16-mausala-parva/": {
+    "intro": "This is the sixteenth book of the Mahabharata, and the bleakest. Thirty-six years after the great war, two old curses catch up with Krishna's own clan, the Yadavas. Sages once cursed that a prank would produce an iron club that would destroy the whole clan; ground to powder and thrown into the sea, it grows into sharp reeds on the shore. At a drunken festival, an argument turns violent, and the Yadavas grab those reeds — which turn into deadly clubs in their hands — and kill each other almost to the last man. Balarama then quietly dies in meditation, and soon after Krishna is mistaken for a deer and shot in the foot by a hunter.",
+    "whoIsWho": [
+      {
+        "name": "Krishna",
+        "role": "dies after being mistaken for a deer and shot by a hunter's arrow"
+      },
+      {
+        "name": "Balarama",
+        "role": "Krishna's brother, who dies peacefully in meditation just before him"
+      },
+      {
+        "name": "Jara",
+        "role": "the hunter whose arrow strikes and kills Krishna by accident"
+      }
+    ],
+    "whyItMatters": "Krishna's death here traditionally marks the end of the Dvapara age and the start of Kali Yuga, the current age — one of the most important turning points on the whole timeline.",
+    "source": "04-deep-dives/mahabharata/16-mausala-parva.md"
+  },
+  "/stories/mahabharata/17-mahaprasthanika-parva/": {
+    "intro": "This is the seventeenth book of the Mahabharata, one of its shortest. After Krishna's death and the destruction of his clan, the five Pandava brothers and their wife Draupadi give up their kingdom and walk toward the Himalayas to die, taking only the clothes on their backs. A stray dog joins them and follows the whole way. One by one, starting with Draupadi, each Pandava collapses and dies on the mountain, each for a different personal flaw. Only Yudhishthira keeps walking, with no fault to weigh him down. When Indra offers to carry him to heaven, Yudhishthira refuses to leave the dog behind — and it reveals itself to be the god of righteousness, testing him one last time.",
+    "whoIsWho": [
+      {
+        "name": "Yudhishthira",
+        "role": "the only Pandava brother who reaches heaven without dying on the way"
+      },
+      {
+        "name": "Draupadi",
+        "role": "the shared wife of all five brothers, the first to fall"
+      },
+      {
+        "name": "Dharma",
+        "role": "the god of righteousness, disguised as the loyal dog throughout the journey"
+      }
+    ],
+    "whyItMatters": "This book's final test — choosing loyalty to a humble dog over a ride straight to heaven — is one of the clearest statements in the epic that compassion matters more than reward.",
+    "source": "04-deep-dives/mahabharata/17-mahaprasthanika-parva.md"
+  },
+  "/cosmology/kalpa-and-pralaya/": {
+    "intro": "This page explains two of the biggest units of time in Hindu tradition: the kalpa, one full day in the life of the god Brahma (4.32 billion years), and pralaya, the dissolving of the universe that follows. There are four kinds of dissolution, from the everyday death of ordinary living things, to the nightly rest that ends each of Brahma's cosmic days, all the way up to the total collapse of everything into raw formless matter at the end of Brahma's whole life, and finally the personal, permanent freedom of one soul reaching liberation.",
+    "whoIsWho": [
+      {
+        "name": "Narayana (Vishnu)",
+        "role": "sleeps through each cosmic night resting on the serpent Shesha"
+      },
+      {
+        "name": "Markandeya",
+        "role": "a sage granted a vision of the flood, floating at the edge of dissolution"
+      }
+    ],
+    "whyItMatters": "This page is the key to understanding phrases used across the site like \"Day of Brahma\" — it explains exactly what dissolves, what survives, and how it all starts again.",
+    "source": "00-time-and-cosmology/kalpa-and-pralaya.md"
+  },
+  "/cosmology/brahma-lifetime/": {
+    "intro": "This page maps out the entire lifespan of the god Brahma, the creator, which lasts 311.04 trillion human years in total. Tradition says we are just past the halfway point of his life, in the very first day of his 51st year out of 100. Each of his days is a kalpa (4.32 billion years), made of fourteen ages called Manvantaras, and we live in the seventh of those fourteen. When Brahma's hundred-year life finally ends, everything, even Brahma himself, dissolves back into formless raw matter, before a brand new Brahma is born and the whole cycle starts again.",
+    "whoIsWho": [
+      {
+        "name": "Brahma",
+        "role": "the creator god whose 311-trillion-year lifespan structures all of cosmic time"
+      }
+    ],
+    "whyItMatters": "This page gives the single biggest scale on the site's cosmic clock — it shows that even a god as vast as Brahma has a lifespan, and our current age is a tiny sliver near its middle.",
+    "source": "00-time-and-cosmology/brahma-lifetime.md"
+  },
+  "/beings/twelve-devasura-battles/": {
+    "intro": "One ancient text, the Matsya Purana, lists exactly twelve great wars between the gods (devas) and the demons (asuras), giving each one a name. Some of these are famous stories you can read elsewhere on this site, like the churning of the ocean for the nectar of immortality, or Vishnu's Man-Lion form killing the tyrant Hiranyakashipu. But three of the twelve wars are just names on the list — their stories were apparently lost even by the time this text was written, so nobody today knows what happened in them.",
+    "whoIsWho": [
+      {
+        "name": "Narasimha, Vamana, Varaha",
+        "role": "three of Vishnu's animal-and-dwarf forms, each with its own war on the list"
+      },
+      {
+        "name": "Shukra",
+        "role": "the demons' teacher, who seeks new powers from Shiva after twelve defeats"
+      }
+    ],
+    "whyItMatters": "This page is a rare case of an ancient Hindu text actually counting and numbering its own war-stories, and it honestly admits that some of those stories have been lost over time.",
+    "source": "08-beings-and-bestiary/twelve-devasura-battles.md"
+  },
+  "/stories/nala-damayanti/": {
+    "intro": "This is the story of King Nala and Princess Damayanti, told to comfort Yudhishthira during his own forest exile in the Mahabharata. Nala and Damayanti fall in love just from hearing about each other, and Damayanti chooses Nala over four gods in disguise at her own bridal ceremony, noticing that gods never blink, sweat, or let their feet touch the ground. Furious a mortal beat them to her, the demon of the current age, Kali, waits twelve years for Nala to slip up, then possesses him and rigs a dice game so Nala loses his kingdom. Nala abandons Damayanti in the forest, and the two suffer years apart before reuniting.",
+    "whoIsWho": [
+      {
+        "name": "Nala",
+        "role": "a king who loses everything to a rigged dice game while possessed by the demon Kali"
+      },
+      {
+        "name": "Damayanti",
+        "role": "Nala's wife, who proves her devotion through years of hardship"
+      },
+      {
+        "name": "Kali",
+        "role": "the demon of the current age, who possesses Nala out of jealousy"
+      }
+    ],
+    "whyItMatters": "This story mirrors the Mahabharata's own dice-game disaster and is told specifically to give Yudhishthira hope that even total ruin by gambling can be reversed.",
+    "source": "04-deep-dives/nala-damayanti.md"
+  }
+}

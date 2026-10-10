@@ -1,0 +1,40 @@
+---
+/**
+ * Plain.astro — a string, rendered in the popular English spelling, with the
+ * scholarly one carried alongside it.
+ *
+ * The corpus's *prose* gets this from the markdown pipeline (`rehype-corpus`
+ * (l)). Everything else on a page — the H1, the kicker, a card's title — comes
+ * from `graph.json` and never passes through that pipeline, so a no-JS visitor
+ * used to read "Krishna" in the body under "Kṛṣṇa" as the headline. This does
+ * the same wrap for those strings:
+ *
+ *     Kṛṣṇa-līlā  →  <span data-iast="Kṛṣṇa-līlā">Krishna-lila</span>
+ *
+ * Same module, same dictionary, same decisions as the runtime toggle, which
+ * swaps content and attribute for a reader who wants the scholarly text.
+ * A string with nothing to convert renders as bare text — no wrapper, no cost.
+ */
+import { plainSpans } from '../lib/plain-english.ts';
+
+interface Props {
+  text: string | null | undefined;
+}
+const { text } = Astro.props;
+const source = text ?? '';
+
+const esc = (s: string): string =>
+  s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+const spans = plainSpans(source);
+let html = '';
+let at = 0;
+for (const s of spans) {
+  html += esc(source.slice(at, s.start));
+  html += `<span data-iast="${esc(s.iast)}">${esc(s.plain)}</span>`;
+  at = s.end;
+}
+html += esc(source.slice(at));
+---
+
+<Fragment set:html={html} />

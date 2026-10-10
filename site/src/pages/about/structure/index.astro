@@ -1,0 +1,109 @@
+---
+/**
+ * /about/structure/ — STRUCTURE.md's job, done as a tree.
+ *
+ * The source file is a 103 KB generated flat list of all 899 files (R1 §9.4);
+ * rendering it through the article template would produce one enormous bullet
+ * list. Instead the same information is rebuilt from graph.json as a
+ * collapsible tree grouped by section.
+ */
+import TreeDir, { type TreeDirData } from '../../../components/TreeDir.astro';
+import Base from '../../../layouts/Base.astro';
+import { type GraphNode, nodes, sections, stats } from '../../../lib/graph.ts';
+import { SECTION_LABELS } from '../../../lib/routes.ts';
+
+function emptyDir(name: string): TreeDirData {
+  return { name, files: [], dirs: [] };
+}
+
+function buildTree(prefix: string, members: GraphNode[]): TreeDirData {
+  const root = emptyDir(prefix || '/');
+  for (const node of members) {
+    const rest = node.path.slice(prefix ? prefix.length + 1 : 0).split('/');
+    let cur = root;
+    for (let i = 0; i < rest.length - 1; i++) {
+      let child = cur.dirs.find((d) => d.name === rest[i]);
+      if (!child) {
+        child = emptyDir(rest[i]);
+        cur.dirs.push(child);
+      }
+      cur = child;
+    }
+    cur.files.push(node);
+  }
+  return root;
+}
+
+const all: GraphNode[] = Object.values(nodes);
+const bySection = (dir: string) => all.filter((n) => n.section === dir).sort((a, b) => (a.path < b.path ? -1 : 1));
+
+const groups = [
+  { key: '(root)', label: 'Root apparatus', dir: '', route: null as string | null, prefix: '' },
+  ...sections.map((s) => ({ key: s.dir, label: s.label, dir: s.dir, route: s.route as string | null, prefix: s.dir })),
+  {
+    key: 'timeline',
+    label: SECTION_LABELS.timeline,
+    dir: 'timeline',
+    route: '/clock/' as string | null,
+    prefix: 'timeline',
+  },
+].map((g) => {
+  const members = bySection(g.key);
+  return { ...g, count: members.length, tree: buildTree(g.prefix, members) };
+});
+---
+
+<Base
+  title="Structure"
+  description={`Every one of the ${stats.files} pages in the corpus, grouped by section.`}
+  page="structure"
+>
+  <nav class="crumbs" aria-label="Breadcrumb" slot="crumbs">
+    <ol>
+      <li class="crumb"><a href="/">The Hindu Timeline</a></li>
+      <li class="crumb"><a href="/about/">About</a></li>
+      <li class="crumb crumb-current" aria-current="page">Structure</li>
+    </ol>
+  </nav>
+
+  <article class="page structure-page" data-pagefind-body data-route="/about/structure/">
+    <h1 class="page-title">Structure</h1>
+    <p class="page-dek">
+      Every page in the manuscript, grouped by section — {stats.files.toLocaleString('en')} files, {
+        stats.words.toLocaleString('en')
+      } words, {stats.events.toLocaleString('en')} events. Rebuilt from the corpus at build time.
+    </p>
+
+    <div class="tree">
+      {
+        groups.map((group) => (
+          <details class="tree-section" data-section={group.key}>
+            <summary>
+              <span class="tree-section-label">{group.label}</span>
+              {group.dir && <span class="tree-section-dir">{group.dir}/</span>}
+              <span class="tree-count">{group.count}</span>
+            </summary>
+            {group.route && (
+              <p class="tree-section-link">
+                <a href={group.route}>Open the section index →</a>
+              </p>
+            )}
+            <TreeDir dir={group.tree} />
+          </details>
+        ))
+      }
+    </div>
+  </article>
+</Base>
+
+<style>
+  .tree-section-dir {
+    color: var(--ink-2);
+    font-size: var(--t-xs);
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+  .tree-section > summary {
+    flex-wrap: wrap;
+  }
+</style>

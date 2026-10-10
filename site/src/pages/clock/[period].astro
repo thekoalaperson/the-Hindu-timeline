@@ -1,0 +1,274 @@
+---
+/**
+ * /clock/<period>/ — one cosmic period, told in order.
+ *
+ * Until v4 this page listed every corpus file the age touches, alphabetically
+ * (Tretā: 225 of them). BRIEF v4 §2 called that what it was — "the one page
+ * that should tell the story of an age in order is a wiki dump" — so the page
+ * now leads with the age's **chapters** from `src/data/chapters.json`: a band
+ * with art, one plain sentence, and its stories as cards. Whatever the
+ * chapters' `covers` prefixes sweep up rides folded inside them; whatever no
+ * chapter claims is the folded "Everything else in this age" at the foot.
+ *
+ * An age with no chapters yet (seven of the nine, while the spine is a stub)
+ * falls straight back to the alphabetical list as the page's body — that is
+ * why the groups markup below is shared by both paths.
+ *
+ * Server-rendered and complete without JavaScript, and deliberately **light**:
+ * the age's own events, the actor filter and "Read as a scroll" live one link
+ * away at `/clock/<period>/all/`. Carrying them here cost 8,289 DOM nodes and
+ * 703 KB on the Tretā page (FIXLIST L2b-2) — on the page whose whole job is to
+ * introduce an age. What is left of the reference layer is a folded list of
+ * links with their event counts.
+ */
+import ChapterBand from '../../components/ChapterBand.astro';
+import GlyphSprite from '../../components/GlyphSprite.astro';
+import PageArt from '../../components/PageArt.astro';
+import Plain from '../../components/Plain.astro';
+import { plateForPeriod } from '../../components/art.ts';
+import { clockMarkSvg } from '../../components/clock/ClockMark.tsx';
+import Base from '../../layouts/Base.astro';
+import periods from '../../generated/periods.json';
+import { chaptersOf } from '../../lib/chapters.ts';
+import { REGION_BY_SLUG } from '../../lab/terrain/regions.ts';
+import { PERIODS, foldName, splitTitle } from '../../lib/routes.ts';
+
+export function getStaticPaths() {
+  return PERIODS.map((p) => ({ params: { period: p.slug } }));
+}
+
+interface EventItem {
+  title: string;
+  description: string;
+  actors: string[];
+  source: string | null;
+}
+interface Group {
+  path: string | null;
+  route: string | null;
+  title: string;
+  section: string | null;
+  count: number;
+  events: EventItem[];
+}
+interface Payload {
+  slug: string;
+  name: string;
+  short: string;
+  title: string;
+  intro: string;
+  route: string;
+  sourceFile: string;
+  count: number;
+  groupCount: number;
+  groups: Group[];
+}
+
+const { period } = Astro.params;
+const loaders = import.meta.glob<Payload>('../../generated/events/*.json', { import: 'default' });
+const loader = loaders[`../../generated/events/${period}.json`];
+if (!loader) throw new Error(`No event payload for period "${period}" — re-run \`npm run generate\`.`);
+const data = await loader();
+
+const index = periods.findIndex((p) => p.slug === period);
+const prev = index > 0 ? periods[index - 1] : null;
+const next = index < periods.length - 1 ? periods[index + 1] : null;
+
+const [titleHead, titleSub] = splitTitle(data.title);
+/* The age's own plate (EXPERIENCE-BRIEF v3 §2) — this is the one page where
+   the curated period still is not a borrowed atmosphere but the subject. */
+const plate = plateForPeriod(data.slug);
+
+/* ------------------------------------------------------------- chapters -- */
+
+const chapters = chaptersOf(data.slug);
+
+/** Trailing-slash-tolerant, so a corpus route and a chapter route always meet. */
+/* The age's accent, taken from the road's own palette so a glyph on a period
+   page and the same glyph on the road are the same colour. */
+const ageAccent = REGION_BY_SLUG[data.slug]?.palette.accent ?? null;
+
+const norm = (r: string | null | undefined): string =>
+  !r ? '' : r.endsWith('/') ? r : `${r}/`;
+
+/* Which groups each chapter takes with it. `stories` are shown as cards by
+   ChapterBand itself; `covers` prefixes claim the rest of the age's groups,
+   longest prefix winning, so a group lands in exactly one chapter. */
+const claimed = new Set<string>();
+for (const ch of chapters) for (const s of ch.stories) claimed.add(norm(s));
+
+const prefixOwners = chapters
+  .flatMap((ch) => ch.covers.map((p) => ({ prefix: norm(p), id: ch.id })))
+  .sort((a, b) => b.prefix.length - a.prefix.length);
+
+const restByChapter = new Map<string, { route: string | null; title: string; count: number }[]>();
+for (const g of data.groups) {
+  const route = norm(g.route);
+  if (!route || claimed.has(route)) continue;
+  const owner = prefixOwners.find((p) => route.startsWith(p.prefix));
+  if (!owner) continue;
+  claimed.add(route);
+  const list = restByChapter.get(owner.id) ?? [];
+  list.push({ route: g.route, title: g.title, count: g.count });
+  restByChapter.set(owner.id, list);
+}
+
+/* What no chapter claimed. With no chapters at all this is simply every group,
+   and the page renders exactly as it did before. */
+const leftovers = chapters.length === 0 ? data.groups : data.groups.filter((g) => !claimed.has(norm(g.route)));
+const chapterStoryCount = chapters.reduce((n, ch) => n + ch.stories.length, 0);
+---
+
+<Base title={data.title} description={data.intro} page="period" period={data.slug}>
+  <nav class="crumbs" aria-label="Breadcrumb" slot="crumbs">
+    <ol>
+      {/* "The Cosmic Clock" was hard-truncated to "The Cos…" by the root
+         crumb's width cap on every one of these pages. A short whole label
+         beats a long clipped one. */}
+      <li class="crumb crumb-root"><a href="/clock/">The Clock</a></li>
+      <li class="crumb crumb-current" aria-current="page">{data.short}</li>
+    </ol>
+  </nav>
+
+  <div class="context" slot="context">
+    <span class="chip context-period" data-period={data.slug}>
+      <Fragment set:html={clockMarkSvg({ size: 14, period: data.slug })} />
+      <span><Plain text={data.short} /></span>
+    </span>
+    <span class="context-events">{data.count.toLocaleString('en')} events</span>
+    <span class="context-stories">{data.groupCount} stories</span>
+  </div>
+
+  <article
+    class="page period-page"
+    data-pagefind-body
+    data-period={data.slug}
+    data-route={data.route}
+  >
+    {
+      /* One element per Pagefind key: 1.5.2 does not split
+         `data-pagefind-meta` on commas, so the joined form these replace put
+         `The Cosmic Clock, period:Tretā Yuga` in every result's section
+         label (S1-report §5). Empty spans — an inline `key:value` reads the
+         attribute, not the content, so no body text is added. */
+    }
+    <span class="u-visually-hidden" data-pagefind-meta="section:The Cosmic Clock" data-pagefind-filter="section:The Cosmic Clock" />
+    <span class="u-visually-hidden" data-pagefind-meta={`period:${data.short}`} data-pagefind-filter={`period:${data.short}`} />
+    <span class="u-visually-hidden" data-pagefind-meta={`period_slug:${data.slug}`} />
+    {
+      plate ? (
+        <PageArt
+          art={plate}
+          title={titleHead}
+          subtitle={titleSub}
+          kicker={data.short === titleHead ? 'The cosmic clock' : data.short}
+          period={data.slug}
+        />
+      ) : (
+        <Fragment>
+          <h1 class="page-title"><Plain text={titleHead} /></h1>
+          {titleSub && <p class="page-subtitle"><Plain text={titleSub} /></p>}
+        </Fragment>
+      )
+    }
+    {data.intro && <p class="page-dek"><Plain text={data.intro} /></p>}
+
+    {
+      chapters.length > 0 && (
+        <div class="chapters" data-chapters style={ageAccent ? `--age:${ageAccent}` : undefined}>
+          {chapters.map((ch) => (
+            <ChapterBand
+              chapter={ch}
+              fallbackArt={plate}
+              rest={restByChapter.get(ch.id) ?? []}
+              period={data.slug}
+            />
+          ))}
+        </div>
+      )
+    }
+    {/* The carved emblems, once per page — used by the bands that have no
+        picture. Inert markup: no script, no request. */}
+    {chapters.some((c) => !c.art && c.glyph) && <GlyphSprite />}
+
+    {
+      /* The reference layer, as **links with counts** — never the event lists
+         themselves. Rendering 179 disclosures each holding its own events is
+         what made the Tretā page 8,289 nodes and 703 KB (FIXLIST L2b-2); the
+         lists, the actor filter and "Read as a scroll" all moved together to
+         `/clock/<age>/all/`, where a reader arrives having asked for them.
+         Folded when chapters lead the page (it is then a footnote), open when
+         there are none (it is then the page). Works with no JavaScript either
+         way — a `<details>` needs none. */
+    }
+    {
+      leftovers.length > 0 && (
+        <details class="everything-else" data-everything open={chapters.length === 0 ? true : undefined}>
+          <summary>
+            <span class="disclosure-mark" aria-hidden="true">▸</span>
+            {chapters.length > 0 ? 'Everything else in this age' : 'Every story of this age'}
+            <span class="story-group-count">{leftovers.length}</span>
+          </summary>
+          <p class="everything-else-note">
+            {chapters.length > 0
+              ? `The ${leftovers.length.toLocaleString('en')} remaining pages this age touches, filed alphabetically — the reference layer under the ${chapters.length} chapters above${chapterStoryCount > 0 ? `, which name ${chapterStoryCount} stories between them` : ''}.`
+              : `Every page this age touches, filed alphabetically, with the number of events each carries.`}
+          </p>
+          <ul class="rest-links">
+            {leftovers.map((group) =>
+              group.route ? (
+                <li>
+                  <a href={group.route}><Plain text={group.title} /></a>
+                  <span class="story-group-count">{group.count}</span>
+                </li>
+              ) : (
+                <li>
+                  <span class="rest-link-plain"><Plain text={group.title} /></span>
+                  <span class="story-group-count">{group.count}</span>
+                </li>
+              ),
+            )}
+          </ul>
+        </details>
+      )
+    }
+
+    <p class="every-event">
+      <a class="pill" href={`/clock/${data.slug}/all/`}>
+        Every event of {data.short} <span class="story-group-count">{data.count.toLocaleString('en')}</span>
+      </a>
+      <span class="every-event-note">
+        All {data.groupCount} stories with their events, actors and sources — and the filter by who appears.
+      </span>
+    </p>
+
+    <nav class="pager" aria-label="Cosmic clock" data-pagefind-ignore>
+      {
+        prev && (
+          <a class="pager-prev" href={prev.route} rel="prev">
+            <span class="pager-label">Previous period</span>
+            <span class="pager-title">{prev.short}</span>
+          </a>
+        )
+      }
+      {
+        next && (
+          <a class="pager-next" href={next.route} rel="next">
+            <span class="pager-label">Next period</span>
+            <span class="pager-title">{next.short}</span>
+          </a>
+        )
+      }
+    </nav>
+
+    <p class="source-link" data-pagefind-ignore>
+      <a
+        href={`https://github.com/thekoalaperson/the-Hindu-timeline/blob/main/${data.sourceFile ?? ''}`}
+        rel="noopener"
+        class="ext">View the source file</a
+      >
+      <span class="source-path">{data.sourceFile}</span>
+    </p>
+  </article>
+</Base>
+

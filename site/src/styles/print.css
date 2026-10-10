@@ -1,0 +1,205 @@
+/*
+ * print.css — a page should print like a manuscript folio.
+ * Chrome and apparatus drop away; the rubrication, the double rule and the
+ * citations survive, because they are the content.
+ */
+
+@media print {
+  @page {
+    margin: 18mm 16mm 20mm;
+  }
+
+  :root {
+    --paper: #fff;
+    --paper-2: #fff;
+    --paper-margin: #fff;
+    --ink: #1a1510;
+    --ink-2: #4a4238;
+    --rule: #c9bfa8;
+    --rubric: #8f2c22;
+    --link: #1e2b47;
+    --gold: #7a5d22;
+    --gold-text: #7a5d22;
+    --measure: none;
+    --grain-opacity: 0;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+    color: var(--ink);
+    font-size: 11.5pt;
+    line-height: 1.45;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  body::after {
+    display: none !important;
+  }
+
+  .site-header,
+  .bottom-bar,
+  .skip-link,
+  .lede-more,
+  .empty-roundel,
+  .clock-slot .cclock__controls,
+  .site-footer ul,
+  .context-contents,
+  .progress-ring,
+  .pager,
+  .related,
+  .toc,
+  .scribe,
+  .peek,
+  dialog,
+  .actor-bar,
+  .search-panel,
+  .header-tools,
+  .home-readme > summary,
+  .clock-slot .pill {
+    display: none !important;
+  }
+
+  .site-main {
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+  }
+
+  .page {
+    display: block !important;
+    max-inline-size: none !important;
+  }
+
+  /* Every rule on screen is drawn with a background (a gradient hairline or a
+     1px block). Browsers print with "background graphics" off by default, so
+     each one is restated here as a real border, which always prints. */
+  .page-title {
+    font-size: 22pt;
+    margin-bottom: 0;
+    padding-bottom: 4pt;
+    border-bottom: 0.5pt solid var(--rubric);
+  }
+  .page-title::after {
+    display: none !important;
+  }
+  .prose h2,
+  .index-heading,
+  .home-heading {
+    padding-top: 6pt;
+    border-top: 0.5pt solid var(--rule);
+  }
+  .prose h2::before,
+  .index-heading::before,
+  .home-heading::before {
+    display: none !important;
+  }
+  .sources,
+  .rule-double,
+  .two-clocks {
+    border-top: 3pt double var(--rubric);
+    padding-top: 8pt;
+  }
+  .sources::before,
+  .rule-double::before,
+  .two-clocks::before {
+    display: none !important;
+  }
+  .prose hr {
+    height: 0;
+    border-top: 3pt double var(--rule);
+  }
+  .related,
+  .index-item,
+  .prose th,
+  .prose td {
+    border-color: var(--rule) !important;
+  }
+
+  .prose > *,
+  .sources,
+  .table-scroll {
+    max-inline-size: none !important;
+  }
+
+  .prose h2,
+  .prose h3,
+  .index-heading {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  .entry,
+  li,
+  tr,
+  .index-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Every citation stays visible in print — the apparatus is the point. */
+  .cit {
+    color: var(--rubric);
+  }
+  .tag {
+    color: var(--ink-2);
+  }
+
+  /* Disclosures print open: a folio has no hidden text. A closed <details>
+     hides its content through the shadow `::details-content` slot, so both
+     the slot and the light-DOM children have to be un-hidden. */
+  details {
+    display: block !important;
+  }
+  details::details-content {
+    content-visibility: visible !important;
+    block-size: auto !important;
+    opacity: 1 !important;
+  }
+  details > *:not(summary) {
+    display: revert !important;
+    overflow: visible !important;
+    height: auto !important;
+  }
+  .tellings {
+    grid-template-rows: auto auto !important;
+  }
+  .story-group {
+    grid-template-rows: auto auto !important;
+  }
+  .story-group > summary,
+  .tellings > summary {
+    color: var(--rubric);
+  }
+
+  .table-scroll {
+    overflow: visible !important;
+  }
+
+  a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+  .prose a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 8.5pt;
+    color: var(--ink-2);
+    word-break: break-all;
+  }
+
+  .source-link {
+    margin-top: 10pt;
+    font-size: 8.5pt;
+    color: var(--ink-2);
+    border-top: 0.5pt solid var(--rule);
+    padding-top: 4pt;
+  }
+
+  .site-footer {
+    margin-top: 12pt;
+    padding: 4pt 0 0;
+    border-top: 0.5pt solid var(--rule);
+    font-size: 8.5pt;
+  }
+}

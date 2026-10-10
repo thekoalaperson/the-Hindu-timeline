@@ -1,0 +1,43 @@
+---
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+interface Props {
+  headings: Heading[];
+}
+const { headings } = Astro.props;
+const items = headings.filter((h) => h.depth === 2 || h.depth === 3);
+
+type Entry = { h: Heading; kids: Heading[] };
+const tree: Entry[] = [];
+for (const h of items) {
+  if (h.depth === 2) tree.push({ h, kids: [] });
+  else if (tree.length) tree[tree.length - 1].kids.push(h);
+}
+---
+
+{
+  tree.length > 1 && (
+    <nav class="toc" id="contents" aria-label="On this page" data-toc-inline data-pagefind-ignore>
+      <p class="toc-title">Contents</p>
+      <ol>
+        {tree.map((entry) => (
+          <li class="toc-item">
+            <a href={`#${entry.h.slug}`}>{entry.h.text}</a>
+            {entry.kids.length > 0 && (
+              <ol>
+                {entry.kids.map((k) => (
+                  <li class="toc-item toc-item-sub">
+                    <a href={`#${k.slug}`}>{k.text}</a>
+                  </li>
+                ))}
+              </ol>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
+  )
+}

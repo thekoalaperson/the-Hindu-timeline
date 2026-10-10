@@ -1,0 +1,981 @@
+---
+/**
+ * / — the home. "Time as terrain": the cosmic clock unrolled into a landscape.
+ *
+ * Eight of the nine periods are stretches of one road, in cosmic order, each
+ * with its own light; the ninth (Cross-Yuga — "episodes the texts do not pin to
+ * one fixed age") is the sky over all of them. You travel with your thumb.
+ *
+ * Road v2 (brief §4 W2) changed four things about the world:
+ *   • **width by content** — an age is as long as it has to be (places.ts), so
+ *     Kali-history is a lit dated city and the Future is one dramatic screen,
+ *     not four thousand pixels of fog;
+ *   • **landmarks, not a random sample** — the far lane carries the age's
+ *     *chapters* (src/data/chapters.json), one object type, one label style,
+ *     spaced so a phone never shows more than four of them at once;
+ *   • **an ending** — Kalki, the twilight, the seven future Manus as receding
+ *     gates, the Night of Brahmā, and one button that brings the morning;
+ *   • **the true scale is one tap away** — the nested-scale overlay is loaded
+ *     on demand so the road's own JavaScript stays small.
+ *
+ * What is server-rendered, and why: the whole world (so the first frame is
+ * painted art with no JavaScript having run), the index and the atlas (which
+ * are the no-JS page and the crawlable list), the menu, the finder's shell, and
+ * one hidden focusable button per place. What is *not*: the story panels — they
+ * are one JSON table and `road.ts` builds the one you opened.
+ *
+ * Images below the fold carry `data-src`, not `src`: `road.ts` mounts and
+ * unmounts places as you travel, so the document holds ±2 screens of road.
+ *
+ * This page deliberately does not use Base.astro — the home owns the whole
+ * viewport and none of the shell's chrome belongs inside a landscape.
+ */
+import '@fontsource/eb-garamond/400.css';
+/* Tiro Devanagari (99 kB) is *not* imported: road.ts injects its @font-face
+   after the first interaction, so the first view pays for Latin only. */
+import tiroDevanagari from '@fontsource/tiro-devanagari-hindi/files/tiro-devanagari-hindi-devanagari-400-normal.woff2';
+import '../lab/terrain/terrain.css';
+/* The Road v2 layer, after it: the landmarks' hierarchy, the era markers, the
+   receding gates, the dissolution and the intro's doors. */
+import '../lab/terrain/road-v2.css';
+import { FIND_INDEX, GATE_ART, GATE_GLYPH, PANEL_MAP } from '../lab/terrain/data.ts';
+import ContinueCard from '../components/ContinueCard.astro';
+import GlyphSprite from '../components/GlyphSprite.astro';
+import TodayCard from '../components/TodayCard.astro';
+import { NIGHT } from '../lab/terrain/future.ts';
+import {
+  ALL_LANDMARKS,
+  FINALE_SPAN,
+  NIGHT_X,
+  PLACED_FILMS,
+  REGIONS,
+  SKY,
+  SKY_FACTOR,
+  SKY_PLACES,
+  WORLD_STATS,
+  WORLD_WIDTH,
+} from '../lab/terrain/places.ts';
+import { horizonTile, vergeTile } from '../lab/terrain/regions.ts';
+import type { cardPoster } from '../lib/films.ts';
+import { sections } from '../lib/graph.ts';
+
+/* The table the runtime needs: one row per stretch of road. */
+const world = {
+  width: WORLD_WIDTH,
+  /* Where each Cross-Yuga medallion hangs, in road coordinates. */
+  skyX: SKY_PLACES.map((p) => Math.max(0, Math.round(p.x / SKY_FACTOR) - 150)),
+  /* Where "now" is: the Kali Yuga (history) gate, for the jump-to-now chip. */
+  nowX: Math.max(0, (REGIONS.find((r) => r.def.slug === 'kali-yuga-history')?.x0 ?? 0) - 40),
+  /* Where the road starts dissolving, and over how much of it. */
+  nightX: NIGHT_X,
+  finale: FINALE_SPAN,
+  font: tiroDevanagari,
+  regions: REGIONS.map((r) => ({
+    slug: r.def.slug,
+    gate: r.def.gate,
+    gateHi: r.def.gateHi,
+    short: r.def.gate,
+    x0: r.x0,
+    width: r.width,
+    gateX: r.gateX,
+    accent: r.def.palette.accent,
+    ink: r.def.palette.ink,
+    inkSoft: r.def.palette.inkSoft,
+    sky: r.def.palette.sky,
+    glow: r.def.palette.glow,
+    glowAt: r.def.palette.glowAt,
+    ground: r.def.palette.ground,
+    hillNear: r.def.palette.hillNear,
+    road: r.def.palette.road,
+    tileFar: horizonTile(r.def.palette.profile, r.def.palette.hillFar, 0, r.def.palette.lamp),
+    tileNear: horizonTile(r.def.palette.profile, r.def.palette.hillNear, 1),
+    tileVerge: vergeTile(r.def.palette.profile, r.def.palette.hillNear),
+    motes: r.def.palette.motes,
+    moteKind: r.def.palette.moteKind,
+    light: r.def.palette.light,
+  })),
+};
+
+/** Short names for the ribbon — eight of them have to fit across a phone. */
+const RIBBON: Record<string, string> = {
+  'before-time': 'Before',
+  'earlier-manvantaras': 'Manv.',
+  'satya-yuga': 'Satya',
+  'treta-yuga': 'Tretā',
+  'dvapara-yuga': 'Dvāpara',
+  'kali-yuga-scriptural': 'Kali',
+  'kali-yuga-history': 'History',
+  'future-manvantaras': 'Future',
+};
+
+const skyStripX = SKY_PLACES[0] ? Math.round(SKY_PLACES[0].x / SKY_FACTOR) - 300 : 0;
+
+/**
+ * The first view. The entrance glides the road to 345 px, so a phone shows
+ * world x ≈ 345…735 and a wide phone a little more; anything below this mark
+ * is fetched by the parser and everything else waits for `road.ts` to mount
+ * it. 1,500 was too generous — it put three stills on the wire for a stretch
+ * of road nobody had reached yet.
+ */
+const EAGER_TO = 960;
+
+/**
+ * A Cross-Yuga medallion is a 96–120 px disc. It was being served the 800-wide
+ * still (41 kB for the one that is on the first screen); the 400 tier is more
+ * than twice the disc's size at DPR 2 and a third of the bytes.
+ */
+function skySrc(poster: NonNullable<ReturnType<typeof cardPoster>>): string {
+  const first = poster.srcset?.split(',')[0]?.trim().split(/\s+/)[0];
+  return first || poster.src;
+}
+
+const eager = new Set<string>();
+for (const r of REGIONS) {
+  for (const p of r.films) if (p.x < EAGER_TO) eager.add(p.id);
+  for (const lm of r.landmarks) if (lm.wx < EAGER_TO) eager.add(lm.id);
+}
+for (const p of SKY_PLACES) if (p.x / SKY_FACTOR < EAGER_TO) eager.add(p.id);
+const eagerGate = REGIONS.map((r) => r.gateX < EAGER_TO);
+
+/** Every place, for the hidden hotspot list (the keyboard reaches the world). */
+const HOTSPOTS = [
+  ...REGIONS.flatMap((r) => [
+    ...r.films.map((p) => ({ id: p.id, name: p.film.title.en, where: r.def.gate })),
+    ...r.landmarks.map((lm) => ({ id: lm.id, name: lm.title, where: r.def.gate })),
+    ...r.eras.map((e) => ({ id: e.id, name: `${e.numeral}. ${e.name}, ${e.dates}`, where: r.def.gate })),
+    ...r.gates.map((g) => ({ id: g.id, name: `Manvantara ${g.n} — ${g.name}`, where: r.def.gate })),
+  ]),
+  ...SKY_PLACES.map((p) => ({ id: p.id, name: p.film.title.en, where: SKY.gate })),
+  { id: 'night-of-brahma', name: NIGHT.title, where: 'The Future' },
+];
+
+const stillSizes = '(max-width: 900px) 40vw, 220px';
+const filmCount = PLACED_FILMS.length;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=5"
+    />
+    <title>The Hindu Timeline</title>
+    <meta
+      name="description"
+      content="The cosmic ages unrolled into one landscape you travel with your thumb — the chapters of each age, fifty animated films, and nine hundred pages of the manuscript, from the first waters to the Night of Brahmā and the morning after it."
+    />
+    <meta name="theme-color" content="#05070c" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+  </head>
+  <body class="terrain-page">
+    <a class="tr-skip" href="#tr-index-h">Skip to a list of everything in this world</a>
+
+    {/* The carved emblems, once for the whole road: every landmark and era
+        marker without a picture draws one of these. ~1.6 kB of inert markup,
+        no script — the route JS never learns about glyphs. */}
+    <GlyphSprite />
+
+    <div class="terrain" data-region="before-time">
+      <!-- ============================================================ stage -->
+      <div class="tr-stage" aria-hidden="true">
+        <div class="tr-band tr-sky"></div>
+        <div class="tr-band tr-sky"></div>
+
+        <div class="tr-hill-wrap" data-wrap="far">
+          <div class="tr-band tr-hill tr-hill-far"></div>
+          <div class="tr-band tr-hill tr-hill-far"></div>
+        </div>
+
+        <div class="tr-band tr-ground"></div>
+        <div class="tr-band tr-ground"></div>
+
+        <div class="tr-hill-wrap" data-wrap="near">
+          <div class="tr-band tr-hill tr-hill-near"></div>
+          <div class="tr-band tr-hill tr-hill-near"></div>
+        </div>
+
+        <canvas class="tr-motes"></canvas>
+
+        <div class="tr-verge-wrap" data-wrap="verge">
+          <div class="tr-verge"></div>
+          <div class="tr-verge"></div>
+        </div>
+      </div>
+
+      <!-- ============================================================= road -->
+      <div
+        class="tr-road"
+        tabindex="0"
+        role="region"
+        aria-label="The road through the ages. Drag sideways to travel; use the left and right arrow keys."
+      >
+        <div class="tr-world" style={`--world-w:${WORLD_WIDTH}px`}>
+          <!-- Cross-Yuga: the sky over the whole journey -->
+          <div class="tr-lane tr-lane-sky">
+            {
+              SKY_PLACES.map((p) => {
+                const wx = Math.round(p.x / SKY_FACTOR);
+                const now = eager.has(p.id);
+                return (
+                  <a
+                    class="tr-sky-place"
+                    href={p.film.route}
+                    data-place={p.id}
+                    data-wx={wx}
+                    data-soon={p.film.isPublic ? '0' : '1'}
+                    style={`left:${p.x}px; top:${(p.y * 42).toFixed(1)}%; transform:scale(${p.scale.toFixed(2)})`}
+                    aria-label={`${p.film.title.en}${p.film.isPublic ? '' : ' — coming soon'}`}
+                  >
+                    <span class="tr-sky-disc">
+                      {p.poster && (
+                        <img
+                          src={now ? skySrc(p.poster) : undefined}
+                          data-src={now ? undefined : skySrc(p.poster)}
+                          sizes="120px"
+                          width={p.poster.width}
+                          height={p.poster.height}
+                          alt=""
+                          draggable={false}
+                          loading={now ? 'eager' : 'lazy'}
+                          decoding="async"
+                        />
+                      )}
+                    </span>
+                    <span class="tr-sky-label">{p.label}</span>
+                  </a>
+                );
+              })
+            }
+          </div>
+
+          <!-- the far lane: the chapters of each age, standing on the hills -->
+          <div class="tr-lane tr-lane-far">
+            {
+              REGIONS.flatMap((r) =>
+                r.landmarks.map((lm) => {
+                  const now = eager.has(lm.id);
+                  return (
+                    <a
+                      class="tr-lm"
+                      href={lm.route}
+                      data-place={lm.id}
+                      data-wx={lm.wx}
+                      data-ridge={String(lm.ridge)}
+                      data-kind={lm.kind}
+                      style={`left:${lm.x}px; --accent:${r.def.palette.accent}; --lm-ink:${r.def.palette.ink}`}
+                      aria-label={`${lm.title} — ${r.def.gate}`}
+                    >
+                      <span class="tr-lm-frame">
+                        {lm.art ? (
+                          <img
+                            src={now ? lm.art.src : undefined}
+                            data-src={now ? undefined : lm.art.src}
+                            sizes="104px"
+                            width={lm.art.w}
+                            height={lm.art.h}
+                            alt=""
+                            draggable={false}
+                            loading={now ? 'eager' : 'lazy'}
+                            decoding="async"
+                          />
+                        ) : (
+                          <span class="tr-lm-carve" aria-hidden="true">
+                            {lm.glyph && (
+                              <svg viewBox="0 0 24 24" width="26" height="26" focusable="false">
+                                <use href={`#gl-${lm.glyph}`} />
+                              </svg>
+                            )}
+                          </span>
+                        )}
+                      </span>
+                      <span class="tr-lm-post" aria-hidden="true"></span>
+                      <span class="tr-lm-label">
+                        {lm.dates && <span class="tr-lm-dates">{lm.dates}</span>}
+                        {lm.title}
+                      </span>
+                    </a>
+                  );
+                }),
+              )
+            }
+          </div>
+
+          <!-- the near lane: gates, films, era markers, the receding manvantaras -->
+          <div class="tr-lane tr-lane-near">
+            {
+              REGIONS.map((r, ri) => {
+                const art = GATE_ART[ri];
+                const glyph = GATE_GLYPH[ri];
+                const now = eagerGate[ri];
+                return (
+                  <div
+                    class="tr-gate"
+                    data-gate={String(ri)}
+                    data-wx={r.gateX}
+                    style={`left:${r.gateX}px; --gink:${r.def.palette.ink}; --gaccent:${r.def.palette.accent}`}
+                    aria-hidden="true"
+                  >
+                    {art ? (
+                      <span class="tr-gate-art">
+                        <img
+                          src={now ? art.src : undefined}
+                          data-src={now ? undefined : art.src}
+                          width={art.w}
+                          height={art.h}
+                          alt=""
+                          draggable={false}
+                          loading={now ? 'eager' : 'lazy'}
+                          decoding="async"
+                        />
+                      </span>
+                    ) : (
+                      glyph && (
+                        /* No film, no plate — the Future. It carves its own
+                           chapters' emblem rather than wearing a neighbour's
+                           photograph (there is no still of an age that has not
+                           happened yet). */
+                        <span class="tr-gate-art is-carved">
+                          <svg viewBox="0 0 24 24" width="120" height="120" focusable="false" aria-hidden="true">
+                            <use href={`#gl-${glyph}`} />
+                          </svg>
+                        </span>
+                      )
+                    )}
+                    <div class="tr-gate-arch"></div>
+                    <p class="tr-gate-name">{r.def.gate}</p>
+                    {r.def.gateHi && <p class="tr-gate-hi dv" lang="hi">{r.def.gateHi}</p>}
+                    <p class="tr-gate-line">{r.def.line}</p>
+                    <ul class="tr-gate-facts">
+                      {r.def.facts.map((f) => (
+                        <li>{f}</li>
+                      ))}
+                    </ul>
+                    {/* The true scale, one tap from every gate. Not in the a11y
+                        tree (the gate is decorative and duplicated by the
+                        ribbon and the atlas); the tools row carries the
+                        keyboard-reachable copy of the same button. */}
+                    <button
+                      type="button"
+                      class="tr-gate-scale"
+                      data-act="scale"
+                      tabindex="-1"
+                      aria-hidden="true"
+                    >
+                      How big is this?
+                    </button>
+                    {r.def.note && (
+                      <div class="tr-gate-note">
+                        <strong>{r.def.note.head}</strong>
+                        <span>{r.def.note.body}</span>
+                        <em>{r.def.note.cite}</em>
+                      </div>
+                    )}
+                    {r.def.legs > 0 && (
+                      <div class="tr-legs" title="Dharma's remaining legs">
+                        {[0, 1, 2, 3].map((n) => (
+                          <i data-fallen={n < r.def.legs ? undefined : ''}></i>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })
+            }
+            {
+              REGIONS.flatMap((r) =>
+                r.films.map((p) => {
+                  const now = eager.has(p.id);
+                  return (
+                    <a
+                      class="tr-stele"
+                      href={p.film.route}
+                      data-place={p.id}
+                      data-wx={p.x}
+                      data-lane={String(p.lane)}
+                      data-soon={p.film.isPublic ? '0' : '1'}
+                      style={`left:${p.x}px; bottom:calc(var(--road-line) + ${-p.lift}px); transform:translateX(-50%) scale(${p.scale.toFixed(2)}) rotate(${p.tilt.toFixed(2)}deg); --accent:${r.def.palette.accent}`}
+                      aria-label={`${p.film.title.en}${p.film.isPublic ? '' : ' — coming soon'}`}
+                    >
+                      <span class="tr-stele-inner">
+                        <span class="tr-stele-frame">
+                          <span class="tr-stele-glow" aria-hidden="true"></span>
+                          {p.poster && (
+                            <img
+                              src={now ? p.poster.src : undefined}
+                              data-src={now ? undefined : p.poster.src}
+                              data-srcset={now ? undefined : (p.poster.srcset ?? undefined)}
+                              srcset={now ? (p.poster.srcset ?? undefined) : undefined}
+                              sizes={stillSizes}
+                              width={p.poster.width}
+                              height={p.poster.height}
+                              alt=""
+                              draggable={false}
+                              loading={now ? 'eager' : 'lazy'}
+                              decoding="async"
+                            />
+                          )}
+                          {!p.film.isPublic && <span class="tr-soon-seal">Coming soon</span>}
+                        </span>
+                        <span class="tr-stele-post" aria-hidden="true"></span>
+                        <span class="tr-stele-plate">
+                          <span class="tr-stele-title">{p.label}</span>
+                        </span>
+                      </span>
+                      <span class="tr-stele-shadow" aria-hidden="true"></span>
+                    </a>
+                  );
+                }),
+              )
+            }
+            {/* Kali-history: the ten dated eras, standing at the roadside. */}
+            {
+              REGIONS.flatMap((r) =>
+                r.eras.map((e) => (
+                  <a
+                    class="tr-era"
+                    href={e.route}
+                    data-place={e.id}
+                    data-wx={e.wx}
+                    data-row={String(e.row)}
+                    style={`left:${e.wx}px; --accent:${r.def.palette.accent}`}
+                    aria-label={`${e.name}, ${e.dates}`}
+                  >
+                    <span class="tr-era-post" aria-hidden="true"></span>
+                    <span class="tr-era-plate">
+                      <span class="tr-era-mark" aria-hidden="true">
+                        {e.art ? (
+                          <img
+                            data-src={e.art.src}
+                            sizes="34px"
+                            width={e.art.w}
+                            height={e.art.h}
+                            alt=""
+                            draggable={false}
+                            loading="lazy"
+                            decoding="async"
+                          />
+                        ) : e.glyph ? (
+                          <svg viewBox="0 0 24 24" width="20" height="20" focusable="false">
+                            <use href={`#gl-${e.glyph}`} />
+                          </svg>
+                        ) : null}
+                      </span>
+                      <span class="tr-era-num">{e.numeral}</span>
+                      <span class="tr-era-name">{e.name}</span>
+                      <span class="tr-era-dates">{e.dates}</span>
+                    </span>
+                  </a>
+                )),
+              )
+            }
+            {/* The Future: seven Manus receding, then the Night. */}
+            {
+              REGIONS.flatMap((r) =>
+                r.gates.map((g) => (
+                  <a
+                    class="tr-manu"
+                    href={g.route}
+                    data-place={g.id}
+                    data-wx={g.wx}
+                    style={`left:${g.wx}px; --d:${g.depth.toFixed(3)}; --accent:${r.def.palette.accent}`}
+                    aria-label={`Manvantara ${g.n} — ${g.name}`}
+                  >
+                    <span class="tr-manu-arch" aria-hidden="true"></span>
+                    <span class="tr-manu-label">
+                      <span class="tr-manu-n">{g.n}</span>
+                      <span class="tr-manu-name">{g.name}</span>
+                    </span>
+                  </a>
+                )),
+              )
+            }
+            <a
+              class="tr-night"
+              href="/cosmology/kalpa-and-pralaya/"
+              data-place="night-of-brahma"
+              data-wx={String(NIGHT_X)}
+              style={`left:${NIGHT_X}px`}
+              aria-label={NIGHT.title}
+            >
+              <span class="tr-night-disc" aria-hidden="true"></span>
+              <span class="tr-night-label">{NIGHT.title}</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tr-vignette" aria-hidden="true"></div>
+
+      <!-- ========================================================== finale -->
+      <!-- The road dissolves in the Saṃvartaka fire and rain into the waters it
+           began in. Three stacked gradients and one <canvas>-free rain layer,
+           all driven by a single custom property `--end-t` the runtime sets
+           from the scroll position; under reduced motion the whole block is
+           painted at its final state with nothing animating. -->
+      <div class="tr-finale" hidden aria-hidden="true">
+        <div class="tr-fin-fire"></div>
+        <div class="tr-fin-rain"></div>
+        <div class="tr-fin-water"></div>
+      </div>
+      <!-- The one thing to do at the end of the world. -->
+      <section class="tr-morning" hidden aria-labelledby="tr-morning-h">
+        <h2 id="tr-morning-h">{NIGHT.title}</h2>
+        <p class="tr-morning-hi dv" lang="hi">{NIGHT.hi}</p>
+        <p class="tr-morning-line">{NIGHT.line}</p>
+        <ul class="tr-morning-facts">
+          {NIGHT.facts.map((f) => <li>{f}</li>)}
+        </ul>
+        <p class="tr-morning-cite">
+          {
+            NIGHT.cites.map((c, i) => (
+              <>
+                {i > 0 && ' · '}
+                <a href={c.route}>{c.label}</a>
+              </>
+            ))
+          }
+        </p>
+        <button type="button" class="tr-morning-go" data-act="morning">{NIGHT.cta}</button>
+        <p class="tr-morning-sub">{NIGHT.ctaLine}</p>
+      </section>
+      <div class="tr-dawn" hidden aria-hidden="true"></div>
+
+      <!-- =========================================================== chrome -->
+      <header class="tr-chrome">
+        <a class="tr-brand" href="/" data-act="home">
+          <span class="tr-brand-mark" aria-hidden="true"></span>
+          <span>The Hindu Timeline</span>
+        </a>
+        <div class="tr-tools">
+          <button type="button" class="tr-tool" data-act="find" aria-label="Find a story or a film">
+            <svg viewBox="0 0 24 24" aria-hidden="true"
+              ><circle cx="11" cy="11" r="6.4" /><path d="M15.8 15.8 21 21" stroke-linecap="round" /></svg
+            >
+          
+            <span class="tr-tool-label">Search</span>
+          </button>
+          <button type="button" class="tr-tool" data-act="scale" aria-label="How big is this? The true scale of the ages">
+            <svg viewBox="0 0 24 24" aria-hidden="true"
+              ><path d="M3 12h18M3 8v8M21 8v8M9 10v4M15 10v4" stroke-linecap="round" /></svg
+            >
+          
+            <span class="tr-tool-label">Scale</span>
+          </button>
+          <button type="button" class="tr-tool" data-act="atlas" aria-label="See all nine ages at once">
+            <svg viewBox="0 0 24 24" aria-hidden="true"
+              ><path d="M4 9V5h4M20 9V5h-4M4 15v4h4M20 15v4h-4" stroke-linecap="round" /></svg
+            >
+          
+            <span class="tr-tool-label">All ages</span>
+          </button>
+          <button type="button" class="tr-tool" data-act="menu" aria-label="Menu">
+            <svg viewBox="0 0 24 24" aria-hidden="true"
+              ><path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round" /></svg
+            >
+          
+            <span class="tr-tool-label">Menu</span>
+          </button>
+        </div>
+      </header>
+
+      <!-- =========================================================== finder -->
+      <div class="tr-find" hidden>
+        <div class="tr-find-bar">
+          <svg class="tr-find-icon" viewBox="0 0 24 24" aria-hidden="true"
+            ><circle cx="11" cy="11" r="6.4" /><path d="M15.8 15.8 21 21" stroke-linecap="round" /></svg
+          >
+          <input
+            type="search"
+            id="tr-q"
+            class="tr-find-input"
+            placeholder="Find a story — try “manthan”"
+            autocomplete="off"
+            autocorrect="off"
+            spellcheck="false"
+            enterkeyhint="go"
+            role="combobox"
+            aria-expanded="false"
+            aria-controls="tr-results"
+            aria-label="Find a story or a film"
+          />
+          <button type="button" class="tr-find-x" data-act="find-close" aria-label="Close the finder"
+            >✕</button
+          >
+        </div>
+        <ul class="tr-results" id="tr-results" role="listbox" aria-label="Results" hidden></ul>
+        {/* The manuscript's own answers, under the road's. A heading and a
+            list cannot live inside `role="listbox"`, so they stand beside it. */}
+        <div class="tr-find-more" hidden></div>
+        <p class="tr-find-none" hidden>Nothing on this road by that name.</p>
+      </div>
+
+      <p class="tr-nojs">
+        The landscape needs JavaScript to move. Everything in it is listed below —
+        every age, its chapters, its stories and its films.
+      </p>
+
+      <!-- =========================================================== ribbon -->
+      <div class="tr-ribbon">
+        <div class="tr-ribbon-head">
+          <span class="tr-here">Before Time</span>
+          <span class="tr-here-sub dv" lang="hi">सृष्टि से पूर्व</span>
+          <button type="button" class="tr-now" data-act="now"
+            >Jump to now<span class="tr-now-sep" aria-hidden="true"> · </span><span>Kali</span></button
+          >
+        </div>
+        <div class="tr-track" role="group" aria-label="Jump to an age">
+          {
+            REGIONS.map((r, i) => (
+              <button
+                type="button"
+                class="tr-seg"
+                data-i={String(i)}
+                aria-current={i === 0 ? 'true' : 'false'}
+                style={`--seg:linear-gradient(to bottom, ${r.def.palette.sky[1]}, ${r.def.palette.ground}); --segink:${r.def.palette.ink}`}
+              >
+                <span>{RIBBON[r.def.slug] ?? r.def.gate}</span>
+              </button>
+            ))
+          }
+          {/* The road loops: the last chip is joined back to the first. */}
+          <button
+            type="button"
+            class="tr-loop"
+            data-act="loop"
+            aria-label="The road loops — from the Night of Brahmā back to Before Time"
+            title="The road loops back to Before Time"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true"
+              ><path d="M20 12a8 8 0 1 1-2.3-5.6M18 3v4h-4" stroke-linecap="round" stroke-linejoin="round" /></svg
+            >
+          </button>
+          <span class="tr-thumb" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <!-- ============================================================= peek -->
+      <div class="tr-peek" hidden>
+        <button type="button" class="tr-peek-body" data-act="expand">
+          <span class="tr-peek-grip" aria-hidden="true"></span>
+          <span class="tr-peek-art"></span>
+          <span class="tr-peek-txt">
+            <span class="tr-peek-meta"></span>
+            <span class="tr-peek-title"></span>
+            <span class="tr-peek-hi dv" lang="hi"></span>
+          </span>
+          <span class="tr-peek-chev" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M6 15l6-6 6 6" stroke-linecap="round" /></svg>
+          </span>
+        </button>
+        <div class="tr-peek-acts"></div>
+        <button type="button" class="tr-peek-x" data-act="peek-close" aria-label="Close">✕</button>
+      </div>
+
+      <!-- ============================================================ sheet -->
+      <div class="tr-scrim" hidden></div>
+      <div class="tr-sheet" hidden role="dialog" aria-modal="true" aria-labelledby="tr-panel-title">
+        <div class="tr-sheet-bar">
+          <button
+            type="button"
+            class="tr-sheet-grip"
+            data-act="collapse"
+            aria-label="Shrink the story back to a card"></button>
+          <button type="button" class="tr-sheet-close" aria-label="Close and go back to where you were"
+            >✕</button
+          >
+        </div>
+        <div class="tr-sheet-in"></div>
+      </div>
+
+      <!-- ========================================================== the FLIP -->
+      <div class="tr-flip" aria-hidden="true" hidden></div>
+
+      <!-- ====================================================== scale mount -->
+      <div class="tr-scale-host" hidden></div>
+
+      <!-- ============================================================= menu -->
+      <div class="tr-menu" hidden role="dialog" aria-modal="true" aria-labelledby="tr-menu-h">
+        <div class="tr-menu-head">
+          <h2 id="tr-menu-h">The Hindu Timeline</h2>
+          <button type="button" class="tr-tool" data-act="menu-close" aria-label="Back to the road">✕</button>
+        </div>
+        <p class="tr-menu-dek">
+          {WORLD_STATS.chapters || ALL_LANDMARKS.length} chapters and {filmCount} animated films
+          stand along this road. The manuscript underneath it is {sections.reduce((a, s) => a + s.count, 0)} pages.
+        </p>
+        <nav class="tr-menu-top" aria-label="Main">
+          <a href="/films/">The films</a>
+          <a href="/stories/">The stories</a>
+          <a href="/search/">Search the manuscript</a>
+          <a href="/clock/">The nine periods</a>
+          <a href="/about/">About</a>
+        </nav>
+        <button type="button" class="tr-menu-index" data-act="index">
+          Everything on this road — every chapter, every film
+        </button>
+        <h3>Browse the manuscript</h3>
+        <ul class="tr-menu-sections">
+          {
+            sections.map((s) => (
+              <li>
+                <a href={s.route}>
+                  <span>{s.label}</span>
+                  <em>{s.count}</em>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+        <h3>Elsewhere</h3>
+        <ul class="tr-menu-sections">
+          <li>
+            <a href="/lab/cosmos/">
+              <span>The Cosmos</span>
+              <em>an experimental view</em>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- ============================================================ atlas -->
+      <!-- The atlas is now the chapter list per age, and it ends where it began:
+           the last band joins back to the first. -->
+      <div class="tr-atlas" hidden role="dialog" aria-modal="true" aria-label="All nine ages">
+        <div class="tr-atlas-head">
+          <div>
+            <h2>The whole road</h2>
+            <p>Nine ages, in cosmic order — and round again</p>
+          </div>
+          <button type="button" class="tr-tool tr-atlas-close" aria-label="Back to the road">✕</button>
+        </div>
+        {
+          REGIONS.map((r, i) => (
+            <div class="tr-atlas-item">
+              <a
+                class="tr-atlas-band"
+                href={r.route}
+                data-i={String(i)}
+                data-x={String(Math.max(0, r.x0 - 24))}
+                style={`--bg:linear-gradient(105deg, ${r.def.palette.sky[1]} 0%, ${r.def.palette.sky[2]} 46%, ${r.def.palette.ground} 100%); --bink:${r.def.palette.ink}`}
+              >
+                <span class="tr-atlas-name">{r.def.gate}</span>
+                {r.def.gateHi && (
+                  <span class="tr-atlas-hi dv" lang="hi">
+                    {r.def.gateHi}
+                  </span>
+                )}
+                <p class="tr-atlas-line">{r.def.line}</p>
+                <span class="tr-atlas-count">
+                  {r.landmarks.length} {r.landmarks.length === 1 ? 'chapter' : 'chapters'} ·{' '}
+                  {r.films.length} {r.films.length === 1 ? 'film' : 'films'} ·{' '}
+                  {r.eventCount.toLocaleString('en-IN')} events
+                </span>
+              </a>
+              <ol class="tr-atlas-chapters">
+                {r.landmarks.map((lm) => (
+                  <li>
+                    <a href={lm.route} data-go={lm.id} style={`--accent:${r.def.palette.accent}`}>
+                      <span>{lm.title}</span>
+                      {lm.dates && <em>{lm.dates}</em>}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          ))
+        }
+        <div class="tr-atlas-item">
+          <a
+            class="tr-atlas-band"
+            href={SKY.route}
+            data-i="8"
+            data-sky="1"
+            data-x={String(skyStripX)}
+            style={`--bg:linear-gradient(105deg, #101a34 0%, #1d2a4c 50%, #0a0f1e 100%); --bink:#f3e8cd`}
+          >
+            <span class="tr-atlas-name">{SKY.gate}</span>
+            <span class="tr-atlas-hi dv" lang="hi">{SKY.gateHi}</span>
+            <p class="tr-atlas-line">{SKY.line}</p>
+            <span class="tr-atlas-count">
+              {SKY_PLACES.length} films · above every stretch of the road
+            </span>
+          </a>
+        </div>
+        <a class="tr-atlas-loop" href="/" data-act="loop">
+          <span aria-hidden="true">↻</span>
+          <span
+            >…and after the Night of Brahmā, <strong>Before Time</strong> again. The road is a
+            circle.</span
+          >
+        </a>
+      </div>
+
+      <!-- ============================================================ index -->
+      <div class="tr-index" hidden role="dialog" aria-modal="true" aria-labelledby="tr-index-h">
+        <div class="tr-index-head">
+          <h2 id="tr-index-h">Everything in this world</h2>
+          <button type="button" class="tr-tool" data-act="index-close" aria-label="Back to the road">✕</button>
+        </div>
+        <p class="tr-panel-meta">
+          {ALL_LANDMARKS.length} chapters and {WORLD_STATS.films} films ({WORLD_STATS.published}
+          {' '}published), laid along {(WORLD_WIDTH / 1000).toFixed(1)}k px of road.
+        </p>
+        {
+          REGIONS.map((r) => (
+            <section>
+              <h3>{r.def.gate}</h3>
+              <p class="tr-index-line">{r.def.line}</p>
+              <ol class="tr-index-chapters">
+                {r.landmarks.map((lm) => (
+                  <li>
+                    <a href={lm.route}>
+                      {lm.dates && <em>{lm.dates} · </em>}
+                      {lm.title}
+                    </a>
+                    {lm.stories.length > 1 && (
+                      <ul>
+                        {lm.stories.map((s) => (
+                          <li>
+                            <a href={s.route}>{s.title}</a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                ))}
+              </ol>
+              <ul>
+                {r.films.map((p) => (
+                  <li>
+                    <a href={p.film.route}>
+                      {p.film.title.en} {!p.film.isPublic && <em>· coming soon</em>}
+                    </a>
+                  </li>
+                ))}
+                {r.eras.map((e) => (
+                  <li>
+                    <a href={e.route}>
+                      {e.numeral}. {e.name} <em>· {e.dates}</em>
+                    </a>
+                  </li>
+                ))}
+                {r.gates.map((g) => (
+                  <li>
+                    <a href={g.route}>
+                      Manvantara {g.n} — {g.name}
+                    </a>
+                  </li>
+                ))}
+                <li>
+                  <a href={r.route}>
+                    <em>All {r.eventCount.toLocaleString('en-IN')} events of this age →</em>
+                  </a>
+                </li>
+              </ul>
+            </section>
+          ))
+        }
+        <section>
+          <h3>{SKY.gate} — above the road</h3>
+          <ul>
+            {SKY_PLACES.map((p) => (
+              <li>
+                <a href={p.film.route}>
+                  {p.film.title.en} {!p.film.isPublic && <em>· coming soon</em>}
+                </a>
+              </li>
+            ))}
+            <li>
+              <a href={SKY.route}>
+                <em>All Cross-Yuga events →</em>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3>The end of the road, and the beginning</h3>
+          <ul>
+            <li><a href="/cosmology/kalpa-and-pralaya/">The Night of Brahmā — kalpa and pralaya</a></li>
+            <li><a href="/cosmology/brahma-lifetime/">Brahmā's lifetime — 311.04 trillion years</a></li>
+            <li><a href="/clock/#scale">How big is this? The nested scale of the ages</a></li>
+            <li><a href="/">…and the morning comes again — back to Before Time</a></li>
+          </ul>
+        </section>
+      </div>
+
+      <!-- ========================================================= hotspots -->
+      <!-- One visually-hidden button per place. Focusing it travels the road to
+           that place; Enter opens it. This is how the world is reachable by
+           keyboard now that only the places near you are in the document. -->
+      <div class="tr-hotspots" aria-label="Every place on the road">
+        {
+          HOTSPOTS.map((h) => (
+            <button type="button" data-hot={h.id}>
+              {h.name} — {h.where}
+            </button>
+          ))
+        }
+      </div>
+
+      <!-- ============================================================ intro -->
+      <!-- One line, one primary action, three quiet doors, and — when this
+           browser remembers a place — a way straight back to it. Everything
+           here has to fit above the fold on a 390 × 844 phone. -->
+      <div class="tr-hint" hidden>
+        <div class="tr-hint-card">
+          <h2>Time is a road here.</h2>
+          <p>Drag to travel it. Everything standing beside it opens.</p>
+          <button type="button" class="tr-hint-go" data-act="begin">Begin at the waters</button>
+          <div class="tr-doors">
+            <button type="button" class="tr-door is-default" data-act="begin">
+              <span>Travel the ages</span>
+            </button>
+            <a class="tr-door" href="/films/"><span>Watch a film</span></a>
+            <a class="tr-door" href="/stories/"><span>Read a great story</span></a>
+          </div>
+          {/* The two return hooks are L2's own components, mounted as they
+              are: both fill themselves from localStorage after load, and
+              `todaysStory()` is the same picker the Stories hub uses — so the
+              home and the hub can never disagree about the day's story. Both
+              are `hidden` until they have something to say, so a first-time
+              visitor still gets the one-screen intro. road.ts adds the one
+              thing only the road knows: if `ht:road` is newer than `ht:last`,
+              Continue offers the road position instead of the last story. */}
+          <div class="hook-row">
+            <ContinueCard />
+            <TodayCard />
+          </div>
+        </div>
+      </div>
+
+      <p class="tr-live" role="status" aria-live="polite"></p>
+    </div>
+
+    <script
+      is:inline
+      type="application/json"
+      id="tr-world"
+      set:html={JSON.stringify(world)}
+    />
+    <script
+      is:inline
+      type="application/json"
+      id="tr-panels"
+      set:html={JSON.stringify(PANEL_MAP)}
+    />
+    <script
+      is:inline
+      type="application/json"
+      id="tr-find"
+      set:html={JSON.stringify(FIND_INDEX)}
+    />
+    <script>
+      import '../lab/terrain/road.ts';
+    </script>
+  </body>
+</html>

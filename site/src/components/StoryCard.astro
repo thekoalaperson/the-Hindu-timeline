@@ -1,0 +1,78 @@
+---
+/**
+ * StoryCard.astro — one story inside a chapter.
+ *
+ * Two registers, chosen by the data rather than by the caller: a story that
+ * has been filmed shows the film's own first still (textless painted artwork,
+ * never the YouTube tile — see `films.ts` `cardPoster`); one that has not
+ * shows the corpus's own opening sentences, clamped to two lines. Both are one
+ * tap, both are the same height, so a chapter of six reads as one thing.
+ *
+ * The card carries its own `data-period`, which is what tints the thumbnail
+ * box behind a lazy image: an untinted box is `--shade`, and on the dark theme
+ * `--shade` reads as a black rectangle until the poster arrives (FIXLIST
+ * L2b-4 — three cards on `/clock/satya-yuga/` looked broken in the audit
+ * screenshot). Now the empty box is the age's own colour, which is a
+ * deliberate-looking placeholder rather than a hole.
+ */
+import Plain from './Plain.astro';
+import previews from '../generated/link-previews.json';
+import { filmsForRoute } from '../lib/films.ts';
+import { cardPoster } from '../lib/films.ts';
+import { nodeForRoute } from '../lib/graph.ts';
+import { splitTitle } from '../lib/routes.ts';
+
+interface Props {
+  route: string;
+  /** Override the title (rare — a chapter may name a story its own way). */
+  title?: string | null;
+  /** Show the two-line lede. Off in tight grids. */
+  lede?: boolean;
+  /**
+   * Which still of the film to wear. Siblings that share a film — the three
+   * stories under "Ganga comes down to earth" all belong to the Ganga film —
+   * were rendering the identical thumbnail three times, so a list of distinct
+   * named entries looked like one entry repeated. The caller counts the
+   * repeats and hands each card a different frame; out of range wraps.
+   */
+  still?: number;
+}
+
+const { route, title = null, lede = true, still = 0 } = Astro.props;
+const preview = (previews as Record<string, { title: string; dek: string; period: string | null }>)[route];
+const node = nodeForRoute(route);
+const rawTitle = title ?? preview?.title ?? node?.title ?? route;
+const [head] = splitTitle(rawTitle);
+const film = filmsForRoute(route)[0];
+const poster = film ? cardPoster(film, still) : null;
+const dek = preview?.dek ?? node?.dek ?? '';
+---
+
+<li
+  class="story-card"
+  data-route={route}
+  data-filmed={film ? '' : undefined}
+  data-period={preview?.period ?? node?.cosmicAddress ?? undefined}
+>
+  {
+    poster && (
+      <span class="story-card-thumb">
+        <img
+          src={poster.src}
+          srcset={poster.srcset ?? undefined}
+          sizes="76px"
+          width={poster.width}
+          height={poster.height}
+          alt=""
+          loading="lazy"
+          decoding="async"
+        />
+      </span>
+    )
+  }
+  <span class="story-card-body">
+    <a class="story-card-title" href={route}><Plain text={head} /></a>
+    {lede && dek && <span class="story-card-lede"><Plain text={dek} /></span>}
+    {film && <span class="story-card-flag">{film.isPublic ? 'Filmed' : 'Film coming'}</span>}
+  </span>
+</li>

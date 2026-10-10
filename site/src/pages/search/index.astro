@@ -1,0 +1,103 @@
+---
+/**
+ * /search/ — the front door.
+ *
+ * The same panel the search sheet uses (`_Panel.astro`), given a page of its
+ * own so the bottom bar's link resolves without JavaScript and `?q=` is a
+ * shareable search. The Pagefind index is written by `pagefind --site dist`
+ * after `astro build`, so on the dev server the panel says so rather than
+ * failing; without JavaScript the six doors and the section list below are
+ * ordinary links, and the field is a real GET form.
+ */
+import PageArt from '../../components/PageArt.astro';
+import { plateForSection } from '../../components/art.ts';
+import Base from '../../layouts/Base.astro';
+import { sections, stats } from '../../lib/graph.ts';
+import SearchPanel from './_Panel.astro';
+const searchPlate = plateForSection('search');
+---
+
+<Base title="Search" description={`Search all ${stats.files} pages of the corpus.`} page="search">
+  <nav class="crumbs" aria-label="Breadcrumb" slot="crumbs">
+    <ol>
+      <!-- No root crumb: the wordmark to its immediate left already links
+           home, and repeating "The Hindu Timeline" here is a second copy of
+           it rather than a real section in the trail. -->
+      <li class="crumb crumb-current" aria-current="page">Search</li>
+    </ol>
+  </nav>
+
+  <div class="page search-page" data-pagefind-ignore>
+    {
+      searchPlate ? (
+        <PageArt art={searchPlate} title="Search" kicker={`${stats.files.toLocaleString('en')} pages`} />
+      ) : (
+        <h1 class="page-title">Search</h1>
+      )
+    }
+    <SearchPanel id="search-page-panel" autofocus urlQuery />
+
+    <p class="search-keys">
+      Press <kbd>/</kbd> anywhere to search<span class="key-sep" aria-hidden="true"></span><kbd>↑</kbd> <kbd>↓</kbd> to
+      move<span class="key-sep" aria-hidden="true"></span><kbd>Enter</kbd> to open<span
+        class="key-sep"
+        aria-hidden="true"></span><kbd>Esc</kbd> to clear
+    </p>
+
+    <noscript>
+      <p class="notice">
+        Live search needs JavaScript. Every door above is an ordinary link, and the whole manuscript is browsable —
+        <a href="/about/structure/">every page, grouped by section</a>.
+      </p>
+    </noscript>
+
+    <section class="search-sections" aria-labelledby="search-sections-heading">
+      <h2 class="home-heading" id="search-sections-heading">Or start from a section</h2>
+      <ol class="index section-index">
+        {
+          sections.map((s) => (
+            <li class="index-item" data-index-kind="group">
+              <a class="index-link" href={s.route}>
+                {s.label}
+              </a>
+              <span class="index-meta">
+                <span class="index-length">{s.count.toLocaleString('en')} pages</span>
+              </span>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .search-page .search-panel {
+    margin-top: var(--gap-5);
+  }
+  /* Four keyboard shortcuts on a phone are four things that cannot be done.
+     They are shown only where there is a pointer that hovers — which is the
+     same population that has a physical keyboard. */
+  .search-keys {
+    display: none;
+    margin: var(--gap-4) 0 0;
+    font-size: var(--t-sm);
+    color: var(--ink-2);
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .search-keys {
+      display: block;
+    }
+  }
+  .search-sections {
+    margin-top: var(--gap-6);
+  }
+  .key-sep {
+    display: inline-block;
+    width: 1px;
+    height: 0.8em;
+    margin: 0 0.6em;
+    vertical-align: -0.05em;
+    background: var(--rule-strong);
+  }
+</style>

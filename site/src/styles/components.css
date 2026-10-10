@@ -1,0 +1,2157 @@
+/*
+ * components.css — everything between the folio's rules.
+ *
+ * Rubrication carries hierarchy; hairlines carry structure; the double rule is
+ * spent only at real boundaries. No cards, no shadows, no gradients.
+ */
+
+/* ------------------------------------------------------------------ links - */
+
+a {
+  color: var(--link);
+  text-decoration-thickness: from-font;
+  text-underline-offset: 0.14em;
+  text-decoration-color: color-mix(in oklab, var(--link) 42%, transparent);
+}
+a:hover {
+  text-decoration-color: currentColor;
+}
+a:visited {
+  color: var(--visited);
+}
+.prose a:visited {
+  text-decoration-color: color-mix(in oklab, var(--visited) 42%, transparent);
+}
+
+.ext::after {
+  content: '\2009↗';
+  font-size: 0.82em;
+  color: var(--ink-2);
+  vertical-align: 0.08em;
+}
+
+/* --------------------------------------------------------------- the ring - */
+/* One mark, four jobs: site sigil, period chip, empty state, progress. */
+
+.ring {
+  display: inline-block;
+  vertical-align: -0.12em;
+  color: var(--period);
+}
+
+/* --------------------------------------------------------------- crumbs -- */
+
+.crumbs {
+  min-width: 0;
+  flex: 1 1 auto;
+  font-size: var(--t-sm);
+  line-height: var(--lh-ui);
+  color: var(--ink-2);
+}
+.crumbs ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  min-width: 0;
+  overflow: hidden;
+}
+.crumbs li {
+  white-space: nowrap;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.crumb-root {
+  flex: 0 0 auto;
+  max-width: 50%;
+}
+/* A two-item trail (root + current, no fold) has more room to give: cap the
+   root tighter so the current segment — the page the reader is actually on —
+   is the one that gets the space, and let it wrap rather than truncate, so
+   root and current are never both cut off at once. */
+.crumbs:not([data-foldable]) .crumb-root {
+  max-width: 40%;
+}
+.crumbs li + li::before {
+  content: '›';
+  margin-right: 0.3rem;
+  color: var(--rule-strong);
+}
+.crumbs a {
+  color: var(--ink-2);
+  text-decoration: none;
+}
+.crumbs a:hover {
+  color: var(--link);
+  text-decoration: underline;
+}
+.crumb-current {
+  color: var(--rubric);
+  flex: 1 1 auto;
+  min-width: 3rem;
+}
+/* The current segment never elides to a single truncated line: it wraps
+   instead, so it and the root are never both cut off at the same time.
+   (`.crumbs li` sets the nowrap/ellipsis default; matched on specificity
+   here so this actually overrides it.) It only ever carries the title head
+   now (see Crumbs.astro), but clamp to two lines anyway so a long head on a
+   narrow phone still can't push past a third line — the root/section crumb
+   keeps its own space either way since it never shrinks. */
+.crumbs li.crumb-current {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* Middle truncation: root and current always visible, the middle folds into a
+   button that expands them in place. */
+.crumb-fold {
+  display: none;
+}
+.crumbs[data-foldable] .crumb-mid {
+  display: none;
+}
+.crumbs[data-foldable] .crumb-fold {
+  display: inline;
+}
+.crumbs[data-foldable][data-expanded] .crumb-mid {
+  display: inline;
+}
+.crumbs[data-foldable][data-expanded] .crumb-fold {
+  display: none;
+}
+.crumb-fold button {
+  font: inherit;
+  color: var(--ink-2);
+  background: none;
+  border: 0;
+  /* negative margin keeps the 44px hit area off the line box */
+  padding: 0.7rem 0.35rem;
+  margin: -0.7rem 0;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+}
+.crumb-fold button:hover {
+  color: var(--link);
+}
+
+@media (min-width: 1100px) {
+  .crumbs[data-foldable] .crumb-mid {
+    display: inline;
+  }
+  .crumbs[data-foldable] .crumb-fold {
+    display: none;
+  }
+}
+
+/* -------------------------------------------------------------- context --- */
+/* The second chrome row: where you are in cosmic time, and the page sheet. */
+
+.context {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-2);
+  padding: 0 max(var(--margin-x), env(safe-area-inset-left)) 0.45rem;
+  margin-top: -0.15rem;
+  font-size: var(--t-sm);
+  line-height: var(--lh-ui);
+  color: var(--ink-2);
+  /* Not a scroller: the sheet opener must stay reachable at the right edge,
+     so the middle items give way instead. */
+  overflow: hidden;
+}
+.context > * {
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.context > .chip {
+  flex: 0 0 auto;
+}
+/* Reading time and the story count are the first things to go when the row is
+   tight; the period and the event count are what the row is for. */
+@media (max-width: 430px) {
+  .chip ~ .context-reading,
+  .chip ~ .context-stories {
+    display: none;
+  }
+}
+.context-events,
+.context-reading,
+.context-stories {
+  white-space: nowrap;
+}
+.context-events + .context-reading::before,
+.context-reading + .context-stories::before,
+.context-events + .context-stories::before {
+  content: '';
+  display: inline-block;
+  width: var(--hair);
+  height: 0.85em;
+  margin-right: 0.55rem;
+  vertical-align: -0.08em;
+  background: var(--rule-strong);
+}
+.context-contents {
+  flex: 0 0 auto;
+  margin-left: auto;
+  padding-left: var(--gap-3);
+  /* 44px hit area via padding + a compensating negative block margin, so the
+     sticky context row does not grow taller to fit it. */
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-block: 0.9rem;
+  margin-block: -0.9rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.16rem 0.5rem;
+  border: var(--hair) var(--period-border-style) color-mix(in oklab, var(--period) 62%, var(--rule));
+  border-radius: 2px;
+  background: var(--period-fill);
+  color: var(--period-ink);
+  font-size: var(--t-sm);
+  line-height: 1.25;
+  text-decoration: none;
+  white-space: nowrap;
+}
+/* The context row's own chip (the "where this sits in time" link) is
+   interactive and needs a real 44px hit area; the same padding/negative
+   margin trick as `.context-contents` keeps the visible chip small. */
+.context > a.chip {
+  min-height: 44px;
+  padding-block: 0.9rem;
+  margin-block: -0.9rem;
+}
+a.chip:hover {
+  border-color: var(--period);
+  background: color-mix(in oklab, var(--period) 8%, var(--period-fill, transparent));
+}
+.chip .ring,
+.chip svg {
+  flex: 0 0 auto;
+  color: var(--period);
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 44px;
+  padding: 0.1rem 0.7rem;
+  border: var(--hair) solid var(--rule);
+  border-radius: 2px;
+  background: none;
+  color: var(--ink-2);
+  font: inherit;
+  font-size: var(--t-sm);
+  line-height: var(--lh-ui);
+  text-decoration: none;
+  cursor: pointer;
+}
+.pill:hover {
+  color: var(--link);
+  border-color: var(--rule-strong);
+}
+.pill[aria-pressed='true'],
+.pill[aria-expanded='true'] {
+  color: var(--ink);
+  border-color: var(--period);
+  background: color-mix(in oklab, var(--period) 9%, transparent);
+}
+
+/* ------------------------------------------------------------ page head --- */
+
+.page-title {
+  font-size: var(--t-2xl);
+  letter-spacing: -0.006em;
+  margin: 0.2rem 0 0;
+  /* `balance` evens the lines but happily starts one with an em-dash;
+     `pretty` keeps the corpus's `Title — Subtitle` shape intact. */
+  text-wrap: pretty;
+}
+.page-title::after {
+  content: '';
+  display: block;
+  height: var(--hair);
+  margin-top: 0.55rem;
+  background: var(--rubric);
+  transform-origin: left center;
+  transform: scaleX(1);
+}
+body:not([data-motion='off']) .page-title::after {
+  animation: rubric-draw 620ms var(--ease-out-quint) both;
+}
+@keyframes rubric-draw {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .page-title::after {
+    animation: none !important;
+    transform: scaleX(1);
+  }
+}
+
+/* The corpus's own `Title — Subtitle` shape, split at build time so the H1
+   never wraps with an em dash opening its second line (the subtitle reads
+   as a continuation of the title block, ahead of the rubric rule below). */
+.page-subtitle {
+  margin: 0.2rem 0 0;
+  color: var(--ink-2);
+  font-size: var(--t-md);
+  font-style: italic;
+  line-height: 1.3;
+}
+
+.page-dek {
+  margin: var(--gap-4) 0 0;
+  color: var(--ink-2);
+  font-size: var(--t-base);
+  line-height: 1.55;
+  max-inline-size: 32rem;
+}
+
+/* --------------------------------------------------------------- prose ---- */
+
+.prose {
+  margin-top: var(--gap-5);
+  overflow-wrap: break-word;
+}
+.prose > * {
+  max-inline-size: var(--measure);
+}
+.prose > p {
+  margin: 0 0 1.05em;
+}
+.prose > :first-child {
+  margin-top: 0;
+}
+
+.prose h2,
+.index-heading,
+.related-title,
+.sources-title,
+.home-heading {
+  font-size: var(--t-xl);
+  letter-spacing: -0.004em;
+  margin: 2.2rem 0 0.85rem;
+  scroll-margin-top: 7rem;
+}
+.prose h2::before,
+.index-heading::before,
+.home-heading::before {
+  content: '';
+  display: block;
+  height: var(--hair);
+  margin-bottom: 0.7rem;
+  background: linear-gradient(90deg, var(--rubric) 0 2.75rem, var(--rule) 2.75rem);
+}
+.prose h3 {
+  font-size: var(--t-lg);
+  margin: 1.8rem 0 0.5rem;
+  scroll-margin-top: 7rem;
+}
+.prose h4,
+.prose h5,
+.prose h6 {
+  font-size: var(--t-md);
+  margin: 1.4rem 0 0.35rem;
+  color: var(--ink);
+  scroll-margin-top: 7rem;
+}
+.prose h4 {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.prose ul,
+.prose ol {
+  margin: 0 0 1.05em;
+  padding-left: 0;
+  list-style: none;
+}
+.prose ol {
+  counter-reset: pn;
+}
+.prose > ul > li,
+.prose > ol > li,
+.prose li {
+  margin: 0.42em 0;
+}
+.prose li:not(.entry) {
+  padding-left: 1.1em;
+  position: relative;
+}
+.prose ul > li:not(.entry)::before {
+  content: '·';
+  position: absolute;
+  left: 0.28em;
+  color: var(--rubric);
+}
+.prose ol > li:not(.entry) {
+  counter-increment: pn;
+}
+.prose ol > li:not(.entry)::before {
+  content: counter(pn) '.';
+  position: absolute;
+  left: 0;
+  color: var(--gold-text);
+  font-size: 0.86em;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+/* The 31,035 rubricated entries. Kept pseudo-element-free: this rule renders
+   1,700 times on the busiest clock page. */
+.entry {
+  padding-left: 1.15em;
+  text-indent: -1.15em;
+}
+.entry > .lead {
+  color: var(--rubric);
+  font-weight: 600;
+  letter-spacing: 0.004em;
+}
+.entry > .gloss {
+  color: var(--ink-2);
+  font-weight: 400;
+  font-style: italic;
+}
+.entry .entry,
+.entry li {
+  text-indent: 0;
+}
+
+.prose blockquote {
+  margin: 0 0 1.2em;
+  padding-left: 1rem;
+  border-left: 2px solid var(--rubric-faint);
+  color: var(--ink-2);
+}
+
+/* The opening rubric. In this corpus it is an apparatus note — the cosmic
+   address and the parent — not a dek, so it is set below body size and marked
+   by the vermilion rule rather than by scale. On a phone it can run to sixteen
+   lines and bury the story, so it opens clamped with the rest one tap away. */
+.prose blockquote.lede {
+  margin: 0 0 1.7em;
+  padding: 0 0 0 1.05rem;
+  border-left: 2px solid var(--rubric);
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+  line-height: 1.5;
+}
+.prose blockquote.lede.is-clamped > p:first-of-type {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.prose blockquote.lede.is-clamped > p:first-of-type ~ * {
+  display: none;
+}
+.lede-more {
+  display: block;
+  margin-top: 0.45rem;
+  padding: 0.25rem 0;
+  min-height: 32px;
+  background: none;
+  border: 0;
+  font: inherit;
+  font-size: var(--t-sm);
+  color: var(--link);
+  cursor: pointer;
+  text-align: left;
+}
+.lede-more:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+.prose blockquote.lede p {
+  margin: 0 0 0.4em;
+}
+.prose blockquote.lede p:last-child {
+  margin-bottom: 0;
+}
+.prose blockquote.lede strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.prose hr {
+  border: 0;
+  height: 3px;
+  margin: 2.4rem 0;
+  background:
+    linear-gradient(var(--rule-strong) 0 1px, transparent 1px) top / 100% 1px no-repeat,
+    linear-gradient(var(--rubric) 0 1px, transparent 1px) bottom / 100% 1px no-repeat;
+}
+
+/* -- citations ------------------------------------------------------------ */
+
+.cit {
+  font-style: normal;
+  font-size: 0.86em;
+  color: var(--cite);
+  white-space: normal;
+}
+button.cit,
+.cit[data-cit] {
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 0;
+  font-family: inherit;
+  text-align: left;
+}
+.cit[data-cit]:hover {
+  color: var(--rubric);
+  text-decoration: underline dotted;
+  text-underline-offset: 0.16em;
+}
+
+/* -- reliability tags: text marks, never filled pills --------------------- */
+
+.tag {
+  font-size: 0.78em;
+  letter-spacing: 0.03em;
+  color: var(--tag-fg, var(--ink-2));
+  white-space: nowrap;
+}
+.tag::before {
+  content: '[';
+  opacity: 0.5;
+}
+.tag::after {
+  content: ']';
+  opacity: 0.5;
+}
+.tag:hover {
+  background: var(--tag-bg);
+  border-radius: 2px;
+}
+.tag-note {
+  font-size: 0.78em;
+  font-style: italic;
+  color: var(--ink-2);
+}
+
+/* -- other tellings ------------------------------------------------------- */
+
+.tellings {
+  display: grid;
+  grid-template-rows: auto 0fr;
+  transition: grid-template-rows 240ms var(--ease-out-quint);
+  margin: 0.3rem 0 0.5rem;
+  text-indent: 0;
+}
+.tellings[open] {
+  grid-template-rows: auto 1fr;
+}
+.tellings > summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: 0.86em;
+  color: var(--ink-2);
+  padding: 0.45rem 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  min-height: 40px;
+}
+.tellings > summary::-webkit-details-marker {
+  display: none;
+}
+.tellings > summary::before {
+  content: '▸';
+  font-size: 0.8em;
+  color: var(--rubric);
+  transition: transform 200ms var(--ease-out-quint);
+  display: inline-block;
+}
+.tellings[open] > summary::before {
+  transform: rotate(90deg);
+}
+.tellings > summary:hover {
+  color: var(--link);
+}
+.tellings > *:not(summary) {
+  overflow: hidden;
+  min-height: 0;
+}
+.tellings ul {
+  margin: 0.2rem 0 0;
+  font-size: 0.94em;
+  color: var(--ink-2);
+  border-left: var(--hair) solid var(--rule);
+  padding-left: 0.9rem;
+}
+
+/* -- tables --------------------------------------------------------------- */
+
+.table-scroll {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  margin: 0 0 1.3em;
+  max-inline-size: var(--measure);
+  border-inline: var(--hair) solid transparent;
+}
+.table-scroll[data-overflowing] {
+  border-right-color: var(--rule);
+}
+.prose table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: var(--t-sm);
+  line-height: 1.4;
+}
+.prose caption {
+  caption-side: top;
+  text-align: left;
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+  padding-bottom: 0.35rem;
+}
+.prose th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--rubric);
+  border-bottom: var(--hair) solid var(--rule-strong);
+  padding: 0.4rem 0.75rem 0.4rem 0;
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+.prose td {
+  border-bottom: var(--hair) solid var(--rule);
+  padding: 0.4rem 0.75rem 0.4rem 0;
+  vertical-align: top;
+}
+.prose tr > *:last-child {
+  padding-right: 0;
+}
+
+.prose img {
+  border: var(--hair) solid var(--rule);
+}
+
+.prose code {
+  background: var(--paper-2);
+  padding: 0.05em 0.3em;
+  border-radius: 2px;
+}
+.prose pre {
+  background: var(--paper-2);
+  border-left: 2px solid var(--rule);
+  padding: 0.9rem 1rem;
+  overflow-x: auto;
+  font-size: var(--t-sm);
+  line-height: 1.5;
+  max-inline-size: var(--measure);
+}
+.prose pre code {
+  background: none;
+  padding: 0;
+}
+
+/* -- quoted verse ॥ ------------------------------------------------------- */
+
+.verse {
+  margin: 1.4rem 0;
+  padding-left: 1.05rem;
+  border-left: 2px solid var(--rubric);
+  font-size: var(--t-md);
+}
+.verse::before,
+.verse::after {
+  content: '॥';
+  font-family: var(--face-dv);
+  color: var(--rubric);
+  padding: 0 0.35em;
+}
+
+/* -- the sources block: the one double rule on a content page ------------- */
+
+.sources,
+.rule-double {
+  margin-top: 3rem;
+  padding-top: 1.4rem;
+  position: relative;
+  font-size: var(--t-sm);
+  line-height: 1.55;
+  color: var(--ink-2);
+  max-inline-size: var(--measure);
+}
+.sources::before,
+.rule-double::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  height: 3px;
+  background:
+    linear-gradient(var(--rule-strong) 0 1px, transparent 1px) top / 100% 1px no-repeat,
+    linear-gradient(var(--rubric) 0 1px, transparent 1px) bottom / 100% 1px no-repeat;
+}
+.sources .sources-title {
+  font-size: var(--t-md);
+  color: var(--rubric);
+  margin: 0 0 0.7rem;
+  letter-spacing: 0.02em;
+}
+.sources .sources-title::before {
+  content: none;
+}
+.sources ul,
+.sources ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sources li {
+  padding-left: 1.05em;
+  text-indent: -1.05em;
+  margin: 0.3em 0;
+}
+.sources a {
+  color: var(--ink-2);
+  text-decoration-color: var(--rule-strong);
+}
+.sources a:hover {
+  color: var(--link);
+}
+
+/* --------------------------------------------------- illuminated index ---- */
+
+.index-block {
+  margin-top: 2.6rem;
+}
+.index-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.index-heading::before {
+  flex: 1 0 100%;
+}
+.index-count,
+.related-count {
+  font-size: var(--t-sm);
+  font-weight: 400;
+  color: var(--ink-2);
+}
+
+.index {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.8rem;
+  counter-reset: leaf;
+}
+.index-item {
+  counter-increment: leaf;
+  display: grid;
+  grid-template-columns: 2.35rem minmax(0, 1fr);
+  column-gap: 0.75rem;
+  align-items: baseline;
+  padding: 0.62rem 0;
+  border-bottom: var(--hair) solid var(--rule);
+}
+.index-item::before {
+  content: counter(leaf);
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: end;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--gold);
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: -0.02em;
+}
+.index-item > * {
+  grid-column: 2;
+}
+.index-link {
+  font-size: var(--t-md);
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: none;
+  line-height: 1.25;
+}
+.index-link:hover {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+.index-dek {
+  display: block;
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+  line-height: 1.45;
+  margin-top: 0.18rem;
+  max-inline-size: 34rem;
+}
+.index-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.7rem;
+  margin-top: 0.28rem;
+  color: var(--ink-2);
+  font-size: var(--t-xs);
+  letter-spacing: 0.015em;
+}
+.index-period {
+  color: var(--period-ink);
+}
+ /* The solidus marks an index page inside a mixed list. On a list where
+    everything is a section it says nothing, so it stands down there. */
+.index-item[data-index-kind='group'] .index-link::after {
+  content: '\2009/';
+  color: var(--gold);
+}
+.section-index .index-item[data-index-kind='group'] .index-link::after {
+  content: none;
+}
+
+.index-group {
+  margin: 1.8rem 0;
+}
+.index-group-title {
+  font-size: var(--t-sm);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+  color: var(--ink-2);
+  margin: 0 0 0.4rem;
+  padding-bottom: 0.3rem;
+  border-bottom: var(--hair) solid var(--rule);
+}
+.index-group-title::after {
+  content: '/';
+  color: var(--gold);
+  margin-left: 0.1em;
+}
+
+/* ---------------------------------------------------------- apparatus ----- */
+
+.related {
+  margin-top: 2.6rem;
+  padding-top: 1.1rem;
+  border-top: var(--hair) solid var(--rule);
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+}
+.related-group + .related-group {
+  margin-top: 1.2rem;
+}
+.related-title {
+  font-size: var(--t-sm);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--ink-2);
+  margin: 0 0 0.45rem;
+  display: flex;
+  gap: 0.45rem;
+  align-items: baseline;
+}
+.related-title::before {
+  content: none;
+}
+.related-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /* No pseudo-element separator: a `::before` glued to the front of each
+     item is orphaned at the start of every row a wrap breaks onto, hanging
+     in the margin with nothing before it. The column gap alone reads as a
+     clean break between items and never detaches from either one. */
+  gap: 0.3rem 1.4rem;
+}
+.related-item {
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pager {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap-4);
+  margin-top: 2.2rem;
+  padding-top: 1.1rem;
+  border-top: var(--hair) solid var(--rule);
+  font-size: var(--t-sm);
+}
+/* The pager is apparatus, and its heading spans both columns so the two links
+   read as one filing note rather than as a second "what's next". */
+.pager-head {
+  grid-column: 1 / -1;
+  margin: 0 0 0.2rem;
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3, var(--ink-2));
+}
+.pager-prev,
+.pager-next {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  text-decoration: none;
+  color: var(--ink);
+  min-height: 44px;
+}
+.pager-next {
+  grid-column: 2;
+  text-align: right;
+}
+.pager-label {
+  font-size: var(--t-xs);
+  letter-spacing: 0.08em;
+  color: var(--ink-2);
+}
+.pager-title {
+  color: var(--link);
+  line-height: 1.3;
+}
+.pager a:hover .pager-title {
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+.source-link {
+  margin-top: 1.8rem;
+  /* Chrome text has a 14px floor (`--t-xs` is "micro marks only, never
+     chrome"); this line was set below it. */
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.7rem;
+  align-items: baseline;
+}
+.source-path {
+  /* --rule-strong is a hairline colour (3.35:1 here), not a text colour. */
+  color: var(--ink-2);
+}
+
+/* ------------------------------------------------------- scribal margin --- */
+
+.scribe {
+  display: none;
+}
+@media (min-width: 1100px) {
+  .scribe {
+    display: block;
+    font-size: var(--t-sm);
+    color: var(--ink-2);
+    line-height: 1.45;
+  }
+  .scribe-inner {
+    position: sticky;
+    top: 5.5rem;
+    max-height: calc(100dvh - 8rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding-left: 1.25rem;
+    border-left: var(--hair) solid var(--rule);
+    scrollbar-width: thin;
+  }
+  .scribe-block + .scribe-block {
+    margin-top: 1.4rem;
+  }
+  .scribe-title {
+    font-size: var(--t-xs);
+    font-weight: 600;
+    letter-spacing: 0.09em;
+      color: var(--rubric);
+    margin: 0 0 0.5rem;
+  }
+  .scribe .toc-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .scribe .toc-list li {
+    margin: 0.3rem 0;
+    line-height: 1.35;
+  }
+  .scribe .toc-list ol {
+    list-style: none;
+    padding-left: 0.85rem;
+    margin: 0.2rem 0;
+    border-left: var(--hair) solid var(--rule);
+  }
+  .scribe .toc-list a {
+    color: var(--ink-2);
+    text-decoration: none;
+  }
+  .scribe .toc-list a:hover,
+  .scribe .toc-list a[aria-current='true'] {
+    color: var(--link);
+  }
+  .scribe .toc-list a[aria-current='true'] {
+    color: var(--rubric);
+  }
+  .scribe-address {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: flex-start;
+  }
+  .scribe-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .scribe-links li {
+    margin: 0.25rem 0;
+  }
+  .scribe-links a {
+    color: var(--ink-2);
+    text-decoration: none;
+  }
+  .scribe-links a:hover {
+    color: var(--link);
+  }
+}
+
+/* Inline TOC: no-JS only. The page sheet and the scribal margin carry it
+   otherwise, so the lede reads directly under the title. */
+.toc {
+  margin: 1.2rem 0 0;
+  padding: 0.85rem 1rem;
+  border: var(--hair) solid var(--rule);
+  font-size: var(--t-sm);
+}
+.toc-title {
+  margin: 0 0 0.3rem;
+  font-weight: 600;
+  color: var(--rubric);
+}
+.toc ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.toc ol ol {
+  padding-left: 0.9rem;
+}
+.toc a {
+  color: var(--ink-2);
+  text-decoration: none;
+}
+.js .toc[data-toc-inline] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------------------------------------------------------------- sheets -- */
+
+dialog.sheet {
+  border: 0;
+  padding: 0;
+  margin: auto auto 0;
+  width: 100%;
+  max-width: 100%;
+  max-height: 88dvh;
+  background: var(--paper);
+  color: var(--ink);
+  overflow: hidden;
+  flex-direction: column;
+  border-top: var(--hair) solid var(--rule-strong);
+}
+/* A closed sheet must not take part in layout. `display: flex` on the element
+   itself would beat the UA's `dialog:not([open]) { display: none }` and leave
+   three empty sheets stacked in flow under the footer on every page, so the
+   box only becomes a flex container once it is open. `.is-closing` is applied
+   *while the dialog is still open* (ShellScript calls `close()` only after the
+   170ms slide-out), so the close animation is unaffected. */
+dialog.sheet:not([open]) {
+  display: none;
+}
+dialog.sheet::backdrop {
+  background: var(--shade);
+}
+dialog.sheet[open] {
+  display: flex;
+  animation: sheet-in var(--dur-sheet) var(--ease-out-quint) both;
+}
+dialog.sheet[open]::backdrop {
+  animation: fade-in var(--dur-sheet) ease both;
+}
+dialog.sheet.is-closing {
+  animation: sheet-out 170ms ease-in both;
+}
+dialog.sheet.is-closing::backdrop {
+  animation: fade-out 170ms ease both;
+}
+@keyframes sheet-in {
+  from {
+    transform: translateY(14%);
+    opacity: 0.4;
+  }
+}
+@keyframes sheet-out {
+  to {
+    transform: translateY(14%);
+    opacity: 0;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+.sheet-grip {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0 0.15rem;
+  color: var(--rule-strong);
+  flex: 0 0 auto;
+}
+.sheet-grip svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+.sheet-head {
+  display: flex;
+  align-items: baseline;
+  gap: var(--gap-3);
+  padding: 0.2rem clamp(1rem, 5vw, 1.5rem) 0.6rem;
+  flex: 0 0 auto;
+}
+.sheet-title {
+  font-size: var(--t-md);
+  font-weight: 600;
+  margin: 0;
+  color: var(--rubric);
+  letter-spacing: 0.01em;
+}
+.sheet-close {
+  margin-left: auto;
+  background: none;
+  border: 0;
+  font: inherit;
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+  cursor: pointer;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0 0.3rem;
+}
+.sheet-close:hover {
+  color: var(--rubric);
+}
+.sheet-body {
+  padding: 0 clamp(1rem, 5vw, 1.5rem) calc(1.5rem + env(safe-area-inset-bottom));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  flex: 1 1 auto;
+}
+.sheet-body::before {
+  content: '';
+  display: block;
+  height: 3px;
+  margin-bottom: 1rem;
+  background:
+    linear-gradient(var(--rule-strong) 0 1px, transparent 1px) top / 100% 1px no-repeat,
+    linear-gradient(var(--rubric) 0 1px, transparent 1px) bottom / 100% 1px no-repeat;
+}
+
+dialog.sheet--full {
+  max-height: 100dvh;
+  height: 100dvh;
+  margin: 0;
+}
+
+@media (min-width: 1100px) {
+  dialog.sheet {
+    margin: 4.25rem clamp(1.5rem, 4vw, 3.5rem) auto auto;
+    width: min(28rem, 92vw);
+    max-height: min(78dvh, 44rem);
+    border: var(--hair) solid var(--rule-strong);
+  }
+  /* `:not(.is-closing)` so the closing rule below the media query still wins
+     while the sheet slides out (both selectors are otherwise equal weight and
+     this one comes later in the sheet). */
+  dialog.sheet[open]:not(.is-closing) {
+    animation: pop-in 180ms var(--ease-out-quint) both;
+  }
+  @keyframes pop-in {
+    from {
+      transform: translateY(-8px);
+      opacity: 0;
+    }
+  }
+  .sheet-grip {
+    display: none;
+  }
+  dialog.sheet--full {
+    height: auto;
+    margin: 4.25rem auto auto auto;
+    width: min(42rem, 92vw);
+    max-height: min(80dvh, 48rem);
+  }
+}
+
+/* -- sheet contents ------------------------------------------------------- */
+
+.sheet-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: leaf;
+}
+.sheet-list li {
+  counter-increment: leaf;
+  border-bottom: var(--hair) solid var(--rule);
+}
+.sheet-list li:last-child {
+  border-bottom: 0;
+}
+.sheet-list a {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  column-gap: 0.7rem;
+  align-items: baseline;
+  padding: 0.62rem 0;
+  text-decoration: none;
+  color: var(--ink);
+  min-height: 44px;
+}
+.sheet-list a::before {
+  content: counter(leaf);
+  color: var(--gold);
+  font-size: 1.5rem;
+  line-height: 1;
+  justify-self: end;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.sheet-list .sl-name {
+  font-weight: 600;
+  font-size: var(--t-base);
+  line-height: 1.25;
+}
+.sheet-list .sl-dek {
+  grid-column: 2;
+  display: block;
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+  line-height: 1.4;
+  margin-top: 0.1rem;
+}
+.sheet-list .sl-count {
+  grid-column: 2;
+  display: block;
+  color: var(--ink-2);
+  font-size: var(--t-xs);
+  letter-spacing: 0.02em;
+  margin-top: 0.2rem;
+}
+.sheet-list a:hover .sl-name {
+  color: var(--link);
+}
+
+.sheet-foot {
+  margin-top: 1.4rem;
+  padding-top: 1rem;
+  border-top: var(--hair) solid var(--rule);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-3);
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+}
+.sheet-foot a {
+  color: var(--ink-2);
+}
+.sheet-foot a:hover {
+  color: var(--link);
+}
+
+/* theme control */
+.theme-toggle {
+  display: inline-flex;
+  border: var(--hair) solid var(--rule);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-left: auto;
+}
+.theme-toggle button {
+  font: inherit;
+  font-size: var(--t-sm);
+  letter-spacing: 0.03em;
+  background: none;
+  border: 0;
+  color: var(--ink-2);
+  padding: 0.4rem 0.75rem;
+  min-height: 44px;
+  cursor: pointer;
+}
+.theme-toggle button + button {
+  border-left: var(--hair) solid var(--rule);
+}
+.theme-toggle button[aria-pressed='true'] {
+  background: var(--paper-2);
+  color: var(--rubric);
+}
+
+/* ---------------------------------------------------------------- search -- */
+
+.search-panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-3);
+}
+.search-field {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  border-bottom: var(--hair) solid var(--rule-strong);
+  padding-bottom: 0.35rem;
+}
+.search-field svg {
+  width: 18px;
+  height: 18px;
+  color: var(--ink-2);
+  flex: 0 0 18px;
+}
+.search-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  font: inherit;
+  font-size: var(--t-md);
+  background: none;
+  border: 0;
+  color: var(--ink);
+  padding: 0.4rem 0;
+  min-height: 44px;
+}
+.search-input::placeholder {
+  color: var(--ink-2);
+  opacity: 0.75;
+}
+.search-input:focus {
+  outline: none;
+}
+.search-field:focus-within {
+  border-bottom-color: var(--rubric);
+}
+.search-panel p {
+  margin: 0;
+}
+.search-status {
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+}
+.search-status:empty {
+  display: none;
+}
+.search-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.search-toolbar .pill {
+  font-size: var(--t-xs);
+  padding: 0.1rem 0.6rem;
+}
+.search-results {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.search-group-title {
+  font-size: var(--t-xs);
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  color: var(--rubric);
+  margin: 1.1rem 0 0.3rem;
+  padding-bottom: 0.25rem;
+  border-bottom: var(--hair) solid var(--rule);
+}
+.search-group:first-child .search-group-title {
+  margin-top: 0.2rem;
+}
+.search-result {
+  border-bottom: var(--hair) solid var(--rule);
+}
+.search-result a {
+  display: block;
+  padding: 0.6rem 0;
+  text-decoration: none;
+  color: var(--ink);
+  min-height: 44px;
+}
+.search-result .sr-title {
+  font-weight: 600;
+  font-size: var(--t-base);
+  line-height: 1.25;
+}
+.search-result a:hover .sr-title {
+  color: var(--link);
+}
+.search-result .sr-excerpt {
+  display: block;
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+  line-height: 1.45;
+  margin-top: 0.15rem;
+}
+.search-result mark {
+  background: color-mix(in oklab, var(--gold) 24%, transparent);
+  color: inherit;
+  border-radius: 1px;
+  padding: 0 0.08em;
+}
+.search-result .sr-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.6rem;
+  margin-top: 0.3rem;
+  align-items: center;
+}
+/* The best-match-first (default) list has no group heading to say which
+   section a result is from, so each result carries its own small label. */
+.search-result .sr-section {
+  font-size: var(--t-xs);
+  letter-spacing: 0.04em;
+  color: var(--ink-2);
+}
+.search-hint {
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+}
+kbd {
+  border: var(--hair) solid var(--rule);
+  border-radius: 2px;
+  padding: 0 0.3em;
+  font-size: 0.9em;
+  color: var(--ink-2);
+}
+
+/* ----------------------------------------------------------------- clock -- */
+
+.clock-slot {
+  display: grid;
+  justify-items: center;
+  gap: var(--gap-3);
+  margin: var(--gap-4) 0 var(--gap-5);
+  text-align: center;
+  min-height: 0;
+}
+
+/* Lane I3's island. `size="fill"` means "take the container's width", and an
+   unstyled <astro-island> is an inline box, so it has to be told to be one. */
+.clock-slot > astro-island {
+  display: block;
+  width: 100%;
+  justify-self: stretch;
+}
+.clock-slot .cclock {
+  max-width: min(88vw, 21rem);
+  margin-inline: auto;
+}
+@media (min-width: 700px) {
+  .clock-slot .cclock {
+    max-width: 25rem;
+  }
+}
+body[data-page='clock'] .clock-slot .cclock {
+  max-width: min(92vw, 30rem);
+}
+@media (min-width: 1100px) {
+  body[data-page='clock'] .clock-slot .cclock {
+    max-width: 34rem;
+  }
+}
+.clock-static {
+  width: min(72vw, 17.5rem);
+  max-width: 100%;
+  aspect-ratio: 1;
+  color: var(--rule-strong);
+}
+body[data-page='clock'] .clock-static {
+  width: min(84vw, 23rem);
+}
+.clock-static .cs-ring {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 0.7;
+}
+.clock-static .cs-arc {
+  fill: none;
+  stroke-linecap: butt;
+}
+.clock-static .cs-tick {
+  stroke: currentColor;
+  stroke-width: 0.6;
+}
+.clock-static .cs-needle {
+  stroke: var(--rubric);
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  transform-origin: 100px 100px;
+}
+.clock-static .cs-hub {
+  fill: var(--paper);
+  stroke: var(--rubric);
+  stroke-width: 0.9;
+}
+.clock-static .cs-label {
+  fill: var(--ink-2);
+  font-size: 7px;
+  letter-spacing: 0.12em;
+  text-anchor: middle;
+  font-variant-numeric: lining-nums;
+}
+body:not([data-motion='off']) .clock-static .cs-needle {
+  animation: needle-settle 900ms var(--ease-out-quint) both;
+}
+@keyframes needle-settle {
+  from {
+    transform: rotate(-26deg);
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  to {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .clock-static .cs-needle {
+    animation: none !important;
+  }
+}
+
+.clock-address {
+  font-size: var(--t-sm);
+  line-height: 1.55;
+  color: var(--ink-2);
+  max-inline-size: 30rem;
+  margin: 0;
+  text-wrap: balance;
+}
+.clock-address strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+.clock-address .ca-now {
+  color: var(--period-ink, var(--gold-text));
+}
+.clock-fallback {
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+  margin: 0;
+}
+.js .clock-fallback[hidden] {
+  display: none;
+}
+
+/* -- period leaves (pothi proportion: wide and short) --------------------- */
+
+.leaves {
+  list-style: none;
+  margin: var(--gap-5) 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.6rem;
+}
+.leaf {
+  position: relative;
+  display: block;
+  padding: 0.75rem 0.9rem 0.8rem 1.15rem;
+  border: var(--hair) var(--period-border-style) var(--rule);
+  border-radius: 2px;
+  text-decoration: none;
+  color: inherit;
+  background: var(--period-fill);
+}
+.leaf::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -1px;
+  bottom: -1px;
+  width: 3px;
+  background: var(--period);
+}
+.leaf:hover {
+  border-color: color-mix(in oklab, var(--period) 55%, var(--rule));
+  background: color-mix(in oklab, var(--period) 6%, transparent);
+}
+.leaf-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+.leaf-ordinal {
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--gold);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.leaf-title {
+  font-size: var(--t-md);
+  font-weight: 600;
+  color: var(--period-ink);
+  line-height: 1.2;
+}
+.leaf-count {
+  margin-left: auto;
+  font-size: var(--t-xs);
+  color: var(--ink-2);
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.leaf-intro {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+  line-height: 1.45;
+}
+
+@media (min-width: 760px) {
+  .leaves {
+    gap: 0.7rem;
+  }
+}
+
+/* -- period page --------------------------------------------------------- */
+
+.actor-bar {
+  margin: var(--gap-5) 0 var(--gap-4);
+  padding-top: 1rem;
+  border-top: var(--hair) solid var(--rule);
+}
+.actor-bar-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.2rem 0.7rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.55rem;
+}
+.actor-bar-title {
+  font-size: var(--t-xs);
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  color: var(--rubric);
+  margin: 0;
+}
+.actor-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* two clean rows of 44px chips; the rest behind "Show all thirty" */
+  max-height: 6.1rem;
+  overflow: hidden;
+}
+.actor-chips[data-expanded] {
+  max-height: none;
+}
+.actor-chip {
+  font-size: var(--t-sm);
+  min-height: 44px;
+  padding: 0.12rem 0.6rem;
+  white-space: nowrap;
+}
+.actor-chip .ac-n {
+  color: var(--ink-2);
+  font-size: 0.82em;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.filter-note {
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+  margin: 0.6rem 0 0;
+}
+
+.period-groups {
+  margin-top: var(--gap-5);
+}
+.story-group {
+  border-bottom: var(--hair) solid var(--rule);
+}
+.story-group[hidden] {
+  display: none;
+}
+.story-group > summary {
+  list-style: none;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.62rem 0;
+  min-height: 44px;
+}
+.story-group > summary::-webkit-details-marker {
+  display: none;
+}
+.story-group-title {
+  color: var(--rubric);
+  font-weight: 600;
+  font-size: var(--t-base);
+  line-height: 1.3;
+}
+.story-group[open] .story-group-title {
+  color: var(--ink);
+}
+.story-group-count {
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+}
+.story-group > summary:hover .story-group-title {
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+.story-group-body {
+  padding-bottom: 0.7rem;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.story-group-link {
+  margin: 0 0 0.5rem;
+  font-size: var(--t-sm);
+}
+.event-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: var(--t-sm);
+  line-height: 1.5;
+}
+.event-list > .entry {
+  padding: 0.3rem 0 0.3rem 1.15em;
+  border-top: var(--hair) solid color-mix(in oklab, var(--rule) 45%, transparent);
+}
+.event-list > .entry:first-child {
+  border-top: 0;
+}
+.event-description {
+  color: var(--ink-2);
+}
+.actors {
+  display: inline;
+}
+.actor {
+  font-size: 0.85em;
+  color: var(--ink-2);
+}
+.actor::before {
+  content: ' ·\00a0';
+  color: var(--rule-strong);
+}
+
+/* ------------------------------------------------------------------ tree -- */
+
+.tree-section {
+  border-bottom: var(--hair) solid var(--rule);
+}
+.tree-section > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.65rem 0;
+  min-height: 44px;
+}
+.tree-section > summary::-webkit-details-marker {
+  display: none;
+}
+.tree-section-label {
+  font-weight: 600;
+  color: var(--rubric);
+}
+.tree-count {
+  margin-left: auto;
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+}
+.tree-section-link {
+  margin: 0 0 0.5rem;
+  font-size: var(--t-sm);
+}
+.tree-list {
+  list-style: none;
+  padding-left: 0.9rem;
+  margin: 0.2rem 0 0.8rem;
+  font-size: var(--t-sm);
+  border-left: var(--hair) solid var(--rule);
+}
+.tree-item {
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
+  padding: 0.16rem 0;
+}
+.tree-item-dir {
+  display: block;
+}
+.tree-dirname {
+  color: var(--gold-text);
+  font-size: var(--t-xs);
+  letter-spacing: 0.04em;
+}
+.tree-meta {
+  margin-left: auto;
+  color: var(--rule-strong);
+  font-size: var(--t-xs);
+}
+.tree-item[data-index] > a {
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------- popovers --- */
+
+.peek {
+  position: absolute;
+  min-width: 12rem;
+  z-index: var(--z-pop);
+  max-width: min(22rem, calc(100vw - 2 * var(--margin-x)));
+  background: var(--paper);
+  border: var(--hair) solid var(--rule-strong);
+  border-top: 2px solid var(--rubric);
+  padding: 0.7rem 0.85rem;
+  font-size: var(--t-sm);
+  line-height: 1.45;
+  color: var(--ink);
+}
+.peek[hidden] {
+  display: none;
+}
+.peek-title {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+.peek-dek {
+  color: var(--ink-2);
+  display: block;
+}
+.peek-foot {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  margin-top: 0.5rem;
+  font-size: var(--t-xs);
+}
+.peek-close {
+  margin-left: auto;
+  background: none;
+  border: 0;
+  font: inherit;
+  color: var(--ink-2);
+  cursor: pointer;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* -- the reliability-mark legend ------------------------------------------ */
+
+/* One `?` after the first mark on a page (ShellScript inserts it). Two things
+   it must do: not open a gap in the line, and not read as punctuation — a bare
+   `?` after a tag inside a parenthetical looks like a typo in the sentence. So
+   it is a 14px glyph inside an 18px hairline ring in the interactive indigo,
+   which is unmistakably chrome, and the 44px target is an invisible
+   pseudo-element centred on it rather than a 44px box in the text flow. */
+.tag-legend {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  margin: 0 0.1em 0 0.3em;
+  padding: 0;
+  border: var(--hair) solid currentColor;
+  border-radius: 50%;
+  background: none;
+  font: inherit;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--link);
+  cursor: pointer;
+  vertical-align: -0.22em;
+}
+.tag-legend::before {
+  content: '';
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: 44px;
+  height: 44px;
+  transform: translate(-50%, -50%);
+}
+.tag-legend:hover,
+.tag-legend:focus-visible {
+  color: var(--rubric);
+}
+
+.peek-legend {
+  display: grid;
+  gap: 0.42rem;
+  margin-top: 0.35rem;
+}
+.peek-legend .pl-row {
+  display: grid;
+  grid-template-columns: minmax(5.5rem, auto) 1fr;
+  gap: 0.5rem;
+  align-items: baseline;
+  font-size: var(--t-sm);
+}
+.peek-legend .pl-line {
+  color: var(--ink-2);
+}
+
+/* ------------------------------------------------------------------ home -- */
+
+.home-lead {
+  margin: var(--gap-3) 0 0;
+  font-size: var(--t-md);
+  line-height: 1.5;
+  color: var(--ink-2);
+  max-inline-size: 32rem;
+}
+
+.begin {
+  margin-top: var(--gap-6);
+}
+.begin-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: leaf;
+}
+.begin-item {
+  counter-increment: leaf;
+  border-bottom: var(--hair) solid var(--rule);
+}
+.begin-item a {
+  display: grid;
+  grid-template-columns: 2.35rem minmax(0, 1fr);
+  column-gap: 0.75rem;
+  align-items: baseline;
+  padding: 0.8rem 0;
+  text-decoration: none;
+  color: var(--ink);
+}
+.begin-item a::before {
+  content: counter(leaf, upper-roman);
+  justify-self: end;
+  color: var(--gold);
+  font-size: 1.5rem;
+  line-height: 1;
+  font-variant-numeric: lining-nums;
+}
+.begin-name {
+  font-size: var(--t-md);
+  font-weight: 600;
+  line-height: 1.25;
+}
+.begin-dek {
+  grid-column: 2;
+  display: block;
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+  line-height: 1.45;
+  margin-top: 0.15rem;
+}
+.begin-item a:hover .begin-name {
+  color: var(--link);
+}
+
+.featured {
+  margin-top: var(--gap-6);
+}
+.featured-empty {
+  margin: 0;
+  padding: 1.1rem 0;
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+  display: grid;
+  gap: 0.5rem;
+  justify-items: start;
+}
+
+.two-clocks {
+  margin-top: var(--gap-6);
+  padding-top: 1.4rem;
+  position: relative;
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+  line-height: 1.55;
+  max-inline-size: var(--measure);
+}
+.two-clocks::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  height: 3px;
+  background:
+    linear-gradient(var(--rule-strong) 0 1px, transparent 1px) top / 100% 1px no-repeat,
+    linear-gradient(var(--rubric) 0 1px, transparent 1px) bottom / 100% 1px no-repeat;
+}
+.two-clocks h2 {
+  font-size: var(--t-md);
+  color: var(--rubric);
+  margin: 0 0 0.5rem;
+}
+.two-clocks p {
+  margin: 0 0 0.6em;
+}
+.two-clocks strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.stats-line {
+  margin-top: var(--gap-6);
+  padding-top: 1rem;
+  border-top: var(--hair) solid var(--rule);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.6rem;
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+}
+.stat {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+}
+.stat-figure {
+  color: var(--gold-text);
+  font-size: var(--t-md);
+}
+
+.home-readme {
+  margin-top: var(--gap-5);
+}
+.home-readme > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.7rem 0;
+  color: var(--ink-2);
+  font-size: var(--t-sm);
+  min-height: 44px;
+  border-top: var(--hair) solid var(--rule);
+}
+.home-readme > summary::-webkit-details-marker {
+  display: none;
+}
+.home-readme > summary::before {
+  content: '▸';
+  color: var(--rubric);
+  font-size: 0.85em;
+}
+.home-readme[open] > summary::before {
+  content: '▾';
+}
+
+/* ------------------------------------------------------------------- 404 -- */
+
+.error-page {
+  padding-top: var(--gap-6);
+  text-align: left;
+}
+.empty-roundel {
+  width: 68px;
+  height: 68px;
+  color: var(--rule-strong);
+  margin-bottom: var(--gap-4);
+}
+.empty-roundel svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------------------------------------------------------------- misc ---- */
+
+.u-nowrap {
+  white-space: nowrap;
+}
+
+.notice {
+  margin: var(--gap-4) 0;
+  padding: 0.8rem 1rem;
+  background: var(--paper-2);
+  border-left: 2px solid var(--gold);
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+}
+
+/* Dark-mode lamp: gold breathes on two incommensurate periods. Never text. */
+@media (prefers-reduced-motion: no-preference) {
+  :root[data-theme='dark'] .leaf-ordinal,
+  :root[data-theme='dark'] .index-item::before,
+  :root[data-theme='dark'] .sheet-list a::before,
+  :root[data-theme='dark'] .begin-item a::before {
+    animation: lamp 7.3s ease-in-out infinite;
+  }
+  :root[data-theme='dark'] .clock-static .cs-hub {
+    animation: lamp 11.1s ease-in-out infinite;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) .leaf-ordinal,
+    :root:not([data-theme='light']) .index-item::before,
+    :root:not([data-theme='light']) .sheet-list a::before,
+    :root:not([data-theme='light']) .begin-item a::before {
+      animation: lamp 7.3s ease-in-out infinite;
+    }
+  }
+}
+@keyframes lamp {
+  0%,
+  100% {
+    opacity: 0.97;
+  }
+  50% {
+    opacity: 1;
+  }
+}

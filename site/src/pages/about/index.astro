@@ -1,0 +1,29 @@
+---
+import { getEntry, render } from 'astro:content';
+import Article from '../../layouts/Article.astro';
+import { nodeFor } from '../../lib/graph.ts';
+
+const entry = await getEntry('corpus', 'AGENTS.md');
+if (!entry) throw new Error('AGENTS.md is missing from the corpus collection.');
+const node = nodeFor('AGENTS.md')!;
+const { Content, headings } = await render(entry);
+---
+
+<Article node={node} headings={headings} page="about">
+  <Content />
+
+  {/*
+    Typeface proof strip. Every IAST letter the corpus uses that is at risk of
+    being missing from a webfont subset, plus the three Devanagari conjuncts
+    that break first when a fallback face is doing the shaping. Rendered at
+    14px, the size at which the underdots stop being distinguishable if the
+    wrong face is picked up. Hidden from readers; kept in the DOM so it can be
+    screenshotted at any time to re-verify after a font change.
+  */}
+  <div class="glyph-probe u-visually-hidden" data-glyph-probe data-pagefind-ignore aria-hidden="true">
+    <p lang="sa-Latn">ṇ ṅ ñ ṣ ś Ś ḍ Ḍ ṛ Ṛ ṝ ṭ Ṭ ḷ ḹ ṉ ḻ ṟ ē ō ā ī ū ṁ ṃ ḥ Ā Ī Ū Ṛ Ṣ Ṭ Ḥ Ṃ</p>
+    <p lang="sa-Latn">Kṛṣṇa · Śiva · Viṣṇu · Rāmāyaṇa · Mahābhārata · mokṣa · Ṛgveda · Āḷvār · Tiruvaḷḷuvar</p>
+    <p lang="hi" class="dv">क्ष ज्ञ त्र श्री ॐ ॥ । द्ध ङ्ग ट्ठ ऋ ॠ ऌ</p>
+    <p lang="hi" class="dv">श्रीमद्भागवतम् · महाभारतम् · रामायणम् · मन्वन्तर · कल्प</p>
+  </div>
+</Article>

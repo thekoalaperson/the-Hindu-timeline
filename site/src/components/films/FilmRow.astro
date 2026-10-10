@@ -1,0 +1,60 @@
+---
+/**
+ * FilmRow.astro — one line of an index: poster, both titles, a summary line,
+ * duration, period chip.
+ *
+ * Rows, not cards (DESIGN-BRIEF §7: no card kits). The rule between rows is
+ * the structure. Unreleased films carry `data-upcoming` and read quieter.
+ */
+import '../../styles/films.css';
+import { type Film, cardPoster } from '../../lib/films.ts';
+
+interface Props {
+  film: Film;
+  /** Off inside a period group, where the heading already says the period. */
+  showPeriod?: boolean;
+  showSummary?: boolean;
+}
+
+const { film, showPeriod = false, showSummary = true } = Astro.props;
+/* The first hero still — textless painted artwork. The YouTube thumbnail
+   carries Hinglish overlays and is only ever the film page's video poster. */
+const poster = cardPoster(film);
+---
+
+<li class="film-row" data-upcoming={film.isPublic ? undefined : ''} data-film={film.slug}>
+  <a class="film-row-link" href={film.route} data-period={film.periodSlug ?? undefined}>
+    <span
+      class="film-row-thumb"
+      data-poster={poster?.kind}
+      style={poster?.lqip ? `background-image:url("${poster.lqip}")` : undefined}
+    >
+      {
+        poster && (
+          <img
+            src={poster.src}
+            srcset={poster.srcset ?? undefined}
+            sizes="(min-width: 420px) 7.5rem, 5.75rem"
+            width={poster.width}
+            height={poster.height}
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+        )
+      }
+    </span>
+
+    <span class="film-row-body">
+      {film.title.hi && <span class="film-row-hi dv" lang="hi">{film.title.hi}</span>}
+      <span class="film-row-en">{film.title.en}</span>
+      {showSummary && film.summary && <span class="film-row-sum">{film.summary}</span>}
+      <span class="film-meta">
+        {film.duration && <span class="film-duration">{film.duration}</span>}
+        {!film.isPublic && <span>Not yet released</span>}
+        {showPeriod && <span>{film.periodName}</span>}
+        {film.stills.length > 0 && <span>{film.stills.length} stills</span>}
+      </span>
+    </span>
+  </a>
+</li>

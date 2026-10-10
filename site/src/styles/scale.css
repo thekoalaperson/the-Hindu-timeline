@@ -1,0 +1,359 @@
+/**
+ * scale.css — the nested-scale view, shared by the road's overlay (loaded on
+ * demand by `scale-overlay.ts`) and the static form at `/clock/#scale`.
+ *
+ * The overlay is lit by whichever age the traveller was standing in
+ * (`--sc-accent`, set by road.ts); the static page falls back to its own ink.
+ * The two share every rule below so the same content cannot drift apart.
+ */
+
+.tr-scale-host {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  opacity: 0;
+  transition: opacity 0.22s ease;
+}
+.tr-scale-host.is-open {
+  opacity: 1;
+}
+.tr-scale-host[data-reduced='1'] {
+  transition: none;
+}
+
+.sc-scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(4, 6, 12, 0.78);
+  backdrop-filter: blur(3px);
+}
+
+.sc-sheet {
+  position: absolute;
+  inset: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  padding: max(0.9rem, env(safe-area-inset-top)) 1rem calc(2.6rem + env(safe-area-inset-bottom));
+  background: linear-gradient(180deg, #0a0d18 0%, #070910 60%, #05070c 100%);
+  color: #ece7dc;
+  font-family: var(--sc-font, 'EB Garamond', Georgia, 'Times New Roman', serif);
+}
+.sc-sheet:focus {
+  outline: none;
+}
+/* Wide screens read the bars as one column with air, not as a stretched band. */
+@media (min-width: 760px) {
+  .sc-sheet {
+    padding-inline: max(1.4rem, calc((100% - 46rem) / 2));
+  }
+}
+
+.sc-bar-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid rgba(236, 231, 220, 0.16);
+  margin-bottom: 1rem;
+}
+.sc-bar-top h2 {
+  margin: 0;
+  font-size: 1.45rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.15;
+}
+.sc-bar-top p {
+  margin: 0.28rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: rgba(236, 231, 220, 0.66);
+  max-inline-size: 30rem;
+}
+.sc-close {
+  flex: none;
+  inline-size: 38px;
+  block-size: 38px;
+  border-radius: 50%;
+  border: 1px solid rgba(236, 231, 220, 0.28);
+  background: rgba(255, 255, 255, 0.04);
+  color: inherit;
+  font-size: 0.95rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.sc-close:focus-visible,
+.sc-sheet a:focus-visible,
+.sc-page a:focus-visible {
+  outline: 2px solid var(--sc-accent, #f3b551);
+  outline-offset: 2px;
+}
+
+.sc-levels {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sc-level {
+  padding: 0.85rem 0 1rem;
+  border-bottom: 1px solid rgba(236, 231, 220, 0.09);
+  opacity: 0;
+  transform: translateY(10px);
+  transition:
+    opacity 0.42s ease,
+    transform 0.42s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.sc-level.is-in {
+  opacity: 1;
+  transform: none;
+}
+/* Reduced motion, and the static page: everything is simply there. */
+.tr-scale-host[data-reduced='1'] .sc-level,
+.sc-page .sc-level {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .sc-level {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+.sc-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+.sc-head h3 {
+  margin: 0;
+  font-size: 1.02rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+.sc-head h3 .dv {
+  font-size: 0.9em;
+  color: rgba(236, 231, 220, 0.6);
+  margin-inline-start: 0.35em;
+}
+.sc-years {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  font-variant-numeric: tabular-nums;
+  color: var(--sc-accent, #f3b551);
+  white-space: nowrap;
+}
+
+/* ------------------------------------------------------------------ bars - */
+
+.sc-bar {
+  position: relative;
+  block-size: 30px;
+  margin: 0.55rem 0 0.45rem;
+  border: 1px solid rgba(236, 231, 220, 0.3);
+  border-radius: 3px;
+  background:
+    repeating-linear-gradient(
+      90deg,
+      rgba(236, 231, 220, 0.07) 0 1px,
+      transparent 1px 10%
+    ),
+    rgba(255, 255, 255, 0.035);
+  overflow: hidden;
+}
+
+/* The previous level, sitting inside this one where it actually falls. */
+.sc-sliver {
+  position: absolute;
+  inset-block: 0;
+  min-inline-size: 1.5px;
+  transform: translateX(-50%);
+  background: rgba(236, 231, 220, 0.9);
+}
+.sc-sliver i {
+  display: block;
+  block-size: 100%;
+  background: var(--sc-accent, #f3b551);
+  opacity: 0.9;
+}
+
+/* "You are here" — the one mark on every bar. */
+.sc-here {
+  position: absolute;
+  inset-block: 0;
+  inline-size: 0;
+}
+.sc-here i {
+  position: absolute;
+  inset-block: -3px;
+  inline-size: 2px;
+  margin-inline-start: -1px;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.75);
+}
+.sc-here em {
+  position: absolute;
+  inset-block-start: calc(100% + 3px);
+  inset-inline-start: 0;
+  transform: translateX(-50%);
+  font-style: normal;
+  font-size: 0.62rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  white-space: nowrap;
+}
+/* At the extremes the caption would run off the bar; pin it inside. */
+.sc-level:first-child .sc-here em {
+  transform: translateX(-50%);
+}
+
+.sc-inner-note {
+  margin: 1.15rem 0 0;
+  font-size: 0.76rem;
+  line-height: 1.45;
+  color: rgba(236, 231, 220, 0.72);
+}
+.sc-inner-note b {
+  font-weight: 400;
+  color: var(--sc-accent, #f3b551);
+}
+.sc-line {
+  margin: 0.4rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: rgba(236, 231, 220, 0.92);
+  max-inline-size: 34rem;
+}
+/* ------------------------------------------------------ the analogy ----- */
+/**
+ * The one line per bar that a body can feel: the whole ladder laid on a single
+ * calendar year. It is computed in `scale-data.ts` from the same cited figure
+ * the bar is drawn from, and the division itself is printed at the foot.
+ */
+.sc-analogy {
+  margin: 0.42rem 0 0;
+  padding-left: 0.72rem;
+  border-left: 2px solid color-mix(in srgb, var(--sc-accent, #f3b551) 55%, transparent);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: rgba(236, 231, 220, 0.82);
+  max-inline-size: 34rem;
+}
+.sc-analogy-now {
+  margin-top: 1.3rem;
+  font-size: 0.95rem;
+  color: rgba(236, 231, 220, 0.94);
+}
+.sc-foot-sum {
+  margin: 0.55rem 0 0;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: rgba(236, 231, 220, 0.5);
+  max-inline-size: 34rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.sc-cite {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin: 0.45rem 0 0;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+}
+.sc-cite span {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(236, 231, 220, 0.55);
+}
+.sc-cite a,
+.sc-coda a {
+  color: rgba(236, 231, 220, 0.62);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: rgba(236, 231, 220, 0.28);
+  overflow-wrap: anywhere;
+}
+.sc-cite a:hover,
+.sc-coda a:hover {
+  color: var(--sc-accent, #f3b551);
+}
+
+.sc-coda {
+  margin: 1.2rem 0 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: rgba(236, 231, 220, 0.86);
+  max-inline-size: 34rem;
+}
+.sc-foot {
+  margin: 1rem 0 0;
+  font-size: 0.82rem;
+}
+.sc-foot a {
+  color: var(--sc-accent, #f3b551);
+  text-decoration: none;
+}
+.sc-foot a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------- the static form, /clock/ */
+/**
+ * `/clock/#scale` renders the same six levels inside the ordinary page shell,
+ * so it inherits that page's colours rather than the overlay's night.
+ */
+.sc-page {
+  margin: var(--gap-6, 2rem) 0 0;
+  --sc-accent: var(--rubric, #8a6a2f);
+}
+.sc-page .sc-level {
+  border-bottom: 1px solid var(--rule, rgba(0, 0, 0, 0.12));
+}
+.sc-page .sc-bar {
+  border-color: var(--rule-strong, rgba(0, 0, 0, 0.3));
+  background:
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.06) 0 1px, transparent 1px 10%),
+    rgba(0, 0, 0, 0.03);
+}
+.sc-page .sc-sliver {
+  background: var(--ink, #1a1a1a);
+}
+.sc-page .sc-here i {
+  background: var(--ink, #1a1a1a);
+  box-shadow: none;
+}
+.sc-page .sc-here em,
+.sc-page .sc-cite span,
+.sc-page .sc-inner-note {
+  color: var(--ink-2, #55514a);
+}
+.sc-page .sc-line,
+.sc-page .sc-coda {
+  color: var(--ink, #1a1a1a);
+}
+.sc-page .sc-analogy {
+  color: var(--ink, #1a1a1a);
+  border-left-color: color-mix(in srgb, var(--ink-2, #55514a) 45%, transparent);
+}
+.sc-page .sc-foot-sum {
+  color: var(--ink-2, #55514a);
+}
+.sc-page .sc-cite a,
+.sc-page .sc-coda a {
+  color: var(--ink-2, #55514a);
+}
+.sc-page .sc-head h3 .dv {
+  color: var(--ink-2, #55514a);
+}

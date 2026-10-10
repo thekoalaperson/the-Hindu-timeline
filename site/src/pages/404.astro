@@ -1,0 +1,69 @@
+---
+import Icon from '../components/Icon.astro';
+import PageArt from '../components/PageArt.astro';
+import { rootPlate } from '../components/art.ts';
+import Base from '../layouts/Base.astro';
+import { sections } from '../lib/graph.ts';
+const missingPlate = rootPlate();
+
+---
+
+<Base title="Not in the manuscript" page="404">
+  <div class="page error-page" data-pagefind-ignore>
+    {
+      missingPlate ? (
+        <PageArt art={missingPlate} title="This page is not in the manuscript" kicker="Nothing on this leaf" />
+      ) : (
+        <Fragment>
+          <p class="empty-roundel" aria-hidden="true">
+            <Icon name="roundel" size={68} />
+          </p>
+          <h1 class="page-title">This page is not in the manuscript</h1>
+        </Fragment>
+      )
+    }
+    <p class="page-dek">
+      The leaf you asked for has no text on it. Search for what you were after, or start from a section.
+    </p>
+
+    <p class="error-actions">
+      <a class="pill" href="/search/" data-sheet="sheet-search" aria-haspopup="dialog">Search the manuscript</a>
+      <a class="pill" href="/clock/">Open the cosmic clock</a>
+    </p>
+
+    <section aria-labelledby="err-sections">
+      <h2 class="home-heading" id="err-sections">The sections</h2>
+      <ol class="index section-index">
+        {
+          sections.map((s) => (
+            <li class="index-item" data-index-kind="group">
+              <a class="index-link" href={s.route}>
+                {s.label}
+              </a>
+              <span class="index-meta">
+                <span class="index-length">{s.count.toLocaleString('en')} pages</span>
+              </span>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .error-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-2);
+    margin: var(--gap-5) 0 var(--gap-6);
+  }
+  .error-actions .pill {
+    min-height: 44px;
+    padding: 0.4rem 0.9rem;
+    color: var(--link);
+  }
+  .empty-roundel {
+    margin: 0 0 var(--gap-4);
+  }
+</style>

@@ -1,0 +1,165 @@
+---
+/**
+ * ChapterBand.astro — one chapter of an age, on the age's own page.
+ *
+ * This is the band that replaces the alphabetical dump (BRIEF v4 §2, §4 W3c):
+ * a picture with the chapter's number, title and one plain sentence on it, and
+ * underneath, its stories as cards in the order the corpus's chronological
+ * spine gives them — then, folded, whatever else of the age belongs here by
+ * the chapter's `covers` prefixes.
+ *
+ * The picture, in order: the chapter's own plate as `scripts/media.mjs` built
+ * it (`art: {film, still}` or `art: {studio}`, W4), the first still of the
+ * chapter's hero film, then — for the twenty-nine chapters that genuinely
+ * cannot have a picture — its **carved glyph** over the age's colour. The
+ * age's plate is no longer borrowed: a band showing a different chapter's
+ * scene was the "wrong picture" problem, and a made mark beats a borrowed one.
+ */
+import type { PageArt } from './art.ts';
+import StoryCard from './StoryCard.astro';
+import type { Chapter } from '../lib/chapters.ts';
+import { chapterFilm, chapterPlate } from '../lib/chapters.ts';
+import { filmsForRoute } from '../lib/films.ts';
+
+interface RestGroup {
+  route: string | null;
+  title: string;
+  count: number;
+}
+
+interface Props {
+  chapter: Chapter;
+  /** The age's plate, used when the chapter names no still of its own. */
+  fallbackArt?: PageArt | null;
+  /** Event-groups of the age that this chapter's `covers` swept up. */
+  rest?: RestGroup[];
+  period?: string | null;
+}
+
+const { chapter, fallbackArt = null, rest = [], period = null } = Astro.props;
+
+/* The chapter's own plate, resolved through the media manifest so the band and
+   the road landmark (lane L1) can never disagree about which frame stands for
+   a chapter. Then its hero film's first still. Then the glyph. */
+const plate = chapterPlate(chapter);
+const film = plate ? null : chapterFilm(chapter);
+const stillIndex = typeof chapter.art?.still === 'number' ? chapter.art.still : 0;
+const still = film ? (film.stills[stillIndex] ?? film.stills[0] ?? null) : null;
+
+const art = plate
+  ? { src: plate.src, srcset: plate.srcset, width: plate.width, height: plate.height }
+  : still
+    ? {
+        src: still.sizes[800],
+        srcset: `${still.sizes[400]} 400w, ${still.sizes[800]} 800w, ${still.sizes[1600]} 1600w`,
+        width: still.width,
+        height: still.height,
+      }
+    : null;
+
+/* A chapter with no picture wears its carved emblem, not another chapter's
+   scene: `fallbackArt` (the age's plate) is now only the last resort for a
+   chapter that has neither. */
+const glyph = art ? null : chapter.glyph;
+const fallback =
+  art || glyph
+    ? null
+    : fallbackArt
+      ? {
+          src: fallbackArt.src,
+          srcset: fallbackArt.srcset,
+          width: fallbackArt.width,
+          height: fallbackArt.height,
+        }
+      : null;
+const shown = art ?? fallback;
+const source = art ? (plate ? 'chapter' : 'film') : glyph ? 'glyph' : shown ? 'plate' : 'none';
+
+const restShown = rest.slice(0, 40);
+
+/* Three story cards under "Gaṅgā comes down to earth" — Gaṅgā, Dilīpa and
+   Nandinī, Sagara — all belong to the same film, so all three wore its first
+   still and three distinct named entries looked like one entry printed three
+   times. Each repeat now asks for the next frame of that film instead. The
+   rank is the story's position among its own film's cards, so the first card
+   of every film keeps the frame it has always had. */
+const filmSeen = new Map<string, number>();
+const filmRank = new Map<string, number>();
+for (const route of chapter.stories) {
+  const slug = filmsForRoute(route)[0]?.slug;
+  if (!slug) continue;
+  const n = filmSeen.get(slug) ?? 0;
+  filmRank.set(route, n);
+  filmSeen.set(slug, n + 1);
+}
+const sameFilmRank = (route: string) => filmRank.get(route) ?? 0;
+---
+
+<section class="chapter" id={chapter.id} data-chapter={chapter.id} data-period={period ?? undefined}>
+  <div class="chapter-band" data-art-source={source}>
+    {
+      shown && (
+        <span class="chapter-band-art" aria-hidden="true">
+          <img
+            src={shown.src}
+            srcset={shown.srcset ?? undefined}
+            sizes="(min-width: 720px) 700px, 100vw"
+            width={shown.width}
+            height={shown.height}
+            alt=""
+            loading="lazy"
+            decoding="async"
+          />
+        </span>
+      )
+    }
+    {
+      glyph && (
+        <span class="chapter-band-glyph" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="46" height="46" focusable="false">
+            <use href={`#gl-${glyph}`} />
+          </svg>
+        </span>
+      )
+    }
+    <span class="chapter-band-veil" aria-hidden="true"></span>
+    <div class="chapter-band-copy">
+      <p class="chapter-n">Chapter {chapter.index}</p>
+      <h2 class="chapter-title">
+        {chapter.title}
+        {chapter.hi && <span class="chapter-hi dv" lang="hi"> · {chapter.hi}</span>}
+      </h2>
+      {chapter.dates && <p class="chapter-dates">{chapter.dates}</p>}
+    </div>
+  </div>
+
+  {chapter.line && <p class="chapter-line">{chapter.line}</p>}
+
+  {
+    chapter.stories.length > 0 && (
+      <ul class="chapter-cards">
+        {chapter.stories.map((route) => (
+          <StoryCard route={route} still={sameFilmRank(route)} />
+        ))}
+      </ul>
+    )
+  }
+
+  {
+    restShown.length > 0 && (
+      <details class="chapter-rest">
+        <summary>
+          <span class="disclosure-mark" aria-hidden="true">
+            ▸
+          </span>
+          More in this chapter ({restShown.length})
+        </summary>
+        <ul class="chapter-cards">
+          {restShown.map((g) =>
+            g.route ? <StoryCard route={g.route} lede={false} title={g.title} /> : null,
+          )}
+        </ul>
+      </details>
+    )
+  }
+</section>

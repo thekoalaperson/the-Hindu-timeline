@@ -1,0 +1,437 @@
+/*
+ * art.css — the picture layer.
+ *
+ * EXPERIENCE-BRIEF v3 §2: "art on every page — the art IS the brand". Three
+ * things live here:
+ *
+ *   1. `.page-art` — the full-bleed band a page opens with, in its two
+ *      registers (`[data-art='hero']` = this page's own film; `[data-art
+ *      ='plate']` = a borrowed still standing for its age or its section).
+ *      The H1 sits *on* it, in ivory.
+ *   2. the illustrated index — a 400-tier thumbnail on every list row that
+ *      has a film, so a section index reads as a gallery, not a directory.
+ *   3. the film page's own full-bleed opener.
+ *
+ * Everything is CSS over the existing image tiers: no new renders, no
+ * pipeline change. `filter`, gradients and one transform-only Ken Burns.
+ */
+
+/* ------------------------------------------------------------- the band -- */
+
+/* Ivory that does not follow the theme: this text always sits on a darkened
+   painting, in both light and dark. */
+.page-art {
+  --art-ink: #f8f2e2;
+  --art-ink-2: rgba(248, 242, 226, 0.76);
+  --art-gold: #d9ab55;
+
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  align-content: end;
+  overflow: clip;
+  margin: 0 0 var(--gap-5);
+  background: #0e1116;
+  color: var(--art-ink);
+}
+
+/* The band is the first thing under the header, so the well's own top padding
+   would leave a strip of bare paper above the picture. */
+.site-main:has(.page-art) {
+  padding-top: 0;
+}
+
+/* Full bleed to the viewport edge on phones and tablets: the well is centred
+   there, so `50% - 50vw` lands exactly on the edge. Above 1100px the body
+   column is left-aligned inside a grid, where that maths no longer holds, so
+   the band fills its column instead. */
+@media (max-width: 1099px) {
+  .page-art {
+    margin-inline: calc(50% - 50vw);
+    width: 100vw;
+    max-width: 100vw;
+  }
+}
+
+.page-art[data-art='hero'] {
+  height: clamp(19rem, 52svh, 26rem);
+}
+.page-art[data-art='plate'] {
+  height: clamp(15rem, 40svh, 21rem);
+}
+@media (min-width: 700px) {
+  .page-art[data-art='hero'] {
+    height: clamp(23rem, 56svh, 34rem);
+  }
+  .page-art[data-art='plate'] {
+    height: clamp(17rem, 42svh, 25rem);
+  }
+}
+
+.art-frame {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-size: cover;
+  background-position: center;
+  overflow: clip;
+}
+
+.art-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 42%;
+}
+
+/* A plate is atmosphere, not illustration: blurred past the point where its
+   own subject can be read, and scaled past the frame so the blur has no soft
+   edge to show. 3px was not enough — a lion-man's face and Trivikrama's
+   raised leg both survived it, so the picture still argued it was about this
+   page. Now that the plate carries no caption either, the blur is the whole
+   statement, and it has to carry it. */
+.page-art[data-art='plate'] .art-img {
+  filter: blur(7px) saturate(0.74) contrast(1.02);
+  transform: scale(1.13);
+}
+
+/* ------------------------------------------------------------- the veil -- */
+
+.art-veil {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.page-art[data-art='hero'] .art-veil {
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 12, 17, 0.26) 0%,
+    rgba(10, 12, 17, 0.12) 30%,
+    rgba(10, 12, 17, 0.55) 66%,
+    rgba(10, 12, 17, 0.86) 100%
+  );
+}
+
+/* The plate carries the page's period hue as a wash under the darkening, so
+   an age has a colour before it has a word. */
+.page-art[data-art='plate'] .art-veil {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(10, 12, 17, 0.3) 0%,
+      rgba(10, 12, 17, 0.4) 42%,
+      rgba(10, 12, 17, 0.82) 100%
+    ),
+    color-mix(in oklab, var(--period, #5b4f3f) 38%, transparent);
+}
+
+/* The band ends on the manuscript's own double rule rather than dissolving
+   into the paper: a gradient from a dark painting to ivory paper reads as fog
+   at phone scale, where a ruled edge reads as a decision. (`.prose hr` uses
+   the same two lines.) */
+.page-art::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  z-index: 3;
+  pointer-events: none;
+  background:
+    linear-gradient(var(--gold) 0 1px, transparent 1px) top / 100% 1px no-repeat,
+    linear-gradient(var(--rule-strong) 0 1px, transparent 1px) bottom / 100% 1px no-repeat;
+}
+
+/* ------------------------------------------------------------- the copy -- */
+
+.art-copy {
+  position: relative;
+  z-index: 2;
+  align-self: end;
+  justify-self: start;
+  width: 100%;
+  max-inline-size: var(--measure);
+  padding: 0 clamp(1rem, 5vw, 2rem) 2.6rem;
+}
+@media (min-width: 1100px) {
+  .art-copy {
+    padding-inline: clamp(1.5rem, 3vw, 2.5rem);
+  }
+}
+
+.art-kicker {
+  margin: 0 0 0.3rem;
+  font-size: var(--t-sm);
+  letter-spacing: 0.05em;
+  color: var(--art-ink-2);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+.art-kicker.dv {
+  font-size: var(--t-md);
+  letter-spacing: 0;
+}
+
+.page-art .art-title {
+  margin: 0;
+  color: var(--art-ink);
+  text-shadow: 0 2px 22px rgba(0, 0, 0, 0.62);
+}
+.page-art .art-title::after {
+  background: var(--art-gold);
+  margin-top: 0.5rem;
+  max-inline-size: 8rem;
+}
+.page-art .art-subtitle {
+  margin: 0.45rem 0 0;
+  color: var(--art-ink-2);
+  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.55);
+}
+
+/* -- the play affordance, inside the picture ------------------------------ */
+
+.art-play {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  min-height: 44px;
+  padding: 0.3rem 1rem 0.3rem 0.35rem;
+  border: var(--hair) solid rgba(248, 242, 226, 0.42);
+  border-radius: 999px;
+  background: rgba(10, 12, 17, 0.42);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  color: var(--art-ink);
+  text-decoration: none;
+  font-size: var(--t-sm);
+  letter-spacing: 0.015em;
+  transition:
+    background 160ms var(--ease-out-quint),
+    border-color 160ms var(--ease-out-quint);
+}
+.art-play:hover,
+.art-play:focus-visible {
+  background: rgba(10, 12, 17, 0.66);
+  border-color: var(--art-gold);
+}
+.art-play-mark {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+}
+.art-play-mark svg {
+  width: 100%;
+  height: 100%;
+  fill: none;
+}
+.art-play-mark circle {
+  stroke: rgba(248, 242, 226, 0.8);
+  stroke-width: 1.6;
+}
+.art-play-mark path {
+  fill: var(--art-ink);
+}
+.art-play:hover .art-play-mark circle {
+  stroke: var(--art-gold);
+}
+.art-play-dur {
+  color: var(--art-ink-2);
+}
+.art-play-dur::before {
+  content: '·\00a0';
+  margin-left: 0.4em;
+}
+
+/* -- the credit: only ever the page's own film ---------------------------- */
+
+.art-credit {
+  position: absolute;
+  z-index: 4;
+  right: clamp(0.75rem, 4vw, 1.5rem);
+  top: 0.7rem;
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  max-inline-size: 62vw;
+  font-size: var(--t-xs);
+  letter-spacing: 0.02em;
+  color: rgba(248, 242, 226, 0.5);
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+}
+/* It is a picture credit, not a headline: say so. */
+.art-credit-label {
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.72;
+}
+.art-credit a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: var(--hair) solid rgba(248, 242, 226, 0.24);
+  padding-bottom: 1px;
+}
+.art-credit a:hover {
+  color: var(--art-ink);
+  border-bottom-color: var(--art-gold);
+}
+
+/* -- motion --------------------------------------------------------------- */
+
+/* Transform only, so it composites; the picture is already scaled past the
+   frame, so nothing ever exposes an edge. */
+@keyframes art-ken-burns {
+  from {
+    transform: scale(1.02) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.13) translate3d(-1.6%, -2.2%, 0);
+  }
+}
+@keyframes art-ken-burns-plate {
+  from {
+    transform: scale(1.09) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.17) translate3d(1.4%, -1.6%, 0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .page-art[data-art='hero'] .art-img {
+    animation: art-ken-burns 34s ease-in-out infinite alternate;
+  }
+  .page-art[data-art='plate'] .art-img {
+    animation: art-ken-burns-plate 52s ease-in-out infinite alternate;
+  }
+}
+
+/* --------------------------------------------------- the illustrated index */
+
+/* A section index is a gallery: every row that has a film shows it. The
+   thumbnail is a grid item in the row's first column, under the folio number,
+   so nothing else about `.index-item` has to move. */
+.index-item {
+  grid-template-columns: 3.6rem minmax(0, 1fr);
+}
+.index-item::before {
+  align-self: start;
+}
+.index-item > .index-thumb {
+  grid-column: 1;
+  grid-row: 1 / span 4;
+  align-self: start;
+  justify-self: end;
+  display: block;
+  width: 3.6rem;
+  aspect-ratio: 4 / 3;
+  margin-top: 0.3rem;
+  overflow: clip;
+  border: var(--hair) solid var(--rule);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.index-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* The play mark is what makes the thumbnail read as a film rather than a
+   decoration. */
+.index-thumb::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  transform: translate(-38%, -50%);
+  border-left: 9px solid rgba(248, 242, 226, 0.92);
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.65));
+}
+.index-item:has(.index-thumb)::before {
+  /* The folio number would collide with the picture; it steps aside and the
+     picture becomes the row's mark. */
+  display: none;
+}
+.index-item:hover .index-thumb {
+  border-color: var(--period, var(--rubric));
+}
+
+/* On a phone the thumbnails are the point, so they get a little more room. */
+@media (min-width: 430px) {
+  .index-item {
+    grid-template-columns: 4.6rem minmax(0, 1fr);
+  }
+  .index-thumb {
+    width: 4.6rem;
+  }
+}
+
+/* "Film" earns its place ahead of the reading time: it is the reason to tap. */
+.index-film {
+  color: var(--rubric);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* The period chip on an index row, so a list carries its colours. */
+.index-period::before {
+  content: '';
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.3rem;
+  border-radius: 50%;
+  background: var(--period);
+  vertical-align: baseline;
+}
+
+/* ----------------------------------------------------- the film page hero */
+
+/* The film page keeps its own H1 and player; only the opener changes — the
+   picture now runs edge to edge behind the title. */
+.film-page .page-art[data-art='hero'] {
+  height: clamp(14rem, 34svh, 20rem);
+}
+.film-page .page-art .art-copy {
+  padding-bottom: 1.9rem;
+}
+.film-page .film-title {
+  margin-top: 0;
+}
+
+/* ------------------------------------------------------------------ print */
+
+@media print {
+  .page-art {
+    height: auto;
+    max-height: 8cm;
+    margin-inline: 0;
+    width: auto;
+  }
+  .art-veil,
+  .art-play,
+  .page-art::after {
+    display: none;
+  }
+  .page-art .art-title,
+  .page-art .art-subtitle,
+  .art-kicker {
+    color: #000;
+    text-shadow: none;
+  }
+  .art-copy {
+    position: static;
+  }
+}

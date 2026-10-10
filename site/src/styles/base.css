@@ -1,0 +1,20 @@
+/*
+ * base.css — the entry point Base.astro imports. Order matters:
+ * tokens → typography → layout → components → print.
+ *
+ * Design system owner: lane I2. The class names come from I1's DOM contract
+ * (artifacts/I1-report.md §9) and are never renamed here.
+ */
+@import './tokens.css';
+@import './typography.css';
+@import './layout.css';
+@import './components.css';
+/* The picture layer and the reading mode come after components: both are
+   deliberate overrides of it (the H1 on art, the quieted apparatus). */
+@import './art.css';
+@import './plain.css';
+/* The navigation-for-people layer (L2): the Stories hub, the chapter bands on
+   a period page, story mode and the return hooks. After plain.css because
+   story mode changes what plain mode does to the reading type. */
+@import './journey.css';
+@import './print.css';

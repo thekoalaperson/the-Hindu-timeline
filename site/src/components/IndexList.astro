@@ -1,0 +1,130 @@
+---
+/**
+ * The generated section/subsection index: the children of a README node,
+ * in that README's own link order, with sub-directories nested.
+ *
+ * INT2: every row that has a film now shows it — the 400 tier, a play mark,
+ * and the period chip — so a section index reads as an illustrated gallery
+ * rather than a directory listing (EXPERIENCE-BRIEF v3 §6). Rows without a
+ * film keep the folio number they always had; the two mark the row in the
+ * same column, so the list stays one straight edge.
+ */
+import { cardPoster, filmsForRoute } from '../lib/films.ts';
+import type { GraphNode } from '../lib/graph.ts';
+import { groupedChildren, periodLabel } from '../lib/graph.ts';
+
+interface Props {
+  node: GraphNode;
+}
+const { node } = Astro.props;
+const { top, groups } = groupedChildren(node);
+
+/** The row's picture: its own film's first still, at the list tier. */
+function thumbFor(child: GraphNode) {
+  const film = child.isIndex ? undefined : filmsForRoute(child.route)[0];
+  if (!film) return null;
+  const poster = cardPoster(film);
+  if (!poster) return null;
+  return { poster, film };
+}
+---
+
+{
+  (top.length > 0 || groups.length > 0) && (
+    <section class="index-block" aria-labelledby="index-heading">
+      <h2 class="index-heading" id="index-heading">
+        In this section
+        <span class="index-count">{top.length + groups.reduce((a, g) => a + g.items.length, 0)}</span>
+      </h2>
+
+      <ul class="index">
+        {top.map((child) => {
+          const t = thumbFor(child);
+          return (
+            <li class="index-item" data-index-kind={child.isIndex ? 'group' : 'leaf'} data-period={child.cosmicAddress ?? undefined}>
+              {t && (
+                <span
+                  class="index-thumb"
+                  aria-hidden="true"
+                  style={t.poster.lqip ? `background-image:url("${t.poster.lqip}")` : undefined}
+                >
+                  <img
+                    src={t.poster.src}
+                    srcset={t.poster.srcset ?? undefined}
+                    sizes="4.6rem"
+                    width={t.poster.width}
+                    height={t.poster.height}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </span>
+              )}
+              <a class="index-link" href={child.route}>
+                {child.title}
+              </a>
+              {child.dek && <span class="index-dek">{child.dek}</span>}
+              <span class="index-meta">
+                {t && <span class="index-film">Film</span>}
+                <span class="index-length">{child.readingMinutes} min</span>
+                {child.eventCount > 0 && <span class="index-events">{child.eventCount} events</span>}
+                {child.cosmicAddress && (
+                  <span class="index-period" data-period={child.cosmicAddress}>
+                    {periodLabel(child.cosmicAddress)}
+                  </span>
+                )}
+              </span>
+            </li>
+          );
+        })}
+      </ul>
+
+      {groups.map((group) => (
+        <div class="index-group" data-group={group.name}>
+          <h3 class="index-group-title">{group.name}</h3>
+          <ul class="index">
+            {group.items.map((child) => {
+              const t = thumbFor(child);
+              return (
+                <li class="index-item" data-index-kind="leaf" data-period={child.cosmicAddress ?? undefined}>
+                  {t && (
+                    <span
+                      class="index-thumb"
+                      aria-hidden="true"
+                      style={t.poster.lqip ? `background-image:url("${t.poster.lqip}")` : undefined}
+                    >
+                      <img
+                        src={t.poster.src}
+                        srcset={t.poster.srcset ?? undefined}
+                        sizes="4.6rem"
+                        width={t.poster.width}
+                        height={t.poster.height}
+                        alt=""
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </span>
+                  )}
+                  <a class="index-link" href={child.route}>
+                    {child.title}
+                  </a>
+                  {child.dek && <span class="index-dek">{child.dek}</span>}
+                  <span class="index-meta">
+                    {t && <span class="index-film">Film</span>}
+                    <span class="index-length">{child.readingMinutes} min</span>
+                    {child.eventCount > 0 && <span class="index-events">{child.eventCount} events</span>}
+                    {child.cosmicAddress && (
+                      <span class="index-period" data-period={child.cosmicAddress}>
+                        {periodLabel(child.cosmicAddress)}
+                      </span>
+                    )}
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      ))}
+    </section>
+  )
+}

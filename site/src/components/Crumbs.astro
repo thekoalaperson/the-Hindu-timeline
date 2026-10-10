@@ -1,0 +1,55 @@
+---
+/**
+ * Middle-truncating breadcrumb. The section (root) and the current page are
+ * always visible; everything between them folds behind a `…` that expands in
+ * place. Below 1100px the fold is on by default; above it, everything shows.
+ * The markup carries all segments, so no-JS and search engines see the trail.
+ */
+import type { Crumb } from '../lib/graph.ts';
+import Plain from './Plain.astro';
+import { splitTitle } from '../lib/routes.ts';
+
+interface Props {
+  crumbs: Crumb[];
+  current: string;
+}
+const { crumbs, current } = Astro.props;
+const [root, ...middle] = crumbs;
+const foldable = middle.length > 0;
+/* Corpus titles are often `Head — Subtitle` (e.g. "Hanuman — Vanara Devotee,
+   Chiranjivi, Rudravatara"). The full string was wrapping to three lines on
+   narrow screens; the breadcrumb only needs the head, so drop the subtitle
+   here and keep the full title as a hover/attribute-only fallback. */
+const [currentHead] = splitTitle(current);
+---
+
+<nav class="crumbs" aria-label="Breadcrumb" data-foldable={foldable ? '' : undefined}>
+  <ol>
+    {
+      root && (
+        <li class="crumb crumb-root">
+          <a href={root.route}><Plain text={root.title} /></a>
+        </li>
+      )
+    }
+    {
+      foldable && (
+        <li class="crumb crumb-fold">
+          <button type="button" aria-label="Show the rest of the trail" aria-expanded="false">
+            …
+          </button>
+        </li>
+      )
+    }
+    {
+      middle.map((c) => (
+        <li class="crumb crumb-mid">
+          <a href={c.route}><Plain text={c.title} /></a>
+        </li>
+      ))
+    }
+    <li class="crumb crumb-current" aria-current="page" title={current !== currentHead ? current : undefined}>
+      <Plain text={currentHead} />
+    </li>
+  </ol>
+</nav>

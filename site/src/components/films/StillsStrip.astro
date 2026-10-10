@@ -1,0 +1,147 @@
+---
+/**
+ * StillsStrip.astro — the hero stills, as a strip of wide short leaves.
+ *
+ * A horizontal overflow scroller with `scroll-snap-type: x mandatory`. It needs
+ * no JS: each still is an anchor to its own 1600-px file, so without scripting
+ * a tap simply opens the picture. With JS the anchor is intercepted and the
+ * still opens in a dependency-free `<dialog>` lightbox — Esc and backdrop
+ * close it, and focus returns to the still that was tapped.
+ *
+ * `alt` is written copy from I4a (checked against the image, not the
+ * filename); `caption` exists on 39 of 209 stills and sits under the leaf.
+ */
+import '../../styles/films.css';
+import type { FilmStill } from '../../lib/films.ts';
+
+interface Props {
+  stills: FilmStill[];
+  title?: string;
+  /** Distinguishes the strip when a page ever carries two. */
+  id?: string;
+}
+
+const { stills, title = 'Stills', id = 'stills' } = Astro.props;
+const boxId = `${id}-box`;
+---
+
+{
+  stills.length > 0 && (
+    <section class="film-stills" aria-labelledby={`${id}-title`} data-stills>
+      <h2 class="film-stills-title" id={`${id}-title`}>
+        {title}
+      </h2>
+
+      <ul class="stills-strip">
+        {stills.map((still, i) => (
+          <li class="still">
+            <figure style="margin:0">
+              <a
+                class="still-open"
+                href={still.sizes[1600]}
+                data-still
+                data-caption={still.caption ?? ''}
+                aria-label={`Open still ${i + 1} of ${stills.length}: ${still.alt}`}
+                style={`background-image:url("${still.lqip}")`}
+              >
+                <img
+                  class="still-img"
+                  src={still.sizes[800]}
+                  srcset={`${still.sizes[400]} 400w, ${still.sizes[800]} 800w, ${still.sizes[1600]} 1600w`}
+                  sizes="(min-width: 700px) 24rem, 78vw"
+                  width={still.width}
+                  height={still.height}
+                  alt={still.alt}
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              {still.caption && <figcaption class="still-caption">{still.caption}</figcaption>}
+            </figure>
+          </li>
+        ))}
+      </ul>
+
+      <dialog class="still-box" id={boxId} aria-label="Still">
+        <div class="still-box-inner">
+          <img class="still-box-img" src="" alt="" decoding="async" />
+          <p class="still-box-cap" hidden />
+        </div>
+        <button type="button" class="still-box-close" data-still-close aria-label="Close">
+          ✕
+        </button>
+      </dialog>
+    </section>
+  )
+}
+
+<script>
+  /**
+   * The lightbox. One listener for every strip on the page; the dialog is the
+   * one inside the strip that was tapped.
+   */
+  const KEY = '__thtStillBox';
+  const w = window as unknown as Record<string, boolean>;
+  if (!w[KEY]) {
+    w[KEY] = true;
+    let opener: HTMLElement | null = null;
+
+    const close = (dialog: HTMLDialogElement) => {
+      if (dialog.open) dialog.close();
+    };
+
+    document.addEventListener('click', (event) => {
+      const ev = event as MouseEvent;
+      const target = ev.target as Element | null;
+      if (!target) return;
+
+      // Close: the ✕, or the backdrop (a click landing on the dialog itself).
+      const closer = target.closest<HTMLElement>('[data-still-close]');
+      if (closer) {
+        const dialog = closer.closest('dialog') as HTMLDialogElement | null;
+        if (dialog) close(dialog);
+        return;
+      }
+      if (target instanceof HTMLDialogElement && target.classList.contains('still-box')) {
+        close(target);
+        return;
+      }
+
+      // Open.
+      if (ev.defaultPrevented || ev.button !== 0 || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+      const link = target.closest<HTMLAnchorElement>('a[data-still]');
+      if (!link) return;
+      const strip = link.closest('[data-stills]');
+      const dialog = strip?.querySelector('dialog.still-box') as HTMLDialogElement | null;
+      const img = dialog?.querySelector('img.still-box-img') as HTMLImageElement | null;
+      const cap = dialog?.querySelector('p.still-box-cap') as HTMLParagraphElement | null;
+      const source = link.querySelector('img');
+      if (!dialog || !img || !source || typeof dialog.showModal !== 'function') return;
+
+      ev.preventDefault();
+      opener = link;
+      img.src = link.href;
+      img.alt = source.alt;
+      const caption = link.dataset.caption || source.alt;
+      if (cap) {
+        cap.textContent = caption;
+        cap.hidden = !caption;
+      }
+      dialog.setAttribute('aria-label', source.alt || 'Still');
+      dialog.showModal();
+    });
+
+    document.addEventListener(
+      'close',
+      (event) => {
+        const dialog = event.target as HTMLElement | null;
+        if (!dialog || !dialog.classList?.contains('still-box')) return;
+        const img = dialog.querySelector('img.still-box-img') as HTMLImageElement | null;
+        if (img) img.removeAttribute('src');
+        opener?.focus();
+        opener = null;
+      },
+      true,
+    );
+  }
+</script>

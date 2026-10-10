@@ -1,0 +1,34 @@
+---
+import type { GraphNode } from '../lib/graph.ts';
+
+export interface TreeDirData {
+  name: string;
+  files: GraphNode[];
+  dirs: TreeDirData[];
+}
+
+interface Props {
+  dir: TreeDirData;
+}
+const { dir } = Astro.props;
+const Self = Astro.self;
+---
+
+<ul class="tree-list">
+  {
+    dir.files.map((file) => (
+      <li class="tree-item" data-index={file.isIndex ? 'true' : undefined}>
+        <a href={file.route}>{file.title}</a>
+        <span class="tree-meta">{file.wordCount.toLocaleString('en')}w</span>
+      </li>
+    ))
+  }
+  {
+    dir.dirs.map((child) => (
+      <li class="tree-item tree-item-dir">
+        <span class="tree-dirname">{child.name}/</span>
+        <Self dir={child} />
+      </li>
+    ))
+  }
+</ul>

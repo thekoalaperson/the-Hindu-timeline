@@ -1,0 +1,133 @@
+---
+/**
+ * PageArt.astro — the picture every page now opens with, and the title that
+ * sits on it.
+ *
+ * Two registers, one component (they share every mechanic — the bleed, the
+ * scrim, the Ken Burns, the ivory title — and differ only in height, blur and
+ * what rides underneath):
+ *
+ *   data-art="hero"   the page's own film. The still is sharp, the band is
+ *                     tall, and the play affordance is *in* the picture, so
+ *                     the film is one tap from the first screen.
+ *   data-art="plate"  a borrowed still standing for the page's age or
+ *                     section. Blurred and tinted with the period hue so it
+ *                     reads as atmosphere and never as an illustration of
+ *                     this particular page — and, since it depicts another
+ *                     story, it is anonymous: `alt=""`, `aria-hidden`, no
+ *                     caption. A name in a caption's position is a claim
+ *                     about the page, and it would be the wrong one.
+ *
+ * The H1 lives here, not in the layout: the whole point is that the title is
+ * *on* the art. Everything else (the pill row, the TOC, the apparatus)
+ * follows below, unchanged.
+ */
+import type { PageArt } from './art.ts';
+import Plain from './Plain.astro';
+
+interface Props {
+  art: PageArt;
+  /** The H1 text (already split from its subtitle by the caller). */
+  title: string;
+  subtitle?: string | null;
+  /** A short line above the title: the film's Devanagari title, or a section/age name. */
+  kicker?: string | null;
+  /** Set when the kicker is Devanagari, so it gets Tiro and `lang="hi"`. */
+  kickerLang?: 'hi' | null;
+  /** `body[data-period]` already sets the accent; passed again for the tint. */
+  period?: string | null;
+  /** The first picture on the page should not be lazy. */
+  eager?: boolean;
+  /** Rendered as the H1 (default) or a plain div — film pages own their own H1. */
+  headingLevel?: 'h1' | 'none';
+}
+
+const {
+  art,
+  title,
+  subtitle = null,
+  kicker = null,
+  kickerLang = null,
+  period = null,
+  eager = true,
+  headingLevel = 'h1',
+} = Astro.props;
+
+const film = art.film;
+const isHero = art.kind === 'hero';
+const playLabel = film ? (film.isPublic ? 'Watch the film' : 'See the film page') : null;
+---
+
+<figure
+  class="page-art"
+  data-art={art.kind}
+  data-art-reason={art.reason}
+  data-period={period ?? undefined}
+>
+  <span class="art-frame" style={art.lqip ? `background-image:url("${art.lqip}")` : undefined}>
+    <img
+      class="art-img"
+      src={art.src}
+      srcset={art.srcset ?? undefined}
+      sizes="100vw"
+      width={art.width}
+      height={art.height}
+      alt={art.alt}
+      aria-hidden={art.alt ? undefined : 'true'}
+      loading={eager ? 'eager' : 'lazy'}
+      fetchpriority={eager ? 'high' : undefined}
+      decoding="async"
+    />
+  </span>
+  <span class="art-veil" aria-hidden="true"></span>
+
+  <div class="art-copy">
+    {
+      kicker && (
+        <p class={kickerLang === 'hi' ? 'art-kicker dv' : 'art-kicker'} lang={kickerLang ?? undefined}>
+          {kickerLang === 'hi' ? kicker : <Plain text={kicker} />}
+        </p>
+      )
+    }
+    {headingLevel === 'h1' && (
+      <h1 class="page-title art-title">
+        <Plain text={title} />
+      </h1>
+    )}
+    {
+      subtitle && (
+        <p class="page-subtitle art-subtitle">
+          <Plain text={subtitle} />
+        </p>
+      )
+    }
+
+    {
+      film && (
+        <a class="art-play" href={film.route} data-film={film.slug}>
+          <span class="art-play-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" focusable="false">
+              <circle cx="24" cy="24" r="20" />
+              <path d="M20 15.6 34 24l-14 8.4z" />
+            </svg>
+          </span>
+          <span class="art-play-text">
+            {playLabel}
+            {film.duration && <span class="art-play-dur">{film.duration}</span>}
+          </span>
+        </a>
+      )
+    }
+  </div>
+
+  {
+    /* Only ever the page's own film. "Plate" was the art-book sense of the
+       word and needed explaining; "From the film" does not. */
+    art.creditTitle && art.creditRoute && (
+      <figcaption class="art-credit">
+        <span class="art-credit-label">From the film</span>
+        <a href={art.creditRoute}>{art.creditTitle}</a>
+      </figcaption>
+    )
+  }
+</figure>

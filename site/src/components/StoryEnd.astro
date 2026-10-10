@@ -1,0 +1,106 @@
+---
+/**
+ * StoryEnd.astro — "every ending is a beginning" (BRIEF v4 §3, principle 5).
+ *
+ * The foot of a story page, in this order:
+ *   1. **Next in time** — the next story in the chapter spine, across chapter
+ *      and age boundaries. Not "next file in this folder": next *in time*.
+ *   2. The films of the same chapter, when it has any.
+ *   3. The way back to the road, and the share.
+ *   4. In plain mode, the one tap that brings the apparatus back.
+ *
+ * A page in no chapter still gets 3 and 4 — the journey home is always there.
+ */
+import FilmCard from './films/FilmCard.astro';
+import Plain from './Plain.astro';
+import ShareButton from './ShareButton.astro';
+import type { Chapter } from '../lib/chapters.ts';
+import { filmsOfChapter, nextInTime } from '../lib/chapters.ts';
+import { nodeForRoute, periodLabel } from '../lib/graph.ts';
+import { splitTitle } from '../lib/routes.ts';
+import previews from '../generated/link-previews.json';
+
+interface Props {
+  route: string;
+  chapter?: Chapter | null;
+  title: string;
+  /** The film this page already shows, so it is not offered again below. */
+  ownFilmSlug?: string | null;
+}
+const { route, chapter = null, title, ownFilmSlug = null } = Astro.props;
+
+const next = nextInTime(route);
+const nextPreview = next
+  ? (previews as Record<string, { title: string; dek: string }>)[next.route]
+  : undefined;
+const nextNode = next ? nodeForRoute(next.route) : undefined;
+const nextTitle = nextPreview?.title ?? nextNode?.title ?? '';
+const nextWhere = next
+  ? [periodLabel(next.chapter.period), next.chapter.title].filter(Boolean).join(' › ')
+  : '';
+
+const films = chapter ? filmsOfChapter(chapter.id).filter((f) => f.slug !== ownFilmSlug) : [];
+---
+
+<section class="story-end" data-story-end data-pagefind-ignore>
+  {
+    next && nextTitle && (
+      <div class="next-in-time">
+        <span>
+          <span class="next-label">Next in time</span>
+          <a href={next.route}>
+            <span class="next-title"><Plain text={splitTitle(nextTitle)[0]} /></span>
+          </a>
+          {nextWhere && <span class="next-where"><Plain text={nextWhere} /></span>}
+        </span>
+      </div>
+    )
+  }
+
+  {
+    films.length > 0 && chapter && (
+      <div>
+        {/* The chapter's own casing. `.toLowerCase()` produced "Films from
+            krishna grows up in vrindavan" one line under the correctly-cased
+            "Krishna grows up in Vrindavan". */}
+        <h2 class="chapter-films-title">Films from {chapter.title}</h2>
+        <div class="chapter-films">
+          {films.slice(0, 4).map((f) => (
+            <FilmCard film={f} />
+          ))}
+        </div>
+      </div>
+    )
+  }
+
+  <div class="share-row">
+    <a class="journey-back" href={chapter ? `/#at=${chapter.period}` : '/'}>Continue the journey</a>
+    <button
+      type="button"
+      class="apparatus-toggle"
+      data-apparatus-toggle
+      aria-pressed="false"
+      aria-label="Show the scholarly apparatus"
+    >
+      <span data-apparatus-label>Show the citations and variants</span>
+    </button>
+  </div>
+
+  <ShareButton title={title} text="From The Hindu Timeline" />
+</section>
+
+<script>
+  /* One tap back to the apparatus, without leaving plain spellings. The
+     attribute lives on <html> next to `data-plain`, which is what plain.css's
+     `:not([data-apparatus])` guard reads. Not persisted: it is a peek at the
+     sources for this page, not a change of reading mode. */
+  const btn = document.querySelector<HTMLButtonElement>('[data-apparatus-toggle]');
+  if (btn) {
+    const label = btn.querySelector<HTMLElement>('[data-apparatus-label]');
+    btn.addEventListener('click', () => {
+      const on = document.documentElement.toggleAttribute('data-apparatus');
+      btn.setAttribute('aria-pressed', String(on));
+      if (label) label.textContent = on ? 'Hide the citations and variants' : 'Show the citations and variants';
+    });
+  }
+</script>

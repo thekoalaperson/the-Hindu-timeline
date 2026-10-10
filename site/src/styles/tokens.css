@@ -1,0 +1,302 @@
+/*
+ * tokens.css — the whole palette, in one place.
+ *
+ * Every hex here comes from DESIGN-BRIEF §2, which took them from R4's
+ * contrast-computed set. Do not eyeball-adjust. Where a brief hue could not
+ * carry small text (the two greys), a separate `--period-ink` is derived and
+ * the reason is written next to it.
+ *
+ * Light lives on :root. Dark lives in two places, both required:
+ *   @media (prefers-color-scheme: dark) :root:not([data-theme='light'])
+ *   :root[data-theme='dark']
+ */
+
+:root {
+  color-scheme: light;
+
+  /* -- paper & ink ------------------------------------------------------ */
+  --paper: #f4eedd;
+  --paper-2: #ede4cc;
+  --paper-margin: #eae1c8;
+  --ink: #241c15;
+  --ink-2: #5b4f3f;
+  --rubric: #a8342a;
+  --link: #2e4066;
+  --visited: #6b4a63;
+  --gold: #96742e;
+  --gold-text: #7a5d22;
+  --rule: #d6c7a1;
+
+  /* Derived, so every surface stays one decision.  */
+  --rule-strong: color-mix(in oklab, var(--rule) 62%, var(--ink));
+  --rubric-faint: color-mix(in oklab, var(--rubric) 34%, var(--paper));
+  --cite: color-mix(in oklab, var(--rubric) 58%, var(--ink-2));
+  --backdrop: color-mix(in srgb, var(--paper) 88%, transparent);
+  --shade: color-mix(in srgb, var(--ink) 34%, transparent);
+  --focus: var(--link);
+  --grain-opacity: 0.05;
+
+  /* -- reliability tags (text marks; the tint is used only on hover) ----- */
+  --tag-scholarly: #2e4066;
+  --tag-scholarly-bg: #e4e8f0;
+  --tag-scripture: #7a5d22;
+  --tag-scripture-bg: #f1e8ce;
+  --tag-folk: #6e541e;
+  --tag-folk-bg: #f1e8ce;
+  --tag-regional: #2f5a4c;
+  --tag-regional-bg: #e1eae5;
+  --tag-disputed: #a8342a;
+  --tag-disputed-bg: #f3e3de;
+  --tag-late: #6b6355;
+  --tag-late-bg: #eae6da;
+  --tag-other: #5b4f3f;
+  --tag-other-bg: #eae6da;
+
+  /* -- yuga & period hues ----------------------------------------------- */
+  --yuga-satya: #8b7f63;
+  --yuga-satya-ink: #3e362b;
+  --yuga-satya-fill: #fbf8f0;
+  --yuga-treta: #9c4a1c;
+  --yuga-treta-ink: #9c4a1c;
+  --yuga-dvapara: #3b4a7a;
+  --yuga-dvapara-ink: #3b4a7a;
+  --yuga-kali: #8a6a2a;
+  --yuga-kali-ink: #6e541e;
+
+  --period-before: #7a7568;
+  /* #7A7568 is 3.97:1 on paper — fine for a rule, short of AA for a 13px
+     chip label, so chip text uses the darker sibling. Darkened again here:
+     against the header's translucent backdrop the previous #5F5B50 measured
+     under 4.5:1 on the sticky context row. */
+  --period-before-ink: #545046;
+  --period-earlier: #8e897b;
+  /* #6B665A measured 4.38:1 on --paper-margin — short of AA. */
+  --period-earlier-ink: #4f4b3f;
+  --period-future: #2e4066;
+  --period-future-ink: #26365a;
+  --period-cross: #5b4f3f;
+  --period-cross-ink: #5b4f3f;
+
+  /* The page's accent. Overridden per [data-period]; falls back to rubric. */
+  --period: var(--rubric);
+  --period-ink: var(--rubric);
+  --period-fill: transparent;
+  --period-border-style: solid;
+
+  /* -- metrics ---------------------------------------------------------- */
+  --measure: 34rem; /* ≈ 66ch at 18px EB Garamond */
+  --measure-wide: 42rem;
+  --margin-x: 22px;
+  --scribe-w: 16rem;
+  --header-h: 3.25rem;
+  --bar-h: 3.5rem;
+  --hair: 1px;
+
+  --step: 0.5rem;
+  --gap-1: 0.25rem;
+  --gap-2: 0.5rem;
+  --gap-3: 0.75rem;
+  --gap-4: 1rem;
+  --gap-5: 1.5rem;
+  --gap-6: 2rem;
+  --gap-7: 3rem;
+
+  --z-well: 1;
+  --z-chrome: 40;
+  --z-sheet: 60;
+  --z-pop: 70;
+
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-sheet: 240ms;
+  --dur-ring: 320ms;
+  --dur-fade: 200ms;
+}
+
+/* -- dark: "temple night" ------------------------------------------------ */
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+
+    --paper: #14181f;
+    --paper-2: #1b2029;
+    --paper-margin: #10131a;
+    --ink: #e9e2ce;
+    --ink-2: #b7af9b;
+    --rubric: #e2725a;
+    --link: #8fa3d6;
+    --visited: #c79bc0;
+    --gold: #d4a24c;
+    --gold-text: #d4a24c;
+    --rule: #3a4150;
+
+    --rule-strong: color-mix(in oklab, var(--rule) 55%, var(--ink));
+    --rubric-faint: color-mix(in oklab, var(--rubric) 30%, var(--paper));
+    --cite: color-mix(in oklab, var(--rubric) 52%, var(--ink-2));
+    --backdrop: color-mix(in srgb, var(--paper) 86%, transparent);
+    --shade: color-mix(in srgb, #000 62%, transparent);
+    --grain-opacity: 0.06;
+
+    --tag-scholarly: #9fb2e0;
+    --tag-scholarly-bg: #232b3d;
+    --tag-scripture: #d9b968;
+    --tag-scripture-bg: #302a1b;
+    --tag-folk: #d9b968;
+    --tag-folk-bg: #302a1b;
+    --tag-regional: #7fbba0;
+    --tag-regional-bg: #1b2a24;
+    --tag-disputed: #e8967e;
+    --tag-disputed-bg: #332320;
+    --tag-late: #c9c2ac;
+    --tag-late-bg: #26241d;
+    --tag-other: #b7af9b;
+    --tag-other-bg: #26241d;
+
+    --yuga-satya: #b3ad9a;
+    --yuga-satya-ink: #ede9dc;
+    --yuga-satya-fill: color-mix(in srgb, #ede9dc 9%, transparent);
+    --yuga-treta: #e2794f;
+    --yuga-treta-ink: #e2794f;
+    --yuga-dvapara: #8fa3d6;
+    --yuga-dvapara-ink: #8fa3d6;
+    --yuga-kali: #d4a24c;
+    --yuga-kali-ink: #d4a24c;
+
+    --period-before: #8e8a7e;
+    --period-before-ink: #8e8a7e;
+    --period-earlier: #7c7870;
+    /* #7C7870 is 4.05:1 on temple night — a rule colour, not a label colour. */
+    --period-earlier-ink: #a29d93;
+    --period-future: #8fa3d6;
+    --period-future-ink: #8fa3d6;
+    --period-cross: #b7af9b;
+    --period-cross-ink: #b7af9b;
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --paper: #14181f;
+  --paper-2: #1b2029;
+  --paper-margin: #10131a;
+  --ink: #e9e2ce;
+  --ink-2: #b7af9b;
+  --rubric: #e2725a;
+  --link: #8fa3d6;
+  --visited: #c79bc0;
+  --gold: #d4a24c;
+  --gold-text: #d4a24c;
+  --rule: #3a4150;
+
+  --rule-strong: color-mix(in oklab, var(--rule) 55%, var(--ink));
+  --rubric-faint: color-mix(in oklab, var(--rubric) 30%, var(--paper));
+  --cite: color-mix(in oklab, var(--rubric) 52%, var(--ink-2));
+  --backdrop: color-mix(in srgb, var(--paper) 86%, transparent);
+  --shade: color-mix(in srgb, #000 62%, transparent);
+  --grain-opacity: 0.06;
+
+  --tag-scholarly: #9fb2e0;
+  --tag-scholarly-bg: #232b3d;
+  --tag-scripture: #d9b968;
+  --tag-scripture-bg: #302a1b;
+  --tag-folk: #d9b968;
+  --tag-folk-bg: #302a1b;
+  --tag-regional: #7fbba0;
+  --tag-regional-bg: #1b2a24;
+  --tag-disputed: #e8967e;
+  --tag-disputed-bg: #332320;
+  --tag-late: #c9c2ac;
+  --tag-late-bg: #26241d;
+  --tag-other: #b7af9b;
+  --tag-other-bg: #26241d;
+
+  --yuga-satya: #b3ad9a;
+  --yuga-satya-ink: #ede9dc;
+  --yuga-satya-fill: color-mix(in srgb, #ede9dc 9%, transparent);
+  --yuga-treta: #e2794f;
+  --yuga-treta-ink: #e2794f;
+  --yuga-dvapara: #8fa3d6;
+  --yuga-dvapara-ink: #8fa3d6;
+  --yuga-kali: #d4a24c;
+  --yuga-kali-ink: #d4a24c;
+
+  --period-before: #8e8a7e;
+  --period-before-ink: #8e8a7e;
+  --period-earlier: #7c7870;
+  --period-earlier-ink: #a29d93;
+  --period-future: #8fa3d6;
+  --period-future-ink: #8fa3d6;
+  --period-cross: #b7af9b;
+  --period-cross-ink: #b7af9b;
+}
+
+/* -- the nine period slugs → the page accent ----------------------------- */
+/* Applied to any element carrying [data-period]: body, article, chip, leaf. */
+
+[data-period='before-time'] {
+  --period: var(--period-before);
+  --period-ink: var(--period-before-ink);
+}
+[data-period='earlier-manvantaras'] {
+  --period: var(--period-earlier);
+  --period-ink: var(--period-earlier-ink);
+}
+[data-period='satya-yuga'] {
+  --period: var(--yuga-satya);
+  --period-ink: var(--yuga-satya-ink);
+  --period-fill: var(--yuga-satya-fill);
+}
+[data-period='treta-yuga'] {
+  --period: var(--yuga-treta);
+  --period-ink: var(--yuga-treta-ink);
+}
+[data-period='dvapara-yuga'] {
+  --period: var(--yuga-dvapara);
+  --period-ink: var(--yuga-dvapara-ink);
+}
+[data-period='kali-yuga-scriptural'],
+[data-period='kali-yuga-history'] {
+  --period: var(--yuga-kali);
+  --period-ink: var(--yuga-kali-ink);
+}
+[data-period='future-manvantaras'] {
+  --period: var(--period-future);
+  --period-ink: var(--period-future-ink);
+  --period-border-style: dashed;
+}
+[data-period='cross-yuga'] {
+  --period: var(--period-cross);
+  --period-ink: var(--period-cross-ink);
+  --period-border-style: dotted;
+}
+
+/* -- reliability tag kind → its two colours ------------------------------ */
+[data-tag-kind='scholarly'] {
+  --tag-fg: var(--tag-scholarly);
+  --tag-bg: var(--tag-scholarly-bg);
+}
+[data-tag-kind='scripture'] {
+  --tag-fg: var(--tag-scripture);
+  --tag-bg: var(--tag-scripture-bg);
+}
+[data-tag-kind='folk'] {
+  --tag-fg: var(--tag-folk);
+  --tag-bg: var(--tag-folk-bg);
+}
+[data-tag-kind='regional'] {
+  --tag-fg: var(--tag-regional);
+  --tag-bg: var(--tag-regional-bg);
+}
+[data-tag-kind='disputed'] {
+  --tag-fg: var(--tag-disputed);
+  --tag-bg: var(--tag-disputed-bg);
+}
+[data-tag-kind='late'] {
+  --tag-fg: var(--tag-late);
+  --tag-bg: var(--tag-late-bg);
+}
+[data-tag-kind='other'] {
+  --tag-fg: var(--tag-other);
+  --tag-bg: var(--tag-other-bg);
+}

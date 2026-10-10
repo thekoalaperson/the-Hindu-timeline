@@ -1,0 +1,82 @@
+---
+/**
+ * FilmNext.astro — "after this film".
+ *
+ * R6 Part C #2: the in-story next link proved the mechanic works, and a film
+ * page was the one place with no next step at all — it ended in a list of
+ * "other films in this age", which is a shelf, not a next. This is the same
+ * ending a story gets (`StoryEnd.astro`), in the same markup and the same
+ * styles, so the two read as one habit:
+ *
+ *   1. **Next film** — the next one in the same *chapter* of the spine, and
+ *      failing that the next public film in the same age. A film nobody can
+ *      watch yet is never offered as the next thing to do.
+ *   2. **The story it comes from** — the corpus page this film animates.
+ *   3. *Continue the journey* — back to the road at this age.
+ */
+import { spine } from '../../lib/chapters.ts';
+import Plain from '../Plain.astro';
+import type { Film } from '../../lib/films.ts';
+import { filmsOfChapter } from '../../lib/chapters.ts';
+import { siblingFilms } from '../../lib/films.ts';
+import { splitTitle } from '../../lib/routes.ts';
+
+interface Props {
+  film: Film;
+  /** The corpus page the film animates (`film.corpus[0]`), when it has one. */
+  story?: { route: string; title: string } | null;
+}
+const { film, story = null } = Astro.props;
+
+/* The chapter that claims this film. `chapters.ts` is read-only for this lane
+   and has no reverse index, so the lookup is done here — the spine is nine
+   periods of a handful of chapters each, not a hot path. */
+const chapter = spine.find((ch) => ch.films.includes(film.slug)) ?? null;
+
+function nextOf(list: Film[]): Film | null {
+  const i = list.findIndex((f) => f.slug === film.slug);
+  const after = i === -1 ? list : list.slice(i + 1);
+  return after.find((f) => f.isPublic && f.slug !== film.slug) ?? null;
+}
+
+/* In the chapter first — that is the authored order, and the one that keeps
+   a viewer inside a story rather than inside a catalogue. */
+const next = (chapter ? nextOf(filmsOfChapter(chapter.id)) : null) ?? nextOf(siblingFilms(film, 24));
+
+const where = [film.periodName, chapter?.title].filter(Boolean).join(' › ');
+---
+
+{
+  (next || story) && (
+    <section class="story-end" data-film-next data-pagefind-ignore>
+      {next && (
+        <div class="next-in-time">
+          <span>
+            <span class="next-label">After this film</span>
+            <a href={next.route}>
+              <span class="next-title"><Plain text={splitTitle(next.title.en)[0]} /></span>
+            </a>
+            {where && <span class="next-where"><Plain text={where} /></span>}
+          </span>
+        </div>
+      )}
+
+      {story && (
+        <div class="next-in-time">
+          <span>
+            <span class="next-label">The story it comes from</span>
+            <a href={story.route}>
+              <span class="next-title"><Plain text={splitTitle(story.title)[0]} /></span>
+            </a>
+          </span>
+        </div>
+      )}
+
+      <div class="share-row">
+        <a class="journey-back" href={film.periodSlug ? `/#at=${film.periodSlug}` : '/'}>
+          Continue the journey
+        </a>
+      </div>
+    </section>
+  )
+}

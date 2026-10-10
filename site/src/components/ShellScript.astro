@@ -1,0 +1,531 @@
+---
+/**
+ * ShellScript.astro — every client behaviour the shell needs, in one module
+ * that Astro hoists and hashes once, so it is fetched a single time for the
+ * whole site. Nothing here is required to read a page: it all enhances markup
+ * that already works.
+ */
+---
+
+<script>
+
+  const root = document.documentElement;
+  const body = document.body;
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  const closest = (t: EventTarget | null, sel: string): HTMLElement | null =>
+    t instanceof Element ? (t.closest(sel) as HTMLElement | null) : null;
+
+  /* ------------------------------------------------------------- theme -- */
+
+  const themeOf = () => root.getAttribute('data-theme') || 'system';
+  function syncTheme() {
+    const cur = themeOf();
+    document.querySelectorAll<HTMLElement>('[data-theme-set]').forEach((b) => {
+      b.setAttribute('aria-pressed', String(b.dataset.themeSet === cur));
+    });
+  }
+  function setTheme(mode: string) {
+    try {
+      if (mode === 'system') {
+        root.removeAttribute('data-theme');
+        localStorage.removeItem('tht-theme');
+      } else {
+        root.setAttribute('data-theme', mode);
+        localStorage.setItem('tht-theme', mode);
+      }
+    } catch {
+      /* private mode: the attribute still applies for this page */
+      if (mode === 'system') root.removeAttribute('data-theme');
+      else root.setAttribute('data-theme', mode);
+    }
+    syncTheme();
+  }
+  syncTheme();
+
+  /* ------------------------------------------------------------ sheets -- */
+
+  const openers = new WeakMap<HTMLDialogElement, HTMLElement>();
+  const anyOpen = () => !!document.querySelector('dialog.sheet[open]');
+
+  function openSheet(id: string, opener?: HTMLElement | null) {
+    const d = document.getElementById(id) as HTMLDialogElement | null;
+    if (!d || typeof d.showModal !== 'function') return false;
+    if (d.open) return true;
+    if (opener) openers.set(d, opener);
+    d.classList.remove('is-closing');
+    d.showModal();
+    body.removeAttribute('data-chrome');
+    if (opener?.dataset.sheet) opener.setAttribute('aria-expanded', 'true');
+    const input = d.querySelector<HTMLInputElement>('[data-search-input]');
+    if (input) setTimeout(() => input.focus(), reduced.matches ? 0 : 90);
+    document.dispatchEvent(new CustomEvent('sheet:open', { detail: { id } }));
+    return true;
+  }
+
+  function closeSheet(d: HTMLDialogElement | null) {
+    if (!d || !d.open) return;
+    const finish = () => {
+      d.classList.remove('is-closing');
+      d.close();
+    };
+    if (reduced.matches) finish();
+    else {
+      d.classList.add('is-closing');
+      setTimeout(finish, 170);
+    }
+  }
+
+  document.querySelectorAll<HTMLDialogElement>('dialog.sheet').forEach((d) => {
+    d.addEventListener('cancel', (e) => {
+      e.preventDefault();
+      closeSheet(d);
+    });
+    d.addEventListener('click', (e) => {
+      if (e.target === d) closeSheet(d); /* the backdrop */
+    });
+    d.addEventListener('close', () => {
+      document.querySelectorAll('[data-sheet]').forEach((b) => b.removeAttribute('aria-expanded'));
+      const o = openers.get(d);
+      if (o && document.contains(o)) o.focus({ preventScroll: true });
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    const ev = e as MouseEvent;
+    if (ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey || ev.button > 0) return;
+
+    const close = closest(ev.target, '[data-sheet-close]');
+    if (close) {
+      closeSheet(close.closest('dialog') as HTMLDialogElement | null);
+      return;
+    }
+    const themeBtn = closest(ev.target, '[data-theme-set]');
+    if (themeBtn) {
+      setTheme(themeBtn.dataset.themeSet || 'system');
+      return;
+    }
+    const opener = closest(ev.target, '[data-sheet]');
+    if (opener) {
+      const id = opener.dataset.sheet!;
+      /* Never open a sheet duplicating the page you are already on. */
+      const onSearch = body.dataset.page === 'search' && id === 'sheet-search';
+      if (!onSearch && openSheet(id, opener)) ev.preventDefault();
+      return;
+    }
+    /* Links inside a sheet: let the navigation happen, but close first so the
+       back button never lands on an open dialog. */
+    const inSheet = closest(ev.target, 'dialog.sheet a[href]');
+    if (inSheet) closeSheet(inSheet.closest('dialog') as HTMLDialogElement | null);
+  });
+
+  /* ---------------------------------------------------------- keyboard -- */
+
+  document.addEventListener('keydown', (e) => {
+    const t = e.target as HTMLElement | null;
+    const typing =
+      !!t && (t.isContentEditable || ['INPUT', 'TEXTAREA', 'SELECT'].includes(t.tagName));
+    if (e.key === '/' && !typing && !e.metaKey && !e.ctrlKey) {
+      const local = document.querySelector<HTMLInputElement>(
+        '.search-page [data-search-input], main [data-search-input]',
+      );
+      if (local) {
+        e.preventDefault();
+        local.focus();
+        local.select();
+      } else if (openSheet('sheet-search')) e.preventDefault();
+    }
+    if (e.key === 'Escape' && !anyOpen()) hidePeek();
+  });
+
+  /* ------------------------------------------------- chrome & progress -- */
+
+  const ring = document.querySelector<SVGCircleElement>('[data-progress] .pr-fill');
+  const CIRC = 2 * Math.PI * 9.2;
+  let lastY = window.scrollY;
+  let ticking = false;
+
+  function frame() {
+    ticking = false;
+    const y = Math.max(0, window.scrollY);
+    const dy = y - lastY;
+    if (!anyOpen()) {
+      if (y < 96) body.removeAttribute('data-chrome');
+      else if (dy > 6) body.setAttribute('data-chrome', 'hidden');
+      else if (dy < -6) body.removeAttribute('data-chrome');
+    }
+    lastY = y;
+    if (ring) {
+      const max = root.scrollHeight - window.innerHeight;
+      const p = max > 24 ? Math.min(1, Math.max(0, y / max)) : 0;
+      ring.style.strokeDashoffset = String(CIRC * (1 - p));
+    }
+  }
+  addEventListener(
+    'scroll',
+    () => {
+      if (!ticking) {
+        ticking = true;
+        requestAnimationFrame(frame);
+      }
+    },
+    { passive: true },
+  );
+  frame();
+
+  /* ------------------------------------------------------------ crumbs -- */
+
+  document.querySelectorAll<HTMLButtonElement>('.crumb-fold button').forEach((b) => {
+    b.addEventListener('click', () => {
+      const nav = b.closest('.crumbs');
+      if (!nav) return;
+      nav.toggleAttribute('data-expanded');
+      b.setAttribute('aria-expanded', String(nav.hasAttribute('data-expanded')));
+    });
+  });
+
+  /* Not every corpus page carries a `## Sources` block; the rendered markdown
+     is opaque at build time, so the apparatus links prune themselves here. */
+  if (!document.querySelector('section.sources')) {
+    document.querySelectorAll('a[href="#sources"]').forEach((a) => (a.closest('li') || a).remove());
+  }
+  if (!document.getElementById('related')) {
+    document.querySelectorAll('a[href="#related"]').forEach((a) => (a.closest('li') || a).remove());
+  }
+
+  /* The opening rubric: clamped on narrow screens, whole on wide ones. */
+  const lede = document.querySelector<HTMLElement>('.prose blockquote.lede');
+  if (lede && matchMedia('(max-width: 1099px)').matches) {
+    const full = lede.getBoundingClientRect().height;
+    lede.classList.add('is-clamped');
+    if (lede.getBoundingClientRect().height < full - 12) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'lede-more';
+      btn.textContent = 'Read the whole note';
+      btn.addEventListener('click', () => {
+        const open = lede.classList.toggle('is-clamped');
+        btn.textContent = open ? 'Read the whole note' : 'Shorten the note';
+      });
+      lede.after(btn);
+    } else {
+      lede.classList.remove('is-clamped');
+    }
+  }
+
+  /* ------------------------------------------------------------ tables -- */
+
+  document.querySelectorAll<HTMLTableElement>('.prose table').forEach((t) => {
+    const parent = t.parentElement;
+    if (!parent || parent.classList.contains('table-scroll')) return;
+    const wrap = document.createElement('div');
+    wrap.className = 'table-scroll';
+    wrap.setAttribute('tabindex', '0');
+    wrap.setAttribute('role', 'region');
+    wrap.setAttribute('aria-label', 'Table, scrolls sideways');
+    parent.insertBefore(wrap, t);
+    wrap.appendChild(t);
+    if (t.scrollWidth > wrap.clientWidth + 2) wrap.setAttribute('data-overflowing', '');
+  });
+
+  /* ------------------------------------------------------- the peek card - */
+
+  const peek = document.querySelector<HTMLElement>('[data-peek]');
+  let peekAnchor: HTMLElement | null = null;
+  let peekTimer = 0;
+
+  function hidePeek() {
+    if (!peek) return;
+    peek.hidden = true;
+    peek.innerHTML = '';
+    peekAnchor = null;
+  }
+
+  function showPeek(anchor: HTMLElement, html: string) {
+    if (!peek) return;
+    peek.innerHTML = html;
+    peek.hidden = false;
+    peekAnchor = anchor;
+    const r = anchor.getBoundingClientRect();
+    const pw = peek.offsetWidth;
+    const ph = peek.offsetHeight;
+    const margin = 12;
+    let left = r.left + window.scrollX;
+    left = Math.min(left, window.scrollX + document.documentElement.clientWidth - pw - margin);
+    left = Math.max(window.scrollX + margin, left);
+    const below = r.bottom + 8 + ph < window.innerHeight;
+    const top = below ? r.bottom + window.scrollY + 8 : r.top + window.scrollY - ph - 8;
+    peek.style.left = `${Math.round(left)}px`;
+    peek.style.top = `${Math.round(Math.max(window.scrollY + 8, top))}px`;
+  }
+
+  document.addEventListener('click', (e) => {
+    if (!peek || peek.hidden) return;
+    if (closest(e.target, '[data-peek]')) {
+      if (closest(e.target, '.peek-close')) hidePeek();
+      return;
+    }
+    /* The three things that own the card handle their own toggle. */
+    if (peekAnchor && closest(e.target, 'cite.cit, a.xref, [data-tag-legend]')) return;
+    hidePeek();
+  });
+  addEventListener('scroll', () => peek && !peek.hidden && hidePeek(), { passive: true });
+
+  /* ------------------------------------------------ link preview source - */
+
+  let previewsPromise: Promise<Record<string, { title: string; dek: string; period: string | null }>> | null =
+    null;
+  function previews() {
+    if (!previewsPromise) {
+      previewsPromise = fetch('/link-previews.json')
+        .then((r) => (r.ok ? r.json() : {}))
+        .catch(() => ({}));
+    }
+    return previewsPromise;
+  }
+
+  const esc = (s: string) =>
+    s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+
+  /* ------------------------------------------------- the tag legend -- */
+
+  /* The reliability marks are the one piece of notation on a page that a
+     reader cannot infer. One `?` is added after the first mark on the page —
+     not after every one, which would be noise — and it explains the whole
+     scheme once, in the peek card the citations already use. The kinds are the
+     `data-tag-kind` buckets from src/lib/tags.ts, in the order a reader meets
+     them: firmest evidence first, "other" last. */
+  const TAG_LEGEND: [string, string, string][] = [
+    ['scholarly', 'scholarly', 'Modern academic scholarship — history, archaeology, linguistics.'],
+    ['scripture', 'scripture', 'Stated in a named scriptural text.'],
+    ['folk', 'folk', 'Oral tradition or living practice rather than a text.'],
+    ['regional', 'regional', 'Told this way in one region, language or temple tradition.'],
+    ['disputed', 'disputed', 'The sources disagree, or the identification is uncertain.'],
+    ['late text', 'late', 'A later layer or interpolation in the text it appears in.'],
+    ['other', 'other', 'An editorial note that fits none of the above.'],
+  ];
+
+  function legendHtml() {
+    return (
+      '<span class="peek-title">What the marks mean</span>' +
+      '<span class="peek-legend">' +
+      TAG_LEGEND.map(
+        ([name, kind, line]) =>
+          `<span class="pl-row"><span class="tag" data-tag-kind="${kind}">${esc(name)}</span>` +
+          `<span class="pl-line">${esc(line)}</span></span>`,
+      ).join('') +
+      '</span>' +
+      '<span class="peek-foot"><button type="button" class="peek-close">Close</button></span>'
+    );
+  }
+
+  (function mountTagLegend() {
+    const first = document.querySelector<HTMLElement>('main .tag');
+    if (!first || first.nextElementSibling?.hasAttribute?.('data-tag-legend')) return;
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'tag-legend';
+    b.setAttribute('data-tag-legend', '');
+    b.setAttribute('aria-label', 'What the reliability marks mean');
+    b.textContent = '?';
+    first.after(b);
+  })();
+
+  document.addEventListener('click', (e) => {
+    const b = closest(e.target, '[data-tag-legend]');
+    if (!b) return;
+    e.preventDefault();
+    if (peekAnchor === b && peek && !peek.hidden) hidePeek();
+    else showPeek(b, legendHtml());
+  });
+
+  /* Citations: peek, then commit. */
+  document.addEventListener('click', async (e) => {
+    const c = closest(e.target, 'cite.cit');
+    if (!c) return;
+    e.preventDefault();
+    if (peekAnchor === c && peek && !peek.hidden) {
+      hidePeek();
+      return;
+    }
+    const text = (c.textContent || '').trim().replace(/^\(|\)$/g, '');
+    showPeek(
+      c,
+      `<span class="peek-title">Source</span><span class="peek-dek">${esc(text)}</span>` +
+        `<span class="peek-foot"><button type="button" class="peek-close">Close</button></span>`,
+    );
+    const [map, abbrs] = await Promise.all([previews(), citationTexts()]);
+    /* Two matchers — the page titles under /texts/, and the abbreviation
+       table — and a citation routinely names two or three texts. The one the
+       entry is actually sourced to is the one named FIRST, so the winner is
+       the earliest match in the string, not the first matcher to answer:
+       `(Viṣṇu Purāṇa 1.9; Bhāgavata Purāṇa 8.8)` opens the Viṣṇu Purāṇa. */
+    const hit = [matchText(text, map), matchAbbr(text, abbrs)]
+      .filter((x): x is NonNullable<typeof x> => !!x)
+      .sort((a, b) => a.at - b.at)[0];
+    if (hit && peekAnchor === c) {
+      const foot = peek?.querySelector('.peek-foot');
+      if (foot) {
+        const a = document.createElement('a');
+        a.href = hit.route;
+        a.textContent = hit.label ? `Open ${hit.label}` : 'Open in Texts';
+        foot.insertBefore(a, foot.firstChild);
+      }
+    }
+  });
+
+  /* Best-effort: does this citation name a text we hold a page for? */
+  const fold = (s: string) =>
+    s
+      .normalize('NFD')
+      .replace(/[̀-ͯ]/g, '')
+      .toLowerCase();
+  type CiteHit = { route: string; label: string | null; at: number };
+  let textIndex: [string, string][] | null = null;
+  function matchText(cite: string, map: Record<string, { title: string }>): CiteHit | null {
+    if (!textIndex) {
+      textIndex = Object.entries(map)
+        .filter(([r]) => r.startsWith('/texts/') && r.split('/').length > 3)
+        .map(([r, v]) => [fold(v.title.split('—')[0].trim()), r] as [string, string])
+        .filter(([t]) => t.length > 5)
+        .sort((a, b) => b[0].length - a[0].length);
+    }
+    const hay = fold(cite);
+    let best: CiteHit | null = null;
+    for (const [title, route] of textIndex) {
+      const at = hay.indexOf(title);
+      if (at >= 0 && (!best || at < best.at)) best = { route, label: null, at };
+    }
+    return best;
+  }
+
+  /* The abbreviation table (src/lib/citations.ts), validated at build against
+     the route set and served as a <1 KB static file. */
+  type CitationText = { route: string; label: string; abbr: string[] };
+  let citationsPromise: Promise<CitationText[]> | null = null;
+  function citationTexts(): Promise<CitationText[]> {
+    if (!citationsPromise) {
+      citationsPromise = fetch('/citation-texts.json')
+        .then((r) => (r.ok ? r.json() : []))
+        .catch(() => [] as CitationText[]);
+    }
+    return citationsPromise;
+  }
+
+  let abbrIndex: { re: RegExp; row: CitationText }[] | null = null;
+  function matchAbbr(cite: string, table: CitationText[]): CiteHit | null {
+    if (!abbrIndex) {
+      const reEsc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      abbrIndex = table.map((row) => {
+        /* Whole-word, on folded text. A `^` prefix anchors the form to the
+           start of the citation (see the note in src/lib/citations.ts). */
+        const parts = row.abbr.map((a) =>
+          a.startsWith('^') ? `^${reEsc(a.slice(1))}` : `(?:^|[^a-z])${reEsc(a)}`,
+        );
+        return { re: new RegExp(`(?:${parts.join('|')})(?![a-z])`), row };
+      });
+    }
+    const hay = fold(cite);
+    let best: CiteHit | null = null;
+    for (const { re, row } of abbrIndex) {
+      const m = re.exec(hay);
+      if (!m) continue;
+      /* the alternation may have eaten one leading separator character */
+      const at = m.index + (/^[a-z]/.test(m[0]) ? 0 : 1);
+      if (!best || at < best.at) best = { route: row.route, label: row.label, at };
+    }
+    return best;
+  }
+
+  /* Cross-reference previews: hover on a pointer, long-press on touch. */
+  function xrefCard(route: string, map: Record<string, { title: string; dek: string; period: string | null }>) {
+    const p = map[route];
+    if (!p) return null;
+    return (
+      `<span class="peek-title">${esc(p.title)}</span>` +
+      (p.dek ? `<span class="peek-dek">${esc(p.dek.slice(0, 190))}${p.dek.length > 190 ? '…' : ''}</span>` : '') +
+      `<span class="peek-foot">${p.period ? `<span class="chip" data-period="${esc(p.period)}">${esc(p.period.replace(/-/g, ' '))}</span>` : ''}<button type="button" class="peek-close">Close</button></span>`
+    );
+  }
+
+  async function tryXref(a: HTMLElement) {
+    const route = a.getAttribute('data-route') || a.getAttribute('href');
+    if (!route) return;
+    const map = await previews();
+    const html = xrefCard(route, map);
+    if (html) showPeek(a, html);
+  }
+
+  if (matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    document.addEventListener('mouseover', (e) => {
+      const a = closest(e.target, 'a.xref');
+      clearTimeout(peekTimer);
+      if (!a) return;
+      peekTimer = window.setTimeout(() => tryXref(a), 380);
+    });
+    document.addEventListener('mouseout', (e) => {
+      if (closest(e.target, 'a.xref')) clearTimeout(peekTimer);
+    });
+  } else {
+    document.addEventListener(
+      'touchstart',
+      (e) => {
+        const a = closest(e.target, 'a.xref');
+        if (!a) return;
+        peekTimer = window.setTimeout(() => tryXref(a), 480);
+      },
+      { passive: true },
+    );
+    ['touchend', 'touchmove', 'touchcancel'].forEach((ev) =>
+      document.addEventListener(ev, () => clearTimeout(peekTimer), { passive: true }),
+    );
+  }
+
+  /* ------------------------------------------------------------- share -- */
+
+  document.addEventListener('click', async (e) => {
+    const b = closest(e.target, '[data-share]');
+    if (!b) return;
+    const url = location.href;
+    const title = b.getAttribute('data-share') || document.title;
+    try {
+      if (navigator.share) await navigator.share({ title, url });
+      else {
+        await navigator.clipboard.writeText(url);
+        const was = b.textContent;
+        b.textContent = 'Link copied';
+        setTimeout(() => (b.textContent = was), 1600);
+      }
+    } catch {
+      /* the user dismissed the share sheet */
+    }
+  });
+
+  /* ------------------------------------------ scribal-margin scrollspy -- */
+
+  const spy = document.querySelector('[data-scribe-toc]');
+  if (spy && 'IntersectionObserver' in window) {
+    const links = new Map<string, HTMLAnchorElement>();
+    spy.querySelectorAll('a[href^="#"]').forEach((a) =>
+      links.set(decodeURIComponent((a as HTMLAnchorElement).hash.slice(1)), a as HTMLAnchorElement),
+    );
+    const seen = new Set<string>();
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const en of entries) {
+          if (en.isIntersecting) seen.add(en.target.id);
+          else seen.delete(en.target.id);
+        }
+        let active = '';
+        for (const id of links.keys()) if (seen.has(id)) { active = id; break; }
+        links.forEach((a, id) =>
+          id === active ? a.setAttribute('aria-current', 'true') : a.removeAttribute('aria-current'),
+        );
+      },
+      { rootMargin: '-15% 0px -70% 0px' },
+    );
+    links.forEach((_, id) => {
+      const el = document.getElementById(id);
+      if (el) io.observe(el);
+    });
+  }
+</script>

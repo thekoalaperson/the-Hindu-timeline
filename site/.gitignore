@@ -1,0 +1,21 @@
+# build output
+dist/
+# generated types & cache
+.astro/
+# dependencies
+node_modules
+# generated data (rebuilt by `npm run generate`)
+src/generated/
+# derived media (rebuilt by scripts/media.mjs)
+public/media
+# the raster identity (rebuilt by scripts/og.mjs from src/components/clock/favicon.svg)
+public/favicon.svg
+public/og-default.png
+public/apple-touch-icon.png
+public/icon-192.png
+public/icon-512.png
+# macOS
+.DS_Store
+# logs
+*.log
+npm-debug.log*

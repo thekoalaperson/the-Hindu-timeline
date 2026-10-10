@@ -1,0 +1,159 @@
+{
+  "$comment": "Curated art plates — the still that stands for an age or a section on pages that have no film of their own. `film` is a slug in featured.json, `still` an index into that film's stills array, `alt` the plate's own alt text (the still's own alt describes a story beat; a plate is an atmosphere). Chosen by INT2 on 2026-09-06 by reading every still's alt/caption; the reasoning is in INT2-report.md. `hub` (added by lane L3, W4) is the same shape for the Stories hub: the page plate and the five doors. Sources: research/R7-art-candidates.json in RUN-2026-09-06-1700-v2.",
+  "periods": {
+    "before-time": {
+      "film": "varaha",
+      "still": 0,
+      "alt": "Brahmā looks out over a shoreless ocean at the dawn of a new creation, with no earth left to stand on."
+    },
+    "earlier-manvantaras": {
+      "film": "dhruva",
+      "still": 3,
+      "alt": "The fixed point at the top of the sky, every other star circling it without end."
+    },
+    "satya-yuga": {
+      "film": "manthan",
+      "still": 0,
+      "alt": "The serpent Vāsuki wound taut as the churning-rope of the Ocean of Milk."
+    },
+    "treta-yuga": {
+      "film": "vamana",
+      "still": 1,
+      "alt": "The dwarf becomes Trivikrama and towers past the crowd as daylight tears open into stars."
+    },
+    "dvapara-yuga": {
+      "film": "govardhan",
+      "still": 2,
+      "alt": "Kṛṣṇa holds the whole hill of Govardhana on the little finger of his left hand."
+    },
+    "kali-yuga-scriptural": {
+      "film": "markandeya",
+      "still": 2,
+      "alt": "The stone cracks open like dawn and Śiva comes out of it as the ender of Death."
+    },
+    "kali-yuga-history": {
+      "film": "origin-of-jagannath",
+      "still": 0,
+      "alt": "Three immense chariots roll through Puri as countless hands pull them into the street."
+    },
+    "future-manvantaras": {
+      "film": "matsya",
+      "still": 2,
+      "alt": "A boat rides the flood through the drowning dark, bound to Matsya's golden horn."
+    },
+    "cross-yuga": {
+      "film": "mahishasura",
+      "still": 1,
+      "alt": "Durgā rides her lion toward the demon army, laughing, and the sound alone shakes their ranks."
+    }
+  },
+  "sections": {
+    "cosmology": {
+      "film": "lingodbhava",
+      "still": 1,
+      "alt": "A pillar of fire with no top either god can see and no base either can reach."
+    },
+    "manvantaras": {
+      "film": "matsya",
+      "still": 1,
+      "alt": "The fish grown to fill the ocean itself, golden and vast, one horn shining on its head."
+    },
+    "deities": {
+      "film": "mahishasura",
+      "still": 0,
+      "alt": "Light pours from the face of every god and climbs into a single mountain-tall column of fire."
+    },
+    "lineages": {
+      "film": "yayati",
+      "still": 0,
+      "alt": "An unnaturally aged king reaches toward his youngest son, who stands young and straight before him."
+    },
+    "stories": {
+      "film": "narasimha",
+      "still": 1,
+      "alt": "The pillar splits and Narasiṃha bursts from the stone — a lion's head upon a man's body."
+    },
+    "dharma": {
+      "film": "bhagavad-gita-vishvarupa",
+      "still": 3,
+      "alt": "In the Viśvarūpa, Kṛṣṇa shows Arjuna time itself."
+    },
+    "places": {
+      "film": "lingodbhava",
+      "still": 3,
+      "alt": "Aruṇācala, the hill at Tiruvaṇṇāmalai, where a myth is given a place on earth."
+    },
+    "teachers": {
+      "film": "ekalavya",
+      "still": 3,
+      "alt": "At dawn a young archer bows before the clay teacher he made for himself."
+    },
+    "beings": {
+      "film": "garuda",
+      "still": 0,
+      "alt": "Garuḍa rises fully formed from the egg, blazing so bright the gods mistake him for fire."
+    },
+    "symbols": {
+      "film": "syamantaka",
+      "still": 0,
+      "alt": "Sūrya gives the Syamantaka, the sun-gem that makes eight bhāra of gold a day."
+    },
+    "texts": {
+      "film": "ganesha",
+      "still": 3,
+      "alt": "Gaṇeśa breaks off his own tusk and writes on to the last verse of the Mahābhārata."
+    },
+    "films": {
+      "film": "vamana",
+      "still": 1,
+      "alt": "The dwarf becomes Trivikrama and towers past the crowd as daylight tears open into stars."
+    },
+    "search": {
+      "film": "kirata",
+      "still": 0,
+      "alt": "Indrakīla at first light — a vast grey-blue Himalayan massif above the treeline."
+    },
+    "timeline": {
+      "film": "dhruva",
+      "still": 3,
+      "alt": "The fixed point at the top of the sky, every other star circling it without end."
+    },
+    "(root)": {
+      "film": "manthan",
+      "still": 0,
+      "alt": "The serpent Vāsuki wound taut as the churning-rope of the Ocean of Milk."
+    }
+  },
+  "hub": {
+    "great-stories": {
+      "film": "manthan",
+      "still": 2,
+      "alt": "A figure rising out of a bright sea on an open lotus, attendants either side — the picture a great story leaves behind."
+    },
+    "gods": {
+      "film": "mahishasura",
+      "still": 0,
+      "alt": "Light drawn out of many faces and gathered into one standing column of fire."
+    },
+    "people": {
+      "film": "draupadi",
+      "still": 2,
+      "alt": "A crowded arena in warm light, a garland passing between two people and every face turned to watch."
+    },
+    "places": {
+      "film": "kirata",
+      "still": 0,
+      "alt": "A vast grey-blue Himalayan wall at first light, one figure small on the ridge for scale."
+    },
+    "texts": {
+      "film": "ganesha",
+      "still": 3,
+      "alt": "A writing table heaped with loose manuscript leaves, a hand at work in lamplight."
+    },
+    "ideas": {
+      "film": "bhagavad-gita-vishvarupa",
+      "still": 3,
+      "alt": "A single form opening onto a field of stars — the picture the abstract words point at."
+    }
+  }
+}

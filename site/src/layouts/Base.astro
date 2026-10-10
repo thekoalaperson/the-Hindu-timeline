@@ -1,0 +1,296 @@
+---
+/**
+ * Base.astro — the shell every page sits in.
+ *
+ * DOM contract from I1 (§9) is preserved; wrappers and slots were added:
+ *   body[data-page][data-period?]
+ *     a.skip-link
+ *     header.site-header
+ *       div.header-row > a.site-mark, slot "crumbs", nav.site-header-nav,
+ *                        div.header-tools (progress roundel)
+ *       slot "context"                    ← the sticky context pill row
+ *     main#main.site-main > default slot
+ *     nav.bottom-bar > 4 × .bottom-bar-item[data-nav]
+ *     footer.site-footer
+ *     dialog.sheet ×2 (+ slot "sheets")
+ *
+ * `<html data-plain>` is stamped **server-side**: plain English is the default
+ * (D-plain-default, BRIEF v4 §4 W3e), and a default that only exists once a
+ * script has run is not a default for the visitor it was chosen for. The prose
+ * ships plain too (rehype-corpus (l)), so the apparatus is quiet and the
+ * spellings popular from the first byte; the pre-paint inline script below
+ * only ever *removes* the attribute, for the reader who turned plain off.
+ * (Note for the next editor: nothing may sit between `<!doctype html>` and
+ * `<html>` — an Astro expression there stops the compiler recognising the
+ * document and it emits a bare `<html>` with no head or body.)
+ *
+ * Fonts: EB Garamond 400 / 400-italic / 600 and Tiro Devanagari Hindi 400.
+ * The combined @fontsource entry points are used deliberately — they carry
+ * unicode-range per subset, so a browser fetches latin + latin-ext only, and
+ * Tiro's devanagari file only when a Devanagari codepoint appears.
+ */
+import ebLatin from '@fontsource/eb-garamond/files/eb-garamond-latin-400-normal.woff2?url';
+import ebLatinExt from '@fontsource/eb-garamond/files/eb-garamond-latin-ext-400-normal.woff2?url';
+import '@fontsource/eb-garamond/400.css';
+import '@fontsource/eb-garamond/400-italic.css';
+import '@fontsource/eb-garamond/600.css';
+import '@fontsource/tiro-devanagari-hindi/400.css';
+import '../styles/base.css';
+import BrowseSheet from '../components/BrowseSheet.astro';
+import Icon from '../components/Icon.astro';
+import PlainScript from '../components/PlainScript.astro';
+import PlainToggle from '../components/PlainToggle.astro';
+import { clockMarkSvg } from '../components/clock/ClockMark.tsx';
+import SearchSheet from '../components/SearchSheet.astro';
+import ShellScript from '../components/ShellScript.astro';
+import { stats } from '../lib/graph.ts';
+import { GITHUB_BLOB } from '../lib/routes.ts';
+
+export interface Props {
+  title: string;
+  description?: string;
+  /** Value for `body[data-page]` — a coarse page kind for styling hooks. */
+  page?: string;
+  /** Cosmic period slug; becomes `body[data-period]` so the accent follows. */
+  period?: string | null;
+  /**
+   * The `og:image`, site-relative or absolute. Defaults to the card
+   * `scripts/og.mjs` draws — the mark on paper — so every page has one.
+   * A film page passes its own poster.
+   */
+  image?: string | null;
+}
+
+const {
+  title,
+  description = '',
+  page = 'plain',
+  period = null,
+  image = null,
+} = Astro.props;
+const siteName = 'The Hindu Timeline';
+/* De-dup the suffix: a few pages (and the corpus's own root files) already
+   carry "… · The Hindu Timeline" in the title they pass, which composed into
+   "X · The Hindu Timeline · The Hindu Timeline". Strip any number of trailing
+   copies before adding exactly one. */
+const SUFFIX_RE = new RegExp(`(?:\\s*·\\s*${siteName})+\\s*$`, 'i');
+const bareTitle = title.replace(SUFFIX_RE, '').trim() || siteName;
+const fullTitle = bareTitle === siteName ? siteName : `${bareTitle} · ${siteName}`;
+const origin = Astro.site ?? 'https://example.invalid';
+const canonical = new URL(Astro.url.pathname, origin).href;
+const ogImage = new URL(image ?? '/og-default.png', origin).href;
+/* The default card is a known 1200×630; a film poster is not, so the size
+   hints are only declared when we are sure of them. */
+const ogImageIsDefault = !image;
+const hasCrumbs = Astro.slots.has('crumbs');
+
+/* The four doors, named for what a first-time visitor wants (BRIEF v4 §4 W3a).
+   "Clock" and "Browse" were our vocabulary, not theirs: the clock is the
+   Journey (the road home page), and Browse — a manuscript index of eleven
+   folder names — survives as one section at the foot of the Stories hub.
+   The Journey keeps the clock mark, which is also the site mark, so the two
+   ways home read as the same place. */
+const NAV = [
+  { key: 'journey', label: 'Journey', href: '/', icon: 'clock' as const, sheet: null },
+  { key: 'stories', label: 'Stories', href: '/stories/', icon: 'stories' as const, sheet: null },
+  { key: 'films', label: 'Films', href: '/films/', icon: 'films' as const, sheet: null },
+  { key: 'search', label: 'Search', href: '/search/', icon: 'search' as const, sheet: 'sheet-search' },
+];
+const here = Astro.url.pathname;
+/* "Current" is the section, not the exact URL: a story page is inside
+   Stories, a period page is inside the Journey. The home page is only ever
+   current on `/` itself, or the mark would light on every page. */
+function navCurrent(href: string): boolean {
+  if (here === href) return true;
+  if (href === '/') return here === '/clock/' || here.startsWith('/clock/');
+  return here.startsWith(href);
+}
+const repoUrl = GITHUB_BLOB.replace('/blob/main/', '');
+---
+
+<!doctype html>
+<html lang="en" data-plain>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f4eedd" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#14181f" media="(prefers-color-scheme: dark)" />
+    <title>{fullTitle}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="canonical" href={canonical} />
+    <link rel="preload" href={ebLatin} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={ebLatinExt} as="font" type="font/woff2" crossorigin />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:title" content={title} />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content={canonical} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:image" content={ogImage} />
+    {ogImageIsDefault && <meta property="og:image:width" content="1200" />}
+    {ogImageIsDefault && <meta property="og:image:height" content="630" />}
+    {
+      ogImageIsDefault && (
+        <meta
+          property="og:image:alt"
+          content="The Hindu Timeline — the cosmic clock mark drawn on manuscript paper"
+        />
+      )
+    }
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="generator" content={Astro.generator} />
+    {/* Head elements a page owns: og:video, JSON-LD, a page-specific link. */}
+    <slot name="head" />
+    <script is:inline>
+      // Before paint: the chosen theme, and whether the one orchestrated
+      // motion has already been spent this session.
+      (function () {
+        var d = document.documentElement;
+        d.classList.add('js');
+        try {
+          var t = localStorage.getItem('tht-theme');
+          if (t === 'dark' || t === 'light') d.setAttribute('data-theme', t);
+        } catch (e) {}
+        try {
+          if (sessionStorage.getItem('tht-arrived')) d.setAttribute('data-motion', 'off');
+          else sessionStorage.setItem('tht-arrived', '1');
+        } catch (e) {}
+        // Plain English mode, stamped before the first paint so nobody sees a
+        // flash of the apparatus. The key is lib/plain-english-client.ts's
+        // STORAGE_KEY; the text rewrite itself happens in PlainScript.astro
+        // once the DOM exists.
+        //
+        // D-plain-default (BRIEF v4 §4 W3e): the attribute is already on
+        // `<html>` from the server, because a first-time visitor — with or
+        // without JavaScript — should meet Krishna, Shiva and Vishnu, not
+        // Kṛṣṇa, Śiva and Viṣṇu. Only an explicit stored "0" takes it off, so
+        // a reader who chose the scholarly text keeps it and never sees a
+        // flash of plain. Storage blocked (private mode, an embed) leaves the
+        // server's default standing — the friendlier of the two failures.
+        try {
+          if (localStorage.getItem('ht:plain') === '0') d.removeAttribute('data-plain');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body data-page={page} data-period={period ?? undefined} data-has-crumbs={hasCrumbs ? '' : undefined}>
+    <a class="skip-link" href="#main">Skip to the text</a>
+
+    <header class="site-header">
+      <div class="header-row">
+        <a class="site-mark" href="/" aria-label={`${siteName} — home`}>
+          <span class="site-mark-glyph" aria-hidden="true" set:html={clockMarkSvg({ size: 22, period: period ?? undefined })} />
+          <span class="site-wordmark">{siteName}</span>
+        </a>
+        <slot name="crumbs" />
+        <span class="header-spacer"></span>
+        <nav class="site-header-nav" aria-label="Site">
+          {
+            NAV.map((item) => (
+              <a
+                class="header-nav-item"
+                href={item.href}
+                data-nav={item.key}
+                data-sheet={item.sheet ?? undefined}
+                aria-haspopup={item.sheet ? 'dialog' : undefined}
+                aria-current={navCurrent(item.href) ? 'page' : undefined}
+              >
+                {item.label}
+              </a>
+            ))
+          }
+        </nav>
+        <div class="header-tools">
+          <PlainToggle />
+          <div class="progress-ring" data-progress aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <circle class="pr-track" cx="12" cy="12" r="9.2" stroke-width="1.4"></circle>
+              <circle
+                class="pr-fill"
+                cx="12"
+                cy="12"
+                r="9.2"
+                stroke-width="1.6"
+                stroke-linecap="round"
+                stroke-dasharray="57.8"
+                stroke-dashoffset="57.8"></circle>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <slot name="context" />
+    </header>
+
+    <main id="main" class="site-main">
+      <slot />
+    </main>
+
+    <nav class="bottom-bar" aria-label="Primary">
+      {
+        NAV.map((item) => (
+          <a
+            class="bottom-bar-item"
+            data-nav={item.key}
+            href={item.href}
+            data-sheet={item.sheet ?? undefined}
+            aria-haspopup={item.sheet ? 'dialog' : undefined}
+            aria-current={navCurrent(item.href) ? 'page' : undefined}
+          >
+            {item.icon === 'clock' ? (
+              <Fragment set:html={clockMarkSvg({ size: 20, period: period ?? undefined })} />
+            ) : (
+              <Icon name={item.icon} size={20} />
+            )}
+            <span class="bb-label">{item.label}</span>
+          </a>
+        ))
+      }
+    </nav>
+
+    <footer class="site-footer">
+      <p class="site-stats">
+        {stats.files.toLocaleString('en')} pages · {stats.words.toLocaleString('en')} words · {
+          stats.events.toLocaleString('en')
+        } events on the cosmic clock. Every claim carries its source.
+      </p>
+      <ul>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/sources/">View the sources</a></li>
+        <li><a href="/about/structure/">Every page</a></li>
+        <li><a href={repoUrl} rel="noopener">GitHub</a></li>
+      </ul>
+    </footer>
+
+    <BrowseSheet />
+    <SearchSheet />
+    <slot name="sheets" />
+
+    <div class="peek" hidden data-peek role="dialog" aria-label="Preview"></div>
+
+    <ShellScript />
+    <PlainScript />
+
+    <style>
+      .header-nav-item {
+        color: var(--ink-2);
+        text-decoration: none;
+        font-size: var(--t-sm);
+        padding: 0.45rem 0.6rem;
+        min-height: 40px;
+        display: inline-flex;
+        align-items: center;
+        border-radius: 2px;
+      }
+      .header-nav-item:hover {
+        color: var(--link);
+      }
+      .header-nav-item[aria-current='page'] {
+        color: var(--ink);
+        box-shadow: inset 0 -1px 0 0 var(--rubric);
+      }
+    </style>
+  </body>
+</html>

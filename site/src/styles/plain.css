@@ -1,0 +1,289 @@
+/*
+ * plain.css — plain English reading mode.
+ *
+ * Two halves:
+ *   1. `html[data-plain]` — what the mode *quiets*. Nothing is deleted; the
+ *      apparatus steps back so the story is the only thing on the page.
+ *      The lede stays: it is the story's own opening, not apparatus.
+ *   2. `.plain-words` — the "In plain words" block, which is present in both
+ *      modes and becomes the lead in plain mode.
+ *   3. `.plain-toggle` — the control, in the header and in the Page sheet.
+ *
+ * The attribute is owned by `lib/plain-english-client.ts` (PE1) and stamped
+ * before paint by the inline script in `Base.astro`.
+ */
+
+/* ------------------------------------------------------- what is quieted -- */
+
+/* `:not([data-apparatus])` is the "one tap to unfold" of BRIEF v4 §4 W3d: a
+   story page carries a single "Show the citations" button that flips
+   `html[data-apparatus]`, and the whole apparatus comes back without leaving
+   plain spellings. Without the guard the citations were simply gone, which is
+   not the same promise as "quieted". */
+html[data-plain]:not([data-apparatus]) .cit,
+html[data-plain]:not([data-apparatus]) .tag,
+html[data-plain]:not([data-apparatus]) .tag-note,
+html[data-plain]:not([data-apparatus]) .tag-legend,
+html[data-plain]:not([data-apparatus]) .source-link,
+html[data-plain]:not([data-apparatus]) .verse-ref {
+  display: none !important;
+}
+
+/* Variant readings are the most scholarly thing on a leaf. They stay
+   available — folded, small, and set back behind a rule — but they no longer
+   interrupt. */
+html[data-plain] details.tellings {
+  margin-block: 1.1rem;
+  padding-left: 0.9rem;
+  border-left: var(--hair) solid var(--rule);
+  opacity: 0.62;
+  transition: opacity 200ms var(--ease-out-quint);
+}
+html[data-plain] details.tellings:hover,
+html[data-plain] details.tellings[open] {
+  opacity: 1;
+}
+html[data-plain] details.tellings > summary {
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+}
+
+/* The plate credit is a scholarly nicety too. */
+html[data-plain] .art-credit {
+  opacity: 0.55;
+}
+
+/* In plain mode the block is the lead: it opens the page, and the lede that
+   follows becomes the second voice rather than the first. */
+html[data-plain] .plain-words {
+  --pw-edge: var(--rubric);
+}
+html[data-plain] .plain-words + .prose > blockquote.lede {
+  opacity: 0.72;
+  font-size: var(--t-sm);
+}
+
+/* ------------------------------------------------------- in plain words --- */
+
+.plain-words {
+  --pw-edge: var(--gold);
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  margin: var(--gap-5) 0 0;
+  padding: 1.15rem 1.15rem 1.25rem;
+  border: var(--hair) solid color-mix(in oklab, var(--gold) 34%, var(--rule));
+  border-left: 3px solid var(--pw-edge);
+  background: color-mix(in oklab, var(--gold) 7%, var(--paper));
+  max-inline-size: var(--measure);
+}
+
+/* The page's own picture, washed almost out, so the block belongs to the art
+   above it rather than sitting on the paper like a notice. */
+.pw-wash {
+  position: absolute;
+  inset: 0 0 0 auto;
+  z-index: -1;
+  width: 62%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.16;
+  filter: saturate(0.8);
+  -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 0.9), transparent 88%);
+  mask-image: linear-gradient(to left, rgba(0, 0, 0, 0.9), transparent 88%);
+  pointer-events: none;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .pw-wash {
+    opacity: 0.24;
+  }
+}
+:root[data-theme='dark'] .pw-wash {
+  opacity: 0.24;
+}
+
+.pw-body {
+  position: relative;
+}
+
+.pw-title {
+  margin: 0 0 0.5rem;
+  font-size: var(--t-sm);
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--gold-text);
+}
+
+.pw-intro {
+  margin: 0;
+  font-size: var(--t-md);
+  line-height: 1.5;
+  color: var(--ink);
+  max-inline-size: 30rem;
+}
+
+.pw-sub {
+  display: block;
+  margin: 0 0 0.3rem;
+  font-size: var(--t-xs);
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+}
+
+.pw-who {
+  margin-top: 1rem;
+}
+.pw-who-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.28rem;
+}
+.pw-who-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.5rem;
+  font-size: var(--t-sm);
+  line-height: 1.4;
+}
+.pw-name {
+  font-weight: 600;
+  color: var(--ink);
+}
+.pw-name::after {
+  content: '\00a0—';
+  color: var(--gold);
+  font-weight: 400;
+}
+.pw-role {
+  color: var(--ink-2);
+}
+
+.pw-why {
+  margin: 1rem 0 0;
+  padding-top: 0.75rem;
+  border-top: var(--hair) solid color-mix(in oklab, var(--gold) 30%, var(--rule));
+  font-size: var(--t-sm);
+  line-height: 1.5;
+  color: var(--ink);
+}
+
+/* --------------------------------------------------------- the control --- */
+
+.plain-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0 0.5rem;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-size: var(--t-sm);
+  color: var(--ink-2);
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-tap-highlight-color: transparent;
+}
+.plain-toggle:hover {
+  color: var(--link);
+}
+.plain-toggle[aria-pressed='true'] {
+  color: var(--ink);
+  box-shadow: inset 0 -1px 0 0 var(--rubric);
+}
+.pt-glyph {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+}
+.pt-glyph svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.plain-toggle[aria-pressed='true'] .pt-glyph {
+  color: var(--rubric);
+}
+
+/* On a phone the breadcrumb needs the middle of the header, so the label
+   shortens rather than the trail truncating. The accessible name is the
+   button's `aria-label`, which never changes. */
+.pt-label-full {
+  display: none;
+}
+.pt-label-short {
+  display: inline;
+}
+@media (min-width: 560px) {
+  .pt-label-full {
+    display: inline;
+  }
+  .pt-label-short {
+    display: none;
+  }
+}
+@media (max-width: 379px) {
+  .pt-label {
+    display: none;
+  }
+}
+
+/* -- the Page sheet row --------------------------------------------------- */
+
+.plain-toggle-sheet {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 0.6rem;
+  padding: 0.55rem 0;
+  color: var(--ink);
+  box-shadow: none;
+  text-align: left;
+}
+.plain-toggle-sheet[aria-pressed='true'] {
+  box-shadow: none;
+}
+.plain-toggle-sheet .pt-label-full {
+  display: inline;
+}
+.plain-toggle-sheet .pt-label-short {
+  display: none;
+}
+.plain-toggle-sheet .pt-label {
+  display: inline;
+}
+.pt-state {
+  margin-left: auto;
+  font-size: var(--t-xs);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-2);
+  border: var(--hair) solid var(--rule);
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+}
+.plain-toggle-sheet[aria-pressed='true'] .pt-state {
+  color: var(--rubric);
+  border-color: var(--rubric);
+}
+
+@media print {
+  .plain-toggle {
+    display: none;
+  }
+  .plain-words {
+    break-inside: avoid;
+  }
+  .pw-wash {
+    display: none;
+  }
+}

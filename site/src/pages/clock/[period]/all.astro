@@ -1,0 +1,415 @@
+---
+/**
+ * /clock/<period>/all/ — every event of one age, in full.
+ *
+ * This is the *reference* half of the period page. `/clock/<period>/` used to
+ * carry it: the Tretā page rendered 179 disclosures each holding its whole
+ * event list, 8,289 DOM nodes and 703 KB of HTML, on the one page that is
+ * supposed to introduce an age (FIXLIST L2b-2). The introduction stayed
+ * there; the reference moved here, where a reader arrives having asked for
+ * it, and where its weight is the point rather than a tax.
+ *
+ * Everything that reads the event lists lives here with them: the actor
+ * chips, "Read as a scroll", and the groups themselves. Server-rendered and
+ * complete without JavaScript — the three enhancements above only make an
+ * already-working page quicker to sift.
+ */
+import PageArt from '../../../components/PageArt.astro';
+import Plain from '../../../components/Plain.astro';
+import { plateForPeriod } from '../../../components/art.ts';
+import { clockMarkSvg } from '../../../components/clock/ClockMark.tsx';
+import Base from '../../../layouts/Base.astro';
+import { PERIODS, foldName } from '../../../lib/routes.ts';
+
+export function getStaticPaths() {
+  return PERIODS.map((p) => ({ params: { period: p.slug } }));
+}
+
+interface EventItem {
+  title: string;
+  description: string;
+  actors: string[];
+  source: string | null;
+}
+interface Group {
+  path: string | null;
+  route: string | null;
+  title: string;
+  section: string | null;
+  count: number;
+  events: EventItem[];
+}
+interface Payload {
+  slug: string;
+  name: string;
+  short: string;
+  title: string;
+  intro: string;
+  route: string;
+  sourceFile: string;
+  count: number;
+  groupCount: number;
+  groups: Group[];
+}
+
+const { period } = Astro.params;
+const loaders = import.meta.glob<Payload>('../../../generated/events/*.json', { import: 'default' });
+const loader = loaders[`../../../generated/events/${period}.json`];
+if (!loader) throw new Error(`No event payload for period "${period}" — re-run \`npm run generate\`.`);
+const data = await loader();
+
+/* The thirty most-named actors of the period, computed here so the client
+   ships no counting code. Spellings are folded before counting (the corpus
+   carries both `Rāma` and `Rama`); the commonest surface form is displayed. */
+const tally = new Map<string, { n: number; forms: Map<string, number> }>();
+for (const g of data.groups) {
+  for (const ev of g.events) {
+    for (const a of ev.actors) {
+      const key = foldName(a);
+      if (!key) continue;
+      const rec = tally.get(key) ?? { n: 0, forms: new Map<string, number>() };
+      rec.n += 1;
+      rec.forms.set(a, (rec.forms.get(a) ?? 0) + 1);
+      tally.set(key, rec);
+    }
+  }
+}
+const top = [...tally.entries()]
+  .sort((a, b) => b[1].n - a[1].n)
+  .slice(0, 30)
+  .map(([key, rec]) => {
+    const forms = [...rec.forms.entries()];
+    // When a fold merges an IAST spelling with a plain-ASCII one (Kṛṣṇa /
+    // Krishna), surface the diacritic form — it is the more specific of the
+    // two — even if the ASCII spelling happens to be more frequent.
+    const diacritic = forms.find(([f]) => /[^\x00-\x7F]/.test(f));
+    const label = diacritic ? diacritic[0] : forms.sort((a, b) => b[1] - a[1])[0][0];
+    return { key, n: rec.n, label };
+  });
+const topIndex = new Map(top.map((t, i) => [t.key, i]));
+
+/** Which of the top thirty appear in each group — as indices, to stay small. */
+const groupActors = data.groups.map((g) => {
+  const set = new Set<number>();
+  for (const ev of g.events) for (const a of ev.actors) {
+    const i = topIndex.get(foldName(a));
+    if (i !== undefined) set.add(i);
+  }
+  return [...set].join(' ');
+});
+
+const plate = plateForPeriod(data.slug);
+const title = `Every event · ${data.short}`;
+---
+
+<Base
+  title={title}
+  description={`All ${data.count.toLocaleString('en')} events of ${data.short}, with their actors and sources.`}
+  page="period"
+  period={data.slug}
+>
+  <nav class="crumbs" aria-label="Breadcrumb" slot="crumbs">
+    <ol>
+      {/* "The Cosmic Clock" was hard-truncated to "The Cos…" by the root
+         crumb's width cap on every one of these pages. A short whole label
+         beats a long clipped one. */}
+      <li class="crumb crumb-root"><a href="/clock/">The Clock</a></li>
+      <li class="crumb"><a href={`/clock/${data.slug}/`}>{data.short}</a></li>
+      <li class="crumb crumb-current" aria-current="page">Every event</li>
+    </ol>
+  </nav>
+
+  <div class="context" slot="context">
+    <a class="chip context-period" data-period={data.slug} href={`/clock/${data.slug}/`}>
+      <Fragment set:html={clockMarkSvg({ size: 14, period: data.slug })} />
+      <span><Plain text={data.short} /></span>
+    </a>
+    <span class="context-events">{data.count.toLocaleString('en')} events</span>
+    <span class="context-stories">{data.groupCount} stories</span>
+  </div>
+
+  <article class="page period-page" data-pagefind-ignore data-period={data.slug} data-route={`/clock/${data.slug}/all/`}>
+    {
+      plate ? (
+        <PageArt art={plate} title="Every event" subtitle={data.short} kicker="The cosmic clock" period={data.slug} />
+      ) : (
+        <h1 class="page-title">Every event · {data.short}</h1>
+      )
+    }
+    <p class="page-dek">
+      All {data.count.toLocaleString('en')} events this age touches, in {data.groupCount} stories, filed
+      alphabetically with their actors and their sources.{' '}
+      <a href={`/clock/${data.slug}/`}>Back to {data.short} in order</a>.
+    </p>
+
+    {
+      top.length > 0 && (
+        <section class="actor-bar" data-actor-bar aria-labelledby="actors-heading">
+          <div class="actor-bar-head">
+            <h2 class="actor-bar-title" id="actors-heading">Who appears</h2>
+            <span class="actor-bar-note">Tap a name to keep only the stories it appears in.</span>
+          </div>
+          <ul class="actor-chips" data-actor-chips>
+            {top.map((t, i) => (
+              <li>
+                <button type="button" class="pill actor-chip" data-actor={String(i)} aria-pressed="false">
+                  {t.label} <span class="ac-n">{t.n}</span>
+                </button>
+              </li>
+            ))}
+          </ul>
+          <p class="filter-note" data-filter-note hidden />
+          <div class="actor-bar-controls">
+            <button type="button" class="pill actor-more" data-actor-more aria-expanded="false" hidden>
+              Show all thirty
+            </button>
+            <button type="button" class="pill scroll-toggle" data-scroll-toggle aria-pressed="false" hidden>
+              Read as a scroll
+            </button>
+          </div>
+        </section>
+      )
+    }
+
+    <div class="period-groups" data-groups>
+      {
+        data.groups.map((group, gi) => (
+          <details
+            class="story-group"
+            data-story={group.route ?? undefined}
+            data-count={String(group.count)}
+            data-actors={groupActors[gi]}
+          >
+            <summary>
+              <span class="disclosure-mark" aria-hidden="true">▸</span>
+              <span class="story-group-title"><Plain text={group.title} /></span>
+              <span class="story-group-count">{group.count}</span>
+            </summary>
+            <div class="story-group-body">
+              {group.route && (
+                <p class="story-group-link">
+                  <a href={group.route}>Read the story</a>
+                </p>
+              )}
+              <ul class="event-list">
+                {group.events.map((ev) => (
+                  <li class="entry">
+                    <strong class="lead">{ev.title}</strong>
+                    {ev.description && <span class="event-description"> — {ev.description}</span>}
+                    {ev.actors.length > 0 && (
+                      <span class="actors">
+                        {ev.actors.map((a) => (
+                          <span class="actor">{a}</span>
+                        ))}
+                      </span>
+                    )}
+                    {ev.source && <cite class="cit">({ev.source})</cite>}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </details>
+        ))
+      }
+    </div>
+    <div data-scroll-sentinel aria-hidden="true"></div>
+
+    <p class="source-link" data-pagefind-ignore>
+      <a
+        href={`https://github.com/thekoalaperson/the-Hindu-timeline/blob/main/${data.sourceFile ?? ''}`}
+        rel="noopener"
+        class="ext">View the source file</a
+      >
+      <span class="source-path">{data.sourceFile}</span>
+    </p>
+  </article>
+</Base>
+
+<script>
+  const bar = document.querySelector<HTMLElement>('[data-actor-bar]');
+  const groupsWrap = document.querySelector<HTMLElement>('[data-groups]');
+  if (bar && groupsWrap) {
+    const groups = Array.from(groupsWrap.querySelectorAll<HTMLDetailsElement>('.story-group'));
+    const sets = groups.map((g) => new Set((g.dataset.actors || '').split(' ').filter(Boolean)));
+    const chips = Array.from(bar.querySelectorAll<HTMLButtonElement>('[data-actor]'));
+    const note = bar.querySelector<HTMLElement>('[data-filter-note]')!;
+    const chipList = bar.querySelector<HTMLElement>('[data-actor-chips]')!;
+    const more = bar.querySelector<HTMLButtonElement>('[data-actor-more]')!;
+    const scrollBtn = bar.querySelector<HTMLButtonElement>('[data-scroll-toggle]')!;
+    const sentinel = document.querySelector<HTMLElement>('[data-scroll-sentinel]')!;
+    const selected = new Set<string>();
+
+    more.hidden = false;
+    scrollBtn.hidden = false;
+
+    more.addEventListener('click', () => {
+      const open = chipList.toggleAttribute('data-expanded');
+      more.setAttribute('aria-expanded', String(open));
+      more.textContent = open ? 'Show fewer' : 'Show all thirty';
+    });
+
+    // A filter that narrows to a handful of groups can safely open them all;
+    // one that still matches dozens must not, or the page just grows instead
+    // of shrinking. Groups stay collapsed above this count.
+    const AUTO_OPEN_MAX = 8;
+
+    function applyFilter() {
+      let shown = 0;
+      groups.forEach((g, i) => {
+        const ok = selected.size === 0 || [...selected].every((s) => sets[i].has(s));
+        g.hidden = !ok;
+        if (ok) shown++;
+        if (!ok) g.open = false;
+      });
+      if (selected.size > 0) {
+        const autoOpen = shown <= AUTO_OPEN_MAX;
+        groups.forEach((g) => {
+          if (!g.hidden) g.open = autoOpen;
+        });
+      }
+      if (selected.size === 0) {
+        note.hidden = true;
+        note.textContent = '';
+      } else {
+        const names = chips
+          .filter((c) => selected.has(c.dataset.actor!))
+          .map((c) => c.firstChild?.textContent?.trim())
+          .join(' and ');
+        note.hidden = false;
+        note.textContent = `${shown} ${shown === 1 ? 'story' : 'stories'} with ${names}. `;
+        const clear = document.createElement('button');
+        clear.type = 'button';
+        clear.className = 'link-clear';
+        clear.textContent = 'Clear';
+        clear.addEventListener('click', () => {
+          selected.clear();
+          chips.forEach((c) => c.setAttribute('aria-pressed', 'false'));
+          applyFilter();
+        });
+        note.appendChild(clear);
+      }
+    }
+
+    chips.forEach((c) => {
+      c.addEventListener('click', () => {
+        const id = c.dataset.actor!;
+        if (selected.has(id)) {
+          selected.delete(id);
+          c.setAttribute('aria-pressed', 'false');
+        } else {
+          selected.add(id);
+          c.setAttribute('aria-pressed', 'true');
+        }
+        applyFilter();
+      });
+    });
+
+    /* Read as a scroll: open in batches of twenty as the reader nears the
+       foot, so a 1,700-event period never renders open all at once. */
+    let scrolling = false;
+    let cursor = 0;
+    const BATCH = 20;
+    function openNext() {
+      let n = 0;
+      while (cursor < groups.length && n < BATCH) {
+        const g = groups[cursor++];
+        if (!g.hidden) {
+          g.open = true;
+          n++;
+        }
+      }
+      return cursor < groups.length;
+    }
+    const io = new IntersectionObserver((entries) => {
+      if (!scrolling) return;
+      for (const e of entries) if (e.isIntersecting) openNext();
+    });
+    scrollBtn.addEventListener('click', () => {
+      scrolling = !scrolling;
+      scrollBtn.setAttribute('aria-pressed', String(scrolling));
+      scrollBtn.textContent = scrolling ? 'Close the scroll' : 'Read as a scroll';
+      if (scrolling) {
+        cursor = 0;
+        openNext();
+        io.observe(sentinel);
+      } else {
+        io.unobserve(sentinel);
+        groups.forEach((g) => (g.open = false));
+      }
+    });
+  }
+</script>
+
+<style>
+  .actor-bar-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-2);
+    margin-top: 0.7rem;
+  }
+  .actor-bar-note {
+    color: var(--ink-2);
+    font-size: var(--t-sm);
+    line-height: 1.35;
+  }
+  .story-group {
+    display: grid;
+    grid-template-rows: auto 0fr;
+    grid-template-columns: minmax(0, 1fr);
+    transition: grid-template-rows 220ms var(--ease-out-quint);
+  }
+  /* This page's own `display: grid` above and components.css's
+     `.story-group[hidden] { display: none }` have equal specificity; being
+     later in the cascade (a scoped style is emitted after the linked
+     stylesheet), this rule would otherwise always win and the actor-chip
+     filter's `.hidden = true` would render nothing hidden at all. */
+  .story-group[hidden] {
+    display: none !important;
+  }
+  .story-group[open] {
+    grid-template-rows: auto 1fr;
+  }
+  .story-group-body {
+    overflow: hidden;
+    min-height: 0;
+  }
+  .disclosure-mark {
+    display: inline-block;
+    color: var(--rubric);
+    font-size: 0.72em;
+    line-height: 1;
+    transform: rotate(0deg);
+    transition: transform 180ms var(--ease-out-quint);
+  }
+  .story-group[open] .disclosure-mark {
+    transform: rotate(90deg);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .disclosure-mark {
+      transition: none;
+    }
+  }
+  :global(.link-clear) {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0.1rem 0.7rem;
+    border: var(--hair) solid var(--rule);
+    border-radius: 2px;
+    background: none;
+    color: var(--ink-2);
+    font: inherit;
+    font-size: var(--t-sm);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  :global(.link-clear:hover) {
+    color: var(--link);
+    border-color: var(--rule-strong);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .story-group {
+      transition: none;
+    }
+  }
+</style>

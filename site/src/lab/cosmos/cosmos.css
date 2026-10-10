@@ -1,0 +1,1039 @@
+/* cosmos.css — The Cosmos (lab concept A).
+   Its own palette: warm night. Never blue-grey; the ground colour is a lamp-lit
+   brown-black, and every accent is gold, vermilion or milk. */
+
+:root {
+  --cos-ground: #0b0806;
+  --cos-ink: #f7ede0;
+  --cos-ink-2: rgba(247, 237, 224, 0.66);
+  --cos-ink-3: rgba(247, 237, 224, 0.42);
+  --cos-gold: #eab95f;
+  --cos-gold-dim: rgba(234, 185, 95, 0.3);
+  --cos-vermilion: #d55c38;
+  --cos-milk: #f4ead8;
+  --cos-panel: rgba(24, 16, 11, 0.9);
+  --cos-rule: rgba(234, 185, 95, 0.2);
+  --cos-shadow: 0 18px 60px -20px rgba(0, 0, 0, 0.9);
+  --cos-key: #eab95f;
+  --cos-ease: cubic-bezier(0.22, 0.68, 0.24, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* The `width`/`height` attributes on an <img> are presentational hints; without
+   this the fallback cards ignore their CSS aspect-ratio and render as columns. */
+img {
+  max-width: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--cos-ground);
+  color: var(--cos-ink);
+  font-family: 'EB Garamond', Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body.cos-gl {
+  /* Only the WebGL build owns the whole viewport; the fallback scrolls. */
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+:where(.cos-lang-hi) {
+  font-family: 'Tiro Devanagari Hindi', 'EB Garamond', serif;
+}
+
+.cos-skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 90;
+  padding: 0.6rem 1rem;
+  background: var(--cos-panel);
+  color: var(--cos-ink);
+  border-radius: 0 0 8px 0;
+}
+.cos-skip:focus {
+  left: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--cos-gold);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* ------------------------------------------------------------- the stage - */
+
+.cos-stage {
+  position: fixed;
+  inset: 0;
+  height: 100dvh;
+  width: 100%;
+  overflow: hidden;
+  /* Painted before a byte of three.js arrives: a warm sky, a lamp on the axis
+     and two hints of ring, so the first frame is already the world. */
+  background:
+    radial-gradient(58% 13% at 50% 74%, rgba(214, 166, 96, 0.34) 0%, rgba(214, 166, 96, 0) 100%),
+    radial-gradient(88% 20% at 50% 82%, rgba(184, 138, 78, 0.24) 0%, rgba(184, 138, 78, 0) 100%),
+    radial-gradient(30% 26% at 50% 56%, rgba(246, 206, 138, 0.40) 0%, rgba(246, 206, 138, 0) 100%),
+    radial-gradient(120% 80% at 50% 18%, #1e150d 0%, #0d0906 46%, #070505 100%);
+}
+body:not(.cos-gl) .cos-stage {
+  display: none;
+}
+
+.cos-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  touch-action: none;
+  cursor: grab;
+}
+.cos-canvas:active {
+  cursor: grabbing;
+}
+
+/* A single warm vignette over the render — cheap, and it seats the type. */
+.cos-vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(130% 100% at 50% 45%, rgba(0, 0, 0, 0) 40%, rgba(6, 4, 3, 0.72) 100%),
+    linear-gradient(180deg, rgba(8, 5, 4, 0.75) 0%, rgba(8, 5, 4, 0) 22%, rgba(8, 5, 4, 0) 62%, rgba(8, 5, 4, 0.86) 100%);
+}
+
+/* --------------------------------------------------------------- labels - */
+
+.cos-labels {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.cos-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 50% 0;
+  will-change: transform, opacity;
+  font-size: 0.82rem;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+  color: var(--cos-ink);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.95), 0 0 22px rgba(0, 0, 0, 0.7);
+  white-space: normal;
+  max-width: 9.6rem;
+  text-align: center;
+  text-wrap: balance;
+  opacity: 0;
+  transition: opacity 240ms linear;
+}
+.cos-label b {
+  font-weight: 400;
+  display: block;
+}
+.cos-label i {
+  display: block;
+  font-style: normal;
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cos-key);
+  opacity: 0.82;
+}
+.cos-label.is-on {
+  opacity: 1;
+}
+
+/* Realm names, set larger and quieter than the story labels. */
+.cos-label.is-realm b {
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  color: rgba(247, 237, 224, 0.8);
+}
+.cos-label.is-realm i {
+  color: rgba(247, 237, 224, 0.34);
+}
+
+/* --------------------------------------------------------------- chrome - */
+
+.cos-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: calc(env(safe-area-inset-top, 0px) + 0.85rem) 0.95rem 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  pointer-events: none;
+  z-index: 6;
+}
+.cos-top > * {
+  pointer-events: auto;
+}
+
+.cos-wordmark {
+  font-size: 0.98rem;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: var(--cos-ink);
+  text-shadow: 0 2px 14px rgba(0, 0, 0, 0.9);
+  margin: 0;
+  font-weight: 400;
+}
+.cos-wordmark span {
+  display: block;
+  font-size: 0.66rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--cos-ink-3);
+  margin-top: 0.15rem;
+}
+
+.cos-btn {
+  appearance: none;
+  border: 1px solid var(--cos-rule);
+  background: rgba(20, 13, 9, 0.62);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  color: var(--cos-ink);
+  font: inherit;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  padding: 0.5rem 0.7rem;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: border-color 160ms, background 160ms, transform 120ms var(--cos-ease);
+}
+.cos-btn:hover {
+  border-color: rgba(234, 185, 95, 0.5);
+}
+.cos-btn:active {
+  transform: scale(0.96);
+}
+
+/* ---------------------------------------------------------- the ladder - */
+
+.cos-ladder {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 0.45rem 0 1.2rem;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: flex-end;
+}
+
+.cos-tick {
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 0.28rem 0.15rem 0.28rem 1.6rem;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--cos-ink-3);
+  font: inherit;
+  font-size: 0.64rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: color 200ms;
+}
+.cos-tick::after {
+  content: '';
+  width: 14px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.55;
+  transition: width 240ms var(--cos-ease), background 200ms;
+  flex: none;
+}
+.cos-tick span {
+  opacity: 0;
+  transform: translateX(4px);
+  transition: opacity 220ms, transform 220ms var(--cos-ease);
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.9);
+}
+.cos-tick:hover,
+.cos-tick:focus-visible {
+  color: var(--cos-ink);
+}
+.cos-tick:hover span,
+.cos-tick:focus-visible span {
+  opacity: 1;
+  transform: none;
+}
+.cos-tick[aria-current='true'] {
+  color: var(--cos-key);
+}
+.cos-tick[aria-current='true']::after {
+  width: 26px;
+}
+.cos-tick[aria-current='true'] span {
+  opacity: 1;
+  transform: none;
+}
+/* the disc gets a heavier rule — it is the world you start on */
+.cos-tick[data-band='disc']::after {
+  height: 2px;
+}
+
+/* ------------------------------------------------------------ ages rail - */
+
+.cos-rail {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 0 calc(env(safe-area-inset-bottom, 0px) + 0.7rem);
+  z-index: 6;
+}
+
+.cos-rail-line {
+  padding: 0 1rem 0.4rem;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: var(--cos-ink-2);
+  min-height: 2.1em;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.95);
+  transition: color 300ms;
+}
+.cos-rail-line b {
+  font-weight: 400;
+  color: var(--cos-key);
+}
+.cos-rail-line a {
+  color: var(--cos-ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--cos-gold-dim);
+  white-space: nowrap;
+}
+.cos-rail-line a:hover {
+  border-bottom-color: var(--cos-gold);
+}
+
+.cos-rail-strip {
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x proximity;
+  padding: 0.2rem 1rem 0.35rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.cos-rail-strip::-webkit-scrollbar {
+  display: none;
+}
+
+.cos-age {
+  flex: none;
+  scroll-snap-align: center;
+  appearance: none;
+  border: 1px solid var(--cos-rule);
+  background: rgba(18, 12, 8, 0.66);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: var(--cos-ink-2);
+  font: inherit;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  padding: 0.42rem 0.8rem;
+  min-height: 40px;
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: color 200ms, border-color 200ms, background 200ms, transform 140ms var(--cos-ease);
+}
+.cos-age i {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--dot, var(--cos-gold));
+  box-shadow: 0 0 10px var(--dot, var(--cos-gold));
+  flex: none;
+}
+.cos-age:active {
+  transform: scale(0.95);
+}
+.cos-age[aria-pressed='true'] {
+  color: #150e08;
+  background: var(--dot, var(--cos-gold));
+  border-color: transparent;
+  font-weight: 600;
+}
+.cos-age[aria-pressed='true'] i {
+  background: rgba(21, 14, 8, 0.62);
+  box-shadow: none;
+}
+
+/* ---------------------------------------------------------- first-run - */
+
+.cos-hint {
+  position: absolute;
+  inset: 0;
+  z-index: 12;
+  display: grid;
+  place-items: center;
+  padding: 1.4rem;
+  background: radial-gradient(90% 60% at 50% 55%, rgba(6, 4, 3, 0.5), rgba(6, 4, 3, 0.86));
+  animation: cos-fade-in 700ms 500ms both;
+}
+.cos-hint[hidden] {
+  display: none;
+}
+.cos-hint-card {
+  max-width: 21rem;
+  text-align: center;
+}
+.cos-hint h2 {
+  margin: 0 0 0.9rem;
+  font-size: 1.42rem;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: 0.01em;
+}
+.cos-hint ul {
+  list-style: none;
+  margin: 0 0 1.3rem;
+  padding: 0;
+  display: grid;
+  gap: 0.62rem;
+}
+.cos-hint li {
+  display: grid;
+  grid-template-columns: 1.9rem 1fr;
+  align-items: center;
+  gap: 0.7rem;
+  text-align: left;
+  font-size: 0.9rem;
+  color: var(--cos-ink-2);
+}
+.cos-hint li svg {
+  width: 1.9rem;
+  height: 1.9rem;
+  stroke: var(--cos-gold);
+  fill: none;
+  stroke-width: 1.1;
+  opacity: 0.9;
+}
+.cos-hint .cos-btn {
+  border-color: rgba(234, 185, 95, 0.5);
+  background: rgba(234, 185, 95, 0.12);
+  padding-inline: 1.5rem;
+}
+
+@keyframes cos-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Entrance title — the ten-second moment. */
+.cos-overture {
+  position: absolute;
+  inset: 0;
+  z-index: 8;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  text-align: center;
+  padding: 2rem;
+}
+.cos-overture p {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: var(--cos-ink);
+  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.95);
+  animation: cos-overture 3100ms var(--cos-ease) both;
+}
+.cos-overture p span {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--cos-ink-3);
+  margin-top: 0.6rem;
+}
+@keyframes cos-overture {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+    filter: blur(6px);
+  }
+  22% {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+  74% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+
+/* ------------------------------------------------------------- the panel - */
+
+.cos-panel {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  max-height: 78dvh;
+  display: flex;
+  flex-direction: column;
+  background: var(--cos-panel);
+  backdrop-filter: blur(18px) saturate(120%);
+  -webkit-backdrop-filter: blur(18px) saturate(120%);
+  border-top: 1px solid var(--cos-rule);
+  border-radius: 18px 18px 0 0;
+  box-shadow: var(--cos-shadow);
+  transform-origin: 50% 100%;
+  transition: transform 340ms var(--cos-ease), opacity 220ms linear;
+}
+.cos-panel[hidden] {
+  display: none;
+}
+.cos-panel.is-entering {
+  opacity: 0;
+  transform: translate(var(--ox, 0px), var(--oy, 40px)) scale(0.34);
+}
+.cos-panel.is-open {
+  opacity: 1;
+  transform: none;
+}
+
+.cos-panel-scroll {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 0 calc(env(safe-area-inset-bottom, 0px) + 1.1rem);
+}
+
+.cos-panel-grip {
+  width: 34px;
+  height: 3px;
+  border-radius: 3px;
+  background: rgba(247, 237, 224, 0.24);
+  margin: 0.55rem auto 0.15rem;
+  flex: none;
+}
+
+.cos-panel-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.55rem;
+  z-index: 3;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--cos-rule);
+  background: rgba(12, 8, 5, 0.6);
+  color: var(--cos-ink);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+.cos-art {
+  position: relative;
+  margin: 0.45rem 0 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #150e09;
+}
+.cos-art img,
+.cos-art iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 0;
+  display: block;
+}
+.cos-art img {
+  animation: cos-ken 18s ease-in-out infinite alternate;
+}
+@keyframes cos-ken {
+  from {
+    transform: scale(1.02) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.13) translate3d(-1.6%, -2.2%, 0);
+  }
+}
+.cos-art::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(10, 7, 5, 0.34) 0%, rgba(10, 7, 5, 0) 32%, rgba(20, 13, 9, 0.9) 100%);
+}
+.cos-art.is-playing img,
+.cos-art.is-playing .cos-play,
+.cos-art.is-playing::after {
+  display: none;
+}
+
+.cos-play {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+}
+.cos-play em {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: 1px solid rgba(247, 237, 224, 0.5);
+  background: rgba(14, 9, 6, 0.44);
+  backdrop-filter: blur(3px);
+  display: grid;
+  place-items: center;
+  transition: transform 180ms var(--cos-ease), background 180ms;
+}
+.cos-play em::before {
+  content: '';
+  width: 0;
+  height: 0;
+  margin-left: 4px;
+  border-left: 15px solid var(--cos-ink);
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+}
+.cos-play:hover em {
+  transform: scale(1.08);
+  background: rgba(234, 185, 95, 0.2);
+}
+
+.cos-panel-body {
+  padding: 0.9rem 1.05rem 0;
+}
+
+.cos-where {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 0.55rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--cos-ink-3);
+  margin: 0 0 0.55rem;
+}
+.cos-where b {
+  font-weight: 400;
+  color: var(--cos-key);
+}
+.cos-where s {
+  text-decoration: none;
+  opacity: 0.45;
+}
+
+.cos-panel h2 {
+  margin: 0 0 0.1rem;
+  font-size: 1.36rem;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+}
+.cos-hi {
+  margin: 0 0 0.5rem;
+  font-size: 1.02rem;
+  color: var(--cos-ink-2);
+  line-height: 1.5;
+}
+.cos-sum {
+  margin: 0 0 0.45rem;
+  font-size: 0.96rem;
+  line-height: 1.5;
+  color: var(--cos-ink-2);
+}
+.cos-note {
+  margin: 0 0 0.9rem;
+  font-size: 0.83rem;
+  line-height: 1.45;
+  color: var(--cos-ink-3);
+  font-style: italic;
+}
+
+.cos-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  padding: 0.2rem 0 0.3rem;
+  border-top: 1px solid var(--cos-rule);
+  margin-top: 0.7rem;
+  padding-top: 0.8rem;
+}
+.cos-links a {
+  flex: 1 1 auto;
+  text-align: center;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.5rem 0.85rem;
+  border: 1px solid var(--cos-rule);
+  border-radius: 999px;
+  color: var(--cos-ink);
+  text-decoration: none;
+  font-size: 0.86rem;
+  transition: border-color 160ms, background 160ms;
+}
+.cos-links a:hover {
+  border-color: rgba(234, 185, 95, 0.55);
+  background: rgba(234, 185, 95, 0.09);
+}
+
+.cos-soon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--cos-ink-3);
+  border: 1px dashed rgba(247, 237, 224, 0.24);
+  border-radius: 999px;
+  padding: 0.32rem 0.7rem;
+}
+
+/* ---------------------------------------------------------- list dialog - */
+
+.cos-list {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100dvh;
+  height: 100dvh;
+  background: #0d0906;
+  color: var(--cos-ink);
+}
+.cos-list::backdrop {
+  background: rgba(4, 3, 2, 0.72);
+}
+.cos-list-inner {
+  padding: calc(env(safe-area-inset-top, 0px) + 1rem) 1.05rem calc(env(safe-area-inset-bottom, 0px) + 2rem);
+  max-width: 46rem;
+  margin: 0 auto;
+}
+.cos-list h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0 0 0.2rem;
+}
+.cos-list > form {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 0.6rem 0;
+  background: linear-gradient(#0d0906 70%, rgba(13, 9, 6, 0));
+}
+
+.cos-realm-block {
+  margin: 1.5rem 0 0;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--cos-rule);
+}
+.cos-realm-block h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+.cos-realm-block h3 a {
+  color: var(--cos-key);
+  text-decoration: none;
+  border-bottom: 1px solid var(--cos-gold-dim);
+}
+.cos-realm-block > p {
+  margin: 0.22rem 0 0.6rem;
+  font-size: 0.86rem;
+  line-height: 1.45;
+  color: var(--cos-ink-3);
+}
+.cos-realm-block ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cos-realm-block li {
+  border-top: 1px solid rgba(247, 237, 224, 0.08);
+}
+.cos-realm-block li a {
+  display: block;
+  padding: 0.6rem 0;
+  color: var(--cos-ink);
+  text-decoration: none;
+  font-size: 0.94rem;
+  line-height: 1.35;
+}
+.cos-realm-block li a:hover {
+  color: var(--cos-key);
+}
+.cos-realm-block li em {
+  display: block;
+  font-style: normal;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cos-ink-3);
+  margin-top: 0.15rem;
+}
+
+/* Focusable proxies for the 3D hotspots — reachable by keyboard, invisible. */
+.cos-hotspots {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.cos-hotspots button:focus-visible {
+  position: fixed;
+  left: 50%;
+  bottom: 30dvh;
+  transform: translateX(-50%);
+  width: auto;
+  height: auto;
+  clip-path: none;
+  overflow: visible;
+  padding: 0.5rem 1rem;
+  background: var(--cos-panel);
+  color: var(--cos-ink);
+  border: 1px solid var(--cos-gold);
+  border-radius: 999px;
+  font: inherit;
+  z-index: 40;
+}
+
+/* -------------------------------------------------- the no-WebGL scroll - */
+
+.cos-fallback {
+  display: none;
+}
+body:not(.cos-gl) .cos-fallback {
+  display: block;
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 1.6rem 1.05rem 4rem;
+}
+
+.cos-fb-head {
+  padding: 1.2rem 0 1.6rem;
+  border-bottom: 1px solid var(--cos-rule);
+}
+.cos-fb-head h1 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin: 0 0 0.4rem;
+  line-height: 1.18;
+}
+.cos-fb-head p {
+  margin: 0;
+  color: var(--cos-ink-2);
+  line-height: 1.55;
+  font-size: 0.98rem;
+}
+
+.cos-fb-realm {
+  padding: 1.7rem 0 0.4rem;
+}
+.cos-fb-realm > h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+.cos-fb-realm > h2 i {
+  font-style: normal;
+  font-size: 0.64rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--cos-ink-3);
+}
+.cos-fb-realm > p {
+  margin: 0.3rem 0 0.9rem;
+  color: var(--cos-ink-2);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+.cos-fb-realm > p a {
+  color: var(--cos-key);
+  text-decoration: none;
+  border-bottom: 1px solid var(--cos-gold-dim);
+}
+
+.cos-fb-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 0.7rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.cos-fb-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid rgba(247, 237, 224, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(255, 245, 232, 0.03);
+}
+.cos-fb-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #150e09;
+}
+.cos-fb-card b {
+  display: block;
+  font-weight: 400;
+  font-size: 0.86rem;
+  line-height: 1.28;
+  padding: 0.5rem 0.6rem 0.15rem;
+}
+.cos-fb-card em {
+  display: block;
+  font-style: normal;
+  font-size: 0.68rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--cos-ink-3);
+  padding: 0 0.6rem 0.6rem;
+}
+.cos-fb-card.is-soon {
+  opacity: 0.55;
+}
+.cos-fb-empty {
+  font-size: 0.86rem;
+  color: var(--cos-ink-3);
+  font-style: italic;
+  margin: 0;
+}
+
+/* --------------------------------------------------------------- desktop - */
+
+@media (min-width: 900px) {
+  .cos-label {
+    max-width: 11rem;
+  }
+  .cos-top {
+    padding: 1.15rem 1.4rem 0.5rem;
+  }
+  .cos-wordmark {
+    font-size: 1.08rem;
+  }
+  .cos-panel {
+    left: auto;
+    right: 1.4rem;
+    bottom: 1.4rem;
+    top: 4.6rem;
+    width: min(27rem, 38vw);
+    max-height: none;
+    border-radius: 16px;
+    border: 1px solid var(--cos-rule);
+    transform-origin: 100% 100%;
+  }
+  .cos-art {
+    border-radius: 12px 12px 0 0;
+    margin-top: 0;
+  }
+  .cos-panel-grip {
+    display: none;
+  }
+  .cos-rail {
+    padding-bottom: 1.1rem;
+  }
+  .cos-rail-line,
+  .cos-rail-strip {
+    padding-inline: 1.4rem;
+  }
+  .cos-ladder {
+    padding-right: 0.9rem;
+  }
+  .cos-label {
+    font-size: 0.86rem;
+  }
+}
+
+/* ------------------------------------------------------- reduced motion - */
+
+@media (prefers-reduced-motion: reduce) {
+  .cos-art img {
+    animation: none;
+  }
+  .cos-overture p {
+    animation: cos-fade-in 200ms both;
+  }
+  .cos-hint {
+    animation: none;
+  }
+  .cos-panel {
+    transition: opacity 120ms linear;
+  }
+  .cos-panel.is-entering {
+    transform: none;
+  }
+  .cos-label {
+    transition: none;
+  }
+  * {
+    scroll-behavior: auto !important;
+  }
+}

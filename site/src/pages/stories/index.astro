@@ -1,0 +1,322 @@
+---
+/**
+ * /stories/ — the Stories hub (BRIEF v4 §4 W3a).
+ *
+ * The second of the four doors. "Browse" used to open a manuscript index of
+ * eleven folder names; this is the same corpus arranged by what a person came
+ * looking for — a great story, a god, a person, a place, a text, an idea —
+ * with a picture on every tile and a real count under every name.
+ *
+ * A static route at this path takes precedence over the catch-all, which used
+ * to render `04-deep-dives/README.md` here; that page is not lost — it lives
+ * at `/stories/all/` (see `stories/all.astro`) and is linked from the foot of
+ * this page, and the catch-all excludes it so the two never collide.
+ *
+ * Complete without JavaScript. The two return hooks (Continue, Today) are the
+ * only client code, and each fails closed.
+ */
+import ContinueCard from '../../components/ContinueCard.astro';
+import PageArt from '../../components/PageArt.astro';
+import TodayCard from '../../components/TodayCard.astro';
+import { plateForHub, plateForPeriod, plateForSection } from '../../components/art.ts';
+import Base from '../../layouts/Base.astro';
+import { chapterOfRoute } from '../../lib/chapters.ts';
+import { cardPoster, filmsForRoute, getFilms } from '../../lib/films.ts';
+import { nodeForRoute, periodLabel, sections, stats } from '../../lib/graph.ts';
+import { PERIOD_SLUGS } from '../../lib/routes.ts';
+
+
+/* ---------------------------------------------------------- great stories */
+
+/**
+ * The epics and the big cycles, in the order time gives them: by the age each
+ * sits in (clock order), then by how much of the corpus it carries. The list
+ * is curated rather than computed — "great" is an editorial word — but every
+ * route is checked against the graph below, so a corpus rename shows up as a
+ * missing tile, never as a broken link.
+ */
+const GREAT: { route: string; name: string; note: string }[] = [
+  { route: '/stories/ramayana/', name: 'The Rāmāyaṇa', note: 'Seven books, from a birth in Ayodhya to the war at Lanka' },
+  { route: '/stories/mahabharata/', name: 'The Mahābhārata', note: 'Eighteen books, one family, and the war that ends an age' },
+  { route: '/stories/bhagavad-gita/', name: 'The Bhagavad Gītā', note: 'Seven hundred verses between two armies' },
+  { route: '/stories/krishna-lila/', name: 'The life of Krishna', note: 'The prison, the cowherd years, Dvaraka, and the leaving' },
+  { route: '/stories/samudra-manthana/', name: 'Churning the ocean', note: 'Gods and asuras turn a mountain in the sea for the nectar' },
+  { route: '/deities/dashavatara/', name: 'The ten descents', note: 'Fish, tortoise, boar, lion-man, dwarf — and the one still to come' },
+  { route: '/stories/savitri-satyavan/', name: 'Savitri and Satyavan', note: 'She follows Death down the road and argues her husband back' },
+  { route: '/stories/nala-damayanti/', name: 'Nala and Damayanti', note: 'A dice game, a curse, and a marriage found again' },
+  { route: '/stories/shakuntala-bharata/', name: 'Shakuntala', note: 'A ring lost in a river, and the child India is named for' },
+  { route: '/stories/prahlada-narasimha/', name: 'Prahlada and Narasimha', note: 'Neither man nor beast, neither day nor night, on a threshold' },
+  { route: '/stories/vamana-bali/', name: 'Vamana and Bali', note: 'Three steps that measure the whole universe' },
+  { route: '/stories/characters/', name: 'Epic characters', note: 'Ninety-six lives from the two epics, each with its own page' },
+];
+
+const periodRank = (slug: string | null | undefined): number => {
+  const i = slug ? PERIOD_SLUGS.indexOf(slug) : -1;
+  return i === -1 ? PERIOD_SLUGS.length : i;
+};
+
+/**
+ * A film from *inside* a cycle, when the cycle's own hub page has none. The
+ * Rāmāyaṇa and the Mahābhārata are not themselves filmed, but a dozen of their
+ * chapters are — and three epics all wearing the same Dvāpara plate is what a
+ * tile grid must never look like. Public films first; the first is taken, so
+ * the choice is stable between builds.
+ */
+const filmUnder = (route: string) =>
+  getFilms()
+    .filter((f) => f.isPublic && f.corpus.some((c) => c.route.startsWith(route)))
+    .sort((a, b) => a.slug.localeCompare(b.slug))[0];
+
+const great = GREAT.map((g) => {
+  const node = nodeForRoute(g.route);
+  if (!node) return null;
+  const film = filmsForRoute(g.route)[0] ?? filmUnder(g.route);
+  const poster = film ? cardPoster(film) : null;
+  const plate = !poster ? plateForPeriod(node.cosmicAddress) : null;
+  const chapter = chapterOfRoute(g.route);
+  const pages = node.children.length;
+  const count = pages > 0 ? `${pages} chapters` : `${node.eventCount.toLocaleString('en')} events`;
+  return {
+    ...g,
+    period: node.cosmicAddress,
+    age: periodLabel(node.cosmicAddress),
+    rank: periodRank(node.cosmicAddress),
+    chapterIndex: chapter?.index ?? 99,
+    src: poster?.src ?? plate?.src ?? null,
+    srcset: poster?.srcset ?? plate?.srcset ?? null,
+    filmed: Boolean(filmsForRoute(g.route)[0]?.isPublic),
+    count,
+  };
+})
+  .filter((g): g is NonNullable<typeof g> => Boolean(g))
+  .sort((a, b) => a.rank - b.rank || a.chapterIndex - b.chapterIndex);
+
+/* ------------------------------------------------------------- the doors */
+
+const sectionByDir = new Map(sections.map((s) => [s.dir, s]));
+const charactersNode = nodeForRoute('/stories/characters/');
+
+const DOORS = [
+  {
+    route: '/deities/',
+    name: 'Gods & beings',
+    dek: 'The who’s-who: gods, avatars, and the worlds they hold.',
+    count: (sectionByDir.get('02-deities-and-cosmic-hierarchy')?.count ?? 0) + (sectionByDir.get('08-beings-and-bestiary')?.count ?? 0),
+    plate: 'deities',
+    hub: 'gods',
+  },
+  {
+    route: '/stories/characters/',
+    name: 'People',
+    dek: 'The men and women of the epics, one page each.',
+    count: charactersNode?.children.length ?? 0,
+    plate: 'stories',
+    hub: 'people',
+  },
+  {
+    route: '/places/',
+    name: 'Places',
+    dek: 'The sacred map — rivers, seats, shrines, the twelve lights.',
+    count: sectionByDir.get('06-sacred-geography')?.count ?? 0,
+    plate: 'places',
+    hub: 'places',
+  },
+  {
+    route: '/texts/',
+    name: 'Texts',
+    dek: 'The books that record all of it, mapped back to the events.',
+    count: sectionByDir.get('90-literature-corpus')?.count ?? 0,
+    plate: 'texts',
+    hub: 'texts',
+  },
+  {
+    route: '/dharma/',
+    name: 'Ideas',
+    dek: 'Karma, moksha, yoga, and the six ways of seeing.',
+    count: sectionByDir.get('05-concepts-and-dharma')?.count ?? 0,
+    plate: 'dharma',
+    hub: 'ideas',
+  },
+  {
+    route: '/clock/',
+    name: 'The nine ages',
+    dek: 'The whole road, from before time to the next dawn.',
+    count: 9,
+    plate: 'timeline',
+  },
+].map((d) => {
+  /* The door's own picture (art-plates.json `hub`, W4 — chosen for this door
+     rather than inherited from its section), then the section plate, then the
+     root plate. A door is never bare. */
+  const plate =
+    plateForHub((d as { hub?: string }).hub, d.plate) ?? plateForSection('(root)');
+  return { ...d, src: plate?.src ?? null, srcset: plate?.srcset ?? null };
+});
+
+/* --------------------------------------------------------- every section */
+
+const SECTION_LINE: Record<string, string> = {
+  '00-time-and-cosmology': 'How the cosmic clock is built — from a blink to Brahma’s hundred years.',
+  '01-manvantaras': 'The chronological spine: fourteen manvantaras and their ages.',
+  '02-deities-and-cosmic-hierarchy': 'Gods, avatars, and the worlds they hold.',
+  '03-lineages-vamsha': 'The solar and lunar genealogies that thread the whole timeline.',
+  '04-deep-dives': 'Dedicated pages for the biggest episodes: the epics, the great tales.',
+  '05-concepts-and-dharma': 'The doctrinal layer — karma, moksha, yoga, the six darshanas.',
+  '06-sacred-geography': 'The sacred map: seats, abodes, the twelve lights, the rivers.',
+  '07-acharyas-and-sampradayas': 'Teachers and their lineages, Shankara onward.',
+  '08-beings-and-bestiary': 'The classes of beings — apsaras, nagas, asuras, the thirty-three.',
+  '09-artifacts-symbols-and-arts': 'Weapons, objects, mounts, the sixty-four arts.',
+  '90-literature-corpus': 'The texts that record all of it, mapped back to the events.',
+};
+
+/* The hub's own plate (W4): the single most recognisable frame in the
+   catalogue, rather than the plate the corpus section happens to wear. */
+const plate = plateForHub('great-stories', 'stories');
+const description =
+  'Every story in the manuscript, arranged by what you came for: the great epics and cycles, the gods, ' +
+  'the people, the places, the texts and the ideas.';
+---
+
+<Base title="Stories" description={description} page="hub">
+  <nav class="crumbs" aria-label="Breadcrumb" slot="crumbs">
+    <ol>
+      <li class="crumb crumb-current" aria-current="page">Stories</li>
+    </ol>
+  </nav>
+
+  <div class="page stories-hub" data-pagefind-ignore>
+    {
+      plate ? (
+        <PageArt art={plate} title="Stories" kicker={`${stats.files.toLocaleString('en')} pages`} />
+      ) : (
+        <h1 class="page-title">Stories</h1>
+      )
+    }
+
+    <p class="page-dek">
+      Start with a great story, or go looking for a god, a person, a place, a text or an idea. Every
+      page says where it sits in time, and every claim carries its source.
+    </p>
+
+    <div class="hook-row">
+      <ContinueCard />
+      <TodayCard />
+    </div>
+
+    <section class="hub-section" aria-labelledby="great-title">
+      <div class="hub-head">
+        <h2 class="hub-title" id="great-title">Great stories</h2>
+        <p class="hub-note">In the order time gives them.</p>
+      </div>
+      <ul class="hub-grid" data-cols="wide">
+        {
+          great.map((g) => (
+            <li>
+              <a class="hub-tile" href={g.route} data-period={g.period ?? undefined} data-play={g.filmed ? '' : undefined}>
+                <span class="hub-tile-art" aria-hidden="true">
+                  {g.src && (
+                    <img
+                      src={g.src}
+                      srcset={g.srcset ?? undefined}
+                      sizes="(min-width: 760px) 300px, 50vw"
+                      width={800}
+                      height={450}
+                      alt=""
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  )}
+                </span>
+                <span class="hub-tile-veil" aria-hidden="true" />
+                {g.age && <span class="hub-tile-kicker">{g.age}</span>}
+                <span class="hub-tile-copy">
+                  <span class="hub-tile-name">{g.name}</span>
+                  <span class="hub-tile-dek">{g.note}</span>
+                  <span class="hub-tile-count">{g.count}</span>
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section class="hub-section" aria-labelledby="doors-title">
+      <div class="hub-head">
+        <h2 class="hub-title" id="doors-title">Or go looking</h2>
+      </div>
+      <ul class="hub-grid">
+        {
+          DOORS.map((d) => (
+            <li>
+              <a class="hub-tile hub-door" href={d.route}>
+                <span class="hub-tile-art" aria-hidden="true">
+                  {d.src && (
+                    <img
+                      src={d.src}
+                      srcset={d.srcset ?? undefined}
+                      sizes="(min-width: 760px) 200px, 50vw"
+                      width={800}
+                      height={450}
+                      alt=""
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  )}
+                </span>
+                <span class="hub-tile-veil" aria-hidden="true" />
+                <span class="hub-tile-copy">
+                  <span class="hub-tile-name">{d.name}</span>
+                  <span class="hub-tile-count">
+                    {d.count.toLocaleString('en')} {d.route === '/clock/' ? 'ages' : 'pages'}
+                  </span>
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section class="hub-section" aria-labelledby="every-title">
+      <div class="hub-head">
+        <h2 class="hub-title" id="every-title">Every section</h2>
+        <p class="hub-note">The manuscript as it is filed.</p>
+      </div>
+      <ul class="sheet-list">
+        {
+          sections.map((s) => (
+            <li>
+              <a href={s.route}>
+                <span class="sl-name">{s.label}</span>
+                <span class="sl-dek">{SECTION_LINE[s.dir] ?? s.dek}</span>
+                <span class="sl-count">{s.count.toLocaleString('en')} pages</span>
+              </a>
+            </li>
+          ))
+        }
+        <li>
+          <a href="/clock/">
+            <span class="sl-name">The Cosmic Clock</span>
+            <span class="sl-dek">Nine ages, from before time to the end of the kalpa.</span>
+            <span class="sl-count">{stats.events.toLocaleString('en')} events</span>
+          </a>
+        </li>
+        <li>
+          <a href="/stories/all/">
+            <span class="sl-name">The Stories section index</span>
+            <span class="sl-dek">The manuscript's own index of the deep dives, as it was written.</span>
+            <span class="sl-count">{sectionByDir.get('04-deep-dives')?.count.toLocaleString('en')} pages</span>
+          </a>
+        </li>
+        <li>
+          <a href="/about/structure/">
+            <span class="sl-name">Every page</span>
+            <span class="sl-dek">The whole tree, one file at a time.</span>
+            <span class="sl-count">{stats.files.toLocaleString('en')} pages</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </div>
+</Base>

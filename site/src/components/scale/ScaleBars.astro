@@ -1,0 +1,92 @@
+---
+/**
+ * ScaleBars.astro — the static form of "How big is this?".
+ *
+ * The same six levels, the same numbers and the same citations as the road's
+ * overlay (both read `scale-data.ts`), rendered as plain HTML so the answer to
+ * the one question this site exists to answer survives with JavaScript off.
+ * `/clock/#scale` is its address; the road's overlay links here.
+ */
+import '../../styles/scale.css';
+import {
+  ANALOGY_FOOT,
+  ANALOGY_HISTORY,
+  analogyFor,
+  CODA,
+  LEVELS,
+  sliverLabel,
+  sliverPct,
+} from './scale-data.ts';
+
+const rows = LEVELS.map((l, i) => {
+  const prev = i > 0 ? LEVELS[i - 1]! : null;
+  const p = prev ? sliverPct(prev.years, l.years) : 100;
+  return {
+    l,
+    prev,
+    /* Below 0.35% no bar can be drawn honestly — it becomes a hairline and the
+       caption carries the truth. */
+    width: prev ? (p < 0.35 ? '1.5px' : `${p.toFixed(3)}%`) : '100%',
+    note: prev ? sliverLabel(prev.years, l.years) : null,
+  };
+});
+---
+
+<section class="sc-page" id="scale" aria-labelledby="scale-h">
+  <h2 id="scale-h" class="home-heading">How big is this?</h2>
+  <p class="page-dek">
+    Six nested spans. Each bar holds the one before it as a sliver, and
+    <em>you are here</em> is marked on every one. Every figure is cited to the file it
+    comes from.
+  </p>
+  <ol class="sc-levels">
+    {
+      rows.map(({ l, prev, width, note }, i) => (
+        <li class="sc-level" data-i={String(i)} id={`scale-${l.id}`}>
+          <div class="sc-head">
+            <h3>
+              {l.name}
+              {l.hi && (
+                <span class="dv" lang="hi">
+                  {l.hi}
+                </span>
+              )}
+            </h3>
+            <p class="sc-years">{l.yearsLabel}</p>
+          </div>
+          <div class="sc-bar">
+            {prev && (
+              <span class="sc-sliver" style={`left:${(l.at * 100).toFixed(3)}%;width:${width}`}>
+                <i />
+              </span>
+            )}
+            <span class="sc-here" style={`left:${(l.at * 100).toFixed(3)}%`}>
+              <i />
+              <em>you are here</em>
+            </span>
+          </div>
+          <p class="sc-inner-note">
+            {prev ? (
+              <>
+                <b>{prev.name}</b> — {note}
+              </>
+            ) : (
+              'The whole bar. Everything below zooms out from it.'
+            )}
+          </p>
+          <p class="sc-line">{l.line}</p>
+          <p class="sc-analogy">{analogyFor(l)}</p>
+          <p class="sc-cite">
+            <span>{l.here}</span>
+            <a href={l.cite.route}>{l.cite.file}</a>
+          </p>
+        </li>
+      ))
+    }
+  </ol>
+  <p class="sc-analogy sc-analogy-now">{ANALOGY_HISTORY}</p>
+  <p class="sc-foot-sum">{ANALOGY_FOOT}</p>
+  <p class="sc-coda">
+    {CODA.line} <a href={CODA.cite.route}>{CODA.cite.file}</a>
+  </p>
+</section>

@@ -1,0 +1,113 @@
+---
+/**
+ * The scribal margin (≥1100px): contents, where this sits in time, sources,
+ * related. Sticky, aligned to the first baseline of the text column. It is the
+ * desktop twin of PageSheet.astro — one of the two is always visible, never
+ * both, so the same material never appears twice on screen.
+ */
+import type { GraphNode } from '../lib/graph.ts';
+import PeriodRing from './PeriodRing.astro';
+
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+interface Props {
+  node: GraphNode;
+  headings: Heading[];
+  period: string | null;
+  periodName: string | null;
+  hasSources: boolean;
+  relatedCount: number;
+  sourceCount?: number;
+}
+const { node, headings, period, periodName, hasSources, relatedCount } = Astro.props;
+
+interface Entry {
+  h: Heading;
+  kids: Heading[];
+}
+const tree: Entry[] = [];
+for (const h of headings.filter((x) => x.depth === 2 || x.depth === 3)) {
+  if (h.depth === 2) tree.push({ h, kids: [] });
+  else if (tree.length) tree[tree.length - 1].kids.push(h);
+}
+---
+
+<aside class="scribe" aria-label="Page apparatus" data-pagefind-ignore>
+  <div class="scribe-inner">
+    {
+      tree.length > 1 && (
+        <nav class="scribe-block" aria-label="On this page">
+          <h2 class="scribe-title">Contents</h2>
+          <ol class="toc-list" data-scribe-toc>
+            {tree.map((e) => (
+              <li>
+                <a href={`#${e.h.slug}`}>{e.h.text}</a>
+                {e.kids.length > 0 && (
+                  <ol>
+                    {e.kids.map((k) => (
+                      <li>
+                        <a href={`#${k.slug}`}>{k.text}</a>
+                      </li>
+                    ))}
+                  </ol>
+                )}
+              </li>
+            ))}
+          </ol>
+        </nav>
+      )
+    }
+
+    {
+      period && (
+        <div class="scribe-block scribe-address">
+          <h2 class="scribe-title">Where this sits in time</h2>
+          <PeriodRing period={period} size={72} />
+          <a class="chip" data-period={period} href={`/clock/${period}/`}>
+            {periodName}
+          </a>
+          {node.eventCount > 0 && <span class="scribe-note">{node.eventCount.toLocaleString('en')} events here</span>}
+        </div>
+      )
+    }
+
+    {
+      (hasSources || relatedCount > 0) && (
+        <div class="scribe-block">
+          <h2 class="scribe-title">Apparatus</h2>
+          <ul class="scribe-links">
+            {hasSources && (
+              <li>
+                <a href="#sources">Sources</a>
+              </li>
+            )}
+            {relatedCount > 0 && (
+              <li>
+                <a href="#related">Related — {relatedCount}</a>
+              </li>
+            )}
+            <li>
+              <span class="scribe-note">{node.readingMinutes} min · {node.wordCount.toLocaleString('en')} words</span>
+            </li>
+          </ul>
+        </div>
+      )
+    }
+  </div>
+</aside>
+
+<style>
+  .scribe-note {
+    display: block;
+    color: var(--ink-2);
+    font-size: var(--t-xs);
+    letter-spacing: 0.02em;
+    margin-top: 0.35rem;
+  }
+  .scribe-address .chip {
+    margin-top: 0.5rem;
+  }
+</style>

@@ -1,0 +1,178 @@
+---
+/**
+ * The Page sheet — everything about *this* leaf that is not the text itself:
+ * its contents, where it sits in cosmic time, its sources, what links to it.
+ * Opened from the `Contents` pill; on desktop the same material is the
+ * scribal margin instead (Scribe.astro), so this stays phone/tablet-only.
+ */
+import type { GraphNode } from '../lib/graph.ts';
+import { githubUrl } from '../lib/graph.ts';
+import Icon from './Icon.astro';
+import PeriodRing from './PeriodRing.astro';
+import PlainToggle from './PlainToggle.astro';
+
+interface Heading {
+  depth: number;
+  slug: string;
+  text: string;
+}
+interface Props {
+  node: GraphNode;
+  headings: Heading[];
+  period: string | null;
+  periodName: string | null;
+  hasSources: boolean;
+  relatedCount: number;
+}
+const { node, headings, period, periodName, hasSources, relatedCount } = Astro.props;
+const tops = headings.filter((h) => h.depth === 2);
+---
+
+<dialog class="sheet" id="sheet-page" aria-labelledby="sheet-page-title" data-period={period ?? undefined}>
+  <div class="sheet-grip" aria-hidden="true"><Icon name="roundel" size={20} /></div>
+  <div class="sheet-head">
+    <h2 class="sheet-title" id="sheet-page-title">This leaf</h2>
+    <button type="button" class="sheet-close" data-sheet-close aria-label="Close">Close</button>
+  </div>
+  <div class="sheet-body">
+    {
+      period && (
+        <section class="scribe-block ps-address">
+          <h3 class="scribe-title">Where this sits in time</h3>
+          <div class="ps-address-row">
+            <PeriodRing period={period} size={64} />
+            <div>
+              <a class="chip" data-period={period} href={`/clock/${period}/`}>
+                {periodName}
+              </a>
+              <p class="ps-address-line">
+                {node.cosmicAddressSource === 'events'
+                  ? 'Placed by the period most of its events fall in.'
+                  : node.cosmicAddressSource === 'inherited'
+                    ? 'Inherited from the page above it in the manuscript.'
+                    : 'Stated in the page’s own opening.'}
+              </p>
+            </div>
+          </div>
+        </section>
+      )
+    }
+
+    {
+      tops.length > 0 && (
+        <section class="scribe-block">
+          <h3 class="scribe-title">Contents</h3>
+          <ol class="toc-list" data-sheet-toc>
+            {headings
+              .filter((h) => h.depth === 2 || h.depth === 3)
+              .map((h) => (
+                <li class={h.depth === 3 ? 'toc-sub' : undefined}>
+                  <a href={`#${h.slug}`}>{h.text}</a>
+                </li>
+              ))}
+          </ol>
+        </section>
+      )
+    }
+
+    <section class="scribe-block">
+      <h3 class="scribe-title">How this reads</h3>
+      <PlainToggle variant="sheet" />
+      <p class="ps-plain-note">
+        Popular spellings instead of the scholarly ones, citations and variant readings quieted.
+        Nothing is lost — tap again to bring it back.
+      </p>
+    </section>
+
+    <section class="scribe-block">
+      <h3 class="scribe-title">Apparatus</h3>
+      <ul class="scribe-links">
+        {hasSources && <li><a href="#sources">Sources</a></li>}
+        {relatedCount > 0 && <li><a href="#related">Related — {relatedCount}</a></li>}
+        <li><button type="button" class="link-button" data-share={node.title}>Copy a link to this page</button></li>
+        <li><a class="ext" href={githubUrl(node.path)} rel="noopener">View the source file</a></li>
+      </ul>
+      <p class="ps-path">{node.path}</p>
+    </section>
+  </div>
+</dialog>
+
+<style>
+  .ps-address-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.9rem;
+  }
+  .ps-address-line {
+    margin: 0.35rem 0 0;
+    color: var(--ink-2);
+    font-size: var(--t-sm);
+    line-height: 1.4;
+  }
+  .ps-plain-note {
+    margin: 0.35rem 0 0;
+    color: var(--ink-2);
+    font-size: var(--t-sm);
+    line-height: 1.45;
+  }
+  .ps-path {
+    margin: 0.6rem 0 0;
+    color: var(--rule-strong);
+    font-size: var(--t-xs);
+    word-break: break-all;
+  }
+  .sheet-body .scribe-block + .scribe-block {
+    margin-top: 1.5rem;
+    padding-top: 1.1rem;
+    border-top: var(--hair) solid var(--rule);
+  }
+  .sheet-body .scribe-title {
+    font-size: var(--t-xs);
+    font-weight: 600;
+    letter-spacing: 0.09em;
+      color: var(--rubric);
+    margin: 0 0 0.6rem;
+  }
+  .sheet-body .toc-list,
+  .sheet-body .scribe-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .sheet-body .toc-list li,
+  .sheet-body .scribe-links li {
+    border-bottom: var(--hair) solid var(--rule);
+  }
+  .sheet-body .toc-list li:last-child,
+  .sheet-body .scribe-links li:last-child {
+    border-bottom: 0;
+  }
+  .sheet-body .toc-list a,
+  .sheet-body .scribe-links a,
+  .sheet-body .link-button {
+    display: block;
+    padding: 0.55rem 0;
+    min-height: 44px;
+    color: var(--ink);
+    text-decoration: none;
+    line-height: 1.35;
+  }
+  .sheet-body .toc-list .toc-sub a {
+    padding-left: 1rem;
+    color: var(--ink-2);
+    font-size: var(--t-sm);
+  }
+  .sheet-body .toc-list a:hover,
+  .sheet-body .scribe-links a:hover {
+    color: var(--link);
+  }
+  .link-button {
+    background: none;
+    border: 0;
+    font: inherit;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    color: var(--link);
+  }
+</style>

@@ -1,0 +1,129 @@
+---
+/**
+ * FeaturedRail.astro — the home rail.
+ *
+ * A horizontally snapping strip of recent public films, each a wide leaf with
+ * the poster, both titles and a period chip. I5 mounts it in the home page's
+ * `section#featured-slot.featured[data-featured]`, replacing `p.featured-empty`:
+ *
+ *   import FeaturedRail from '../components/films/FeaturedRail.astro';
+ *   <section id="featured-slot" class="featured" data-featured><FeaturedRail /></section>
+ *
+ * Every prop has a default, so `<FeaturedRail />` on its own is the intended
+ * call. Nothing is numbered: the films are a connected web, not a sequence.
+ */
+import '../../styles/films.css';
+import { type Film, cardPoster, recentFilms } from '../../lib/films.ts';
+
+interface Props {
+  films?: Film[];
+  title?: string;
+  limit?: number;
+  moreHref?: string;
+  moreLabel?: string;
+  /**
+   * Off when the host section already carries its own heading — the home page
+   * gives every section an `h2.home-heading` with the rubric rule, and a second
+   * title inside the rail would repeat it. The "all films" link then moves to a
+   * line under the strip so the affordance survives.
+   */
+  showHead?: boolean;
+}
+
+const {
+  films: given,
+  title = 'The films',
+  limit = 10,
+  moreHref = '/films/',
+  moreLabel = 'All films',
+  showHead = true,
+} = Astro.props;
+
+const films = (given ?? recentFilms(limit)).slice(0, limit);
+/* The rail draws the first hero still (textless). The YouTube thumbnail has
+   Hinglish text painted into it and is reserved for the film page's player. */
+const posters = new Map(films.map((f) => [f.slug, cardPoster(f)]));
+---
+
+{
+  films.length > 0 && (
+    <div class="film-rail" data-film-rail>
+      {showHead && (
+        <div class="film-rail-head">
+          <h2 class="film-rail-title">{title}</h2>
+          <a class="film-rail-more" href={moreHref}>
+            {moreLabel}
+          </a>
+        </div>
+      )}
+
+      <ul class="rail-strip">
+        {films.map((film) => (
+          <li class="rail-item">
+            <a class="rail-link" href={film.route} data-period={film.periodSlug ?? undefined}>
+              <span
+                class="rail-thumb"
+                data-poster={posters.get(film.slug)?.kind}
+                style={
+                  posters.get(film.slug)?.lqip
+                    ? `background-image:url("${posters.get(film.slug)!.lqip}")`
+                    : undefined
+                }
+              >
+                {posters.get(film.slug) && (
+                  <img
+                    src={posters.get(film.slug)!.src}
+                    srcset={posters.get(film.slug)!.srcset ?? undefined}
+                    sizes="(min-width: 700px) 19rem, 74vw"
+                    width={posters.get(film.slug)!.width}
+                    height={posters.get(film.slug)!.height}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                  />
+                )}
+                <span class="fp-mini film-play" aria-hidden="true">
+                  <svg viewBox="0 0 48 48" focusable="false">
+                    <circle class="fp-ring" cx="24" cy="24" r="19" />
+                    <path class="fp-tri" d="M20 16.4 33 24l-13 7.6z" />
+                  </svg>
+                </span>
+              </span>
+
+              <span class="rail-en">{film.title.en}</span>
+              {film.title.hi && (
+                <span class="rail-hi dv" lang="hi">
+                  {film.title.hi}
+                </span>
+              )}
+              <span class="rail-foot">
+                <span class="chip" data-period={film.periodSlug ?? undefined}>
+                  {film.periodName}
+                </span>
+                {film.duration && <span class="film-duration film-rail-dur">{film.duration}</span>}
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      {!showHead && (
+        <p class="film-rail-foot">
+          <a class="film-rail-more" href={moreHref}>
+            {moreLabel}
+          </a>
+        </p>
+      )}
+    </div>
+  )
+}
+
+<style>
+  .film-rail-dur {
+    font-size: var(--t-sm);
+    color: var(--ink-2);
+  }
+  .film-rail-foot {
+    margin: 0.7rem 0 0;
+  }
+</style>
