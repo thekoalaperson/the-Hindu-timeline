@@ -4,6 +4,12 @@
 !.env.example
 *credentials*.json
 *token*.json
+*service-account*.json
+*.env
+secrets/
+activate.sh
+profile.json
+relocation-map.json
 private/
 production/
 productions/
@@ -12,5 +18,9 @@ media/
 autopilot/
 *.log
 .DS_Store
+.claude/
+.codex/
+.agents/
+CLAUDE.local.md
 __pycache__/
 *.pyc
