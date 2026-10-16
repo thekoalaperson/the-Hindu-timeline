@@ -2,7 +2,7 @@
  * films.ts — typed access to the films layer.
  *
  * Two committed/generated sources are joined here and nowhere else:
- *   src/data/featured.json          (committed, 50 films, sorted by `ep`)
+ *   src/data/featured.json          (committed, 51 films, sorted by `ep`)
  *   src/generated/media-manifest.json  (written by scripts/media.mjs)
  *
  * Plus the corpus graph, so a film knows the title/dek/period of the page it
@@ -88,7 +88,7 @@ export interface Film {
   periodCandidates: { label: string; slug: string | null; name: string }[];
   cosmicAddressLabel: string | null;
   summary: string;
-  /** Working titles (EP44–50) are unverified; hedge them in <title>/og. */
+  /** An unverified working title, hedged in <title>/og. No current film sets it. */
   titleDraft: boolean;
   isPublic: boolean;
   durationSec: number | null;

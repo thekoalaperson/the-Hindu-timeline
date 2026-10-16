@@ -906,7 +906,7 @@
    "en": "The Birth of Ganesha — How Ganesha Got His Elephant Head",
    "hi": "श्री गणेश जन्म"
   },
-  "ytTitle": "Haldi Se Bana Balak | Ganesh Ko Hathi Ka Sir Kaise Mila",
+  "ytTitle": "Ganapati janam | Ganesh Ko Hathi Ka Sir Kaise Mila",
   "yt": {
    "videoId": "VRUiL48CyGs",
    "url": "https://youtu.be/VRUiL48CyGs",
@@ -1840,7 +1840,7 @@
    "en": "Barbarik — Three Arrows Were Enough",
    "hi": "बर्बरीक · खाटू श्याम"
   },
-  "ytTitle": "Sabse Bada Daani Kaun Tha? | Khatu Shyam Ji Ki Kahani",
+  "ytTitle": "Krishna ko sheesh dekar bana amar | Khatu Shyam Ji Ki Kahani",
   "yt": {
    "videoId": "I_QWIU8fy3I",
    "url": "https://youtu.be/I_QWIU8fy3I",
@@ -2322,7 +2322,9 @@
    "published": "2026-08-25",
    "status": "public"
   },
-  "shorts": [],
+  "shorts": [
+   "mm0ZVx-Ilf0"
+  ],
   "playlists": [
    {
     "name": "Mahabharat | Shuru Se Ant Tak",
@@ -2377,7 +2379,9 @@
    "published": "2026-08-26",
    "status": "public"
   },
-  "shorts": [],
+  "shorts": [
+   "Aohxi-zmSU8"
+  ],
   "playlists": [
    {
     "name": "Mahabharat | Shuru Se Ant Tak",
@@ -2438,7 +2442,9 @@
    "published": "2026-08-27",
    "status": "public"
   },
-  "shorts": [],
+  "shorts": [
+   "ef2qhS-ZOZ4"
+  ],
   "playlists": [
    {
     "name": "Yeh Puja Kyun Hoti Hai | Teerth Aur Vrat Ki Kahani",
@@ -2496,7 +2502,9 @@
    "published": "2026-09-01",
    "status": "public"
   },
-  "shorts": [],
+  "shorts": [
+   "Ng6Tvxt8Clg"
+  ],
   "playlists": [
    {
     "name": "Mahabharat | Shuru Se Ant Tak",
@@ -2560,7 +2568,9 @@
    "published": "2026-09-04",
    "status": "public"
   },
-  "shorts": [],
+  "shorts": [
+   "bQhY7C-uF1o"
+  ],
   "playlists": [
    {
     "name": "Mahabharat | Shuru Se Ant Tak",
@@ -2627,7 +2637,9 @@
    "published": "2026-09-05",
    "status": "public"
   },
-  "shorts": [],
+  "shorts": [
+   "2dRd7x2PDhQ"
+  ],
   "playlists": [
    {
     "name": "Devi | Durga, Kali Aur Vaishno Devi Ki Katha",
@@ -2679,15 +2691,22 @@
    "en": "Ganesha Never Left Home — and Won the World",
    "hi": "गणेश घर से निकले ही नहीं—फिर भी संसार जीत लिया"
   },
-  "ytTitle": null,
+  "ytTitle": "Ganesh Ki Jeet Par Kartikeya Ne Kailash Kyun Chhod Diya?",
   "yt": {
-   "videoId": null,
-   "url": null,
-   "published": null,
-   "status": "coming-soon"
+   "videoId": "Arn5ShcvqUs",
+   "url": "https://youtu.be/Arn5ShcvqUs",
+   "published": "2026-09-06",
+   "status": "public"
   },
-  "shorts": [],
-  "playlists": [],
+  "shorts": [
+   "by18rlmzaV4"
+  ],
+  "playlists": [
+   {
+    "name": "Shiv | Mahadev Ki Sabse Badi Kathayein",
+    "id": null
+   }
+  ],
   "corpus": [
    {
     "path": "02-deities-and-cosmic-hierarchy/ganesha-and-kartikeya.md",
@@ -2731,9 +2750,8 @@
     "alt": "Far south, the peacock folds its exhausted wings at sunset."
    }
   ],
-  "summary": "Śiva and Pārvatī set their two sons a race around the world for a single fruit. Kārttikeya circles the three worlds; Gaṇeśa walks around his parents and says that they are the world.",
-  "durationSec": null,
-  "titleDraft": true
+  "summary": "Nārada brings a single fruit to Kailāsa, and Śiva and Pārvatī set their two sons a race around the world for it. Kārttikeya circles the three worlds; Gaṇeśa walks around his parents and wins — and the victory costs the family Kārttikeya, who leaves Kailāsa for Palani.",
+  "durationSec": 1026
  },
  {
   "slug": "ghatotkacha-final-night",
@@ -2742,15 +2760,22 @@
    "en": "Karna Used the One Weapon Meant for Arjuna",
    "hi": "कर्ण ने अर्जुन के लिए बचा अस्त्र किस पर चलाया?"
   },
-  "ytTitle": null,
+  "ytTitle": "Ghatotkacha Ki Maut Par Krishna Khush Kyun Hue? | Mahabharat",
   "yt": {
-   "videoId": null,
-   "url": null,
-   "published": null,
-   "status": "coming-soon"
+   "videoId": "JNm--xsH1os",
+   "url": "https://youtu.be/JNm--xsH1os",
+   "published": "2026-09-08",
+   "status": "public"
   },
-  "shorts": [],
-  "playlists": [],
+  "shorts": [
+   "-73kv3DGvwc"
+  ],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   }
+  ],
   "corpus": [
    {
     "path": "04-deep-dives/characters/ghatotkacha.md",
@@ -2790,9 +2815,8 @@
     "alt": "Karṇa still has courage, skill and terrible weapons, but no longer the one strike that could not fail."
    }
   ],
-  "summary": "On the fourteenth night of the war, Ghaṭotkaca's rākṣasa power is destroying the Kaurava army in the dark. Karṇa spends the Vāsavī Śakti — the one weapon he had kept back for Arjuna — to stop him.",
-  "durationSec": null,
-  "titleDraft": true
+  "summary": "On the fourteenth night of the war, Ghaṭotkaca's rākṣasa power is destroying the Kaurava army in the dark. Karṇa spends the Vāsavī Śakti — the one weapon he had kept back for Arjuna — to stop him, and while the Pāṇḍavas grieve, Kṛṣṇa rejoices.",
+  "durationSec": 1227
  },
  {
   "slug": "karna-vs-arjuna",
@@ -2801,15 +2825,26 @@
    "en": "When Karna’s Wheel Sank — The Final Battle",
    "hi": "जब कर्ण का पहिया धँसा — अंतिम युद्ध"
   },
-  "ytTitle": null,
+  "ytTitle": "Karna vs Arjun: Krishna Ne Karna Ko Waqt Kyun Nahi Diya? | Mahabharat",
   "yt": {
-   "videoId": null,
-   "url": null,
-   "published": null,
-   "status": "coming-soon"
+   "videoId": "jJyqwZYRJ-s",
+   "url": "https://youtu.be/jJyqwZYRJ-s",
+   "published": "2026-09-10",
+   "status": "public"
   },
-  "shorts": [],
-  "playlists": [],
+  "shorts": [
+   "yMMsETWu2Ag"
+  ],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   },
+   {
+    "name": "Krishna | Kaliya Se Vishwaroop Tak",
+    "id": null
+   }
+  ],
   "corpus": [
    {
     "path": "04-deep-dives/karna.md",
@@ -2851,9 +2886,8 @@
     "alt": "Karṇa's life cannot be reduced to victimhood, villainy, generosity, or fate alone."
    }
   ],
-  "summary": "Two curses fall due on the seventeenth day: Karṇa's weapons desert his memory and his chariot wheel sinks into the earth. The duel the war had delayed for a lifetime ends with him unarmed and asking after the rules of war.",
-  "durationSec": null,
-  "titleDraft": true
+  "summary": "Two curses fall due on the seventeenth day: Karṇa's weapons desert his memory and his chariot wheel sinks into the earth. He asks for time under the rules of war, and Kṛṣṇa reminds him of the rules his own side had already broken.",
+  "durationSec": 1004
  },
  {
   "slug": "rukmini-haran",
@@ -2862,15 +2896,22 @@
    "en": "Krishna Took the Bride — Because She Asked Him To",
    "hi": "कृष्ण दुल्हन को ले गए—क्योंकि उसी ने बुलाया था"
   },
-  "ytTitle": null,
+  "ytTitle": "Krishna Ne Rukmini Ka Haran Kyun Kiya? Us Patra Ka Raaz",
   "yt": {
-   "videoId": null,
-   "url": null,
-   "published": null,
-   "status": "coming-soon"
+   "videoId": "RbHbBfMTxUI",
+   "url": "https://youtu.be/RbHbBfMTxUI",
+   "published": "2026-09-13",
+   "status": "public"
   },
-  "shorts": [],
-  "playlists": [],
+  "shorts": [
+   "kr-oVELgNhw"
+  ],
+  "playlists": [
+   {
+    "name": "Krishna | Kaliya Se Vishwaroop Tak",
+    "id": null
+   }
+  ],
   "corpus": [
    {
     "path": "04-deep-dives/rukmini-harana.md",
@@ -2907,25 +2948,79 @@
    }
   ],
   "summary": "Rukmiṇī sends Kṛṣṇa a letter asking him to come before her brother can marry her to someone else, and sets out the plan herself. What follows is a rescue she solicited, not a raid for plunder.",
-  "durationSec": null,
-  "titleDraft": true
+  "durationSec": 1465
+ },
+ {
+  "slug": "satyanarayan-katha",
+  "ep": 48,
+  "title": {
+   "en": "Shri Satyanarayan Vrat Katha",
+   "hi": "श्री सत्यनारायण व्रत कथा"
+  },
+  "ytTitle": "Shri Satyanarayan Vrat Katha | Sampoorna Katha Aur Paanchon Adhyay",
+  "yt": {
+   "videoId": "HRiO-t_CLL4",
+   "url": "https://youtu.be/HRiO-t_CLL4",
+   "published": "2026-09-24",
+   "status": "public"
+  },
+  "shorts": [
+   "lL0yDKXgM2U"
+  ],
+  "playlists": [
+   {
+    "name": "Vishnu | Shri Hari Ki Sabse Badi Kathayein",
+    "id": null
+   },
+   {
+    "name": "Yeh Puja Kyun Hoti Hai | Teerth Aur Vrat Ki Kahani",
+    "id": null
+   }
+  ],
+  "corpus": [
+   {
+    "path": "04-deep-dives/satyanarayana-vrata-katha.md",
+    "route": "/stories/satyanarayana-vrata-katha/",
+    "inferred": false
+   }
+  ],
+  "period": "Kali Yuga (Scriptural)",
+  "periodCandidates": [
+   "Kali Yuga (Scriptural)",
+   "Cross-Yuga"
+  ],
+  "thumbnail": null,
+  "stills": [],
+  "summary": "Nārada, grieved by the suffering of the mortal world, asks Viṣṇu for a small rite that can relieve it, and is taught the Satyanārāyaṇa vrata. Its five chapters follow those who keep it and those who slight it — a poor brahmin of Kāśī, a woodcutter, King Ulkāmukha, the merchant Sādhu with Līlāvatī and Kalāvatī, and King Tuṅgadhvaja.",
+  "durationSec": 1851
  },
  {
   "slug": "putana-vadha",
-  "ep": 48,
+  "ep": 49,
   "title": {
    "en": "She Came to Kill Baby Krishna — He Gave Her Liberation",
    "hi": "मारने आई पूतना को कृष्ण ने मोक्ष क्यों दिया?"
   },
-  "ytTitle": null,
+  "ytTitle": "Putana Vadh: Krishna Ne Shatru Ko Bhi Mukti Kyun Di?",
   "yt": {
-   "videoId": null,
-   "url": null,
-   "published": null,
-   "status": "coming-soon"
+   "videoId": "21pYOClolkQ",
+   "url": "https://youtu.be/21pYOClolkQ",
+   "published": "2026-09-28",
+   "status": "public"
   },
-  "shorts": [],
-  "playlists": [],
+  "shorts": [
+   "gBA09akt0Jg"
+  ],
+  "playlists": [
+   {
+    "name": "Krishna | Kaliya Se Vishwaroop Tak",
+    "id": null
+   },
+   {
+    "name": "Vishnu | Shri Hari Ki Sabse Badi Kathayein",
+    "id": null
+   }
+  ],
   "corpus": [
    {
     "path": "04-deep-dives/krishna-balya-lila.md",
@@ -2961,25 +3056,39 @@
    }
   ],
   "summary": "Pūtanā comes to Gokula disguised as a beautiful nurse, with poison on her breast, to kill the infant Kṛṣṇa. He takes her life along with her milk, and gives her the liberation owed to a mother.",
-  "durationSec": null,
-  "titleDraft": true
+  "durationSec": 1005
  },
  {
   "slug": "origin-of-jagannath",
-  "ep": 49,
+  "ep": 50,
   "title": {
    "en": "They Opened the Door Too Soon — and Found Jagannath",
    "hi": "दरवाज़ा जल्दी खुला—और जगन्नाथ का रूप मिला"
   },
-  "ytTitle": null,
+  "ytTitle": "Jagannath Chaka Nayana Ka raaz | Band Dwar Ki Katha",
   "yt": {
-   "videoId": null,
-   "url": null,
-   "published": null,
-   "status": "coming-soon"
+   "videoId": "0ARy09W_Wx0",
+   "url": "https://youtu.be/0ARy09W_Wx0",
+   "published": "2026-10-03",
+   "status": "public"
   },
-  "shorts": [],
-  "playlists": [],
+  "shorts": [
+   "4i004B3DiSE"
+  ],
+  "playlists": [
+   {
+    "name": "Krishna | Kaliya Se Vishwaroop Tak",
+    "id": null
+   },
+   {
+    "name": "Vishnu | Shri Hari Ki Sabse Badi Kathayein",
+    "id": null
+   },
+   {
+    "name": "Yeh Puja Kyun Hoti Hai | Teerth Aur Vrat Ki Kahani",
+    "id": null
+   }
+  ],
   "corpus": [
    {
     "path": "06-sacred-geography/jagannath-puri-purushottama-kshetra.md",
@@ -3022,26 +3131,32 @@
     "caption": "Two clocks"
    }
   ],
-  "summary": "King Indradyumna is told to carve an image from a log that comes to the Odisha shore, and the craftsman who takes the work asks only to be left undisturbed until it is done. The door is opened too soon, and the unfinished forms are installed exactly as they are.",
-  "durationSec": null,
-  "titleDraft": true
+  "summary": "Vidyāpati traces the hidden forest worship of Nīla Mādhava, and King Indradyumna is told to carve an image from a log that comes to the Odisha shore. The old craftsman who takes the work asks only to be left undisturbed until it is done; the door is opened too soon, and the unfinished forms are installed exactly as they are.",
+  "durationSec": 883
  },
  {
   "slug": "lakshagriha",
-  "ep": 50,
+  "ep": 51,
   "title": {
    "en": "The Palace Was Built to Burn the Pandavas Alive",
    "hi": "पांडवों को जलाने के लिए बनाया गया था यह महल"
   },
-  "ytTitle": null,
+  "ytTitle": "Pandavon Ko Jalakar Raja Banna Chahta Tha Duryodhan",
   "yt": {
-   "videoId": null,
-   "url": null,
-   "published": null,
-   "status": "coming-soon"
+   "videoId": "8v7ndwe4ebE",
+   "url": "https://youtu.be/8v7ndwe4ebE",
+   "published": "2026-10-06",
+   "status": "public"
   },
-  "shorts": [],
-  "playlists": [],
+  "shorts": [
+   "q06w0BuEEYI"
+  ],
+  "playlists": [
+   {
+    "name": "Mahabharat | Shuru Se Ant Tak",
+    "id": null
+   }
+  ],
   "corpus": [
    {
     "path": "04-deep-dives/mahabharata/01-adi-parva.md",
@@ -3077,8 +3192,7 @@
     "alt": "The epic does not pause to give the dead a rescue, a speech, or even individual names."
    }
   ],
-  "summary": "Duryodhana has a palace of lac built at Vāraṇāvata so that the Pāṇḍavas will burn inside it, and Vidura warns Yudhiṣṭhira in code. They escape through a tunnel and let the world believe they died in the fire.",
-  "durationSec": null,
-  "titleDraft": true
+  "summary": "Duryodhana has a palace of lac built at Vāraṇāvata so that the Pāṇḍavas will burn inside it, and Vidura warns Yudhiṣṭhira in code. They escape through a tunnel, and the Niṣāda woman and her five sons who die in the fire let the world believe the Pāṇḍavas burned with it.",
+  "durationSec": 799
  }
 ]

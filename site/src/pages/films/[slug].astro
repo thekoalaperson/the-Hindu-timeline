@@ -52,8 +52,8 @@ const siblings = siblingFilms(film, 6);
 const shorts = film.shorts;
 const vectorPoster = film.vectorFilm ? film.vectorFilm.replace(/index\.html$/, 'poster.webp') : null;
 
-// EP44–50 carry unverified working titles — hedge them wherever they are
-// quoted as fact (I4a §9.3).
+// A film flagged `titleDraft` carries an unverified working title — hedge it
+// wherever it is quoted as fact (I4a §9.3).
 const seoTitle = film.titleDraft ? `${film.title.en} (working title)` : film.title.en;
 const seoDescription = film.summary;
 /* The share card is the film's own poster when we hold one locally; otherwise
