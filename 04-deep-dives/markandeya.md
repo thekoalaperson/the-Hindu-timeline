@@ -46,7 +46,7 @@ Mārkaṇḍeya is the boy fated to die young who instead became the timeless wi
   - *Variant (Mahābhārata Vulgate, star passage 3.180.39 *0895):* he looks like a youth of twenty-five, ageless and deathless; not in the critical text. [interpolation]
 - **Function across kalpas** - Because he never dies, Mārkaṇḍeya is repeatedly cast as the **transmitter of ancient knowledge** to later ages: Yudhiṣṭhira says he has seen many ends of a thousand yugas and alone attends Brahmā at the pralaya (*Mahābhārata* 3.186.2–4); he narrates to the Pāṇḍavas in the forest and is the frame-sage of the *Markandeya Purana*. The *Bhāgavata* adds that he "even now wanders the world" (12.10.39).
 
-## 4. The Pralaya Vision — Bāla-Mukunda on the banyan
+## 4. The Pralaya Vision — Bāla-Mukunda on the banyan leaf
 
 The signature episode: Mārkaṇḍeya, alone surviving, experiences the cosmic dissolution and meets the infant Vishnu on the waters. Two principal tellings (Bhāgavata and Mahābhārata), a Puri-centred version (Brahma Purāṇa, with a Skanda parallel), and the *Markandeya Purana* frame.
 
