@@ -1,7 +1,7 @@
 {
  "files": 899,
  "content_files": 875,
- "total_words": 2151734,
+ "total_words": 2370133,
  "events": 7919,
  "sections": [
   "00-time-and-cosmology",
@@ -420,7 +420,7 @@
    "path": "02-deities-and-cosmic-hierarchy/ganesha-and-kartikeya.md",
    "title": "Ganesha & Kartikeya — The Sons of Shiva-Parvati",
    "section": "02-deities-and-cosmic-hierarchy",
-   "word_count": 2251,
+   "word_count": 4691,
    "is_index": false
   },
   {
@@ -462,7 +462,7 @@
    "path": "02-deities-and-cosmic-hierarchy/hanuman.md",
    "title": "Hanuman — Vanara Devotee, Chiranjivi, Rudravatara",
    "section": "02-deities-and-cosmic-hierarchy",
-   "word_count": 3511,
+   "word_count": 6408,
    "is_index": false
   },
   {
@@ -651,7 +651,7 @@
    "path": "02-deities-and-cosmic-hierarchy/sati-daksha-and-parvati.md",
    "title": "Sati, the Daksha-Yajna & Parvati — The Goddess Reborn",
    "section": "02-deities-and-cosmic-hierarchy",
-   "word_count": 2185,
+   "word_count": 5304,
    "is_index": false
   },
   {
@@ -1001,7 +1001,7 @@
    "path": "04-deep-dives/agastya.md",
    "title": "Agastya — Sage of the South",
    "section": "04-deep-dives",
-   "word_count": 2707,
+   "word_count": 6314,
    "is_index": false
   },
   {
@@ -1078,7 +1078,7 @@
    "path": "04-deep-dives/atri-anasuya.md",
    "title": "Atri and Anasūyā",
    "section": "04-deep-dives",
-   "word_count": 1589,
+   "word_count": 3407,
    "is_index": false
   },
   {
@@ -1169,7 +1169,7 @@
    "path": "04-deep-dives/bhagavata-tales-catalog.md",
    "title": "Bhāgavata Purāṇa — Catalog of Tales",
    "section": "04-deep-dives",
-   "word_count": 3122,
+   "word_count": 5390,
    "is_index": false
   },
   {
@@ -1316,7 +1316,7 @@
    "path": "04-deep-dives/characters/arjuna.md",
    "title": "Arjuna",
    "section": "04-deep-dives",
-   "word_count": 2694,
+   "word_count": 6559,
    "is_index": false
   },
   {
@@ -1365,14 +1365,14 @@
    "path": "04-deep-dives/characters/bhima.md",
    "title": "Bhīma",
    "section": "04-deep-dives",
-   "word_count": 2761,
+   "word_count": 4991,
    "is_index": false
   },
   {
    "path": "04-deep-dives/characters/bhishma.md",
    "title": "Bhīṣma",
    "section": "04-deep-dives",
-   "word_count": 3314,
+   "word_count": 7164,
    "is_index": false
   },
   {
@@ -1393,7 +1393,7 @@
    "path": "04-deep-dives/characters/dasharatha.md",
    "title": "Daśaratha",
    "section": "04-deep-dives",
-   "word_count": 2367,
+   "word_count": 6110,
    "is_index": false
   },
   {
@@ -1414,14 +1414,14 @@
    "path": "04-deep-dives/characters/draupadi.md",
    "title": "Draupadī",
    "section": "04-deep-dives",
-   "word_count": 2067,
+   "word_count": 4305,
    "is_index": false
   },
   {
    "path": "04-deep-dives/characters/drona.md",
    "title": "Droṇa — the Brahmin Weapons-Master of the Kuru Line",
    "section": "04-deep-dives",
-   "word_count": 2820,
+   "word_count": 5701,
    "is_index": false
   },
   {
@@ -1435,7 +1435,7 @@
    "path": "04-deep-dives/characters/duryodhana.md",
    "title": "Duryodhana — the Eldest Kaurava",
    "section": "04-deep-dives",
-   "word_count": 2888,
+   "word_count": 5151,
    "is_index": false
   },
   {
@@ -1477,7 +1477,7 @@
    "path": "04-deep-dives/characters/indrajit-meghnad.md",
    "title": "Indrajit (Meghanāda)",
    "section": "04-deep-dives",
-   "word_count": 2571,
+   "word_count": 5075,
    "is_index": false
   },
   {
@@ -1498,7 +1498,7 @@
    "path": "04-deep-dives/characters/jatayu-and-sampati.md",
    "title": "Jaṭāyu & Sampāti",
    "section": "04-deep-dives",
-   "word_count": 2197,
+   "word_count": 5079,
    "is_index": false
   },
   {
@@ -1533,7 +1533,7 @@
    "path": "04-deep-dives/characters/kaikeyi.md",
    "title": "Kaikeyī",
    "section": "04-deep-dives",
-   "word_count": 2226,
+   "word_count": 5319,
    "is_index": false
   },
   {
@@ -1568,21 +1568,21 @@
    "path": "04-deep-dives/characters/kumbhakarna.md",
    "title": "Kumbhakarṇa",
    "section": "04-deep-dives",
-   "word_count": 1960,
+   "word_count": 5076,
    "is_index": false
   },
   {
    "path": "04-deep-dives/characters/kunti.md",
    "title": "Kuntī",
    "section": "04-deep-dives",
-   "word_count": 1846,
+   "word_count": 4472,
    "is_index": false
   },
   {
    "path": "04-deep-dives/characters/lakshmana.md",
    "title": "Lakṣmaṇa",
    "section": "04-deep-dives",
-   "word_count": 2598,
+   "word_count": 5982,
    "is_index": false
   },
   {
@@ -1596,7 +1596,7 @@
    "path": "04-deep-dives/characters/mandodari.md",
    "title": "Mandodarī — Queen of Laṅkā, Voice of Dharma, Pañcakanyā",
    "section": "04-deep-dives",
-   "word_count": 1994,
+   "word_count": 4891,
    "is_index": false
   },
   {
@@ -1659,21 +1659,21 @@
    "path": "04-deep-dives/characters/pulastya.md",
    "title": "Pulastya — the Prajāpati at the Root of Laṅkā",
    "section": "04-deep-dives",
-   "word_count": 1849,
+   "word_count": 4229,
    "is_index": false
   },
   {
    "path": "04-deep-dives/characters/rama.md",
    "title": "Rāma",
    "section": "04-deep-dives",
-   "word_count": 2232,
+   "word_count": 4339,
    "is_index": false
   },
   {
    "path": "04-deep-dives/characters/ravana.md",
    "title": "Rāvaṇa",
    "section": "04-deep-dives",
-   "word_count": 3417,
+   "word_count": 6664,
    "is_index": false
   },
   {
@@ -1743,14 +1743,14 @@
    "path": "04-deep-dives/characters/shurpanakha.md",
    "title": "Śūrpaṇakhā — the Catalyst of the Rāmāyaṇa",
    "section": "04-deep-dives",
-   "word_count": 2371,
+   "word_count": 4854,
    "is_index": false
   },
   {
    "path": "04-deep-dives/characters/sita.md",
    "title": "Sītā",
    "section": "04-deep-dives",
-   "word_count": 3654,
+   "word_count": 6754,
    "is_index": false
   },
   {
@@ -1771,7 +1771,7 @@
    "path": "04-deep-dives/characters/sugriva-and-vali.md",
    "title": "Sugrīva & Vālī",
    "section": "04-deep-dives",
-   "word_count": 3661,
+   "word_count": 7169,
    "is_index": false
   },
   {
@@ -1827,7 +1827,7 @@
    "path": "04-deep-dives/characters/trijata.md",
    "title": "Trijaṭā — the Compassionate Rākṣasī of the Aśoka-vana",
    "section": "04-deep-dives",
-   "word_count": 1405,
+   "word_count": 4315,
    "is_index": false
   },
   {
@@ -1862,14 +1862,14 @@
    "path": "04-deep-dives/characters/vedavati.md",
    "title": "Vedavatī — the Ascetic Rāvaṇa Seized, and the Curse that Became Sītā",
    "section": "04-deep-dives",
-   "word_count": 1926,
+   "word_count": 4138,
    "is_index": false
   },
   {
    "path": "04-deep-dives/characters/vibhishana.md",
    "title": "Vibhīṣaṇa",
    "section": "04-deep-dives",
-   "word_count": 2233,
+   "word_count": 6067,
    "is_index": false
   },
   {
@@ -2016,7 +2016,7 @@
    "path": "04-deep-dives/dhruva.md",
    "title": "Dhruva — the Steadfast Pole Star",
    "section": "04-deep-dives",
-   "word_count": 1929,
+   "word_count": 4437,
    "is_index": false
   },
   {
@@ -2051,7 +2051,7 @@
    "path": "04-deep-dives/gajendra-moksha.md",
    "title": "Gajendra Mokṣa — the Liberation of the Elephant-King",
    "section": "04-deep-dives",
-   "word_count": 1852,
+   "word_count": 3729,
    "is_index": false
   },
   {
@@ -2100,7 +2100,7 @@
    "path": "04-deep-dives/govardhana-dharana.md",
    "title": "Govardhana-dhāraṇa (the Lifting of Mount Govardhana)",
    "section": "04-deep-dives",
-   "word_count": 1428,
+   "word_count": 3823,
    "is_index": false
   },
   {
@@ -2205,14 +2205,14 @@
    "path": "04-deep-dives/jaya-vijaya.md",
    "title": "Jaya & Vijaya — the Three-Birth Curse",
    "section": "04-deep-dives",
-   "word_count": 1485,
+   "word_count": 3545,
    "is_index": false
   },
   {
    "path": "04-deep-dives/kaliya-mardana.md",
    "title": "Kāliya-mardana",
    "section": "04-deep-dives",
-   "word_count": 1368,
+   "word_count": 3567,
    "is_index": false
   },
   {
@@ -2268,7 +2268,7 @@
    "path": "04-deep-dives/karna.md",
    "title": "Karṇa — the Tragic Son of the Sun",
    "section": "04-deep-dives",
-   "word_count": 2445,
+   "word_count": 4724,
    "is_index": false
   },
   {
@@ -2338,7 +2338,7 @@
    "path": "04-deep-dives/krishna-lila.md",
    "title": "Kṛṣṇa-līlā — The Life & Deeds of Krishna",
    "section": "04-deep-dives",
-   "word_count": 2881,
+   "word_count": 5620,
    "is_index": false
   },
   {
@@ -2408,7 +2408,7 @@
    "path": "04-deep-dives/mahabharata/01-adi-parva.md",
    "title": "Ādi Parva — The Book of the Beginning",
    "section": "04-deep-dives",
-   "word_count": 2760,
+   "word_count": 5594,
    "is_index": false
   },
   {
@@ -2422,7 +2422,7 @@
    "path": "04-deep-dives/mahabharata/03-vana-parva.md",
    "title": "Vana (Āraṇyaka) Parva — The Book of the Forest",
    "section": "04-deep-dives",
-   "word_count": 3014,
+   "word_count": 6194,
    "is_index": false
   },
   {
@@ -2436,7 +2436,7 @@
    "path": "04-deep-dives/mahabharata/05-udyoga-parva.md",
    "title": "Udyoga Parva — The Book of Effort",
    "section": "04-deep-dives",
-   "word_count": 2820,
+   "word_count": 5366,
    "is_index": false
   },
   {
@@ -2450,7 +2450,7 @@
    "path": "04-deep-dives/mahabharata/07-drona-parva.md",
    "title": "Droṇa Parva — The Book of Drona",
    "section": "04-deep-dives",
-   "word_count": 2203,
+   "word_count": 5326,
    "is_index": false
   },
   {
@@ -2471,7 +2471,7 @@
    "path": "04-deep-dives/mahabharata/10-sauptika-parva.md",
    "title": "Sauptika Parva — The Book of the Night Raid",
    "section": "04-deep-dives",
-   "word_count": 2421,
+   "word_count": 6228,
    "is_index": false
   },
   {
@@ -2513,7 +2513,7 @@
    "path": "04-deep-dives/mahabharata/16-mausala-parva.md",
    "title": "Mausala Parva — The Book of the Clubs",
    "section": "04-deep-dives",
-   "word_count": 2066,
+   "word_count": 5690,
    "is_index": false
   },
   {
@@ -2569,7 +2569,7 @@
    "path": "04-deep-dives/markandeya.md",
    "title": "Mārkaṇḍeya — the Deathless Sage & the Cosmic Dissolution Vision",
    "section": "04-deep-dives",
-   "word_count": 1860,
+   "word_count": 3993,
    "is_index": false
   },
   {
@@ -2597,7 +2597,7 @@
    "path": "04-deep-dives/matsya-pralaya.md",
    "title": "Matsya avatāra (the Fish and the Pralaya-Flood)",
    "section": "04-deep-dives",
-   "word_count": 1923,
+   "word_count": 3223,
    "is_index": false
   },
   {
@@ -2611,7 +2611,7 @@
    "path": "04-deep-dives/mohini-avatara.md",
    "title": "Mohini: Vishnu's Enchantress Form",
    "section": "04-deep-dives",
-   "word_count": 1653,
+   "word_count": 4026,
    "is_index": false
   },
   {
@@ -2660,7 +2660,7 @@
    "path": "04-deep-dives/nala-damayanti.md",
    "title": "Nala & Damayatī — the Dice, the Curse, and Reunion",
    "section": "04-deep-dives",
-   "word_count": 2338,
+   "word_count": 4978,
    "is_index": false
   },
   {
@@ -2751,7 +2751,7 @@
    "path": "04-deep-dives/parashurama.md",
    "title": "Paraśurāma avatāra",
    "section": "04-deep-dives",
-   "word_count": 1769,
+   "word_count": 5410,
    "is_index": false
   },
   {
@@ -2807,7 +2807,7 @@
    "path": "04-deep-dives/prahlada-narasimha.md",
    "title": "Prahlāda & Narasiṃha — the Man-Lion's Descent",
    "section": "04-deep-dives",
-   "word_count": 1827,
+   "word_count": 4442,
    "is_index": false
   },
   {
@@ -2891,49 +2891,49 @@
    "path": "04-deep-dives/ramayana/1-bala-kanda.md",
    "title": "Bāla Kāṇḍa — Book of Childhood",
    "section": "04-deep-dives",
-   "word_count": 4350,
+   "word_count": 6671,
    "is_index": false
   },
   {
    "path": "04-deep-dives/ramayana/2-ayodhya-kanda.md",
    "title": "Ayodhyā Kāṇḍa — Book of Ayodhya",
    "section": "04-deep-dives",
-   "word_count": 5390,
+   "word_count": 7847,
    "is_index": false
   },
   {
    "path": "04-deep-dives/ramayana/3-aranya-kanda.md",
    "title": "Araṇya Kāṇḍa — Book of the Forest",
    "section": "04-deep-dives",
-   "word_count": 4042,
+   "word_count": 5649,
    "is_index": false
   },
   {
    "path": "04-deep-dives/ramayana/4-kishkindha-kanda.md",
    "title": "Kiṣkindhā Kāṇḍa — Book of Kishkindha",
    "section": "04-deep-dives",
-   "word_count": 4387,
+   "word_count": 6701,
    "is_index": false
   },
   {
    "path": "04-deep-dives/ramayana/5-sundara-kanda.md",
    "title": "Sundara Kāṇḍa — The Beautiful Book",
    "section": "04-deep-dives",
-   "word_count": 3950,
+   "word_count": 5925,
    "is_index": false
   },
   {
    "path": "04-deep-dives/ramayana/6-yuddha-kanda.md",
    "title": "Yuddha (Laṅkā) Kāṇḍa — Book of War",
    "section": "04-deep-dives",
-   "word_count": 6091,
+   "word_count": 8646,
    "is_index": false
   },
   {
    "path": "04-deep-dives/ramayana/7-uttara-kanda.md",
    "title": "Uttara Kāṇḍa — The Final Book",
    "section": "04-deep-dives",
-   "word_count": 5306,
+   "word_count": 10186,
    "is_index": false
   },
   {
@@ -2947,7 +2947,7 @@
    "path": "04-deep-dives/ramayana/adhyatma-and-variant-ramayanas.md",
    "title": "The Adhyātma Rāmāyaṇa & Variant Rāmāyaṇas — Vedāntic and Regional Retellings",
    "section": "04-deep-dives",
-   "word_count": 1914,
+   "word_count": 4624,
    "is_index": false
   },
   {
@@ -2961,42 +2961,42 @@
    "path": "04-deep-dives/ramayana/recensions/adhyatma-ramayana.md",
    "title": "Adhyātma Rāmāyaṇa — the Advaita-Vedānta Rāmāyaṇa",
    "section": "04-deep-dives",
-   "word_count": 1619,
+   "word_count": 4835,
    "is_index": false
   },
   {
    "path": "04-deep-dives/ramayana/recensions/jain-and-buddhist-ramayanas.md",
    "title": "Jain & Buddhist Ramayanas — Paumacariya and the Dasaratha Jataka",
    "section": "04-deep-dives",
-   "word_count": 1840,
+   "word_count": 5576,
    "is_index": false
   },
   {
    "path": "04-deep-dives/ramayana/recensions/kamban-iramavataram.md",
    "title": "Iramavataram (Kamban) — the Tamil Ramayana",
    "section": "04-deep-dives",
-   "word_count": 1530,
+   "word_count": 3714,
    "is_index": false
   },
   {
    "path": "04-deep-dives/ramayana/recensions/krittivasi-ramayan.md",
    "title": "Krittivasi Ramayan — the Bengali Sriram Panchali",
    "section": "04-deep-dives",
-   "word_count": 1688,
+   "word_count": 5277,
    "is_index": false
   },
   {
    "path": "04-deep-dives/ramayana/recensions/ramcharitmanas-tulsidas.md",
    "title": "Ramcharitmanas (Tulsidas) — the Awadhi Bhakti Ramayana",
    "section": "04-deep-dives",
-   "word_count": 2185,
+   "word_count": 6391,
    "is_index": false
   },
   {
    "path": "04-deep-dives/ramayana/recensions/southeast-asian-ramayanas.md",
    "title": "Southeast Asian Ramayanas — Ramakien, Kakawin, Reamker & beyond",
    "section": "04-deep-dives",
-   "word_count": 2491,
+   "word_count": 6833,
    "is_index": false
   },
   {
@@ -3080,7 +3080,7 @@
    "path": "04-deep-dives/samudra-manthana.md",
    "title": "Samudra Manthana — The Churning of the Ocean",
    "section": "04-deep-dives",
-   "word_count": 1991,
+   "word_count": 4031,
    "is_index": false
   },
   {
@@ -3122,7 +3122,7 @@
    "path": "04-deep-dives/satyanarayana-vrata-katha.md",
    "title": "The Satyanārāyaṇa Vrata Kathā — and its Bengali Double, Satya Pīr",
    "section": "04-deep-dives",
-   "word_count": 3296,
+   "word_count": 5405,
    "is_index": false
   },
   {
@@ -3402,7 +3402,7 @@
    "path": "04-deep-dives/sudama-kuchela.md",
    "title": "Sudāmā (Kucela)",
    "section": "04-deep-dives",
-   "word_count": 1764,
+   "word_count": 3675,
    "is_index": false
   },
   {
@@ -3444,7 +3444,7 @@
    "path": "04-deep-dives/syamantaka-jewel.md",
    "title": "The Syamantaka Jewel",
    "section": "04-deep-dives",
-   "word_count": 1539,
+   "word_count": 4321,
    "is_index": false
   },
   {
@@ -3458,7 +3458,7 @@
    "path": "04-deep-dives/tarakasura-vadha.md",
    "title": "Tarakasura and the Birth-War of Kartikeya",
    "section": "04-deep-dives",
-   "word_count": 1711,
+   "word_count": 4377,
    "is_index": false
   },
   {
@@ -3486,7 +3486,7 @@
    "path": "04-deep-dives/tripura-dahana.md",
    "title": "Tripura-dāhana — The Burning of the Three Cities",
    "section": "04-deep-dives",
-   "word_count": 1583,
+   "word_count": 4582,
    "is_index": false
   },
   {
@@ -3563,7 +3563,7 @@
    "path": "04-deep-dives/uttara-ramayana-lava-kusha.md",
    "title": "The Uttara Rāmāyaṇa — Rāma-rājya, Sītā's Banishment, Lava-Kuśa & Śambūka",
    "section": "04-deep-dives",
-   "word_count": 3921,
+   "word_count": 7027,
    "is_index": false
   },
   {
@@ -3577,14 +3577,14 @@
    "path": "04-deep-dives/vamana-bali.md",
    "title": "Vāmana, Bali & Trivikrama — the Three Strides",
    "section": "04-deep-dives",
-   "word_count": 1794,
+   "word_count": 2964,
    "is_index": false
   },
   {
    "path": "04-deep-dives/varaha-hiranyaksha.md",
    "title": "Varāha — the Boar Avatar and the Slaying of Hiraṇyākṣa",
    "section": "04-deep-dives",
-   "word_count": 1584,
+   "word_count": 3666,
    "is_index": false
   },
   {
@@ -3626,7 +3626,7 @@
    "path": "04-deep-dives/vishwamitra-vasishtha.md",
    "title": "Viśvāmitra & Vasiṣṭha — Kṣatriya to Brahmarṣi",
    "section": "04-deep-dives",
-   "word_count": 2952,
+   "word_count": 6370,
    "is_index": false
   },
   {
@@ -4214,7 +4214,7 @@
    "path": "06-sacred-geography/gokarna-mahabaleshwar-atma-linga.md",
    "title": "Gokarṇa Mahābaleśvara & the Ātma-liṅga",
    "section": "06-sacred-geography",
-   "word_count": 1424,
+   "word_count": 3383,
    "is_index": false
   },
   {
@@ -4249,7 +4249,7 @@
    "path": "06-sacred-geography/janakpur-mithila-sita-janmabhumi.md",
    "title": "Janakpur and Mithilā — Sītā's Birthplace",
    "section": "06-sacred-geography",
-   "word_count": 1723,
+   "word_count": 4683,
    "is_index": false
   },
   {
@@ -5033,7 +5033,7 @@
    "path": "07-acharyas-and-sampradayas/nath-sampradaya-and-the-siddhas.md",
    "title": "The Nāth Sampradāya, the Navnāth & the 84 Mahāsiddhas",
    "section": "07-acharyas-and-sampradayas",
-   "word_count": 1405,
+   "word_count": 5158,
    "is_index": false
   },
   {
@@ -5215,7 +5215,7 @@
    "path": "08-beings-and-bestiary/garuda.md",
    "title": "Garuḍa — King of Birds, Mount of Viṣṇu",
    "section": "08-beings-and-bestiary",
-   "word_count": 1833,
+   "word_count": 4133,
    "is_index": false
   },
   {
@@ -5719,7 +5719,7 @@
    "path": "90-literature-corpus/puranas/linga-purana.md",
    "title": "Liṅga Purāṇa",
    "section": "90-literature-corpus",
-   "word_count": 1804,
+   "word_count": 4624,
    "is_index": false
   },
   {
@@ -5789,7 +5789,7 @@
    "path": "90-literature-corpus/puranas/upapuranas-overview.md",
    "title": "The 18 Upapurāṇas — Overview & Per-Text Notes",
    "section": "90-literature-corpus",
-   "word_count": 1589,
+   "word_count": 4467,
    "is_index": false
   },
   {
@@ -6055,7 +6055,7 @@
    "path": "90-literature-corpus/upanishads/vaishnava-shaiva-shakta-upanishads-overview.md",
    "title": "The Vaiṣṇava, Śaiva, and Śākta (Sectarian) Upaniṣads",
    "section": "90-literature-corpus",
-   "word_count": 2098,
+   "word_count": 4077,
    "is_index": false
   },
   {
