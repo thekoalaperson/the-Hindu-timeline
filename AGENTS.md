@@ -1,7 +1,7 @@
 # AGENTS.md — How to Query *The Hindu Timeline*
 
 This repository is a large, source-cited, **chronologically-organized** knowledge base of Hindu
-mythology, cosmology, scripture, and tradition (899 markdown files, ~2.15M words). This file tells an
+mythology, cosmology, scripture, and tradition (899 markdown files, ~2.37M words). This file tells an
 agent (or a human) how it is organized and how to find or verify anything in **≤ 2 hops**.
 
 ---
